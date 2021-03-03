@@ -5,59 +5,59 @@
 <!ELEMENT ecpc_CD (header, body, back)>
 
 <!ELEMENT header (legislature, title, label, date, place, edition, index)>
-<!ATTLIST header filename CDATA #REQUIRED>
-<!ATTLIST header language CDATA #REQUIRED>
+<!-- <!ATTLIST header filename CDATA #REQUIRED>
+<!ATTLIST header language CDATA #REQUIRED> -->
 
 <!ELEMENT legislature (#PCDATA)>
 <!ATTLIST legislature begin CDATA #REQUIRED>
 <!ATTLIST legislature end CDATA #REQUIRED>
 <!ELEMENT title (#PCDATA)>
-<!ELEMENT label (#PCDATA|omit)*>
+<!ELEMENT label (#PCDATA | omit)*>
 <!ELEMENT date (#PCDATA)>
 <!ELEMENT place (#PCDATA)>
 <!ELEMENT edition (#PCDATA)>
 
 <!ELEMENT index (indexitem+)>
-<!ELEMENT indexitem (#PCDATA | omit | page_number)*>
+<!ELEMENT indexitem (#PCDATA | omit | page_number|heading)*>
 <!ELEMENT page_number (#PCDATA)>
-<!ELEMENT omit (#PCDATA | page_number|omit)*>
+<!ELEMENT omit (#PCDATA | omit | page_number)*>
 <!ATTLIST omit type CDATA #REQUIRED>
 
-<!ELEMENT body (chair | omit)+>
-<!ELEMENT chair (heading | intervention | omit)*>
+<!ELEMENT body (chair | heading | omit | page_number)*>
+<!ELEMENT chair (intervention | heading | omit)*>
 <!ATTLIST chair who CDATA #REQUIRED>
 
-<!ELEMENT heading (#PCDATA | omit|page_number)*>
+<!ELEMENT heading (#PCDATA | omit | page_number)*>
 <!ATTLIST heading number CDATA #REQUIRED>
-<!-- <!ATTLIST heading number ID #REQUIRED> -->
+<!-- when headings are numbered <!ATTLIST heading number ID #REQUIRED> -->
 
 <!ELEMENT intervention (speaker, speech)>
 <!ATTLIST intervention id CDATA #REQUIRED>
-<!-- <!ATTLIST intervention id ID #REQUIRED> when numbered -->
-<!ELEMENT speaker (name,birth_date,birth_place,status,gender,institution,constituency,affiliation,post)>
+<!-- when interventions are numbered <!ATTLIST intervention id ID #REQUIRED> -->
+
+<!ELEMENT speaker (name, post)>
+<!--  when speaker is completed <!ELEMENT speaker (name,birth_date,birth_place,status,gender,institution,constituency,affiliation,post)> -->
+
 <!ELEMENT name (#PCDATA)>
-<!ELEMENT birth_date (#PCDATA)>
+<!-- <!ELEMENT birth_date (#PCDATA)>
 <!ELEMENT birth_place (#PCDATA)>
 <!ATTLIST birth_place country CDATA #REQUIRED>
 <!ELEMENT status (#PCDATA)>
 <!ELEMENT gender (#PCDATA)>
 <!ELEMENT institution (ni|io|ngo|vip) >
 <!ELEMENT ni (#PCDATA) >
-<!ATTLIST ni country (ES|UNKNOWN|NA|NON-ES) #REQUIRED >
-<!ELEMENT io (#PCDATA) >
-<!ELEMENT ngo (#PCDATA) >
-<!ELEMENT vip (#PCDATA) >
+<!ATTLIST ni country (ES|UNKNOWN) #REQUIRED >
 <!ELEMENT constituency EMPTY>
-<!ATTLIST constituency country (ES|NON-ES) #REQUIRED>
+<!ATTLIST constituency country (AD|AE|AF|AG|AI|AL|AM|AN|AO|AQ|AR|AS|AT|AU|AW|AX|AZ|BA|BB|BD|BE|BF|BG|BH|BI|BJ|BL|BM|BN|BO|BR|BS|BT|BV|BW|BY|BZ|CA|CC|CD|CF|CG|CH|CI|CK|CL|CM|CN|CO|CP|CR|CU|CV|CX|CY|CZ|DE|DJ|DK|DM|DO|DZ|EC|EE|EG|EH|EL|ER|ES|ET|FI|FJ|FK|FM|FO|FR|MK|GA|GD|GE|GF|GG|GH|GI|GL|GM|GN|GP|GQ|GS|GT|GU|GW|GY|HK|HM|HN|HR|HT|HU|ID|IE|IL|IM|IN|IO|IQ|IR|IS|IT|JE|JM|JO|JP|KE|KG|KH|KI|KM|KN|KP|KR|KW|KY|KZ|LA|LB|LC|LI|LK|LR|LS|LT|LU|LV|LY|MA|MC|MD|ME|MF|MG|MH|ML|MM|MN|MO|MP|MQ|MR|MS|MT|MU|MV|MW|MX|MY|MZ|NA|NC|NE|NF|NG|NI|NL|NO|NP|NR|NU|NZ|OM|PA|PE|PF|PG|PH|PK|PL|PM|PN|PR|PS|PT|PW|PY|QA|RE|RO|RS|RU|RW|SA|SB|SC|SD|SE|SG|SH|SI|SJ|SK|SL|SM|SN|SO|SR|ST|SV|SY|SZ|TC|TD|TF|TG|TH|TJ|TK|TL|TM|TN|TO|TR|TT|TV|TW|TZ|UA|UG|UK|UM|US|UY|UZ|VA|VC|VE|VG|VI|VN|VU|WF|WS|YE|YT|ZA|ZM|ZW|UNKNOWN|NOT_APPLICABLE) #REQUIRED>
 <!ATTLIST constituency region CDATA #REQUIRED>
 <!ELEMENT affiliation (national_party,cd) >
 <!ELEMENT cd EMPTY>
 <!ATTLIST cd group CDATA #REQUIRED>
-<!ELEMENT national_party (#PCDATA) >
+<!ELEMENT national_party (#PCDATA) > -->
 <!ELEMENT post (#PCDATA)>
 <!ELEMENT speech (#PCDATA | omit | page_number)*>
 <!ATTLIST speech language NMTOKEN #FIXED "ES">
 <!ATTLIST speech id CDATA #REQUIRED>
-<!-- <!ATTLIST speech id ID #REQUIRED> when numbered -->
+<!-- When speech is numbered <!ATTLIST speech id ID #REQUIRED> -->
 
 <!ELEMENT back (#PCDATA)>
