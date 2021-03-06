@@ -5,12 +5,12 @@
          <titleStmt>
             <title type="main" xml:lang="es">Corpus ECPC-CD/ParlaMint-ES, con intervenciones del Congreso de los Diputados de España [ParlaMint SAMPLE]</title>
 			<title type="main" xml:lang="en">Spanish parliamentary corpus ECPC-CD/ParlaMint-ES [ParlaMint SAMPLE]</title>
-            <title type="sub" xml:lang="en">Minutes of the National Assembly of Spain, Legislatures 12, 13, 14 (2016 - 2020)</title>
 			<title type="sub" xml:lang="es">Actas del Congreso de los Diputados de España, legislaturas XII, XIII y XIV (2016 - 2020)</title>
+            <title type="sub" xml:lang="en">Minutes of the National Assembly of Spain, Legislatures 12, 13, 14 (2016 - 2020)</title>
             <meeting n="7" corresp="#DZ" ana="#parla.term #DZ.7">7. mandat</meeting>
             <meeting n="8" corresp="#DZ" ana="#parla.term #DZ.8">8. mandat</meeting>
             <respStmt>
-               <persName ref="https://orcid.org/0000-0003-0830-4837" xml:lang="en">María CALZADA PÉREZ</persName>
+               <persName ref="https://orcid.org/0000-0003-0830-4837" xml:lang="es">María CALZADA PÉREZ</persName>
 				<persName ref="https://orcid.org/0000-0003-0830-4837" xml:lang="en">María CALZADA PÉREZ</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
             </respStmt>
@@ -32,8 +32,10 @@
          </editionStmt>
          <extent>
             <!--measure unit="texts" quantity="0" xml:lang="en">XXX texts</measure-->
-			<measure unit="day-session" quantity="242" xml:lang="es">242 sesiones diarias</measure>            
-			<measure unit="day-session" quantity="242" xml:lang="en">242 day meetings</measure>
+			<measure unit="session" quantity="242" xml:lang="es">242 sesiones</measure>            
+			<measure unit="meeting" quantity="242" xml:lang="en">242 meetings</measure>
+			<measure quantity="10879649" unit="words" xml:lang="es">10.879.649 palabras</measure>
+            <measure quantity="10879649" unit="words" xml:lang="en">10,879,649 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -49,8 +51,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title type="main" xml:lang="en">European Comparable and Paralle Corpora / Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title>
                <title xml:lang="es" type="main">CORTES GENERALES DIARIO DE SESIONES DEL CONGRESO DE LOS DIPUTADOS PLENO Y DIPUTACIÓN PERMANENTE</title>
+			<title type="main" xml:lang="en">NATIONAL ASSEMBLY OF SPAIN DAILY SESSIONS</title>
                <idno type="URI">http://www.congreso.es</idno>
 		   <date from="2016-07-19" to="2020-12-31">19.07.2016 - 31-12-2020</date> 
             </bibl>
@@ -84,98 +86,103 @@
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="parla.legislature">
+			   <desc xml:lang="es"><term>Legislatura</term></desc>
                <desc xml:lang="en"><term>Legislature</term></desc>
                <category xml:id="parla.geo-political">
+				  <catDesc xml:lang="es"><term>Entidades geopolíticas o administrativas</term></catDesc>
                   <catDesc xml:lang="en"><term>Geo-political or administrative units</term></catDesc>
-                  <category xml:id="parla.supranational">
-                     <catDesc xml:lang="en"><term>Supranational legislature</term></catDesc>
-                  </category>
                   <category xml:id="parla.national">
+					 <catDesc xml:lang="es"><term>Legislatura nacional</term></catDesc>
                      <catDesc xml:lang="en"><term>National legislature</term></catDesc>
-                  </category>
-                  <category xml:id="parla.regional">
-                     <catDesc xml:lang="en"><term>Regional legislature</term></catDesc>
-                  </category>
-                  <category xml:id="parla.local">
-                     <catDesc xml:lang="en"><term>Local legislature</term></catDesc>
                   </category>
                </category>
                <category xml:id="parla.organization">
+			      <catDesc xml:lang="es"><term>Organización</term></catDesc>
                   <catDesc xml:lang="en"><term>Organization</term></catDesc>
                   <category xml:id="parla.chambers">
+					<catDesc xml:lang="es"><term>Cámaras</term></catDesc>
                      <catDesc xml:lang="en"><term>Chambers</term></catDesc>
-                     <category xml:id="parla.uni">
-                        <catDesc xml:lang="en"><term>Unicameralism</term></catDesc>
-                     </category>
                      <category xml:id="parla.bi">
+					    <catDesc xml:lang="es"><term>Bicameralismo</term></catDesc>
                         <catDesc xml:lang="en"><term>Bicameralism</term></catDesc>
-                        <category xml:id="parla.upper">
-                           <catDesc xml:lang="en"><term>Upper house</term></catDesc>
-                        </category>
                         <category xml:id="parla.lower">
+						   <catDesc xml:lang="es"><term>Cámara Baja</term></catDesc>
                            <catDesc xml:lang="en"><term>Lower house</term></catDesc>
-                        </category>
-                     </category>
-                     <category xml:id="parla.multi">
-                        <catDesc xml:lang="en"><term>Multicameralism</term></catDesc>
-                        <category xml:id="parla.chamber">
-                           <catDesc xml:lang="en"><term>Chamber</term></catDesc>
                         </category>
                      </category>
                   </category>
                   <category xml:id="parla.committee">
+					 <catDesc xml:lang="es"><term>Comisión</term></catDesc>
                      <catDesc xml:lang="en"><term>Committee</term></catDesc>
                      <category xml:id="parla.committee.standing">
+						<catDesc xml:lang="es"><term>Comisión permanente</term></catDesc>
                         <catDesc xml:lang="en"><term>Standing committee</term></catDesc>
                      </category>
                      <category xml:id="parla.committee.special">
+						<catDesc xml:lang="es"><term>Comisión no permanente</term></catDesc>
                         <catDesc xml:lang="en"><term>Special committee</term></catDesc>
                      </category>
                      <category xml:id="parla.committee.inquiry">
+					    <catDesc xml:lang="es"><term>Comisión de investigación</term></catDesc>
                         <catDesc xml:lang="en"><term>Committee of inquiry</term></catDesc>
                      </category>
                   </category>
                </category>
                <category xml:id="parla.term">
-                  <catDesc xml:lang="en"><term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+				  <catDesc xml:lang="es"><term>Legislatura</term>: "Periodo temporal para el que es elegida la Cámara, desde las elecciones o sesión constitutiva (según secto de la doctrina) hasta la disolución anticipada o por fecha de expiración del mandato". (Diccionario panhispánico del español jurídico)</catDesc>
+                  <catDesc xml:lang="en"><term>Legislative period</term>: Term of the parliament between general elections.</catDesc>
                   <category xml:id="parla.session">
-                     <catDesc xml:lang="en"><term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+					 <catDesc xml:lang="es"><term>Periodo de sesiones</term>: "Lapso de tiempo en el cual tienen lugar las sesiones de los órganos parlamentarios; [en España], tradicionalmente se trata de los periodos ordinarios entre los meses de septiembre a diciembre y de febrero a junio". (Diccionario panhispánico del español jurídico)</catDesc>
+                     <catDesc xml:lang="en"><term>Legislative session</term>: The period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
                      <category xml:id="parla.meeting">
-                        <catDesc xml:lang="en"><term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+						<catDesc xml:lang="es"><term>Sesión</term>: "Tiempo de reunión de un órgano parlamentario, previa y reglamentariamente convocada al efecto, por lo que la misma se vincual al orden del día para el que fue convocado el órgano". (Diccionario panhispánico del español jurídico)</catDesc>
+                        <catDesc xml:lang="en"><term>Meeting: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
                         <category xml:id="parla.meeting-types">
+						   <catDesc xml:lang="es"><term>Tipos de sesión</term></catDesc>
                            <catDesc xml:lang="en"><term>Types of meetings</term></catDesc>
                            <category xml:id="parla.meeting.regular">
+							  <catDesc xml:lang="es"><term>Sesión ordinaria</term></catDesc>
                               <catDesc xml:lang="en"><term>Regular meeting</term></catDesc>
                            </category>
                            <category xml:id="parla.meeting.special">
+							  <catDesc xml:lang="es"><term>Sesión especial</term></catDesc>
                               <catDesc xml:lang="en"><term>Special meeting</term></catDesc>
                               <category xml:id="parla.meeting.extraordinary">
+								 <catDesc xml:lang="es"><term>Sesión extraordinaria</term></catDesc>
                                  <catDesc xml:lang="en"><term>Extraordinary meeting</term></catDesc>
                               </category>
                               <category xml:id="parla.meeting.urgent">
+								 <catDesc xml:lang="es"><term>Sesión extraordinaria urgente</term></catDesc>
                                  <catDesc xml:lang="en"><term>Urgent meeting</term></catDesc>
                               </category>
                               <category xml:id="parla.meeting.ceremonial">
+								 <catDesc xml:lang="es"><term>--</term></catDesc>
                                  <catDesc xml:lang="en"><term>Ceremonial meeting</term></catDesc>
                               </category>
                               <category xml:id="parla.meeting.commemorative">
+								 <catDesc xml:lang="es"><term>Sesión conmemorativa</term></catDesc>
                                  <catDesc xml:lang="en"><term>Commemorative meeting</term></catDesc>
                               </category>
                               <category xml:id="parla.meeting.opinions">
+								 <catDesc xml:lang="es"><term>Exposición pública</term></catDesc>
                                  <catDesc xml:lang="en"><term>Public presentation of opinions</term></catDesc>
                               </category>
                            </category>
                            <category xml:id="parla.meeting.continued">
+							  <catDesc xml:lang="eS"><term>Reanudación de ls sesión</term></catDesc>
                               <catDesc xml:lang="en"><term>Continued meeting</term></catDesc>
                            </category>
                            <category xml:id="parla.meeting.public">
+							  <catDesc xml:lang="es"><term>Sesión pública</term></catDesc>
                               <catDesc xml:lang="en"><term>Public meeting</term></catDesc>
                            </category>
                            <category xml:id="parla.meeting.executive">
+							<catDesc xml:lang="es"><term>Sesión secreta</term></catDesc>
                               <catDesc xml:lang="en"><term>Executive meeting</term></catDesc>
                            </category>
                         </category>
                         <category xml:id="parla.sitting">
+						   <catDesc xml:lang="es"><term>Sesión plenaria</term>: día del pleno</catDesc>
                            <catDesc xml:lang="en"><term>Sitting</term>: sitting day</catDesc>
                         </category>
                      </category>
@@ -183,23 +190,30 @@
                </category>
             </taxonomy>
             <taxonomy xml:id="speaker_types">
+			   <desc xml:lang="es"><term>Tipos de oradores</term></desc>
                <desc xml:lang="en"><term>Types of speakers</term></desc>
                <category xml:id="chair">
-                  <catDesc xml:lang="en"><term>Chairperson</term>: chairman of a meeting</catDesc>
+				<catDesc xml:lang="es"><term>Presidencia</term>: Persona que preside la sesion</catDesc>
+                  <catDesc xml:lang="en"><term>Chair</term>: chairperson of a meeting</catDesc>
                </category>
                <category xml:id="regular">
+				  <catDesc xml:lang="es"><term>Diputado/a</term>: representante en el Congreso</catDesc>
                   <catDesc xml:lang="en"><term>Regular</term>: a regular speaker at a meeting</catDesc>
                </category>
                <category xml:id="guest">
+				  <catDesc xml:lang="es"><term>Orador/a invitado/a</term>: Persona invitada a hablar ante el Pleno</catDesc>
                   <catDesc xml:lang="en"><term>Guest</term>: a guest speaker at a meeting</catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="subcorpus">
+			   <desc xml:lang="es"><term>Subcorpus</term></desc>
                <desc xml:lang="en"><term>Subcorpora</term></desc>
                <category xml:id="reference">
-                  <catDesc xml:lang="en"><term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+				  <catDesc xml:lang="es"><term>Corpus de referencia</term>: aquel que incluye todos los textos compilados hasta el 31 de octubre de 2019.</catDesc>
+                  <catDesc xml:lang="en"><term>Reference</term>: reference subcorpus, until 2019-10-31.</catDesc>
                </category>
                <category xml:id="covid">
+				  <catDesc xml:lang="es"><term>Corpus COVID</term>: Aquel que incluye todos los textos compilados a partir del 1 de noviembre de 2019. </catDesc>
                   <catDesc xml:lang="en"><term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
                </category>
             </taxonomy>
@@ -211,14 +225,16 @@
                <name type="address">Calle Floridablanca, s/n. 28071</name>
                <name type="city">Madrid</name>
                <name type="country" key="ES">Spain</name>
-	       <!-- Insert date range, e.g. 
-		    <date from="2014-08-01" to="2020-07-16">1.8.2014 - 16.7.2020</date> -->
-	       <date when="9999"/>
+
+		   <date from="2016-07-19" to="2020-12-31">19.07.2016 - 31.12.2020</date> 
             </setting>
          </settingDesc>
          <particDesc>
             <listOrg>
                <org xml:id="federal_parliament" role="parliament" ana="#parla.national #parla.lower">
+
+<!-- I HAVE NOT DONE ANYTHING FROM HERE ONWARDS BECAUSE I AM UNSURE ABOUT WHAT YOU WANT BELOW -->
+
                   <orgName xml:lang="en" full="yes">National Assembly of Spain</orgName>
                   <event from="1992-12-23">
                      <label xml:lang="en">existence</label>
@@ -263,9 +279,9 @@
             </listPerson>
          </particDesc>
          <langUsage>
-            <language ident="es" xml:lang="es">XXX</language>
+            <language ident="es" xml:lang="es">Español</language>
             <language ident="es" xml:lang="en">Spanish</language>
-            <language ident="en" xml:lang="es">XXX</language>
+            <language ident="en" xml:lang="es">Inglés</language>
             <language ident="en" xml:lang="en">English</language>
          </langUsage>
       </profileDesc>
