@@ -3,14 +3,15 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="es">Corpus ParlaMint-ES, con intervenciones del Congreso de los Diputados de España [ParlaMint SAMPLE]</title>
-			<title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="es">Corpus ECPC-CD/ParlaMint-ES, con intervenciones del Congreso de los Diputados de España [ParlaMint SAMPLE]</title>
+			<title type="main" xml:lang="en">Spanish parliamentary corpus ECPC-CD/ParlaMint-ES [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="en">Minutes of the National Assembly of Spain, Legislatures 12, 13, 14 (2016 - 2020)</title>
 			<title type="sub" xml:lang="es">Actas del Congreso de los Diputados de España, legislaturas XII, XIII y XIV (2016 - 2020)</title>
             <meeting n="7" corresp="#DZ" ana="#parla.term #DZ.7">7. mandat</meeting>
             <meeting n="8" corresp="#DZ" ana="#parla.term #DZ.8">8. mandat</meeting>
             <respStmt>
-               <persName>María Calzada Pérez</persName>
+               <persName ref="https://orcid.org/0000-0003-0830-4837" xml:lang="en">María CALZADA PÉREZ</persName>
+				<persName ref="https://orcid.org/0000-0003-0830-4837" xml:lang="en">María CALZADA PÉREZ</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
             </respStmt>
             <respStmt>
@@ -18,15 +19,21 @@
                <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <funder>
-               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+				<orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
+				<orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
+			<funder>
+			    <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
+				<orgName xml:lang="en">Ministry of Science and Innovation from Spain</orgName>
+			</funder>
          </titleStmt>
          <editionStmt>
            <edition>0.1</edition>
          </editionStmt>
          <extent>
             <!--measure unit="texts" quantity="0" xml:lang="en">XXX texts</measure-->
-            <measure unit="speeches" quantity="0" xml:lang="en">XXX speeches</measure>
+			<measure unit="day-session" quantity="242" xml:lang="es">242 sesiones diarias</measure>            
+			<measure unit="day-session" quantity="242" xml:lang="en">242 day meetings</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -42,12 +49,10 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title type="main" xml:lang="en">XXX</title>
+               <title type="main" xml:lang="en">European Comparable and Paralle Corpora / Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title>
                <title xml:lang="es" type="main">CORTES GENERALES DIARIO DE SESIONES DEL CONGRESO DE LOS DIPUTADOS PLENO Y DIPUTACIÓN PERMANENTE</title>
                <idno type="URI">http://www.congreso.es</idno>
-	       <!-- Insert date range, e.g. 
-		    <date from="2014-08-01" to="2020-07-16">1.8.2014 - 16.7.2020</date> -->
-	       <date when="9999"/>
+		   <date from="2016-07-19" to="2020-12-31">19.07.2016 - 31-12-2020</date> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -214,7 +219,7 @@
          <particDesc>
             <listOrg>
                <org xml:id="federal_parliament" role="parliament" ana="#parla.national #parla.lower">
-                  <orgName xml:lang="en" full="yes">XXXXNational Assembly of the Republic of Slovenia</orgName>
+                  <orgName xml:lang="en" full="yes">National Assembly of Spain</orgName>
                   <event from="1992-12-23">
                      <label xml:lang="en">existence</label>
                   </event>
