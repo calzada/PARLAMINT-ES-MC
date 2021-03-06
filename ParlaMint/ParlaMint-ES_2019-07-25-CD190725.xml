@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xml:lang="es"
+     xml:id="ParlaMint-ES_2019-07-25-CD190725"
+     ana="#reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" type="main">Spanish parliamentary corpus ParlaMint-ES, Plenary session 4 [ParlaMint]</title>
+            <title xml:lang="es" type="sub">Sesión plenaria núm. 4</title>
+            <meeting ana="#parla.session" corresp="#federal_parliament" n="4">Sesión plenaria núm. 4</meeting>
+            <respStmt>
+               <persName>María Calzada Pérez</persName>
+               <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tomaž Erjavec</persName>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">XXX</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>0.1</edition>
+         </editionStmt>
+         <extent>
+            <measure xml:lang="en" unit="speeches" quantity="36">36 speeches</measure>
+            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">XXX</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <pubPlace>
+               <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+            </pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2021-03-05">2021-03-05</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title xml:lang="es" type="main">CORTES GENERALES DIARIO DE SESIONES DEL CONGRESO DE LOS DIPUTADOS PLENO Y DIPUTACIÓN PERMANENTE</title>
+               <idno type="URI">http://www.congreso.es</idno>
+               <date when="2019-07-25">2019-07-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and(4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="pb" occurs="23"/>
+               <tagUsage gi="u" occurs="36"/>
+               <tagUsage gi="note" occurs="92"/>
+               <tagUsage gi="lb" occurs="475"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Madrid</name>
+               <name type="country" key="ES">Spain</name>
+               <date ana="#parla.sitting" when="2019-07-25">2019-07-25</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-05">
+            <name>Tomaž Erjavec</name>: initial version.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <head>- DEBATE SOBRE LA INVESTIDURA DEL CANDIDATO A LA PRESIDENCIA DEL GOBIERNO</head>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u1" ana="#chair">
+               <seg>Se reanuda la sesión.</seg>
+               <seg>Se reúne el Pleno del Congreso de los Diputados para dar cumplimiento a lo previsto en el artículo 99.3 de la Constitución española y someter a una segunda votación la propuesta del candidato don Pedro Sánchez Pérez-Castejón para la Presidencia del Gobierno. La sesión comenzará con un debate previo a la votación, la cual -y dado que la Constitución impone un plazo de cuarenta y ocho horas- no tendrá lugar en ningún caso antes de las 14:25 horas, como ya les anuncié en el Pleno anterior. Conforme a lo dispuesto en el artículo 171.5 del Reglamento, el candidato podrá intervenir por un tiempo máximo de diez minutos y los grupos parlamentarios por un tiempo de cinco minutos cada uno para fijar su posición.</seg>
+               <seg>Tiene la palabra el candidato a la Presidencia del Gobierno.</seg>
+               <note>Prolongados aplausos de las señoras y los señores diputados del Grupo Parlamentario Socialista y del Gobierno en funciones</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u2"
+               who="#SánchezPedro"
+               ana="#regular">
+               <seg>Buenas tardes, señorías. Gracias, señora presidenta.</seg>
+               <seg>Hoy concluye la propuesta de investidura de las elecciones del 28 de abril y con ella se cierra el encargo que tuve el honor de recibir por parte del jefe del Estado, y lamento mucho constatar que persiste el bloqueo parlamentario.</seg>
+               <seg>Señoras y señores diputados, enuncié desde el primer día en mi intervención que mi propósito era conformar un Gobierno, un Gobierno progresista, con una premisa: hacer lo posible para que la<pb n="3"/> investidura a la Presidencia del Gobierno de España no dependiera en exclusiva de formaciones independentistas. Lo he repetido con insistencia a lo largo del debate de investidura y he obrado en consecuencia desde el primer minuto. Para lograrlo necesitaba, en primer lugar, un acuerdo con el que yo califiqué 'mi socio preferente' en esta investidura, el Grupo Parlamentario de Unidas Podemos y, en segundo lugar, la abstención de al menos uno de los partidos que se tacha de constitucionalista. La suma de los escaños del Partido Socialista, de Unidas Podemos y de los demás grupos abiertos a un entendimiento -a los cuales agradezco profundamente su complicidad-, el Partido Nacionalista Vasco, el Partido Regionalista de Cantabria y también Compromís, alcanzaba la cifra de 173 votos; a 3, en consecuencia, de la mayoría absoluta de la Cámara. Por tanto, era necesaria la abstención de algún otro grupo, y solo había dos opciones: la abstención de alguna fuerza independentista, y en esta cuestión quisiera reconocer la voluntad manifiesta de Esquerra Republicana -a cambio de nada- de facilitar la investidura a la Presidencia del Gobierno, o bien la abstención de los grupos conservadores, que se autoproclaman a todas horas constitucionalistas. Si se abstenían el Partido Popular o Ciudadanos, el valor de los votos independentistas dejaba de ser determinante. Quise evidenciar, señor Casado, señor Rivera, que eso que tanto les preocupaba estaba en su mano. Ustedes tenían esa llave y si algo se ha demostrado es que lo único que querían era un pretexto para después poder acusarnos durante los próximos cuatro años de una investidura condicionada por partidos independentistas. Pero, además de lograr la abstención de al menos una de las fuerzas de la bancada conservadora, como les decía, había una condición previa, que era un acuerdo con el Grupo Parlamentario de Unidas Podemos. Debo decir, antes de nada, que, entre fuerzas de izquierdas, la investidura debería haber estado garantizada desde el primero momento, porque los resultados del 28 de abril y del 26 de mayo dejaban clara la voluntad manifestada por el pueblo español de que el Gobierno estuviera encabezado por el Partido Socialista.<note>Aplausos</note> Cualquier persona sensata sabe que eso no significa un cheque en blanco, y no lo es porque para gobernar hay que aprobar unos presupuestos y hay que aprobar leyes y con la actual aritmética parlamentaria eso exige acuerdos. El Gobierno habría necesitado siempre a Unidas Podemos, no solamente para la investidura, sino también para gobernar durante los próximos cuatro años. El acuerdo, sin embargo, no ha sido posible, y les diré de entrada que lo lamento por dos motivos. El primero, porque no saldrá adelante un Gobierno que es importante que tenga ya España. Y el segundo, por la histórica oportunidad que se desvanece para la incorporación por primera vez en la historia de nuestra democracia de una fuerza de izquierdas a la izquierda del Partido Socialista en el Gobierno de España. Lo lamento. Pero, ¿por qué no ha sido posible? Siempre supe que conciliar dentro de un Gobierno dos culturas y dos tradiciones tan distintas como las nuestras no iba a resultar sencillo. Por eso, propusimos una fórmula que rige en países distintos del ámbito europeo, como en Portugal y en Dinamarca: Gobiernos de los socialdemócratas con apoyo externo de las formaciones a su izquierda. ¿A cambio de qué, señor Iglesias? A cambio de un programa, a cambio de hacer políticas que beneficiaran a la gente que más lo necesita, como hemos hecho durante estos últimos doce meses de cooperación. Sin embargo, pronto advertí que el programa de Gobierno era una cuestión muy secundaria para usted, señor Iglesias, y por tanto la proposición, señorías, quedó rechazada. Propuse después que la implicación de Unidas Podemos se diese, además de a nivel programático, en responsabilidades relevantes de la Administración, aunque no dentro del Consejo de Ministros y, como saben ustedes, también fue una proposición rechazada. Exploré a continuación la posibilidad de incorporar a figuras cualificadas del entorno de Unidas Podemos al Consejo de Ministros, en coherencia con lo que siempre he defendido y con lo que también practiqué cuando fui elegido presidente del Gobierno por esta Cámara hace doce meses después de una moción de censura: la incorporación de talento a través de perfiles independientes en el Consejo de Ministros, proposición que nuevamente fue rechazada. Manifesté entonces que consideraba que la presencia del líder de Unidas Podemos, el señor Iglesias, era el principal escollo para alcanzar un acuerdo, y con su renuncia llegamos entonces a la única posibilidad que reclamaba Unidas Podemos desde el principio: un Gobierno de coalición basado en una negociación integral, como señalaban. Se inició entonces una negociación integral a lo largo de este fin de semana previo a la sesión de investidura. Del resto del proceso han sido testigos todos ustedes prácticamente en tiempo real en esta Cámara.</seg>
+               <seg>Antes de que el desacuerdo llegue a sus últimas consecuencias, permítanme hacer cuatro constataciones. La primera constatación es que existen grandes coincidencias en el programa social, ecológico, feminista y laboral para el acuerdo con Unidas Podemos. Nuestras propuestas para combatir la precariedad y el desempleo, para defender a los jóvenes en su acceso a la vivienda, para combatir la<pb n="4"/> pobreza infantil, para proteger las pensiones, para mitigar y adaptarnos al cambio climático, nuestras propuestas para liderar la revolución tecnológica de forma inclusiva o para defender la dimensión social del proyecto europeo nunca fueron el problema. Insisto, nunca hubo problemas de programa que impidieran el acuerdo. En reuniones y en intervenciones en esta tribuna el señor Iglesias no ha formulado ni una sola propuesta que no estuviera en el programa de investidura que yo presenté hace dos días por la mañana. Por tanto, el problema nunca fue el programa.</seg>
+               <seg>Segunda constatación. Si el problema no es el programa, ¿cuál es el problema? Lo dijo aquí en esta tribuna el señor Iglesias: los ministerios. El pasado lunes, en esta misma tribuna afirmaba que no se iba a dejar humillar por las propuestas del Partido Socialista. Apenas unas horas antes nos había hecho llegar las suyas, ya las conocen. Habíamos escuchado al señor Iglesias afirmar que quería entrar en el Gobierno para controlarnos y, al conocer sus propuestas, nos dimos cuenta de que quería entrar en el Gobierno para controlar el Gobierno. Nos transmitía una propuesta que suponía que controlaba el cien por cien de los ingresos a través del Ministerio de Hacienda y el 50 % del gasto. Si exceptuamos presupuestos como seguridad, es decir, Interior y Defensa, la propuesta de Unidas Podemos -que recordemos es la cuarta fuerza parlamentaria de la Cámara- suponía que la formación del señor Iglesias, con el 25 % de los escaños de la coalición, controlaba el 80 % del gasto social del Gobierno. En estos días, señorías, nosotros hemos formulado sucesivas propuestas pensando en que Unidas Podemos participara en el Gobierno de coalición y en que ese Gobierno fuera un Gobierno viable, eficaz, un Gobierno que funcionara. Dados los retos que tenemos por delante, creo yo que parecía sensato tener un Gobierno plural, pero con una única dirección coherente y cohesionada. La propuesta a Unidas Podemos partía de la creación de una vicepresidencia centrada en uno de los principales corazones del proyecto político que tuve el honor de presentar ante esta Cámara, que es el de la justicia social. De esta vicepresidencia dependerían directamente las políticas de bienestar social; políticas importantes para un proyecto progresista como el que nosotros queremos encarnar, como es la lucha contra la pobreza, el Sistema Nacional de Dependencia y los servicios sociales, por citar algunas. Junto a ello ofrecimos la incorporación de tres ministros o ministras de Unidas Podemos de gran relevancia política para una fuerza progresista. En primer lugar, el ministerio de sanidad y consumo. Como dije en mi discurso de investidura, el objetivo es potenciar uno de los sistemas más admirados y envidiados del mundo, con importantes retos pendientes, tal y como expuse en ese discurso. En segundo lugar, un ministerio de vivienda y de economía social. Como saben, la vivienda es una de las principales barreras para la emancipación y para la justicia social en nuestro país. Y, finalmente, un ministerio de igualdad, porque el feminismo es capital y está en el corazón de un proyecto político que se tilda de progresista. Por lo tanto, cuatro carteras de hondo contenido social y una de ellas con rango de vicepresidencia del Gobierno de España. Como saben ustedes, desafortunadamente, la propuesta fue rechazada.</seg>
+               <seg>Esta es la última propuesta de otras muchas que se han ido sucediendo a lo largo de los últimos días, propuestas que entendíamos que eran áreas de interés para el Grupo Parlamentario de Unidas Podemos y para las que contaban con personas cualificadas para el desempeño de la tarea; y, señorías, estoy convencido de que hubieran contribuido y prestado un gran servicio al país. En cada una de estas propuestas -muchas de ellas previamente exigidas por Unidas Podemos en la negociación y posteriormente descartadas por ellas mismas cuando ya habían sido aceptadas por el Partido Socialista- hemos demostrado una noble voluntad de acuerdo. Desde la cooperación al desarrollo a la Agenda 2030, la pobreza infantil, la economía social, el reto demográfico, universidades, cultura, ciencia, agricultura... Propuestas para la formación de un Gobierno de coalición que el señor Iglesias fue rechazando una tras otra. Señorías, nunca antes desde la restauración de la democracia en nuestro país se había ido tan lejos en este ámbito entre dos fuerzas de izquierdas; tampoco de otro signo político. Nunca. No conozco precedente alguno en el que un dirigente se sienta humillado ante la oferta de una vicepresidencia del Gobierno o de un ministerio del Gobierno de España. ¿Alguien considera una humillación ser vicepresidente del Gobierno de derechos sociales? ¿Es humillante ser ministro o ministra de sanidad y consumo del Gobierno de España? ¿Es humillante serlo de vivienda y de economía social? ¿Es humillante ser ministro o ministra de igualdad de un Gobierno progresista? Señor Iglesias, puede que no sea lo que usted deseaba, pero le hemos ofrecido una propuesta respetuosa, correcta y sensata.<note>Prolongados aplausos</note> Una oferta más que razonable, teniendo en cuenta que en su formación, como consecuencia de su juventud, no hay experiencia alguna de gestión a nivel estatal y que los Gobiernos por definición deben ser ejecutivos y compactos. Por tanto, la segunda constatación, señorías, es que no hay humillación. Hay<pb n="5"/> una oferta de una vicepresidencia social del Gobierno de España y de distintos ministerios de hondo alcance social.</seg>
+               <seg>Señorías, la tercera constatación es que yo aspiro -y así lo han respaldado los españoles- a presidir el Gobierno de España, pero no a cualquier precio ni cualquier Gobierno. Debo estar convencido de que dirijo un equipo plural, diverso, pero marchando en una única dirección, y debo tener la certeza de que cada responsable de un departamento cuenta con la capacidad para gestionarlo. No se puede poner la Hacienda pública, el dinero de los españoles, en manos de alguien que no ha gestionado jamás un presupuesto. Podré acertar o equivocarme, como cualquier persona, pero intento formar un Gobierno de personas competentes y capaces de dirigir sus departamentos en beneficio de los españoles y las españolas.<note>Aplausos</note> Y todo lo que se le ocurre, señor Iglesias, para acallar el clamor de quienes desde dentro de su organización y desde fuera de su organización le piden un acuerdo, es hacer una propuesta en tiempo de descuento antes de esta segunda votación de investidura, diciendo que quieren un ministerio de trabajo para derogar la reforma laboral y subir el salario mínimo interprofesional, como si no supiera que la derogación de la reforma laboral y la subida del salario mínimo interprofesional dependen de un órgano que es colegiado, el Gobierno de España, y también de sus señorías, el Poder Legislativo.<note>Aplausos</note> Sigue, señor Iglesias, sin querer entender que hace falta un Gobierno, un Gobierno, un Gobierno coherente y cohesionado, no dos Gobiernos en un Gobierno, señor Iglesias.<note>Aplausos</note> El lunes, el señor Iglesias dijo que si no llegaba a un acuerdo como el que él exigía, -y cito textualmente-, yo nunca sería presidente del Gobierno. Le diré algo, señor Iglesias: si para ser presidente del Gobierno tengo que renunciar a mis principios<note>varios señores diputados: ¡Oh! ¡Oh!</note> , si tengo que formar un Gobierno a sabiendas de que no será útil a mi país, entonces usted está en lo cierto, yo no seré presidente ahora. He renunciado a cosas muy valiosas para mí antes que renunciar a mis convicciones. Si usted me obliga a elegir entre la Presidencia del Gobierno de España que no serviría a España o bien optar por mis convicciones, yo no tengo ninguna duda, elijo mis convicciones, elijo proteger a España.<note>Prolongados aplausos de las señoras y los señores diputados del Grupo Parlamentario Socialista y del Gobierno en funciones, puestos en pie</note> Gobernar, señor Iglesias, es pisar tierra firme. Gobernar es pasar del no nos representan a querer representar a muchos, con un propósito, que es ser útil a la ciudadanía y, sobre todo, a aquellos que más sufren. Gobernar es encarar la realidad. La izquierda útil es la que gana y sirve a la gente y cambia las cosas. ¿De qué sirve una izquierda que pierde incluso cuando gana?<note>Aplausos</note> ¿Qué va a hacer, señor Iglesias? ¿Esto es lo que quiere para España, solo porque las cosas no han salido como usted trataba de imponerlas? ¿Esa es su amenaza? ¿Va a unir, aunque sea con la abstención, su voto a las derechas y a la ultraderecha para impedir, nuevamente, que haya un Gobierno progresista? ¿Va a volver a hacerlo, señor Iglesias?</seg>
+               <seg>Cuarta constatación. Señor Rivera, señor Casado, pertenezco a un partido orgulloso de sus 140 años de vida; un partido que no huye de la realidad, que aspira a transformarla y, por eso, somos un partido de gobierno; un partido que trabaja día a día desde miles de alcaldías y gobiernos autonómicos en todo el país; un partido que cohesiona España, porque está presente en todo el territorio, señor Casado: en el ámbito rural, en el ámbito urbano, en Cataluña, en Euskadi, en las dos Castillas, en los archipiélagos. Yo no podría ser candidato a presidir el Gobierno de mi país si mi partido no fuera capaz de tener ni un solo concejal de más de 2600 electos en Euskadi, señor Rivera. Yo no me atrevería a ser candidato a presidir el Gobierno si tuviera mi fuerza parlamentaria en la segunda comunidad autónoma con más población del país, señor Casado, Cataluña, una única diputada entre los 48 diputados a elegir.<note>Aplausos</note> Señorías, he querido ser leal a mis principios. He cumplido con el encargo tanto del jefe del Estado como también de la ciudadanía, el pasado 28 de abril, de someterme a este debate de investidura. Es un honor haberlo hecho en nombre de los más de siete millones y medio de los españoles que votaron al Partido Socialista el pasado 28 de abril. Pero también es un honor y un orgullo en nombre de muchos otros que, desde otras preferencias ideológicas, quieren que haya Gobierno en España. Y permítanme en este punto dirigirme directamente al conjunto de la ciudadanía, a quienes nos miran en sus hogares para decirles lo siguiente: España ha superado unida las peores crisis de su historia y volverá a hacerlo esta vez. España ha derrotado unida los peores pronósticos y vaticinios, y volverá a hacerlo esta vez. España ha vencido unida los mayores desafíos y retos, y volverá a hacerlo esta vez. Pase lo que pase en el día de hoy, ocurra lo que ocurra en esta votación, España puede contar con el Partido Socialista para eso, para unir a la sociedad y nunca para enfrentarla. Es en su nombre, como fuerza más votada el pasado 28<pb n="6"/> de abril, en el que les pido su confianza para ser investido presidente del Gobierno, el mayor honor que puedo asumir como ciudadano, como español y como demócrata.</seg>
+               <seg>Gracias.</seg>
+               <note>Prolongados aplausos de las señoras y los señores diputados del Grupo Parlamentario Socialista y del Gobierno en funciones, puestos en pie</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u3" ana="#chair">
+               <seg>Muchas gracias, señor candidato a la Presidencia del Gobierno.</seg>
+               <seg>Por el Grupo Parlamentario Popular, tiene la palabra el señor Casado Blanco.</seg>
+               <note>Aplausos</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u4"
+               who="#CasadoPablo"
+               ana="#regular">
+               <seg>Gracias, señora presidenta.</seg>
+               <seg>Y cuando despertó Pedro Sánchez, el elefante morado con lazo amarillo todavía estaba allí. Como El dinosaurio de Monterosso, señor Sánchez, dos días después ahí siguen sus socios, los únicos que usted ha buscado siempre, en todo momento y en todo lugar: Podemos, la izquierda radical y los nacionalistas independentistas. Y entremedias, el espectáculo que han dado ha sido bochornoso. En vez de aprovechar estos tres meses para pactar civilizadamente, han sometido a España a un zoco de vanidades que no merecemos. Y a estas alturas, aún no sabemos quién ha perdido el regateo de ese mercado persa de ministerios y vicepresidencias. Han tenido a los españoles toda la mañana pegados al móvil, como una actualización de esa España de los transistores felizmente pasada; y, lo peor de todo, para nada. Si le decía anteayer que su Gobierno era la historia de un gran vacío, su investidura ya es la historia de un gran fracaso; y sus consecuencias son de exclusiva responsabilidad suya, tal y como dijo en esta misma tribuna hace tres años en otra sesión de investidura. Señor Sánchez, para este viaje no hacían falta alforjas, ni discursos grandilocuentes, ni evangelios del buenismo, ni entrevistas canceladas, ni comunicados cruzados. Todo ha sido una encarnizada lucha de poder con sus socios preferentes desde hace quince años, cuando construyeron ese gran cordón sanitario al Partido Popular. Y no les han importado las ideas, ni la política, ni siquiera España; solo cargos y prebendas para duplicar un Gobierno ya hipertrofiado. ¿Qué harían para caber aquí? ¿Quizá llevar a la mesa de los taquígrafos más escaños azules?</seg>
+               <seg>Han demostrado que son incapaces de pactar para construir -solo se alían para destruir, como en la moción de censura-, y hemos pasado de crear un gobierno Frankenstein -como decía su predecesor- a una parodia del Jovencito Frankenstein que, si no fuera tan letal para España, solo produciría hilaridad. Porque, señor Sánchez, usted solo pacta o intenta pactar siempre con los que quieren abolir la monarquía parlamentaria, con los que ven la Constitución como un candado, con quienes relativizan el zarpazo criminal de ETA y piden la independencia de Cataluña o la anexión de Navarra a una imaginaria Euskal Herria, quienes justifican las dictaduras de Cuba o de Venezuela o defienden limitar la propiedad privada o la ley. Señor Sánchez, ¿compensa haber negociado ser parte de ese eclipse de la historia democrática española?</seg>
+               <seg>Como dijo Maura en una situación similar: Por mí, que no quede. Nosotros le hemos tendido la mano desde hace meses para dar estabilidad a España en el área presupuestaria, territorial y social con once pactos de Estado que seguimos manteniendo en esta tribuna.<note>Rumores.-Varios señores diputados: ¡Sí, sí!-Aplausos</note> Desde el principio no hemos engañado a nadie.<note>Varios señores diputados: ¡No!</note> Hemos acudido a las reuniones cuando se nos ha convocado; hemos dicho a la opinión pública -no en despachos sino públicamente- cuál era nuestra posición; hemos sido responsables con nuestros compatriotas, pero es que usted exigía que le extendiéramos un cheque en blanco, y eso no lo podemos aceptar. Pero no solo por el partido; tampoco por los 3 millones de desempleados que hoy ven preocupados -el mismo día en el que se publica una EPA que dice que los datos del paro desestacionalizado son los peores desde hace nueve años- que ustedes estaban mercadeado para derogar la reforma laboral que ha creado 2 millones de empleos gracias al Partido Popular.<note>Aplausos</note> Por ellos tampoco podemos admitirlo. Tampoco podemos firmarle ese cheque en blanco por las clases medias que ven espeluznadas cómo revalidan su plan para subirles 6000 millones de euros en todos los tramos impositivos en el proyecto de presupuestos generales que habían pactado con Podemos, o por las familias que temen que acaben con la libertad de elección de la educación de sus hijos, o con la libertad de elección de la sanidad de los suyos, o por los mayores que se entristecen al ver que su esfuerzo por la Transición es ahora cuestionado, o sobre todo por nuestros hijos, que el día de mañana se avergonzarán al estudiar esta sesión de investidura como una de las páginas más lamentables de la historia democrática reciente de España.<note>Aplausos</note> Señor Sánchez, no puede pretender seguir jugando a la ruleta rusa con nuestro futuro y encima pedir que nosotros pongamos la bala. Nosotros seguiremos buscando un proyecto que favorezca la convivencia<pb n="7"/> y el encuentro; un proyecto que defienda la Constitución, la igualdad y la libertad de los españoles; un proyecto que estreche el vínculo entre generaciones, entre territorios y entre acentos, que garantice un Estado que sirva al bienestar de la sociedad y no una sociedad que tenga que servir al bienestar del Estado o de quienes pretenden dirigirlo. Ya hemos visto que su posición no es tan sólida como quiere hacer creer, sino mucho más frágil de lo que piensa. Tiene que enfrentarse a la realidad y elegir a qué quiere renunciar: si renuncia al centro o renuncia al extremo. Debe renunciar a hacer del separatismo un aliado prioritario y del radicalismo un socio preferente, como hoy ha dicho aquí otra vez.</seg>
+               <seg>Se lo dije anteayer: usted y yo tenemos una tarea común por delante, que es ensanchar el espacio central de la moderación y hacerlo tan grande que de nuevo los dos podamos ganar en él.<note>Aplausos</note> Pero, para ello, debe renunciar ya a ser Gobierno en un nuevo sistema y asumir que es mejor ser oposición dentro del sistema de 1978 que juntos, ustedes y nosotros, construimos. Solo así podremos reencontrarnos el Partido Socialista y el Partido Popular, y solo así podremos fiarnos de usted, pero esta semana ha dejado claro que no está dispuesto a ello. Por ahora seguimos sin saber quién es realmente usted, pero sea lo que sea, usted ya es mucho menos que hace cuatro días.<note>Aplausos</note> Señor Sánchez, prefiere seguir en su escapada, en su manual de resistencia, ya que el manual de buen Gobierno aún no tiene quien se lo escriba.<note>Aplausos</note> Prefiere seguir en el papel que su trayectoria política le ha asignado, pero ni nosotros somos un atrezo para su función teatral ni estamos en el Comité Federal del Partido Socialista; donde estamos es en el Parlamento de una vieja nación de cinco siglos de historia, bajo las estatuas de los Reyes Católicos, delante de un escudo y una bandera, que exigen respeto por parte de quien aspira a presidirla. Por eso, aunque usted y su partido merecen todo nuestro respeto, su candidatura y su proyecto no merecen nuestro apoyo. Nosotros solo nos debemos a España y su Gobierno sería una amenaza para su futuro.</seg>
+               <seg>Muchas gracias.</seg>
+               <note>Prolongados aplausos de las señoras y los señores diputados del Grupo Parlamentario Popular, puestos en pie</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u5" ana="#chair">
+               <seg>Muchas gracias, señor Casado.</seg>
+               <seg>Por el Grupo Parlamentario Ciudadanos, tiene la palabra el señor Rivera Díaz.</seg>
+               <note>Aplausos</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u6"
+               who="#RiveraAlbert"
+               ana="#regular">
+               <seg>Menudo espectáculo, señor Sánchez. Menudo espectáculo haciéndoles perder el tiempo, la esperanza y las ganas a muchos españoles que hoy estarán viendo con estupor la que nos han liado usted y su banda.<note>Protestas</note> Sí, su banda, porque ustedes estos días han tratado a España como si fuera un botín, y España no es un botín ni carteras ministeriales a repartirse; es nuestra nación, señor Sánchez.<note>Aplausos</note> Porque el plan Sánchez era esto, era llegar al final y repartirse el botín. ¿Cuál es el problema en todo esto? Que la banda no se ha puesto de acuerdo en cómo repartirse el botín. España paralizada por un ministerio, señor Sánchez. ¿No es triste que un país se paralice y se bloquee tres meses porque usted y el señor Iglesias no se ponen de acuerdo por un ministerio? Eso es la realidad, esta es la realidad. ¿Cómo puede ser un candidato como usted, candidato Sánchez, capaz de sacar la mayoría, gobernar, hacer presupuestos, si no se ponen de acuerdo en el nombre y la persona para un ministerio? ¿Cómo van a gestionar ustedes la economía de España? ¿Cómo van a crear credibilidad en Europa? ¿Cómo van a sumar fuerzas con otros países cuando haga falta si no se aclaran ni entre ustedes? ¿Cómo va a gestionar usted esto, señor Sánchez? Son ustedes una banda, la banda del señor Sánchez.<note>Rumores</note> Han intentado repartir España como un botín, pero le digo una cosa: por mucho que alargue la escena, por mucho que alarguen el teatro -porque esto seguirá-, vaticino que el espectáculo, señores, seguirá; seguirá como un culebrón de verano, repartiéndose ministerios, insultándose como han hecho entre ustedes, pero los españoles no se merecen ni este espectáculo ni un Gobierno con esta banda ni, desde luego, un presidente como usted.<note>Aplausos</note> Señor Sánchez, muchos españoles se preguntarán: ¿y de qué han hablado? ¿Se han peleado por si España es una nación de naciones o una nación de ciudadanos libres e iguales? No, no se han peleado, porque usted no cree en la nación de ciudadanos libres e iguales; cree en la nación de naciones como Iglesias y sus socios nacionalistas. ¿Se han peleado por subir impuestos? No, si son unos adictos a subir impuestos, ustedes, los socialistas, Podemos y sus socios. ¿Se han peleado por los modelos económicos? No, si ustedes tienen el mismo modelo económico: subir los impuestos a la clase media, machacar a las familias y ahuyentar a los inversores. No se han peleado por las políticas, les importan un bledo las políticas; solo se han peleado por los sillones.<note>Aplausos</note> ¿Se ha peleado Podemos con el señor Sánchez por el modelo territorial? No, si es el mismo, concesiones a los nacionalistas y agravios para el resto de los españoles; más dinero, los jueces, más prebendas para los señores nacionalistas o independentistas<pb n="8"/> y peor para el resto de españoles que quieren igualdad y libertad. Así que a ustedes, en la escena o espectáculo que nos están dando hoy, solo les separa un ministerio, les separa el ego, el ego que, básicamente, no les cabe en la silla y por eso no han podido ponerse de acuerdo. España, señor Sánchez, se merece que un Gobierno, sea de la naturaleza que sea, se ponga en marcha.</seg>
+               <seg>Discrepo de las políticas que usted quiere hacer con Podemos, discrepo de su modelo territorial, discrepo de subir impuestos, discrepo de usted y de Podemos en muchas cosas, pero usted tiene la obligación y el mandato del rey para formar Gobierno. Usted no es el rey, usted es Pedro Sánchez, el candidato Sánchez, propuesto por el rey, tenía un mandato y ha fracasado, ha fracasado por la incapacidad de ser serios y ponerse de acuerdo. En Andalucía hay Gobierno. ¿Sabe por qué hay Gobierno en Andalucía?<note>Protestas</note> Porque dos partidos distintos<note>varios señores diputados: ¡Tres! ¡Tres!</note> , con proyectos distintos...</seg>
+               <note>protestas</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u7" ana="#chair">
+               <seg>Señorías, por favor, respeten al orador.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u8"
+               who="#RiveraAlbert"
+               ana="#regular">
+               <seg>Gracias.</seg>
+               <seg>Están nerviosos. ¿Saben por qué hay Gobierno? Porque con proyectos distintos sabemos gobernar, y acaban de salir los presupuestos de Andalucía.<note>Aplausos</note> Ustedes son incapaces de sacar un presupuesto.</seg>
+               <seg>Estoy de acuerdo con una cosa que ha dicho hoy el señor Sánchez. Ha dicho usted que España, a pesar de todo, saldrá siempre adelante. Estoy de acuerdo, a pesar de la banda de Sánchez<note>rumores</note> , del Gobierno de Sánchez y del presidente Sánchez, esta es una gran nación, este es un gran país que se va a sobreponer al mandato de su Gobierno, lo formen hoy, lo formen mañana, en septiembre, en agosto o cuando sea. Cuando ustedes pongan en marcha ese Gobierno va a haber una oposición, va a haber un partido y un proyecto de país que va a representar a todos los que no se sienten representados por la banda de Sánchez, a todos los que no son sectarios, a toda la gente moderada, liberal, que se esfuerza y trabaja y que simplemente quiere tener la recompensa de que la dejen vivir en paz, sin sectarismos, señor Sánchez. Así que, a todos esos españoles que hoy están preocupados y hartos del espectáculo que hemos visto, que sepan que hay esperanza, que este país se va a sobreponer como se ha sobrepuesto a muchos problemas, en este caso a un Gobierno que no se merece.</seg>
+               <seg>Señor Sánchez, yo lo tenía claro antes del 28 de abril y así se lo dije tanto a mis votantes como a nuestros compañeros, les dije que usted era un mal presidente para España, pero yo me pregunto hoy, con el espectáculo que ha dado Sánchez y el fracaso en su investidura, ¿alguien sensato piensa que Sánchez puede ser un buen presidente para España?<note>La señora Martínez Seijo: ¡Media España!-Protestas</note> Yo lo tengo claro, señor Sánchez, muchos españoles creen que usted es un mal presidente para España. El otro día le dije que me oponía al plan Sánchez -y me sigo oponiendo-, que me oponía a la banda de Sánchez -y nos seguimos oponiendo-, pero hoy, señor Sánchez, le digo que España merece más y no se merece un presidente como usted.</seg>
+               <seg>Muchas gracias.</seg>
+               <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Ciudadanos, puestos en pie</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u9" ana="#chair">
+               <seg>Gracias, señor Rivera.</seg>
+               <seg>Por el Grupo Parlamentario Confederal de Unidas Podemos-En Comú Podem-Galicia en Común, tiene la palabra el señor Iglesias Turrión.</seg>
+               <note>Aplausos</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u10"
+               who="#IglesiasPablo"
+               ana="#regular">
+               <seg>Gracias, señora presidenta.</seg>
+               <seg>Señor Sánchez, le pido que haga una reflexión, y es si usted cree que en las últimas semanas se ha referido alguna vez a nosotros con el respeto que debería merecer un socio de Gobierno. Le pido simplemente que reflexione sobre ello. Creo que usted ha olvidado que es presidente del Gobierno, entre otras cosas, porque nosotros nos creímos una moción de censura que ustedes no se creyeron. Con 85 diputados, con el peor resultado electoral en la historia reciente del Partido Socialista, nosotros les apoyamos a cambio de nada para ser Gobierno en este país. Creo que al menos por eso mereceríamos respeto en sus palabras y en su tono hacia nosotros.<note>Aplausos</note> Es muy difícil negociar en cuarenta y ocho horas lo que no se ha querido negociar en ochenta días, es muy difícil negociar un Gobierno de coalición contrarreloj y en tiempo real filtrándolo todo a los medios de comunicación.<note>Rumores</note> Creo que es evidente que las cosas no se deben hacer así.<note>Aplausos</note> Cuando vimos un documento de propuestas que les entregamos filtrado por su vicepresidenta, no nos podíamos creer que hubieran editado el<pb n="9"/> documento para cambiar la palabra 'propuestas' por 'exigencias'. Creo que una negociación de Gobierno merece, al menos, no ser cutre.<note>Aplausos</note> Nos dijeron: Señor Iglesias, su programa es demasiado radical. Y les dijimos: No haremos ninguna exigencia programática radical, exigiremos exclusivamente que la Constitución española de 1978 deje de ser papel mojado y que los derechos sociales que se recogen se garanticen y se desarrollen a través de políticas públicas. Nos dijeron: Jamás compartiremos con ustedes la gestión de ministerios de Estado. Y les dijimos: De acuerdo. Nos dijeron: Su posición sobre Cataluña es incompatible con formar parte del Gobierno. Y les dimos garantías de que no habría líneas rojas y asumiríamos el liderazgo de su partido en esta cuestión. Planteó usted un veto personal y muchos -también de su partido- me dijeron: Está tratando de humillarte. Mire usted, a mí esto me da exactamente igual. Y les dijimos: Aceptamos su veto personal, aunque no tenga precedentes en la historia democrática de España, aunque no tenga precedentes en la historia política de ningún país, y lo único que les pedimos fue una participación proporcional en el Gobierno de acuerdo con los votos que tuvimos. También renunciamos a tener una participación proporcional. Y hoy mismo, tras la ruptura de las negociaciones de manera unilateral por su parte, les hemos hecho una propuesta en la que lo único que pedimos son competencias, no sillones. Competencias para asegurar que en este país haya educación gratuita de 0 a 3 años.<note>Aplausos</note> Competencias para asegurar que las familias en situación de dependencia reciben las ayudas. Competencias para que haya igualdad retributiva entre hombres y mujeres en España. Competencias para asegurar que hay permisos de maternidad y paternidad iguales e intransferibles. Competencias para subir el salario mínimo y para revertir los aspectos más lesivos de la reforma laboral del Partido Popular, de acuerdo -como planteaban ustedes- con los agentes sociales. Competencias para frenar las privatizaciones sanitarias, para que haya por fin una ley de eutanasia. Competencias para que la financiación en ciencia y en innovación llegue en esta legislatura al 2 % del PIB. Competencias para bajar las tasas universitarias y aumentar el número de becas. No hemos pedido nada más.<note>Aplausos</note> Le hago desde aquí una nueva propuesta. Después de escuchar su discurso he recibido el mensaje de alguien muy relevante de su partido, de una persona con mucha autoridad moral en el Partido Socialista que me ha dicho: He escuchado el discurso de Pedro Sánchez, pídele que os ceda las competencias en políticas activas de empleo. Pues estoy haciendo la recomendación que me ha hecho alguien de su partido: renunciamos al Ministerio de Trabajo si ustedes nos ceden las competencias para dirigir las políticas activas de empleo en este país.<note>Rumores</note> La decisión...</seg>
+               <note>continúan los rumores.-Aplausos</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u11" ana="#chair">
+               <seg>Señorías, por favor, guarden silencio.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u12"
+               who="#IglesiasPablo"
+               ana="#regular">
+               <seg>Mi grupo confederal había decidido hoy abstenerse y tenderle la mano para que en los próximos días seamos capaces de hacer lo que usted no ha querido hacer durante tres largos meses: negociar un Gobierno con respeto hacia el socio. Le hemos hecho una nueva propuesta, todavía estamos a tiempo de salvar esta sesión de investidura y tener un Gobierno de coalición.<note>Rumores</note> Si usted no acepta nuestra propuesta, le vuelvo a tender la mano; no lleve a los españoles a elecciones, negocie con nosotros desde el respeto.</seg>
+               <seg>Gracias.</seg>
+               <note>Prolongados aplausos de las señoras y los señores diputados del Grupo Parlamentario de Unidas Podemos-En Comú Podem-Galicia en Común, puestos en pie</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u13" ana="#chair">
+               <seg>Gracias, señor Iglesias.</seg>
+               <seg>Por el Grupo Parlamentario VOX, tiene la palabra el señor Abascal Conde.</seg>
+               <note>Aplausos</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u14"
+               who="#AbascalSantiago"
+               ana="#regular">
+               <seg>Señora presidenta, señorías, señor Rufián, señores del Partido Nacionalista Vasco, grupo de liberados y laguntzailes de Bildu, señor Iglesias, esta riña que han protagonizado ustedes aquí y que han protagonizado estos días no es de verdad. No discuten ustedes de política, en eso están de acuerdo, hay incluso complicidad, como se ha dicho en la primera intervención de hoy; solo riñen al que quieren que sea su empleado porque no les ha preparado a tiempo sus poltronas, sus bicocas y sus despachos. Subimos a esta tribuna en representación de muchos españoles -probablemente más de los que nos han votado- a decirles que ni hoy ni en septiembre ni cuando ustedes se pongan de acuerdo, nunca en definitiva, apoyaremos a la marioneta que ustedes quieren colocar al frente del Gobierno de España y contra España.<note>Aplausos</note> Y no lo haremos en ningún caso ni por acción con nuestro voto ni por omisión con una abstención, que son las<pb n="10"/> dos fórmulas que ustedes han encontrado para moverle los hilos. ¿Para qué vamos a andarnos con hipocresías parlamentarias, señorías? Es mucho mejor, creo que mucho más honesto con los españoles, con nosotros mismos, y mucho más eficaz también, dirigirnos hoy a los capos del frente popular que perder el tiempo discutiendo con el que va a ser su empleado.</seg>
+               <seg>Así que, señorías, ténganlo claro. Señor Iglesias, no apoyaremos nunca, como usted puede imaginar, un Gobierno con ministros chavistas que lleve a España a la destrucción de las clases medias, a la destrucción de las libertades civiles a manos del neocomunismo que ustedes representan y al derribo de la monarquía parlamentaria. Señor Rufián, no apoyaremos nunca un Gobierno que haya obtenido el salvoconducto del golpismo de Esquerra Republicana de Catalunya y que solo puede servir para seguir oprimiendo a los catalanes con impunidad, como hacen ustedes; para destruir la convivencia y la unidad nacional; para perseguir la lengua española, espiar a los escolares que hablan en español y, en algunos casos, hemos visto que incluso para golpearles.<note>Aplausos</note> Señores del Partido Nacionalista Vasco y de Bildu, no apoyaremos nunca un Gobierno abiertamente deseado por el separatismo y por el terrorismo, como hemos comprobado durante estos días; un Gobierno que será utilizado para blanquear la historia criminal de ETA y para hacer cosas que helarán la sangre también a muchísimos socialistas; un Gobierno que nos condene a seguir soportando en esta tribuna, década tras década, la soberbia de los señoritos del PNV que acuden a Madrid vestidos de hombres de Estado cuando lo que pretenden es precisamente romper el Estado.<note>Aplausos</note> En definitiva, señores de Podemos, de Esquerra Republicana de Catalunya, del Partido Nacionalista Vasco y grupo de liberados y laguntzailes de Bildu, no apoyaremos nunca un Gobierno que ponga en riesgo la unidad nacional, el orden constitucional, las libertades de los españoles y la prosperidad de nuestra patria. Y por eso si algún día logran ustedes colocar a su peón al frente del Gobierno de España, sepan que no nos vamos a la leal oposición; nos vamos a la oposición frontal y total, a la oposición sin cuartel a este testaferro o a cualquiera de los testaferros que ustedes quieran colocar al frente del Gobierno de los españoles. Y lo haremos con toda nuestra fuerza parlamentaria, y más, lo haremos con toda la fuerza de la sociedad española y, también, con toda la fuerza de la ley que defendemos. No se sonrían ustedes porque somos muy eficaces en eso, como saben sus compañeros que fueron sentados en el banquillo y que hoy están en prisión.<note>Aplausos</note> Señorías, ni venceréis ni convenceréis, y no lo haréis porque esa paranoia de megalómanos que es el separatismo -así lo llamaba don Miguel de Unamuno- nunca podrá con el pueblo español. Y parece que en algo estamos de acuerdo unos cuantos de los que hemos intervenido esta mañana en esta tribuna: en medio de todas sus traiciones, en medio de todos sus crímenes, en medio de todos sus intereses espurios y de sus objetivos ilegítimos, no tengan ninguna duda de que España prevalecerá.</seg>
+               <seg>Muchas gracias.</seg>
+               <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario VOX, puestos en pie</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u15" ana="#chair">
+               <seg>Muchas gracias, señor Abascal.</seg>
+               <seg>Por el Grupo Parlamentario Republicano, tiene la palabra el señor Rufián Romero.</seg>
+               <note>Aplausos</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u16"
+               who="#RufiánGabriel"
+               ana="#regular">
+               <seg>Muchas gracias, señora presidenta.</seg>
+               <seg>Buenas tardes a todas y a todos. Señor Rivera, aquí un miembro de la banda.<note>Risas.-Aplausos</note> Entiendo que ir con el señor Abascal no es ir en una banda, es ir con un comando.<note>Risas.-Aplausos</note> Señor Abascal, ¡yo ya sé que el castellano está perseguido en Cataluña!, de hecho, como se nota, ¡me está costando un montón hablarlo! Le pido que se modere una vez más.</seg>
+               <seg>Señor Sánchez, señor Iglesias, es que mírenlos, miren la derecha, están encantados de la vida y nos están aplaudiendo con las orejas.<note>Varios señores diputados: Sííí</note> De hecho, ellos a estas alturas, si se tuvieran que poner de acuerdo, si hubieran tenido que negociar, ya tendrían pactados hasta los sobresueldos.<note>Risas.-Aplausos</note> La única pregunta que cabe hacerse es ¿cuánto tiempo, cuántos meses, cuántos años, todos, todos -repito-, toda la izquierda tenga la bandera que tenga en el logo, nos vamos a arrepentir, se van a arrepentir de lo de hoy? ¿Cuánto tiempo? Nos emplazan a septiembre, la pregunta que hago es: ¿habrá septiembre? ¿Ustedes saben el enorme gesto de responsabilidad y generosidad que hace nuestro grupo hoy? ¿Creen que también lo podemos hacer en septiembre? Septiembre nos complica la vida a todos, a todos, y no hace falta ser Noam Chomsky para saberlo. Será muy complicado hacer política.</seg>
+               <seg>Señor Sánchez, fue un error el veto al señor Iglesias, fue un error, y creo que a estas alturas lo sabe. Lo único que ha provocado es subir el precio. Señor Iglesias, es un error no aceptar -me da igual- dos, tres, cuatro o cinco ministerios; es un error. Ustedes tienen, y lo digo con enorme respeto y cariño, cuatro<pb n="11"/> años de vida, cuatro años de vida por cuatro ministerios, es extraordinario. ¡Entren en el Gobierno y demuestren durante cuatro años que son mejores! ¡Y cóbrenselo en unas futuras elecciones generales! ¡Tienen la capacidad para hacerlo!<note>Aplausos</note> De esta intransigencia nos arrepentiremos todos.</seg>
+               <seg>Hoy, señor Sánchez, y se lo digo con muchísima pena, no nos tiene donde nos querían, en un no. A mí me ha dado la impresión de que no nos quería, me ha dado la impresión de que nos quería meter en el saco de la intransigencia, del bloqueo y del odio, quizá me equivoco, pero no nos tiene. Nosotros hoy aquí nos abstenemos, independientemente de lo que pase, porque estamos convencidos y, sobre todo, un señor, nuestro presidente, candidato y líder victorioso en las elecciones generales en Cataluña, que lo está siguiendo desde una celda de once metros cuadrados en Lledoners.<note>Rumores</note> Si nosotros estamos haciendo este gesto, la única pregunta es por qué algunos de ustedes no lo están haciendo.</seg>
+               <seg>Señor Sánchez, se arrepentirá de haber preferido la abstención en algún momento del señor Rivera y del señor Casado a la presencia del señor Iglesias en un ministerio, se arrepentirá. No hace falta ser muy espabilado para verlo. Señor Iglesias, se arrepentirá de no haber aprovechado esta oportunidad. Se arrepentirá. Repito: cuatro años por tres o cuatro ministerios es extraordinario. Y no se trata de a ver quién lo explica mejor, no se trata de a ver quién lo explica mejor a partir de ahora; se trata de que nos meterán en el mismo saco a todos, a todos. La gente lo único que ve es a la izquierda perdiendo una vez más. Yo soy de izquierdas y llevo en el ADN la derrota, he perdido toda mi vida, y hoy aquí lo vuelvo a hacer y no es por ellos, es por nosotros. Debería darles vergüenza.<note>Aplausos</note> Señor Sánchez y señor Iglesias -con esto ya acabo-, los dos tienen hijos. Usted, señor Sánchez, más mayores y usted, señor Iglesias, más pequeños. Yo tengo uno también y es precioso.<note>Risas</note> Tengo un amigo que tiene dos hijos, se llaman Lluc y Joana, son muy pequeños, y cada noche en la terraza de su casa les enseñaba las estrellas y les explicaba las constelaciones porque sabe un montón de estrellas, de hecho, sabe de un montón de cosas. Se llama Oriol Junqueras, y él nos pide que les hagamos un regalo, un libro, un libro que ha escrito en su celda, sobre todo en la celda de Soto del Real, un libro de cuentos. Es este libro.<note>El señor Rufián Romero muestra un libro</note> Se lo voy a regalar a los dos. Es el libro que Oriol Junqueras escribió durante meses en su celda de Soto del Real con los cuentos que no puede explicar a sus hijos desde hace casi dos años. Si él hoy, si nosotros hoy estamos haciendo este gesto de enorme responsabilidad y generosidad simplemente porque creemos que la palabra puede vencer al odio y que la izquierda puede ganar de una vez por todas, repito: la única pregunta es por qué ustedes no. Se lo regalo, pido que lo lean y que valoren el tiempo que pasan con sus hijos y la derrota que estamos sufriendo hoy aquí.</seg>
+               <seg>Muchas gracias.</seg>
+               <note>Aplausos.-El señor Rufián Romero hace entrega del libro al señor Sánchez Pérez-Castejón, candidato a la Presidencia del Gobierno, y al señor Iglesias Turrión</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u17" ana="#chair">
+               <seg>Gracias, señor Rufián.</seg>
+               <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Esteban Bravo.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u18"
+               who="#EstebanAitor"
+               ana="#regular">
+               <seg>Muchas gracias, señora presidenta.</seg>
+               <seg>Este es el mundo al revés, no solo por la situación que estamos viviendo, sino también porque, ¡claro!, escuchar al señor Abascal parafraseando a Unamuno en defensa de sus posiciones es impresionante.<note>Risas y aplausos</note> Yo tenía la esperanza, sinceramente, de que la máxima del general Patton se iba a cumplir, aquella de: 'La presión hace diamantes'. Creía que la presión social y del ambiente en esta Cámara iban a provocar que al final hubiera investidura, que hubiera un acuerdo. Y me confieso decepcionado, sinceramente, pero creo que las cosas se han hecho como no se tenían que hacer. Creo que el Partido Socialista ha ido tarde y ha dejado pasar demasiado el tiempo; creo que tendría que haber buscado complicidades de otra manera. Incluso en el discurso del pasado lunes se lo dije, señor candidato, que tenía que buscar más empatía, más complicidades. Y lo que tampoco entiendo es que se tire la toalla antes del último minuto. Daba la sensación, por lo que se comentaba ante la prensa hace nada, hace una hora, antes de empezar esta reunión, este Pleno, que ya se había tirado la toalla, por todas las partes.</seg>
+               <seg>Señor Iglesias, también tengo que decirle a usted algo acerca de eso de asaltar el cielo. El cielo se conquista de nube en nube, ocupando una nube y luego otra, pero al asalto no se conquista, en absoluto. Se equivoca si pretende hacerlo así. Y tiene que aceptar también que es cierto que es una fuerza política que no ha gestionado, que no ha estado nunca en el Gobierno del Estado, ni de una manera muy representativa luego -con éxito y durante muchos años- en Gobiernos autonómicos. Es verdad también que ha planteado políticas de rompe y rasga, que chocarían no con el Partido Socialista, sino con una<pb n="12"/> mayoría muy amplia de esta Cámara. Por tanto, también hay que saber crear una imagen alrededor de una fuerza política, ir ganando posiciones, crear una confianza también en las instituciones, en el ámbito social, en el ámbito económico, como país. Su tozudez ha estado a punto de provocar una quiebra, no se va a escenificar aquí porque al final van a votar abstención ustedes dos, pero ha estado a punto de escenificar una quiebra con Izquierda Unida y con Podemos, como antes también tuvo decepciones dentro de su grupo. Creo que hay que saber qué es lo posible, y se lo voy a decir muy sinceramente. Pensar en ministerios -ahora ya sé que no- como Transición Ecológica, con las implicaciones que tiene en el mundo económico, en el ámbito fiscal, en el ámbito del empleo, por parte de una fuerza que no ha gobernado nunca, sinceramente no es real; insisto, no es real. O en ministerios como Hacienda, que es el clavito del abanico del Gobierno. Seguro que podrá aspirar incluso a presidir el Gobierno en el futuro, pero hay que saber la fuerza que uno tiene en el Parlamento y medirse. Ahora bien, tampoco se lo han puesto fácil: hasta el último día y a última hora, etcétera. Pero aquí todo el mundo tiene culpa. Ahora saca usted una propuesta. Me parece que no era ya el momento, pero, oiga, bienvenida sea; yo he dicho antes que hay que intentarlo hasta el último minuto.</seg>
+               <seg>Si el problema es ese, si el problema al final se reduce a las políticas activas de empleo, me parece a mí que hay tiempo y hay margen para llegar a un acuerdo, no aquí y ahora, probablemente, porque habrá más que hablar, pero, si verdaderamente el problema se reduce a eso...</seg>
+               <note>Rumores</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u19" ana="#chair">
+               <seg>Señorías, por favor.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u20"
+               who="#EstebanAitor"
+               ana="#regular">
+               <seg>Es curioso porque ahora, oyéndoles, me decía algo una colaboradora cercana y he pensado: ¡qué ironía, tiene razón! Me decía que hace unos meses el problema era el relator y que ahora el problema es el relato.<note>Risas</note> Se está reduciendo todo a eso últimamente, publicando ambas partes todo lo que iban haciendo, diciendo cuáles eran sus posiciones y lo que querían. Con lo cual se han atado las manos para públicamente poder retroceder un poquito en su posición. Han estado perdiendo el tiempo, pensando que tenían una fuerza que en realidad no tenían. Y este final de sillones, sinceramente se lo digo, ha sido lamentable.</seg>
+               <seg>¿Hay un programa conjunto? Eso era lo importante, por donde hay que empezar, lo que queríamos ver. ¿Hay un programa conjunto? Me temo que en muchas áreas seguramente no, aunque en muchas coincidirán, pero un programa conjunto no lo han trabajado. Este ambiente crea -digamos- mal rollo -perdón por la expresión- y yo sé que las relaciones personales también son difíciles, pero me niego a pensar que no podamos crear las condiciones necesarias para ahormar un Gobierno antes de septiembre; es más, incluso en agosto si es posible. Creo que debemos intentarlo todos, que no hay que arrojar la toalla y que todos tenemos que reflexionar sobre cómo se han desarrollado los acontecimientos.</seg>
+               <seg>Señor Sánchez, concluyo. Créame si le digo que esperaba que fuera investido -se lo digo sinceramente- y nuestra intención -lo sabe usted- ha sido siempre facilitar esa investidura. No ha podido ser al no haber un acuerdo con unos socios imprescindibles, porque hay que reconocer que Unidas Podemos es un socio imprescindible, y sin unas conversaciones más profundas con el resto de grupos. Nuestro sí lo tenía en el bolsillo, y lo sabía, pero es que ambos han seguido un procedimiento que no ha creado las condiciones necesarias.</seg>
+               <seg>Nosotros vamos a mantener el diálogo y la disposición durante el tiempo que quede hasta una -espero que no se produzca- nueva convocatoria electoral para intentar lograr las complicidades suficientes para formar un Gobierno. Nos ofrecemos en lo que a nuestra experiencia se refiere para ayudar y colaborar. Creo que todos tenemos que aprender del fracaso y que no tenemos que darnos por vencidos. Hoy nos abstendremos, pero con esa esperanza.</seg>
+               <seg>Muchas gracias, señora presidenta.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u21" ana="#chair">
+               <seg>Muchas gracias, señor Esteban.</seg>
+               <seg>Por el Grupo Parlamentario Mixto, tiene la palabra, en primer lugar, la señora Borràs Castanyer.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u22"
+               who="#BorràsLaura"
+               ana="#regular">
+               <seg>Buenas tardes.</seg>
+               <seg>Señor Sánchez, desde el martes se mantienen intactas las 155 razones que tenemos para votar no y aún, si cabe, podemos añadir una: parece haber confundido usted un debate de investidura con un debate de adhesión a su persona. Nos ha dicho que usted no iba a renunciar a sus principios; nosotros tampoco vamos a hacerlo. Yo le cité sus palabras de mayo de 2018: En Cataluña hay un problema político. Lo decía usted. Pues bien, hoy tiene una segunda oportunidad -una segunda oportunidad que no tuvo Jordi Turull,<pb n="13"/> que fue detenido en las veinticuatro horas que mediaron entre la primera y la segunda sesión de su debate de investidura- y la echa a perder. El otro día hablaba usted de un problema de convivencia, señor Sánchez, y lo que yo veo es que el problema de convivencia lo tienen entre ustedes. Avísennos cuando lo solucionen y, cuando lo hagan, vayan a hablar con el president de la Generalitat.</seg>
+               <seg>El otro día estuvo desafortunado. Creo que ha conseguido usted la total unidad de la Cámara en ese aspecto. También habló del supuesto pueblo catalán. Lo dijo así. El estatut, al cual tanto le gusta referirse, dice explícitamente: Els poders de la Generalitat emanen del poble de Catalunya, no del 'supuesto pueblo catalán', y usted debería saberlo. Es muy poco digno de alguien que aspira a dirigir un Gobierno que ofrezca estas credenciales, que son de antipolítica o de la diplomacia que practica Josep Borrell. Pero sepa que en democracia ningún voto le debería parecer ni inútil ni irrelevante. Nuestro no es un no que con su actitud se ha convertido en un no inevitable. Nuestros compañeros son presos políticos, pero usted es un político preso por su prepotencia, y el día que usted le diga sí a la política y deje de decir que no, nunca jamás, a las aspiraciones de los millones de independentistas, ese día nos encontrará dispuestos a buscar conjuntamente la solución que Cataluña necesita y espera. No sé si hoy será usted presidente, pero mañana despertará y los independentistas no habremos desaparecido; seguiremos aquí, como el dinosaurio de Monterroso. Y si no desprecia el resultado de las elecciones, además de querer ser presidente, tendrá que saber hacer de presidente. Tiene dos meses por delante. No se escude en excusas, en futuras sentencias. Si es presidente, está usted condenado a liderar el camino de las soluciones. Ese es el desafío.</seg>
+               <seg>Nosotros hemos venido -con esto acabo- a hacer política, como la estamos haciendo en todas y cada una de las instituciones catalanas y como la vamos a hacer en Europa, donde hemos obtenido la misma representación que usted se arroga para España. Para defender todas las políticas, las de progreso fomentando la igualdad y apostando por la mejorar la calidad de vida de los ciudadanos, seremos muchos, nosotros también. Para defender políticas económicas como las que ya hacen de Cataluña el motor de España, también. Pero, como decía el president Macià: Ai del poble, si el determini que pren no és dictat per la dignitat. Ante tanta renuncia, algunos haremos bien en recordar sus palabras.</seg>
+               <seg>El otro día le hablé de la tercera oreja. Hoy solo le digo que esperábamos de usted más sentido de Estado. Ahora solo le pedimos sentido común. Muévase, señor Sánchez: Cataluña, España y la historia se lo agradecerán.</seg>
+               <seg>Muchas gracias.</seg>
+               <note>Aplausos</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u23" ana="#chair">
+               <seg>Gracias, señora Borràs.</seg>
+               <seg>Tiene la palabra el señor Matute.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u24"
+               who="#MatuteOskar"
+               ana="#regular">
+               <seg>Muchas gracias, señora presidenta.</seg>
+               <seg>En dos minutos, y en nombre de la izquierda soberanista independentista vasca, quisiera trasladar algunos apuntes sobre lo que han sido estos días. El primero es constatar con preocupación la normalización y homologación que a la extrema derecha se le está dando en el Estado español.<note>Protestas</note> Para nosotros lo más preocupante no es que haya veintitrés émulos de Torrente, Blas Piñar o MillánAstray en esta Cámara. Lo preocupante es que se homologue su discurso y que se les dé capacidad de veto y de presión al resto de las formaciones políticas. Solo así se entiende el miedo a negociar con Euskal Herria Bildu en algunos territorios. Solo así se entiende el miedo para frenar Gobiernos de progreso.</seg>
+               <seg>Otro apunte tiene que ver con los votos. Los cuatro votos de Euskal Herria Bildu -fíjese, señor Sánchez, uno más de los tres que necesitaba para salvar la investidura en caso de un acuerdo con Podemos- eran votos no para que usted fuera presidente, no porque confiáramos ciegamente en usted, y se lo digo desde el respeto. Eran votos fundamentalmente para evitar que Casado, Rivera o Abascal fueran presidentes. Los votos de Euskal Herria Bildu eran desde hace meses un compromiso antifascista para no permitir hacer realidad el sueño húmedo de la ultraderecha, sea esta azul, verde o naranja, porque nos debemos a nuestro pueblo y una parte importante de nuestro pueblo, el que se ubica en la Comunidad Autónoma vasca, les premió a ustedes, a los señores del Partido Popular, de Ciudadanos y de VOX, con cero diputados. Eso es lo que se merecen, ese es el pueblo al que nos debemos y por eso estábamos dispuestos a contribuir para que no fuera posible su ascenso.</seg>
+               <seg>Termino con dos cuestiones. En esta Cámara se ha hablado mucho de muchas cosas y se han utilizado palabras bellas. Se ha hablado mucho del feminismo y se ha puesto como ejemplo de los tiempos que tenemos que construir. Por desgracia, constatamos que se ha profundizado poco en lo que significa el feminismo. Si ustedes hubieran hecho el ejercicio de trasladar la sororidad en el feminismo a la empatía<pb n="14"/> y la fraternidad entre las fuerzas de izquierda para un compromiso conjunto, quizá hoy no nos estaríamos lamentando todos y todas.</seg>
+               <seg>Termino con otra cuestión. También han empleado el sentido de Estado como arma arrojadiza para apelar al cambio de voto de otras formaciones políticas. De sobra es conocido que Euskal Herria Bildu no tiene sentido de Estado español, pero nos sobra sentido común. Sabíamos y sabemos que lo que nos piden los ciudadanos y ciudadanas de bien, la gente humilde, las clases trabajadoras, es que impidamos que negras tormentas acechen el alba.</seg>
+               <note>Aplausos</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u25" ana="#chair">
+               <seg>Gracias, señor Matute.</seg>
+               <seg>Por el mismo grupo parlamentario, tiene la palabra la señora Oramas.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u26"
+               who="#OramasAna"
+               ana="#regular">
+               <seg>Gracias, señora presidenta.</seg>
+               <seg>Señor Sánchez, si aquí estuviera una abuela canaria utilizaría una expresión que nos aterroriza a los niños canarios, que es: ¡están ustedes bonitos! Es un dicho muy canario cuando nos echaban la bronca. La gran pregunta es: ¿y ahora, qué? No puede pasar que el candidato, actual presidente del Gobierno en funciones, diga: como no he salido, me voy a Moncloa y nos vemos en noviembre. Hay que hacer un esfuerzo en este momento, tenemos esa responsabilidad. Los nacionalistas canarios de Coalición Canaria, después de tener la garantía de que esos señores que querían los sillones, que no han firmado el pacto antiterrorista, que rompieron el Pacto de Toledo de las pensiones, que no respetan el marco constitucional, no sirven para gobernar este país, estamos dispuestos a dar un paso, pero negociando como se negocia. Lo que se ha roto es una negociación de tres días para una investidura, y aquí hay que hablar de gobernabilidad y de país. Cuando se es presidente, lo primero es el país, después el partido y después el líder. Y yo le recomiendo una cosa, señor Sánchez: déjese de asesores, de estrategias, y ponga a la esencia de su partido, sin estrategias electorales, a hablar. Tiene gente magnífica en ese escaño y en el segundo. Esta fuerza política, como la del PNV, tiene experiencia de Gobierno, de izquierda y de derecha, quiere negociar por Canarias, y quiere negociar por la estabilidad y la gobernabilidad de este país, no por una investidura, desde mañana.</seg>
+               <seg>Los ciudadanos ya hablaron, ellos cumplieron su tarea, y ahora la tenemos que cumplir nosotros. El señor Casado le ha ofrecido unos pactos de Estado, con los que este partido está de acuerdo. ¿Qué es lo que no puede hacer ahora que pueda hacer en noviembre? Es que en noviembre no va a sacar mayoría absoluta. ¡Ya veremos si mejora o empeora! Empiece ya, hagamos pactos de Estado las fuerzas que creemos en pactos de Estado, en políticas sensatas, en el marco constitucional. A lo mejor adelantamos lo de noviembre, si no hay más remedio, pero, hasta el último día, primero este país, primero los ciudadanos. Ellos hicieron el trabajo y ahora nos corresponde a nosotros, porque ¡estamos bonitos todos!, como dicen las abuelas canarias.</seg>
+               <seg>A pesar de que Coalición Canaria fue la primera fuerza y ayer le hicieron una moción de censura; de que ustedes, por tirar a Coalición Canaria, le dieran la presidencia del Cabildo al PP, que era la tercera fuerza; de que no ganaron las elecciones, las ganó Coalición, cuando ustedes gobernaron ocho años; de que en Tenerife se unieron a dos tránsfugas, a Ciudadanos y Podemos, para echarnos; a pesar de que la moción de censura la podían haber presentado dentro de dos semanas, para ser amigos, pero lo hicieron ayer, esta diputada le dice que mi fuerza política está dispuesta a hablar a partir de mañana, no de investidura, sino de gobernabilidad, de los derechos de los canarios, del cumplimiento del marco constitucional, desde luego, con seriedad, como se ha hecho siempre. Alemania tardó tres meses en negociar un Gobierno. Un Gobierno no se negocia en tres días, pero cumplan con mi tierra y con este país, con esa coherencia y con esos valores que ha tenido siempre el Partido Socialista, que ahora le ha tendido la mano a esos.<note>Señalando al Grupo Parlamentario Popular</note> No nos muerda la mano. Humildad.</seg>
+               <seg>Gracias, señora presidenta.</seg>
+               <note>Aplausos</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u27" ana="#chair">
+               <seg>Gracias, señora Oramas.</seg>
+               <seg>A continuación, tiene la palabra el señor García Adanero.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u28"
+               who="#GarcíaCarlos"
+               ana="#regular">
+               <seg>Gracias, señora presidenta.</seg>
+               <seg>Señor Sánchez, después de haber oído al portavoz de Bildu, ¿usted cree que le puede apoyar Bildu en Navarra para que no gobierne un Gobierno constitucionalista? ¿Ha escuchado lo que ha dicho? ¿Usted cree que ese es un socio bueno para usted? Porque hay que recordar que usted les propone, les dice,<pb n="15"/> tanto al Partido Popular como a Ciudadanos, que se abstengan para no depender de los independentistas, y en el único sitio que usted puede pactar para que los independentistas no manden y gobiernen PP, Ciudadanos y Unión del Pueblo Navarro, que ganamos las elecciones, pactan con los independentistas.<note>Aplausos</note> Es que pactan con los independentistas. Y le voy a decir otra cosa. Con Bildu no hay que tener problemas del pasado, sino problemas del presente: Bildu sigue sin condenar el terrorismo de ETA a día de hoy.<note>Aplausos</note> ¡Hombre, que hay que hablar claro! Le voy a decir más: en Bildu dice que son feministas, pero justifican la agresión a mujeres por ser mujeres de guardias civiles, y eso no es feminismo.<note>Aplausos</note> Supongo que ustedes entenderán que eso no es feminismo.</seg>
+               <seg>Por lo tanto, si de verdad quiere que pueda haber en España responsabilidad por parte del Partido Popular y de Ciudadanos -no voy yo a hablar en su nombre porque representan a muchos más de los ciudadanos que yo represento aquí-, lo que sí le puedo decir es que puede empezar por la Comunidad Foral de Navarra. En la Comunidad Foral de Navarra hay dos opciones: o un Gobierno constitucionalista, que ha ganado las elecciones, o un Gobierno del Partido Socialista apoyado por Bildu. Y usted ahí dará ejemplo de si de verdad el ofrecimiento que les hace al señor Casado y al señor Rivera es creíble o es solo de cara a la galería. ¡Es que ahí lo vamos a ver! ¡Ahí va estar la prueba del algodón! Por lo tanto, oportunidad tiene de rectificar ese acuerdo, porque si no estará demostrando, como parece ser, que está mucho más cómodo con los independentistas, con aquellos que quieren a Navarra en una Euskadi independiente, que con aquellos que defienden Navarra como comunidad foral dentro de la unidad de España. Eso es lo que nos estamos jugando en la Comunidad Foral de Navarra y en el conjunto de España. Usted ahí tendrá que decidir y ahí se verá en qué lado está.</seg>
+               <seg>También quiero hacer un apunte final. Ni el Partido Nacionalista Vasco ni Euskal Herria Bildu tuvieron representación el 28 de abril en la Comunidad Foral de Navarra. Por lo tanto, no contribuya usted a que las decisiones de Navarra se tomen ni en Sabin Etxea ni en Guipúzcoa; que se tomen en Navarra y aquí, que es donde se tienen que tomar.</seg>
+               <seg>Muchas gracias.</seg>
+               <note>Aplausos</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u29" ana="#chair">
+               <seg>Gracias, señor García.</seg>
+               <seg>Tiene la palabra el señor Baldoví Roda.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u30"
+               who="#BaldovíJoan"
+               ana="#regular">
+               <seg>Hay una mítica canción de la inolvidable Aretha Franklin que se llama Respect. Desde Compromís, señor Sánchez, como dice la letra, solo le pedimos un poco de respeto; respeto a los ciudadanos que confiaron en que construiríamos un Gobierno de progreso; respeto a los que le hicimos presidente cuando usted no era ni diputado y con el que apenas hemos negociado un par de veces; respeto a mi Gobierno, a su Gobierno, al Gobierno del Botànic, un Gobierno modélico en políticas sociales, que no puede y que no podrá hacer las políticas sociales que usted desgranó en su discurso, porque con sus negativas a buscar un mecanismo que compense la infrafinanciación valenciana nos vuelve a condenar, a dedicar la cuarta parte de nuestro presupuesto a pagar una deuda ilegítima que no hemos generado, en lugar de dedicarla a ayudar y rescatar a las personas, a los dependientes, a los jóvenes, a los autónomos, a nuestras empresas, a la violencia machista; respeto, en fin, a los cinco millones de personas que viven y trabajan en mi tierra y que, sinceramente, esperaban más de usted y más de todos.</seg>
+               <seg>El relato, nuestro relato: usted quiere ganar esta votación por rendición; usted quiere ser presidente sin negociar a fondo con nosotros, sin buscar seriamente el acuerdo con nosotros. Hemos negociado con desgana, incluso el otro día percibimos soberbia en su discurso, y no nos lo merecemos; no ya Compromís, no ya Baldoví, sino todo el pueblo valenciano. Y una esperanza: siempre nos quedará septiembre y agosto, y allí estará Compromís si usted quiere negociar con lealtad.</seg>
+               <seg>Señor Sánchez, señor Iglesias, todos, la izquierda, no defraudemos la esperanza de millones de personas, porque si dejamos morir estos dos meses sin hacer nada, si ya vamos a elecciones, muchas personas mostrarán su frustración con una abstención cabreada y militante. Negociemos, acordemos, seamos generosos, flexibles, porque muchas personas están deseando que haya Gobierno, que usted sea presidente; están deseando que se resuelvan sus problemas, como los funcionarios de prisiones, como los valencianos y las valencianas, por poner solo un par de ejemplos. Pasemos página y empecemos a trabajar desde hoy mismo. O eso, o la foto de Colón. A ver si somos capaces de helar su sonrisa de hoy estos dos meses que nos quedan. Con nosotros puede contar si realmente existe esa voluntad de negociar.</seg>
+               <seg>Moltes gràcies.</seg>
+               <pb n="16"/>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u31" ana="#chair">
+               <seg>Gracias, señor Baldoví.</seg>
+               <seg>En último lugar, tiene la palabra el señor Mazón Ramos.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u32"
+               who="#MazónJosé"
+               ana="#regular">
+               <seg>Buenos días y muchas gracias, presidenta.</seg>
+               <seg>Señorías, el pasado martes pude explicar aquí la posición del Partido Regionalista de Cantabria en este debate de investidura. Pues bien, nada ha cambiado para mi partido desde entonces y por eso tampoco cambiará nuestro voto favorable a la investidura del señor Sánchez.</seg>
+               <seg>Nos presentamos para defender los intereses de Cantabria y apoyar la gobernabilidad de España. Respecto a Cantabria, estamos satisfechos del trabajo realizado estos meses. Hemos firmado un acuerdo de Gobierno con el Partido Socialista donde se recogen unos compromisos con nuestra tierra que son vitales para nuestro futuro. Se han basado en criterios de justicia perfectamente asumibles por cualquier Gobierno, impregnados de realismo con la situación actual y sin ningún ápice de oportunismo. Por eso han sido asumidos por el Partido Socialista y han sido ratificados por su candidato en esta tribuna. Es obvio que nuestro voto no iba a ser el voto decisivo para esta investidura, pero Cantabria no se merecía menos. También estoy convencido -tengo la seguridad- de que la gran mayoría de los grupos políticos que hay en esta sala y de sus diputados asumirían estos compromisos, y por eso estoy satisfecho, porque estoy seguro de que estos proyectos que hay en marcha esta vez no se van a retrasar sea cual sea el Gobierno de España.</seg>
+               <seg>En relación con la gobernabilidad de España, también hemos cumplido con nuestro objetivo, que no era otro que aportar nuestro grano de arena. En este caso, nuestro grano era y va a ser nuestro voto. Pero no solo nuestro voto; queremos darle nuestro apoyo moral no solo por los temas que afectan directamente a Cantabria, sino porque un país necesita un Gobierno, y nos parece que su programa es un buen programa, el que necesita España en estos momentos. Sin embargo, después de oír al resto de los portavoces, parece imposible que sea investido en esta sesión. Yo creo que en realidad ni le han escuchado, y también quiero decir que muchos de los otros, a pesar de lo que se ha dicho hoy, tampoco han demostrado una gran voluntad de querer tener un Gobierno. Tanta duda, tanta abstención, no parece reflejar esa voluntad.</seg>
+               <seg>Todavía hay que mirar hacia adelante. Señor Sánchez, yo creo que es preciso comenzar las negociaciones desde cero. Yo estoy seguro de que usted lo va a hacer pensando en dotar a España de un Gobierno coherente con todos los retos que tenemos planteados. Todavía hay dos meses para hacer un nuevo intento; es tiempo suficiente para que todo el mundo pueda replantear su posición. Tampoco sería una traición a los electores. A los ciudadanos yo creo que les parecería bien que fuéramos flexibles y que lo preferirían antes de que hubiera que repetir elecciones. Todos somos conscientes de que hay que pactar y, para pactar, hay que ceder. Ayer puse el ejemplo de Cantabria en los últimos veinticuatro años; hoy lo reitero. No es tan complicado.</seg>
+               <seg>Nada más. Le deseo mucha suerte, señor Sánchez.</seg>
+               <note>Aplausos</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u33" ana="#chair">
+               <seg>Muchas gracias, señor Mazón.</seg>
+               <seg>Por el Grupo Parlamentario Socialista, tiene la palabra la señora Lastra Fernández.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u34"
+               who="#LastraAdriana"
+               ana="#regular">
+               <seg>Gracias, señora presidenta.</seg>
+               <seg>Señorías, hoy no es un buen día. No lo es para la política, no lo es para esta Cámara y no lo es para nadie que en este país se considere progresista. Permítanme que comience esta intervención dando las gracias a los grupos que se han esforzado por dar a España un Gobierno que necesita y que los ciudadanos ya han elegido. Han sido muchos, y el apoyo se puede expresar de diferentes formas, soy consciente de ello, y quiero darles las gracias a todos. Lamentablemente parece que no ha sido posible.</seg>
+               <seg>Señor Iglesias, el pasado martes le tendimos la mano. También le dije desde esta tribuna que no necesitábamos guardianes de las esencias, sino socios leales. Creo que esta negociación ha estado lastrada porque usted se ha negado a asumir el resultado electoral, se lo digo sinceramente. Se ha negado a asumir que fue Pedro Sánchez, y no usted, quien ganó las elecciones. Se ha negado a asumirlo, señor Iglesias, porque públicamente usted no ha dejado de hablar de proporcionalidad, de que solo pedía lo que le correspondía, pero en privado lo que nos exigía era otra cosa: nos exigía controlar más de la mitad del gasto público, como ya le ha explicado el presidente del Gobierno. Lo que usted nos exigía era controlar la mayor parte del gasto público.<note>Denegaciones por parte del señor Iglesias Turrión</note> Sí, señor Iglesias, sí. Eche usted las cuentas, por favor; y de ahí además no se ha movido. Pero no solo pedía usted controlar más de la mitad del gasto público, es que también nos exigía controlar los ingresos, todos<pb n="17"/> los ingresos: tributos, inspección fiscal, secretaría y subsecretaria de Hacienda y la Autoridad de Responsabilidad Fiscal, la AIReF. O le dábamos el control del gasto público y de los ingresos públicos o no había más que hablar y España se quedaba sin Gobierno. Yo estuve allí, señor Iglesias. Sé, conozco, estaba en las negociaciones.<note>Denegaciones por parte del señor Iglesias Turrión</note> ¿Es esa su proporcionalidad? ¿A eso le llama usted negociar?</seg>
+               <seg>El problema es que la realidad es la que es, y usted no ganó las elecciones y no puede dirigir el 60 % de los ingresos y gastos de este país. El problema -se lo dije yo misma y se lo dijo el presidente- es que nosotros queremos negociar de buena fe, pero no vamos a aceptar chantajes ni imposiciones.<note>Risas por parte del señor Iglesias Turrión</note> A mí no me hace ninguna gracia, yo no me estoy riendo, señor Iglesias. Y de eso se trata, de que lo que usted decía de cara al público no se correspondía con lo que le decía en privado al presidente, ni lo que decían en público sus negociadores era lo que nos decían en privado a las tres negociadoras, con las que ha sido un placer, por cierto, compartir mesa -difícil- en estos días.<note>Aplausos</note> De cara al público hablaba de proporcionalidad, pero después le exigía al presidente prácticamente controlar la economía de este país, y nosotros callamos, señor Iglesias, callamos para que la negociación siguiera adelante. De cara al público repetía que no pedía más que lo que le correspondía como cuarta fuerza política<note>denegaciones por parte del señor Iglesias Turrión</note> , y después, en privado, exigía al presidente cuatro de las seis áreas que Pedro Sánchez planteó como prioritarias para el proyecto socialista: trabajo, ciencia, transición ecológica y el área social. Para usted dos tercios, y para el ganador de las elecciones un tercio. Y nosotros callamos, señor Iglesias, callamos para que estas negociaciones siguieran adelante. Y entonces volvía a salir usted o alguno de sus portavoces a decir que exigían las áreas sociales para asegurarse de que el Gobierno hiciera políticas de izquierdas.</seg>
+               <seg>Señor Iglesias, todo tiene un límite y usted lo sobrepasó, porque -se lo dije el martes- el Partido Socialista lo que necesita son socios leales y lo que no necesitamos es que venga usted a presentarse como el guardián de las esencias de la izquierda, porque no lo es.<note>Aplausos</note> No lo es, y si quiere usted una prueba no mire muy lejos: esta es la segunda vez que usted va a impedir que España tenga un Gobierno de izquierdas.<note>Aplausos.-Denegaciones por parte del señor Iglesias Turrión</note> Curioso progresismo el suyo, señor Iglesias, que cuando más falta hace acaba sumándose a la derecha, y hoy además a la ultraderecha. Curioso progresismo el suyo, señor Iglesias.</seg>
+               <seg>Le ofrecimos que dirigieran igualdad. No le tengo que decir lo que la igualdad supone para mi partido o para cualquier partido de izquierdas. ¿Recuerda usted cómo lo llamaron ayer? Se lo digo yo: para usted la igualdad es un jarrón chino; un jarrón chino. Le ofrecimos vivienda, uno de los grandes problemas de nuestro país, y a usted le pareció un jarrón chino. Ciencia y universidades, y dijo que no. Cultura, dijo que no. Agricultura, dijo que no. Cooperación internacional, Agenda 2030 y migraciones, dijo que no. Sanidad, señor Iglesias, sanidad, que es la joya del Estado del bienestar en nuestro país, y dijo que no. Y usted dijo que todo eso, señor Iglesias, era un jarrón chino, mero decorado.</seg>
+               <seg>Le ofrecimos una vicepresidencia, señor Iglesias, que además fue la exigencia que ustedes nos hicieron para sentarse a negociar, una vicepresidencia de carácter social para la señora Montero. Por cierto, fue este equipo negociador del Partido Socialista el que le dio contenido a la vicepresidencia, porque la primera propuesta era que fuese una vicepresidencia para coordinar, sin gestión. Le ofrecimos esa vicepresidencia social con gestión de bienestar social y para coordinar, sin sumar mayoría absoluta, señor Iglesias, entre las dos fuerzas políticas. ¿Hay algo más de izquierdas que la política social? Y ahora viene usted y se descuelga con una última propuesta sorpresa, hablando de las políticas activas de empleo. Señor Iglesias, ¿sabe usted que las políticas activas de empleo están transferidas a las comunidades autónomas?<note>Aplausos</note> Usted quiere dirigir el Ministerio de Trabajo sin saber cuáles son las competencias del Ministerio de Trabajo. Usted quiere conducir un coche sin saber siquiera dónde está el volante. Ese es el problema.<note>Aplausos</note> En eso se resume todo, señor Iglesias.</seg>
+               <seg>A usted no le ha interesado ni política social ni sanidad ni igualdad ni agricultura ni vivienda ni ciencia ni universidad, ni siquiera que España tenga un Gobierno progresista. Todo eso le daba igual, porque usted estaba aquí a otra cosa. Con 42 diputados y sin sumar mayoría absoluta lo que usted exigía era controlar los ingresos, exigía controlar los gastos, exigía la dirección política del Gobierno. Ese es el problema que le señalaba al comienzo, que en el fondo nunca ha aceptado el resultado de las elecciones, y lo que quería era usar estas negociaciones para conseguir lo que los ciudadanos no le han dado. Usted no buscaba que su partido entrase en un Gobierno socialista, quería tener un Gobierno paralelo al del Partido Socialista.<note>Aplausos</note> Usted no quería un Gobierno de coalición con el Partido Socialista, quería un Gobierno solo y exclusivamente a su medida. Nosotros podemos ceder mucho -lo hemos hecho,<pb n="18"/> hemos cedido mucho-, pero nunca vamos a traicionar a nuestros votantes ni a renunciar a todo nuestro programa. Le dije el martes -se lo dije a usted y al resto de la Cámara- que se pueden ganar o perder elecciones, pero no se puede perder el alma. Las elecciones las ganó el Partido Socialista y nadie va a conseguir que renunciemos a nuestra alma, nadie.<note>Aplausos</note> Ahora vendrá con el dichoso relato, ya lo estamos viendo. Inundarán los medios y las redes con ese dichoso relato con el que, a fuerza de intoxicar, han acabado intoxicados ustedes mismos. Señor Iglesias, haga lo que quiera, yo sigo pidiéndole el apoyo para este Gobierno.<note>Risas</note> La realidad es tozuda y la historia no perdona. Ya sé que les hace gracia que este país no tenga Gobierno, a mí no, por eso estoy seria, bastante seria.<note>Aplausos.-El señor Iglesias Turrión: Qué poca vergüenza</note> La realidad es tozuda y la historia no perdona, lo único que quedará es que hoy, por segunda vez, usted impedirá un Gobierno socialista, por segunda vez.</seg>
+               <seg>Nosotros mantenemos encima de la mesa la oferta que le trasladamos en el día de ayer, la propuesta de esa vicepresidencia social, con las competencias -no solo la coordinación, como ustedes pretendían- en bienestar social, el Ministerio de Igualdad, el Ministerio de Sanidad y Consumo y el Ministerio de Vivienda y Economía Social.</seg>
+               <seg>Finalizo ya, señora presidenta. Señor candidato, señor presidente en funciones, gracias por el esfuerzo realizado, gracias por la responsabilidad que ha demostrado, gracias en nombre de millones de votantes progresistas de este país, gracias en nombre de todo el Partido Socialista Obrero Español y a los 123 diputados de este su grupo parlamentario. Muchas gracias.</seg>
+               <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Socialista y del Gobierno en funciones, puestos en pie</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u35" ana="#chair">
+               <seg>Gracias, señora Lastra.</seg>
+               <seg>En cinco minutos iniciaremos la votación.<note>Pausa</note> Señorías, por favor, ocupen sus escaños. Hemos concluido el debate, y vamos a pasar a la votación para el otorgamiento de la confianza al candidato propuesto por su majestad el Rey.</seg>
+               <seg>Como todos ustedes saben, señorías, la confianza se entenderá otorgada si el candidato obtiene el voto favorable de la mayoría simple de la Cámara. Conforme establece el Reglamento de la Cámara en su artículo 85.2 la votación será pública por llamamiento. Sus señorías responderán 'sí', 'no' o 'abstención' desde su escaño cuando sean llamados por los señores secretarios, que leerán los nombres desde la tribuna de oradores. Ruego, así como lo hice el martes, que contesten al llamamiento con voz clara y audible, aunque los señores secretarios que les llamen repetirán el sentido de la votación para evitar dificultades. El llamamiento se hace por orden alfabético, pero comenzando por el primer apellido del señor diputado cuyo nombre ha sido sacado a suerte, como la anterior vez, y que ha sido en este caso don Luis Santamaría Ruiz. El Gobierno en funciones y la Mesa votarán al final.</seg>
+               <seg>Se va a iniciar la votación. Ruego al señor secretario primero que dé comienzo al llamamiento, por favor.</seg>
+               <seg>Por los secretarios de la Mesa se procede al llamamiento de las señoras y los señores diputados, que van manifestando el sentido de su voto.</seg>
+               <seg>Señoras y señores diputados que dijeron 'sí':</seg>
+               <seg>Sarriá Morell, Vicent Manuel</seg>
+               <seg>Saura García, Pedro</seg>
+               <seg>Serrada Pariente, David</seg>
+               <seg>Serrano Martínez, Juan Francisco</seg>
+               <seg>Seva Ruiz, Yolanda</seg>
+               <seg>Sicilia Alférez, Felipe Jesús</seg>
+               <seg>Simancas Simancas, Rafael</seg>
+               <seg>Simón Marín, José</seg>
+               <seg>Soler Mur, Alejandro</seg>
+               <seg>Soto Burillo, Juan Luis</seg>
+               <seg>Sumelzo Jordán, Susana</seg>
+               <seg>Vicente Viondi, Daniel</seg>
+               <seg>Vilches Ruiz, María Luisa</seg>
+               <seg>Villagrasa Quero, Noemí<pb n="19"/> Zamarrón Moreno, Agustín</seg>
+               <seg>Zaragoza Alonso, José</seg>
+               <seg>Aceves Galindo, José Luis</seg>
+               <seg>Alfonso Cendón, Javier</seg>
+               <seg>Alonso Suárez, María Olga</seg>
+               <seg>Andrés Añón, Carmen</seg>
+               <seg>Andrés Barea, Josefa</seg>
+               <seg>Antón Cacho, Javier</seg>
+               <seg>Aranda Vargas, Francisco</seg>
+               <seg>Arangüena Fernández, Pablo</seg>
+               <seg>Berja Vega, Laura</seg>
+               <seg>Blanquer Alcaraz, Patricia</seg>
+               <seg>Botella Gómez, Ana María</seg>
+               <seg>Bravo Barco, Eva</seg>
+               <seg>Bueno Campanario, Eva Patricia</seg>
+               <seg>Caballero Gutiérrez, Helena</seg>
+               <seg>Calva Ruiz, María Jesús</seg>
+               <seg>Campo Moreno, Juan Carlos</seg>
+               <seg>Canales Duque, Mariana de Gracia</seg>
+               <seg>Cancela Rodríguez, Pilar</seg>
+               <seg>Cantera de Castro, Zaida</seg>
+               <seg>Carrillo de los Reyes, Beatriz Micaela</seg>
+               <seg>Cerdán León, Santos</seg>
+               <seg>Clemente Guadilla, Luis</seg>
+               <seg>Corredor Sierra, María Beatriz</seg>
+               <seg>Crespín Rubio, Rafaela</seg>
+               <seg>Cuatrecasas Asua, Juan</seg>
+               <seg>Diouf Dioh, Luc Andre</seg>
+               <seg>Durán Peralta, José Carlos</seg>
+               <seg>Elorza González, Odón</seg>
+               <seg>Faneca López, María Luisa</seg>
+               <seg>Fernández Benéitez, Andrea</seg>
+               <seg>Fernández Casero, Ana Belén</seg>
+               <seg>Ferrer Tesoro, Sonia</seg>
+               <seg>Franco Pardo, José Manuel</seg>
+               <seg>García Chavarría, María Montserrat</seg>
+               <seg>García Gómez, Valentín</seg>
+               <seg>García López, Maribel</seg>
+               <seg>García Morís, Roberto</seg>
+               <seg>Gómez Hernández, Héctor</seg>
+               <seg>González Caballero, Miguel Ángel</seg>
+               <seg>González Pérez, Ariagona</seg>
+               <seg>González Ramos, Manuel Gabriel</seg>
+               <seg>Guerra López, Sonia</seg>
+               <seg>Guijarro Ceballos, María</seg>
+               <seg>Guinart Moreno, Lídia</seg>
+               <seg>Gutiérrez Prieto, Sergio</seg>
+               <seg>Izquierdo Roncero, José Javier</seg>
+               <seg>Lamuà Estañol, Marc</seg>
+               <seg>Lastra Fernández, Adriana</seg>
+               <seg>Leal Fernández, Isaura</seg>
+               <seg>Lima Cid, Fuensanta</seg>
+               <seg>López Álvarez, Patxi</seg>
+               <seg>López Cano, Ignacio</seg>
+               <seg>López Izquierdo, Sonsoles<pb n="20"/> López Zamora, Cristina</seg>
+               <seg>Máñez Rodríguez, Elena</seg>
+               <seg>Marí Klose, Pau</seg>
+               <seg>Marra Domínguez, María Ángeles</seg>
+               <seg>Marrodán Funes, María</seg>
+               <seg>Martínez Seijo, María Luz</seg>
+               <seg>Mazón Ramos, José María</seg>
+               <seg>Meijón Couselo, Guillermo Antonio</seg>
+               <seg>Mínguez García, Montse</seg>
+               <seg>Montilla Martos, José Antonio</seg>
+               <seg>Morlà Florit, Pau</seg>
+               <seg>Narváez Bandera, María Dolores</seg>
+               <seg>Nasarre Oliva, Begoña</seg>
+               <seg>Ortega Otero, Marina</seg>
+               <seg>Padilla Ruiz, Esther</seg>
+               <seg>Peña Camarero, Esther</seg>
+               <seg>Perea i Conillas, María Mercè</seg>
+               <seg>Pérez Abellás, Adolfo</seg>
+               <seg>Polo Llavata, Francisco</seg>
+               <seg>Pons Sampietro, Pere Joan</seg>
+               <seg>Prieto Nieto, Ana</seg>
+               <seg>Ramírez Carner, Arnau</seg>
+               <seg>Ramón Utrabo, Elvira</seg>
+               <seg>Ramos Esteban, César Joaquín</seg>
+               <seg>Ramos Rodríguez, José Luis</seg>
+               <seg>Raya Rodríguez, María Tamara</seg>
+               <seg>Renau Martínez, Germán</seg>
+               <seg>Rodríguez Salas, José Antonio</seg>
+               <seg>Rominguera Salazar, María del Mar</seg>
+               <seg>Ros Martínez, Susana</seg>
+               <seg>Ruiz i Carbonell, Joan</seg>
+               <seg>Ruiz López, María Concepción</seg>
+               <seg>Sahuquillo García, Luis Carlos</seg>
+               <seg>Salazar Rodríguez, Francisco José</seg>
+               <seg>Sánchez Escobar, Mariano</seg>
+               <seg>Sánchez Jódar, Marisol</seg>
+               <seg>Sancho Íñiguez, Herminio Rufino</seg>
+               <seg>Señoras y señores diputados que dijeron 'no':</seg>
+               <seg>Santamaría Ruiz, Luis</seg>
+               <seg>Sayas López, Sergio</seg>
+               <seg>Suárez Lamata, Eloy</seg>
+               <seg>Ten Oliver, Vicente</seg>
+               <seg>Tirado Ochoa, Vicente</seg>
+               <seg>Toscano de Balbín, Carla</seg>
+               <seg>Uriarte Bengoechea, Edurne</seg>
+               <seg>Valmaña Ochaíta, Silvia</seg>
+               <seg>Vázquez Blanco, Ana Belén</seg>
+               <seg>Velasco Morillo, Elvira</seg>
+               <seg>Villegas Pérez, José Manuel</seg>
+               <seg>Zurita Expósito, Ana María</seg>
+               <seg>Abascal Conde, Santiago</seg>
+               <seg>Adán de la Paz, María Ángeles</seg>
+               <seg>Almodóbar Barceló, Agustín</seg>
+               <seg>Alonso García, María Luisa<pb n="21"/> Alonso-Cuevillas i Sayrol, Jaume</seg>
+               <seg>Álvarez de Toledo Peralta-Ramos, Cayetana</seg>
+               <seg>Arrimadas García, Inés</seg>
+               <seg>Arteaga Espinosa de los Monteros, María Dolores</seg>
+               <seg>Bal Francés, Edmundo</seg>
+               <seg>Bartolomé Cachón, José Antonio</seg>
+               <seg>Beltrán Villalba, Ana María</seg>
+               <seg>Bermúdez de Castro Fernández, José Antonio</seg>
+               <seg>Betoret Coll, Vicente</seg>
+               <seg>Blanco Garrido, Mª Mar</seg>
+               <seg>Bonilla Domínguez, María Jesús</seg>
+               <seg>Borràs Castanyer, Laura</seg>
+               <seg>Borrego Cortés, Isabel María</seg>
+               <seg>Cabezón Casas, Tomás</seg>
+               <seg>Calderón Díaz, María José</seg>
+               <seg>Calvo García, Eduardo</seg>
+               <seg>Cambronero Piqueras, Pablo</seg>
+               <seg>Cano Leal, Francisco Javier</seg>
+               <seg>Casado Blanco, Pablo</seg>
+               <seg>Casero Ávila, Alberto</seg>
+               <seg>Chamorro Delmo, Ricardo</seg>
+               <seg>Clavell López, Óscar</seg>
+               <seg>Contestí Rosselló, Magdalena Margarita</seg>
+               <seg>Cortés Fernández, Juan José</seg>
+               <seg>Cruz-Guzmán García, María Soledad</seg>
+               <seg>De la Torre Díaz, Francisco</seg>
+               <seg>De Meer Méndez, Rocío</seg>
+               <seg>De Páramo Gómez, Fernando</seg>
+               <seg>De Quinto Romero, Marcos</seg>
+               <seg>Del Campo Estaún, Sergio</seg>
+               <seg>Del Moral Leal, María Luisa</seg>
+               <seg>Delgado Arce, Celso Luis</seg>
+               <seg>Díaz Gómez, Guillermo</seg>
+               <seg>Domínguez Paredes, María Victoria</seg>
+               <seg>Echániz Salgado, José Ignacio</seg>
+               <seg>Escudero Berzal, Beatriz Marta</seg>
+               <seg>España Reina, Carolina</seg>
+               <seg>Espejo-Saavedra Conesa, José María</seg>
+               <seg>Espinosa de los Monteros de Simón, Iván</seg>
+               <seg>Esteban Calonje, Cristina Alicia</seg>
+               <seg>Fernández González, Justo</seg>
+               <seg>Fernández Hernández, Pedro</seg>
+               <seg>Fernández-Bravo García, Francisco Javier</seg>
+               <seg>Figaredo Álvarez-Sala, José María</seg>
+               <seg>Gago Bugarín, Diego</seg>
+               <seg>Gamarra Ruiz-Clavijo, Concepción</seg>
+               <seg>Garaulet Rodríguez, Miguel Ángel</seg>
+               <seg>Garcés Sanagustín, Mario</seg>
+               <seg>García Adanero, Carlos</seg>
+               <seg>García Díez, Joaquín María</seg>
+               <seg>García Egea, Teodoro</seg>
+               <seg>García Molina, Javier Aureliano</seg>
+               <seg>García Rodríguez, Alicia</seg>
+               <seg>García Tejerina, Isabel</seg>
+               <seg>García-Pelayo Jurado, María José<pb n="22"/> Garriga Vaz de Concicao, Ignacio</seg>
+               <seg>Gázquez Collado, Paloma</seg>
+               <seg>Gil Lázaro, Ignacio</seg>
+               <seg>Giménez Giménez, Sara</seg>
+               <seg>Girauta Vidal, Juan Carlos</seg>
+               <seg>Goméz Balsera, Marcial</seg>
+               <seg>Gómez García, Rodrigo</seg>
+               <seg>Gómez González, Rubén</seg>
+               <seg>González Guinda, María del Carmen</seg>
+               <seg>González Taño, María Guadalupe</seg>
+               <seg>González Terol, Antonio</seg>
+               <seg>González Vázquez, Marta</seg>
+               <seg>Guillén Figuerola, Lourdes</seg>
+               <seg>Gutiérrez Díaz de Otazu, Fernando Adolfo</seg>
+               <seg>Gutiérrez Vivas, Miguel Ángel</seg>
+               <seg>Hermoso Ayuso, Carlos</seg>
+               <seg>Hernández Bento, María del Carmen</seg>
+               <seg>Hernández Blázquez, Roberto</seg>
+               <seg>Hernández Muñoz, Manuel</seg>
+               <seg>Herrero Bono, José Alberto</seg>
+               <seg>Hervías Chirosa, Francisco Javier</seg>
+               <seg>Hoyo Juliá, Belén</seg>
+               <seg>Jiménez-Becerril Barrio, María Teresa</seg>
+               <seg>Julià Julià, María Sandra</seg>
+               <seg>López-Bas Valero, Juan Ignacio</seg>
+               <seg>Lorite Lorite, Andrés</seg>
+               <seg>Marcos Ortega, Milagros</seg>
+               <seg>Mariscal Anaya, Guillermo</seg>
+               <seg>Mariscal Zabala, Manuel</seg>
+               <seg>Martín Llaguno, Marta</seg>
+               <seg>Martínez Ferro, María Valentina</seg>
+               <seg>Martínez González, José Luis</seg>
+               <seg>Martínez Granados, María Carmen</seg>
+               <seg>Matarí Sáez, Juan José</seg>
+               <seg>Mayo Alonso, Soraya</seg>
+               <seg>Mejías Sánchez, Carina</seg>
+               <seg>Méndez Monasterio, Lourdes</seg>
+               <seg>Mesquida Ferrando, Joan</seg>
+               <seg>Mestre Barea, Manuel</seg>
+               <seg>Millán Salmerón, María Virginia</seg>
+               <seg>Miquel i Valentí, Sergi</seg>
+               <seg>Mirón Canelo, José Antonio</seg>
+               <seg>Moneo Díez, María Sandra</seg>
+               <seg>Montesinos Aguayo, Pablo</seg>
+               <seg>Montesinos de Miguel, Macarena</seg>
+               <seg>Moraleja Gómez, Tristana María</seg>
+               <seg>Moreno Latorre, Joaquín</seg>
+               <seg>Moro Almaraz, María Jesús</seg>
+               <seg>Movellán Lombilla, Diego</seg>
+               <seg>Moya Sanz, María Amparo</seg>
+               <seg>Muñoz Vidal, María</seg>
+               <seg>Nacarino-Brabo Jiménez, Aurora</seg>
+               <seg>Navarro Lacoba, Carmen</seg>
+               <seg>Nogueras i Camero, Míriam</seg>
+               <seg>Olano Vela, Jaime Eduardo de<pb n="23"/> Olona Choclán, Macarena</seg>
+               <seg>Oramas González-Moro, Ana María</seg>
+               <seg>Ortega Smith-Molina, Francisco Javier</seg>
+               <seg>Pino Ocampo, Beatriz</seg>
+               <seg>Píriz Maya, Víctor Valentín</seg>
+               <seg>Prohens Rigo, Margarita</seg>
+               <seg>Ramírez del Río, José</seg>
+               <seg>Ramírez Freire, Saúl</seg>
+               <seg>Riolobos Regadera, Carmen</seg>
+               <seg>Rivera Andrés, Irene</seg>
+               <seg>Rivera de la Cruz, Marta María</seg>
+               <seg>Rivera Díaz, Albert</seg>
+               <seg>Rivero Ortega, Enrique Víctor</seg>
+               <seg>Robles López, Joaquín</seg>
+               <seg>Rodríguez Hernández, Melisa</seg>
+               <seg>Rojas García, Carlos</seg>
+               <seg>Romero Sánchez, Rosa María</seg>
+               <seg>Romero Vilches, María de los Reyes</seg>
+               <seg>Rosado Peinado, María Ángeles</seg>
+               <seg>Rosety Fernández de Castro, Agustín</seg>
+               <seg>Rueda Perelló, Patricia</seg>
+               <seg>Ruiz Solá, María de la Cabeza</seg>
+               <seg>Sáez Alonso-Muñumer, Pablo</seg>
+               <seg>Sánchez del Real, Víctor Manuel</seg>
+               <seg>Sánchez Pérez, César</seg>
+               <seg>Señoras y señores diputados que dijeron 'abstención':</seg>
+               <seg>Santiago Romero, Enrique Fernando</seg>
+               <seg>Telechea i Lozano, Carolina</seg>
+               <seg>Uriarte Torrealday, Roberto</seg>
+               <seg>Velarde Gómez, Martina</seg>
+               <seg>Vera Ruíz-Herrera, Noelia</seg>
+               <seg>Vidal Sáez, Aina</seg>
+               <seg>Agirretxea Urresti, Joseba Andoni</seg>
+               <seg>Aizpurua Arzallus, Mertxe</seg>
+               <seg>Asens Llodrà, Jaume</seg>
+               <seg>Baldoví Roda, Joan</seg>
+               <seg>Barandiaran Benito, Íñigo</seg>
+               <seg>Bassa Coll, Montserrat</seg>
+               <seg>Belarra Urteaga, Ione</seg>
+               <seg>Cañigueral Olivé, Laia</seg>
+               <seg>Capdevila i Esteve, Joan</seg>
+               <seg>Carvalho Dantas, María</seg>
+               <seg>Cortés Gómez, Ismael</seg>
+               <seg>Delgado Ramos, Juan Antonio</seg>
+               <seg>Díaz Pérez, Yolanda</seg>
+               <seg>Echenique Robba, Pablo</seg>
+               <seg>Eritja Ciuró, Francesc Xavier</seg>
+               <seg>Esteban Bravo, Aitor</seg>
+               <seg>Fernández Castañón, Sofía</seg>
+               <seg>Franco Carmona, Isabel</seg>
+               <seg>Freixanet Mateo, María</seg>
+               <seg>García Orta, Alejandro</seg>
+               <seg>García Puig, María del Mar</seg>
+               <seg>García Sempere, Eva<pb n="24"/> Garrido Gutiérrez, Pilar</seg>
+               <seg>Garzón Espinosa, Alberto</seg>
+               <seg>Gómez del Moral Fuster, Gerard</seg>
+               <seg>Gómez-Reino Varela, Antonio</seg>
+               <seg>Gorospe Elezcano, Josune</seg>
+               <seg>Gorrotxategi Azurmendi, Miren</seg>
+               <seg>Granollers Cunillera, Inés</seg>
+               <seg>Guijarro García, Txema</seg>
+               <seg>Honrubia Hurtado, Pedro Antonio</seg>
+               <seg>Iglesias Turrión, Pablo</seg>
+               <seg>Illueca Ballester, Héctor</seg>
+               <seg>Iñarritu García, Jon</seg>
+               <seg>Jover Díaz, Antonia</seg>
+               <seg>Legarda Uriarte, Mikel</seg>
+               <seg>López de Uralde Garmendia, Juan Antonio</seg>
+               <seg>Maestro Moliner, Roser</seg>
+               <seg>Margall Sastre, Joan</seg>
+               <seg>Márquez Guerrero, María</seg>
+               <seg>Matute García de Jalón, Oskar</seg>
+               <seg>Mayoral Perales, Rafael</seg>
+               <seg>Mena Arca, Joan</seg>
+               <seg>Muñoz Dalda, Lucía</seg>
+               <seg>Nuet Pujals, Joan Josep</seg>
+               <seg>Pérez Díaz, María Teresa</seg>
+               <seg>Pérez Merino, Mercedes</seg>
+               <seg>Pita Cárdenes, María del Carmen</seg>
+               <seg>Pujol i Farré, Norma</seg>
+               <seg>Rodríguez Rodríguez, Alberto</seg>
+               <seg>Rosell Aguilar, María Victoria</seg>
+               <seg>Rosique i Saltor, Marta</seg>
+               <seg>Rufián Romero, Gabriel</seg>
+               <seg>Ruiz de Pinedo Undiano, Iñaki</seg>
+               <seg>Saavedra Muñoz, Marisa</seg>
+               <seg>Sagastizabal Unzetabarrenetxea, Idoia</seg>
+               <seg>Salvador i Duch, Jordi</seg>
+               <seg>Sánchez Serna, Javier</seg>
+               <seg>Señoras y señores diputados que votaron 'abstención' telemáticamente:</seg>
+               <seg>Montero Gil, Irene María</seg>
+               <seg>Miembros del Gobierno en funciones que dijeron 'sí':</seg>
+               <seg>Sánchez Pérez-Castejón, Pedro</seg>
+               <seg>Calvo Poyato, Carmen</seg>
+               <seg>Delgado García, Dolores</seg>
+               <seg>Robles Fernández, Margarita</seg>
+               <seg>Montero Cuadrado, María Jesús</seg>
+               <seg>Grande-Marlaska Gómez, Fernando</seg>
+               <seg>Ábalos Meco, José Luis</seg>
+               <seg>Celaá Diéguez, Isabel</seg>
+               <seg>Valerio Cordero, Magdalena</seg>
+               <seg>Maroto Illera, Reyes</seg>
+               <seg>Planas Puchades, Luis</seg>
+               <seg>Ribera Rodríguez, Teresa</seg>
+               <seg>Guirao Cabrera, José<pb n="25"/> Carcedo Roces, María Luisa</seg>
+               <seg>Duque Duque, Pedro</seg>
+               <seg>Miembros de la Mesa que dijeron 'sí':</seg>
+               <seg>Hernanz Costa, Sofía</seg>
+               <seg>Rodríguez Gómez de Celis, Alfonso</seg>
+               <seg>Batet Lamaña, Meritxell</seg>
+               <seg>Miembros de la Mesa que dijeron 'no':</seg>
+               <seg>Reyes Rivera, Patricia</seg>
+               <seg>Suárez Illana, Adolfo</seg>
+               <seg>Prendes Prendes, José Ignacio</seg>
+               <seg>Pastor Julián, Ana María</seg>
+               <seg>Miembros de la Mesa que dijeron 'abstención':</seg>
+               <seg>Pisarello Prados, Gerardo</seg>
+               <seg>Elizo Serrano, María Gloria</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-07-25-CD190725.u36" ana="#chair">
+               <seg>Muchas gracias.</seg>
+               <seg>¿Hay alguna señora diputada o algún señor diputado que no haya sido llamado a votación?<note>Pausa</note> Procedemos al recuento de los votos emitidos.<note>Pausa</note> El resultado de la votación ha sido el siguiente: votos emitidos, 346; votos a favor del candidato, 124; votos en contra del candidato, 155; abstenciones, 67.</seg>
+               <seg>Al no haberse alcanzado la mayoría requerida y, en consecuencia, al no haberse otorgado la confianza de esta Cámara para la investidura, esta circunstancia se comunicará a su majestad el Rey, a los efectos de lo dispuesto en el artículo 99.4 de la Constitución.</seg>
+               <seg>Se levanta la sesión.</seg>
+               <seg>Eran las tres y cuarenta y cinco minutos de la tarde.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
