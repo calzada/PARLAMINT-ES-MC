@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xml:lang="es"
+     xml:id="ParlaMint-ES_2019-12-03-CD191203"
+     ana="#covid">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" type="main">Spanish parliamentary corpus ParlaMint-ES, Plenary session 1 [ParlaMint]</title>
+            <title xml:lang="es" type="sub">Sesión plenaria núm. 1</title>
+            <meeting ana="#parla.session" corresp="#federal_parliament" n="1">Sesión plenaria núm. 1</meeting>
+            <respStmt>
+               <persName>María Calzada Pérez</persName>
+               <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tomaž Erjavec</persName>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">XXX</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>0.1</edition>
+         </editionStmt>
+         <extent>
+            <measure xml:lang="en" unit="speeches" quantity="54">54 speeches</measure>
+            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">XXX</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <pubPlace>
+               <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+            </pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2021-03-05">2021-03-05</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title xml:lang="es" type="main">CORTES GENERALES DIARIO DE SESIONES DEL CONGRESO DE LOS DIPUTADOS PLENO Y DIPUTACIÓN PERMANENTE SESIÓN CONSTITUTIVA</title>
+               <idno type="URI">http://www.congreso.es</idno>
+               <date when="2019-12-03">2019-12-03</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and(4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="9"/>
+               <tagUsage gi="head" occurs="9"/>
+               <tagUsage gi="u" occurs="54"/>
+               <tagUsage gi="pb" occurs="16"/>
+               <tagUsage gi="lb" occurs="457"/>
+               <tagUsage gi="note" occurs="46"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Madrid</name>
+               <name type="country" key="ES">Spain</name>
+               <date ana="#parla.sitting" when="2019-12-03">2019-12-03</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-05">
+            <name>Tomaž Erjavec</name>: initial version.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div type="debateSection">
+            <head>CONSTITUCIÓN DE LA MESA DE EDAD</head>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u1"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>Señorías, se abre la sesión.</seg>
+               <seg>En virtud de lo dispuesto en el artículo 2 del Reglamento del Congreso de los Diputados, la Mesa de Edad ha quedado constituida por el diputado electo de mayor edad de los presentes, don Agustín Zamarrón<pb n="4"/> Moreno -es decir, yo mismo-, como presidente, y por las dos más jóvenes como secretarias, a saber, doña Marta Rosique i Saltor y doña Lucía Muñoz Dalda, según los datos que constan en la Cámara.</seg>
+               <seg>Señorías, el artículo 99 de nuestra Constitución expone el artificioso modo para el nombramiento de presidente de Gobierno, dando inicio a un proceso que culmina en un Gobierno legítimo y pleno en sus atribuciones; al hacerlo determina la grave responsabilidad de los intervinientes en el proceso, en lo que afecta a la responsabilidad de las señoras y señores diputados y de la Cámara en pleno. Cierto es que responsabilidad, mérito y empeño es distinto para cada actor, mas cualquier comentario al respecto en punto y hora es enojoso, indebido y a mi voluntad está vedado. Reitero, pues, la responsabilidad de los señores diputados de la legislatura y la del Congreso de los Diputados como asamblea representativa.<note>Se pone en pie</note> Señorías, desde la dignidad institucional que circunstancialmente ostento como presidente de la Cámara de los diputados en la Mesa de Edad, con la humildad debida, obligada al político cuya razón de ser y oficio es el servicio a la ciudadanía, pido perdón al pueblo español, soberano único, por el incumplimiento en la XIII Legislatura del trascendente mandado constitucional de otorgar Gobierno a la nación.<note>Hace una reverencia y toma asiento</note> Señorías, ahora ya seamos todos bienvenidos a la XIV Legislatura; su ejecutoria de nosotros depende. Hagámosla larga y fructífera.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>REAL DECRETO DE CONVOCATORIA DE ELECCIONES</head>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u2"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>De conformidad con lo dispuesto en el artículo 3 del Reglamento, por la señora secretaria de la Mesa de Edad se va a dar lectura al Real Decreto de convocatoria, a la relación de señoras y señores diputados electos y a la relación de recursos contencioso-electorales interpuestos.</seg>
+               <seg>La señora secretaria primera de la Mesa de Edad tiene la palabra.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u3"
+               who="#RosiqueMarta"
+               ana="#regular">
+               <seg>Artículo 5 del Real Decreto 551/2019, de 24 de septiembre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones: Celebradas las elecciones convocadas por este real decreto, las Cámaras resultantes se reunirán en sesiones constitutivas el día 3 de diciembre de 2019 a las diez horas. Dado en Madrid el 24 de septiembre de 2019. Felipe, Rey. La presidenta del Congreso de los Diputados, Meritxell Batet Lamaña.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>RELACIÓN ALFABÉTICA DE SEÑORAS Y SEÑORES DIPUTADOS ELECTOS</head>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u4"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>Las señoras secretarias de la Mesa procederán a dar lectura de la relación alfabética de señoras y señores diputados.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u5"
+               who="#RosiqueMarta"
+               ana="#regular">
+               <seg>Junqueras i Vies, Oriol; Forn Chiariello, Joaquim; Turull i Negre, Jordi; Sànchez Picanyol, Jordi...</seg>
+               <note>Protestas.-El señor Garcés Sanagustín: ¿¡Qué está pasando!?-Aplausos de varias señoras y señores diputados</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u6"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>Señora secretaria, la llamo al orden, por favor.</seg>
+               <seg>Por las señoras secretarias de la Mesa de Edad, señoras Rosique i Saltor, y Muñoz Dalda, se procede a dar lectura de la lista de las señoras y señores diputados electos.</seg>
+               <seg>ÁBALOS MECO, José Luis</seg>
+               <seg>ABASCAL CONDE, Santiago</seg>
+               <seg>ACEVES GALINDO, José Luis</seg>
+               <seg>AGIRRETXEA URRESTI, Joseba Andoni</seg>
+               <seg>AIZCORBE TORRA, Juan José</seg>
+               <seg>AIZPURUA ARZALLUS, Mertxe</seg>
+               <seg>ALCARAZ MARTOS, Francisco José</seg>
+               <seg>ALFONSO CENDÓN, Javier<pb n="5"/> ALMODÓBAR BARCELÓ, Agustín</seg>
+               <seg>ALONSO PÉREZ, José Ángel</seg>
+               <seg>ALONSO SUÁREZ, María Olga</seg>
+               <seg>ALONSO-CUEVILLAS I SAYROL, Jaume</seg>
+               <seg>ÁLVAREZ DE TOLEDO PERALTA-RAMOS, Cayetana</seg>
+               <seg>ÁLVAREZ FANJUL, Beatriz</seg>
+               <seg>ANDRÉS AÑÓN, Carmen</seg>
+               <seg>ANDRÉS BAREA, Josefa</seg>
+               <seg>ANGULO ROMERO, María Teresa</seg>
+               <seg>ANTÓN CACHO, Javier</seg>
+               <seg>ARAGONÉS MENDIGUCHÍA, Carlos</seg>
+               <seg>ARANDA VARGAS, Francisco</seg>
+               <seg>ARANGÜENA FERNÁNDEZ, Pablo</seg>
+               <seg>ARRIMADAS GARCÍA, Inés</seg>
+               <seg>ASARTA CUEVAS, Alberto</seg>
+               <seg>ASENS LLODRÀ, Jaume</seg>
+               <seg>BAL FRANCÉS, Edmundo</seg>
+               <seg>BALDOVÍ RODA, Joan</seg>
+               <seg>BARANDIARAN BENITO, Íñigo</seg>
+               <seg>BAS CORUGEIRA, Javier</seg>
+               <seg>BASSA COLL, Montserrat</seg>
+               <seg>BATET LAMAÑA, Meritxell</seg>
+               <seg>BEL ACCENSI, Ferran</seg>
+               <seg>BELARRA URTEAGA, Ione</seg>
+               <seg>BELTRÁN VILLALBA, Ana María</seg>
+               <seg>BERJA VEGA, Laura</seg>
+               <seg>BERMÚDEZ DE CASTRO FERNÁNDEZ, José Antonio</seg>
+               <seg>BETORET COLL, Vicente</seg>
+               <seg>BLANQUER ALCARAZ, Patricia</seg>
+               <seg>BOADELLA ESTEVE, Genís</seg>
+               <seg>BORRÀS CASTANYER, Laura</seg>
+               <seg>BORRÁS PABÓN, Mireia</seg>
+               <seg>BORREGO CORTÉS, Isabel María</seg>
+               <seg>BOTELLA GÓMEZ, Ana María</seg>
+               <seg>BOTRAN PAHISSA, Albert</seg>
+               <seg>BRAVO BARCO, Eva</seg>
+               <seg>BUENO CAMPANARIO, Eva Patricia</seg>
+               <seg>CABALLERO GUTIÉRREZ, Helena</seg>
+               <seg>CABEZÓN CASAS, Tomás</seg>
+               <seg>CALLEJAS CANO, Juan Antonio</seg>
+               <seg>CALVO LISTE, Pablo Juan</seg>
+               <seg>CALVO POYATO, Carmen</seg>
+               <seg>CAMBRONERO PIQUERAS, Pablo</seg>
+               <seg>CAMPO MORENO, Juan Carlos</seg>
+               <seg>CANALES DUQUE, Mariana de Gracia</seg>
+               <seg>CANCELA RODRÍGUEZ, Pilar</seg>
+               <seg>CANTERA DE CASTRO, Zaida</seg>
+               <seg>CAÑADELL SALVIA, Concep</seg>
+               <seg>CAÑIZARES PACHECO, Inés María</seg>
+               <seg>CAPDEVILLA I ESTEVE, Joan</seg>
+               <seg>CARAZO HERMOSO, Eduardo</seg>
+               <seg>CARCEDO ROCES, María Luisa</seg>
+               <seg>CARRILLO DE LOS REYES, Beatriz Micaela</seg>
+               <seg>CARVALHO DANTAS, María</seg>
+               <seg>CASADO BLANCO, Pablo<pb n="6"/> CASARES HONTAÑÓN, Pedro</seg>
+               <seg>CASERO ÁVILA, Alberto</seg>
+               <seg>CASTELLÓN RUBIO, Miguel Ángel</seg>
+               <seg>CASTILLO LÓPEZ, Elena</seg>
+               <seg>CELAÁ DIÉGUEZ, Isabel</seg>
+               <seg>CERDÁN LEÓN, Santos</seg>
+               <seg>CERQUEIRO GONZÁLEZ, Javier</seg>
+               <seg>CHAMORRO DELMO, Ricardo</seg>
+               <seg>CLAVELL LÓPEZ, Óscar</seg>
+               <seg>CONTRERAS PELÁEZ, Francisco José</seg>
+               <seg>CORREDOR SIERRA, María Beatriz</seg>
+               <seg>CORTÉS CARBALLO, Mario</seg>
+               <seg>CORTÉS GÓMEZ, Ismael</seg>
+               <seg>CRESPÍN RUBIO, Rafaela</seg>
+               <seg>CRUZ-GUZMÁN GARCÍA, María Soledad</seg>
+               <seg>CUATRECASAS ASUA, Juan</seg>
+               <seg>DE LAS HERAS FERNÁNDEZ, Patricia</seg>
+               <seg>DE LUNA TOBARRA, Llanos</seg>
+               <seg>DE MEER MÉNDEZ, Rocío</seg>
+               <seg>DE QUINTO ROMERO, Marcos</seg>
+               <seg>DEL VALLE RODRÍGUEZ, Emilio Jesús</seg>
+               <seg>DELGADO ARCE, Celso Luis</seg>
+               <seg>DELGADO GARCÍA, Dolores</seg>
+               <seg>DÍAZ GÓMEZ, Guillermo</seg>
+               <seg>DÍAZ PÉREZ, Yolanda</seg>
+               <seg>DIOUF DIOH, Luc Andre</seg>
+               <seg>DUQUE DUQUE, Pedro</seg>
+               <seg>DURÁN PERALTA, José Carlos</seg>
+               <seg>ECHÁNIZ SALGADO, José Ignacio</seg>
+               <seg>ECHENIQUE ROBBA, Pablo</seg>
+               <seg>ELIZO SERRANO, María Gloria</seg>
+               <seg>ELORZA GONZÁLEZ, Odón</seg>
+               <seg>ERITJA CIURÓ, Francesc Xavier</seg>
+               <seg>ERREJÓN GALVÁN, Íñigo</seg>
+               <seg>ESPAÑA REINA, Carolina</seg>
+               <seg>ESPEJO-SAAVEDRA CONESA, José María</seg>
+               <seg>ESPINOSA DE LOS MONTEROS DE SIMÓN, Iván</seg>
+               <seg>ESTEBAN BRAVO, Aitor</seg>
+               <seg>ESTEBAN CALONJE, Cristina Alicia</seg>
+               <seg>FAGÚNDEZ CAMPO, Antidio</seg>
+               <seg>FANECA LÓPEZ, María Luisa</seg>
+               <seg>FERNÁNDEZ BENÉITEZ, Andrea</seg>
+               <seg>FERNÁNDEZ CASERO, Ana Belén</seg>
+               <seg>FERNÁNDEZ CASTAÑÓN, Sofía</seg>
+               <seg>FERNÁNDEZ HERNÁNDEZ, Pedro</seg>
+               <seg>FERNÁNDEZ RÍOS, Tomás</seg>
+               <seg>FERNÁNDEZ-LOMANA GUTIÉRREZ, Rafael</seg>
+               <seg>FERNÁNDEZ-ROCA SUÁREZ, Carlos Hugo</seg>
+               <seg>FERRER TESORO, Sonia</seg>
+               <seg>FIGAREDO ÁLVAREZ-SALA, José María</seg>
+               <seg>FRANCO CARMONA, Isabel</seg>
+               <seg>FRANCO PARDO, José Manuel</seg>
+               <seg>GAGO BUGARÍN, Diego</seg>
+               <seg>GAMARRA RUIZ-CLAVIJO, Concepción</seg>
+               <seg>GAMAZO MICÓ, Óscar<pb n="7"/> GARCÉS SANAGUSTÍN, Mario</seg>
+               <seg>GARCÍA ADANERO, Carlos</seg>
+               <seg>GARCÍA CHAVARRÍA, María Montserrat</seg>
+               <seg>GARCÍA DÍEZ, Joaquín María</seg>
+               <seg>GARCÍA EGEA, Teodoro</seg>
+               <seg>GARCÍA GÓMEZ, Valentín</seg>
+               <seg>GARCÍA LÓPEZ, Maribel</seg>
+               <seg>GARCÍA MORÍS, Roberto</seg>
+               <seg>GARCÍA PUIG, María del Mar</seg>
+               <seg>GARCÍA RODRÍGUEZ, Alicia</seg>
+               <seg>GARCÍA TEJERINA, Isabel</seg>
+               <seg>GARCÍA-PELAYO JURADO, María José</seg>
+               <seg>GARRIDO GUTIÉRREZ, Pilar</seg>
+               <seg>GARRIGA VAZ DE CONCICAO, Ignacio</seg>
+               <seg>GARZÓN ESPINOSA, Alberto</seg>
+               <seg>GÁZQUEZ COLLADO, Paloma</seg>
+               <seg>GESTOSO DE MIGUEL, Luis</seg>
+               <seg>GIL LÁZARO, Ignacio</seg>
+               <seg>GIMÉNEZ GIMÉNEZ, Sara</seg>
+               <seg>GÓMEZ HERNÁNDEZ, Héctor</seg>
+               <seg>GÓMEZ-REINO VARELA, Antonio</seg>
+               <seg>GONZÁLEZ CABALLERO, Miguel Ángel</seg>
+               <seg>GONZÁLEZ COELLO DE PORTUGAL, Víctor</seg>
+               <seg>GONZÁLEZ GUINDA, María del Carmen</seg>
+               <seg>GONZÁLEZ PÉREZ, Ariagona</seg>
+               <seg>GONZÁLEZ RAMOS, Manuel Gabriel</seg>
+               <seg>GONZÁLEZ TEROL, Antonio</seg>
+               <seg>GONZÁLEZ VÁZQUEZ, Marta</seg>
+               <seg>GOROSPE ELEZCANO, Josune</seg>
+               <seg>GRANDE-MARLASKA GÓMEZ, Fernando</seg>
+               <seg>GRANOLLERS CUNILLERA, Inés</seg>
+               <seg>GUAITA ESTERUELAS, Sandra</seg>
+               <seg>GUIJARRO CEBALLOS, María</seg>
+               <seg>GUIJARRO GARCÍA, Txema</seg>
+               <seg>GUINART MORENO, Lídia</seg>
+               <seg>GUIRAO CABRERA, José</seg>
+               <seg>GUITARTE GIMENO, Tomás</seg>
+               <seg>GUTIÉRREZ DÍAZ DE OTAZU, Fernando Adolfo</seg>
+               <seg>GUTIÉRREZ PRIETO, Sergio</seg>
+               <seg>HERNANZ COSTA, Sofía</seg>
+               <seg>HERRERO BONO, José Alberto</seg>
+               <seg>HISPÁN IGLESIAS DE USSEL, Pablo</seg>
+               <seg>HONRUBIA HURTADO, Pedro Antonio</seg>
+               <seg>HOYO JULIÁ, Belén</seg>
+               <seg>IGLESIAS TURRIÓN, Pablo</seg>
+               <seg>ILLAMOLA DAUSÀ, Mariona</seg>
+               <seg>ILLUECA BALLESTER, Héctor</seg>
+               <seg>IÑARRITU GARCÍA, Jon</seg>
+               <seg>IZQUIERDO RONCERO, José Javier</seg>
+               <seg>JEREZ JUAN, Miguel Ángel</seg>
+               <seg>JIMÉNEZ LINUESA, Beatriz</seg>
+               <seg>JIMÉNEZ REVUELTA, Rodrigo</seg>
+               <seg>JIMÉNEZ-BECERRIL BARRIO, María Teresa</seg>
+               <seg>JOVER DÍAZ, Antonia</seg>
+               <seg>LAMUÀ ESTAÑOl, Marc<pb n="8"/> LASTRA FERNÁNDEZ, Adriana</seg>
+               <seg>LEDESMA MARTÍN, Sebastián Jesús</seg>
+               <seg>LEGARDA URIARTE, Mikel</seg>
+               <seg>LIMA CID, Fuensanta</seg>
+               <seg>LÓPEZ ÁLVAREZ, Patxi</seg>
+               <seg>LÓPEZ ÁLVAREZ, María Teresa</seg>
+               <seg>LÓPEZ CANO, Ignacio</seg>
+               <seg>LÓPEZ DE URALDE GARMENDIA, Juan Antonio</seg>
+               <seg>LÓPEZ DOMÍNGUEZ, Laura</seg>
+               <seg>LÓPEZ MARAVER, Ángel</seg>
+               <seg>LÓPEZ ZAMORA, Cristina</seg>
+               <seg>LORITE LORITE, Andrés</seg>
+               <seg>MAESTRO MOLINER, Roser</seg>
+               <seg>MANSO OLIVAR, Rubén Silvano</seg>
+               <seg>MÁÑEZ RODRÍGUEZ, Elena</seg>
+               <seg>MARCOS DOMÍNGUEZ, Pilar</seg>
+               <seg>MARCOS ORTEGA, Milagros</seg>
+               <seg>MARGALL SASTRE, Joan</seg>
+               <seg>MARÍ KLOSE, Pau</seg>
+               <seg>MARISCAL ANAYA, Guillermo</seg>
+               <seg>MARISCAL ZABALA, Manuel</seg>
+               <seg>MAROTO ILLERA, Reyes</seg>
+               <seg>MÁRQUEZ GUERRERO, María</seg>
+               <seg>MARRA DOMÍNGUEZ, María Ángeles</seg>
+               <seg>MARRODÁN FUNES, María</seg>
+               <seg>MARTÍN LLAGUNO, Marta</seg>
+               <seg>MARTÍNEZ FERRO, María Valentina</seg>
+               <seg>MARTÍNEZ GRANADOS, María Carmen</seg>
+               <seg>MARTÍNEZ OBLANCA, Isidro Manuel</seg>
+               <seg>MARTÍNEZ SEIJO, María Luz</seg>
+               <seg>MATARÍ SÁEZ, Juan José</seg>
+               <seg>MATEU ISTÚRIZ, Jaime Miguel</seg>
+               <seg>MATUTE GARCÍA DE JALÓN, Oskar</seg>
+               <seg>MAYORAL PERALES, Rafael</seg>
+               <seg>MAZÓN RAMOS, José María</seg>
+               <seg>MEIJÓN COUSELO, Guillermo Antonio</seg>
+               <seg>MENA ARCA, Joan</seg>
+               <seg>MÉNDEZ MONASTERIO, Lourdes</seg>
+               <seg>MERINO MARTÍNEZ, Javier</seg>
+               <seg>MESTRE BAREA, Manuel</seg>
+               <seg>MÍNGUEZ GARCÍA, Montse</seg>
+               <seg>MIQUEL I VALENTÍ, Sergi</seg>
+               <seg>MONEO DÍEZ, María Sandra</seg>
+               <seg>MONTERO CUADRADO, María Jesús</seg>
+               <seg>MONTERO GIL, Irene María</seg>
+               <seg>MONTESINOS AGUAYO, Pablo</seg>
+               <seg>MONTESINOS DE MIGUEL, Macarena</seg>
+               <seg>MONTILLA MARTOS, José Antonio</seg>
+               <seg>MORALEJA GÓMEZ, Tristana María</seg>
+               <seg>MORO ALMARAZ, María Jesús</seg>
+               <seg>MOVELLÁN LOMBILLA, Diego</seg>
+               <seg>MUÑOZ DALDA, Lucía</seg>
+               <seg>MUÑOZ VIDAL, María</seg>
+               <seg>NARVÁEZ BANDERA, María Dolores</seg>
+               <seg>NASARRE OLIVA, Begoña<pb n="9"/> NAVARRO LACOBA, Carmen</seg>
+               <seg>NAVARRO LÓPEZ, Pedro</seg>
+               <seg>NEVADO DEL CAMPO, María Magdalena</seg>
+               <seg>NOGUERAS I CAMERO, Míriam</seg>
+               <seg>NUET PUJALS, Joan Josep</seg>
+               <seg>OLANO VELA, Jaime Eduardo de</seg>
+               <seg>OLONA CHOCLÁN, Macarena</seg>
+               <seg>ORAMAS GONZÁLEZ-MORO, Ana María</seg>
+               <seg>ORTEGA OTERO, Marina</seg>
+               <seg>ORTEGA SMITH-MOLINA, Francisco Javier</seg>
+               <seg>ORTIZ GALVÁN, José</seg>
+               <seg>PADILLA RUIZ, Esther</seg>
+               <seg>PANIAGUA NÚÑEZ, Miguel Ángel</seg>
+               <seg>PASTOR JULIÁN, Ana María</seg>
+               <seg>PEDREÑO MOLINA, Juan Luis</seg>
+               <seg>PEÑA CAMARERO, Esther</seg>
+               <seg>PEREA I CONILLAS, María Mercè</seg>
+               <seg>PÉREZ ABELLÁS, Adolfo</seg>
+               <seg>PÉREZ DÍAZ, María Auxiliadora</seg>
+               <seg>PÍRIZ MAYA, Víctor Valentín</seg>
+               <seg>PISARELLO PRADOS, Gerardo</seg>
+               <seg>PLANAS PUCHADES, Luis</seg>
+               <seg>POLO LLAVATA, Francisco</seg>
+               <seg>PONS SAMPIETRO, Pere Joan</seg>
+               <seg>POSTIGO QUINTANA, Jesús</seg>
+               <seg>POZUETA FERNÁNDEZ, Isabel</seg>
+               <seg>PRIETO NIETO, Ana</seg>
+               <seg>PROHENS RIGO, Margarita</seg>
+               <seg>PUJOL I FARRÉ, Norma</seg>
+               <seg>QUEVEDO ITURBE, Pedro</seg>
+               <seg>RAMALLO VÁZQUEZ, María Pilar</seg>
+               <seg>RAMÍREZ CARNER, Arnau</seg>
+               <seg>RAMÍREZ DEL RÍO, José</seg>
+               <seg>RAMÓN UTRABO, Elvira</seg>
+               <seg>RAMOS ESTEBAN, César Joaquín</seg>
+               <seg>RAMOS RODRÍGUEZ, José Luis</seg>
+               <seg>RAYA RODRÍGUEZ, María Tamara</seg>
+               <seg>REDONDO CALVILLO, María de la O</seg>
+               <seg>REGO CANDAMIL, Néstor</seg>
+               <seg>RENAU MARTÍNEZ, Germán</seg>
+               <seg>REQUEJO NOVOA, Pedro Jesús</seg>
+               <seg>REQUENA RUIZ, Juan Diego</seg>
+               <seg>RIBERA RODRÍGUEZ, Teresa</seg>
+               <seg>RIOLOBOS REGADERA, Carmen</seg>
+               <seg>ROBLES FERNÁNDEZ, Margarita</seg>
+               <seg>ROBLES LÓPEZ, Joaquín</seg>
+               <seg>RODRÍGUEZ ALMEIDA, Andrés Alberto</seg>
+               <seg>RODRÍGUEZ GÓMEZ, María del Pilar</seg>
+               <seg>RODRÍGUEZ GÓMEZ DE CELIS, Alfonso</seg>
+               <seg>RODRÍGUEZ HERRER, María Elvira</seg>
+               <seg>RODRÍGUEZ RODRÍGUEZ, Alberto</seg>
+               <seg>RODRÍGUEZ SALAS, José Antonio</seg>
+               <seg>ROJAS GARCÍA, Carlos</seg>
+               <seg>ROMERO HERNÁNDEZ, Carmelo</seg>
+               <seg>ROMERO SÁNCHEZ, Rosa María<pb n="10"/> ROMERO VILCHES, María de los Reyes</seg>
+               <seg>ROS MARTÍNEZ, Susana</seg>
+               <seg>ROSELL AGUILAR, María Victoria</seg>
+               <seg>ROSETY FERNÁNDEZ DE CASTRO, Agustín</seg>
+               <seg>ROSIQUE I SALTOR, Marta</seg>
+               <seg>RUEDA PERELLÓ, Patricia</seg>
+               <seg>RUFIÁN ROMERO, Gabriel</seg>
+               <seg>RUIZ DE PINEDO UNDIANO, Iñaki</seg>
+               <seg>RUIZ I CARBONELL, Joan</seg>
+               <seg>RUIZ NAVARRO, Eduardo Luis</seg>
+               <seg>RUIZ SOLÁS, María de la Cabeza</seg>
+               <seg>SAAVEDRA MUÑOZ, Marisa</seg>
+               <seg>SABANÉS NADAL, Inés</seg>
+               <seg>SÁEZ ALONSO-MUÑUMER, Pablo</seg>
+               <seg>SAGASTIZABAL UNZETABARRENETXEA, Idoia</seg>
+               <seg>SAHUQUILLO GARCÍA, Luis Carlos</seg>
+               <seg>SALAZAR RODRÍGUEZ, Francisco José</seg>
+               <seg>SALVÁ VERD, Antonio</seg>
+               <seg>SALVADOR I DUCH, Jordi</seg>
+               <seg>SÁNCHEZ DEL REAL, Víctor Manuel</seg>
+               <seg>SÁNCHEZ ESCOBAR, Mariano</seg>
+               <seg>SÁNCHEZ GARCÍA, José María</seg>
+               <seg>SÁNCHEZ JÓDAR, Marisol</seg>
+               <seg>SÁNCHEZ PÉREZ, César</seg>
+               <seg>SÁNCHEZ PÉREZ-CASTEJÓN, Pedro</seg>
+               <seg>SÁNCHEZ SERNA, Javier</seg>
+               <seg>SANCHO GUARDIA, Alfredo</seg>
+               <seg>SANCHO ÍÑIGUEZ, Herminio Rufino</seg>
+               <seg>SANTAMARÍA RUIZ, Luis</seg>
+               <seg>SANTIAGO ROMERO, Enrique Fernando</seg>
+               <seg>SARRIÀ MORELL, Vicent Manuel</seg>
+               <seg>SAURA GARCÍA, Pedro</seg>
+               <seg>SAYAS LÓPEZ, Sergio</seg>
+               <seg>SERRADA PARIENTE, David</seg>
+               <seg>SERRANO MARTÍNEZ, Juan Francisco</seg>
+               <seg>SEVA RUIZ, Yolanda</seg>
+               <seg>SICILIA ALFÉREZ, Felipe Jesús</seg>
+               <seg>SIMANCAS SIMANCAS, Rafael</seg>
+               <seg>SOLER MUR, Alejandro</seg>
+               <seg>SOTO BURILLO, Juan Luis</seg>
+               <seg>STEEGMANN OLMEDILLAS, Juan Luis</seg>
+               <seg>SUÁREZ ILLANA, Adolfo</seg>
+               <seg>SUÁREZ LAMATA, Eloy</seg>
+               <seg>SUMELZO JORDÁN, Susana</seg>
+               <seg>TELECHEA I LOZANO, Carolina</seg>
+               <seg>TIRADO OCHOA, Vicente</seg>
+               <seg>TOSCANO DE BALBÍN, Carla</seg>
+               <seg>TRÍAS GIL, Georgina</seg>
+               <seg>URIARTE BENGOECHEA, Edurne</seg>
+               <seg>URIARTE TORREALDAY, Roberto</seg>
+               <seg>UTRILLA CANO, Julio</seg>
+               <seg>VALERIO CORDERO, Magdalena</seg>
+               <seg>VALLUGERA BALAÑÀ, Pilar</seg>
+               <seg>VÁZQUEZ BLANCO, Ana Belén</seg>
+               <seg>VEGA ARIAS, Rubén Darío<pb n="11"/> VEHÍ CANTENYS, Mireia</seg>
+               <seg>VELARDE GÓMEZ, Martina</seg>
+               <seg>VELASCO MORILLO, Elvira</seg>
+               <seg>VERA RUÍZ-HERRERA, Noelia</seg>
+               <seg>VICENTE VIONDI, Daniel</seg>
+               <seg>VIDAL SÁEZ, Aina</seg>
+               <seg>VILCHES RUIZ, María Luisa</seg>
+               <seg>VILLAGRASA QUERO, Noemí</seg>
+               <seg>ZAMARRÓN MORENO, Agustín</seg>
+               <seg>ZAMBRANO GARCÍA-RAEZ, Carlos José</seg>
+               <seg>ZARAGOZA ALONSO, José</seg>
+               <seg>ZURITA EXPÓSITO, Ana María</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u7"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>Señorías, con objeto de adecuada explicitación de los hechos y para su toma en constancia, manifiesto que el motivo de llamar al orden a la diputada doña Marta Rosique i Saltor tiene su razón en que los nombres pronunciados previos al del diputado Ábalos no corresponden a diputados electos. Muchas gracias.<note>Aplausos</note> Señorías, por favor, olvidémonos de este tiempo de nubes pasajeras. ¿Hay alguna señora o señor diputado que no haya sido nombrado?<note>Pausa</note> No.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>RECURSOS CONTENCIOSO-ELECTORALES INTERPUESTOS</head>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u8"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>La señora secretaria primera de la Mesa de Edad, tiene la palabra.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u9"
+               who="#RosiqueMarta"
+               ana="#regular">
+               <seg>Relación de recursos contencioso-electorales. El señor presidente de la Junta Electoral Central, mediante oficio de 27 de noviembre de 2019, notifica que no se ha presentado ningún recurso contencioso-electoral contra el acto de proclamación de candidatos electos realizado por las correspondientes juntas electorales provinciales en relación con las elecciones al Congreso de los Diputados y al Senado, convocadas por Real Decreto 551/2019, de 24 de septiembre, celebradas el 10 de noviembre de 2019.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>ELECCIÓN DE LA MESA DEL CONGRESO DE LOS DIPUTADOS - ELECCIÓN DEL PRESIDENTE.</head>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u10"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>Señorías, se va a proceder ahora a la elección de la Mesa del Congreso de los Diputados, según el procedimiento previsto en el artículo 37 del Reglamento. En primer lugar, se elegirá al presidente de la Cámara. La votación tendrá carácter secreto y se realizará por papeletas. Cada diputado escribirá solo un nombre en la papeleta. Resultará elegido el que obtenga el voto de la mayoría absoluta de los miembros de la Cámara. Si ninguno obtuviera en la primera votación dicha mayoría se repetirá la elección entre los que hayan alcanzado las dos mayores votaciones y resultará elegido el que obtenga más votos.</seg>
+               <seg>Por la señora secretaria de la Mesa de Edad se procederá al llamamiento por orden alfabético de las señoras y señores diputados para que depositen la papeleta en la urna correspondiente. Los miembros de la Mesa votarán al final.</seg>
+               <seg>Comienza la votación.</seg>
+               <seg>Por las secretarias de la Mesa de Edad, señoras Rosique i Saltor y Muñoz Dalda, se procede al llamamiento de las señoras y los señores diputados, quienes van depositando sus papeletas en la urna.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u11"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>Un segundo, señorías, por favor.<note>La señora Lastra Fernández se ha hecho daño en un tobillo al bajar las escaleras</note> Doña Adriana Lastra, no traiga usted el voto. Si va a permanecer en la sala, hágalo sentada e iremos a recogérselo. Si no, salga para que la atiendan y esperaremos hasta el final para que nos lo dé.<pb n="12"/> Por las secretarias de la Mesa de Edad, señoras Rosique i Saltor y Muñoz Dalda, se continúa con el llamamiento de las señoras y los señores diputados, quienes van depositando sus papeletas en la urna.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u12"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>Muchísimas gracias. Han sido ustedes ejemplares. Hemos mejorado muchísimo.</seg>
+               <seg>Ahora vamos a recoger los votos de los heridos -yo también estoy un poco mancado del remo derecho-, así que esto nos incrementará los tiempos muertos; digamos demediados, no muertos.<note>Pausa</note> Terminada la votación, dijo</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u13"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>Señorías, ¿hay alguna señora diputada o algún señor diputado que no haya sido llamado para votar?<note>Denegaciones</note> Realizado el escrutinio, dijo</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u14"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>En consecuencia, tras realizar el escrutinio de los votos emitidos, el resultado es el siguiente: votos emitidos, 349; 167, a favor de doña Meritxell Batet Lamaña; 91, a favor de doña Ana María Pastor Julián; 52, a favor de doña Macarena Olona Choclán; 11 votos en blanco, y 28 votos nulos. Al no haberse obtenido el voto de la mayoría absoluta de los miembros de la Cámara, 176, y de acuerdo con lo dispuesto en el inciso final del artículo 37.1 del Reglamento, se ha de proceder a una nueva votación entre los que hayan alcanzado las dos mayores votaciones, resultando elegido el que obtenga más votos. En consecuencia, esta nueva votación se produce entre doña Meritxell Batet Lamaña y doña Ana María Pastor Julián, que son las diputadas que han obtenido mayor número de votos en la votación anterior.<note>Rumores</note> Resultará elegida presidenta del Congreso de los Diputados la que obtenga más votos. Si se produjera empate, se celebrarán sucesivas votaciones hasta que el empate quede dirimido.<note>Rumores</note> ¡Por favor, señorías!, que ya ven que me trafullo. Es la edad y el ronroneo.<note>Risas</note> Por las señoras secretarias de la Mesa de Edad se procederá al llamamiento por orden alfabético de las señoras y los señores diputados para que depositen la papeleta en la urna correspondiente. Los miembros de la Mesa de Edad votarán al final.</seg>
+               <seg>Comienza, pues, la votación.</seg>
+               <seg>Por las secretarias de la Mesa de Edad, señoras Rosique i Saltor y Muñoz Dalda, se procede al llamamiento de las señoras y los señores diputados, quienes van depositando sus papeletas en la urna.</seg>
+               <seg>Terminada la votación, dijo</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u15"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>¿Se ha omitido el nombre de algún diputado para la votación?</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u16"
+               who="#VehíMireia"
+               ana="#regular">
+               <seg>Sí. No me han llamado.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u17"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>No se la ha llamado. Pero ¿ha votado o no ha votado?</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u18"
+               who="#VehíMireia"
+               ana="#regular">
+               <seg>No.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u19"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>No ha votado. Por favor, señoría, acérquese a identificarse para proceder a recoger su voto.<note>Así lo hace la señora Vehí Cantenys</note> Perdónenos, porque no sabe más el demonio por viejo; sabe menos.<note>Risas</note> ¿A alguien más hemos dejado sin nombrar?<note>Denegación</note> Pónganlo en mi debe; yo ya me ocuparé de poner algo en mi haber.</seg>
+               <seg>Procedemos al escrutinio.<pb n="13"/> Realizado el escrutinio, dijo</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u20"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>Señorías, el resultado de la votación ha sido el siguiente: votos emitidos, 346; 166, a favor de doña Meritxell Batet Lamaña; 140, a favor de doña Ana María Pastor Julián; 11 votos en blanco, 29 votos nulos.</seg>
+               <seg>Al haber obtenido la mayoría de votos de los miembros de la Cámara, queda en consecuencia proclamada presidenta del Congreso de los Diputados doña Meritxell Batet Lamaña.</seg>
+               <note>Prolongados aplausos de las señoras y los señores diputados, algunos puestos en pie</note>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>- ELECCIÓN DE LOS VICEPRESIDENTES</head>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u21"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>Se elegirán a continuación los cuatro vicepresidentes. Cada diputado escribirá solo un nombre en la papeleta para la elección de vicepresidentes. Resultarán elegidos por orden sucesivo como vicepresidentes los cuatro que obtengan mayor número de votos. Si en alguna votación se produjera empate, se celebrarán sucesivas votaciones entre los candidatos igualados en votos hasta que el empate quede dirimido.<note>Rumores</note> Señorías, esto es muy pesado pero es mi placer; guarden silencio.</seg>
+               <seg>Por las señoras secretarias de la Mesa de Edad, se procederá al llamamiento por orden alfabético de las señoras y los señores diputados para que depositen la papeleta en la urna correspondiente. Los miembros de la Mesa de Edad votarán al final.</seg>
+               <seg>Señorías, comienza la votación.</seg>
+               <seg>Por las secretarias de la Mesa de Edad, señoras Rosique i Saltor y Muñoz Dalda, se procede al llamamiento de las señoras y los señores diputados, quienes van depositando sus papeletas en la urna.</seg>
+               <seg>Terminada la votación, dijo</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u22"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>Señorías, silencio, por favor.</seg>
+               <seg>¿Alguna señora o señor diputado no ha sido nombrado para el voto?<note>Pausa</note> Al parecer, no; hemos mejorado. Vamos a proceder a recontarlos.</seg>
+               <seg>Realizado el escrutinio, dijo</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u23"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>Señorías, el resultado de la votación para la elección de los cuatro vicepresidentes ha sido el siguiente: votos emitidos, 348; 108, a favor de don Alfonso Rodríguez Gómez de Celis; 101, a favor de doña Ana María Pastor Julián; 77, a favor de doña María Gloria Elizo Serrano; 52, a favor de don Ignacio Gil Lázaro; 1 voto en blanco y 9 votos nulos.</seg>
+               <seg>Quedan, en consecuencia, proclamados: vicepresidente primero, don Alfonso Rodríguez Gómez de Celis<note>aplausos de las señores y los señores diputados, algunos puestos en pie</note> ; vicepresidenta segunda, doña Ana María Pastor Julián<note>aplausos de las señoras y los señores diputados, algunos puestos en pie</note> ; vicepresidenta tercera, doña María Gloria Elizo Serrano<note>aplausos de las señores y los señores diputados, algunos puestos en pie</note> ; vicepresidente cuarto, don Ignacio Gil Lázaro</seg>
+               <note>aplausos de las señoras y los señores diputados, algunos puestos en pie</note>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>- ELECCIÓN DE LOS SECRETARIOS</head>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u24"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>Señorías, se elegirán a continuación los cuatro secretarios. Cada diputado escribirá solo un nombre en la papeleta para la elección de secretarios. Resultarán elegidos por orden sucesivo como secretarios los cuatro que obtengan mayor número de votos. Si en alguna votación se produjera empate, se celebrarán sucesivas votaciones entre los candidatos igualados en votos hasta que el empate quede dirimido.<note>Rumores</note> ¡Señorías, por favor...! Es el único placer que tengo: hacer estas lecturas.</seg>
+               <seg>Por las señoras secretarias de la Mesa de Edad se procederá al llamamiento por orden alfabético de las señoras y los señores diputados para que depositen la papeleta en la urna correspondiente. Los miembros de la Mesa de Edad votarán al final.</seg>
+               <seg>Comienza la votación.<pb n="14"/> Por las secretarias de la Mesa de Edad, señoras Rosique i Saltor y Muñoz Dalda, se procede al llamamiento de las señoras y los señores diputados, quienes van depositando sus papeletas en la urna.</seg>
+               <seg>Terminada la votación y realizado el escrutinio, dijo</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u25"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>Señorías, hago voto a su paciencia y a la propia.</seg>
+               <seg>El resultado de la votación para la elección de los cuatro secretarios ha sido el siguiente: votos emitidos, 348; 67, a favor de doña Sofía Hernanz Costa; 67, a favor de don Gerardo Pisarello Prados; 60, a favor de don Javier Sánchez Serna; 58, a favor de don Adolfo Suárez Illana; 52, a favor de don José María Figaredo Álvarez-Sala; 43, a favor de don José María Espejo-Saavedra Conesa; 1 voto en blanco y cero votos nulos.</seg>
+               <seg>En consecuencia, tenemos que proceder a una nueva elección para dirimir los puestos de doña Sofía Hernanz y don Gerardo Pisarello en orden a la ordinalidad -perdón por la redundancia- de los secretarios.<note>Rumores</note> Muestren ustedes y muestre mi espalda la mayor resignación. Así son las cosas y a hacerlo como manda el artículo 37.3 nos debemos. Cuanto antes lo hagamos antes terminamos. Señorías, paciencia y barajar. Procederemos de nuevo a la votación. Señorías, pueden votar lo que quieran, pero serán votos nulos aquellos que no correspondan a doña Sofía Hernanz Costa o a don Gerardo Pisarello Prados. La intención es simplemente saber quién será el primero y quién será el segundo, pero cuestiones de orden son necesarias para el orden.</seg>
+               <seg>Se me hace una propuesta que creo muy razonable, que vendrá bien para mis huesos y para los suyos, y es que hagamos un pequeño recreo de cinco minutos. Es pequeño, pero servirá para desentumecernos. Entonces, cinco minutos de reposo. Señorías, aprovechemos bien estos cinco minutos, son escasos; disfrutémoslos; estamos en muy buena compañía.<note>Pausa</note> Señorías, por favor, han pasado ya los cinco minutos que nos hemos concedido.</seg>
+               <seg>Tengo estos ojos hechos a las penas / y a las cavilaciones estas sienes: / pena que vas, cavilación que vienes / como el mar de la playa a las arenas. Seguiremos amarrados a la dura galera turquesca -que presentó Góngora- en estos duros bancos, pero solo un poquito más. Señorías, vamos a dar inicio a esta votación extraordinaria para dirimir el puesto de los secretarios. Muchas gracias. Señoras secretarias, a la brega.</seg>
+               <seg>Por las secretarias de la Mesa de Edad, señoras Rosique i Saltor, y Muñoz Dalda, se procede al llamamiento de las señoras y los señores diputados, quienes van depositando sus papeletas en la urna.</seg>
+               <seg>Terminada la votación, dijo</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u26"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>Como estamos cansados, pasan algunas cosas, y ruego paciencia. Vuelvo a preguntar: ¿Algún diputado se ha quedado sin votar?<note>El señor Zaragoza Alonso levanta la mano</note> Que se acerque hacia nosotros, que no le vamos a hacer nada.<note>Risas.-Pausa</note> Realizado el escrutinio, dijo</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u27"
+               who="#ZamarrónAgustín"
+               ana="#regular">
+               <seg>Señorías, prestos al término de nuestra actuación, la Mesa de Edad quiere manifestarles su agradecimiento por la diligencia, el orden y su capacidad de disimular mis defectos y, sobre todo, por su buen humor, que nos ha sido preciso. Gracias. Ahora terminaremos enseguida, esta parte.<note>Aplausos.-Pausa</note> Señorías, el resultado de la votación para dirimir el empate entre los dos secretarios ha sido el siguiente: votos emitidos, 297; 91, a favor de don Gerardo Pisarello Prados; 87, a favor de doña Sofía Hernanz Costa. En consecuencia, quedan proclamados secretario primero, don Gerardo Pisarello Prados<note>aplausos de las señoras y los señores diputados, algunos puestos en pie</note> ; secretaria segunda, doña Sofía Hernanz Costa<note>aplausos de las señoras y los señores diputados, algunos puestos en pie</note> ; secretario tercero, don Javier Sánchez Serna<note>aplausos de las señoras y los señores diputados, algunos puestos en pie</note> , y secretario cuarto, don Adolfo Suárez Illana<note>aplausos de las señoras y los señores diputados, algunos puestos en pie.-Rumores</note> Silencio, por favor.<pb n="15"/> Por tanto, ruego a la señora presidenta y a los señores vicepresidentes y secretarios elegidos en este acto que ocupen sus puestos en la Mesa del Congreso de los Diputados.</seg>
+               <seg>Muchísimas gracias y enhorabuena a los elegidos y a los electores.</seg>
+               <note>Así lo hacen los nuevos miembros de la Mesa.-Aplausos</note>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>JURAMENTO O PROMESA DE ACATAMIENTO DE LA CONSTITUCIÓN</head>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u28"
+               who="#BatetMeritxell"
+               ana="#regular">
+               <seg>Buenos días, señorías.</seg>
+               <seg>Vamos a proceder al juramento o promesa de acatamiento de la Constitución de todos los miembros de la Cámara, en los términos previstos en el Reglamento de la misma.<note>La señora Álvarez de Toledo Peralta-Ramos pide la palabra</note> Sí, señora Álvarez de Toledo.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u29"
+               who="#ÁlvarezCayetana"
+               ana="#regular">
+               <seg>Por una cuestión de Reglamento.</seg>
+               <seg>Señora presidenta, después del espectáculo humillante para la democracia que vivimos aquí el pasado mes de mayo y que se ha vuelto a vivir esta mañana en el Senado, y dado que la presidenta ayer saliente y hoy entrante contestó a una carta que le enviamos diciendo básicamente que no iba a hacer nada o solo un mínimo esfuerzo para garantizar la pulcritud legal de los juramentos en el día de hoy, ruego a la Presidencia que se lea la resolución de esta Presidencia de 1989 que especifica claramente cómo deben producirse esos juramentos, así como también el párrafo clave de la sentencia 119/1990 que dice literalmente que los juramentos no pueden acompañarse de cláusulas o expresiones que de una forma u otra vacíen, limiten o condicionen su sentido propio, sea cual fuese la justificación invocada para ello. Es decir, que no caben juramentos con reservas mentales, ni por supuesto verbales, y que todos los electos tengan muy claro a qué consecuencias se atienen, que se atengan a las consecuencias de no jurar de manera perfectamente escrupulosa de acuerdo con el Reglamento, la Constitución y, por supuesto, la Presidencia si no garantiza que eso sea así.</seg>
+               <seg>Muchas gracias.</seg>
+               <note>Aplausos</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u30" ana="#chair">
+               <seg>Muchas gracias, señora Álvarez de Toledo, por velar por el buen hacer de esta presidenta. La señora presidenta es muy consciente de sus responsabilidades y de sus obligaciones, y desde luego la Presidencia es ejercida de acuerdo con argumentos jurídicos, de acuerdo con la base normativa que le corresponde, esto es, el Reglamento, la resolución y las sentencias del Tribunal Constitucional en toda su interpretación e incluso teniendo ya esta vez -no en la anterior del 21 de mayo, pero ahora sí- un criterio adicional de la Junta Electoral Central. Por tanto, señora Álvarez de Toledo, la Presidencia aplicará el Reglamento, la resolución y toda la normativa vigente, incluida la jurisprudencia del Tribunal Constitucional, para garantizar sobre todo que los derechos fundamentales en España y en este Parlamento se puedan ejercer de la mejor manera posible, haciendo una aplicación flexible, como así indica el Tribunal Constitucional<note>protestas</note> , para que se garantice el derecho fundamental a la participación -artículo 23 de la Constitución-. En este sentido creo que se puede usted quedar tranquila. La presidenta no va a hacer una aplicación arbitraria de las normas, sino que va a hacer una aplicación jurídica de las mismas. Muchas gracias.<note>Aplausos</note> Vamos a proceder, como había iniciado ya a anunciar, al juramento o promesa de acatamiento a la Constitución de todos los miembros de la Cámara en los términos previstos en el Reglamento de la misma y en la resolución de la Presidencia de 30 de noviembre de 1989. Lo harán en primer lugar la Presidencia y los miembros de la Mesa, y a continuación los restantes señores diputados. Ruego a los miembros de la Mesa que se pongan en pie.</seg>
+               <seg>Prometo acatar la Constitución y cumplir fielmente mis obligaciones como presidenta del Congreso de los Diputados.</seg>
+               <seg>Don Alfonso Rodríguez Gómez de Celis, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como vicepresidente primero?</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u31"
+               who="#RodríguezAlfonso"
+               ana="#regular">
+               <seg>Sí, prometo.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u32" ana="#chair">
+               <seg>Doña Ana María Pastor Julián, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como vicepresidenta segunda?</seg>
+               <pb n="16"/>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u33"
+               who="#PastorAna"
+               ana="#regular">
+               <seg>Sí, juro.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u34" ana="#chair">
+               <seg>Doña María Gloria Elizo Serrano, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como vicepresidenta tercera?</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u35"
+               who="#ElizoMaría"
+               ana="#regular">
+               <seg>Sí, prometo.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u36" ana="#chair">
+               <seg>Y don Ignacio Gil Lázaro, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como vicepresidente cuarto?</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u37"
+               who="#GilIgnacio"
+               ana="#regular">
+               <seg>Por España, sí, juro.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u38" ana="#chair">
+               <seg>Don Gerardo Pisarello Prados, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como secretario primero?</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u39"
+               who="#PisarelloGerardo"
+               ana="#regular">
+               <seg>Por las trece rosas, sí, prometo.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u40" ana="#chair">
+               <seg>Doña Sofía Hernanz Costa, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como secretaria segunda?</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u41"
+               who="#HernanzSofía"
+               ana="#regular">
+               <seg>Sí, prometo.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u42" ana="#chair">
+               <seg>Don Javier Sánchez Serna, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como secretario tercero?</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u43"
+               who="#SánchezJavier"
+               ana="#regular">
+               <seg>Por la democracia y los derechos sociales, sí, prometo.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u44" ana="#chair">
+               <seg>Don Adolfo Suárez Illana, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como secretario cuarto?</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u45"
+               who="#SuárezAdolfo"
+               ana="#regular">
+               <seg>Sí, juro.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u46" ana="#chair">
+               <seg>Muchas gracias.</seg>
+               <seg>Pasamos ahora al juramento general. La pregunta que se formula en términos generales es la siguiente: señorías, ¿juráis o prometéis acatar la Constitución?</seg>
+               <seg>Ruego al señor secretario primero que proceda al llamamiento por orden alfabético para que las señoras y señores diputados puedan proceder al acatamiento. Los miembros del Gobierno en funciones lo harán al final.</seg>
+               <seg>Por los secretarios de la Mesa se procede a dar lectura de la lista de las señoras y los señores diputados electos, quienes juran, prometen o lo hacen utilizando otras fórmulas de acatamiento de la Constitución, excepto el señor Jaume Alonso-Cuevillas i Sayrol que está ausente.</seg>
+               <seg>Durante la lectura, el señor Abascal Conde pide la palabra, a lo que la señora presidenta le señala que dará la palabra al final del acatamiento a quien lo solicite.</seg>
+               <seg>A continuación, también por los secretarios de la Mesa, se procede a dar lectura de los miembros del Gobierno en funciones, diputados electos, quienes juran o prometen la Constitución.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u47" ana="#chair">
+               <seg>Muchas gracias a los cuatro secretarios.</seg>
+               <seg>Todas las señoras y los señores diputados que han contestado al llamamiento han adquirido la condición plena de diputados y diputadas.<note>Aplausos.-Los señores Casado Blanco, García Egea, Mariscal Anaya y la señora Álvarez de Toledo Peralta-Ramos piden la palabra</note> Señor Casado, tiene la palabra.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u48"
+               who="#CasadoPablo"
+               ana="#regular">
+               <seg>Tal y como ha avisado anteriormente la portavoz del Grupo Popular, este grupo iba a estar muy vigilante al desarrollo de la sesión de hoy. Quiero hacer una reflexión: si esta Cámara no se defiende a sí misma de un espectáculo que atenta gravemente no contra el decoro parlamentario, sino contra el propio orden constitucional en una sesión solemne, creo que empezamos a tener un problema del propio pilar institucional de nuestra nación.<pb n="17"/> Quiero recordar que el artículo 108 de la Ley Orgánica del Régimen Electoral General dice que para adquirir la condición plena como parlamentario hace falta acatar públicamente la Constitución. Del mismo modo, se ha recordado que hay una resolución de la Cámara -también el artículo 20 del Reglamento- que dice que para el juramento o promesa no se pueden utilizar fórmulas que desvirtúen o vacíen el sentido del acatamiento de la Carta Magna. Y en esta ocasión, en esta sesión solemne, esto ha sucedido al menos en casi medio centenar de ocasiones. Por eso, señora presidenta, usted no debería haber dicho que todos los diputados han adquirido la condición plena como parlamentarios. Al menos, tenía que haber puesto medios para que los servicios taquigráficos, a través de la grabación o la traducción de algunas de las expresiones, pudieran cotejar con la Mesa de la Cámara si esto ha sido así. En nuestra opinión, no ha sido así y, por eso, vamos a presentar un recurso de amparo ante la Mesa y también ante el Tribunal Constitucional.<note>Aplausos</note> Pero le pedimos, en su concepto de flexibilidad, que guarde el pilar institucional que esta Cámara merece frente al espectáculo que hoy se ha vuelto a reiterar.</seg>
+               <seg>Muchas gracias.</seg>
+               <note>Aplausos.-El señor Abascal Conde pide la palabra</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u49" ana="#chair">
+               <seg>Gracias, señor Casado.</seg>
+               <seg>Señor Abascal.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u50"
+               who="#AbascalSantiago"
+               ana="#regular">
+               <seg>Señora presidenta, al amparo del artículo 72.1 del Reglamento en relación con los artículos 4, 20 y 32, apartados 1 y 2, solicito la palabra para pedir a la Presidencia que, aunque sea a posteriori, cumpla y haga cumplir y respetar el Reglamento de esta Cámara. A nuestro juicio, y según la clarísima sentencia del Tribunal Constitucional, hoy los electos de Junts pel Sí, de Esquerra Republicana, del Partido Nacionalista Vasco, de Bildu y del Bloque Nacionalista Galego, no han alcanzado la condición de diputados porque su fórmula de juramento no es válida según la Sentencia 119/1990 del Tribunal Constitucional, que expresa con claridad que las fórmulas imaginativas tienen como límite que su formulación no desnaturalice o vacíe de contenido el acatamiento mismo mediante fórmulas que supongan un fraude de ley o priven de sentido al propio acatamiento, que es exactamente lo que ha ocurrido. Es muy evidente que no solamente no han jurado la Constitución algunos de los electos, sino que han realizado un acto de conjura contra la Constitución, y me remito de nuevo a la sentencia del Tribunal Constitucional cuando dice que lo decisivo es que el acatamiento a la Constitución haya sido incondicional y pleno.</seg>
+               <seg>En consecuencia, como es tan evidente que estos señores se han manifestado conjurándose contra la Constitución o evitando su juramento, solicitamos a la Mesa y a la Presidencia que estudien con detenimiento estas fórmulas y que adviertan, en su caso, a los señores electos de la ineficacia de la fórmula empleada y de que, por no cumplir los requisitos de los artículos 4 y 20 del Reglamento, no adquieren la condición de diputados. En caso contrario, señora presidenta, queremos dejar constancia en esta Cámara - concluyo ya- de que el Grupo Parlamentario VOX se reserva todas las acciones legales, incluso ante los tribunales, no solamente contra los electos que van a adquirir la condición de diputados ilegalmente en el día de hoy, sino también contra la Presidencia de la Cámara y los miembros de la Mesa que lo permitan por la posible comisión de una prevaricación administrativa.</seg>
+               <seg>Muchas gracias, señora presidenta.</seg>
+               <note>Aplausos.-La señora Arrimadas García pide la palabra</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u51" ana="#chair">
+               <seg>Muchas gracias, señor Abascal.</seg>
+               <seg>Señora Arrimadas.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u52"
+               who="#ArrimadasInés"
+               ana="#regular">
+               <seg>Señora presidenta, le pido la palabra por el artículo 72 del Reglamento.</seg>
+               <seg>Señora presidenta, claramente en esta sesión no se ha cumplido no solo el Reglamento, sino las sentencias relativas a cómo se tiene que acceder al cargo de diputado. Usted hacía referencia en su primera intervención a la flexibilidad. Es cierto que en la sentencia se habla de flexibilidad, y podemos entender que algunos de los diputados y diputadas al acceder a su cargo hayan dicho cosas que entren dentro de la flexibilidad; por ejemplo, 'por España'<note>rumores</note> , 'por los derechos humanos' o incluso una que a mí me encantó en la legislatura anterior en la que se juró 'por el planeta'. Eso, dentro de lo que cabe, no sale de lo que es la flexibilidad. Pero aquí, señora presidenta, se ha jurado o prometido el cargo con graves insultos a nuestra democracia. Aquí se ha dicho que España es una dictadura. Aquí se acaba de decir que hay presos políticos. Eso, señora presidenta, y usted lo debería saber, es decir que los jueces son prevaricadores que meten en la cárcel a la gente por sus ideas. Usted, señora presidenta del Congreso, no es solo presidenta para los privilegios que le son dados por ser la segunda institución de España, usted es presidenta también<pb n="18"/> para las obligaciones, y la mayor obligación que tiene es mantener el decoro de esta Cámara y el respeto a las instituciones del Estado. Usted no puede permitir que, como añadido a un juro o prometo, se insulte a los jueces, a la democracia de este país o, incluso, se ponga en duda que esta sea la Cámara de la soberanía nacional hablando paralelamente de otras soberanías que la fragmentan.</seg>
+               <seg>Yo le pido, señora presidenta del Congreso, que recuerde que no es la delegada de Sánchez en la Mesa. Usted es la que debe velar por el cumplimiento del Reglamento y de todas las sentencias. Por es, le pido que no vuelva a cometer el error que cometió en la pasada legislatura y que haga cumplir el Reglamento. Porque le vuelvo a decir que usted no es solo la presidenta del Congreso para los privilegios que le otorga su cargo; usted también es presidenta para las obligaciones.</seg>
+               <seg>Muchas gracias.</seg>
+               <note>Aplausos</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u53" ana="#chair">
+               <seg>Muchas gracias a las tres señorías que han solicitado la palabra.</seg>
+               <seg>Siguiendo del aprendizaje de un referente político para mí que decía que política es pedagogía, me voy a permitir compartir con todos ustedes algunos párrafos de las sentencias a las que estamos haciendo alusión. Me refiero a las sentencias del Tribunal Constitucional. La sentencia 119/1990 nos dice: No resulta congruente una interpretación de la obligación de prestar acatamiento a la Constitución que antepone un formalismo rígido a toda otra consideración, porque de ese modo se violenta la misma Constitución de cuyo acatamiento se trata, se olvida el mayor valor de los derechos fundamentales, en concreto los del artículo 23, y se hace prevalecer una interpretación de la Constitución excluyente frente a otra integradora. Continúo con otra sentencia del Tribunal Constitucional, la 74/1991: La naturaleza misma de la función representativa, con un evidente sustrato democrático producto de las elecciones, refuerza la idea de interpretación flexible de los requisitos formales, haciendo prevalecer, pues, los derechos de participación y representación sobre una exigencia formalista o rigorista de los requisitos que no guarde proporción alguna con la finalidad perseguida al establecerlos y con la trascendencia misma del requisito.</seg>
+               <seg>Esta interpretación del Tribunal Constitucional la hace también la Junta Electoral Central cuando dice en su Acuerdo 527/2019: La junta entiende que estas fórmulas son admisibles en la medida en que, de conformidad con la jurisprudencia del Tribunal Constitucional -y hace referencia a las dos sentencias citadas-, contienen expresiones que tienen un sentido modal o causal que no implica condición, reserva ni limitación alguna del acatamiento a la Constitución.</seg>
+               <seg>Todas las fórmulas utilizadas hoy han sido anteriormente utilizadas y, por tanto, también supervisadas por la Junta Electoral Central.<note>Rumores</note> Esta interpretación que hacen tanto el Tribunal Constitucional como la Junta Electoral Central, esta interpretación integradora, es precisamente la que hace también esta presidenta, porque está convencida de que reforzando nuestros derechos fundamentales lo que hacemos es reforzar nuestra democracia. Finalmente, el mismo artículo que les ha facultado para solicitar la palabra prevé expresamente que debe acatarse la decisión que adopte la Presidencia y que no cabe debate alguno al respecto.</seg>
+               <seg>Muchas gracias.</seg>
+               <note>Aplausos, con algunas señoras y señores diputados puestos en pie</note>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>DISCURSO DE LA SEÑORA PRESIDENTA DEL CONGRESO DE LOS DIPUTADOS</head>
+            <u xml:id="ParlaMint-ES_2019-12-03-CD191203.u54" ana="#chair">
+               <seg>Y ahora, si me lo permiten, señorías, quería dirigirme también a la Cámara con otras palabras; palabras complementarias. Señoras y señores, empezaré por felicitar a todas sus señorías por su elección como diputadas y diputados, y también con este motivo evocar un consejo que forma parte de la cultura cívica y sentimental de muchas generaciones, y que nos recuerda la gran responsabilidad que acompaña al ejercicio del poder. El poder nos da cosas tan importantes como la capacidad de cambiar el mundo, pero no nos da otras que son igual de importantes; por ejemplo, el poder no nos da la razón, y eso nos obliga a la prudencia. De modo que, además de agradecerles la confianza en nombre de todos los miembros de la Mesa y en el mío propio, les prometo que usaremos con prudencia esa confianza que han depositado en nosotros, y que lo haremos al servicio de los intereses generales velando por el buen funcionamiento de esta institución, que es la institución principal de la democracia. El Legislativo es el poder que procede directamente de la voluntad popular y que representa al titular de la soberanía del que emanan los demás poderes democráticos. Una gran responsabilidad la nuestra, señorías.</seg>
+               <seg>Sea cual sea nuestra posición y la del grupo político al que cada uno pertenecemos, esa responsabilidad nos exige trabajar para cumplir con los fines y objetivos de la tarea parlamentaria. Esta es, sin duda, representar a los ciudadanos, pero además hay que representarlos con el propósito de desarrollar eficazmente las funciones que la Constitución atribuye al Parlamento y que se concretan en hacer realidad<pb n="19"/> las políticas que demanda nuestra sociedad. No es tarea fácil, como mostró la anterior legislatura, pero es nuestro cometido y por él deberemos responder ante los ciudadanos.</seg>
+               <seg>En un tiempo en el que la complejidad de nuestras sociedades alcanza niveles que no tienen parangón en el pasado es más necesario que nunca que las luces de la razón iluminen el gobierno de los asuntos públicos, y la razón que ilumina en política es la que nace de la deliberación entre quienes tienen diferentes visiones, valores e intereses. Nos traen aquí nuestras diferencias y paradójicamente unidos por aquello que nos separa, es aquí, en este espacio de representación y deliberación, donde emerge la comprensión de la verdadera naturaleza de los valores compartidos y de los intereses generales, una comprensión que debe nacer de la escucha y del diálogo con quienes piensan diferente o incluso contrariamente a lo que nosotros pensamos.</seg>
+               <seg>La calidad de nuestro trabajo depende de muchos factores, pero hay uno que es esencial: el respeto. Resulta asombroso que después de lo vivido y padecido todavía hoy sean actuales las palabras que Fernando de los Ríos pronunciara aquí mismo, al comienzo de la década de los treinta del siglo pasado, al afirmar que en España lo verdaderamente revolucionario es el respeto. El respeto no es un adorno, sino un valor sustantivo de la actividad humana en general y de la actividad política en particular. El respeto es un valor exigente, es activo, impone contención y consideración y conviene empezar por respetarse a sí mismo. Por eso, es bueno seguir el consejo de Don Quijote a su escudero, elevado a la condición de gobernador, cuando le dice: 'Has de poner los ojos en quien eres, procurando conocerte a ti mismo, que es el más difícil conocimiento que puede imaginarse'. Y sigue Cervantes: 'Del conocerte saldrá el no hincharte como la rana que quiso igualarse con el buey'. Nos conviene a todos saber quién habla desde la tribuna de oradores, pero sobre todo le conviene saberlo al que habla. No es prudente encumbrarse demasiado, no solo por decoro, sino porque a ciertas alturas falta el oxígeno y sin oxígeno falla el razonamiento. Como dije en la anterior sesión constitutiva, ni siquiera la mayoría es el pueblo y, por supuesto, tampoco lo es la minoría, así que mucho menos ninguno de nosotros individualmente. Quizá la medida del decoro sea acompasar el tamaño de nuestras palabras al de nuestros actos individual y colectivamente.</seg>
+               <seg>Tenemos la fortuna, gracias a las generaciones que nos han precedido, de tener muchas cosas valiosas que preservar. La sociedad española, con todos sus defectos y problemas, es una buena sociedad. España es un buen lugar para nacer y para vivir. Nuestro deber generacional es mejorarla, legar a nuestras hijas e hijos una sociedad mejor y para eso debemos poner cuanto antes manos a la obra. Y la obra en política empieza por el respeto y el diálogo. Hoy, en el Congreso con más agrupaciones políticas de nuestra historia democrática, puede parecernos que nuestra fragmentación y la disparidad de nuestras posiciones harán estéril cualquier diálogo, pero quien eso crea hará bien en pensar que el diálogo es en la política lo que el trabajo de investigación básica es en la ciencia. Y como dijo Margarita Salas, quien merece un recuerdo en esta Cámara por su contribución a la ciencia en España, lo importante es hacer investigación básica y, luego, de esta pueden salir resultados aplicables que no son previsibles a primera vista y, sin embargo, salen. Invirtamos, pues, en respeto y diálogo leal porque de esa inversión, estoy segura, saldrán resultados. Señorías, obras son amores. Se honra al Congreso y a la democracia en los actos, en nuestros actos como diputados y como diputadas, y ese es mi compromiso que espero cumplir, con la ayuda de todos ustedes y de todas las personas que trabajan en esta casa, con responsabilidad y con respeto.</seg>
+               <seg>Muchísimas gracias, moltes gràcies, moitas grazas, eskerrrik asko.<note>Aplausos de las señoras y los señores diputados, algunos puestos en pie</note> De conformidad con lo dispuesto en el artículo 4 del Reglamento de la Cámara, declaro constituido el Congreso de los Diputados. De este hecho se dará cuenta a su majestad el Rey, al Senado y al Gobierno.</seg>
+               <seg>Se levanta la sesión.</seg>
+               <seg>Eran las tres y treinta y cinco minutos de la tarde.</seg>
+               <note>**********página con cuadro**********</note>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
