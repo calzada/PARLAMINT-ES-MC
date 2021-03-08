@@ -21,7 +21,7 @@ val:
 cnv2:
 	rm -f ParlaMint/*.xml
 	$s inDir="../tmp" outDir="ParlaMint" \
-	-xsl:bin/parlamint2root.xsl bin/ParlaMint-template.xml
+	-xsl:bin/parlamint2root.xsl bin/ParlaMint-template-ES.xml
 
 #First conversion: from CD format to TEI-ish corpus components
 cnv1:
