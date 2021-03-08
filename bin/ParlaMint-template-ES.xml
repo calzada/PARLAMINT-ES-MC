@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" xml:id="ParlaMint-ES">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES [ParlaMint SAMPLE]</title>
+			<title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES [ParlaMint SAMPLE]</title>
+			<title type="sub" xml:lang="es">Actas del Congreso de los Diputados de España, legislaturas XI, XII, XIII y XIV (2016 - 2020)</title>
+            <title type="sub" xml:lang="en">Minutes from the National Congress in Spain, terms 11, 12, 13, 14 (2016 - 2020)</title>
+            <meeting n="11" corresp="#CD" ana="#parla.term #CD.11">Term 11</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Term 12</meeting>
+			<meeting n="13" corresp="#CD" ana="#parla.term #CD.13">Term 13</meeting>
+			<meeting n="14" corresp="#DZ" ana="#parla.term #CD.14">Term 14</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-0830-4837" xml:lang="es">María CALZADA PÉREZ</persName>
+				<persName ref="https://orcid.org/0000-0003-0830-4837" xml:lang="en">María CALZADA PÉREZ</persName>
+               <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tomaž Erjavec</persName>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <funder>
+				<orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
+				<orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+			<funder>
+			    <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
+				<orgName xml:lang="en">Ministry of Science and Innovation from Spain</orgName>
+			</funder>
+         </titleStmt>
+         <editionStmt>
+           <edition>0.1</edition>
+         </editionStmt>
+         <extent>
+            <!--measure unit="texts" quantity="0" xml:lang="en">XXX texts</measure-->
+			<measure unit="session" quantity="242" xml:lang="es">242 sesiones</measure>            
+			<measure unit="meeting" quantity="242" xml:lang="en">242 meetings</measure>
+			<measure quantity="10879649" unit="words" xml:lang="es">10.879.649 palabras</measure>
+            <measure quantity="10879649" unit="words" xml:lang="en">10,879,649 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+			   <orgName xml:lang="es">Infraestructura de investigación CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+			   <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title xml:lang="es" type="main">CORTES GENERALES DIARIO DE SESIONES DEL CONGRESO DE LOS DIPUTADOS PLENO Y DIPUTACIÓN PERMANENTE</title>
+			<title type="main" xml:lang="en">NATIONAL ASSEMBLY OF SPAIN DAILY SESSIONS</title>
+               <idno type="URI">http://www.congreso.es</idno>
+		   <date from="2016-07-19" to="2020-12-31">19.07.2016 - 31-12-2020</date> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+			<p xml:lang="es"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref></p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Text has not been normalised, except for spacing.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl>
+	   <!-- Insert tagUsages! -->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="parla.legislature">
+			   <desc xml:lang="es"><term>Legislatura</term></desc>
+               <desc xml:lang="en"><term>Legislature</term></desc>
+               <category xml:id="parla.geo-political">
+				  <catDesc xml:lang="es"><term>Entidades geopolíticas o administrativas</term></catDesc>
+                  <catDesc xml:lang="en"><term>Geo-political or administrative units</term></catDesc>
+				  <category xml:id="parla.supranational">
+                     <catDesc xml:lang="es"><term>Ámbito legislativo supranacional</term></catDesc>
+                     <catDesc xml:lang="en"><term>Supranational legislature</term></catDesc>
+                  </category>
+                  <category xml:id="parla.national">
+					 <catDesc xml:lang="es"><term>Ámbito legislativo nacional</term></catDesc>
+                     <catDesc xml:lang="en"><term>National legislature</term></catDesc>
+                  </category>
+				  <category xml:id="parla.regional">
+                     <catDesc xml:lang="es"><term>Ámbito legislativo regional</term></catDesc>
+                     <catDesc xml:lang="en"><term>Regional legislature</term></catDesc>
+                  </category>
+                  <category xml:id="parla.local">
+                     <catDesc xml:lang="es"><term>Ámbito legislativo local</term></catDesc>
+                     <catDesc xml:lang="en"><term>Local legislature</term></catDesc>
+                  </category>				 
+               </category>
+               <category xml:id="parla.organization">
+			      <catDesc xml:lang="es"><term>Organización</term></catDesc>
+                  <catDesc xml:lang="en"><term>Organization</term></catDesc>
+                  <category xml:id="parla.chambers">
+					<catDesc xml:lang="es"><term>Cámaras</term></catDesc>
+                     <catDesc xml:lang="en"><term>Chambers</term></catDesc>
+ 					 <category xml:id="parla.uni">
+                        <catDesc xml:lang="es"><term>Unicameralismo</term></catDesc>
+                        <catDesc xml:lang="en"><term>Unicameralism</term></catDesc>
+                     </category>
+                     <category xml:id="parla.bi">
+					    <catDesc xml:lang="es"><term>Bicameralismo</term></catDesc>
+                        <catDesc xml:lang="en"><term>Bicameralism</term></catDesc>
+						<category xml:id="parla.upper">
+                           <catDesc xml:lang="es"><term>Cámara Alta</term></catDesc>
+                           <catDesc xml:lang="en"><term>Upper house</term></catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+						   <catDesc xml:lang="es"><term>Cámara Baja</term></catDesc>
+                           <catDesc xml:lang="en"><term>Lower house</term></catDesc>
+                        </category>
+					 <category xml:id="parla.multi">
+                        <catDesc xml:lang="es"><term>Multicameralismo</term></catDesc>
+                        <catDesc xml:lang="en"><term>Multicameralism</term></catDesc>
+                        <category xml:id="parla.chamber">
+                           <catDesc xml:lang="es"><term>Cámara</term></catDesc>
+                           <catDesc xml:lang="en"><term>Chamber</term></catDesc>
+                        </category>
+                     </category>
+                     </category>
+                  </category>
+                  <category xml:id="parla.committee">
+					 <catDesc xml:lang="es"><term>Comisión</term></catDesc>
+                     <catDesc xml:lang="en"><term>Committee</term></catDesc>
+                     <category xml:id="parla.committee.standing">
+						<catDesc xml:lang="es"><term>Comisión permanente</term></catDesc>
+                        <catDesc xml:lang="en"><term>Standing committee</term></catDesc>
+                     </category>
+                     <category xml:id="parla.committee.special">
+						<catDesc xml:lang="es"><term>Comisión no permanente</term></catDesc>
+                        <catDesc xml:lang="en"><term>Special committee</term></catDesc>
+                     </category>
+                     <category xml:id="parla.committee.inquiry">
+					    <catDesc xml:lang="es"><term>Comisión de investigación</term></catDesc>
+                        <catDesc xml:lang="en"><term>Committee of inquiry</term></catDesc>
+                     </category>
+                  </category>
+               </category>
+               <category xml:id="parla.term">
+				  <catDesc xml:lang="es"><term>Legislatura</term>: mandato parlamentario entre elecciones.</catDesc>
+                  <catDesc xml:lang="en"><term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category xml:id="parla.session">
+					 <catDesc xml:lang="es"><term>Periodo de sesiones</term>: periodo en el que se celebran las sesiones parlamentarias con propósitos legislativos. Generalmente, durante la legislatura hay uno o dos periodos de sesiones. Una sesión, por su parte, se convocan para abordar un orden del día en uno o varios encuentros parlamentarios.</catDesc>
+                     <catDesc xml:lang="en"><term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <category xml:id="parla.meeting">
+						<catDesc xml:lang="es"><term>Sesión</term>: reunión de un órgano parlamentario (en uno o varios encuentros) vinculado a un orden del día.</catDesc>
+                        <catDesc xml:lang="en"><term>Meeting: each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <category xml:id="parla.meeting-types">
+						   <catDesc xml:lang="es"><term>Tipos de sesión</term></catDesc>
+                           <catDesc xml:lang="en"><term>Types of meetings</term></catDesc>
+                           <category xml:id="parla.meeting.regular">
+							  <catDesc xml:lang="es"><term>Sesión ordinaria</term></catDesc>
+                              <catDesc xml:lang="en"><term>Regular meeting</term></catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.special">
+							  <catDesc xml:lang="es"><term>Sesión especial</term></catDesc>
+                              <catDesc xml:lang="en"><term>Special meeting</term></catDesc>
+                              <category xml:id="parla.meeting.extraordinary">
+								 <catDesc xml:lang="es"><term>Sesión extraordinaria</term></catDesc>
+                                 <catDesc xml:lang="en"><term>Extraordinary meeting</term></catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.urgent">
+								 <catDesc xml:lang="es"><term>Sesión extraordinaria urgente</term></catDesc>
+                                 <catDesc xml:lang="en"><term>Urgent meeting</term></catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.ceremonial">
+								 <catDesc xml:lang="es"><term>--</term></catDesc>
+                                 <catDesc xml:lang="en"><term>Ceremonial meeting</term></catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.commemorative">
+								 <catDesc xml:lang="es"><term>Sesión conmemorativa</term></catDesc>
+                                 <catDesc xml:lang="en"><term>Commemorative meeting</term></catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.opinions">
+								 <catDesc xml:lang="es"><term>Exposición pública</term></catDesc>
+                                 <catDesc xml:lang="en"><term>Public presentation of opinions</term></catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="parla.meeting.continued">
+							  <catDesc xml:lang="eS"><term>Reanudación de la sesión</term></catDesc>
+                              <catDesc xml:lang="en"><term>Continued meeting</term></catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.public">
+							  <catDesc xml:lang="es"><term>Sesión pública</term></catDesc>
+                              <catDesc xml:lang="en"><term>Public meeting</term></catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.executive">
+							<catDesc xml:lang="es"><term>Sesión secreta</term></catDesc>
+                              <catDesc xml:lang="en"><term>Executive meeting</term></catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sitting">
+						   <catDesc xml:lang="es"><term>Sesión plenaria</term>: día del pleno</catDesc>
+                           <catDesc xml:lang="en"><term>Sitting</term>: sitting day</catDesc>
+                        </category>
+                     </category>
+                  </category>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="speaker_types">
+			   <desc xml:lang="es"><term>Tipos de oradores</term></desc>
+               <desc xml:lang="en"><term>Types of speakers</term></desc>
+               <category xml:id="chair">
+				<catDesc xml:lang="es"><term>Presidencia</term>: persona que preside la sesion</catDesc>
+                  <catDesc xml:lang="en"><term>Chairman</term>: chairperson of a meeting</catDesc>
+               </category>
+               <category xml:id="regular">
+				  <catDesc xml:lang="es"><term>Diputado/a</term>: representante en el Congreso</catDesc>
+                  <catDesc xml:lang="en"><term>Regular</term>: a regular speaker at a meeting</catDesc>
+               </category>
+               <category xml:id="guest">
+				  <catDesc xml:lang="es"><term>Orador/a invitado/a</term>: persona invitada a hablar ante el Pleno</catDesc>
+                  <catDesc xml:lang="en"><term>Guest</term>: a guest speaker at a meeting</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="subcorpus">
+			   <desc xml:lang="es"><term>Subcorpus</term></desc>
+               <desc xml:lang="en"><term>Subcorpora</term></desc>
+               <category xml:id="reference">
+				  <catDesc xml:lang="es"><term>Corpus de referencia</term>: aquel que incluye todos los textos compilados hasta el 31 de octubre de 2019.</catDesc>
+                  <catDesc xml:lang="en"><term>Reference</term>: reference subcorpus, until 2019-10-31.</catDesc>
+               </category>
+               <category xml:id="covid">
+				  <catDesc xml:lang="es"><term>Corpus COVID</term>: Aquel que incluye todos los textos compilados a partir del 1 de noviembre de 2019. </catDesc>
+                  <catDesc xml:lang="en"><term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Calle Floridablanca, s/n. 28071</name>
+               <name type="city">Madrid</name>
+               <name type="country" key="ES">Spain</name>
+		       <date from="2016-07-19" to="2020-12-31">19.07.2016 - 31.12.2020</date> 
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listOrg>
+               <org xml:id="CD" role="parliament" ana="#parla.national #parla.lower">
+				  <orgName xml:lang="es" full="yes">Congreso de los Diputados de España</orgName>
+                  <orgName xml:lang="en" full="yes">National Assembly of Spain</orgName>
+                  <event from="1978-12-29">
+                     <label xml:lang="en">existence</label>
+                  </event>
+				  <idno type="URI" xml:lang="ee" subtype="wikimedia">https://es.wikipedia.org/wiki/Congreso_de_los_Diputados</idno>
+                  <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Congress_of_Deputies</idno>
+                  <listEvent>
+					 <head xml:lang="es">Legislatura</head>
+                     <head xml:lang="en">Legislative period</head>
+                     <event xml:id="CD.11" from="2016-01-13" to="20160718">
+                        <label xml:lang="es">Legislatura XI</label>
+						<label xml:lang="en">Term 11</label>
+                     </event>
+                     <event xml:id="CD.12" from="2016-07-19">
+						<label xml:lang="es">Legislatura XII</label>
+                        <label xml:lang="en">Term 12</label>
+                     </event>
+					 <event xml:id="CD.13" from="2019-05-21">
+						<label xml:lang="es">Legislatura XIII</label>
+                        <label xml:lang="en">Term 13</label>
+                     </event>
+					 <event xml:id="CD.14" from="2019-12-03">
+    					<label xml:lang="es">Legislatura XIV</label>
+                        <label xml:lang="en">Term 14</label>
+                     </event>
+                  </listEvent>
+               </org>
+               <org xml:id="GOV" role="government">
+				  <orgName xml:lang="es" full="yes">Gobierno de España</orgName>
+                  <orgName xml:lang="en" full="yes">Government of Spain</orgName>
+                  <event from="1978-12-29">
+                     <label xml:lang="en">existence</label>
+                  </event>
+				<idno type="URI" xml:lang="es" subtype="wikimedia">https://es.wikipedia.org/wiki/Gobierno_de_España</idno>
+                  <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Government_of_Spain</idno>
+                  <listEvent>
+                     <event xml:id="GOV.6" from="2011-12-21" to="2018-06-01">
+						<label xml:lang="es">Séptimo Gobierno de España (21.12.2011 - 02.06-2018)</label>
+                        <label xml:lang="en">7th Government of Spain (21.12.2011 - 02.06-2018)</label>
+                     </event>
+                     <event xml:id="GOV.7" from="2018-06-02">
+						<label xml:lang="es">Octavo Gobierno de España (02.06.2018-)</label>
+						<label xml:lang="es">8th Government of Spain (02.06.2018-)</label>
+                     </event>
+                  </listEvent>
+               </org>
+               <org role="politicalParty"/>
+            </listOrg>
+            <listPerson>
+			   <head xml:lang="es">Lista de Oradores/Oradoras</head>
+               <head xml:lang="en">List of speakers</head>
+               <person/>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="es" xml:lang="es">Español</language>
+            <language ident="es" xml:lang="en">Spanish</language>
+            <language ident="en" xml:lang="es">Inglés</language>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+	<!-- Insert change -->
+        <change/>
+      </revisionDesc>
+   </teiHeader>
+   <!-- Insert all texts -->
+
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190122-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190212-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190213-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190219-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190220-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190221-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190226-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190227-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190228-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190521-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190722-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190723-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190725-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190910-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190911-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190917-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190918-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD191203-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200104-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200105-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200107-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200204-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200211-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200212-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200218-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200219-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200220-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200225-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200226-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200227-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200318-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200325-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200409-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200415-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200422-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200429-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200506-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200513-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200520-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200527-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200603-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200604-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200610-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200611-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200616-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200617-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200623-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200624-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200625-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200714-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200715-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200721-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200722-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200729-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200908-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200909-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200910-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200915-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200916-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200922-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200923-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200929-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD200930-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201001-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201013-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201014-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201015-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201020-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201021-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201022-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201027-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201028-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201029-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201111-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201112-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201117-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201118-bis-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201118-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201130-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201201-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201202-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201203-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201215-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201216-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201217-bis-PM.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD201217-PM.xml"/>
+
+   
+ </teiCorpus>
+
