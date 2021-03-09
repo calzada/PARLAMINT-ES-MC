@@ -3,17 +3,16 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES [ParlaMint SAMPLE]</title>
-	<title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES [ParlaMint SAMPLE]</title>
+        <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES [ParlaMint]</title>
+	<title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES [ParlaMint]</title>
 	<title type="sub" xml:lang="es">Actas del Congreso de los Diputados de España, legislaturas XI-XII (2016 - 2020)</title>
         <title type="sub" xml:lang="en">Minutes from the National Congress in Spain, terms 11-14 (2016 - 2020)</title>
         <meeting n="11" corresp="#CD" ana="#parla.term #CD.11">Term 11</meeting>
         <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Term 12</meeting>
 	<meeting n="13" corresp="#CD" ana="#parla.term #CD.13">Term 13</meeting>
-	<meeting n="14" corresp="#DZ" ana="#parla.term #CD.14">Term 14</meeting>
+	<meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Term 14</meeting>
         <respStmt>
-          <persName ref="https://orcid.org/0000-0003-0830-4837" xml:lang="es">María CALZADA PÉREZ</persName>
-	  <persName ref="https://orcid.org/0000-0003-0830-4837" xml:lang="en">María CALZADA PÉREZ</persName>
+          <persName ref="https://orcid.org/0000-0003-0830-4837">María Calzada Pérez</persName>
           <resp xml:lang="en">Data retrieval and conversion to XML</resp>
         </respStmt>
         <respStmt>
@@ -26,18 +25,22 @@
         </funder>
 	<funder>
 	  <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
-	  <orgName xml:lang="en">Ministry of Science and Innovation from Spain</orgName>
+	  <orgName xml:lang="en">Ministry of Science and Innovation of Spain</orgName>
 	</funder>
       </titleStmt>
       <editionStmt>
         <edition>0.1</edition>
       </editionStmt>
+      <!-- Auto-insert quantities -->
       <extent>
-        <!--measure unit="texts" quantity="0" xml:lang="en">XXX texts</measure-->
-	<measure unit="session" quantity="242" xml:lang="es">242 sesiones</measure>            
-	<measure unit="meeting" quantity="242" xml:lang="en">242 meetings</measure>
-	<measure quantity="10879649" unit="words" xml:lang="es">10.879.649 palabras</measure>
-        <measure quantity="10879649" unit="words" xml:lang="en">10,879,649 words</measure>
+        <!-- ET: does one file correspond to one session? or to one meeting? -->
+	<!--measure unit="sessions" quantity="0" xml:lang="es">0 sesiones</measure-->
+	<!--measure unit="sessions" quantity="0" xml:lang="en">0 sessions</measure-->
+	<!-- ET: What is "speeches" in Spanish? -->
+	<measure unit="speeches" quantity="0" xml:lang="es">0 XXX</measure>
+	<measure unit="speeches" quantity="0" xml:lang="en">0 speeches</measure>
+	<measure quantity="0" unit="words" xml:lang="es">0 palabras</measure>
+        <measure quantity="0" unit="words" xml:lang="en">0 words</measure>
       </extent>
       <publicationStmt>
         <publisher>
@@ -48,17 +51,17 @@
         <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
         <availability status="free">
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-	  <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)</ref>.</p>
-          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+	  <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
         </availability>
         <date/>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title xml:lang="es" type="main">CORTES GENERALES DIARIO DE SESIONES DEL CONGRESO DE LOS DIPUTADOS PLENO Y DIPUTACIÓN PERMANENTE</title>
-	  <title type="main" xml:lang="en">NATIONAL ASSEMBLY OF SPAIN DAILY SESSIONS</title>
+          <title xml:lang="es" type="main">Cortes generales diario de sesiones del congreso de los diputados pleno y diputación permanente</title>
+	  <title type="main" xml:lang="en">National assembly of Spain daily sessions</title>
           <idno type="URI">http://www.congreso.es</idno>
-	  <date from="2016-07-19" to="2020-12-31">19.07.2016 - 31-12-2020</date> 
+	  <date from="2016-07-19" to="2020-12-31">19.07.2016 - 31.12.2020</date> 
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -85,7 +88,7 @@
         </segmentation>
       </editorialDecl>
       <tagsDecl>
-	<!-- Insert tagUsages! -->
+	<!-- Auto-insert tagUsages -->
         <namespace name="http://www.tei-c.org/ns/1.0">
         </namespace>
       </tagsDecl>
@@ -202,7 +205,7 @@
                     </category>
                   </category>
                   <category xml:id="parla.meeting.continued">
-		    <catDesc xml:lang="eS"><term>Reanudación de la sesión</term></catDesc>
+		    <catDesc xml:lang="es"><term>Reanudación de la sesión</term></catDesc>
                     <catDesc xml:lang="en"><term>Continued meeting</term></catDesc>
                   </category>
                   <category xml:id="parla.meeting.public">
@@ -239,14 +242,14 @@
           </category>
         </taxonomy>
         <taxonomy xml:id="subcorpus">
-	  <desc xml:lang="es"><term>Subcorpus</term></desc>
+	  <desc xml:lang="es"><term>Subcorpus</term></desc> <!-- ET: This should be in plural -->
           <desc xml:lang="en"><term>Subcorpora</term></desc>
           <category xml:id="reference">
 	    <catDesc xml:lang="es"><term>Corpus de referencia</term>: aquel que incluye todos los textos compilados hasta el 31 de octubre de 2019.</catDesc>
             <catDesc xml:lang="en"><term>Reference</term>: reference subcorpus, until 2019-10-31.</catDesc>
           </category>
           <category xml:id="covid">
-	    <catDesc xml:lang="es"><term>Corpus COVID</term>: Aquel que incluye todos los textos compilados a partir del 1 de noviembre de 2019. </catDesc>
+	    <catDesc xml:lang="es"><term>Corpus COVID</term>: Aquel que incluye todos los textos compilados a partir del 1 de noviembre de 2019.</catDesc>
             <catDesc xml:lang="en"><term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
           </category>
         </taxonomy>
@@ -269,24 +272,24 @@
             <event from="1978-12-29">
               <label xml:lang="en">existence</label>
             </event>
-	    <idno type="URI" xml:lang="ee" subtype="wikimedia">https://es.wikipedia.org/wiki/Congreso_de_los_Diputados</idno>
+	    <idno type="URI" xml:lang="es" subtype="wikimedia">https://es.wikipedia.org/wiki/Congreso_de_los_Diputados</idno>
             <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Congress_of_Deputies</idno>
             <listEvent>
 	      <head xml:lang="es">Legislatura</head>
               <head xml:lang="en">Legislative period</head>
-              <event xml:id="CD.11" from="2016-01-13" to="20160718">
+              <event xml:id="CD.11" from="2016-01-13" to="2016-07-18">
                 <label xml:lang="es">Legislatura XI</label>
 		<label xml:lang="en">Term 11</label>
               </event>
-              <event xml:id="CD.12" from="2016-07-19">
+              <event xml:id="CD.12" from="2016-07-19" to="2019-05-20">
 		<label xml:lang="es">Legislatura XII</label>
                 <label xml:lang="en">Term 12</label>
               </event>
-	      <event xml:id="CD.13" from="2019-05-21">
+	      <event xml:id="CD.13" from="2019-05-21" to="2019-12-02">
 		<label xml:lang="es">Legislatura XIII</label>
                 <label xml:lang="en">Term 13</label>
               </event>
-	      <event xml:id="CD.14" from="2019-12-03">
+	      <event xml:id="CD.14" from="2019-12-03"> <!-- ET: What is the "to" date? -->
     		<label xml:lang="es">Legislatura XIV</label>
                 <label xml:lang="en">Term 14</label>
               </event>
@@ -311,11 +314,13 @@
               </event>
             </listEvent>
           </org>
+	  <!-- Auto-insert political parties -->
           <org role="politicalParty"/>
         </listOrg>
         <listPerson>
 	  <head xml:lang="es">Lista de Oradores/Oradoras</head>
           <head xml:lang="en">List of speakers</head>
+	  <!-- Auto-insert speakers -->
           <person/>
         </listPerson>
       </particDesc>
@@ -327,11 +332,11 @@
       </langUsage>
     </profileDesc>
     <revisionDesc>
-      <!-- Autro-insert change -->
+      <!-- Auto-insert change -->
       <change/>
     </revisionDesc>
   </teiHeader>
-  <!-- Auto-insert texts -->
+  <!-- Manually insert texts to be included -->
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190122-PM.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190212-PM.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="CD190213-PM.xml"/>
