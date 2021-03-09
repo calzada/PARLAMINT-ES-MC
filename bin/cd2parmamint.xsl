@@ -7,6 +7,7 @@
 -->
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:tei="http://www.tei-c.org/ns/1.0"
+		xmlns:xs="http://www.w3.org/2001/XMLSchema"
 		xmlns:et="http://nl.ijs.si/et"
 		exclude-result-prefixes="xsl et">
   <xsl:output method="xml" version="1.0" encoding="utf-8" indent="yes" omit-xml-declaration="no"/>
@@ -196,7 +197,7 @@
   <!-- Process the CD root element -->
 
   <xsl:template match="ecpc_CD">
-    <xsl:message select="concat('INFO: processing ', base-uri())"/>
+    <xsl:message select="concat('INFO: processing ', replace(base-uri(), '.+/', ''))"/>
     <!-- Give id and covid/reference subcorpus -->
     <!-- @ana should also contain the session / sitting ... number! -->
     <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es"
@@ -542,35 +543,69 @@
     <xsl:value-of select="replace($str, '[\p{P}\p{S}\p{Z}]', '')"/>
   </xsl:function>
   
-  <!-- 20210301 -> 2021-03-01 -->
   <xsl:function name="et:digits2date">
     <xsl:param name="digits"/>
-    <!-- For 20201118-bis! -->
-    <xsl:variable name="clean" select="replace($digits, '-.*$', '')"/>
-    <xsl:analyze-string select="$clean" regex="^(\d\d\d\d)(\d\d)(\d\d)$">
-      <xsl:matching-substring>
-	<xsl:choose>
-	  <xsl:when test="regex-group(2) = '00' and regex-group(3) = '00'">
-	    <xsl:value-of select="regex-group(1)"/>
-	  </xsl:when>
-	  <xsl:when test="regex-group(3) = '00'">
-	    <xsl:value-of select="concat(regex-group(1), '-', 
-				  regex-group(2))"/>
-	  </xsl:when>
-	  <xsl:otherwise>
-	    <xsl:value-of select="concat(regex-group(1), '-', 
-				  regex-group(2),  '-', 
-				  regex-group(3))"/>
-	  </xsl:otherwise>
-	</xsl:choose>
-      </xsl:matching-substring>
-      <xsl:non-matching-substring>
-	<xsl:message>
-	  <xsl:text>ERROR: Can't make date from </xsl:text>
-	  <xsl:value-of select="$digits"/>
-	</xsl:message>
-      </xsl:non-matching-substring>
-    </xsl:analyze-string>
+    <xsl:choose>
+      <!-- 20210301 -> 2021-03-01 -->
+      <xsl:when test="matches($digits, '^\d\d\d\d')">
+	<!-- For 20201118-bis -->
+	<xsl:variable name="clean" select="replace($digits, '-.*$', '')"/>
+	<xsl:analyze-string select="$clean" regex="^(\d\d\d\d)(\d\d)(\d\d)$">
+	  <xsl:matching-substring>
+	    <xsl:choose>
+	      <xsl:when test="regex-group(2) = '00' and regex-group(3) = '00'">
+		<xsl:value-of select="regex-group(1)"/>
+	      </xsl:when>
+	      <xsl:when test="regex-group(3) = '00'">
+		<xsl:value-of select="concat(regex-group(1), '-', 
+				      regex-group(2))"/>
+	      </xsl:when>
+	      <xsl:otherwise>
+		<xsl:value-of select="concat(regex-group(1), '-', 
+				      regex-group(2),  '-', 
+				      regex-group(3))"/>
+	      </xsl:otherwise>
+	    </xsl:choose>
+	  </xsl:matching-substring>
+	  <xsl:non-matching-substring>
+	    <xsl:message>
+	      <xsl:text>ERROR: Can't make date from </xsl:text>
+	      <xsl:value-of select="$digits"/>
+	    </xsl:message>
+	  </xsl:non-matching-substring>
+	</xsl:analyze-string>
+      </xsl:when>
+      <!-- "celebrada el miércoles, 20 de abril de 2016" -> 2016-04-20 -->
+      <xsl:when test="matches($digits, '^celebrada')">
+	<xsl:variable name="day" select="replace($digits, '.+, (\d+) de.+', '$1')"/>
+	<xsl:variable name="year" select="replace($digits, '.+de (\d+)$', '$1')"/>
+	<xsl:variable name="month" as="xs:string">
+	  <xsl:choose>
+	    <xsl:when test="contains($digits, 'de enero')">01</xsl:when>
+	    <xsl:when test="contains($digits, 'de febrero')">02</xsl:when>
+	    <xsl:when test="contains($digits, 'de marzo')">03</xsl:when>
+	    <xsl:when test="contains($digits, 'de abril')">04</xsl:when>
+	    <xsl:when test="contains($digits, 'de mayo')">05</xsl:when>
+	    <xsl:when test="contains($digits, 'de junio')">06</xsl:when>
+	    <xsl:when test="contains($digits, 'de julio')">07</xsl:when>
+	    <xsl:when test="contains($digits, 'de agosto')">08</xsl:when>
+	    <xsl:when test="contains($digits, 'de septiembre')">09</xsl:when>
+	    <xsl:when test="contains($digits, 'de octubre')">10</xsl:when>
+	    <xsl:when test="contains($digits, 'de noviembre')">11</xsl:when>
+	    <xsl:when test="contains($digits, 'de diciembre')">12</xsl:when>
+	    <xsl:otherwise>
+	      <xsl:text>ERROR: Can't make date from </xsl:text>
+	      <xsl:value-of select="$digits"/>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:variable>
+	<xsl:value-of select="concat($year, '-', $month,  '-', $day)"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:text>ERROR: Can't make date from </xsl:text>
+	<xsl:value-of select="$digits"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:function>
 
   <!-- Capital case, e.g. "Jose" -->
