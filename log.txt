@@ -3,27 +3,27 @@ ls CD/*.xml | parallel --gnu --halt 2 --jobs 10 \
 'java -jar /usr/share/java/saxon.jar -xsl:bin/cd2parmamint.xsl {} > tmp/{/.}-PM.xml'
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190521.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190213.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190122.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190228.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190221.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190219.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190212.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190226.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190228.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190220.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190226.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190221.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190122.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190219.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190227.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190722.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190725.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190723.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD191203.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190725.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190910.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200105.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200104.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD191203.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190918.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190911.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190917.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200105.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD190911.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200104.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200107.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200204.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200212.xml
@@ -33,46 +33,46 @@ WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200220.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200227.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200219.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200225.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200218.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200219.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200227.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200225.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200226.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200318.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200325.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200415.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200429.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200325.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200409.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200422.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200506.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200429.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200422.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200513.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200527.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200520.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200603.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200604.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200611.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200610.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200616.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200714.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200624.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200623.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200610.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200625.xml
 WARN: Don't know what to do with institution/ni!
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200624.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200714.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200623.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200617.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200715.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200721.xml
 ERROR: Strange label plenaria núm. 35 extraordinaria
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200722.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200729.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200909.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200910.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200908.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200729.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200909.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200916.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200922.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200915.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200922.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200910.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200923.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200929.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD200930.xml
@@ -90,30 +90,30 @@ WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201022.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201014.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201021.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201015.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201014.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201027.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201028.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201027.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201029.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201111.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201112.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201111.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201117.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201118-bis.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201130.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201118-bis.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201118.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201201.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201203.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201202.xml
+INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201215.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201217-bis.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201217.xml
-INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201215.xml
 INFO: processing file:/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/CD/CD201216.xml
 ls tmp/*-PM.xml | xargs -I % java -jar /usr/share/java/saxon.jar -xi -xsl:bin/copy.xsl % | java -jar /usr/share/java/jing.jar schemas/parla-clarin.rng 
 java -jar /usr/share/java/jing.jar schemas/parla-clarin.rng tmp/*-PM.xml
 rm -f ParlaMint/*.xml
 java -jar /usr/share/java/saxon.jar inDir="../tmp" outDir="ParlaMint" \
--xsl:bin/parlamint2root.xsl bin/ParlaMint-template.xml
+-xsl:bin/parlamint2root.xsl bin/ParlaMint-template-ES.xml
 INFO: CD190122-PM.xml to ParlaMint/ParlaMint-ES_2019-01-22-CD190122.xml
 INFO: CD190212-PM.xml to ParlaMint/ParlaMint-ES_2019-02-12-CD190212.xml
 INFO: CD190213-PM.xml to ParlaMint/ParlaMint-ES_2019-02-13-CD190213.xml
@@ -201,21 +201,15 @@ INFO: CD201216-PM.xml to ParlaMint/ParlaMint-ES_2020-12-16-CD201216.xml
 INFO: CD201217-bis-PM.xml to ParlaMint/ParlaMint-ES_2020-12-17-CD201217-bis.xml
 INFO: CD201217-PM.xml to ParlaMint/ParlaMint-ES_2020-12-17-CD201217.xml
 INFO: processing root 
-java -jar /usr/share/java/saxon.jar -xi -xsl:bin/copy.xsl ParlaMint-ES/ParlaMint-ES.xml | java -jar /usr/share/java/jing.jar schemas/parla-clarin.rng
-Source file ParlaMint-ES/ParlaMint-ES.xml does not exist
+java -jar /usr/share/java/saxon.jar -xi -xsl:bin/copy.xsl ParlaMint/ParlaMint-ES.xml | java -jar /usr/share/java/jing.jar schemas/parla-clarin.rng
 java -jar /usr/share/java/jing.jar schemas/ParlaMint-teiCorpus.rng ParlaMint/ParlaMint-ES.xml 
 java -jar /usr/share/java/jing.jar schemas/ParlaMint-TEI.rng ParlaMint/ParlaMint-ES_*.xml
-/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/ParlaMint/ParlaMint-ES_2020-11-18-CD201118.xml:1481:16: error: element "div" incomplete; expected element "gap", "head", "incident", "kinesic", "note", "pb", "u" or "vocal"
-make[1]: [Makefile:17: val] Error 1 (ignored)
 bin/validate-parlamint.pl schemas ParlaMint
 INFO: Validating directory /home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/ParlaMint
 INFO: XML validation for ParlaMint-ES.xml
 INFO: Content validaton for ParlaMint-ES.xml
-ERROR ParlaMint-ES: Missing extent/measure[@unit='words'] in titleStmt
 INFO: Link checking for ParlaMint-ES.xml
 INFO ParlaMint-ES: Checking links in ParlaMint-ES.xml
-ERROR ParlaMint-ES: ERROR: Can't find local id for meeting/@corresp="#DZ"
-ERROR ParlaMint-ES: ERROR: Can't find local id for meeting/@corresp="#DZ"
 INFO: XML validation for ParlaMint-ES_2019-01-22-CD190122.xml
 INFO: Content validaton for ParlaMint-ES_2019-01-22-CD190122.xml
 WARN ParlaMint-ES_2019-01-22-CD190122: Element u without @who ParlaMint-ES_2019-01-22-CD190122.u1
@@ -6303,7 +6297,6 @@ WARN ParlaMint-ES_2020-11-18-CD201118-bis: Element u without @who ParlaMint-ES_2
 INFO: Link checking for ParlaMint-ES_2020-11-18-CD201118-bis.xml
 INFO ParlaMint-ES_2020-11-18-CD201118-bis: Checking links in ParlaMint-ES_2020-11-18-CD201118-bis.xml
 INFO: XML validation for ParlaMint-ES_2020-11-18-CD201118.xml
-/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/ParlaMint/ParlaMint-ES_2020-11-18-CD201118.xml:1481:16: error: element "div" incomplete; expected element "gap", "head", "incident", "kinesic", "note", "pb", "u" or "vocal"
 INFO: Content validaton for ParlaMint-ES_2020-11-18-CD201118.xml
 WARN ParlaMint-ES_2020-11-18-CD201118: Element u without @who ParlaMint-ES_2020-11-18-CD201118.u1
 WARN ParlaMint-ES_2020-11-18-CD201118: Element u without @who ParlaMint-ES_2020-11-18-CD201118.u3
@@ -6961,5 +6954,5 @@ INFO: Link checking for ParlaMint-ES_2020-12-17-CD201217.xml
 INFO ParlaMint-ES_2020-12-17-CD201217: Checking links in ParlaMint-ES_2020-12-17-CD201217.xml
 WARN: No root .ana. file found in /home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/ParlaMint
 make[1]: Leaving directory '/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC'
-1627.33user 149.89system 5:55.55elapsed 499%CPU (0avgtext+0avgdata 1736460maxresident)k
-48inputs+172752outputs (0major+18478829minor)pagefaults 0swaps
+1657.36user 148.97system 5:51.85elapsed 513%CPU (0avgtext+0avgdata 1472380maxresident)k
+8inputs+170976outputs (0major+18528995minor)pagefaults 0swaps

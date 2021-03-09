@@ -58,7 +58,7 @@
           <title xml:lang="es" type="sub">
 	    <xsl:value-of select="label"/>
 	  </title>
-          <meeting ana="#parla.session" corresp="#federal_parliament" n="{$n}">
+          <meeting ana="#parla.session" corresp="#CD" n="{$n}">
 	    <xsl:value-of select="label"/>
 	  </meeting>
 	  <xsl:copy-of select="$respStmt"/>
@@ -441,7 +441,7 @@
 	</xsl:if>
 	<xsl:choose>
 	  <xsl:when test="institution/ni[@country='ES'] = 'CD'">
-	    <affiliation when="{$session-date}" ref="#federal_parliament" role="MP"/>
+	    <affiliation when="{$session-date}" ref="#CD" role="MP"/>
 	  </xsl:when>
 	  <!-- ToDo: -->
 	  <xsl:when test="institution/ni">

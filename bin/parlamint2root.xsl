@@ -175,7 +175,7 @@
 	  <xsl:copy-of select="tei:sex"/>
 	  <xsl:copy-of select="tei:birth"/>
 	  <xsl:if test="$MP-dates/tei:item">
-            <affiliation ref="#federal_parliament" role="MP"
+            <affiliation ref="#CD" role="MP"
 			 from="{$MP-dates/tei:item[1]}" to="{$MP-dates/tei:item[last()]}"/>
 	  </xsl:if>
 	  <xsl:copy-of select="$party-affiliations"/>
@@ -307,17 +307,30 @@
     <xsl:copy-of copy-namespaces="no" select="$persons"/>
   </xsl:template>
     
-  <xsl:template match="tei:measure[@unit='texts']">
-    <xsl:variable name="texts" select="count($docs/tei:item)"/>
-    <measure xml:lang="en" unit="texts" quantity="{format-number($texts, '#')}">
-      <xsl:value-of select="concat(format-number($texts, '###,###,###'), ' texts')"/>
-    </measure>
-  </xsl:template>
-  
-  <xsl:template match="tei:measure[@unit='speeches']">
-    <measure xml:lang="en" unit="speeches" quantity="{format-number($speech_n, '#')}">
-      <xsl:value-of select="concat(format-number($speech_n, '###,###,###'), ' speeches')"/>
-    </measure>
+  <xsl:template match="tei:measure[@unit='sessions']">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:variable name="quant">
+	<xsl:choose>
+	  <xsl:when test="@unit='sessions'">
+	    <xsl:value-of select="count($docs/tei:item)"/>
+	  </xsl:when>
+	  <xsl:when test="@unit='speeches'">
+	    <xsl:value-of select="count($speech_n)"/>
+	  </xsl:when>
+	</xsl:choose>
+      </xsl:variable>
+      <xsl:attribute name="quantity" select="format-number($quant, '#')"/>
+      <xsl:variable name="formatted" select="format-number($quant, '###,###,###')"/>
+      <xsl:choose>
+	<xsl:when test="@xml:lang = 'es'">
+	  <xsl:value-of select="replace(., '^\d+', $formatted)"/>
+	</xsl:when>
+	<xsl:when test="@xml:lang = 'en'">
+	  <xsl:value-of select="replace(., '^\d+', replace($formatted, ',', '.'))"/>
+	</xsl:when>
+      </xsl:choose>
+    </xsl:copy>
   </xsl:template>
   
   <xsl:template match="tei:tagsDecl/tei:namespace">
