@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xml:lang="es"
+     xml:id="ParlaMint-ES_2016-01-13-CD160113"
+     ana="#reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" type="main">Spanish parliamentary corpus ParlaMint-ES, Plenary session 1 (2016-01-13) [ParlaMint]</title>
+            <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 1 (2016-01-13) [ParlaMint]</title>
+            <title xml:lang="es" type="sub">Sesión plenaria núm. 1 (2016-01-13)</title>
+            <title xml:lang="en" type="sub">Plenary session 1 (2016-01-13)</title>
+            <meeting ana="#parla.session" n="1" corresp="#CD #CD.11">Sesión plenaria núm. 1 (XI)</meeting>
+            <respStmt>
+               <persName>María Calzada Pérez</persName>
+               <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tomaž Erjavec</persName>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
+               <orgName xml:lang="en">Ministry of Science and Innovation of Spain</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>0.1</edition>
+         </editionStmt>
+         <extent>
+            <measure xml:lang="en" unit="speeches" quantity="38">38 speeches</measure>
+            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="es">Infraestructura de investigación CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2021-03-10">2021-03-10</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title xml:lang="es" type="main">CORTES GENERALES DIARIO DE SESIONES DEL CONGRESO DE LOS DIPUTADOS PLENO Y DIPUTACIÓN PERMANENTE SESIÓN CONSTITUTIVA</title>
+               <idno type="URI">http://www.congreso.es</idno>
+               <date when="2016-01-13">2016-01-13</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="es">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and(4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="8"/>
+               <tagUsage gi="head" occurs="8"/>
+               <tagUsage gi="u" occurs="38"/>
+               <tagUsage gi="pb" occurs="12"/>
+               <tagUsage gi="lb" occurs="415"/>
+               <tagUsage gi="note" occurs="24"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Calle Floridablanca, s/n. 28071</name>
+               <name type="city">Madrid</name>
+               <name type="country" key="ES">Spain</name>
+               <date ana="#parla.sitting" when="2016-01-13">2016-01-13</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-10">
+            <name>Tomaž Erjavec</name>: initial version.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <head>CONSTITUCIÓN DE LA MESA DE EDAD</head>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u1"
+               who="#LaraMaría"
+               ana="#regular">
+               <seg>Señorías, se abre la sesión.</seg>
+               <seg>En virtud de lo dispuesto en el artículo 2 del Reglamento del Congreso de los Diputados, la Mesa de Edad ha quedado constituida por la diputada electa de mayor edad de los presentes, doña María Teresa de Lara, como presidenta y por las dos más jóvenes como secretarías, a saber, doña María Such Palomares y doña Nayua Miriam Alba Goveli, según los datos que constan en la Cámara.</seg>
+               <seg>Señorías, me van a permitir unas palabras iniciales para manifestar el honor y la satisfacción que supone para mí ocupar ocasionalmente esta Presidencia, si bien sea por motivos cronológicos; a veces hay que agradecerle al calendario guiños como este. Soy una veterana diputada y como tal he vivido distintas experiencias en el devenir de esta Cámara, la mayoría de ellas muy positivas; unas y otras experiencias se han ido incorporando a la pequeña historia de nuestra trayectoria parlamentaria reciente. Eso les ocurrirá sin duda a quienes asumen ahora, por primera vez, su condición de parlamentarios. Deseo que, pasado el tiempo, sientan enriquecidos por la experiencia su ánimo y su voluntad. También es ocasión de desear que en las tareas que ahora iniciamos todos en una legislatura nueva prevalezcan la concordia, el afán de superación de las dificultades, el buen sentido y la entrega a los intereses generales de la nación, pues para su servicio, y no para otra cosa, estamos aquí, nada menos que en el lugar en el que, junto con el Senado, reside la soberanía nacional. Confieso, señorías, que soy optimista por naturaleza y creo que lo mejor de las instituciones, como de nuestra propia vida, está siempre por llegar. Con este espíritu de optimismo y esperanza creo que debemos iniciar este Pleno.</seg>
+               <seg>Muchas gracias a todos por su atención.</seg>
+               <note>Aplausos</note>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>REAL DECRETO DE CONVOCATORIA DE ELECCIONES</head>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u2"
+               who="#LaraMaría"
+               ana="#regular">
+               <seg>Señorías, de conformidad con lo establecido en el artículo 3 del Reglamento, por la señora secretaria de la Mesa de Edad se va a dar lectura al real decreto de convocatoria, a la relación de las señoras y señores diputados electos y a la relación de recursos contencioso-electorales interpuestos.<pb n="4"/> La señora secretaria primera de la Mesa de Edad tiene la palabra.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u3"
+               who="#SuchMaría"
+               ana="#regular">
+               <seg>Artículo 5 del Real Decreto 977/2015, de 26 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones: Celebradas las elecciones convocadas por este real decreto, las Cámaras resultantes se reunirán, en sesiones constitutivas, el día 13 de enero a las 10 horas. Dado en Madrid, a 26 de octubre de 2015. Felipe VI Rey; el presidente del Gobierno, Mariano Rajoy Brey.</seg>
+               <seg>RELACIÓN ALFABÉTICA DE SEÑORAS Y SEÑORES DIPUTADOS</seg>
+               <seg>Por las secretarias de la Mesa de Edad, señoras Such Palomares y Alba Goveli, se procede a dar lectura de la lista de las señoras y los señores diputados electos.</seg>
+               <seg>ÁBALOS MECO, José Luis</seg>
+               <seg>AGIRRETXEA URRESTI, Joseba Andoni</seg>
+               <seg>ALBA GOVELI, Nayua Miriam</seg>
+               <seg>ALBALADEJO MARTÍNEZ, Joaquín</seg>
+               <seg>ALCONCHEL GONZAGA, Miriam</seg>
+               <seg>ALLI MARTÍNEZ, Íñigo Jesús</seg>
+               <seg>ALONSO ARANEGUI, Alfonso</seg>
+               <seg>ALONSO CANTORNÉ, Félix</seg>
+               <seg>ALONSO CLUSA, Rosa Ana</seg>
+               <seg>ALÓS LÓPEZ, Ana Isabel</seg>
+               <seg>ÁLVAREZ SIMÓN, María Elena</seg>
+               <seg>ÁLVAREZ-ARENAS CISNEROS, María del Carmen</seg>
+               <seg>ANGULO ROMERO, María Teresa</seg>
+               <seg>ANTÓN CACHO, Javier</seg>
+               <seg>ARDANZA URIBARREN, María Pilar</seg>
+               <seg>ARROJO AGUDO, Pedro</seg>
+               <seg>ASIAN GONZÁLEZ, Matilde Pastora</seg>
+               <seg>AYALA SÁNCHEZ, Andrés José</seg>
+               <seg>AYLLÓN MANSO, José Luis</seg>
+               <seg>AZPIAZU URIARTE, Pedro María</seg>
+               <seg>BAJO PRIETO, María Luz</seg>
+               <seg>BALDOVÍ RODA, Joan</seg>
+               <seg>BALLESTER MUÑOZ, Ángela</seg>
+               <seg>BÁÑEZ GARCÍA, María Fátima</seg>
+               <seg>BARANDIARAN BENITO, Íñigo</seg>
+               <seg>BARRACHINA ROS, Miguel</seg>
+               <seg>BARREDA DE LOS RÍOS, Leopoldo</seg>
+               <seg>BARREDA FONTES, José María</seg>
+               <seg>BARRIOS TEJERO, José María</seg>
+               <seg>BASTIDAS BONO, Elena María</seg>
+               <seg>BATALLER I RUIZ, Enric</seg>
+               <seg>BATET LAMAÑA, Meritxell</seg>
+               <seg>BEITIALARRANGOITIA LIZARRALDE, Marian</seg>
+               <seg>BEL ACCENSI, Ferrán Salvador</seg>
+               <seg>BELARRA URTEAGA, Ione</seg>
+               <seg>BERMÚDEZ DE CASTRO FERNÁNDEZ, José Antonio</seg>
+               <seg>BESCANSA HERNÁNDEZ, Carolina</seg>
+               <seg>BLANQUER ALCARAZ, Patricia</seg>
+               <seg>BLASCO MARQUÉS, Manuel</seg>
+               <seg>BONILLA DOMÍNGUEZ, María Jesús</seg>
+               <seg>BORREGO CORTÉS, Isabel María</seg>
+               <seg>BOSAHO GORI, Rita Gertrudis</seg>
+               <seg>BOTEJARA SANZ, Amparo<pb n="5"/> BOTELLA GÓMEZ, Ana María</seg>
+               <seg>BRAVO BAENA, Juan</seg>
+               <seg>BRAVO BUENO, David</seg>
+               <seg>BRAVO IBÁÑEZ, María Concepción</seg>
+               <seg>BRUZOS HIGUERO, David</seg>
+               <seg>BUENO PRADO, Enrique</seg>
+               <seg>BURGOS GALLEGO, Tomás</seg>
+               <seg>BUSTINDUY AMADOR, Pablo</seg>
+               <seg>CALLE FUENTES, José Antonio</seg>
+               <seg>CAMACHO SÁNCHEZ, José Miguel</seg>
+               <seg>CÁMARA VILLAR, Gregorio</seg>
+               <seg>CAMPO MORENO, Juan Carlos</seg>
+               <seg>CAMPOS ARTESEROS, Herick Manuel</seg>
+               <seg>CAMPS DEVESA, Gerardo</seg>
+               <seg>CAMPUZANO I CANADÉS, Carles</seg>
+               <seg>CANCELA RODRÍGUEZ, Pilar</seg>
+               <seg>CANDELA SERNA, Ignasi</seg>
+               <seg>CANDÓN ADÁN, Alfonso</seg>
+               <seg>CANO FUSTER, José</seg>
+               <seg>CANO LEAL, Francisco Javier</seg>
+               <seg>CANTERA DE CASTRO, Zaida</seg>
+               <seg>CANTÓ GARCÍA DEL MORAL, Antonio</seg>
+               <seg>CAPDEVILA ESTEVE, Joan</seg>
+               <seg>CAPELLA I FARRÉ, Ester 1</seg>
+               <seg>CARREÑO FERNÁNDEZ, María Ascensión</seg>
+               <seg>CARREÑO VALERO, Sara</seg>
+               <seg>CASADO BLANCO, Pablo</seg>
+               <seg>CASCALES MARTÍNEZ, Loreto</seg>
+               <seg>CATALÁ POLO, Rafael</seg>
+               <seg>CHACÓN PIQUERAS, Carme</seg>
+               <seg>CHIQUILLO BARBER, José María</seg>
+               <seg>CIURÓ I BULDÓ, Lourdes</seg>
+               <seg>CLAVELL LÓPEZ, Óscar</seg>
+               <seg>CLEMENTE GIMÉNEZ, Diego</seg>
+               <seg>CORTÉS BURETA, Pilar</seg>
+               <seg>CUELLO PÉREZ, Carmen Rocío</seg>
+               <seg>DE COSPEDAL GARCÍA, María Dolores</seg>
+               <seg>DE FRUTOS MADRAZO, María del Rocío</seg>
+               <seg>DE LA CONCHA GARCÍA-MAURIÑO, María Asunción Jacoba Pía</seg>
+               <seg>DE LA ENCINA ORTEGA, Salvador Antonio</seg>
+               <seg>DE LA TORRE DÍAZ, Francisco</seg>
+               <seg>DEL CAMPO ESTAÚN, Sergio</seg>
+               <seg>DEL MORAL MILLA, María de la Paz</seg>
+               <seg>DEL OLMO IBÁÑEZ, Juan Manuel</seg>
+               <seg>DEL RÍO SANZ, Emilio</seg>
+               <seg>DELGADO ARCE, Celso Luis</seg>
+               <seg>DELGADO RAMOS, Juan Antonio</seg>
+               <seg>DÍAZ PÉREZ, Yolanda</seg>
+               <seg>DÍAZ TRILLO, José Juan</seg>
+               <seg>DOMÈNECH SAMPERE, Francesc Xavier</seg>
+               <seg>DOMÍNGUEZ ÁLVAREZ, Marta</seg>
+               <seg>DUEÑAS MARTÍNEZ, María del Carmen</seg>
+               <seg>ECHÁNIZ SALGADO, José Ignacio</seg>
+               <seg>EIROS BOUZA, José María</seg>
+               <seg>1 Apellido correcto. Ver página 10.<pb n="6"/> ELIZO SERRANO, María Gloria</seg>
+               <seg>ELORZA GONZÁLEZ, Odón</seg>
+               <seg>ENBEITA MAGUREGI, Onintza</seg>
+               <seg>ERITJA CIURÓ, Francesc Xavier</seg>
+               <seg>ERREJÓN GALVÁN, Íñigo</seg>
+               <seg>ESCUDERO BERZAL, Beatriz Marta</seg>
+               <seg>ESPAÑA REINA, Carolina</seg>
+               <seg>ESTEBAN BRAVO, Aitor</seg>
+               <seg>EXPÓSITO PRIETO, Marcelo</seg>
+               <seg>FABA DE LA ENCARNACIÓN, Elena</seg>
+               <seg>FERNÁNDEZ BELLO, Miguel Anxo Elías</seg>
+               <seg>FERNÁNDEZ CASTAÑÓN, Sofía</seg>
+               <seg>FERNÁNDEZ DE MOYA ROMERO, José Enrique</seg>
+               <seg>FERNÁNDEZ DÍAZ, Jesús María</seg>
+               <seg>FERNÁNDEZ DÍAZ, Jorge</seg>
+               <seg>FERNÁNDEZ GARCÍA, Eduardo</seg>
+               <seg>FERNÁNDEZ GÓMEZ, Alexandra</seg>
+               <seg>FERRER TESORO, Sonia</seg>
+               <seg>FLÓREZ RODRÍGUEZ, María Aurora</seg>
+               <seg>FLORIANO CORRALES, Carlos Javier</seg>
+               <seg>FRANCO CARMONA, Isabel</seg>
+               <seg>FRANQUIS VERA, Sebastián</seg>
+               <seg>GALEANO GRACIA, Óscar</seg>
+               <seg>GALLEGO ARRIOLA, María del Puerto</seg>
+               <seg>GALOVART CARRERA, María Dolores</seg>
+               <seg>GARAULET RODRÍGUEZ, Miguel Ángel</seg>
+               <seg>GARCÍA CAÑAL, José Ramón</seg>
+               <seg>GARCÍA DÍEZ, Joaquín María</seg>
+               <seg>GARCÍA EGEA, Teodoro</seg>
+               <seg>GARCÍA HERNÁNDEZ, José Ramón</seg>
+               <seg>GARCÍA MIRA, Ricardo Antonio</seg>
+               <seg>GARCÍA PUIG, María del Mar</seg>
+               <seg>GARCÍA TEJERINA, Isabel</seg>
+               <seg>GARCÍA URBANO, José María</seg>
+               <seg>GARCÍA-MARGALLO Y MARFIL, José Manuel</seg>
+               <seg>GARCÍA-PELAYO JURADO, María José</seg>
+               <seg>GARCÍA-TIZÓN LÓPEZ, Arturo</seg>
+               <seg>GARRIDO VALENZUELA, Irene</seg>
+               <seg>GARZÓN ESPINOSA, Alberto</seg>
+               <seg>GIRAUTA VIDAL, Juan Carlos</seg>
+               <seg>GIRELA DE LA FUENTE, José Manuel</seg>
+               <seg>GÓMEZ BALSERA, Marcial</seg>
+               <seg>GÓMEZ DE LA SERNA Y VILLACIEROS, Pedro Ramón</seg>
+               <seg>GÓMEZ GARCÍA, Rodrigo</seg>
+               <seg>GÓMEZ-REINO VARELA, Antonio</seg>
+               <seg>GONZÁLEZ BAYO, Josefa Inmaculada</seg>
+               <seg>GONZÁLEZ GARCÍA, Segundo</seg>
+               <seg>GONZÁLEZ GUINDA, María del Carmen</seg>
+               <seg>GONZÁLEZ MARTÍNEZ, Onésimo Eduardo</seg>
+               <seg>GONZÁLEZ MUÑOZ, Ángel Luis</seg>
+               <seg>GONZÁLEZ RAMOS, Manuel Gabriel</seg>
+               <seg>GONZÁLEZ TEROL, Antonio Pablo</seg>
+               <seg>GONZÁLEZ VÁZQUEZ, Marta</seg>
+               <seg>GONZÁLEZ VERACRUZ, María</seg>
+               <seg>GORDO PÉREZ, Juan Luis<pb n="7"/> GUERRA MANSITO, María Belén</seg>
+               <seg>GUIJARRO GARCÍA, Txema</seg>
+               <seg>GUINART MORENO, Lídia</seg>
+               <seg>GUTIÉRREZ LIMONES, Antonio</seg>
+               <seg>GUTIÉRREZ VIVAS, Miguel Ángel</seg>
+               <seg>HEREDIA DÍAZ, Miguel Ángel</seg>
+               <seg>HERNÁNDEZ SPÍNOLA, Francisco</seg>
+               <seg>HERNANDO FRAILE, Rafael Antonio</seg>
+               <seg>HERNANDO VERA, Antonio</seg>
+               <seg>HERNANZ COSTA, Sofía</seg>
+               <seg>HERRERO BONO, José Alberto</seg>
+               <seg>HERVÍAS CHIROSA, Francisco Javier</seg>
+               <seg>HOMS MOLIST, Francesc</seg>
+               <seg>HONORATO CHULIÁN, María Auxiliadora</seg>
+               <seg>HOYO JULIÁ, Belén</seg>
+               <seg>HURTADO ZURERA, Antonio</seg>
+               <seg>IGEA ARISQUETA, Francisco</seg>
+               <seg>IGLESIAS GARCÍA, Fernando</seg>
+               <seg>IGLESIAS TURRIÓN, Pablo Manuel</seg>
+               <seg>ISAC GARCÍA, Ángeles</seg>
+               <seg>ISERN ESTELA, Mateo</seg>
+               <seg>JIMÉNEZ TORTOSA, Juan</seg>
+               <seg>JORDÀ I ROURA, Teresa</seg>
+               <seg>JUNCAL RODRÍGUEZ, Juan Manuel</seg>
+               <seg>LAFUENTE DE LA TORRE, Mónica</seg>
+               <seg>LAMUÀ ESTAÑOL, Marc</seg>
+               <seg>LARA CARBÓ, María Teresa de</seg>
+               <seg>LASARTE IRIBARREN, José Javier</seg>
+               <seg>LASSALLE RUIZ, José María</seg>
+               <seg>LASTRA FERNÁNDEZ, Adriana</seg>
+               <seg>LEGARDA URIARTE, Mikel</seg>
+               <seg>LÓPEZ ÁLVAREZ, Patxi</seg>
+               <seg>LÓPEZ ARES, Susana</seg>
+               <seg>LÓPEZ DE URALDE GARMENDIA, Juan Antonio</seg>
+               <seg>LÓPEZ MILLA, Julián</seg>
+               <seg>LORENZO RODRÍGUEZ, Domingo</seg>
+               <seg>LORENZO TORRES, Miguel</seg>
+               <seg>LOZANO DOMINGO, Irene</seg>
+               <seg>LUCIO CARRASCO, María Pilar</seg>
+               <seg>LUENA LÓPEZ, César</seg>
+               <seg>LUIS BAIL, Jorge</seg>
+               <seg>LUIS RODRÍGUEZ, Teófilo de</seg>
+               <seg>MADRAZO DÍAZ, Ana María</seg>
+               <seg>MARCELLO SANTOS, Ana</seg>
+               <seg>MARCOS MOYANO, María Dolores</seg>
+               <seg>MARÍ BOSÓ, José Vicente</seg>
+               <seg>MARISCAL ANAYA, Guillermo</seg>
+               <seg>MARTÍN GONZÁLEZ, María Guadalupe</seg>
+               <seg>MARTÍN GONZÁLEZ, Lucía</seg>
+               <seg>MARTÍN LLAGUNO, Marta</seg>
+               <seg>MARTÍNEZ DALMAU, Rubén</seg>
+               <seg>MARTÍNEZ GONZÁLEZ, José Luis</seg>
+               <seg>MARTÍNEZ OBLANCA, Isidro Manuel</seg>
+               <seg>MARTÍNEZ RODRÍGUEZ, María Rosa</seg>
+               <seg>MARTÍNEZ SAIZ, Teófila<pb n="8"/> MARTÍNEZ SEIJO, María Luz</seg>
+               <seg>MARTÍNEZ-MAÍLLO TORIBIO, Fernando</seg>
+               <seg>MARTÍN-TOLEDANO SUÁREZ, José Alberto</seg>
+               <seg>MATARÍ SÁEZ, Juan José</seg>
+               <seg>MATEU ISTÚRIZ, Jaime Miguel</seg>
+               <seg>MATOS MASCAREÑO, Pablo</seg>
+               <seg>MAURA BARANDIARÁN, Fernando</seg>
+               <seg>MAURA ZORITA, Eduardo Javier</seg>
+               <seg>MAYORAL PERALES, Rafael</seg>
+               <seg>MEDINA SUÁREZ, María Isabel</seg>
+               <seg>MEIJÓN COUSELO, Guillermo Antonio</seg>
+               <seg>MENA ARCA, Joan Miquel</seg>
+               <seg>MÉNDEZ DE VIGO MONTOJO, Íñigo</seg>
+               <seg>MERINO LÓPEZ, Rafael</seg>
+               <seg>MIGUEL MUÑOZ, Orlena María</seg>
+               <seg>MILLÁN SALMERÓN, María Virginia</seg>
+               <seg>MOLINARY MALO, Ramón Luis</seg>
+               <seg>MOLINERO HOYOS, Francisco</seg>
+               <seg>MONEO DÍEZ, María Sandra</seg>
+               <seg>MONTERO GIL, Irene María</seg>
+               <seg>MONTERO SOLER, Alberto</seg>
+               <seg>MONTORO ROMERO, Cristóbal Ricardo</seg>
+               <seg>MONTSERRAT MONTSERRAT, Dolors</seg>
+               <seg>MORAGAS SÁNCHEZ, Jorge</seg>
+               <seg>MORENO BUSTOS, Ramón</seg>
+               <seg>MORENO PALANQUES, Rubén</seg>
+               <seg>MORO ALMARAZ, María Jesús</seg>
+               <seg>MOYA MATAS, Jaume</seg>
+               <seg>MUÑOZ GONZÁLEZ, Pedro José</seg>
+               <seg>NADAL BELDA, Álvaro María</seg>
+               <seg>NAVARRO FERNÁNDEZ-RODRÍGUEZ, Fernando</seg>
+               <seg>NAVARRO GARZÓN, Micaela</seg>
+               <seg>NAVARRO LACOBA, Carmen</seg>
+               <seg>NIETO BALLESTEROS, José Antonio</seg>
+               <seg>NOGUERAS I CAMERO, Miriam</seg>
+               <seg>OLANO VELA, Jaime Eduardo de</seg>
+               <seg>OLÒRIZ SERRA, Joan Baptista</seg>
+               <seg>ORAMAS GONZÁLEZ-MORO, Ana María</seg>
+               <seg>PALACÍN GUARNÉ, Gonzalo</seg>
+               <seg>PANIAGUA NÚÑEZ, Miguel Ángel</seg>
+               <seg>PASCUAL PEÑA, Sergio</seg>
+               <seg>PASTOR JULIÁN, Ana María</seg>
+               <seg>PASTOR MUÑOZ, Rosana</seg>
+               <seg>PEÑA CAMARERO, Esther</seg>
+               <seg>PEREA CONILLAS, María Mercè</seg>
+               <seg>PÉREZ ARAS, Juan Vicente</seg>
+               <seg>PÉREZ DOMÍNGUEZ, María Soledad</seg>
+               <seg>PÉREZ HERRAIZ, Margarita</seg>
+               <seg>PÉREZ LÓPEZ, Santiago</seg>
+               <seg>PITA CÁRDENES, María del Carmen</seg>
+               <seg>POSADA MORENO, Jesús</seg>
+               <seg>POSTIUS TERRADO, Antoni</seg>
+               <seg>PRACHT FERRER, Carlos</seg>
+               <seg>PRADAS TORRES, Antonio Francisco</seg>
+               <seg>PRENDES PRENDES, José Ignacio<pb n="9"/> PRIETO ROMERO, Fidel</seg>
+               <seg>QUEVEDO ITURBE, Pedro</seg>
+               <seg>QUINTANILLA BARBA, María del Carmen</seg>
+               <seg>RAJOY BREY, Mariano</seg>
+               <seg>RALLO LOMBARTE, Artemi Vicent</seg>
+               <seg>RAMÍREZ DEL MOLINO MORÁN, Alejandro</seg>
+               <seg>RAMÍREZ FREIRE, Saúl</seg>
+               <seg>RAMÓN UTRABO, Elvira</seg>
+               <seg>RAMOS ESTEBAN, César Joaquín</seg>
+               <seg>RAYA RODRÍGUEZ, María Tamara</seg>
+               <seg>REYES RIVERA, Patricia Isaura</seg>
+               <seg>REYNÉS CALVACHE, Águeda</seg>
+               <seg>RIBERA I GARIJO, Elena</seg>
+               <seg>RIVERA ANDRÉS, Irene</seg>
+               <seg>RIVERA DE LA CRUZ, Marta María</seg>
+               <seg>RIVERA DÍAZ, Albert</seg>
+               <seg>ROCA MAS, Jordi</seg>
+               <seg>RODRÍGUEZ FERNÁNDEZ, María Luz</seg>
+               <seg>RODRÍGUEZ GARCÍA, Isabel</seg>
+               <seg>RODRÍGUEZ HERNÁNDEZ, Juana Amalia</seg>
+               <seg>RODRÍGUEZ HERNÁNDEZ, Melisa</seg>
+               <seg>RODRÍGUEZ MARTÍNEZ, Ángela</seg>
+               <seg>RODRÍGUEZ RAMOS, María Soraya</seg>
+               <seg>RODRÍGUEZ RODRÍGUEZ, Alberto</seg>
+               <seg>RODRÍGUEZ SÁNCHEZ, Germán</seg>
+               <seg>RODRÍGUEZ VÁZQUEZ, Antonio</seg>
+               <seg>ROJAS GARCÍA, Carlos</seg>
+               <seg>ROJO NOGUERA, Pilar Milagros</seg>
+               <seg>ROLDÁN MONÉS, Antonio</seg>
+               <seg>ROMERO HERNÁNDEZ, Carmelo</seg>
+               <seg>ROMERO RODRÍGUEZ, María Eugenia</seg>
+               <seg>ROMERO SÁNCHEZ, Rosa María</seg>
+               <seg>ROMINGUERA SALAZAR, María del Mar</seg>
+               <seg>ROSELL AGUILAR, María Victoria</seg>
+               <seg>RUFIÁN ROMERO, Gabriel</seg>
+               <seg>RUIZ I CARBONELL, Joan</seg>
+               <seg>SÁENZ DE SANTAMARÍA ANTÓN, María Soraya</seg>
+               <seg>SAHUQUILLO GARCÍA, Luis Carlos</seg>
+               <seg>SALVADOR ARMENDÁRIZ, Carlos Casimiro</seg>
+               <seg>SALVADOR GARCÍA, Luis Miguel</seg>
+               <seg>SALVADOR I DUCH, Jordi</seg>
+               <seg>SÁNCHEZ AMOR, José Ignacio</seg>
+               <seg>SÁNCHEZ MAROTO, Sol</seg>
+               <seg>SÁNCHEZ MELERO, Tania</seg>
+               <seg>SÁNCHEZ PÉREZ-CASTEJÓN, Pedro</seg>
+               <seg>SÁNCHEZ SERNA, Javier</seg>
+               <seg>SÁNCHEZ-CAMACHO PÉREZ, Alicia</seg>
+               <seg>SANTA ANA FERNÁNDEZ, María de la Concepción de</seg>
+               <seg>SANTOS ITOIZ, Eduardo</seg>
+               <seg>SAURA GARCÍA, Pedro</seg>
+               <seg>SERRADA PARIENTE, David</seg>
+               <seg>SERRANO BOIGAS, Pilar Auxiliadora</seg>
+               <seg>SERRANO JIMÉNEZ, María Jesús</seg>
+               <seg>SIBINA CAMPS, Marta</seg>
+               <seg>SICILIA ALFÉREZ, Felipe Jesús<pb n="10"/> SIERRA ROJAS, Patricia</seg>
+               <seg>SIMANCAS SIMANCAS, Rafael</seg>
+               <seg>SOCIAS PUIG, Ramón Antonio</seg>
+               <seg>SORIA LÓPEZ, José Manuel</seg>
+               <seg>SORLÍ FRESQUET, Marta</seg>
+               <seg>SUÁREZ LAMATA, Eloy</seg>
+               <seg>SUCH PALOMARES, María</seg>
+               <seg>SUMELZO JORDÁN, Susana</seg>
+               <seg>SURRA SPADEA, Ana María</seg>
+               <seg>TARDÀ I COMA, Joan</seg>
+               <seg>TARNO BLANCO, Ricardo</seg>
+               <seg>TEN OLIVER, Vicente</seg>
+               <seg>TERRADAS VIÑALS, Dolors</seg>
+               <seg>TERRÓN BERBEL, Ana Belén</seg>
+               <seg>TORRES MORA, José Andrés</seg>
+               <seg>TREVÍN LOMBÁN, Antonio Ramón María</seg>
+               <seg>URQUIZU SANCHO, Ignacio</seg>
+               <seg>VALMAÑA OCHAÍTA, Silvia</seg>
+               <seg>VÁZQUEZ ROJAS, Juan María</seg>
+               <seg>VENDRELL GARDEÑES, Josep</seg>
+               <seg>VERA PRÓ, Juan Carlos</seg>
+               <seg>VERA RUIZ-HERRERA, Noelia</seg>
+               <seg>VIDAL SÁEZ, Aina</seg>
+               <seg>VIEJO VIÑAS, Raimundo</seg>
+               <seg>VILA GÓMEZ, Miguel</seg>
+               <seg>VILLALOBOS TALERO, Celia</seg>
+               <seg>VILLEGAS PÉREZ, José Manuel</seg>
+               <seg>VISO DIÉGUEZ, Miguel Ángel</seg>
+               <seg>XUCLÀ I COSTA, Jordi</seg>
+               <seg>YÁÑEZ GONZÁLEZ, Pablo</seg>
+               <seg>YLLANES SUÁREZ, Juan Pedro</seg>
+               <seg>ZARAGOZA ALONSO, José</seg>
+               <seg>ZOIDO ÁLVAREZ, Juan Ignacio.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u4"
+               who="#LaraMaría"
+               ana="#regular">
+               <seg>¿Hay alguna señora o señor diputado que no haya sido nombrado?<note>Pausa.-La señora Capella i Farré pide la palabra</note> Sí, por favor.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u5"
+               who="#CapellaEster"
+               ana="#regular">
+               <seg>Mi apellido es Capella i Farré y no Capdevila i Farré.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u6"
+               who="#LaraMaría"
+               ana="#regular">
+               <seg>Perfecto, muchas gracias. Tomaremos nota.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>RECURSOS CONTENCIOSO-ELECTORALES INTERPUESTOS</head>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u7"
+               who="#LaraMaría"
+               ana="#regular">
+               <seg>La señora secretaria primera de la Mesa de Edad tiene la palabra.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u8"
+               who="#SuchMaría"
+               ana="#regular">
+               <seg>Relación de recursos contencioso-electorales.</seg>
+               <seg>El señor presidente de la Junta Electoral Central, mediante oficio de 11 de enero de 2016, notifica que no se ha presentado ningún recurso contencioso-electoral contra el acto de proclamación de candidatos electos realizado por las correspondientes juntas electorales provinciales en relación con las elecciones al Congreso de los Diputados y al Senado convocadas por el Real Decreto 977/2015, de 26 de octubre, celebradas el 20 de diciembre de 2015.</seg>
+               <pb n="11"/>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>ELECCIÓN DE LA MESA DEL CONGRESO DE LOS DIPUTADOS - ELECCIÓN DEL PRESIDENTE.</head>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u9"
+               who="#LaraMaría"
+               ana="#regular">
+               <seg>Se va a proceder seguidamente a la elección de la Mesa del Congreso de acuerdo con el procedimiento previsto en el artículo 37 del Reglamento.</seg>
+               <seg>En primer lugar, se va a elegir al presidente de la Cámara. La votación tendrá carácter secreto y se realizará por papeletas. Cada diputado escribirá solo un nombre en la papeleta. Aquellas que incluyan cualquier otra mención, se considerarán nulas. Resultará elegido el que obtenga el voto de la mayoría absoluta de los miembros de la Cámara. Si ninguno obtuviera en primera votación dicha mayoría, se repetirá la elección entre los que hayan alcanzado las dos mayores votaciones y resultará elegido el que obtenga más votos. Por las señoras secretarias de la Mesa de Edad se procederá al llamamiento por orden alfabético de las señoras y señores diputados para que depositen la papeleta en la urna correspondiente. Los miembros de la Mesa de Edad votarán al final. Se ruega a las señoras y señores diputados que comuniquen su nombre a los letrados que se encuentran en la Mesa en el momento de votar.</seg>
+               <seg>Comienza la votación.</seg>
+               <seg>Por las secretarias de la Mesa de Edad, señoras Such Palomares y Alba Goveli, se procede al llamamiento de las señoras y los señores diputados, quienes van depositando sus papeletas en la urna.</seg>
+               <seg>Terminada la votación, dijo</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u10"
+               who="#LaraMaría"
+               ana="#regular">
+               <seg>¿Algún señor o señora diputada no ha sido llamado a votación?<note>Pausa</note> Se procede a realizar el escrutinio de los votos emitidos.</seg>
+               <seg>Realizado el escrutinio, dijo</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u11"
+               who="#LaraMaría"
+               ana="#regular">
+               <seg>Señorías, el resultado de la votación ha sido el siguiente: votos emitidos, 350, 130 a favor de don Patxi López Álvarez; 71 a favor de doña Carolina Bescansa Hernández; 149 en blanco.</seg>
+               <seg>Al no haber obtenido el voto de la mayoría absoluta de los miembros de la Cámara, y de acuerdo con lo dispuesto en el inciso final del artículo 37.1 del Reglamento, se ha de proceder a una nueva votación entre los que hayan alcanzado las dos mayores votaciones resultando elegido el que obtenga más votos. En consecuencia en esta nueva votación sus señorías han de pronunciarse a favor de don Patxi López Álvarez o de doña Carolina Bescansa Hernández, que son los diputados que han obtenido mayor número de votos en la votación anterior. Resultará elegido presidente del Congreso de los Diputados el que obtenga más votos. Si se produjera empate, se celebrarán sucesivas votaciones hasta que el empate quede dirimido.</seg>
+               <seg>Por las señoras secretarias de la Mesa de Edad se procederá al llamamiento por orden alfabético de los señores diputados para que depositen la papeleta en la urna correspondiente, y los miembros de la Mesa de Edad votarán al final. Se ruega a las señoras y señores diputados que, como la vez anterior, comuniquen su nombre a los letrados que se encuentran en la Mesa en el momento de votar.</seg>
+               <seg>Por las señoras secretarias de la Mesa de Edad, señoras Such Palomares y Alba Goveli, se procede al llamamiento de las señoras y los señores diputados, quienes van depositando sus papeletas en la urna.</seg>
+               <seg>Terminada la votación, dijo</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u12"
+               who="#LaraMaría"
+               ana="#regular">
+               <seg>¿Hay alguna señora o algún señor diputado que no haya sido llamado para emitir su voto?<note>Pausa</note> En ese caso, iniciamos el escrutinio.<pb n="12"/> Realizado el escrutinio, dijo</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u13"
+               who="#LaraMaría"
+               ana="#regular">
+               <seg>El resultado de la votación ha sido el siguiente: votos emitidos, 350; 130 a favor de don Patxi López Álvarez; 71 a favor de doña Carolina Bescansa Hernández; 148 votos en blanco y un voto nulo. Al haber obtenido la mayoría de votos de los miembros de la Cámara queda, en consecuencia, proclamado presidente del Congreso de los Diputados el diputado don Patxi López Álvarez.</seg>
+               <note>Aplausos.-Aplausos de las señoras y señores diputados del Grupo Parlamentario Socialista, puestos en pie</note>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>- ELECCIÓN DE LOS VICEPRESIDENTES</head>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u14"
+               who="#LaraMaría"
+               ana="#regular">
+               <seg>A continuación se elegirán los cuatro vicepresidentes. Cada diputado escribirá solo un nombre en la papeleta para la elección de vicepresidente. Resultarán elegidos como vicepresidentes, por orden sucesivo, los cuatro que obtengan mayor número de votos. Si en alguna votación se produjera empate se celebrarán sucesivas votaciones entre los candidatos igualados en votos hasta que el empate quede dirimido. Por las señoras secretarias de la Mesa de Edad se procederá al llamamiento, por orden alfabético, de las señoras y señores diputados para que depositen la papeleta en la urna correspondiente y los miembros de la Mesa de Edad votarán al final. Se ruega a las señoras y señores diputados que comuniquen su nombre a los letrados que se encuentran en la Mesa en el momento de votar.</seg>
+               <seg>Por las secretarias de la Mesa de Edad, señoras Such Palomares y Alba Goveli, se procede al llamamiento de las señoras y los señores diputados, quienes van depositando sus papeletas en la urna.</seg>
+               <seg>Terminada la votación, dijo</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u15"
+               who="#LaraMaría"
+               ana="#regular">
+               <seg>¿Hay alguna señora o señor diputado que no haya sido nombrado para votar?<note>Pausa</note> Iniciamos el recuento de los votos emitidos.</seg>
+               <seg>Realizado el escrutinio, dijo</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u16"
+               who="#LaraMaría"
+               ana="#regular">
+               <seg>Señorías, el resultado de la votación para la elección de los cuatro vicepresidentes ha sido el siguiente: Votos emitidos, 350; 114 a favor de doña Celia Villalobos Talero; 90 a favor de doña Micaela Navarro Garzón; 71 a favor de María Gloria Elizo Serrano; 53 a favor de doña Rosa María Romero Sánchez<note>Aplausos de las señoras y los señores diputados, puestos en pie</note> ; 21 votos en blanco y 1 voto nulo. En consecuencia, quedan proclamadas vicepresidenta primera, doña Celia Villalobos Talero<note>Aplausos</note> ; vicepresidenta segunda, doña Micaela Navarro Garzón<note>Aplausos</note> ; vicepresidenta tercera, doña María Gloria Elizo Serrano<note>Aplausos</note> ; vicepresidenta cuarta, doña Rosa María Romero Sánchez.</seg>
+               <note>Aplausos</note>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>- ELECCIÓN DE LOS SECRETARIOS</head>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u17"
+               who="#LaraMaría"
+               ana="#regular">
+               <seg>Se elegirán a continuación los cuatro secretarios. Cada diputado escribirá solo un nombre en la papeleta para la elección de secretarios. Resultarán elegidos por orden sucesivo como secretarios los cuatro que obtengan mayor número de votos. Si en alguna votación se produjera empate, se celebrarán sucesivas votaciones entre los candidatos igualados en votos hasta que el empate quede dirimido.</seg>
+               <seg>Por las secretarias de la Mesa de Edad se procederá al llamamiento por orden alfabético de las señoras y los señores diputados para que depositen la papeleta en la urna correspondiente, y los miembros de la Mesa votarán al final.</seg>
+               <seg>Comienza la votación.</seg>
+               <seg>Por las secretarias de la Mesa de Edad, señoras Such Palomares y Alba Goveli, se procede al llamamiento de las señoras y los señores diputados, quienes van depositando sus papeletas en la urna.</seg>
+               <seg>Terminada la votación, dijo</seg>
+               <pb n="13"/>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u18"
+               who="#LaraMaría"
+               ana="#regular">
+               <seg>¿Alguna señora o señor diputado no ha sido llamado a votación?<note>Pausa</note> Vamos a proceder al recuento de los votos emitidos.</seg>
+               <seg>Realizado el escrutinio, dijo</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u19"
+               who="#LaraMaría"
+               ana="#regular">
+               <seg>El resultado de la votación para la elección de los cuatros secretarios ha sido el siguiente: votos emitidos, 350; 97 a favor de doña Alicia Sánchez-Camacho Pérez<note>Aplausos</note> ; 82 a favor de don José Ignacio Prendes Prendes<note>Aplausos</note> ; 78 a favor de doña Patricia Reyes Rivera<note>Aplausos</note> ; y 71 a favor de don Marcelo Expósito Prieto<note>Aplausos</note> Votos en blanco, 22. Quedan en consecuencia proclamados secretaria primera, doña Alicia Sánchez-Camacho Pérez; secretario segundo, don José Ignacio Prendes Prendes; secretaria tercera, doña Patricia Reyes Rivera; secretario cuarto, don Marcelo Expósito Prieto.<note>Aplausos</note> Ruego al señor presidente y a las señoras vicepresidentas y secretarios elegidos en este acto que ocupen sus puestos en la Mesa del Congreso de los Diputados. Enhorabuena a todos los elegidos. Gracias.</seg>
+               <note>Así lo hacen los nuevos miembros de la Mesa.-Aplausos</note>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>JURAMENTO O PROMESA DE ACATAMIENTO DE LA CONSTITUCIÓN</head>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u20"
+               who="#LópezPatxi"
+               ana="#regular">
+               <seg>Señorías, vamos a proceder al juramento o promesa de acatamiento a la Constitución de todos los miembros de la Cámara en los términos previstos en el Reglamento de la misma y en la resolución de la Presidencia de 30 de noviembre de 1989. En primer lugar, lo hará la Presidencia, los miembros de la Mesa y, a continuación, los restantes señores y señoras diputadas.</seg>
+               <seg>Ruego a los miembros de la Mesa que se pongan en pie.</seg>
+               <seg>Prometo acatar la Constitución y cumplir fielmente mis obligaciones como presidente del Congreso de los Diputados.</seg>
+               <seg>Doña Celia Villalobos Talero, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como vicepresidenta primera?</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u21"
+               who="#VillalobosCelia"
+               ana="#regular">
+               <seg>Sí, prometo.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u22" ana="#regular">
+               <seg>Doña Micaela Navarro Garzón, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como vicepresidenta segunda?</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u23"
+               who="#NavarroMicaela"
+               ana="#regular">
+               <seg>Sí, prometo.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u24" ana="#regular">
+               <seg>Doña María Gloria Elizo Serrano, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como vicepresidenta tercera?</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u25"
+               who="#ElizoMaría"
+               ana="#regular">
+               <seg>Prometo acatar la Constitución y trabajar para cambiarla, recuperando las instituciones para su gente. Nunca más un país sin su gente y sin sus pueblos.</seg>
+               <note>Aplausos</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u26" ana="#regular">
+               <seg>Doña Rosa María Romero Sánchez, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como vicepresidenta cuarta?</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u27"
+               who="#RomeroRosa"
+               ana="#regular">
+               <seg>Sí, juro.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u28" ana="#regular">
+               <seg>Doña Alicia Sánchez-Camacho Pérez, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como secretaria primera?</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u29"
+               who="#SánchezcamachoAlicia"
+               ana="#regular">
+               <seg>Sí, juro.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u30" ana="#regular">
+               <seg>Don José Ignacio Prendes Prendes, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como secretario segundo?</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u31"
+               who="#PrendesJosé"
+               ana="#regular">
+               <seg>Sí, prometo.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u32" ana="#regular">
+               <seg>Doña Patricia Reyes Rivera, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como secretaria tercera?</seg>
+               <pb n="14"/>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u33"
+               who="#ReyesPatricia"
+               ana="#regular">
+               <seg>Sí, juro.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u34" ana="#regular">
+               <seg>Don Marcelo Expósito Prieto, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como secretario cuarto?</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u35"
+               who="#ExpósitoMarcelo"
+               ana="#regular">
+               <seg>Sí, lo prometo para trabajar en esta Cámara por un proceso que reconozca la diversidad y soberanía y facilite la relación fraterna entre los pueblos del Estado, donde la gente mande y el Gobierno obedezca.</seg>
+               <note>Aplausos</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u36" ana="#regular">
+               <seg>Pasamos ahora al juramento general.</seg>
+               <seg>Señorías, ¿juráis o prometéis acatar la Constitución? Ruego a la secretaria primera proceda al llamamiento por orden alfabético para que las señoras y señores diputados puedan proceder al acatamiento. Los miembros del Gobierno en funciones lo harán al final.</seg>
+               <seg>Por los secretarios de la Mesa se procede a dar lectura de la lista de las señoras y los señores diputados electos, quienes juran, prometen o lo hacen utilizando otras fórmulas de acatamiento a la Constitución. A continuación, también por los secretarios de la Mesa, se procede a dar lectura de los miembros del Gobierno en funciones, diputados electos, quienes juran o prometen la Constitución.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u37" ana="#regular">
+               <seg>Todas las señoras y los señores diputados que han contestado al llamamiento han adquirido la condición plena de diputadas o diputados.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>DISCURSO DEL SEÑOR PRESIDENTE DEL CONGRESO DE LOS DIPUTADOS</head>
+            <u xml:id="ParlaMint-ES_2016-01-13-CD160113.u38" ana="#regular">
+               <seg>Señorías, quisiera que mis primeras palabras -y estoy convencido de que recojo en ellas el parecer de todos ustedes- sean en nombre de esta Cámara, que aúna la voluntad del conjunto de la sociedad española, para expresar nuestra cercanía con las víctimas que un nuevo atentado terrorista provocó ayer en Estambul y, desgraciadamente, otro esta misma mañana en Camerún. Palabras para manifestar nuestra solidaridad con el pueblo turco, con el camerunés y con todos los países que hoy lloran a sus ciudadanos asesinados y heridos en estos brutales atentados, y nuestra determinación de unir nuestras voluntades con las de todos aquellos que defienden y defendemos la libertad y la democracia para combatir esta lacra terrorista. Otra lacra insoportable es la violencia machista, que esta misma mañana se ha cobrado una nueva víctima en Tarragona; cuatro víctimas ya en lo que va de año, que vuelven a arrojarnos a la cara la necesidad y nuestra obligación de buscar y tejer un gran acuerdo.<note>Aplausos</note> Un pacto de Estado sin fisuras para combatir de manera integral y sin cuartel esta violencia que nos humilla a todos y a todas.</seg>
+               <seg>Señorías, como comprenderán, es un gran honor para mí aceptar el nombramiento de presidente del Congreso y quiero agradecer en mi nombre y en el de toda la Mesa la confianza que acaban de depositar en nosotros para dirigir y acompañar la vida de esta institución. Mila esker, bihotz bihotzez, moltes gràcies, moitas gracias, muchas gracias a todos y a todas. Me gustaría que supieran que este es un agradecimiento sincero y nada protocolario a todos ustedes, hayan votado lo que hayan votado, porque lo sustancial es que todos hemos asumido antes del resultado el acatamiento a las normas, que es lo que nos hace a todos y a todas miembros partícipes y compañeros de la misma democracia. Hoy el acto verdaderamente significativo no es la elección de esta Mesa sino la constitución de la XI Legislatura del Congreso. Todos los parlamentarios y parlamentarias nos hemos reconocido mutuamente iguales e igualmente representantes de los ciudadanos y ciudadanas de España. Nos hemos reconocido a cada uno, a cada una, el poder de la representación de los electores y así este hemiciclo se convierte en la representación de toda la sociedad española, de todos sus ciudadanos y ciudadanas cuya voluntad libremente expresada está contenida en esta Cámara. Por eso y porque esto no siempre ha sido así, permítanme que recuerde a todos aquellos que dieron lo mejor de sí mismos, incluso su vida, para que este acto, que tiene su parte protocolaria, sea sobre todo un acto de libertad. Quiero recordar especialmente a Clara Campoamor, que luchó para abrir la puerta de este hemiciclo a media España marginada: a las mujeres. Quiero recordar a los que durante la dictadura se mantuvieron fieles a los valores de la democracia, a los que resistieron defendiendo la libertad frente al terrorismo, a los que nos precedieron en estos escaños dignificando el ejercicio libre de la política noble. Y esa libertad, la libertad, es una conquista que hay que defender día a día. Ningún poder debe imponerse a la ciudadanía reunida en este Congreso. En nuestras manos,<pb n="15"/> señorías, está la responsabilidad de defender la autonomía de la política y la autonomía de la voluntad ciudadana frente a cualquier presión externa a la representación democrática de la sociedad española.<note>Aplausos</note> Hay en esta Cámara representantes que defienden ideologías y políticas diferentes, y hay también diputados y diputadas que defienden distintas formas de entender la identidad. Bueno, pues esa es la esencia misma de las sociedades libres. La pluralidad ideológica y la diversidad de identidades son la sangre que alimenta a una sociedad libre y democrática. Por eso, la discrepancia y la crítica, pero también el diálogo y el acuerdo, son los elementos fundamentales de la vida política en democracia, y eso es lo que nos va a corresponder desarrollar y ejercer aquí: dialogar, debatir y buscar entendimientos; el diálogo y el entendimiento como los grandes valores políticos. Porque España es plural en lo ideológico y es diversa en la forma de entender las identidades, pero es ante todo un proyecto común. España no es un mapa ni una identidad; es el pacto ciudadano por la libertad y por el progreso colectivo. Ciudadanos y ciudadanas de cada rincón de este país tuvieron un mismo sueño de libertad que les unió a todos y juntos hemos construido la época de mayor progreso y libertad de toda nuestra historia, y juntos ahora, como hicimos en otras ocasiones importantes de nuestro pasado reciente, debemos saber gestionar las discrepancias y buscar en todas las ocasiones que sea posible más lo que nos une que lo que nos separa, porque esa es la esencia misma de nuestro país, es la esencia misma de la democracia. Y debemos entender muy bien que esta Cámara es la expresión de esa pluralidad y de esa diversidad, la diversidad y la pluralidad del conjunto de la sociedad española, y por eso debemos de ser sobre todo guardianes y garantes de esa pluralidad y diversidad para que la democracia misma no sea marginada.</seg>
+               <seg>Señorías, estamos viviendo tiempos de gran incertidumbre. La sociedad española debe hacer frente a nuevos problemas en este nuevo siglo: la globalización, que ha trastocado todas las relaciones políticas y económicas; la consolidación de la Unión Europea, frente a la tentación de dividir nuevamente Europa con fronteras de norte a sur y de este a oeste. Pero también tenemos viejos problemas que resurgen con especial crueldad, como la desigualdad insoportable entre los que tienen mucho y los que no tienen nada o casi nada, y nos corresponde a todas y a todos los que estamos aquí poner en marcha las reformas políticas e institucionales necesarias para enfrentarnos a estos problemas y dar respuesta a lo que de verdad esperan de nosotros los ciudadanos y ciudadanas de este país.</seg>
+               <seg>Para todo ello, esta Mesa les pide ayuda, colaboración y compromiso, y espera no defraudar la confianza, su confianza, estando a la altura del reto que hemos asumido colectivamente. Así, para ponernos a ello cuanto antes y de conformidad con lo dispuesto en el artículo 4.º del Reglamento de la Cámara, declaro constituido el Congreso de los Diputados, y de este hecho se dará cuenta a su majestad el rey, al Senado y al Gobierno.</seg>
+               <seg>Se levanta la sesión.<note>Prolongados aplausos de las señoras y los señores diputados, puestos en pie</note> Eran las dos y treinta y cinco minutos de la tarde.</seg>
+               <note>**********página con cuadro**********</note>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

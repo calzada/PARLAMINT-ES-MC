@@ -12,7 +12,7 @@ all:	cnv1 cnv2 val
 
 # Validate corpus
 val:
-	$s -xi -xsl:bin/copy.xsl ParlaMint/ParlaMint-ES.xml | $j schemas/parla-clarin.rng
+	#$s -xi -xsl:bin/copy.xsl ParlaMint/ParlaMint-ES.xml | $j schemas/parla-clarin.rng
 	-${vrt} ParlaMint/ParlaMint-ES.xml 
 	-${vct} ParlaMint/ParlaMint-ES_*.xml
 	bin/validate-parlamint.pl schemas ParlaMint

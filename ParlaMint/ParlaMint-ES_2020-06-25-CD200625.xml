@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-06-25-CD200625"
      ana="#covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en" type="main">Spanish parliamentary corpus ParlaMint-ES, Plenary session 32 [ParlaMint]</title>
-            <title xml:lang="es" type="sub">Sesión plenaria núm. 32</title>
-            <meeting ana="#parla.session" corresp="#CD" n="32">Sesión plenaria núm. 32</meeting>
+            <title xml:lang="en" type="main">Spanish parliamentary corpus ParlaMint-ES, Plenary session 32 (2020-06-25) [ParlaMint]</title>
+            <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 32 (2020-06-25) [ParlaMint]</title>
+            <title xml:lang="es" type="sub">Sesión plenaria núm. 32 (2020-06-25)</title>
+            <title xml:lang="en" type="sub">Plenary session 32 (2020-06-25)</title>
+            <meeting ana="#parla.session" n="32" corresp="#CD #CD.14">Sesión plenaria núm. 32 (XIV)</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
@@ -19,10 +22,12 @@
                <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <funder>
+               <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
             <funder>
-               <orgName xml:lang="en">XXX</orgName>
+               <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
+               <orgName xml:lang="en">Ministry of Science and Innovation of Spain</orgName>
             </funder>
          </titleStmt>
          <editionStmt>
@@ -34,20 +39,18 @@
          </extent>
          <publicationStmt>
             <publisher>
-               <orgName xml:lang="en">XXX</orgName>
+               <orgName xml:lang="es">Infraestructura de investigación CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
-            <pubPlace>
-               <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
-            </pubPlace>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-09">2021-03-09</date>
+            <date when="2021-03-10">2021-03-10</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -59,6 +62,9 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
+            <p xml:lang="es">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
             <p xml:lang="en">
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and(4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
@@ -77,6 +83,7 @@
       <profileDesc>
          <settingDesc>
             <setting>
+               <name type="address">Calle Floridablanca, s/n. 28071</name>
                <name type="city">Madrid</name>
                <name type="country" key="ES">Spain</name>
                <date ana="#parla.sitting" when="2020-06-25">2020-06-25</date>
@@ -84,7 +91,7 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-09">
+         <change when="2021-03-10">
             <name>Tomaž Erjavec</name>: initial version.</change>
       </revisionDesc>
    </teiHeader>
