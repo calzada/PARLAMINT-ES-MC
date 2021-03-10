@@ -17,6 +17,10 @@
   <!-- Why exactly was this date chosen? -->
   <xsl:param name="COVID-date">2019-11-01</xsl:param>
   
+  <!-- To stamp file with today's date: -->
+  <xsl:variable name="today-iso" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
+  <xsl:variable name="today" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
+  
   <xsl:variable name="respStmt">
     <respStmt xmlns="http://www.tei-c.org/ns/1.0">
       <persName>María Calzada Pérez</persName>
@@ -43,10 +47,9 @@
       <fileDesc>
         <titleStmt>
 	  <xsl:variable name="n" select="replace(label, '.+ núm. (\d+).*', '$1')"/>
-          <title xml:lang="en" type="main">
-	    <xsl:text>Spanish parliamentary corpus ParlaMint-ES, </xsl:text>
+	  <xsl:variable name="title-en">
 	    <xsl:choose>
-	      <xsl:when test="contains(label, 'Sesión plenaria')">
+	      <xsl:when test="contains(label, 'plenaria')">
 		<xsl:text>Plenary session </xsl:text>
 		<xsl:value-of select="$n"/>
 	      </xsl:when>
@@ -54,20 +57,58 @@
 		<xsl:message select="concat('ERROR: Strange label ', label)"/>
 	      </xsl:otherwise>
 	    </xsl:choose>
+	    <xsl:value-of select="concat(' (', $session-date, ')')"/>
+	  </xsl:variable>
+	  <xsl:variable name="title-es">
+	    <xsl:apply-templates select="label"/>
+	    <xsl:value-of select="concat(' (', $session-date, ')')"/>
+	  </xsl:variable>
+          <title xml:lang="en" type="main">
+	    <xsl:text>Spanish parliamentary corpus ParlaMint-ES, </xsl:text>
+	    <xsl:value-of select="$title-en"/>
+	    <xsl:text> [ParlaMint]</xsl:text>
+	  </title>
+          <title xml:lang="es" type="main">
+	    <xsl:text>Corpus parlamentario en español ParlaMint-ES, </xsl:text>
+	    <xsl:value-of select="$title-es"/>
 	    <xsl:text> [ParlaMint]</xsl:text>
 	  </title>
           <title xml:lang="es" type="sub">
-	    <xsl:value-of select="label"/>
+	    <xsl:value-of select="$title-es"/>
 	  </title>
-          <meeting ana="#parla.session" corresp="#CD" n="{$n}">
-	    <xsl:value-of select="label"/>
+          <title xml:lang="en" type="sub">
+	    <xsl:value-of select="$title-en"/>
+	  </title>
+          <meeting ana="#parla.session" n="{$n}">
+	    <xsl:attribute name="corresp">
+	      <xsl:text>#CD</xsl:text>
+	      <xsl:choose>
+		<xsl:when test="legislature = 'VIII'"> #CD.8</xsl:when>
+		<xsl:when test="legislature = 'IX'"> #CD.9</xsl:when>
+		<xsl:when test="legislature = 'X'"> #CD.10</xsl:when>
+		<xsl:when test="legislature = 'XI'"> #CD.11</xsl:when>
+		<xsl:when test="legislature = 'XII'"> #CD.12</xsl:when>
+		<xsl:when test="legislature = 'XIII'"> #CD.13</xsl:when>
+		<xsl:when test="legislature = 'XIV'"> #CD.14</xsl:when>
+		<xsl:when test="legislature = 'XV'"> #CD.11</xsl:when>
+		<xsl:otherwise>
+		  <xsl:message select="concat('ERROR: wrong legislature ', legislature)"/>
+		</xsl:otherwise>
+	      </xsl:choose>
+	    </xsl:attribute>
+	    <xsl:apply-templates select="label"/>
+	    <xsl:text> (</xsl:text>
+	    <xsl:value-of select="legislature"/>
+	    <xsl:text>)</xsl:text>
 	  </meeting>
 	  <xsl:copy-of select="$respStmt"/>
           <funder>
+            <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
             <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
           </funder>
           <funder>
-            <orgName xml:lang="en">XXX</orgName>
+            <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
+            <orgName xml:lang="en">Ministry of Science and Innovation of Spain</orgName>
           </funder>
         </titleStmt>
         <editionStmt>
@@ -79,20 +120,18 @@
         </extent>
         <publicationStmt>
           <publisher>
-            <orgName xml:lang="en">XXX</orgName>
+            <orgName xml:lang="es">Infraestructura de investigación CLARIN</orgName>
             <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
           </publisher>
-          <idno type="handle">http://hdl.handle.net/11356/1388</idno>
-          <pubPlace>
-            <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
-          </pubPlace>
+          <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
           <availability status="free">
             <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
             <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
           </availability>
           <date when="{$today-iso}">
-	    <xsl:value-of select="$today-iso"/>
+	    <xsl:value-of select="$today"/>
 	  </date>
         </publicationStmt>
         <sourceDesc>
@@ -109,6 +148,9 @@
       </fileDesc>
       <encodingDesc>
         <projectDesc>
+            <p xml:lang="es">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
           <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and(4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
         </projectDesc>
         <tagsDecl/>
@@ -116,6 +158,7 @@
       <profileDesc>
         <settingDesc>
           <setting>
+            <name type="address">Calle Floridablanca, s/n. 28071</name>
             <name type="city">Madrid</name>
             <name type="country" key="ES">Spain</name>
             <date ana="#parla.sitting" when="{$session-date}">
@@ -123,39 +166,41 @@
 	    </date>
           </setting>
         </settingDesc>
-        <particDesc>
+	<xsl:variable name="listOrg">
+	  <xsl:variable name="parties">
+	    <!-- Collect all party affiliations -->
+	    <xsl:for-each select="/ecpc_CD/body//intervention/speaker/affiliation">
+	      <xsl:sort/>
+	      <xsl:variable name="party_name" select="normalize-space(national_party)"/>
+	      <xsl:if test="et:set($party_name)">
+		<org role="politicalParty" xml:id="party.{et:str2id($party_name)}">
+		  <orgName full="init">
+		    <xsl:value-of select="$party_name"/>
+		  </orgName>
+		  <orgName full="yes">?</orgName>
+		</org>
+	      </xsl:if>
+	    </xsl:for-each>
+	  </xsl:variable>
 	  <listOrg>
-	    <xsl:variable name="parties">
-	      <!-- Collect all party affiliations -->
-	      <xsl:for-each select="/ecpc_CD/body//intervention/speaker/affiliation">
-		<xsl:sort/>
-		<xsl:variable name="party_name" select="normalize-space(national_party)"/>
-		<xsl:if test="$party_name != 'UNKNOWN'">
-		  <org role="politicalParty" xml:id="party.{et:str2id($party_name)}">
-		    <orgName full="init">
-		      <xsl:value-of select="$party_name"/>
-		    </orgName>
-		    <orgName full="yes">?</orgName>
-		  </org>
-		</xsl:if>
-	      </xsl:for-each>
-	    </xsl:variable>
 	    <!-- Make parties unique based on their ID -->
 	    <xsl:for-each select="$parties/tei:org">
 	      <xsl:variable name="pid" select="@xml:id"/>
 	      <xsl:if test="not(preceding-sibling::tei:org/@xml:id = $pid)">
 		<xsl:copy-of select="."/>
 	      </xsl:if>
-	    </xsl:for-each>	    
+	    </xsl:for-each>
 	  </listOrg>
-          <listPerson>
-	    <!-- Collect all speakers -->
-	    <xsl:variable name="persons">
-	      <xsl:for-each select="/ecpc_CD/body//intervention/speaker">
-		<xsl:sort/>
-		<xsl:call-template name="speaker2person"/>
-	      </xsl:for-each>
-	    </xsl:variable>
+	</xsl:variable>
+	<xsl:variable name="listPerson">
+	  <!-- Collect all speakers -->
+	  <xsl:variable name="persons">
+	    <xsl:for-each select="/ecpc_CD/body//intervention/speaker">
+	      <xsl:sort/>
+	      <xsl:call-template name="speaker2person"/>
+	    </xsl:for-each>
+	  </xsl:variable>
+	  <listPerson>
 	    <!-- Make speakers unique based on their ID (= short name) -->
 	    <xsl:for-each select="$persons/tei:person">
 	      <xsl:variable name="pid" select="@xml:id"/>
@@ -164,7 +209,17 @@
 	      </xsl:if>
 	    </xsl:for-each>
 	  </listPerson>
-	</particDesc>
+	</xsl:variable>
+	<xsl:if test="$listOrg//tei:org or $listPerson//tei:person">
+          <particDesc>
+	    <xsl:if test="$listOrg//tei:org">
+	      <xsl:copy-of select="$listOrg"/>
+	    </xsl:if>
+	    <xsl:if test="$listPerson//tei:person">
+	      <xsl:copy-of select="$listPerson"/>
+	    </xsl:if>
+	  </particDesc>
+	</xsl:if>
       </profileDesc>
       <revisionDesc>
         <change when="{$today-iso}"><name>Tomaž Erjavec</name>: initial version.</change>
@@ -181,9 +236,6 @@
     <!--xsl:value-of select="/ecpc_CD/header/@filename"/-->
     <xsl:value-of select="replace(base-uri(), '.*?([^/]+)\.xml', '$1')"/>
   </xsl:variable>
-  
-  <!-- To stamp file with today's date: -->
-  <xsl:variable name="today-iso" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   
   <!-- XML ROOT -->
   <!-- 2 pass processing, second pass computes size -->
@@ -205,7 +257,6 @@
       <xsl:apply-templates/>
     </TEI>
   </xsl:template>
-
 
   <!-- extent mode computes size of the TEI/text (extent + tagUsage) -->
   <xsl:template mode="extents" match="tei:measure[@unit='speeches']">
@@ -249,11 +300,22 @@
   <xsl:template mode="extents" match="text()">
     <xsl:value-of select="."/>
   </xsl:template>
+
+  <!-- eg. 
+       <label>Sesión plenaria núm. 65</label> or
+       <label>Sesión plenaria núm. 24 <omit type="comment">Sesión extraordinaria</omit></label> 
+  -->
+  <xsl:template match="label">
+    <xsl:variable name="str">
+      <xsl:value-of select="."/>
+      <xsl:text>&#32;</xsl:text>
+      <xsl:value-of select="omit"/>
+    </xsl:variable>
+    <xsl:value-of select="normalize-space($str)"/>
+  </xsl:template>
   
   <!-- Remove non-ParlaMint elements -->
-  <xsl:template match="legislature"/>
   <xsl:template match="title"/>
-  <xsl:template match="label"/>
   <xsl:template match="date"/>
   <xsl:template match="place"/>
   <xsl:template match="edition"/>
@@ -309,7 +371,7 @@
 	<xsl:text>.u</xsl:text>
 	<xsl:number/>
       </xsl:attribute>
-      <xsl:if test="speaker/name != 'UNKNOWN'">
+      <xsl:if test="et:set(speaker/name)">
 	<xsl:attribute name="who">
 	  <xsl:text>#</xsl:text>
 	  <xsl:value-of select="et:name2id(speaker/name)"/>
@@ -404,9 +466,13 @@
   <!-- Named templates -->
   
   <xsl:template name="speaker2person">
-    <xsl:if test="name != 'UNKNOWN'">
+    <xsl:if test="et:set(name)">
+      <xsl:variable name="id" select="et:name2id(name)"/>
+      <xsl:if test="not(normalize-space($id))">
+	<xsl:message select="concat('ERROR: empty ID for person name ', name)"/>
+      </xsl:if>
       <person xmlns="http://www.tei-c.org/ns/1.0"
-	      xml:id="{et:name2id(name)}">
+	      xml:id="{$id}">
 	<xsl:copy-of select="et:speaker2name(name)"/>
 	<xsl:choose>
 	  <xsl:when test="gender = 'male'">
@@ -416,22 +482,18 @@
 	    <sex value="F"/>
 	  </xsl:when>
 	  <xsl:otherwise>
-	    <xsl:if test="gender != 'UNKNOWN'">
+	    <xsl:if test="et:set(gender)">
 	      <xsl:message select="concat('ERROR: strange value for gender = ', gender)"/>
 	    </xsl:if>
 	    <sex value="U"/>
 	  </xsl:otherwise>
 	</xsl:choose>
-	<xsl:if test="(birth_place or birth_date) and 
-		      (birth_place != 'UNKNOWN' or 
-		      (birth_date != 'UNKNOWN' and not(matches(birth_date, '^0+$')))
-		      )">
+	<xsl:if test="et:set(birth_place) or et:set(birth_date)">
 	  <birth>
-	    <xsl:if test="birth_date and birth_date != 'UNKNOWN' 
-			  and not(matches(birth_date, '^0+$'))">
+	    <xsl:if test="et:set(birth_date)">
 	      <xsl:attribute name="when" select="et:digits2date(birth_date)"/>
 	    </xsl:if>
-	    <xsl:if test="birth_place and birth_place != 'UNKNOWN'">
+	    <xsl:if test="et:set(birth_place)">
               <placeName>
 		<xsl:value-of select="replace(
 				      normalize-space(birth_place),
@@ -455,7 +517,7 @@
 	    <xsl:message>WARN: Don't know what to do with institution/ngo!</xsl:message>
 	  </xsl:when>
 	</xsl:choose>
-	<!-- ToDo, except national_party:
+	<!-- ToDo, except <national_party>:
 	    <constituency country="ES" region="Asturias"/>
 	    <affiliation>
   	      <national_party>Cs</national_party>
@@ -465,7 +527,7 @@
 	-->
 	<!-- Insert reference to party, parties are collected separately in the teiHeader -->
 	<xsl:variable name="party" select="affiliation/national_party"/>
-	<xsl:if test="normalize-space($party) and $party  != 'UNKNOWN'">
+	<xsl:if test="et:set($party)">
 	  <affiliation role="member" ref="#party.{et:str2id($party)}" when="{$session-date}"/>
 	</xsl:if>
       </person>
@@ -478,8 +540,30 @@
   <xsl:function name="et:speaker2name">
     <xsl:param name="name"/>
     <persName xmlns="http://www.tei-c.org/ns/1.0">
-      <xsl:variable name="surnames" select="substring-before($name, ', ')"/>
-      <xsl:variable name="forenames" select="substring-after($name, ', ')"/>
+      <xsl:variable name="forenames">
+	<xsl:choose>
+	  <!-- e.g. Prendes Prendes, José Ignacio -->
+	  <xsl:when test="contains($name, ',')">
+	    <xsl:value-of select="substring-after($name, ', ')"/>
+	  </xsl:when>
+	  <!-- e.g. LUIS BAIL -->
+	  <xsl:when test="contains($name, ' ')">
+	    <xsl:value-of select="substring-before($name, ' ')"/>
+	  </xsl:when>
+	</xsl:choose>
+      </xsl:variable>
+      <xsl:variable name="surnames">
+	<xsl:choose>
+	  <!-- e.g. Prendes Prendes, José Ignacio -->
+	  <xsl:when test="contains($name, ',')">
+	    <xsl:value-of select="substring-before($name, ', ')"/>
+	  </xsl:when>
+	  <!-- e.g. LUIS BAIL -->
+	  <xsl:when test="contains($name, ' ')">
+	    <xsl:value-of select="substring-after($name, ' ')"/>
+	  </xsl:when>
+	</xsl:choose>
+      </xsl:variable>
       <xsl:for-each select="tokenize($forenames, ' ')">
 	<xsl:choose>
 	  <xsl:when test="matches(., '^Doña$', 'i') or
@@ -487,6 +571,9 @@
 	    <roleName>
 	      <xsl:value-of select="normalize-space(et:cap-case(.))"/>
 	    </roleName>
+	  </xsl:when>
+	  <xsl:when test=". = 'Mª'">
+	    <forename>María</forename>
 	  </xsl:when>
 	  <xsl:otherwise>
 	    <forename>
@@ -524,7 +611,9 @@
   <xsl:function name="et:name2id">
     <xsl:param name="name"/>
     <xsl:variable name="persName" select="et:speaker2name($name)"/>
-    <xsl:value-of select="et:str2id(concat($persName/tei:surname[1], $persName/tei:forename[1]))"/>
+    <xsl:value-of select="et:str2id(concat(
+			  $persName/tei:surname[1], 
+			  $persName/tei:forename[1]))"/>
   </xsl:function>
   
   <!-- IDREF for subcorpus -->
@@ -537,6 +626,20 @@
     </xsl:choose>
   </xsl:function>
 
+  <!-- Test if value is set -->
+  <xsl:function name="et:set" as="xs:boolean">
+    <xsl:param name="str"/>
+    <xsl:choose>
+      <xsl:when test="$str = '' or $str = 'UNKNOWN' or $str = 'NA'
+		      or matches($str, '^0+$')">
+	<xsl:value-of select="false()"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:value-of select="true()"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+  
   <!-- Make valid ID from string: no Punctuation, Spaces, or Zs -->
   <xsl:function name="et:str2id">
     <xsl:param name="str"/>
@@ -577,7 +680,9 @@
       </xsl:when>
       <!-- "celebrada el miércoles, 20 de abril de 2016" -> 2016-04-20 -->
       <xsl:when test="matches($digits, '^celebrada')">
-	<xsl:variable name="day" select="replace($digits, '.+, (\d+) de.+', '$1')"/>
+	<xsl:variable name="day" select="format-number(
+					 number(replace($digits, '.+, (\d+) de.+', '$1')),
+					 '00')"/>
 	<xsl:variable name="year" select="replace($digits, '.+de (\d+)$', '$1')"/>
 	<xsl:variable name="month" as="xs:string">
 	  <xsl:choose>

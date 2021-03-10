@@ -44,7 +44,7 @@
   <!-- Get number of speeches in component files -->
   <xsl:variable name="speech_n">
     <xsl:variable name="ns">
-      <xsl:for-each select="$docs/tei:item/document(tei:url-orig)/tei:TEI/tei:teiHeader//
+      <xsl:for-each select="$docs/tei:item/tei:url-orig/document(.)/tei:TEI/tei:teiHeader//
 			    tei:extent/tei:measure[@xml:lang = 'en'][@unit = 'speeches']">
 	<item>
 	  <xsl:value-of select="@quantity"/>
@@ -306,8 +306,16 @@
   <xsl:template match="tei:listPerson/tei:person">
     <xsl:copy-of copy-namespaces="no" select="$persons"/>
   </xsl:template>
-    
-  <xsl:template match="tei:measure[@unit='sessions']">
+
+  <xsl:template match="tei:measure[@unit='words']">
+    <xsl:message>WARN: Word extent not yet implemented</xsl:message>
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="tei:measure">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:variable name="quant">
@@ -316,7 +324,7 @@
 	    <xsl:value-of select="count($docs/tei:item)"/>
 	  </xsl:when>
 	  <xsl:when test="@unit='speeches'">
-	    <xsl:value-of select="count($speech_n)"/>
+	    <xsl:value-of select="$speech_n"/>
 	  </xsl:when>
 	</xsl:choose>
       </xsl:variable>
