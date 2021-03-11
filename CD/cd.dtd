@@ -18,7 +18,7 @@
 <!ELEMENT edition (#PCDATA)>
 
 <!ELEMENT index (indexitem+)>
-<!ELEMENT indexitem (#PCDATA | omit | page_number|heading)*>
+<!ELEMENT indexitem (#PCDATA | omit | page_number)*>
 <!ELEMENT page_number (#PCDATA)>
 <!ELEMENT omit (#PCDATA | page_number|omit)*>
 <!ATTLIST omit type CDATA #REQUIRED>
