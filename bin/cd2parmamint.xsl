@@ -650,7 +650,7 @@
     <xsl:param name="digits"/>
     <xsl:choose>
       <!-- 20210301 -> 2021-03-01 -->
-      <xsl:when test="matches($digits, '^\d+$')">
+      <xsl:when test="matches($digits, '^\d+(-bis)?$')">
 	<!-- For 20201118-bis -->
 	<xsl:variable name="clean" select="replace($digits, '-.*$', '')"/>
 	<xsl:analyze-string select="$clean" regex="^(\d\d\d\d)(\d\d)(\d\d)$">
@@ -681,7 +681,7 @@
 
       <xsl:when test="matches($digits, '^\d+\d+\d+\d+/\d+\d+/\d+\d+$')">
 	<!-- For 1961/04/06 -->
-	<xsl:analyze-string select="$clean" regex="^(\d\d\d\d)/(\d\d)/(\d\d)$">
+	<xsl:analyze-string select="$digits" regex="^(\d\d\d\d)/(\d\d)/(\d\d)$">
 	  <xsl:matching-substring>
 	    <xsl:value-of select="concat(regex-group(1), '-', 
 				  regex-group(2),  '-', 

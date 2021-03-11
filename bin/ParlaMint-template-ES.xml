@@ -5,8 +5,9 @@
       <titleStmt>
         <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES [ParlaMint]</title>
 	<title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES [ParlaMint]</title>
-	<title type="sub" xml:lang="es">Actas del Congreso de los Diputados de España, legislaturas XI-XII (2016 - 2020)</title>
-        <title type="sub" xml:lang="en">Minutes from the National Congress in Spain, terms 11-14 (2016 - 2020)</title>
+	<title type="sub" xml:lang="es">Actas del Congreso de los Diputados de España, legislaturas XI-XII (2015 - 2020)</title>
+        <title type="sub" xml:lang="en">Minutes from the National Congress in Spain, terms 10-14 (2015 - 2020)</title>
+        <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Term 10</meeting>
         <meeting n="11" corresp="#CD" ana="#parla.term #CD.11">Term 11</meeting>
         <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Term 12</meeting>
 	<meeting n="13" corresp="#CD" ana="#parla.term #CD.13">Term 13</meeting>
@@ -277,6 +278,10 @@
             <listEvent>
 	      <head xml:lang="es">Legislatura</head>
               <head xml:lang="en">Legislative period</head>
+              <event xml:id="CD.10" from="2011-12-13" to="2016-01-12">
+                <label xml:lang="es">Legislatura X</label>
+		<label xml:lang="en">Term 10</label>
+              </event>
               <event xml:id="CD.11" from="2016-01-13" to="2016-07-18">
                 <label xml:lang="es">Legislatura XI</label>
 		<label xml:lang="en">Term 11</label>

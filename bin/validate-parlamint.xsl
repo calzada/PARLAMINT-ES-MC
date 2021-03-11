@@ -330,13 +330,13 @@
   <xsl:template match="tei:u">
     <xsl:choose>
       <xsl:when test="not(@who)">
-	<xsl:call-template name="error">
+	<!--xsl:call-template name="error">
 	  <xsl:with-param name="severity">WARN</xsl:with-param>
 	  <xsl:with-param name="msg">
 	    <xsl:text>Element u without @who </xsl:text>
 	    <xsl:value-of select="@xml:id"/>
 	  </xsl:with-param>
-	</xsl:call-template>
+	</xsl:call-template-->
       </xsl:when>
       <xsl:when test="not(normalize-space(@who))">
 	<xsl:call-template name="error">
