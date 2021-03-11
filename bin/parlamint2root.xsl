@@ -16,6 +16,10 @@
   <xsl:param name="outDir">.</xsl:param>
   <!-- Path from bin/ to ES component files -->
   <xsl:param name="inDir">..</xsl:param>
+
+  <!-- From - to of the complete corpus -->
+  <xsl:param name="start-date">2015-01-20</xsl:param>
+  <xsl:param name="end-date">2020-12-15</xsl:param>
   
   <!-- Gather URIs of component xi + files and map to new xi + files -->
   <xsl:variable name="docs">
@@ -108,7 +112,10 @@
   </xsl:variable>
 
   <!-- Get all persons from component files -->
-  <!-- Also gets from - to dates for their affiliatons -->
+  <!-- Also gets from - to dates for their affiliations -->
+  <!-- which doesn't quite work... Should check when their firt/last speech was
+       and compare the affiliation dates with that!
+  -->
   <xsl:variable name="persons">
     <!-- Put the same person records in one listPerson -->
     <xsl:variable name="pass2">
@@ -128,45 +135,83 @@
       </xsl:for-each-group>
     </xsl:variable>
     <!-- Now go through each person records and 
-	 - compute their tenure as MP and for teir party membership 
+	 - compute their tenure as MP and for their party membership 
 	 - output the person
     -->
     <xsl:for-each select="$pass2/tei:listPerson">
-      <!-- Sorted dates when person was MP -->
-      <xsl:variable name="MP-dates">
-	<xsl:for-each select="tei:person/tei:affiliation[@role='MP']">
-	  <xsl:sort select="@when"/>
-	  <item xmlns="http://www.tei-c.org/ns/1.0">
-	    <xsl:value-of select="@when"/>
-	  </item>
-	</xsl:for-each>
+      <xsl:variable name="MP-affiliation">
+	<xsl:variable name="list-MP">
+	  <xsl:for-each select="tei:person/tei:affiliation[@role='MP']">
+	    <xsl:sort select="@when"/>
+	    <item xmlns="http://www.tei-c.org/ns/1.0">
+	      <xsl:value-of select="@when"/>
+	    </item>
+	  </xsl:for-each>
+	</xsl:variable>
+	<!-- Such can be without dates:
+	     <affiliation ref="#CD" role="MP" from="2015-01-20" to="2020-12-15"/>
+	-->
+	<xsl:variable name="start" select="$list-MP/tei:item[1]"/>
+	<xsl:variable name="end" select="$list-MP/tei:item[last()]"/>
+        <affiliation ref="#CD" role="MP">
+	  <xsl:attribute name="from" select="$start"/>
+	  <xsl:attribute name="to" select="$end"/>
+	  <!--
+	  <xsl:if test="$start &gt; $start-date">
+	    <xsl:attribute name="from" select="$start"/>
+	  </xsl:if>
+	  <xsl:if test="$end &lt; $end-date">
+	      <xsl:attribute name="to" select="$end"/>
+	  </xsl:if>
+	  -->
+	</affiliation>
       </xsl:variable>
+      
       <!-- All party affiliations with corpus-gathered from-to dates -->
       <xsl:variable name="party-affiliations">
 	<xsl:variable name="parties">
-	  <xsl:for-each select="tei:person/tei:affiliation[@role='member']">
-	    <xsl:sort select="@ref"/>
-	    <xsl:sort select="@when"/>
-	    <xsl:copy-of select="."/>
-	  </xsl:for-each>
-	</xsl:variable>
-	<xsl:for-each select="$parties/tei:affiliation">
-	  <xsl:variable name="party" select="@ref"/>
-	  <xsl:if test="not(preceding-sibling::tei:affiliation[@ref = $party])">
-	    <xsl:variable name="dates">
-	      <item xmlns="http://www.tei-c.org/ns/1.0">
-		<xsl:value-of select="@when"/>
-	      </item>
-	      <xsl:for-each select="following-sibling::tei:affiliation[@ref = $party]">
+	  <xsl:variable name="list-parties">
+	    <xsl:for-each select="tei:person/tei:affiliation[@role='member']">
+	      <xsl:sort select="@ref"/>
+	      <xsl:sort select="@when"/>
+	      <xsl:copy-of select="."/>
+	    </xsl:for-each>
+	  </xsl:variable>
+	  <xsl:for-each select="$list-parties/tei:affiliation">
+	    <xsl:variable name="party" select="@ref"/>
+	    <xsl:if test="not(preceding-sibling::tei:affiliation[@ref = $party])">
+	      <xsl:variable name="dates">
 		<item xmlns="http://www.tei-c.org/ns/1.0">
 		  <xsl:value-of select="@when"/>
 		</item>
-	      </xsl:for-each>
-	    </xsl:variable>
-            <affiliation role="member" ref="{$party}"
-			 from="{$dates/tei:item[1]}" to="{$dates/tei:item[last()]}"/>
-	  </xsl:if>
-	</xsl:for-each>
+		<xsl:for-each select="following-sibling::tei:affiliation[@ref = $party]">
+		  <item xmlns="http://www.tei-c.org/ns/1.0">
+		    <xsl:value-of select="@when"/>
+		  </item>
+		</xsl:for-each>
+	      </xsl:variable>
+              <affiliation role="member" ref="{$party}"
+			   from="{$dates/tei:item[1]}" to="{$dates/tei:item[last()]}"/>
+	    </xsl:if>
+	  </xsl:for-each>
+	</xsl:variable>
+	<xsl:choose>
+	  <!-- Belongs to only one party, get rid of dates -->
+	  <xsl:when test="not($parties/tei:affiliation[2])">
+	    <affiliation role="member" ref="{$parties/tei:affiliation/@ref}"/>
+	  </xsl:when>
+	  <!-- This needs to be sorted, we have e.g.
+               <affiliation role="member" ref="#party.PP" from="2016-12-14" to="2020-12-02"/>
+               <affiliation role="member" ref="#party.PPEU" from="2015-01-20" to="2015-05-14"/>
+	  should probably go to:
+               <affiliation role="member" ref="#party.PP" not-before="2016-12-14"/>
+               <affiliation role="member" ref="#party.PPEU" not-after="2016-12-14"/>
+	  we can also have 3:
+	  -->
+	  <xsl:otherwise>
+	    <xsl:copy-of select="$parties/tei:affiliation"/>
+	  </xsl:otherwise>
+	</xsl:choose>
       </xsl:variable>
       <!-- Output person -->
       <xsl:for-each select="tei:person[1]">
@@ -174,10 +219,7 @@
 	  <xsl:copy-of select="tei:persName"/>
 	  <xsl:copy-of select="tei:sex"/>
 	  <xsl:copy-of select="tei:birth"/>
-	  <xsl:if test="$MP-dates/tei:item">
-            <affiliation ref="#CD" role="MP"
-			 from="{$MP-dates/tei:item[1]}" to="{$MP-dates/tei:item[last()]}"/>
-	  </xsl:if>
+	  <xsl:copy-of select="$MP-affiliation"/>
 	  <xsl:copy-of select="$party-affiliations"/>
 	</person>
       </xsl:for-each>
