@@ -52,6 +52,9 @@
 	      <xsl:when test="contains(label, 'plenaria')">
 		<xsl:text>Plenary session </xsl:text>
 		<xsl:value-of select="$n"/>
+		<xsl:if test="ends-with($id, '-bis')">
+		  <xsl:text>, cont.</xsl:text>
+		</xsl:if>
 	      </xsl:when>
 	      <xsl:otherwise>
 		<xsl:message select="concat('ERROR: Strange label ', label)"/>
@@ -61,6 +64,9 @@
 	  </xsl:variable>
 	  <xsl:variable name="title-es">
 	    <xsl:apply-templates select="label"/>
+	    <xsl:if test="ends-with($id, '-bis')">
+	      <xsl:text>, bis</xsl:text>
+	    </xsl:if>
 	    <xsl:value-of select="concat(' (', $session-date, ')')"/>
 	  </xsl:variable>
           <title xml:lang="en" type="main">
