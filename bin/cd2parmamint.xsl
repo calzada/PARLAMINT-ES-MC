@@ -650,7 +650,7 @@
     <xsl:param name="digits"/>
     <xsl:choose>
       <!-- 20210301 -> 2021-03-01 -->
-      <xsl:when test="matches($digits, '^\d\d\d\d')">
+      <xsl:when test="matches($digits, '^\d+$')">
 	<!-- For 20201118-bis -->
 	<xsl:variable name="clean" select="replace($digits, '-.*$', '')"/>
 	<xsl:analyze-string select="$clean" regex="^(\d\d\d\d)(\d\d)(\d\d)$">
@@ -678,6 +678,25 @@
 	  </xsl:non-matching-substring>
 	</xsl:analyze-string>
       </xsl:when>
+
+      <xsl:when test="matches($digits, '^\d+\d+\d+\d+/\d+\d+/\d+\d+$')">
+	<!-- For 1961/04/06 -->
+	<xsl:analyze-string select="$clean" regex="^(\d\d\d\d)/(\d\d)/(\d\d)$">
+	  <xsl:matching-substring>
+	    <xsl:value-of select="concat(regex-group(1), '-', 
+				  regex-group(2),  '-', 
+				  regex-group(3))"/>
+	  </xsl:matching-substring>
+	  <xsl:non-matching-substring>
+	    <xsl:message>
+	      <xsl:text>ERROR: Can't make date from </xsl:text>
+	      <xsl:value-of select="$digits"/>
+	    </xsl:message>
+	  </xsl:non-matching-substring>
+	</xsl:analyze-string>
+      </xsl:when>
+
+      
       <!-- "celebrada el miércoles, 20 de abril de 2016" -> 2016-04-20 -->
       <xsl:when test="matches($digits, '^celebrada')">
 	<xsl:variable name="day" select="format-number(
