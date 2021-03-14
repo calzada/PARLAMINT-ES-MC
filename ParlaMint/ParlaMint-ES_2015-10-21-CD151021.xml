@@ -50,7 +50,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-11">2021-03-11</date>
+            <date when="2021-03-12">2021-03-12</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -71,12 +71,12 @@
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
                <tagUsage gi="pb" occurs="27"/>
-               <tagUsage gi="note" occurs="132"/>
                <tagUsage gi="u" occurs="159"/>
                <tagUsage gi="lb" occurs="330"/>
-               <tagUsage gi="div" occurs="2"/>
-               <tagUsage gi="head" occurs="2"/>
+               <tagUsage gi="note" occurs="133"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -91,7 +91,7 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-11">
+         <change when="2021-03-12">
             <name>Tomaž Erjavec</name>: initial version.</change>
       </revisionDesc>
    </teiHeader>
@@ -965,9 +965,7 @@
                <seg>Se levanta la sesión.</seg>
                <seg>Eran las once de la mañana.</seg>
             </u>
-         </div>
-         <div type="debateSection">
-            <head>CORRECCIÓN DE ERROR En el Diario de Sesiones número 305, correspondiente a la sesión plenaria número 285 celebrada el martes 15 de septiembre de 2015, en la página 108, intervención del señor Moscoso del Prado Hernández, línea 21, donde dice 'la propiedad marginal no crece...', debe decir 'la productividad marginal no crece...'</head>
+            <note>CORRECCIÓN DE ERROR En el Diario de Sesiones número 305, correspondiente a la sesión plenaria número 285 celebrada el martes 15 de septiembre de 2015, en la página 108, intervención del señor Moscoso del Prado Hernández, línea 21, donde dice 'la propiedad marginal no crece...', debe decir 'la productividad marginal no crece...'</note>
          </div>
       </body>
    </text>

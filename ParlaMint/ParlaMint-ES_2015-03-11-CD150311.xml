@@ -50,7 +50,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-11">2021-03-11</date>
+            <date when="2021-03-12">2021-03-12</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -71,12 +71,12 @@
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="4"/>
+               <tagUsage gi="head" occurs="4"/>
                <tagUsage gi="pb" occurs="50"/>
                <tagUsage gi="note" occurs="145"/>
                <tagUsage gi="u" occurs="209"/>
                <tagUsage gi="lb" occurs="484"/>
-               <tagUsage gi="div" occurs="5"/>
-               <tagUsage gi="head" occurs="5"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -91,7 +91,7 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-11">
+         <change when="2021-03-12">
             <name>Tomaž Erjavec</name>: initial version.</change>
       </revisionDesc>
    </teiHeader>
@@ -1324,9 +1324,6 @@
                <seg>Era la una y veinte minutos de la tarde.</seg>
                <seg>http://www.congreso.es Calle Floridablanca, s/n. 28071 Madrid</seg>
             </u>
-         </div>
-         <div type="debateSection">
-            <head>D L.: M-12.580/1961 CONGRESO DE LOS DIPUTADOS Teléf.: 91 390 60 00 Edición electrónica preparada por la Agencia Estatal Boletín Oficial del Estado &#x96; http://boe.es</head>
          </div>
       </body>
    </text>

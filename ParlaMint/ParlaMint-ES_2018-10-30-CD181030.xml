@@ -50,7 +50,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-11">2021-03-11</date>
+            <date when="2021-03-12">2021-03-12</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -72,11 +72,11 @@
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="pb" occurs="74"/>
+               <tagUsage gi="div" occurs="17"/>
+               <tagUsage gi="head" occurs="16"/>
                <tagUsage gi="u" occurs="207"/>
-               <tagUsage gi="note" occurs="199"/>
                <tagUsage gi="lb" occurs="661"/>
-               <tagUsage gi="div" occurs="18"/>
-               <tagUsage gi="head" occurs="17"/>
+               <tagUsage gi="note" occurs="200"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -91,7 +91,7 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-11">
+         <change when="2021-03-12">
             <name>Tomaž Erjavec</name>: initial version.</change>
       </revisionDesc>
    </teiHeader>
@@ -1587,9 +1587,7 @@
                <seg>Se suspende la sesión hasta mañana a las nueve horas.</seg>
                <seg>Eran las nueve y cuarenta y cinco minutos de la noche.</seg>
             </u>
-         </div>
-         <div type="debateSection">
-            <head>CORRECCIÓN DE ERROR</head>
+            <note>CORRECCIÓN DE ERROR. En el Diario de Sesiones número 160, correspondiente al Pleno celebrado el jueves 25 de octubre de 2018, en la página 43, título 'VOTACIÓN DE CONJUNTO', en el resultado de la votación donde dice: 'votos emitidos, 345; a favor, 343; abstenciones, 2', debe decir: 'votos emitidos 345 más 2 votos telemáticos, 347; a favor, 343 más 2 votos telemáticos, 345; abstenciones, 2'.</note>
          </div>
       </body>
    </text>
