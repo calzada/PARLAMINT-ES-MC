@@ -121,8 +121,10 @@
           <edition>0.1</edition>
         </editionStmt>
         <extent>
-          <measure unit="speeches" quantity="0" xml:lang="en">XXX speeches</measure>
-          <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+          <measure unit="speeches" quantity="0" xml:lang="es">0 speeches</measure>
+          <measure unit="speeches" quantity="0" xml:lang="en">0 intervenciones</measure>
+          <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+          <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
         </extent>
         <publicationStmt>
           <publisher>
@@ -227,9 +229,6 @@
 	  </particDesc>
 	</xsl:if>
       </profileDesc>
-      <revisionDesc>
-        <change when="{$today-iso}"><name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
     </teiHeader>
   </xsl:template>
   
@@ -267,10 +266,20 @@
   <!-- extent mode computes size of the TEI/text (extent + tagUsage) -->
   <xsl:template mode="extents" match="tei:measure[@unit='speeches']">
     <xsl:variable name="quant" select="count(//tei:u)"/>
-    <measure xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en"
-	     unit="speeches" quantity="{format-number($quant, '#')}">
-      <xsl:value-of select="concat(format-number($quant, '###,###,###'), ' speeches')"/>
-    </measure>
+    <xsl:copy>
+      <xsl:attribute name="unit" select="@unit"/>
+      <xsl:attribute name="quantity" select="format-number($quant, '#')"/>
+      <xsl:attribute name="xml:lang" select="@xml:lang"/>
+      <xsl:variable name="formatted" select="format-number($quant, '###,###,###')"/>
+      <xsl:choose>
+	<xsl:when test="@xml:lang = 'es'">
+	  <xsl:value-of select="replace(., '^\d+', $formatted)"/>
+	</xsl:when>
+	<xsl:when test="@xml:lang = 'en'">
+	  <xsl:value-of select="replace(., '^\d+', replace($formatted, ',', '.'))"/>
+	</xsl:when>
+      </xsl:choose>
+    </xsl:copy>
   </xsl:template>
   <xsl:template mode="extents" match="tei:tagsDecl">
     <xsl:copy>
@@ -386,7 +395,8 @@
       <xsl:attribute name="ana">
 	<xsl:text>#</xsl:text>
 	<xsl:choose>
-	  <xsl:when test="speaker/post = 'PRESIDENTA'">chair</xsl:when>
+	  <xsl:when test="matches(speaker/national_party, '^\s*NA\+?\s*$')">guest</xsl:when>
+	  <xsl:when test="matches(speaker/post, '^\s*PRESIDENT[AE]\s*$')">chair</xsl:when>
 	  <xsl:otherwise>regular</xsl:otherwise>
 	</xsl:choose>
       </xsl:attribute>
@@ -636,7 +646,8 @@
   <xsl:function name="et:set" as="xs:boolean">
     <xsl:param name="str"/>
     <xsl:choose>
-      <xsl:when test="$str = '' or $str = 'UNKNOWN' or $str = 'NA'
+      <xsl:when test="$str = '' or $str = 'UNKNOWN' 
+		      or $str = 'NA' or $str = 'NA+'
 		      or matches($str, '^0+$')">
 	<xsl:value-of select="false()"/>
       </xsl:when>

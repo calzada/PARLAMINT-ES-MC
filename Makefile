@@ -12,7 +12,7 @@ all:	cnv1 cnv2 val
 
 # Validate corpus
 val:
-	#$s -xi -xsl:bin/copy.xsl ParlaMint/ParlaMint-ES.xml | $j schemas/parla-clarin.rng
+	$s -xi -xsl:bin/copy.xsl ParlaMint/ParlaMint-ES.xml | $j schemas/parla-clarin.rng
 	-${vrt} ParlaMint/ParlaMint-ES.xml 
 	-${vct} ParlaMint/ParlaMint-ES_*.xml
 	bin/validate-parlamint.pl schemas ParlaMint
@@ -27,8 +27,8 @@ cnv2:
 cnv1:
 	ls CD/*.xml | $P --jobs 10 \
 	'$s -xsl:bin/cd2parmamint.xsl {} > tmp/{/.}-PM.xml'
-	ls tmp/*-PM.xml | xargs ${pc} 
-	$j schemas/parla-clarin.rng tmp/*-PM.xml
+	#ls tmp/*-PM.xml | xargs ${pc} 
+	#$j schemas/parla-clarin.rng tmp/*-PM.xml
 
 #Generate the XInclude part of the (temporary) corpus root
 xis:

@@ -253,6 +253,24 @@
     <xsl:copy/>
   </xsl:template>
 
+  <xsl:template mode="comp" match="tei:publicationStmt/tei:date">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:attribute name="when" select="$today"/>
+      <xsl:value-of select="format-date(current-date(), '[MNn] [D], [Y]')"/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <!-- lb is changed to seg -->
+  <xsl:template mode="comp" match="tei:tagUsage[@gi = 'lb']">
+    <xsl:copy>
+      <xsl:attribute name="gi">seg</xsl:attribute>
+      <xsl:attribute name="occurs" select="@occurs"/>
+      <xsl:apply-templates mode="comp"/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <!-- Change lb to seg and lift out edge elements (pb, note) from seg -->
   <xsl:template mode="comp" match="tei:u">
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
@@ -340,7 +358,7 @@
   <xsl:template match="tei:revisionDesc">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <change when="{$today}"><name>Tomaž Erjavec</name>: First try.</change>
+      <change when="{$today}"><name>Tomaž Erjavec</name>: Conversion to ParlaMint TEI.</change>
     </xsl:copy>
   </xsl:template>
 

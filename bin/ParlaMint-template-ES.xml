@@ -17,7 +17,7 @@
           <resp xml:lang="en">Data retrieval and conversion to XML</resp>
         </respStmt>
         <respStmt>
-          <persName>Tomaž Erjavec</persName>
+          <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
           <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
         </respStmt>
         <funder>
@@ -37,8 +37,7 @@
         <!-- ET: does one file correspond to one session? or to one meeting? -->
 	<!--measure unit="sessions" quantity="0" xml:lang="es">0 sesiones</measure-->
 	<!--measure unit="sessions" quantity="0" xml:lang="en">0 sessions</measure-->
-	<!-- ET: What is "speeches" in Spanish? -->
-	<measure unit="speeches" quantity="0" xml:lang="es">0 XXX</measure>
+	<measure unit="speeches" quantity="0" xml:lang="es">0 intervenciones</measure>
 	<measure unit="speeches" quantity="0" xml:lang="en">0 speeches</measure>
 	<measure quantity="0" unit="words" xml:lang="es">0 palabras</measure>
         <measure quantity="0" unit="words" xml:lang="en">0 words</measure>
