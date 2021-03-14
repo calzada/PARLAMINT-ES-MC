@@ -148,23 +148,25 @@
 	    </item>
 	  </xsl:for-each>
 	</xsl:variable>
-	<!-- Such can be without dates:
-	     <affiliation ref="#CD" role="MP" from="2015-01-20" to="2020-12-15"/>
-	-->
-	<xsl:variable name="start" select="$list-MP/tei:item[1]"/>
-	<xsl:variable name="end" select="$list-MP/tei:item[last()]"/>
-        <affiliation ref="#CD" role="MP">
-	  <xsl:attribute name="from" select="$start"/>
-	  <xsl:attribute name="to" select="$end"/>
-	  <!--
-	  <xsl:if test="$start &gt; $start-date">
+	<xsl:if test="$list-MP/tei:item">
+	  <xsl:variable name="start" select="$list-MP/tei:item[1]"/>
+	  <xsl:variable name="end" select="$list-MP/tei:item[last()]"/>
+          <affiliation ref="#CD" role="MP">
 	    <xsl:attribute name="from" select="$start"/>
-	  </xsl:if>
-	  <xsl:if test="$end &lt; $end-date">
-	      <xsl:attribute name="to" select="$end"/>
-	  </xsl:if>
-	  -->
-	</affiliation>
+	    <xsl:attribute name="to" select="$end"/>
+	    <!-- Such could be without dates:
+		 <affiliation ref="#CD" role="MP" from="2015-01-20" to="2020-12-15"/>
+	    -->
+	    <!--
+		<xsl:if test="$start &gt; $start-date">
+		<xsl:attribute name="from" select="$start"/>
+		</xsl:if>
+		<xsl:if test="$end &lt; $end-date">
+		<xsl:attribute name="to" select="$end"/>
+		</xsl:if>
+	    -->
+	  </affiliation>
+	</xsl:if>
       </xsl:variable>
       
       <!-- All party affiliations with corpus-gathered from-to dates -->
