@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="208">208 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="208" xml:lang="es">208 speeches</measure>
+            <measure unit="speeches" quantity="208" xml:lang="en">208 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="62"/>
                <tagUsage gi="note" occurs="135"/>
                <tagUsage gi="u" occurs="208"/>
-               <tagUsage gi="lb" occurs="593"/>
+               <tagUsage gi="seg" occurs="593"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO SOCIALISTA, ORGÁNICA DE REFORMA DEL CÓDIGO PENAL.</head>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
                <seg>Proposición de ley del Grupo Parlamentario Socialista, orgánica de reforma del Código Penal. Para la defensa de la iniciativa tiene la palabra el señor Such.</seg>
             </u>
@@ -121,7 +119,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u3" ana="#chair">
                <seg>Muchas gracias, señor Such.</seg>
                <seg>En turno de fijación de posiciones, por el Grupo Mixto, tiene la palabra la señora Fernández Davila.</seg>
             </u>
@@ -133,7 +131,7 @@
                <seg>Nos parece oportuno asimismo lo que se plantea en el nuevo capítulo 15 del título III en la medida en que se hace una serie de nuevas consideraciones respecto a delitos de personas que tienen representación en los partidos políticos -no solamente legal, sino también administrativa-, de manera que no puedan escabullirse por la falta de reconocimiento penal de sus responsabilidades en situaciones como las que se han descrito aquí esta tarde. Por eso, señorías, vamos a votar favorablemente. Sin embargo, después de que se hayan aprobado las leyes que he mencionado con anterioridad sin que por parte del grupo mayoritario, el Grupo Parlamentario Popular, se aceptaran enmiendas semejantes a las previstas en esta proposición de ley, nos tememos que el mismo grupo va a votar negativamente la propuesta. Una vez más el Partido Popular, el Grupo Parlamentario Popular en este caso, va a hacer una demostración de su falta de interés por luchar con eficacia contra la corrupción y establecer unos mecanismos de actuación y funcionamiento político que hagan imposible, o por lo menos dificulten, todas las corruptelas que se están llevando a cabo por personas indeseables en el mundo de la política.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u5" ana="#chair">
                <seg>Muchas gracias, señora Fernández.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Esteban.</seg>
             </u>
@@ -145,7 +143,7 @@
                <seg>La verdad es que no encontramos que se defina de una manera clara el delito o el fenómeno de financiación irregular de los partidos, porque según la lectura del artículo 304 bis y siguientes parece que se habla de una subespecie; se parte de que existe una falsificación de documento público, pero creemos<pb n="9"/> que el artículo debería comenzar por una definición más clara de la ilegalidad, de la irregularidad, cuál es el dolo concreto, no solo ceñirse a esta subespecie. Tampoco se acomete esa definición en el artículo 304 ter, ni muchísimo menos, y creemos que en el quáter se debería ampliar la responsabilidad, no solo limitarla, como se hace en la propuesta a los representantes legales o administradores de hecho y de derecho de partidos, sino que la responsabilidad subjetiva de este delito puede ser también de otros cargos del partido o afiliados. La propuesta que se hace nos parece bastante limitativa y creemos que se debería ampliar o dejar abierto el número de sujetos. Por otra parte, nos parece apropiada la propuesta que se hace -en su momento así lo planteamos también nosotros en nuestras enmiendas- de disminuir la cantidad para considerar defraudación a la Hacienda pública estatal, foral, autonómica o local rebajándola en este caso a 50.000 euros, frente a los 120.000 del delito fiscal ordinario.</seg>
                <seg>En definitiva, creemos que adolece de una cierta falta de definición de lo que es el delito. Creemos que alguna regulación concreta debería ser diferente, pero no seríamos contrarios a volver a debatir este tema. Por tanto, no será nuestro grupo el que lo intente impedir y tendrá nuestro voto favorable.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u7" ana="#chair">
                <seg>Muchas gracias, señor Esteban.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia, tiene la palabra la señora Díez.</seg>
             </u>
@@ -159,7 +157,7 @@
                <seg>En todo caso, hoy estamos discutiendo aquí una toma en consideración. Creo que es una buena actitud que seamos conscientes de que nos hemos dejado cosas fuera de la reforma del Código Penal, de que el nivel de exigencia de los ciudadanos hacia nosotros, los responsables políticos, y el nuestro hacia nuestra propia democracia, en el sentido de construir una democracia de más calidad y unas instituciones de más calidad, está por encima de lo que cada uno de nosotros haya hecho en la última reforma del Código Penal o de las posiciones que cada uno de nosotros haya tenido en relación con esta materia. Es verdad, lo hemos discutido hace nada, lo decía el portavoz del Grupo Parlamentario Vasco, pero es verdad también que desde nuestro punto de vista lo hemos resuelto de forma insatisfactoria. Hay una demanda social que no hemos resuelto, hay una demanda de regeneración democrática que no hemos resuelto, hay una demanda de reproche penal a los partidos y a los responsables políticos que no hemos resuelto con acuerdo a la ley, y creo que siempre es buen momento para resolverlo. Habrá quien diga que lo hacemos o lo hacen algunos en este momento, quien presenta la iniciativa parlamentaria, porque estamos a nada de unas elecciones. Oiga, si la necesidad es acuciante y, en este caso, a nuestro juicio lo es, bienvenida sea, aunque sea en este momento. Lo importante es lo que está sobre la mesa y sería muy positivo que se admitiera a trámite esta reforma y que con la toma en consideración de esta proposición sobre la mesa pudiéramos mejorarla entre todos. Este es de esos momentos en los que debiera de importarnos poco quién trae la iniciativa y sí su fondo y la exigencia de la misma. Sé que hay algunas personas que creen que la política es el arte de lo posible pero nosotros, los que somos menos pragmáticos y más idealistas, pensamos que la política está para hacer posible lo que es necesario, en este caso regenerar la democracia.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u9" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Por el Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural tiene la palabra el señor Llamazares.</seg>
             </u>
@@ -177,7 +175,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u11" ana="#chair">
                <seg>Muchas gracias, señor Llamazares.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió tiene la palabra el señor Janè.</seg>
             </u>
@@ -191,7 +189,7 @@
                <seg>Damos nuestro voto favorable a esta toma en consideración, consideraríamos oportuno que se pudiera profundizar en esos nuevos tipos delictivos y estimamos que ese diagnóstico inicial que podría dar a entender que nada se ha hecho no es ajustado e iría en contra de la trayectoria del grupo hoy proponente, que ha tenido responsabilidades de Gobierno de manera previa, y sobre todo entendemos que no es ajustado centrar el debate de hoy sobre una proposición de ley orgánica de reforma del Código Penal en casos concretos que pueden tener mucha actualidad mediática pero que no forman parte necesariamente de los artículos y de los nuevos delitos que hoy se propone regular con esta proposición de ley. Por tanto, sí a su toma en consideración; no a su forma de instrumentar la misma para hablar de determinados casos concretos que tienen otros cauces. Se pueden plantear interpelaciones urgentes y no necesariamente como proposiciones de ley orgánica. Pero, como digo, sí estamos a favor de profundizar en esa necesaria lucha contra la corrupción y en esos nuevos tipos delictivos que se han quedado cortos y por ello vamos a votar favorablemente su toma en consideración.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u13" ana="#chair">
                <seg>Muchas gracias, señor Jané.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Gómez de la Serna.</seg>
             </u>
@@ -209,12 +207,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos.-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u15" ana="#chair">
                <seg>Muchas gracias, señor Gómez de la Serna.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, ORGÁNICA PARA REFORZAR LA PROTECCIÓN DE LAS MENORES Y MUJERES CON CAPACIDAD MODIFICADA JUDICIALMENTE EN LA INTERRUPCIÓN VOLUNTARIA DEL EMBARAZO.</seg>
                <note>Número de expediente 122/000195</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u16" ana="#chair">
                <seg>Proposición de ley del Grupo Parlamentario Popular en el Congreso, orgánica para reforzar la protección de las menores y mujeres con capacidad modificada judicialmente en la interrupción voluntaria del embarazo.</seg>
                <seg>Para presentar la iniciativa, tiene la palabra doña Marta González.</seg>
             </u>
@@ -231,7 +229,7 @@
                <seg>Señorías, el Gobierno de España está llevando a cabo en esta legislatura toda una serie de actuaciones de gran calado que configuran un nuevo estatus de protección a los menores. Se están tramitando en esta Cámara ahora mismo los proyectos de ley y de ley orgánica de modificación del sistema de protección a la infancia, con lo que se pretende garantizar la especial protección de los menores en nuestro país y responder a las necesidades de la situación actual. Entre otras medidas, se agilizan los procedimientos de acogimiento y adopción, con el objetivo de que los niños y las niñas que estén en ese proceso pasen el menor tiempo posible bajo tutela o guarda de las administraciones y formen parte de una familia cuanto antes. Asimismo, se reconoce a los menores como víctimas de violencia de género; un derecho que, como bien saben ustedes, ha sido caballo de batalla del Grupo Parlamentario Popular desde el mismo momento de la aprobación de la Ley orgánica 1/2004, de<pb n="18"/> medidas de protección integral contra la violencia de género. También se modifica la Ley de protección a las familias numerosas para mejorar los beneficios legales de los que en este momento disfrutan. Asimismo, el Código Penal recién aprobado ha elevado la edad de consentimiento de los menores para mantener relaciones sexuales con adultos -era una de las más bajas de Europa, trece años- a dieciséis años, para que no exista abuso de poder por parte del adulto en el establecimiento de esa relación; también se eleva la edad mínima para contraer matrimonio. En esa misma línea de protección a los menores, los pacientes adolescentes podrán permanecer en las unidades pediátricas hasta los dieciocho años, hasta su mayoría de edad -antes la edad máxima era de catorce años-, atendiendo a la demanda de las familias de niños enfermos, puesto que los adolescentes con enfermedades graves o con largos periodos de hospitalización pasaban a una edad excesivamente temprana a las unidades de adultos, lo que provocaba situaciones inadecuadas desde el punto de vista psicológico. A mayores, el Grupo Parlamentario Popular presentará en el próximo Pleno una proposición no de ley para instar al Gobierno a incorporar por primera vez a nivel europeo la obligatoriedad de realizar un informe de impacto sobre la infancia en los proyectos de ley y reglamentos, lo cual es un tema crucial.</seg>
                <seg>Finalizo. Es lógico que pretendamos modificar aquello que nos parece una aberración desde el punto de vista jurídico, como es que el Gobierno socialista haya permitido desde el año 2010 que las adolescentes españolas puedan enfrentarse al aborto sin haber obtenido la autorización de sus padres o representantes legales y, en algunos casos, sin haberles informado ni siquiera y sin haber tenido su opinión, consejo o apoyo, todo ello con el objeto de llevar a su máxima expresión la defensa ideológica del aborto como un derecho absoluto de la mujer e incluso de la menor de edad. Señorías, es una obviedad que legislar sobre el aborto no es fácil. Se trata de un debate en el que se mezclan argumentos morales, filosóficos, éticos y científicos con manidos mantras y eslóganes relativos al cuerpo de las mujeres, al que los países de nuestro entorno han dado soluciones muy diferentes, muchas de ellas insatisfactorias, puesto que, como suele establecerse a priori, el objetivo de la legislación es eliminar en la medida de lo posible el recurso al aborto. El hecho de que la vida concebida no puede interpretarse como una extensión del cuerpo de la madre es evidente. Si así fuera, no habría conflicto alguno entre los derechos de la mujer, que no son absolutos pero existen, y la protección del no nacido, un bien jurídico a proteger y cuya protección corresponde precisamente al Estado. En la proposición de ley orgánica que hoy presentamos en esta Cámara no estamos validando la ley en vigor. Creemos que le corresponde al Tribunal Constitucional pronunciarse sobre la cuestión de si la ley orgánica respeta&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u18" ana="#chair">
                <seg>Señora González, tiene usted que ir terminando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u19"
@@ -243,7 +241,7 @@
                <seg>Muchísimas gracias, señor presidente.</seg>
                <note>Prolongados aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u20" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u20" ana="#chair">
                <seg>Gracias, señora González.</seg>
                <seg>El Grupo Parlamentario Socialista ha solicitado la utilización del turno en contra de esta toma en consideración. Para la defensa del mismo, tiene la palabra la señora Montón.</seg>
                <pb n="19"/>
@@ -264,7 +262,7 @@
                <seg>El Partido Socialista va a votar en contra de la reforma del PP y vamos a hacer todo lo que esté en nuestra mano, todo lo posible, para evitar que se modifique la ley vigente. No vamos a apoyar a este Gobierno que se comporta como un trilero con los derechos de las mujeres. Aún no sabemos en qué vaso está esa bolita, porque el PP la mueve en cada víspera electoral. Quieren coger votos de todas partes, de su ala más conservadora y de la menos reaccionaria, y para eso no tienen problemas en utilizar los derechos de las mujeres como mercancía electoral. Y les vamos a decir no, todas las veces que haga falta; les vamos a decir no, y si se atreven a cambiarlo, lo cambiaremos en cuanto lleguemos al Gobierno. No cuenten con el Partido Socialista para utilizar los derechos de las mujeres como mercancía electoral. Les decimos, no.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u22" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u22" ana="#chair">
                <seg>Muchas gracias, señora Montón.</seg>
                <seg>Señora González.</seg>
                <pb n="21"/>
@@ -279,7 +277,7 @@
                <seg>Ahora querría apelar a esa voluntad de acuerdo, aquí y ahora en esta Cámara, porque esa voluntad de acuerdo se manifiesta aquí y ahora. Muchos de ustedes, muchas de ustedes formaban parte de esta Cámara cuando el Gobierno socialista defendió su proyecto de ley orgánica y una buena parte de ustedes, los mismos y las mismas como portavoces de sus respectivos grupos parlamentarios, estuvieron de acuerdo con el Grupo Parlamentario Popular en su rechazo a la posibilidad de que las menores pudiesen abortar sin consentimiento o conocimiento de sus padres o tutores. Por ejemplo, UPyD dijo que encontraba demagógica e incoherente una excepción, la de las menores, como la que se pretende instaurar. Por Unió intervino la señora Tarruella diciendo que este proyecto de ley constituía un paso más en la degradación de la patria potestad, esto es, en el deber y función que incumbe a los padres y madres de cuidar de sus hijos, velar por ellos, educarles y darles una formación integral; patria potestad que el proyecto pretende reducir a una simple obligación de hospedaje, esto es, de alojamiento y manutención. El señor Xuclà también presentó una enmienda junto con el señor Macias, el señor Jané y la señora Riera, y en su defensa dijo: Compartimos el rechazo a la previsión de que las menores de edad entre dieciséis y dieciocho años puedan abortar sin el conocimiento de los padres. Finalmente, el señor Agirretxea además de decir que su grupo no considera que el aborto sea un derecho, se refirió también a esta cuestión que nos trae hoy aquí, mencionando: Consideramos que a los padres o tutores legales de las jóvenes embarazadas entre dieciséis y dieciocho años que deciden interrumpir su embarazo se les debe notificar o comunicar<pb n="22"/> dicha decisión, algo que el proyecto de ley no contempla. Asimismo, añadió: La patria potestad es algo que no debemos usar a nuestro libre albedrío. Además, ¿por qué sí las de quince y no las de dieciséis?</seg>
                <seg>Por todo ello, señores de UPyD, señores de Convergència i Unió, señores del Grupo Vasco, quisiera apelar a su coherencia y recordarles su posición de hace cinco años con relación a este tema para que ahora que tenemos una nueva oportunidad se unan al Grupo Parlamentario Popular para modificar una situación que, al igual que a nosotros, les pareció en su día -y entiendo que debería seguir pareciéndoles- peligrosa&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u24" ana="#chair">
                <seg>Señora González, tiene que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u25"
@@ -290,7 +288,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u26" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u26" ana="#chair">
                <seg>Gracias, señora González.</seg>
                <seg>Señora Montón.</seg>
             </u>
@@ -306,7 +304,7 @@
                <note>Aplausos</note>
                <pb n="23"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u28" ana="#chair">
                <seg>Gracias, señora Montón.</seg>
                <seg>Entramos en turno de fijación de posiciones y empezamos con el Grupo Mixto que hará varias intervenciones, por lo que ruego a sus portavoces que se atengan al tiempo que hemos establecido.</seg>
                <seg>En primer lugar, tiene la palabra el señor Salvador.</seg>
@@ -320,7 +318,7 @@
                <seg>Para Unión del Pueblo Navarro esta proposición es más que no hacer nada, pero mucho menos de lo que exige la defensa de la vida humana y la protección de los más indefensos, aunque si algo tiene de útil, que lo tiene, es que abre nuevamente un debate sobre la vida, sobre su dignidad, sobre los límites de la libertad y sobre las distintas visiones que cada cual tiene sobre este tema tan sensible. Mi partido y yo votaremos a favor precisamente y solo para poder presentar nuestras propias enmiendas, enmiendas para intentar dejar sin efecto los artículos de la ley de 2010 que, como muy bien explica el recurso del Partido Popular, creemos que son inconstitucionales, enmiendas para plantear modificaciones en la ley del Partido Socialista que equilibren los bienes jurídicos en conflicto, la libertad y las vidas humanas que se eliminan con cada aborto y también para incorporar un título nuevo que incluya un plan integral de apoyo a la maternidad en defensa del no nacido y de promoción de la familia.</seg>
                <seg>Termino, señorías, como empezaba, insistiendo en que además de los cambios normativos que podamos aprobar se puedan hacer muchas más cosas para ayudar a las madres y para reconocer la dignidad de los que siendo como nosotros, iguales a nosotros, si pudieran hablar nos pedirían que les ofreciéramos una mano amiga con la que ayudarles a dar sus primeros pasos en el camino de la vida, el mismo camino, insisto, el mismo que andamos todos los que tenemos la fortuna de participar en este debate. Y eso es, señorías, lo que nos proponemos hacer en la tramitación de esta proposición,&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u30" ana="#chair">
                <seg>Señor Salvador, termine usted, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u31"
@@ -328,7 +326,7 @@
                ana="#regular">
                <seg>&#x85; sin ningún tipo de complejo, por cierto.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u32" ana="#chair">
                <seg>Muchas gracias, señor Salvador.</seg>
                <seg>Señor Álvarez Sostres.</seg>
                <seg>El señor ÁLVAREZ SOSTRES: Gracias, señor presidente.</seg>
@@ -338,7 +336,7 @@
                <seg>Nuestro sí a la toma en consideración de la proposición de ley sin titubeos porque diré, parafraseando a Martin Luther King: no es necesario ver toda la escalera, me es suficiente con ver el primer peldaño.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u33" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u33" ana="#chair">
                <seg>Muchas gracias, señor Álvarez Sostres.</seg>
                <seg>Señor Baldoví.</seg>
             </u>
@@ -350,7 +348,7 @@
                <seg>Ustedes legislan contra la realidad, contra la mujer, contra la libertad, contra lo que recomienda Naciones Unidas, contra lo que defiende la Organización Mundial de la Salud; legislan contra el sentido común y todo por un puñado de votos de gente que dice defender la vida y que vuelve a casa contenta después de la «mani» y luego se desentiende del verdadero problema: 2,5 millones de niños en riesgo de pobreza. Ahí es donde tendrían que legislar y no meter sus manos en el cuerpo y la libertad de la mujer por un puñado de votos. Sencillamente indecente.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u35" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u35" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Señora Fernández Davila.</seg>
             </u>
@@ -361,7 +359,7 @@
                <seg>Señorías, qué lamentable. El Grupo Popular presenta una proposición de ley para contentar a una minoría minoritaria de su partido y de su electorado y no le duele absolutamente nada, pero absolutamente nada, legislar contra la mayoría social, que es lo que está haciendo con la propuesta que hoy presenta. No le duele absolutamente nada legislar contra natura podríamos decir, porque existe una propuesta que no responde a ninguna necesidad ni a ninguna demanda que socialmente se pueda justificar, porque vuelvo a decir que es una minoría minoritaria.</seg>
                <seg>Señora González, la alarma social que se produce por el hecho de que una menor pueda abortar sin el conocimiento de sus padres es la amenaza que ustedes generan mintiendo.<note>Aplausos</note> Mienten, señores del Grupo Popular, cuando dicen que la ley permite que las adolescentes puedan abortar sin el conocimiento de sus padres. Eso es una auténtica mentira y usted misma, en su intervención, tuvo que<pb n="25"/> reconocer que en el artículo 13 apartado 4 se recoge la necesidad de esa información a los padres. Otra cosa es que se recojan al mismo tiempo las cautelas precisas para proteger a aquellas jóvenes que no puedan contar justamente con el apoyo de sus progenitores. Los datos, señora González y señores del Grupo Popular, así lo indican: el 90 % de las menores que han acudido a abortar desde que la ley actual está en vigor han ido acompañadas de sus padres y madres; solamente un 10 o un 12 % no lo han hecho, pero han justificado debidamente que la falta de acompañamiento era motivada por desestructuración familiar, violencia, incluso por embarazos consecuencia de violaciones paternas. Esta es la realidad de ese 10 % que no contó con el apoyo paterno o materno, señorías. Ustedes pretenden con esta modificación legislativa condenar a una absoluta inseguridad sanitaria a este grupo de personas que tendrán que recurrir a prácticas abortivas en las peores condiciones posibles, que les pude costar incluso la vida. Esto no es solo una injusticia, señorías del Grupo Popular, esto es una auténtica crueldad que ustedes están haciendo con un grupo de jóvenes que tienen que tomar una decisión grave.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u37" ana="#chair">
                <seg>Señora Fernández, tiene usted que acabar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u38"
@@ -370,7 +368,7 @@
                <seg>Señorías, no cuenten con que desde el Bloque Nacionalista Galego podamos apoyar una injusticia y una crueldad tan grande como la que ustedes hoy nos proponen, por tanto, manifestamos nuestro voto en contra.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u39" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u39" ana="#chair">
                <seg>Gracias, señora Fernández Davila.</seg>
                <seg>Señor Tardà.</seg>
             </u>
@@ -382,7 +380,7 @@
                <seg>Señorías, por eso tenemos este orgullo republicano, porque anhelamos una sociedad en la que sean las mujeres, solo las mujeres, las que decidan sobre su propio cuerpo y no los hombres ni Dios.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u41" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u41" ana="#chair">
                <seg>Gracias, señor Tardà.</seg>
                <seg>Señora, Enbeita.</seg>
             </u>
@@ -398,7 +396,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u43" ana="#chair">
                <seg>Muchas gracias, señora Enbeita.</seg>
                <seg>Por el Grupo Vasco, PNV, tiene la palabra el señor Agirretxea.</seg>
             </u>
@@ -414,7 +412,7 @@
                <seg>Señora González, todos deseamos -yo el primero, y usted lo sabe- que una joven que tenga necesidad de abortar sea acompañada por sus seres más queridos, vaya protegida y cuidada. Y los que no tienen ese entorno, ¿qué deben hacer? ¿Y las mujeres que pueden sufrir lesiones o maltrato por ello, incluso violaciones intrafamiliares, qué salvaguarda tienen? ¿El Código Civil, como dicen ustedes, a posteriori, cuando ya no hay remedio? ¿Esa es la solución? Usted me ha citado, y ya que me ha citado, le voy a contestar. Tenemos la coherencia que seguramente -perdone la expresión- ustedes no han tenido, porque ustedes no se atreven a decir lo que piensan o no piensan lo que se atreven a decir. Nosotros mantuvimos el mismo criterio desde un principio. Fuimos los que introdujimos la obligación de informar y ahí está establecida en la ley la obligación de informar. Por los casos que se dieron y debido a unas negociaciones, consideramos que efectivamente hay familias con riesgos y que eso también se debía incluir, pero ya está contemplado. Por tanto, coherencia la misma entonces y ahora. Quiero decir algo importante, porque al fin y al cabo todo esto de lo que estamos hablando se reduce al número de personas que han abortado, y es que con la ley actual, la que está en vigor, no ha aumentado el número de abortos. De 25.000 abortos que nos han acreditado, solo 113 casos fueron de menores, y el 88 % de las menores que abortaron fueron acompañadas por sus seres más queridos. El 3,60 % de los abortos fue de menores y solo el 0,44 % de esas personas no informaron. Estamos hablando de 113 casos de 25.000 interrupciones voluntarias del embarazo.</seg>
                <seg>Como conclusión, creemos que no era necesario el cambio, porque no ha repercutido en el porcentaje. Este cambio que se propone no aporta seguridad jurídica ni sanitaria; la quita. Es un lavado de cara y un<pb n="28"/> maquillaje del Partido Popular que no contenta ni a los suyos, porque aquí el que ha cambiado es el Partido Popular, no los demás. Me parece que es una postura cobarde del Gobierno, porque aún no ha presentado su proyecto de ley; ha decidido que sea el Grupo Parlamentario Popular, saltándose todos los preceptos que supone presentar un proyecto de ley. Por tanto, digo claramente que es una propuesta cobarde. No se ha atrevido el Gobierno a traer a esta Cámara un proyecto de ley. Nuestro objetivo siempre ha sido y será evitar los embarazos no deseados, que es el quid de la cuestión. Nuestro objetivo es la prevención, porque el aborto es una consecuencia de un embarazo no deseado. Se debe atender a la prevención, a la educación sexual y a un entorno que facilite por medio de todas las herramientas que la educación nos dé para que eso no se produzca.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u45" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u45" ana="#chair">
                <seg>Señor Agirretxea, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u46"
@@ -425,7 +423,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u47" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u47" ana="#chair">
                <seg>Muchas gracias, señor Agirretxea.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia, tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -439,7 +437,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u49" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u49" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra la señora De las Heras.</seg>
             </u>
@@ -453,7 +451,7 @@
                <seg>Así es como aquí el Partido Popular vuelve a utilizar el cuerpo de las mujeres como moneda de cambio entre los estamentos religiosos y sus votantes más reaccionarios, olvidándose de derechos fundamentales de las mujeres y poniendo en peligro la salud y la vida de las más vulnerables. Pero, bajo esta premisa, como digo, electoralista y reaccionaria en la que se ahoga más que nada el Partido Popular, todo será poco hasta que las demandas de estos sectores ultraconservadores se cumplan; demandas que no son otras que la desaparición de las políticas de salud sexual y reproductiva y la prohibición total del aborto legal y seguro en nuestro país. Esta propuesta de ley es solo el principio; lo sabemos, lo ha dicho aquí la portavoz del Grupo Popular. Ustedes siguen con su recurso ante el Tribunal Constitucional y ya están hablando de introducir en la tramitación parlamentaria de la ley la modificación del punto 2 del artículo 3 de la actual ley que contempla el derecho a la maternidad libremente decidida y a que las mujeres adopten libremente decisiones que afectan a su vida sexual y reproductiva. Ante esto, La Izquierda Plural no va a admitir ni un paso atrás en la Ley de salud sexual y reproductiva vigente. Porque no hay otra manera de entender este nuevo atentado contra la libertad y la salud de las mujeres, en este caso de las más vulnerables, después del fallido intento del dimitido Gallardón para derogar la ley vigente que acababa con todas las políticas de salud sexual y reproductiva que contempla la ley y, en la práctica, con la posibilidad de un aborto legal y seguro en nuestro país.</seg>
                <seg>No hay otra manera de entender esta propuesta de ley que pretende una reforma que supone un paso atrás en los avances conseguidos en los derechos sexuales y reproductivos y el derecho a decidir de las mujeres sobre su maternidad que bajo las premisas ultraconservadoras y electoralistas que mercadean -y se ha dicho aquí- con las mujeres y sus derechos fundamentales en las plazas públicas de los estamentos religiosos más reaccionarios. Ustedes están sacando a las mujeres a la plaza pública en venta de los estamentos religiosos más reaccionarios. Y lo hacen, una vez más, con la hipocresía que les caracteriza, de puntillas, eludiendo los informes preceptivos, sin atender a los datos e informes de la comunidad científica sanitaria y sin escuchar a los grupos de la oposición y a las asociaciones y organizaciones de mujeres; de puntillas, en el último tramo de legislatura y a toda carrera para que pase<pb n="31"/> rapidito y con el menor ruido posible. Y, sobre todo, aludiendo al consenso, como la demostración más clara de la facilidad que tienen ustedes para el insulto a la inteligencia de la gente, máxime cuando de todos es sabido que no cuentan ni con el apoyo necesario dentro de sus filas para traer aquí esta propuesta de ley orgánica que nos presentan. Se trata de una reforma que convertirá en norma la abstención ahora necesariamente contemplada para proteger a las jóvenes que interrumpen su embarazo en situación de máxima vulnerabilidad familiar y social y que ahora entrarán en un marco de desprotección con el que estarán abocadas a acudir a un aborto ilegal e inseguro, poniendo en riesgo su salud y su vida. Ustedes, señoras y señores del Partido Popular, serán responsables&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u51" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u51" ana="#chair">
                <seg>Señora De las Heras, tiene que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u52"
@@ -464,7 +462,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u53" ana="#chair">
                <seg>Gracias, señora De las Heras.</seg>
                <seg>Por el Grupo Parlamentario Catalán de Convergència i Unió, tiene, en primer lugar, la palabra la señora Tarruella.</seg>
             </u>
@@ -479,7 +477,7 @@
                <seg>Muchas gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u55" ana="#chair">
                <seg>Muchas gracias, señora Tarruella.</seg>
                <seg>Señora Ciuró.</seg>
             </u>
@@ -492,7 +490,7 @@
                <seg>Señorías, no quiero dejar de hablar en este punto de que en algunas familias aún, cuando hay unas escenas excesivamente subidas de tono en televisión o muestras afectivas excesivamente efusivas, los padres suelen desviar la atención de sus hijos a otra cuestión. Estas familias son las que pretenden ustedes que sepan cómo reaccionar cuando una menor presenta un embarazo no deseado. Por eso creemos que, junto a ese acompañamiento indispensable en ejercicio de la patria potestad responsable, tiene que haber una información y un acompañamiento, tiene que haber unas ayudas específicas por profesionales especializados que acompañen no solo al menor, sino también a la familia en esa toma de decisión. Y una cosa es acompañar y otra es exigir el consentimiento de los progenitores.</seg>
                <seg>No estamos de acuerdo en la forma en que se plantea.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u57" ana="#chair">
                <seg>Señora Ciuró, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u58"
@@ -503,13 +501,13 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u59" ana="#chair">
                <seg>Gracias, señora Ciuró.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY - DEL GRUPO PARLAMENTARIO MIXTO , SOBRE LA FINANCIACIÓN DE LA COMUNITAT VALENCIANA.</head>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u60" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u60" ana="#chair">
                <seg>Proposición no de ley del Grupo Parlamentario Mixto, del señor Baldoví, sobre la financiación de la Comunitat Valenciana.</seg>
                <seg>Tiene la palabra el señor Baldoví.</seg>
                <note>El señor vicepresidente, Barrero López, ocupa la Presidencia</note>
@@ -843,7 +841,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u110" ana="#chair">
                <seg>Muchas gracias, señor González Cabaña.</seg>
                <seg>Turno de fijación de posiciones. Por el Grupo Vasco, PNV, tiene la palabra el señor Esteban.</seg>
             </u>
@@ -856,7 +854,7 @@
                <seg>Para empezar el debate sobre el contenido de la proposición no de ley que se presenta, tengo que decirle que mi grupo no pone en cuestión la legitimidad democrática del Gobierno venezolano. El Gobierno venezolano, después de unas elecciones, está institucionalmente en el poder con toda legitimidad. Mi grupo también quiere señalar clarísimamente su rechazo a cualquier tipo de violencia, venga esta de las propias instituciones o de grupos que se oponen a esas instituciones. No es la manera de solucionar las cosas en ningún país y tampoco en Venezuela. Ahora bien, de lo que estamos hablando aquí es de unos casos concretos, de unas detenciones concretas, entre las que descuellan las del señor López y el señor Ledezma. Antes ha dicho algún representante que esta gente está presa con toda legitimidad por querer acabar con el Gobierno en la calle. Si no hay violencia y se llama a manifestarse contra el Gobierno&#x85; Recordemos aquello de rodear el Congreso, porque hay algunos representantes de algunos grupos políticos que hoy están aquí y que han defendido perfectamente esa posición. ¿Por qué no puede pasar eso también en las calles de cualquier otro país? ¿Por qué no se puede protestar pacíficamente en la calle? La situación, como mínimo alegal, en la que se encuentran estas personas no es algo que se haya inventado ahora ningún grupo político de esta Cámara. Ha habido resoluciones y manifestaciones de todo tipo y de organismos con tal peso, seriedad y marchamo de neutralidad como Amnistía Internacional o Human Rights Watch. Por ejemplo, Amnistía Internacional ha dejado muy claro que decenas de personas han sido detenidas arbitrariamente en las protestas que hubo entre febrero y julio, que se les ha negado acceso a asistencia médica o a abogado y que después de un año permanecen en prisión preventiva, pese a la ausencia de pruebas sólidas que respalden los cargos en contra. Desde luego, esto es contrario a cualquier legislación internacional, pero también a la propia legislación venezolana. Leopoldo López, el líder del partido de la oposición Voluntad Popular, permanece recluido a pesar de la falta de pruebas que respalden las acusaciones en su contra, unas acusaciones que parecían obedecer a motivos políticos, pues se enfrenta a cargos de incendio y daños con carácter de determinación. Desde luego el Grupo de trabajo de la ONU sobre detención arbitraria afirmó que su detención había sido arbitraria e instó a que se le pusiera en libertad y también a otros presos. Se han pronunciado al respecto Human Rights Watch, el Parlamento Europeo, el secretario general de Naciones Unidas, el secretario general de la OEA, la<pb n="48"/> Comisión Interamericana de Derechos Humanos, el Consejo de Derechos Humanos de Naciones Unidas y el Pleno del Parlamento Europeo, el 12 de marzo de 2015. No podemos pensar que todos estos organismos están en contra del Gobierno venezolano o de una opción ideológica, señor Nuet, no es serio pensar eso. Esto se está produciendo y hay que decirlo, y también por lealtad con el Gobierno venezolano hay que decirle, desde un llamamiento a la no violencia a todas las partes, que hay que respetar los derechos humanos y que hay que cumplir la legislación. Por tanto, a pesar de que -insisto- la presentación que ha hecho la señora Álvarez de Toledo no animaba mucho a ir de la mano, voy a votar a favor del texto, porque estoy de acuerdo con la resolución que vamos a tomar y en decirle al Gobierno venezolano lo que se le va a decir. Por cierto, señor Nuet, quizás ahora que estamos hablando de diálogo se empiecen a arreglar las cosas, que Obama ya no es tan demonio; si hasta el señor Castro ha dicho que es una persona honrada. Se mueven las cosas con Cuba y, casualidad, el señor Maduro también dice que todo es posible y que hay que dialogar. Señor Nuet, el telón de acero, la guerra de bloques acabó hace mucho tiempo y aquí hay que sacar los colores a unos y a otros cuando se traspase la raya del respeto a los derechos humanos. Espero que vayamos por este camino -se me ha acabado el tiempo, señor presidente, y tenía bastantes más cosas que decir, pero voy terminando- y, en nombre de mi grupo, hago un llamamiento al diálogo, a la no violencia y al respeto a la legislación venezolana en el ámbito de los derechos humanos, para que sea cumplida, en primer lugar -porque debe ser así, es de derecho-, por las instituciones. Mi grupo votará muy convencido la proposición no de ley que hoy se presenta y la solicitud de libertad de estas personas.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u112" ana="#chair">
                <seg>Muchas gracias, señor Esteban.</seg>
                <seg>Por Unión Progreso y Democracia tiene la palabra la señora Lozano.</seg>
             </u>
@@ -872,7 +870,7 @@
                <seg>Muchas gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u114" ana="#chair">
                <seg>Muchas gracias, señora Lozano.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , tiene la palabra el señor Picó.</seg>
             </u>
@@ -886,7 +884,7 @@
                <seg>Para finalizar mi intervención, permítanme apelar al consenso en un tema que nos preocupa a todos los grupos parlamentarios de esta Cámara, como se ha puesto de manifiesto con este acalorado debate.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u116" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Como se han presentado dos enmiendas, le pregunto a la señora Álvarez de Toledo cuál es su posición sobre las mismas.</seg>
                <seg>La señora ÁLVAREZ DE TOLEDO PERALTA RAMOS: Gracias, señor presidente.</seg>
@@ -894,16 +892,16 @@
                <seg>Además, si me lo permite, aprovecho esta intervención no para pedir, sino para exigir al señor Nuet que retire la gravísima acusación contra el expresidente del Gobierno español, don José María Aznar, al que ha acusado nada más y nada menos que de golpismo. También aprovecho para preguntar a Esquerra Republicana de Catalunya qué crédito tiene en la defensa de un régimen constitucional cuando se dedica activamente a intentar destruir uno de ellos y se jacta de hacerlo.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u117" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u117" ana="#chair">
                <seg>Señora Álvarez de Toledo, usted puede pedir que lo retire -ahora veremos qué contesta el señor Nuet-, pero no puede reabrir el debate.</seg>
                <seg>La señora ÁLVAREZ DE TOLEDO PERALTA RAMOS: No lo estoy reabriendo, pero ha habido una serie de alusiones.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u118" ana="#chair">
                <seg>Si quiere usted pedir algo al señor Tardà, dígaselo, pero no puede reabrir el debate.</seg>
                <seg>La señora ÁLVAREZ DE TOLEDO PERALTA RAMOS: No quiero reabrir el debate, pero sí quiero contestar a las reiteradas, sistemáticas y graves alusiones que han hecho algunos grupos parlamentarios, incluido Amaiur, a cuyos integrantes quiero decir que efectivamente ellos no han sabido nunca distinguir lo que es un criminal.<note>Rumores</note> Nos echan en cara a nosotros que defendamos la libertad de los presos políticos venezolanos y son incapaces de condenar aquí no las detenciones, sino los asesinatos.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u119" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u119" ana="#chair">
                <seg>Vamos a ir por orden.</seg>
                <seg>En primer lugar, tiene la palabra el representante de Amaiur.</seg>
             </u>
@@ -913,7 +911,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Intervengo por alusiones. No teníamos pensado intervenir, pero ante esta acusación grave quiero decirle a la señora Álvarez de Toledo que, si fuera por derechos humanos y por criminales, nosotros<pb n="51"/> podríamos traer aquí a colación de su grupo o de ella misma alusiones al fundador franquista del Partido Popular<note>Rumores</note> , pero no lo hemos hecho.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u121" ana="#chair">
                <seg>Señor Iñarritu, conteste a la señora Álvarez de Toledo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u122"
@@ -922,7 +920,7 @@
                <seg>Estoy respondiendo.</seg>
                <seg>Podríamos hablar también&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u123" ana="#chair">
                <seg>Se podría hablar de muchas cosas, pero usted debe contestar a lo que ha dicho la señora Álvarez de Toledo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u124"
@@ -930,7 +928,7 @@
                ana="#regular">
                <seg>Ante la falsedad de las acusaciones, hoy tienen la oportunidad de condenar la dictadura franquista, al fundador de su partido, Fraga<note>Rumores</note> , y todas las alusiones que han hecho ustedes y las falsedades que dicen continuamente contra nuestra formación, que está&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u125" ana="#chair">
                <seg>No tiene usted ya la palabra, señor Iñarritu.</seg>
                <seg>Señor Tardà, ¿quiere usted decir algo?</seg>
             </u>
@@ -942,7 +940,7 @@
                <seg>Nada más.</seg>
                <note>El señor Nuet Pujals pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u127" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Señor Nuet.</seg>
             </u>
@@ -955,7 +953,7 @@
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO DE IU, ICV-EUIA, CHA: LA IZQUIERDA PLURAL, SOBRE LAS MEDIDAS QUE VA A TOMAR EL GOBIERNO PARA ERRADICAR EL AUMENTO DE LA DISCRIMINACIÓN CONTRA LAS MUJERES EN ESPAÑA.</head>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u129" ana="#chair">
                <seg>Sustanciado el incidente, pasamos a las mociones. Como he dicho en Junta de Portavoces -hemos estado dudando, porque las proposiciones de ley y no de ley han durado más de lo esperado-, vamos a ver dos mociones esta noche, para que se hagan idea de cuál es el tiempo.</seg>
                <seg>En primer lugar, corresponde la moción del Grupo de La Izquierda Plural, sobre las medidas que va a tomar el Gobierno para erradicar el aumento de la discriminación contra las mujeres en España. Para la defensa de la moción, tiene la palabra la señora De las Heras.</seg>
             </u>
@@ -966,7 +964,7 @@
                <seg>Señorías, con esta moción pretendemos concretar una serie de propuestas que, sin pretender que sean la solución completa a los problemas causados por las políticas erróneas de recorte llevadas a cabo por el Gobierno del Partido Popular, intentan abordar las principales y más urgentes medidas...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u131" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u131" ana="#chair">
                <seg>Perdone un momento, señora De las Heras.</seg>
                <seg>Por favor, ruego silencio para que se pueda escuchar a la señora De las Heras.</seg>
                <seg>Continúe.</seg>
@@ -1222,7 +1220,7 @@
                <seg>Señorías, la proposición no de ley que traen a debate es muy extensa. Piden muchas cosas, pero muchas de las medidas que piden ya están en marcha. Piden, por ejemplo, una estrategia de choque para la aplicación efectiva de la Ley orgánica 1/2004, de medidas de protección integral contra la violencia de género, pero obvian que el Gobierno ya aprobó en verano de 2012 la primera estrategia nacional para la erradicación de la violencia contra la mujer. Como su propio nombre indica, es la primera en diez años. Aunque era una medida de obligado cumplimiento para los Gobiernos, ustedes, que gobernaron antes que nosotros, nunca llegaron a desarrollarla<note>Un señor diputado pronuncia palabras que no se perciben</note> , y ha tenido que ser un Gobierno del Partido Popular el que la ponga en marcha; por eso, lecciones las justas.<note>Rumores.-Aplausos</note> Señora Blanco, en esta materia, como en tantas otras, deberían mantener sus críticas en el terreno de la prudencia. En política no todo debe ser buscar un titular, porque si fuese ese el objetivo principal lo podríamos haber conseguido fácilmente esta semana y en mayúsculas. Nos han dado ustedes algunas razones de peso para ello, pero lo que buscamos no es el enfrentamiento, sino la unión y la negociación, llegar a acuerdos con ustedes y con el resto de fuerzas de esta Cámara, con todos los grupos que quieran sumarse, y lanzar un mensaje claro a las mujeres víctimas de violencia género, el mismo mensaje que ha expresado el presidente del Gobierno con absoluta rotundidad: no estáis solas, contra la violencia de género hay salida.<note>Aplausos</note> La lucha contra la violencia de género no es monopolio de ustedes ni de ningún partido político, no es monopolio de una ideología u otra, es la lucha de todos, de toda la sociedad unida contra los maltratadores y las distintas formas de violencia contra las mujeres.<note>El señor presidente ocupa la Presidencia</note> Muchas de las cosas que usted reclama, señora Blanco -insisto-, ya están en marcha. Por ejemplo, en materia de educación ya hay un tratamiento transversal en todo el currículum de valores, como la igualdad, la no discriminación y la corresponsabilidad, y se ha introducido la prevención<pb n="62"/> de la violencia de género como principio del sistema educativo en todas las etapas. Piden mayor protección y asistencia en menores víctimas de violencia de género, cuando ya se han hecho las correspondientes modificaciones en los proyectos de ley de modificación del sistema de protección a la infancia y a la adolescencia. Piden un proyecto de ley de igualdad salarial cuando les consta que el Gobierno ya está trabajando y finalizando un plan especial para la igualdad de mujeres y hombres en el ámbito laboral y contra la discriminación salarial con el objetivo de incrementar la participación de las mujeres en el mercado laboral y reducir la brecha salarial.</seg>
                <seg>Junto con el empleo y la lucha contra las desigualdades salariales, el otro gran ámbito de trabajo de nuestro Gobierno en materia de igualdad es la conciliación de la vida personal, laboral y familiar, en la que se está avanzando con una mayor flexibilidad en el empleo, por ejemplo regulando por primera vez el teletrabajo o ampliando la reducción de jornada para padres y madres con niños de hasta doce años. Hablan de mujeres que viven en el ámbito rural y piden apoyo para ellas, pero nos hemos adelantado a sus peticiones. Nuestro Gobierno ya está desarrollando programas que, por ejemplo, fomenten el emprendimiento y el acceso a líneas de financiación. Asimismo, quieren promover el incremento de mujeres en órganos directivos de cooperativas rurales, organizaciones agrarias, etcétera.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u168" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u168" ana="#chair">
                <seg>Señora Rodríguez Maniega, debe usted acabar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u169"
@@ -1233,7 +1231,7 @@
                <seg>Señorías, nos avalan los hechos. Se ha avanzado y se sigue avanzando y trabajando para que la sociedad española de hoy sea más igualitaria. No nieguen la evidencia porque, como dijo Winston Churchill, la verdad es incontrovertible, la ignorancia puede burlarse de ella, la malicia puede distorsionarla, pero ahí está.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u170" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u170" ana="#chair">
                <seg>Muchas gracias, señora Rodríguez Maniega.</seg>
                <seg>Turno de fijación de posiciones. Por el Grupo Mixto, tiene la palabra la señora Fernández Davila.</seg>
             </u>
@@ -1244,7 +1242,7 @@
                <seg>Que en la tarde de hoy tengamos sobre la mesa dos mociones de dos grupos diferentes relacionadas con el impulso de medidas para trabajar en la dirección de mejorar la igualdad de género en nuestra sociedad no es casualidad, sino que evidencia la preocupación que existe en nuestra sociedad del retroceso, y digo retroceso y no solo estancamiento,&#x85;</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u172" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u172" ana="#chair">
                <seg>Perdón, señora Fernández.</seg>
                <seg>Por favor, ruego silencio. Continúe.</seg>
             </u>
@@ -1256,7 +1254,7 @@
                <seg>Por eso, señorías, si anteriormente manifesté nuestro apoyo a la moción presentada por La Izquierda Plural, ahora manifiesto nuestro voto favorable a la enmienda presentada por el Grupo Socialista, porque la lucha por la igualdad no nos puede permitir pasos atrás. Sabemos que esta lucha ha tenido demasiados pasos atrás en la historia y que en este momento también es así. Por eso, nuestro grupo apoya estas iniciativas, porque es necesario reforzarnos en la idea de continuar trabajando para que la igualdad de género sea un objetivo realizable en el futuro más próximo posible.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u174" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u174" ana="#chair">
                <seg>Muchas gracias, señora Fernández.</seg>
                <seg>Por el Grupo Vasco, PNV, señora Sánchez Robles.</seg>
             </u>
@@ -1268,7 +1266,7 @@
                <seg>Tengo que reconocer que, a diferencia de la anterior iniciativa, el debate de la interpelación entre la diputada Montón y el señor ministro Alonso me produjo un sabor agridulce. Percibí la utilización de la igualdad en su más amplia extensión como una herramienta partidaria y electoralista. Al final, fue un debate de pimpampum en el que el resto de los grupos parlamentarios de esta Cámara, en un tema tan trascendental, parecíamos convidados de piedra. Y cuál fue mi sorpresa cuando al ver la parte dispositiva de la iniciativa del Grupo Socialista aprecié o tuve la sensación -y las percepciones no son siempre objetivas- de que recogía íntegramente el programa electoral del Partido Socialista. Aun así, y a pesar de ello, tengo que reconocer que nuestra posición en esta iniciativa iba a ser la abstención, pero la señora Blanco me ha convencido. Me ha parecido que ha tenido una intervención ajustada, no así la portavoz del Grupo Popular -y respeto muchísimo el posicionamiento que ha mantenido- que ha hecho un canto a las grandezas de la gestión popular, cuestión que, como ya he expuesto con anterioridad, no compartimos. Esto es todo lo que les tenía que decir, así que nuestro voto será favorable a la iniciativa socialista.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u176" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u176" ana="#chair">
                <seg>Muchas gracias, señora Sánchez Robles.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, la señora Díez.</seg>
             </u>
@@ -1283,7 +1281,7 @@
                <note>Rumores</note>
                <pb n="64"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u178" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u178" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Por favor, ruego silencio.</seg>
                <seg>Por el Grupo Parlamentario de La Izquierda Plural tiene la palabra la señora De las Heras.</seg>
@@ -1294,7 +1292,7 @@
                <seg>Presidente, lo haré desde el escaño para, muy brevemente, manifestar nuestro voto a favor de la moción presentada por el Grupo Socialista porque, como ha quedado de manifiesto, muchos de los puntos que proponen coinciden plenamente con los que hemos propuesto en la moción debatida anteriormente presentada por mi grupo. Quería hacer especial hincapié en el punto e) donde dice: medidas para otorgar categoría económica y contabilizar dentro del producto interior bruto las tareas de cuidados familiares y domésticos, y no, como ha hecho el Gobierno, la prostitución. Especialmente este porque se nos olvidó ponerlo a nuestro grupo y lo asumimos como nuestro.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u180" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u180" ana="#chair">
                <seg>Muchas gracias, señora De las Heras.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , la señora Ciuró.</seg>
             </u>
@@ -1305,7 +1303,7 @@
                <seg>Desde mi grupo parlamentario, en esta ocasión, vamos a abstenernos en esta moción presentada por el Grupo Parlamentario Socialista. No la vemos con los mismos ojos que la portavoz de La Izquierda Plural porque entendemos que no se parece a la que su grupo ha presentado, puesto que en la moción de La Izquierda Plural hemos visto unas medidas concretas y objetivamente asumibles puesto que incidían directamente en cuestiones de forma aséptica, en el sentido de que avanzaban hacia la igualdad o proponían cuestiones en las que, como mínimo, podíamos intervenir a la hora de plantear las eventuales reformas para mejorar y avanzar en el camino de la igualdad. No nos encontramos tan cómodos en la moción presentada por el Grupo Socialista. Nosotros estamos a favor y de forma radical en que se evalúe esta Ley integral contra la violencia de las mujeres. Entendemos que debemos hacer una apertura de miras a lo que es el Convenio de Estambul, algo que usted reconocía en su moción abiertamente como para introducir en esta evaluación de la ley integral todos aquellos aspectos que inciden en la violencia ejercida sobre las mujeres, por el solo hecho de ser mujeres y no por el solo hecho de ser mujeres con pareja o con expareja. Por tanto, entendemos que hay que ir un paso más allá a la hora de la elaboración de la evaluación de la ley integral. Además, a instancias de nuestro grupo, lo que hicimos fue instar al Gobierno, por unanimidad&#x85;</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u182" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u182" ana="#chair">
                <seg>Perdón, señora Ciuró.</seg>
                <seg>Por favor, ruego silencio. Está terminando la señora Ciuró, hagan el favor de atenderla.</seg>
             </u>
@@ -1317,7 +1315,7 @@
                <seg>Finalmente, señorías, deberíamos abordar una reforma de esta ley, una evaluación de esta ley, para ver qué medidas podemos adoptar para intentar reeducar a estos maltratadores, que lo son, qué tipo de medidas podemos adoptar para con estos maltratadores que de forma insistente perjudican a las mujeres al nivel de violencia, para que podamos encontrar el camino para trabajar en su reinserción, para conseguir acabar con estas posturas machistas y al final de todo acabar con la perpetuación de roles y de estereotipos.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u184" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u184" ana="#chair">
                <seg>Muchas gracias, señora Ciuró.</seg>
                <seg>Señora Blanco, aunque me parece que usted ya lo ha dicho, le pregunto formalmente ¿acepta usted la enmienda?</seg>
             </u>
@@ -1329,7 +1327,7 @@
                <seg>Muchas gracias, señor presidente, por su benevolencia esta tarde.</seg>
                <pb n="65"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u186" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u186" ana="#chair">
                <seg>Muchas gracias, señora Blanco. Como usted ha dicho, así se hará.</seg>
                <seg>En dos minutos vamos a votar.</seg>
                <note>Pausa</note>
@@ -1337,7 +1335,7 @@
          </div>
          <div type="debateSection">
             <head>JURAMENTO O PROMESA DE ACATAMIENTO DE LA CONSTITUCIÓN POR NUEVOS SEÑORES DIPUTADOS</head>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u187" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u187" ana="#chair">
                <seg>Vamos a proceder al juramento o promesa de acatamiento de la Constitución, conforme al artículo 20.1.3.º del Reglamento.</seg>
                <seg>En sustitución de doña Laia Ortiz Castellví, pregunto a don Josep Pérez Moya si jura o promete acatar la Constitución.</seg>
             </u>
@@ -1346,103 +1344,103 @@
                ana="#regular">
                <seg>Prometo, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u189" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u189" ana="#chair">
                <seg>Don Josep Pérez Moya ha adquirido la condición plena de diputado. Enhorabuena.<note>Aplausos</note> Señorías, el pasado mes de marzo falleció don Luis de Torres Gómez, diputado del Partido Popular en esta Cámara durante cuatro legislaturas y senador en la tercera. Creo que somos muchos los que recordamos a Luis de Torres por su labor política, pero también por su carácter afable y siempre conciliador. Quiero, por ello, hacer llegar nuestro sentimiento de pesar a sus familiares. Descanse en paz.</seg>
                <note>Aplausos</note>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY : - DEL GRUPO PARLAMENTARIO SOCIALISTA, ORGÁNICA DE REFORMA DEL CÓDIGO PENAL.</head>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u190" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u190" ana="#chair">
                <seg>Comenzamos las votaciones.</seg>
                <seg>Toma en consideración de la proposición de ley del Grupo Parlamentario Socialista orgánica de reforma del Código Penal. Se han emitido dos votos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324 más 2 votos telemáticos, 326; a favor, 141 más 1 voto telemático, 142; en contra, 182 más 1 voto telemático, 183; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u191" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u191" ana="#chair">
                <seg>No se toma en consideración.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, ORGÁNICA PARA REFORZAR LA PROTECCIÓN DE LAS MENORES Y MUJERES CON CAPACIDAD MODIFICADA JUDICIALMENTE EN LA INTERRUPCIÓN VOLUNTARIA DEL EMBARAZO.</seg>
                <note>Número de expediente 122/000195</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u192" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u192" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo Parlamentario Popular orgánica para reforzar la protección de las menores y mujeres con capacidad modificada judicialmente en la interrupción voluntaria del embarazo. Hay dos votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322 más 2 votos telemáticos, 324; a favor, 183 más 1 voto telemático, 184; en contra, 135 más 1 voto telemático, 136; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u193" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u193" ana="#chair">
                <seg>Se toma en consideración.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY : - DEL GRUPO PARLAMENTARIO MIXTO , SOBRE LA FINANCIACIÓN DE LA COMUNITAT VALENCIANA.</head>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u194" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u194" ana="#chair">
                <seg>Proposición no de ley del señor Baldoví, del Grupo Mixto, sobre la financiación de la Comunitat Valenciana. Se vota en los términos resultantes de la incorporación de la enmienda del Grupo Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="66"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 325; a favor, 136; en contra, 181; abstenciones, 8.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u195" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u195" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, RELATIVA A LA LIBERACIÓN DE LEOPOLDO LÓPEZ.</seg>
                <note>Número de expediente 162/001173</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u196" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u196" ana="#chair">
                <seg>Proposición no de ley del Grupo Popular, relativa a la liberación de Leopoldo López. Se vota en los términos resultantes de la incorporación de la enmienda del Grupo Popular y del Grupo Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326; a favor, 306; en contra, 19; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u197" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u197" ana="#chair">
                <seg>Queda aprobada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, SOBRE LAS MEDIDAS QUE VA A TOMAR EL GOBIERNO PARA ERRADICAR EL AUMENTO DE LA DISCRIMINACIÓN CONTRA LAS MUJERES EN ESPAÑA.</head>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u198" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u198" ana="#chair">
                <seg>Moción de La Izquierda Plural, sobre las medidas que va a tomar el Gobierno para erradicar el aumento de la discriminación contra las mujeres en España. Son ocho puntos que votaremos de manera separada. Punto primero.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326; a favor, 143; en contra, 180; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u199" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u199" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 2.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 327; a favor, 145; en contra, 182.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u200" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u200" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 3.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326; a favor, 326.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u201" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u201" ana="#chair">
                <seg>Queda aprobado por unanimidad.</seg>
                <seg>Punto 4.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 327; a favor, 326; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u202" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u202" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Punto 5.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326; a favor, 147; en contra, 179.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u203" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u203" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 6.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="67"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 327; a favor, 145; en contra, 182.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u204" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u204" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 7.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 141; en contra, 182.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u205" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u205" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 8.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 327; a favor, 132; en contra, 187; abstenciones, 8.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u206" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u206" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LAS MEDIDAS QUE PIENSA ADOPTAR EL GOBIERNO PARA EVITAR LOS GRAVES RETROCESOS QUE ESTÁ PROVOCANDO EN LOS DERECHOS Y LIBERTADES DE LAS MUJERES Y PARA CONVERTIR LA IGUALDAD DE OPORTUNIDADES ENTRE HOMBRES Y MUJERES EN SU PRINCIPAL EJE DE ACTUACIÓN.</seg>
                <note>Número de expediente 173/000201</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u207" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u207" ana="#chair">
                <seg>Moción del Grupo Socialista sobre las medidas que piensa adoptar el Gobierno para evitar los graves retrocesos que están provocando en los derechos y libertades de las mujeres y para convertir la igualdad de oportunidades entre hombres y mujeres en su principal eje de actuación. Se va a votar exactamente en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326; a favor, 126; en contra, 181; abstenciones, 19.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u208" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-14-CD150414.u208" ana="#chair">
                <seg>Queda rechazada la moción.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las nueve y cincuenta y cinco minutos de la noche.</seg>

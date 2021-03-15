@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="115">115 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="115" xml:lang="es">115 speeches</measure>
+            <measure unit="speeches" quantity="115" xml:lang="en">115 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="21"/>
                <tagUsage gi="note" occurs="107"/>
                <tagUsage gi="u" occurs="115"/>
-               <tagUsage gi="lb" occurs="339"/>
+               <tagUsage gi="seg" occurs="339"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -642,7 +640,7 @@
                <seg>Votamos ahora las propuestas 81 y 82.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor, 91; en contra, 240.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2017-04-06-CD170406.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2017-04-06-CD170406.u95" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Propuesta 84, que se vota en sus términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor, 91; en contra, 82; abstenciones, 158.</seg>
@@ -655,12 +653,12 @@
                <seg>Votamos a continuación las propuestas de resolución presentadas por el Grupo Parlamentario Socialista. Propuestas 85, 87, 89, 90 y 93 a 96.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor, 329; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2017-04-06-CD170406.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2017-04-06-CD170406.u97" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Votamos ahora las propuestas 88, 91 y 92.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor, 203; en contra, 126; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2017-04-06-CD170406.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2017-04-06-CD170406.u98" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Votamos la propuesta 97, que se vota en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note>

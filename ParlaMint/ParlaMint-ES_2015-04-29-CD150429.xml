@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="237">237 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="237" xml:lang="es">237 speeches</measure>
+            <measure unit="speeches" quantity="237" xml:lang="en">237 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="57"/>
                <tagUsage gi="note" occurs="153"/>
                <tagUsage gi="u" occurs="237"/>
-               <tagUsage gi="lb" occurs="554"/>
+               <tagUsage gi="seg" occurs="554"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,21 +92,17 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PREGUNTAS - DEL DIPUTADO DON JOAN COSCUBIELA CONESA, DEL GRUPO PARLAMENTARIO DE IU, ICV-EUIA, CHA: LA IZQUIERDA PLURAL, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿PIENSA SU GOBIERNO CONTINUAR OFRECIENDO PROTECCIÓN A LOS EVASORES Y DEFRAUDADORES FISCALES?</head>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u2" ana="#chair">
                <seg>Preguntas dirigidas al presidente del Gobierno.</seg>
                <seg>Pregunta, en primer lugar, el diputado don Joan Coscubiela, del Grupo de La Izquierda Plural.</seg>
                <pb n="6"/>
@@ -115,7 +113,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Rajoy, ¿piensa usted continuar protegiendo a defraudadores y evasores fiscales?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u4" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -127,7 +125,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u6" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Coscubiela.</seg>
             </u>
@@ -139,7 +137,7 @@
                <seg>Señor Rajoy, parece que la única manera de que usted deje de proteger a los corruptos y a los evasores fiscales es que deje de ser presidente del Gobierno. Pues bien, en eso estamos, porque de tanto proteger a corruptos, evasores y defraudadores se ha terminado convirtiendo usted en el señor X de la corrupción. Dé paso a la ciudadanía para que nos saque de la pocilga en la que ustedes la han metido.</seg>
                <note>Aplausos.-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u8" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -151,12 +149,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u10" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON JOSEP SÁNCHEZ I LLIBRE, EN SUSTITUCIÓN DE DON JOSEP ANTONI DURAN I LLEIDA, DEL GRUPO PARLAMENTARIO CATALÁN<note>CONVERGÈNCIA I UNIÓ</note> , QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿PIENSA EL GOBIERNO IMPULSAR UN PLAN DE LUCHA CONTRA LA POBREZA A PARTIR DE LOS INGRESOS RECAUDADOS POR LA AGENCIA TRIBUTARIA PROCEDENTES DE REGULARIZACIONES VOLUNTARIAS TRIBUTARIAS, NO ACOGIDAS AL PROCESO DE REGULARIZACIÓN EXTRAORDINARIA DEL AÑO 2012 O DE AMNISTÍA FISCAL?</seg>
                <note>Número de expediente 180/001283</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u11" ana="#chair">
                <seg>Pregunta dirigida al señor presidente del Gobierno, que formula don Josep Sánchez i Llibre, del Grupo Catalán</seg>
                <note>Convergència i Unió</note>
             </u>
@@ -170,7 +168,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u13" ana="#chair">
                <seg>Muchas gracias, señor Sánchez i Llibre.</seg>
                <seg>Señor presidente del Gobierno.</seg>
             </u>
@@ -183,12 +181,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u15" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON PEDRO SÁNCHEZ PÉREZ-CASTEJÓN, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿CÓMO VALORA EL PRESIDENTE DEL GOBIERNO LA DESIGUALDAD EXISTENTE EN NUESTRO MERCADO DE TRABAJO?</seg>
                <note>Número de expediente 180/001287</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u16" ana="#chair">
                <seg>Pregunta dirigida al señor presidente del Gobierno, del diputado don Pedro Sánchez, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u17"
@@ -197,7 +195,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Rajoy, me gustaría saber qué opinión le merece la desigualdad en el mercado de trabajo en España.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u18" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -208,7 +206,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u20" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u20" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Sánchez.</seg>
             </u>
@@ -221,7 +219,7 @@
                <seg>Señor Rajoy, como consecuencia de su reforma laboral en España se trabajan de manera ilegal diez millones de horas a la semana. Usted llama a eso empleo de calidad; yo lo llamo como la mayoría de españoles, como los seres humanos normales, señor Rajoy, explotación laboral.<note>Un señor diputado: ¡Muy bien!-Aplausos</note> Señor Rajoy, ¿sabe lo que piensan todos esos españoles cuando les escuchan a usted y a su Gobierno hablar sobre los buenos datos de desempleo? Que usted, también en política laboral, lo que ha hecho ha sido defraudar a los españoles. Yo me comprometo ante todos ellos a aprobar un Estatuto de los Trabajadores, en cuanto haya un cambio de mayoría parlamentaria a partir de las elecciones generales, que recupere los derechos laborales perdidos por la reforma laboral.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u22" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u22" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -231,7 +229,7 @@
                <seg>Perdone, pero yo no acepto que usted me dé lecciones en materia de mercado de trabajo.</seg>
                <note>Protestas.-Varios señores diputados: ¡Oh!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u24" ana="#chair">
                <seg>Ruego silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u25"
@@ -241,12 +239,12 @@
                <seg>Señor Sánchez, si lee la última EPA publicada, habrá visto que lo que se está creando en España es empleo indefinido y empleo a tiempo completo; vea la EPA.<note>Rumores</note> La temporalidad hoy en España es del 23,6 % -cuando ustedes gobernaban era el del 29 %- y el empleo a tiempo parcial es el 16,3 %. Hay datos muy importantes, como que se empieza a corregir -aún queda mucho- el empleo juvenil o el<pb n="10"/> número de hogares con todas sus personas en paro. Vamos trabajando bien, vamos en la buena dirección, estamos creando empleo y a partir de ahí lo que tenemos que hacer es perseverar. Ustedes lo que hicieron fue llevar a España&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u26" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u26" ana="#chair">
                <seg>Gracias, señor presidente.</seg>
                <seg>- DE LA DIPUTADA DOÑA ROSA MARÍA DÍEZ GONZÁLEZ, DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, QUE FORMULA A LA SEÑORA VICEPRESIDENTA DEL GOBIERNO Y MINISTRA DE LA PRESIDENCIA: ¿SIGUE AFIRMANDO LA VICEPRESIDENTA DEL GOBIERNO QUE EL «CASO RATO» ES UN ASUNTO PARTICULAR?</seg>
                <note>Número de expediente 180/001286</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u27" ana="#chair">
                <seg>Preguntas dirigidas a la señora vicepresidenta del Gobierno y ministra de la Presidencia. En primer lugar, pregunta la diputada doña Rosa Díez, de Unión Progreso y Democracia.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u28"
@@ -255,7 +253,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>Señora vicepresidenta, ¿quién nombró al señor Rato presidente de Caja Madrid en el año 2010? Lo nombró el señor Rajoy, a su vez presidente del Partido Popular. Ahora que la Audiencia Nacional acaba de confirmar que Bankia es un problema de Estado, respaldando la tesis del juez Andreu y reconociendo que hay indicios suficientes de delito para investigar la salida de Bankia a Bolsa cuando el mismo señor Rato era presidente de esa entidad; ahora que el señor Rato está siendo investigado además por graves delitos, como alzamiento de bienes, fraude fiscal y blanqueo de capitales; ahora dice usted que lo del señor Rato es un asunto particular. Dígame, señora vicepresidenta: ¿Todos los particulares que se han acogido a la amnistía al fiscal han informado al Gobierno previamente de que lo iban a hacer, como dice el señor Rato que hizo él? ¿Es el tema Rato un asunto tan particular como la caja B de su partido?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u29" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u29" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -267,7 +265,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u31" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u31" ana="#chair">
                <seg>Muchas gracias, señora vicepresidenta.</seg>
                <seg>Señora Díez.</seg>
             </u>
@@ -277,7 +275,7 @@
                <seg>Hay que defender la justicia y respetarla y también hay que defender los intereses generales, señora vicepresidenta. Para ser un asunto particular, se han tomado ustedes -ustedes, el Gobierno- muy en serio proteger los intereses del señor Rato, casi tan en serio como se lo ha tomado él, que intentó eludir el pago de la fianza -solicitada, por cierto, por Unión Progreso y Democracia y acordada por el juez instructor- ocultando su capital. Ustedes se lo han tomado tan en serio que le han ayudado todo lo que han podido, por lo menos por lo que sabemos; igual descubrimos alguna cosa más. La fiscalía y el FROB -o sea, ustedes, el Gobierno- se opusieron a la fianza y, cuando el juez la decretó, ambos, el fiscal y el Gobierno -el FROB, que es el Gobierno-, la recurrieron. Hasta la Audiencia Nacional les ha tenido que llamar la atención y ha tenido que recordar a su Gobierno -al FROB- que no está allí para defender los intereses de Bankia; que no está allí para representar los intereses de Bankia, ni siquiera al señor Rato; que no está allí para defender el interés particular -no tiene legitimación para ello, porque el Gobierno no se ha visto perjudicado- sino que está allí para defender el interés general. Se lo ha dicho hasta la fiscalía. Demasiado trabajo público, señora vicepresidenta, para defender un asunto particular de un señor particular.<pb n="11"/> Señora vicepresidenta, haga su trabajo, el trabajo del Gobierno: defienda a las personas que han sido estafadas por el señor Rato. Haga el favor de ganarse el sueldo, porque a ustedes les pagan todos esos ciudadanos, como nos pagan a nosotros, y no el señor Rato.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u33" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u33" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -290,12 +288,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u35" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u35" ana="#chair">
                <seg>Muchas gracias, señora vicepresidenta.</seg>
                <seg>- DEL DIPUTADO DON ANTONIO HERNANDO VERA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA VICEPRESIDENTA DEL GOBIERNO Y MINISTRA DE LA PRESIDENCIA: ¿CONSIDERA LA VICEPRESIDENTA QUE EL GOBIERNO DISTINGUE ADECUADAMENTE ENTRE INTERESES PÚBLICOS Y PRIVADOS?</seg>
                <note>Número de expediente 180/001288</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u36" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u36" ana="#chair">
                <seg>Pregunta dirigida a la señora vicepresidenta, que formula el diputado don Antonio Hernando, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u37"
@@ -306,7 +304,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u38" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u38" ana="#chair">
                <seg>Muchas gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -317,7 +315,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u40" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u40" ana="#chair">
                <seg>Muchas gracias, señora vicepresidenta.</seg>
                <seg>Señor Hernando.</seg>
             </u>
@@ -328,7 +326,7 @@
                <seg>Algunas de estas cosas podrán ser legales pero en todo caso son inmorales, porque son lo que parecen y además son indignantes para muchos trabajadores que cobran menos de 10 euros la hora y que no pueden compatibilizar dos trabajos porque ni tan siquiera tienen uno. Y a lo que no hay derecho es a que la vicepresidenta del Gobierno se dedique a hacer reflexiones tras el Consejo de Ministros para ver cómo sus diputados hacen más compatibles sus carreras profesionales con la política, cuando lo que los ciudadanos le exigen es que haga absolutamente incompatible la política con la corrupción.</seg>
                <note>Un señor diputado: ¡Muy bien!-Prolongados aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u42" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u42" ana="#chair">
                <seg>Muchas gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -338,7 +336,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Hernando, enriquecer la política es coger un país que dejaron con 28.000 millones de déficit tarifario&#x85;<note>Protestas</note> ¿Quiere su grupo que le conteste o prefiere que me siente?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u44" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u44" ana="#chair">
                <seg>Por favor, ruego silencio. Como lo ha habido en la pregunta tiene que haberlo en la respuesta.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u45"
@@ -350,11 +348,11 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u46" ana="#chair">
                <seg>Gracias, señora vicepresidenta.<note>Rumores</note> Señora López i Chamosa, silencio.<note>La señora López i Chamosa pronuncia palabras que no se perciben.-Pausa</note> Por las veces que ha hablado usted y no le he dicho nada. Lo siento.<note>Risas</note> - DEL DIPUTADO DON PEDRO SAURA GARCÍA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿COMPARTE EL MINISTRO DE HACIENDA QUE «ESTE GOBIERNO HA HECHO UNA AMNISTÍA FISCAL»?</seg>
                <note>Número de expediente 180/001290</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u47" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u47" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Hacienda y Administraciones Públicas.<note>Rumores</note> Ruego silencio, por favor. Pregunta, en primer lugar, el diputado don Pedro Saura, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u48"
@@ -364,7 +362,7 @@
                <seg>Señor ministro, ¿comparte la expresión «este Gobierno ha aprobado una amnistía fiscal»?</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u49" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u49" ana="#chair">
                <seg>Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u50"
@@ -376,7 +374,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u51" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u51" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Saura.</seg>
             </u>
@@ -389,7 +387,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Varios señores diputados: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u53" ana="#chair">
                <seg>Gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -400,12 +398,12 @@
                <seg>Esa es la política que hemos hecho, la que sabíamos hacer, la contraria a la que han hecho los Gobiernos socialistas, que sistemáticamente han arruinado a España y que cuando ejercen la oposición lo que hacen es un ejercicio de demagogia sin ningún sentido y sin ningún contenido, como hace el señor Sánchez, cabeza del Partido Socialista.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u55" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA LEIRE IGLESIAS SANTIAGO, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CONSIDERA ÉTICOS LOS EPISODIOS DE PUERTA GIRATORIA QUE SE VIENEN PRODUCIENDO EN SU ENTORNO?</seg>
                <note>Número de expediente 180/001291</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u56" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u56" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Hacienda y Administraciones Públicas que formula la diputada doña Leire Iglesias, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u57"
@@ -413,7 +411,7 @@
                ana="#regular">
                <seg>Señor Montoro, ¿le parecen éticos los episodios de puerta giratoria que se producen constantemente a su alrededor?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u58" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u58" ana="#chair">
                <seg>Gracias, señora Iglesias.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -425,7 +423,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u60" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u60" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora Iglesias.</seg>
             </u>
@@ -438,7 +436,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u62" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u62" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -449,11 +447,11 @@
                <seg>Señora diputada, hace usted un planteamiento realmente incoherente y absurdo.<note>Rumores</note> Los resultados de la política en la que he tenido el honor de servir en esta legislatura se traducen en crecimiento, en empleo, en mejoras del bienestar y en protección social. ¿O no se traducen en eso? ¿No es ese el resultado? ¿No hay una mayor eficacia en la lucha contra el fraude fiscal como nunca la ha habido? ¿Por qué no se preguntan por qué la señora Salgado y el señor Solbes no descubrían ni un solo patrimonio fuera de España? ¿Eso no ocurría con ustedes? ¡Ustedes sí que dan lecciones de todo! De arruinar al país, desde luego tienen la exclusiva, y de utilizar los recursos públicos, como se está demostrando en Gobiernos autonómicos muy importantes, de una manera bastante sospechosa por lo menos, también tienen la categoría superior. A partir de ahí, señora diputada, si tiene algún problema concreto con mi persona, por supuesto estoy dispuesto a explicárselo cuando quiera. ¿Sabe qué ocurre? Que el Partido Socialista no quiere hablar de las realidades económicas de España; lo que realmente quiere es enfangar el terreno y que no se hable de&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u64" ana="#chair">
                <seg>Gracias, señor ministro.<pb n="16"/> - DE DON GABRIEL ECHÁVARRI FERNÁNDEZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CÓMO VALORA EL MINISTRO DE HACIENDA LAS ACUSACIONES DEL EMBAJADOR DE ESPAÑA EN EL REINO UNIDO A LA AGENCIA TRIBUTARIA DE FILTRAR DATOS QUE LE AFECTAN?</seg>
                <note>Número de expediente 180/001292</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u65" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u65" ana="#chair">
                <seg>Pregunta, dirigida también al señor ministro de Hacienda y Administraciones Públicas, del diputado don Gabriel Echávarri, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u66"
@@ -462,7 +460,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>¿Cómo valora el ministro de Hacienda las acusaciones del embajador de España en el Reino Unido a la Agencia Tributaria de filtrar datos que le afectan?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u67" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u67" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -474,7 +472,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u69" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Echávarri.</seg>
             </u>
@@ -489,7 +487,7 @@
                <note>Varios señores diputados: ¡Muy bien!-Aplausos</note>
                <pb n="17"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u71" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -501,12 +499,12 @@
                <seg>Comprendo que usted, señor diputado, desde su relativo desconocimiento, haga esas afirmaciones, pero infórmese de la gestión de los Gobiernos socialistas, de quién pagaba impuestos en España cuando ustedes dejaron el Gobierno y quiénes los están pagando hoy.<note>Protestas</note> Como ve, las leyes tributarias se aplican a todos con independencia de quienes han sido o de quienes son ahora, con independencia de quienes fueron en términos de poder político o económico o con independencia del poder político o económico que tengan en este momento. Eso es lo que está ocurriendo en la España del año 2015 en términos de equidad y en clave de funcionamiento limpio y completo de las instituciones, algo que no ocurría antes.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u73" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON GERMÁN RODRÍGUEZ SÁNCHEZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿QUÉ VA A HACER EL GOBIERNO ANTE LA DENUNCIA DE MANIPULACIÓN Y PROPAGANDA GUBERNAMENTAL PRESENTADA POR EL CONSEJO DE INFORMATIVOS DE TVE EN EL PARLAMENTO EUROPEO?</seg>
                <note>Número de expediente 180/001293</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u74" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u74" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Hacienda y Administraciones Públicas que formula el diputado don Germán Rodríguez Sánchez, del Grupo Parlamentario Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u75"
@@ -514,7 +512,7 @@
                ana="#regular">
                <seg>Presidente, doy por formulada la pregunta.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u76" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -527,7 +525,7 @@
                <seg>Creo que no nos ha entendido nadie, pero ahora nos explicamos.</seg>
                <note>Risas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u78" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor diputado.</seg>
             </u>
@@ -539,7 +537,7 @@
                <seg>Señor ministro, es de traca la manipulación, ¡qué vergüenza! Lo evidente a estas alturas es que ustedes no conocen límites, fíjese si es así que ha llegado a censurar el último cómic de Mortadelo y Filemón, El tesorero, ¿verdad que le suena, señor Montoro? Hasta esto han llegado ustedes. No le debe extrañar que hasta el Financial Times esta semana le haya dedicado un reportaje extenso a denunciar la manipulación y el uso partidista. Señor Montoro, la televisión pública está para servir a los ciudadanos, no para servir a los intereses electorales del Partido Popular. Acaben con la manipulación.</seg>
                <note>Varios señores diputados: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u80" ana="#chair">
                <seg>Gracias, señor Rodríguez.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -551,12 +549,12 @@
                <seg>A partir de ahí, señor diputado, no entiendo bien el sentido de la pregunta. Además, llevamos -como usted dice- tres años y medio y por lo visto la denuncia se produce al cabo de los tres años y medio, pero yo juraría que ya me han preguntado varias veces sobre la manipulación en Radiotelevisión Española, porque ustedes son constantes a lo largo de la legislatura. De la bajada de impuestos este año no me preguntan nada.<note>Rumores</note> De la reducción del déficit público y del crecimiento económico no me preguntan absolutamente nada. ¡Faltaba más! ¿Hay algo bueno en España? Eso no existe.<note>Aplausos</note> Ahora, de este asunto sí me han preguntado y siguen preguntando a lo largo de la legislatura, para acabar denunciando una práctica que evidentemente no se practica y sería ofensiva para los profesionales de Radiotelevisión Española.<note>Rumores</note> Por tanto, dejémosles que actúen con libertad de criterio y, a partir de ello, ganaremos en el equilibrio de la comunicación y en el equilibrio que tiene que existir entre información&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u82" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON MARIO BEDERA BRAVO, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE EDUCACIÓN, CULTURA Y DEPORTE: ¿SIGUE CONSIDERANDO EL MINISTRO DE EDUCACIÓN QUE LAS REVÁLIDAS NO TIENEN UN EFECTO SEGREGADOR EN EL SISTEMA EDUCATIVO?</seg>
                <note>Número de expediente 180/001295</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u83" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Educación, Cultura y Deporte. Pregunta el diputado don Mario Bedera, del Grupo Socialista.</seg>
                <pb n="19"/>
             </u>
@@ -566,7 +564,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>Señor Wert, uno de los últimos ministros de Educación de Franco, Villar Palasí, eliminaba las reválidas en 1970 por ser un método poco pedagógico, decía, pues se examinaban sobre lo que se recordaba y no sobre lo que se aprendía. Además, por ser muy segregador, porque de cada 100 alumnos que entraban en el sistema educativo solo 27 pasaban a la secundaria y únicamente 3 llegaban a la universidad. ¿Sigue usted pensando que las reválidas no tienen ningún efecto segregador?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u85" ana="#chair">
                <seg>Gracias, señor Bedera.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -576,7 +574,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Bedera, lo que yo piense sobre las reválidas puede tener, en su caso -y lo entiendo porque usted es historiador-, un interés histórico, porque, evidentemente, reválidas no hay. Si usted, como suelen hacer siempre -porque parece que las únicas referencias que tienen en la cabeza son las del pasado, y además las del pasado entendido en un sentido muy estrecho-, se refiere a las evaluaciones contenidas en la Lomce, le diré que no tienen efecto segregador sino todo lo contrario, salvo que evaluaciones concebidas como lo están en los países que tienen mejor rendimiento educativo sean también segregadoras. Pero, naturalmente, tengo que decirle que, por mucho que usted hable de reválidas, las evaluaciones de la Lomce en nada se parecen a las reválidas.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u87" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Bedera.</seg>
             </u>
@@ -587,7 +585,7 @@
                <seg>Su última aportación a este despropósito consiste en que ha propuesto reválidas tipo test, un sistema que alimenta el entrenamiento intensivo solo para el examen y que es más propio de una academia que prepara para un campeonato de Trivial que de un centro donde debe primar la formación integral de nuestros hijos y la cultura de la evaluación. No me extraña que los representantes de cinco comunidades autónomas se levanten de la conferencia sectorial hartos de sus propuestas, más parecidas al tardofranquismo&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u89" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -598,12 +596,12 @@
                <seg>Señor Bedera, usted sabe que el 80 % de las cosas que ha dicho no se sostienen. Primero, no se sostienen porque habla usted de la evaluación de primaria. La evaluación de primaria, como usted sabe o por lo menos debiera saber si hubiera leído la ley, carece completamente de efectos académicos, simplemente proporciona una orientación sobre el rendimiento. En segundo lugar, habla usted de los países que tienen evaluaciones externas y estandarizadas al final de las etapas. Son la inmensa mayoría de las economías desarrolladas y, por supuesto, aquellas que funcionan mejor. Además, el hecho de que<pb n="20"/> una parte de los exámenes, una parte de las evaluaciones sean tipo test no quiere decir, en absoluto, que tengan un contenido memorístico. Son pruebas y yo le invito, con toda sinceridad, a que nos sentemos juntos a examinar el importantísimo trabajo de base que sobre las evaluaciones han realizado los técnicos y pedagogos del ministerio para orientarlas hacia el conocimiento de las competencias adquiridas por los alumnos. Son evaluaciones modernas destinadas a dar transparencia, a facilitar la rendición de cuentas del sistema, a que las familias tengan mejor información, a que los alumnos tengan mejor información, a que los propios profesores dispongan de mejor información. Y en modo alguno tienen nada que ver con las reválidas que, efectivamente, eran un procedimiento para canalizar una demanda que el sistema no podía atender y, en ese sentido, tenía toda la razón quien decía que eran segregadoras. Nada que ver, señor Bedera, con este sistema de evaluaciones externas que implanta la Lomce.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u91" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA ROSA MARÍA ROMERO SÁNCHEZ, DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, QUE FORMULA AL SEÑOR MINISTRO DE EDUCACIÓN, CULTURA Y DEPORTE: ¿QUÉ ACTUACIONES SE PREVÉN PARA LAS CONMEMORACIONES DEL IV CENTENARIO DE LA PUBLICACIÓN DE LA II PARTE DE EL QUIJOTE Y DE LA MUERTE DE MIGUEL DE CERVANTES?</seg>
                <note>Número de expediente 180/001285</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u92" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Educación, Cultura y Deporte que formula la diputada doña Rosa Romero, del Grupo Popular.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u93"
@@ -615,7 +613,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u94" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -627,12 +625,12 @@
                <seg>La primera disposición que al respecto ha adoptado el Gobierno ha sido la declaración de acontecimiento de excepcional interés público de estos dos centenarios cervantinos, lo que va a permitir que durante tres años, los ejercicios 2015, 2016 y 2017, todos los patrocinadores privados que quieran acogerse a esta<pb n="21"/> conmemoración disfruten de las ventajas fiscales que esta declaración comporta. En segundo lugar, el Gobierno ha constituido una comisión interministerial para que, con la Presidencia de honor de sus majestades los reyes y con la Presidencia efectiva de la vicepresidenta del Gobierno, todos los departamentos que tienen alguna relación de cualquier tipo con esta conmemoración puedan colaborar con el resto de las administraciones y, por supuesto, muy señaladamente la Administración de la Comunidad Autónoma de Castilla-La Mancha, que tiene el protagonismo que su señoría ha recordado. A partir de ahí, hay un amplio programa de conmemoraciones de muy distinto tipo que, en el caso del ministerio que represento, comprenden tanto actividades de tipo científico e investigador como actividades que tienen que ver con las artes escénicas, con la música, con los archivos. Es muy difícil resumirlo en el tiempo de que dispongo -se trata de más de veinticinco actividades-, pero yo destacaría fundamentalmente las siguientes: en la Biblioteca Nacional, donde ya se está celebrando una exposición sobre el coleccionismo cervantino, habrá una gran exposición, Miguel de Cervantes: de la realidad al mito, que tendrá lugar en el primer semestre; desde el punto de vista de las artes escénicas, el estreno de Miguel de Cervantes: viajes, sueños y utopías, y el estreno también&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u96" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON MIGUEL ÁNGEL HEREDIA DÍAZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA MINISTRA DE EMPLEO Y SEGURIDAD SOCIAL: ¿QUÉ BALANCE HACE LA MINISTRA DE EMPLEO DE LA REFORMA LABORAL?</seg>
                <note>Número de expediente 180/001289</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u97" ana="#chair">
                <seg>Preguntas dirigidas a la señora ministra de Empleo y Seguridad Social.</seg>
                <seg>En primer lugar formula su pregunta don Miguel Ángel Heredia, del Grupo Socialista.</seg>
             </u>
@@ -642,7 +640,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señora ministra, ¿qué balance hace de la reforma laboral?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u99" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -654,7 +652,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u101" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
                <seg>Señor Heredia.</seg>
             </u>
@@ -666,7 +664,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u103" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -679,12 +677,12 @@
                <seg>Los salarios se pactan en la negociación colectiva, respeten a los sindicatos y a la patronal. Y si quiere hablarme de personas, hábleme de Manuel, un médico del Servicio Andaluz de Salud de un Gobierno socialista, que trabaja con un contrato temporal, que le han contratado por tres horas y trabaja ocho, que las cinco horas restantes se las pagan como guardia a 15 euros brutos la hora; vive Manuel con 15 euros brutos la hora en Andalucía.<note>Rumores</note> Señor Heredia, hace tres años que en Andalucía no hacen ni una escuela taller para los parados y a los ALPE, esos 800 que contrataron en fraude de ley, los ha tenido que recuperar el Supremo porque el Gobierno los mandó al paro. Esa es Susana Díaz y el Gobierno socialista de Andalucía.</seg>
                <note>Aplausos.-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u105" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
                <seg>- DE LA DIPUTADA DOÑA PATRICIA BLANQUER ALCARAZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA MINISTRA DE EMPLEO Y SEGURIDAD SOCIAL: ¿TIENE INTENCIÓN EL GOBIERNO DE ESTABLECER GARANTÍAS PARA EVITAR SITUACIONES DE DESIGUALDAD EN LAS CONDICIONES LABORALES DE LOS TRABAJADORES DE EMPRESAS DE SERVICIOS EXTERNALIZADOS?</seg>
                <note>Número de expediente 180/001296</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u106" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u106" ana="#chair">
                <seg>Pregunta que formula a la señora ministra de Empleo y Seguridad Social doña Patricia Blanquer, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u107"
@@ -694,7 +692,7 @@
                <seg>Señora ministra, usted sí que no puede dar lecciones a nadie, porque después de más de tres años de Gobierno del Partido Popular el panorama es desolador: las cifras de paro son inaceptables, se abusa de los contratos parciales y la mitad de los asalariados perciben salarios de menos de 1.000 euros. Desde luego, ustedes son los responsables de la pobreza laboral. Pero es más, hay empresas que externalizan servicios recurriendo a contratas, subcontratas e incluso a falsos autónomos sin que se hagan responsables de las condiciones laborales de los trabajadores que realizan la actividad subcontratada, y esto está permitiendo situaciones de desigualdad entre trabajadores protegidos por convenio y trabajadores sin<pb n="23"/> protección que son explotados laboralmente. Así que dígame, ¿tiene intención el Gobierno de establecer garantías para evitar esta situación de desigualdad?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u108" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u108" ana="#chair">
                <seg>Muchas gracias, señora diputada.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -707,7 +705,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u110" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
                <seg>Señora Blanquer.</seg>
             </u>
@@ -717,7 +715,7 @@
                <seg>Señora ministra, su relato es falso, hoy hay más paro que cuando llegaron al Gobierno. Le exigimos que combata la precariedad que han generado y que va a más. Porque con sus reformas laborales han permitido que haya quien se asegure beneficios a costa del empobrecimiento del trabajador. Es injusto que trabajadores haciendo el mismo trabajo para la misma empresa cobren menos o mucho menos por el mero hecho de hacerlo como trabajadores de empresas subcontratadas y es inaceptable tener que soportar jornadas de trabajo de hasta doce horas por sueldos netos de 700 euros, como así denuncian trabajadores de empresas subcontratistas y autónomos que prestan servicios para Telefónica. Para acabar con estas situaciones los socialistas sí tenemos respuestas. Queremos hacer realidad que a igual trabajo, igual salario, acabar con los falsos autónomos y recuperar la fortaleza de la negociación colectiva que ustedes han desarticulado. Porque los datos hablan por si mismos, es su responsabilidad que haya más de 6 millones de trabajadores que han dejado de estar cubiertos por convenio colectivo. Además, han debilitado la posición de los trabajadores, que aguantan un deterioro de sus condiciones laborales por miedo a perder su empleo, lo que se agudiza para los trabajadores de empresas subcontratadas, abocándolos a la mera subsistencia. Es evidente que no han legislado contra el paro, sino contra los derechos de los trabajadores, obligando a los más débiles a soportar a todo el sacrificio para salir de la crisis. Así que, señora ministra, ustedes son culpables de la pobreza y de la explotación laboral.</seg>
                <note>Una señora diputada: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u112" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -728,12 +726,12 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u114" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>- DE LA DIPUTADA DOÑA ISABEL SÁNCHEZ ROBLES, DEL GRUPO PARLAMENTARIO VASCO<note>EAJ-PNV</note> , QUE FORMULA A LA SEÑORA MINISTRA DE FOMENTO: ¿TIENE PREVISTO CUMPLIR EL CONVENIO DE COLABORACIÓN ENTRE EL ADMINISTRADOR DE INFRAESTRUCTURAS FERROVIARIAS<note>ADIF</note> Y EL CONSORCIO DE TRANSPORTES DE BIZKAIA<note>CTB</note> PARA LA REALIZACIÓN DE LAS OBRAS DE EJECUCIÓN DEL PROYECTO DEL INTERCAMBIADOR DE URBINAGA, EN EL TÉRMINO MUNICIPAL DE SESTAO?</seg>
                <note>Número de expediente 180/001284</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u115" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u115" ana="#chair">
                <seg>Preguntas dirigidas ahora a la señora ministra de Fomento. Pregunta doña Isabel Sánchez Robles, del Grupo Vasco, PNV.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u116"
@@ -745,7 +743,7 @@
                <seg>Por eso, ministra, le pregunto: ¿tiene previsto el Gobierno, por fin y de una vez por todas, dar cumplimiento a este convenio y ejecutar las obras necesarias para posibilitar la mejora de esta movilidad vizcaína?</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u117" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u117" ana="#chair">
                <seg>Muchas gracias, señora Sánchez Robles.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -758,12 +756,12 @@
                <seg>Señoría, no ponemos proyectos que no vamos a hacer; solamente se pone el dinero cuando el proyecto está rematado y este año habrá presupuesto&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u119" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u119" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>- DE LA DIPUTADA DOÑA MARÍA JOSÉ RODRÍGUEZ RAMÍREZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA MINISTRA DE FOMENTO: ¿CÓMO VALORA EL GOBIERNO LA INVERSIÓN ESTATAL EN LA PROVINCIA DE HUELVA?</seg>
                <note>Número de expediente 180/001274</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u120" ana="#chair">
                <seg>Pregunta dirigida a la señora ministra de Fomento que formula la diputada doña María José Rodríguez, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u121"
@@ -772,7 +770,7 @@
                <seg>Doy por formulada la pregunta.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u122" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u122" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -783,7 +781,7 @@
                <seg>El Gobierno ha destinado a la provincia de Huelva en esta legislatura 528 millones de euros, a pesar de las facturas que nos dejaron sin pagar y de la crisis.</seg>
                <note>La señora Sánchez García: ¡Muy bien!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u124" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u124" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>Señora Rodríguez.</seg>
             </u>
@@ -795,7 +793,7 @@
                <seg>Señoría, tenemos una agroindustria de primer nivel; un potente sector industrial; una oferta turística que ya quisieran otros destinos, envidiable pero mal conectada; un puerto con enormes posibilidades; una situación estratégica: frontera con Portugal, África y América. Señora Pastor, no cabe tanto agravio, no es posible semejante grado de olvido ni de sectarismo. Este tratamiento no es solo injusto, que lo es, es además intolerable e ineficiente porque Huelva es una oportunidad para los onubenses pero también para el resto de España y de Europa. Pero son ustedes un lastre para nuestro crecimiento económico y social, es que por no dar no dan ni fecha para una reunión ni responden a las cartas que les envían instituciones que asisten perplejas a tanto desprecio. Esa es la medida de su voluntad política: ninguna, como su herencia. ¿Es posible que no merezcan los onubenses un hueco en su agenda? Les ocupa Huelva poco y les preocupa menos. Bueno, ahora, en campaña, va a ir usted pronto. Espero que no les dé la espalda a los onubenses, como la última vez que estuvo&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u126" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u126" ana="#chair">
                <seg>Gracias, señora Rodríguez.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -806,7 +804,7 @@
                <seg>La verdad, señoría, es que usted me alegra la mañana porque efectivamente el papel lo aguanta todo. «Zapatero anuncia una ampliación de la Red de AVE en Andalucía hasta Huelva», año 2007. Siguiente: «Calatrava plantea una torre de 353 metros para el AVE en Huelva», 2007. Espere, que hay más.<note>Risas</note> Esto ocurría todo hace unos cuantos años, cuando el papel sí que lo aguantaba todo; el papel era la moneda común del Partido Socialista, si no eran declaraciones grandilocuentes, eran power points. «ADIF desecha la estación de Calatrava por su exagerado caché, según Guerrero». Termino ya el repaso a la hemeroteca: «Blanco se compromete con el AVE Sevilla-Huelva».<note>Rumores</note> Señoría, no falte usted a la verdad. Huelva, señoría, es una de las provincias de España donde más crece el empleo, para empezar. Creo que es muy importante que no falte a la verdad. Ustedes lo que hicieron cuando estaban en el Gobierno fue prometer que iban a hacer una línea de alta velocidad de 1.200 millones.<note>Risas</note> Ni hay línea ni había los 1.200 millones. Lo que había, como les digo, era todo sin pagar. En cuanto a las inversiones en 2015, falta a la verdad porque hay un incremento de un 35 % con respecto a 2011. Hay más, señoría, hemos invertido en carreteras. En la A-49, que les afecta tanto a ustedes -a todos los ciudadanos de Huelva- y a todos los españoles, hemos finalizado la obra del tramo Bormujos-Benacazón de 25 millones, la redacción de proyectos en Benacazón.<note>Rumores</note> Sí, en la provincia, que tanta falta les hace. Y estamos en la redacción de los proyectos entre Benacazón y Chucena. También, tras adecuar la vía&#x85;</seg>
                <note>Continúan los rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u128" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u128" ana="#chair">
                <seg>Un momento, señora ministra.</seg>
                <seg>Ruego silencio, que se escuche a la señora ministra en la contestación.<note>El señor Sicilia Alférez: Pero no habla de Sevilla</note> Señor Sicilia, le ruego silencio.</seg>
             </u>
@@ -817,11 +815,11 @@
                <seg>Además de eso, vamos a iniciar en mayo las obras de la variante de Beas y Trigueros, que no sé dónde estaban ustedes. Estamos dedicando también dinero para rehabilitar el puente internacional de Ayamonte; hemos reactivado las obras de la estación de Huelva, esa obra faraónica que iban a hacer ustedes pero de la que nunca más se supo. Gracias, señoría&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u130" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u130" ana="#chair">
                <seg>Gracias, señora ministra.<pb n="27"/> - DEL DIPUTADO DON PABLO MARTÍN PERÉ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA MINISTRA DE FOMENTO: ¿QUÉ BALANCE REALIZA LA SEÑORA MINISTRA SOBRE LA POLÍTICA DE INVERSIÓN DEL GOBIERNO EN LAS ILLES BALEARS DURANTE LA PRESENTE LEGISLATURA?</seg>
                <note>Número de expediente 180/001275</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u131" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u131" ana="#chair">
                <seg>Pregunta dirigida a la señora ministra de Fomento del diputado don Pablo Martín Peré, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u132"
@@ -830,7 +828,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señora ministra, ¿qué valoración hace el Gobierno de las inversiones realizadas por el Estado durante la presente legislatura en la Comunidad de las Baleares?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u133" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u133" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -840,7 +838,7 @@
                <seg>Muchas gracias, señor Martín Peré.</seg>
                <seg>El Gobierno ha destinado a las Islas Baleares en esta legislatura 1.500 millones de euros a inversiones.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u135" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u135" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
                <seg>Señor Martín Peré.</seg>
             </u>
@@ -851,7 +849,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u137" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u137" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -864,12 +862,12 @@
                <seg>Desde aquí quiero trasladar mi cariño a los ciudadanos que ayer tuvieron un accidente en el mar y que gracias a todos los servicios públicos, especialmente a Salvamento Marítimo, Cruz Roja, las Fuerzas y Cuerpos de Seguridad del Estado y servicios de emergencia de la comunidad, hoy están a salvo en sus casas.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u139" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u139" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>- DE LA DIPUTADA DOÑA LOURDES MUÑOZ SANTAMARÍA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA MINISTRA DE FOMENTO: ¿EN QUÉ FECHA TIENE PREVISTO EL GOBIERNO FINALIZAR LA OBRA DE AMPLIACIÓN DE LA RONDA LITORAL EN EL TRAMO MONTJUIC-EL MORROT?</seg>
                <note>Número de expediente 180/001294</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u140" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u140" ana="#chair">
                <seg>Pregunta que formula a la señora ministra de Fomento la diputada doña Lourdes Muñoz, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u141"
@@ -877,7 +875,7 @@
                ana="#regular">
                <seg>Señora ministra, le formulo esta pregunta porque si su Gobierno hubiera continuado con la ejecución de este proyecto, usted ya hubiera inaugurado la ampliación de la ronda litoral, y ahora no sabemos ni la fecha. ¿En qué fecha tiene previsto el Gobierno finalizar la ampliación de la ronda litoral en el tramo Montjuic-El Morrot?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u142" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u142" ana="#chair">
                <seg>gracias, señora diputada.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -887,7 +885,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señora Muñoz, este Gobierno ha trabajado de manera intensa esta legislatura en Cataluña, usted lo sabe bien. De los 9.000 millones de presupuesto, 5.730 han correspondido a Barcelona y muchas de las actuaciones se han llevado a cabo en el entorno urbano. Estamos trabajando para redactar el proyecto e iniciar las obras de la ampliación de la ronda litoral. Me imagino que usted pregunta aquí hoy -no se ha acordado hasta ahora, después de tres años y pico- porque ha visto que hay un acuerdo entre las instituciones.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u144" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u144" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>Señora diputada.</seg>
             </u>
@@ -897,7 +895,7 @@
                <seg>En este tramo de la ronda, la entrada por el litoral al centro de Barcelona, se generan grandes retenciones. Al acabar la última legislatura, un proyecto de consenso estaba en marcha. Con una planificación a cuatro años, el segundo estudio informativo ya estaba listo, quedaba medio año de proyecto constructivo, licitación y tres años de obras. Pero ¿qué ha sucedido? Que ambas derechas, la catalana y la española, han frenado este proceso porque han estado de espaldas. Ustedes durante tres años estuvieron de espaldas a Cataluña con sus actitudes de no dialogar con un gobierno por ser nacionalista, y su contraparte, el alcalde de Barcelona, con su agenda independentista, tampoco se sentaba con el Gobierno de España. Ustedes reaccionaron después de las grandes manifestaciones soberanistas, pero su respuesta es que usted nos visita más, se hace más fotos, pero las obras siguen retrasadas y sin fecha. Después de esta parálisis han llegado a un acuerdo, es cierto, un muy mal acuerdo para Barcelona. Barcelona tiene que pagar más y supone empezar de nuevo y retrasar más este proceso. Mientras tanto, los ciudadanos y ciudadanas de Barcelona siguen con los colapsos en la ronda. A todo esto no me ha respondido, no tenemos fecha y hemos perdido una legislatura.<pb n="29"/> Mire, todas las grandes infraestructuras de Barcelona o no tienen fecha o están retrasadas; ni la estación de la Sagrera ni la estación de Sants ni el acceso al puerto. Usted cuando quiere es una buena negociadora, sabe dialogar y llegar a acuerdos, pero con Barcelona los acuerdos no llegan. No sé si es que no pone el mismo empeño. Usted es ministra de todas las personas que viven en España, también de las que vivimos en Barcelona, también de los catalanes y catalanas. Además usted es la responsable de este tema, porque es la que tiene competencias exclusivas sobre la ronda, y como mínimo es corresponsable con el alcalde Trias de que la ampliación de la ronda no esté acabada. Aceleren las obras y no generen más desapego.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u146" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u146" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -909,14 +907,14 @@
                <seg>Pero además hemos hecho muchas cosas más. Hemos mejorado el enlace de El Prat del Llobregat; hemos iniciado las obras del nuevo acceso sur viario al puerto de Barcelona de más de 130 millones, que ustedes no fueron capaces de poner en marcha; el enlace entre la autovía del Bajo Llobregat y la autopista AP-7, en Castellbisbal; la variante de Vallirana, que estaba parada; la autovía de conexión entre la ronda litoral y la autopista C-32, en Barcelona; la autovía orbital de Barcelona, cuyas obras en el tramo intermedio entre Olesa de Montserrat y Viladecavalls hemos reiniciado la semana pasada. Señoría, si no hacemos otra cosa que&#x85;</seg>
                <note>Aplausos.-El señor Canongia Gerona: ¡No es verdad, no es verdad!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u148" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u148" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>No interrumpa a la señora ministra, que estaba acabando en ese mismo instante. A lo mejor lo iba a decir después, pero no ha podido.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO SOCIALISTA, AL MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS, SOBRE SU POSICIÓN EN MATERIA DE ACTUACIONES PARA EVITAR LA CONFUSIÓN Y EL CONFLICTO ENTRE INTERESES PÚBLICOS Y PRIVADOS.</head>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u149" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u149" ana="#chair">
                <seg>Empezamos con las interpelaciones. Interpelación del Grupo Socialista, al ministro de Hacienda y Administraciones Públicas, sobre su posición en materia de actuaciones para evitar la confusión y el conflicto entre intereses públicos y privados. Para su defensa, tiene la palabra la señora Rodríguez Ramos.</seg>
                <note>La señora vicepresidenta, Villalobos Talero, ocupa la Presidencia</note>
             </u>
@@ -1321,7 +1319,7 @@
                <seg>Nosotros, señorías, estamos justo por lo contrario, por la defensa incondicional del derecho internacional de los derechos humanos y por poner fin, definitivamente, al absoluto desprecio del Gobierno hacia los derechos de los víctimas. Por eso, votaremos a favor de esta moción de La Izquierda Plural.</seg>
                <seg>Gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u210" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u210" ana="#chair">
                <seg>Gracias, señora Pérez.</seg>
                <seg>Señor Errekondo.</seg>
             </u>
@@ -1335,7 +1333,7 @@
                <seg>Apoyamos la petición que hace la justicia argentina, así como la de los relatores especiales de los derechos humanos de la ONU de que España debe extraditar o juzgar a los responsables de las violaciones graves de derechos humanos. Así, Antonio Carro Martíne; Licinio de la Fuente; Antonio Barrera de Irimo; José Quintana Saracibar; José María Sánchez-Ventura Pascual; Alfonso Osorio García; Jesús Quintana Saracibar; Carlos Rey González; José Utrera Molina; Fernando Suárez González; Rodolfo Martín Vill;, Jesús Cejas Mohedano; Antonio Troncoso de Castro; Jesús González Reglero; Ricardo Algar Barrón; Félix Criado Sanz; Pascual Honrado de la Fuente; Jesús Martínez Torres; Benjamín Solsona Cortés; Atilano del Valle Oter y Abelardo García Balaguer, imputados por crímenes contra la humanidad. Por eso decimos que deben ser o juzgados o extraditados.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u212" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u212" ana="#chair">
                <seg>Muchas gracias, señor Errekondo.</seg>
                <seg>Por el Grupo Vasco PNV tiene la palabra el señor Esteban.</seg>
             </u>
@@ -1349,7 +1347,7 @@
                <seg>La petición de que esto se quede aquí y de que se interese el ministerio fiscal por el estudio de los hechos recogidos en la resolución del juzgado de Argentina, para que las responsabilidades penales subsistentes que puedan derivarse puedan ser determinadas por los órganos jurisdiccionales españoles, es hacer -y lo saben- un brindis al sol. No van a entrar; ya han dicho clara, lisa y llanamente que no van a entrar, y se ha hecho una interpretación perversa de la Ley de Amnistía.</seg>
                <seg>En este campo poca o ninguna confianza en la justicia española, en la defensa de la jurisdicción universal. Voy concluyendo, señor presidente. España ha hecho una renuncia a entrar en estos casos, a iniciar las investigaciones y depurar las responsabilidades pertinentes. Por lo tanto, nuestro voto será favorable.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u214" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u214" ana="#chair">
                <seg>Muchas gracias, señor Esteban.</seg>
                <seg>Por Unión Progreso y Democracia, tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -1366,7 +1364,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u216" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u216" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , tiene la palabra la señora Surroca.</seg>
             </u>
@@ -1380,7 +1378,7 @@
                <seg>En nuestra intervención en la Comisión de Justicia con relación a esa proposición no de ley hacíamos dos reflexiones que creo que es bueno que también las hagamos hoy. Con la justicia extraterritorial posiblemente haremos que se cumpla lo que durante tantos años hemos sido incapaces de hacer en el Estado español y es reparar el daño causado a numerosas personas. Muchas de ellas han fallecido pero también están sus familiares y creo que es importante que se repare el daño causado. En segundo lugar, queremos recordar que la Ley de Memoria Histórica, impulsada por algunos a bombo y platillo -me refiero en este caso al Gobierno socialista de aquel momento-, tampoco ha logrado cumplir los objetivos que perseguía. Algún portavoz que me ha precedido en el uso de la palabra lo ha mencionado y creo que es importante tenerlo en cuenta.</seg>
                <seg>No voy a entrar en la enmienda presentada por el Grupo Socialista, creo que no es necesario, pero tenemos que tener presente la reflexión de que la Ley de Memoria Histórica tampoco ha cumplido las expectativas, por lo que tenemos que dedicar los máximos esfuerzos posibles sobre la base de ese instrumento&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u218" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u218" ana="#chair">
                <seg>Señora Surroca, debe terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u219"
@@ -1390,7 +1388,7 @@
                <seg>Decía que tenemos que dedicar los máximos esfuerzos posibles a reparar el daño causado a las víctimas que vieron vulnerados sus derechos.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u220" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u220" ana="#chair">
                <seg>Muchas gracias, señora Surroca.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Gómez de la Serna.</seg>
             </u>
@@ -1405,7 +1403,7 @@
                <seg>Muchas gracias.</seg>
                <note>Una señora diputada: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u222" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u222" ana="#chair">
                <seg>Muchas gracias, señor Gómez de la Serna.</seg>
                <seg>Señor Nuet, como le han presentado una enmienda, me gustaría que me dijera qué hace con ella.</seg>
             </u>
@@ -1414,11 +1412,11 @@
                ana="#regular">
                <seg>Vamos a dialogar con el Grupo Parlamentario Socialista para intentar llegar a un acuerdo de transacción.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u224" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u224" ana="#chair">
                <seg>Muchas gracias, señor Nuet.<pb n="58"/> - DEL GRUPO PARLAMENTARIO CATALÁN<note>CONVERGÈNCIA I UNIÓ</note> , SOBRE LAS MEDIDAS QUE DEBERÍA ADOPTAR EL GOBIERNO PARA EXIMIR DE LA PRESENTACIÓN DEL IMPUESTO SOBRE SOCIEDADES A LAS PEQUEÑAS ENTIDADES SIN ÁNIMO DE LUCRO.</seg>
                <note>Número de expediente 173/000209</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u225" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u225" ana="#chair">
                <seg>Moción del Grupo Parlamentario Catalán<note>Convergència i Unió</note> sobre las medidas que debería adoptar el Gobierno para eximir de la presentación del impuesto sobre sociedades a las pequeñas entidades sin ánimo de lucro. Para defender la propuesta, tiene la palabra el señor Sánchez i Llibre.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u226"
@@ -1432,7 +1430,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u227" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u227" ana="#chair">
                <seg>Muchas gracias, señor Sánchez i Llibre</seg>
                <seg>Turno de fijación de posiciones porque no se han presentado enmiendas. Por el Grupo Mixto tiene la palabra el señor Baldoví.</seg>
             </u>
@@ -1444,7 +1442,7 @@
                <seg>Esta moción es consecuencia del decreto-ley que inauguró este año, un decreto-ley tutti frutti, cajón de sastre y además con marcha atrás, un decreto-ley por el que nuevamente negaron al Parlamento la tramitación, el debate y la posibilidad de diálogo y de consenso. Hicieron una marcha atrás a medias cuando, a mi modo de entender, se dieron cuenta de que se metían en un gran berenjenal porque querían obligar a todo tipo de entidades sociales, culturales, asociaciones cívicas y clubes deportivos a presentar el impuesto sobre sociedades por pequeño que fuera su tamaño y aunque no tuvieran ánimo de lucro. Y por hablar del tejido asociativo valenciano, las comisiones de fallas, de moros y cristianos, de fogueres, las bandas de música, las escuelas de música, las APA, los pequeños clubes deportivos o incluso las escuelas deportivas que tanto cuesta llevar iban a tener que llevar la contabilidad al día y asumir tareas administrativas y burocráticas o contratar asesorías o gestorías que se lo hicieran cuando muy, muy mayoritariamente estas entidades están gestionadas por personas que de forma voluntaria se hacen cargo de todo y hacen de todo. Finalmente, no tuvieron más remedio que rectificar y volver a eximir a determinadas entidades sin ánimo de lucro, pero Compromís cree que se quedaron cortos y que esta moción de Convergència i Unió es razonable, pues en un país en el que tanto cuesta urdir, trenzar un tejido asociativo fuerte, cualquier medida que vaya encaminada a facilitar la vida de nuestras comisiones, de nuestras asociaciones, de nuestros pequeños clubes contará con nuestro voto a favor. Antes de intentar asfixiar a todo este tejido asociativo, el Grupo Popular debería tener en cuenta esto, repensarlo y votar a favor, pues es una moción razonable.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u229" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u229" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Por Unión Progreso y Democracia tiene la palabra el señor Anchuelo.</seg>
             </u>
@@ -1455,7 +1453,7 @@
                <seg>Mi grupo cree que esta moción tiene un fin loable: el fomento, el desarrollo de la sociedad civil. En nuestro país hay multitud de pequeñas asociaciones, basadas en el voluntariado, sin ánimo de lucro que realizan funciones de gran interés social, en el ámbito cultural, en el ámbito deportivo, y conviene facilitar la vida de las que ya existen y fomentar la aparición de otras nuevas, esto es, fomentar la espontaneidad social. No tiene sentido, pues, imponer cargas burocráticas innecesarias a este tipo de<pb n="60"/> asociaciones y obligarlas a presentar el impuesto sobre sociedades porque vendan lotería o vendan unas camisetas.</seg>
                <seg>Como dijo el señor ministro y han dicho otros portavoces, ha habido algún avance en la legislación para evitar estos problemas, pero lo que nos plantea el grupo proponente es ir más allá y ampliar esos límites. Nos parece razonable su propuesta porque hay dos cautelas que son exigentes y que van a impedir que esta ampliación de límites se convierta en un coladero para que no presenten el impuesto sobre sociedades entidades distintas de las que persigue la moción. Como ha señalado el señor Sánchez i Llibre, esas dos cautelas son que los cargos directivos no sean remunerados y que todos los ingresos se dediquen a los fines propios de la entidad. Creemos que con esas cautelas no hay peligro de ampliar los límites hoy existentes en la legislación y por eso votaremos favorablemente la moción.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u231" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u231" ana="#chair">
                <seg>Por el Grupo Parlamentario de La Izquierda Plural, tiene la palabra el señor Pérez Moya.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u232"
@@ -1467,7 +1465,7 @@
                <seg>Sirvan estas reflexiones que estoy haciendo para reforzar la moción presentada por Convergència i Unió. Votaremos a favor, aunque entendemos que es un paso de mínimos respecto a la voluntad hasta ahora expresada por el Gobierno. Es decir, la propuesta mejora los planteamientos del Gobierno, pero preferiríamos que esas modificaciones no se hubieran producido, preferiríamos la situación anterior a la Ley 27/2014. Y se trataría de volver, como mínimo, a la situación en la que los límites estén establecidos en no superar los 100.000 euros. Es lo que reivindican decenas de miles de entidades. La propuesta de la moción es un paso en la dirección de lo que piden las entidades de nuestro país. Si el Gobierno no lo modifica, seguiremos proponiendo modificaciones en lo que queda de legislatura o en la próxima. Insisto, no hablamos de fraude, hablamos de consolidar a las entidades sociales como interlocutores de la consolidación de la democracia política y participativa por el esfuerzo que hacen en la cohesión social y en la fortaleza de nuestra sociedad. Por eso nosotros daremos apoyo a la moción presentada por Convergència i Unió.</seg>
                <pb n="61"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u233" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u233" ana="#chair">
                <seg>Muchas gracias, señor Pérez Moya.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra la señora Esteve.</seg>
             </u>
@@ -1481,7 +1479,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u235" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u235" ana="#chair">
                <seg>Muchas gracias, señora Esteve.</seg>
                <seg>Por el Grupo Popular, tiene la palabra la señora Veray.</seg>
             </u>
@@ -1496,7 +1494,7 @@
                <seg>Muchas gracias, señor presidente, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u237" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-29-CD150429.u237" ana="#chair">
                <seg>Muchas gracias, señora Veray.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las dos y diez minutos de la tarde.</seg>

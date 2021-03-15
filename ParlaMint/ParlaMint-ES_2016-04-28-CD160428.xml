@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="92">92 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="92" xml:lang="es">92 speeches</measure>
+            <measure unit="speeches" quantity="92" xml:lang="en">92 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="6"/>
                <tagUsage gi="u" occurs="92"/>
                <tagUsage gi="note" occurs="94"/>
-               <tagUsage gi="lb" occurs="223"/>
+               <tagUsage gi="seg" occurs="223"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES - REAL DECRETO-LEY 1/2016, DE 15 DE ABRIL, POR EL QUE SE PRORROGA EL PROGRAMA DE ACTIVACIÓN PARA EL EMPLEO.</head>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u1" ana="#chair">
                <seg>Señorías, se reanuda la sesión.</seg>
                <seg>Comenzamos con el punto del orden del día correspondiente a la convalidación o derogación de reales decretos-leyes. Lo hacemos con el Real Decreto-ley 1/2016, de 15 de abril, por el que se prorroga el programa de activación para el empleo. Para presentar el real decreto-ley tiene la palabra, en nombre del Gobierno, la señora ministra de Empleo y Seguridad Social.</seg>
             </u>
@@ -110,7 +108,7 @@
                <seg>Señorías, gracias al esfuerzo y al compromiso de toda la sociedad española, España vive hoy una sólida recuperación económica con una intensa creación de empleo. Acabamos de conocer los datos...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u3" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u4"
@@ -123,7 +121,7 @@
                <seg>Es un programa, como decía, que ha contado con el respaldo de los interlocutores sociales y el compromiso sincero de todas las comunidades autónomas; y creo sinceramente, humildemente, que es un programa que está funcionando, los resultados de la valoración que hemos hecho tanto con los interlocutores sociales como con las comunidades autónomas así lo demuestran, son resultados esperanzadores. Hasta el 15 de abril de este año 2016, señorías, a través de este programa se ha atendido a 166.322 personas, que han recibido un itinerario personalizado de orientación y a veces también de formación por los servicios públicos de empleo. De ese conjunto de personas, 103.784 han recibido además la prestación económica complementaria de 426 euros. Por tanto, 104.000 familias españolas tienen una ayuda en estos momentos de dificultad. Además, quiero resaltar, porque me parece un hecho relevante, que este programa nuevo que pusimos en marcha con los agentes sociales haya tenido de media un 16 % de inserción laboral, algo muy importante porque multiplica por cinco la tasa de inserción normal de los servicios públicos de empleo, y hay comunidades autónomas de España, señorías, en las que el nivel de inserción de las personas que pasaron por este programa ha llegado a alcanzar casi el 30 %. Por tanto, ha sido un instrumento de activación eficaz. Por último, quiero resaltar también como resultado de esa evaluación que el 87 % de aquellos beneficiarios que compatibilizaron la prestación de 426 euros y el salario -el 87 % que lo compatibilizaron- mantienen hoy el empleo y han sido insertados definitivamente en el mercado de trabajo. Por tanto, las cifras por sí solas hablan de ese éxito colectivo del compromiso entre los interlocutores sociales, comunidades autónomas y Gobierno de España. Qué duda cabe, señorías, que de esa evaluación hemos aprendido todos y sabemos dónde podemos mejorar el programa para que, entre otras cosas, llegue a más personas que todavía están sufriendo los efectos de una crisis muy larga en nuestro país. Estoy segura de que desde la experiencia que compartimos Gobierno, comunidades autónomas, interlocutores sociales y muchos de los grupos parlamentarios...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u5" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u6"
@@ -134,7 +132,7 @@
                <seg>Muchísimas gracias a todos por ese sí que estoy segura que van a dar.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u7" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>Para fijar posiciones tiene la palabra, en primer lugar, la señora Sánchez, por el Grupo Mixto.</seg>
             </u>
@@ -144,7 +142,7 @@
                <seg>Respecto al programa de activación para el empleo lo primero que quiero decir después de escuchar a la señora ministra es que, evidentemente, no nos vamos a mostrar en contra; ahora bien, ni mucho menos los resultados son para ser tan autocomplacientes. Eso sí, ya que modificamos algunos parámetros de esta norma, podríamos modificar unos cuantos más. Vamos a apoyar la convalidación pero, desde luego, se deberían, en primer lugar, ampliar los criterios para aumentar la cobertura de las medidas, respondiendo al hecho de que realmente los beneficiarios de esta ayuda en vez de 100.000 podrían llegar a ser 400.000, como han indicado los sindicatos. Solo se han conseguido 16.000 colocaciones y, en realidad, ni siquiera sabemos si estos empleos han tenido o no que ver con la aplicación de las medidas de este programa. Otro de los defectos que vemos es el gasto y la dotación presupuestaria. De los 850 millones de euros presupuestados en 2015 se ejecutaron menos del 20 %, con lo cual dejamos 690 millones de euros que yo creo que, con el número de parados sin ninguna cobertura, no es de recibo. En el tiempo que llevamos de 2016, de un presupuesto de 350 millones hemos ejecutado solamente un 6,3 %, lo que prueba que vamos por el mismo camino que en 2015. Los interlocutores sociales y, en especial, los sindicatos -a los que me remito con los datos que les estoy dando- piden que se supriman las barreras que hacen imposible para un buen número de desempleados y desempleadas poder beneficiarse de las medidas. Parece que hay intención de afrontar algunas de ellas pero otras, como suprimir el requisito de tener cargas familiares o el periodo que debe haber transcurrido desde el agotamiento de las ayudas o prestaciones por desempleo u otras rentas a cobrar, tampoco se han eliminado. Si se puede revisar la norma para establecer esa tasa de paro, también se podría haber revisado la norma para dar cobertura a un número mayor de gente. El Gobierno ya ha manifestado que hay cuestiones que se pueden o no estudiar, pero si de verdad, como decía la señora ministra, el objetivo es dar cobertura a un mayor número de parados, no entendemos que precisamente sean las más restrictivas las que no se puedan retocar ni modificar. Por tanto, vamos a apoyar la convalidación porque no estamos dispuestos a que más de 100.000 desempleados se queden sin cobertura, pero creemos que esto no es lo que publicita de alguna manera el Gobierno porque es una ley que, aunque va a dar cobertura a 100.000 personas desempleadas -lo que está muy bien-, deja a 300.000 más, que deberían estar cubiertas en este aspecto, sin ningún tipo de cobertura.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u9" ana="#chair">
                <seg>Gracias, señora Sánchez.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Barandiarán.</seg>
             </u>
@@ -157,7 +155,7 @@
                <seg>En definitiva, es verdad que por eso, o solo por eso, podríamos votar en contra de este exceso competencial, si bien hay que reconocer los efectos positivos que contiene la medida. Ahora que contemplamos el 400.º aniversario de Cervantes, aunque sea ciertamente un poco bálsamo de Fierabrás porque no alcanza las necesidades de todos aquellos que están en esa situación de precariedad personal -sal, vino, aceite y romero, si no recuerdo mal-, entendemos que la medida sustantiva es positiva y debe ser reconocida como tal a los efectos precisamente de que pueda ser extendida a aquellos colectivos que lo necesitan. Señora ministra, haga un esfuerzo para que a futuro podamos coincidir y podamos apoyarlas plenamente. En este caso nos va a corresponder abstenernos, pero deseamos fervientemente coincidir en un asunto que es cuestión de efectividad. En el País Vasco lo hacemos bien, en el País Vasco lo vamos a seguir haciendo bien, y en colaboración con usted, seguramente lo podremos hacer mejor. Que podamos transferir, efectivamente, estas competencias entendidas como políticas activas de empleo para que a futuro podamos votar a favor. Sin embargo, en esta ocasión nos vamos a abstener.</seg>
                <seg>Muchas gracias, señora ministra. Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u11" ana="#chair">
                <seg>Gracias, señor Barandiaran.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> , tiene la palabra el señor Campuzano.</seg>
             </u>
@@ -173,7 +171,7 @@
                <seg>La legislatura abortada provoca, entre otras cosas, frustración e irritación en los ciudadanos, porque, ante problemas como estos, esta Cámara es incapaz de alcanzar acuerdos y deja hasta septiembre esas tareas pendientes. Estamos seguros de que los millones de desempleados no van a estar nada satisfechos con el trabajo que hemos realizado durante estos cuatro meses. Es una pena. En cualquier caso, hoy contará con nuestro apoyo para la convalidación.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u13" ana="#chair">
                <seg>Gracias, señor Campuzano.</seg>
                <seg>Por el Grupo Parlamentario de Esquerra Republicana, tiene la palabra el señor Salvador.</seg>
             </u>
@@ -187,7 +185,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u15" ana="#chair">
                <seg>Gracias, señor Salvador.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos, tiene la palabra el señor Roldán.</seg>
             </u>
@@ -257,7 +255,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos de señores diputados y señoras diputadas del Grupo Parlamentario Podemos-En Comú Podem-En Marea puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u27" ana="#chair">
                <seg>Gracias, señor Domènech.</seg>
                <seg>Por el Grupo Parlamentario Socialista, tiene la palabra la señora Del Moral Milla.</seg>
             </u>
@@ -272,7 +270,7 @@
                <seg>Señorías, hoy podríamos estar poniendo en marcha planes de empleo y contra la precariedad laboral, pero seguimos teniendo a la peor ministra de Empleo que ha tenido este país gracias a la bancada de Podemos. Hoy podríamos estar poniendo en marcha un plan de retorno de nuestros jóvenes, pero seguimos teniendo un Gobierno en funciones gracias a la bancada de Podemos. Hoy, señorías, podríamos estar devolviendo los derechos laborales y sociales que el Partido Popular nos arrebató; sin embargo, tenemos al Partido Popular sentado en la bancada del Gobierno, por supuesto cuando viene, porque hoy no está aquí. Señoras y señores de Podemos, ustedes pudieron pero no quisieron, porque están más cómodos con un Gobierno del Partido Popular que con un presidente socialista.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u29" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u29" ana="#chair">
                <seg>Gracias, señora Del Moral.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra la señora España.</seg>
             </u>
@@ -291,7 +289,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u31" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u31" ana="#chair">
                <seg>Gracias, señora España.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -303,13 +301,13 @@
                <seg>Muchísimas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u33" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u33" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>SOLICITUDES DE CREACIÓN DE COMISIONES DE INVESTIGACIÓN - SOLICITUD, FORMULADA POR LOS GRUPOS PARLAMENTARIOS PODEMOS-EN COMÚ PODEM-EN MAREA Y MIXTO, DE CREACIÓN DE UNA COMISIÓN DE INVESTIGACIÓN RELATIVA AL ACCIDENTE FERROVIARIO DE ANGROIS.</head>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u34" ana="#chair">
                <seg>Tratamos ahora el punto del orden del día relativo a la solicitud formulada por los grupos parlamentarios Podemos-En Comú Podem-En Marea y Mixto, de creación de una comisión de investigación relativa al accidente ferroviario de Angrois.</seg>
                <seg>Para la defensa de esa solicitud, tiene la palabra, en primer lugar, la señora Fernández.</seg>
             </u>
@@ -326,7 +324,7 @@
                <seg>Las decisiones políticas tienen responsables políticos. Hoy ustedes tienen una responsabilidad, señorías, que es mirar por los intereses de la gente y permitir que se sepa la verdad; hacer un ejercicio de transparencia y de democracia real, poniendo en marcha una comisión de investigación parlamentaria independiente y plural que destierre de una vez por todas una de las grandes lacras de esta democracia: la impunidad. O pueden continuar siendo rehenes de sus propios errores, negándose a que se pueda investigar y a que se depuren responsabilidades. Ya les adelantamos que seguiremos luchando en la próxima legislatura por el derecho a la verdad y por la depuración de responsabilidades.</seg>
                <seg>Termino ya.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u36" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u36" ana="#chair">
                <seg>Sí, termine, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u37"
@@ -336,7 +334,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Podemos-En Comú Podem-En Marea, puestos en pie.-Algunos muestran una camiseta en la que se lee: 'Verdad. Justicia. No más mentiras'.-La señora Fernández Costa entrega un DVD al señor Hernando Fraile, del Grupo Parlamentario Popular en el Congreso, y a la señora Hernanz Costa, del Grupo Parlamentario Socialista</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u38" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u38" ana="#chair">
                <seg>Gracias, señora Fernández.</seg>
                <seg>Señor Baldoví.<note>El señor Hernando Fraile pide la palabra</note> Un momento.</seg>
                <seg>Señor Hernando.</seg>
@@ -346,7 +344,7 @@
                ana="#regular">
                <seg>Señor presidente, la señora diputada de Podemos ha hecho alusiones claras, evidentes y directas, por lo que, sobre la base del artículo 71, le pido un turno por alusiones.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u40" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u40" ana="#chair">
                <seg>Sí, se ha dirigido a usted personalmente.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u41"
@@ -356,7 +354,7 @@
                <seg>Señora diputada, no es la primera vez que se produce un accidente ferroviario en este país y, desgraciadamente, no es la primera vez que alguien intenta utilizar políticamente a las víctimas de ese accidente con fines políticos. Ustedes no vienen aquí a pedir responsabilidades políticas, ustedes vienen aquí solamente para utilizar y buscar réditos políticos sobre la base de la desgracia de las muchas personas que perecieron en ese accidente. Ustedes no nos van a dar a nosotros lecciones sobre el tema de las víctimas, ni de accidentes ni de los terroristas con los que ustedes hoy se codean en muchas ocasiones y se llegan a atribuirles y a personarse con ellos por el Parlamento Europeo.</seg>
                <note>Aplausos.-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u42" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u42" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <pb n="21"/>
             </u>
@@ -365,7 +363,7 @@
                ana="#regular">
                <seg>Y una cosa. Se está aludiendo a la dignidad de la Cámara.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u44" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u44" ana="#chair">
                <seg>Señor Hernando, no está haciendo referencia a la alusión.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u45"
@@ -373,7 +371,7 @@
                ana="#regular">
                <seg>Sí, afecta a la dignidad de la Cámara.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u46" ana="#chair">
                <seg>La alusión personal...</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u47"
@@ -381,7 +379,7 @@
                ana="#regular">
                <seg>Aquí se ha creado una subcomisión...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u48" ana="#chair">
                <seg>Un momento, señor Hernando. Déjeme hablar. La alusión personal por la que usted tiene derecho a la palabra es en referencia a unas palabras suyas que se produjeron con anterioridad. Haga referencia a esa alusión, no haga una valoración política, que seguro que el representante de su grupo hará posteriormente.</seg>
                <note>Aplausos</note>
             </u>
@@ -390,7 +388,7 @@
                ana="#regular">
                <seg>Gracias, señor López. Como esto tiene que ver precisamente con el trabajo de esta Cámara, lo que la señora diputada de Podemos dice de la posición de mi grupo y mía...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u50" ana="#chair">
                <seg>No, no es con el trabajo de la Cámara. Es la referencia que ha hecho sobre su persona; las palabras textuales de la portavoz del Grupo Podemos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u51"
@@ -398,7 +396,7 @@
                ana="#regular">
                <seg>Si me deja hablar, señor López, se lo digo, porque siempre interrumpe.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u52" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u52" ana="#chair">
                <seg>Sí, pero cuando haga referencia a eso.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u53"
@@ -406,7 +404,7 @@
                ana="#regular">
                <seg>Es lo que estoy intentando hacer, si usted me lo permite.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u54" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u54" ana="#chair">
                <seg>Pues hágalo directamente.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u55"
@@ -415,11 +413,11 @@
                <seg>Muy bien.</seg>
                <seg>Señora diputada de Podemos, tengo muchísimo respeto por las víctimas de cualquier cosa, de cualquier accidente. Lo que yo no voy a hacer nunca es utilizar estas situaciones con el objeto de obtener réditos políticos.<note>Rumores</note> En esta Cámara hubo una subcomisión que estudió el accidente y ha habido unos tribunales que han determinado las responsabilidades. Si usted pretende echar las culpas de cualquier accidente que se produzca en el país, ya sea ferroviario o de otro tipo, a las decisiones políticas, me parece que usted muy pronto -porque es posible que alguna vez llegue a tener algún tipo de responsabilidad- podrá ser víctima de esa situación.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u56" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u56" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <note>El señor Iglesias Turrión: No se puede ofender a los miembros de esta Cámara, a las víctimas... Es una práctica más del Partido Popular... No se cumplen los reglamentos y no se cumplen las leyes... ¡Es vergonzoso lo que acabamos de escuchar, señor presidente de la Cámara!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u57" ana="#chair">
                <seg>Señor Iglesias, no tiene la palabra y por mucho que chille desde el escaño no se le está escuchando absolutamente nada.<note>Rumores y protestas</note> Vamos a ver, señor Iglesias, no tiene la palabra porque no ha intervenido en el turno. Espere un momento. Ha habido una referencia personal al señor Hernando que constituye una alusión<note>La señora Montero Gil hace gestos negativos</note> y, efectivamente, ha habido una parte de su intervención que no tenía que ver con la otra intervención, que es lo que he cortado al principio.<note>Varios señores diputados: ¡Toda!-Protestas</note> No, no.<note>Rumores</note> Después se ha referido a que efectivamente él, sobre la base de aquellas declaraciones que hizo en su momento, de ninguna manera quiere jugar con las víctimas. Punto. Es lo que quedará en el 'Diario de Sesiones'. Nada más.</seg>
                <seg>Señor Baldoví.</seg>
             </u>
@@ -434,7 +432,7 @@
                <seg>Moltes gràcies, senyor president.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u59" ana="#chair">
                <seg>Gracias, señor Baldoví.</seg>
                <seg>Para fijar posiciones, tiene la palabra, en primer lugar, por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , la señora Ardanza.</seg>
             </u>
@@ -446,7 +444,7 @@
                <seg>Es cierto que después del accidente se puso en marcha una auditoría y una investigación interna y que el 2 de agosto del año 2013, por orden ministerial del Ministerio de Fomento, se creó una comisión técnica científica para el estudio de mejoras para el sector ferroviario español. Tanto la Comisión de Investigación de Accidentes Ferroviarios como la comisión técnica científica han concluido y emitido sus informes correspondientes. Sin embargo, no se procedió formalmente por esta Cámara a investigar ni a obtener la información propia para poder enjuiciar la oportunidad o la eficacia de las medidas o decisiones adoptadas por los responsables políticos en el ejercicio de sus funciones.<note>Rumores</note> Del mismo modo que afirmamos que sin control judicial no hay Estado de derecho, decimos que sin control político no hay Estado democrático, siendo uno de los controles fundamentales el control parlamentario mediante el cual se fiscalizan las actuaciones del Gobierno, y son las comisiones de investigación las que están directamente conectadas con dicha función parlamentaria de control.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u61" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u62"
@@ -456,7 +454,7 @@
                <seg>Asimismo queremos manifestar que no se puede obviar el momento concreto en el que estamos. El procedimiento judicial está iniciado y, además, en un estado muy avanzado. La fase de instrucción está finalizada y estamos ya en tiempo de juicio oral. Crear ahora una comisión de investigación podría entenderse por los afectados como un auténtico juicio paralelo, pues, cuando la investigación parlamentaria coincide con la justicia penal, la realidad nos demuestra que, aunque en teoría ambos procesos pueden llevarse en paralelo y aislados uno del otro, la simultaneidad de ambos hace que eso sea más un deseo que una realidad. Creemos sinceramente que durante el procedimiento judicial y en la sentencia que dé fin a este proceso se fijarán hechos y consideraciones sobre las causas que condujeron a que se produjera este accidente; hechos y consideraciones que, junto a los informes que obran en poder de la Comisión de Fomento, nos servirán para aceptar la creación de una comisión de investigación sobre las causas del accidente ferroviario de Angrois. No obstante, no nos vamos a oponer a la creación de esta comisión de investigación.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u63" ana="#chair">
                <seg>Gracias, señora Ardanza.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Democràcia i Llibertad</note> , tiene la palabra el señor Bel.</seg>
             </u>
@@ -474,7 +472,7 @@
                <note>Aplausos</note>
                <pb n="24"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u65" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u65" ana="#chair">
                <seg>Gracias, señor Bel.</seg>
                <seg>Por el Grupo Parlamentario de Esquerra Republicana, tiene la palabra el señor Capdevila.</seg>
             </u>
@@ -486,7 +484,7 @@
                <seg>Muchas gracias, señor presidente. Hasta pronto.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u67" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u67" ana="#chair">
                <seg>Muchas gracias, señor Capdevila.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos, tiene la palabra el señor Navarro.</seg>
             </u>
@@ -499,7 +497,7 @@
                <seg>Señorías, la primera PNL que el Grupo Parlamentario Ciudadanos presentó en la Comisión de Fomento fue sobre la creación de un plan de infraestructuras y de una oficina evaluadora independiente que juzgue los proyectos de inversión en infraestructuras, en transporte y en vivienda, de acuerdo con criterios de viabilidad socioeconómica y de coste de oportunidad entre distintas alternativas. Con esto pretendemos algo que es a la vez sencillo y revolucionario: conseguir que las decisiones en Fomento se tomen de acuerdo con criterios de utilidad y no de rentabilidad electoral.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u69" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u70"
@@ -512,7 +510,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u71" ana="#chair">
                <seg>Muchas gracias, señor Navarro.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor Gordo.</seg>
             </u>
@@ -560,7 +558,7 @@
                <seg>Nosotros respetamos profundamente el Poder Judicial y no juzgamos la labor de la justicia. Por tanto, mientras esta cuestión esté pendiente de resolución judicial no debe ni puede inmiscuirse el Poder Legislativo. Dicho lo cual, difícilmente una comisión de investigación en el Congreso podrá juzgar resoluciones judiciales. Se vuelven a equivocar. En España, que es un Estado de derecho, sí hay separación de poderes. En otros sitios, no. Del mismo modo, rechazamos que haya habido inmovilismo<pb n="29"/> en las administraciones y que el Gobierno no haya sido exigente con la verdad y la adopción de medidas. Fíjense, de las medidas anunciadas por la ministra en agosto de 2013, diecinueve ya están implantadas y mejoradas y tres están viendo finalizada su implantación. Es decir, actuación constante y exigencia total, no solo en el esclarecimiento de la verdad, sino también en las medidas tendentes a que accidentes de esta naturaleza no se repitan.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u77" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u78"
@@ -571,13 +569,13 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u79" ana="#chair">
                <seg>Gracias, señor Ayala.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DICTÁMENES DE LA COMISIÓN DEL ESTATUTO DE LOS DIPUTADOS - DICTAMEN DE LA COMISIÓN DEL ESTATUTO DE LOS DIPUTADOS SOBRE DECLARACIÓN DE ACTIVIDADES DE EXCELENTÍSIMOS SEÑORES DIPUTADOS.</head>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u80" ana="#chair">
                <seg>Pasamos al último punto del orden del día relativo al dictamen de la Comisión del Estatuto de los Diputados sobre la declaración de actividades de las señoras y señores diputados. Para la presentación del dictamen tiene la palabra en nombre de la Comisión su presidente, el señor Barreda, por tres minutos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u81"
@@ -587,7 +585,7 @@
                <seg>La Comisión consideró desde el primer momento que debíamos hacer lo posible por culminar este dictamen, no ya por las incógnitas que pudieran existir entonces sobre la continuidad de la legislatura sino por el ejercicio responsable de la función que tenemos asignada, que no es otra que dictaminar sobre la conformidad o no a las previsiones legales de las actividades de los miembros de la Cámara, un dictamen ...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u82" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u83"
@@ -596,7 +594,7 @@
                <seg>... en cuanto a la transparencia de estas actividades y en cuanto a que requiere un examen detenido previo a la declaración de su compatibilidad o incompatibilidad con la condición de miembro del Congreso. Nos pareció importante y nos pareció de justicia contar con este dictamen como un deber ante los ciudadanos que nos han elegido y también para con cada uno de los miembros del Congreso.<pb n="30"/> Esa voluntad es la que ha hecho posible completar la tarea y emitir un dictamen completo que afecta a todos los miembros de la Cámara, dictamen acordado y unánime de todos los miembros de la Comisión, y hacerlo, además, en un plazo relativamente breve en comparación con anteriores legislaturas. La comisión ha celebrado un total de cinco sesiones, ha solicitado aclaraciones a sus señorías cuando así lo ha entendido preciso, ha formulado buen número de requerimientos y, tras reunirse el 30 de marzo, fijó el plazo del 11 de abril para cumplimentar las contestaciones. Ha examinado y completado la documentación con el imprescindible auxilio de los servicios de la Cámara y, finalmente, ha plasmado sus conclusiones en el presente dictamen. El trabajo de la Comisión ha sido, pues, fundamentalmente técnico, apoyándose en el asesoramiento de los servicios de la Cámara. Como es evidente, la Comisión ha actuado en los estrictos, y yo diría, estrechos límites de su competencia, ha emitido su dictamen de compatibilidad o incompatibilidad a la luz de la legislación vigente. Todos sabemos que existe la posibilidad y la declarada voluntad de revisar tal legislación en diferentes sentidos, con diferente alcance y desde diferentes concepciones políticas. Por ello, aunque no sea necesario por obvio, quiero recalcar que hemos trabajado con las normas existentes, con independencia del parecer que a cada grupo le merecieran tales normas, aplicándolas con equidad...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u84" ana="#chair">
                <seg>Señor Barreda, un momento. Silencio, por favor, silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u85"
@@ -608,38 +606,38 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u86" ana="#chair">
                <seg>Muchas gracias, señor Barreda.</seg>
                <seg>Pasamos ahora a las votaciones.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES : - REAL DECRETO-LEY 1/2016, DE 15 DE ABRIL, POR EL QUE SE PRORROGA EL PROGRAMA DE ACTIVACIÓN PARA EL EMPLEO.</head>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u87" ana="#chair">
                <seg>Vamos a votar, en primer lugar, la convalidación o derogación del Real Decreto Ley 1/2016, de 15 de abril, por el que se prorroga el programa de activación para el empleo.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 325; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u88" ana="#chair">
                <seg>No habiendo ningún grupo que haya solicitado su tramitación como proyecto de ley, queda convalidado este real decreto.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>SOLICITUDES DE CREACIÓN DE COMISIONES DE INVESTIGACIÓN : - SOLICITUD FORMULADA POR LOS GRUPOS PARLAMENTARIOS PODEMOS-EN COMÚ PODEM-EN MAREA Y MIXTO, DE CREACIÓN DE UNA COMISIÓN DE INVESTIGACIÓN RELATIVA AL ACCIDENTE FERROVIARIO DE ANGROIS.</head>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u89" ana="#chair">
                <seg>Pasamos ahora a la votación de la solicitud formulada por los grupos parlamentarios Podemos-En Comú Podem-En Marea y Mixto de creación de una comisión de investigación relativa al accidente ferroviario de Angrois.<pb n="31"/> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 332; a favor, 132; en contra, 199; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u90" ana="#chair">
                <seg>Queda rechazada.<note>Varios señores invitados desde la tribuna pública muestran unos DVD y camisetas amarillas en las que se lee: 'Verdad.Justicia. No más mentiras/Comisión de investigación', al tiempo que dicen: ¡Hipócritas! ¡Sois unos hipócritas! Véanlo. Teníais que ver la película.-Aplausos de los diputados del Grupo Parlamentario Podemos-En Comú Podem-En Marea y del Grupo Parlamentario de Esquerra Republicana, puestos en pie.-Una señora diputada: ¡Qué vergüenza!</note> Les ruego, por favor, que desalojen al público que está haciendo esos comentarios porque, como saben, no está permitido.</seg>
                <note>Así lo hacen los servicios de la Cámara</note>
             </u>
          </div>
          <div type="debateSection">
             <head>DICTÁMENES DE LA COMISIÓN DEL ESTATUTO DE LOS DIPUTADOS : - DICTAMEN DE LA COMISIÓN DEL ESTATUTO DE LOS DIPUTADOS SOBRE DECLARACIÓN DE ACTIVIDADES DE EXCELENTÍSIMOS SEÑORES DIPUTADOS.</head>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u91" ana="#chair">
                <seg>Votamos ahora el dictamen de la Comisión del Estatuto de los Diputados sobre declaración de actividades de los excelentísimos señores y señoras diputados y diputadas.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 322; en contra, 1; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-28-CD160428.u92" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Antes de concluir, señorías, permítanme unas últimas palabras porque este es el último Pleno de la XI Legislatura, la más breve de nuestra historia reciente, y quisiera, en mi nombre, en el de toda la Mesa y estoy seguro de que también en el suyo dar las gracias primero a todos los trabajadores y trabajadoras del Congreso que, aunque muchas veces no se les ve, están ahí, como ahora, haciendo que todo esto funcione y facilitándonos la labor. También dar las gracias a los periodistas que hacen que nuestras voces no se pierdan en el eco de este hemiciclo y que son el ojo vigilante que transmite a la ciudadanía la verdad plural, tan plural la suya como la nuestra.</seg>
                <seg>Hemos tenido una legislatura corta, pero hemos hecho frente desde la lealtad constitucional y el respeto a la ley a situaciones no previstas. No solo hemos seguido costumbres parlamentarias, sino que también hemos creado precedentes e incluso los desencuentros los hemos encauzado en la vía jurisdiccional prevista en la Constitución. Lamento profundamente el fracaso de esta Cámara para llegar a un acuerdo para formar Gobierno, como era nuestra obligación. Sin embargo, estoy seguro de que la siguiente lo conseguirá. Y además de este lamento, quería reivindicar la fortaleza de las instituciones democráticas y la legalidad constitucional. No haber conseguido un acuerdo político no ha supuesto ni inestabilidad ni bloqueo institucional. Las instituciones han funcionado y eso honra a nuestra democracia. Hemos discutido y hemos acordado para aprobar propuestas que es verdad que no se van a convertir en leyes, pero hemos mantenido este hemiciclo como el lugar de la palabra, el sitio donde cada diputado y diputada ha tenido el mismo derecho a la palabra que otro y en eso es en lo que los griegos, que nos enseñaron el camino -junto con la igualdad del voto- basaban la democracia. Termino con un viejo proverbio vasco: Gaizki esanak barkatu eta ongi esanak gogoan hartu. Perdónenme las palabras equivocadas y recojan solo las acertadas.</seg>

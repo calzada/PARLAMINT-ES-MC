@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="433">433 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="433" xml:lang="es">433 speeches</measure>
+            <measure unit="speeches" quantity="433" xml:lang="en">433 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="134"/>
                <tagUsage gi="note" occurs="438"/>
                <tagUsage gi="u" occurs="433"/>
-               <tagUsage gi="lb" occurs="1460"/>
+               <tagUsage gi="seg" occurs="1460"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -1599,7 +1597,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos.-Un señor diputado: ¡Muy bien!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2018-05-22-CD180522.u199" ana="#regular">
+            <u xml:id="ParlaMint-ES_2018-05-22-CD180522.u199" ana="#chair">
                <seg>Pasamos a continuación al debate de la sección 16, Interior.</seg>
                <seg>Para la presentación de la sección, tiene la palabra en nombre del Gobierno el señor ministro del Interior.</seg>
             </u>
@@ -2234,7 +2232,7 @@
                <seg>Enmienda 5991.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 347; a favor, 100; en contra, 177; abstenciones, 70.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2018-05-22-CD180522.u310" ana="#regular">
+            <u xml:id="ParlaMint-ES_2018-05-22-CD180522.u310" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 5994 a 5996.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 347; a favor, 86; en contra, 176; abstenciones, 85.</seg>

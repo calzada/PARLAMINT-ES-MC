@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="225">225 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="225" xml:lang="es">225 speeches</measure>
+            <measure unit="speeches" quantity="225" xml:lang="en">225 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -75,7 +77,7 @@
                <tagUsage gi="div" occurs="11"/>
                <tagUsage gi="head" occurs="11"/>
                <tagUsage gi="u" occurs="225"/>
-               <tagUsage gi="lb" occurs="572"/>
+               <tagUsage gi="seg" occurs="572"/>
                <tagUsage gi="note" occurs="177"/>
             </namespace>
          </tagsDecl>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -1427,7 +1425,7 @@
                <seg>Votamos ahora la moción consecuencia de interpelación urgente del Grupo Parlamentario Confederal de Unidos Podemos-En Comú Podem-En Marea relativa a la política del Gobierno en materia de Administración de justicia. La votamos en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 337; a favor, 86; en contra, 133; abstenciones, 118.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2017-12-13-CD171213.u215" ana="#regular">
+            <u xml:id="ParlaMint-ES_2017-12-13-CD171213.u215" ana="#chair">
                <seg>Queda rechazada.</seg>
             </u>
          </div>
@@ -1442,7 +1440,7 @@
                <seg>Ahora vamos a votar, señorías, la tramitación como proyecto de ley por el procedimiento de urgencia del Real Decreto-ley 18/2017, de 24 de noviembre, por el que se modifica el Código de Comercio, el texto refundido de la Ley de Sociedades de Capital aprobado por Real Decreto Legislativo 1/2010, de 2 de julio, y la Ley 22/2015, de 20 de julio, de Auditoría de Cuentas en materia de información no financiera y diversidad.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 336 más 3 votos telemáticos, 339; a favor, 330 más 3 votos telemáticos, 333; en contra, 5; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2017-12-13-CD171213.u218" ana="#regular">
+            <u xml:id="ParlaMint-ES_2017-12-13-CD171213.u218" ana="#chair">
                <seg>En consecuencia, se tramita como proyecto de ley por el procedimiento de urgencia.</seg>
                <seg>- REAL DECRETO-LEY 19/2017, DE 24 DE NOVIEMBRE, DE CUENTAS DE PAGO BÁSICAS, TRASLADO DE CUENTAS DE PAGO Y COMPARABILIDAD DE COMISIONES.</seg>
                <note>Número de expediente 130/000025</note>

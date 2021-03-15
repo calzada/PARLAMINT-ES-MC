@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="109">109 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="109" xml:lang="es">109 speeches</measure>
+            <measure unit="speeches" quantity="109" xml:lang="en">109 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="5"/>
                <tagUsage gi="note" occurs="65"/>
                <tagUsage gi="u" occurs="109"/>
-               <tagUsage gi="lb" occurs="360"/>
+               <tagUsage gi="seg" occurs="360"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,22 +92,18 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>EXCLUSIÓN DEL ORDEN DEL DÍA INTERPELACIONES URGENTES: - DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, SOBRE LAS MEDIDAS QUE VA A TOMAR EL GOBIERNO PARA ERRADICAR EL AUMENTO DE LA DISCRIMINACIÓN CONTRA LAS MUJERES EN ESPAÑA.</head>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u1" ana="#chair">
                <seg>De conformidad con lo dispuesto por el artículo 88.1 del Reglamento, esta Presidencia somete al Pleno de la Cámara la exclusión del orden del día del punto 25, correspondiente a la interpelación urgente del Grupo Parlamentario de La Izquierda Plural, sobre las medidas que va a tomar el Gobierno para erradicar el aumento de la discriminación contra las mujeres. ¿Lo acuerda así la Cámara?<note>Asentimiento.</note> Queda aprobado.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DE LOS GRUPOS PARLAMENTARIOS POPULAR EN EL CONGRESO Y SOCIALISTA, Y DEL SEÑOR SALVADOR, SEÑORA ORAMAS Y SEÑOR ÁLVAREZ SOSTRES , ORGÁNICA POR LA QUE SE MODIFICA LA LEY ORGÁNICA 10/1995, DE 23 DE NOVIEMBRE, DEL CÓDIGO PENAL, EN MATERIA DE DELITOS DE TERRORISMO.</head>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u2" ana="#chair">
                <seg>Toma en consideración de la proposición de ley orgánica de los grupos parlamentarios Popular en el Congreso y Socialista, y del señor Salvador, señora Oramas y señor Álvarez Sostres, del Grupo Mixto, por la que se modifica la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, en materia de delitos de terrorismo. Para la presentación de la iniciativa, tiene la palabra, en primer lugar, por el Grupo Popular, el señor Castillo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u3"
@@ -126,7 +124,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u4" ana="#chair">
                <seg>Muchas gracias, señor Castillo.</seg>
                <seg>Para la defensa de la proposición de ley y por el Grupo Socialista, tiene la palabra don José Enrique Serrano.</seg>
             </u>
@@ -147,7 +145,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u6" ana="#chair">
                <seg>Muchas gracias, señor Serrano.</seg>
                <seg>Como suscriptora también de la proposición de ley, tiene la palabra, en primer lugar, la señora Oramas.</seg>
             </u>
@@ -160,7 +158,7 @@
                <seg>Termino agradeciendo tanto a don Conrado Escobar como a don Rafael Hernando, don Antonio Hernando y don José Enrique Serrano la comunicación permanente sobre la evolución en el desarrollo de la proposición de ley. Una vez más, Coalición Canaria está con los partidos democráticos contra el terrorismo y dentro de la unidad de nuestro país para decir no a ese sinsentido que es el terrorismo.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u8" ana="#chair">
                <seg>Muchas gracias, señora Oramas.</seg>
                <seg>Tiene ahora la palabra el señor Álvarez Sostres.</seg>
                <seg>El señor ÁLVAREZ SOSTRES: Gracias, señor presidente.</seg>
@@ -168,7 +166,7 @@
                <seg>En definitiva, en mi opinión, es puro teatro político que yo no comparto, porque la defensa de nuestros valores de civilización nos excede en nuestras pequeñas miserias. En un plato para este menú no se puede confundir la carne con el pescado; la carne del plato es la lucha frente a un enemigo común; las patatas son el formato del anuncio de la misma, aunque quizás podría haber sido mejorable. Los intereses particulares debieran dar paso a los intereses generales, como ya sucedió en los pactos de Ajuria Enea, del año 1984, o en Madrid, en el año 1987. Aún se está a tiempo en este periodo de trámite. Quiero agradecer al Grupo Parlamentario Popular la gentileza que ha tenido al ponerse en contacto con Foro para conocer su posición política. Votaré, por tanto, favorablemente a la toma en consideración de esta proposición de ley.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u9" ana="#chair">
                <seg>Muchas gracias, señor Álvarez Sostres.</seg>
                <seg>Tiene la palabra el señor Salvador.</seg>
             </u>
@@ -184,7 +182,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u11" ana="#chair">
                <seg>Muchas gracias, señor Salvador.</seg>
                <seg>Ha solicitado la utilización del turno en contra de esta proposición de ley el Grupo Parlamentario de La Izquierda Plural. En su representación, tiene la palabra el señor Llamazares.</seg>
             </u>
@@ -205,7 +203,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u13" ana="#chair">
                <seg>Muchas gracias, señor Llamazares.</seg>
                <seg>Señor Castillo.</seg>
             </u>
@@ -218,7 +216,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos.-Un señor diputado: ¡Muy bien!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u15" ana="#chair">
                <seg>Muchas gracias, señor Castillo.</seg>
                <seg>Don Enrique Serrano.</seg>
             </u>
@@ -232,7 +230,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u17" ana="#chair">
                <seg>Muchas gracias, señor Serrano.</seg>
                <seg>Señor Llamazares.</seg>
             </u>
@@ -248,7 +246,7 @@
                <seg>Termino ya brevemente con los derechos ciudadanos. Cuando he hablado de la concepción del terrorismo, lo que decían que era el terrorismo, códigos penales anteriores, decían: acto de violencia política organizada y grave con capacidad de poner en peligro el sistema democrático, es decir, subvertir el orden constitucional, ese era el precepto que definía terrorismo. ¿Cómo se define ahora? Delito grave contra la vida o la integridad física, la libertad, la integridad moral, la libertad e indemnidad sexual, el patrimonio, los recursos naturales, el medio ambiente, la salud pública, el riesgo catastrófico, incendio, contra la Corona, atentado, desorden público, tenencia, tráfico y depósito de armas, municiones y explosivos, apoderamiento de aeronaves, buques y otros medios de transporte colectivos o de mercancías, cuando se llevara a cabo con cualquiera de las siguientes finalidades, ya no de acabar con el sistema democrático, además de desestabilizar gravemente el funcionamiento de la institución, de la estructura económica y social del Estado -económica y social-, de obligar a los poderes públicos a realizar un acto o abstenerse de él, de alterar gravemente la paz social&#x85; Señorías, si alguien sabe la concreción de este concepto de terrorismo que me lo diga. Todos somos terroristas. Según este planteamiento todos somos terroristas.<note>Aplausos</note> Como no lo somos todos, como no lo somos todos, no somos terroristas los republicanos, no somos terroristas los que nos movilizamos en la calle y no somos terroristas los que nos movilizamos contra los desahucios, como no lo somos todos, ustedes cometen el error de convertir terrorismo en disidencia y disidencia en terrorismo.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u19" ana="#chair">
                <seg>Muchas gracias, señor Llamazares.</seg>
                <seg>En turno de fijación de posiciones de los grupos, comenzamos por el Grupo Mixto. En primer lugar, tiene la palabra la señora Barkos.</seg>
             </u>
@@ -260,7 +258,7 @@
                <seg>Nos avanzaba el portavoz del Grupo Popular que efectivamente hoy aquí no estamos analizando la prisión continua revisable. Comparto la posición, es algo muchísimo más amplio. Hoy ustedes nos proponen, y otros decimos que no, una visión política que prima, a nuestro entender, el control de las libertades bajo el miedo a la inseguridad, y en esta posición -lo quiero subrayar- no hay ni tibieza ni mucho menos connivencia con el terrorismo, hay firmeza en no permitir en el debate seguridad y libertad, triunfen las tesis de quienes enfrentan ambos conceptos, porque ambos -lo reivindicamos una y otra vez- son necesarios en la construcción, en el mantenimiento y en el dibujo de una sociedad civilizada. Y la tensión que entre ambos se genera en momentos de alarma como el que seguramente estamos viviendo con altibajos además, pero desde hace ya unos cuantos lustros, exige precisamente otro tipo de respuesta a nuestro entender que la que hoy se nos está proponiendo. Nos dicen desde el Partido Socialista que este grupo parlamentario no ampara, no avala y no asume la prisión permanente revisable, es decir, la cadena perpetua. Pues no, pero la firma, con circunloquio legislativo, pero lo cierto es que hoy el Partido Socialista firma un sí a que se recupere esta pena. Señorías, un acuerdo que solo ha sabido trascender lo que realmente no es sino la implantación de la cadena perpetua no es un acuerdo eficaz, no garantiza ser un arma efectiva contra la violencia, contra el terrorismo yihadista en este caso. Un pacto que ha cargado el grueso de sus esfuerzos en la escenificación del encuentro entre los dos partidos mayoritarios de esta Cámara, en lugar de trabajar por el encuentro dentro y fuera de esta Cámara -quiero insistir en ello, dentro y fuera de esta Cámara, porque el tema lo requiere-, no es un buen pacto, y mucho menos, como algunos pomposamente pretenden llamarlo, un pacto de Estado. Esta propuesta que hoy nos hacen ni es lo ambiciosa que la ambición en torno a la seguridad debiera ser, ni lo valiente que la valentía en la defensa de la libertad también desde esta Cámara debemos proponer. Además, añado, ¿dónde está la memoria económica de este pacto, dónde están los medios para la prevención?<pb n="18"/> Termino ya, presidente. La oposición contra la violencia y contra el terrorismo es bastante mayor que ese 72 % que se nos ha dicho hoy apoyará esta proposición de ley. Así que creo que no es como para ponerse la medalla. Señorías, frente a la violencia hace falta el cien por cien.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u21" ana="#chair">
                <seg>Muchas gracias, señora Barkos.</seg>
                <seg>Señor Baldoví.</seg>
             </u>
@@ -272,7 +270,7 @@
                <seg>Acabo. Cuando el rey absolutista Fernando VII volvió de Francia, sus partidarios lo recibieron al grito de ¡vivan las cadenas! -lo recordaba hace unos días el jurista Martín Pallín-; y eso hizo, le puso una cadena a la Constitución de 1812. Ustedes hoy con esto le ponen una cadena a la Constitución, amordazan la democracia, reinstauran la cadena perpetua. No lo conseguirán.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u23" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Señora Fernández.</seg>
             </u>
@@ -283,7 +281,7 @@
                <seg>Señorías, anuncio el voto negativo del Bloque Nacionalista Galego a la toma en consideración de esta proposición de ley por varias razones; por la forma y por el fondo, pero sobre todo por el fondo. En relación con actividades y actos terroristas, como han señalado incluso fuentes del ámbito judicial, con la legislación actual se podrían llevar a cabo las actuaciones que se pretenden con esta propuesta, mientras que con este glorioso pacto que han firmado los dos grandes partidos no se habla de ningún de tipo de medidas destinadas a la prevención. Por otro lado, con la definición tan amplia que se hace en el artículo 573 del concepto de delito de terrorismo, puede llegar a acusarse de tal a cualquier grupo o persona que convoque o participe en movilizaciones sociales o haga declaraciones que, no teniendo nada que ver con terrorismo, no sean del gusto o interés de quien gobierna. Por poner un ejemplo, una simple manifestación frente al Congreso como las que ya ha habido. Realmente, el Partido Popular y el PSOE deberían explicar con mayor claridad el objetivo de este pacto. Pacto de Estado, dicen ustedes. ¿Cuál es el bien social que va a reportar a los ciudadanos y ciudadanas este acuerdo? ¿Realmente le va a aportar mayor seguridad o le va a recortar más derechos y libertades? ¿O acaso, señores del PP y del PSOE, el objetivo sea profundizar en el miedo ciudadano, de tal manera que se puede estar dispuesto a justificar la falta de derechos y libertades en aras de una mayor seguridad, típica posición, por cierto, de sociedades amedrentadas de tal forma que incluso están dispuestas a justificar la pena de muerte? Profundizar en el miedo, señorías, no lleva a nada bueno; el miedo es la antesala de la cobardía y, amparándose en la cobardía, la condición humana manifiesta más sus miserias que sus<pb n="19"/> generosidades. Por eso, como legisladores, deberíamos estar preocupados y no acomodados, como parece que están los dos grupos mayoritarios, con las encuestas que indican que una mayoría de ciudadanos están de acuerdo con la cadena perpetua aprobada hace unas semanas y que esta proposición de ley ratifica. Eso significa, señorías, estar más de acuerdo con un sistema penal vengativo, no rehabilitador, que con un sistema que aplique justicia desde la razón frente a la irracionalidad de quien delinque. Señores del PP y del PSOE, yo diría que lo que han hecho ustedes es un paripé de Estado, lo que han hecho, señorías, de alguna manera, es escenificar su predisposición o disposición mejor dicho a defender un bipartidismo que socialmente ya está caducado. Por tanto, seguimos manifestando nuestra posición contraria a la toma en consideración de esta proposición de ley.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u25" ana="#chair">
                <seg>Muchas gracias, señora Fernández.</seg>
                <seg>Tiene la palabra ahora el señor Tardà.</seg>
             </u>
@@ -294,7 +292,7 @@
                <seg>Señorías, vaya por delante el asco que nos provoca el yihadismo, causante de dolor, muerte y barbarie, y vaya por delante también el asco que nos provoca la actuación de los Estados que lo alimentaron para satisfacer la venta de armas y sus intereses geopolíticos. Nuestra total condena, pues, al yihadismo, pero el pacto Partido Popular-Partido Socialista es un monumento al cinismo, porque ustedes saben que solo será eficaz en la prevención si las democracias dejan de ser el brazo armado de los grandes grupos de capital que expolian los recursos naturales de los territorios originarios del conflicto -Irak, Afganistán, Libia- y se actúa también allí a favor de la población excluida y pobre, susceptible de enrolarse en esta locura. Además, este pacto es un monumento a la mentira, porque saben que no existe relación entre yihadismo y orden constitucional. ¿A qué viene, pues, hablar de subvertir el orden constitucional? Yo se lo diré. Cada vez que firman un pacto antiterrorista quedan las libertades más amenazadas. ¿Nos lo van a aplicar a nosotros, los catalanes, si democráticamente decidimos independizarnos? Este pacto es igualmente un monumento a la irresponsabilidad. ¿Por qué se niegan a que los Mossos d&#x92;Esquadra, policía integral, estén representados en Interpol y Europol? Si la seguridad de los ciudadanos es tan prioritaria, ¿por qué ponen en riesgo la seguridad de los ciudadanos catalanes prohibiendo que los Mossos d&#x92;Esquadra se integren en estos organismos? Asimismo, es un monumento a la vergüenza, porque el Partido Popular lo aprovecha para blindar la cadena perpetua y ustedes, los socialistas, se la comen, aun cuando tengan que prostituir su ideario político. ¿Saben por qué se la comen? Porque están construyendo la pista de aterrizaje para la gran coalición, porque este pacto un monumento a Maquiavelo. Señores socialistas, no nos vuelvan a llamar nunca más. Son unos trileros políticos. Hace año y medio el señor Rubalcaba nos convocó a todos y firmamos solemnemente un pacto para derogar la Lomce en el momento que pudiéramos, cuando hubiera un cambio en la correlación de fuerzas de este Parlamento, y ustedes, veinticuatro horas después de firmar este pacto antiterrorista, se dirigieron al Partido Popular solicitándoles un pacto de Estado de educación. Esto es jugar a ser trileros. Ustedes pactaron con nosotros -con el señor Duran, con el señor Esteban y con todos los dirigentes políticos; yo mismo firmé en nombre de Esquerra Republicana de Catalunya- un compromiso para derogar la Lomce; sin embargo, veinticuatro horas después de firmar este mal llamado pacto de Estado antiterrorista, que va contra las libertades, ustedes solicitan al Partido Popular pactar aquello que ya pactaron con nosotros: derogar la maldita ley Wert. Así pues, no nos vuelvan a llamar, porque ustedes cada vez se parecen más a ellos. Cánovas y Sagasta, los dos caciques y conservadores. No nos vuelvan a llamar.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u27" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Tiene ahora la palabra el señor Errekondo.</seg>
             </u>
@@ -306,7 +304,7 @@
                <seg>Voy acabando, señor presidente. Aunque el Estado, ciego en su trinchera, pretenda impedirlo, es la hora de la voluntad popular, la hora de la solución de los problemas sociales y territoriales, la hora de que sean los ciudadanos quienes decidan democráticamente sobre todas sus cuestiones, y la represión, señoras y señores del PP y del PSOE, no lo van a parar, porque ahora es el momento, porque se avecinan cambios profundos y porque nosotros trabajaremos para que en nuestro país este cambio sea una realidad.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u29" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u29" ana="#chair">
                <seg>Muchas gracias, señor Errekondo.</seg>
                <seg>En este mismo turno de fijación de posiciones, tiene la palabra ahora, por el Grupo Vasco, PNV, el señor Olabarría.</seg>
             </u>
@@ -611,7 +609,7 @@
                <seg>En definitiva, y para terminar, le pedimos un plan de acción concreto, consensuado, en el que todos los agentes implicados se sientan comprometidos, coordinados y con dotación presupuestaria, con plazos y con presupuesto, algo que no ocurre en estos momentos. Con nuestras enmiendas no pretendemos volver a empezar un proceso, sino corregirlo, complementarlo y convertirlo en una verdadera apuesta por la industria y por el futuro de este país.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u67" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u67" ana="#chair">
                <seg>Muchas gracias, señora Blanquer.</seg>
                <seg>En turno de fijación de posiciones, por el Grupo Mixto, el señor Tardà.</seg>
             </u>
@@ -622,7 +620,7 @@
                <seg>Señorías, hoy ustedes aquí nos hablan de fortalecimiento del desarrollo industrial, nos hablan de recuperación económica, nos hablan de racionalidad y de coordinación económica e industrial. Pues bien, yo hoy les hablaré de otras realidades. Ustedes son incapaces de plantar cara a las multinacionales que deslocalizan sin ningún tipo de responsabilidad social, aun cuando estas empresas trasnacionales hayan recibido subvenciones públicas, créditos públicos a bajo interés, beneficios múltiples de todas las administraciones, etcétera. La pregunta es: ¿dónde esta la racionalidad? No existe. Solo existen dos víctimas: por un lado, los trabajadores y, por otro, la desertización industrial.</seg>
                <seg>No obstante, hay otra realidad: la falta de planificación y de coordinación, cuando no la deslealtad institucional o la guerra sucia. Fíjense<note>muestra un cartel en catalán</note> , Anovo Euroterminal, una empresa de L&#x92;Hospitalet de Llobregat, una empresa puntera dedicada a la reparación de teléfonos móviles con más de un centenar de trabajadores, a la calle. Y, ¿saben por qué? Porque en esta empresa -repito, una empresa que ha desarrollado tecnología- ahora hay alguien que desde Madrid ha decidido -Anovo Central y Orange, atención Orange- deslocalizar y recentralizar la producción en Madrid. Toda la actividad de la empresa, nacida -repito- en L&#x92;Hospitalet de Llobregat, deslocalizada a Madrid y las autoridades mirando hacia otra parte. ¿Qué sentido tiene esta descapitalización? ¿Qué sentido tiene esta recentralización de la mano de Orange, repito? ¿No habíamos quedado, desde la Administración española también, en que se apostaba para que Barcelona y su área metropolitana se convirtieran en un pool de referencia en todo aquello que atañe a las nuevas tecnologías relacionadas con la telefonía móvil? ¿No se celebra en Barcelona el Mobile World Congress? ¿A qué viene este ataque permitido desde la Administración española, y quizá fomentado desde Madrid? ¿Cuál es la operación de calado que hay detrás de todo ello? ¿Acaso dinamitar el sector de la telefonía móvil en Cataluña? ¿Esta es la operación<pb n="43"/> de calado? Les instamos a moverse, no permitan, no toleren o dejen de facilitar esta irracionalidad. Queremos hacer también un llamamiento a todos los trabajadores, a los ciudadanos españoles. Nosotros los catalanes hemos sido muy solidarios<note>Muestra el mismo cartel</note> Yo mismo desde esta tribuna he llamado a la solidaridad con los trabajadores madrileños de Coca-Cola. Creo que hemos demostrado nuestra solidaridad activa; ahora lo que pretendemos es que también se sea solidario desde Madrid, porque la causa de los trabajadores de Madrid es la causa de los trabajadores catalanes. Nadie puede poner en duda este axioma.<note>Pronuncia palabras en catalán</note> Que coja el toro por los cuernos y que no permita esta deslocalización salvaje e irracional.<note>Continúa su discurso en catalán</note> Este es nuestro llamamiento. Así pues&#x85;<note>Termina su intervención en catalán</note> Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u69" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Por el Grupo Vasco, PNV, tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -633,7 +631,7 @@
                <seg>Señores del PP, como saben, la industria en Euskadi tiene un peso relativo y una relevancia muy superior a la media del Estado. La tradición industrial, la formación y cualificación de los trabajadores, el compromiso empresarial de décadas, el papel activo de las instituciones públicas, el apoyo e impulso a la I+D+i, a la internacionalización, la utilización de la fiscalidad en beneficio de la actividad empresarial y un largo etcétera, forman parte de una cultura muy arraigada, un quehacer y una experiencia que no se improvisan de la noche a la mañana. Por lo tanto, para el cambio, el impulso y para fortalecer la industria hace falta voluntad, sí, pero también capacidad, de lo contrario, las ideas pueden quedarse en agua de borrajas. ¿No se dan cuenta, señores del Partido Popular, que si aplicamos el objetivo del 20 %, por ejemplo en Euskadi tendríamos que desinvertir en la industria, dar marcha atrás, es decir, perder peso en la economía? Tampoco quieren enterarse de que las competencias en política industrial están en manos de las comunidades autónomas y de que además no puede ser de otra manera. No es posible instrumentar medidas de política industrial de arriba abajo al margen de la realidad local; si se empeñan en ello despilfarrarán recursos y nada conseguirán en el campo industrial. Tan solo la actuación desde el terreno, conociendo perfectamente los resortes, las fortalezas, las carencias, las debilidades, utilizando los cauces existentes, etcétera, tan solo así será posible implementar una política industrial exitosa. Lo hemos dicho en multitud de ocasiones y lo seguiremos diciendo cuantas veces haga falta: si quieren ser eficaces, trasladen sus preocupaciones e ideas a las comunidades autónomas. No pretendan descubrir el Mediterráneo que, por cierto, ya está descubierto hace muchos años. En Euskadi venimos trabajando en materia de política industrial desde hace muchísimos años, desde que recuperamos las instituciones de autogobierno. Además, es competencia, como le decía, tanto del Gobierno como de las diputaciones forales actuar en el campo industrial.</seg>
                <seg>Señorías, si revisan su enfoque; si cambian de orientación, tal y como también les ha sugerido el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , podrían contar con nuestro grupo, con nuestras ideas y con nuestro trabajo. Si por el contrario lo único que pretenden es hacer publicidad y propaganda, tal y como sospecho, haciendo propuestas de carácter electoralista -a estas alturas de la legislatura, que también se ha dicho-, no cuenten con nosotros. Sé que las tentaciones electoralistas pueden ser muy fuertes, pero les pediría que no generen expectativas fraudulentas en la población, que está esperando medidas eficaces para salir de la profunda crisis en la que aún nos encontramos. Si reconocen la realidad territorial, si respetan el marco competencial y si a partir de ahí pretenden impulsar y colaborar en el desarrollo de una política eficaz, nos encontrarán. Mientras tanto, no estamos para perder el tiempo. Votaremos que no a esta iniciativa del Grupo Parlamentario Popular precisamente porque consideramos que la política industrial es muy importante para consolidar el crecimiento económico que se precisa. Tan<pb n="44"/> solo si aceptan algunas de las enmiendas, que podría ser la de Convergència i Unió, el respeto al ámbito competencial, y ponderaran su iniciativa con los contenidos que otros grupos parlamentarios han propuesto, tan solo en ese caso, si nos parecen razonables, llegaríamos a la abstención.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u71" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia, tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -646,7 +644,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u73" ana="#chair">
                <seg>Gracias, señor Martínez Gorriarán.</seg>
                <seg>Señor García Egea, ¿acepta su grupo alguna de las enmiendas?</seg>
             </u>
@@ -655,12 +653,12 @@
                ana="#regular">
                <seg>Estamos preparando una transaccional.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u75" ana="#chair">
                <seg>Muy bien, muchas gracias.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE EL PLAN DE ACCIÓN DEL SISTEMA NACIONAL DE SALUD FRENTE A LA HEPATITIS C.</seg>
                <note>Número de expediente 162/001126</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u76" ana="#chair">
                <seg>Vamos a ver ahora la proposición no de ley del Grupo Socialista sobre el plan de acción del Sistema Nacional de Salud frente a la hepatitis C. Este será el último punto que debatiremos esta tarde.</seg>
                <seg>Para la presentación de la iniciativa, tiene la palabra el señor Martínez Olmos.</seg>
             </u>
@@ -672,7 +670,7 @@
                <seg>Señorías, pocas veces en medicina nos encontramos con la posibilidad de disponer de unos fármacos o de unas terapias para poder curar una enfermedad grave; cuando eso sucede, estamos prácticamente ante una especie de milagro de la medicina y, cuando eso ocurre, es lógico que los profesionales de la medicina y de la enfermería, que la sanidad y que los pacientes vean con enorme expectación y esperanza la aparición de esas nuevas terapias que pueden ser, como decía, una especie de milagro. Los pacientes lógicamente se impacientan si ven que no hay respuesta a sus necesidades cuando los médicos deciden que tienen derecho a una terapia para tener la esperanza de salvar la vida, mejorar o curar esta enfermedad. ¿Qué ha pasado? Pues que el Gobierno ha sido cicatero en los planteamientos que ha hecho en relación con la hepatitis C durante muchos meses; ha desatendido la reivindicación que hacían mi grupo parlamentario y otros grupos, las sociedades científicas médicas y las propias asociaciones de pacientes. Lo ha hecho de una manera que no tiene explicación alguna y nos ha hecho perder un tiempo precioso. Mi grupo parlamentario cree imprescindible poner en marcha un plan a nivel nacional para que el conjunto del Sistema Nacional de Salud ofrezca garantías a los pacientes de que se va a hacer prevención cuando se pueda, detección precoz cuando sea necesaria, atención sanitaria con las nuevas terapias que el mercado pone a nuestra disposición cuando la evidencia científica así lo determine y los médicos, por tanto, así lo decidan y que para que eso sea una realidad existen los recursos y la financiación necesarios. Y aquí nos encontramos con una cuestión que está generando un debate importante, trascendente, no solamente en España sino a nivel internacional: el precio de estas terapias es injustificable, injustificable. No se puede justificar que el precio de una terapia llegue a alcanzar los 40.000, 50.000 o 60.000 euros, máxime cuando estas son terapias que se van a ir aplicando en el conjunto de la Unión Europea y en otros países, cuando vamos a aspirar en nuestra acción en el ámbito internacional a que sean terapias que lleguen a todo el globo terráqueo y, por tanto, cuantos más pacientes puedan ser atendidos más posibilidades de que el coste unitario sea menor. Hacemos aquí un llamamiento a las compañías farmacéuticas que tienen que hacer un esfuerzo para explicar por qué estos son los precios que quieren imponer para estas nuevas terapias, que suponen en la práctica una dificultad de acceso para pacientes de muchos países. Pero, dicho eso, el Gobierno no ha negociado bien el precio de estas terapias. Señorías, yo les anticipo que dentro de poco vamos a tener precios menores de estas terapias, entre otras cosas porque el Gobierno no se había comprometido a hacer un abordaje como tiene que ser. Todos los pacientes de hepatitis C que estén en los registros de las comunidades autónomas, todas las personas que detectemos tienen que tener una respuesta en un plan, tienen que tener una respuesta planificada, decidida en función de la evidencia científica, ordenada en función de criterios clínicos, y eso les ofrece una esperanza a los ciudadanos, les ofrece una esperanza a los pacientes, pero también ofrece un arma poderosa al Gobierno para definir el precio adecuado de esas nuevas terapias con las compañías farmacéuticas. Así lo hemos venido haciendo siempre en el Sistema Nacional de Salud y eso no ha comprometido la viabilidad de la sostenibilidad de la sanidad pública española. Por eso, señorías, nosotros planteamos en nuestra proposición no de ley desarrollar ya el plan nacional de hepatitis C. Asimismo, proponemos una cuestión que es vital: no se le puede decir a la gente que vamos a hacer un plan para todos, que vamos a garantizar que todos los pacientes que tengan necesidad de nuevas terapias según la evidencia clínica y la decisión de sus pacientes van a acceder a esas nuevas terapias si no hay garantía de financiación. No es tiempo de juegos florales, no es tiempo de articulaciones por escrito que parece que pueden dar una garantía que luego no es una garantía real. Es tiempo de estar con la gente, es tiempo de asegurar que las personas en España van a poder beneficiarse de sus derechos y de una supuesta recuperación económica que le tiene que llegar al conjunto de los ciudadanos. Por eso vamos a insistir, vamos a defender en todos los lugares que los ciudadanos, los pacientes van a tener respuesta sí o sí, porque no se puede aceptar otro planteamiento.<pb n="46"/> Hemos recibido, señor presidente, una serie de enmiendas de los grupos parlamentarios, y yo anticipo que vamos a poder aceptar propuestas que nos han hecho el Partido Nacionalista Vasco, Izquierda Unida, UPyD, que les vamos a presentar un texto para su votación. Desgraciadamente, no hemos podido llegar a un acuerdo con el Partido Popular, yo reconozco que lo han intentado, pero la falta de compromiso de financiación para un plan como éste sinceramente impide, en el momento en el que estamos, un acuerdo que la gente entendería que no les da garantías y no estamos para no resolver los problemas de manera definitiva. Por lo tanto, señorías, mi grupo parlamentario hace ese planteamiento, abre la mano, quiere que vayamos todos juntos, sería una buena señal que los ciudadanos vieran que, efectivamente, el Gobierno rectifica, pone en marcha las medidas que tuvo que adoptar y de alguna manera también me gustaría que pidieran disculpas por ese retraso porque nos ha costado mucho sufrimiento, sobre todo a los pacientes, algo de salud y algunas vidas.</seg>
                <seg>Muchísimas gracias, señorías.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u78" ana="#chair">
                <seg>Muchas gracias, señor Martínez Olmos.</seg>
                <seg>Se han formulado en efecto enmiendas y para su defensa, en primer lugar, por el Grupo Vasco, PNV, tiene la palabra el señor Agirretxea.</seg>
             </u>
@@ -686,7 +684,7 @@
                <seg>Por último, planteamos un tercer punto que es que el papel de las comunidades autónomas en el proceso de negociación y fijación de precios de los medicamentos es actualmente de carácter testimonial. Teniendo en cuenta que las comunidades autónomas son las que financian el coste de los medicamentos en el tratamiento de los pacientes, sería deseable, recomendable incluso, una mayor participación en el proceso de decisión. Por ello, instamos al Gobierno central, a través del Ministerio de Sanidad, a desarrollar<pb n="47"/> un proceso normativo que garantice la participación efectiva de la Comunidad Autónoma de Euskadi en este caso en el proceso de negociación de precios de los medicamentos. Y preguntarán otros: ¿Y por qué no en otras comunidades? Estamos de acuerdo en que cada una lo pida, porque quizá algunas no quieren participar y, según los estatutos, Euskadi y Cataluña, las primeras que tenían la competencia, eran competentes en esa materia. Por tanto, yo, como represento a los ciudadanos de Euskadi, pido que la Comunidad Autónoma de Euskadi participe ahí y si otras comunidades quieren hacerlo que lo soliciten también, porque esta fórmula que se ha ultimado de que de forma rotatoria estén dos testimonialmente, no nos convence en absoluto. Nosotros queremos estar y pedimos que se desarrolle una norma para poder articular esa presencia. Esto además no es nuevo. Mi grupo lo ha solicitado siempre, a este y a otros Gobiernos, incluso alguna ministra adquirió un compromiso con mi grupo para conseguir eso; para nada. La palabra, como tantas otras veces, se la llevó el viento. Solo responden algunos grupos a los acuerdos cuando están pillados. Esa es la realidad.</seg>
                <seg>Como veo que se me acaba el tiempo, quiero decir que ante este problema ha habido mucho eco mediático. En Euskadi solo en este mes de enero ha habido alrededor de 120 pacientes nuevos tratados con los nuevos medicamentos de la hepatitis C. Semanalmente van entrando nuevos fármacos. Es falso que para el tratamiento de la hepatitis C solo haya un único fármaco y que antes de este medicamento no se estuviera tratando la hepatitis C.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u80" ana="#chair">
                <seg>Señor Agirretxea, tiene usted que acabar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u81"
@@ -696,7 +694,7 @@
                <seg>Por tanto, cierro con una frase del consejero de Salud del Gobierno vasco que decía en una misma sentencia dos cuestiones. No solo Sovaldi cura la hepatitis C y nunca dejaremos a nadie sin tratamiento. Eso está ocurriendo en Euskadi y espero que pase en otros lugares también.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u82" ana="#chair">
                <seg>Muchas gracias, señor Agirretxea.</seg>
                <seg>Para la defensa de la enmienda del Grupo de Unión Progreso y Democracia, tiene la palabra el señor Cantó.</seg>
             </u>
@@ -709,7 +707,7 @@
                <seg>La organización de Médicos del Mundo, que considero que en esta ocasión me defiende y me representa mucho mejor que ustedes, ha hecho algo muy distinto. Se lo voy a explicar. Lo que han hecho no es imposible, porque se ha hecho en Brasil y en India. Están impugnando la validez de una patente, ¿saben por qué? Por abuso manifiesto, que es lo que está sucediendo ahora, porque el precio es excesivo, porque la desigualdad que genera es injustificable, ya que en algunos países el precio de este medicamento puede doblar el que se presenta en otros. ¿Saben ustedes lo que pasaría a costar este medicamento si ustedes estuvieran haciendo lo que ha hecho estas ONG? 88 euros. Además, Médicos del Mundo aduce que esta molécula no es lo suficientemente novedosa como para patentarla. ¿Para quién trabajan ustedes, señores del Partido Popular, para los ciudadanos que están afectados por esta enfermedad o para el laboratorio que va a hacer el negocio del siglo con ella. ¿Para quién trabajan ustedes? Porque estamos hablando ni más ni menos que de una limitación de los derechos humanos, y mientras tanto ¿qué hacen ustedes? Ustedes se limitan, como siempre, a elaborar un plan estratégico, cuyo primer borrador todavía no está listo. Yo hablé de este tema con ustedes hace ya meses en la Comisión pertinente y el borrador todavía no está listo. ¿A qué esperan, señores del Partido Popular? Como siempre, ustedes vuelven a ofrecer solo palabras, porque una vez más no se han comprometido con un fondo extraordinario que acompañe este plan. De nuevo nos presentan ustedes palabras vacías, propuestas sin acompañamiento presupuestario. Una vez más palabras vacías, señores del Partido Popular, que en este caso no curan. Les vuelvo a decir que nosotros y los enfermos de hepatitis C merecemos un Gobierno mucho mejor que el que ustedes nos están dando.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u84" ana="#chair">
                <seg>Gracias, señor Cantó.</seg>
                <seg>Por el Grupo de La Izquierda Plural y para presentar su enmienda, tiene la palabra el señor Llamazares.</seg>
             </u>
@@ -721,7 +719,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u86" ana="#chair">
                <seg>Muchas gracias, señor Llamazares.</seg>
                <seg>Para presentar la enmienda del Grupo Parlamentario Popular, tiene la palabra la señora Angulo.</seg>
             </u>
@@ -734,7 +732,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u88" ana="#chair">
                <seg>Muchas gracias, señora Angulo.</seg>
                <seg>En turno de fijación de posiciones, en primer lugar, por el Grupo Parlamentario Mixto, tiene la palabra el señor Baldoví.</seg>
             </u>
@@ -747,7 +745,7 @@
                <seg>Acabo. Por supuesto apoyamos todas las medidas tendentes a negociar un precio razonable y asequible. Nos jugamos la vida. Por tanto, desde Compromís Equo anunciamos nuestro apoyo a esta medida.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u90" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.<note>Rumores</note> Ruego un poco de silencio, por favor.</seg>
                <seg>Por el Grupo Parlamentario Mixto, tiene la palabra la señora Pérez.</seg>
             </u>
@@ -759,7 +757,7 @@
                <seg>Señorías, desde que la Agencia Europea del Medicamento aprobó el Sovaldi en enero de 2014, pasó casi un año hasta que el medicamento se aprobó y se incluyó en la cartera de servicios del Sistema Nacional de Salud y hasta que se publicó el IPT. Después de un año, todavía en enero el ministerio decide constituir un comité de expertos para elaborar un plan estratégico para abordar la hepatitis C, que según el propio ministro no acabará su trabajo hasta el mes de abril. Señorías, hablamos de vidas humanas y la situación que este Gobierno ha generado no se entiende ni desde el punto de vista sanitario ni tampoco desde el punto de vista humano, porque en esta enfermedad el factor tiempo es absolutamente crucial y miles de personas no solo siguen empeorando sino que fallecen. Este es un caso de emergencia y el Gobierno, mientras crea comités de expertos y dilata cada vez más el tiempo, se dedica a ser cómplice de la industria farmacéutica, que juega con la salud y la vida de muchas personas para obtener beneficios, recortando, desmantelando y privatizando la sanidad pública. Para el BNG es prioritario que se atiendan de inmediato los casos más graves, a fin de evitar más muertes. No son momentos de estar esperando<pb n="51"/> resultados y análisis de expertos, son momentos que requieren actuaciones inmediatas. Que se garantice ya el tratamiento a las personas que se encuentran en peor situación y bajo criterios estrictamente médicos y no en función del techo económico fijado por el Gobierno. Se ha actuado, señorías, con vertiginosa diligencia para rescatar bancos, para recortar hasta la saciedad -termino, señor presidente-, para dar amnistías fiscales y para defender, por parte del Partido Popular, la vida de los todavía no nacidos. Exigimos la misma diligencia o mucha más para evitar que sigan falleciendo afectados de la hepatitis C.</seg>
                <seg>Gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u92" ana="#chair">
                <seg>Gracias, señora Pérez.</seg>
                <seg>Tiene la palabra ahora el señor Cuadra.<note>Rumores</note> Ruego un poco de silencio, por favor.</seg>
             </u>
@@ -768,7 +766,7 @@
                ana="#regular">
                <seg>Señoras y señores, en primer lugar, quisiera saludar la firme y digna lucha llevada a cabo por todos los enfermos y enfermas de hepatitis C en Nafarroa, en Euskal Herria y en el conjunto del Estado; una lucha en defensa de su salud y para evitar que se subordine la misma a la política cicatera del Gobierno del PP y a la falta de escrúpulos de las multinacionales farmacéuticas. Quisiera hablar de la farmaindustria, de lo que en justicia debería ser llamado farmaciaindustria. Digo esto porque es un auténtico crimen social que debería ser perseguido por la justicia que una multinacional como Gilead, amparada por una legislación sobre patentes que vulnera claramente los derechos humanos, cobre a la sanidad pública española, como ya se ha dicho, 25.000 euros por cada tratamiento, cuando en la práctica su producción únicamente vale 100 o 150. Hace un par de horas hemos discutido el llamado pacto antiyihadista y que yo llamaría antidisidencia política y social, en el que se define como terrorista cualquier delito grave -se dice- contra la salud pública. Pues bien, ¿por qué no se aplica este acuerdo que llaman antiterrorista a estas multinacionales que ponen sus intereses por encima de los de 900.000 personas que hoy se encuentran en el Estado español padeciendo esta enfermedad? ¿Por qué se deja en manos privadas por parte de este y de anteriores Gobiernos la investigación médica y farmacéutica en general y no se impulsa esta desde la Administración pública? ¿Por qué desde los hospitales y los centros de salud no se dispensan los medicamentos que estos mismos recetan y se deja toda la distribución y toda la venta en manos de la industria privada? ¿Por qué se vacía de competencias y de dinero a la Organización Mundial de la Salud para que esta no pueda implementar prácticamente plan alguno ni contra esta ni contra otras enfermedades, todo ello con el objetivo de que campeen a sus anchas las multinacionales farmacéuticas? ¿Por qué se pueden expropiar terrenos para autovías, para los coches, y sin embargo no se pueden expropiar patentes que pueden solucionar los problemas médicos de millones de personas? ¿Por qué, en definitiva, la salud está dependiendo de los intereses del capital de las multinacionales, y no de los intereses y de las necesidades de la propia población afectada?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u94" ana="#chair">
                <seg>Muchas gracias, señor Cuadra.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió, tiene la palabra la señora Tarruella.</seg>
             </u>
@@ -780,7 +778,7 @@
                <seg>En el último consejo interterritorial hubo un acuerdo entre todos los consejeros y el Gobierno para hacer un plan estratégico para la hepatitis C y para que llegara a todos los pacientes que -vuelvo a repetir-, con criterios científicos, se les deba suministrar. Este es el caso de Cataluña. En Cataluña, incluso, hemos ido un punto más allá de lo que dice el Plan estratégico nacional. En Cataluña, hasta el momento, han sido tratadas ya más de seiscientas personas con hepatitis C, y algunos casos muy particulares en los que, según el criterio médico, debía hacérseles llegar, y se ha dado también a enfermos no solo del grupo F4 -como dicen esos protocolos-, sino que también se ha dado a enfermos con F2 y F3.<pb n="52"/> Nuestro grupo parlamentario, Convergència i Unió, no ha presentado ninguna enmienda a esta proposición no de ley porque en su espíritu recoge lo que hemos estado diciendo, no ahora sino otras veces también, respecto de elaborar ese plan de acción sobre la hepatitis C. He oído a la representante del Grupo Popular que se está tratando ya a más de 4.000 enfermos de hepatitis C; por supuesto, y todos los que sean necesarios, pero son las comunidades autónomas quienes están tratando y son las comunidades autónomas las que están pagando ese tratamiento. Por eso, coincidimos también con el punto 2 de esta proposición no de ley en el sentido de que debe incorporarse una partida; aquí pone en el Fondo de cohesión social, pero a nosotros no nos importa que sea en este fondo, en el FOGA o que se cree una partida específica para esto, da igual, pero lo que sí sabemos es que en el contexto en el que estamos, la Agencia Europea del Medicamento es quien aprueba los medicamentos y el ministerio es el responsable de negociar ese precio de los medicamentos, pero en realidad son las comunidades autónomas quienes los compran y quienes los pagan. Nosotros volvemos a pedir aquí ese fondo específico para las comunidades autónomas, donde se deben financiar estos nuevos tratamientos y todos los medicamentos innovadores por primera vez.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u96" ana="#chair">
                <seg>Perdón, señora Tarruella.</seg>
                <seg>Por favor, ruego silencio para que podamos oír a la interviniente.</seg>
             </u>
@@ -790,7 +788,7 @@
                <seg>En noviembre de 2013 ya discutimos una proposición no de ley, donde pedíamos esas partidas específicas para las comunidades autónomas. Entonces, el ponente del Grupo Popular nos dijo que no hacía falta, que eso ya estaba en el FOGA. Me hablaba del FOGA en el año 2013, cuando, a día de hoy, todavía no se ha puesto en marcha este fondo de garantía asistencial. Pónganlo donde quieran, pero es importante que ayuden a las comunidades autónomas, que son las que están dando la cara, que son las que están atendiendo a los pacientes, que son las que están haciendo que les lleguen estos medicamentos y estos tratamientos a todos los pacientes que lo necesiten y que ninguno se quede sin él. Por tanto, desde Convergència i Unió vamos a apoyar esta proposición no de ley, y más después de haber anunciado el señor Olmos que acepta parte de las enmiendas del Grupo Nacionalista Vasco, con el cual también coincidimos en que las comunidades autónomas tienen que tener una parte importantísima, imprescindible en estas negociaciones en cuanto al precio de los medicamentos.</seg>
                <seg>Muchas gracias, señorías.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u98" ana="#chair">
                <seg>Muchas gracias, señora Tarruella.</seg>
                <seg>Señor Martínez Olmos, aunque ya lo ha dicho, por lo que veo, hay una transaccional.</seg>
             </u>
@@ -800,7 +798,7 @@
                <seg>Efectivamente, presidente. Hay una transaccional que hemos presentado con el apoyo de los grupos a los que se les han aceptado las enmiendas.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u100" ana="#chair">
                <seg>Muchas gracias, señor Martínez Olmos.</seg>
                <seg>En dos minutos vamos a votar.</seg>
                <note>Pausa</note>
@@ -808,45 +806,45 @@
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DE LOS GRUPOS PARLAMENTARIOS POPULAR EN EL CONGRESO Y SOCIALISTA, Y DEL SEÑOR SALVADOR, SEÑORA ORAMAS Y SEÑOR ÁLVAREZ SOSTRES , ORGÁNICA POR LA QUE SE MODIFICA LA LEY ORGÁNICA 10/1995, DE 23 DE NOVIEMBRE, DEL CÓDIGO PENAL, EN MATERIA DE DELITOS DE TERRORISMO.</head>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u101" ana="#chair">
                <seg>Votación de la toma en consideración de la proposición de ley de los Grupos Popular, Socialista, y del señor Salvador, señora Oramas y señor Álvarez Sostres, orgánica por la que se modifica la Ley orgánica 10/1995, de 23 de noviembre, del Código Penal, en materia de delitos de terrorismo. Hay tres votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 333 más 3 votos telemáticos, 336; a favor, 288 más 3 votos telemáticos, 291; en contra, 32; abstenciones, 13.</seg>
                <pb n="53"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u102" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Votamos a continuación la tramitación directa y en lectura única de esta proposición de ley orgánica. Han sido emitidos tres votos telemáticos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326 más 3 votos telemáticos, 329; a favor, 299 más 3 votos telemáticos, 302; en contra, 21; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u103" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO CATALÁN<note>CONVERGÈNCIA I UNIÓ</note> , SOBRE TERRITORIALIZACIÓN DEL RENDIMIENTO DEL 0,7 % DEL IRPF DESTINADO A OTROS FINES DE INTERÉS SOCIAL, INCLUIDOS LOS DE CARÁCTER MEDIOAMBIENTAL.</seg>
                <note>Número de expediente 122/000023</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u104" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo Parlamentario Catalán<note>Convergència i Unió</note> , sobre territorialización del rendimiento del 0,7 % del IRPF destinado a otros fines de interés social, incluidos los de carácter medioambiental. Hay dos votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326 más 2 votos telemáticos, 328; a favor, 35; en contra, 187 más 2 votos telemáticos, 189; abstenciones, 104.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u105" ana="#chair">
                <seg>Queda rechazada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY - DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, SOBRE EL FORTALECIMIENTO DE LA INDUSTRIA EN ESPAÑA.</head>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u106" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u106" ana="#chair">
                <seg>Proposición no de ley del Grupo Parlamentario Popular en el Congreso, sobre el fortalecimiento de la industria en España. Hay una transaccional que conocen sus señorías, que es la que vamos a votar.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 325; a favor, 298; en contra, 16; abstenciones, 11.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u107" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u107" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE EL PLAN DE ACCIÓN DEL SISTEMA NACIONAL DE SALUD FRENTE A LA HEPATITIS C.</seg>
                <note>Número de expediente 162/001126</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u108" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u108" ana="#chair">
                <seg>Proposición no de ley del Grupo Socialista, sobre el Plan de acción del Sistema Nacional de Salud frente a la hepatitis C. Hay una transaccional que conocen sus señorías y es la que vamos a votar.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 333; a favor, 147; en contra, 179; abstenciones, siete.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-10-CD150210.u109" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las nueve y diez minutos de la noche.</seg>

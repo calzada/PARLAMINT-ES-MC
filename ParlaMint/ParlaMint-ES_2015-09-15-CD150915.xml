@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="425">425 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="425" xml:lang="es">425 speeches</measure>
+            <measure unit="speeches" quantity="425" xml:lang="en">425 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -75,7 +77,7 @@
                <tagUsage gi="head" occurs="1"/>
                <tagUsage gi="pb" occurs="140"/>
                <tagUsage gi="u" occurs="425"/>
-               <tagUsage gi="lb" occurs="1431"/>
+               <tagUsage gi="seg" occurs="1431"/>
                <tagUsage gi="note" occurs="376"/>
             </namespace>
          </tagsDecl>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>DICTÁMENES DE COMISIONES SOBRE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY DE PRESUPUESTOS GENERALES DEL ESTADO PARA EL AÑO 2016.</head>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Continuamos con el debate del dictamen del proyecto de ley de Presupuestos Generales del Estado para 2016.</seg>
                <seg>En primer lugar, corresponde el debate de la sección 25, Presidencia. Para la presentación de la sección tiene la palabra, en nombre del Gobierno, la vicepresidenta del Gobierno y ministra de la Presidencia.</seg>
@@ -124,7 +122,7 @@
                <seg>Muchísimas gracias, señorías, por su atención.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u3" ana="#chair">
                <seg>Muchas gracias, señora vicepresidenta.</seg>
                <seg>En turno de defensa de enmiendas, en primer lugar, por el Grupo de Unión Progreso y Democracia, la señora Díez tiene la palabra.</seg>
             </u>
@@ -136,7 +134,7 @@
                <seg>Hoy es el día después del fracaso de las negociaciones a nivel europeo con relación a la crisis de los refugiados. Pongamos que todos los ministros que se sentaron ayer en nombre de sus Gobiernos tenían la mejor de las voluntades para enfrentar la crisis. ¿Qué falló? Falló la estructura europea. Europa no es hoy un Estado, no tiene capacidad para enfrentarse con decisiones supranacionales a los problemas que tiene la Comunidad Europea. El nacionalismo de los Estados miembros evita que se llegue a acuerdos que requieren una respuesta europea. Es la estructura del país la que, a pesar -pongamos- de la buenísima voluntad de todos los presentes, hizo imposible un acuerdo político que era necesario para dar respuesta a una crisis también política. Apliquémonos eso mismo a nivel nacional. Es lo que mi grupo parlamentario quiere plantear en estos breves minutos de reflexión. Sí, podemos enmendar los presupuestos, lo hemos hecho a las secciones en concreto y con enmiendas parciales. Creemos, por ejemplo, que no se pueden mantener tantos asesores a la vez que no se repone la tasa de funcionarios. Creemos que no se puede mantener una partida para seguir manteniendo las pensiones vitalicias de los expresidentes y que sean compatibles a la vez con otros salarios. Sí, son enmiendas parciales que serán, como siempre, rechazadas por ustedes. Pero la cuestión principal no es esa, porque aunque nos admitieran las enmiendas parciales, España tiene un problema de estructura, de capacidad para responder a los problemas verdaderos del país, que tienen que ver con los problemas crecientes de desigualdad en España, que no se resuelven si no se enfrentan las enmiendas estructurales, es decir, si no se reforma la propia Constitución y si no se liquidan los privilegios establecidos en algunos territorios de España, si no se reforman los privilegios fiscales, por ejemplo, de algunas de las comunidades autónomas, las llamadas especiales, las que no son de régimen común. Los problemas de desigualdad producidos por las comunidades que no tienen un régimen común sino un régimen especial no se resuelven extendiendo ese régimen privilegiado a otras comunidades de España, como al parecer quiere el ministro de Asuntos Exteriores en el caso de Cataluña. Así no se resuelven los problemas. Señora vicepresidenta, sabe usted -por eso digo que no es un caso de buena voluntad, de buena o mala fe a la hora de hacer los presupuestos- que, según datos oficiales, en España, los recursos no financieros por habitante en las comunidades autónomas de régimen común son de media 2.763 euros, mientras que la media en las comunidades de régimen foral es 4.829 euros por habitante. Usted dirá: ¿Y eso que tiene que ver con los presupuestos? Es que los presupuestos tienen que servir para resolver los problemas de España, y uno de los principales problemas de España es la desigualdad; ese es uno de los objetivos fundamentales de cualquier Gobierno y por tanto de la ley económica más importante del año, que son los presupuestos. Si no se resuelven los problemas de desigualdad no se resuelven los problemas de justicia, no se resuelven los problemas de la estructura del Estado y, por tanto, es una ley inútil, más allá de que sea una mala ley por su estructura, más allá de que sea una mala ley por cómo la han hecho ustedes y más allá de que sea una ley que no tiene más objetivo -desde nuestro humilde punto de vista- que el electoral. Si no resolvemos los problemas de fondo de un Estado inviable e insostenible -inviable desde el punto de vista político e insostenible desde el punto de vista económico-, seremos incapaces de resolver los problemas fundamentales que tiene nuestro país que, como digo, tienen que ver fundamentalmente con la igualdad. Les repito el dato oficial: la media de los recursos no financieros por habitante en las comunidades autónomas de régimen común es de 2.700 euros y la media en las comunidades de régimen foral es de 4.800 euros. Esto no se resuelve con un presupuesto distinto; se resuelve atajando el problema de fondo y a fondo, abordando la estructura del Estado y acabando con los privilegios establecidos por ley. Eso requiere cambiar el sistema. Lo mismo que en Europa no se resuelven con reuniones de los ministros del Interior y de Justicia los problemas derivados de la falta de estructura y de capacidad política de la Comisión, en España no se resuelven con un presupuesto que, en el mejor de los supuestos -y no es el caso-, lo único que hace es chapucear.</seg>
                <seg>Nuestro grupo parlamentario una vez más aprovecha este trámite de presupuestos para entrar en lo fundamental, en lo importante, en lo que necesita España: no solo enmiendas parciales, sino reformas estructurales en profundidad. Necesita una reforma de la Constitución que garantice que la unión de España reconocida en la misma es una condición necesaria y, por tanto, algo hay que hacer para<pb n="11"/> fomentarla y para garantizar un derecho fundamental como es el derecho a la igualdad; que suprima los privilegios fiscales del País Vasco y de Navarra precisamente para que haya recursos para que todos los ciudadanos españoles, vivan en la parte de España en la que vivan, tengan garantizado en condiciones de igualdad la prestación de los servicios fundamentales y aquellos derechos que se han considerado esenciales; y también que de una vez por todas estructure un sistema de Función pública que tenga que ver con la España moderna del siglo XXI y no sigamos con la situación que venimos sosteniendo hasta el momento presente. Por eso, señorías, señora vicepresidenta, señores miembros del Grupo Parlamentario Popular, nuestro grupo parlamentario entra en el debate presupuestario, entendiendo que es la ley más importante de cada año, para plantear las reformas que España y los españoles necesitan; no meros parches o chapuzas, sino entrar a fondo en los problemas de fondo que tiene España. Eso se llama reformar la estructura del Estado para que España sea algo más que la suma de diecisiete comunidades autónomas y dos ciudades autónomas y que el Gobierno sea algo más que el coordinador de las comunidades autónomas y de las ciudades autónomas.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u5" ana="#chair">
                <seg>Señora Díez, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u6"
@@ -146,7 +144,7 @@
                <seg>Gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u7" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Por el Grupo Parlamentario Catalán de Convergència i d'Unió, tiene la palabra el señor Xuclà.</seg>
             </u>
@@ -159,7 +157,7 @@
                <seg>Señorías, señor presidente, señoras vicepresidenta, nosotros discrepamos sobre muchos aspectos de fondo, pero me gustaría saber, si usted me pudiera atender, señora vicepresidenta, si el sueldo del director de la Agencia pública EFE es un sueldo apropiado y acorde con los actuales tiempos de racionalización y de austeridad del gasto público. Me gustaría, señora vicepresidenta, que me respondiera sobre este particular.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u9" ana="#chair">
                <seg>Muchas gracias, señor Xuclà.</seg>
                <seg>Para presentar sus enmiendas, tiene la palabra, por el Grupo Socialista, el señor De la Rocha.</seg>
             </u>
@@ -172,7 +170,7 @@
                <seg>Quiero destinar mi intervención a hablar de aquel aspecto del presupuesto que usted dirige que tiene mayor carga ideológica, que es el referido a la memoria histórica, o más bien la ausencia de ningún euro para la ejecución y el desarrollo para la aplicación de la Ley de Memoria Histórica; una ley que se aprobó en el año 2007, promovida por el Gobierno socialista. Se trataba de recuperar la memoria de las víctimas del franquismo treinta años después de aprobada la Constitución. Su reconocimiento y dignificación era y es un deber moral en la vida política y un signo de fortaleza de la democracia. La historia no puede construirse sobre el olvido de las víctimas. Sabemos que son decenas de miles -se calculan 150.000- los desaparecidos que están en fosas comunes y en las cunetas sencillamente por defender la legalidad. Pertenecían a muchas organizaciones y, también debo decirlo, al Partido Socialista y a la UGT. Sus familiares no conocen su paradero y sus restos no pueden ser exhumados. En aplicación de la Ley de la Memoria Histórica, el Ministerio de Justicia promovió la creación de un mapa de fosas; 2.382 fosas fueron localizadas, fosas comunes, referidas a unas 45.000 víctimas. Se han abierto unas 300, rescatando unos 6.500 cuerpos, pero quedan muchas decenas de miles de víctimas, de cuerpos sin localizar, sin identificar, sin un entierro digno por parte de sus familiares. La tarea no es que esté inacabada, es que está interrumpida porque ustedes han negado que haya presupuesto para estos fines. Desde el año 2007 hasta el año 2011, el Gobierno socialista destinó 26 millones para la aplicación de la Ley de Memoria Histórica. Ustedes, en el año 2012, destinaron 2,5 millones y a partir de entonces, cero. Las razones que ustedes han alegado siempre es que no había presupuesto; los recortes. Lo han alegado; esta en el 'Diario de Sesiones'. En 2013, 2014 o 2015 decían, literalmente: En el momento en que haya más disponibilidad presupuestaria se volverán a convocar las ayudas oportunas. Ha llegado el año 2016 y usted mismo acaba de decir que la recuperación ya ha llegado. Todos los portavoces del Gobierno y del Grupo Popular, siguiendo las instrucciones que usted les ha dado, vienen diciendo: Ya estamos en tiempos de recuperación. Para todos, menos para la memoria histórica; para las víctimas del franquismo sigue sin haber un euro. Por tanto, las razones no son económicas, son puramente ideológicas, sus compromisos ideológicos con el pasado, por lo demás sorprendentes; para las víctimas del franquismo, nada de nada.<note>Aplausos</note> En la Comisión, el portavoz del Grupo Parlamentario Popular alegó dos razones; una hacía referencia al dinero público ya gastado en exhumaciones, 26 millones, en la época de los gobiernos socialistas, salvo los 2,5 del año 2012; y otra, que esto ha pasado al Ministerio de Justicia. No sabemos por dónde, porque son partidas que siempre han estado en el Ministerio de la Presidencia, y porque en el Ministerio de Justicia, cuando uno indaga, no hay nada de nada. Incluso ustedes han suprimido la Oficina de Víctimas de la Guerra Civil y la Dictadura. En el Ministerio de Justicia hay una comisión de ayuda a las víctimas de delitos violentos y de violencia de género, pero no a las víctimas del franquismo. Nosotros nos unimos -faltaría más- al apoyo y la reparación de las víctimas del terrorismo y de la violencia de género, pero también de las del franquismo. El Consejo de Derechos Humanos de Naciones Unidas aprobó en septiembre de 2014, como usted bien sabe, señora vicepresidenta, el informe del redactor especial para la promoción de la verdad, la justicia y la reparación, que valoró la Ley de la Memoria Histórica y que reclamó al Gobierno de España políticas públicas a favor de la memoria y recursos presupuestarios públicos para esta finalidad. Ha pasado año y medio y ¿cuál es la consecuencia? ¿Cuál es la respuesta? El desprecio a Naciones Unidas, a su Consejo de Derechos Humanos y, lo que es más grave, a las víctimas.</seg>
                <seg>Mi grupo ha presentado cuatro enmiendas a esta sección presupuestaria.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u11" ana="#chair">
                <seg>Señor de la Rocha, tiene usted que terminar, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u12"
@@ -184,7 +182,7 @@
                <note>Aplausos</note>
                <pb n="14"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u13" ana="#chair">
                <seg>Muchas gracias, señor De la Rocha.</seg>
                <seg>Turno de fijación de posiciones. Por el Grupo Parlamentario Popular, tiene la palabra el señor Gómez de la Serna.</seg>
             </u>
@@ -198,7 +196,7 @@
                <seg>En cuanto al gasto social quiero decir que, en lo que se refiere al gasto social, la Generalitat deja bastante que desear. No solamente deben ustedes 238 millones de euros a las farmacias de Cataluña, a las que están sometiendo a un proceso de difícil continuidad, sino que además la sanidad catalana ha<pb n="15"/> bajado en el ranquin nacional español, ya que de estar en el puesto número cinco ha pasado a estar en el puesto número quince, mientras ustedes gastaban 500 millones de euros en lo que llaman el procés. Yo creo que hay que ser un poquito coherente en esta materia y subir a hablar de los Presupuestos Generales del Estado y no de otras cuestiones que exceden del contenido del debate que nos trae hoy aquí.</seg>
                <seg>En lo que se refiere a la exposición del portavoz del Grupo Socialista en esta materia, quiero decirles que los ciudadanos españoles no van a olvidar. Se ha centrado sobre todo en la cuestión de la memoria histórica. Se lo dije el otro día con todo respeto y se lo voy a volver a repetir, nosotros creemos en la memoria, naturalmente que creemos en la memoria, creemos que no debe haber ni un solo español en la cuneta -del bando que sea-, ni un solo español en la cuneta, y que no debe quedar ni un reconocimiento por hacer. Creemos en la memoria pero también creemos en el entendimiento y en la voluntad. ¿Se acuerda, de san Agustín: memoria, entendimiento y voluntad?<note>Rumores</note> Nosotros creemos en el entendimiento y pensamos que la historia no debe ser un objeto de manipulación ideológica y no debe ser sometida a sombras de amnesia. Tenemos la voluntad de que, para el entendimiento entre españoles, nunca se vuelva a hacer de la guerra civil un elemento de confrontación.<note>Aplausos.-Una señora diputada: ¡Muy bien!</note> A nosotros nos preocupa cierto déficit de memoria histórica y cierta amnesia, y le voy a decir por qué.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u15" ana="#chair">
                <seg>Señor Gómez de la Serna, tiene usted que acabar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u16"
@@ -207,7 +205,7 @@
                <seg>Acabo, señor presidente.</seg>
                <seg>¿Cómo es posible que estén ustedes aupando a las ciudades más importantes de España a un partido con claros ribetes antisemitas? ¿Cómo es posible? No, no, es que la memoria afecta a todos y en todos los lugares.<note>Aplausos</note> ¿Cómo es posible que la portavoz del Ayuntamiento de Madrid -a la que ustedes respaldan- se hiciera famosa al grito de 'Arderéis como en el 36' y ustedes la soporten ahí? ¿Cómo es posible que en el Ayuntamiento de Badalona hayan soportado ustedes al equipo de la CUP, que en el mes de enero estaba recaudando fondos para los presos de ETA?<note>Una señora diputada: ¡Muy Bien!-La señora Serrano Argüello: ¿Cómo es posible?</note> ¿Cómo es posible? Es que la memoria tiene que ser integral, tiene que ser coherente y no puede tener sombras de amnesia. Por lo tanto, echo en falta más neutralidad en la interpretación de la memoria. Le voy a decir -el otro día se lo dije en Comisión-, adolecen ustedes de algo que se llama ceguera voluntaria y que en términos jurídicos se llama ignorancia deliberada. Este Gobierno -como el suyo- ha dedicado partidas presupuestarias dentro de las posibilidades que había a la cuestión de la memoria histórica. Ustedes en veintidós años, nos ha dicho...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u17" ana="#chair">
                <seg>Señor Gómez de la Serna, tiene usted que terminar inexorablemente.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u18"
@@ -217,7 +215,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u19" ana="#chair">
                <seg>Muchas gracias, señor Gómez de la Serna.</seg>
                <seg>Debate de la secciones 19, Empleo y Seguridad Social, y 60, Seguridad Social. Para la presentación de las secciones, tiene la palabra en nombre del Gobierno la señora ministra de Empleo y Seguridad Social.</seg>
             </u>
@@ -579,7 +577,7 @@
                <seg>Repito, hemos presentado 310 enmiendas por un valor de 1.400 millones de inversión en territorio valenciano. El Partido Popular valenciano, con veinte imputados, no sé si habrá hecho alguna porque creo que están encantados con unos presupuestos que nos insultan como pueblo y a veces no sé bien a quién representan, si a su partido o a los ciudadanos de Alicante, de Castelló o de Valencia. Se lamentaba el portavoz de economía del Partido Popular, el señor Martínez-Pujalte, de que todas las enmiendas de la oposición suponían más dinero, algo que es imposible. Si ustedes hubieran invertido en sus cinco<pb n="44"/> presupuestos la media española, todas las enmiendas que presenta Compromís, las 310, estarían hechas. Por tanto, eso no es imposible. Eso es posible y además sería lo justo.<note>El señor presidente ocupa la Presidencia</note> Si tuviera un poco de dignidad, lo que debería hacer el Partido Popular valenciano es aprobar estas enmiendas que quieren reparar un reparto injusto de los cinco presupuestos que ha hecho el Partido Popular para todos los valencianos y las valencianas.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u64" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, para defender sus enmiendas, tiene la palabra la señora Díez.</seg>
             </u>
@@ -593,7 +591,7 @@
                <seg>Dentro de los términos que usted ha utilizado a la hora de adjetivar la justicia ha dicho que la justicia es una justicia digital. Digital porque los nombran a dedo, es por lo único que es digital, porque los sistemas son incompatibles entre las comunidades autónomas. Usted sabe que el sistema digital es uno de los problemas ya que no hay conectividad porque los sistemas no son compatibles. ¡Y la llama justicia digital! ¡Nombrada a dedo! O sea, presumen de eso. Ministro, mientras en España haya una justicia que está politizada y que no es independiente, mientras haya una justicia absolutamente al servicio del poderoso, mientras haya justicia de primera y de segunda, y haya procesados vip y otros que no lo son, mientras eso siga ocurriendo porque no hay voluntad política para acabar con ello, mientras el Consejo General del Poder Judicial se lo sigan repartiendo como se lo reparten y a partir de ahí todo lo demás, no se podrá decir que en España hay una justicia al servicio de los ciudadanos. No se podrá decir, y si se dijese se mentiría, que la justicia en España existe para cumplir aquello que dice la Constitución: que todos los españoles tienen derecho a un juez independiente y a una justicia ágil. Porque si no es ágil y no es independiente, ni es justicia ni es democracia.</seg>
                <seg>Gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u66" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Sixto.</seg>
             </u>
@@ -609,7 +607,7 @@
                <seg>Hemos presentado también otras enmiendas específicas para dotar de mayores recursos a los juzgados de familia; juzgados de menores; juzgados de vigilancia; turno de oficio; juzgados de paz, que tienen todavía una función importante, a pesar de su cuestionamiento en ciertos ámbitos; a la modernización de la justicia y, sobre todo, y nos preocupa muchísimo, la necesidad de que la nueva oficina judicial tenga una dotación presupuestaria suficiente para de verdad modernizar la justicia, objetivo que compartiríamos todos, pero que entendemos que con estos presupuestos que usted presenta para el año 2016 en absoluto se garantiza y por eso pedimos su devolución y votaremos en contra.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u68" ana="#chair">
                <seg>Muchas gracias, señor Sixto.</seg>
                <seg>Por el Grupo Parlamentario Catalán de Convergència i d'Unió tiene la palabra, en primer lugar, el señor Picó.</seg>
             </u>
@@ -621,7 +619,7 @@
                <seg>Hay otro caso flagrante, señor ministro, que mi grupo viene reclamando desde hace mucho tiempo, como son los intereses de consignaciones judiciales, que sabe muy bien que están destinados únicamente a la Administración del Estado y que no se transfieren a las comunidades autónomas con competencias en materia de Administración de Justicia. Si tenemos las competencias delegadas en materia de Administración de Justicia, justo sería que se hiciera una transferencia a dichas comunidades autónomas por los intereses de las consignaciones judiciales. Por tanto, señor ministro, lealtad institucional y presupuestaria.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u70" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Tiene ahora la palabra la señora Ciuró.</seg>
             </u>
@@ -634,7 +632,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u72" ana="#chair">
                <seg>Muchas gracias, señora Ciuró.</seg>
                <seg>Por el Grupo Parlamentario Socialista, para presentar sus enmiendas, tiene la palabra el señor Martín Peré.</seg>
             </u>
@@ -650,7 +648,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u74" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u74" ana="#chair">
                <seg>Muchas gracias, señor Martín Peré. Ha sido un gran diputado y le deseo lo mejor. Muchas gracias.</seg>
                <seg>En turno de fijación de posiciones, por el Grupo Popular tiene la palabra el señor Castillo.</seg>
             </u>
@@ -666,7 +664,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u76" ana="#chair">
                <seg>Muchas gracias, señor Castillo.</seg>
                <seg>Debate de la sección 20, Industria, Energía y Turismo. Para su presentación, tiene la palabra en nombre del Gobierno el señor ministro de Industria, Energía y Turismo.</seg>
             </u>
@@ -686,7 +684,7 @@
                <note>Aplausos</note>
                <pb n="53"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u78" ana="#chair">
                <seg>Muchas gracias, señor ministro de Industria, Energía y Turismo. Creo que interpreto el sentimiento del Pleno agradeciéndole su concisión.<note>Risas</note> En turno de defensa de enmiendas tiene la palabra en primer lugar, por el Grupo Mixto, el señor Quevedo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u79"
@@ -702,7 +700,7 @@
                <seg>En síntesis, si se fija el señor ministro, le he recordado aquí las enmiendas que no son las más caras. Las hay bastante más caras, pero para no perder tiempo he comentado las más simbólicas. Confiamos en que exista la oportunidad de que en esta ocasión reflexionen y atiendan algunas de las reivindicaciones que ya llevamos planteando cinco años, en nuestra opinión, con absoluta responsabilidad y justicia.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u80" ana="#chair">
                <seg>Muchas gracias, señor Quevedo.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -720,7 +718,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u82" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Pérez Moya.</seg>
             </u>
@@ -1188,7 +1186,7 @@
                <seg>La recuperación de las rías, el saneamiento de las rías o la recuperación medioambiental del litoral de Galicia es una necesidad demasiadas veces expresada por nuestro grupo y expresada por la realidad que emana de Galicia y que, a pesar de ser tantas veces expresada, no ha sido tenida en cuenta por parte de este Gobierno a la hora de acometer las infraestructuras necesarias para afrontar esas obras y actuaciones destinadas a la mejora de la calidad de las aguas de nuestras rías y de nuestro litoral, a pesar, señorías, como hemos dicho en otras muchas ocasiones, de que pende desde la Unión Europea una multa al Estado español precisamente por no dar solución a estas situaciones de contaminación, fundamentalmente de las rías gallegas.</seg>
                <seg>Además, señorías, y finalizo, señor presidente, de enmiendas concretas para determinadas zonas del litoral de Galicia, tenemos también otras enmiendas relativas a las distintas rías de nuestro país. Queremos destacar una enmienda de 25 millones de euros, porque queremos que el Gobierno, que el Grupo Popular, apoye la regeneración de las rías.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u136" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u136" ana="#chair">
                <seg>Señora Fernández, tiene usted que ir acabando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u137"
@@ -1198,7 +1196,7 @@
                <seg>No se puede decir que se quiere resolver el problema de la ría do Burgo y después no presentar en los presupuestos partidas para acometer las obras necesarias.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u138" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u138" ana="#chair">
                <seg>Muchas gracias, señora Fernández.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Lleonart.</seg>
             </u>
@@ -1210,7 +1208,7 @@
                <seg>La ayuda a la formación de los profesionales del sector agroalimentario es casi inexistente y más teniendo en cuenta la necesidad de modificaciones en la utilización de la tierra. Las necesidades de adaptación a la política agraria común con sus sucesivas reformas han condicionado el tipo de cultivos en España. La agricultura se ha hecho más extensiva, pero ha de ser también más respetuosa con el medio ambiente. La formación de los profesionales es clave para que la agricultura sea un sector que tienda al progreso dinámico y pueda competir con productos de gran calidad en los mercados europeos y mundiales. Esta deficiencia se une a un descenso de la partida destinada al desarrollo del medio rural, una disminución presupuestaria de una partida que consideramos esencial para la mejora de nuestro sector rural, ya de por sí bastante castigado por el abandono presupuestario de los últimos años. Las partidas destinadas a la gestión hídrica son insuficientes; son necesarias nuevas infraestructuras y bienes destinados al uso general. España sufre sequías periódicas que afectan tanto al medio ambiente como al sector agrario e incluso en algunas zonas del territorio pueden llegar a afectar directamente al consumo humano. Por este motivo nuestro grupo ha solicitado la devolución de esta sección.<pb n="94"/> Por otro lado, hemos presentado una serie de enmiendas, pero antes de que se nos pueda decir en un momento dado que pretendemos aumentar el presupuesto o que se retiren todas las enmiendas que hemos presentado, diré que todas ellas siempre van con una contrapartida: decimos de dónde sacaríamos el dinero y adónde lo destinaríamos, y las presentadas a esta sección están destinadas a mejorar la calidad y a cuidar la sanidad de nuestros productos agrícolas, a la mejora de la protección del medio rural y a aumentar la calidad y competitividad de la producción de los mercados agrarios. En tanto esto no se realice, nosotros volvemos a la idea original de que realmente se trata de una legislatura en gran parte perdida en agricultura, ganadería y medio ambiente.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u140" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u140" ana="#chair">
                <seg>Muchas gracias, señor Lleonart.</seg>
                <seg>Por el Grupo Parlamentario de La Izquierda Plural tiene la palabra el señor Pérez Moya.</seg>
             </u>
@@ -1226,7 +1224,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u142" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u142" ana="#chair">
                <seg>Muchas gracias, señor Pérez Moya.</seg>
                <seg>Por el Grupo de Convergència i d'Unió, tiene la palabra en primer lugar la señora Tarruella.</seg>
             </u>
@@ -1239,7 +1237,7 @@
                <seg>Continuamos también con enmiendas que quieren destacar y corregir los déficits de inversiones en los Presupuestos Generales del Estado hacia Cataluña. Claro ejemplo de ello son las inversiones en conservación y sostenibilidad del litoral, importante como valor ambiental y generador de economía productiva, donde hay una baja e injusta inversión, en concreto en conservación de playas, conservación y mejora de los caminos de ronda y en algunos paseos marítimos. Hay otro bloque de enmiendas que busca recuperar a niveles sostenibles la injusta dotación de los planes de desarrollo rural para el periodo 2014-2020. Son unas aportaciones necesarias para desarrollar planes concretos que ayuden a dinamizar el sector agrícola, ganadero y pesquero. También pedimos ampliar las aportaciones a los planes anuales de seguros agrarios, intentando mejorar la implicación de los agricultores en su fidelización. Ya hemos oído a la señora ministra explicar que se ha aumentado la partida destinada a subvencionar el seguro agrario, pero aun así consideramos que es del todo insuficiente, lo que imposibilita que muchos agricultores puedan asegurar sus explotaciones ante el elevado coste del seguro. También queremos llamar la atención sobre la nula aportación que el Estado está realizando estos últimos años en el Parc Natural d'Aigüestortes i en el Lac de Sant Maurici, donde hay un claro déficit de inversiones estatales en estos últimos años. No se trata solo de este presupuesto, sino que venimos arrastrándolo de otros anteriores. Hay una distribución totalmente injusta de los recursos que el Estado dedica a esta red de parques.</seg>
                <seg>En cuanto a las políticas medioambientales las enmiendas reflejan la demanda de territorialización, una vez más, de los recursos económicos procedentes de las subastas de derechos de emisión y de las partidas destinadas a programas de prevención, reducción y adaptación a los efectos medioambientales<pb n="96"/> de los gases de efecto invernadero, principalmente en cuanto a la programación que afecta a las administraciones locales y autonómicas, competentes en cuanto a los sectores difusos. Finalmente exigimos mejorar las inversiones territorializadas y en este sentido destacamos las enmiendas relacionadas con la conservación y la preservación de los parámetros medioambientales de aquellos espacios protegidos por su gran valor medioambiental. Queremos destacar, para terminar, las enmiendas destinadas a las Terres de l'Ebre, concretamente a la demanda de más inversiones para poder prevenir y eliminar los efectos de las plagas invasoras que afectan a la producción agrícola, y por tanto a la generación de riqueza en estas zonas y a la calidad medioambiental de las mismas. Van también muy relacionadas con la segunda revisión del Plan hidrológico de la cuenca del río Ebre y concretamente del caudal ecológico necesario para preservar sus estándares y mantener su biodiversidad como valor ambiental, y al mismo tiempo generador de recursos económicos necesarios para este territorio. Nos gustaría que por lo menos alguna de estas enmiendas fuera aceptada.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u144" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u144" ana="#chair">
                <seg>Muchas gracias, señora Tarruella.</seg>
                <seg>Señor Pàramo.</seg>
             </u>
@@ -1251,7 +1249,7 @@
                <seg>Y finalmente, señor presidente, quiero manifestar, cuando la legislatura está en su fase final, que si bien uno de los principales motivos que el ministro señor Cañete exhibió para justificar los cambios en la Ley de Costas fue el de garantizar el respeto a la propiedad privada afectada por dicha ley, pasados tres años de su aprobación, señora ministra, en las marinas residenciales de Santa Margarida, en Roses, y de Empuriabrava, en Castelló d'Empúries, ni tan siquiera han iniciado el trámite para su ejecución, con lo que, señora ministra, miles de propietarios, la mayoría ciudadanos comunitarios extranjeros europeos, continúan siendo víctimas de la inseguridad jurídica imperante en el Estado español.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u146" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u146" ana="#chair">
                <seg>Muchas gracias, señor Pàramo.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra la señora Rumí.</seg>
                <pb n="97"/>
@@ -1266,7 +1264,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u148" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u148" ana="#chair">
                <seg>Muchas gracias, señora Rumí.</seg>
                <seg>Señor Alonso.</seg>
             </u>
@@ -1279,7 +1277,7 @@
                <seg>Además de reconocer que son absolutamente insuficientes, son unos presupuestos de recortes, más recortes en agricultura, en medio ambiente y en desarrollo rural, y es el momento para hacer un pequeño balance de su gestión en estos años. Con ustedes la política agraria simple y llanamente ha desaparecido. Ustedes presumen de haber recuperado la palabra agricultura en el nombre del ministerio, pero han dejado el ministerio hecho un erial. Le voy a dar algunos datos que le debían preocupar, señora ministra. Los precios en origen de los principales productos agrarios en España están en caída libre, y ustedes sonríen al ver cómo suben los principales costes de producción, la energía principalmente, y cómo bajan los precios en origen con riesgo de ruina de muchos agricultores. Ahí está el tema del sector lácteo. La renta agraria ha bajado un 7,2 % en 2014 y amenaza una nueva rebaja en el año 2015. El empleo en la agricultura ha bajado. Hay menos activos agrarios en la agricultura en este año y hay menos que cuando ustedes llegaron al Gobierno. Hay menos profesionales en la agricultura, ya solo 280.000, según la última EPA. Se está incrementando el diferencial de renta entre el sector agrario y el resto de los sectores. Y el medio rural, señora ministra, sigue perdiendo población, se está despoblando. Es verdad que habrá algunas cifras positivas, seguramente el portavoz del Grupo Parlamentario Popular nos dará alguna, pero hay indicadores de riesgo importante en política agraria. ¿Y ustedes qué proponen? Un 13 % menos de presupuesto. Hay importantes problemas, 13 % menos de presupuesto.</seg>
                <seg>Señora ministra, además de haber leído las cifras -hay incrementos, ya los hemos visto, nos lo hemos leído- debería decirles a los agricultores y ganaderos que han sufrido daños importantísimos por la sequía, por las riadas, por las inundaciones, por el pedrisco, en Granada, en Toledo, en Aragón, qué va a hacer usted con el presupuesto del año que viene para atender esa pérdida de renta que han tenido. Tendría que decir qué va a hacer por el medio rural. Han consignado cero euros en la Ley de Desarrollo Sostenible para el medio rural. Tendría que decir qué va a hacer para atajar los principales problemas que tiene la ganadería, problemas sanitarios. En definitiva son unos presupuestos que deberían llamar a la preocupación del Gobierno y hacer un análisis más riguroso.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u150" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u150" ana="#chair">
                <seg>Señor Alonso, tiene que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u151"
@@ -1289,7 +1287,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u152" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u152" ana="#chair">
                <seg>Muchas gracias, señor Alonso.</seg>
                <seg>Fijación de posiciones. Por el Grupo Parlamentario Popular tiene la palabra el señor Pérez Lapazarán.</seg>
             </u>
@@ -1308,7 +1306,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u154" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u154" ana="#chair">
                <seg>Muchas gracias, señor Pérez Lapazarán.</seg>
                <seg>Antes de pasar al próximo punto, voy a hacerles unos avisos. El punto clave es que quiero conseguir que la votación de hoy sea no antes de las ocho, pero lo más cerca posible a las ocho. Ahora veremos la sección de Economía; después, de acuerdo con lo hablado con los grupos y si es posible -que yo espero que sí-, veríamos las secciones 31, 32, 33 y 35, que forman un todo, y, a continuación, sería la votación, insisto, nunca antes de las ocho.</seg>
                <seg>Mañana comenzaríamos con la sección 18, Educación, Cultura y Deporte, seguiríamos con la sección 16, Interior, luego con la sección 26, Sanidad, Servicios Sociales e Igualdad. Al final se producirían las votaciones y después entraríamos en los siguientes puntos, sobre los que debo decirles que los números 3 y 4, la proposición de ley y su tramitación directa y en lectura única, se verían conjuntamente, tal y como quedamos en la Junta de Portavoces, y desaparece el punto V, debate de totalidad de iniciativas legislativas, al haberse retirado la enmienda de totalidad. Al finalizar realizaríamos la votación. Espero y confío en que mañana, aunque sea más bien tarde-noche, culminemos el Pleno, pero no descarto -para que lo sepan todos- que tengamos que continuarlo el jueves. Lo veo improbable, pero no imposible, o sea que conviene que todos lo tengamos en cuenta.</seg>
@@ -1337,7 +1335,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u156" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u156" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>En turno de defensa de enmiendas, en primer lugar, por el Grupo Parlamentario Mixto, tiene la palabra el señor Errekondo.</seg>
             </u>
@@ -1352,7 +1350,7 @@
                <seg>La conclusión es clara por tanto acerca de estos presupuestos. En el Estado español no es posible el Estado del bienestar y por ello nosotros decimos: agur, adeu Estado español. Hoy en día cualquier ciudadano puede ver que este Gobierno y este Estado se sustentan sobre ratos y ratas, banqueros desahuciadores y las grandes empresas eléctricas. A este Estado de la ultraderecha no le importan en absoluto la pobreza energética ni el Estado del bienestar. Para verlo basta ampliar un poco la visión durante unos años donde, mientras los parlamentos de la Comunidad Autónoma vasca, Navarra y Cataluña han aprobado leyes para la defensa del Estado del bienestar de sus ciudadanos, la Ley del fracking, la Ley de consultas, el Estatuto de Cataluña, la Ley anticopago farmacéutico, la Ley antidesahucios, la Ley de pobreza energética, la Ley de sanidad y atención a ciudadanos sin papeles, etcétera, mientras esto sucedía, el Estado español mueve ficha y lanza todo su armamento en contra. Así, más de una veintena de leyes han sido suspendidas o anuladas por el Tribunal Constitucional. Es decir, doce jueces, además nombrados a dedo por los dos partidos principales de este Congreso, mandan más que 3 parlamentos<pb n="105"/> y 260 parlamentarios elegidos democráticamente por sus ciudadanos. El Partido Popular es sabedor de que es un partido residual en la Comunidad Autónoma vasca, Navarra y Cataluña y pretende conseguir mediante la imposición de sus armas lo que no puede lograr democráticamente, las armas del ministro Morenés y las armas de destrucción masiva del Tribunal Constitucional.</seg>
                <seg>En definitiva, y voy acabando, señor presidente, estos presupuestos son un planteamiento ultraliberal y recentralizador y chocan frontalmente con la realidad política, económica y social de Euskal Herria, con el derecho a decidir su propio futuro y con el derecho a decidir su modelo económico y social. Como reclama el cantante Lluís Llach, necesitamos la soberanía nacional para después hacer la soberanía social.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u158" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u158" ana="#chair">
                <seg>Muchas gracias, señor Errekondo.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia, tiene la palabra el señor Calduch.</seg>
             </u>
@@ -1364,7 +1362,7 @@
                <seg>Hay otro ámbito en el que también proponemos enmiendas. Se trata de potenciar la unidad del mercado interior. Consideramos que es una paradoja que estemos formando parte del mercado único europeo y al mismo tiempo sigamos manteniendo barreras internas a la unidad de mercado, barreras que unas veces pasan por la división territorial o autonómica del Estado, pero otras pasan por el hecho de que no se trasladan los reglamentos y directivas de la Unión Europea para liberalizar determinados sectores profesionales. Ese es un terreno en el que todavía hay que hacer reformas estructurales que no vemos reflejadas en ese presupuesto.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u160" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u160" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo Parlamentario de La Izquierda Plural, tiene la palabra el señor Centella.</seg>
             </u>
@@ -1379,7 +1377,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u162" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u162" ana="#chair">
                <seg>Muchas gracias, señor Centella.</seg>
                <seg>Por el Grupo Catalán de Convergència i d'Unió, tiene la palabra el señor Macias.</seg>
             </u>
@@ -1392,7 +1390,7 @@
                <seg>¿Cuáles son estas prioridades? Necesitamos un cambio de modelo productivo, un modelo productivo que crea firmemente en la industrialización -el señor ministro de Industria lo ha dicho hace un rato desde esta tribuna, aunque lo dice pero no lo aplica-, y para creer en la recuperación de la industria -y cuando uno dice industria lo dice en el sentido más amplio de la palabra- hace falta pensar en un nuevo modelo económico que valore la investigación, el desarrollo y sobre todo la innovación. Usted sabe, porque nuestra compañera Inma Riera se lo ha repetido muchas veces, que la innovación es clave para la internacionalización de nuestra economía, para la exportación, pero también para la propia productividad. Llegados a este punto, sus partidas deberían reflejar políticas que dieran un apoyo importante a la I+D y sobre todo a la última i, a la innovación, a la transferencia de conocimientos a las empresas, y que lo hicieran para todo tipo de empresas, porque en este país tenemos bastantes líneas -luego hablaré de ellas- que pueden ser utilizadas por las grandes empresas, que ya disponen de sus propios departamentos, conexiones y contactos, pero nuestras pymes, que son las que al final están creando empleo, están muy alejadas de ese apoyo del Estado a la innovación y a la transferencia de tecnología. Además, señor ministro, se da una circunstancia especial, y es que hay competencias en la materia, especialmente de apoyo a las empresas, que corresponden a las comunidades autónomas. Por tanto, todo aquello que signifique coadyuvar a las comunidades autónomas y a sus institutos de investigación, desarrollo e innovación supone ayudar también a las pequeñas y medianas empresas y a la productividad. En estos presupuestos no sabemos ver, a pesar de que hay que reconocer un cierto aumento de las partidas de I+D+i, qué partidas van a llegar finalmente a quienes crean ocupación, a quienes quieren aumentar su competitividad. Nuestras enmiendas, señor ministro, van en el sentido, primero, de pedir la devolución del<pb n="108"/> presupuesto de esta sección, pero sobre todo, de lanzar un mensaje: confíen ustedes en las comunidades, confíen ustedes en las universidades, confíen ustedes en los centros de I+D y, sobre todo, de transferencia tecnológica, confíen ustedes en algo más que no sea aquello que puedan centralizar. Como sabemos que no nos van a prestar ninguna atención ni nos van a hacer caso, van a tener nuestro sonado portazo en forma de una enmienda de devolución a los presupuestos de esta sección.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u164" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u164" ana="#chair">
                <seg>Muchas gracias, señor Macias.</seg>
                <seg>Por el Grupo Parlamentario Socialista tiene la palabra el señor Moscoso del Prado.</seg>
             </u>
@@ -1406,7 +1404,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u166" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u166" ana="#chair">
                <seg>Muchas gracias, señor Moscoso del Prado.</seg>
                <seg>Por el Grupo Popular tiene la palabra el señor Martínez-Pujalte.</seg>
             </u>
@@ -1421,7 +1419,7 @@
                <seg>Señorías, voy acabando porque se me ha terminado el tiempo, que, si no, podría seguir.</seg>
                <note>Risas.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u168" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u168" ana="#chair">
                <seg>Señor Martínez-Pujalte, debe usted acabar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u169"
@@ -1431,7 +1429,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u170" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u170" ana="#chair">
                <seg>Muchas gracias, señor Martínez-Pujalte.</seg>
                <seg>Vamos a debatir, ya que tenemos un poco de tiempo, las secciones 31, Gastos de diversos ministerios; 32, Otras relaciones financieras con entes territoriales; 33, Fondos de compensación interterritorial; y 35, Fondo de contingencia.</seg>
                <seg>En turno de defensa de enmiendas, en primer lugar por el Grupo Mixto tiene la palabra el señor Quevedo.</seg>
@@ -1513,7 +1511,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u180" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u180" ana="#chair">
                <seg>Muchas gracias, señor Macias.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor Hurtado.</seg>
             </u>
@@ -1524,7 +1522,7 @@
                <seg>Me van a permitir que en la introducción de estas secciones 31, 32, 33 y 35 haga una petición que ya hice en la Comisión y que vuelvo a hacer en este Pleno. La petición en concreto es la retirada de esta enmienda, la 4321, una enmienda presentada por el Grupo Parlamentario Popular.<note>Muestra el texto de la referida enmienda con las palabras sobreimpresas: 'Agravio a Córdoba'</note> Es una enmienda que quita 3 millones de euros al Ayuntamiento de Córdoba y reasigna los 3 millones a otra localidad: Lorca.<note>Rumores</note> Esta enmienda es inaudita, inusual. En ninguna de las cuatro mil trescientas veintiséis enmiendas presentadas se ha hecho esto, quitar recursos a un beneficiario concreto para asignárselos a otros. Pero no solamente en las enmiendas de este año; en ningún año se ha hecho esto en las enmiendas. Es inapropiado, inusual y para Córdoba y los cordobeses, ofensivo; ofensivo hasta el punto de que la propia alcaldesa de la ciudad de Córdoba, su nueva alcaldesa, se ha tenido que dirigir al presidente del<pb n="115"/> Gobierno, el señor Rajoy, para que retire esta enmienda ofensiva. Y no lo decimos por Lorca, porque el Grupo Parlamentario Socialista ha presentado -y queremos que lo aprueben- un plan integral para Lorca<note>Muestra el texto de una enmienda del Grupo Parlamentario Socialista</note> , un plan integral que tendría muchísimos más recursos que los 3 millones de euros que ustedes le quitan al Ayuntamiento de Córdoba. Por tanto, repito mi petición de que el Grupo Parlamentario Popular retire esta enmienda ofensiva para el Ayuntamiento de Córdoba. Y voy a dar otras razones de peso para ver hasta qué punto es ofensiva, porque además se lo quitan ustedes a la provincia que menos inversiones tiene, en la que menor esfuerzo inversor se realiza de todas las provincias españolas. Les voy a dar un dato muy significativo: Córdoba va a recibir 78 euros por habitante en inversiones en este proyecto de presupuestos, mientras que la inversión media por habitante en los presupuestos de este año son 236 euros. Córdoba es la última provincia española en esfuerzo inversor; en el anterior proyecto de presupuestos, el de 2015, fue la penúltima provincia española, y en el anterior fue la antepenúltima provincia española. Una razón también de peso para que retiren esta dichosa y ofensiva enmienda es el reiterado castigo que está recibiendo la provincia de Córdoba en los presupuestos de esta legislatura, en los presupuestos del Gobierno de Mariano Rajoy. Les voy a dar el último dato del presupuesto de Zapatero para Córdoba: 165 millones de euros. Pues bien, le han quitado ustedes el 1 de delante y lo han dejado en menos de 65, en 62,9 millones de euros. Por tanto, la petición es la retirada de esta enmienda por ofensiva. Ustedes mismos han presentado otras cuatro enmiendas en esta sección, aumentando, por ejemplo, en 1.200.000 lo presupuestado para la zona franca de Sevilla con cargo al Fondo de contingencia, no quitándoselo a ningún otro municipio; también aumentan el presupuesto destinado al Hospital Universitario de Cantabria con cargo al Fondo de contingencia, no quitándoselo a ninguna ciudad ni a ninguna provincia. Ustedes han utilizado la técnica habitual con cargo al Fondo de contingencia para no mermar los recursos ya asignados a un tercero.<note>Rumores</note> Para nosotros, desde Córdoba, es una ofensa, pero incluso puede llegar a ser una felonía, porque es una auténtica traición a nuestra provincia. Nosotros en estas secciones hemos incluido, para compensar este trato de castigo, hasta un total de treinta y una enmiendas que podrían aprobar para compensar a la provincia de Córdoba, que supondrían un aumento de 123 millones.<note>Continúan los rumores</note> Hemos incluido en esta sección 3 millones de euros para el Ayuntamiento de Jerez, un ayuntamiento que dejaron en la más ruinosa situación, con cuentas que no han presentado, e incluso la nueva alcaldesa está pidiendo de forma denodada auxilio y ayuda en los Presupuestos Generales del Estado; hemos incluido una enmienda de 3 millones de euros para el Ayuntamiento de Jerez con cargo al Fondo de contingencia, evidentemente, no con cargo a ningún otro ayuntamiento que le suponga una merma en sus recursos. Hemos incluido 19 millones de euros para el transporte urbano de los distintos ayuntamientos, para aumentar la ayuda al transporte urbano colectivo. Hemos incluido también una enmienda de 750.000 euros en la sección 31, en concreto para el antiguo Instituto de Emigración de Irún, con cargo al Fondo de contingencia, como corresponde. Hemos incluido 7 millones de euros para el Consorcio de Transportes de Asturias. También hemos incluido 2 millones de euros para la desalinizadora de San Cristóbal de La Laguna, en Canarias. Asimismo, hemos incluido 7 millones de euros adicionales para transporte en Canarias. En definitiva, hemos incluido una enmienda a la sección 31 y seis enmiendas a la sección 32, con una última, que es...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u182" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u182" ana="#chair">
                <seg>Señor Hurtado, por favor, termine.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u183"
@@ -1532,7 +1530,7 @@
                ana="#regular">
                <seg>... definitiva y que supone 1.250 millones para todas las comunidades autónomas en que se está incumpliendo el Estatuto de Autonomía: Andalucía, a la que se debe ya en total el cúmulo de 2.500 millones de euros por no cumplir con la disposición adicional tercera, Cataluña, Aragón, Castilla y León, Extremadura, Baleares. Son seis comunidades autónomas que están siendo castigadas y ustedes están incumpliendo la ley, están siendo desleales e incumplidores con la ley y están provocando tensiones territoriales. Esta es una de las razones añadidas a las tensiones territoriales<note>Aplausos.-Varios señores diputados: ¡Anda! ¡Anda!</note> , no cumplir con lo establecido en los estatutos de autonomía, no cumplir...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u184" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u184" ana="#chair">
                <seg>Señor Hurtado, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u185"
@@ -1540,7 +1538,7 @@
                ana="#regular">
                <seg>Concluyo ya, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u186" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u186" ana="#chair">
                <seg>No, termine. Termine ya.</seg>
                <pb n="116"/>
             </u>
@@ -1550,7 +1548,7 @@
                <seg>... de forma obsesiva, desleal e ilegal con los estatutos de autonomía, que son leyes.<note>La señora Álvarez-Arenas Cisneros: ¡Anda ya!</note> Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u188" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u188" ana="#chair">
                <seg>Gracias, señor Hurtado.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Ordóñez.</seg>
             </u>
@@ -1564,1192 +1562,1192 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u190" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u190" ana="#chair">
                <seg>Muchas gracias, señor Ordóñez.</seg>
                <seg>En un minuto vamos a votar.<note>Pausa</note> Vamos a empezar las votaciones. Van a ser largas, así que pido paciencia y atención. Hemos puesto el tiempo mínimo para las votaciones y yo simplemente diré aprobada o rechazada; solo daré el resultado en los dictámenes. Comenzamos entonces.</seg>
                <seg>Sección 12, Asuntos Exteriores y de Cooperación. Enmiendas del Grupo Mixto. Votación en bloque de las enmiendas del señor Serrano Izko.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 144; en contra, 179; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u191" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u191" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Mixto, señora Jordà. Enmiendas 2859, 2860, 2864 y 2865.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 29; en contra, 193; abstenciones, 101.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u192" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u192" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 3052.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 138; en contra, 180; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u193" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u193" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas de la señora Jordà.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 31; en contra, 285; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u194" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u194" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas de Unión Progreso y Democracia. Enmienda 2650.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="118"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 131; en contra, 182; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u195" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u195" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 2651 a 2653.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 13; en contra, 184; abstenciones, 119.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u196" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u196" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 2657.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 27; en contra, 182; abstenciones, 110.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u197" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u197" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas de UPyD.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 17; en contra, 182; abstenciones, 119.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u198" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u198" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas de La Izquierda Plural. Enmiendas 1997, 1999, 2001 a 2009 y 2011.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 124; en contra, 179; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u199" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u199" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 1998.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 132; en contra, 180; abstenciones, 8.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u200" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u200" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2010.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 24; en contra, 180; abstenciones, 116.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u201" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u201" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2012.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 19; en contra, 180; abstenciones, 120.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u202" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u202" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del Grupo Parlamentario de Convergència i d´Unió. En primer lugar, la enmienda 3619.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 137; en contra, 180; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u203" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u203" ana="#chair">
                <seg>Queda rechazada.<pb n="119"/> Enmienda 3620.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 31; en contra, 283; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u204" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u204" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 3622, 3624, 3626 y 3627.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 31; en contra, 185; abstenciones, 103.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u205" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u205" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 3631.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 139; en contra, 178; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u206" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u206" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas de CiU.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 133; en contra, 180; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u207" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u207" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Socialista. En primer lugar, las enmiendas 513, 515, 523 a 525 y 530.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 133; en contra, 180; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u208" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u208" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 514.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 112; en contra, 184; abstenciones, 22.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u209" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u209" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 516.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 111; en contra, 182; abstenciones, 26.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u210" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u210" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 518 y 521.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 111; en contra, 180; abstenciones, 27.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u211" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u211" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 519 y 520.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="120"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 123; en contra, 180; abstenciones, 14.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u212" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u212" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas del Grupo Parlamentario Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 122; en contra, 180; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u213" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u213" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Votación del texto del dictamen de la sección 12.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 325; a favor, 181; en contra, 143; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u214" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u214" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Sección 34, Relaciones financieras con la Unión Europea. No tiene enmiendas, por lo que se vota el dictamen de la sección 34.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326; a favor, 298; en contra, 28.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u215" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u215" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Título I, artículos 1 a 13.</seg>
                <seg>Enmiendas del Grupo Parlamentario de Unión Progreso y Democracia. En primer lugar, votamos la enmienda 2574.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 6; en contra, 182; abstenciones, 132.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u216" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u216" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2642.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 5; en contra, 191; abstenciones, 123.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u217" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u217" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural. Enmienda 1922.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 19; en contra, 180; abstenciones, 121.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u218" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u218" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 1923.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 123; en contra, 179; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u219" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u219" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del Grupo Parlamentario Socialista. Enmienda 289.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 117; en contra, 183; abstenciones, 19.</seg>
                <pb n="121"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u220" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u220" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Votación del dictamen, sin perjuicio de las modificaciones que el mismo pueda sufrir como consecuencia de las enmiendas aprobadas en el curso del debate.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 325; a favor, 180; en contra, 145.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u221" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u221" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Título II, artículos 14 a 18 y nuevo. Enmienda del Grupo Parlamentario de Convergència i d´Unió 3495.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 139; en contra, 180.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u222" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u222" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Texto del dictamen del título II. Votación del dictamen.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326; a favor, 179; en contra, 147.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u223" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u223" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Título III, artículos 19 a 35. Enmiendas del Grupo Parlamentario Mixto<note>señor Quevedo Iturbe</note> En primer lugar, enmienda 2475.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 325; a favor, 25; en contra, 179; abstenciones, 121.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u224" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u224" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2573.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 325; a favor, 131; en contra, 180; abstenciones, 14.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u225" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u225" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del Grupo Parlamentario Mixto<note>señora Fernández Davila</note> Enmienda 3288.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 136; en contra, 179; abstenciones, 8.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u226" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u226" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas de la señora Fernández Davila.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 18; en contra, 278; abstenciones, 24.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u227" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u227" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda del Grupo Parlamentario Vasco<note>EAJ-PNV</note> número 236.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 124; en contra, 188; abstenciones, 8.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u228" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u228" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del Grupo Parlamentario de Unión Progreso y Democracia. Enmienda 2575.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="122"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 117; en contra, 182; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u229" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u229" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2578.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 115; en contra, 182; abstenciones, 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u230" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u230" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 2580 a 2582.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 7; en contra, 281; abstenciones, 30.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u231" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u231" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 2583.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 14; en contra, 182; abstenciones, 123.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u232" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u232" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2584.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 13; en contra, 285; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u233" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u233" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 2585 y 2590.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 14; en contra, 284; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u234" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u234" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas de UPyD.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 15; en contra, 183; abstenciones, 121.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u235" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u235" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural. Enmiendas 1924 y 1928 a 1930.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 124; en contra, 178; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u236" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u236" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 1931 a 1937 y 1947.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 19; en contra, 179; abstenciones, 119.</seg>
                <pb n="123"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u237" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u237" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas de La Izquierda Plural.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 19; en contra, 280; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u238" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u238" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Catalán de Convergència i d´Unió. Votación en bloque de las enmiendas.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 138; en contra, 179; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u239" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u239" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Socialista. Enmiendas 251 a 254.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 136; en contra, 177; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u240" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u240" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas del Grupo Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 123; en contra, 178; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u241" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u241" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Texto del dictamen del título III. Votación del dictamen.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 325; a favor, 179; en contra, 143; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u242" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u242" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Título IV, artículos 36 a 46. Enmienda del Grupo Parlamentario Mixto<note>señor Serrano Izko</note> , número 2818.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 144; en contra, 179.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u243" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u243" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del Grupo Parlamentario Mixto<note>señora Fernández Davila</note> Votación en bloque de las enmiendas.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 131; en contra, 180; abstenciones, 11.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u244" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u244" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario de Unión Progreso y Democracia. Primero, enmienda 2594.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 110; en contra, 191; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u245" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u245" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2595.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="124"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 122; en contra, 191; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u246" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u246" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural. Enmienda 1948.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 124; en contra, 179; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u247" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u247" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 1949.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 19; en contra, 179; abstenciones, 121.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u248" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u248" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del Grupo Parlamentario de Convergència i d'Unió. Enmienda 3498.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 138; en contra, 179; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u249" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u249" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 3499.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 33; en contra, 180; abstenciones, 106.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u250" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u250" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del Grupo Parlamentario Socialista. Votación en bloque de las enmiendas.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 133; en contra, 182; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u251" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u251" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Texto del dictamen del título IV. Votación del dictamen.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326; a favor, 177; en contra, 149.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u252" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u252" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Título VIII, artículos 107 y 108 y nuevos. Enmienda del Grupo Parlamentario de Unión Progreso y Democracia, 2605.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 128; en contra, 179; abstenciones, 11.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u253" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u253" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda del Grupo Parlamentario Catalán de Convergència i d'Unió. Enmienda 3521.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 139; en contra, 180.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u254" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u254" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda del Grupo Parlamentario Socialista. Enmienda 288.<pb n="125"/> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 133; en contra, 181; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u255" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u255" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Texto del dictamen del título VIII. Votación del dictamen.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 325; a favor, 181; en contra, 144.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u256" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u256" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Sección 07, Clases Pasivas. No tiene enmiendas, así que vamos a votar el dictamen de esta sección.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326; a favor, 192, en contra, 134.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u257" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u257" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Título V, artículos 47 a 59. Enmiendas del Grupo Parlamentario de Unión Progreso y Democracia. Enmienda 2597.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 129; en contra, 179; abstenciones, 8.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u258" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u258" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas de UPyD.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 113; en contra, 179; abstenciones, 22.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u259" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u259" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda del Grupo Parlamentario Catalán de Convergència i d'Unió. Enmienda 3500.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 137; en contra, 178; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u260" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u260" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Texto del dictamen del título V. Votación del dictamen.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 325; a favor, 180; en contra, 144; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u261" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u261" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Sección 06, Deuda Pública. Texto del dictamen de la Sección 06. No tiene enmiendas, así que votamos directamente el dictamen.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 325; a favor, 180; en contra, 145.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u262" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u262" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Título VI, artículos 60 a 72 y nuevos. Enmiendas del Grupo Parlamentario Mixto<note>señor Quevedo Iturbe</note> Vamos a votar en bloque todas sus enmiendas.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 127; en contra, 179; abstenciones, 18.</seg>
                <pb n="126"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u263" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u263" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Mixto<note>señora Fernández Davila</note> Enmienda 3306.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 19; en contra, 283; abstenciones 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u264" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u264" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 3309 y 3310.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 23; en contra, 181; abstenciones 120.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u265" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u265" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas de la señora Fernández Davila.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 122; en contra, 181; abstenciones, 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u266" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u266" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario de Unión Progreso y Democracia. En primer lugar, enmienda 2599.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 15; en contra, 181; abstenciones, 122.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u267" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u267" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2602.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 116; en contra, 181; abstenciones, 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u268" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u268" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2606.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 117; en contra, 182; abstenciones, 19.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u269" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u269" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas de UPyD.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 107; en contra, 182, abstenciones, 27.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u270" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u270" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Catalán de Convergència y d´Unió. En primer lugar, enmiendas 3506 y 3507.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 125; en contra, 180; abstenciones, 14.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u271" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u271" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 3509.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="127"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 24; en contra, 291; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u272" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u272" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 3510 a 3512.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 29; en contra, 180; abstenciones, 109.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u273" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u273" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas de CiU.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 132; en contra, 180; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u274" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u274" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Texto del dictamen del título VI. Votación del dictamen.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326; a favor, 181; en contra, 144; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u275" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u275" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Título VII, artículos 73 a 106, y nuevos. Enmiendas del Grupo Parlamentario Mixto<note>señora Fernández Davila</note> .Votación en bloque de todas las enmiendas.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 32; en contra, 288; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u276" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u276" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario de Unión Progreso y Democracia. Enmienda 2603.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 9; en contra, 280; abstenciones, 28.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u277" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u277" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2604.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 118; en contra, 181; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u278" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u278" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda del Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural. Enmienda 1950.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 130; en contra, 185; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u279" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u279" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del Grupo Parlamentario Catalán de Convergència i d´Unió. Enmienda 3516.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 36; en contra, 281; abstenciones, 2.</seg>
                <pb n="128"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u280" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u280" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 3517.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 134; en contra, 184; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u281" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u281" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas de CiU.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 135; en contra, 179; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u282" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u282" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Socialista. Votación en bloque de las enmiendas.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 136; en contra, 178; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u283" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u283" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Texto del dictamen del título VII. Votación del dictamen.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 325; a favor, 181; en contra, 144.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u284" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u284" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Disposiciones adicionales, primera a septuagésima quinta y nuevas; transitorias, primera a tercera y nuevas; derogatorias, primera y segunda y nuevas, y finales, primera a duodécima y nuevas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Mixto<note>señor Salvador Armendáriz</note> En primer lugar, enmienda 4148.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 10; en contra, 287; abstenciones, 27.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u285" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u285" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda del Grupo Parlamentario Mixto<note>señor Serrano Izko</note> Enmienda 2819.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 21; en contra, 291; abstenciones, 11.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u286" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u286" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del Grupo Parlamentario Mixto<note>señor Baldoví Roda</note> Enmienda 233.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 20; en contra, 180; abstenciones, 124.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u287" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u287" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 234.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 123; en contra, 179; abstenciones, 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u288" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u288" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 235.<pb n="129"/> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 32, en contra, 287; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u289" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u289" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 4180.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 134, en contra, 185; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u290" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u290" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas del Grupo Parlamentario Mixto<note>señor Baldoví Roda</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 137; en contra, 181; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u291" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u291" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Mixto<note>señor Quevedo Iturbe</note> Enmiendas 2467 y 2468.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 140; en contra, 178; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u292" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u292" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 2469.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 32; en contra, 186; abstenciones, 106.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u293" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u293" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 2474 y 2477.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 23; en contra, 180; abstenciones, 120.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u294" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u294" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas del Grupo Parlamentario Mixto<note>señor Quevedo</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 125; en contra, 179; abstenciones, 19.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u295" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u295" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Mixto<note>señora Fernández Davila</note> Enmienda 3316.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 25; en contra, 285; abstenciones, 13.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u296" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u296" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 3318 y 3319.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 20; en contra, 180; abstenciones, 124.</seg>
                <pb n="130"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u297" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u297" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas del Grupo Parlamentario Mixto<note>señora Fernández Davila</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 135; en contra, 179; abstenciones, 9.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u298" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u298" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Mixto<note>señora Jordà</note> En primer lugar, enmiendas 3273, 3281 y 3285.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 133; en contra, 180; abstenciones, 10.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u299" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u299" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 3275.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 139; en contra, 179; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u300" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u300" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 3276 y 3277.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 35; en contra, 180; abstenciones, 109.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u301" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u301" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 3278 y 3279.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 18; en contra, 284; abstenciones, 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u302" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u302" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 3280.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 18; en contra, 288; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u303" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u303" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas del Grupo Parlamentario Mixto<note>señora Jordà</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 30; en contra, 283; abstenciones, 11.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u304" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u304" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Vasco<note>EAJ-PNV</note> Enmienda 237.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 137; en contra, 185.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u305" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u305" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 238.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="131"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 125; en contra, 181; abstenciones, 14.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u306" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u306" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 239.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 30; en contra, 180; abstenciones, 114.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u307" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u307" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 240.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 321; a favor, 32; en contra, 186; abstenciones, 103.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u308" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u308" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 241.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 138; en contra, 180; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u309" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u309" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del Grupo Parlamentario de Unión Progreso y Democracia. Enmiendas 2607 y 2616.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 17; en contra, 182; abstenciones, 119.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u310" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u310" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 2608 y 2622.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 5; en contra, 181; abstenciones, 131.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u311" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u311" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 2609 y 2641.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 14; en contra, 182; abstenciones, 122.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u312" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u312" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 2610, 2611 y 2617.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 127; en contra, 181; abstenciones, 9.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u313" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u313" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 2612.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 16; en contra, 189; abstenciones, 113.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u314" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u314" ana="#chair">
                <seg>Queda rechazada.<pb n="132"/> Enmiendas 2613 y 2614.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 119; en contra, 182; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u315" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u315" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 2615.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 17; en contra, 296; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u316" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u316" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2618.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 25; en contra, 282; abstenciones, 10.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u317" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u317" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2619.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 5; en contra, 301; abstenciones, 13.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u318" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u318" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 2620 y 2629.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 15, en contra, 284; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u319" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u319" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 2621 y 2639.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 5; en contra, 283; abstenciones, 30.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u320" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u320" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 2623.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 6; en contra, 191; abstenciones, 120.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u321" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u321" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2624.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 110; en contra, 182; abstenciones, 26.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u322" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u322" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2625.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="133"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 118; en contra, 181; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u323" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u323" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2626.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 5; en contra, 284; abstenciones, 28.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u324" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u324" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2627.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 5; en contra, 284; abstenciones, 28.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u325" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u325" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2628.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 119; en contra, 192; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u326" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u326" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 2630, 2632 y 2635.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 15; en contra, 182; abstenciones, 121.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u327" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u327" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 2631.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 118; en contra, 181; abstenciones, 19.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u328" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u328" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2633.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 16; en contra, 283; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u329" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u329" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2634.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 5; en contra, 292; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u330" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u330" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2640.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 5; en contra, 291; abstenciones, 19.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u331" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u331" ana="#chair">
                <seg>Queda rechazada.<pb n="134"/> Resto de enmiendas del Grupo Parlamentario de UPyD.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 117; en contra, 182; abstenciones, 19.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u332" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u332" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural. Enmienda 1957.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 19; en contra, 289; abstenciones, 11.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u333" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u333" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 1959, 1963, 1967 y 1981.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 133; en contra, 180; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u334" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u334" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 1960, 1977, 1980, 1982 y 1991.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 19; en contra, 284; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u335" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u335" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 1964 y 1965.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 32; en contra, 181; abstenciones, 105.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u336" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u336" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 1970, 1972, 1973, 1984 y 1990.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 19; en contra, 180; abstenciones, 120.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u337" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u337" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 1974.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 123; en contra, 184; abstenciones, 12.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u338" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u338" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 1975.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 125; en contra, 179; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u339" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u339" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 1976.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="135"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 132; en contra, 183; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u340" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u340" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 1978.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 130; en contra, 186; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u341" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u341" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 1979.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 124; en contra, 180; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u342" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u342" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 1986.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 17; en contra, 283; abstenciones, 19.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u343" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u343" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas del Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 321; a favor, 124; en contra, 180; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u344" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u344" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Catalán de Convergència i d'Unió. Enmiendas 3525 a 3527, 3534, 3536, 3537, 3550, 3553, 3566, 3585, 3588, 3591 y 3593.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 36; en contra, 181; abstenciones, 101.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u345" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u345" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 3531, 3546, 3597 y 3598.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 125; en contra, 185; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u346" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u346" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 3532, 3538, 3541, 3556, 3560, 3565, 3574 a 3576, 3582, 3586, 3587, 3595 y 3596.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 130; en contra, 179; abstenciones, 9.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u347" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u347" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 3544.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 24; en contra, 179; abstenciones, 115.</seg>
                <pb n="136"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u348" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u348" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 3567 a 3572.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 133; en contra, 183; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u349" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u349" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 3589 y 4139.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 19; en contra, 188; abstenciones, 110.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u350" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u350" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 3590.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 20; en contra, 186; abstenciones, 109.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u351" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u351" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 3592.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 128; en contra, 182; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u352" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u352" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 3594.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 28; en contra, 280; abstenciones, 9.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u353" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u353" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 4135.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 25; en contra, 180; abstenciones, 114.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u354" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u354" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 4136 y 4138.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 23; en contra, 291; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u355" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u355" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas del Grupo Parlamentario Catalán de Convergència i d'Unió..</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 134; en contra, 180; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u356" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u356" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Socialista.</seg>
                <seg>Enmiendas 291 a 293, 295, 296, 300, 301, 303, 304, 306, 379 y 424.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="137"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 119; en contra, 184; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u357" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u357" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 298.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 119; en contra, 181; abstenciones, 17</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u358" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u358" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 308.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 124; en contra, 177; abstenciones 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u359" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u359" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 309.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 125; en contra, 177; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u360" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u360" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 310.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 104; en contra, 181; abstenciones, 34.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u361" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u361" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 329, 330, 333, 336, 338, 339, 361, 380, 420, y 451.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 135; en contra, 180; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u362" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u362" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 341.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 121; en contra, 180; abstenciones 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u363" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u363" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 388 a 391, 393, 405 a 408, 410, 412, 413, 418 y 470.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 107; en contra, 179; abstenciones, 31.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u364" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u364" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 356.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 110; en contra, 181; abstenciones, 27.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u365" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u365" ana="#chair">
                <seg>Queda rechazada.<pb n="138"/> Enmienda 357.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 112; en contra, 182; abstenciones, 23.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u366" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u366" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 361.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 113; en contra, 187; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u367" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u367" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 367.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 107; en contra, 187; abstenciones, 22.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u368" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u368" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 368.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 121; en contra, 176; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u369" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u369" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 369.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 113; en contra, 179; abstenciones, 26.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u370" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u370" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 370 a 374, 392, 394 a 403, 409, 414 a 416, 471 a 478, 488 a 491, y 493 a 495.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 118; en contra, 178; abstenciones, 22.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u371" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u371" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 381, 384 y 385.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 126; en contra, 180; abstenciones, 13.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u372" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u372" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 382 y 383.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 118; en contra, 189; abstenciones, 12.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u373" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u373" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 386 y 387.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="139"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 116; en contra, 189; abstenciones, 13.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u374" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u374" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 404.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 112; en contra, 179; abstenciones, 27.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u375" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u375" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 411.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 107; en contra, 179; abstenciones, 33.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u376" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u376" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 421.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 107; en contra, 187; abstenciones, 24.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u377" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u377" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 461 a 466.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 121; en contra, 180; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u378" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u378" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 492.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 120; en contra, 179; abstenciones, 19.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u379" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u379" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 4335 y 4346 a 4348.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 118; en contra, 179; abstenciones, 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u380" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u380" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas del Grupo Parlamentario Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 122; en contra, 179; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u381" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u381" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Vamos a votar ahora, en bloque, las enmiendas del Grupo Parlamentario Socialista y Mixto<note>señor Baldoví</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 124; en contra, 180; abstenciones, 18.</seg>
                <pb n="140"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u382" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u382" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Popular en el Congreso. Enmienda 4241.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 185; en contra, 4; abstenciones, 130.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u383" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u383" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda transaccional a la enmienda 4242.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 321; a favor, 188; en contra, 5; abstenciones, 128.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u384" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u384" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Texto del dictamen de las disposiciones adicionales, transitorias, derogatorias y finales. Votación del dictamen.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 325; a favor, 180; en contra, 144; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u385" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u385" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Anexos<note>I a XIV y nuevo</note> Enmiendas de UPyD. Enmienda 2643.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 13; en contra, 287; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u386" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u386" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del Grupo Parlamentario Socialista. Enmienda 290.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 122; en contra, 184; abstenciones, 13.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u387" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u387" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 297.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 117; en contra, 183; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u388" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u388" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 307.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 129; en contra, 182; abstenciones, 8.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u389" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u389" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 337.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 120; en contra, 179; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u390" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u390" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 511 y 512.<pb n="141"/> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 134; en contra, 180; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u391" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u391" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas del Grupo Parlamentario Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 108; en contra, 178; abstenciones, 32.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u392" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u392" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Texto del dictamen de los anexos. Votación del dictamen.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326; a favor, 181; en contra, 145.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u393" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u393" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Para que se hagan una idea, en este momento estamos más o menos por la mitad de la votación, así que queda mucho por delante.<note>Rumores</note> Sección 25, Presidencia.</seg>
                <seg>Enmienda 2847 del Grupo Parlamentario Mixto<note>señor Serrano Izko</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 138; en contra, 180; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u394" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u394" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Votación en bloque de las enmiendas del Grupo Parlamentario Mixto<note>señora Jordà i Roura</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 132; en contra, 180; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u395" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u395" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 2772 del Grupo de Unión Progreso y Democracia.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 132; en contra, 177; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u396" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u396" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 3615 del Grupo Parlamentario Catalán de Convergència i d'Unió.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 137; en contra, 179; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u397" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u397" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Votación en bloque de las enmiendas del Grupo Parlamentario Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 127; en contra, 179; abstenciones, 11.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u398" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u398" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Texto del dictamen de la sección 25. Votación del dictamen.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="142"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326; a favor, 176; en contra, 149; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u399" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u399" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Sección 19, Empleo y Seguridad Social.</seg>
                <seg>Enmienda 2852 del del Grupo Parlamentario Mixto<note>señor Serrano Izko</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 139; en contra, 176; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u400" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u400" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2515 del Grupo Parlamentario Mixto<note>señor Quevedo Iturbe</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 325; a favor, 120; en contra, 181; abstenciones, 24.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u401" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u401" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas del señor Quevedo.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 121; en contra, 179; abstenciones, 23.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u402" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u402" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Mixto<note>señora Fernández Davila</note> Enmienda 3483.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 133; en contra, 177; abstenciones, 13.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u403" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u403" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas de la señora Fernández Davila.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 127; en contra, 179; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u404" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u404" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Mixto<note>señora Jordà i Roura</note> Enmiendas 2898 y 2899.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 35; en contra, 283; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u405" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u405" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas de la señora Jordà.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 140; en contra, 176; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u406" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u406" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario de Unión Progreso y Democracia. Enmienda 2738.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 131; en contra, 179; abstenciones, 8.</seg>
                <pb n="143"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u407" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u407" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2739.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 19; en contra, 178; abstenciones, 120.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u408" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u408" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2740.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 119; en contra, 179; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u409" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u409" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 2742 y 2743.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 16; en contra, 178; abstenciones, 122.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u410" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u410" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas del Grupo Parlamentario de Unión Progreso y Democracia.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 116; en contra, 178; abstenciones, 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u411" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u411" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural. Enmiendas 2324 a 2326.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 134; en contra, 180; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u412" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u412" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas de La Izquierda Plural.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 123; en contra, 177; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u413" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u413" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Catalán de Convergència i d'Unió. Enmiendas 3612 y 3937.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 138; en contra, 178.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u414" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u414" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas de CiU.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 36; en contra, 183; abstenciones, 101.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u415" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u415" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Socialista. Enmiendas 1329, 1330, 1333, 1334, 1341 y 1345.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="144"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 132; en contra, 180; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u416" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u416" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas del Grupo Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 123; en contra, 178; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u417" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u417" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Texto del dictamen de la sección 19. Hay dos votaciones, la primera, la votación del dictamen en lo relativo a la corrección a la enmienda transaccional incorporada en Comisión en relación con el programa de reasentamiento y reubicación de refugiados.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 199; en contra, 5; abstenciones, 115.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u418" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u418" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Ahora votación del resto del dictamen.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326; a favor, 176; en contra, 147; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u419" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u419" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Sección 60, Seguridad Social.</seg>
                <seg>Enmienda 1917 del Grupo Parlamentario Mixto<note>señor Álvarez Sostres</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 116; en contra, 180; abstenciones, 24.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u420" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u420" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 3362 del Grupo Parlamentario Mixto<note>señora Fernández Davila</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 132; en contra, 180; abstenciones, 10.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u421" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u421" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del Grupo Parlamentario de Unión Progreso y Democracia. Enmienda 2813.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 129; en contra, 179; abstenciones, 8.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u422" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u422" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2815.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 13; en contra, 180; abstenciones, 124.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u423" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u423" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2817.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="145"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 27; en contra, 179; abstenciones, 110.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u424" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u424" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural. Enmienda 2446.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 130; en contra, 180; abstenciones, 10.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u425" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-15-CD150915.u425" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 2447.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 117; en contra, 177; abstenciones, 24.</seg>

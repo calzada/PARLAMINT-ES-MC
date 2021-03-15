@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="286">286 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="286" xml:lang="es">286 speeches</measure>
+            <measure unit="speeches" quantity="286" xml:lang="en">286 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="13"/>
                <tagUsage gi="note" occurs="270"/>
                <tagUsage gi="u" occurs="286"/>
-               <tagUsage gi="lb" occurs="821"/>
+               <tagUsage gi="seg" occurs="821"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#covid">
       <body>
@@ -825,11 +823,11 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2020-06-17-CD200617.u132" ana="#regular">
+            <u xml:id="ParlaMint-ES_2020-06-17-CD200617.u132" ana="#chair">
                <seg>Muchísimas gracias.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> - DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, AL MINISTRO DEL INTERIOR PARA QUE EXPLIQUE LAS DECISIONES ADOPTADAS EN EL SENO DE LA GUARDIA CIVIL.</seg>
                <note>Número de expediente 172/000040</note>
             </u>
-            <u xml:id="ParlaMint-ES_2020-06-17-CD200617.u133" ana="#regular">
+            <u xml:id="ParlaMint-ES_2020-06-17-CD200617.u133" ana="#chair">
                <seg>A continuación, interpelación urgente del Grupo Parlamentario Popular en el Congreso al ministro del Interior para que explique las decisiones adoptadas en el seno de la Guardia Civil.</seg>
                <seg>Para su defensa tiene la palabra la señora Vázquez Blanco.</seg>
             </u>

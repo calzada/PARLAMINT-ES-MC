@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="232">232 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="232" xml:lang="es">232 speeches</measure>
+            <measure unit="speeches" quantity="232" xml:lang="en">232 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="62"/>
                <tagUsage gi="u" occurs="232"/>
                <tagUsage gi="note" occurs="121"/>
-               <tagUsage gi="lb" occurs="596"/>
+               <tagUsage gi="seg" occurs="596"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>PREGUNTAS - DEL DIPUTADO DON AITOR ESTEBAN BRAVO, DEL GRUPO PARLAMENTARIO VASCO , QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿TIENE USTED VOLUNTAD DE LLEGAR A ACUERDOS PARLAMENTARIOS CON NUESTRO GRUPO EN EL PROYECTO DE LEY DE HIDROCARBUROS Y EN ESPECIAL EN TODO LO RELATIVO AL HUB DE GAS?</head>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Preguntas dirigidas al señor presidente del Gobierno. Pregunta, en primer lugar, el diputado don Aitor Esteban, del Grupo Vasco, PNV.</seg>
             </u>
@@ -110,7 +108,7 @@
                <seg>Señor presidente, quiero hablarle de una ley en trámite en esta Cámara, una ley importante, la de hidrocarburos, y me gustaría hacer hincapié en esta pregunta de control en lo que concierne al sector gasístico, hoy un sector claramente de futuro, pero por el que hace unas décadas pocos hicieron una apuesta. En este sentido la Comunidad Autónoma vasca la hizo, tiene una trayectoria grande en este sector, desde la plataforma Gaviota de extracción de gas hasta la creación de las Bahías de Bizkaia, unas sociedades que hicieron del puerto de Bilbao un puerto de referencia en el ámbito del gas; la creación pública de hidrocarburos Shesa, la creación de la empresa Gas de Euskadi y la conexión energética de los edificios del país, de la Comunidad Autónoma vasca, basándose en el gas, el 90 % de los edificios de la comunidad autónoma están hoy conectados a la red gasística. No solo es eso, sino que existe un hub de gas que en estos momentos ya está funcionando, de ahí nuestro especial interés en que se tenga en cuenta toda esta trayectoria a la hora de aprobar la ley.</seg>
                <seg>Del texto de su ley, del texto que nos ha llegado en el proyecto, parece configurarse otro hub partiendo de la nada, y yo creo que hay ámbito para la discusión y para la negociación, empezando por la ubicación, el lugar de ubicación del propio hub, insisto, hay uno localizado en Bilbao que ya está en marcha, y continuando por la distinción de operaciones a corto y largo plazo, operaciones a corto que, a nuestro entender, también en esa ley tienen un plazo demasiado largo para lo que es el mercado internacional y deberían reducir su plazo a un par de días; o también habría que hablar sobre la participación del propio sector público en la configuración del hub. En definitiva, hay un conocimiento, hay una trayectoria, un trabajo ya hecho. Su Gobierno está al corriente, pero hasta el momento no ha habido ningún movimiento. Hay mucha discusión entre actores privados pero no entre actores públicos, y creo que ha llegado el momento y es cuanto antes necesario.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u3" ana="#chair">
                <seg>Muchas gracias, señor Esteban.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -124,7 +122,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u5" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Esteban.</seg>
             </u>
@@ -133,12 +131,12 @@
                ana="#regular">
                <seg>Señor presidente, le agradezco sus palabras y la disposición al diálogo. Lo único es que urgen ya los plazos, el movimiento se demuestra andando, así que, por favor, si hay algo de real -y creo que sí- en sus palabras, las discusiones tienen que empezar ya; tiene que ser fijada una reunión urgentemente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u7" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>- DE LA SEÑORA DOÑA ROSA MARÍA DÍEZ GONZÁLEZ, DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿CREE USTED QUE SU GOBIERNO ESTÁ HACIENDO LO NECESARIO PARA GARANTIZAR LA IGUALDAD ENTRE ESPAÑOLES?</seg>
                <note>Número de expediente 180/001204</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u8" ana="#chair">
                <seg>Pregunta que formula al señor presidente del Gobierno la diputada doña Rosa Díez González, del Grupo Parlamentario de Unión Progreso y Democracia.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u9"
@@ -147,7 +145,7 @@
                <seg>Señor Rajoy, usted es consciente de que, como consecuencia de sus malas decisiones, 4 millones de españoles no pueden mantener la vivienda a una temperatura adecuada. Usted es consciente de que, según un informe de la Organización Mundial de la Salud, la pobreza energética causa más de 7.000 muertes prematuras al año. Usted es consciente de que el 51 % de los desempleados no tienen ningún tipo de cobertura, cinco puntos más que cuando usted llegó al Gobierno. Usted es consciente de que, como consecuencia de sus malas políticas, en España hay 13 millones de ciudadanos en riesgo de pobreza y exclusión. Usted es consciente de que, como consecuencia de sus malas políticas, hay 1.800.000 hogares en los que todos sus miembros están en paro. Duro, ¿verdad, señor Rajoy? Lo que yo me pregunto es, sabiendo que esto es así por sus malas decisiones, ¿cómo puede usted dormir tranquilo?</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u10" ana="#chair">
                <seg>Gracias, señora Díez.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -158,7 +156,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u12" ana="#chair">
                <seg>Gracias, señor presidente.</seg>
                <seg>Señora Díez.</seg>
             </u>
@@ -169,7 +167,7 @@
                <seg>¿No le da vergüenza, por ejemplo, que una mujer tenga que trabajar setenta y nueve días más que un hombre para estar en sus mismas condiciones salariales? Setenta y nueve días más a lo largo de un año, que son más de once años a lo largo de su vida laboral para cobrar la misma pensión.</seg>
                <seg>Ya sé que usted carece de empatía con los que sufren, es lo que tiene el plasma, señor Rajoy, pero recuerde que la desigualdad es ineficiente y que cuanto más desigual es un país más pobreza, menos oportunidades y peor viven todos porque el país progresa mucho menos. Así que, aunque no preste usted atención al sufrimiento de los ciudadanos -que sé que usted no presta atención al sufrimiento de la gente-, aunque no reaccione por eso, reaccione aunque sea por egoísmo. No nos haga más daño, no haga más daño a los españoles en el tiempo que le queda.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u14" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -181,12 +179,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u16" ana="#chair">
                <seg>Gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON PEDRO SÁNCHEZ PÉREZ-CASTEJÓN, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿QUÉ VALORACIÓN HACE EL PRESIDENTE DEL GOBIERNO DEL AUMENTO DE LA DESIGUALDAD SALARIAL EN NUESTRO PAÍS?</seg>
                <note>Número de expediente 180/001205</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u17" ana="#chair">
                <seg>Pregunta del diputado don Pedro Sánchez del Grupo Parlamentario Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u18"
@@ -197,7 +195,7 @@
                <note>Aplausos</note>
                <pb n="9"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u19" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -208,7 +206,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u21" ana="#chair">
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Sánchez.</seg>
             </u>
@@ -220,7 +218,7 @@
                <seg>Hace usted referencia a la reforma laboral. Lo mejor para crear empleo, señor Rajoy, es no destruirlo y, como consecuencia de su reforma laboral, se han destruido 162.000 puestos de trabajo en mujeres, señor Rajoy; el 70 % de los contratos a tiempo parcial en este país están en manos de mujeres, en su mayoría de manera involuntaria. También con la reforma del sistema público de pensiones, señor Rajoy, señorías, lo que ha ocurrido es lo siguiente y es que las mujeres pensionistas están cobrando un 39 % menos. ¿Se imagina usted, señor Rajoy, lo supone vivir con 700 euros al mes? Eso es lo que cobran, señor Rajoy, 2 millones de mujeres en este país. Sus recortes en servicios sociales, en dependencia y también en educación de cero a tres años ha hecho lo imposible, ha conseguido lo imposible, señor Rajoy, y es que en cuarenta años se haya producido por primera vez durante estos dos últimos años una caída en la población activa femenina de 70.000 mujeres. Cuando hablamos, señor Rajoy, de desigualdad y de brecha salarial, le digo lo siguiente, y es que las mujeres cobran un 24 % menos que sus compañeros varones. Nosotros le pedimos que se apruebe una ley de igualdad salarial entre hombres y mujeres y ustedes dicen que no; dicen que no, probablemente por esa idea que tienen de que sea envidia igualitaria, pero la diferencia entre ustedes y nosotros, es decir, entre la derecha y la izquierda, es que a lo que ustedes llaman envidia igualitaria nosotros lo llamamos simple y llanamente equidad.</seg>
                <note>Un señor diputado: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u23" ana="#chair">
                <seg>Muchas gracias, señor Sánchez.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -230,12 +228,12 @@
                <seg>Sin duda hay algunas diferencias entre ustedes y nosotros, pero probablemente la más importante es que, cuando ustedes gobiernan, hacen exactamente lo contrario de lo que usted ha dicho hoy.<note>Rumores y protestas.-Aplausos</note> Eso ya es habitual. Ayer publicaba el Parlamento Europeo un estudio sobre la desigualdad salarial en Europa, que comprendía el periodo 2006-2011 -serían los datos de los que disponían-, y durante este periodo la desigualdad se incrementó en dieciocho de los veintiséis países de la Unión Europea; el país donde más se incrementó, gobernando el Partido Socialista Obrero Español, es decir, ustedes, fue España.<note>Rumores</note> Ustedes me hablan de recortes, de discriminación salarial y de toda suerte de discriminaciones, pero en la última legislatura -creo recordar- más de un millón de mujeres perdieron su puesto de trabajo en España mientras que el año pasado 198.000 mujeres consiguieron un puesto de trabajo después de que el paro entre las mujeres estuviera aumentando ininterrumpidamente desde el año 2005.<pb n="10"/> No me hable de recortes de las pensiones, porque los únicos que han recortado las pensiones en España han sido ustedes; yo no he congelado las pensiones nunca en nuestro país.<note>Rumores.-Aplausos</note> Ni usted ni yo fijamos los salarios de nadie, eso es consecuencia de acuerdos entre las partes, fundamentalmente sindicatos y organizaciones empresariales, pero sí hay algunas políticas que podemos hacer para ayudar a la gente a que viva mejor. Primero, las políticas que crean empleo, y hoy, por fortuna, después de muchos años, en nuestro país se crea empleo. Posteriormente, políticas que controlen la inflación para que la gente pueda mantener su nivel adquisitivo, y hoy la inflación y los precios están por debajo de cero mientras que cuando ustedes gobernaban subían por encima del 3 %. Después, impuestos justos, y con la reforma fiscal que hemos hecho hace que muchísimas personas, las que menos ganen, estén en una situación mejor. Por último, medidas de discriminación positiva. Dentro de breves fechas, vamos a aprobar el plan de la igualdad hombre y mujer en el ámbito laboral y contra la discriminación&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u25" ana="#chair">
                <seg>Gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON ANTONIO HERNANDO VERA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA VICEPRESIDENTA DEL GOBIERNO Y MINISTRA DE LA PRESIDENCIA: ¿CÓMO VALORA EL GOBIERNO EL RESULTADO DE SU POLÍTICA FISCAL EN EL SECTOR CULTURAL?</seg>
                <note>Número de expediente 180/001206</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u26" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u26" ana="#chair">
                <seg>Pregunta dirigida a la señora vicepresidenta del Gobierno y ministra de la Presidencia. Pregunta el diputado don Antonio Hernando, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u27"
@@ -244,7 +242,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señora vicepresidenta, ¿qué balance hace el Gobierno del impacto de su política fiscal en el sector cultural?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u28" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -257,7 +255,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u30" ana="#chair">
                <seg>Muchas gracias, señora vicepresidenta.</seg>
                <seg>Señor Hernando.</seg>
             </u>
@@ -270,7 +268,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u32" ana="#chair">
                <seg>Muchas gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -282,12 +280,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u34" ana="#chair">
                <seg>Gracias, señora vicepresidenta.</seg>
                <seg>- DE LA DIPUTADA DOÑA ROSA AGUILAR RIVERO, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE JUSTICIA: ¿QUÉ INTENCIONES TIENE EL GOBIERNO RESPECTO A LA PRIVATIZACIÓN DEL REGISTRO CIVIL?</seg>
                <note>Número de expediente 180/001207</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u35" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u35" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Justicia y que formula la diputada doña Rosa Aguilar, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u36"
@@ -296,7 +294,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor ministro, ¿qué intenciones tiene el Gobierno respecto a la privatización del Registro Civil?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u37" ana="#chair">
                <seg>Gracias, señora Aguilar.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -308,7 +306,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u39" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u39" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señora Aguilar.</seg>
             </u>
@@ -320,7 +318,7 @@
                <seg>Señor ministro, esta operación huele muy mal, huele a negocio para unos pocos. La falta de transparencia y la opacidad son sus señas de identidad.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u41" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u41" ana="#chair">
                <seg>Muchas gracias, señora Aguilar.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -332,12 +330,12 @@
                <seg>El 50 % de las quejas que se presentan hoy ante el Defensor del Pueblo por el mal funcionamiento de la justicia tienen que ver con el Registro Civil. ¿A ustedes les parece que es un ámbito jurisdiccional?, ¿es propio de los jueces hacer anotaciones de nacimientos, de defunción o de capitulaciones matrimoniales?, ¿tiene eso algún sentido? Estamos buscando un sistema eficaz, un sistema que garantiza el empleo, que está pactado con las comunidades autónomas y con los sindicatos y que va a garantizar el empleo. Y como tenemos aquí en esta Cámara el proyecto de ley<note>ayer se acordó la ampliación del plazo de enmiendas durante una semana</note> , estaremos encantados de conocer sus enmiendas. A fecha de hoy, no han presentado ni una sola enmienda para mejorar el proyecto de ley. ¿Cuál es su propuesta?, ¿qué lo lleven los secretarios judiciales?, ¿qué lo lleven los jueces?, ¿quién lo tiene que llevar? No conocemos su propuesta todavía. La nuestra está acordada con el Colegio de Registradores, que depende del Ministerio de Justicia; está pactada con los sindicatos para el mantenimiento del empleo y está pactada con las comunidades autónomas para garantizar que en todo el territorio funcione un registro civil de calidad y<pb n="13"/> propio del siglo XXI, que no es el que tenemos en la actualidad. En eso sí que estoy de acuerdo con usted.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u43" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON ALBERTO GARZÓN ESPINOSA, DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CÓMO EXPLICA LA ASIGNACIÓN DE LOS FONDOS DE CONVERGENCIA A ANDALUCÍA?</seg>
                <note>Número de expediente 180/001202</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u44" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u44" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Hacienda y Administraciones Públicas.</seg>
                <seg>Pregunta, en primer lugar, el diputado don Alberto Garzón de Izquierda Plural.</seg>
             </u>
@@ -346,7 +344,7 @@
                ana="#regular">
                <seg>Señor Montoro, cómo explica la asignación de fondo de convergencia a Andalucía.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u46" ana="#chair">
                <seg>Gracias, señor Garzón.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -357,7 +355,7 @@
                <seg>Señorías, señor diputado, la asignación de los fondos de convergencia a Andalucía se realiza siguiendo los mismos criterios que se aplican a las demás comunidades autónomas y que están establecidos en la Ley 22/2009, que regula el sistema de financiación de las comunidades autónomas de régimen común y ciudades con estatuto de autonomía.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u48" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Garzón.</seg>
             </u>
@@ -370,7 +368,7 @@
                <note>Aplausos</note>
                <pb n="14"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u50" ana="#chair">
                <seg>Gracias, señor Garzón.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -383,12 +381,12 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u52" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u52" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON JOAQUÍN FRANCISCO PUIG FERRER, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CONSIDERA EL MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS QUE LA COMUNITAT VALENCIANA ESTÁ SIENDO TRATADA JUSTAMENTE POR EL GOBIERNO?</seg>
                <note>Número de expediente 180/001208</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u53" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Hacienda y Administraciones Públicas que formula don Joaquín Puig del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u54"
@@ -400,7 +398,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u55" ana="#chair">
                <seg>Muchas gracias, señor Puig.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -414,7 +412,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u57" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Puig.</seg>
             </u>
@@ -426,7 +424,7 @@
                <seg>Maltrata usted además a los valencianos desde la falta de diálogo. Los empresarios valencianos y los representantes valencianos han necesitado siete meses para que usted les reciba y les dice: sí, tienen razón, pero después no hace nada y no va a resolverlo. Ese es el problema fundamental. Cumpla con la ley y cumpla con la Constitución, porque lo que el señor Rajoy ha dicho no es verdad, no&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u59" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -437,11 +435,11 @@
                <seg>La Comunidad Valenciana es una de las regiones de España que mejor está aprovechando la salida de la crisis económica, y algo tendrán que ver los Gobiernos que estamos gestionando los recursos públicos de los ciudadanos a la hora de impulsar esa recuperación económica. En la Comunidad Valenciana se ha creado más de la cuarta parte de los nuevos empleos creados en España en los quince últimos meses. Se está creando empleo, la afiliación a la cotización a la Seguridad Social está creciendo por encima de la media nacional y hay muchos más emprendedores que están pagando el IVA y el pago fraccionado de los impuestos directos, de los que había en el año 2013. Algo está cambiando en la Comunidad Valenciana y en el conjunto de España: la recuperación económica y la creación de empleo.</seg>
                <seg>Animo al Partido Socialista a que reconozca esa realidad, que no la empañe, porque parece que su objetivo político es lo contrario, pero la realidad se va imponiendo y ciertamente hay políticas económicas que empujan a los países a salir&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u61" ana="#chair">
                <seg>Gracias, señor ministro.<pb n="16"/> - DEL DIPUTADO DON PEDRO SAURA GARCÍA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CREE QUE SUS CONTINUAS FILTRACIONES SOBRE INFORMACIÓN TRIBUTARIA AYUDAN A MEJORAR LA CONCIENCIA FISCAL DE LOS ESPAÑOLES?</seg>
                <note>Número de expediente 180/001209</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u62" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u62" ana="#chair">
                <seg>Pregunta, que se formula al señor ministro de Hacienda y Administraciones Públicas, del diputado don Pedro Saura del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u63"
@@ -452,7 +450,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u64" ana="#chair">
                <seg>Gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -464,7 +462,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u66" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Saura.</seg>
             </u>
@@ -477,7 +475,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u68" ana="#chair">
                <seg>Gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
                <pb n="17"/>
@@ -489,12 +487,12 @@
                <seg>El único que se tiene que sentir, ni siquiera amenazado, simplemente perseguido es el defraudador fiscal. Ese es el que debe temer las consecuencias de la aplicación de la ley, ¿o no debe ser así? Ya le he dicho que se han realizado casi 100.000 inspecciones el año pasado. ¿Cuánto ha aumentado la recaudación derivada de la lucha contra el fraude fiscal? Ha llegado al récord histórico, a 12.300 millones de euros. ¿Cuánta es la información acumulada en la Agencia Tributaria a partir de la declaración tributaria extraordinaria y de las sucesivas regularizaciones propiciadas por la Ley 7/2012? ¿Cuánta es la información acumulada sobre bienes y derechos de contribuyentes españoles en el exterior? ¿Ha habido alguna ocasión en la historia de la Hacienda pública donde se haya progresado tanto contra el fraude fiscal? A usted eso no le gustará, señor Saura: no sé por qué; tal vez porque usted participó en una Administración anterior que no lo hacía, pero eso pregúnteselo a los responsables políticos de la Administración anterior, porque estos son hechos, cifras, no es un caso como el que dice usted&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u70" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON JOAN RANGEL TARRÉS, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CUÁL ES LA POSICIÓN DEL GOBIERNO EN RELACIÓN CON LOS PRINCIPALES RIESGOS DE DESVIACIÓN EN EL OBJETIVO DE ESTABILIDAD DE 2015 -Y EN CONCRETO, EN LOS ESCENARIOS DE INGRESOS- CONTENIDOS EN EL INFORME DE LA AIREF PARA LA COMUNIDAD AUTÓNOMA DE CATALUÑA?</seg>
                <note>Número de expediente 180/001210</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u71" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Hacienda y Administraciones Públicas, que formula el diputado don Joan Rangel, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u72"
@@ -503,7 +501,7 @@
                <seg>Señor ministro, el año 2015 va a ser un año peculiar para Cataluña en el ámbito presupuestario, y me explicaré. El Gobierno de la Generalitat ha elaborado dos presupuestos de ingresos: uno para contentar a su socio de Esquerra Republicana de Catalunya, pero que depende fundamentalmente de usted; el otro para contentarle a usted y que depende fundamentalmente de la gestión que haga el Gobierno. En el primero esperan obtener un 10 % de los ingresos, fruto de una negociación política con usted, con su Gobierno, y si el indicador es el resultado de la votación que tuvimos ayer sobre el Fondo de competitividad parece que vamos mal. En el segundo, en el que quieren contentarle a usted, los ingresos procederían de la venta de activos y de concesiones, y si vemos la ejecución presupuestaria de 2014, tampoco es para echar cohetes. Nos gustaría conocer cuál de los dos da usted por bueno, si el contenido en el informe que figura en mi pregunta y que doy por reproducida, o bien el que se contiene en el Plan económico-financiero que le han remitido. Como decimos en catalán, nos gustaría saber de quin mal hem de morir.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u73" ana="#chair">
                <seg>Gracias, señor Rangel.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -515,7 +513,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u75" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Rangel.</seg>
                <pb n="18"/>
@@ -526,7 +524,7 @@
                <seg>Señor ministro, lo que acaba de confirmar es lo que me temía. Es una enorme tomadura de pelo a los ciudadanos de Cataluña, porque lo que se ha discutido en el Parlamento no es precisamente lo que usted está diciendo. La situación que viven las comunidades autónomas no es ajena a sus decisiones políticas. En primer lugar, porque decidió fijar un objetivo de déficit público a las comunidades autónomas durísimo, que se ha traducido en severos recortes en sanidad, en educación y en servicios sociales, y esa es su responsabilidad porque coincide con sus políticas de desigualdad. Y en segundo lugar, porque se ha negado a cumplir la Ley de Financiación Autonómica, aunque diga que lo va a hacer. Tenía que haberlo hecho antes y no ha sido así, y eso es porque le permite tener la sartén por el mango. Señor ministro, están jugando con fuego entre todos, pero los que salimos chamuscados somos los ciudadanos, en este caso los de Cataluña. Con tanto juego de trilero, dígame la verdad: ¿dónde está la bolita, señor ministro?, porque los ciudadanos lo están&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u77" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -537,12 +535,12 @@
                <seg>Señoría, el conjunto de las políticas, de las acciones del Gobierno se mide por el cumplimiento del objetivo principal, que es superar la crisis económica y que haya creación de empleo. Esos son los objetivos. Pregúntese, señor Rangel, si existe ese crecimiento económico en Cataluña y si se está creando empleo allí. ¿Sí o no? Se está creando empleo y hay crecimiento económico en Cataluña, y si la Generalitat de Catalunya en vez de distraer sus esfuerzos en otros objetivos políticos se dedicara a ejercer sus responsabilidades de Gobierno, estoy convencido de que Cataluña sería uno de los motores que con más fuerza estaría promoviendo la recuperación económica de los catalanes y la salida de la crisis para el conjunto de los españoles. Contando con esas posiciones políticas, de las que discrepo profundamente, le voy a recordar que Cataluña en el año 2015 va a ser la comunidad autónoma más beneficiada por el conjunto de ayudas promovidas por el Gobierno de España. Cataluña se va a ahorrar unos 1.844 millones de euros en el año 2015 y ese ahorro significa que podrá sustentar, que podrá financiar correctamente la prestación de servicios públicos básicos: educación, sanidad y prestaciones sociales.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u79" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON MARTÍ BARBERÀ I MONTSERRAT, DEL GRUPO PARLAMENTARIO CATALÁN<note>CONVERGÈNCIA I UNIÓ</note> , QUE FORMULA AL SEÑOR MINISTRO DE EDUCACIÓN, CULTURA Y DEPORTE: ¿CUÁNDO SE INICIARÁN LAS CONVERSACIONES ENTRE LA ADMINISTRACIÓN GENERAL DEL ESTADO Y LA GENERALITAT DE CATALUÑA PARA EL TRASPASO TOTAL DE LA GESTIÓN DE LAS BECAS EN CATALUÑA, TAL COMO HA DETERMINADO EL TRIBUNAL CONSTITUCIONAL?</seg>
                <note>Número de expediente 180/001203</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u80" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Educación, Cultura y Deporte. La formula el diputado don Martí Barberà, del Grupo Catalán de Convergència i Unió.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u81"
@@ -552,7 +550,7 @@
                <seg>Señor ministro, durante su comparecencia en la Comisión de Educación, del día 17 de diciembre, le reiteré la reivindicación de ejecutar definitivamente el traspaso de las becas y ayudas al estudio a la Generalitat de Cataluña. Usted conoce la sentencia del Tribunal Constitucional 188/2001, de 20 de septiembre, que estima parcialmente el conflicto positivo de competencias interpuesto por la Generalitat de Catalunya, en la que se declara que se vulneran las competencias de la misma en materia de becas y ayudas al estudio de carácter general para estudios universitarios y medios. Usted me respondió: Es un tema, como todos los que están en el espacio de lo discutible entre la Administración General del Estado y las comunidades autónomas, del que se puede hablar, aunque no lo vamos a resolver en veinticuatro horas.</seg>
                <seg>Señor ministro, ¿cuándo tiene previsto iniciar las conversaciones entre la Administración General del Estado y la Generalitat de Catalunya para el traspaso total de la gestión de las becas, tal como ha determinado el Tribunal Constitucional?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u82" ana="#chair">
                <seg>Gracias, señor Barberà.</seg>
                <seg>Señor ministro.</seg>
                <pb n="19"/>
@@ -563,7 +561,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Gracias, señor Barberà. Como su señoría ha recordado, mostré en aquella comparecencia en Comisión la disposición del Gobierno a continuar unas conversaciones que, de hecho, se iniciaron en el año 2007 y que encallaron en el año 2009, para dar cumplimiento a esas sentencias del Tribunal Constitucional, pero en los términos en que esas sentencias lo establecen, es decir, en los términos que también garanticen la presencia del Estado a la hora de emitir la legislación básica que cumpla lo que resulta fundamental en el tratamiento de las becas, a saber: la garantía de la igualdad que para todos los españoles consagra el artículo 14 de la Constitución.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u84" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Barberà.</seg>
             </u>
@@ -575,7 +573,7 @@
                <seg>Señor Wert, como ministro de Educación, tiene que predicar con el ejemplo. Sea coherente con lo que dijo y siéntese a hablar con la Generalitat de Catalunya. Si desde 2007 no se ha hablado, siéntese a hablar con ella, discutan el procedimiento al amparo del texto de la sentencia y empiecen cuanto antes. Señor ministro, ponga fecha, ponga fecha.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u86" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -588,11 +586,11 @@
                <seg>Y quisiera aprovechar los últimos segundos para recordar en este momento en esta Cámara el centenario, que hoy se cumple, del fallecimiento de don Francisco Giner de los Ríos, renovador de la pedagogía en España. Creo que todos los grupos de la Cámara se unirán&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u88" ana="#chair">
                <seg>Gracias, señor ministro.<pb n="20"/> - DEL DIPUTADO DON FELIPE JESÚS SICILIA ALFÉREZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA MINISTRA DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE: ¿TIENE INTENCIÓN EL GOBIERNO DE ADOPTAR ALGUNA MEDIDA QUE FAVOREZCA AL MUNDO RURAL EN ANDALUCÍA ANTE LAS MALAS COSECHAS DE ESTE AÑO?</seg>
                <note>Número de expediente 180/001214</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u89" ana="#chair">
                <seg>Pregunta dirigida a la señora ministra de Agricultura, Alimentación y Medio Ambiente. Pregunta el diputado don Felipe Sicilia, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u90"
@@ -602,7 +600,7 @@
                <seg>Señora ministra, el año pasado no fue especialmente bueno para el campo, prueba evidente es que durante el año 2014 la renta agraria cayó un 7,5 %: malas cosechas, caídas de precio, altos costes de producción. Evidentemente también Andalucía se ha visto afectada por esta situación y como consecuencia las economías y el empleo del ámbito rural, la economía y el empleo de los pequeños municipios del interior. Y dado que usted, señora ministra, es competente en políticas de desarrollo rural le pregunto si tienen intención en su ministerio de poner en marcha alguna medida que favorezca la economía y el empleo del mundo rural de Andalucía.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u91" ana="#chair">
                <seg>Gracias, señor Sicilia.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -613,7 +611,7 @@
                <seg>Señoría, toda acción del Gobierno en el ámbito agroalimentario tiene como fin último la mejora de las rentas de quienes en él tienen su medio de vida.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u93" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>Señor Sicilia.</seg>
             </u>
@@ -622,7 +620,7 @@
                ana="#regular">
                <seg>Señora ministra, tan escasas como sus palabras son sus medidas en política de desarrollo rural y mucho más escaso el presupuesto que para ello destina, caracterizado por una palabra: recortes. Han recortado año tras año el presupuesto para desarrollo rural, pero donde se han ensañado especialmente ha sido con Andalucía, donde han recortado para el próximo periodo en fondos europeos para el desarrollo rural 211 millones de euros y, por si fuera poco, encima van a dejar de aportar desde su ministerio para mi comunidad, para Andalucía, 47 millones de euros más.<note>Rumores</note> Ese es el recorte que ustedes hacen en desarrollo rural, señora ministra. Unas políticas que son fundamentales para provincias del interior de Andalucía, para provincias como la mía, como Jaén&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u95" ana="#chair">
                <seg>Perdón, señor diputado.</seg>
                <seg>Ruego, por favor, silencio para que se pueda oír al señor diputado.</seg>
             </u>
@@ -633,7 +631,7 @@
                <seg>Le decía que estas políticas de desarrollo rural son fundamentales para provincias del interior como la mía, como Jaén, o como Granada o como Córdoba, provincias, en el caso de Jaén, que dependen fundamentalmente de la agricultura. Hay miles de trabajadores eventuales del campo que dependen de que haya buenas cosechas, miles de trabajadores eventuales del campo de mi provincia, por ejemplo, que se han quedado sin poder trabajar porque ha habido una mala cosecha de aceitunas. Ante esto, la señora Báñez, su compañera, prometió que iba a reducir los jornales necesarios para cobrar el subsidio agrario, lo prometió en esta misma Cámara, a este mismo portavoz, hace dos meses, y aún no lo ha llevado a cabo. Dice que le faltan datos. Le pido, señora ministra, que le dé los datos, que le diga que la campaña de aceituna terminó hace un mes, que ha sido nefasta y que es necesario que reduzca los jornales necesarios para cobrar ese subsidio agrario. Y usted, señora Tejerina, sea sensible con esa situación y ponga en marcha medidas de desarrollo rural para las comunidades que más lo están necesitando, como la andaluza.</seg>
                <note>Aplausos.-Varios señores diputados: ¡Muy bien!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u97" ana="#chair">
                <seg>Gracias, señor Sicilia.</seg>
                <seg>Señora ministra.</seg>
                <pb n="21"/>
@@ -646,12 +644,12 @@
                <seg>Por otra parte, estamos trabajando en un informe que servirá de base para la reducción coyuntural de los módulos fiscales en función de las circunstancias excepcionales que efectivamente se han dado en el año 2014 y que han afectado a la actividad agraria por las incidencias climatológicas. Hemos anticipado el pago de las ayudas de la PAC, y esto ha permitido un pago adelantado de más de 2.000 millones de euros. Hemos acortado el periodo de retención para el cobro de la prima de vaca nodriza, de enorme importancia para la ganadería. Hemos facilitado el acceso a la financiación a través de Saeca y a través del ICO. Y vamos a reducir, como ha dicho, el número de jornadas necesarias para la percepción del subsidio agrario, pero sobre todo lo que este Gobierno hace es cumplir sus compromisos con el campo andaluz. Los seguros agrarios garantizan de manera muy importante la estabilidad de las rentas agrarias, por eso este Gobierno ha destinado más de 22 millones de euros a subvencionar esta política en Andalucía, pero lo hacemos en solitario, señoría. La aportación de la Junta es de cero euros. Y el Gobierno cumple con sus compromisos de financiación, también en materia de desarrollo rural, contrariamente a lo que usted ha indicado; la Junta de Andalucía no. Las pérdidas a las cuales usted se ha referido se deben a que la Junta de Andalucía ha olvidado al sector agrario, y por ello el campo andaluz este año ha perdido 54 millones de euros en desarrollo rural. La financiación del ministerio no faltaba, faltaba la de la Junta de Andalucía, en un año en el que efectivamente hay bajas producciones agrarias y hubiera sido un dinero importante para favorecer el desarrollo rural. Ustedes piden pero no hacen. La competencia en desarrollo rural le corresponde a la Junta de Andalucía, señoría.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u99" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
                <seg>- DEL DIPUTADO DON MIGUEL ÁNGEL HEREDIA DÍAZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE ECONOMÍA Y COMPETITIVIDAD: ¿CONSIDERA EL GOBIERNO QUE SU POLÍTICA ECONÓMICA FAVORECE EL INCREMENTO DE LOS ESPAÑOLES EN RIESGO DE POBREZA?</seg>
                <note>Número de expediente 180/001211</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u100" ana="#chair">
                <seg>Preguntas dirigidas ahora al señor ministro de Economía y Competitividad. La primera la formula el diputado don Miguel Ángel Heredia, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u101"
@@ -660,7 +658,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, ¿considera el Gobierno que su política económica incrementa el número de españoles en riesgo de pobreza?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u102" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -670,7 +668,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señoría, con las políticas de este Gobierno la sociedad española está saliendo de la crisis más larga y profunda de su historia económica reciente. Desde su inicio en el año 2008 hasta mediados del año 2013 la renta nacional cayó en más de un 7 % y se destruyeron casi cuatro millones de puestos de trabajo. Ahora nos encontramos en el séptimo trimestre de crecimiento económico consecutivo, con una velocidad de crucero por encima del 2 %. Asimismo, llevamos cinco trimestres continuados de creación de empleo en términos desestacionalizados, sin tener en cuenta el actual. Hoy hemos conocido incluso los datos de comercio exterior. En diciembre las exportaciones crecen más del 7 % en términos reales y en el año hemos alcanzado un máximo histórico.<pb n="22"/> Señoría, lo mejor que podemos hacer para luchar contra el riesgo de pobreza es continuar con el crecimiento económico y con la creación de puestos de trabajo, y este Gobierno seguirá trabajando para ello.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u104" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Heredia.</seg>
             </u>
@@ -682,7 +680,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u106" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u106" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -696,11 +694,11 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u108" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u108" ana="#chair">
                <seg>Muchas gracias, señor ministro.<pb n="23"/> - DE LA DIPUTADA DOÑA LEIRE IGLESIAS SANTIAGO, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE ECONOMÍA Y COMPETITIVIDAD: ¿TIENE INTENCIÓN EL GOBIERNO DE ADOPTAR ALGUNA MEDIDA PARA EVITAR DESAHUCIOS EN VIVIENDAS DE PROTECCIÓN PÚBLICA?</seg>
                <note>Número de expediente 180/001212</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u109" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Economía y Competitividad que formula la diputada doña Leire Iglesias, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u110"
@@ -710,7 +708,7 @@
                <seg>Señor ministro, imagino que usted sabrá -como sabemos todos- que en este país hay administraciones públicas vendiendo viviendas sociales a fondos buitre que en cuanto pueden desahucian a las familias que viven en ellas. Teniendo en cuenta que esas viviendas fueron construidas con fondos públicos y con el apoyo de planes de vivienda, ¿piensa el Gobierno hacer algo o va usted a seguir pidiendo caridad al banco malo?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u111" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u111" ana="#chair">
                <seg>Gracias, señora Iglesias.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -721,7 +719,7 @@
                <seg>Señoría, supongo que usted sabe que la política de vivienda pública es una competencia prácticamente exclusiva de comunidades autónomas y ayuntamientos. Además, este Gobierno ha sido el único que ha tomado medidas para evitar los desahucios, y lo ha hecho desde el primer día; prácticamente 30.000 familias han podido beneficiarse de todas las medidas puestas en marcha por este Gobierno. El código de buenas prácticas ha permitido casi 12.000 reestructuraciones viables de deuda y 3.500 daciones en pago; casi 2.000 personas se han beneficiado de un alquiler a precio reducido gracias al Fondo social de vivienda, y se han suspendido más de 12.000 lanzamientos. Además, recientemente hemos ampliado por un año el Fondo social de vivienda y, como ya dije en esta Cámara, vamos a prorrogar por dos años la paralización de los lanzamientos.</seg>
                <seg>En cualquier caso, le recuerdo, señoría, que la gestión de la política de vivienda protegida, como decía anteriormente, corresponde a comunidades autónomas y ayuntamientos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u113" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u113" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señora Iglesias.</seg>
             </u>
@@ -734,7 +732,7 @@
                <note>Aplausos</note>
                <pb n="24"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u115" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u115" ana="#chair">
                <seg>Gracias, señora Iglesias.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -745,12 +743,12 @@
                <seg>Si usted revisa los datos, verá que el mayor incremento de la burbuja inmobiliaria y de crédito en España se produjo entre los años 2004 y 2008; mírese simplemente la evolución del crédito promotor durante esos años. Lo que muestran los datos del INE, señoría, es que el 60 % de las ejecuciones de hipotecas iniciadas en el tercer trimestre del año 2014 corresponden a préstamos constituidos entre los años 2005 y 2008. Este asunto es parecido al tema de las preferentes: sus políticas crearon el problema y nosotros le estamos dando solución. Señoría, este Gobierno está actuando con responsabilidad, adoptando medidas para que las malas prácticas no se vuelvan a producir en el futuro y protegiendo adicionalmente al deudor hipotecario. Por ejemplo, una de las condiciones que pusimos para la venta de la cartera de hipotecas de CatalunyaCaixa, que era una cartera hipotecaria con una tasa de mora por encima del 60 % -simplemente recordarle que CatalunyaCaixa estaba controlada por la Diputación de Barcelona, es decir, por el Partido Socialista de Cataluña-, fue que el comprador se acogiera al código de buenas prácticas. Asimismo, Sareb está llegando a acuerdos con las comunidades autónomas para ceder 2.000 viviendas destinadas al alquiler social; hasta el momento ya se han firmado convenios con Cataluña y Aragón, y esperamos que otras comunidades autónomas también lo hagan así.</seg>
                <seg>Muchísimas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u117" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u117" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA PILAR GRANDE PESQUERO, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE ECONOMÍA Y COMPETITIVIDAD: ¿CREE EL GOBIERNO QUE CON SU POLÍTICA LAS FAMILIAS ESPAÑOLAS LLEGAN MEJOR A FIN DE MES?</seg>
                <note>Número de expediente 180/001213</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u118" ana="#chair">
                <seg>Pregunta que se formula también al señor ministro de Economía y Competitividad por la diputada doña Pilar Grande, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u119"
@@ -759,7 +757,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>¿Cree el Gobierno que con su política económica las familias españolas llegan mejor a fin de mes?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u120" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -769,7 +767,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señoría, como acabo de mencionar, lo más importante es que España está creciendo. Llevamos siete trimestres consecutivos de crecimiento económico. En 2014 se crearon prácticamente 475.000 puestos de trabajo y la inflación sigue en tasas negativas, lo que está permitiendo un incremento de la capacidad adquisitiva de las familias españolas. Hoy, la perspectiva, la situación, la evolución reciente y la percepción que existe de la economía española es completamente diferente a la que teníamos hace simplemente tres años.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u122" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u122" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora Grande.</seg>
             </u>
@@ -781,7 +779,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u124" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u124" ana="#chair">
                <seg>Muchas gracias, señora Grande.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -793,12 +791,12 @@
                <seg>Pero además los españoles seguirán viendo incrementada su capacidad adquisitiva. La reforma fiscal, especialmente diseñada para las rentas bajas, permitirá que los salarios menores de 12.000 euros no tengan que tributar y que 9.000 millones de euros vuelvan a los ciudadanos a través de las reformas del IRPF y del impuesto sobre sociedades en estos dos años. El incremento de las pensiones, junto a la inflación negativa, aumenta en un 1,25 % la renta real de los pensionistas. Mejoran las condiciones de financiación como consecuencia de la mejora de la confianza de los inversores en nuestro país. Esto ha tenido un gran impacto en el caso del euríbor, que ha caído considerablemente en los últimos tres años -1,5 puntos- y ha supuesto que el conjunto de las familias con hipoteca de vivienda habitual vean reducidas sus cargas financieras en 6.000 millones de euros. Señoría, esto son medidas concretas, esto son datos objetivos. Por lo tanto más que de un discurso demagógico, anticuado, por favor, siga usted lo que le comentaba anteriormente que ha hecho el señor Sánchez y reconozca que la situación económica de España es completamente diferente a la que teníamos hace tres años y que las perspectivas para el conjunto de la sociedad española son mucho mejores.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u126" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u126" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA ROSA DELIA BLANCO TERÁN, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿VA A HACER ALGO PARA EVITAR LA PRIVATIZACIÓN DEL SISTEMA PÚBLICO DE SALUD DE LA COMUNIDAD DE MADRID?</seg>
                <note>Número de expediente 180/001195</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u127" ana="#chair">
                <seg>Preguntas que se formulan al señor ministro de Sanidad, Servicios Sociales e Igualdad. En primer lugar pregunta la diputada doña Delia Blanco, del Grupo Parlamentario Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u128"
@@ -807,7 +805,7 @@
                <seg>Señor ministro, la pregunta es la que consta en el orden del día.</seg>
                <pb n="26"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u129" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -817,7 +815,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señoría, el Gobierno respetas las competencias que la Constitución y los estatutos de autonomía otorgan a las comunidades autónomas para la gestión de los servicios sanitarios públicos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u131" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u131" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora diputada.</seg>
             </u>
@@ -830,7 +828,7 @@
                <seg>Fue ya en 2003 cuando el Gobierno del Partido Popular inició una senda de privatización que no solo no ha abandonado sino que, al contrario, ha profundizado en esta última legislatura. Después de ese real-decreto antes mencionado implantaron la tasa del euro por receta. Fracasada, como usted sabe. Privatizaron los servicios no sanitarios de toda la red de hospitales. Jubilaron forzosamente a los facultativos. Desmantelaron el hospital Carlos III. Concentraron todos los laboratorios en el llamado proyecto Lamela-Güemes -cesados ya ambos, por cierto-. Cedieron ilegalmente datos de pacientes a centros privados. Y 30.000 mujeres sin mamografías, 145.000 personas sin tarjeta sanitaria en la Comunidad de Madrid, privatización parcial de la donación de sangre, lista sin fin de espera diagnóstica y quirúrgica y, por último y de forma rácana, como siempre, los tratamientos para la hepatitis C en una gestión que se suma nefastamente a la del ébola. La presión de la marea blanca, señor ministro, de los profesionales sanitarios, de los trabajadores de la sanidad pública, de la gente en definitiva, junto con todas las demandas en los tribunales que puso mi partido político -porque no pudo hacer otra cosa para pararlo-, lograron parar esa privatización. Pero ustedes no han abandonado esa senda&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u133" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u133" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -841,12 +839,12 @@
                <seg>Señora Blanco, usted habla muy mal del Sistema Nacional de Salud, pero yo le digo que es muy valorado por los ciudadanos en España y una seña de identidad positiva de nuestro país en el resto del mundo. Y dice usted algunas cosas que no se ajustan en absoluto a la realidad y que quisiera aclararle. Dice usted que nuestras medidas quebraron la sanidad pública. Todo lo contrario, la salvaron de la quiebra en la que la había dejado el Partido Socialista.<note>Aplausos</note> Quiebra es la deuda millonaria que dejó el Partido Socialista en la sanidad pública, que por cierto hoy es más universal en España -si me permite- que hace tres años. Es más universal con los datos, porque lo demás pueden ser opiniones, como las opiniones que usted da y esa visión catastrofista de nuestra sanidad y de la calidad de los servicios públicos en España. Hoy hay 700.000 tarjetas más que cuando ustedes dejaron el Gobierno, y esos son hechos. El peor servicio que se puede hacer en política y que se puede hacer a la sanidad pública es actuar siempre desde el sectarismo y, por tanto, tratar la realidad de forma completamente distinta según el color de quien tiene la responsabilidad en una autonomía o en otra. Los sistemas de gestión indirecta fueron establecidos por el Gobierno socialista en 1986, que estableció que las administraciones públicas sanitarias en el ámbito de sus respectivas competencias podían establecer conciertos para la prestación de servicios sanitarios con medios ajenos a ellas. También establecieron en aquella ley que se podían realizar con hospitales privados vinculados a la oferta pública de servicios sanitarios. Donde más se hace en España es en Cataluña y en Andalucía, que son las comunidades en las que ustedes han tenido responsabilidades de gobierno. Particularmente en Andalucía es donde más les gusta concertar con centros privados, la mitad de los hospitales andaluces son privados; donde más les gusta tener a los<pb n="27"/> profesionales sanitarios en situación de eventualidad. Por tanto, aplíqueselo a usted misma. Garantice el aseguramiento de los ciudadanos y la prestación sanitaria en las comunidades donde tienen responsabilidades y apoye un poco a los profesionales sanitarios. Y hable bien de la sanidad pública española porque es un bien de todos.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u135" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u135" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA MARTA GONZÁLEZ VÁZQUEZ, DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿CÓMO BENEFICIA LA REFORMA FISCAL A LAS FAMILIAS ESPAÑOLAS?</seg>
                <note>Número de expediente 180/001215</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u136" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u136" ana="#chair">
                <seg>Pregunta que formula al señor ministro de Sanidad, Servicios Sociales e Igualdad la diputada doña Marta González Vázquez, del Grupo Popular.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u137"
@@ -858,7 +856,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u138" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u138" ana="#chair">
                <seg>Muchas gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -869,13 +867,13 @@
                <seg>Señoría, el compromiso del Gobierno desde el primer día de su mandato fue poner en marcha una política económica enfocada hacia la recuperación social, la recuperación de las familias, el crecimiento y la creación de empleo. Por eso, política social es hacer una política económica y tomar decisiones que traducen ese crecimiento en creación de puestos de trabajo, o hacer una reforma energética que baja el precio de la factura de la luz, o las medidas del ministro de Economía para conseguir que los preferentistas recuperen su dinero, que los ciudadanos tengan salvaguardados sus depósitos o que las pequeñas y medianas empresas puedan volver a acceder al crédito. Todo eso incide también en el bienestar de las familias y es la política que hemos puesto en marcha y el compromiso social que marcó este Gobierno. Da ahora un paso importante hacia delante con la reforma fiscal, reforma fiscal del Gobierno que ya han empezado a notar las familias españolas a lo largo de los meses de enero y febrero y que está destinada a aquellas personas que tienen más necesidad de apoyo por parte de la Administración, por parte del Estado y que tienen menores rentas y está pensada claramente para proteger a las familias. En el mes que lleva en vigor la reforma fiscal las familias españolas cuentan ya con 300 millones de euros más en<pb n="28"/> su bolsillo, este año serán 3.400 millones y cuando termine el próximo llegarán hasta 9.000. El Gobierno ha introducido una rebaja generalizada en el IRPF, pero sabe usted que es mucho mayor en las rentas bajas y que quienes ganan menos de 12.000 euros al año tendrán su sueldo íntegro y dejarán de tributar en el impuesto sobre la renta; para quienes cobran menos de 24.000 euros, que son el 72 % de los españoles, la inmensa mayoría, la rebaja va a llegar hasta el 23,5 %. En el caso más específico de las familias, se aumentan los mínimos familiares, la parte exenta que se considera que una familia necesita para vivir y que lleva seis años congelada. Se han introducido nuevas deducciones de 100 euros al mes acumulables entre sí para apoyar a las familias y a las personas con discapacidad y que usted conoce. Esto es muestra de la decisión del Gobierno, el compromiso social, su compromiso con las familias españolas y con la necesidad de que la política económica esté orientada exclusivamente al bienestar de las personas.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u140" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u140" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, SOBRE LAS MEDIDAS QUE PIENSA ADOPTAR EL GOBIERNO PARA DAR UNA SOLUCIÓN RÁPIDA, TRANSPARENTE Y EFECTIVA A LOS PERJUDICADOS POR LA SALIDA A BOLSA DE BANKIA, A FIN DE QUE RECUPEREN LO PERDIDO Y SE DEPUREN LAS CORRESPONDIENTES RESPONSABILIDADES.</head>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u141" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u141" ana="#chair">
                <seg>Pasamos a las interpelaciones dirigidas al Gobierno. En primer lugar, la del Grupo Parlamentario de Unión Progreso y Democracia, sobre las medidas que piensa adoptar el Gobierno para dar una solución rápida, transparente y efectiva a los perjudicados por la salida a bolsa de Bankia, a fin de que recuperen lo perdido y se depuren las correspondientes responsabilidades. Para presentar esta interpelación tiene la palabra el señor Anchuelo.</seg>
                <note>El señor vicepresidente, Barrero López, ocupa la Presidencia</note>
             </u>
@@ -958,7 +956,7 @@
                <seg>- DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, SOBRE LAS MEDIDAS QUE VA A TOMAR EL GOBIERNO PARA ERRADICAR EL AUMENTO DE LA DISCRIMINACIÓN CONTRA LAS MUJERES EN ESPAÑA.</seg>
                <note>Número de expediente 172/000285</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u152" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u152" ana="#chair">
                <seg>Siguiente punto del orden del día: interpelación urgente del Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural, sobre medidas que va a tomar el Gobierno para erradicar el aumento de la discriminación contra las mujeres en España. Defiende la interpelación la señora De las Heras.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u153"
@@ -1158,7 +1156,7 @@
                <seg>¿Van a tomar decisiones colectivas? Porque algo habrá que hacer para demostrar nuestro compromiso con el ahorro, con la sobriedad y con la transparencia. Hay que reaccionar o la gente nos acabará sacando a patadas, a todos, y además tendrán razón. Que conste que no les estoy hablando de corrupción, que es otro de los problemas más graves que nos acechan. Estoy hablando de ejemplaridad, de renunciar a privilegios y a medidas superfluas, de empatizar, de comprender a aquellos que lo están pasando mal y hacer esfuerzos por demostrar que somos humanos, que estamos próximos. Tampoco se trata de discutir sobre legalidad, sino sobre moralidad política. El salario mínimo interprofesional es legal, completamente legal, pero estoy seguro -me apuesto lo que quieran- de que muy pocos creen que pagar 648 euros al mes sea digno y éticamente correcto. Otro ejemplo, la querella contra el president de Catalunya por organizar un voto puede ser legal, pero ética y democráticamente es reprobable. Los coches oficiales entran dentro de las normas vigentes, nadie dice que no sean legales, pero pueden llegar a ser ofensivos éticamente.<note>El señor presidente ocupa la Presidencia</note> En definitiva, queremos recuperar la dimensión ética de la política. Si queremos hacerlo, hagámoslo empezando por lo más sencillo, lo más fácil, lo nuestro, lo que nos afecta de lleno a los que estamos aquí en este hemiciclo. Medidas como las que les acabo de mencionar son sencillas, baratas y factibles. Esas u otras nos pueden ayudar a desterrar el clasismo en la política, un clasismo que genera distancia, que genera desconfianza y que está resultando letal además. El clasismo se cura, señorías, se cura fácilmente y se cura viajando, seguramente se cura viajando en metro. Hay que bajar, hay que rozarse con millones de personas, hay que mirar las miradas, hay que hablar con la gente. Incluso hay que saber tocar. Sí, tocar a las personas de carne y hueso como nosotros. Hay que estar cerca de la gente.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u178" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u178" ana="#chair">
                <seg>Muchas gracias, señor Bosch.</seg>
                <seg>A continuación, tiene la palabra en nombre del Gobierno el señor ministro de Hacienda y Administraciones Públicas.</seg>
             </u>
@@ -1175,7 +1173,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u180" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u180" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Bosch.</seg>
             </u>
@@ -1189,7 +1187,7 @@
                <seg>Hay que hablar sobre estas cosas. No se escape. Otro asunto es que a usted le incomode hablar de clasismo y de ética. Igual no le gusta, pero la idea que tienen la mayoría de nuestros conciudadanos ahí fuera, en la calle, es que eso existe. Al menos vamos a plantearlo y busquemos soluciones. Y si las que yo le sugiero no le gustan, proponga usted las que le gusten.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u182" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u182" ana="#chair">
                <seg>Muchas gracias, señor Bosch.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -1203,13 +1201,13 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u184" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u184" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LA NUEVA REGULACIÓN DE LA ORDENACIÓN DE LAS ENSEÑANZAS UNIVERSITARIAS OFICIALES.</head>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u185" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u185" ana="#chair">
                <seg>Vamos debatir las mociones consecuencia de interpelaciones. En primer lugar, la moción del Grupo Socialista sobre la nueva regulación de la ordenación de las enseñanzas universitarias oficiales. Para su defensa, tiene la palabra la señora Costa Palacios.</seg>
                <pb n="52"/>
             </u>
@@ -1226,7 +1224,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u187" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u187" ana="#chair">
                <seg>Muchas gracias, señora Costa.</seg>
                <seg>En efecto, como ha dicho la propia señora Costa, hay varias enmiendas. Comenzamos por el Grupo Parlamentario Mixto. En primer lugar, tiene la palabra señor Álvarez Sostres.</seg>
                <seg>El señor ÁLVAREZ SOSTRES: Gracias, señor presidente.</seg>
@@ -1234,12 +1232,12 @@
                <seg>Estos tres últimos años yo he escuchado aquí dos ideas en educación trasladadas por parte del Gobierno. La primera, que el Gobierno debe garantizar una menor tasa de abandono escolar que redunde en una igualdad de oportunidades y, la segunda, que la educación debe tener como objetivo la equidad y el incremento de la calidad. La realidad es que la tasa de abandono escolar desciende muy lentamente y no precisamente por la aplicación de la Lomce, porque ya saben que la evolución de las medidas educativas es siempre muy lenta. Por otra parte, los incrementos de calidad no se dan en ninguna de las variables que yo conozco: profesorado, aula, organización del centro, etcétera.</seg>
                <seg>Ahora el ministro Wert quiere cerrar su currículum con una nueva acción educativa que yo título, con todo respeto, de depredadora. Va a por las enseñanzas universitarias transformando su estructura en un<pb n="54"/> mosaico de titulaciones que desvertebra nuestro país en relación con la enseñanza superior. Quiero hacer tres consideraciones. Primera, se hace con un procedimiento sin evaluaciones previas de lo que hay, sin acuerdos previos, frente a rectores y comunidad universitaria pero con el señuelo de la voluntariedad, que tapa el ahorro de decenas de millones de euros. Segundo, la reducción del modelo 4+1 por el 3+2, de origen anglosajón pero sin adaptar los estudios previos, empobrece el sistema escolar hasta límites sombríos e insospechados. Argumentan que somos marginales en los grados de 240 créditos, cuatro años, pero callan que el grave problema está antes, en el bachillerato de dos años, que cierra un sistema escolar de 6+3+1+2+3+2, y les aseguro que esto no es la táctica de un equipo de fútbol. Hagan un ejercicio de educación comparada y resultará muy sencillo. Entiendo esa entrega de armas y bagajes a las universidades privadas, lo entiendo, como entendí el bachillerato de dos años como merced a las entidades privadas del sector aunque fuésemos marginales en Europa -que lo somos-, pero lo que no puede entender y no puedo aceptar es que el ministro -que lógicamente es un hombre listo- crea que los miembros de esta Cámara y de la comunidad escolar somos tontos. Eso sí que no me gusta aceptarlo. En realidad, le pido que no nos falte al respeto a todos. Y todo esto a meses de terminar una legislatura&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u188" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u188" ana="#chair">
                <seg>Señor Álvarez Sostres, tiene que terminar.</seg>
                <seg>El señor ÁLVAREZ SOSTRES: &#x85; que va a resultar en educación más chusca que el calendario juliano de los años sesenta.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u189" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u189" ana="#chair">
                <seg>Muchas gracias, señor Álvarez Sostres.</seg>
                <seg>Señora Jordà.</seg>
             </u>
@@ -1251,7 +1249,7 @@
                <seg>Acabo diciendo que el cambio de modelo no puede suponer un encarecimiento de los precios ni tampoco un atentado contra la equidad. Esquerra Republicana de Catalunya se mantendrá leal al compromiso de una universidad pública, de una universidad catalana de calidad, de una universidad crítica y, evidentemente, de una universidad comprometida socialmente. Estas son las líneas rojas a la reforma que hoy nos plantea el Partido Popular.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u191" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u191" ana="#chair">
                <seg>Muchas gracias, señora Jordà.</seg>
                <seg>Señor Errekondo.</seg>
             </u>
@@ -1261,7 +1259,7 @@
                <seg>Está visto que coherencia no les falta pues el Gobierno del Partido Popular continúa tirando hacia el mismo lado. La estrategia Universidad 2015 es una estrategia de privatización, de mercantilización, en plena sintonía con un modelo neoliberal que ya está impulsado el Gobierno del Partido Popular, eso está claro. De hecho, impusieron la Lomce, una ley que, recordemos, fue impuesta por encima de todo el modelo educativo y que, recordemos también, la mayoría de la<pb n="55"/> oposición de esta Cámara se comprometió a derogar a la primera oportunidad. Aunque, igualmente hay que recordarlo, genera dudas el hecho de que el Partido Socialista haya ofrecido al Partido Popular ese gran pacto de Estado también en educación. Por tanto, ya veremos. Ahora, sin embargo, imponen la nueva ordenación en las enseñanzas universitarias oficiales y con ello tenemos claro que el Gobierno del Partido Popular da un paso más hacia el abismo educativo. Ahora el señor Wert va a por la universidad. Tras todo lo que ha supuesto Bolonia, la subida del precio de las matrículas, el recorte en las becas, la eliminación de algunas asignaturas, nos llega ahora el súmmum de la innovación en la enseñanza universitaria, que es el nuevo 3+2. Esto lo imponen valiéndose, como siempre, de su rodillo, por decreto y a sabiendas de que provocará consecuencias graves como la degradación de los valores de los grados porque sufrirán una reducción de contenidos y conocimientos. Y los posgrados para completar la formación y optar a los puestos de trabajo supondrán un aumento exponencial de los costes, pretendiendo así que estén únicamente al alcance de unos pocos. El aumento del control de los mercados sobre los estudios universitarios supondrá también un aumento en los préstamos-beca para poder pagar los posgrados y una hipoteca de los propios alumnos. Y también se producirá un aumento de las diferencias entre las universidades porque la apuesta del Gobierno, está claro, es un 3+2, con lo cual el sistema de 4+1 se verá mermado de recursos y finalmente resultará marginado y marginal.</seg>
                <seg>En definitiva, se trata de ahondar en la brecha social de las desigualdades y deteriorar la calidad de la enseñanza superior, devaluando los grados. En consecuencia, está muy claro que esta reforma en absoluto es improvisada, sino que la estrategia Universidad 2015 es una estrategia de privatización, de mercantilización, que va en sintonía con el modelo neoliberal del Gobierno del Partido Popular. Euskal Herria, nuestra comunidad, ya rechazó la Lomce y vuelve a rechazar también este decreto porque se trata precisamente una nueva agresión a nuestro sistema educativo y en Amaiur si tenemos algo claro es que solo la soberanía de nuestro pueblo garantizará el camino para construir nuestro nuevo sistema educativo nacional vasco propio.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u193" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u193" ana="#chair">
                <seg>Muchas gracias, señor Errekondo.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió y también para presentar su enmienda, tiene la palabra el señor Barberà.</seg>
             </u>
@@ -1275,7 +1273,7 @@
                <seg>En el cuarto punto hemos hecho una enmienda por tema competencial y aprovechamos para poner una enmienda en relación con las becas aprovechando el texto.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u195" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u195" ana="#chair">
                <seg>Muchas gracias, señor Barberà.</seg>
                <seg>En turno de fijación de posiciones, en primer lugar por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> tiene la palabra la señora Sánchez Robles.</seg>
             </u>
@@ -1287,7 +1285,7 @@
                <seg>Me pregunto, ¿es que el ministro tiene previsto becar la realización de posgrados, de másteres? Como dirían en Andalucía, ni por un cortijo, estoy más segura que segura. En fin, 3+2 versus 4+1, o por resumir, el ministro Wert y su Gobierno han aprobado una vez más una reforma no consensuada, vía decretazo, contra el criterio de prácticamente la totalidad de toda la comunidad educativa. Es una reforma que además genera una enorme incertidumbre -lo decíamos el otro día-, y que no permite la transitoriedad razonable, pausada, de una estructura de grados a otra. Una reforma que en la opinión de mi grupo es irresponsable y caprichosa, puesto que se ha abordado -como ya se ha señalado aquí- sin realizar evaluación alguna de la implantación del Plan Bolonia y del 4+1, que ahora concluye su primer ciclo. Y una reforma que, lejos de promover la supuestamente pretendida internacionalización, nos distancia de Europa y del resto de las universidades del mundo. En definitiva, una reforma implementada con precipitación, imponiendo su pensamiento monolítico, monocolor y sordo, y que en esencia es un completo dislate. Es obvio que este grupo va a votar contundentemente sí a esta iniciativa. Me gustaría hacerle una última sugerencia a la proponente. Sería deseable que en la Comisión mixta de evaluación se diera participación, como comenté el otro día en la Comisión, a las agencias autonómicas de evaluación, como es el caso de la vasca Unibasq, que además tienen competencia en la evaluación de aquellas titulaciones que tutelan. Para finalizar, una última petición al Grupo Parlamentario Popular. La imposición de las cenizas tiene como objetivo la purificación del espíritu. Entierren el pasado, entierren el decreto para que pueda resurgir con fuerza un modelo universitario transformado y al servicio de la sociedad y de los jóvenes. Voten, por favor, favorablemente a esta iniciativa.</seg>
                <seg>Gracias, presidente, por su generosidad.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u197" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u197" ana="#chair">
                <seg>Muchas gracias, señora Sánchez Robles.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia, tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -1299,7 +1297,7 @@
                <seg>Finalmente, ¿por qué se hace todo esto? Porque el Gobierno está traspasando a las familias la responsabilidad de financiar las universidades, porque se consigue un ahorro del 25 % de la inversión universitaria, reduciendo de cuatro a tres, porque los másteres no están financiados. Lo que se busca es el objetivo de reducir el déficit fiscal, y está muy bien reducir el déficit fiscal, pero no puede hacerse a costa de la universidad, hay que hacerlo ahorrando donde hay despilfarro, derroche e inversiones suntuarias; muchísimos capítulos para hacer todo esto. Bastaría con hacer algo para acabar con los 48.000 millones de euros, cifra escandalosa que ha estimado no mi partido, sino la Comisión Nacional del Mercado de la Competencia, que le cuesta a España la corrupción y las malas licitaciones públicas para que hubiera dinero para universidades de lujo y para que pudiera ir todo el mundo. Esto es lo que tienen que hacer ustedes y no cargarse a la universidad pública.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u199" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u199" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra la señora García Álvarez.</seg>
             </u>
@@ -1311,7 +1309,7 @@
                <seg>Como decía antes, nada que objetar a las preferencias que pueda tener cada persona, siempre y cuando -en este caso al referenciarse el ministro de Educación- no interfieran en la política educativa de nuestro país, esencialmente en la política educativa pública de nuestro país. Al señor ministro le tiene sin cuidado que el Consejo de Estado o la propia CRUE manifieste su opinión al respecto. Él dice que flexibiliza con eso la universidad y, sin embargo, ambos estamentos tienen un cierto escepticismo ante lo que dice el señor ministro y no les parece que sea el momento para la aplicación de esta reforma. Al señor ministro, al igual que le pasó con la Lomce -ya lo han dicho otros intervinientes-, la opinión de la comunidad escolar, de las organizaciones sociales, del alumnado, de las familias, en definitiva del conjunto de la ciudadanía, le tiene sin cuidado. Como él mismo reconoce -lo dijo aquí-, tiene una hoja de ruta perfectamente trazada, el señor presidente no se opone a esa hoja de ruta, con lo cual él se considera con la facultad para poderlo hacer, como es lógico, y entonces empieza a poner barreras precisamente de cara a aquellos que menos posibilidades tienen para continuar sus estudios académicos. Eso es lo que están haciendo de una forma u otra de manera continua el señor ministro, el Gobierno que sustenta al señor ministro y el Grupo Popular que sustenta al Gobierno y al señor ministro: ir poniendo barreras a aquellos que menos posibilidades tienen para continuar sus estudios. Luego lo envuelven en el papel de<pb n="59"/> celofán y le ponen el lazo que quieran, pero lo cierto es que nosotros, que fuimos críticos con el Plan Bolonia, nos encontramos ahora que, sin haber evaluado este proceso del Plan Bolonia -se podía haber escogido otro, como se ha dicho anteriormente-, esta implantación del 4+1, el señor ministro ha decidido que ha fracasado y que, por lo tanto, hay que ir a otro modelo. ¿A quién perjudica? A quienes hemos dicho anteriormente: a los que menos posibilidades tienen para continuar sus estudios académicos. Se ha dicho aquí también, numerosas familias no podrán pagar el precio de los másteres que, como se ha repetido aquí por activa, pasiva y perifrástica, van a suponer un incremento económico notabilísimo para las familias, y eso está ahí. Esto es como aquel que iba en la dirección contraria y decía que todos los que se equivocaban eran el resto; es decir, que nos equivocamos el conjunto del hemiciclo menos ustedes, que creen que van por la buena dirección; menos ustedes, que siempre creen que van por la buena dirección.</seg>
                <seg>Señorías, lo voy a decir otra vez más, el señor ministro de Educación, una vez que se ha ido la señora Mato, es el miembro del gabinete peor valorado. ¡Suspende en todo! ¡No hay en nada en lo que apruebe! Ahora, ahí sí que no importa, también sostenella y no enmendalla. El ministro sigue aquí por mal que lo haga y es evidente que no podemos esperar que él venga a dimitir. Por ello, señorías, que pasemos de una cosa a otra sin dilación, sin haber evaluado absolutamente nada, aunque le pongan trabas y le digan que por ahí no tanto la CRUE como el Consejo de Estado, aunque muchísimos diputados y diputadas de los aquí presentes que representamos a una parte muy importante de la ciudadanía estemos diciendo que no, aunque los ciudadanos y ciudadanas estén diciendo que no, la comunidad educativa, los alumnos, en fin, todo el mundo, a ustedes eso no les importa, porque, como decía al principio&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u201" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u201" ana="#chair">
                <seg>Señora Álvarez, tiene que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u202"
@@ -1320,7 +1318,7 @@
                <seg>Termino ya, señor presidente.</seg>
                <seg>Como decía al principio, a ustedes siempre les queda alguna parte a la que referenciarse para hacer aquello que no deben hacer, para favorecer a los sectores más involucionistas de nuestro país y para favorecer a los más ricos por encima de la mayoría de la población, que son los que menos tienen. Sigan ustedes con esas políticas y esperemos que las pierdan en noviembre.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u203" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u203" ana="#chair">
                <seg>Muchas gracias, señora García Álvarez.</seg>
                <seg>Por el Grupo Popular, tiene la palabra la señora Moneo.</seg>
             </u>
@@ -1333,7 +1331,7 @@
                <seg>Finalizo, presidente. Por favor, no ejerzan de profetas del Apocalipsis, porque van a fracasar. En este país la beca sigue siendo un derecho, los jóvenes acceden a la universidad más ahora que cuando ustedes dejaron el Gobierno, la tasa de becados es la más alta de su historia y la partida general de becas y ayudas al estudio tienen los mayores recursos que jamás han tenido. La universidad española tiene un potencial extraordinario. Denle una oportunidad. Nosotros creemos en ella. Ojalá pudiéramos decir de ustedes lo mismo.<note>Rumores</note> Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u205" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u205" ana="#chair">
                <seg>Muchas gracias, señora Moneo.</seg>
                <seg>Señora Costa, aunque usted ha explicado perfectamente qué enmiendas aceptaba, a título formal le pido que nos lo diga.</seg>
             </u>
@@ -1343,12 +1341,12 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Aceptamos la enmienda de Foro Asturias. No podemos aceptar las dos enmiendas de adición, sobre traspaso de becas a la Generalitat, del Grupo de Esquerra Republicana, porque no es asunto de esta moción. Tampoco aceptamos la redacción que propone CiU al punto 1, porque va en contra de nuestro espíritu en la moción. En el punto 4, que habla de becas, también estamos en contra. Por tanto, aceptamos una enmienda y descartamos las de Esquerra Republicana y CiU.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u207" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u207" ana="#chair">
                <seg>Muchas gracias, señora Costa.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO CATALÁN<note>CONVERGÈNCIA I UNIÓ</note> , SOBRE LA NECESIDAD DE QUE LA POLÍTICA CULTURAL DEL ESTADO CONTEMPLE LA INMEDIATA REDUCCIÓN DEL IVA A LOS PRODUCTOS Y ACTIVIDADES CULTURALES Y DEPORTIVOS.</seg>
                <note>Número de expediente 173/000196</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u208" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-18-CD150218.u208" ana="#chair">
                <seg>Moción del Grupo Parlamentario Catalán<note>Convergència i Unió</note> , sobre la necesidad de que la política cultural del Estado contemple la inmediata reducción del IVA a los productos y actividades culturales y deportivos. Para su defensa tiene la palabra la señora Surroca.</seg>
                <pb n="61"/>
             </u>

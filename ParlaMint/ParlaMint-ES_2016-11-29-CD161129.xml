@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="223">223 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="223" xml:lang="es">223 speeches</measure>
+            <measure unit="speeches" quantity="223" xml:lang="en">223 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -75,7 +77,7 @@
                <tagUsage gi="head" occurs="8"/>
                <tagUsage gi="pb" occurs="69"/>
                <tagUsage gi="u" occurs="223"/>
-               <tagUsage gi="lb" occurs="667"/>
+               <tagUsage gi="seg" occurs="667"/>
                <tagUsage gi="note" occurs="120"/>
             </namespace>
          </tagsDecl>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -978,7 +976,7 @@
                <seg>Gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-11-29-CD161129.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-11-29-CD161129.u129" ana="#chair">
                <seg>Gracias, señor Trevín. Para la defensa de las enmiendas formuladas por sus grupos, interviene en primer lugar, por el Grupo Parlamentario Mixto, el señor Miquel i Valentí.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-11-29-CD161129.u130"
@@ -1005,7 +1003,7 @@
                <seg>En dos minutos no tengo tiempo de entrar más en ello, pero sí me gustaría hablar de la denominada Ley mordaza. Hablando precisamente del binomio libertad-seguridad, tuvimos que denunciar en su día que lo que ocurría con esta iniciativa legislativa era que se había tomado una decisión ante las protestas ciudadanas asociadas a una crisis dura que, por cierto, venían sufriendo los que no eran responsables del origen de la crisis. Ante eso se tomó una decisión, que fue actuar sobre el plano de las libertades. No han existido nunca elementos, datos que confirmen problemas graves de seguridad para justificar una decisión de esta naturaleza, de forma que una ley que debería proteger la seguridad ciudadana se ha convertido en una ley antiprotesta. Por lo tanto, lo que se castiga es a la gente que protesta, a la gente que se queja, a la gente que critica, y de esto hay numerosísimos ejemplos que no tenemos tiempo de desarrollar. Hay, por tanto, una tentación de actuar sobre los problemas reprimiendo a los más débiles y su legítima libertad de expresión que nosotros no vamos a defender nunca.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-11-29-CD161129.u133" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-11-29-CD161129.u133" ana="#chair">
                <seg>Muchas gracias, señor Quevedo.</seg>
                <seg>Tiene la palabra el señor Martínez Oblanca.</seg>
             </u>

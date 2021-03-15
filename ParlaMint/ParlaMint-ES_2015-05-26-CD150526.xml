@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="134">134 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="134" xml:lang="es">134 speeches</measure>
+            <measure unit="speeches" quantity="134" xml:lang="en">134 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="50"/>
                <tagUsage gi="note" occurs="60"/>
                <tagUsage gi="u" occurs="134"/>
-               <tagUsage gi="lb" occurs="423"/>
+               <tagUsage gi="seg" occurs="423"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,23 +92,19 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>MODIFICACIÓN DEL ORDEN DEL DÍA</head>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
                <seg>De acuerdo con el artículo 68.1 del Reglamento y lo acordado en la Junta de Portavoces, propongo al Pleno un cambio en el orden de discusión de las mociones, de tal forma que la que figura en el orden del día con el número 6 pase a debatirse en primer lugar y a continuación la que figura con el número 5. ¿Lo acuerda así la Cámara?<note>Asentimiento</note> Queda aprobado.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO DE IU, ICV-EUIA, CHA: LA IZQUIERDA PLURAL, DE UNIVERSALIZACIÓN DEL DERECHO A LA ASISTENCIA SANITARIA PÚBLICA, ESTABLECIENDO LA SITUACIÓN JURÍDICA PREVIA A LA PROMULGACIÓN DEL REAL DECRETO-LEY 16/2012, DE 20 DE ABRIL, DE MEDIDAS URGENTES PARA GARANTIZAR LA SOSTENIBILIDAD DEL SISTEMA NACIONAL DE SALUD Y MEJORAR LA CALIDAD Y SEGURIDAD DE SUS PRESTACIONES.</head>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u2" ana="#chair">
                <seg>Toma en consideración de la proposición de ley presentada por La Izquierda Plural, de universalización del derecho a la asistencia sanitaria pública, restableciendo la situación jurídica previa a la promulgación del Real Decreto-ley 16/2012, de 20 de abril, de medidas urgentes para garantizar<pb n="6"/> la sostenibilidad del Sistema Nacional de Salud y mejorar la calidad y seguridad de las prestaciones. Para la presentación de la iniciativa, tiene la palabra el señor Llamazares.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u3"
@@ -121,7 +119,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u4" ana="#chair">
                <seg>Muchas gracias, señor Llamazares.</seg>
                <seg>Va a haber ahora turno de fijación de posiciones. Empezamos por el Grupo Mixto. Tiene la palabra, en primer lugar, el señor Baldoví.</seg>
             </u>
@@ -133,7 +131,7 @@
                <seg>El Gobierno del Partido Popular -acabo- ha causado mucho sufrimiento a la gente porque se ha atacado a los más humildes, se ha despojado de muchos derechos a los más débiles y se ha gobernado solo para los poderosos. Pero ya queda poco tiempo para seguir haciendo este tipo de maldades; la cuestión es si son capaces de empezar a rectificar ya y votar a favor de esta proposición de ley.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u6" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Por el Grupo Mixto también, tiene la palabra el señor Quevedo.</seg>
             </u>
@@ -146,7 +144,7 @@
                <seg>Felicitamos al señor Llamazares por su intervención y anunciamos nuestro apoyo sin reservas a su proposición de ley.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u8" ana="#chair">
                <seg>Muchas gracias, señor Quevedo.</seg>
                <seg>Tiene la palabra ahora la señora Pérez Fernández.</seg>
             </u>
@@ -160,7 +158,7 @@
                <seg>El BNG lo ha dicho muchas veces y volvemos a repetirlo hoy: apoyaremos todas las iniciativas que vayan en contra de todas las medidas que ha aprobado el Gobierno para la deconstrucción de la sanidad pública y universal. Por lo tanto, votaremos también favorablemente, y con pleno convencimiento de que hacemos lo correcto, la toma en consideración de esta proposición de ley de La Izquierda Plural.</seg>
                <seg>Gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u10" ana="#chair">
                <seg>Muchas gracias, señora Pérez.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Agirretxea.</seg>
             </u>
@@ -176,7 +174,7 @@
                <seg>Acabo porque después de todos los argumentos que han citado otros compañeros, como los que van a citar los que vienen, como el mismo proponente también ha explicado, sobran más palabras. Lo que tenía que decirse ya se ha dicho, hoy, otros días y en anteriores ocasiones, y al final lo ha tenido que decir el mismo Gobierno también, porque ha rectificado, pero vamos a ver si su rectificación es solamente un anuncio electoral o si es verdaderamente un anuncio de algo que se va a modificar. Rectificar es de sabios, pero ser contumaces en el error es..., no voy a citar el nombre.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u12" ana="#chair">
                <seg>Muchas gracias, señor Agirretxea.</seg>
                <seg>Por Unión Progreso y Democracia, tiene la palabra la señora Díez.</seg>
             </u>
@@ -192,7 +190,7 @@
                <note>Aplausos</note>
                <pb n="12"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u14" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Por el Grupo Parlamentario Catalán de Convergència i Unió, tiene la palabra el señor Picó.</seg>
             </u>
@@ -205,7 +203,7 @@
                <seg>Desde la última ocasión en que nos manifestamos sobre este aspecto, que me parece recordar que fue en el mes de marzo, cabe decir que nos alegramos y congratulamos del cambio de criterio del Ministerio de Sanidad respecto del acceso de los inmigrantes a la atención primaria. Era una medida que el Grupo Parlamentario Catalán había pedido en reiteradas ocasiones, recibiendo siempre una negativa por parte del Gobierno, pero continúa siendo, consideramos, insuficiente, porque el modelo es el mismo, y no lo compartimos. Como digo, ahora la proposición de ley modifica artículos que consideramos importantes de ese real decreto-ley, artículos que el Parlament de Catalunya y también la Generalitat de Catalunya han recurrido, iniciándose un proceso de inconstitucionalidad. Por tanto, no hacemos más que reivindicar y pedir lo que desde el primer día estábamos defendiendo: volver a la universalidad del sistema. Quitar derechos de ciudadanía, como el acceso a la sanidad, ni es posible ni es, desde nuestro punto de vista, constitucional. Restablecer el modelo sanitario público basado en el derecho de la ciudadanía al acceso universal a la asistencia sanitaria es hacer cumplir, desde nuestro punto de vista, lo previsto en el artículo 43 de la Constitución, que reconoce el pleno respeto de los derechos en el ámbito de la atención sanitaria. Lo dije ya en el mes de marzo. Quiero recordar que, además, esa decisión de cambio de modelo sanitario contraviene los acuerdos adoptados en esta Cámara. Recuerdo el último de ellos, el alcanzado en el seno de la subcomisión para el análisis de los problemas estructurales del sistema sanitario, que estudiaba las principales reformas que deben acometerse para garantizar su sostenibilidad y que contenía, entre otras recomendaciones, la preservación de la universalidad en el acceso de los ciudadanos a los servicios sanitarios públicos. Ese informe se aprobó por esta Cámara y ese informe contenía esa recomendación que, por tanto, no se cumple. Quiero recordar también -no se si lo ha dicho algún portavoz, pero creo que es importante recordarlo- que organismos internacionales se han manifestado en contra del cambio de régimen. Por ejemplo, la relatora especial de Naciones Unidas sobre la extrema pobreza y los derechos humanos ponía de manifiesto que era inaceptable la falta de tratamiento para migrantes pobres o<pb n="13"/> indocumentados. Más recientemente también un informe del Consejo de Europa juzgaba como ilegal la decisión de restringir el acceso a la atención médica gratuita a los inmigrantes en situación irregular. Por todo ello, señorías, mi grupo, como ya ha hecho anteriormente, comparte el objeto de la proposición de ley, comparte el retorno al sistema universal de asistencia sanitaria, superando el sistema de aseguración, y apoyamos la toma en consideración de la proposición de ley formulada en este caso por el Grupo de La Izquierda Plural y defendida por el señor Llamazares.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u16" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Por el Grupo Parlamentario Socialista, tiene la palabra la señora Martín González.</seg>
             </u>
@@ -220,7 +218,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u18" ana="#chair">
                <seg>Muchas gracias, señora Martín González.</seg>
                <seg>Por el Grupo Popular, tiene la palabra doña Teresa Angulo.</seg>
             </u>
@@ -236,11 +234,11 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u20" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u20" ana="#chair">
                <seg>Gracias, señora Angulo.<pb n="16"/> - DEL GRUPO PARLAMENTARIO MIXTO, ORGÁNICA DE TRANSFERENCIA DE LA TITULARIDAD Y COMPETENCIAS DE LA AP-9 A LA COMUNIDAD AUTÓNOMA DE GALICIA.</seg>
                <note>Número de expediente 122/000183</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u21" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo Mixto, orgánica de transferencia de la titularidad y competencias de la AP-9 a la Comunidad Autónoma de Galicia. Para su defensa, tiene la palabra la señora Pérez Fernández.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u22"
@@ -255,7 +253,7 @@
                <seg>Señorías, el modelo actual, dependiente en gran parte de la Administración y del diseño estatal, no siempre ha demostrado un conocimiento de nuestra realidad social y económica. No siempre ha sido ejemplo de coordinación entre administraciones y, lo que es peor, en muchas ocasiones ha sido desequilibrado y ha aumentado las diferencias, en el caso de Galiza ya abismales, entre los distintos territorios. Por todas estas razones e, insisto, porque en uno u otro momento los dos grupos mayoritarios<pb n="18"/> no se han hecho eco de esta demanda de la sociedad gallega, solicito su apoyo y la toma en consideración de esta proposición de ley.</seg>
                <seg>Muchas gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u23" ana="#chair">
                <seg>Gracias, señora Pérez Fernández.</seg>
                <seg>En turno de fijación de posiciones por parte de los grupos, en primer lugar, por el Grupo Vasco, PNV, tiene la palabra la señora Sánchez Robles.</seg>
             </u>
@@ -266,7 +264,7 @@
                <seg>Desde el escaño, brevemente. Creo que la iniciativa presentada por el BNG ya era meridianamente clara y ha quedado más transparente después de escuchar las palabras de la diputada que la ha defendido. Además, está soportada en las previsiones del bloque constitucional, en el Estatuto de Galiza y en la propia Constitución española, y creo que no requiere de mayor justificación. Por tanto, el Grupo Vasco votará favorablemente la toma en consideración de esta proposición de ley para que, de una vez por todas, se dé cumplimiento a las previsiones, como les decía, del bloque de constitucionalidad.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u25" ana="#chair">
                <seg>Muchas gracias, señora Sánchez Robles.</seg>
                <seg>Por Unión Progreso y Democracia, tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -278,7 +276,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u27" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por La Izquierda Plural, tiene la palabra el señor Centella.</seg>
             </u>
@@ -292,7 +290,7 @@
                <seg>Nosotros valoramos positivamente la proposición de ley y la vamos a votar a favor para que se transfieran las competencias de la AP-9 a la Comunidad Autónoma de Galicia, ya que también coincide con la tramitación del proyecto de ley de carreteras que se ha aprobado en el Consejo de Ministros, y que prevé la transferencia a la comunidad autónoma de estas titularidades. Pero, fundamentalmente, porque no es una cuestión solamente de competencias sino también de fondo. Si ustedes no lo entienden no tendrán ningún problema, ya habrá quien lo entienda por ustedes y quien les haga entenderlo. Creemos que, más pronto que tarde, va a ser una realidad que la comunidad gallega, como otras comunidades del Estado español, sea algo más que una comunidad en la medida en que puedan tener competencias para administrar, para programar cosas tan importantes como la propia comunicación, algo fundamental para la economía y para la propia vida de la gente en este territorio. Repito, nosotros creemos que hay motivos de sobra para aprobar esta proposición de ley orgánica que nos presenta el BNG, al tiempo que también se pueden poner en marcha medidas urgentes porque, evidentemente, si la tramitación se aprobase -a estas alturas uno no puede perder esa ingenuidad-, habría que tomar medidas urgentes para evitar las situaciones de atasco que se producen en la AP-9 en las fechas próximas al verano, para lo que no quedan apenas días para que ocurra. Por este motivo, nuestro grupo va a presentar una PNL en la que vamos a instar al Gobierno a que se adopten de forma urgente medidas oportunas para que Audasa dote del número necesario de operarios de cobro de peaje en la AP-9, después de definir la previsión de días de más afluencia de tráfico, para resolver estos posibles atascos y a que dentro de estas medidas se incluya también el levantamiento del peaje durante el tiempo imprescindible para resolver los atascos. Es decir, lo fundamental es resolver los problemas de la gente y no resolver los problemas de los intereses más o menos privados que hay detrás de todo este asunto. Por tanto, repito, vamos a votar favorablemente esta iniciativa. Creemos que es algo que nos ha servido para enmarcar bien la diferencia entre lo público y lo privado y también para enmarcar un debate que hay que tener, más pronto que tarde, en esta Cámara sobre el modelo de Estado porque, repito, el actual no solamente no resuelve los problemas sino que a veces los crea.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u29" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u29" ana="#chair">
                <seg>Muchas gracias, señor Centella.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió, tiene la palabra el señor Macias.</seg>
                <pb n="20"/>
@@ -650,7 +648,7 @@
                <seg>La propuesta que nos hace la señora Montón en su proposición no de ley no es solamente extemporánea por el momento, dadas las posibilidades del Gobierno de presentar algo, sino también por su formulación. Efectivamente, parece que es una cosa muy ambiciosa y no sabemos muy bien qué encaje puede tener que se haga en una proposición de ley. De todas maneras, señorías, compartimos los objetivos que en la propuesta se plantean y como creemos que quien gobierne en la próxima legislatura deberá afrontar políticas en relación con los derechos laborales de las mujeres, la racionalización de horarios, las brechas salariales y la compatibilización del trabajo y la vida social, política y cultural de las mujeres, como entendemos que el próximo Gobierno deberá trabajar en esa dirección, vamos a apoyar esta propuesta que hoy acaba de defender la señora Montón. Lo vamos a hacer porque coincidimos en el fondo de todo lo que en ella se dice, otra cosa es que no creamos que en el tiempo que queda para que finalice esta legislatura este Gobierno vaya a abordarlo, cuando además no tuvo voluntad hasta ahora para hacerlo, ya que tiene algunas dificultades de encaje desde el punto de vista legislativo. Pero los objetivos, desde nuestro punto de vista, son claros y esos objetivos son los que apoyamos.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u78" ana="#chair">
                <seg>Muchas gracias, señora Fernández Davila.</seg>
                <seg>Señorías, quiero decirles que está en la tribuna el ministro de Asuntos Exteriores de la República de Túnez, el excelentísimo señor don Taïeb Baccouche, a quien damos la bienvenida y saludamos cordialmente.<note>Aplausos</note> Muchas gracias.</seg>
                <seg>Por el Grupo Vasco, PNV, tiene la palabra el señor Agirretxea.</seg>
@@ -667,7 +665,7 @@
                <seg>Como bien saben, hemos participado en la subcomisión que ha estudiado la racionalización y la conciliación y allí hemos visto precisamente dónde está el mayor problema. El sistema está establecido para que los modelos sociales existentes impidan la conciliación. La inmersión laboral plena de las mujeres en el mercado laboral en igualdad de condiciones y los hábitos de la mal entendida masculinidad priman en los sistemas de relación. Si una mujer embarazada o una madre reciente es un problema, entre comillas, para una empresa es que no tenemos nada que hacer, es decir, es que tenemos un problema como sociedad, porque, tal y como está organizado el sistema laboral, salarial y social, hace que eso sea un problema. Por tanto, tendremos que analizar por qué tenemos nosotros este problema que hacemos que eso sea un problema. La conciliación es consecuencia de la igualdad, la igualdad como concepto incuestionable y permanente. Lo demás solo son circunstancias puntuales.</seg>
                <seg>Quisiera acabar con una cita preciosa que la señora Gertrude Mongella, que fue la presidenta del Parlamento Panafricano, hacía en la Conferencia de Pekín del año 2004, si no me equivoco, en la que pedía que los hombres ayudaran en la lucha por la igualdad. Decía que las mujeres siempre habían estado al lado de los hombres en la lucha por abolir la esclavitud, liberar a los países del colonialismo, desmantelar el apartheid y lograr la paz. Ha llegado la hora de que los hombres se unan a las mujeres en su lucha por la igualdad. Por tanto, cuando decimos que la igualdad es cosa de hombres es algo que nos debería responsabilizar a los hombres, en el concepto masculino de la palabra hombres.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u80" ana="#chair">
                <seg>Señor Agirretxea, tiene que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u81"
@@ -677,7 +675,7 @@
                <seg>Vamos a apoyar esta proposición no de ley. Tenemos nuestras críticas por las formas, consideramos que todo este batiburrillo de repente no es lo mejor para conseguir estos objetivos, pero también tenemos claro que esta es una lucha que requiere de los esfuerzos de todos.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u82" ana="#chair">
                <seg>Muchas gracias, señor Agirretxea.</seg>
                <seg>Por Unión Progreso y Democracia, tiene la palabra la señora Díez.</seg>
             </u>
@@ -692,7 +690,7 @@
                <seg>Dicho esto, y aunque, como digo, nos hubiera gustado que fuera más amplia y menos concreta en el sentido de programa electoral, se ha suscitado un problema real, un problema que no tiene soluciones, y por eso votaremos a favor de la proposición no de ley presentada y defendida por el Grupo Socialista.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u84" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Por La Izquierda Plural, tiene la palabra el señor Coscubiela.</seg>
             </u>
@@ -707,7 +705,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u86" ana="#chair">
                <seg>Gracias, señor Coscubiela.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , tiene la palabra el señor Campuzano.</seg>
             </u>
@@ -722,14 +720,14 @@
                <seg>Finalmente y con esto termino, señor presidente, en Cataluña, fruto de una alianza entre la sociedad civil y el Gobierno de Cataluña, se ha puesto en marcha una revolución de los horarios que pretende transformar radicalmente nuestras prácticas en esta materia. Es un buen ejemplo que quizás a todos les podría servir de inspiración y que va al núcleo de las cuestiones de fondo que nos ha planteado la señora Montón.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u88" ana="#chair">
                <seg>Muchas gracias, señor Campuzano.</seg>
                <seg>Señora Montón, a efectos oficiales le pregunto qué va a hacer con la enmienda presentada.<note>Pausa</note> No la acepta. Se votará entonces la proposición no de ley en sus propios términos.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO CATALÁN , SOBRE LA POLÍTICA DE DEFENSA DEL GOBIERNO ORIENTADA A LA PREVENCIÓN DE ATAQUES BIOTERRORISTAS.</head>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u89" ana="#chair">
                <seg>Moción del Grupo Catalán de Convergència i Unió sobre la política de defensa del Gobierno orientada a la prevención de ataques bioterroristas. Para su defensa tiene la palabra el señor Xuclà.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u90"
@@ -745,7 +743,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u91" ana="#chair">
                <seg>Muchas gracias, señor Xuclà.</seg>
                <seg>A esta moción se han presentado enmiendas. En primer lugar, por el Grupo Socialista, tiene la palabra el señor Rangel.</seg>
             </u>
@@ -761,7 +759,7 @@
                <note>Aplausos</note>
                <pb n="44"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u93" ana="#chair">
                <seg>Muchas gracias, señor Rangel.</seg>
                <seg>Por el Grupo Parlamentario Popular y para presentar su enmienda, tiene la palabra la señora Rodríguez-Salmones.</seg>
             </u>
@@ -775,7 +773,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u95" ana="#chair">
                <seg>Muchas gracias, señora Rodríguez-Salmones.</seg>
                <seg>En fijación de posiciones, tiene la palabra por el Grupo Vasco, PNV, el señor Agirretxea.</seg>
             </u>
@@ -787,7 +785,7 @@
                <seg>Por último, nos parece importante el tercer punto o los objetivos del mismo de que todas estas políticas de seguridad, prevención, etcétera, deben incardinarse en las grandes políticas europeas de defensa y de seguridad y asimismo dentro de la OTAN, pero en cualquier caso en la seguridad y defensa europeas, de las que el Estado español es partícipe y que consideramos fundamentales, porque no vale para nada llevar a cabo estas acciones individualmente, fuera de un contexto o un marco europeo, que es el que al fin y al cabo habilita este tipo de políticas. Por parte de mi grupo apoyaremos esta moción.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u97" ana="#chair">
                <seg>Muchas gracias, señor Agirretxea.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra la señora Lozano.</seg>
             </u>
@@ -800,7 +798,7 @@
                <seg>Muchas gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u99" ana="#chair">
                <seg>Muchas gracias, señora Lozano.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Sanz.</seg>
             </u>
@@ -814,7 +812,7 @@
                <seg>Aterrizando ya en cuestiones concretas, es preciso abordar aquellas que implican la necesaria prevención, la necesaria coordinación -algunas de ellas ya se han dicho aquí- y la necesaria mejora de la capacidad de respuesta. En este sentido, es imprescindible definir con claridad cuál va a ser la función de la planta veintidós del Gómez Ulla o potenciar el trabajo de la Brisan como referente de las unidades NBQ. Con respecto al último punto de la moción que ustedes planteaban y del que hablábamos antes en esa conversación que hemos mantenido en la puerta, que hace referencia a la necesidad de actualizar el inventario de vacuna, nosotros estamos de acuerdo en hacerlo, pero no estamos de acuerdo en hacerlo tal y como ponía la literalidad del texto que usted nos propuso, porque no decía sobre qué base y cómo se tenía que actualizar ese inventario de vacunas. Sin ánimo de entrar en otros temas y en otras polémicas, fíjense en la profunda hipocresía que se aprecia comparando dos sucesos vividos en este país. Hace poquito, con la hepatitis C, no se garantizaba la medicación porque, literalmente, no era negocio para la farmacéuticas. Eso lo comparamos con la extrema alarma por la gripe A, que desdibujó los límites de percepción entre lo probable y lo posible e implicó la compra ingente de vacunas que al final han acabado almacenadas en la Ualsan, que estarán allí hasta su caducidad, si no están ya caducadas. La primera redacción no determinaba cómo se tenían que revisar estos inventarios. Es verdad que esta habla de la revisión de protocolos y de la coordinación interministerial e interadministrativa para poder llevarlo a cabo de forma correcta, por lo tanto, nos parece bien avanzar en esto, aunque también les diré que la redacción que se ha buscado para este punto 2 es, cuando menos, un tanto confusa. La posición de nuestro grupo,<pb n="47"/> después de analizar y estudiar mínimamente -porque no nos ha dado tiempo- la propuesta presentada, no será desfavorable.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u101" ana="#chair">
                <seg>Muchas gracias, señor Sanz.</seg>
                <seg>Señor Xuclà, le pregunto acerca de las enmiendas.</seg>
             </u>
@@ -825,12 +823,12 @@
                <seg>Hay una enmienda transaccional que está en posesión de la Mesa, que incorpora, a partir del texto de CiU, las enmiendas del Grupo Popular y del Grupo Socialista y que espero que sea la que se someta a votación.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u103" ana="#chair">
                <seg>Así se hará, señor Xuclà. Ese texto es el que someteremos a votación.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO MIXTO<note>SEÑOR URBINA</note> , SOBRE LA POSTURA DEL GOBIERNO EN RELACIÓN AL FRACKING.</seg>
                <note>Número de expediente 173/000213</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u104" ana="#chair">
                <seg>Moción consecuencia de interpelación del Grupo Mixto, del señor Urbina, sobre la postura del Gobierno en relación con el fracking. Para defender la iniciativa, tiene la palabra el señor Errekondo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u105"
@@ -876,7 +874,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u110" ana="#chair">
                <seg>Muchas gracias, señora Lucio.</seg>
                <seg>Turno de fijación de posiciones. En primer lugar, por el Grupo Parlamentario Vasco, PNV, tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -889,7 +887,7 @@
                <seg>Nuestra posición, la del Gobierno vasco y la del Partido Nacionalista Vasco, es la misma, como no puede ser de otra forma. Ha sido, es y será nítida y clara en relación con el tema del fracking. Nos parece sinceramente menos clara la que se trae hoy para su debate y votación a esta Cámara, nos parece relativamente confusa la posición de Amaiur que se recoge en la moción e incluso, si me permiten, también la reflejada en las enmiendas presentadas a la iniciativa legislativa popular en el Parlamento vasco. Y es por ello por lo que nos vamos a abstener a la hora de votarla.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u112" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió, tiene la palabra la señora Riera.</seg>
             </u>
@@ -901,7 +899,7 @@
                <seg>Señorías, desde CiU creemos que si hay un yacimiento de petróleo o de gas en un territorio, en una comunidad autónoma, la actividad extractiva de estas fuentes de energía que se desarrolla en este territorio y siempre que exista una tecnología suficientemente avanzada para dar garantías de que los riesgos están controlados, es una actividad que entendemos corresponde y compete a la comunidad autónoma y no al Estado. Por lo tanto, a nuestro juicio, es la comunidad autónoma la administración competente para decidir directamente si los permisos para iniciar esta actividad deben ser concedidos o no y, en cualquier caso, debería ser ella la administración responsable para gestionar los incentivos a dicha actividad o gestionar un supuesto impuesto que grave estas extracciones...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u114" ana="#chair">
                <seg>Perdón, señora Riera. Por favor, ruego silencio para que se pueda oír a la oradora. Continúe, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u115"
@@ -912,7 +910,7 @@
                <seg>En coherencia con este mismo planteamiento y en la convicción del papel que han de tener las comunidades autónomas en dicha materia, en el caso de que el grupo proponente, Amaiur, aceptase la enmienda presentada por el Grupo de La Izquierda Plural, nuestro grupo se abstendría al entender que se aleja del planteamiento de nuestro grupo, que reivindica -insisto- el papel de las comunidades autónomas en las decisiones en materia de fracking.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u116" ana="#chair">
                <seg>Muchas gracias, señora Riera.</seg>
                <seg>Por el Grupo Popular tiene la palabra el señor Flores.</seg>
             </u>
@@ -927,7 +925,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u118" ana="#chair">
                <seg>Muchas gracias, señor Flores.</seg>
                <seg>Señor Errekondo, ¿admite alguna enmienda?</seg>
             </u>
@@ -936,79 +934,79 @@
                ana="#regular">
                <seg>No, pero la votación será separada.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u120" ana="#chair">
                <seg>Muy bien. Punto uno y punto dos. Muchas gracias. Así lo haremos en unos minutos.</seg>
                <note>Pausa</note>
             </u>
          </div>
          <div type="debateSection">
             <head>ACUERDO DE TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DE INICIATIVAS LEGISLATIVAS - ACUERDO DE TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DEL PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 28/1990, DE 26 DE DICIEMBRE, POR LA QUE SE APRUEBA EL CONVENIO ECONÓMICO ENTRE EL ESTADO Y LA COMUNIDAD FORAL DE NAVARRA.</head>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u121" ana="#chair">
                <seg>Vamos a comenzar las votaciones y en primer lugar, de acuerdo con lo hablado en Junta de Portavoces, someto a la Cámara su aprobación por asentimiento de la tramitación directa y en lectura única del proyecto de ley por la que se modifica la Ley 28/1990, de 26 de diciembre, por la que se aprueba el convenio económico entre el Estado y la Comunidad Foral de Navarra.<note>Asentimiento</note> Aprobado por asentimiento, el proyecto de ley se debatirá el jueves.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY : - DEL GRUPO PARLAMENTARIO DE IU, ICV-EUIA, CHA: LA IZQUIERDA PLURAL, DE UNIVERSALIZACIÓN DEL DERECHO A LA ASISTENCIA SANITARIA PÚBLICA, RESTABLECIENDO LA SITUACIÓN JURÍDICA PREVIA A LA PROMULGACIÓN DEL REAL DECRETO-LEY 16/2012, DE 20 DE ABRIL, DE MEDIDAS URGENTES PARA GARANTIZAR LA SOSTENIBILIDAD DEL SISTEMA NACIONAL DE SALUD Y MEJORAR LA CALIDAD Y SEGURIDAD DE SUS PRESTACIONES.</head>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u122" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u122" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo Parlamentario de La Izquierda Plural, de universalización del derecho a la asistencia sanitaria pública, restableciendo la situación jurídica previa a la promulgación del Real Decreto-ley 16/2012, de 20 de abril, de medidas urgentes para garantizar la sostenibilidad del Sistema Nacional de Salud y mejorar la calidad y seguridad de sus prestaciones.</seg>
                <seg>Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312 más 1 voto telemático, 313; a favor, 142; en contra, 170 más 1 voto telemático, 171.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u123" ana="#chair">
                <seg>No se toma en consideración.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO MIXTO, ORGÁNICA DE TRANSFERENCIA DE LA TITULARIDAD Y COMPETENCIAS DE LA AP-9 A LA COMUNIDAD AUTÓNOMA DE GALICIA.</seg>
                <note>Número de expediente 122/000183</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u124" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u124" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo Parlamentario Mixto, Orgánica de transferencia de la titularidad y competencias de la AP-9 a la Comunidad Autónoma de Galicia. La ha defendido la señora Pérez.<pb n="54"/> Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312 más 1 voto telemático, 313; a favor, 42; en contra, 171 más 1 voto telemático, 172; abstenciones, 99.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u125" ana="#chair">
                <seg>No se toma en consideración.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY : - DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, SOBRE EL RECONOCIMIENTO DEL CARÁCTER ESTRATÉGICO DE LA ALTA VELOCIDAD Y LA CULMINACIÓN DE LAS ACTUACIONES PREVISTAS.</head>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u126" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u126" ana="#chair">
                <seg>Proposición no de ley del Grupo Popular sobre el reconocimiento del carácter estratégico de la alta velocidad y la culminación de las actuaciones previstas.</seg>
                <seg>Se vota en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312; a favor, 175; en contra, 37; abstenciones, 100.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u127" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE EL REPARTO DE LOS CUIDADOS Y DE IGUALDAD SALARIAL ENTRE MUJERES Y HOMBRES.</seg>
                <note>Número de expediente 162/001201</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u128" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u128" ana="#chair">
                <seg>Proposición no de ley del Grupo Socialista sobre el reparto de los cuidados y de igualdad salarial entre mujeres y hombres.</seg>
                <seg>Se vota también en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312; a favor, 142; en contra, 169; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u129" ana="#chair">
                <seg>Queda rechazada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - MOCIÓN DEL GRUPO PARLAMENTARIO CATALÁN , SOBRE LA POLÍTICA DE DEFENSA DEL GOBIERNO ORIENTADA A LA PREVENCIÓN DE ATAQUES BIOTERRORISTAS.</head>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u130" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u130" ana="#chair">
                <seg>Moción del Grupo Parlamentario Catalán<note>Convergència i Unió</note> , sobre la política de defensa del Gobierno orientada a la prevención de ataques bioterroristas. Hay una enmienda transaccional que ha sido distribuida a todos los diputados y que ustedes conocen. Esa enmienda transaccional es la que sometemos a votación.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 305; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u131" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u131" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>- MOCIÓN DEL GRUPO PARLAMENTARIO MIXTO<note>SEÑOR URBINA</note> , SOBRE LA POSTURA DEL GOBIERNO EN RELACIÓN AL FRACKING.</seg>
                <note>Número de expediente 173/000213</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u132" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u132" ana="#chair">
                <seg>Moción del Grupo Mixto, señor Urbina, sobre la posición del Gobierno en relación con el fracking. Se vota en sus propios términos, pero va a haber dos votaciones.<pb n="55"/> Punto primero.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 35; en contra, 273; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u133" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u133" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto segundo.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 133; en contra, 173; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u134" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-26-CD150526.u134" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las nueve de la noche.</seg>

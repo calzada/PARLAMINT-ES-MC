@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="198">198 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="198" xml:lang="es">198 speeches</measure>
+            <measure unit="speeches" quantity="198" xml:lang="en">198 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="6"/>
                <tagUsage gi="note" occurs="160"/>
                <tagUsage gi="u" occurs="198"/>
-               <tagUsage gi="lb" occurs="554"/>
+               <tagUsage gi="seg" occurs="554"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -490,7 +488,7 @@
                <seg>En primer lugar, permítame saludar a viejos conocidos, a los representantes de Pimec Energia que nos acompañan desde la tribuna. Una política industrial útil y efectiva a favor de la competitividad es la que tiene en consideración la moderación del precio de la energía, la fiscalidad de las empresas moderando el impuesto sobre sociedades, la lucha contra la morosidad -otra gran iniciativa liderada por Pimec- y la internacionalización de las empresas. Se impone una reforma en profundidad sobre cómo ha de pagarse la energía, sobre el precio de la energía y sobre cómo ha de hacerse una factura limpia de impuestos encubiertos, lo que supondría que al final solo pagásemos un 35 % de energía a la hora de abonar nuestra factura. Señorías, esta propuesta de Esquerra Republicana está llena de sentido común y la vamos a apoyar. Se trata de pagar por consumo y no por potencia contratada. Parece de cajón que se tiene que pagar por aquello gastado, pero esta lógica no se impone en la factura y en la actividad industrial. La potencia contratada tiene en estos momentos puntas que encarecen la factura eléctrica. Esto se ve claramente en el sector del turismo, de la agricultura, de las empresas vinculadas con la conservación frigorífica, como la recolección de la manzana. La contratación para un año cuando hay puntas de consumo supone una gran injusticia. Nosotros apoyamos abiertamente esta iniciativa y esperemos que sea un paso más de la profunda revisión del sistema energético que se requiere en España.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2017-02-21-CD170221.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2017-02-21-CD170221.u59" ana="#chair">
                <seg>Por el Grupo Parlamentario Confederal de Unidos Podemos-En Comú Podem-En Marea, tiene la palabra el señor Vendrell Gardeñes.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-02-21-CD170221.u60"
@@ -1010,7 +1008,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2017-02-21-CD170221.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2017-02-21-CD170221.u129" ana="#chair">
                <seg>Muchas gracias, señor Ábalos.</seg>
                <seg>Por el Grupo Parlamentario Popular en el Congreso, tiene la palabra el señor Barrachina Ros.</seg>
             </u>

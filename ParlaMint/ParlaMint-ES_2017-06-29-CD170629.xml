@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="128">128 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="128" xml:lang="es">128 speeches</measure>
+            <measure unit="speeches" quantity="128" xml:lang="en">128 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="15"/>
                <tagUsage gi="u" occurs="128"/>
                <tagUsage gi="note" occurs="140"/>
-               <tagUsage gi="lb" occurs="339"/>
+               <tagUsage gi="seg" occurs="339"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -708,7 +706,7 @@
                <seg>Entiendo que desde el año 1991 hayan podido ustedes cambiar de criterio; lo que no puedo entender es que en veintiséis años no hayan sido capaces de traer una iniciativa legislativa a este Parlamento para, efectivamente, modificar esta cuestión. Y han tenido ocasiones, no solo en estos veintiséis años en los que ustedes podían haber traído, efectivamente, una proposición legislativa, sino que hubo otras a raíz de propuestas de otros grupos. El día 25 de enero de 2011, en concreto, Izquierda Unida, trajo una propuesta para dotar de carácter exclusivo a la actividad parlamentaria. En ese momento el señor Fernández González, el portavoz del Grupo Socialista en esta misma Cámara, tildó dicha propuesta de populista, errónea, perjudicial para la buena salud del Parlamento y acusó a Izquierda Unida de querer convertir la actividad parlamentaria en un oficio. Ustedes votaron que no. En concreto, señor Sahuquillo -es usted quien ha manifestado esto en la Comisión del Estatuto del Diputado-, ya estaba en esta Cámara y votó que no a dicha propuesta.<note>Aplausos</note> En octubre del año 2016 volvimos a abrir el debate sobre la Loreg, que es precisamente la ley que regula las incompatibilidades, y ustedes no presentaron ninguna enmienda en este aspecto, cuando pudieron haberlo hecho. Solo vieron el problema meses después. Ahora bien, a pesar de todas estas ocasiones perdidas, nosotros les invitamos a presentar una iniciativa legislativa porque creemos que es necesario modificar la legislación, ya que, efectivamente, este no es un tema banal, pues las incompatibilidades se establecen precisamente para proteger la gestión pública, para evitar que se confundan los intereses privados con los públicos y para impedir, al fin y al cabo, formas de corrupción legal. Por eso, nosotros siempre estaremos de acuerdo con legislar en este sentido. Les proponemos aprobar una ley con tres premisas. La primera, que contenga una regulación clara y estricta.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2017-06-29-CD170629.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2017-06-29-CD170629.u85" ana="#chair">
                <seg>Un momento, señora Carreño, un momento.<note>Pausa</note> Continúe.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-06-29-CD170629.u86"

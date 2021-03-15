@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="158">158 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="158" xml:lang="es">158 speeches</measure>
+            <measure unit="speeches" quantity="158" xml:lang="en">158 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="55"/>
                <tagUsage gi="note" occurs="142"/>
                <tagUsage gi="u" occurs="158"/>
-               <tagUsage gi="lb" occurs="441"/>
+               <tagUsage gi="seg" occurs="441"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>JURAMENTO O PROMESA DE ACATAMIENTO DE LA CONSTITUCIÓN POR NUEVOS SEÑORES DIPUTADOS</head>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u1" ana="#chair">
                <seg>Señorías, se abre la sesión.</seg>
                <seg>Con carácter previo al primer punto del orden del día vamos a proceder al juramento o promesa de acatamiento de la Constitución, conforme al artículo 20.1.3.º del Reglamento.<note>Rumores</note> Silencio, por favor. En sustitución de don José Manuel Soria López pregunto a don Francisco Domingo Cabrera García si jura o promete acatar la Constitución.</seg>
             </u>
@@ -108,14 +106,14 @@
                ana="#regular">
                <seg>Sí, juro.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u3" ana="#chair">
                <seg>Don Francisco Domingo Cabrera García ha adquirido la condición plena de diputado. Enhorabuena.<note>Aplausos.-Continúan los rumores</note> Silencio, por favor.</seg>
                <seg>Antes de comenzar con el resto de los puntos del orden del día, quiero fijar el momento de la votación acumulada de las proposiciones de ley y proposiciones no de ley para aproximadamente, como hicimos el martes pasado, las siete y media.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIÓN DE LEY - DEL GRUPO PARLAMENTARIO CIUDADANOS, DE MODIFICACIÓN DEL RÉGIMEN DE TASAS JUDICIALES, ESTABLECIDO POR LA LEY 10/2012, DE 20 DE NOVIEMBRE, PARA LA EXENCIÓN DE LAS ENTIDADES SIN FINES LUCRATIVOS QUE HAYAN OPTADO POR EL RÉGIMEN FISCAL ESPECIAL DE LA LEY 49/2002, DE 23 DE DICIEMBRE, DE RÉGIMEN FISCAL ESPECIAL DE LAS ENTIDADES SIN FINES LUCRATIVOS Y DE LOS INCENTIVOS FISCALES AL MECENAZGO, Y LOS SUJETOS PASIVOS QUE TENGAN LA CONSIDERACIÓN DE ENTIDADES DE REDUCIDA DIMENSIÓN DE ACUERDO CON LO PREVISTO EN LA NORMATIVA REGULADORA DEL IMPUESTO SOBRE SOCIEDADES.</head>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u4" ana="#chair">
                <seg>Comenzamos con el punto I del orden del día, relativo a la toma en consideración de proposiciones de ley. Corresponde, en primer lugar, debatir la toma en consideración de la proposición de ley, del Grupo Parlamentario Ciudadanos, de modificación del régimen de tasas judiciales establecido por la Ley 10/2012, de 20 de noviembre, para la exención de las entidades sin fines lucrativos que hayan optado por el régimen fiscal especial de la Ley 49/2002, de 23 de diciembre, de régimen fiscal especial. Para la presentación de la iniciativa tiene la palabra la señora Reyes.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u5"
@@ -131,7 +129,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u6" ana="#chair">
                <seg>Muchas gracias, señora Reyes.</seg>
                <seg>Ningún grupo ha solicitado la utilización del turno en contra; por tanto, pasamos al de fijación de posiciones, comenzando por el señor Bataller, del Grupo Mixto.</seg>
             </u>
@@ -144,7 +142,7 @@
                <seg>En Compromís votaremos a favor de la modificación propuesta por el Grupo Parlamentario Ciudadanos; una solución parcial, pero la apoyamos como paso previo hacia una futura derogación total de esta ley.</seg>
                <seg>Muchas gracias, señorías.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u8" ana="#chair">
                <seg>Gracias señor Bataller.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Legarda.</seg>
             </u>
@@ -160,7 +158,7 @@
                <seg>¿Qué se pretende con todo esto? ¿Consideran, señores de Ciudadanos, que esta manera de proceder, ocultando parcialmente el objeto de la reforma al no decir nada de ello ni en la exposición de motivos ni en el título de la propia norma, regenera las instituciones? ¿Acerca los debates a la sociedad? ¿Profundiza la transparencia de la actividad parlamentaria? ¿Incorpora al expediente legislativo las gestiones y trabajos que subyacen en la propuesta? ¿Dónde ha quedado su manida huella legislativa? Esa que ustedes pregonan para facilitar la comprensión de la procedencia, así como la justificación y argumentación de toda propuesta y los principios de buena regulación? ¿Dónde queda la seguridad jurídica? ¿Y la transparencia? ¿Y la simplicidad? ¿Y la accesibilidad? ¿Y la eficacia? ¿Y la buena técnica jurídica? En fin, ¿consideran que todo esto contribuye a la formación de una opinión responsable del ciudadano?<pb n="10"/> Finalizo. Votaremos a favor, no tanto por su contenido, que enmendaremos en el trámite oportuno, sino para caminar en pos de la tutela judicial efectiva y su acceso, que las vigentes tasas obstaculizan.</seg>
                <seg>Muchas gracias, señor presidente. Muchas gracias, señorías.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u10" ana="#chair">
                <seg>Gracias, señor Legarda.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> tiene la palabra la señora Ciuró.</seg>
             </u>
@@ -174,7 +172,7 @@
                <seg>Daremos nuestro apoyo a la tramitación de esta proposición no de ley. No podemos seguir permitiendo que la justicia intente paliar su endémico problema de financiación a base de incrementar el coste a su acceso. Señorías, convenimos todos en que la justicia necesita unas reformas profundas. Es una justicia lenta, es una justicia farragosa y además es una justicia que no da servicio a los ciudadanos en la forma y manera en que debería hacerlo, es decir, con mayor rapidez. No se cubren plazas que deberían cubrirse necesariamente, no se revisan los criterios objetivos para poder acceder a un servicio de calidad y además<pb n="11"/> no se afronta su reforma desde el rigor, sino que se ponen parches gravando el acceso a ella en forma de pagos a tocateja -si quieres acceder, paga-, porque tenemos un problema de financiación que son incapaces de resolver, ya que nunca se han sentado para intentar solucionarlo; no solo ustedes, porque esto no viene solo de su etapa de Gobierno, sino de los gobiernos anteriores.<note>Rumores</note> Por tanto, me atrevería a decir que para recuperar el prestigio de la justicia y la fe de los ciudadanos en el Poder Judicial es imprescindible hoy en día un esfuerzo, que es un objetivo que todo Estado debería tener. Necesitamos que haya un abordaje de esta reforma de la justicia y no lo vamos a conseguir a base de la Ley de Tasas, sino a base de hacer un servicio público accesible, dotado de medios adecuados, respetuoso con el sistema competencial y, por tanto, más cercano y más ágil a la hora de dar servicio.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u12" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u13"
@@ -183,7 +181,7 @@
                <seg>Termino reiterando que hoy con la toma en consideración de esta proposición de ley -si es el caso- retomamos el camino hacia una justicia más accesible. Por ello, Democràcia i Llibertat votará a favor de su toma en consideración. En cualquier caso, las enmiendas que podamos aportar para enriquecer el texto esperemos que coadyuven a conseguir que sea claro y de fácil acceso para los operadores jurídicos que tienen que actuar.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u14" ana="#chair">
                <seg>Gracias, señor Ciuró.</seg>
                <seg>Por el Grupo Parlamentario de Esquerra Republicana tiene la palabra la señora Capella.</seg>
             </u>
@@ -200,7 +198,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u16" ana="#chair">
                <seg>Muchas gracias, señora Capella.</seg>
                <seg>Por el Grupo Parlamentario Podemos-En Comú Podem-En Marea, tiene la palabra el señor Yllanes.</seg>
             </u>
@@ -217,7 +215,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u18" ana="#chair">
                <seg>Gracias, señor Yllanes.</seg>
                <seg>Por el Grupo Parlamentario Socialista, tiene la palabra la señora Perea.</seg>
             </u>
@@ -232,7 +230,7 @@
                <seg>Señorías, necesitamos un pacto de Estado que garantice nuestro modelo de convivencia, lo que ya cuenta con el apoyo de la gran mayoría de formaciones políticas que estamos aquí representadas. Han subido a esta tribuna todos los representantes y espero que el Partido Popular se una a este buen entendimiento y a este consenso. A fecha de hoy, el 91 % de las iniciativas que se han debatido en comisiones y en Pleno han sido aprobadas, lo que constituye un cambio de 180 grados. Señorías, hemos renovado este Congreso en más de un 60 % y, déjenme que les diga que un 40 % somos diputadas.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u20" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u20" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u21"
@@ -240,7 +238,7 @@
                ana="#regular">
                <seg>La media de edad es de cuarenta y ocho años. Quiero acabar rápidamente, pero déjenme que les comente una cosa. El 95 % de diputados tenemos estudios universitarios gracias a que en un momento dado alguien se esforzó por dar la cara por nosotros.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u22" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u22" ana="#chair">
                <seg>Señora Perea, vaya concluyendo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u23"
@@ -249,7 +247,7 @@
                <seg>Voy acabando.</seg>
                <seg>Señorías, esto por sí mismo es un cambio en la forma de hacer, de entender, de vivir. Somos generaciones distintas, pero todas tenemos en común una finalidad, una realidad: una parte o toda nuestra historia personal y colectiva la hemos compartido en nuestra historia democrática. Cuando salgamos allí, tendremos que rendir cuentas a las personas que nos están esperando. Eso será inevitable. Alguien puede tener la tentación de instalarse en la soberbia, de instalarse en tacticismos y retórica para ganar voluntades que, como tildaba Montaigne, podían ser de forma engañosa y embustera. Pero están muy equivocados -tranquilo, señor Iglesias, que no va por usted-.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u24" ana="#chair">
                <seg>Señora Perea, concluya.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u25"
@@ -260,7 +258,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u26" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u26" ana="#chair">
                <seg>Muchas gracias, señora Perea.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra el señor Zoido.</seg>
             </u>
@@ -276,7 +274,7 @@
                <seg>Me van a permitir, porque han sido muchas las afirmaciones que se han vertido aquí de falta de sensibilidad por parte del Gobierno del Partido Popular y de Mariano Rajoy, que le cite. Si de sensibilidad se habla, ¿cómo se van a tildar de falta de sensibilidad las normas antideshaucios que se han publicado en el Gobierno de Mariano Rajoy? Señorías, hay quién gobernó en su día y presumió de acelerar los desahucios y, sin embargo, bajo el Gobierno de Mariano Rajoy, ha habido un conjunto de normas que han beneficiado a más de 35.000 familias, han permitido 18.000 reestructuraciones de deuda, se han suspendido más de 17.000 desahucios, se han efectuado más de 5.000 daciones en pago y 4.000 familias han accedido a un alquiler social a través del Fondo social de vivienda. Del mismo modo, hay que recordar que, durante la pasada legislatura, desde el Gobierno de Mariano Rajoy se ha apostado por profundizar en los instrumentos de mediación y arbitraje, algo muy importante también para la agilización de la Administración de Justicia, con ese fin de alcanzar soluciones extrajudiciales. Reconocemos que España tiene mucho que avanzar aún en esa parcela, pero nosotros aportamos la Ley de Mediación. No aspiramos, señorías, a equipararnos con el sistema anglosajón, en el que el 70 % de los asuntos se resuelve mediante el arbitraje, pero sí tenemos que seguir dando pasos adelante. Actualmente, en España ya existen 2.000 mediadores, 1.100 mediadores concursales y 61 instituciones de mediación que están ya inscritas, porque creemos en esa cultura del acuerdo frente a la del conflicto que tanto se está propiciando en estos primeros días de esta legislatura. Y vamos a seguir explorando la vía del acuerdo y no la vía del conflicto.</seg>
                <seg>Termino. Quiero dejar algo muy claro: las tasas vigentes son absolutamente ponderadas. La legislación de tasas promovida en la anterior legislatura se ajusta a la Constitución -así ha sido declarado- y a la interpretación que de la misma hace el Tribunal Constitucional y, además, son acordes con los criterios marcados por el Consejo de Europa, por mucho que ustedes lo nieguen.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u28" ana="#chair">
                <seg>Señor Zoido, le ruego concluya.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u29"
@@ -287,13 +285,13 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u30" ana="#chair">
                <seg>Muchas gracias, señor Zoido.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO DE ESQUERRA REPUBLICANA, POR LA QUE SE MODIFICA LA LEY ORGÁNICA 5/1985, DE 19 DE JUNIO, DEL RÉGIMEN ELECTORAL GENERAL PARA AMPLIAR EL DERECHO DE SUFRAGIO ACTIVO A LOS MAYORES DE DIECISÉIS AÑOS</seg>
                <note>ORGÁNICA</note>
                <note>Número de expediente 122/000012</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u31" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u31" ana="#chair">
                <seg>Pasamos al debate de toma en consideración de la proposición de ley del Grupo Parlamentario de Esquerra Republicana por la que se modifica la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General, para ampliar el derecho de sufragio activo a los mayores de 16 años. Para presentar la iniciativa, tiene la palabra el señor Rufián.<note>Rumores</note> Silencio, por favor.</seg>
                <pb n="19"/>
             </u>
@@ -390,7 +388,7 @@
                <note>Aplausos</note>
                <pb n="25"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u43" ana="#chair">
                <seg>Gracias, señora Ciuró.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos, tiene la palabra el señor Prendes.</seg>
             </u>
@@ -405,7 +403,7 @@
                <seg>Queremos una ley electoral que mejore la transparencia y los cauces de participación dentro de los partidos, que son instrumentos con los que se construye la democracia y que canalizan la participación ciudadana, y por eso queremos hablar de primarias para la elección de cabezas de lista. Si estuviese aquí el señor Mariano Rajoy miraría para él, pero como no está, no puedo.<note>Aplausos</note> También queremos -y esto seguro que lo compartimos- que cientos de miles de españoles residentes en el extranjero que han quedado sin poder ejercer su derecho fundamental al voto por la reforma del voto rogado, puedan ejercerlo y ejercerlo en plenitud, y en eso seguro que estamos de acuerdo. Queremos facilitar el voto a las personas que cuenten con impedimentos físicos planteando el voto anticipado o mejorando el voto electrónico y el voto por correo. Queremos, en definitiva, que haya mayor rendición de cuentas de los representantes políticos ante los ciudadanos porque eso sí creemos que es una fuente absoluta de desafección hacia nuestra democracia, uno de los mayores problemas que tenemos que afrontar. Y queremos, por ejemplo, que haya debates obligatorios entre los candidatos que se presenten a las elecciones, que no estemos en esta batalla electoral permanentemente. Nos parece que el derecho a recibir información es un derecho de los ciudadanos, no es una prebenda que otorgan los partidos políticos si les conviene electoralmente. De todo eso queremos hablar en la reforma electoral. Y queremos hacerlo de una forma muy distinta a como lo hacen ustedes, y en esto vamos a coincidir con el Grupo Parlamentario Vasco. Creemos que al ser una reforma estructural, una reforma sobre la que se asienta la democracia, no se puede hacer con cualquier mayoría, necesita una mayoría sólida que tiene que alcanzarse después de un proceso de debate.</seg>
                <pb n="27"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u45" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u45" ana="#chair">
                <seg>Señor Prendes, concluya, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u46"
@@ -414,7 +412,7 @@
                <seg>Sí, voy acabando.</seg>
                <seg>Por eso hemos propuesto una comisión especial no permanente. La hemos propuesto ya, aquí, en esta Cámara. Podemos decidir sobre esto mañana mismo y empezar a debatir, a discutir sobre cómo mejoramos esta democracia, algo que seguramente todos compartimos que es necesario hacer. Podemos hacerlo ya si no consideramos muerta, fenecida, esta legislatura. Desde luego nosotros no la consideramos así, nos parece que está viva, muy viva y en pie, por eso hemos planteado esa comisión especial no permanente, que sería el vehículo en el que podríamos debatir todas estas cosas. Por cierto, no sé cómo ustedes no han conseguido en Cataluña en treinta años hacer la reforma electoral. Es la única comunidad autónoma que no tiene ley electoral propia y ustedes han gobernado o gobiernan, han tenido mayorías, ¿cómo es que no han conseguido todas estas cuestiones en Cataluña? No lo entiendo. Nosotros plantearíamos en todo caso una reforma desde unos principios, que le digo cuáles son.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u47" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u47" ana="#chair">
                <seg>Y con eso concluya, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u48"
@@ -424,7 +422,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u49" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u49" ana="#chair">
                <seg>Gracias, señor Prendes.</seg>
                <seg>Por el Grupo Parlamentario Podemos-En Comú Podem-En Marea, tiene la palabra el señor Moya.</seg>
             </u>
@@ -445,7 +443,7 @@
                <seg>Igualmente, señorías de Ciudadanos, saben mejor que yo que las encuestas confirman que su formación no consigue captar votos entre las filas de los votantes jubilados ni entre los menores de veinticinco años, pero también son conscientes de que si realmente quieren aparecer como una fuerza del cambio, el reconocimiento de los derechos políticos de los jóvenes es necesario para transformar nuestro modelo de Estado. Sabida es también su resistencia, compartida con el Partido Popular, a reconocer el legítimo derecho de las mujeres de dieciséis a dieciocho años al aborto legal y seguro<note>Aplausos</note> , imponiendo el requisito del consentimiento de progenitores o tutores, que en la práctica ha sido una barrera infranqueable para una de cada ocho jóvenes durante el año 2014, lo que ha merecido la denuncia expresa del Comité Europeo contra la Discriminación de la Mujer y de Amnistía Internacional.</seg>
                <seg>Y finalmente, en cuanto a los proponentes, señorías del Grupo de Esquerra Republicana de Catalunya, celebramos que hayan sido intrépidos y comprometidos en esta apuesta por ampliar la democracia ante la cual, como no podía ser de otra manera, nos situamos a su lado. Digo intrépidos no en vano, con conocimiento de causa; de la misma manera que hace pocas semanas desde sus filas nos daban ánimos en nuestra lucha por conseguir el referéndum que materializaría el derecho de catalanes y catalanas a decidir su relación con el Estado español y nos tendían la mano para colaborar en ese empeño, desde En Comú Podem, integrados con Podemos y En Marea en el grupo plurinacional, hacemos lo mismo recíprocamente. De la misma manera que su portavoz aseguraba ver muy complicada una mayoría absoluta en el Congreso de los Diputados para abrir la vía del artículo 92 de la Constitución, también nosotros vemos muy complicada la mayoría absoluta para obtener la reforma de la ley orgánica que ustedes han venido aquí a proponer y a defender.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u51" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u51" ana="#chair">
                <seg>Señor Moya, concluya, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u52"
@@ -455,7 +453,7 @@
                <seg>En justa reciprocidad, por tanto, quienes somos un partido de izquierdas republicano y de Cataluña, es decir, desde En Comú Podem, ganadores de las pasadas elecciones en Cataluña y punto de encuentro de la nueva izquierda, tendemos la mano a este empeño radicalmente democrático, y no solo les desearemos ánimos como hace unos días nos deseaba el amigo muy admirado Joan Tardà, sino que además pasamos hoy aquí a la acción y en forma de voto les damos nuestro apoyo. Y para acabar sencillamente insistir.<note>El señor diputado termina su intervención en catalán</note> Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u53" ana="#chair">
                <seg>Gracias, señor Moya.</seg>
                <seg>Por el Grupo Parlamentario Socialista tiene la palabra la señora González Veracruz.</seg>
             </u>
@@ -473,7 +471,7 @@
                <seg>Es necesario un amplio consenso político y social y, por eso, creemos que no se tiene que tomar la decisión a la ligera, sino por medio de una subcomisión. Pero lo más importante es que ni esta subcomisión ni esta proposición de ley ni la creación de la comisión de investigación que debatiremos mañana serán posibles si no hay un Gobierno del cambio la semana que viene. Les aseguro que no me importan en sí las iniciativas, me importan las personas, me importa la esperanza que hay ahí fuera y los derechos que se podrían recuperar y conquistar. Me duelen los cambios que no se hagan y que podrían hacerse con un Gobierno mañana mismo si lo consiguiéramos. Les digo una cosa. Yo, como diputada, he representado a mis votantes. He venido aquí y he votado las políticas que comprometí en campaña electoral, pero también he votado por un presidente del cambio, por un presidente socialista, y con mi voto hubiéramos conseguido que ese señor y ese Gobierno estuvieran fuera mañana.</seg>
                <note>Señalando a los escaños del Gobierno.- Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u55" ana="#chair">
                <seg>Señora González, concluya, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u56"
@@ -482,7 +480,7 @@
                <seg>Señorías, no todos pueden decir lo mismo.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u57" ana="#chair">
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra la señora Cortés.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u58"
@@ -499,7 +497,7 @@
                <seg>En cuanto a la forma, señorías -en particular a los señores de Esquerra, aunque en su grupo haya algunos diputados nuevos como el señor Rufián, por ejemplo-, hay diputados nuevos en esta Cámara, pero hay otros que tienen ya una larga trayectoria como diputados, y parece mentira que de la experiencia que ustedes tienen aquí no hayan podido plantearse el hecho de que, durante todo el tiempo en esta Cámara, cualquier reforma que afectara a la Ley Electoral se intentaba hacer desde el diálogo, buscando consenso, buscando acuerdos. ¿Por qué? Porque la Ley Electoral recoge las reglas del juego; y las reglas del juego son iguales para todas las formaciones políticas que concurren a unas elecciones. Con lo cual, tiene sentido buscar el mayor apoyo para esas normas y para su hipotética modificación. ¿De qué le serviría a una formación política con una mayoría amplia o suficiente para aprobar una reforma si lo hiciera sin contar con las demás formaciones políticas? Se arriesgaría a que esa mayoría cambiase a la legislatura siguiente y se volviera a modificar la Ley Electoral. ¿Qué conseguiríamos con eso? Mayor inseguridad; podríamos tener que cambiar la Ley Electoral cada legislatura en función de la mayoría parlamentaria de esta Cámara; le transmitiríamos a los ciudadanos una situación de absoluta inseguridad, porque no sabrían qué normas iban a regular el siguiente proceso electoral. Señorías, creo que no daríamos una sensación de seguridad. Eso no sería serio y, desde luego, con el Grupo Parlamentario Popular no van a contar para esa absoluta irresponsabilidad. Además, no nos pueden acusar de que nuestra posición sea demagógica, y lo saben, porque cuando hemos tenido mayoría suficiente para hacer una reforma electoral o plantear una modificación que hubiésemos podido sacar adelante, no lo hemos hecho; y no lo hemos hecho por responsabilidad, porque sabemos que las reglas del juego no se pueden cambiar de forma unilateral sin buscar el diálogo, el acuerdo y el consenso. Señorías, es un ejercicio de responsabilidad política, que es lo menos que se puede pedir a los representantes de los ciudadanos.</seg>
                <seg>Para terminar, quiero decir que ustedes se refieren en su exposición de motivos a una resolución que no es vinculante, una resolución que lo que contiene es una recomendación. Desde el Grupo Popular les felicitamos por la diligencia en asumir una recomendación de una institución europea, pero también nos gustaría que su partido mostrase esa misma diligencia a la hora de cumplir la Constitución, las leyes del ordenamiento jurídico español y las sentencias y resoluciones de los tribunales ordinarios y del Tribunal Constitucional, que esos sí que son de obligado cumplimiento, señorías, eso sí que es de obligado cumplimiento.<note>Aplausos</note> Señor Rufián, ...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u59" ana="#chair">
                <seg>Señora Cortés, concluya.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u60"
@@ -510,13 +508,13 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u61" ana="#chair">
                <seg>Gracias, señora Cortés.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY - DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, RELATIVA A LA CONSECUCIÓN DE UN PACTO NACIONAL EN MATERIA EDUCATIVA.</head>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u62" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u62" ana="#chair">
                <seg>Pasamos al punto II del orden del día relativo a las proposiciones no de ley. Comenzamos con la del Grupo Parlamentario Popular relativa a la consecución de un pacto nacional en materia educativa. Para la presentación de esta iniciativa tiene la palabra el señor Casado.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u63"
@@ -534,7 +532,7 @@
                <note>Aplausos</note>
                <pb n="36"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u64" ana="#chair">
                <seg>Gracias, señor Casado.</seg>
                <seg>Grupos enmendantes. Empezamos por el Grupo Mixto, señora Beitialarrangoitia.</seg>
             </u>
@@ -546,7 +544,7 @@
                <seg>Dicho esto, parece que una vez más el Grupo Popular no quiere entender qué le pide la ciudadanía. El no a la Lomce ha sido claro por parte de toda la comunidad educativa, pese a lo cual la amenaza de su completa aplicación sigue vigente todavía. Han sido muchos los padres y madres que en Cataluña y en Euskal Herria, por ejemplo, han optado por negarse a que sus hijos e hijas hagan la reválida, aún sin saber las consecuencias que va a tener este plante.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u66" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u67"
@@ -556,7 +554,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u68" ana="#chair">
                <seg>Gracias, señora Beitialarrangoitia.</seg>
                <seg>Señora Sorlí.</seg>
             </u>
@@ -567,7 +565,7 @@
                <seg>Si quieren trabajar por la innovación educativa pueden mirar, por ejemplo, a la Concejalía del Ayuntamiento de Castellón, que con el Pintaescola está recuperando los centros que estaban degradados gracias a la participación de toda la comunidad.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u70" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u71"
@@ -577,7 +575,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u72" ana="#chair">
                <seg>Gracias, señora Sorlí.</seg>
                <seg>También como enmendantes, por el Grupo Parlamentario Podemos-En Comú Podem-En Marea tiene la palabra la señora Montero.</seg>
             </u>
@@ -591,7 +589,7 @@
                <seg>Queremos que ustedes, si quieren un diálogo y un pacto, lo hagan de verdad con el resto de fuerzas parlamentarias y con la sociedad civil. Deroguemos de una maldita vez la Lomce, sin que eso suponga una inseguridad jurídica o un problema para los alumnos; deroguemos ya esta ley que ha contado con el rechazo unánime de toda la comunidad educativa. Abordemos de verdad un proceso participativo para tener una ley estable de educación en nuestro país. No tengo muchas esperanzas de que escuchen lo que dice la gente, porque no lo han hecho en cuatro años de legislatura, pero les repetiré lo que hemos dicho muchas veces desde las calles:<note>Muestra un cartel</note> La educación pública en nuestro país no se vende y se defiende.</seg>
                <note>Prolongados aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u74" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u74" ana="#chair">
                <seg>Gracias, señora Montero.</seg>
                <seg>Ahora, en el turno de fijación de posiciones, en primer lugar el Grupo Parlamentario Vasco<note>EAJ-PNV</note> Señor Agirretxea.</seg>
             </u>
@@ -605,7 +603,7 @@
                <seg>Veo que no me queda tiempo y voy a acabar como he empezado. Señor Casado, el tiempo se les agotó, no tienen credibilidad para plantear un modelo educativo en el cual podamos participar todos porque cuando tenían la mayoría absoluta no utilizaban las palabras que usted ha empleado hoy. ¿Por qué no plantearon un pacto educativo teniendo mayoría absoluta al inicio de la legislatura pasada? Porque no lo necesitaban, evidentemente, y dijeron: mientras yo tenga un rodillo lo utilizaré. Ahora que no lo tienen es cuando piden participación. Nosotros no participaremos en ningún modelo que sea invasor de nuestras competencias, que no acepte lo que diga la comunidad educativa y que no respete las capacidades que cada uno tiene para implantar sus propios sistemas educativos, que además funcionan muy bien.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u76" ana="#chair">
                <seg>Gracias, señor Agirretxea.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> , tiene la palabra el señor Postius.</seg>
             </u>
@@ -619,7 +617,7 @@
                <seg>Por consiguiente, y como les decía al principio de mi intervención, esta proposición, a nuestro entender es un puro ejercicio práctico de hipocresía política y de postureo, una propuesta que no nos lleva a ninguna parte. Por lo tanto, no cuenten con nosotros, porque, como dice el refranero, quien a todos da consejo, que lo tome para sí.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u78" ana="#chair">
                <seg>Gracias, señor Postius.</seg>
                <seg>Por el Grupo Parlamentario de Esquerra Republicana, tiene la palabra el señor Olòriz.</seg>
             </u>
@@ -632,7 +630,7 @@
                <seg>Por cierto, para acabar, si ayer hubo 400 muertos en el Mediterráneo, hace un año fueron 800. Cada uno de ellos es una enmienda total a la dignidad de la Unión Europea.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u80" ana="#chair">
                <seg>Gracias, señor Olòriz.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos tiene la palabra la señora Rivera.</seg>
             </u>
@@ -649,7 +647,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u82" ana="#chair">
                <seg>Gracias, señora Rivera.</seg>
                <seg>Por el Grupo Parlamentario Socialista tiene la palabra la señora Martínez Seijo.</seg>
             </u>
@@ -660,7 +658,7 @@
                <seg>Sorprendente y provocadora nos parece su propuesta. Sorprendente porque, después de haber tenido mayoría absoluta en estos últimos cuatro años, después de haber impuesto una ley educativa sin ningún tipo de diálogo con padres y madres -que aquí nos acompañan-, profesores, asociaciones o colectivos educativos, ahora cuando son 123 nos traen una propuesta de pacto. Señor Casado, me temo que su visión de la educación y de los teóricos logros de la Lomce proviene de los mundos de Yupi. Señorías, debo recordarles que si en España no hay un pacto educativo es porque el Partido Popular lo impidió. Debo recordarles que el exministro Gabilondo logró acuerdos importantes. Se hicieron grandes esfuerzos y también grandes renuncias en materia educativa para poder alcanzarlos, pero ustedes no fueron de fiar. En el último momento se echaron atrás defraudando a todo el mundo y es que nunca han querido renunciar a utilizar la educación como arma electoralista; ahora tampoco. Debo recordarles, señorías, que fue el Partido Socialista el que logró la universalización de la educación y debo recordarles que muchas personas estamos hoy aquí con una titulación universitaria gracias a la política de becas que el Partido Socialista logró en España.<note>Aplausos</note> ¿Debemos fiarnos ahora del Partido Popular? ¿Por qué ahora, después de no haber escuchado a nadie ni haber contado con nadie? Lo que el Grupo Parlamentario Popular propone no es un pacto. Lo que ustedes proponen es que este Congreso revalide su modus operandi de la Lomce. Lo que ustedes piden -cito literalmente- es la necesidad de continuar con la línea de trabajo iniciada en la pasada legislatura en materia educativa para constituir un gran pacto. Señorías, este grupo ni aprueba esa línea de trabajo ni acepta esa línea de recortes brutales, de estar de espaldas a los grupos políticos, a la comunidad educativa, a los expertos y a toda la gente que tiene que ver con la educación de este país. Pactar significa acordar algo entre dos o más personas o entidades, obligándose mutuamente a su observancia. Esta definición de la RAE, que complementa la que se ha dado anteriormente de consensuar, al menos implica a dos partes y me temo que con sus antecedentes no se puede hablar de pacto, porque hasta ahora siempre han tomado decisiones de manera unilateral. Nuestra respuesta es un no rotundo a esa forma de política educativa y a esa perversión de la utilización malintencionada del término pacto. Un no claro a la continuidad de una ley que se caracteriza por un ideario mercantilista, segregador en todos los sentidos, que cierra puertas en vez de abrirlas y que excluye al alumnado; una ley que ha vuelto a lo más retrógrado de la España de los setenta con la religión evaluable, con reválidas, con itinerarios tempranos, eliminando la participación y el carácter democrático de los centros educativos, eliminando las funciones de los consejos escolares y creando una dirección de centro exclusivamente administrativa. Un no a una ley improvisada con escasa financiación y llena de interrogantes. Cuando algo no se acuerda, cuando algo no se madura, está destinado al fracaso. Por eso lo que deben hacer es cumplir con el mandato de esta Cámara, cumplir con la paralización de la Lomce, que es lo que hemos acordado mayoritariamente en esta Cámara hace escasamente una semana, porque es el sentir no solo de la mayoría de los grupos parlamentarios sino también de la sociedad española. La urgencia es parar la Lomce, y empezar por la reválida de sexto ya.<pb n="43"/> Señorías, la proposición que presentan quiere volver a sustraer el debate educativo, quiere limitar la voz a la comunidad educativa y política. Lo que ustedes proponen -y se debe saber aquí- no es un pacto social, educativo o político, que es el modelo que defiende el Grupo Socialista, porque para impulsar cambios en educación que afectan a toda la sociedad hay que escuchar, diagnosticar con rigor e incorporar sensibilidades, necesidades y adoptar propuestas y medidas acordadas. El Partido Popular quiere un pacto cerrado exclusivamente en la Conferencia Sectorial de Educación, en la que ni están presentes los grupos políticos, ni la comunidad educativa, a la que, por cierto, ni siquiera convocan. Hasta doce comunidades autónomas se lo han pedido en tres ocasiones -ayer precisamente la última- y no han hecho ni caso. El hecho de no convocar a la conferencia sectorial está provocando que en España tengamos diecisiete sistemas educativos diferentes gracias a su ineptitud, su inacción, su descoordinación y la política general de este Gobierno. ¿Cómo se puede implementar una ley educativa sin hablar con las comunidades autónomas?</seg>
                <seg>Nos sorprende también que en la exposición de motivos traigan a colación haber acordado siete planes educativos conjuntamente en el seno de la conferencia sectorial. Eso sí, tras eliminar la mayoría de los programas de cooperación territorial; entre otros, el tan importante y al que ustedes tanto apelan, como es el de la lucha contra el abandono escolar, y dicen conjuntamente. Me explico: el libro blanco al que usted ha hecho referencia fue presentado de manera unilateral y encargado exclusivamente a una persona, y el plan de convivencia, con el Gobierno en funciones y sin haber convocado al Observatorio estatal de la convivencia en los últimos cuatro años. Nos hablan de un programa de lenguas extranjeras del que nadie sabe nada. Nos plantean un programa de conectividad de centros después de haber eliminado hace cuatro años el programa Escuela 2.0. Nos hablan también de un plan de apoyo, de medidas para la implantación de la formación profesional básica. ¡Pero si la FP básica no necesita un plan de apoyo, lo que necesita es una modificación de arriba abajo! ¿O debo recordarles el desastre de su implementación, la falta de previsión e incluso de encaje con otras enseñanzas?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u84" ana="#chair">
                <seg>Concluya, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u85"
@@ -671,7 +669,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u86" ana="#chair">
                <seg>Gracias, señora Martínez.</seg>
                <seg>Señor Casado, para que quede claro a la hora de votar. ¿Acepta su grupo alguna de las enmiendas presentadas?</seg>
             </u>
@@ -680,12 +678,12 @@
                ana="#regular">
                <seg>Sí, aceptamos la enmienda presentada por el Grupo Foro Asturias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u88" ana="#chair">
                <seg>Muy bien, muchas gracias.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LA REFORMA FISCAL Y LA LUCHA CONTRA EL FRAUDE Y LA EVASIÓN FISCAL.</seg>
                <note>Número de expediente 162/000007</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u89" ana="#chair">
                <seg>Pasamos ahora a la proposición no de ley del Grupo Parlamentario Socialista, sobre la reforma fiscal y la lucha contra el fraude y la evasión fiscal.</seg>
                <seg>Para presentar la iniciativa tiene la palabra el señor Saura.</seg>
             </u>
@@ -805,7 +803,7 @@
                <seg>Es exactamente inaceptable y ustedes, de hecho, lo saben.<note>Rumores</note> Y por ese motivo, porque hay otras cosas que no vamos a compartir de esta transaccional, nuestro grupo parlamentario va a votar a favor, precisamente por la cuestión de la comisión de investigación. Y quiero que conste en el 'Diario de Sesiones' que hay otras cosas que no compartimos<note>Rumores</note> , pero ese motivo es suficiente porque si no, no habría otra forma parlamentaria de canalizar la creación de esta comisión de investigación.<note>El señor presidente ocupa la Presidencia</note> Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u107" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u107" ana="#chair">
                <seg>Gracias, señor Homs.</seg>
                <seg>Por el Grupo Parlamentario de Esquerra Republicana, tiene la palabra el señor Capdevila.</seg>
             </u>
@@ -816,7 +814,7 @@
                <seg>El Grupo Socialista, en perfecto eco de los cantos de sirena del Gobierno Zapatero, de lo que no llevaron a cabo cuando gobernaban, nos habla de una nueva política fiscal más eficiente, de transición hacia un nuevo modelo económico...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u109" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u110"
@@ -827,7 +825,7 @@
                <seg>Muchas gracias. Bona tarda.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u111" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u111" ana="#chair">
                <seg>Mucha gracias, señor Capdevila.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos, tiene la palabra el señor Ten.</seg>
             </u>
@@ -837,7 +835,7 @@
                <seg>Señor presidente, señorías, hace no más de cuatro meses, antes de iniciar esta nueva etapa como diputado por Ciudadanos, ejercía como técnico de Hacienda del Estado en Valencia, en la Agencia Tributaria; una organización a la cual admiro profundamente por su profesionalidad y dedicación, aunque cada año sean menos funcionarios en la lucha contra el fraude, tal como recordaba el señor Saura.<pb n="50"/> Señorías, el pasado 16 de marzo, nuestro Grupo Parlamentario, Ciudadanos, presentó también una proposición no de ley de lucha contra el fraude en la Comisión de Hacienda, que resultó aprobada por la totalidad de los grupos parlamentarios menos, casualmente, el Partido Popular. Y, señorías de la bancada popular, es una auténtica lástima, porque estamos convencidos de que muchísimos de sus votantes estarían de acuerdo con todas esas medidas. Parece que su partido está en contra de recuperar esos 2.800 millones que se han perdido de recaudación por la amnistía fiscal del señor Montoro, que hoy no está aquí, en contra de prohibir esas amnistías fiscales, en contra de incorporar a Panamá en la lista de esos paraísos fiscales. Por cierto, su Gobierno nos debe una explicación de la relación de estos y de por qué una de las últimas actuaciones de su Gobierno era la de iniciar los trámites para sacar el paraíso fiscal de Jersey; no sé, quizá tengan alguna razón, alguna persona que conozcan; quizá habría que hablar con el señor Soria.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u113" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u113" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u114"
@@ -850,7 +848,7 @@
                <seg>Señorías, les pongo un simple ejemplo, muy sencillo. ¿Saben lo que es esto?<note>Muestra un cigarrillo</note> Esto es un cigarrillo. Estoy convencido de que a algunas de sus señorías les apetecería fumarse un cigarrillo en esta Cámara, pero saben perfectamente que no se puede fumar en esta Cámara; saben que además está sancionado. Sin embargo, no veo fumar a nadie de ustedes, incluso ni a escondidas y, desde luego, no es porque les vayan sancionar, sino porque sus propios compañeros les señalarían, sus propios compañeros les dirían que no se fuma aquí porque está muy mal visto. Sucede todo lo contrario de lo que pasa con el fraude, todo lo contrario de lo que pasa con la evasión fiscal y la corrupción. Hay quien no solo lo tolera, sino que además premia las injustas conductas de aquellos que evaden los impuestos con sus amnistías fiscales.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u115" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u115" ana="#chair">
                <seg>Señor Ten, concluya, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u116"
@@ -861,7 +859,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u117" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u117" ana="#chair">
                <seg>Gracias, señor Ten.</seg>
                <seg>Por el Grupo Parlamentario Podemos-En Comú Podem-En Marea tiene la palabra la señora Honorato.</seg>
             </u>
@@ -876,7 +874,7 @@
                <seg>Muchas gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u119" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u119" ana="#chair">
                <seg>Gracias, señora Honorato.</seg>
                <seg>En el turno de fijación de posiciones tiene la palabra por el Grupo Parlamentario Popular el señor Rojas.</seg>
             </u>
@@ -888,7 +886,7 @@
                <seg>Señorías, en cuanto a la iniciativa, rechazamos una propuesta fiscal que supone una subida de impuestos de manera indiscriminada. Además, está llena de pretendidas lecciones de quienes dejaron caer la recaudación tributaria en casi 70.000 millones de euros, es verdad que por la crisis, pero también por malas decisiones políticas y tributarias y, señorías, no queremos volver a las políticas que nos llevaron al récord de paro y a una crisis sin precedentes en nuestro país. Nuestro objetivo es el contrario. Nuestra meta es bajar los impuestos y prestar mejores servicios y para ello les invitamos a que estén con nosotros. Los más de 20 millones de ciudadanos españoles que han visto que se les han bajado los impuestos hasta en dos ocasiones con la reforma fiscal del Partido Popular dan prueba del acierto de estas medidas. Se ha activado el consumo interno y, al activarse el consumo interno, se ha activado el empleo. Tenemos las mejores cifras de crecimiento de empleo de la Unión Europea en los dos últimos años en nuestro país. Tenemos que hacer mucho más, pero desde luego esas medidas han sido buenas. Con esa reactivación del consumo y del empleo se garantiza el Estado del bienestar, se pueden asegurar las pensiones y se paga la sanidad pública, la educación pública y la deuda que dejó el Partido Socialista en hospitales, escuelas, sanidad y educación. Ese es el trabajo que ha hecho este Gobierno.<note>Aplausos</note> Les invitamos a que se apunten a estas políticas que dan resultado. Con la gestión de su Gobierno entre 2007 y 2011 la recaudación de las grandes empresas y grupos bajó de 18.000 a 7.700 millones de euros y eso implica desempleo y paro, pero con la gestión del Partido Popular la recaudación de las grandes empresas y grupos se ha multiplicado por 2,5 y ha aumentado de 7.700 a 18.900 millones. Eso lleva implícito más empleo y, desde luego, eso ha atraído más inversión y ha sido posible luchar con más instrumentos contra la crisis. Eso acaba con ese mantra que ustedes siempre utilizan de que el Partido Popular está con las multinacionales. No, el Partido Popular está con la gente, está con las personas, está con el Estado del bienestar y para sacar a España de la crisis.<note>Aplausos</note> Señorías, en relación con el fraude fiscal, han aflorado más de 50.000 millones de euros en la pasada legislatura, es decir, un 37,5 % más que en la legislatura del Partido Socialista. Estamos ante un récord histórico en nuestra democracia y, por cierto, nuestras medidas han tenido siempre el voto en contra del Partido Socialista. Los cambios regulatorios introducidos por el Gobierno del Partido Popular han funcionado y no pasa nada por reconocerlo. Si ustedes lo reconocen, van a ganar en credibilidad como organización política. Por ejemplo, el modelo 720, un modelo que ha conseguido en su primer año con la declaración de los bienes en el exterior y las acciones la recaudación de 91.000 millones de euros de 136.000 declarantes. Eso es política fiscal adecuada. Esas son soluciones. Ustedes hablan aquí de amnistía fiscal. Las únicas dos amnistías fiscales que ha habido han sido del Partido Socialista en 1984 y 1991, ambas opacas, sin efectos fiscales, salvando el anonimato y en las que el Estado tenía que pagar por ese dinero. Esas han sido las amnistías fiscales que hemos tenido en nuestra democracia. El Partido<pb n="53"/> Popular ha hecho una regularización que ha permitido aflorar más de 100.000 millones de euros. Cuando había caído la recaudación y había que pasar a la acción este Gobierno lo hizo, igual que se hizo en Alemania y en Italia en 2009 y en Portugal en 2010, pero siempre con el voto en contra del Partido Socialista. ¿Por qué no hicieron ustedes algo para buscar más recaudación durante su etapa de gobierno? Por ejemplo, cuando llegó la lista Falciani lo que hicieron fue invitar a los contribuyentes que estaban incluidos en ella a presentar una declaración complementaria espontánea, evitando así mayores sanciones. Señorías, ustedes desviaron el problema y ahora quieren una comisión de investigación sobre Panamá. Pues nosotros les decimos que Hacienda investigará hasta el último papel, como es natural y como tiene que ser, quitándonos el populismo del que ustedes quieren impregnar siempre la vida política y haciendo política real para sacar adelante a nuestro país.</seg>
                <seg>Su propuesta carece de credibilidad. Termino enseguida, señor presidente. Me parece coherente escuchar decir al Gobierno que aquí estamos todos sometidos al imperio de la ley, independientemente de quién se trate. Me parece coherente que se diga por parte del Gobierno que la justicia es independiente y que funciona sin injerencias del Ejecutivo. Aparte de obvias, son cosas coherentes, porque son las que hemos visto con este Gobierno en estos cuatro años. Sin embargo, ustedes nos dicen en esta iniciativa que hay que articular un acuerdo para elaborar una lista negra de países con paraísos fiscales. No sé si se refieren a Panamá, pero es que ustedes excluyeron a Panamá de esa lista. Decía Gardel en Volver que veinte años no es nada. Señorías, con Gobiernos socialistas había empresas públicas, como Focoex, que pagaban en paraísos fiscales como Panamá o las Bahamas. Eso ocurría con el Partido Socialista y nosotros decimos que eso no lo queremos para nuestro país. No queremos esas políticas.<note>Aplausos</note> Cualquier tiempo pasado no fue mejor y ese no fue mejor. Ustedes piden agravar las penas del delito fiscal, pero esto es precisamente lo que se hizo en la pasada legislatura con el Partido Popular, y ustedes votaron en contra de esta reforma del Código Penal. ¿Es eso coherente, señorías? Les recuerdo que en la reforma de 2015 se ha aprobado que no se suspendan las condenas hasta que el penado no haya reintegrado lo defraudado y ustedes no han estado de acuerdo.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u121" ana="#chair">
                <seg>Señor Rojas, concluya, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u122"
@@ -898,7 +896,7 @@
                <seg>Es más, allí donde gobiernan no se está recuperando el dinero de los ERE o de la formación. De los ERE se han recuperado 1,2 millones de 855 millones de euros.<note>Rumores</note> Señorías, atentos al dato, el 0,1 % de lo defraudado, y el resto prescribiendo. Si esas son las políticas de lucha contra el fraude, no las queremos en el Partido Popular, lo decimos alto y claro.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u123" ana="#chair">
                <seg>Concluya ya.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u124"
@@ -909,7 +907,7 @@
                <seg>Muchas gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u125" ana="#chair">
                <seg>Gracias, señor Rojas.</seg>
                <seg>Señor Saura, entiendo que acepta que se pase a votación la enmienda transaccional que se ha firmado con una serie de grupos.</seg>
                <note>Asentimiento</note>
@@ -917,7 +915,7 @@
          </div>
          <div type="debateSection">
             <head>DECLARACIÓN INSTITUCIONAL - DECLARACIÓN INSTITUCIONAL CON OCASIÓN DEL TERREMOTO OCURRIDO EN LA REPÚBLICA DEL ECUADOR EL 16 DE ABRIL DE 2016.</head>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u126" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u126" ana="#chair">
                <seg>Antes de comenzar con las votaciones, se va a proceder a dar lectura a una declaración institucional suscrita por todos los grupos de la Cámara.</seg>
                <seg>La secretaria primera de la Mesa dará lectura de ella ahora mismo.</seg>
                <pb n="54"/>
@@ -933,47 +931,47 @@
                <seg>Congreso de los Diputados, a 19 de abril de 2016.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u128" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u128" ana="#chair">
                <seg>Muchas gracias.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY : - DEL GRUPO PARLAMENTARIO CIUDADANOS, DE MODIFICACIÓN DEL RÉGIMEN DE TASAS JUDICIALES, ESTABLECIDO POR LA LEY 10/2012, DE 20 DE NOVIEMBRE, PARA LA EXENCIÓN DE LAS ENTIDADES SIN FINES LUCRATIVOS QUE HAYAN OPTADO POR EL RÉGIMEN FISCAL ESPECIAL DE LA LEY 49/2002, DE 23 DE DICIEMBRE, DE RÉGIMEN FISCAL ESPECIAL DE LAS ENTIDADES SIN FINES LUCRATIVOS Y DE LOS INCENTIVOS FISCALES AL MECENAZGO, Y LOS SUJETOS PASIVOS QUE TENGAN LA CONSIDERACIÓN DE ENTIDADES DE REDUCIDA DIMENSIÓN DE ACUERDO CON LO PREVISTO EN LA NORMATIVA REGULADORA DEL IMPUESTO SOBRE SOCIEDADES.</head>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u129" ana="#chair">
                <seg>Pasamos ahora a las votaciones.</seg>
                <seg>En primer lugar, votamos la toma en consideración de la proposición de ley del Grupo Parlamentario Ciudadanos, de modificación del régimen de tasas judiciales.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 322; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u130" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u130" ana="#chair">
                <seg>Queda aprobada la toma en consideración de esta proposición de ley.<note>Aplausos</note> - DEL GRUPO PARLAMENTARIO DE ESQUERRA REPUBLICANA, POR LA QUE SE MODIFICA LA LEY ORGÁNICA 5/1985, DE 19 DE JULIO, DEL RÉGIMEN ELECTORAL GENERAL PARA AMPLIAR EL DERECHO DE SUFRAGIO ACTIVO A LOS MAYORES DE 16 AÑOS</seg>
                <note>ORGÁNICA</note>
                <note>Número de expediente 122/000012</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u131" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u131" ana="#chair">
                <seg>A continuación, votamos la toma en consideración de la proposición de ley del Grupo Parlamentario de Esquerra Republicana, por la que se modifica la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General para ampliar el derecho de sufragio activo a los mayores de dieciséis años.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="55"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 174; en contra, 144; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u132" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u132" ana="#chair">
                <seg>Queda aprobada la toma en consideración de esta proposición de ley.</seg>
                <note>Aplausos</note>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY : - DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, RELATIVA A LA CONSECUCIÓN DE UN PACTO NACIONAL EN MATERIA EDUCATIVA.</head>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u133" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u133" ana="#chair">
                <seg>A continuación, procedemos a votar la proposición no de ley del Grupo Parlamentario Popular en el Congreso, relativa a la consecución de un pacto nacional en materia educativa y se vota en los términos resultantes de la incorporación de la enmienda del Grupo Parlamentario Mixto del señor Martínez Oblanca.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 107; en contra, 179; abstenciones, 38.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u134" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u134" ana="#chair">
                <seg>Queda rechazada la proposición no de ley.<note>Aplausos</note> - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LA REFORMA FISCAL Y LA LUCHA CONTRA EL FRAUDE Y LA EVASIÓN FISCAL.</seg>
                <note>Número de expediente 162/000007</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u135" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u135" ana="#chair">
                <seg>A continuación, votamos la proposición no de ley del Grupo Parlamentario Socialista sobre la reforma fiscal y la lucha contra el fraude y la evasión fiscal, y se vota en los términos de la enmienda transaccional presentada por el Grupo Parlamentario Socialista, el Grupo Parlamentario Podemos-En Comú Podem-En Marea, el Grupo Parlamentario Ciudadanos, el Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> , el Grupo Parlamentario Vasco<note>EAJ-PNV</note> y el Grupo Parlamentario Mixto, señor Garzón y señora Oramas.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 208; en contra, 105; abstenciones, 11.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u136" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u136" ana="#chair">
                <seg>Queda aprobada la proposición de ley.<note>Aplausos</note> Pasamos al punto III del orden del día, y habiéndose recibido comunicación del criterio del Gobierno de que la Cámara no puede someter al Gobierno en funciones a iniciativas de control en relación con las preguntas con respuesta oral incluidas en el orden del día de la presente sesión plenaria, la Junta de Portavoces, en su reunión del día de hoy, ha acordado que para el caso de que se produjera la ausencia efectiva, que ahora constatamos, de los miembros del Gobierno para la contestación de las citadas preguntas, estas se entenderían decaídas del orden del día y se abriría un turno de los grupos parlamentarios de tres minutos exactos -no habrá generosidad, en esta ocasión, en el tiempo- para que los grupos parlamentarios fijen su posición al respecto. Conforme a lo acordado, procederemos a sustanciar dicho turno desde el escaño y de menor a mayor, tal y como también hemos acordado esta mañana en la Junta de Portavoces. Iniciamos este turno con el Grupo Parlamentario Mixto. Tiene la palabra el señor Baldoví.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u137"
@@ -984,7 +982,7 @@
                <seg>Moltes gràcies, senyor president.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u138" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u138" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> tiene la palabra el señor Esteban.</seg>
             </u>
@@ -996,7 +994,7 @@
                <seg>Se habla mucho de España, se habla mucho de la Constitución, se habla mucho de las instituciones, pero yo creo que todo esto queda en grandes palabras, y a la hora de actuar los grandes partidos actúan jugando a la pequeña, a lo que les conviene electoralmente o lo que creen ellos que les conviene electoralmente. Claro que podemos presentar proposiciones no de ley y comentarle al Gobierno lo que piensa esta Cámara, porque siguen pasando cosas. Esta es una noticia de esta tarde: La planta de Arcelor Mittal de Zumárraga cesa por completo su actividad. Aquí tengo que decir que la Mesa se ha puesto exquisita y tampoco ha aceptado que podamos preguntar al Gobierno sobre esto cuando unánimemente esta Cámara había requerido al Gobierno para que tuviese en cuenta esta situación, para que actuara en Europa y para que actuara también tomando medidas aquí. Queríamos saber qué es lo que ha hecho durante esta semana, pero es imposible saberlo. ¿Esto está dentro de las funciones del Gobierno? ¿Ya está haciendo algo el Gobierno o no está haciendo nada de nada? Y que esto no se pueda comentar en una sesión de control en el Congreso de los Diputados es culpa del Gobierno, pero también, desgraciadamente, de esta institución. ¿O qué es lo que ocurre con un Gobierno que, aunque está en funciones, recurre una y otra vez, a pasos acelerados, a un ritmo que no se había conocido hasta el momento, todas las leyes del Parlamento vasco? Pues tampoco vamos a poder saberlo. Pero con esta escapada, este ni siquiera venir a votar, desde luego ha quedado reflejada cuál es la actitud política de este Gobierno.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u140" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u140" ana="#chair">
                <seg>Gracias, señor Esteban.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> , tiene la palabra el señor Homs.</seg>
             </u>
@@ -1009,7 +1007,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u142" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u142" ana="#chair">
                <seg>Muchas gracias, señor Homs.</seg>
                <seg>Por el Grupo Parlamentario de Esquerra Republicana, tiene la palabra la señora Jordà.</seg>
             </u>
@@ -1022,7 +1020,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u144" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u144" ana="#chair">
                <seg>Gracias, señora Jordà.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos, tiene la palabra el señor Rivera.</seg>
                <pb n="58"/>
@@ -1035,7 +1033,7 @@
                <seg>Por otro lado, quería hacer referencia a la etapa que vamos a vivir, porque España se va a levantar de esta. Vamos a tener un nuevo Gobierno, no sabemos quién será el presidente ni quiénes formarán parte del Gobierno, no sabemos todavía cuál será la mayoría pero habrá un Gobierno de España. Habrá un nuevo Gobierno de España con gente que respete a los españoles, habrá un nuevo presidente de España -sea quien sea- que dé la cara ante los españoles. Habrá una nueva etapa política en la que el diálogo y la discrepancia legítima en esta Cámara con los que no pensamos igual sea fruto de la normalidad. Por tanto, estoy convencido de que este es el final de una etapa que más pronto que tarde se acabara. Si ustedes siguen bloqueando la legislatura tendremos que repetir las elecciones; si ustedes permiten que la legislatura avance aunque no esté su Gobierno, podremos poner en marcha todas estas reformas.<note>Rumores</note> Para acabar, también quiero referirme, lógicamente, a esa etapa. Estoy convencido de que es imposible que España avance si no tenemos un Gobierno que dé la cara ante los españoles. Señoras y señores diputados del Partido Popular, no es una elección a disposición del Partido Popular dar la cara ante el Congreso, es una obligación constitucional. Aquí hoy los diputados que estamos cumpliendo, ustedes también, tienen que aguantar, estoy convencido, cosas que no les gustan.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u146" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u146" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u147"
@@ -1044,7 +1042,7 @@
                <seg>Ya voy acabando, que no está el presidente Rajoy pero otros sí que hemos venido. Estoy convencido de que a ustedes no les gusta aguantar esto, el papelón que tienen que aguantar ustedes sin su Gobierno aquí. Se tienen que ganar un puesto en la lista, pero es incómodo no dar la cara. Por tanto, les pido...<note>Rumores</note> No se pongan nerviosos, que ya acabo.</seg>
                <note>Un señor diputado: Ya queda poquito</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u148" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u148" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u149"
@@ -1054,7 +1052,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u150" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u150" ana="#chair">
                <seg>Muchas gracias, señor Rivera.</seg>
                <seg>Por el Grupo Parlamentario Podemos-En Comú Podem-En Marea, tiene la palabra el señor Iglesias, en este caso por dos minutos y medio. El reloj no marcará ese tiempo seguramente porque no puede, pero serán dos minutos y medio.<note>Rumores</note> Silencio, por favor.</seg>
             </u>
@@ -1066,7 +1064,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u152" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u152" ana="#chair">
                <seg>Muchas gracias, señor Iglesias.</seg>
                <seg>Tiene la palabra la señora Martín.</seg>
             </u>
@@ -1077,7 +1075,7 @@
                <seg>Voy a ser muy clara. Hay que tener muy poca vergüenza para negarse a rendir cuentas ante esta Cámara con el argumento de que el Gobierno está en funciones cuando este mismo Gobierno está estudiando poner un recurso al Tribunal Constitucional para suspender la Ley 24/2015, contra la emergencia habitacional y la pobreza energética, una ley surgida de una ILP y aprobada por mayoría en el Parlament de Catalunya. Este Gobierno, que no está aquí, se dedica a estudiar cómo suspender leyes que resuelven el problema de los desahucios y los cortes de suministros, y encima sin querer dar explicaciones. Nos queda muy claro para quien gobiernan, incluso estando en funciones.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u154" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u154" ana="#chair">
                <seg>Muchas gracias.</seg>
                <seg>Por el Grupo Parlamentario Socialista tiene la palabra el señor Hernando.</seg>
             </u>
@@ -1089,7 +1087,7 @@
                <seg>El presidente del Gobierno y sus ministros defienden que no tienen que venir a dar explicaciones por los papeles de Panamá cuando los papeles de Panamá se han llevado por delante al ministro de Industria, no sabemos si por mentir masivamente o por tener sociedades en paraísos fiscales. El presidente del Gobierno y sus ministros defienden que no tienen que venir a dar la cara por la desviación del déficit y prefieren mandar al ministro Montoro a amenazar a las comunidades autónomas y más recortes sociales y más recortes de derechos. Defienden que no tienen que venir a dar explicaciones por acoger a dieciocho refugiados, ¡un escándalo humanitario frente a los cientos de miles que hay! ¿Qué tiene que pasar en este país para que el señor Rajoy venga aquí a dar la cara y a dar explicaciones? La imagen vacía del banco azul es triste, pero es coherente con la de un presidente del Gobierno que se ha pasado la vida huyendo. Últimamente ha huido dos veces de la candidatura a la investidura y hoy ha huido de sus fantasmas, de los fantasmas del presente y de los fantasmas del pasado, de los fantasmas que se llaman Soria, que se llaman Barberá, que se llaman González, que se llaman Rato e incluso Fabra que, por cierto, ha pasado al tercer grado. La ausencia hoy del presidente del Gobierno es un epitafio político a la carrera de una persona que se ha pasado la vida sin querer dar la cara en las instituciones y en el Congreso de los Diputados. Que ha mandado a sus subordinados a los debates electorales. Que ha comparecido a través del plasma. Un presidente del Gobierno que se ha ido del Congreso de los Diputados por la puerta de atrás ¡y del Senado por el garaje!<note>Rumores.-Varios señores diputados pronuncian palabras que no se perciben</note> Señorías, se nos va a decir por parte del Grupo Parlamentario Popular que ninguno de nosotros tiene razón, que somos injustos, que somos incoherentes y que nuestras reivindicaciones no son legítimas, pero yo les digo: este va a ser el último Gobierno en funciones de la historia de la democracia española que no venga a dar la cara a este Congreso de los Diputados. Esto no se va a volver a repetir.<note>Rumores</note> Elijamos entre todos un Gobierno y un presidente que respeten las instituciones, que respeten la<pb n="60"/> democracia; un presidente y un Gobierno que sean decentes y que vengan aquí a dar la cara y no a huir, como ha hecho el señor Rajoy.<note>Protestas</note> Muchas gracias.</seg>
                <note>Prolongados aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u156" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u156" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra el señor Bermúdez de Castro.</seg>
             </u>
@@ -1101,7 +1099,7 @@
                <seg>Y por último, señor presidente, un poco de coherencia. Nosotros vamos a mantener esta tarde, a diferencia de ustedes, la misma posición que hemos mantenido en otros Parlamentos y en otras legislaturas. ¿Sabe usted por qué? Mire usted a esa bancada: un partido cohesionado y no cuestionado.</seg>
                <note>Prolongados aplausos de las señoras y los señores diputados del Grupo Parlamentario Popular en el Congreso, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u158" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-19-CD160419.u158" ana="#chair">
                <seg>Muchas gracias.</seg>
                <seg>Se suspende la sesión hasta mañana a las nueve.</seg>
                <seg>Eran las nueve y veinte minutos de la noche.</seg>

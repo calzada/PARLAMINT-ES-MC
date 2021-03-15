@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="81">81 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="81" xml:lang="es">81 speeches</measure>
+            <measure unit="speeches" quantity="81" xml:lang="en">81 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="6"/>
                <tagUsage gi="u" occurs="81"/>
                <tagUsage gi="note" occurs="61"/>
-               <tagUsage gi="lb" occurs="271"/>
+               <tagUsage gi="seg" occurs="271"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>DICTÁMENES DE LA COMISIÓN DE ASUNTOS EXTERIORES SOBRE CONVENIOS INTERNACIONALES - ACUERDO ENTRE EL REINO DE ESPAÑA Y LA REPÚBLICA DE ESLOVENIA PARA EL INTERCAMBIO Y PROTECCIÓN RECÍPROCA DE INFORMACIÓN CLASIFICADA, HECHO EN MADRID EL 21 DE OCTUBRE DE 2014. - ACUERDO DE ASOCIACIÓN ENTRE LA UNIÓN EUROPEA Y LA COMUNIDAD EUROPEA DE LA ENERGÍA ATÓMICA Y SUS ESTADOS MIEMBROS, POR UNA PARTE, Y UCRANIA, POR OTRA, HECHO EN BRUSELAS EL 21 DE MARZO Y EL 27 DE JUNIO DE 2014. - ACUERDO ENTRE EL GOBIERNO DEL REINO DE ESPAÑA Y EL GOBIERNO DE AUSTRALIA RELATIVO AL PROGRAMA DE MOVILIDAD PARA JÓVENES, HECHO EN CANBERRA EL 3 DE SEPTIEMBRE DE 2014. - PROTOCOLO DE 2002 AL CONVENIO DE ATENAS RELATIVO AL TRANSPORTE DE PASAJEROS Y SUS EQUIPAJES POR MAR, 1974, HECHO EN LONDRES EL 1 DE NOVIEMBRE DE 2002, JUNTO CON UNA RESERVA Y UNA DECLARACIÓN QUE ESPAÑA DESEA FORMULAR. - DENUNCIA DEL CONVENIO RELATIVO AL TRANSPORTE DE PASAJEROS Y SUS EQUIPAJES POR MAR, HECHO EN ATENAS EL 13 DE DICIEMBRE DE 1974. - DENUNCIA DEL PROTOCOLO CORRESPONDIENTE AL CONVENIO DE ATENAS DE 1974 RELATIVO AL TRANSPORTE DE PASAJEROS Y SUS EQUIPAJES POR MAR, HECHO EN LONDRES EL 19 DE NOVIEMBRE DE 1976. <pb n="5"/> - REVOCACIÓN DE LA ADHESIÓN DE ESPAÑA AL PROTOCOLO DE 1990 QUE ENMIENDA EL CONVENIO DE ATENAS RELATIVO AL TRANSPORTE DE PASAJEROS Y SUS EQUIPAJES POR MAR, 1974, HECHO EN LONDRES EL 29 DE MARZO DE 1990.</head>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Dado que hay que debatir la proposición de ley orgánica por la que se modifica la Ley Orgánica 10/1995, de 23 de noviembre, anuncio que no se votará antes de las once, aunque probablemente será un poco después.</seg>
                <seg>El primer punto que vamos a debatir son los dictámenes de la Comisión de Asuntos Exteriores sobre convenios internacionales con números de expediente 110/000141 a 110/000147. Algunos grupos han pedido intervenir, como saben, por cinco minutos. En primer lugar, por el Grupo de La Izquierda Plural, tiene la palabra el señor Nuet.</seg>
@@ -116,7 +114,7 @@
                <note>Aplausos</note>
                <pb n="6"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u3" ana="#chair">
                <seg>Muchas gracias, señor Nuet.</seg>
                <seg>Antes de dar la palabra al señor Xuclà, quiero anunciarles a sus señorías que nos acompaña en la tribuna el embajador de Ucrania, a quien saludamos desde aquí.<note>Aplausos</note> Tiene la palabra el señor Xuclà, por el Grupo Catalán de Convergència i Unió.</seg>
             </u>
@@ -131,7 +129,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <pb n="7"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u5" ana="#chair">
                <seg>Muchas gracias, señor Xuclà.</seg>
                <seg>Por el Grupo Parlamentario Socialista, tiene la palabra el señor Sáez Jubero.</seg>
             </u>
@@ -148,7 +146,7 @@
                <seg>Muchas gracias, señorías. Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u7" ana="#chair">
                <seg>Gracias, señor Sáez Jubero.</seg>
                <seg>Por el Grupo Popular, tiene la palabra la señora Miguélez.</seg>
             </u>
@@ -162,13 +160,13 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u9" ana="#chair">
                <seg>Muchas gracias, señora Miguélez.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DE INICIATIVAS LEGISLATIVAS - PROPOSICIÓN DE LEY ORGÁNICA POR LA QUE SE MODIFICA LA LEY ORGÁNICA 10/1995, DE 23 DE NOVIEMBRE, DEL CÓDIGO PENAL, EN MATERIA DE DELITOS DE TERRORISMO.</head>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u10" ana="#chair">
                <seg>Vamos ahora con la tramitación directa y en lectura única de la proposición de ley orgánica por la que se modifica la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, en materia de delitos de terrorismo. Se han presentado sesenta y cuatro enmiendas al articulado. La Junta de Portavoces, a propuesta mía, acordó que para la defensa de las enmiendas de cada uno y para posicionarse con respecto a los demás grupos habría unas intervenciones de menor a mayor de quince minutos. Comenzamos por el Grupo Parlamentario Mixto, del cual, anuncio, van a intervenir todos los portavoces de las agrupaciones que lo forman. En primer lugar tiene la palabra la señora Barkos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u11"
@@ -178,7 +176,7 @@
                <seg>Señorías, lo cierto es que una semana después seguimos donde estábamos. Yo creo que todas las formaciones, más allá de la presentación de enmiendas a un proyecto que no compartimos algunos ni en su tramitación, como digo, seguimos donde estábamos; desde Geroa Bai, contrarios, y queda bien claro, a hacer del necesario debate de la seguridad -insistía la semana pasada en este asunto; lo mantenemos hoy y lo queremos subrayar- exactamente eso, el debate sobre la necesidad de acometer medidas ante una amenaza cierta, que, por cierto, no nueva. Uno no acierta a comprender muy bien por qué esta premura, esta precipitación, esta necesidad, más allá de desgraciados momentos vividos recientemente pero que en nada hacen olvidar otros todavía más dramáticos que se producían hace ya unos cuantos años y a escasos metros de aquí. Por tanto, amenaza cierta, que no nueva. También seguimos desde Geroa Bai rechazando que ese debate sea utilizado como coartada para un recorte de libertades civiles, que es ante lo que nos encontramos en este momento. No ha cambiado, por tanto, nada en una semana, si acaso la perplejidad que nos sigue provocando el hecho de que se haya impuesto el procedimiento de urgencia por mayoría parlamentaria, pero sobre todo perplejidad ante el fondo y la forma; se retuerce el procedimiento y también el lenguaje. Hoy, entre otras cosas, se da el visto bueno -por cierto, con los votos socialistas; esto nos sigue sorprendiendo, ya no estamos en la toma en consideración- a la llamada prisión permanente revisable. En definitiva, un subterfugio, una expresión trampa que esconde, y solo esconde, la realidad de la cadena perpetua. En este punto me quiero preguntar -más allá del debate de las ideas, vamos al de la praxis-: ¿alguien pretende de verdad que la amenaza de cadena perpetua puede prevenir al terrorista suicida? ¿Alguien pretende de verdad que el conjunto de la sociedad crea que medidas de estas características tienen algún tipo de efectividad cierta, real, sobre una amenaza cierta, sobre asunto de esta especial sensibilidad? Francamente, señorías, creo que hoy se está dando un mal ejemplo de parlamentarismo y actividad legislativa.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u12" ana="#chair">
                <seg>Muchas gracias, señora Barkos.</seg>
                <seg>Ahora tiene la palabra el señor Salvador.</seg>
             </u>
@@ -190,7 +188,7 @@
                <seg>Quiero terminar, señor presidente, agradeciendo a los impulsores y firmantes de este pacto haber incluido una medida preventiva, una medida si quieren pedagógica, para defender a nuestra juventud de los intentos de captación, de los intentos de adoctrinamiento en el odio, de radicalización que pudieran llevar a cabo o pudieran intentar condenados por graves delitos de terrorismo al regular e incluir en el nuevo Código Penal una inhabilitación especial para que estos terroristas condenados por graves delitos no puedan ser profesores, no puedan educar, no puedan entrar en contacto con nuestros jóvenes. Una inhabilitación, por cierto, señorías, que se ha aceptado por su gravedad para otro tipo de delitos igualmente execrables y para otro tipo de delincuentes como son xenófobos y pederastas, como así consta en la nueva reforma que estamos tramitando en paralelo del Código Penal. Esperamos que este pacto y estos cambios en el Código Penal sean útiles y sirvan para el único objetivo, que es proporcionarnos más seguridad. Señorías, los terroristas están crecidos, están organizados y están determinados a acabar con nosotros y con nuestro sistema de convivencia, esa es una realidad que debemos de empezar a comprender, entender y analizar. Creemos que hacemos lo correcto y que cumplimos con nuestro deber político de garantizar la seguridad de nuestros compatriotas, si adaptamos, como en este caso, la respuesta penal a la extrema violencia, a la extrema gravedad y al alcance de las amenazas y de los ataques. Ojalá, señorías, consigamos, con el compromiso de todos, que así sea.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u14" ana="#chair">
                <seg>Muchas gracias, señor Salvador.</seg>
                <seg>Señor Álvarez Sostres.</seg>
                <seg>El señor ÁLVAREZ SOSTRES: Gracias, señor presidente.</seg>
@@ -339,7 +337,7 @@
                <seg>Gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u35" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u35" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Para presentar sus enmiendas y defender su posición, tiene la palabra, por La Izquierda Plural, el señor Coscubiela.</seg>
             </u>
@@ -362,7 +360,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u37" ana="#chair">
                <seg>Gracias, señor Coscubiela.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió, tiene la palabra el señor Jané.</seg>
             </u>
@@ -381,7 +379,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u39" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u39" ana="#chair">
                <seg>Muchas gracias, señor Jané.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra don Antonio Hernando.</seg>
             </u>
@@ -394,7 +392,7 @@
                <seg>Después del 11-M fuimos capaces, señorías, de llegar a acuerdos. La Comisión del 11-M fue muy convulsa. Algunos de los que aquí han intervenido hoy participamos en ella.<note>Rumores</note> Fíjense, nunca nos llegamos a poner de acuerdo en las conclusiones -qué pasó, cómo pasó-, pero hubo una cosa en la que nos pusimos de acuerdo en la Comisión de investigación sobre el 11-Ministro, en las recomendaciones. Estuvimos de acuerdo; he repasado los «Diarios de Sesiones» de aquella época: 330 votos a favor, de 330 votos emitidos. Estuvimos de acuerdo en lo que había que hacer, porque había pasado lo que había pasado, y hoy deberíamos estar de acuerdo en lo que hay que hacer, porque también están sucediendo cosas muy graves en Dinamarca, en Francia y en otros países. Después de aquellas recomendaciones se modificó -sí, señor- el Código Penal y se hicieron otras muchas cosas: se crearon organizaciones de coordinación, se proporcionaron medios. No partimos de cero, señor Jané; efectivamente<pb n="26"/> no partimos de cero. En estos once años se han hecho cosas, muchas por cierto; se han hecho bien. Ni entonces ni ahora se está legislando en caliente. Entonces se legisló porque era necesario hacerlo, y ahora también lo es, para perfeccionar las cosas. Se trata de seguir ese camino, porque siempre deberíamos ir por delante de los terroristas, pero no eso no siempre resulta fácil. Por eso, al menos, lo que tenemos que hacer es reaccionar lo antes posible, modificar las leyes lo antes posible, máxime cuando nos lo están pidiendo, como está sucediendo, el Consejo de Seguridad de Naciones Unidas desde el mes de septiembre. El terrorismo yihadista no tiene la misma adscripción, no tiene la misma ideología, no tiene la misma formación que los terrorismos que hasta ahora hemos conocido. Hemos asistido en los últimos años a importantes operaciones. Alguien ha dicho aquí que esto ya sirve. No, no sirve, señorías. En los últimos años hemos asistido a importantes&#x85;</seg>
                <note>Continúan los rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u41" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u41" ana="#chair">
                <seg>Perdóneme, señor Hernando.</seg>
                <seg>Ruego silencio, y no hagan corros en los pasillos. El que no quiera escuchar que se vaya al bar.</seg>
                <seg>Señor Hernando.</seg>
@@ -414,7 +412,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Socialista, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u43" ana="#chair">
                <seg>Muchas gracias, señor Hernando.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra don Rafael Hernando.</seg>
             </u>
@@ -439,7 +437,7 @@
                <seg>Me van a permitir que para acabar haga un especial reconocimiento a todos aquellos que de forma intensa han estado trabajando en la formulación de este acuerdo, desde los ministros de Interior y Justicia, pasando por el secretario de Estado, por la subsecretaria de Justicia, y también a las personas que desde los distintos grupos han hecho aportaciones a esta proposición de ley y a este Pacto antiterrorista: a la señora Aguilar, al señor Serrano, al señor Trevín y también, por supuesto, al señor Castillo y al señor Escobar, de mi grupo. Muchas gracias a todos ellos y muchas gracias a todos ustedes.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Popular, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u45" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u45" ana="#chair">
                <seg>Muchas gracias, señor Hernando.</seg>
                <seg>En dos minutos vamos a votar.</seg>
                <note>Pausa</note>
@@ -447,184 +445,184 @@
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LA NUEVA REGULACIÓN DE LA ORDENACIÓN DE LAS ENSEÑANZAS UNIVERSITARIAS OFICIALES.</head>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u46" ana="#chair">
                <seg>Vamos a comenzar las votaciones.</seg>
                <seg>En primer lugar, moción del Grupo Parlamentario Socialista sobre la nueva regulación de la ordenación de las enseñanzas universitarias oficiales. Se ha incorporado una enmienda presentada por el señor Álvarez Sostres.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 127; en contra, 172; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u47" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u47" ana="#chair">
                <seg>Queda rechazada.<pb n="32"/> - DEL GRUPO PARLAMENTARIO CATALÁN<note>CONVERGÈNCIA I UNIÓ</note> , SOBRE LA NECESIDAD DE QUE LA POLÍTICA CULTURAL DEL ESTADO CONTEMPLE LA INMEDIATA REDUCCIÓN DEL IVA A LOS PRODUCTOS Y ACTIVIDADES CULTURALES Y DEPORTIVOS.</seg>
                <note>Número de expediente 173/000196</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u48" ana="#chair">
                <seg>Moción del Grupo Parlamentario Catalán<note>Convergència i Unió</note> sobre la necesidad de que la política cultural del Estado contemple la inmediata reducción del IVA a los productos y actividades culturales y deportivos. Se va a votar en sus propios términos, pero son dos puntos y los vamos a votar por separado. Por lo tanto, votación del punto 1.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 148; en contra, 171.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u49" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u49" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 2.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 141; en contra, 173; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u50" ana="#chair">
                <seg>Queda rechazado.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DICTÁMENES DE LA COMISIÓN DE ASUNTOS EXTERIORES SOBRE CONVENIOS INTERNACIONALES : - ACUERDO DE ASOCIACIÓN ENTRE LA UNIÓN EUROPEA Y LA COMUNIDAD EUROPEA DE LA ENERGÍA ATÓMICA Y SUS ESTADOS MIEMBROS, POR UNA PARTE, Y UCRANIA, POR OTRA, HECHO EN BRUSELAS EL 21 DE MARZO Y EL 27 DE JUNIO DE 2014.</head>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u51" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u51" ana="#chair">
                <seg>Vamos a votar ahora los dictámenes de la Comisión de Asuntos Exteriores sobre convenios internacionales. Señalo a los portavoces que votaremos primero el Acuerdo de asociación entre la Unión Europea y la Comunidad Europea de la Energía Atómica y sus Estados miembros, por un parte, y Ucrania, por otra, hecho en Bruselas el 21 de marzo y el 27 de junio de 2014.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 309; a favor, 296; en contra, 1; abstenciones, 12.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u52" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u52" ana="#chair">
                <seg>Queda aprobado el convenio.</seg>
                <seg>- ACUERDO ENTRE EL REINO DE ESPAÑA Y LA REPÚBLICA DE ESLOVENIA PARA EL INTERCAMBIO Y PROTECCIÓN RECÍPROCA DE INFORMACIÓN CLASIFICADA, HECHO EN MADRID EL 21 DE OCTUBRE DE 2014.<note>Número de expediente 110/000141</note> - ACUERDO ENTRE EL GOBIERNO DEL REINO DE ESPAÑA Y EL GOBIERNO DE AUSTRALIA RELATIVO AL PROGRAMA DE MOVILIDAD PARA JÓVENES, HECHO EN CANBERRA EL 3 DE SEPTIEMBRE DE 2014.<note>Número de expediente 110/000143</note> - PROTOCOLO DE 2002 AL CONVENIO DE ATENAS RELATIVO AL TRANSPORTE DE PASAJEROS Y SUS EQUIPAJES POR MAR, 1974, HECHO EN LONDRES EL 1 DE NOVIEMBRE DE 2002, JUNTO CON UNA RESERVA Y UNA DECLARACIÓN QUE ESPAÑA DESEA FORMULAR.<note>Número de expediente 110/000144</note> - DENUNCIA DEL CONVENIO RELATIVO AL TRANSPORTE DE PASAJEROS Y SUS EQUIPAJES POR MAR, HECHO EN ATENAS EL 13 DE DICIEMBRE DE 1974.<note>Número de expediente 110/000145</note> - DENUNCIA DEL PROTOCOLO CORRESPONDIENTE AL CONVENIO DE ATENAS DE 1974 RELATIVO AL TRANSPORTE DE PASAJEROS Y SUS EQUIPAJES POR MAR, HECHO EN LONDRES EL 19 DE NOVIEMBRE DE 1976.<note>Número de expediente 110/000146</note>
                   <pb n="33"/> - REVOCACIÓN DE LA ADHESIÓN DE ESPAÑA AL PROTOCOLO DE 1990 QUE ENMIENDA EL CONVENIO DE ATENAS RELATIVO AL TRANSPORTE DE PASAJEROS Y SUS EQUIPAJES POR MAR, 1974, HECHO EN LONDRES EL 29 DE MARZO DE 1990.</seg>
                <note>Número de expediente 110/000147</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u53" ana="#chair">
                <seg>Ahora vamos a votar de manera conjunta los seis convenios que se han sometido a deliberación.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 310.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u54" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u54" ana="#chair">
                <seg>Quedan aprobados por unanimidad.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DE INICIATIVAS LEGISLATIVAS : - PROPOSICIÓN DE LEY ORGÁNICA POR LA QUE SE MODIFICA LA LEY ORGÁNICA 10/1995, DE 23 DE NOVIEMBRE, DEL CÓDIGO PENAL, EN MATERIA DE DELITOS DE TERRORISMO.</head>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u55" ana="#chair">
                <seg>Proposición de ley orgánica por la que se modifica la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, en materia de delitos de terrorismo. Vamos a votar las enmiendas de todos los grupos. Voy a limitarme a decir aprobada o rechazada, pero si algún grupo considera que conviene que se dé algún resultado, lo haría, aunque insisto en que los resultados vienen recogidos en el «Diario de Sesiones», naturalmente.</seg>
                <seg>Enmienda del señor Álvarez Sostres, del Grupo Mixto.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 7; en contra, 280; abstenciones, 23.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u56" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u56" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas de la señora Fernández Davila, del Grupo Mixto. En primer lugar, enmienda 31.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 309; a favor, 24; en contra, 268; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u57" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 32.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 39; en contra, 270; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u58" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u58" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 36.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 27; en contra, 272; abstenciones, 19.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u59" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas de la señora Fernández Davila.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 33; en contra, 271; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u60" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u60" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Dentro del Grupo Mixto, enmiendas del señor Tardá. En primer lugar, enmienda 57.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 40; en contra, 274; abstenciones, 3.</seg>
                <pb n="34"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u61" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas del señor Tardà.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 41; en contra, 274; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u62" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u62" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Vasco, PNV. En primer lugar, enmiendas 19, 20, 22, 24 y 28, que se votan conjuntamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 41; en contra, 270; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u63" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas del PNV.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 27; en contra, 270; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u64" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas de Unión Progreso y Democracia. En primer lugar, la enmienda 37.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 23; en contra, 285; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u65" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u65" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 38.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 11; en contra, 284; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u66" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas de UPyD.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 5; en contra, 280; abstenciones, 26.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u67" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u67" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas de La Izquierda Plural. En primer lugar, enmiendas 5, 6, 8 y 10, que se votan conjuntamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317, a favor, 40; en contra, 273; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u68" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 11, 12 y 14.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 40; en contra, 269; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u69" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas de La Izquierda Plural.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312; a favor, 25; en contra, 268; abstenciones, 19.</seg>
                <pb n="35"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u70" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Catalán de Convergència i Unió. En primer lugar, la enmienda 43.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 17; en contra, 183; abstenciones 110.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u71" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 44, 48 y 49, conjuntamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 14; en contra, 272; abstenciones, 25.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u72" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 45.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 289; en contra, 14; abstenciones, 8.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u73" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda 46.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 41; en contra, 267; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u74" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u74" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 47, 51, 52, 53 y 54, conjuntamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 32; en contra, 278; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u75" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 50.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 309; a favor, 14; en contra, 278; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u76" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas de los grupos parlamentarios Popular en el Congreso, Socialista, y del señor Salvador y la señora Oramas. En primer lugar, enmiendas 60 y 62.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 287; en contra, 23.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u77" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas 61 y 63, conjuntamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 276; en contra, 33; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u78" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmienda 64.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 288; en contra, 10; abstenciones, 12.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u79" ana="#chair">
                <seg>Queda aprobada.</seg>
                <pb n="36"/>
             </u>
          </div>
          <div type="debateSection">
             <head>VOTACIÓN DE CONJUNTO</head>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u80" ana="#chair">
                <seg>Texto de la proposición de ley orgánica. Votación de conjunto de la proposición de esta ley orgánica. Se han emitido cuatro votos telemáticos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319 más 4 votos telemáticos, 323; a favor, 273 más 4 votos telemáticos, 277; en contra, 27; abstenciones, 19.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-19-CD150219.u81" ana="#chair">
                <seg>En consecuencia, queda aprobada la proposición de ley orgánica por la que se modifica la Ley orgánica 10/1995, de 23 de noviembre, del Código Penal, en materia de delitos de terrorismo, que se remitirá al Senado.<note>Aplausos</note> Se levanta la sesión.</seg>
                <seg>Eran las doce y diez minutos del mediodía.</seg>
             </u>

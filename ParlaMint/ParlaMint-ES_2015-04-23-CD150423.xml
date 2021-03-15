@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="101">101 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="101" xml:lang="es">101 speeches</measure>
+            <measure unit="speeches" quantity="101" xml:lang="en">101 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="9"/>
                <tagUsage gi="u" occurs="101"/>
                <tagUsage gi="note" occurs="58"/>
-               <tagUsage gi="lb" occurs="324"/>
+               <tagUsage gi="seg" occurs="324"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,22 +92,18 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Como hay votaciones de ley orgánica, indico como hora antes de la cual no habrá votaciones las once y media; es decir, antes de las once y media no habrá votaciones. Espero que nos acerquemos a esa hora, pero siempre votaríamos después de la misma.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES - REAL DECRETO-LEY 4/2015, DE 22 DE MARZO, PARA LA REFORMA URGENTE DEL SISTEMA DE FORMACIÓN PROFESIONAL PARA EL EMPLEO EN EL ÁMBITO LABORAL.</head>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u2" ana="#chair">
                <seg>Convalidación o derogación del Real Decreto-ley 4/2015, de 22 de marzo, para la reforma urgente del sistema de formación profesional para el empleo en el ámbito laboral. Para presentar este real decreto, tiene la palabra la ministra de Empleo y Seguridad Social.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u3"
@@ -130,7 +128,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u4" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
                <seg>Comienza la intervención de los grupos en fijación de posiciones. En primer lugar, por el Grupo Mixto tiene la palabra el señor Baldoví.</seg>
             </u>
@@ -141,7 +139,7 @@
                <seg>Señora ministra, las aportaciones constructivas en esta Cámara tienen un vuelo muy corto, porque su mayoría absoluta se encarga de que no vuelen muy alto. Nueva imposición normativa y nuevo real decreto; un decreto que carece de consenso sindical, por lo que, además de a este Parlamento, se le da la espalda a la parte social, a los sindicatos, que son parte fundamental en la formación profesional para el empleo, muy en la línea de este Gobierno que, una vez tras otra, se demuestra incapaz de consensuar y confunde interesadamente consulta con negociación. Informar a los sindicatos de lo que van a hacer y negociar son cosas absolutamente distintas. Dar la espalda a la representación de los trabajadores tiene consecuencias en la calidad de la normativa que se propone. Tanto las organizaciones empresariales como las sindicales son las que conocen las necesidades de los sectores, los problemas de competitividad de las empresas y la concreta necesidad de adquisición o actualización de conocimientos de los trabajadores. De hecho, así lo reconoce la propia exposición de motivos en un alarde más de cinismo. Entonces, ¿por qué darles la espalda? ¿Por qué negarles en este real decreto el papel que sí tienen en otros países de nuestro entorno? Ustedes otorgan a los verdaderos protagonistas del sistema productivo -organizaciones empresariales y sindicales- un papel meramente consultivo. Los centros de formación públicos, universidades, centro de formación profesional y de educación de personas adultas, siguen siendo relegados a un papel subsidiario, muy por detrás de los centros y entidades privadas de formación, que acaparan el mercado de la formación para el empleo. En esa misma línea, potencian la formación bonificada, la organizada por las empresas directamente, que ya es la que mayor presupuesto recibe, el 63 % del total para formación para ocupados, con casi 600 millones de euros. Quieren potenciar aún más el modelo privado, donde el lucro del empresario sea el leitmotiv del curso y no tanto la verdadera formación de parados o trabajadores. De otra parte, este real decreto mantiene el cheque formación para los trabajadores desempleados, a pesar de los problemas que ha ocasionado y su mal resultado en otros países. Consideran como acción formativa una hora, cuando antes la referencia eran seis horas. Como consecuencia de este real decreto, está en riesgo este año toda la formación de empleados públicos. Tampoco han cumplido con su compromiso público y con la petición del Tribunal de Cuentas en cuanto a que los fondos de formación se deberían reanualizar dado que son finalistas y solo deberían dedicarse a formación y no a otros fines que nada tienen que ver con la formación. En definitiva, este decreto tiene nuevamente las alas cortas porque no soluciona el problema, porque nace sin el consenso necesario y porque no va a tenerlo.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u6" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Señora Fernández Davila.</seg>
             </u>
@@ -153,7 +151,7 @@
                <seg>Hoy viene con un real decreto -de nuevo por urgencia, aunque no le vemos la urgencia- que, además, no cuenta con el acuerdo de los agentes sociales. No es de extrañar, señora ministra, que no se hayan alcanzado acuerdos porque una cosa es actuar sobre el fraude o contra el fraude -que, efectivamente, lo hay-, controlando y vigilando los distintos gastos y la gestión que se hace de los cursos, y otra muy distinta es la libre concurrencia, desposeyendo a los agentes sociales del papel de actores principales en una actividad formativa de trabajadores y trabajadoras, sean estos parados o activos. Señora ministra, usted sabe que, de acuerdo con lo dispuesto en el artículo 83.3 del Estatuto de los Trabajadores, el Estado tiene la obligación de negociar con sindicatos y patronal los asuntos de ámbito laboral como el que nos ocupa. Por cierto, señora ministra, también con sindicatos representativos como la CIG, que no son de ámbito estatal, pero que han participado en los acuerdos estatales en formación continúa y que este Gobierno ha excluido de las negociaciones en todo momento. Ha hablado usted de mejor coordinación con las comunidades autónomas. Señora ministra, desde el artículo 1 hasta la disposición transitoria segunda este real decreto invade competencias exclusivas en materia de ejecución de formación, profundizando así en la recentralización que, por cierto, ya inició el Gobierno anterior. No olvide, señora Báñez, que, si bien el Tribunal Constitucional ha establecido en relación con este asunto que la capacidad normativa le corresponde al Estado, la ejecutiva es de las comunidades autónomas, y este real decreto parece más que una norma, un reglamento, que sería el que tendrían que desarrollar las comunidades autónomas. Por tanto, señora ministra, no es de extrañar que no se alcanzara el consenso y dudamos de que un real decreto de estas características que no cuenta con ese consenso, que no cuenta cuando menos con algún acuerdo entre las partes que tienen que desarrollarlo, pueda ser realmente un elemento eficaz para lo que usted ha dicho de la formación, de elevar la competitividad, etcétera. Desde luego, tal y como está este real decreto-ley y cómo se plantea, creemos que no va a servir para acabar con la corrupción o el fraude que pueda haber en el tema de la formación profesional, porque, en todo caso, esa libre concurrencia que ustedes reconocen aquí, la incrementará.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u8" ana="#chair">
                <seg>Tiene la palabra el señor Cuadra.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u9"
@@ -164,7 +162,7 @@
                <seg>Amaiur reclama, en primer lugar, que esta formación profesional responda directamente a las necesidades existentes en cada territorio, en cada nación, realidades económicas, empresariales, sociales y sindicales allí existentes que conforman unos marcos propios. Reclamamos soberanía en esta materia, porque somos mayores de edad para gestionar de forma exclusiva, al cien por cien, esto, conforme a nuestras propias mayorías políticas, institucionales, sindicales y sociales que existen allí y que son muy distintas a las existentes a nivel estatal. Y en esta medida -ya termino, señor presidente- no podemos menos que denunciar el estrangulamiento competencial y económico-financiero que se ha venido padeciendo en la Comunidad Autónoma vasca con Hobetuz y la marginación total que en la Comunidad Foral de Navarra se está practicando en ese contubernio existente entre el Gobierno del PP, la patronal navarra y los grandes sindicatos estatales, que están marginando absolutamente al resto de fuerzas sindicales.</seg>
                <seg>Termino expresando desde aquí la solidaridad de Amaiur con todos los trabajadores y trabajadoras de Movistar, que en estos días se están movilizando por todo el Estado en defensa de sus puestos de trabajo y de sus condiciones laborales y salariales.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u10" ana="#chair">
                <seg>Muchas gracias, señor Cuadra.</seg>
                <seg>Por el Grupo Parlamentario Vasco, PNV, tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -378,7 +376,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u36" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u36" ana="#chair">
                <seg>Muchas gracias, señor Trevín.</seg>
                <seg>Turno de fijación de posiciones. Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Agirretxea.<note>Denegación</note> Tiene la palabra, por el Grupo Popular, el señor Cabello de Alba.</seg>
             </u>
@@ -396,13 +394,13 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u38" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u38" ana="#chair">
                <seg>Muchas gracias, señor Cabello de Alba.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>ACUERDOS DE COMISIONES RELATIVOS A INFORMES DE SUBCOMISIONES Y PONENCIAS - ACUERDO DE LA COMISIÓN DE INTERIOR, EN RELACIÓN CON EL INFORME APROBADO POR LA SUBCOMISIÓN DE ESTUDIO SOBRE LAS REDES SOCIALES.</head>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u39" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u39" ana="#chair">
                <seg>Acuerdo de la Comisión de Interior en relación con el informe aprobado por la Subcomisión de estudio sobre las redes sociales.</seg>
                <seg>Va a haber un turno de fijación de posiciones. En primer lugar, tiene la palabra por el Grupo Mixto el señor Larreina.</seg>
             </u>
@@ -414,7 +412,7 @@
                <seg>Hace ya quince años se decía que la cibercultura de carácter libertario estaba permitiendo imaginar -y ahora mismo está permitiendo plasmar- nuevas formas de participación política e incluso de democracia directa. Este es otro aspecto que está detrás de las redes sociales, y que es importante para promover esa participación de la ciudadanía y ese empoderamiento de la ciudadanía a la hora de gestionar la cosa pública. En el año 1996 John Perry Barlow hizo pública una declaración de independencia del ciberespacio en la que negaba que los Estados tuviesen que tener poder sobre el espacio electrónico. Sin embargo eso ahora mismo es bastante real. Las reflexiones que hemos tenido en el seno de la Comisión iban por esa línea, es decir, qué hacer para responder a los retos que plantea una sociedad de la información sin fronteras, una sociedad de la información que avanza continuamente en las nuevas innovaciones, que va muy por delante de lo que va la legislación. Creo que la respuesta que ha dado el informe de la ponencia es muy positivo, porque -tengo que subrayarlo- va en contradicción con otra serie de actuaciones que se han producido en esta Cámara últimamente. Me refiero, por ejemplo, a la reforma del Código Penal, a la Ley Mordaza, etcétera. Uno de los principios fundamentales que se establecen en esta ponencia es que ante todo hay que salvaguardar la libertad, y que por lo tanto a la hora de actuar para prevenir posibles delitos, para proteger al conjunto de la ciudadanía, y especialmente a los menores, debería primar un principio fundamental que es el control previo judicial. Es decir, no se puede realizar ninguna actuación en el ámbito de las nuevas tecnologías, en el ámbito de las redes sociales sin tener ese control previo judicial. Por eso pensamos que este informe es muy significativo, ya que ha logrado la unanimidad alrededor de ese principio de salvaguarda de las libertades, de salvaguarda del derecho de los ciudadanos a su propia intimidad, del derecho de los ciudadanos a su propia identidad, dando respuestas también a esos problemas que están surgiendo ahora mismo en todos los ámbitos, como puede ser el problema de la suplantación de identidades, y el acoso en sus distintas manifestaciones.</seg>
                <seg>Ante ese debate que se plantea siempre entre seguridad y libertad esta ponencia ha optado por fortalecer la libertad, estableciendo elementos preventivos y garantistas con ese control judicial, siempre previo a cualquier actuación policial o a cualquier actuación desde los poderes públicos,&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u41" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u41" ana="#chair">
                <seg>Señor Larreina, debe ir finalizando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u42"
@@ -424,7 +422,7 @@
                <seg>&#x85; que garantice los derechos de la ciudadanía. Pensamos que ese es el camino a seguir: que las redes sociales deben ser un instrumento para la socialización del conocimiento, y para impulsar una sociedad más libre, más plural, y más democrática.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u43" ana="#chair">
                <seg>Muchas gracias, señor Larreina.</seg>
                <seg>Ruego silencio. Los que no estén interesados en este debate que abandonen el hemiciclo.</seg>
                <seg>Tiene la palabra por el Grupo Vasco, PNV, el señor Agirretxea.</seg>
@@ -438,7 +436,7 @@
                <seg>Un nuevo mundo se nos abre que exige una nueva mentalidad para todo: una nueva mentalidad para el uso, una nueva mentalidad para su control, una nueva mentalidad para su seguridad, para su entendimiento, y cómo no para su disfrute, porque al fin y al cabo las redes sociales son un escaparate del mundo que a su vez, como todo lo que tiene el mundo, tiene la misma proporcionalidad de riesgos que también tiene el mundo real. Hemos analizado muchas cuestiones, y como tratamos el tema de la seguridad, ¿cuáles han sido los mayores problemas que hemos detectado, los mayores peligros? Pues existe el problema de los famosos ciberacosos, existen los problemas de los usos y contenidos ofensivos en la red; hemos visto el uso de contenidos incitadores al odio, y también el robo de la propiedad intelectual o el tema de suplantación de identidad. Esos son peligros que existen en ese nuevo mundo, peligros que tendremos que atajar de alguna manera, y tendremos que saber cómo resolver esa situación problemática.</seg>
                <seg>El 50 % de los jóvenes, según los datos que se nos han dado en la subcomisión, ha sufrido algún ciberacoso de alguna manera en algún momento de su vida. Yo creo que es una cuestión que tendremos que atender: qué es un ciberacoso, cómo se puede hacer, ¿es más fácil que un acoso normal? ¿Tiene más impunidad? ¿Cualquiera puede acceder a ello? ¿Cómo se denuncia? ¿Cómo se ataja esa situación? Así y todo y viendo cuáles han sido todos los problemas que se han sugerido hemos hecho una valoración positiva de lo que son las redes sociales, aun teniendo en cuenta que su seguridad ha de ser algo importante para nosotros. No hacen falta más leyes, también hemos llegado a esa conclusión. No hacen falta más leyes, con las que tenemos es suficiente, el problema está en si sabremos aplicarlas de manera correcta o no. La educación y la formación son la base para que las redes sociales y su seguridad tengan una garantía, sobre todo en las nuevas generaciones y en los jóvenes; nuestra capacidad para usar esas redes sociales. También se han visto cuestiones que desde el ámbito penal se deberán atajar: el tema de la pornografía infantil es algo que hasta ahora no existía de esta manera, y cada vez aparece más, y cada vez además, como siempre, el que comete el delito utiliza herramientas más sofisticadas para que no se descubra su delito, y hay redes enteras de uso de pornografía infantil, que con los datos que se nos dieron en la subcomisión&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u45" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u45" ana="#chair">
                <seg>Señor Agirretxea, debe usted ir acabando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u46"
@@ -449,7 +447,7 @@
                <seg>Por último, tengo que decir que ha sido positivo, que hay que seguir desarrollándolo, porque es un ámbito que no se acaba; esto no ha hecho más que empezar.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u47" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u47" ana="#chair">
                <seg>Muchas gracias, señor Agirretxea.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -460,7 +458,7 @@
                <seg>Nuestro grupo considera que los trabajos que ha hecho la subcomisión son oportunos, y el informe es positivo y con conclusiones sin duda interesantes. Es muy de agradecer además en particular la idea de que no haga falta hacer una ley de redes sociales, porque eso ya sería algo más preocupante, sobre todo porque tenemos una legislación que nos parece -ha quedado demostrado en general- bastante<pb n="32"/> inadecuada, bastante desequilibrada, y bastante poco realista sobre lo que es el mundo digital, el mundo de Internet, y sobre todo porque también -y con esto acabo, porque mi intervención quiere ser muy breve- plantea un desafío muy serio a los Estados nacionales. Estamos hablando de fenómenos realmente globales, que no son hipótesis, sino realidades materiales globalizadas, y en ese sentido las legislaciones nacionales cada día demuestran más su impotencia. Hay que pasar al campo de la colaboración internacional y de los grandes proyectos de escala como digo planetaria. De eso es de lo que estamos hablando.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u49" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u49" ana="#chair">
                <seg>Muchas gracias por su concisión y brevedad, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural, tiene la palabra el señor Sixto.</seg>
             </u>
@@ -474,7 +472,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u51" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u51" ana="#chair">
                <seg>Muchas gracias, señor Sixto.<note>Rumores</note> Ruego que se atienda al orador.</seg>
                <seg>Tiene ahora la palabra, por el Grupo Catalán<note>Convergència i Unió</note> , el señor Guillaumes.</seg>
             </u>
@@ -486,7 +484,7 @@
                <seg>No me gustaría acabar sin felicitar al coordinador del grupo, que creo que lo ha hecho extraordinariamente bien, a la letrada, y en general a todos los participantes. Es como un soplo de aire fresco que de vez en cuando tengamos estas ponencias en las que se puede trabajar conjuntamente, y si me permiten la expresión con tan buen rollo.</seg>
                <seg>Muchas gracias a todos ustedes. Muchas gracias, presidente. Muchas gracias, señorías.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u53" ana="#chair">
                <seg>Muchas gracias, señor Guillaumes.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor Sánchez Amor.</seg>
             </u>
@@ -501,7 +499,7 @@
                <seg>Un elemento sustancial señalado por todos ha sido la educación. No hemos caído en un arbitrismo muy típico de España que es que cuando hay un problema se propone una asignatura curricular. No, nuestra idea es que la ciudadanía digital es un elemento que debe aparecer en el currículo escolar en la forma que sea adecuada desde la más tierna infancia. Hay que hacer una llamada a la responsabilidad de los alumnos, de los padres, a la figura del policía de referencia que es importante en los colegios y a los maestros y profesores.</seg>
                <seg>Los elementos esenciales que hemos vigilado -lo ha dicho también mi colega Ricardo Sixto- han sido los aspectos penales de nuestras conclusiones. La necesidad siempre de una orden judicial previa y expresa para la utilización de agente encubierto, para la utilización de troyanos, para la cesión de metadatos por parte de las compañías telefónicas son elementos esenciales que han permitido el consenso político sobre estas conclusiones. Quiero resaltar la flexibilidad y de alguna manera -ya se ha dicho- una cierta contradicción con otras prácticas del grupo mayoritario en esta legislatura. Hay una petición de regular penalmente la suplantación de identidad y se recoge en las conclusiones -es una tarea pendiente de nuestro derecho penal dicha regulación de la suplantación de identidad en las redes sociales-. Hay elementos como el derecho al olvido especialmente de los menores, muy poco conscientes del rastro de vida que van dejando en las redes sociales. Hay una petición de clasificación de las aplicaciones por edades, que es un buen sistema, y hay una exigencia a las empresas para que los sistemas de control funcionen. Yo ponía el ejemplo en Comisión de cómo empresas como Facebook son capaces de detectar&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u55" ana="#chair">
                <seg>Señor Sánchez Amor, debe usted ir acabando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u56"
@@ -514,7 +512,7 @@
                <note>Aplausos</note>
                <pb n="35"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u57" ana="#chair">
                <seg>Gracias, señor Sánchez Amor.</seg>
                <seg>Queda la última intervención. Por favor, ruego silencio para que podamos oír al interviniente. Por el Grupo Popular, tiene la palabra el señor Escobar.</seg>
             </u>
@@ -529,7 +527,7 @@
                <seg>Proponemos abrir un debate a fondo sobre uno de los principales retos en el entorno digital, me estoy refiriendo a un debate sobre la identidad digital y su protección, con dos recomendaciones expresas: adaptar la Ley Orgánica del Derecho al Honor, con especial atención a las personas vulnerables, y estudiar una futura tipificación penal de la suplantación de identidad. En el capítulo sectorial, la seguridad y la privacidad deben ser suministradas de serie en los productos y servicios TIC. Creemos, señorías, que la seguridad no es ni un complemento ni un lujo, sino que tiene que ser un derecho, y por eso hacemos ese llamamiento a las empresas del sector. Las fuerzas y cuerpos de seguridad se han implicado y adaptado muy satisfactoriamente al nuevo entorno digital. Aun así, proponemos y sugerimos&#x85;</seg>
                <pb n="36"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u59" ana="#chair">
                <seg>Señor Escobar, tiene usted que terminar, porque ya ve que la Cámara está en una situación de cierta efervescencia. Acabe usted ya.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u60"
@@ -541,7 +539,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u61" ana="#chair">
                <seg>Muchas gracias, señor Escobar.</seg>
                <seg>En unos minutos, vamos a votar.</seg>
                <note>Pausa</note>
@@ -549,207 +547,207 @@
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - MOCIÓN CONSECUENCIA DE INTERPELACIÓN URGENTE DEL GRUPO PARLAMENTARIO MIXTO SOBRE LA POSTURA DEL GOBIERNO EN RELACIÓN CON LAS CONSECUENCIAS DEL ACUERDO TRANSATLÁNTICO PARA EL COMERCIO Y LA INVERSIÓN ENTRE EUROPA Y ESTADOS UNIDOS</head>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u62" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u62" ana="#chair">
                <seg>Vamos a proceder a las votaciones. Comenzamos con la moción de la señora Aríztegui, del Grupo Parlamentario Mixto, sobre la postura del Gobierno en relación con las consecuencias del acuerdo transatlántico para el comercio y la inversión entre Europa y Estados Unidos. Se van a votar en sus propios términos por separado los cinco puntos de la moción.</seg>
                <seg>Punto 1.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 132; en contra, 178; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u63" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 2.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 309; a favor, 132; en contra, 177.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u64" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 3.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 128; en contra, 177; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u65" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u65" ana="#chair">
                <seg>Quede rechazado.</seg>
                <seg>Punto 4.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 129; en contra, 182.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u66" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 5.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 21; en contra, 276; abstenciones, 13.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u67" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u67" ana="#chair">
                <seg>Queda rechazado.<pb n="37"/> - DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, SOBRE LOS PROPÓSITOS DEL GOBIERNO EN RELACIÓN A LA CONDENA DE LA LIMPIEZA NACIONAL Y CRÍMENES CONTRA LA HUMANIDAD COMETIDOS POR LA BANDA TERRORISTA ETA Y SU ENTRAMADO POLÍTICO, A FIN DE DAR LA NECESARIA SATISFACCIÓN Y RECONOCIMIENTO A LAS VÍCTIMAS DE ESTAS VIOLACIONES MANIFIESTAS DE LAS NORMAS INTERNACIONALES DE DERECHOS HUMANOS Y SATISFACER EL DERECHO INALIENABLE A CONOCER LA VERDAD.</seg>
                <note>Número de expediente 173/000206</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u68" ana="#chair">
                <seg>Moción del Grupo de Unión Progreso y Democracia, sobre los propósitos del Gobierno en relación a la condena de la limpieza nacional y crímenes contra la humanidad cometidos por la banda terrorista ETA y su entramado político, a fin de dar la necesaria satisfacción y reconocimiento a las víctimas de estas violaciones manifiestas de las normas internacionales de derechos humanos y satisfacer el derecho inalienable a conocer la verdad.</seg>
                <seg>Se vota en los términos resultantes de la incorporación de la enmienda del Grupo Popular, del Grupo Socialista y del Grupo Mixto -señora Oramas, señor Álvarez Sostres y señor Salvador-. Ese texto, que todos ustedes conocen, es el que sometemos a votación.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 276; en contra, 34.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u69" ana="#chair">
                <seg>Queda aprobada la moción.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES : - REAL DECRETO-LEY 4/2015, DE 22 DE MARZO, PARA LA REFORMA URGENTE DEL SISTEMA DE FORMACIÓN PROFESIONAL PARA EL EMPLEO EN EL ÁMBITO LABORAL.</head>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u70" ana="#chair">
                <seg>Convalidación o derogación del real decreto-ley 4/2015, de 22 de marzo, para la reforma urgente del sistema de formación profesional para el empleo en el ámbito laboral. Hay cuatro votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311 más 4 votos telemáticos, 315; votos a favor, 180 más 3 votos telemáticos, 183; en contra, 25; abstenciones, 106 más 1 voto telemático, 107.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u71" ana="#chair">
                <seg>Queda convalidado.</seg>
                <seg>Vamos a votar ahora su tramitación como proyecto de ley por el procedimiento de urgencia.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310 más 4 votos telemáticos, 314; a favor, 310 más 4 votos telemáticos, 314.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u72" ana="#chair">
                <seg>Queda aprobado por unanimidad.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS : AVOCACIÓN POR EL PLENO: - PROYECTO DE LEY DE ORDENACIÓN, SUPERVISIÓN Y SOLVENCIA DE LAS ENTIDADES ASEGURADORAS Y REASEGURADORAS.</head>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u73" ana="#chair">
                <seg>Vamos a votar ahora la solicitud de avocación por el Pleno de la Cámara de la deliberación y votación final del proyecto de ley de ordenación, supervisión y solvencia de las entidades aseguradoras y reaseguradoras, que no ha sido debatido porque fue retirada la enmienda a la totalidad. Hay 3 votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310 más 3 votos telemáticos, 313; a favor, 133; en contra, 176 más 3 votos telemáticos, 179; abstención, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u74" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u74" ana="#chair">
                <seg>No será avocado a Pleno.</seg>
                <pb n="38"/>
             </u>
          </div>
          <div type="debateSection">
             <head>DICTÁMENES DE COMISIONES SOBRE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY ORGÁNICA DE RÉGIMEN DE PERSONAL DE LA POLICÍA NACIONAL.</head>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u75" ana="#chair">
                <seg>Dictamen del proyecto de ley orgánica de régimen de personal de la Policía Nacional.</seg>
                <seg>Enmiendas de Unión Progreso y Democracia, números 88, 89, 94, 97, 105 y 111.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 108; en contra, 177; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u76" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 90, 93 y 112.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 14; en contra, 177; abstenciones, 144.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u77" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 98.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 18; en contra, 278; abstenciones, 10.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u78" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas de UPyD.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 14; en contra, 271; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u79" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas de La Izquierda Plural, números 3, 9, 12, 17, 28, 50, 56, 61, 75 y 76.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 113; en contra, 177; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u80" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 5, 7, 11, 15, 16, 27, 30, 41, 54, 55, 66, 71 y 74.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 16; en contra, 177; abstenciones 112.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u81" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 26.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 303; a favor, 109; en contra, 176; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u82" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 79, 85 y 86.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 304; a favor, 121; en contra, 177; abstenciones, 6.</seg>
                <pb n="39"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u83" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 80 y 82 a 84.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 304; a favor, 28; en contra, 270; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u84" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 81.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 304; a favor, 28; en contra, 176; abstenciones, 100.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u85" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas de La Izquierda Plural.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 15; en contra, 270; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u86" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Catalán de Convergència i Unió. En primer lugar, enmiendas 115 y 117 a 119.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 304; a favor, 28; en contra, 271; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u87" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 116 y 121.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 122; en contra, 177; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u88" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 120.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 304; a favor, 28; en contra, 178; abstenciones, 98.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u89" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas de Convergència i Unió.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 32; en contra, 268; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u90" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Socialista. En primer lugar, enmiendas 142, 147 y 159.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 108; en contra, 176; abstenciones, 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u91" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 154.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 304; a favor, 94; en contra, 185; abstenciones, 25.</seg>
                <pb n="40"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u92" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 109; en contra, 177; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u93" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Votamos los votos particulares del Grupo Socialista. En primer lugar, voto número 1 a la enmienda 165.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 104; en contra, 177; abstenciones, 25.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u94" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Voto particular número 2 a la enmienda 166.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 108; en contra, 177; abstenciones, 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u95" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Voto particular número 3 a la enmienda 167.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 109; en contra, 177; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u96" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Voto particular número 4 a la enmienda 168.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 109; en contra, 177; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u97" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Votamos el dictamen de la Comisión teniendo en cuenta la corrección técnica distribuida.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 307; a favor, 174; en contra, 123; abstenciones, 10.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u98" ana="#chair">
                <seg>Queda aprobado el dictamen de la Comisión.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>VOTACIÓN DE CONJUNTO</head>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u99" ana="#chair">
                <seg>Votación de conjunto del proyecto de ley orgánica de régimen de personal de la Policía Nacional, por tener carácter orgánico. Han sido emitidos cuatro votos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306 más 4 votos telemáticos, 310; a favor, 177 más 3 votos telemáticos, 180; en contra, 120 más 1 voto telemático, 121; abstenciones, 9.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u100" ana="#chair">
                <seg>Queda aprobada la ley.</seg>
                <pb n="41"/>
             </u>
          </div>
          <div type="debateSection">
             <head>ACUERDOS DE COMISIONES RELATIVOS A INFORMES DE SUBCOMISIONES Y PONENCIAS : - ACUERDO DE LA COMISIÓN DE INTERIOR, EN RELACIÓN CON EL INFORME APROBADO POR LA SUBCOMISIÓN DE ESTUDIO SOBRE LAS REDES SOCIALES.</head>
-            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-23-CD150423.u101" ana="#chair">
                <seg>Hay un acuerdo que hemos debatido de la Comisión de Interior en relación con el informe aprobado por la Subcomisión de estudio sobre las redes sociales. Por lo manifestado por los intervinientes, creo que se puede aprobar por asentimiento. ¿Es así?<note>Asentimiento</note> Queda aprobado por asentimiento.</seg>
                <seg>Se levanta la sesión.</seg>
                <seg>Eran las doce y treinta y cinco minutos del mediodía.</seg>

@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="95">95 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="95" xml:lang="es">95 speeches</measure>
+            <measure unit="speeches" quantity="95" xml:lang="en">95 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="71"/>
                <tagUsage gi="u" occurs="95"/>
                <tagUsage gi="note" occurs="184"/>
-               <tagUsage gi="lb" occurs="367"/>
+               <tagUsage gi="seg" occurs="367"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,15 +92,11 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u1" ana="#chair">
                <seg>Buenos días, señorías.</seg>
                <seg>Reanudamos la sesión y comenzamos con la comparecencia del presidente del Gobierno en funciones en relación con las tres solicitudes de comparecencia de los grupos parlamentarios Socialista, Mixto y Podemos-En Comú Podem-En Marea, así como del Gobierno a petición propia, incluidas en el orden del día y que, de conformidad con lo acordado en la Junta de Portavoces, se tramitarán de forma acumulada. Para ello, tiene la palabra el señor presidente de Gobierno en funciones.</seg>
             </u>
@@ -132,7 +130,7 @@
                <seg>Nada más, señorías. Quedo a su disposición para atender las preguntas que consideren oportunas. Muchas gracias.</seg>
                <note>Aplausos.-Varios señores diputados se ponen en pie con los brazos en alto y las muñecas cruzadas.-Rumores.-Un señor diputado muestra un cartel en el que se lee: ¡Vergüenza!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u3" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Ahora es el turno de los grupos parlamentarios y, en primer lugar, por el Grupo Parlamentario Socialista, tiene la palabra el señor Sánchez.</seg>
             </u>
@@ -150,7 +148,7 @@
                <seg>Señor Rajoy, señorías del Gobierno en funciones, esto sería lo que haría mi Gobierno a diferencia de lo que ha hecho el suyo: remolonear, poner excusas y crear prejuicios, difundir rumores, desatender sus obligaciones, ignorar la petición de las comunidades autónomas y de los ayuntamientos, olvidarse de la sensibilización, no desarrollar la ley y esconderse tras los pliegues de Bruselas sin mostrar ni una sola opinión o propuesta propia, siempre a remolque de los acontecimientos o los movimientos de los demás.<pb n="15"/> Mire, señor Rajoy, por inacción o por incumplimiento de sus compromisos con usted como presidente del Gobierno España ha dejado de pertenecer al corazón de las decisiones de la Unión Europea.<note>Protestas.-Rumores.-Aplausos</note> Es así, es así. Por eso, les digo a sus señorías que esta también es otra razón para poner fin a sus cuatro años de Gobierno, señor Rajoy.</seg>
                <note>Prolongados aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u5" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Por el Grupo Parlamentario Podemos-En Comú Podem-En Marea, tiene la palabra en primer lugar el señor Iglesias.</seg>
             </u>
@@ -170,7 +168,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Podemos-En Comú Podem-En Marea, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u7" ana="#chair">
                <seg>Gracias, señor Iglesias.</seg>
                <seg>Señor Domènech.</seg>
             </u>
@@ -187,7 +185,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u9" ana="#chair">
                <seg>Gracias, señor Domènech.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos, tiene la palabra el señor Rivera.</seg>
             </u>
@@ -207,11 +205,11 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Ciudadanos, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u11" ana="#chair">
                <seg>Por el Grupo Parlamentario de Esquerra Republicana, tiene la palabra la señora Surra.</seg>
                <note>El señor Errejón Galván pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u12" ana="#chair">
                <seg>¿Sí, señor Errejón? Un momento, señora Surra.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u13"
@@ -219,7 +217,7 @@
                ana="#regular">
                <seg>No soy muy partidario de repetir la ronda de alusiones que tuvimos en el debate de investidura, pero hemos tenido una acusación directa que implica un delito<note>El señor Rivera Díaz hace signos negativos</note> y eso significa que tenemos derecho a un turno por alusiones, que va a ser extraordinariamente breve. No es de nuestro agrado, pero tampoco es de nuestro agrado que se acuse gratuitamente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u14" ana="#chair">
                <seg>¿Cuál es la alusión?</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u15"
@@ -229,7 +227,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u16" ana="#chair">
                <seg>Muchas gracias, señor Errejón.</seg>
                <seg>Señora Surra.</seg>
             </u>
@@ -265,7 +263,7 @@
                <seg>Muchas gracias por su atención.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u20" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u20" ana="#chair">
                <seg>Gracias, señor Homs.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Esteban.</seg>
             </u>
@@ -282,7 +280,7 @@
                <seg>Tercer tema, señor presidente. Hemos presentado una proposición para la próxima semana sobre la siderurgia, que consideramos vital, porque el empleo de muchas familias depende de la acción que se tome desde las instituciones y también en el marco del ámbito europeo, pero a ese marco nosotros no podemos llegar, el que puede llegar es usted. En cuanto al último punto, el brexit, las cosas se podrían haber hecho de otra manera.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u22" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u22" ana="#chair">
                <seg>Gracias, señor Esteban.</seg>
                <seg>A continuación, por el Grupo Parlamentario Mixto que, como saben sus miembros, acumula en esta intervención sus turnos de réplica, tiene en primer lugar la palabra el señor Candela.</seg>
             </u>
@@ -293,7 +291,7 @@
                <seg>Señorías, hoy hemos presenciado aquí el germen que está destruyendo Europa: el cinismo, la hipocresía, el clasismo y la xenofobia institucional; eso sí, con buenas palabras y buenas formas, pero hoy hemos visto eso. Señor Rajoy, usted tenía un mandato parlamentario y lo ha vulnerado; votando a favor del acuerdo de la vergüenza ha vulnerado la voluntad de los españoles consagrada en estas Cortes. Señorías, el acuerdo de la vergüenza no garantiza que se respeten los derechos humanos y lo más grave es que el Consejo Europeo lo sabe. Dice el Consejo Europeo en sus conclusiones del 17 y 18 de marzo que la Unión Europea espera que Turquía respete la democracia, el Estado de derecho y las libertades fundamentales, que la Unión Europea espera que se respeten los derechos humanos. Lo espera, señor<pb n="31"/> Rajoy. ¿Cree usted, señor Rajoy, que podemos esperar que Turquía sea un país seguro para los refugiados? ¿Un país que hace menos de una semana mató a tiros en su frontera a trece adultos y a tres niños refugiados? ¿Un país que ni siquiera ha ratificado los protocolos que desarrolla la Convención de Ginebra? ¿Un país que ha realizado deportaciones de refugiados sirios a gran escala, tal y como ha documentado Amnistía Internacional? ¡Pero si estos son los motivos por los que la adhesión de Turquía a la Unión Europea se había paralizado, señor Rajoy! Son estos. Y ahora negocia su adhesión... a cambio de vidas humanas. El Consejo Europeo ha negociado con vidas humanas y usted, señor Rajoy, ha formado parte de eso; usted también lo ha hecho. Señorías, no podemos simplemente esperar que se respete su integridad física, es nuestra obligación garantizar la vida de los refugiados. Porque ser refugiado, señor Rajoy, no se elige, porque los que huyen del miedo, del terror y de la muerte no lo hacen por placer sino por necesidad como lo hicieron, por cierto, nuestros abuelos y abuelas hace setenta y siete años. Y hoy estamos aquí los hijos y los nietos de aquellas personas.</seg>
                <seg>Mientras tanto la Unión Europea ha decidido levantar un muro infranqueable en Turquía, ¿y saben de qué sirve levantar un muro ante personas que huyen del terror de Daesh? De nada, señorías, de nada. Los que huyen del infierno seguirán huyendo por tierra, mar o aire y cuantos más obstáculos les pongan, más grande será la fosa común que ya es el Mediterráneo. Señor Rajoy, usted y el resto de sus colegas en el Consejo deberían haber hecho caso a todos los actores sociales que han pedido un trato humano para los refugiados: Amnistía Internacional, Médicos sin Fronteras, la Comisión española de ayuda a los refugiados, hasta la ONU, a través de Unicef y Acnur, han criticado el acuerdo. El acuerdo de la vergüenza. Pero no lo hicieron; ni usted ni el resto de jefes de Estado de la Unión Europea estuvieron a la altura. Pero es que usted, señor Rajoy, usted no solo no ha estado a la altura, sino que se ha dedicado a torpedear todas las iniciativas políticas y sociales que pretendían ayudar a los refugiados, y los valencianos podemos dar buena cuenta de ello. Desde el Gobierno valenciano se le propuso colaborar en la recepción y ayuda a los refugiados, pusimos todo de nuestra parte y nos topamos con la inacción del Gobierno que usted preside. Quisimos fletar un barco para evacuar a 1.100 refugiados, y usted no hizo nada. Quisimos coordinar a miles de familias voluntarias que se ofrecieron a colaborar, y la respuesta fue no; quisimos enviar a voluntarios a trabajar sobre el terreno, y la respuesta fue la misma: no. Su Gobierno no ha hecho nada, señor Rajoy, y a mí solo me queda preguntarme una cosa: ¿usted puede dormir tranquilo por la noche?<note>Aplausos</note> Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u24" ana="#chair">
                <seg>Gracias, señor Candela.</seg>
                <seg>Tiene la palabra el señor Garzón.</seg>
             </u>
@@ -307,7 +305,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u26" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u26" ana="#chair">
                <seg>Señora Beitialarrangoitia.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u27"
@@ -319,7 +317,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u28" ana="#chair">
                <seg>Muchas gracias, señora Beitialarrangoitia.</seg>
                <seg>Señor Alli.</seg>
             </u>
@@ -331,7 +329,7 @@
                <seg>Por tanto, para finalizar estos últimos treinta segundos, señor Rajoy, aunque es muy complicado hablar aquí de soluciones, le animamos a que en el Consejo de Europa se decida cuál es el mejor diagnóstico geopolítico para llevar allí la gobernanza democrática y la aplicación de los derechos humanos, en este caso en un país como Siria y otros de Oriente Próximo y Oriente Medio. Por otra parte, como medida paliativa, hagamos caso a dos agencias oficiales de Naciones Unidas, como pueden ser Acnur y Unicef, que llevan cinco años solicitando fondos y recursos suficientes para crear en los países limítrofes con Siria campos de refugiados y las condiciones básicas esenciales para la autonomía y la convivencia de esas personas que masivamente salen de Siria y, sobre todo, esa medida preventiva y nunca permanente para evitar el tráfico de menores y la trata de mujeres porque, señorías, nunca, nunca, ninguna soberanía nacional ni supranacional estará por encima de los derechos humanos.</seg>
                <seg>Muchas gracias, señorías.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u30" ana="#chair">
                <seg>Muchas gracias, señor Alli.</seg>
                <seg>Señor Martínez.</seg>
             </u>
@@ -342,7 +340,7 @@
                <seg>Dicho eso, tras esta comparecencia late la actualidad española con muchísima más fuerza que la europea. Por eso deseo advertir en nombre de Foro sobre el riesgo de confundir los medios con el fin para afrontar el problema de la formación de Gobierno. El diálogo solo es el medio, el fin primigenio de la formación de Gobierno es conformar el programa que solucione los problemas a los españoles. El Instituto Nacional de Estadística nos recordó la semana pasada que la política socialista situó a Asturias como la comunidad autónoma cuyo PIB se ha reducido más en España en el período 2008-2015. Por ello subrayo<pb n="34"/> que el acuerdo del PSOE y Ciudadanos nos parece negativo, porque ninguno de sus doscientos puntos se ocupa de las reformas de la política española que necesitamos los asturianos para aspirar a un futuro de progreso. A los señores Sánchez y Rivera no les importa la financiación de las comunidades autónomas para favorecer la solidaridad y la igualdad entre ellas o el reparto de las inversiones del Estado y así nadie sea menos que los demás. Les trae sin cuidado cómo se vertebra España a través de las infraestructuras para evitar las dos velocidades. Olvidan los sectores industriales, energéticos o mineros como palancas de crecimiento y empleo. Ignoran la España agroganadera, que es un pilar de nuestra estructura social y también la marítima, con la pesca como fuente de alimentación y riqueza.</seg>
                <seg>Señorías, con el pretexto de los refugiados se ha apelado esta mañana a los derechos humanos y también a los principios de defensa del pueblo y de lo público. Vean; vean cómo se las gastan en Asturias. Anteayer, 4 de abril, comenzó en Oviedo el juicio del caso Marea sobre el saqueo cuantificado en 9 millones de euros del dinero de los colegios públicos, que es otro de los edificantes episodios en el que participan consejeros, alcaldes, gestores culturales, autoridades portuarias y sindicalistas, todos ellos destacados socialistas. Supongo que los señores...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u32" ana="#chair">
                <seg>Señor Martínez, le he dejado a ver si alguna de las conclusiones acababa en Europa, pero es que no se está centrando absolutamente en nada de lo que tiene que ver con el punto del que estamos hablando.<note>Aplausos</note> Cíñase a la cuestión.</seg>
                <note>Protestas</note>
             </u>
@@ -351,7 +349,7 @@
                ana="#regular">
                <seg>Señor Presidente, en un debate en el que se ha hablado del Plan Juncker, de la siderurgia y de tantos y tantos temas, permítame por favor en mis tres minutos...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u34" ana="#chair">
                <seg>En relación con la cumbre europea, claro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u35"
@@ -359,7 +357,7 @@
                ana="#regular">
                <seg>Sí, por eso le decía... No sé si le molesta.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u36" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u36" ana="#chair">
                <seg>Por favor, céntrese en el asunto.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u37"
@@ -369,7 +367,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos.-Protestas.-Varios señores diputados: ¡Señor presidente!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u38" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u38" ana="#chair">
                <seg>Señora Oramas.<note>Continúan las protestas</note> Silencio, por favor.<note>Pausa</note> Señora Oramas, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u39"
@@ -378,7 +376,7 @@
                <seg>Señor presidente, señorías, nadie renuncia a su país, a su entorno, a su familia y su vida, nadie expone a sus hijos al mar, al frío, al viento, a las mafias, al desprecio y al horror si lo que deja atrás no es una realidad aún peor. Los hijos de los hombres y mujeres que malviven en el barro, cercados por alambres como si fueran delincuentes, podrían ser nuestros hijos. Los ancianos que apenas pueden sostenerse doblegados por el frío y el hambre podrían ser nuestros padres. Los hombres y mujeres que arriesgan su vida, sufren vejaciones y malos tratos, desprecio, necesidades, frío y terror, esos hombres y mujeres podríamos ser nosotros. Se lo dice una canaria que forma parte de un pueblo que fue a Venezuela y a Cuba y se lo dice una política que tuvo responsabilidades políticas en el año 2006 -como usted muy bien dijo, señor Rajoy- con aquella crisis de los cayucos. Durante ese verano vinieron más de 60.000 personas y a lo largo de tres años más de 100.000 personas. Llegaron 10.000 menores no acompañados y Canarias tuvo anualmente más de 1.400 niños acogidos. Hoy quiero reconocer el esfuerzo que hicieron el País Vasco en aquel momento -el más lejano, que no miró para otro lado- y Andalucía, que tenía ya 5.000 niños acogidos. Fueron las dos únicas comunidades que echaron una mano a Canarias porque era un tema voluntario. Nosotros vivimos la crisis de los cayucos en aquellas islas con Europa mirando para otro lado y yo, como alcaldesa, junto con la vicepresidenta del Gobierno y el delegado del Gobierno en aquel momento tuvimos que sufrir la visita de eurodiputados al centro de Los Rodeos -donde había 5.000 personas- para ver si se estaba cumpliendo la legislación. Allí no había mujeres embarazadas ni bebés, no había niños porque los españoles cumplíamos la ley, con la solidaridad y con decisiones, como usted muy bien dijo.<pb n="35"/> Hoy España no puede hacer lo mismo que hizo el resto de Europa. El presidente de Canarias ha dado un paso, se ha puesto en contacto con los responsables de Lampedusa, de Lesbos y de las islas griegas. Va a haber una reunión en Lesbos de todas las islas europeas afectadas para llevar una posición común a Bruselas, porque la problemática es distinta que en el territorio continental. Vamos a trabajar y ese paso lo ha dado Canarias. Pero hoy aquí sobre todo quiero ser la voz de Save the Children que denunció que en el centro de detención de Moria en Lesbos hay 3.000 personas cuando debería haber unos cientos, hay 1.000 niños y de ellos 160 no acompañados e hizo un llamamiento para que, junto a los líderes europeos, se acuerde un paquete de medidas para dar respuesta a las necesidades específicas de protección de la infancia migrante y refugiada, con objetivos concretos y medibles, y con los recursos adecuados para tal fin. Hoy le pido, señor Rajoy, que demos un paso como pedimos en aquel momento desde España y no se nos hizo caso, y que en el tema de menores -que todas las comunidades autónomas tienen los recursos y están dispuestos a acogerlos-, junto con Unicef y con Save the Children, acojamos a esos menores; que España dé ese paso porque nosotros lo vivimos y lo podemos volver a vivir. Ese grito de la máxima responsable de Save the Children en la isla de Lesbos, en el centro de Moria, tiene que tener respuesta. Sea usted ese dirigente europeo que, por lo menos, en el tema de menores dé el paso en las próximas horas.</seg>
                <seg>Muchísimas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u40" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u40" ana="#chair">
                <seg>Gracias, señora Oramas.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra el señor Hernando.</seg>
             </u>
@@ -404,7 +402,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u42" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u42" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Tiene la palabra el presidente del Gobierno en funciones.</seg>
             </u>
@@ -483,7 +481,7 @@
                <seg>Señorías, los papeles lo aguantan absolutamente todo. Señorías, todos somos capaces de llenarnos de bellas palabras, pero hay un enorme contraste entre los papeles y las palabras y los hechos. Por eso, señor Sánchez, nosotros le tenderemos la mano para hacer un Gobierno progresista que no se base ni en cuñadismos ni en buenas palabras ni en papeles, sino en hechos y en garantías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u48" ana="#chair">
                <seg>Muchas gracias, señor Iglesias.</seg>
                <seg>Por el Grupo Parlamentario de Ciudadanos, tiene la palabra el señor Rivera.</seg>
             </u>
@@ -500,7 +498,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u50" ana="#chair">
                <seg>Gracias, señor Rivera.</seg>
                <seg>Por el Grupo Parlamentario de Esquerra Republicana, tiene la palabra la señora Surra.</seg>
             </u>
@@ -510,7 +508,7 @@
                <seg>Señor Rajoy, usted no ha respondido para nada a lo que yo hablé, solo ha intentado descalificarme sin entrar en mis argumentos. Yo no he dicho que los diputados aquí presentes no supieran de lo que hablaban, dije que usted no sabía de lo que hablaba.<note>Aplausos</note> Pero a eso ya nos tiene acostumbrados, no sabe de lo que habla cuando habla de refugiados, de inmigrantes, de parados, de pensiones; en fin, ya nos tiene acostumbrados a no saber de lo que habla en todas las cosas que están pasando. En cuanto a que se vanagloria de España y que está muy feliz de eso porque yo hoy estoy viviendo aquí, me parece que no escuchó o no entendió bien lo que dije. Yo salí de Uruguay en el año 1972, salí de Chile en 1973, entré a Bélgica en 1974 y terminé en Francia en 1975. Si yo hubiera venido a España en ese momento, cuando hubo una dictadura que duró desde el año 1939 a 1979, hubiera estado presa, me hubieran repatriado al Uruguay y, en el mejor de los casos, hubiera estado encarcelada en mi país. Yo no vine a España a pedir refugio; me volví, cuando el pueblo uruguayo logró derrotar a la dictadura en el año 1985, de Francia a Uruguay y pensaba vivir tranquila allí hasta el fin de mis días, pero hete aquí que en Barcelona ha nacido mi nieto y me vine a Barcelona a vivir a mi nieto. Pero, estando en Barcelona, gracias a usted me he adherido al independentismo; usted me dio argumentos para estar hoy en el independentismo catalán y allí no hay ruptura social, como dice el señor. Nosotros vivimos tranquilamente en paz y lo que queremos es un país mejor para nuestros hijos y nuestros nietos, y todos juntos lo vamos a conseguir. La única diferencia que hay entre Cataluña y España en el sentido que usted quiere decir es que el Partido Popular allí es insignificante.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u52" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u52" ana="#chair">
                <seg>Gracias, señora Surra.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> , tiene la palabra el señor Homs.</seg>
             </u>
@@ -527,7 +525,7 @@
                <seg>Gracias, señor presidente, señoras y señores diputados.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u54" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u54" ana="#chair">
                <seg>Gracias, señor Homs.</seg>
                <seg>Tiene la palabra por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , el señor Esteban.</seg>
             </u>
@@ -540,7 +538,7 @@
                <seg>Tengo que referirme también al señor Hernando. Don Rafael me ha citado expresamente y no le he entendido. Quiero pedirle a ver si puede precisar más en su próxima intervención, porque me ha dicho que soy de Bilbao, cosa que es evidente -además soy del Athletic, pues sí-..., pero fíjese, el señor Rajoy ha dicho una cosa muy importante en su segunda intervención que creo que se la debería aplicar. Ha dicho literalmente: lo de los tópicos conviene documentarlo. Lo digo porque yo no sé exactamente de qué me estaba acusando. Supongo que será pues eso, los de Bilbao somos muy echados para delante, pero creo que he dado datos y no creo que ninguno pueda ser negado: que se han entregado responsabilidades a un tercer país, que se autoriza a Turquía a invadir Siria, que Turquía puede llevar a los refugiados a Siria, que no se han creado vías seguras, que Grecia no tiene capacidad para gestionar lo que parece ser que se le quiere entregar, que deberíamos hacerlo desde Grecia y no enviando a la gente a Turquía pero de manera conjunta con agencias europeas. Si esto es de Bilbao..., pues sí, a los de Bilbao nos gusta decir lo que pensamos pero con datos objetivos que no nos inventamos y creemos que se puede hacer. El señor Hernando es arriacense, de Guadalajara..., y con lo que voy a decir ahora no quiero que se me moleste ni el señor Echániz -que aunque es de Valladolid fue concejal del Ayuntamiento de Guadalajara- ni la señora Miguel ni la señora Rodríguez ni la señora Valmaña, que son dignas representantes de Guadalajara. He pensado en este momento: voy a Internet, que suele dar luz, y he visto en la página de la Universidad Autónoma -se la paso luego si usted quiere- dichos de la Alcarria, y he encontrado uno. Esto es como si yo vengo aquí y sin decir nada ni concretar nada -eso es, sin documentar el tópico- digo: mire, dicho de la Alcarria de unos paisanos: 'Para gente embustera, Guadalajara, lo que dicen de noche de día nada'. Pues no se me hubiera ocurrido, así que por favor concréteme exactamente qué es lo que intentaba criticarme.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u56" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u56" ana="#chair">
                <seg>Gracias, señor Esteban.</seg>
                <seg>Para finalizar el turno de los grupos, por el Grupo Parlamentario Popular, tiene la palabra el señor Hernando.</seg>
             </u>
@@ -554,7 +552,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u58" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u58" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Tiene la palabra el presidente del Gobierno en funciones.</seg>
             </u>
@@ -573,13 +571,13 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u60" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u60" ana="#chair">
                <seg>Gracias, señor presidente. Concluye este punto del orden del día.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>CONFLICTO DE ATRIBUCIONES ENTRE EL CONGRESO DE LOS DIPUTADOS Y EL GOBIERNO - PROPUESTA, FORMULADA POR LOS GRUPOS PARLAMENTARIOS SOCIALISTA, PODEMOS-EN COMÚ PODEM-EN MAREA, CIUDADANOS, DE ESQUERRA REPUBLICANA, CATALÁN , VASCO Y MIXTO, DE PLANTEAMIENTO DE CONFLICTO DE ATRIBUCIONES ENTRE EL CONGRESO DE LOS DIPUTADOS Y EL GOBIERNO DE LA NACIÓN COMO CONSECUENCIA DE LA INVASIÓN DE LAS ATRIBUCIONES DE LA CÁMARA PRODUCIDA POR LA DECISIÓN DEL GOBIERNO DE NO SOMETERSE A LA FUNCIÓN DE CONTROL DE LA ACCIÓN DEL GOBIERNO, QUE FUE COMUNICADA MEDIANTE OFICIO DEL MINISTERIO DE LA PRESIDENCIA DE 10/03/2016).</head>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u61" ana="#chair">
                <seg>Pasamos al debate de la propuesta formulada por los grupos parlamentarios Socialista, Podemos-En Comú Podem-En Marea, Ciudadanos, Esquerra Republicana, Catalán<note>Democràcia y Llibertat</note> , Vasco<note>EAJ-PNV</note> y Mixto, de planteamiento de conflicto de atribuciones entre el Congreso de los Diputados y el Gobierno de la nación como consecuencia de la invasión de las atribuciones de la Cámara producida por la decisión del Gobierno de no someterse a la función de control de la acción del Gobierno, que fue comunicada mediante oficio del Ministerio de la Presidencia de 10/03/2016.</seg>
                <seg>Para la defensa de la propuesta, en turno a favor en nombre del Grupo Parlamentario Socialista, tiene la palabra el señor Hernando.</seg>
             </u>
@@ -592,7 +590,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u63" ana="#chair">
                <seg>Muchas gracias, señor Hernando.</seg>
                <seg>Como nadie ha solicitado la utilización del turno en contra, pasamos al turno de fijación de posiciones, empezando por el Grupo Parlamentario Mixto. Tiene la palabra, en primer lugar, la señora Oramas.</seg>
             </u>
@@ -603,7 +601,7 @@
                <seg>Señorías, es cierto que estamos en un nuevo tiempo, y no me refiero a eso que se ha dado en bautizar segunda transición, a la que, por cierto, le falta todo el diálogo y la sensatez que tuvo la transición real. Estamos en un nuevo tiempo en el que se producen en esta Cámara cosas casi surrealistas, inéditas e increíbles. Que un Gobierno se niegue reiteradamente a comparecer ante esta Cámara aduciendo que está en funciones parece, como poco, una broma de mal gusto. La misma expresión lo dice, está en funciones, no de vacaciones, lo que significa literalmente tareas que corresponde realizar a una institución o entidad o a sus órganos o personas. Y en tanto no haya un Gobierno nuevo, lo mínimo que se le puede exigir al actual -así lo contempla la ley- es que cumpla esas funciones, entre las cuales está el ser sometido al control de esta Cámara y dar cuenta de los acuerdos que se tomen y que afectan a la ciudadanía de este país. Una ciudadanía que está ya muy cansada de la inacción, del mirar para otro lado y de la falta de responsabilidad que está demostrando este Gobierno en funciones. Mi partido, Coalición Canaria, entiende que existe el citado conflicto de atribuciones entre el Congreso de los Diputados y el Gobierno de la nación, y cree también que no podemos añadir más inestabilidad al panorama incierto en el que estamos más de cien días después de haberse celebrado unas elecciones generales. Hay que saber separar muy bien los intereses políticos y electoralistas de la gestión y acción institucional. Eso es lo responsable en un Estado democrático. Se está vulnerando la ley y se está faltando al respeto a la institución de donde emana la soberanía popular y en la que se toman las decisiones más importantes de este país, a los diputados y diputadas que la integran y a los millones de ciudadanos que han querido que les representemos. Tengamos altura de miras y no demos más espectáculos innecesarios, que ya habrá tiempo de pensar en clave electoral.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u65" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u65" ana="#chair">
                <seg>Muchas gracias, señora Oramas.</seg>
                <seg>Señor Salvador, tiene la palabra.</seg>
             </u>
@@ -615,7 +613,7 @@
                <seg>Nosotros ya hemos fijado nuestra postura en la Comisión de Defensa y dije varias cosas en su momento. Uno, que hay razones para defender una cosa y la contraria, pero que siendo así nosotros consideramos que en la balanza pesan más las razones a favor del control. No pensamos que tenga que ser una institución de un Gobierno sin control. Y, dos, hubiéramos deseado, no sé cómo decirlo, fair play: diálogo; negociación; pacto; una cierta lealtad; buscar en esta situación de interinidad, con buena fe, una solución pactada. No creemos que sea un drama recurrir al Tribunal Constitucional, porque al final está para eso. Nosotros hubiéramos preferido eso y que no se utilice este debate para otras cosas. Y también abogamos y pedimos que en el futuro evitemos estos problemas modificando la norma para evitar estas diferencias de criterio. No vamos a apoyar esta iniciativa porque, sinceramente, no nos parece sincera. El Partido Socialista defiende hoy aquí un criterio completamente distinto del que defendió en el Parlamento andaluz. Y si ya es sorprendente la posición del Partido Socialista, permítanme que les diga que me parece mucho más sorprendente, yo diría alucinante, la posición de los partidos nacionalistas firmantes de este acuerdo, porque no sé si es que no se lo han leído, si Ciudadanos y el Partido Socialista les han metido un gol, si realmente su nacionalismo es de quita y pon, si han renunciado a sus principios y convicciones nacionalistas o si han sufrido un proceso de conversión masiva realmente notable. Yo les<pb n="63"/> pido que se lo lean porque hasta en cuatro ocasiones se menciona la soberanía nacional, su titular, el pueblo español; se habla de la representación que ostentamos en esta casa como representantes de la soberanía nacional, cuyo titular es el pueblo español. Yo alucino. Quisiera que los portavoces de los grupos nacionalistas que han firmado los antecedentes y consideraciones de esta propuesta nos dijeran qué está pasando aquí. En todo caso, si es por el control al Gobierno, bienvenido ese cambio, pero me da la sensación de que ni unos ni otros hacen que esta propuesta sea votable y sea sincera.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u67" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u67" ana="#chair">
                <seg>Gracias, señor Salvador.</seg>
                <seg>Señora Enbeitia.</seg>
             </u>
@@ -627,7 +625,7 @@
                <seg>Termino. Señor presidente, a los demás presidentes se lo perdonaba, pero a usted, que es de Portugalete, me gustaría pedirle que me llame Enbeita, que es mi apellido, en lugar de Enbeitia.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u69" ana="#chair">
                <seg>Gracias, señora Enbeita.</seg>
                <seg>Tiene la palabra el señor Garzón.</seg>
             </u>
@@ -637,7 +635,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Tenemos en esta Cámara al Parlamento más fragmentado desde 1978; un parlamento heterogéneo, plural, diverso. En teoría, debería ser el reflejo prácticamente exacto de lo que es nuestra sociedad, pero, desgraciadamente, le media una ley electoral injusta que distorsiona este resultado. Sin embargo, en última instancia, aun con esa distorsión, no deja de ser un reflejo más o menos cierto de la propia sociedad, y es aquí donde reside la soberanía popular, donde debería residir con todas sus limitaciones; limitaciones que son de carácter estructural y limitaciones que hemos denunciado en numerosas ocasiones. Pero, en definitiva, esto es lo que hay, no hay ninguna organización o institución en la que pueda residir la legitimidad democrática mejor que en esta y, por tanto, es desde aquí desde donde se construye cualquier sistema político. En la legislatura anterior, el Partido Popular confundió claramente lo que era el Estado y la institución del Gobierno con la del Parlamento y, de hecho, legislaba continuamente a golpe de decreto y ni siquiera permitía a su grupo parlamentario la oportunidad de tener debates en comisiones donde poder enmendar las leyes; era algo que podía hacer con su mayoría absoluta, que distorsionaba el sentido del Parlamento pero que, digamos, se lo permitían los números y esa circunstancia. También renunciaba a comisiones de investigación y, en última instancia, reducía este Parlamento aún más a un teatro de sombras, pero lo que es inconcebible de todas maneras es que en esta situación, totalmente distinta a la<pb n="64"/> de la legislatura anterior, el Gobierno no quiera rendir cuentas, no se preste a hacer lo que fundamentalmente explica el sistema democrático de pesos y contrapesos. A nosotros nos parece una anomalía gravísima el hecho de que ya haya durante muchos meses un Gobierno en funciones que no rinda cuentas, especialmente nos preocupa políticamente porque se trata del Partido Popular, que no es precisamente el partido más transparente de toda la historia, y menos de Europa. Nos preocupa políticamente, pero también porque si hubiera elecciones en nuestro país estaríamos hablando de que habría un Gobierno en funciones que durante más de diez meses no ha rendido cuentas al Parlamento, anomalía democrática gravísima.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u71" ana="#chair">
                <seg>Muchas gracias, señor Garzón.</seg>
                <seg>El señor Baldoví tiene la palabra.</seg>
             </u>
@@ -649,7 +647,7 @@
                <seg>Como representante electo de los ciudadanos valencianos -estoy terminando, señor presidente- y teniendo en cuenta la importancia de estas infraestructuras para la economía valenciana, con aeropuertos y sus conexiones, puertos valencianos que son un referente en tráfico total de mercancías, o del corredor mediterráneo para una de las macrorregiones económicamente más importantes de Europa -recordemos que a un camión le cuesta llegar de Almería a Berlín casi cuatro días cuando en tren tardaría treinta y tres horas, fíjense si es importante esa infraestructura- se puede entender nuestro interés en que la ministra compareciera en la Comisión de Fomento y contestara a alguna de estas preguntas y que nos hiciera algunas aclaraciones. ¿Electoralismo? No, responsabilidad con nuestros electores.</seg>
                <seg>Moltes gràcies, senyor president.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u73" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Legarda.</seg>
             </u>
@@ -664,7 +662,7 @@
                <seg>Voy concluyendo. El debate y votación sobre la presentación de un conflicto de competencias que hoy aquí nos ocupa pretende la restitución de la arquitectura constitucional de las relaciones entre los poderes o de la separación de poderes, que el Gobierno en funciones pretende subvertir amparándose en que está en funciones. Para nosotros Montesquieu no está muerto, aunque ustedes, los miembros del Gobierno, lo pretendan, al menos mientras están en funciones.</seg>
                <seg>Muchas gracias, señor presidente. Muchas gracias, señorías.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u75" ana="#chair">
                <seg>Gracias, señor Legarda.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> tiene la palabra el señor Xuclà.</seg>
             </u>
@@ -682,7 +680,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u77" ana="#chair">
                <seg>Muchas gracias, señor Xuclà.</seg>
                <seg>Por el Grupo Parlamentario de Esquerra Republicana tiene la palabra el señor Tardà.</seg>
                <pb n="68"/>
@@ -699,7 +697,7 @@
                <seg>Salut.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u79" ana="#chair">
                <seg>Gracias, señor Tardà.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos tiene la palabra el señor Girauta.</seg>
             </u>
@@ -711,7 +709,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u81" ana="#chair">
                <seg>Gracias, señor Girauta.</seg>
                <seg>Por el Grupo Parlamentario Podemos-En Comú Podem-En Marea, tiene la palabra el señor Errejón.</seg>
             </u>
@@ -720,7 +718,7 @@
                ana="#regular">
                <seg>Señorías, nos encontramos ante lo que tanto la medicina como la sabiduría popular denominarían un síntoma: un hecho de superficie que nos indica que otro hecho más sólido o más estructural está ocurriendo por debajo. Toser, por ejemplo, sería un hecho aislado, pero indica que el cuerpo puede tener un problema más profundo. En este caso, el síntoma que tenemos delante es bien sencillo: este Gobierno, de facto, está evitando el control de esta Cámara. El Ejecutivo está escapándose a la vigilancia y seguimiento del Legislativo. Nada más y nada menos. Se trata de una agresión formal a la división de poderes, tal y como queda recogida en nuestra Constitución, a la que hay que respetar un poco más y a lo mejor que nombrar un poquito menos. Un principio básico que trata de evitar una ley muy general de la política, según la cual toda fuerza, en ausencia de límites, tiende a expandirse y, finalmente, a corromperse. Porque un poder sin control fácilmente se deslizaría hacia posiciones contrarias a la búsqueda del interés general y a prácticas que amenazarían el pluralismo, como están sospechando ahora ya en nuestro país organizaciones de la sociedad civil y medios de comunicación que estos días, señor ministro del Interior, denuncian que el Gobierno pudiera estar usando las instituciones de todos para hostigar a la oposición. ¡Un verdadero escándalo para el Estado de derecho!<note>Aplausos</note> Por desgracia, este no es el primer síntoma, puesto que hablamos de un Gobierno, como el del Partido Popular, que nos ha acostumbrado a ruedas de prensa a través de una pantalla de plasma. Y es que ustedes a la transparencia y a la rendición de cuentas tienden a resistirse. Un Gobierno que da ruedas de prensa sin prensa conduce a una democracia sin democracia, a una democracia de bajo perfil donde todo principio parlamentario o constitucional parece arrodillarse ante esta tendencia tan actual que consiste en despreciar la producción de leyes parlamentarias a favor de los decretos. Es decir, un deterioro de las funciones básicas de la vida parlamentaria que acaba en una hipertrofia del Ejecutivo, como recordaba el constitucionalista Rubio Llorente al señalar que la proliferación del decreto-ley como forma de intervención del Gobierno en el desarrollo político de un país supone un grave riesgo para la democracia.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u83" ana="#chair">
                <seg>¡Silencio, por favor!</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u84"
@@ -732,7 +730,7 @@
                <seg>Su segunda excusa es la Ley 50/1997, que ampararía, según ustedes, una labor mínima del Gobierno, casi solo administrativa.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u85" ana="#chair">
                <seg>Silencio, por favor.</seg>
                <pb n="72"/>
             </u>
@@ -744,7 +742,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u87" ana="#chair">
                <seg>Muchas gracias, señor Errejón.<note>El señor ministro del Interior en funciones, Fernández Díaz, pide la palabra</note> ¿Señor ministro?</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u88"
@@ -753,7 +751,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Es al amparo del artículo 71 y brevísimamente por una alusión que ha hecho el señor diputado en relación con el Ministerio del Interior, la Policía y unas actuaciones, que son públicas y notorias, de las que se está acusando al ministerio y que, por decirlas en sede parlamentaria, creo que merecen, en aras de la verdad, una brevísima réplica. En treinta segundos estoy listo, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u89" ana="#chair">
                <seg>Treinta segundos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u90"
@@ -763,13 +761,13 @@
                <seg>Sin duda, el señor Errejón se ha referido, en lo que ha dicho desde la tribuna, a unas informaciones que se están publicando estos días. Se está imputando directamente al Ministerio del Interior o a órganos dependientes del mismo, como la Dirección General de la Policía o unidades especializadas como la UDEF, Unidad de Delincuencia Económica y Financiera, de ser los causantes de esas filtraciones y de hacerlo con intencionalidad política en función de los intereses políticos del partido que sustenta al Gobierno en funciones en la actualidad.<note>Aplausos.-Protestas</note> Y yo aquí, en sede parlamentaria -lo he dicho en los pasillos-, desmiento rotundamente esas afirmaciones; las desmiento en sede parlamentaria.<note>Protestas</note> Desmiento rotundamente que el Ministerio del Interior, la Dirección General de la Policía o la UDEF hayamos filtrado nada en ningún momento. Lo estoy diciendo solemnemente en sede parlamentaria. Aquí no hay policía política; no sé en otros países, en España, no.</seg>
                <note>Aplausos.-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u91" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra el señor Bermúdez de Castro.</seg>
                <note>Continúan los rumores.-El señor Iglesias Turrión: Eso es, eso.-El señor Errejón Galván: Eso, mañana en la Comisión</note>
                <pb n="73"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u92" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u93"
@@ -781,11 +779,11 @@
                <seg>Invocan en su escrito, además, un precedente -como también ha dicho el señor Errejón-, de 1981 del Gobierno de la UCD, cuando ni siquiera estaba aprobado el Reglamento de esta Cámara, señorías, que es del año siguiente, del año 1982. Pero no confundan, en ese año no hubo una sesión de control al uso, porque lo que finalmente hubo fue una comparecencia extraordinaria del ministro del Interior en funciones. Pero ya que invocan supuestos precedentes de hace treinta y cinco años se lo voy a poner más fácil todavía. ¿Me pueden decir si conocen un solo caso en que un presidente del Gobierno o un ministro socialista en funciones hayan comparecido en esta Cámara para someterse a control parlamentario en los<pb n="74"/> últimos treinta y cinco años? ¿Me pueden decir un solo caso? No se esfuercen porque no hay ninguno, porque la primera y única vez que un Gobierno en funciones ha comparecido para informar ante esta Cámara desde 1981 ha sido en esta legislatura y precisamente con un Gobierno popular, ¡y encima quieren llevar al Gobierno ante el Tribunal Constitucional! Vaya rigor y vaya papelón.<note>Aplausos</note> Señorías, nosotros no compartimos esta iniciativa y pensamos que, con carácter general, un Gobierno en funciones ni puede ni debe estar sometido a la exigencia de responsabilidad política de una Cámara que no le ha otorgado la confianza. Y esto es así porque el Gobierno en funciones deriva el principio institucional de la prorrogatio, de evitar un vacío de poder y mantener la vida del Estado, y así se estableció en el artículo 101 de nuestra Constitución. Ahora bien, el instituto de la prorrogatio no pretende que el Gobierno pueda seguir actuando como si no hubiese cesado. Muy al contrario, precisamente por estar en funciones y tal como establece el artículo 21 de la Ley del Gobierno, que es el que habla del Gobierno en funciones y no el 26, que ustedes invocan continuamente, tiene unas facultades limitadas al despacho ordinario de los asuntos públicos, no pudiendo desarrollar ninguna política de carácter innovador. ¿Y saben por qué? Porque la ausencia de confianza parlamentaria le priva del requisito indispensable para poder realizar esas políticas innovadoras. Y si las actividades de mera gestión carecen de relevancia política, si el Gobierno en funciones no puede hacer política, entonces, señorías, ¿qué pretendemos controlar? Si el Gobierno se está extralimitando en sus funciones, ¿qué queremos, que estas Cortes realicen una función arbitral que el ordenamiento jurídico reserva en exclusiva al Poder Judicial? Porque si eso es lo que queremos, los que al final nos estaríamos extralimitando en nuestras funciones seríamos nosotros. Por eso no se sostiene esa afirmación de que el Gobierno está incontrolado, porque no lo está; lo que está es muy limitado, porque está en funciones, pero siempre sometido al control jurisdiccional, señorías. No me digan que lo que se pretende no es control sino información, porque a eso el Gobierno nunca se ha negado y tienen el mejor ejemplo esta mañana con la presencia del presidente del Gobierno en funciones. Tampoco me digan que se trata de controlar exclusivamente decisiones que han sido adoptadas por el Gobierno estando en funciones, porque aquí, en esta Mesa, se han calificado comparecencias para pedir explicaciones por actuaciones pasadas. Es lo mismo que esa nueva teoría de que la exigencia de control al Gobierno no se basa en la previa relación de confianza y que, por tanto, el único que ahora está limitado es el Gobierno, pero no así esta Cámara, porque nace de la soberanía popular. Muy bien, eso está muy bien. ¿Pero cómo que no estamos limitados? Lo estamos por ley. ¿Entonces por qué no podemos presentar, por ejemplo, una moción de censura o tramitar unos presupuestos? ¿Cómo que no estamos condicionados? Fíjense si lo estamos, que si no conseguimos formar Gobierno en veinticinco días, nos disuelven automáticamente; ¡fíjense si estamos condicionados!<note>Aplausos</note> Es evidente, señorías, tan evidente como que esta Cámara no puede desarrollar sus funciones en plenitud sin un Gobierno en integridad. Por cierto, es lo mismo que reza el informe del Parlamento de Andalucía, página 12<note>Protestas.-Rumores</note> ; más dosis de coherencia. Ahora, señorías, en vez de buscar una salida pactada y razonable y una posición de equilibrio quieren lanzar a esta Cámara a un conflicto institucional, y sin esperar a que el Tribunal Constitucional se pronuncie, ya anuncian que pretenden someter al Gobierno a una sesión de preguntas de control general en contra de toda norma, de toda lógica política, de todo procedente y además en contra del propio informe de la Secretaría General de esta Cámara, que dijo que solo era posible el control de forma extraordinaria, no ordinaria, y de forma singularizada y no general o por cupos, como son las sesiones de control los miércoles. Por cierto, ¿por qué ahora sí sesiones de control al Gobierno y no a comienzos de febrero? ¿Por qué en febrero no era una prioridad? ¿No sería porque entonces el señor Sánchez iba a intentar en marzo una investidura, verdad? ¿Seguro que no? Pues eso, señorías, qué más quieren que les diga, si son sus actos los que desvelan sus verdaderas intenciones.<note>Aplausos</note> Termino. Allá cada uno con su responsabilidad, pero les diré algo: pueden ganar esta votación, pero no por ello tienen asegurada la razón y mucho menos el respaldo de los españoles, que están perplejos por el continuo espectáculo teatral y el sinfín de fotos, de reclamaciones de sillas, de reuniones, de versiones contradictorias y de idas y venidas que están dando para intentar ocultar la única verdad que es válida en democracia, que es la realidad de los votos. Por mucho que ustedes se empeñen en disimularlo, lo que nos dijo la realidad de los votos es que el Partido Popular volvió a ganar las elecciones, y lo hizo por voluntad de los españoles, que no quisieron el cambio ni, desde luego, que quien perdió las elecciones fuese presidente del Gobierno. Por eso ahora no les salen las cuentas, porque antes no tuvieron los votos. Todo lo demás sobra, señorías, todo lo demás es humo, solo teatro y humo, y cuanto antes lo comprendan, será mejor para todos.<pb n="75"/> Muchas gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Popular en el Congreso, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u94" ana="#chair">
                <seg>Muchas gracias, señor Bermúdez de Castro.</seg>
                <seg>Vamos a pasar a votar la propuesta formulada por los grupos parlamentarios Socialista, Podemos-En Comú Podem-En Marea, Ciudadanos, Esquerra Republicana, Catalán<note>Democràcia i Llibertat</note> , Vasco<note>EAJ-PNV</note> y Mixto, de planteamiento de conflicto de atribuciones entre el Congreso de los Diputados y el Gobierno de la nación. Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 335; a favor, 218; en contra, 113; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-06-CD160406.u95" ana="#chair">
                <seg>Queda aprobada la propuesta de planteamiento de conflicto de atribuciones, que se tramitará de conformidad con lo dispuesto en el artículo 73 de la Ley Orgánica 2/1979, de 3 de octubre, del Tribunal Constitucional.<note>Aplausos</note> Se levanta la sesión.</seg>
                <seg>Eran las cuatro y cinco minutos de la tarde.</seg>
                <seg>http://www.congreso.es Calle Floridablanca, s/n. 28071 Madrid</seg>

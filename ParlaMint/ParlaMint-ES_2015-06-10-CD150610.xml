@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="212">212 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="212" xml:lang="es">212 speeches</measure>
+            <measure unit="speeches" quantity="212" xml:lang="en">212 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="55"/>
                <tagUsage gi="note" occurs="103"/>
                <tagUsage gi="u" occurs="212"/>
-               <tagUsage gi="lb" occurs="548"/>
+               <tagUsage gi="seg" occurs="548"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>PREGUNTAS - DE LA DIPUTADA DOÑA ROSA MARÍA DÍEZ GONZÁLEZ, DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, QUE FORMULA A LA SEÑORA VICEPRESIDENTA DEL GOBIERNO Y MINISTRA DE LA PRESIDENCIA: ¿ESTÁ SATISFECHA POR LOS RESULTADOS QUE HA PRODUCIDO LA LEY DE TRANSPARENCIA EN LA LUCHA CONTRA LA CORRUPCIÓN?</head>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Vamos a comenzar con las preguntas al Gobierno. Preguntas dirigidas a la señora vicepresidenta del Gobierno y ministra de la Presidencia. Pregunta, en primer lugar, la diputada doña Rosa Díez del Grupo de Unión Progreso y Democracia.</seg>
             </u>
@@ -110,7 +108,7 @@
                <seg>Señora vicepresidenta, ¡feliz cumpleaños! ¡Feliz cumpleaños!, señor Lleonart, don Julio, coinciden ustedes.</seg>
                <seg>Una política activa de transparencia es una política capaz de prevenir los grandes males de nuestra democracia: el fraude, la corrupción institucionalizada, el desvío de dinero de las instituciones públicas, el despilfarro... Año y medio después de aprobarse la Ley de Transparencia, le pregunto, señora vicepresidenta, si usted cree que esta ley ha sido efectiva para conseguir estos objetivos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u3" ana="#chair">
                <seg>Muchas gracias, señora diputada.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -122,7 +120,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u5" ana="#chair">
                <seg>Muchas gracias, señora vicepresidenta.</seg>
                <seg>Señora Díez.</seg>
             </u>
@@ -132,7 +130,7 @@
                <seg>Señora vicepresidenta, se suele decir que el infierno está empedrado de buenos deseos. Yo creo que esos objetivos los compartimos todos, pero se ha demostrado que los instrumentos que se han puesto en marcha no son eficaces. Les advertimos de que España llegaba tarde y mal con la Ley de Transparencia. Ustedes hicieron una ley a la defensiva para defenderse de las ansias de transparencia del conjunto de los ciudadanos, de transparencia y de participación, y pusieron tanto empeño en la protección de los datos y levantaron tantas barreras que el acceso a la información se ha convertido casi en imposible. Por eso languidece, señora vicepresidenta, el portal de la transparencia, apenas diez consultas diarias, porque todo son trabas: DNI electrónico, certificado digital y clave que requiere un número de cuenta bancaria. Así lo único que se produce es desistimiento.</seg>
                <seg>¿Cómo prevenir esas lacras? Prevenirlas no era el objetivo de la ley, reconózcamelo, vicepresidenta. Lo debatimos en los debates de totalidad y por eso ustedes hicieron una mala ley, una ley insuficiente, una ley que no reconoce el derecho a la información como un derecho fundamental, la privacidad por encima del derecho a la información, que pone dificultades para acceder a la información disponible, que además en el portal -usted lo sabe bien- es incompleta, que mantiene el silencio administrativo, es decir, si no te contestan es que no, lo más viejo de la más vieja política, que no contiene medidas para sancionar con dureza el incumplimiento -usted hablaba de sanciones, pero prevención y sanciones, las dos cosas- y que no tiene un supervisor independiente. En suma, señora vicepresidenta, tarde y mal. Consecuencias: más frustración, más desapego y más corrupción, malo para la democracia.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u7" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -144,11 +142,11 @@
                <seg>En primer lugar, le recuerdo que usted no apoyó la Ley de Transparencia y que en esta legislatura si hay una transparencia es porque la ha aprobado este Gobierno y usted lleva en la vida política muchos años, con lo que, después de haber militado tanto tiempo en el Partido Socialista, no me diga que ahora descubre la transparencia y la corrupción. En segundo lugar, señora Díez, el portal de la transparencia ha tenido más de 3.259.000 visitas y se formulan solicitudes, señoría, pero a lo mejor la diferencia es que los ciudadanos consideran la transparencia de una manera muy diferente a como la consideramos los políticos y quienes están en nuestro entorno. La gente quiere conocer cómo se toman las decisiones y eso es lo que se encuentra en el portal de la transparencia. Sin embargo, a muchos -a usted en muchas ocasiones- sencillamente les interesa conocer determinadas cuestiones que no tienen nada que ver con el ejercicio de la política.</seg>
                <seg>Señora Díez, a lo largo de esta legislatura usted ha criticado todo y no ha votado nada. No ha votado la Ley de Transparencia ni infinidad de iniciativas que usted proponía, pero cuando se han traído a esta Cámara las ha votado en contra; ha votado en contra hasta de enmiendas que eran idénticas a las suyas y, por incoherente, hoy se votará en esta Cámara a petición suya una moción contra el transfuguismo político. Con su historial, señora Díez, no me diga que no tiene mérito.<note>Aplausos</note> A los políticos nos exigen, además de...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u9" ana="#chair">
                <seg>Gracias, señora vicepresidenta.<pb n="7"/> - DEL DIPUTADO DON ANTONIO HERNANDO VERA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA VICEPRESIDENTA DEL GOBIERNO Y MINISTRA DE LA PRESIDENCIA: ¿MANTIENE LA VICEPRESIDENTA LA INFORMACIÓN QUE TRANSMITIÓ A ESTA CÁMARA EL PASADO 26 DE MAYO SOBRE EL DELEGADO DEL GOBIERNO EN LA COMUNITAT VALENCIANA?</seg>
                <note>Número de expediente 180/001334</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u10" ana="#chair">
                <seg>Pregunta dirigida también a la señora vicepresidenta, del diputado don Antonio Hernando, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u11"
@@ -158,7 +156,7 @@
                <seg>Señora vicepresidenta, el pasado día 26 el Congreso de los Diputados recibió su siguiente respuesta, y abro comillas: 'En contestación a la pregunta de referencia, se informa que el delegado del Gobierno en la Comunidad Valenciana ya ha informado mediante un comunicado que es rotundamente falso que haya recibido cantidad alguna de la empresa mencionada ni directa ni indirectamente. Por otro lado, se informa que todas las adjudicaciones que se mencionan en la pregunta se han realizado mediante concursos públicos a través de un procedimiento legal, con la publicidad correspondiente y con todos los informes debidos'. Cierro comillas. Setenta y dos horas después de esta respuesta, Castellano era detenido por corrupción. ¿Mantiene hoy usted esta respuesta?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u12" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -169,7 +167,7 @@
                <seg>Señor Hernando, a quien no mantiene el Gobierno es al delegado del Gobierno porque la misma mañana en que fue imputado decretó su cese. A ver si se lo toma usted con la misma aplicación.</seg>
                <note>Aplausos.-Rumores y protestas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u14" ana="#chair">
                <seg>Gracias, señora vicepresidenta.</seg>
                <seg>Ruego silencio para que se pueda oír a los oradores.</seg>
                <seg>Señor Hernando.</seg>
@@ -182,7 +180,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u16" ana="#chair">
                <seg>Muchas gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
                <pb n="8"/>
@@ -193,7 +191,7 @@
                <seg>Señor Hernando, usted es consejos vendo que para mí no tengo.<note>Rumores</note> A usted le encanta hablar de corrupción, pero su bancada es su mayor autoenmienda.</seg>
                <note>Protestas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u18" ana="#chair">
                <seg>Un momento, señora vicepresidenta.</seg>
                <seg>Ruego silencio. Al señor Hernando se le ha escuchado con un silencio absoluto en la bancada popular.<note>Continúan las protestas</note> Ruego silencio. Procederé contra el que hable porque necesitamos conocer las opiniones de todos.<note>Protestas.-La señora López i Chamosa pronuncia palabras que no se perciben</note> Silencio, por favor. Señora López i Chamosa, silencio, por favor.</seg>
                <seg>Señora vicepresidenta.</seg>
@@ -205,7 +203,7 @@
                <seg>Señor Hernando, usted pide más incompatibilidades, pero para todos los demás, no para usted, y deben ser solo en España, que no en el extranjero. En segundo lugar, habla usted de imputados. Señor Hernando, yo he asumido mi responsabilidad. Usted tiene sentados en el escaño a quienes se pueden sentar en el banquillo y no vienen a escucharle hablar de corrupción porque les debe dar apuro.<note>La señora Aguilar Rivero: ¿Tú sabes lo que pasa en el Supremo?-Protestas</note> En tercer lugar, señor Hernando, hablamos de delegados del Gobierno...</seg>
                <note>Continúan las protestas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u20" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u20" ana="#chair">
                <seg>Vuelvo a repetir que esto es intolerable. Compórtense.<note>Fuertes protestas</note> Está contestando la vicepresidenta. Escuchen ustedes y, cuando termine, pueden manifestar lo que les parezca. Así se ha hecho siempre aquí y vamos a seguir respetando las normas.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u21"
@@ -215,13 +213,13 @@
                <seg>Yo he asumido mi responsabilidad y el señor Castellano no está en activo. Haga usted lo mismo. He asumido mi responsabilidad y este Gobierno ha traído el mayor paquete legislativo contra la corrupción, pero usted ha votado en contra. Es el mayor aficionado a hablar de corrupción en esta Cámara, pero -¡qué quiere que le diga!- el menos indicado. Vaya tomando decisiones y dé menos lecciones a los demás. Aplíquese el cuento.</seg>
                <note>La señora Grande Pesquero: ¡Qué nivel!-Protestas.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u22" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u22" ana="#chair">
                <seg>Cuando se termina la pregunta es el momento de manifestarse. Estoy dispuesto a esperar.</seg>
                <seg>Ahora ya que han terminado las manifestaciones vamos a seguir.<note>Protestas.-El señor Canongia Gerona pronuncia palabras que no se perciben</note> Señor Canongia, hasta que usted no acabe de expresarse no seguimos. Diga usted lo que quiera ahora. ¿Le parece bastante ya? Pues vamos a seguir con la pregunta dirigida al señor ministro de Justicia.</seg>
                <seg>- DEL DIPUTADO DON CARLOS MARTÍNEZ GORRIARÁN, DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, QUE FORMULA AL SEÑOR MINISTRO DE JUSTICIA: ¿CONSIDERA EL GOBIERNO QUE ESTÁ HACIENDO TODO LO POSIBLE PARA QUE SE RESUELVAN LOS CASOS DE BEBÉS ROBADOS EN ESPAÑA?</seg>
                <note>Número de expediente 180/001317</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u23" ana="#chair">
                <seg>Pregunta que formula el diputado don Carlos Martínez Gorriarán del Grupo Parlamentario de Unión Progreso y Democracia.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u24"
@@ -230,7 +228,7 @@
                <seg>Señor ministro, le voy a preguntar sobre uno de los dramas secretos más increíbles que hay en la historia reciente de España. Me refiero a la trama organizada de secuestro y detención ilegal de bebés. En realidad no es un mero hecho administrativo, sino una historia<pb n="9"/> increíble de vidas robadas, tanto a los niños que fueron apartados de sus madres y padres biológicos como a los padres adoptivos engañados que se quedaron sin saberlo con niños que habían sido robados. Nos acompañan -y aprovecho para saludarles- representantes de algunas asociaciones de bebés robados que tienen quejas sobre la acción del Gobierno y sobre lo que están haciendo ustedes. Esa es mi pregunta: ¿qué están haciendo ustedes para resolver algo que, aunque no sea responsabilidad de su Gobierno, sí lo es del Estado -y, por tanto, de cualquier Gobierno de la nación, que debe investigar a fondo esta trama ilegal de robos de bebés en masa-, y sobre todo para resarcir en sus derechos a las personas afectadas?</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u25" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -243,7 +241,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u27" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Martínez Gorriarán.</seg>
             </u>
@@ -253,7 +251,7 @@
                <seg>Gracias, señor ministro, porque por lo menos no me ha contestado como en las preguntas anteriores: y tú más.</seg>
                <seg>Efectivamente, se trata de qué mas puede hacer el Gobierno, y pensamos que puede hacer bastante más, porque algunas de las cosas que piden estas asociaciones y los afectados parece que son fáciles de resolver o deberían serlo. Por ejemplo, parece que sería más sencillo que los registros acepten los análisis de ADN, parece que sería más sencillo que no tuvieran que hacerlo laboratorios privados con un coste para los afectados; parece que habría que ponerse de acuerdo con las comunidades autónomas para que hubiera también oficinas de atención y registros en las comunidades autónomas y que no solamente haya una en Madrid. En fin, parece también que efectivamente el Poder Judicial tiene su autonomía, aunque a veces no brille, pero en este caso parece que el Gobierno debe impulsar cambios legales o insistir en la fiscalía para que no haya jueces que archiven de un modo automático, como meras faltas administrativas o delitos ya prescritos, lo que a día de hoy siguen siendo -como usted mismo ha reconocido- casos eficaces; es decir, el delito se sigue cometiendo todos los días hasta que no se conozca la verdad de lo que sucedió. Lo que pedimos al Gobierno es que sea más proactivo, que sea más sensible a las demandas de los afectados. Se lo pedimos además por una cuestión de justicia, es decir, es absolutamente indigno de un Estado moderno que hasta los años noventa nada más y nada menos haya sido posible que todo tipo de instituciones del Estado -religiosas, hospitales, etcétera- hayan estado implicados en unas tramas en las que además se han ido destruyendo documentos para que no se pueda hacer una reconstrucción de lo que pasó exactamente. Eso es lo que le pedimos al Gobierno. Evidentemente, no hay muchas cosas de reparación del pasado que estén en su mano, pero sí que en la actualidad se haga todo lo posible para que los afectados sean resarcidos y la sociedad sepa la verdad...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u29" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u29" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -266,7 +264,7 @@
                <seg>Muchas gracias.<note>Aplausos</note> - DE LA DIPUTADA DOÑA MAITE ARIZTEGUI LARRAÑAGA, DEL GRUPO PARLAMENTARIO MIXTO, QUE FORMULA A LA SEÑORA MINISTRA DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE: ¿VA EL GOBIERNO A RESPETAR LA PRODUCCIÓN LÁCTEA DE NUESTRA AGRICULTURA DE MONTAÑA ANTE LA RETIRADA DE CUOTAS LÁCTEAS?</seg>
                <note>Número de expediente 180/001329</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u31" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u31" ana="#chair">
                <seg>Pregunta dirigida a la señora ministra de Agricultura, Alimentación y Medio Ambiente, que formula la diputada doña Maite Ariztegui, del Grupo Mixto.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u32"
@@ -274,7 +272,7 @@
                ana="#regular">
                <seg>¿Va a respetar el Gobierno la producción láctea de nuestra agricultura de montaña ante la retirada de las cuotas lácteas?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u33" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u33" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -285,7 +283,7 @@
                <seg>El Gobierno lleva más de tres años adoptando medidas a favor del sector lácteo para dar viabilidad a todas las explotaciones en un escenario sin cuotas con especial consideración a la ganadería de montaña.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u35" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u35" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>Señora Ariztegui.</seg>
             </u>
@@ -296,7 +294,7 @@
                <seg>Nos preguntamos, ¿hasta cuándo piensan permitir estos proyectos que suponen la desaparición de ganaderos y ganaderas, de producción y tejido rural vivo de nuestras zonas de montaña? ¿No es más sostenible y mejor, por ejemplo, veinte granjas de cincuenta vacas que una de mil? Si no hay una política de defensa de precios, si no hay instrumentos políticos de regulación, nadie va a poder mantenerse al margen de esta situación, nadie va a poder mantener la producción. ¿Cómo van a garantizar esos precios justos? ¿Cómo van a afrontar la deslocalización? No me hable de políticas de ayudas porque no han<pb n="11"/> servido para nada. Tienen instrumentos para abordar esta crisis, no están siendo válidos. No pueden delegar la capacidad de gestión de mercados en manos de Europa. En la medida en que Europa no aborde instrumentos de regulación de mercado, necesitamos y reivindicamos que Euskal Herria pueda gestionar esas medidas en claves de soberanía alimentaria y defensa de un sector vital como pueblo en riesgo de desaparición, apostando firmemente por él, reconociendo el valor de sus productores y lo que nos aportan como consumidores, como sociedad.</seg>
                <seg>Por eso le pregunto, ¿cómo van a intervenir para garantizar precios justos y evitar la deslocalización...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u37" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -307,12 +305,12 @@
                <seg>Señoría, el final de las cuotas lácteas fue sentenciado en el año 2009 bajo el Gobierno socialista y ha coincido con el mayor volumen de producción de leche registrado en España y en Europa. Quiero recordar que la última prórroga de este régimen la consiguió el ministro Miguel Arias Cañete en el año 2003, pero este Gobierno, desde el principio, se ha volcado en preparar al sector para un escenario sin cuotas. Hemos asegurado e incrementado las ayudas de la PAC para el sector lácteo hasta 2020, más de 1.800 millones de euros. Hemos incrementado las ayudas asociadas al sector en un 56 %, que, además, serán mayores para las zonas de montaña y mayores por unidad de ganado para los rebaños más pequeños. El sector va a mantener un nivel de apoyo cercano a los 245 millones de euros anuales, todo gracias al modelo de reforma de la PAC acordado en España en el que el sector lácteo va a incrementar sus apoyos gracias a la solidaridad del resto de los sectores. Se estima que los ganaderos de leche del País Vasco recibirán un 60 % más en ayudas acopladas desde este mismo año. Somos uno de los primeros Estados en aplicar los contratos lácteos, lo hicimos en el año 2012 y hemos modificado su aplicación para mejorar el sistema de contratación -ese que defiende los precios- y reforzar el papel de las organizaciones de productores. Hemos impulsado y seguiremos apoyando a estas organizaciones de productores. Ya el 36 % de los ganaderos pertenecen a ellas y pueden negociar en común la venta de su leche, que es donde está también una parte de obtener mejores precios. Está en vigor el Plan nacional de controles de la contratación del sector lácteo. La Agencia de información y control alimentarios del ministerio investigará las denuncias remitidas por las organizaciones agrarias y sancionará en su caso. Realizamos controles para evitar la leche a pérdidas y, de hecho, ha disminuido enormemente su venta a precios anormalmente bajos. Hemos reducido los índices de módulos del IRPF para el sector en 2014 y 2013, y se hará siempre que sea necesario. Hemos estudiado la evolución del mercado lácteo y se publican sus datos para que los ganaderos cuenten con la mejor información para adoptar sus decisiones.</seg>
                <seg>Seguimos actuando en un nuevo paquete de medidas. Estamos trabajando para establecer la figura del mediador en el sector lácteo. Lanzaremos una campaña divulgativa para facilitar la aplicación de los contratos lácteos. Apoyaremos a las organizaciones de productores mediante la convocatoria de ayuda específica para las de ámbito supraautonómico. Impulsaremos el programa de distribución de leche y productos lácteos en las escuelas. Realizaremos acciones de promoción para aumentar el consumo de productos lácteos. Potenciaremos con las comunidades autónomas las medidas de desarrollo...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u39" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u39" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>- DEL DIPUTADO DON PEDRO SAURA GARCÍA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CREE QUE ES UNA BUENA MEDIDA EN LA LUCHA CONTRA EL FRAUDE QUE LOS DEFRAUDADORES PUEDAN EVITAR QUE SE PUBLIQUE SU NOMBRE SI PAGAN LA DEUDA?</seg>
                <note>Número de expediente 180/001336</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u40" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u40" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Hacienda y Administraciones Públicas.</seg>
                <seg>En primer lugar, pregunta del diputado don Pedro Saura, del Grupo Socialista.</seg>
                <pb n="12"/>
@@ -324,7 +322,7 @@
                <seg>Señor Montoro, ¿cree que es una buena medida de lucha contra el fraude que los defraudadores puedan evitar que su nombre sea publicado en una lista de defraudadores?</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u42" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u42" ana="#chair">
                <seg>Muchas gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -336,7 +334,7 @@
                <seg>Ha entrado ya en la Cámara la modificación de la Ley General Tributaria, que, como su señoría conoce, va orientada precisamente a reforzar esa eficacia de las actuaciones, llevando adelante una iniciativa que ningún Gobierno de España había llevado en relación con la publicación de morosos y defraudadores. No queremos que esto signifique el recargo de las penas que deben soportar a partir de su hipotético fraude -el que han realizado- y tampoco debemos inundar las áreas de privacidad, tal y como nos advierten los informes consultivos al respecto.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u44" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u44" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Saura.</seg>
             </u>
@@ -349,7 +347,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u46" ana="#chair">
                <seg>Gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -360,12 +358,12 @@
                <seg>Si algún día se produce esa situación, no sé si va a darle plena satisfacción o no, señor Saura, porque se va a quedar usted sin la cantinela de su vida, no de esta legislatura. ¿Qué va a hacer sin mí?<note>Risas.-Aplausos</note> Esta sería una cuestión que debería plantearse vitalmente, no ya en términos políticos.<pb n="13"/> El programa del Gobierno, que por supuesto está a disposición de los grupos políticos y entre ellos del suyo, dice que los deudores tendrán una fecha máxima para pagar sus deudas si no quieren aparecer en la lista de deudores y que los defraudadores deberán pagar las cuantías defraudadas por todos los conceptos antes de que haya una sentencia firme que les condene. Cuando el deudor o el defraudador haya pagado lo que debe, el objetivo de la Hacienda y la Agencia Tributaria se habrá cumplido y, por tanto, ya no tiene sentido dar publicidad a unos hechos que la persona en cuestión ya ha reparado. De esta manera seguimos las indicaciones del Consejo General del Poder Judicial y del Consejo de Estado...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u48" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON HERICK MANUEL CAMPOS ARTESEROS, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CONSIDERA EL GOBIERNO QUE EN ESTA LEGISLATURA HA IMPULSADO SUFICIENTES MEDIDAS CONTRA LA CORRUPCIÓN EN LAS ADMINISTRACIONES PÚBLICAS?</seg>
                <note>Número de expediente 180/001337</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u49" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u49" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Hacienda y Administraciones Públicas, que formula el diputado don Herick Campos, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u50"
@@ -374,7 +372,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>¿Considera el Gobierno que esta legislatura ha impulsado suficientemente medidas contra la corrupción en las administraciones públicas?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u51" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u51" ana="#chair">
                <seg>Muchas gracias, señor Campos.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -385,7 +383,7 @@
                <seg>Señor Campos, como ya ha recordado esta mañana la vicepresidenta del Gobierno, a lo largo de esta legislatura el Gobierno ha impulsado medidas contra la corrupción que afectan no solo a las administraciones públicas sino a ámbitos destacados de la vida pública, como los partidos políticos y sus fuentes de financiación, y también a otras organizaciones que reciben fondos públicos, como pueden ser sindicatos y organizaciones empresariales. El objetivo del Gobierno ha sido, por un lado, perseguir la corrupción, y por otro, luchar contra las condiciones que la favorecen. Somos conscientes de que muchas de las iniciativas han llegado cuando han llegado. Seguramente muchos de los casos que hemos conocido estos años no se habían producido si anteriores Gobiernos hubieran aprobado las normas que se han aprobado en esta legislatura. Estamos convencidos de que la falta de controles previos o la insuficiencia de los mismos, en suma la ausencia de medidas eficaces para evitar las condiciones que favorecen la corrupción, están en el origen del gran número de casos que hoy desgraciadamente estamos conociendo.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u53" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Campos.</seg>
             </u>
@@ -395,7 +393,7 @@
                <seg>La Real Academia Española define corrupción como la práctica consistente en la utilización de las funciones y medios públicos en provecho económico o de otra índole de sus gestores. Según esta definición nosotros creemos que no, que no se ha hecho lo suficiente, y no solamente eso, sino que incluso se ha amparado en algunos casos. Su preocupación -y el ejemplo lo han repetido usted y la vicepresidenta- es la percepción que tiene la gente: no actuar realmente. Por eso se amparan en la Ley de Transparencia, porque esa ley permite aún que haya un contrato de Fórmula 1 en la Comunidad Valenciana de 170 millones de euros que es secreto -¿cómo que es secreto un contrato de la Administración pública de 170 millones de euros?- o que haya tenido que venir un juez a decir que el contrato firmado con la empresa Valmor, comprándola por un euro -eso sí, con una deuda de 50 millones-, era secreto también. En eso se ha amparado su Gobierno. Menos mal que va a haber pronto un cambio de Gobierno en la Comunitat Valencia, con Ximo Puig, y esperemos que también lo haya pronto con Pedro Sánchez, para que se acaben estos contratos secretos que tan nerviosos ponen a algunos de<pb n="14"/> sus bancadas. ¿De qué sirve la transparencia, tanta Ley de Transparencia, tanta actuación que dicen que han hecho, cuando tienen un delegado del Gobierno al que le han regalado objetos, según publica la prensa, y que efectivamente los tiene? ¿Alguien le ha preguntado si puede pasar las facturas de estos objetos o de las cacerías? Era tan fácil como eso. No hace falta tanta Ley de Transparencia, sino la voluntad política de acabar prácticas como esa. Podrían haberle dicho: Usted fraccionó, como consejero de todas las consejerías por las que ha pasado, que han sido muchas, muchas facturas. Compañero Serafín -porque era compañero del Partido Popular-, es mejor que te vayas. ¿Cómo puede decir que defiende la transparencia cuando el Consejo General del Poder Judicial tiene que llamar la atención a su Gobierno porque no pone policías para atender a la información del caso Brugal? ¿Cómo puede hablar de transparencia cuando hay una destrucción masiva de papeles actualmente en todos los ayuntamientos y comunidades autónomas del Partido Popular y usted no hace nada? ¿Cómo va a hacer usted algo, si en 2004, cuando se fueron del Gobierno, hicieron lo mismo y nos encontramos todos los despachos con todos los papeles destruidos? Eso no es transparencia.</seg>
                <note>Rumores.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u55" ana="#chair">
                <seg>Muchas gracias, señor Campos.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -407,12 +405,12 @@
                <seg>Por otro lado, es importante extender ese clima de opinión entre los ciudadanos...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u57" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON GERMÁN RODRÍGUEZ SÁNCHEZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CONSIDERA QUE RTVE ESTÁ HACIENDO UN USO ADECUADO DE LOS RECURSOS PÚBLICOS ASIGNADOS EN LOS PRESUPUESTOS GENERALES DEL ESTADO, AL CONTRATAR EL PROGRAMA 'ASÍ DE CLARO'?</seg>
                <note>Número de expediente 180/001338</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u58" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u58" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Hacienda y Administraciones Públicas, del diputado don Germán Rodríguez, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u59"
@@ -422,7 +420,7 @@
                <seg>Señor Montoro, ayer Televisión Española suspendió la emisión del debate del señor Buruaga tras el fracaso absoluto que ha cosechado. Pero este no es solo un fracaso del señor Buruaga, no es solo un fracaso de don José Antonio Sánchez, el presidente que ustedes han puesto a dedo en Televisión Española, es un fracaso del Partido Popular y del Gobierno, porque una vez más los ciudadanos le han dado la espalda a la manipulación, a la propaganda y a la televisión de partido que han impuesto desde que llegaron al Gobierno. Es un fracaso del Partido Popular y del Gobierno, porque ustedes han puesto todo el empeño político en que el señor Buruaga aterrizara en la televisión pública como fuera y a cualquier precio, incluso saltándose la ley. Por todo eso, la pregunta es muy fácil: ¿Considera que ha habido un buen uso de los recursos públicos al contratar el programa del señor Buruaga? Y, dígame: ¿Hasta cuándo van a seguir pagando la propaganda del Gobierno con el dinero de todos los españoles?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u60" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u60" ana="#chair">
                <seg>Gracias, señor Rodríguez.</seg>
                <seg>Señor ministro.</seg>
                <pb n="15"/>
@@ -436,7 +434,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u62" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u62" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Rodríguez.</seg>
             </u>
@@ -449,7 +447,7 @@
                <seg>Señor ministro, ustedes se niegan a acabar con el uso partidista de los medios públicos, pero no se preocupe, los ciudadanos les van a poner muy pronto en su sitio y volveremos a tener una televisión pública independiente y de calidad, al servicio de los ciudadanos y no al servicio del Partido Popular y del negocio de sus amigos.</seg>
                <note>Varias señoras diputadas: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u64" ana="#chair">
                <seg>Gracias, señor Rodríguez.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -461,12 +459,12 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u66" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA MARÍA DEL CARMEN SILVA REGO, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DEL INTERIOR: ¿TIENE INTENCIÓN EL GOBIERNO DE HACER POSIBLE LA SUPRESIÓN DEL SISTEMA DE VOTO ROGADO PARA LAS PRÓXIMAS ELECCIONES GENERALES?</seg>
                <note>Número de expediente 180/001339</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u67" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u67" ana="#chair">
                <seg>Pregunta dirigida al señor ministro del Interior y que formula la diputada doña Carmen Silva, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u68"
@@ -476,7 +474,7 @@
                <seg>Señor ministro, mi grupo ha planteado desde el inicio de esta legislatura la necesidad de suprimir el voto rogado. Hemos admitido el error de aquella modificación electoral que ha dificultado el ejercicio de un derecho político fundamental y ha supuesto que el porcentaje del voto emigrante haya descendido a un 3, un 4 o un 5 %. La casi unanimidad de esta Cámara está dispuesta a acordar su eliminación. Hay acuerdo. Solo depende del Gobierno y del Grupo Parlamentario Popular que esta justa demanda se pueda convertir en una realidad. No hay disculpas para no hacerlo, es la hora de la verdad, no valen subterfugios ni medias verdades. Por eso le pregunto si tiene intención el Gobierno de hacer posible la supresión del voto rogado para las próximas elecciones generales. Nosotros les proponemos que presenten una iniciativa legislativa en el plazo de quince días y que se tramite por la vía de urgencia y en lectura única. Espero de usted una respuesta contundente, espero que diga con claridad si aceptan esta propuesta que, le repito, tiene un apoyo muy mayoritario de esta Cámara.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u69" ana="#chair">
                <seg>Muchas gracias, señora Silva.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -488,7 +486,7 @@
                <seg>En lo que sí coincido es en que ahí toda la Cámara se ha equivocado, pues, efectivamente, la participación en las elecciones generales de 2008 de los votantes inscritos en el censo de españoles residentes ausentes fue del 31,88 %; en las elecciones generales, después de la reforma de 2011, bajó al 4,95 %. Al Gobierno le preocupa y le ocupa, señoría.</seg>
                <pb n="17"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u71" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señora Silva.</seg>
             </u>
@@ -499,7 +497,7 @@
                <seg>En esta Cámara hay acuerdo de la aplastante mayoría de las diputadas y de los diputados de los grupos parlamentarios, excepto del Grupo Parlamentario del Partido Popular, que, por cierto, se reúne con los emigrantes -lo hacen el presidente de la Xunta de Galicia, el señor Prada y los responsables de emigración del ministerio- y los engaña diciéndoles que está dispuesto a suprimir el voto rogado. Ustedes no quieren suprimir el voto rogado. Hoy ha quedado claro en esta Cámara: Ustedes quieren mantener el voto rogado. Me dirijo a los emigrantes: Que sepan que el Gobierno de España y el Partido Popular no quieren suprimir el voto rogado, lo quieren mantener. Lo tienen ustedes muy fácil. Nosotros les apoyamos. Creemos que es fundamental que se presente ese proyecto de ley por parte del Gobierno. Háganlo y, si no, les habrán mentido día tras día...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u73" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Pregunta dirigida...</seg>
             </u>
@@ -508,7 +506,7 @@
                ana="#regular">
                <seg>¿Cuánto tiempo me queda?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u75" ana="#chair">
                <seg>Señor ministro, tiene seis segundos, que son suyos y se los doy, no se los quito.</seg>
                <note>Risas</note>
             </u>
@@ -519,12 +517,12 @@
                <seg>Solo quiero intervenir para decirle, señoría, que se aprobó en la anterior legislatura, gobernando el Partido Socialista. Presenten esa proposición de ley todos los grupos parlamentarios.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u77" ana="#chair">
                <seg>Muchas gracias, señor ministro. Ha aprovechado muy bien su tiempo.</seg>
                <seg>- DEL DIPUTADO DON RAFAEL SIMANCAS SIMANCAS, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA MINISTRA DE EMPLEO Y SEGURIDAD SOCIAL: ¿QUÉ BALANCE HACE EL GOBIERNO SOBRE LA APLICACIÓN HASTA LA FECHA DEL PROGRAMA DE ACTIVACIÓN PARA EL EMPLEO?</seg>
                <note>Número de expediente 180/001340</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u78" ana="#chair">
                <seg>Pregunta dirigida a la señora ministra de Empleo y Seguridad Social. Pregunta el diputado don Rafael Simancas, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u79"
@@ -535,7 +533,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u80" ana="#chair">
                <seg>Muchas gracias, señor Simancas.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -548,12 +546,12 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u82" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>- DE LA DIPUTADA DOÑA MARÍA PILAR LUCIO CARRASCO, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE INDUSTRIA, ENERGÍA Y TURISMO: ¿QUÉ BALANCE HACE EL MINISTRO DE INDUSTRIA, ENERGÍA Y TURISMO DE LA POLÍTICA DE SU DEPARTAMENTO EN ESTA LEGISLATURA?</seg>
                <note>Número de expediente 180/001341</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u83" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Industria, Energía y Turismo. La formula la diputada doña Pilar Lucio, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u84"
@@ -565,7 +563,7 @@
                <note>Aplausos</note>
                <pb n="19"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u85" ana="#chair">
                <seg>Gracias, señora Lucio.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -577,7 +575,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u87" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señora Lucio.</seg>
             </u>
@@ -589,7 +587,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u89" ana="#chair">
                <seg>Muchas gracias, señora Lucio.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -601,12 +599,12 @@
                <note>Aplausos</note>
                <pb n="20"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u91" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA MARÍA GONZÁLEZ VERACRUZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE ECONOMÍA Y COMPETITIVIDAD: ¿CÓMO PRETENDE EL GOBIERNO INCREMENTAR LA COMPETITIVIDAD SIN FORMENTAR LA CIENCIA Y LA INNOVACIÓN?</seg>
                <note>Número de expediente 180/001342</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u92" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Economía y Competitividad. En primer lugar, pregunta de la diputada doña María González Veracruz, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u93"
@@ -615,7 +613,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor ministro, ¿cómo pretende incrementar la competitividad sin fomentar la ciencia y la innovación?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u94" ana="#chair">
                <seg>Muchas gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -626,7 +624,7 @@
                <seg>Señoría, la relación entre I+D+i y competitividad no es del todo clara; tiene mucho más que ver con la productividad, que es un concepto diferente al de competitividad. La productividad sí tiene que ver con la I+D+i y ahí lo que nosotros hicimos fue evitar el colapso que heredamos. Nos encontramos con instituciones quebradas, compromisos internacionales desatendidos, descoordinación, y un modelo de carrera investigadora poco sostenible. En cuanto mejoró la situación económica y presupuestaria actuamos con los principales retos del sistema, como son la optimización presupuestaria, el apoyo al talento, el fomento a la I+D+i empresarial, y su internacionalización. En definitiva hemos tomado medidas para que el sistema sea sostenible y aporte a la productividad y al crecimiento futuro de la economía española.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u96" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora diputada.</seg>
             </u>
@@ -637,7 +635,7 @@
                <seg>Tenemos muy claro los socialistas cómo hay que aumentar la productividad en este país; lo que no tenemos tan claro es que el señor ministro, responsable en la materia, sepa la importancia que la ciencia y la innovación tienen por supuesto en la competitividad y en la productividad. Y le recuerdo, señor ministro, que nosotros dejamos una Ley de la ciencia, la tecnología y la innovación aprobada por toda la Cámara que ustedes han sido incapaces de cumplir y de poner en marcha. No es que lo diga yo; lo han escrito el Consejo Económico y Social, Cotec, las universidades, los sindicatos: la política de ciencia e innovación es clave -leo textualmente- para la competitividad de la economía y también para el bienestar social, que para nosotros son dos conceptos que no pueden ir separados, pero a estas alturas, señorías, ya sabemos cuál es el modelo de la derecha, cuál es su modelo -muy ideológico por cierto- en materia de competitividad y productividad: el despido libre, bajar los salarios, la pobreza laboral, mientras que el nuestro es uno muy opuesto y muy contrario: el crecimiento, claro que sí, pero por medio del conocimiento, del talento, de la inversión en las empresas, de la economía digital. Todo eso es productividad y es algo de lo que ustedes saben muy poco. Llevan cuatro años lastrando la competitividad -la buena- de nuestro país, porque han paralizado el sistema científico, porque han abandonado a las empresas que innovaban, y que con ustedes lo han tenido cada día más difícil, y por tanto también han abandonado la transferencia del conocimiento.<note>Muestra un documento</note> La política de ciencia e innovación del Gobierno de Rajoy ha sido simplemente destrozar la ciencia y la innovación que había en este país y que mucho costó construir, tanto al sistema, a los científicos, a los innovadores como al anterior Gobierno, y por mucho que corran ahora, señor ministro, no van a lavar la cara, como los malos estudiantes, en el último momento. Lo único que han hecho -a pesar de que les ofrecimos un acuerdo el primer día, porque este<pb n="21"/> tendría que ser un tema de país, igual que lo es la educación- ha sido optar por vaciar laboratorios, por quedar impasibles ante el cierre de empresas innovadoras. Han optado por expulsar a los científicos; su Gobierno, que decía que sobraban científicos en este país. En definitiva su marca es la de la mentira, y la mayor simbología la de la agencia estatal de innovación. Ya en junio de 2011 -estamos en junio de 2015- tenían que haberla puesto en marcha. Tres años después, mentiras, mentiras y mentiras.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u98" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -649,12 +647,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u100" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON ANTONIO HURTADO ZURERA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE ECONOMÍA Y COMPETITIVIDAD: ¿CUÁNTO DINERO DA POR PERDIDO EL GOBIERNO DEL RESCATE DEL SISTEMA FINANCIERO?</seg>
                <note>Número de expediente 180/001343</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u101" ana="#chair">
                <seg>Pregunta que formula también al señor ministro de Economía y Competitividad el diputado don Antonio Hurtado, del Grupo Parlamentario Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u102"
@@ -663,7 +661,7 @@
                <seg>Señor ministro, ¿cuántas ayudas se dan por perdidas de las ofrecidas a la banca? Me gustaría saber si usted considera el enorme daño no solamente económico, sino también moral que suponen esas pérdidas. También me gustaría saber si lo que dijo en su día de que el rescate bancario no costaría dinero al contribuyente lo sigue manteniendo.<note>Muestra un documento</note> ¿Eso fue un error de cálculo o una mentira más de este Gobierno?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u103" ana="#chair">
                <seg>Gracias, señor Hurtado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -674,7 +672,7 @@
                <seg>El saneamiento, recapitalización y reestructuración del sistema financiero es una política fundamental, y sin ella no habría recuperación; y le recuerdo que la economía española está creciendo por encima del 3,5 %. Efectivamente nosotros hemos inyectado 40.000 millones, frente a los 30.000 millones de euros que inyectó su Gobierno. De esa cantidad a día de hoy se han recuperado unos 6.000 millones, pero -como sabe usted también, señoría- queda algo más de un 60 % de las participaciones de BMN y Bankia. Respecto al BMN el FROB ha iniciado ya un proceso para dar liquidez a sus acciones -el FROB no va a vender inmediatamente, pero lo tiene que hacer antes de finales de 2017-, y este proceso facilitará la desinversión futura del FROB cumpliendo con nuestros acuerdos. En el caso de Bankia la entidad se privatizará cuando se den las condiciones de mercado. Además BFA, la matriz de Bankia, tiene en activos netos aproximadamente 2.400 millones. Por lo tanto vamos a maximizar el valor de estas participaciones para -como siempre he dicho-<pb n="22"/> devolver a los contribuyentes el máximo posible del dinero que se ha inyectado en las instituciones, de esos 40.000 millones de euros.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u105" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Hurtado.</seg>
             </u>
@@ -684,7 +682,7 @@
                <seg>Señor ministro, le pido respeto. Conteste a la pregunta que se le formula. ¿Cuánto dinero se da por perdido de esas ayudas? Este es el último informe del Banco de España<note>Muestra un gráfico</note> , y dice que el FROB ha perdido ya más de 50.000 millones de euros, y que el Fondo de garantía de depósitos ha perdido cerca de 20.000 millones de euros. Señor ministro, lo del FROB lo vamos a pagar todos de nuestros impuestos, y lo del Fondo de garantía de depósitos lo vamos a pagar también todos con las comisiones bancarias, las cláusulas suelo, y todos los tejemanejes del sistema financiero. Señor ministro, usted quiere aparecer como el bombero del incendio que ha provocado esta crisis financiera, pero le tengo que recordar con todos mis respetos que usted ha sido un pirómano en este caso. Usted ha sido presidente ejecutivo del Lehman Brothers, que cae en la bancarrota. Usted ha sido presidente ejecutivo de Lehman Brothers, que comercializa preferentes. Usted ha comercializado las cuotas participativas de la CAM, 292 millones de euros perdidos por 50.000 minoristas. Usted ha sido consejero del Banco Mare Nóstrum, que ha requerido 1.645 millones de euros de ayudas públicas y el 23 % de su cartera tiene cláusula suelo. Señor ministro, ese ha sido usted: parte activa y actora de esta enorme crisis financiera. Señor ministro, de sus medidas y del código de buenas prácticas el resultado ha sido un máximo de lanzamientos en este país.<note>Muestra un gráfico</note> De las preferentes ha devuelto al usted 1 euro de cada 3 y evidentemente siguen produciéndose 3.200.000 cláusulas suelo. ¡Por Dios! Que no le den el Eurogrupo, por lo que pueda pasar.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u107" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u107" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -696,12 +694,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u109" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON CARLES CAMPUZANO I CANADÉS, DEL GRUPO PARLAMENTARIO CATALÁN<note>CONVÈRGENCIA I UNIÓ</note> , QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿QUÉ VALORACIÓN HACE EL GOBIERNO RESPECTO DE LOS DATOS MÁS RECIENTES PUBLICADOS POR EL INE EN RELACIÓN A LA POBREZA INFANTIL?</seg>
                <note>Número de expediente 180/001332</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u110" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Sanidad, Servicios Sociales e Igualdad.<pb n="23"/> En primer lugar pregunta el diputado don Carles Campuzano, del Grupo Catalán de Convergència i Unió.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u111"
@@ -711,7 +709,7 @@
                <seg>Señor ministro, la encuesta de calidad de vida del INE de 2014 -con datos de 2013- indica que la tasa de riesgo de pobreza para los menores de dieciséis años está en el 30,1 %, es decir, 7,9 puntos superior a la del conjunto de la población y 3,4 puntos más que en el año 2012. En el caso de los hogares con un adulto y con uno, dos o más niños pasa al 42 %. La cuestión es qué piensa hacer el Gobierno para tomarse en serio estas cifras, esta realidad.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u112" ana="#chair">
                <seg>Gracias, señor Campuzano.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -722,7 +720,7 @@
                <seg>El Gobierno se toma muy en serio esta realidad desde el principio, de hecho es la que ha motivado su actuación a lo largo de toda la legislatura. La encuesta a la que usted hace referencia, de condiciones de vida, que publicó el Instituto Nacional de Estadística es la fotografía de cuál era la situación de las familias españolas en el año 2013, y da cuenta de esa situación terrible de incremento de la tasa de riesgo de pobreza. Además como consecuencia de cinco años seguidos de destrucción de empleo, 2013 es el final de ese periodo crítico de la economía española con ese efecto social brutal. La vinculación entre la destrucción de empleo y el incremento de la pobreza es muy expresiva, sobre todo porque el índice que más crece es el número de personas que vive en hogares con baja intensidad de empleo, que en 2009 era del 7,6 % y pasó al 17,1 % en 2013 -según la encuesta de 2014, con datos de 2013-. Por tanto vivimos cinco años de profunda destrucción de empleo con una consecuencia social, que es la que se conoce. A partir de ahí las reformas del Gobierno han conseguido cambiar la situación económica e iniciar una recuperación. La encuesta de población activa del primer trimestre de este año ya indica que hay 185.000 hogares menos con todos sus miembros en paro que antes. Por tanto estamos dando la vuelta a la situación, se está creando empleo, y eso es lo que va a revertir las tasas de pobreza en España.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u114" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Campuzano.</seg>
             </u>
@@ -735,7 +733,7 @@
                <note>Aplausos</note>
                <pb n="24"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u116" ana="#chair">
                <seg>Muchas gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -747,12 +745,12 @@
                <seg>Quiero sentar la profunda vinculación que hay entre empleo y exclusión, y empleo y el incremento de la tasa de pobreza, pero es verdad que España tiene problemas estructurales desde el punto de vista social y que el Gobierno los ha abordado. Uno de los abordajes importantes ha sido en la reforma educativa, reduciendo la tasa de abandono, que así se está produciendo en los colegios. Por tanto más niños tendrán ocasión de tener una formación que les dé una oportunidad de trabajo en el futuro. En definitiva son las mismas líneas que usted expone las que anuncian los planes...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u118" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON MIGUEL ÁNGEL HEREDIA DÍAZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿TIENE PREVISTO EL GOBIERNO ADOPTAR MEDIDAS PARA COMBATIR LA POBREZA INFANTIL?</seg>
                <note>Número de expediente 180/001335</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u119" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u119" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Sanidad, Servicios Sociales e Igualdad que formula el diputado don Miguel Ángel Heredia, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u120"
@@ -761,7 +759,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, ¿qué medidas piensa adoptar el Gobierno para luchar contra la pobreza infantil?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u121" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -772,7 +770,7 @@
                <seg>Señor Heredia, el Gobierno lleva toda la legislatura tomando medidas para luchar contra la pobreza y la exclusión social de las familias, en especial aquellas que tienen hijos a su cargo. Hemos planteado medidas en todos los campos, que ahora hemos reforzado con el Plan integral de apoyo a la familia, que usted conoce. He hecho referencia en mi anterior intervención al Plan nacional de acción para la inclusión social. Sabe que en él se propuso la creación de un fondo de lucha contra la pobreza, que no existía, y cuya dotación hemos ido incrementando a lo largo de los años, y también hemos priorizado la lucha contra la exclusión y la pobreza infantil en los programas de subvención con cargo al 0,7 %. Por tanto nosotros actuamos bajo la recomendación de la Unión Europea de que invertir en infancia significa romper el ciclo de desventajas, protegiendo a la infancia, apoyando a sus familias, por ejemplo, en la última reforma fiscal con apoyos que van a llegar a más de 750.000 familias en España.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u123" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Heredia.</seg>
             </u>
@@ -783,7 +781,7 @@
                <seg>Señor ministro, su Gobierno vive ajeno al drama de las personas que no tienen un empleo, de las personas que han sido desahuciadas o de los niños que viven en pobreza. Entérese, la pobreza infantil tiene que ser una cuestión de Estado, y usted sabe igual que yo que el Plan de familia es un brindis al sol, que no cuenta con recursos económicos ni con medidas concretas para combatir la pobreza infantil. La política es establecer prioridades y las prioridades de su Gobierno han sido apoyar a los bancos, a las grandes rentas, y a los grandes defraudadores de este país. Las prioridades de un Gobierno decente hubiesen sido apoyar a las familias y combatir y luchar contra la pobreza infantil. Es vergonzoso que uno de cada tres niños en nuestro país esté al borde de la pobreza, y que ustedes, su Gobierno, no hagan nada.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u125" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -794,13 +792,13 @@
                <seg>Yo me alegro de que usted desarrolle esta sensibilidad, señor Heredia. Espero que les dure siempre. No la tenían cuando estuvieron en el Gobierno. He explicado antes al señor Campuzano cómo la situación de incremento de pobreza es consecuencia de cinco años de intensa destrucción de empleo, y cómo la política económica que ha puesto en marcha el Gobierno del Partido Popular ya ha dado la vuelta a esa situación, y en la última EPA vimos que 185.000 hogares salían de ese epígrafe de hogares con todos sus miembros en paro. Actuamos también sobre los efectos, y lo hacemos coordinadamente con el conjunto de las comunidades autónomas. Le diré que entre 2008 y 2013 el número de perceptores de rentas mínimas de inserción se incrementó un 81 % -por tanto actuamos para paliar los efectos-, y el total de nuevos perceptores se incrementó en un 136 %. Todas las administraciones están haciendo un gran esfuerzo para paliar los efectos de la pobreza en los hogares españoles. Nosotros conocemos las causas y sabemos cómo hay que combatirlas. Hay que favorecer un crecimiento económico que cree empleo, y que eso llegue al conjunto de las familias. Ustedes en esto lo único que ven es una ocasión de rédito político, son incapaces de asumir la responsabilidad que tuvieron en la crisis. Le digo una cosa, señor Heredia: lo mejor que pueden hacer para ayudar a resolver la situación es no hacer tonterías ni pactos extraños para cambiar la situación económica en España.</seg>
                <note>Aplausos.-Un señor diputado: ¡Muy bien!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u127" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LA NECESIDAD DE UN CRECIMIENTO JUSTO.</head>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u128" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u128" ana="#chair">
                <seg>Interpelación del Grupo Socialista sobre la necesidad de un crecimiento justo.</seg>
                <seg>Para su defensa tiene la palabra el señor Moscoso del Prado.</seg>
                <note>El señor vicepresidente, Barrero López, ocupa la Presidencia</note>
@@ -1056,7 +1054,7 @@
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, SOBRE LA POSICIÓN DEL GOBIERNO EN RELACIÓN AL DRAMA HUMANITARIO QUE SE ESTÁ PRODUCIENDO EN EL MEDITERRÁNEO, LAS PROPUESTAS DE LA UNIÓN EUROPEA EN MATERIA DE POLÍTICA DE ASILO Y LA RESPUESTA DEL GOBIERNO A DICHAS PROPUESTAS.</head>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u157" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u157" ana="#chair">
                <seg>Pasamos a debatir las mociones consecuencia de interpelación urgente que no se pudieron debatir ayer y que van a ser votadas mañana jueves.</seg>
                <seg>La primera de ellas es la moción consecuencia de interpelación urgente del Grupo Parlamentario de La Izquierda Plural, sobre la posición del Gobierno en relación con el drama humanitario que se está produciendo en el Mediterráneo, las propuestas de la Unión Europea en materia de política de asilo y la respuesta del Gobierno a dichas propuestas.</seg>
                <seg>Tiene la palabra el señor Coscubiela.</seg>
@@ -1073,7 +1071,7 @@
                <seg>Termino. Respecto a los derechos civiles y políticos, señorías, quiero hacerles una llamada de atención. Son ustedes conscientes de que el siglo XIX supuso un avance importante al pasar del derecho de voto censitario, solo de propietarios, al derecho de voto por sufragio universal, de momento solo de hombres, porque era demasiado concedérselo a las mujeres. El siglo XX fue el del reconocimiento pleno del voto a las mujeres en algunos países donde estaba restringido al voto de las minorías. El siglo XXI es el siglo del reconocimiento del derecho a voto de las personas no en función de su nacionalidad, sino de su ciudadanía, de donde viven. Lo tenemos que entender y cuanto antes lo entendamos antes dejaremos de infligir sufrimientos innecesarios. ¿Tiene sentido que alguien que vive y trabaja entre nosotros, que paga impuestos, que está sometido a las leyes laborales, de sanidad y de educación, que se deciden en los parlamentos estatal, autonómicos o en las administraciones locales no pueda decidir quiénes son los representantes que acuerdan eso? La verdad es que no. En ese sentido, de la misma manera que ahora nos parece inconcebible que las mujeres no pudieran votar en buena parte del siglo XX o nos parece inconcebible que solo pudieran votar aquellos que tuvieran un determinado patrimonio, pronto va a ser inconcebible que se justifique que solo pueden votar aquellos que tienen la nacionalidad, dejando sin votar a aquellos que no la tienen, a pesar de que son ciudadanos de nuestro país. Por cierto, si alguien tiene dudas en estos momentos de qué es ser de derechas o qué es ser de izquierdas miren la historia. Ser de<pb n="46"/> derechas era el voto censitario, ser de izquierdas era el sufragio universal; ser de derechas era impedir el voto de las mujeres, ser de izquierdas era reconocer el voto de las mujeres; ser de derechas hoy es negar el derecho de voto a los ciudadanos que no tienen la nacionalidad.<note>El señor Puche Rodríguez-Acosta pronuncia palabras que no se perciben</note> Por si alguien tiene alguna duda. Esa duda no la he abierto por usted, esa duda no va por ustedes porque sé que ustedes tienen muy claro lo que es ser de derechas, sobre todo eso.<note>El señor Puche Rodríguez-Acosta pronuncia palabras que no se perciben</note> Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u159" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u159" ana="#chair">
                <seg>Gracias, señor Coscubiela.</seg>
                <seg>A esta moción se ha presentado una enmienda por el Grupo Socialista y para su defensa tiene la palabra la señora Esteve.</seg>
             </u>
@@ -1088,7 +1086,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u161" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u161" ana="#chair">
                <seg>Muchas gracias, señora Esteve.</seg>
                <seg>En turno de fijación de posiciones, por el Grupo Mixto, en primer lugar, tiene la palabra el señor Baldoví.</seg>
             </u>
@@ -1100,7 +1098,7 @@
                <seg>Nos unimos a la moción presentada por el Grupo Parlamentario de La Izquierda Plural y exigimos un cambio radical de las políticas adoptadas. Los movimientos fronterizos se deben, en su mayoría, a situaciones forzosas, tras las cuales existe sufrimiento y obligación de emigrar. Por tanto, creemos que se debería enfocar desde una perspectiva humanitaria y no económica, tal como vemos que sucede actualmente con políticas como las llamadas Golden Visa, aprobadas en 2013, mediante la Ley de Emprendedores, que agilizan la expedición de residencia en caso de solicitarse con la finalidad de invertir en ladrillo o en deuda o de montar una empresa, siendo el inmueble de más de 500.000 euros. Quizás cabría recordar al Gobierno qué convenios internacionales ha firmado y qué es un refugiado, que es ni más ni menos que una persona perseguida por motivos de raza, de religión, de nacionalidad, de pertenencia a un determinado grupo social o por opiniones políticas. Por eso -acabo-, quiero remarcarles que el blindaje de la frontera, el rechazo y el endurecimiento del derecho a la solicitud del asilo no son el camino, señoras y señores del Partido Popular.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u163" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u163" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Tiene la palabra la señora Oramas.</seg>
             </u>
@@ -1112,7 +1110,7 @@
                <seg>Nuestro país tiene que estar en este momento decididamente con Italia y con Grecia. Le digo al Gobierno una cosa: El mayor trabajo que se hizo en España fue con los menores inmigrantes no acompañados, uno de los principales problemas que tiene Italia. Tenemos los medios, tenemos los profesionales, tenemos la experiencia y tenemos los recursos. Ofrezcamos a Italia este tema, por ejemplo. Esto no afecta al empleo en la situación de crisis que tenemos. Seamos solidarios, porque dentro de nada nos vamos a ver en la misma situación. En aquel momento nosotros gritábamos a Europa diciéndoles que los inmigrantes -aparte del drama humanitario de los miles que se quedaban en el mar- no venían a Canarias ni a España, estaban saliendo de la muerte, del hambre y estaban viniendo a Europa. Este es un tema europeo. Ahora, de pronto, cambiamos el discurso y les decimos que a nosotros nos corresponden 5.000 o 3.000, que es nuestra cuota. ¿Pero qué es esto? Ese no era nuestro discurso, ni el del PP, ni el del PSOE, ni el de los nacionalistas de Convergència i Unió, ni el de Coalición Canaria en los años 2006 y 2007. Entonces se cerraron filas y hubo una actuación decidida en África de cooperación, diplomática y con toda Europa. Nos costó introducir ese mensaje en aquel momento. Pido reflexión y pido consenso político.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u165" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u165" ana="#chair">
                <seg>Muchas gracias, señora Oramas.</seg>
                <seg>A continuación, y también por el Grupo Mixto, tiene la palabra el señor Iñarritu.</seg>
             </u>
@@ -1125,7 +1123,7 @@
                <seg>Acabo, señor presidente. En definitiva, en nuestra opinión, hay que cambiar radicalmente las políticas de extranjería en el Estado, y todo ello con arreglo a la legalidad, al sentido común y al humanitarismo. Señores del PP, dejen de premiar a vírgenes y a santos y hagan mayor dolor de los pecados y propósito de enmienda.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u167" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u167" ana="#chair">
                <seg>Muchas gracias, señor Iñarritu.</seg>
                <seg>Por el Grupo Vasco, PNV, tiene la palabra el señor Olabarría.</seg>
             </u>
@@ -1137,7 +1135,7 @@
                <seg>¿Eliminar el test de integración? Es que lo del test de integración es un chiste de Lepe. ¿Cómo se configura un test de integración metacultural en otro país? ¿Hay que hacer un curso de sevillanas o participar en un concurso de tortilla de patatas? ¿Cómo se identifica que una persona está metaculturalmente integrada y que por tanto está legitimada para formar parte de un colectivo humano diferente, un colectivo humano diferente solo porque pertenece a una Administración y a unas instituciones diferentes, no porque sea más humano aquel colectivo sobrevenido al que adviene?</seg>
                <seg>Y en materia de derechos civiles, en materia de reciprocidad, a efectos del ejercicio del derecho de sufragio activo y pasivo, estoy totalmente de acuerdo. En cuanto a cerrar los centros de internamiento, la señora Esteve ha comentado cuáles son las características de nuestros centros de internamiento.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u169" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u169" ana="#chair">
                <seg>Señor Olabarría, tengo que llamarle la atención sobre el tiempo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u170"
@@ -1148,7 +1146,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u171" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u171" ana="#chair">
                <seg>Muchas gracias, señor Olabarría.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia tiene la palabra la señora Lozano.</seg>
             </u>
@@ -1159,7 +1157,7 @@
                <seg>Señorías, estamos ante algo que conviene llamar por su nombre, una crisis humanitaria; lo que está ocurriendo en el Mediterráneo es una crisis humanitaria. Desde el punto de vista de mi grupo, se comprueba que las políticas del Gobierno no tienen corazón, pero les pedimos que por lo menos tengan cabeza. Lo que está ocurriendo es que el pasado año murieron 3.500 personas que trataban de llegar a Europa huyendo, en un 80 % de los casos -cifra de Frontex-, del conflicto, de la guerra y de la muerte segura. Algunos de esos sirios, por ejemplo, que se arriesgan en una aventura como esa, han declarado que prefieren arriesgarse a morir una vez cruzando el Mediterráneo a exponerse a morir varias veces al día en su propio país. Por lo tanto, nos enfrentamos a una situación límite, que pone a prueba -insisto- nuestro corazón como ciudadanos y como legisladores, pero también nuestra cabeza y la sensatez de las políticas<pb n="50"/> que se aplican. El 80 % de esa gente que huye procede de países como Siria, Eritrea, Somalia o Afganistán y, por lo tanto, tienen derecho a una protección internacional, al estatuto de asilo o de refugio.</seg>
                <seg>Sin duda, somos conscientes de que la cuestión migratoria es un problema complejo y que hay que combinar políticas migratorias, políticas de cooperación, la propia política exterior y la acción diplomática; en muchos casos se trata de políticas cuyos efectos se ven en el largo plazo y todo esto está agravado porque ocurre en una frontera europea sobre la cual se pronuncian veintisiete países, cada uno con sus distintos intereses nacionales, casi siempre o a menudo antepuestos a los intereses comunes y a las soluciones humanitarias. Pero en medio de toda esa maraña, de toda esa complejidad de políticas, de intereses, de legislaciones, etcétera, emerge con bastante claridad la cuestión que urge abordar y que nos insta a abordar esta moción de La Izquierda Plural, y es que están muriendo miles de personas a las puertas de Europa ante nuestros ojos, y esos muertos, señorías, nos interpelan. Desde el punto de vista de mi grupo, no hay ninguna duda de cuál debe ser la prioridad de los Gobiernos europeos, que es algo tan sencillo como impedir que esa escandalosa cifra de muertos siga creciendo, primero, porque son vidas humanas las que se están perdiendo y, segundo, porque la pasividad ensucia nuestra conciencia de ciudadanos europeos. Sucede además que este aumento escalofriante de muertos no ocurre por casualidad, sino que está directamente relacionado en algunas ocasiones con causas lejanas -las guerras, los conflictos y el hambre-, pero también tienen causas muy cercanas y muy directas y decisiones políticas concretas que se han tomado desde nuestro país o desde las instituciones comunitarias, y mencionaré solo dos, solo las más evidentes. Se decidió suspender la operación de protección y rescate de personas Mare Nostrum y sustituirla por la operación Tritón, que tiene un mandato de control de fronteras. Se cambió radicalmente la política europea de proteger a las personas y rescatarlas en el mar por la de ver la manera de zafarse de ellas, y eso produce muertos directos, porque Mare Nostrum tenía competencias para acercarse a las fronteras del norte de África en busca de personas a las que salvar y Tritón no las tiene, por poner solo un ejemplo. La segunda decisión política que tiene consecuencias directas, que causa directamente muertos es el bloqueo, dificultar los procedimientos de llegada legal de personas que tienen derecho a una protección internacional, al estatuto de asilo o de refugio; bloqueo por procedimientos tan poco civilizados como la valla que se ha construido en la frontera de Bulgaria y Turquía para impedir precisamente la llegada de refugiados sirios, o bloqueo por otra manera más sutil: la política que lleva a cabo este Gobierno de no cumplir con los cupos asignados, de comprometerse en sede parlamentaria -porque lo ha hecho a petición de mi grupo el ministro de Asuntos Exteriores- a aceptar más refugiados sirios e incumplirlo después de manera sistemática. Señorías, no solo estamos dejando morir a gente en el Mediterráneo, sino que también estamos permitiendo que toda la presión de quienes huyen de la guerra en Siria, por ejemplo, sea soportada por países limítrofes como Líbano o Jordania, convirtiendo a la zona en un polvorín aún mayor de lo que es. Estas decisiones de hoy también tendrán consecuencias mañana. Se trata de decisiones políticas que causan muertes y que no están justificadas desde ningún punto de vista por la presión migratoria, como a menudo nos quiere hacer creer el Gobierno. Daré solo un dato, cuya fuente es el Instituto Nacional de Estadística: en el año 2014, el saldo migratorio en España fue de 25.693 personas menos; es decir, no solamente no sufrimos presión migratoria, sino que es más la gente que sale de España que la que entra. Por tanto, no está justificado desde ningún punto de vista, salvo desde una absoluta cerrazón y dogmatismo ideológico, que se pongan tantas trabas a gente que merece el estatuto de refugiado, el estatuto de asilado, en suma una protección internacional. Creemos que es obligación de nuestro Gobierno cumplir los cupos pactados en la Comisión Europea con los socios europeos, establecer y buscar alianzas con países -también se ha dicho aquí- que sufren situaciones que nosotros podemos sufrir mañana, con los países con los que constituimos la frontera sur de Europa, como Italia y Grecia, e impulsar el restablecimiento de una misión europea de rescate y protección de personas, de salvamento, una misión como era Mare Nostrum, así como facilitar el asentamiento legal para evitar...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u173" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u173" ana="#chair">
                <seg>Señora Lozano, tiene usted que acabar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u174"
@@ -1170,7 +1168,7 @@
                <seg>Muchas gracias, presidente.</seg>
                <pb n="51"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u175" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u175" ana="#chair">
                <seg>Muchas gracias, señora Lozano.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , tiene la palabra el señor Campuzano.</seg>
             </u>
@@ -1184,7 +1182,7 @@
                <seg>Votaremos a favor de la moción que nos plantea el señor Coscubiela, aunque hay dos cuestiones que merecerían más reflexión que el debate de esta mañana: la reforma del acceso a la nacionalidad, un debate muy importante que en estos quince años de fenómeno migratorio no hemos abordado, y los centros de internamiento, donde la cuestión no es tanto si hay que cerrarlos o no, sino si tenemos un modelo alternativo a los CIE hoy existentes. Ahí invito a La Izquierda Plural y al señor Coscubiela a huir del titular y a entrar a fondo en la materia, donde las cuestiones son mucho más complejas y al mismo tiempo pueden ser más útiles en defensa de los derechos de las personas, y al mismo tiempo de una política de inmigración que sea coherente.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u177" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u177" ana="#chair">
                <seg>Muchas gracias, señor Campuzano.</seg>
                <seg>Por el Grupo Popular tiene la palabra el señor Escobar.</seg>
             </u>
@@ -1196,7 +1194,7 @@
                <seg>Les voy a dar un testimonio personal; no me gusta, pero como estamos pocos diputados. Tengo la inmensa fortuna de echar una mano en un comedor social en Logroño, en Cocina Económica. Ahora mismo que se acerca la vendimia puedo decirles que de las 400 comidas diarias que repartimos en el<pb n="52"/> comedor 300 son a inmigrantes, en números redondos. Les puedo asegurar que al inmigrante se le ayuda con el empleo, se le ayuda con la atención, con los programas que hay en marcha, pero como no se le ayuda es con la demagogia, con todo el cariño lo digo. Como no se le ayuda es desde la demagogia, y en ese sentido quiero decir que la solidaridad se practica, pero no se exhibe con grandes discursos, creo que hay que hacerlo de otra manera. Por eso digo que estamos ante un problema global, un problema profundo que ni más ni menos supone que 232 millones de personas en todo el mundo cambien de país empujadas por diferentes motivos. La vertiente humanitaria claro que es fundamental, pero también lo debe ser la seguridad o la propia soberanía. En este contexto tengo que decirles que España es un país de acogida. Replicando a la portavoz de UPyD tengo que compartir un dato. De los 895.000 inmigrantes en 2004 hemos pasado a 5 millones en 2014 en España, el país que más ha crecido en número de inmigrantes. Añado más datos: 7.300 kilómetros de costa; Ceuta y Melilla son los pasos fronterizos más transitados de todo el mundo. Esta es nuestra realidad. ¿Eso qué ha hecho de nosotros, de este país? Un país de acogida. Y les voy a dar dos datos. ¿Hasta qué punto podemos estar satisfechos todos los españoles de la labor que se viene haciendo entre todos los Gobiernos, que no digo que sea mérito del Partido Popular, sino de todos los Gobiernos? El 80 % de los hijos de inmigrantes se siente español. Eso no pasa en ningún país de Europa. Según el centro Pew Research el sentimiento de rechazo es de los menores de toda Europa. ¿Eso a dónde nos lleva? A decir que la política de inmigración en España es un éxito colectivo. Para que siga siendo así los proyectos se tienen que seguir haciendo con responsabilidad, pero también con legalidad. ¿En qué se basa la legalidad? En cuatro ejes: prevención en origen, cooperación operativa, lucha contra las redes de tráfico, y mejora en la gestión de fronteras. ¿Cuál es el principal instrumento? Agenda Migratoria Europea, que se aprobó el pasado 13 de mayo en la Unión Europea, y que es la que estamos defendiendo desde España en el G-6, en las reuniones bilaterales, en Mauritania por el ministro del Interior, en Marruecos, en Níger, en Chad, etcétera. Les recuerdo que el mayor flujo desgraciado -digo desgraciado porque lamentablemente muchas personas murieron- se produjo en España en los años 2005 y 2006, con la llamada crisis de los cayucos. Llegaron 38.000 personas -la señora Oramas lo ha dicho- a Canarias. A partir de esas situaciones España ha aprendido y hemos reducido en un 90 % el tráfico ilegal en el Atlántico, pero todo es poco, porque no se pueden poner puertas al campo y mucho menos al mar, valga el refrán, y por ello impulsamos una agenda europea sobre migraciones.</seg>
                <seg>En lo que respecta al asilo -señor presidente, le pido, por favor, un poco de clemencia en el uso del tiempo- me parece importante compartir con ustedes este dato: España felizmente para todos sigue siendo un país de asilo. Se ha incrementado esta protección en un 40 %. Hemos pasado de 2.588 en 2012 a 5.845 en el 2014, y para quien se haya quejado de que aquí no hemos tenido sensibilidad con el desplazado de Siria hay que decir que todas las solicitudes de protección de nacionales sirios han sido admitidas. Las oficinas de asilo en Ceuta y Melilla han contado incluso con la propia Agencia Europea de Apoyo al Asilo, dando formación a los responsables. Por cierto que hay que decir que esas oficinas tienen cobertura legal gracias a la Ley de protección de la seguridad ciudadana, la que ha sido tan criticada por parte de la izquierda. Esa ley brinda ahora mismo esa protección para aquel que pueda ser objeto de la protección de asilo, y por eso tenemos que decir que España es profundamente solidaria. La residencia temporal, señorías, gracias a la Ley de Extranjería de la Administración socialista, se contempla con un régimen mucho más amplio que en la propia directiva europea. Es decir, somos más generosos en la aplicación de la directiva. Los tiempos de expediente se han reducido en un 60 %, las devoluciones, expulsiones y denegaciones en entrada se han reducido en un 20 % respecto al año 2013, y en un 15 % las expulsiones, y de todas ellas el 80 % -para que pongamos cada cosa en su justa medida- son personas que están en situación irregular y con antecedentes. Es una mención importante a la labor de los centros de internamiento, porque ustedes proponen simple y llanamente cerrarlos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u179" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u179" ana="#chair">
                <seg>Señor Escobar, le he dado unos minutos y tiene usted que acabar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u180"
@@ -1204,7 +1202,7 @@
                ana="#regular">
                <seg>Como me ha felicitado, pensaba que...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u181" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u181" ana="#chair">
                <seg>El regalo de cumpleaños era de dos minutos, pero ya han pasado.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u182"
@@ -1216,7 +1214,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u183" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u183" ana="#chair">
                <seg>Muchas gracias, señor Escobar.</seg>
                <seg>¿Señor Coscubiela, le ha presentado una enmienda la señora Esteve?</seg>
             </u>
@@ -1225,7 +1223,7 @@
                ana="#regular">
                <seg>Sí. Estamos trabajando en la posibilidad de una enmienda transaccional que recogería algunas de las inquietudes planteadas. Intentaré que sean todas...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u185" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u185" ana="#chair">
                <seg>Tiene usted tiempo hasta mañana.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u186"
@@ -1233,12 +1231,12 @@
                ana="#regular">
                <seg>Intentaré que sean todas menos esa voluntad del Grupo Popular de llamar a los pobres inmigrantes. Son pobres, con independencia de dónde hayan nacido.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u187" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u187" ana="#chair">
                <seg>Eso ya lo redactará usted como le parezca. Muchas gracias, señor Coscubiela.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, SOBRE LAS MEDIDAS QUE PIENSA LLEVAR A CABO EL GOBIERNO PARA RENOVAR Y ACTUALIZAR EL ACUERDO SOBRE UN CÓDIGO DE CONDUCTA EN RELACIÓN CON EL 'TRANSFUGUISMO'.</seg>
                <note>Número de expediente 173/000218</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u188" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u188" ana="#chair">
                <seg>Moción del Grupo de Unión Progreso y Democracia sobre las medidas que piensa llevar a cabo el Gobierno para renovar y actualizar el acuerdo sobre un código de conducta en relación con el transfuguismo. La defensa de la misma la hará el señor Martínez Gorriarán.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u189"
@@ -1253,7 +1251,7 @@
                <seg>En fin, lo que pretendemos es que esta moción y otras que en el futuro pudieran discutirse vayan a profundizar en algo que tiene la mayor importancia, y que -insisto- es la defensa de la democracia representativa como el sistema político mejor para las sociedades complejas en las que vivimos; cualquier otra alternativa suele ser por lo general peor, y a veces perversa. El transfuguismo tiene aquí no solamente un valor de importancia legal para mantener -como se ha dicho y todos los grupos han repetido en sus intervenciones- el respeto a la voluntad popular expresada en las urnas, sino que tiene otro valor importante, que es el de la ejemplaridad. Un tránsfuga debería ser siempre un paria político en todas las instituciones. Para eso pensamos que no es suficiente con un código de buena conducta, pero en este caso hemos aceptado la enmienda del Grupo Parlamentario Socialista, porque por lo menos nos contentaríamos con mejorar el actual y ampliarlo al conjunto de las instituciones.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u190" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u190" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Como muy bien ha dicho el propio diputado, hay una enmienda del Grupo Parlamentario Socialista, y para su defensa tiene la palabra la señora Castellano.</seg>
             </u>
@@ -1266,7 +1264,7 @@
                <seg>Dicho esto no podemos olvidar que nuestro sistema es una democracia representativa; lo esencial para que una persona represente legítimamente a otra es la confianza que se otorga de representante a representado. La confianza es la clave de la auténtica representatividad. En el mundo político, por el mismo índole de los asuntos a tomar, es decir, por tratarse de asuntos generales, de interés general, el representante es mucho más que un gestor, puesto que no tiene un mandato concreto para un asunto concreto; de ahí la prohibición constitucional de mandato imperativo, que convertiría a los representantes en delegados o a los diputados en procuradores. El representante político tiene que vérselas con asuntos impensados, con circunstancias nuevas, y no puede desempeñar su papel si los representados limitan su<pb n="56"/> ámbito de actuación. El vínculo que liga a representante y representado no es otro que la confianza. Ahora bien no podemos dejar de lado ni olvidar el papel de los partidos políticos en este aspecto. Hay que ser conscientes de que cuando los ciudadanos y las ciudadanas en el momento de ejercer su derecho al voto no solo votan a una candidatura o a unos determinados representantes, sino que lo hacen porque dichos representantes han adquirido explícitamente el compromiso de llevar a cabo el ideario político y programático de un determinado partido; es decir, a la hora de depositar su confianza la ciudadanía lo hace en una candidatura, sí, pero también en un partido político. En palabras de Kelsen: la democracia solo es posible cuando los individuos, a fin de lograr una actuación sobre la voluntad colectiva, se reúnen en organizaciones definidas por diversos fines políticos. Con esto quiero poner de manifiesto el íntimo vínculo que existe entre elector y elegido, pero también entre el tercer firmante de ese pacto democrático, que no es otro que los partidos políticos. Por ello la ciudadanía tiene una expectativa que no ha de verse defraudada sobre el deber de entendimiento y lealtad que ha de regir entre un partido político y la candidatura que este presenta a las elecciones, puesto que cuando el votante ejerce su derecho designa a su representante, sí, pero con la condición de que estos cumplieran su compromiso de hacer efectivo el programa electoral del partido con el que concurrieron a las elecciones.</seg>
                <seg>Por tanto cuando se produce un caso de transfuguismo, además hay una profunda quiebra del sistema, de la confianza, de la lealtad y de la coherencia que la gente espera de sus representantes. La quiebra se produce de cara a un partido, es cierto, pero sobre todo de cara a una ciudadanía que se siente estafada, siente no haber depositado su confianza en personas que lo único que desean es mejorar sus expectativas de futuro, sin que realmente existan auténticas motivaciones ideológicas. Con el transfuguismo se pierde la vocación de servicio público, que es la que ha de guiar toda actuación de los cargos electos. Además es nefasta en otros muchos aspectos: falsea la representación política, debilita el sistema de partidos, perjudica la gobernabilidad y la estabilidad, favorece la corrupción y deteriora gravemente la cultura y la calidad democráticas. Por muy deleznable que sea esta práctica, no debemos olvidar que lo que se propone en el punto 3 de la moción da de bruces con lo establecido en la Constitución, que prohíbe explícitamente el mandato imperativo en su artículo 67.2. Choca también con la doctrina establecida hasta el momento por el Tribunal Constitucional, que si bien reconoce la función de los partidos políticos, no lo hace como titulares del derecho mismo a la participación, sino como instrumentos fundamentales que son para hacerla posible, concurriendo, como la Constitución quiere, a la formación y manifestación de la voluntad popular. Los casos más emblemáticos en esta materia fueron objeto de dos sentencias del Tribunal Constitucional, la 5/1983 y la 10/1983, en las cuales se declaró inconstitucional el artículo 11.7 de la Ley de Elecciones Locales, que preveía precisamente lo que se pide en el punto 3 de esta moción: la pérdida de condición de concejal a quien dejara de pertenecer a un partido por el cual fue elegido. El tribunal declara inconstitucional este precepto diciendo que, una vez elegidos, los representantes no lo son de quienes los votaron, sino de todo el cuerpo electoral, y titulares por tanto de una función pública a la que no pueden poner término decisiones de entidades que no son órganos del Estado en el sentido más amplio del término. He aquí el porqué de nuestra enmienda. Lo que venimos a decir es que desde el Partido Socialista desde luego impulsará todas aquellas medidas dirigidas a mejorar nuestra salud y calidad democráticas, porque no en vano tenemos un compromiso con la transparencia, con la ética, y con el servicio público, valores en los que creemos firmemente, y que haremos todo lo posible por salvaguardar en todas y cada una de las instituciones en las que tengamos representación, pero desde luego nunca lo haremos perdiendo de vista derechos fundamentales como el de la participación política.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u192" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u192" ana="#chair">
                <seg>Señora Castellano, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u193"
@@ -1276,7 +1274,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u194" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u194" ana="#chair">
                <seg>Muchas gracias, señora Castellano.</seg>
                <seg>En turno de fijación de posiciones por el Grupo Vasco PNV tiene la palabra el señor Esteban.</seg>
             </u>
@@ -1289,7 +1287,7 @@
                <seg>Insisto, hay que cambiar la Constitución. Yo no me opondría a que hubiera de nuevo una reunión de la Comisión de seguimiento y poder renovar los pactos, pero creo que lo aprobado hasta el momento ha dado sus frutos también legislativamente. No estoy de acuerdo en que solo se aplique en materia municipal. Es cierto que ahí se han producido los cambios legislativos básicamente, pero creo que el acuerdo -y más en estos tiempos que corren- alcanza a todos los ámbitos a nivel estatal, autonómico y local. Ahora bien, lo que no puede hacer este Parlamento es influir en lo que suceda en el Parlamento Europeo. Evidentemente, allí tendrán que presentar ustedes las iniciativas pertinentes y ver cómo se puede enfocar en ese ámbito. Yo creo que esto sí está básicamente encauzado y no creo que haga falta inventar nada, sino mantener los compromisos y los acuerdos a que cada partido haya llegado, y eso es algo a lo que no nos opondremos. ¿Que en un momento determinado de modificación constitucional -que espero que venga próximamente- debamos plantearnos la modificación del artículo 67.2? Pues ahí contará también con nuestro voto.</seg>
                <seg>Muchas gracias por su generosidad, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u196" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u196" ana="#chair">
                <seg>Muchas gracias, señor Esteban.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra señor Nuet.</seg>
             </u>
@@ -1302,7 +1300,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u198" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u198" ana="#chair">
                <seg>Muchas gracias, señor Nuet.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Matarí.</seg>
             </u>
@@ -1319,7 +1317,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos.-El señor Martínez Gorriarán pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u200" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u200" ana="#chair">
                <seg>Muchas gracias, señor Matarí.</seg>
                <seg>Señor Martínez Gorriarán, en efecto, ha habido una alusión directa a la actitud de su partido en otro momento. Para contestar a esa alusión, tiene dos minutos.</seg>
             </u>
@@ -1330,7 +1328,7 @@
                <seg>El señor Tamarit ha afirmado -ni siquiera lo ha planteado como conjetura- que en mi partido hemos fichado a tránsfugas. Eso es absolutamente mentira; usted ha mentido. Nunca hemos tenido un tránsfuga, eso sí, se nos han ofrecido muchos, algunos de los cuales han acabado en el suyo, que sí que le gustan este tipo de prácticas. Más valdría que ustedes, antes de hablar de problemas internos de los demás partidos, se ocuparan de los suyos y, por ejemplo, colaboraran con la Guardia Civil en las investigaciones de los ayuntamientos gobernados por usted, que ayer hubo creo que veinte. Eso sí que es un problema grave para este país y para ustedes.</seg>
                <note>El señor Matarí Sáez pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u202" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u202" ana="#chair">
                <seg>Señor Matarí.</seg>
                <pb n="60"/>
             </u>
@@ -1341,7 +1339,7 @@
                <seg>Muchas gracias.</seg>
                <note>Una señora diputada: ¡Muy bien!-La señora Díez González pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u204" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u204" ana="#chair">
                <seg>Vamos a dar este debate por concluido porque creo que se han explicado.</seg>
                <seg>¿Se siente usted aludida personalmente, señora Díez?<note>Asentimiento</note> Entonces, tiene la palabra para responder a esa alusión personal suya, pero no para hablar de ninguna otra cosa, solo para que dé usted la explicación que le parezca a esa alusión personal suya.</seg>
             </u>
@@ -1350,7 +1348,7 @@
                ana="#regular">
                <seg>Hay dos cosas que pudren la democracia: la mentira y la cobardía. De las dos cosas ha hecho gala el portavoz...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u206" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u206" ana="#chair">
                <seg>Señora Díez, no se trata de reabrir el debate. Usted se siente aludida personalmente. Para explicar por qué no tiene razón esa alusión personal, tiene usted la palabra. Si emplea su tiempo para entrar en el debate, le quitaré la palabra.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u207"
@@ -1360,7 +1358,7 @@
                <seg>El señor Tamarit ha hablado de una dirigente en 2007 de Unión Progreso y Democracia, con la cobardía de no querer mencionarme. Mire, señor Tamarit, en el año 2007 esta diputada era militante del Partido Socialista. Dejó su acta -repito, dejó su acta- y después fundó un partido político. Eso no es transfuguismo. Lo suyo es transfuguismo y corrupción.</seg>
                <note>El señor Matarí Sáez pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u208" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u208" ana="#chair">
                <seg>Gracias, señora Díez, por ceñirse a este aspecto personal.</seg>
                <seg>Para el mismo aspecto, tiene la palabra el señor Matarí.</seg>
             </u>
@@ -1370,7 +1368,7 @@
                <seg>Señora Díaz, señora Díaz, no sé por qué usted se da por aludida. Lo único que digo es que ustedes, pudiendo haberse adherido al Pacto antitransfuguismo desde el año 2008 -usted ya era diputada en esta Cámara-, lo solicitaron y lo hicieron en septiembre de 2012. ¿Por qué? ¿Y por qué presentan ahora una iniciativa que podrían haber presentado hace algunos años? Porque entonces no les interesaba suscribir un pacto antitransfuguismo. Ahora que les afecta a ustedes es cuando lo hacen, señora Díaz.</seg>
                <note>La señora Díez González: ¡Díez, me apellido Díez! ¡Es usted un maleducado; grosero y maleducado!-El señor Bermúdez de Castro Fernández: ¡Y tú le has llamado Tamarit!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u210" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u210" ana="#chair">
                <seg>Queda resuelto este incidente, que no tiene mayor recorrido. Luego pregunte usted por qué le llama Díaz y se lo contará.</seg>
                <seg>Señor Martínez Gorriarán, le pregunto qué va a hacer con la enmienda de la señora Castellano.</seg>
             </u>
@@ -1379,7 +1377,7 @@
                ana="#regular">
                <seg>Como he dicho, aceptamos la enmienda.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u212" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-10-CD150610.u212" ana="#chair">
                <seg>Muchas gracias.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Era la una y cincuenta minutos de la tarde.</seg>

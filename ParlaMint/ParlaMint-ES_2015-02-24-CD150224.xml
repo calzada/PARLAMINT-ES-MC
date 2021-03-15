@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="76">76 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="76" xml:lang="es">76 speeches</measure>
+            <measure unit="speeches" quantity="76" xml:lang="en">76 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="68"/>
                <tagUsage gi="note" occurs="333"/>
                <tagUsage gi="u" occurs="76"/>
-               <tagUsage gi="lb" occurs="300"/>
+               <tagUsage gi="seg" occurs="300"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>COMUNICACIÓN DEL GOBIERNO - COMUNICACIÓN DEL GOBIERNO EN LA QUE SOLICITA LA CELEBRACIÓN DE UN DEBATE DE POLÍTICA GENERAL SOBRE EL ESTADO DE LA NACIÓN. COMPARECENCIA DEL GOBIERNO ANTE EL PLENO DE LA CÁMARA, DE CONFORMIDAD CON LO DISPUESTO POR EL ARTÍCULO 203 DEL REGLAMENTO: - COMPARECENCIA, A PETICIÓN PROPIA, DEL PRESIDENTE DEL GOBIERNO ANTE EL PLENO DEL CONGRESO DE LOS DIPUTADOS, PARA INFORMAR SOBRE EL CONSEJO EUROPEO CELEBRADO EL 18 DE DICIEMBRE DE 2014 EN BRUSELAS.</head>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u1" ana="#chair">
                <seg>Señorías, se abre la sesión.</seg>
                <seg>De conformidad con lo acordado en la Junta de Portavoces se debate conjuntamente la comunicación del Gobierno para el debate de política general en torno al estado de la Nación, y la comparecencia del presidente del Gobierno para informar sobre el Consejo Europeo celebrado el 18 de diciembre de 2014.</seg>
                <seg>Tiene la palabra el señor presidente del Gobierno.</seg>
@@ -121,7 +119,7 @@
                <seg>El rescate es implacable, no considera la edad ni la condición social ni la fortaleza o debilidad de cada familia. Es una ayuda, pero es una ayuda muy exigente, que no deja opción para adaptarse a la austeridad<pb n="8"/> ni margen para ayudar a los más débiles. Señorías, eso no entraba en las consideraciones de quienes nos urgían a pedirlo, esos que glosaban las ventajas del rescate, pero que no dedicaban ni una palabra, ni una, a valorar sus contrapartidas sociales. Nosotros sí lo hicimos. Era nuestra obligación. Por eso fuimos prudentes en nuestras declaraciones -repito, prudentes en nuestras declaraciones; repito, prudentes en nuestras declaraciones-<note>Risas</note> y sólidos en nuestra determinación de evitarlo. Señorías, lo más fácil habría sido aceptar las presiones, pero era lo más injusto. Por eso no lo hicimos. Nos negamos a salir de la crisis a expensas de los pensionistas, los parados o la caja de la Seguridad Social.<note>Varios señores diputados: ¡Muy bien!-Protestas.-Prolongados aplausos</note> Señorías, es que yo lo viví.<note>Protestas.-Varios señores diputados: Y nosotros</note> Sin duda lo que pretendíamos nosotros era más difícil, más arduo, más laborioso, pero era más equitativo. Podíamos fracasar, pero nadie podía decir que no mereciera la pena intentarlo. Nos impusimos pues el compromiso de proteger en aquel naufragio al Estado del bienestar, mantener las prestaciones sociales, y garantizar los pilares de los servicios básicos, como sanidad, educación, pensiones, prestaciones por desempleo, y el resto de servicios sociales.<note>Rumores</note> Para ello y para recuperar el crecimiento y el empleo la mejor garantía del Estado del bienestar -repito, la mejor garantía del Estado del bienestar- pusimos en marcha la política económica que ustedes conocen.<note>Rumores</note> Paralelamente se crearon mecanismos extraordinarios de apoyo a las administraciones públicas locales y autonómicas, porque muchas de ellas no podían atender sus vencimientos de deuda, no podían pagar a sus proveedores, y no podían mantener los servicios públicos. Me refiero a instrumentos como la línea ICO, el Plan de pago a proveedores o el Fondo de liquidez autonómica. Les recuerdo que más del 70 % de estos fondos se han destinado a gasto social -luego me referiré a este asunto con más detalle-.</seg>
                <seg>Pues bien, el conjunto de todas estas decisiones y políticas ha producido los resultados por todos sabidos. El más importante: hemos logrado, como comprometí en el debate de investidura, que 9.275.000 pensionistas hayan cobrado y cobren puntualmente, mes a mes, sus pensiones.<note>Protestas.-Aplausos</note> Es que ustedes las congelaron y encima tenían una inflación por encima del 3 %.<note>Aplausos</note> El gasto ha crecido, evidentemente porque hay más pensionistas que en 2011, pero también porque ha subido la cuantía de las pensiones. Estamos pagando más de 19.000 millones al año más en pensiones que los que se pagaban en 2011, y han ganado poder adquisitivo. Por cierto, que esta comparación que hago entre la situación actual y la de 2011 no refleja bien la realidad, señorías, porque esconde todo aquello que hemos evitado, pero que muy bien pudiera haber ocurrido, como, por desgracia, todavía ocurre en otras naciones. Pudiera haber sido que las pensiones se rebajaran, como ha ocurrido en los países bajo rescate, donde en algún caso se las han obligado a bajar hasta el 20 %. Aquí no, porque no aceptamos el rescate.<note>Aplausos</note> Señorías, también se nos decía que no podríamos pagar las prestaciones por desempleo. Pues no ha sido así.<note>Risas.-Rumores</note> Sí, nos lo decían, y no ha sido así, se han pagado puntualmente, y alguna razón&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u3" ana="#chair">
                <seg>Señor Such, le ruego silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u4"
@@ -159,12 +157,12 @@
                <seg>Muchas gracias.</seg>
                <note>Prolongados aplausos de las señoras y los señores diputados del Grupo Parlamentario Popular en el Congreso, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u5" ana="#chair">
                <seg>Señorías, se levanta la sesión.</seg>
                <seg>Era la una y cuarenta minutos de la tarde.</seg>
                <seg>Se reanuda la sesión a las cuatro de la tarde.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u6" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>En nombre del Grupo Socialista, tiene la palabra el señor Sánchez.</seg>
                <note>Aplausos</note>
@@ -176,7 +174,7 @@
                <seg>Señorías, este es el último debate de la legislatura y a estas alturas, señor Rajoy, usted es heredero de sí mismo. Le diré cuál es el balance de su gestión. En primer lugar, su reforma laboral lo que ha hecho ha sido destruir empleo y cercenar los derechos laborales de los trabajadores.<note>Aplausos</note> Hoy hay 584.000 empleos menos y ustedes han instaurado el contrato único a tiempo parcial y temporal. Nunca como hoy, señor Rajoy, ha habido tanta precariedad laboral en nuestro país. En segundo lugar, los españoles hoy, después de tres años y medio de Gobierno del Partido Popular, pagan 23.000 millones de euros más en impuestos; y en tercer lugar, señor Rajoy, usted es un presidente que se comunicaba con los españoles a través de un plasma y con un delincuente a través de un SMS.<note>Rumores.-Aplausos</note> Sí, señor Rajoy, sí.<note>Aplausos</note> Esos son sus logros, señorías del Partido Popular.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u8" ana="#chair">
                <seg>Pido silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u9"
@@ -186,7 +184,7 @@
                <seg>Señorías, se ve que a falta de méritos propios el Gobierno lo que ha hecho ha sido apropiarse de los méritos ajenos, y nosotros nos alegramos, claro que sí, de los buenos datos macroeconómicos de nuestra economía, porque no somos como ustedes; no somos como usted, señor Montoro.<note>Rumores</note> La mejora es, sin duda alguna, como bien ha dicho el presidente del Gobierno, gracias a los españoles, a su sacrificio;<pb n="19"/> pero también es gracias a la bajada del precio del petróleo, y lo siento, señor Rajoy, en eso usted nada tiene que ver.<note>Rumores</note> También tiene que ver con la depreciación del euro y tiene que ver con tener por fin un Banco Central Europeo comprometido con las políticas de crecimiento. Y también, como bien ha dicho usted en su intervención, por las políticas de demanda agregada impulsadas por las instituciones europeas. Políticas, por cierto, que nada tienen que ver con su Gobierno, que es absolutamente irrelevante en la Unión Europea, y tienen que ver -sí- con las políticas impulsadas por los Gobiernos socialdemócratas.<note>Rumores.-Aplausos</note> Señor Rajoy, señorías, la prueba del algodón de lo que estoy diciendo es la evolución de la prima de riesgo en nuestro país durante los últimos tres años y medio. Es la que menos ha mejorado en los últimos tres años y medio de las economías periféricas de la Unión Europea, de Grecia, de Portugal y de Irlanda. Y, sí, es cierto que tenemos previsiones de crecimiento económico positivas, y nos alegramos por ello, pero también tiene usted que decir, señor Rajoy, que son iguales o inferiores que las que ahora mismo se están registrando en economías como la sueca, la del Reino Unido, la portuguesa o la irlandesa. Usted, señor Rajoy, en su intervención inicial ha presumido de la evolución de los precios, pero no dice toda la verdad. Los precios que dependen de usted no han hecho más que subir durante sus años de Gobierno, y le voy a dar varios ejemplos: el primero, ha aumentado en un 52 % el precio de los medicamentos, ha aumentado en un 10 % la factura del gas, ha aumentado en un 16 % la factura del agua y ha aumentado en un 13 % la factura de la electricidad. Señor Rajoy, usted le sale muy caro a los españoles. Les sale muy caro, señor Rajoy.<note>Aplausos</note> La recuperación debe ser justa o no será, y para que la recuperación sea justa tiene que beneficiar al 90 % de los españoles, que son siempre a los que ustedes marginan con sus políticas y con sus decisiones. Para que la recuperación sea justa, ¿sabe lo que tiene que pasar, señor Rajoy? Tienen que reconquistarse los derechos y libertades que ustedes han desmantelado desde el Gobierno.<note>Aplausos</note> Señorías, los españoles exigen -y con mucha razón- una política decente, una política limpia, un cambio de política, donde se haga más que se diga, que el hacer sustituya al decir. ¿Qué fue de la promesa del Gobierno de crear 3,5 millones de empleos -se acordarán sus señorías- y un millón de empresas a lo largo de esta legislatura? ¿Qué fue de esa promesa, señor Rajoy?<note>Rumores</note> La realidad es que hay 584.000 empleos menos y 100.000 empresas menos en nuestro país ¿y hoy tiene usted la desfachatez de venir aquí a prometer otros 3 millones de empleos? ¡Un poco más de prudencia en sus declaraciones, señor Rajoy! ¿Qué fue de su promesa de que salvar a los bancos en nuestro país no iba a costar un céntimo de euro? ¿Se acuerdan, señorías? La realidad, señorías, por mucho que usted intente taparla, señor Rajoy, es que España fue rescatada como consecuencia de la pésima gestión que hicieron ustedes de Bankia; fue rescatada.<note>Aplausos</note> Míreme bien, señor Rajoy, que se lo voy a recordar<note>Protestas.-Muestra portadas de diversos diarios</note> : Portada del diario El País: Rescate a España.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u10" ana="#chair">
                <seg>Ruego silencio para que se oiga al orador.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u11"
@@ -195,7 +193,7 @@
                <seg>Señor Rajoy, míreme un segundo, aunque ya las conoce: Diario El Mundo: Rescate sin humillación.</seg>
                <note>Rumores.-El señor Ayala Sánchez pronuncia palabras que no se perciben</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u12" ana="#chair">
                <seg>Le ruego silencio, señor Ayala.</seg>
                <note>Rumores</note>
             </u>
@@ -209,7 +207,7 @@
                <seg>Señorías, hacer más que decir, aunque ustedes traten de silenciar a las mareas ciudadanas con su ley mordaza, con la incriminación penal de las huelgas, con su manipulación de los medios de comunicación públicos, con su intento de silenciar a un Poder Judicial que es opuesto a sus leyes antisociales y con sus recortes en la justicia universal que han permitido, señorías, que 43 narcotraficantes salgan de prisión como consecuencia de su recorte en la justicia universal. Ustedes han privatizado el Registro Civil y dificultan el acceso a la justicia de los ciudadanos con su Ley de Tasas que, le insisto de nuevo, derogaremos en cuanto lleguemos al Gobierno.<note>Aplausos</note> Señor Rajoy y señores del Gobierno, ustedes no confían en aquellos a los cuales gobiernan. ¿Y sabe por qué? Porque ustedes desconocen cómo viven. Señor Rajoy, pise la calle, hable con los autónomos, con las mujeres empresarias, con los jóvenes emigrados, hable también con los interinos hoy parados como consecuencia de sus recortes y hable con los funcionarios. Salga del plasma y en la calle verá cómo se le complica la historia si usted sigue manteniendo que la crisis es historia. Eso es lo que pasa, señor Rajoy.<note>Varios señores diputados: ¡Muy bien!-Aplausos</note> Con frecuencia, señor Rajoy, le escucho presumir de la buena imagen de España en el exterior y nosotros, créame, nos alegramos mucho de que, por ejemplo, señor Margallo, España forme parte como miembro no permanente del Consejo de Seguridad de Naciones Unidas. Por cierto, usted, que tanto dice que está bien valorada la Unión Europea o la imagen de España en la Unión Europea, ¿puede sostener, señor Rajoy, que el señor De Guindos va a ser el presidente del Eurogrupo?<note>Rumores</note> ¿Puede sostenerlo?<note>Rumores</note> Señor Rajoy, el problema de ustedes es que no son la mejor tarjeta de presentación en el extranjero de un pueblo honesto y trabajador como es el español. La señora Merkel hizo dimitir a una ministra con la cual no solamente le unían lazos políticos, sino también lazos personales, de confianza, por copiar esa ministra una tesis doctoral. ¿Qué pensarán fuera de España de un Gobierno que tiene en el partido a militantes como Bárcenas?<note>Rumores y Protestas.-Aplausos</note> ¿Qué pensarán, señor Rajoy? ¿Qué pensarán, señorías?</seg>
                <note>Rumores y Protestas.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u14" ana="#chair">
                <seg>¡Silencio!</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u15"
@@ -218,7 +216,7 @@
                <seg>Pues mire, pensarán lo mismo que la mayoría de los españoles, señorías del Grupo Parlamentario Popular, y es que la regeneración democrática en nuestro país vendrá de la mano de la jubilación democrática del presidente del Gobierno, eso es lo que pensarán.<note>Rumores</note> Su regeneración democrática es aprobar un código penal en solitario; su regeneración democrática es imponer un estatuto de Castilla-La Mancha hecho a medida de su interés electoral<pb n="22"/>
                   <note>Rumores</note> ; su regeneración democrática es poner al frente de Radiotelevisión Española a quien fue presidente de Telemadrid; su regeneración democrática es anticipar los datos oficiales a su antojo, señor Rajoy; su regeneración democrática es despedir en diferido; su regeneración democrática es golpear a martillazos el ordenador de Bárcenas en la sede del Partido Popular, señor Rajoy.<note>Rumores.-Aplausos</note> Esa es su regeneración democrática. ¡Menuda regeneración democrática, señor Rajoy!<note>Aplausos</note> Tres años han bastado, señorías, para saber que ustedes han aprovechado la crisis económica como excusa para desmantelar los derechos y las libertades de los españoles y construir la España de la desigualdad.<note>Rumores</note> Le voy a dar cuatro ejemplos, señor Rajoy. Primero, su política de recortes; recortes en todo y por todos. Con su falsa proclama, señor Rajoy, de que los españoles vivían por encima de sus posibilidades, usted ha hecho con sus políticas que millones de españoles vivan por debajo de sus necesidades. Esa es la verdad.<note>Rumores</note> El segundo tiene que ver con su reforma laboral. Señorías, 710.000 parados de larga duración más desde que ustedes son Gobierno. No tienen ustedes nada de qué presumir en política de empleo, nada.<note>Protestas</note> Con su reforma laboral la duración media de los contratos es de cincuenta y cuatro días. El 25 % de ellos no llega a la semana. Por cierto, señora Báñez -míreme un momento, un segundo solamente-<note>Rumores</note> , corríjale los datos al señor Rajoy, porque no es cierto, señor Rajoy, que uno de cada dos contratos firmados el año pasado, según la EPA, sean indefinidos, no es cierto. ¿Sabe lo que es cierto, señor Rajoy? Que siete de cada diez empleos perdidos eran indefinidos y se han perdido como consecuencia de su reforma laboral.<note>Un señor diputado: ¡Sí, señor!-Aplausos</note> En tercer lugar, señor Rajoy, su reforma laboral lo que hace es poner en riesgo nuestro sistema público de pensiones. Señorías, voy a compartir con ustedes un dato que me parece que es bastante elocuente de lo que estoy diciendo: por 300.000 cotizantes, antes de su reforma laboral, la Seguridad Social estaría ingresando ahora mismo 1.900.000 millones de euros. Tras su reforma laboral, solamente se ingresan 300 millones de euros. Y las propuestas de hoy, señor Rajoy, ¿cuánto van a incrementar el déficit de la Seguridad Social? Por cierto, usted ha pagado las pensiones gracias al Fondo de reserva de la Seguridad Social que heredó de un Gobierno socialista<note>Aplausos</note> , 70.000 millones de euros, 30.000 millones de euros que ustedes han recortado desde que son Gobierno.<note>Rumores.-Aplausos</note> En cuarto lugar, señorías -veo que les interesa más mi intervención que la de su propio presidente del Gobierno-,<note>Rumores</note> , una reforma fiscal hecha a medida del 10 % de la población más pudiente en nuestro país. Los 5.000 españoles que declaran ganar más de 600.000 euros al año en el IRPF van a pagar menos impuestos que el 40 % de los contribuyentes que declaran menos renta, es decir, 8 millones de españoles. No deja de ser sarcástico recordar ahora mismo -usted que apela, señor Rajoy, a las declaraciones prudentes- esas proclamas que hacían de no subir el IVA o, como bien dijo el hoy ministro de Sanidad -me permitirá usted, señor Alonso, que le cite-: la amnistía fiscal -decía el señor Alonso cuando era portavoz del Grupo Parlamentario Popular- es la única alternativa para no subir el IVA. Al final, ustedes han hecho lo de siempre, han subido el IVA y aprobaron una amnistía fiscal al gran fraude. Dureza para los honrados y benevolencia para los defraudadores. Esa es su política fiscal, señor Rajoy.<note>Aplausos</note> No es la crisis, señorías, son ustedes y su ideología conservadora, la misma ideología conservadora que ha roto el pacto más importante y del que nadie habla en el debate público español, y es el pacto entre generaciones suscrito durante los treinta seis años de democracia. Un pacto entre generaciones que decía que, si se estudiaba, se podría encontrar un trabajo digno; que si se trabajaba, se cobraría un salario digno con el que poder llegar a fin de mes; que si se pagaban impuestos, señorías, los españoles podrían percibir unos servicios públicos de calidad; un pacto donde los hijos que somos padres, señorías, sabíamos que nuestros mayores podrían percibir una pensión digna y que nuestros hijos e hijas tendrían unas oportunidades mayores y mejores que las que nosotros tuvimos.<note>Rumores</note> Hoy en España, señorías, como consecuencia de sus políticas, con veinte años no se encuentra trabajo; con treinta, si se encuentra trabajo, es sin protección social; con cuarenta se es falso autónomo; con cincuenta se corre el riesgo cierto de estar en paro o prejubilado; con sesenta y setenta, se cobra una pensión congelada; y si eres mujer, súmale a ello&#x85;<note>Varios señores diputados: ¡No! ¡No!-Protestas.-Aplausos</note> Sí, sí.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u16" ana="#chair">
                <seg>Silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u17"
@@ -227,7 +225,7 @@
                <seg>Si eres mujer, súmale a ello toda la desigualdad salarial y un Gobierno hostil a los derechos y libertades de las españolas.<note>Protestas y rumores</note> Tranquilidad, tranquilidad, no pasa nada.</seg>
                <pb n="23"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u18" ana="#chair">
                <seg>Un momento, señor Sánchez.</seg>
                <seg>Ruego silencio para que se le escuche como se ha escuchado antes al presidente del Gobierno. Ruego silencio.</seg>
                <note>Aplausos</note>
@@ -244,7 +242,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Socialista, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u20" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u20" ana="#chair">
                <seg>Muchas gracias, señor Sánchez.</seg>
                <seg>Señor presidente del Gobierno.</seg>
             </u>
@@ -255,7 +253,7 @@
                <seg>Señorías, hemos cambiado la tendencia. Con la herencia que hemos recibido<note>Rumores</note> es evidente que en media hora no se pueden crear puestos de trabajo, pero le hemos dado la vuelta a la situación y hasta el año 2013 no empezamos a crecer y a crear empleo porque tuvimos que superar la situación que ustedes nos dejaron, como he explicado esta mañana; estábamos al borde del rescate, al borde de la quiebra, con todos los equilibrios. Ahora hay resultados.<note>Aplausos</note> Señoría, no vuelva a hablar de empleo. El Partido Socialista en muchos años no puede volver a hablar de empleo ni de temporalidad porque había más temporales a finales del año 2011 que a finales del año 2014.</seg>
                <note>Protestas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u22" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u22" ana="#chair">
                <seg>Señora Ramón, le llamo al orden por primera vez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u23"
@@ -265,7 +263,7 @@
                <seg>Una de las aportaciones más brillantes del señor Sánchez en la tarde de hoy a la política económica española ha sido la afirmación de que el Partido Popular ha causado un gran destrozo en la economía española. Le voy a decir lo que es un gran destrozo en la economía española, señor Sánchez. Un gran destrozo en la economía española es, por ejemplo, 3.400.000 personas que pierden su trabajo. Un gran destrozo en la economía española son los años de recesión a los que ustedes nos condenaron con su política. Un gran destrozo en la economía española son los desequilibrios que impidieron crear empleo y generar bienestar y riqueza en España durante mucho tiempo. Un gran destrozo en la economía española es un déficit público del 9 %. Un gran destrozo en la economía española es tener unos niveles de inflación claramente por encima de la media Europea. Un gran destrozo es llegar a tener un déficit del sector exterior por encima del 11 %. Fuimos el segundo país del mundo, señorías, el segundo, en términos absolutos -no hablo en términos relativos-, con mayor déficit exterior; 70.000 millones menos de recaudación es, indudablemente, un gran destrozo en la economía española. Y es un gran destrozo también en la economía española dejar el país al borde de la quiebra y del rescate; y lo que hicimos nosotros fue superar ese gran destrozo, señor Sánchez. Eso fue lo que hicimos.<note>Aplausos</note> Señoría, ¿sabe lo que es un gran destrozo en la economía española?<note>Un señor diputado: ¿Qué?</note> Que el riesgo de pobreza y de exclusión social aumentara un 13 % en su última legislatura, cinco veces más que en la Unión Europea; que la pobreza infantil creciera un 3,2, tres veces más rápido que en la Unión a veintisiete; que la desigualdad creciera en España &#x96;vean los índices, vean el Gini, vean el 80/20, léanselo-; que el número de hogares con todos sus miembros en paro se incrementara en más de un millón; que el desempleo juvenil aumentara en medio millón de personas; que el desempleo entre las mujeres aumentara un 132 %; que el poder adquisitivo de las pensiones fuera liquidado con la congelación en un año en que subieron la inflación y los precios un 3 %. Ese sí que es un golpe y duro a las pensiones, porque -insisto- los demás no las hemos congelado.<note>Aplausos.-Rumores</note> ¿Cómo habla usted, señor Sánchez, de ejecuciones hipotecarias, si aumentaron entre el año 2008 y 2011 un 134, y en estos años ha bajado un 19? ¿Cómo critica las decisiones que ha tomado en esta materia el Gobierno, cuando ustedes no tomaron ninguna? ¡Es que no hicieron absolutamente nada!<note>Rumores</note> No hicieron absolutamente nada. Habla usted de un gran destrozo en la economía española<note>Un señor diputado pronuncia palabras que no se perciben</note> Sí, sí, si todo eso está muy bien, pero ahora vamos a hablar de la sanidad, que es un tema importante, al cual el señor Sánchez ha hecho también una referencia importante.<note>Rumores</note> Como ustedes saben, señoras y señores diputados&#x85;<pb n="27"/> Sí, sí, la sanidad es competencia de las comunidades autónomas. ¿Lo sabían? Bueno&#x85;<note>Varios diputados pronuncian palabras que no se perciben</note> Es competencia; es decir, la financiación no está condicionada. Cada uno gasta el dinero en lo que estima oportuno y conveniente. Pues bien, ¿saben ustedes cuánto dedica, por ejemplo, Galicia al gasto sanitario? El 40 %. Murcia, el 40 %. ¿Saben cuánto dedica Andalucía? El 30 %. ¡Y luego hablan de recortes, por favor!<note>Aplausos. - Protestas</note> Señorías, una cosa es hablar y otra, sin duda alguna, es dar trigo. El señor Sánchez ha pintado un panorama negro sobre la situación de la sanidad española. Yo creo que la sanidad española es muy buena. Creo que es un servicio público que funciona bien y que hay buenas inversiones. ¿Sabe lo que ha ocurrido en Andalucía? Que se han destruido 6.100 empleos en los tres últimos años.<note>Protestas</note> ¡Es que es la verdad! ¿Sabe que en verano se cerraron 3.200 camas hospitalarias?<note>Protestas. - Aplausos</note> El señor Pezzi Cereto exhibe una bandera de la Comunidad Autónoma de Andalucía.</seg>
                <note>Varios señores diputados: ¡Fuera! ¡Fuera!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u24" ana="#chair">
                <seg>Señor Pezzi, retire usted esa bandera.<note>Protestas.-Aplausos</note> Le llamo al orden por primera vez.<note>El señor Pezzi Cereto continúa exhibiendo la bandera de la Comunidad Autónoma de Andalucía</note> Señor Pezzi, le llamo al orden por segunda vez.<note>Protestas.-Aplausos</note> La próxima vez va usted a la calle.<note>El señor Pezzi Cereto recoge la bandera.-Protestas.-Un señor diputado: ¡Fuera, hombre!</note> Continúe, señor presidente.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u25"
@@ -278,7 +276,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Popular, puestos en pie.-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u26" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u26" ana="#chair">
                <seg>Muchas gracias, señor presidente.<note>Rumores</note> ¡Por favor, ruego silencio! Señora Rodríguez, le ruego silencio, por favor.</seg>
                <seg>Señor Sánchez.</seg>
             </u>
@@ -292,7 +290,7 @@
                <seg>Señor Rajoy, cuando usted habla yo le escucho con muchísima atención; de verdad, le escucho con muchísima atención.<note>Rumores.-Un señor diputado: Ya lo vemos</note> Llevo observando meses ese tono displicente que usa para calificar a todos sus contendientes políticos y siempre, señorías, siempre me llama la atención que sea usted precisamente quien utilice ese tono. Usted es muy pródigo en descalificar al adversario pero muy parco con usted y su Gobierno.<note>Rumores</note> Aunque usted no ha dicho nada sobre ello en el debate sobre el estado de la Nación, en este año han caído dos ministros, señor Rajoy: la señora Mato y el señor Gallardón. La ley contra el aborto no era una ley Gallardón, era su encargo, era su ley y cuando la gente la derribó usted se escondió detrás del ministro.<note>Aplausos</note> Y no fue la señora Mato, señorías, quien hizo tesorero a Bárcenas, el tesorero era suyo, usted le nombró. A ella le pagaron los viajes, sí, pero a usted le pagaron la reforma en B de la sede de Génova, señor Rajoy.<note>Aplausos</note> Usted se esconde detrás del plasma cuando no puede y detrás de sus ministros cuando cree que es necesario y eso de lo que huye se llama responsabilidad y, por mucho que intente eludirlo, es su responsabilidad.<note>Varios señores diputados: ¡Muy bien!</note> Yo le hablaba sobre su tono displicente y le advertía que me causa sorpresa que sea usted quien utilice ese tono porque me asombra la incapacidad del señor Rajoy para verse a sí mismo. ¿No es consciente el presidente del Gobierno de que son los españoles quienes le han dado la peor, la más penosa valoración jamás registrada a un presidente en la historia de la democracia? ¿Cómo pretende usted mirar por encima del hombro a nadie? Ha hecho usted mucho daño a los españoles y también al país, así que sea humilde porque usted ha fracasado en la tarea que tenía encomendada. La mayoría de los españoles le acusa de ser incapaz de ver la realidad en la que vive España y, después de muchos meses de haberle observado, a mí no me extraña. Le considero incapaz, señor Rajoy, de ver su propia realidad.<note>Aplausos.-Varios señores diputados: ¡Muy bien!</note> Lo digo, primero, porque en economía va bien lo que no depende de usted y va mal lo que depende en exclusiva de su Gobierno.<note>Rumores</note> Ha bajado el precio del petróleo -lo decía en la primera intervención- y, lo siento, señor Rajoy, pero no es por usted. Al crecimiento del paro, de la pobreza laboral, al aumento de la deuda externa y de la deuda pública, al crecimiento masivo de impuestos sí ha contribuido usted con su acción de gobierno. Y esta es la verdad: la España presente es una España maltrecha como consecuencia de sus políticas, una España sin oportunidades, una España en la cual rompieron ustedes el pacto entre generaciones de sus ciudadanos. Es verdad que a usted -lo hemos visto en esta segunda intervención pero también en la primera- no le gusta hablar de estas cosas, prefiere escudarse en la herencia recibida, pero sus políticas sí que han llevado a España al pasado: a los salarios de 1990, a la inversión en educación pública de finales de 1970, a la inversión en I+D+i de hace una década. Hablan tanto ustedes de herencia, señor Rajoy, que se olvidaron del futuro.</seg>
                <seg>A propósito de Andalucía, usted habla de Susana Díaz, de mi compañera, de la presidenta de la Junta de Andalucía.<note>Varios señores diputados: ¡Ohhh!</note> Tranquilos.<note>Rumores</note> Tranquilidad. Habla de la presidenta de la Junta de Andalucía.<note>Rumores</note> Señor presidente, por favor.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u28" ana="#chair">
                <seg>Perdone un momento, señor Sánchez.</seg>
                <seg>Por favor, no hay que hablar con el orador, sino escucharle.</seg>
                <note>Risas</note>
@@ -306,7 +304,7 @@
                <seg>Muchísimas gracias, señor presidente.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Socialista, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u30" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Señor presidente.<note>Un señor diputado del Grupo Parlamentario Socialista: Sé fuerte, sé fuerte.-Varios señores diputados del Grupo Parlamentario Socialista: Vamos, Mariano</note> Ruego silencio.</seg>
             </u>
@@ -316,7 +314,7 @@
                <seg>Señorías, señor presidente, señoras y señores diputados, voy a replicar no al señor Sánchez, sino a la réplica que traía por escrito y que aquí nos ha leído a todas las señoras y señores diputados.<note>Aplausos.-Rumores</note> Realmente no es fácil debatir así pero, puesto que usted ha elegido ese modelo, por lo menos que le hagan una intervención razonable porque, si no, va a acabar usted teniendo un problema muy grave.<note>Aplausos</note> Ha dicho que este es el último gran debate de esta legislatura.<note>Rumores</note> No le voy a quitar la razón, pero, desde luego, lo que sí le puedo decir es que en absoluto lo ha aprovechado. No ha dado la talla ni de lejos para ser presidente del Gobierno de este país.</seg>
                <note>Aplausos.-Rumores.-Risas.-El señor Pradas Torres: ¡No haces gracia!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u32" ana="#chair">
                <seg>¡Señor diputado!</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u33"
@@ -325,7 +323,7 @@
                <seg>Eso sí, ha conseguido generarme alguna duda, ya no sé si le preocupa más el señor Iglesias o la señora Díez. Desde luego, lo que no le preocupa son los intereses generales de los españoles.<note>Aplausos.-Rumores y protestas</note> Le agradezco su preocupación por lo que de mí dicen los estudios sociológicos, pero yo también estoy preocupado por el lugar al que ha llevado usted por primera vez en la historia al Partido Socialista Obrero Español en los sondeos.<note>Aplausos.-Rumores</note> Señoría, le puedo decir estas cosas porque no traigo la réplica escrita y la tengo que hacer ahí sobre la marcha.<note>Aplausos</note> ¿Y ahora qué quiere que le diga de su intervención, señor Sánchez?<note>Rumores</note> Ha venido a decir que he venido a hacer propaganda, que desprecio a la gente, que lo mío es todo lo contrario a la estabilidad, etcétera. ¡Es que no ha dado ninguna razón ni ningún argumento ni ha dicho una cosa mínimamente sensata sobre lo que les interesa a los españoles! Por eso, al que le haga el segundo turno de réplica, dígale que se esmere un poco.<note>Risas</note> Porque aquí venimos a hablar de los temas que importan a los ciudadanos, no a esa soflama a la que parece que usted nos pretende acostumbrar en el Congreso.<note>Risas.-Rumores</note> ¡Yo no lo voy a hacer!<pb n="32"/> Señoría, usted ha dicho que la acción del Gobierno era lo que usted ha dicho, no voy a reiterarlo. Quiero recordar que a lo largo de esta legislatura ha habido un objetivo que estuvo claramente marcado desde el principio y que he reiterado hasta la saciedad porque llevo más de tres años, desde el 19 de diciembre del año 2011 cuando me subí aquí: objetivo uno, hay que tener una prioridad, que es superar la crisis, crecer y crear empleo. Era muy difícil y tuvimos que hacer un gran esfuerzo de consolidación fiscal. Llegamos al Gobierno con un déficit del 9 % y un objetivo marcado por la Unión Europea...</seg>
                <note>La señora Batet Lamaña: ¡Otra vez!-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u34" ana="#chair">
                <seg>¡Silencio, por favor! ¡Atiendan al orador!</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u35"
@@ -335,7 +333,7 @@
                <seg>Señor Sánchez, ¿tiene usted alguna propuesta? Porque yo esta mañana expliqué claramente lo que habíamos hecho en la legislatura y lo que íbamos a hacer en los próximos meses y fijé objetivos para los próximos tiempos y creo que se pueden conseguir. En lugar de estar preocupado por tantos tiquismiquis y por lo que le dicen los periódicos<note>Risas.-Rumores</note> , debiera usted preocuparse por el interés general de los españoles y le iría a usted mejor también, le iría mejor.<note>Aplausos</note> Señor Sánchez, yo me lo tomo a usted bastante más en serio que muchos de los suyos y mi trabajo me cuesta, porque me cuesta trabajo.<note>Risas.-Aplausos</note> Señorías, no puede decir más que me reitero en el discurso que he pronunciado este mañana.<note>Protestas</note> No vuelva usted aquí a hacer y a decir nada, ha sido patético.</seg>
                <note>Varios señor diputados: ¡Muy bien!-Aplausos de las señoras y señores diputados del Grupo Parlamentario Popular en el Congreso, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u36" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u36" ana="#chair">
                <seg>Gracias, señor presidente.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , tiene la palabra el señor Duran.<note>Rumores</note> Por favor, si alguien tiene que abandonar el hemiciclo, le ruego que lo haga inmediatamente y con rapidez.<note>Pausa</note> Por favor, despejen los pasillos.</seg>
             </u>
@@ -373,7 +371,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u38" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u38" ana="#chair">
                <seg>Muchas gracias, señor Duran.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -530,7 +528,7 @@
                <note>Aplausos</note>
                <pb n="60"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u56" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u56" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Garzón.</seg>
             </u>
@@ -541,7 +539,7 @@
                <seg>La verdad, señor Rajoy, es que no conocía su biografía. Se lo agradezco; lo que pasa es que no ha llegado a la parte más interesante, que es cuando conoció a Bárcenas.<note>Rumores</note> Eso sí me interesaba bastante más<note>Aplausos</note> , y no ha llegado usted. Sepa también, señor Rajoy, que no es una cuestión de sentimientos -si yo estoy convencido de que usted es una persona simpática; no me parece que tenga gracia, pero es simpática-, es una cuestión de lo que usted hace, y usted lo que hace se transforma en leyes, y las leyes tienen perjuicios en la mayoría de la población. Eso es lo que le hemos traído para que hable.</seg>
                <seg>Nosotros somos muy diferentes a usted. Nosotros lo primero que hicimos al llegar aquí, por ejemplo, fue renunciar a nuestro plan privado de pensiones, que estaba a cargo del BBVA y se pagaba en el Congreso. Mostramos un pequeño gesto, un pequeño gesto ético, pero que obligó al Congreso a retirar el plan de pensiones privado a todos los diputados y a todas las diputadas que están aquí presentes. Somos diferentes. No es que estemos en otro mundo, estamos en el mismo mundo pero es que ese mundo está dividido. ¿Usted ha probado a ver la realidad por encima de la mesa y por debajo de la mesa? Se ve de forma diferente, es el enfoque lo importante. Claro que ustedes tienen de media unas condiciones materiales de vida muy diferentes a las nuestras y a las de la mayoría población. Es eso, no los sentimientos, no las opiniones, lo que nos interesa. Para hacer política con rigor, debatamos sobre los hechos, no sobre las palabras, porque las palabras se las puede llevar el viento y además son también el instrumento de la demagogia. Pero traemos leyes, traemos sus resultados. Señor Rajoy, yo soy de Andalucía, y allí Izquierda Unida contribuyó a una ley antidesahucios, una ley que paralizó los desahucios en Andalucía ¿saben ustedes hasta qué momento? Hasta que su Gobierno recurrió ante el Tribunal Constitucional la ley y por tanto se siguieron produciendo desahucios.<note>Rumores</note> Argumentaron ustedes en un informe que peligraban los beneficios bancarios. ¿No peligraba acaso la vida de las personas que perdían sus viviendas? ¿No se acuerdan de eso? Fueron ustedes.<note>Una señora diputada: Los ERE</note> Me gritan ahora: los ERE. Pues hablemos de los ERE, señor Rajoy, sin problema, hablemos de los ERE. Abrimos una comisión de investigación en Andalucía que el PSOE no quería.<note>Rumores.-Un señor diputado pronuncia palabras que no se perciben</note> No, no, la abrimos ya.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u58" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u58" ana="#chair">
                <seg>Perdón, señor Garzón. Ruego silencio.</seg>
                <seg>Continúe.</seg>
             </u>
@@ -553,7 +551,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u60" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u60" ana="#chair">
                <seg>Muchas gracias, señor Garzón.</seg>
                <seg>Señor Coscubiela.</seg>
             </u>
@@ -565,7 +563,7 @@
                <seg>Después de tres reformas eléctricas del señor Soria la tarifa eléctrica subió, según el INE, un 4,4 % durante 2014 y los primeros datos de 2015 van en la misma senda porque ustedes, aunque lo nieguen,<pb n="62"/> están al servicio de ese oligopolio eléctrico que es intocable. Señor Rajoy, ¿cuáles de los datos que he citado hasta ahora no se corresponden con la realidad? ¿Eso son descalificaciones o son datos concretos? Desgraciadamente es la realidad, esa que usted dice no conocer porque pisará la calle pero, sin duda, no pisa ni los centros de trabajo de Carrefour ni los de Coca-Cola ni muchos otros centros de trabajo de este país.<note>Aplausos</note> Y si los pisa, es para pisotear derechos. Explíquelo, señor Rajoy, por favor, le he hecho una pregunta y no me contesta.</seg>
                <seg>¿Qué va ser de su promesa de ley de segunda oportunidad? ¿Van a acceder los deudores hipotecarios con efecto retroactivo sí o no? Mire que la pregunta es sencilla. Por cierto, señor Rajoy, ¿quién va a pagar esta exención de cuotas que hoy usted ha prometido a los 500 primeros euros de salario? Porque una exención de cuotas no es una bonificación que paga Hacienda, son menos ingresos para la Seguridad Social. Y le recuerdo que usted en 2013 forzó una rebaja de pensiones y una congelación para muchos años con la excusa de que no habría ingresos suficientes en el futuro y ahora vacía las arcas de la Seguridad Social con unas políticas que no van a crear empleo. Se lo dije&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u62" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u62" ana="#chair">
                <seg>Señor Coscubiela, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u63"
@@ -575,7 +573,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u64" ana="#chair">
                <seg>Gracias, señor Coscubiela.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -589,7 +587,7 @@
                <note>Aplausos</note>
                <pb n="63"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u66" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra la señora Díez.</seg>
             </u>
@@ -623,7 +621,7 @@
                <seg>Buenas noches, señor Rajoy.</seg>
                <note>Aplausos.-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u68" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -640,7 +638,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u70" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señora Díez.</seg>
             </u>
@@ -657,7 +655,7 @@
                <seg>Sobre el crecimiento -usted ha hablado también de ello en la réplica-, ¿tiene usted alguna opinión sobre nuestro crecimiento? Tengo la opinión de que mejor es crecer poco -si se crece mucho, mucho mejor-, pero lo que no se puede aceptar es que usted mienta también sobre el crecimiento. No es verdad que España sea el país que más crece de la Unión Europea. Son datos oficiales.<note>Varios señores diputados: ¡No lo ha dicho!</note> Sí lo ha dicho varias veces.<note>Rumores</note> Sí, hombre, que sí lo ha dicho, lean ustedes el «Diario de Sesiones».</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u72" ana="#chair">
                <seg>No entren en discusiones.</seg>
                <seg>Siga usted.</seg>
             </u>
@@ -667,7 +665,7 @@
                <seg>Un par de veces el señor Rajoy - para ceñirse a lo estrictamente veraz- ha dicho de los países grandes -repito, un par de veces- y cuatro veces al menos ha dicho que<pb n="72"/> somos el país que más crece de la Unión Europea.<note>Rumores</note> Grecia e Irlanda crecen más que nosotros, señor presidente, y hay catorce que crecen igual o más. Hasta en los datos oficiales para presumir viene usted aquí y nos miente. Luego viene usted aquí y me quiere examinar a mí. ¡El banco azul es el suyo! De momento, pero el suyo. A lo mejor usted tiene muchas ganas de pasar a la oposición, pero de momento me han votado los españoles para que yo le examine a usted y para que le diga a usted la verdad que usted no quiere decir ni aquí ni fuera de aquí, y la primera de las verdades es que España no saldrá ni de la crisis política, ni de la crisis económica, ni de la crisis social mientras tenga un presidente que miente.</seg>
                <note>Aplausos.-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u74" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u74" ana="#chair">
                <seg>Gracias, señora Díez.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -678,7 +676,7 @@
                <seg>Muchas gracias.</seg>
                <note>Una señora diputada: Bien.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-24-CD150224.u76" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las nueve y treinta minutos de la noche.</seg>

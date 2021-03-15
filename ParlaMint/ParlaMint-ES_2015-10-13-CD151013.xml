@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="191">191 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="191" xml:lang="es">191 speeches</measure>
+            <measure unit="speeches" quantity="191" xml:lang="en">191 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="59"/>
                <tagUsage gi="note" occurs="86"/>
                <tagUsage gi="u" occurs="191"/>
-               <tagUsage gi="lb" occurs="501"/>
+               <tagUsage gi="seg" occurs="501"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>EXCLUSIÓN DEL ORDEN DEL DÍA TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY DE COMUNIDADES Y CIUDADES AUTÓNOMAS: - DE LAS CORTES DE ARAGÓN, POR LA QUE SE MODIFICA EL CÓDIGO CIVIL EN RELACIÓN CON EL ESTATUTO PERSONAL Y VECINDAD CIVIL.</head>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
                <seg>Como asunto previo, quiero decirles que esta Presidencia debe informar al Pleno de que se ha recibido un escrito, por mí mismo, del presidente de las Cortes de Aragón solicitando el aplazamiento del debate de la proposición de ley por la que se modifica el Código Civil en relación con el estatuto personal y vecindad civil. Por ello, se ha excluido este punto del orden del día.</seg>
                <pb n="7"/>
@@ -107,13 +105,13 @@
          </div>
          <div type="debateSection">
             <head>MODIFICACIÓN DEL ORDEN DEL DÍA</head>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u2" ana="#chair">
                <seg>Asimismo, y según lo acordado en Junta de Portavoces, esta Presidencia propone al Pleno que la interpelación del Grupo Vasco, PNV, que figura en el orden del día como punto 27, sea debatida en primer lugar, pasando a debatirse en último lugar la interpelación urgente del Grupo Mixto<note>señor Tardà</note> , que figura como punto 25 del orden del día.<note>Asentamiento</note> Quiero decirles que hoy la sesión durará bastante, porque veremos todo el orden del día establecido para el martes y no dejaremos nada para el miércoles. Por tanto, pueden suponer que, aunque hayamos excluido el punto I, durará bastante.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, POR LA QUE SE REGULA EL EMBARGO O SUSPENSIÓN DEL COMERCIO DE ARMAS CON ESTADOS INVASORES U OCUPANTES DE TERRITORIOS O ESTADOS.</head>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u3" ana="#chair">
                <seg>En primer lugar, toma en consideración de la proposición de ley del Grupo Parlamentario de La Izquierda Plural, por la que se regula el embargo o suspensión del comercio de armas con Estados invasores u ocupantes de territorios o Estados. Para la presentación y defensa de la iniciativa, tiene la palabra el señor Nuet.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u4"
@@ -127,7 +125,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u5" ana="#chair">
                <seg>Muchas gracias, señor Nuet. En su despedida le deseo lo mejor. Ha sido un gran parlamentario y lo seguirá siendo en el Parlament de Catalunya.</seg>
                <seg>En turno de fijación de posiciones, tiene la palabra en primer lugar por el Grupo Mixto el señor Tardà.</seg>
             </u>
@@ -141,7 +139,7 @@
                <seg>Así pues, ya les anunciamos que, aun cuando la legislatura ya periclita, vamos a pedir la comparecencia de los ministros de Justicia y del Interior a fin y efecto de poder debatir aquí y de manera urgente los casos de los ciudadanos Hassanna Aalia y Alí Aarrass. Creo que no podemos cerrar los ojos, no podemos mantener esta hipocresía tan evidente ante situaciones que deberían escandalizarnos y no pasarlas tangencialmente como si no vinieran a cuento. Así pues, repito, solidaridad con Alí Aarrass y con Hassanna Aalia. Les recuerdo que hoy en muchas ciudades del Estado español hay concentraciones de apoyo a este activista saharaui, así como de denuncia de la situación de Alí Aarrass.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u7" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Tiene ahora la palabra el señor Serrano, del Grupo Mixto.</seg>
             </u>
@@ -152,7 +150,7 @@
                <seg>Justificación económica, por otra parte, que resulta más flagrante en su perfidia cuando hay Gobiernos que no tienen reparo en incluir entre sus ministros a personas con intereses en la industria de armas. Hay y debe haber otras áreas en que crear empleo, un empleo basado en la paz. Con esta filosofía propuso Geroa Bay una enmienda parcial a los presupuestos planteando la transferencia de la partida destinada a I+D+i militar a la pequeña y mediana empresa, que estas sí son las que sostienen el peso del empleo, para que ese empleo sea más productivo y más cualificado. Por supuesto, nos la rechazaron dominados por la mentalidad del si vis pacem para bellum, conocido aforismo de un imperio, el romano, que basó su paz en el militarismo, la invasión de territorios y la apropiación por la fuerza de sus suelos y de sus fuentes de riqueza. Cualquier país, europeo o no, puede intentar vender semejantes justificaciones en torno al empleo entre su ciudadanía, pero no es una justificación válida en sociedades maduras y pacíficas. No desde luego en Navarra, donde la filosofía del si vis pacem para bellum nos hace sufrir la presencia activa de un polígono de tiro y campo de maniobras con fuego real como el de las Bardenas, en cuyos alrededores se han producido ya accidentes graves que por casualidad no han llegado a convertirse en tragedia pero que en cualquier momento pudieran serlo, y donde dentro de pocos días se van a practicar maniobras militares de gran intensidad precisamente para ensayos, entre otras cosas, de invasión de territorios por<pb n="10"/> parte de la OTAN, allá donde esta considere de su interés intervenir, y no siempre, como bien sabemos, por intereses de la paz. Desmantelen de una vez el polígono de tiro de las Bardenas. Cualquier país, europeo o no, puede intentar vender justificaciones económicas, tanto más si no tiene reparos en colocar como ministros de defensa a industriales de las armas. De ahí la necesidad de una ley como esta, y más en este Estado español, que garantice por lo menos que los acuerdos internacionales firmados se integren en la legislación interna, que ningún Gobierno pueda vender ni facilitar armas a quienes invadan u ocupen territorios ajenas a su soberanía, ni siquiera en el caso de que el Gobierno tenga como ministros de defensa a fabricantes de armas.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u9" ana="#chair">
                <seg>Muchas gracias, señor Serrano.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> tiene la palabra el señor Esteban.</seg>
             </u>
@@ -167,7 +165,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u11" ana="#chair">
                <seg>Muchas gracias, señor Esteban.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Calduch.</seg>
             </u>
@@ -181,7 +179,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u13" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo Catalán de Convergència i de Unió, en primer lugar tiene la palabra la señora Castellanos.</seg>
             </u>
@@ -195,7 +193,7 @@
                <seg>Gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u15" ana="#chair">
                <seg>Muchas gracias, señora Castellano.</seg>
                <seg>Señor Xuclà.</seg>
             </u>
@@ -210,7 +208,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u17" ana="#chair">
                <seg>Muchas gracias, señor Xuclà.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor Morlán.</seg>
             </u>
@@ -225,7 +223,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u19" ana="#chair">
                <seg>Muchas gracias, señor Morlán.</seg>
                <seg>Tengo que decir que he recibido con tristeza su comunicado de que abandona este Congreso. Han sido muchos años de trabajar juntos, cada uno en su grupo, y de colaborar en muchos temas. De verdad y de corazón, le deseo lo mejor. Muchas gracias, señor Morlán.<note>Aplausos</note> Por el Grupo Popular, tiene la palabra la señora Fabra.</seg>
             </u>
@@ -244,13 +242,13 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u21" ana="#chair">
                <seg>Muchas gracias, señora Fabra. Le agradezco sus últimas palabras. Estoy convencido de que, sea cual sea su destino, será un futuro brillante.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY - DEL GRUPO PARLAMENTARIO CATALÁN DE CONVERGÈNCIA I DE UNIÓ, RELATIVA A INCREMENTAR EL SALARIO MÍNIMO INTERPROFESIONAL.</head>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u22" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u22" ana="#chair">
                <seg>Pasamos al punto II del orden del día, proposiciones no de ley. Proposición no de ley del Grupo Parlamentario Catalán de Convergència i de Unió relativa a incrementar el salario mínimo interprofesional. Para su defensa tiene la palabra el señor Campuzano.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u23"
@@ -264,7 +262,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u24" ana="#chair">
                <seg>Muchas gracias, señor Campuzano.</seg>
                <seg>Se han presentado a esta proposición no de ley dos enmiendas. En primer lugar y para su defensa por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Calduch.</seg>
             </u>
@@ -726,7 +724,7 @@
                <note>Aplausos</note>
                <pb n="39"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u94" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo Catalán de Convergència i de Unió tiene en primer lugar la palabra el señor Picó.</seg>
             </u>
@@ -738,7 +736,7 @@
                <seg>Somos, por tanto, críticos con la política de empleo del Gobierno sin lugar dudas, pero, pudiendo compartir algunas de las medidas que nos propone el Partido Socialista en su iniciativa, especialmente en relación con el punto tres, también debo decirles que son más aspiraciones que realidades, señor Simancas. Usted mismo en su intervención ha reconocido que son más que nada aspiraciones porque tienen poco margen temporal para llevarlas a cabo. Por tanto, desde esta perspectiva Unió se va a abstener.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u96" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Señor Campuzano.</seg>
             </u>
@@ -750,7 +748,7 @@
                <seg>En segundo lugar, seguramente en la próxima legislatura habrá que abordar reformas que en esta no se han abordado; por ejemplo, la simplificación contractual, cuestión de la que el Gobierno se ha vanagloriado en algunos momentos pero que no se ha abordado, o el avance hacia un modelo de indemnización del despido inspirado en el fondo de capitalización existente en Austria o Italia, precisamente para combatir de manera más radical la alta temporalidad que nuestro mercado de trabajo continúa padeciendo. Habrá que abordar cuestiones tan serias como las que hemos debatido esta misma tarde a propuesta de Convergència, como es el incremento del salario mínimo interprofesional, precisamente para luchar contra la desigualdad y para revertir un modelo de crecimiento no basado en salarios bajos ni compitiendo con los países de las economías emergentes sino compitiendo en servicios y en bienes de valor añadido; habrá que abordar una reforma de la protección por desempleo para hacer frente al desempleo de larga duración en un momento en que nuestro sistema de protección social no da respuesta<pb n="40"/> a esa necesidad; y habrá que tomarse en serio la gran asignatura pendiente de este Gobierno, que son las políticas activas de empleo, precisamente porque un mercado de trabajo flexible como el que exige una economía integrada a escala global, para ser justos debe ir acompañada de poderosas políticas de empleo. Quedan cuestiones pendientes. No es el tiempo de la euforia, sino de respuestas más serias que las que se han dado en esta legislatura.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u98" ana="#chair">
                <seg>Muchas gracias, señor Campuzano.</seg>
                <seg>Por el Grupo Parlamentario Popular tiene la palabra la señora Álvarez-Arenas.</seg>
                <seg>La señora ÁLVAREZ-ARENAS CISNEROS: Muchas gracias, señor presidente.</seg>
@@ -761,14 +759,14 @@
                <seg>Con todos estos datos ustedes siguen empeñados en derogar la reforma laboral. Es una verdadera obsesión, un déjà vu. Simplemente porque no la han hecho ustedes, aunque lo intentaron en 2010. Por cierto, hoy ha dicho el señor Coscubiela que había que derogarla. No. Él no quiere derogar la de 2010.<pb n="41"/> Pero ustedes la hicieron, y se quedaron en la exposición de motivos -no fueron capaces de ir más allá-, a ver si colaba con la exposición de motivos en la Unión Europea, que no coló. Pero ahora ya vemos, ese asesor económico que dio dos horas de lecciones de economía al señor Zapatero va diciendo, donde le quieren oír y en privado, que de derogar la reforma laboral si llegan ustedes a gobernar, nada de nada. Señorías, los españoles no se merecen una oposición que les mienta. Ustedes dejaron España como un solar. Recesión, paro creciente y hasta 3,5 millones de parados en sus últimos tres años. Irresponsabilidad e incapacidad, señorías. No les voy a decir cómo solucionaron los problemas en la crisis de 2010, congelando las pensiones de los pensionistas y hurtándoles dinero de su propia hucha. Si hiciésemos todo lo que ustedes proponen, volveríamos adonde estábamos al inicio de la legislatura, a un solar. Iríamos a un déficit excesivo, a una bajada de la confianza y a un paro creciente con las medidas que ustedes proponen hoy. No solo no las vamos a aprobar, como ha dicho el representante de UPyD, porque sean extemporáneas y se vaya a acabar la legislatura. No, señorías. No las vamos a aprobar porque iríamos otra vez al desastre. España no se puede permitir un retroceso en su crecimiento y en la creación de empleo. Con la reforma laboral se ha conseguido frenar la destrucción de empleo y empezar a crearlo en tasas de crecimiento económico nunca conocidas. Con el uno por ciento se ha creado empleo. Ahora se está creando empleo a la vez que hay crecimiento económico.</seg>
                <seg>La reforma laboral, la reforma del sector financiero son claves para la estabilidad y la confianza de este país, pilares de una recuperación sólida y estable que reconocen todos los organismos internacionales. Señorías, y termino, señor presidente, los cimientos están bien anclados. El edificio ya empieza a rebasar la cota cero. Ha empezado a crecer el edificio. ¿Qué queda mucho por construir? Claro, hay que levantar una gran torre. Hay que seguir avanzando. Queda mucho por hacer. Hay que levantar el resto del edificio, y lo más importante, hay que dotarlo de bienestar en su interior. Y ahí nos podemos encontrar. El señor Campuzano...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u99" ana="#chair">
                <seg>Señora Álvarez-Arenas, tiene que terminar.</seg>
                <seg>La señora ÁLVAREZ-ARENAS CISNEROS: Termino, señor presidente.</seg>
                <seg>El señor Campuzano ha enunciado muchas cosas que se pueden trabajar, que son las que rellenarían ese edificio que hay que levantar. ¡Claro que sí! Y habrá que hacerlas en la próxima legislatura. Pero no podemos ni eliminar ese crecimiento del edificio, ni acabar y socavar esos cimientos que se han puesto sólidamente para conseguir que dure por mucho tiempo. Señorías, ustedes lo saben y por eso van diciendo con la boca chica y no en público que de derogar la reforma laboral nada de nada. Por eso, señorías, y ustedes lo saben, porque vamos por el buen camino, porque España se merece ese futuro sólido de un edificio alto y confortable, es por lo que les convocamos a todos a un proyecto ilusionante. Convocamos a todos los españoles a conseguir 20 millones de empleos y que lo hagamos todos juntos a partir de este momento.</seg>
                <seg>Muchas gracias, señor presidente, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u100" ana="#chair">
                <seg>Muchas gracias, señora Álvarez-Arenas.</seg>
                <seg>Señor Simancas, ¿acepta alguna enmienda?</seg>
             </u>
@@ -777,12 +775,12 @@
                ana="#regular">
                <seg>Aceptamos la enmienda del Grupo Vasco. Únicamente esa.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u102" ana="#chair">
                <seg>Muchas gracias, señor Simancas.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: SOBRE MEDIDAS QUE PIENSA ADOPTAR EL GOBIERNO EN LA PRESENTE SITUACIÓN DE RECOGIDA DE REFUGIADOS.</seg>
                <note>Número de expediente 173/000229</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u103" ana="#chair">
                <seg>Moción del Grupo de La Izquierda Plural sobre medidas que piensa adoptar el Gobierno en la presente situación de recogida de refugiados. Para su defensa tiene la palabra el señor Sixto.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u104"
@@ -796,7 +794,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u105" ana="#chair">
                <seg>Muchas gracias, señor Sixto.</seg>
                <seg>Se ha presentado una enmienda a esta moción por parte del Grupo Parlamentario Catalán de Convergència i de Unió que va a defender el señor Campuzano.</seg>
             </u>
@@ -810,7 +808,7 @@
                <seg>Muchas gracias.</seg>
                <pb n="44"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u107" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u107" ana="#chair">
                <seg>Muchas gracias, señor Campuzano.</seg>
                <seg>En turno de fijación de posiciones, en primer lugar, por el Grupo Mixto, tiene la palabra el señor Iñarritu.</seg>
             </u>
@@ -824,7 +822,7 @@
                <seg>De igual forma, y a colación de la dificultad que tiene el solicitar asilo en el Estado español -recordemos que es uno de los Estados de la Unión Europea donde más difícil es solicitar asilo-, queremos denunciar el caso de Hassana Aalia, un activista saharaui que ha solicitado asilo en el Estado español porque en Marruecos ha sido condenado a cadena perpetua en un juicio injusto o sin garantías y cuya vida, de ser trasladado a Marruecos, estaría en grave peligro. Pues bien, el Gobierno no solamente rechazó esta solicitud de asilo, sino que la semana pasada fue detenido en la ciudad de Burgos y se le entregó por parte de los agentes policiales una orden de expulsión en 48 horas, sin tener en cuenta la medida cautelar, inexistente a día de hoy, de un juez de la Audiencia Nacional diciendo que hasta que se resuelva judicialmente este asunto no puede ser expulsado. Por ello la sociedad vasca, las instituciones del País Vasco, lugar en donde reside, han solicitado al Gobierno que acceda a conceder el asilo a esta persona. Por ello, una vez más, traemos a esta Cámara esa solicitud, que por sentido común el Gobierno acceda a conceder asilo, independientemente del procedimiento judicial en curso, a Hassana Aalia.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u109" ana="#chair">
                <seg>Muchas gracias, señor Iñarritu.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Olabarría.</seg>
             </u>
@@ -839,7 +837,7 @@
                <note>Aplausos</note>
                <pb n="46"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u111" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u111" ana="#chair">
                <seg>Muchas gracias, señor Olabarría, pero no estoy de acuerdo con usted. A mí me parece muy bien que se despidan los compañeros que han estado tantos años con nosotros y lo siento, me produce tristeza, pero me da alegría porque estoy seguro de que vendrán otros que serán mejores que nosotros. Así es la vida.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -851,7 +849,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u113" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u113" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra la señora Esteve.</seg>
             </u>
@@ -1078,7 +1076,7 @@
                <seg>Nos llama poderosamente la atención ese cambio, por eso queremos oír al portavoz del Grupo Popular cuáles son las razones justificativas de la retirada de enmiendas del propio Grupo Popular; queremos oír si se va a producir esta retirada de sus enmiendas en un día como hoy -además afecta a los puertos vascos, a los puertos gallegos, a los puertos del Cantábrico fundamentalmente-, en el que por fin hemos resuelto una querella histórica, un problema histórico, una disfunción histórica, un agravio histórico que afecta fundamentalmente a mujeres, el día que esta Cámara simultáneamente proclama mediante un acto institucional el empoderamiento de las mujeres. Esperemos que no ocurra y que el Grupo Popular sea congruente con lo que ha aprobado en el Senado y se mantenga la ubicación de las nescatillas, de las empacadoras y de las rederas dentro del ámbito de protección no del régimen de autónomos, sino incluso -nos atreveríamos a decir- de un régimen en el que la protección tiene mayor intensidad, del régimen general. Se va a argumentar probablemente que el Instituto Social de la Marina refuta o tiene una opinión contraria a la ubicación de este colectivo en este régimen especial de protección de las trabajadoras y los trabajadores del mar, pero no es cierto. Poseo un documento en el cual el Instituto Social de la Marina acredita que no solo piensa que deben ser objeto de protección a través del régimen de autónomos y del grupo 3, como se prevé en la enmienda transada, sino que deberían ser objeto de protección con un mayor grado de intensidad en el régimen general de la Seguridad Social.</seg>
                <seg>Señor presidente, estamos particularmente interesados -aunque pueda parecer una paradoja lo que le voy a decir- en votar las enmiendas aprobadas en el Senado por el Grupo Popular transadas por nuestro grupo parlamentario.<note>El señor presidente ocupa la Presidencia</note> Hay otros problemas de naturaleza competencial en este proyecto de ley que han justificado la presentación de enmiendas relativas a la propia naturaleza del Instituto Social de la Marina, que es una suerte de microcosmos de toda la Seguridad Social, donde se realizan prestaciones, donde se realiza formación profesional y actos de promoción del empleo, algunos incardinados en las políticas activas ya transferidas a Euskadi. No han sido objeto de consideración; no vamos a enfatizar mucho la defensa de estas enmiendas que no han sido objeto de consideración pero sí las que lo han sido. Repito, en un día como hoy, en el que vamos a proceder institucionalmente a declarar un acto de empoderamiento de las mujeres, sobre todo deberíamos realizar actos de empoderamiento de las mujeres más vulnerables, de las que laboralmente están en peores condiciones, de las que históricamente han sido agraviadas mediante un ordenamiento jurídico que con ellas ha sido particularmente injusto. El tema se ha arreglado en el Senado. Solo espero, señor presidente -con esto acabo mis palabras-, que el tema no se destruya en el Congreso de los Diputados.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u145" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u145" ana="#chair">
                <seg>Muchas gracias, señor Olabarría.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Calduch.</seg>
             </u>
@@ -1089,7 +1087,7 @@
                <seg>El proyecto de ley que viene ya enmendado del Senado sobre las personas trabajadoras del sector marítimo-pesquero ha sido uno de los pocos proyectos de ley que se negoció en Comisión con la participación de todos los grupos parlamentarios; hubo voluntad de aceptar enmiendas que mejoraban el texto original y, por tanto, salió del Congreso con un amplio respaldo de los distintos grupos parlamentarios. Se han hecho modificaciones en el Senado que mejoran algunos aspectos y se han seguido manteniendo, como no podíamos esperar, al margen algunas de las enmiendas que propuso nuestro grupo parlamentario. Sin embargo, como ya se ha señalado, nuestro grupo se felicita de que este proyecto de ley, ahora de regreso del Senado, se haya mejorado en algunos aspectos, aunque obviamente no es la ley perfecta que cualquier grupo parlamentario desearía porque sería su ley. Va a recibir el respaldo de nuestro grupo parlamentario. Creemos -ya lo dijimos en su momento y lo reiteramos- que ese debería haber sido el proceder del grupo mayoritario, del Grupo del Partido Popular, que en este caso demostró voluntad de hacer una ley que mejorase a un sector de los trabajadores, porque, por su especial singularidad en la propia actividad laboral que realizan, por el riesgo que asumen y por la diversidad de casos de actividad<pb n="57"/> laboral que se regulan en dicho proyecto, requería la actualización de una vieja ley que ya duraba más de veinte años. Nuestro grupo parlamentario contribuyó a ello y respaldaremos en este momento su tramitación actual.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u147" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u147" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Pérez Moya.</seg>
             </u>
@@ -1101,7 +1099,7 @@
                <seg>No entendemos, y por lo tanto interrogamos, cómo se puede justificar que los prácticos de puerto o los prácticos de empresas que realizan labores de loading master o capitanes de carga y descarga en plataformas petroleras, por ejemplo, queden excluidos de la aplicación de este proyecto de ley. Hay que tener en cuenta que muchas de las refinerías tienen como trabajadores a personal titulado marítimo que realizan las labores de atraque y ensamblaje a conductos que no se encuentran en el puerto, sino en muelles flotantes o estableciendo las conexiones a conductos fuera del servicio portuario. Por eso, no entendemos que siendo trabajadores del mar queden excluidos de la aplicación de este proyecto de ley. Lo mismo sucede con trabajadores que realizan actividades de observador pesquero y de seguridad a bordo de un buque...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u149" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u149" ana="#chair">
                <seg>Perdón, señor Pérez Moya.</seg>
                <seg>Por favor, ruego silencio. Continúe.</seg>
             </u>
@@ -1113,7 +1111,7 @@
                <seg>Termino. Por suerte se acaba el show legislativo y con el año nuevo se incorporará a este Parlamento una nueva forma de entender la política legislativa que tenga en cuenta la pluralidad real del Parlamento y de la ciudadanía. Un parlamento sin mayorías absolutas, que haga política legislativa desde el rigor de los argumentos y del debate, así como desde las propuestas de los diferentes grupos buscando la complicidad, el pacto y el consenso si fuera posible. Una nueva forma de política que recupere la credibilidad de esta institución ante los ciudadanos, credibilidad laminada en esta legislatura por el abuso de la mayoría absoluta del Partido Popular, mayoría que a buen seguro será derribada con el voto de los ciudadanos, de gente como los trabajadores del mar, que hoy, con la aprobación del proyecto de ley que viene del Senado, verán cómo son discriminados -unos sí, otros no- en función del capricho de la mayoría absoluta del Partido Popular.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u151" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u151" ana="#chair">
                <seg>Muchas gracias, señor Pérez Moya.</seg>
                <seg>Por el Grupo Catalán de Convergència i de Unió, tiene la palabra el señor Campuzano.</seg>
             </u>
@@ -1125,7 +1123,7 @@
                <seg>Muchas gracias.</seg>
                <pb n="59"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u153" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u153" ana="#chair">
                <seg>Muchas gracias, señor Campuzano.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra la señora Rumí.</seg>
             </u>
@@ -1137,7 +1135,7 @@
                <seg>A lo largo de la tramitación exprés de esta ley hemos defendido algunos aspectos muy importantes para el sector, como la inclusión en el periodo de contabilidad de las cotizaciones de aquellos que han estado embarcados muchos meses, alejados de las familias...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u155" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u155" ana="#chair">
                <seg>Perdón, señora Rumí.</seg>
                <seg>Por favor, no hagan grupos.</seg>
                <seg>Continúe.</seg>
@@ -1150,7 +1148,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u157" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u157" ana="#chair">
                <seg>Muchas gracias, señora Rumí.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor García Díez.</seg>
             </u>
@@ -1166,7 +1164,7 @@
                <seg>Muchas gracias, señorías.</seg>
                <note>Aplausos.-El señor Olabarría Muñoz pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u159" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u159" ana="#chair">
                <seg>Muchas gracias, señor García Díez.</seg>
                <seg>Señor Olabarría.</seg>
             </u>
@@ -1175,7 +1173,7 @@
                ana="#regular">
                <seg>Al amparo del artículo 73 del Reglamento, señor presidente, por haber sido contradicho por el portavoz del Grupo Popular.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u161" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u161" ana="#chair">
                <seg>No me parece que sea este el momento para empezar... Si considera que ha sido aludido en alguna cosa personal, dígalo. Tiene un minuto.</seg>
                <pb n="62"/>
             </u>
@@ -1185,7 +1183,7 @@
                <seg>Quiero poner de manifiesto la contradicción en la que ha incurrido el portavoz del Grupo Parlamentario Popular indicando que el hecho de que no se cite expresamente a las empacadoras, rederas y neskatillas no supone desprotección con cargo al proyecto de ley que estamos terminando de debatir en este momento. Sí se les cita, se les cita en virtud de una enmienda presentada por ustedes. Están consignadas expresamente. Solo les pedimos una cosa, que no voten en contra de sus propias enmiendas.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u163" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u163" ana="#chair">
                <seg>Muchas gracias, señor Olabarría.</seg>
                <seg>Señor García Díez.</seg>
             </u>
@@ -1199,7 +1197,7 @@
          </div>
          <div type="debateSection">
             <head>JURAMENTO O PROMESA DE ACATAMIENTO DE LA CONSTITUCIÓN POR NUEVOS SEÑORES DIPUTADOS</head>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u165" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u165" ana="#chair">
                <seg>Vamos a proceder al juramento o promesa de acatamiento a la Constitución.</seg>
                <seg>En sustitución de doña Angelina Costa, pregunto a don Mateo Luna Alcaide si jura o promete acatar la Constitución.</seg>
             </u>
@@ -1208,7 +1206,7 @@
                ana="#regular">
                <seg>Sí, prometo.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u167" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u167" ana="#chair">
                <seg>En sustitución de don José Antonio Viera Chacón, pregunto a doña María Luisa Sánchez Trancoso si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u168"
@@ -1216,14 +1214,14 @@
                ana="#regular">
                <seg>Sí, prometo.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u169" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u169" ana="#chair">
                <seg>Don Mateo Luna y doña María Luisa Sánchez Trancoso han adquirido la condición plena de diputados. Enhorabuena.</seg>
                <note>Aplausos</note>
             </u>
          </div>
          <div type="debateSection">
             <head>DECLARACIÓN INSTITUCIONAL CON MOTIVO DEL DÍA INTERNACIONAL DE LA NIÑA :</head>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u170" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u170" ana="#chair">
                <seg>Por el secretario primero se va a proceder a la lectura de la Declaración institucional firmada por todos los grupos con motivo del Día Internacional de la Niña.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u171"
@@ -1233,102 +1231,102 @@
                <seg>Desde hace dos años este Parlamento viene reiterando su apoyo a las causas de las niñas, tales como la erradicación del matrimonio temprano forzado, que tuvo su reflejo en la resolución que la Asamblea General de Naciones Unidas adoptó el pasado 17 de noviembre de 2014. Hoy recordamos que existen otras causas de vulnerabilidad, entre las que se encuentra la mutilación genital femenina, el embarazo preadolescente o cualquier otra manifestación de violencia contra ellas de acuerdo con los objetivos de desarrollo sostenible. Hoy más que nunca este Parlamento apoya la participación de las niñas en las decisiones que afecten a sus vidas y que permitirán darles una oportunidad de tener un futuro más digno.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u172" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u172" ana="#chair">
                <seg>Muchas gracias, señor secretario.</seg>
                <pb n="63"/>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY : - DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, POR LA QUE SE REGULA EL EMBARGO O SUSPENSIÓN DEL COMERCIO DE ARMAS CON ESTADOS INVASORES U OCUPANTES DE TERRITORIOS O ESTADOS.</head>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u173" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u173" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo de La Izquierda Plural por la que se regula el embargo o suspensión del comercio de armas con Estados invasores u ocupantes de territorios o Estados. Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 327 más 1 voto telemático, 328; a favor, 22; en contra, 185; abstenciones, 120 más 1 voto telemático, 121.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u174" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u174" ana="#chair">
                <seg>No se toma en consideración.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY : - DEL GRUPO PARLAMENTARIO CATALÁN DE CONVERGÈNCIA I DE UNIÓ, RELATIVA A INCREMENTAR EL SALARIO MÍNIMO INTERPROFESIONAL.</head>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u175" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u175" ana="#chair">
                <seg>Proposición no de ley del Grupo Parlamentario Catalán de Convergència i de Unió relativa a incrementar el salario mínimo interprofesional. Incorpora una enmienda de La Izquierda Plural.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 327; a favor, 152; en contra, 174; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u176" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u176" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>- DE LOS GRUPOS PARLAMENTARIOS SOCIALISTA Y DE IU, ICV-EUIA, CHA: LA IZQUIERDA PLURAL Y DEL SEÑOR BALDOVÍ, RELATIVA A REVERTIR LOS GRAVES EFECTOS QUE ESTÁN CAUSANDO LAS DIFERENTES POLÍTICAS PUESTAS EN MARCHA POR EL GOBIERNO DE LA NACIÓN, POR MEDIO DEL REAL DECRETO-LEY 20/2012, ASÍ COMO DE LAS MEDIDAS RESTRICTIVAS DE LA LEY DE PRESUPUESTOS GENERALES DEL ESTADO PARA EL SECTOR PÚBLICO EMPRESARIAL, QUE DEPENDE DEL GRUPO DE LA SOCIEDAD ESPAÑOLA DE PARTICIPACIONES INDUSTRIALES, SEPI.</seg>
                <note>Número de expediente 162/001260</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u177" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u177" ana="#chair">
                <seg>Proposición no de ley del Grupo Socialista, de La Izquierda Plural y del señor Baldoví relativa a revertir los graves efectos que están causando las diferentes políticas puestas en marcha por el Gobierno de la Nación por medio del Real Decreto-Ley 20/2012, así como de las medidas restrictivas de la Ley de Presupuestos Generales del Estado para el sector público empresarial que depende del grupo de la Sociedad Española de Participaciones Industriales, SEPI. Se vota en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326; a favor, 151; en contra, 173; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u178" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u178" ana="#chair">
                <seg>Queda rechazada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE EL BALANCE DE LA POLÍTICA DE EMPLEO EN LA X LEGISLATURA.</head>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u179" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u179" ana="#chair">
                <seg>Moción del Grupo Socialista sobre el balance de la política de empleo en la X legislatura. Se ha incorporado una enmienda del Grupo Vasco, PNV.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="64"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 327; a favor, 131; en contra, 176; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u180" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u180" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO DE IU, ICV-EUIA, CHA: LA IZQUIERDA PLURAL, SOBRE MEDIDAS QUE PIENSA ADOPTAR EL GOBIERNO EN LA PRESENTE SITUACIÓN DE RECOGIDA DE REFUGIADOS.</seg>
                <note>Número de expediente 173/000229</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u181" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u181" ana="#chair">
                <seg>Moción de La Izquierda Plural sobre medidas que piensa adoptar el Gobierno en la presente situación de recogida de refugiados. Se incorpora una enmienda del Grupo Parlamentario Catalán de Convergència i de Unió.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 327; a favor, 41; en contra, 175; abstenciones, 111.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u182" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u182" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO CATALÁN DE CONVERGÈNCIA I DE UNIÓ, SOBRE LA POLÍTICA DEL GOBIERNO ANTE LAS INJUSTICIAS DE LA JUSTICIA, PARTICULARIZADO EN EL CASO DE LA TALIDOMIDA.</seg>
                <note>Número de expediente 173/000230</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u183" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u183" ana="#chair">
                <seg>Moción del Grupo Parlamentario Catalán de Convergència i de Unió sobre la política del Gobierno ante las injusticias de la justicia, particularizado en el caso de la talidomida. Se vota en los términos de una enmienda transaccional.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 327; a favor, 319; abstenciones, 8.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u184" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u184" ana="#chair">
                <seg>Queda aprobada.</seg>
                <note>Aplausos</note>
             </u>
          </div>
          <div type="debateSection">
             <head>ENMIENDAS DEL SENADO : - PROYECTO DE LEY REGULADORA DE LA PROTECCIÓN SOCIAL DE LAS PERSONAS TRABAJADORAS DEL SECTOR MARÍTIMO-PESQUERO.</head>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u185" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u185" ana="#chair">
                <seg>Enmiendas del Senado al proyecto de ley reguladora de la protección social de las personas trabajadoras del sector marítimo-pesquero. En primer lugar, enmiendas al artículo 4, en lo relativo al apartado 1, letra f).</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 327; a favor, 326; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u186" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u186" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo 4, en lo relativo al apartado 1, letras h) e i).</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 327; a favor, 152; en contra, 174; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u187" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u187" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas al artículo 10.1.2.º, letra c), en lo relativo a la expresión nescatillas y empacadoras.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326; a favor, 149; en contra, 175; abstenciones, 2.</seg>
                <pb n="65"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u188" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u188" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas al artículo 10.1.2.º, letra c).</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dijo</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u189" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u189" ana="#chair">
                <seg>Quedan aprobadas por unanimidad.</seg>
                <seg>Enmiendas a la disposición adicional cuarta<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326; a favor, 150; en contra, 173; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u190" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u190" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas al proyecto de ley.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 327; a favor, 325; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u191" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-13-CD151013.u191" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las nueve y cuarenta y cinco minutos de la noche.</seg>

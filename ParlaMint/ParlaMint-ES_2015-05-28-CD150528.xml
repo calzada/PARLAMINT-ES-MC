@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="207">207 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="207" xml:lang="es">207 speeches</measure>
+            <measure unit="speeches" quantity="207" xml:lang="en">207 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="72"/>
                <tagUsage gi="note" occurs="145"/>
                <tagUsage gi="u" occurs="207"/>
-               <tagUsage gi="lb" occurs="617"/>
+               <tagUsage gi="seg" occurs="617"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>EXCLUSIÓN DEL ORDEN DEL DÍA DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS: - PROYECTO DE LEY ORDENADORA DEL SISTEMA DE INSPECCIÓN DE TRABAJO Y SEGURIDAD SOCIAL.</head>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Quiero informar a sus señorías de que el punto XI, debate de totalidad de iniciativas legislativas, proyecto de ley ordenadora del sistema de Inspección de Trabajo y Seguridad Social, no se debatirá porque la enmienda a la totalidad ha sido retirada.</seg>
                <seg>Por otro lado, dado que hay enmiendas del Senado respecto al proyecto de ley orgánica, prevemos que la votación no será antes de las dos de la tarde.</seg>
@@ -107,7 +105,7 @@
          </div>
          <div type="debateSection">
             <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES - REAL DECRETO-LEY 6/2015, DE 14 DE MAYO, POR EL QUE SE MODIFICA LA LEY 55/2007, DE 28 DE DICIEMBRE, DEL CINE, SE CONCEDEN VARIOS CRÉDITOS EXTRAORDINARIOS Y SUPLEMENTOS DE CRÉDITOS EN EL PRESUPUESTO DEL ESTADO, Y SE ADOPTAN OTRAS MEDIDAS DE CARÁCTER TRIBUTARIO.</head>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u2" ana="#chair">
                <seg>Pasamos ya a la convalidación o derogación del Real Decreto-ley 6/2015, de 14 de mayo, por el que se modifica la Ley 55/2007, de 28 de diciembre, del cine, se conceden varios créditos extraordinarios y suplementos de créditos en el presupuesto del Estado, y se adoptan otras medidas de carácter tributario.<pb n="7"/> Para presentar el real decreto-ley, tiene la palabra en nombre del Gobierno el señor ministro de Hacienda y Administraciones Públicas.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u3"
@@ -130,7 +128,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u4" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Turno de fijación de posiciones. Por el Grupo Mixto tiene la palabra la señora Oramas.</seg>
             </u>
@@ -141,7 +139,7 @@
                <seg>Señor ministro, señorías, a los nacionalistas canarios nos parece muy importante la parte del real decreto en la que me voy a centrar, que es la del cine. En Canarias, en el Plan de diversificación de la economía, hemos hecho una apuesta importante por la industria del cine. Así, por un lado, en el régimen económico y fiscal que aprobó este Congreso de los Diputados con el visto bueno de Bruselas se han implantado unas medidas que refuerzan las aprobadas por el Gobierno de España entre el mes de enero, como ha dicho el ministro, y este real decreto sobre la financiación que debatimos hoy. Nosotros, con las medidas aprobadas en el sistema fiscal canario que suman un 20 % más de diferencial en relación con el resto del Estado, permitimos una actividad en la que en los últimos años Canarias ha tenido una importancia excepcional, no solo en las producciones internacionales sino también en las nacionales, por varias razones. Por un lado, por esas 4.800 horas de luz solar al año; por otro, por las localizaciones, ya que tenemos un pequeño continente en poca distancia y donde se han grabado desde paisajes como Serbia nevada en los montes de la Esperanza y de Las Mercedes, en Tenerife, hasta películas como Exodus en zonas de El Teide o de Fuerteventura, pasando por temas urbanos en la ciudad de La Laguna o en los cascos históricos. En este momento hay profesionales en Canarias que han podido estar a la altura de producciones internacionales. El interés que tiene Canarias es que el Gobierno de España tome en serio esas medidas fiscales excepcionales para que ayuden a su promoción internacional. Recientemente, el presidente del Gobierno de Canarias ha estado en Los Ángeles con las principales empresas productoras americanas presentando esas condiciones fiscales de Canarias. Nosotros creemos que es muy importante. No se trata de lo que ocurrió hace más de cincuenta años cuando se grabó Hace un millón de años, con Raquel Welch, en El Teide o Moby Dick en La Gomera, porque esos fueron hechos excepcionales. Nosotros tenemos que tener una industria estable, con profesionales y emprendedores canarios que en este momento están creando pequeñas industrias de suministros, que permita esa riqueza, esos millones de euros que supone esta industria, y no solo en puestos de trabajo, ya que tiene todavía más capacidad de crear empleo y, sobre todo, empleo estable y de calidad. También tenemos grandes profesionales de la animación. Y, en ese sentido, las medidas que vienen en el decreto van a permitir una financiación adecuada al sistema de financiación que necesita la industria del cine, porque van a sumar, como digo, las medidas fiscales en el impuesto sobre sociedades y las de deducción por inversiones a las de financiación, dando un impulso que reclamaba todo el sector audiovisual para ese objetivo de que Canarias sea una plataforma internacional. Por lo tanto, anuncio el voto a favor de las medidas del decreto, independientemente de que el resto de medidas, como el Plan PIVE y demás, nos parecen adecuadas.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u6" ana="#chair">
                <seg>Muchas gracias, señora Oramas.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Lleonart.</seg>
                <pb n="11"/>
@@ -158,7 +156,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u8" ana="#chair">
                <seg>Gracias, señor Lleonart.</seg>
                <seg>Por el Grupo de La Izquierda Plural tiene la palabra la señora De las Heras.</seg>
             </u>
@@ -174,7 +172,7 @@
                <seg>Gracias, presidente. Gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u10" ana="#chair">
                <seg>Gracias, señora De las Heras.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> de Convergència y Unió tiene la palabra la señora Surroca.</seg>
             </u>
@@ -612,7 +610,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos.-La señora Vázquez Morillo pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u68" ana="#chair">
                <seg>Muchas gracias, señora Romero.</seg>
                <seg>Señora Vázquez, ¿qué desea?</seg>
             </u>
@@ -622,7 +620,7 @@
                <seg>Quería la palabra para pedirle una rectificación a la señora Romero, ya que ha hecho alusión a los ERE, que están todavía en procedimiento judicial.</seg>
                <note>Rumores.-Risas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u70" ana="#chair">
                <seg>Un momento, señora Vázquez.</seg>
                <seg>Como confío en usted, si usted me pide esa rectificación, como yo no he estado, seguro que usted tiene razón. Le doy dos minutos para que se explique y luego se los daré a la señora Romero para que le conteste.</seg>
                <seg>Señora Vázquez.</seg>
@@ -632,7 +630,7 @@
                ana="#regular">
                <seg>Señor presidente, la señora Romero ha hecho referencia a cuánto dinero se ha ido por el sumidero de los ERE, y ha dicho miles de millones de euros.<note>Rumores</note> ¡Si es que ni el ministerio fiscal lo ha dicho! ¡Si las cantidades que se están dando hasta ahora no llegan a las de otras corrupciones que se van a Suiza!<note>Rumores</note> Rectifiquen la cantidad de miles de millones de euros de los ERE porque ustedes mienten en sede parlamentaria.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u72" ana="#chair">
                <seg>Señora Vázquez, le he dado la palabra y usted ha dicho lo que pide que es la rectificación de miles de millones.</seg>
                <seg>Le doy la palabra a la señora Romero.</seg>
                <pb n="43"/>
@@ -642,7 +640,7 @@
                ana="#regular">
                <seg>He dicho que se han ido por el sumidero de los ERE y que dijeron que iban a recuperarlo y su consejero dijo que solo había recuperado el 0,1 % de miles de millones. Si usted quiere que diga la cifra exacta, ahora mismo no tengo el auto de la jueza Alaya, pero de momento lo que han dicho es que 800 millones seguro y eso se reconoció en sede parlamentaria por su grupo.<note>Rumores</note> Aquí directamente se dice...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u74" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u74" ana="#chair">
                <seg>Señora Romero, creo que este incidente...</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u75"
@@ -651,13 +649,13 @@
                <seg>Me refiero al dinero que se ha reconocido oficialmente en el procedimiento judicial. Si usted quiere que retire la cantidad, me remito a lo que se ha reconocido de momento en sede judicial, que luego se podrá ampliar en el 'Diario de Sesiones' si se reconoce más.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u76" ana="#chair">
                <seg>Creo que el incidente se ha resuelto adecuadamente.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DICTÁMENES DE COMISIONES SOBRE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY ORGÁNICA DE MODIFICACIÓN DEL SISTEMA DE PROTECCIÓN A LA INFANCIA Y A LA ADOLESCENCIA. - PROYECTO DE LEY DE MODIFICACIÓN DEL SISTEMA DE PROTECCIÓN A LA INFANCIA Y A LA ADOLESCENCIA.</head>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u77" ana="#chair">
                <seg>Dictámenes de comisiones sobre iniciativas legislativas correspondientes a proyecto de ley orgánica de modificación del sistema de protección a la infancia y a la adolescencia y el proyecto de ley de modificación del sistema de protección a la infancia y a la adolescencia que, como acordamos en Junta de Portavoces, se debatirán acumuladamente.</seg>
                <seg>Para defender las enmiendas formuladas a estas iniciativas por el Grupo Mixto tiene la palabra la señora Pérez.</seg>
             </u>
@@ -672,7 +670,7 @@
                <seg>Señorías, por todos estos motivos no apoyaremos el dictamen y, por lo tanto, no podremos votar a favor de la aprobación de los proyectos de ley.</seg>
                <seg>Muchas gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u79" ana="#chair">
                <seg>Muchas gracias, señora Pérez.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> tiene la palabra la señora Sánchez Robles.</seg>
             </u>
@@ -694,7 +692,7 @@
                <seg>Nuestro voto hoy no puede ser favorable. Si eso se aceptara, sí lo sería. Hoy nos abstendremos en un gesto de buena voluntad para tratar de alcanzar ese consenso antes de la votación final que se celebrará en esta Cámara durante el verano.</seg>
                <seg>Muchas gracias, presidente, por su generosidad.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u81" ana="#chair">
                <seg>Muchas gracias, señora Sánchez Robles.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra la señora Díez.</seg>
             </u>
@@ -711,7 +709,7 @@
                <seg>Presidente, muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u83" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Por el Grupo Parlamentario de La Izquierda Plural tiene la palabra el señor Pérez Moya.</seg>
             </u>
@@ -727,7 +725,7 @@
                <seg>Muchas gracias, señor presidente, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u85" ana="#chair">
                <seg>Muchas gracias, señor Pérez Moya.</seg>
                <seg>Por el Grupo Catalán<note>Convergència i Unió</note> tiene la palabra el señor Campuzano.</seg>
             </u>
@@ -954,7 +952,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u115" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u115" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , tiene la palabra el señor Picó.</seg>
             </u>
@@ -967,7 +965,7 @@
                <seg>Otro ejemplo. En los últimos años, la reconfiguración de los impuestos llevada a cabo por el Gobierno del Partido Popular con alzas -recuerden- en el impuesto sobre la renta de las personas físicas, el IVA, impuestos especiales, entre otros, ha supuesto un incremento de la recaudación en el periodo 2012-2014 de más de 30.000 millones de euros. Este incremento en la recaudación ha supuesto dos cosas para las comunidades autónomas de régimen común. Por un lado, que no puedan beneficiarse de los recursos adicionales que esto ha supuesto; las comunidades autónomas no han recibido ni un duro de esos 30.000 millones de euros de recaudación extraordinaria. Y, por otro, que esos incrementos de la fiscalidad han supuesto un incremento del gasto de las comunidades autónomas por la mayor presión fiscal que tienen que sufrir. Quiero recordarles también que a eso debemos sumarle que no se avanza en el pago del Fondo de competitividad de los años 2014 y 2015 cuando las necesidades que deben solventar las<pb n="65"/> comunidades autónomas son hoy y no dentro de dos años. Hablar hoy de financiación de las comunidades autónomas de régimen común es hablar de una profunda deslealtad y de una asfixia financiera.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u117" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u117" ana="#chair">
                <seg>Gracias, señor Picó.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor Moscoso del Prado.</seg>
             </u>
@@ -978,7 +976,7 @@
                <seg>Señorías, el Convenio Económico es un instrumento y la pieza fundamental de autogobierno de la Comunidad Foral de Navarra. La Constitución Española y la Ley orgánica de reintegración y amejoramiento del Régimen Foral de Navarra, la Lorafna, definen un rico e inmenso campo de juego democrático del que se deriva este convenio. La legitimidad del fuero -quiero recordar- es constitucional, tal y como recoge la disposición adicional primera de la Constitución del año 1978. Recuerdo sus palabras: La Constitución ampara y respeta los derechos históricos de los territorios forales. En el caso de Navarra, ese derecho histórico es el mantenimiento del Régimen Foral. Señorías, la Constitución fue refrendada en España por una mayoría inmensa de ciudadanos y en Navarra también, por la mayoría de los ciudadanos y por la mayoría del censo. Como siempre, me gusta recordar que, de todas las fuerzas que hoy intervenimos en este debate, tan solo el Partido Socialista defendió entonces la Constitución sin ambages en toda su redacción, desde el principio hasta el final, sin matización alguna. Por ello, mi grupo hoy se alegra por el acuerdo alcanzado en un contexto muy difícil, un contexto que no ha sido ni el marco más favorable desde la perspectiva estatal, ni tampoco el marco más favorable para la defensa del autogobierno de Navarra; un acuerdo alcanzado in extremis al final de una legislatura en la que el Partido Popular ha abogado más que nunca hacia una recentralización del Estado autonómico y en particular también de la Comunidad Foral de Navarra; un Gobierno, señor ministro, señor Montoro -que no me escucha-, que ha recurrido decisiones del Parlamento y actuaciones del Gobierno de Navarra, sin dignarse en ocasiones ni siquiera a informar previamente de ello; un Gobierno que ha recurrido catorce leyes forales en tres años. Aquí, en esta Cámara, debatimos en octubre, en diciembre del año pasado y en marzo...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u119" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u119" ana="#chair">
                <seg>Perdón, señor Moscoso. Por favor, no pueden hacerse grupos en los pasillos. El que quiera hablar, en el bar, en la calle, aquí a escuchar.</seg>
                <seg>Siga usted, señor Moscoso.</seg>
             </u>
@@ -989,7 +987,7 @@
                <seg>Qué clima tan diferente el actual al de por ejemplo el año 2010, cuando con un Gobierno socialista esta Cámara, con amplio consenso, reformó la Lorafna, qué diferente. Por eso quiero recordar que el contexto ha sido muy difícil.</seg>
                <seg>El texto sobre la modificación del convenio lo consideramos positivo, no solamente porque resuelve el contencioso sobre el tema del IVA, sobre el que luego volveré, sino porque también introduce modificaciones que habrá que tener en cuenta antes de imponer recursos al Tribunal Constitucional y también modificaciones que el propio Tribunal Constitucional deberá tener en cuenta antes de interpretar futuras normas forales navarras. Y por eso quiero hacer referencia al acuerdo de hace semanas por el cual reformamos la Lofca, la Ley Orgánica 8/1980, de 22 de septiembre, de financiación de las comunidades autónomas; una reforma que pretendía unificar y reforzar el bloque de constitucionalidad para legitimar el fuero, una necesidad que era fundamental para acabar con la cadena de conflictos y para ordenar el fuero y su naturaleza paccionada; una reforma destinada a garantizar el reconocimiento pleno del Régimen Foral navarro y también la capacidad -esto es lo importante- de la Comunidad Foral de Navarra para refrendar y proteger su competencia para regular tributos propios en todo tipo de materias<note>Rumores</note> En aquel debate exigimos que esa reforma de la Lofca, que no puede ser desvinculada de este acuerdo, debía incorporar dos premisas: la primera, que contara con un amplio acuerdo y consenso constitucional basado en el bloque de constitucionalidad, porque cualquier reforma del bloque de constitucionalidad del fuero navarro exige constitucionalidad...<note>Rumores</note> Señor presidente, es imposible continuar así.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u121" ana="#chair">
                <seg>Vuelvo a decirlo. Por favor, el señor Moscoso choca contra un muro para que sus palabras puedan ser oídas y comprendidas. Por favor, silencio.</seg>
                <seg>Adelante, señor Moscoso.</seg>
                <pb n="66"/>
@@ -1003,7 +1001,7 @@
                <seg>Señorías, la autonomía tributaria de Navarra es un elemento esencial del Régimen Foral de Navarra. El convenio en el marco de la Constitución nos permite fijar las reglas de armonización y de coordinación con el Estado. Como decía, el sistema debe ir adaptándose siempre y habrá que seguir haciéndolo en el futuro. Desde luego el panorama al que vamos -muy deseable- de unión fiscal de Europa recomendará muchos más esfuerzos de aproximación. Como ustedes saben, la aportación de Navarra al Estado no se modifica en esta reforma y sigue vigente la adoptada en 1990. El convenio es también el instrumento por el cual los navarros contribuimos a la solidaridad con el conjunto de los ciudadanos españoles. Tal y como recoge la Declaración de Granada que el PSOE aprobó en 2013 hacia una estructura federal del Estado, el compromiso de los socialistas con las instituciones del Concierto del País Vasco y del Convenio de Navarra es absoluto; instituciones que deben seguir manteniendo su reconocimiento constitucional, al tiempo que, por supuesto, se perfecciona su aplicación práctica; perfeccionamiento paccionado.</seg>
                <seg>Voy terminando ya, señor presidente, por el tiempo que he perdido antes,...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u123" ana="#chair">
                <seg>Señor Moscoso, debe usted terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u124"
@@ -1012,7 +1010,7 @@
                <seg>Me queda un minuto, si descontamos lo de antes.</seg>
                <pb n="67"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u125" ana="#chair">
                <seg>No le queda. Se lo recomiendo encarecidamente, acabe usted.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u126"
@@ -1021,7 +1019,7 @@
                <seg>Los navarros no renunciaremos nunca a las cuestiones de principio que avalan al Régimen Foral, al fuero; sin embargo, siempre nos aproximaremos a las cuestiones de cifrado al huevo, con flexibilidad y desde el margen y la perspectiva de la solidaridad.</seg>
                <seg>Señorías, el domingo pasado hubo elecciones en Navarra como en otros tantos territorios de España. El nuevo Gobierno que se constituya deberá respetar la voluntad de cambio de la ciudadanía de Navarra, eso es indudable. Debe apostar por el autogobierno de Navarra sin cuestionar nuestro ordenamiento constitucional, y hacerlo en el marco que nos ha permitido alcanzar las mayores cotas de prosperidad y libertad de nuestra historia.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u127" ana="#chair">
                <seg>Señor Moscoso, tiene usted que terminar. Hágame el favor. Ya no hablemos del futuro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u128"
@@ -1031,7 +1029,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u129" ana="#chair">
                <seg>Muchas gracias, señor Moscoso.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Pérez Lapazarán.</seg>
             </u>
@@ -1050,14 +1048,14 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u131" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u131" ana="#chair">
                <seg>En dos minutos vamos a votar.</seg>
                <note>Pausa</note>
             </u>
          </div>
          <div type="debateSection">
             <head>JURAMENTO O PROMESA DE ACATAMIENTO DE LA CONSTITUCIÓN POR NUEVOS SEÑORES DIPUTADOS</head>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u132" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u132" ana="#chair">
                <seg>Señorías, con carácter previo a las votaciones, vamos a proceder al juramento o promesa de acatamiento de la Constitución conforme al artículo 20.1.3.º del Reglamento. En sustitución de don Álvaro Anchuelo Crego, pregunto a don Rafael Calduch Cervera si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u133"
@@ -1065,375 +1063,375 @@
                ana="#regular">
                <seg>Sí, juro.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u134" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u134" ana="#chair">
                <seg>Don Rafael Calduch ha adquirido la condición plena de diputado. Enhorabuena.</seg>
                <note>Aplausos</note>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LA ORIENTACIÓN DE LA POLÍTICA FISCAL CONTENIDA EN LA ACTUALIZACIÓN DEL PROGRAMA DE ESTABILIDAD 2015-2018 Y SUS EFECTOS SOBRE LA DESIGUALDAD.</head>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u135" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u135" ana="#chair">
                <seg>Moción del Grupo Parlamentario Socialista, sobre la orientación de la política fiscal contenida en la actualización del programa de estabilidad 2015-2018 y sus efectos sobre la desigualdad. Se vota en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 132; en contra, 178.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u136" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u136" ana="#chair">
                <seg>Queda rechazada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES : - REAL DECRETO-LEY 6/2015, DE 14 DE MAYO, POR EL QUE SE MODIFICA LA LEY 55/2007, DE 28 DE DICIEMBRE, DEL CINE, SE CONCEDEN VARIOS CRÉDITOS EXTRAORDINARIOS Y SUPLEMENTOS DE CRÉDITOS EN EL PRESUPUESTO DEL ESTADO, Y SE ADOPTAN OTRAS MEDIDAS DE CARÁCTER TRIBUTARIO.</head>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u137" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u137" ana="#chair">
                <seg>Real Decreto-ley 6/2015, de 14 de mayo, por el que se modifica la Ley 55/2007, de 28 de diciembre, del Cine, se conceden varios créditos extraordinarios y suplementos de créditos en el presupuesto del Estado y se adoptan otras medidas de carácter tributario. Hay dos votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311 más 2 votos telemáticos, 313; a favor, 190 más 2 votos telemáticos, 192; en contra, 10; abstenciones, 111.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u138" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u138" ana="#chair">
                <seg>Queda convalidado el real decreto.</seg>
                <seg>Tramitación como proyecto de ley por el procedimiento de urgencia de este real decreto-ley.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311 más 2 votos telemáticos, 313; a favor, 132; en contra, 179 más 2 votos telemáticos, 181.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u139" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u139" ana="#chair">
                <seg>No se tramitará como proyecto de ley.<pb n="70"/> - REAL DECRETO-LEY 7/2015, DE 14 DE MAYO, POR EL QUE SE CONCEDEN CRÉDITOS EXTRAORDINARIOS Y UN SUPLEMENTO DE CRÉDITO POR IMPORTE DE 856.440.673,35 EUROS EN EL PRESUPUESTO DEL MINISTERIO DE DEFENSA, PARA ATENDER AL PAGO DE OBLIGACIONES CORRESPONDIENTES A PROGRAMAS ESPECIALES DE ARMAMENTO Y A LA REALIZACIÓN DE OTRAS ACTUACIONES DEL DEPARTAMENTO.</seg>
                <note>Número de expediente 130/000071</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u140" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u140" ana="#chair">
                <seg>Real Decreto-ley 7/2015, de 14 de mayo, por el que se conceden créditos extraordinarios y un suplemento de crédito por un importe determinado en el presupuesto del Ministerio de Defensa para atender al pago de obligaciones correspondientes a programas especiales de armamento y a la realización de otras actuaciones del departamento. Hay dos votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311 más 2 votos telemáticos, 313; a favor, 180 más 2 votos telemáticos, 182; en contra, 127; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u141" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u141" ana="#chair">
                <seg>Queda convalidado.</seg>
                <seg>Tramitación como proyecto de ley por el procedimiento de urgencia de este real decreto. Ha sido emitido un voto telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 308 más 1 voto telemático, 309; a favor, 303; en contra, 2 más 1 voto telemático, 3; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u142" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u142" ana="#chair">
                <seg>Se tramitará como proyecto de ley.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>ENMIENDAS DEL SENADO : - PROYECTO DE LEY ORGÁNICA DE MODIFICACIÓN DE LA LEY ORGÁNICA 8/1980, DE 22 DE SEPTIEMBRE, DE FINANCIACIÓN DE LAS COMUNIDADES AUTÓNOMAS Y DE LA LEY ORGÁNICA 2/2012, DE 27 DE ABRIL, DE ESTABILIDAD PRESUPUESTARIA Y SOSTENIBILIDAD FINANCIERA.</head>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u143" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u143" ana="#chair">
                <seg>Vamos ahora a pasar a las enmiendas del Senado y, posteriormente, a enmiendas del dictamen. Como queda reflejado en el 'Diario de Sesiones', de las enmiendas diré simplemente aceptada o rechazada. Proyecto de ley orgánica de modificación de la Ley orgánica 8/1980, de 22 de septiembre, de financiación de las comunidades autónomas, y de la Ley orgánica 2/2012, de 27 de abril, de estabilidad presupuestaria y sostenibilidad financiera. En primer lugar, votación de la enmienda a la disposición adicional primera<note>nueva</note> , en lo relativo al inciso final del apartado 3: '...o para la concesión de la autorización a la que se refiere el apartado 3 anterior'. ¿Comprendido por los portavoces?<note>Asentimiento</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 10; en contra, 194; abstenciones, 102.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u144" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u144" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda relativa al resto de la disposición adicional primera, nueva.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 307; a favor, 181; en contra, 13; abstenciones, 113.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u145" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u145" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda a la disposición adicional segunda<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 307; a favor, 275; en contra, 25; abstenciones, 7.</seg>
                <pb n="71"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u146" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u146" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmiendas a la disposición final séptima, a la disposición final undécima y al preámbulo.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 274; en contra, 14; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u147" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u147" ana="#chair">
                <seg>Quedan aprobadas.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>VOTACIÓN DE CONJUNTO</head>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u148" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u148" ana="#chair">
                <seg>Votación de conjunto del proyecto de ley orgánica de modificación de la Ley Orgánica 8/1980, de 22 de septiembre, de Financiación de las Comunidades Autónomas, y de la Ley Orgánica 2/2012, de 27 de abril, de Estabilidad Presupuestaria y Sostenibilidad Financiera, por tener el carácter de orgánica. Hay dos votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 307 más 2 votos telemáticos, 309; a favor, 182 más 2 votos telemáticos, 184; en contra, 122; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u149" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u149" ana="#chair">
                <seg>Queda aprobado.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DICTÁMENES DE COMISIONES SOBRE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY ORGÁNICA DE MODIFICACIÓN DEL SISTEMA DE PROTECCIÓN A LA INFANCIA Y A LA ADOLESCENCIA.</head>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u150" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u150" ana="#chair">
                <seg>Dictámenes de comisiones sobre iniciativas legislativas. Proyecto de ley orgánica de modificación del sistema de protección a la infancia y a la adolescencia. Empezamos con las enmiendas del Grupo Mixto<note>señora Pérez Fernández</note> , y votamos en primer lugar las números 1, 9 y 10.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 36; en contra, 179; abstenciones, 96.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u151" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u151" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas de la señora Pérez Fernández.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 132; en contra, 177; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u152" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u152" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del señor Tardà, que se votan en bloque.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 131; en contra, 180.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u153" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u153" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Vasco, PNV. En primer lugar, enmienda 47.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 35; en contra, 180; abstenciones, 96.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u154" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u154" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 48.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="72"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 306; en contra, 3; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u155" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u155" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda 49.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 28; en contra, 272; abstenciones, 11.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u156" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u156" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas de Unión Progreso y Democracia. En primer lugar, enmienda 40.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 19; en contra, 190; abstenciones, 96.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u157" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u157" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 45.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 30; en contra, 180; abstenciones, 96.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u158" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u158" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 46.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 307; a favor, 19; en contra, 181; abstenciones, 107.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u159" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u159" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas de Unión Progreso y Democracia.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 124; en contra, 178; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u160" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u160" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas presentadas por La Izquierda Plural. Enmiendas 20, 22, 25, 27 y 32.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 36; en contra, 180; abstenciones, 94.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u161" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u161" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas de La Izquierda Plural.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 307; a favor, 130; en contra, 176; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u162" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u162" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Catalán<note>Convergència i Unió</note> En primer lugar, enmiendas 103, 121 y 124.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 32; en contra, 179; abstenciones, 94.</seg>
                <pb n="73"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u163" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u163" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 105.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 118; en contra, 185; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u164" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u164" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 117 y 119.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 307; a favor, 23; en contra, 275; abstenciones, 9.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u165" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u165" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas del Grupo Catalán<note>Convergència i Unió</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 307; a favor, 127; en contra, 180.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u166" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u166" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Socialista que se votan en bloque.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 307; a favor, 127; en contra, 179; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u167" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u167" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Votación del dictamen de la Comisión.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 181; en contra, 17; abstenciones, 113.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u168" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u168" ana="#chair">
                <seg>Queda aprobado.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>VOTACIÓN DE CONJUNTO</head>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u169" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u169" ana="#chair">
                <seg>Votación de conjunto del proyecto de ley orgánica de modificación del sistema de protección a la infancia y a la adolescencia, por tener carácter orgánico. Hay dos votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311 más 2 votos telemáticos, 313; a favor, 183 más 2 votos telemáticos, 185; en contra, 15; abstenciones, 113.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u170" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u170" ana="#chair">
                <seg>Queda aprobado el proyecto de ley con su carácter orgánico.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DICTÁMENES DE COMISIONES SOBRE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY DE MODIFICACIÓN DEL SISTEMA DE PROTECCIÓN A LA INFANCIA Y A LA ADOLESCENCIA.</head>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u171" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u171" ana="#chair">
                <seg>Votamos ahora el dictamen del proyecto de ley de modificación del sistema de protección a la infancia y a la adolescencia. Empezamos con las enmiendas de la señora Pérez Fernández. Enmiendas 5, 8 y 10.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 129; en contra, 179; abstenciones, 2.</seg>
                <pb n="74"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u172" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u172" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas de la señora Pérez Fernández.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 308; a favor, 32; en contra, 176; abstenciones, 100.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u173" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u173" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del señor Tardà. En primer lugar, la enmienda 91.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 126; en contra, 180; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u174" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u174" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 102.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 34; en contra, 186; abstenciones, 91.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u175" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u175" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas del señor Tardà.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 126; en contra, 179; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u176" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u176" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Vasco, PNV, que se votan en bloque.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 31; en contra, 179; abstenciones, 100.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u177" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u177" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas de Unión Progreso y Democracia. En primer lugar, enmienda 72.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 126; en contra, 179.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u178" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u178" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 75.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 20; en contra, 181; abstenciones, 105.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u179" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u179" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 78 y 79.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 30; en contra, 274; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u180" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u180" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 82.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="75"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 6; en contra, 189; abstenciones, 110.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u181" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u181" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas de UPyD.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 302; a favor, 31; en contra, 177; abstenciones, 94.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u182" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u182" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas de La Izquierda Plural. Enmiendas 17, 18, 21, 23, 24, 25, 27, 30, 36, 38, 47, 49 y 71.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 124; en contra, 180; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u183" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u183" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 20.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 109; en contra, 180; abstenciones, 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u184" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u184" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 39, 40, 43, 46, 48, 50, 51, 57, 60 y 70.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 31; en contra, 272; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u185" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u185" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas de La Izquierda Plural.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 309; a favor, 35; en contra, 180; abstenciones, 94.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u186" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u186" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Pasamos a las enmiendas del Grupo Parlamentario Catalán de Convergència i Unió. Enmiendas 184, 186, 192, 193, 219, 223, 231, 232, 233, 235, 247, 248 y 249.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 125; en contra, 180.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u187" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u187" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 188, 202 y 221.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 116; en contra, 179; abstenciones, 11.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u188" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u188" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 197.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 21; en contra, 274; abstenciones, 11.</seg>
                <pb n="76"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u189" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u189" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 206.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 115; en contra, 187; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u190" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u190" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 208 y 215.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 22; en contra, 189; abstenciones, 95.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u191" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u191" ana="#chair">
                <seg>Quedan rechazadas,</seg>
                <seg>Enmiendas 209, 210 y 246.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 22; en contra, 181; abstenciones, 103.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u192" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u192" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 222.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 30; en contra, 271; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u193" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u193" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 224 y 229.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 303; a favor, 16; en contra, 281; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u194" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u194" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 230.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 304; a favor, 206; en contra, 3; abstenciones, 95.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u195" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u195" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda transaccional a la enmienda 237.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 303; a favor, 209; en contra, 1; abstenciones, 93.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u196" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u196" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Resto de enmiendas de CiU.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 33; en contra, 179; abstenciones, 93.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u197" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u197" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo Parlamentario Socialista. Enmienda 104.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="77"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 105; en contra, 180; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u198" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u198" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas 110, 119 y 159.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 301; a favor, 111; en contra, 180; abstenciones, 10.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u199" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u199" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Resto de enmiendas del Grupo Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 304; a favor, 122; en contra, 178; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u200" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u200" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Votación del dictamen de la Comisión.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 309; a favor, 181; en contra, 26; abstenciones, 102.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u201" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u201" ana="#chair">
                <seg>Queda aprobado.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 28/1990, DE 26 DE DICIEMBRE, POR LA QUE SE APRUEBA EL CONVENIO ECONÓMICO ENTRE EL ESTADO Y LA COMUNIDAD FORAL DE NAVARRA. VOTACIÓN DE CONJUNTO:</head>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u202" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u202" ana="#chair">
                <seg>Tramitación directa y en lectura única de iniciativas legislativas. Proyecto de ley por la que se modifica la Ley 28/1990, de 26 de diciembre, por la que se aprueba el Convenio Económico entre el Estado y la Comunidad Foral de Navarra. Votación de conjunto del proyecto de ley por la que se modifica la Ley 28/1990, de 26 de diciembre, por la que se aprueba el Convenio Económico entre el Estado y la Comunidad Foral de Navarra por tramitarse en lectura única. Hay dos votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 307 más 2 votos telemáticos, 309; a favor, 288 más 2 votos telemáticos, 290; en contra, 5; abstenciones, 14.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u203" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u203" ana="#chair">
                <seg>Queda aprobado.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS : AVOCACIÓN POR EL PLENO: - PROYECTO DE LEY ORDENADORA DEL SISTEMA DE INSPECCIÓN DE TRABAJO Y SEGURIDAD SOCIAL.</head>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u204" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u204" ana="#chair">
                <seg>Se ha pedido la avocación por el Pleno de la Cámara de la deliberación y votación final del proyecto de ley ordenadora del Sistema de Inspección de Trabajo y Seguridad Social. Hay dos votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="78"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 308 más 2 votos telemáticos, 310; a favor, 131; en contra, 177 más 2 votos telemáticos, 179.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u205" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u205" ana="#chair">
                <seg>No se tramitará.</seg>
                <seg>- PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 37/2007, DE 16 DE NOVIEMBRE, SOBRE REUTILIZACIÓN DE LA INFORMACIÓN DEL SECTOR PÚBLICO.</seg>
                <note>Número de expediente 121/000150</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u206" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u206" ana="#chair">
                <seg>Finalmente, solicitud de avocación por el Pleno de la Cámara de la deliberación y votación final del proyecto de ley por la que se modifica la Ley 37/2007, de 16 de noviembre, sobre reutilización de la información del sector público. Presentada la petición de avocación por el Grupo Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 125; en contra, 178; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u207" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u207" ana="#chair">
                <seg>No se tramitará como proyecto de ley.</seg>
                <seg>Se levanta la sesión.</seg>
                <seg>Eran las tres y cincuenta minutos de la tarde.</seg>

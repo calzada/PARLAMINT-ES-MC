@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="192">192 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="192" xml:lang="es">192 speeches</measure>
+            <measure unit="speeches" quantity="192" xml:lang="en">192 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="126"/>
                <tagUsage gi="note" occurs="144"/>
                <tagUsage gi="u" occurs="192"/>
-               <tagUsage gi="lb" occurs="771"/>
+               <tagUsage gi="seg" occurs="771"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,15 +92,11 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
                <seg>Comparecencia del presidente del Gobierno ante el Pleno de la Cámara para informar sobre el Consejo Europeo de los días 25 y 26 de junio de 2015. El señor presidente del Gobierno tiene la palabra.</seg>
                <pb n="5"/>
@@ -134,7 +132,7 @@
                <seg>Muchas gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u3" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Intervenciones de los grupos parlamentarios. En primer lugar, por el Grupo Socialista, tiene la palabra el señor Sánchez.</seg>
             </u>
@@ -156,7 +154,7 @@
                <note>Aplausos</note>
                <pb n="16"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u5" ana="#chair">
                <seg>Muchas gracias, señor Sánchez.</seg>
                <seg>Por el Grupo Catalán de Convergència i d'Unió tiene en primer lugar la palabra el señor Macias. Por favor, ruego a los que no están asistiendo al debate que despejen los pasillos.</seg>
             </u>
@@ -173,7 +171,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u7" ana="#chair">
                <seg>Muchas gracias, señor Macias.</seg>
                <seg>Tiene la palabra por el mismo grupo el señor Duran.</seg>
             </u>
@@ -196,7 +194,7 @@
                <note>Aplausos</note>
                <pb n="20"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u9" ana="#chair">
                <seg>Muchas gracias, señor Duran.</seg>
                <seg>Por el Grupo de La Izquierda Plural tiene la palabra el señor Garzón.</seg>
             </u>
@@ -214,7 +212,7 @@
                <seg>De eso ustedes no han hablado, han preferido seguir diciendo que el problema es de los ciudadanos, que querían tener sanidad pública, educación pública y otra serie de privilegios, cuando no son privilegios, sino conquistas sociales. No son ellos quienes han sido responsables de la crisis, no somos nosotros y nosotras, los ciudadanos de la Unión Europea, son precisamente los bancos, las entidades financieras, especialmente alemanas y francesas, las que se han enriquecido las últimas décadas, y usted, señor Rajoy, lo sabe perfectamente. Lo sabe perfectamente porque sabe que quienes se beneficiaron de ese modelo económico, milagro económico de Aznar, Rato o el señor Montoro -que está también aquí-, fundamentalmente fueron los acreedores, los que prestaron a los especuladores y a los constructores, tienen nombres y apellidos: son bancos alemanes, bancos franceses, que prestaron a Grecia para el despilfarro, que prestaron a los Gobiernos de Grecia para saquear las cuentas públicas, y resulta que en estos últimos seis años en toda la Unión Europea el comportamiento de los dirigentes políticos y de la troika ha sido el de rescatar a esos responsables, han rescatado a los bancos. En el caso de Grecia es verdaderamente espectacular, porque eran ellos los acreedores de la deuda pública y en estos seis años de falsos, de mal llamados rescates se ha transferido el riesgo desde esos bancos privados hacia todos<pb n="22"/> nosotros y nosotras.<note>Aplausos</note> Por lo tanto, nos hemos encontrado con que de repente seis años después, los bancos internacionales alemanes y franceses no tenían nada que perder con la quiebra en Grecia, quienes teníamos mucho que perder éramos nosotros y nosotras, los ciudadanos a los que ustedes nos habían transferido los riesgos, las pérdidas y a quienes nos habían impedido socializar las ganancias en épocas anteriores. Verdaderamente espantoso, verdaderamente una estafa.</seg>
                <seg>Señor Rajoy, usted ha hablado de algo que yo creo que es muy llamativo, ha dicho que las deudas se devuelven. Supongo que se referirá también a los rescates financieros, porque la cifra que la semana pasada conocíamos que se da por perdida por parte de este Gobierno que usted preside son 40.300 millones de euros, 40.300 millones de euros que vamos a pagar todos y todas por su gestión, 40.300 millones de euros para el rescate de una minoría social. De verdad, señor Rajoy, se lo tengo que preguntar: ¿usted se cree que nosotros somos tontos?<note>Aplausos</note> Se lo tengo que preguntar, 40.300 millones de euros, que es prácticamente la mitad del producto interior bruto de Grecia -prácticamente la mitad del producto interior bruto de Grecia- que nosotros hemos perdido, que hemos perdido los ciudadanos para rescatar a los bancos; y en Grecia tres cuartas partes más de lo mismo. Por lo tanto, la única conclusión a la que podemos llegar, señor Rajoy, se lo digo con respeto pero con total sinceridad, es que son ustedes unos ladrones; son ustedes unos ladrones, de guante blanco por supuesto, con enorme elegancia, pero son la antítesis de Robin Hood, porque roban a los pobres para dárselo a los ricos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u11" ana="#chair">
                <seg>Señor Garzón, tiene usted que tener cuidado con su vocabulario, por favor. Siga.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u12"
@@ -228,7 +226,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos.-El señor Garzón Espinosa entrega un libro al señor presidente del Gobierno</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u13" ana="#chair">
                <seg>Muchas gracias, señor Garzón.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia, tiene la palabra la señora Díez.</seg>
             </u>
@@ -267,7 +265,7 @@
                <seg>En cuanto a la inmigración, señor presidente, me preocupa una cosa. Se anuncia -y luego va a ser objeto de debate en esta Cámara- la puesta en marcha de la operación Eunavfor MED. Esa parte es la de poner una barrera, poner un muro, cortar las mafias, etcétera, pero se trata de que no lleguen embarcaciones. Y luego se dice que habrá que atajar los problemas en su origen -digo yo que sí- y que vamos a hablar con los gobiernos, etcétera. ¿Con quién vamos a hablar? Lo que está provocando esta oleada de los últimos tiempos es la terrible crisis siria, unida a la iraquí, la crisis en Eritrea y la guerra libia. El otro día se firmó un acuerdo que todavía no se está cumpliendo y que es parcial, además, en el que no han entrado todos los grupos. La propia guerra libia hace que ni siquiera se pueda hablar con un gobierno<pb n="29"/> libio. No hablemos ya de Sudán del Sur o incluso de un país que está mandando muchos inmigrantes y que aparentemente parece estable y con un gobierno con el que se puede hablar, que es Pakistán, pero que tiene una auténtica guerra civil en el sur, en Baluchistán, y que está provocando una migración enorme. ¿Con quién vamos a hablar? ¿Quiénes son los interlocutores? ¿De qué estamos hablando? Lo que tendrá que hacer la Unión Europea es enfrentar la crisis siria, tomar partido y dejar de mirar desde la barrera. E igual en el tema libio. Y si no, los flujos de inmigrantes seguirán y seguirán viniendo. Poner el parche de los barcos, poner de nuevo un muro, ni va a ninguna parte ni es humanitaria ni es europeísta.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u17" ana="#chair">
                <seg>Muchas gracias, señor Esteban.</seg>
                <seg>Grupo Parlamentario Mixto, que acumula el turno de réplica también en este turno. Señor Larreina, tiene la palabra.</seg>
             </u>
@@ -345,7 +343,7 @@
                <seg>Acabo. Señor Rajoy, tengo la impresión de que usted siempre se pone del lado de los mentirosos -Nueva Democracia, Gobierno del PP valenciano- y de los poderosos, de los banqueros, que luego acaban pegándole una bofetada en el señor De Guindos. Señor Rajoy, con mentirosos y banqueros nunca construiremos una Europa social.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u27" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Señor Álvarez, tiene la palabra.<pb n="34"/> El señor ÁLVAREZ SOSTRES: Gracias, señor presidente.</seg>
                <seg>Señorías, señor presidente, subo a esta tribuna para tratar de trasladarle mis opiniones sobre los asuntos concernientes a Europa. No voy a incidir en asuntos de inmigración y seguridad, que restarían mucho mi tiempo.</seg>
@@ -370,7 +368,7 @@
                <seg>Termino, señor presidente. Aunque estemos ya en periodo preelectoral, mi partido sigue confiando en que más allá de las urgencias de unos, del sectarismo de otros, la demagogia o el facilismo que se están instalando en nuestra sociedad, todo ello no impida futuros consensos en temas importantes, como son la migración, la seguridad, la defensa, el crecimiento, el empleo y la competitividad o la propia solución del problema griego.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u30" ana="#chair">
                <seg>Muchas gracias, señor Salvador.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Hernando.</seg>
             </u>
@@ -389,7 +387,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u32" ana="#chair">
                <seg>Muchas gracias, señor Hernando.</seg>
                <seg>Señor presidente del Gobierno.</seg>
             </u>
@@ -443,7 +441,7 @@
                <seg>Señoras y señores diputados, muchas gracias por su atención.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u34" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Comenzamos el turno de réplica y, como siempre hago en este debate, recuerdo que aquí seré más estricto en los tiempos de lo que lo he sido al principio.</seg>
                <seg>Tiene la palabra el señor Sánchez, por el Grupo Socialista.</seg>
@@ -455,7 +453,7 @@
                <seg>Señor Rajoy, sobre su superioridad intelectual, usted como el señor Cañete: Si el hombre demuestra superioridad intelectual sobre la mujer le tachan de machista.<note>Protestas.-Aplausos</note> Esto es lo que tienen, señorías, los hijos de buena estirpe, que están todos cortados por el mismo patrón.</seg>
                <note>Protestas.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u36" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u36" ana="#chair">
                <seg>Silencio. Atiendan al orador.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u37"
@@ -464,7 +462,7 @@
                <seg>En todo caso, señorías, reflexión de altura del presidente del Gobierno a propósito de la derrota en la presidencia del Eurogrupo: Unas veces se gana, otras veces se pierde, pero seguiremos intentándolo.<note>Risas</note> Señor Rajoy, respecto a la vulnerabilidad, le diré que la economía española hoy es más vulnerable como consecuencia de su inacción y de su despropósito en política económica. Hoy precisamente el Banco de España ha publicado los datos de deuda externa, que ha vuelto a aumentar: 1,8 billones de euros, 550.000 millones de euros en el corto plazo a los que tenemos que hacer frente, señor Rajoy. Por tanto, eso es lo que yo le reprochaba. Usted debería haber sido uno de los principales actores en la resolución de la crisis griega y no debería haberla utilizado de manera partidista y no patriótica, como ha hecho.<note>Rumores</note> Debería haber tenido una actitud más constructiva y no solo en esta Cámara, hablando con todos los líderes de todos los grupos parlamentarios, sino también en la Unión Europea, como han hecho el líder Hollande o el líder Renzi, y no plegándose a la ortodoxia del ministro de Finanzas Schäuble.<pb n="50"/> Respecto a algunas de las cifras que ha dado, le diré que la fuga de capitales fue del 20 % del producto interior bruto y la fuga de depósitos del 17 % del producto interior bruto, así que explique usted, señor Rajoy, por qué se produjo esa fuga de depósitos. Por cierto, simplemente un apunte, desde el año 2011 la caída del crédito en nuestro país ha sido de 300.000 millones de euros, es decir, la mayor de la historia de nuestra democracia.</seg>
                <seg>Señor Rajoy, respecto a la votación, hubiese sido bueno que no solo trajese la votación para el programa de rescate a Grecia, sino que hace unos cuantos años, en 2012, hubiera sometido a votación en el Congreso de los Diputados -como hizo, por ejemplo, el Parlamento alemán- el rescate financiero en España. Usted no lo hizo. Ambas economías, señor Rajoy, han sido rescatadas. Y la economía española fue rescatada precisamente por la pésima gestión que ustedes hicieron en el sector financiero, y en particular en Bankia.<note>Protestas</note> Sí, en Bankia.<note>Aplausos</note> Le diré más, señor Rajoy, quien hizo eso es a quien usted propuso...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u38" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u38" ana="#chair">
                <seg>Perdón, señor Sánchez.</seg>
                <seg>Por favor, ruego el mismo silencio que ha habido hasta ahora.<note>Aplausos.- Varios señores diputados: Sí</note> Continúe, señor Sánchez.</seg>
             </u>
@@ -477,7 +475,7 @@
                <seg>Termino con una apelación. Ayer mismo hubo una catarata de declaraciones y de filtraciones por parte del Gobierno de España respecto a la lectura que hacían ustedes sobre la derrota en la elección del señor De Guindos como presidente del Eurogrupo. Una de ellas fue que cada vez hay más Gobiernos socialistas en Europa y que, como consecuencia de ello, el señor De Guindos perdió la votación para la elección a presidente del Eurogrupo. Señor Rajoy, a partir de noviembre habrá otro más y será en Madrid, será en La Moncloa.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u40" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u40" ana="#chair">
                <seg>Muchas gracias, señor Sánchez.</seg>
                <seg>Por el Grupo de Convergència y de Unió tiene en primer lugar la palabra el señor Macias.</seg>
                <pb n="51"/>
@@ -489,7 +487,7 @@
                <seg>Intervendré muy brevemente desde el escaño simplemente para hacer referencia a algunos aspectos del Consejo Europeo de los días 25 y 26 de junio, las conclusiones referidas a empleo, crecimiento y competitividad. Se ha hablado de la importancia del crecimiento y nuestro grupo quisiera incidir de forma muy especial en que para el crecimiento se necesita inversión. Por tanto, para nosotros es esencial -y hemos de ser muy exigentes, señor Rajoy- que el Plan Juncker cumpla sus objetivos y sea un plan efectivo y real al servicio del crecimiento y de la ocupación, recoja la colaboración público-privada y cumpla con las expectativas generadas. Y para nosotros -usted ha hablado de ello respecto a la Agenda digital- Europa también tiene que tomar medidas concretas y aportar recursos para pasar de las intenciones, que son buenas y compartibles, a los hechos. En cuanto a las medidas y recursos destinados especialmente a las empresas, para nosotros es una cuestión fundamental para el crecimiento y por ello, como esta fue una de las conclusiones de la Comisión, hemos querido utilizar este turno para, desde Convergència, subrayar la importancia de la inversión del Plan Juncker y de la implementación real de la Agenda digital.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u42" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u42" ana="#chair">
                <seg>Muchas gracias, señor Macias.</seg>
                <seg>Señor Duran.</seg>
             </u>
@@ -501,7 +499,7 @@
                <seg>También, y en la línea de lo referido por el señor Macias, en mi intervención hablé del Plan Juncker y le dije que informara a la Cámara, cosa que no ha hecho, sobre cómo está o cómo evalúan los proyectos que se van presentando. Y le dije, y lo repito, que en cualquier caso en estos proyectos hay que perseguir un valor añadido que, por otra parte, es la única manera de poder implicar la inversión privada, que es el objetivo fundamental del Plan Juncker.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u44" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u44" ana="#chair">
                <seg>Muchas gracias, señor Duran.</seg>
                <seg>Por La Izquierda Plural tiene la palabra el señor Garzón.</seg>
             </u>
@@ -515,7 +513,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u46" ana="#chair">
                <seg>Muchas gracias, señor Garzón.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia tiene la palabra la señora Díez.</seg>
             </u>
@@ -528,7 +526,7 @@
                <seg>Por eso, señor Rajoy, quiero insistir en una propuesta que hice en mi primera intervención. Le pido que defienda en la Unión Europea, que defienda ante nuestros socios europeos un fondo europeo de solidaridad con Grecia, que no es un fondo humanitario, porque el fondo humanitario actúa para sacar a las personas de una situación de pobreza extrema. Nosotros le planteamos un plan social, un fondo social de prevención precisamente para evitar que dentro de dos años Europa tenga que diseñar un plan humanitario, para evitar que se llegue a esa situación y dentro de dos años Europa tenga que diseñar un plan de ayuda humanitaria para Grecia. Defienda un fondo europeo de solidaridad con Grecia gestionado por la Comisión y destinado a conceder de forma directa la asistencia social que limite el empobrecimiento y la exclusión de los ciudadanos griegos. Hagamos eso al menos, señor Rajoy, porque, de lo contrario, al imponer nuevas y duras condiciones a la nueva liquidez otorgada a Grecia, se dificulta mucho, si no se hace imposible, que Grecia pueda volver a crecer. Grecia de momento, lo dije antes y quiero repetirlo, se queda en el euro, pero la mayor austeridad condena a sus ciudadanos a largos años de ajustes y al desmantelamiento de lo que queda del Estado del bienestar. Lo que no se puede permitir, no nos lo podemos permitir los europeos, es que los ciudadanos griegos queden fuera de la idea de una Europa de progreso y bienestar. No se trata, señor Rajoy, de preservar el euro, usted lo decía en su intervención anterior, sino que se trata de preservar el modelo social europeo, se trata de preservar lo que es Europa. El euro es un instrumento, pero es un instrumento para esa Europa social, esa Europa que queremos y que queremos que cada vez sea más social y hoy por hoy, señor Rajoy, me temo que el acuerdo alcanzado deje a Grecia de momento dentro del euro y a los ciudadanos griegos fuera de Europa. Por eso le pido que defienda en Europa este plan de actuación social gestionado directamente por la Comisión para rescatar -permítanme que lo diga así coloquialmente- a los ciudadanos griegos, que es la única manera de que nos rescatemos todos, porque yo no entiendo una Europa sin Grecia ni una Grecia sin Europa. Esa será nuestra tarea.</seg>
                <seg>Gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u48" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Señor presidente del Gobierno, si quiere usted replicar.</seg>
             </u>
@@ -543,13 +541,13 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u50" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATE RELATIVO AL OBJETIVO DE ESTABILIDAD PRESUPUESTARIA - ACUERDO POR EL QUE SE FIJAN LOS OBJETIVOS DE ESTABILIDAD PRESUPUESTARIA Y DE DEUDA PÚBLICA PARA EL CONJUNTO DE ADMINISTRACIONES PÚBLICAS Y DE CADA UNO DE SUS SUBSECTORES PARA EL PERIODO 2016-2018 Y EL LÍMITE DE GASTO NO FINANCIERO DEL PRESUPUESTO DEL ESTADO PARA 2016.</head>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u51" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u51" ana="#chair">
                <seg>Acuerdo del Gobierno por el que, conforme a lo establecido en el artículo 15 de la Ley orgánica 2/2012, de 27 de abril, de estabilidad presupuestaria y sostenibilidad financiera, se fijan los objetivos de estabilidad presupuestaria y de deuda pública para el conjunto de administraciones públicas y de cada uno de sus subsectores para el periodo 2016-2018 y el límite de gasto no financiero del presupuesto del Estado para 2016. Para presentar este acuerdo, en nombre del Gobierno tiene la palabra el señor ministro de Hacienda y Administraciones Públicas.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u52"
@@ -785,7 +783,7 @@
                <seg>Señorías, con la presentación del límite de gasto y del objetivo de estabilidad presupuestaria para 2016, el Gobierno va más allá de lo admisible, señor Montoro, al pretender dejar en herencia su nefasta política económica para el futuro Gobierno. No basta que en estos cuatro años de legislatura se demostrase que situar como únicas prioridades la consolidación fiscal y la reducción del déficit implica un sacrificio enorme para la creación de empleo y la garantía de servicios públicos básicos, sino que se empeña en que se mantenga esa hipoteca, señor Montoro, para el Gobierno entrante. Simplemente, por el carácter antidemocrático de esta medida de aprobar el presupuesto del año siguiente sin tener legitimidad para gestionarlo, es lo que justifica el voto en contra del Bloque Nacionalista Galego. Es realmente incomprensible que se vaya a aprobar todo el paquete presupuestario para endosar al nuevo Gobierno los mismos errores que ha cometido el actual en materia económica presupuestaria. En toda esta legislatura si ha<pb n="74"/> habido un hecho destacable no es la recuperación económica, sino que, como se ha señalado en múltiples informes económicos de instituciones y entidades de diversa índole, las desigualdades sociales se han ido incrementando de forma exponencial.</seg>
                <seg>Señor Montoro, si se reduce el límite de gasto en un 4,4 %, porque según dicen ustedes se va a reducir el gasto para prestaciones de personas en paro, la pregunta es por qué no se destinan esos fondos a las políticas de fomento del empleo y se libera de ese gasto a la Seguridad Social, que está siendo deficitaria. En su intervención ha dicho muy orgulloso que no se iban a reducir las pensiones, pero no se iban a reducir en tanto exista el Fondo de reserva y ese fondo lo están agotando, señor ministro.<note>El señor presidente ocupa la Presidencia</note> ¿Por qué no transfieren, pues, a la Seguridad Social esa diferencia que dicen que va a sobrar por no pagar las prestaciones por el paro? La respuesta es muy sencilla -suponemos que está claro después de las propuestas tan populistas que han hecho en materia electoral de reducción de presupuestos-, y es que su pretensión es reducir los ingresos del Estado, algo que, desgraciadamente, no han querido resolver; han querido seguir insistiendo en los recortes sociales en vez de incrementar los ingresos del Estado. Y de nuevo, siendo el porcentaje de déficit atribuible a las comunidades autónomas menor en relación con el porcentaje de gasto que gestionan y representan en el conjunto de todas las administraciones públicas del Estado, las exigencias de reducción son mayores que las de la Administración General del Estado, ya que esta absorbe casi el 80 % de la capacidad del déficit -el 78 %- frente a apenas el 11 % que se permite a las comunidades autónomas. Hay que recordar -no sería necesario hacerlo- que las comunidades autónomas son las que prestan la mayoría de servicios básicos a la ciudadanía: sanidad, educación, servicios sociales, que en términos medios suponen alrededor de las tres cuartas partes de su gasto total. Por eso, los recortes impuestos a las comunidades autónomas en aras de reducir el déficit presupuestario implican en la mayoría de los casos una pérdida de derechos por parte de la ciudadanía, sobre todo para las capas más vulnerables, que no tendrán acceso a esos servicios públicos. Podríamos hablar mucho más de esta propuesta que nos ha hecho esta mañana, ...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u81" ana="#chair">
                <seg>Señora Fernández, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u82"
@@ -794,7 +792,7 @@
                <seg>... pero ya ve que no tenemos tiempo, por lo que manifiesto nuestro voto en contra una vez más.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u83" ana="#chair">
                <seg>Muchas gracias, señora Fernández Davila.</seg>
                <seg>Por el Grupo Mixto también, tiene la palabra ahora el señor Quevedo.</seg>
             </u>
@@ -806,7 +804,7 @@
                <seg>Tengo que anunciarle algo que creo que ya le ha anunciado todo el mundo. Los nacionalistas canarios vamos a votar en contra de esta propuesta por los argumentos que he podido ofrecer en tres minutos y veintitrés segundos.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u85" ana="#chair">
                <seg>Muchas gracias, señor Quevedo por su concisión.</seg>
                <seg>Tiene la palabra, también por el Grupo Mixto, el señor Baldoví.</seg>
             </u>
@@ -817,7 +815,7 @@
                <seg>Acabo, señor Montoro. Se irán de vacaciones -ya veremos si nos vamos de vacaciones- sin haber hecho los deberes de la financiación y, lo que es peor, se irán del Gobierno sin haber hecho justamente esos deberes, los deberes de la financiación, como era su obligación. Por tanto, una vez más, no podemos aprobar este reparto injusto.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u87" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Señor Álvarez Sostres.</seg>
                <seg>El señor ÁLVAREZ SOSTRES: Gracias, señor presidente.</seg>
@@ -827,7 +825,7 @@
                <seg>Termino mi intervención en esta farsa, si me permite, de economía de salón que se transgrede cuantas veces sea necesario téngase el déficit que se tenga, deseándole un buen futuro profesional, pero sálgase del mutualismo territorial, un invento suyo -me acuerdo perfectamente de esta expresión-, porque ese invento usted sabe que significa depender de la graciabilidad del Gobierno central. No se sostiene en el tiempo y el problema de la financiación de las comunidades autónomas subsiste siempre que no se reforme el modelo debidamente. No cuenten con mi apoyo en la votación final.</seg>
                <seg>Muchas gracias, señor ministro.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u88" ana="#chair">
                <seg>Muchas gracias, señor Álvarez Sostres.</seg>
                <seg>Señor Salvador.</seg>
             </u>
@@ -841,7 +839,7 @@
                <seg>A Unión del Pueblo Navarro nos toca vigilar la corrección de los presupuestos de aquí y también los presupuestos de allí, de Navarra. El Gobierno que se perfila en Navarra anuncia una reforma de nuestro sistema fiscal para establecer más impuestos que los que había antes, es decir, para tener una peor fiscalidad que la que se tiene en las comunidades de régimen común; un auténtico disparate. Pero nosotros, como le digo, estaremos vigilantes, como también lo vamos a estar sobre cómo se trasladan algunos acuerdos y algunas infraestructuras importantes en los Presupuestos Generales de este año porque existen, señor ministro, algunos proyectos transversales que debieran contar con el acuerdo y la colaboración de su Gobierno y también con el de Navarra. Y sí le digo que vamos a estar muy atentos a la consignación que estos tengan en los presupuestos. Ya le digo que a nosotros nos preocupa -y bastante, la verdad- cuál pueda ser la voluntad política, la voluntad real, y también de financiación de una de las infraestructuras e inversiones más importantes en Navarra como es la modernización de la red ferroviaria a su paso por nuestra comunidad. Como digo, nos preocupa, estaremos pendientes de cómo se consigna y, en todo caso, le pido ya desde aquí hoy que tenga una consignación suficiente y justa.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u90" ana="#chair">
                <seg>Muchas gracias, señor Salvador.</seg>
                <seg>Finalmente, el último interviniente del Grupo Mixto es el señor Serrano.</seg>
             </u>
@@ -850,7 +848,7 @@
                ana="#regular">
                <seg>Señor presidente, uno creía que antes de presentar un proyecto de presupuestos estatales se realizaba un debate sobre los criterios con los que el Gobierno de turno pensaba elaborarlos, pero me he encontrado con un debate sobre techo de gasto, sobre debe y haber, sobre pura contabilidad, en lugar de sobre la marcha de la economía en el Estado y sobre criterios para corregir su dirección. Los criterios para unos presupuestos públicos deben partir de las necesidades de la sociedad; solo a la luz de ellas se analiza el debe y el haber, se contabilizan los recursos habientes y las posibilidades de hallar los nuevos. A esa luz y objetivos se enmarca, en definitiva, una política económica social, es decir, se crea una economía para la gran mayoría de la población. El Gobierno ha evitado ese punto de partida de ese análisis de necesidades con un discurso plagado de macrodatos que se hacen polvo a la lupa del microscopio y muchos ejemplos se han citado en otras intervenciones por lo que recordaré solo dos: datos de crecimiento que a la lupa del micro son pura acumulación de recursos en pocas manos o datos de aumento del empleo que a la lupa del micro no descubren sino una indigna precariedad de la calidad del empleo sobre la que se quiere seguir acumulando beneficios para unos pocos. Tras ese discurso de autobombo a base de macrodatos, se limitan a presentar a la sociedad un plan de contabilidad sin la más mínima perspectiva creadora de nuevos impulsos para la economía. Sí, creen que esto no es más que utopías, grandes palabras e ironizarán sobre ello. Aprecio como un don la habilidad de algunos ministros para la ironía, es una destreza que hay que agradecer, pero les falta otro don, el de la autoironía; por ejemplo, a la hora de analizar por qué han perdido tantos gobiernos autonómicos y alcaldías importantes. Ante esto, lejos de toda autoironía, se consideran injustamente despojados de su casa, como si los poderes de todos los niveles fuesen patrimonio suyo. Sus dolidas reacciones son patentes en todos los casos y el que yo conozco más de cerca es el de Navarra. El tándem regimental de UPN-PP se considera robado en su patrimonio, se considera desahuciado de su residencia del poder hasta el punto de lanzarse a una campaña remedo de la de Stop Desahucios. Pido perdón a los dignos activistas de este movimiento social y espero que sepan disculpar el punto quizás poco acertado de mi analogía. Se han lanzado a una campaña de desprestigio de la alternativa plural y de los proyectos de crear unas nuevas directrices, estas sí económicas y no de mera contabilidad. No desesperen los perdedores ahora, ya volverán a ganar más tarde o más temprano, así es la democracia. Critiquen mientras tanto los nuevos planteamientos del nuevo Gobierno y renueven los suyos, pero dejen sin crispación que la sociedad navarra experimente nuevos caminos. Esperen con naturalidad a que si estos no resultan satisfactorios la sociedad navarra vuelva a depositar su confianza en ustedes. A pesar de la sistemática política recentralizadora del Partido Popular a la que UPN se doblegó sistemáticamente, hoy por hoy con la defensa y puesta en práctica de sus competencias económicas y desde la autonomía que le da el convenio...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u92" ana="#chair">
                <seg>Señor Serrano, debe usted ir terminando.</seg>
                <pb n="78"/>
             </u>
@@ -860,7 +858,7 @@
                <seg>... foral, tratará de ofrecer verdaderos presupuestos públicos, no simples balances de contabilidad al dictado de quienes no quieren instrumentos políticos, sino tecnocráticos y al dictado de plutócratas amparados en puras técnicas de contabilidad.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u94" ana="#chair">
                <seg>Muchas gracias, señor Serrano.<note>El señor ministro de Hacienda y Administraciones Públicas, Montoro Romero, pide la palabra</note> El ministro de Hacienda y Administraciones Públicas me pide la palabra y él la tiene.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u95"
@@ -880,7 +878,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u96" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Que me pidan la palabra los portavoces de los grupos que quieran intervenir.<note>El señor Rangel Tarrés pide la palabra</note> Empezamos por el señor Rangel, del Grupo Socialista. Tiene cinco minutos; es la mitad del tiempo que tenía para su intervención. Ya se sabe, es la réplica, y tiene lo que tiene.</seg>
             </u>
@@ -895,7 +893,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u98" ana="#chair">
                <seg>Muchas gracias, señor Rangel.</seg>
                <seg>Por el Grupo Catalán de Convergència i d'Unió, señor Macias.</seg>
             </u>
@@ -908,7 +906,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u100" ana="#chair">
                <seg>Muchas gracias, señor Macias.</seg>
                <seg>Señor Picó.</seg>
             </u>
@@ -920,7 +918,7 @@
                <seg>Se necesitan hechos y no prejuicios, señor ministro.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u102" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Por La Izquierda Plural, señor Coscubiela.</seg>
             </u>
@@ -935,7 +933,7 @@
                <seg>Ustedes han contribuido a degradar la asistencia sanitaria de este país que, afortunadamente, aguanta, es verdad, con mucha dignidad gracias a los profesionales sanitarios. Cualquier servicio de urgencias de este país, cualquier situación de lista de espera es para avergonzarse y eso no es solo responsabilidad suya, es verdad, pero ustedes han contribuido a esa realidad de colapso del sistema sanitario, al igual que han hecho respecto del incumplimiento de sus obligaciones en materia de dependencia. Ya sé que no gusta. Ha dicho usted que la política es tomar decisiones y tiene costes de oportunidad; sin duda, pero usted vuelve otra vez a hacer trampas porque para usted los costes de oportunidad son: en qué no gasto: jamás es: cómo consigo mejorar los ingresos. Su coste de oportunidad es que ustedes mantienen un tipo efectivo real del impuesto de sociedades que está muy por debajo, muy por debajo, del tipo que paga la media de los asalariados de este país. No son ustedes los únicos, lo sé, pero son ustedes los que están en el Gobierno en estos momentos. Ustedes mantienen un sistema dual del impuesto sobre la renta de las personas físicas, sí dual -que inventó Solbes en 1993, es verdad-, pero ustedes lo mantienen primando la fiscalidad sobre el capital en detrimento de la fiscalidad sobre el trabajo. Ustedes permiten que las Sicav continúen utilizándose fraudulentamente por determinadas familias de este país de élites económicas y sustrayendo ingresos al sistema. Ustedes mantienen un sistema fiscal cadavérico que obtiene un 8 % menos de ingresos de la media de la Unión Europea, es decir, 80.000 millones de ingresos cada año.</seg>
                <seg>Ese es su coste de oportunidad. En ese sentido, ustedes toman intervenciones en nombre del liberalismo económico. Se lo he dicho muchas veces: ustedes son intervencionistas de clase, es decir, utilizan el poder del Estado para primar a determinados grupos sociales en detrimento de otros. En ese debate que intentan mantener ustedes con nosotros -me es indiferente que sea desigual en cuanto al tiempo porque cuando no se tienen argumentos incluso con poco tiempo es suficiente- no ha contestado a ninguno de los planteamientos que le hemos hecho, por ejemplo, si es cierto o no que los ingresos por cotizaciones de este año hasta el mes de mayo han subido solo el 0,94 %, que es lo que estaba previsto como consecuencia de sus políticas, porque precarización laboral, contratos a tiempo parcial y contratos temporales lo que provocan es más cotizantes y menos ingresos de cotizaciones, lo que trae como<pb n="87"/> consecuencia que ustedes asfixian las pensiones públicas de este país. Están cargándose, están comiéndose el Fondo de reserva que estaba previsto para eso, pero no en esas condiciones, mientras, por ejemplo, aprueban determinadas exenciones de cotización a la Seguridad Social, que no son bonificaciones que paga el Servicio Público de Empleo, sino que son tarifas planas que no paga nadie y que tienen que pagar los pensionistas en detrimento de sus pensiones. Eso es, desgraciadamente, a lo que usted no está dispuesto a contestar...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u104" ana="#chair">
                <seg>Señor Coscubiela, lo lamento, pero tiene usted que acabar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u105"
@@ -945,7 +943,7 @@
                <seg>... como tampoco está usted dispuesto a contestar si es verdad o no lo que le he dicho sobre que hoy en España hay 355.000 empleos ocupados a tiempo completo menos que en el primer trimestre de 2012, lo que tendría que tener alguna responsabilidad, como tampoco está usted dispuesto a contestar a todos y cada uno de los datos que le he dado. Su planteamiento de techo de gasto es irreal, tramposo, centralizador y genera más desigualdades.</seg>
                <seg>Termino con una argumentación. Usted dice: empleo igual a salida de pobreza.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u106" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u106" ana="#chair">
                <seg>Señor Coscubiela, tiene usted que acabar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u107"
@@ -953,7 +951,7 @@
                ana="#regular">
                <seg>Eso era así antes de que ustedes llegaran al Gobierno, porque hoy -no lo digo yo, lo dicen analistas y estudiosos- en España se ha impuesto de manera generalizada la situación del trabajador pobre, del que trabaja cuarenta horas...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u108" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u108" ana="#chair">
                <seg>Señor Coscubiela, ha terminado usted su intervención. Hasta luego.<note>Risas.- El señor Coscubiela Conesa pronuncia palabras que no se perciben</note> Lo siento, comprendo que usted quiera argumentar porque le han dado muchos argumentos, pero es que así es el Reglamento cuando interviene el ministro y cuando intervienen los grupos.<note>Aplausos</note> Tiene la palabra el señor Calduch, de Unión Progreso y Democracia.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u109"
@@ -966,7 +964,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u110" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Señor ministro, ¿quiere usted responder algo?</seg>
             </u>
@@ -979,7 +977,7 @@
                <seg>Gracias, señor presidente. Todavía no habíamos acabado el punto, porque falta la posición del Grupo Parlamentario Popular, pero entiendo que la tarea del Gobierno es también debatir con aquellos grupos que se han opuesto y estaba seguro de que se iban a oponer una tarde más, al final de la legislatura, al proyecto de Presupuestos Generales del Estado que muy pronto, a comienzos del mes de agosto, tendré el honor de volver a traer a esta Cámara.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u112" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Ahora vamos a darle la oportunidad al Grupo Parlamentario Popular para que exprese su postura a través del señor Olano.</seg>
             </u>
@@ -995,7 +993,7 @@
                <seg>Anteriormente decía que, salvo la deuda pública, todos los indicadores son positivos, muy positivos. Lo son las exportaciones, que se sitúan en volúmenes históricos en cuanto a sus dimensiones y en cuanto al número de empresas exportadoras. Lo son las importaciones, sobre todo de bienes de equipo, que adelantan una mayor producción para nuestra industria. Lo son las compraventas de vivienda y la construcción, un mercado que se reactiva tras siete años de caídas constantes. Lo son las ventas de vehículos a motor, los índices de confianza del consumidor y del inversor, las ventas en el comercio minorista, en las grandes superficies, etcétera. Lo son también las cifras de creación de empresas y de afiliación al RETA. Lo son también las cifras de recaudación tributaria. Por ponerles un ejemplo, les diré que la recaudación en el impuesto sobre sociedades a las grandes empresas es ahora más del doble que cuando gobernaba el Partido Socialista; más del doble. Se puede decir que con el PSOE las grandes empresas prácticamente no pagaban impuestos. Esa es la realidad que nos dejaron. Esa es la auténtica realidad. En definitiva, es un crecimiento del empleo y de nuestra economía basado en pilares sólidos, tanto en el mercado exterior como en el consumo interno, el consumo privado, el de los hogares españoles, que se ve impulsado por las bajadas de impuestos aprobadas este año 2015 y que incrementarán la renta disponible de forma sensible a todas las familias. No me negarán que una rebaja de 9.000 millones de euros del IRPF es una rebaja importante. Estas rebajas de impuestos, como los de la luz, aprobadas el pasado viernes, o la nueva rebaja del IRPF -y ya van dos este año- que beneficiará a cuatro de cada cinco españoles, beneficiarán a todos, especialmente a las rentas bajas y medias, que pagan ya menos IRPF que al inicio de la legislatura.</seg>
                <seg>Me detengo ahora para hablar de la deuda pública. Nuestra deuda es muy elevada y a final de año se situará en el 98,9 %; es una cifra elevada pero, por otra parte, en línea con la media europea. Recuerdo ahora las intervenciones de los portavoces de otros grupos de la oposición, cuando ya en el año 2013 anunciaban que se superaría con creces el cien por cien de ratio de deuda pública/PIB. Esa es su credibilidad en estos asuntos. También es verdad que la deuda ha crecido mucho durante esta larga crisis. Desde 2008 a 2011 creció 30 puntos y esta legislatura lo hará también aunque en menor medida. La diferencia es que en los primeros años de la crisis este mayor endeudamiento no sirvió absolutamente para nada. Como ejemplo, recuerdo el PlanE de Zapatero, el maravilloso plan del PSOE, cuyo saldo fueron 15.000 millones de deuda pública y cero empleos creados, o los 30.000 millones inyectados por los socialistas a la banca española y que tampoco aportaron ninguna solución al problema del sistema financiero. Repito que la deuda pública ha crecido mucho durante estos años y les diré por qué lo ha hecho en esta legislatura; ya lo ha dicho el ministro y, por eso, no me detendré mucho en ello. Ha crecido<pb n="92"/> por el déficit heredado, 90.000 millones; por la necesidad de pagar lo que ustedes dejaron sin pagar y por los sistemas de financiación del Estado del bienestar de algunas comunidades autónomas; por el déficit de tarifa eléctrica y también por la solidaridad con otros países de la Unión Europea que tuvieron que ser rescatados. Me gustaría que nos señalaran cuál de esas partidas hubieran dejado ustedes de abonar. ¿Las facturas, quizá? Ya lo hicieron y, por eso, tuvimos que pagarlas nosotros. Dígannos cuáles dejamos de pagar: la sanidad, la educación, los servicios sociales.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u114" ana="#chair">
                <seg>Señor Olano, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u115"
@@ -1006,13 +1004,13 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u116" ana="#chair">
                <seg>Muchas gracias, señor Olano.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES - REAL DECRETO-LEY 9/2015, DE 10 DE JULIO, DE MEDIDAS URGENTES PARA REDUCIR LA CARGA TRIBUTARIA SOPORTADA POR LOS CONTRIBUYENTES DEL IMPUESTO SOBRE LA RENTA DE LAS PERSONAS FÍSICAS Y OTRAS MEDIDAS DE CARÁCTER ECONÓMICO.</head>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u117" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u117" ana="#chair">
                <seg>Convalidación o derogación del Real Decreto-ley 9/2015, de 10 de julio, de medidas urgentes para reducir la carga tributaria soportada por los contribuyentes del impuesto sobre la renta de las personas físicas y otras medidas de carácter económico. Este real decreto lo presentará, en nombre del Gobierno, el señor ministro de Hacienda y Administraciones Públicas.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u118"
@@ -1314,7 +1312,7 @@
                <seg>El Plan de operaciones inicial contempla tres fases bien diferenciadas. La primera, que por el momento es la única que se puede poner en marcha, se lleva a cabo en aguas internacionales, de acuerdo con las disposiciones de la Convención de las Naciones Unidas sobre el derecho del mar. Además de mantener y reforzar las labores de rescate de náufragos, esta primera fase tiene por objeto el apoyo, la detección y seguimiento de las redes de inmigración a través de recopilación de información en patrullas en alta mar y aéreas. En este sentido, y ante posibles dudas que pudiera suscitar su amparo legal, permítanme aclararles que en alta mar, de conformidad con la convención citada y el derecho nacional e internacional aplicable, los Estados pueden interceptar, si lo autoriza el Estado de abanderamiento, los buques sospechosos de tráfico ilícito de inmigrantes para así adoptar las medidas adecuadas con respecto a estos buques, las personas y la carga -entre comillas- que transportan.<note>Rumores</note> A su vez, el plan contempla una segunda fase cuya adopción e implementación no ha sido decidida todavía y que, además, requeriría una resolución del Consejo de Seguridad de Naciones Unidas. Esta segunda fase se dividiría en dos etapas. La primera estaría orientada al abordaje, registro, incautación y desvío en alta mar de las embarcaciones sospechosas de ser utilizadas para el tráfico ilícito de personas en las condiciones previstas en el derecho internacional. La segunda, que necesitaría consentimiento del Estado ribereño concernido, consistiría en abordar, registrar, incautar y desviar en alta mar, mar territorial o aguas interiores del mencionado Estado las embarcaciones sospechosas, conforme a las condiciones de la resolución del Consejo de Naciones Unidas y/o a la solicitud o consentimiento del Estado concernido.<note>El señor presidente ocupa la Presidencia</note> Por fin, el plan propone una tercera fase que necesitaría, asimismo, de una resolución del Consejo de Seguridad de Naciones Unidas o el consentimiento del Estado ribereño. Esta fase consistiría en adoptar todas las medidas necesarias contra cualquier embarcación sospechosa en las condiciones establecidas en dicha resolución o con el consentimiento del Estado ribereño en su territorio.<note>Rumores</note> Por el momento, los Estados miembros solo prevemos acometer la primera fase de la operación, consistente en el despliegue de buques y aeronaves para detectar los tráficos migratorios en aguas internacionales al norte de Libia y al sur de Italia y Malta. Como ya he dicho, la transición entre fases estará sujeta no solamente a su cobertura legal, sino también al control político de los Estados miembros. España seguirá manteniendo una postura de cooperación plena con la mitigación y terminación de esta desgraciada situación. Será el Consejo de la Unión Europea el encargado de evaluar si se han cumplido las condiciones para ir más allá de la primera fase...,</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u152" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u152" ana="#chair">
                <seg>Perdón, señor ministro.</seg>
                <seg>Vamos a atender un poco al señor ministro.</seg>
                <seg>Continúe usted.</seg>
@@ -1331,7 +1329,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u154" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u154" ana="#chair">
                <seg>Muchas gracias, señor ministro de Defensa.</seg>
                <seg>Vamos al turno de fijación de posiciones de los grupos. En primer lugar, por el Grupo Socialista, tiene la palabra don Diego López Garrido.</seg>
             </u>
@@ -1346,7 +1344,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u156" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u156" ana="#chair">
                <seg>Muchas gracias, señor López Garrido.</seg>
                <seg>Por el Grupo Parlamentario Catalán de Convergència i d´Unió tiene la palabra en primer lugar el señor Xuclà.</seg>
             </u>
@@ -1417,7 +1415,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u166" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u166" ana="#chair">
                <seg>Muchas gracias, señor Sanz.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia tiene la palabra el señor Lleonart.</seg>
             </u>
@@ -1433,7 +1431,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u168" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u168" ana="#chair">
                <seg>Muchas gracias, señor Lleonart.</seg>
                <seg>Por el Grupo Vasco PNV tiene la palabra el señor Agirretxea.</seg>
             </u>
@@ -1450,7 +1448,7 @@
                <seg>Por lo tanto, mirar por arriba no es solucionar el problema. Hay que ser más ambicioso, más atrevido y más íntegro; y cuando digo íntegro, lo digo en el sentido de analizar y solucionar las cosas de forma integral y no parcialmente. Es un problema verdaderamente dramático y creo que la Unión Europea tiene una responsabilidad importante. Este es un paso más y espero que el Gobierno proponga soluciones para atajar este drama humano, ya que primero se trata de salvar vidas, proteger a los refugiados y buscar soluciones políticas en los lugares que lo necesitan.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u170" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u170" ana="#chair">
                <seg>Muchas gracias, señor Agirretxea.</seg>
                <seg>Por el Grupo Parlamentario Mixto, en primer lugar, señor Tardà.</seg>
             </u>
@@ -1463,7 +1461,7 @@
                <seg>Esta es la razón por la que no apoyaremos su demanda de participación en las misiones programadas. Es más, les decimos que solo puede haber un atisbo de solución si son capaces de hacer cinco cosas, como mínimo. En primer lugar, dotar de muchos más recursos a Frontex, a fin y efecto de llevar a cabo las tareas de rescate de las víctimas. No a la mi-li-ta-ri-za-ción de los procesos y acabar con esta dejación de responsabilidades. En segundo lugar, dotar de más recursos a las políticas de refugio y asilo. En tercer lugar, acabar con la hipocresía de las políticas de externalización de fronteras de la Unión Europea, porque solo persiguen trasladar el problema a terceros países. En cuarto lugar, la no intervención militar en los países que luego acaban siendo fallidos. Hay que recordar la ilegal guerra de Irak y la intervención en Libia -me remito a los debates que tuvieron lugar en este Parlamento-. Y, finalmente, que los fondos de cooperación sirvan realmente para la cooperación, porque ahora se están utilizando para mantener a sátrapas con el fin de que controlen las migraciones, o para poder financiar centros de internamiento de personas migrantes en países de tránsito.</seg>
                <seg>Estos son los verdaderos valores que se podrían traducir en actuaciones políticas, y no lo que nos demanda el ministro de la guerra, que es mi-li-ta-ri-zar todavía más este mundo.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u172" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u172" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Señora Pérez Fernández.</seg>
             </u>
@@ -1478,7 +1476,7 @@
                <seg>Por estas razones, señorías, señor ministro, no podemos apoyar la propuesta que nos presentan.</seg>
                <seg>Gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u174" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u174" ana="#chair">
                <seg>Muchas gracias, señora Pérez Fernández.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Ferrer.</seg>
             </u>
@@ -1499,7 +1497,7 @@
                <note>Aplausos</note>
                <pb n="129"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u176" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u176" ana="#chair">
                <seg>Muchas gracias, señor Ferrer por su intervención.</seg>
                <seg>Señor ministro de Defensa.</seg>
             </u>
@@ -1510,7 +1508,7 @@
                <seg>Solamente quiero dar las gracias a los grupos parlamentarios que han apoyado esta operación.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u178" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u178" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>En dos minutos vamos a votar.</seg>
                <note>Pausa</note>
@@ -1518,7 +1516,7 @@
          </div>
          <div type="debateSection">
             <head>JURAMENTO O PROMESA DE ACATAMIENTO DE LA CONSTITUCIÓN POR NUEVOS SEÑORES DIPUTADOS</head>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u179" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u179" ana="#chair">
                <seg>Vamos a proceder al juramento o promesa de acatamiento de la Constitución conforme al artículo 20.1.3.º del Reglamento. En sustitución de don Antoni Such, pregunto a doña Talía Roselló si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u180"
@@ -1527,7 +1525,7 @@
                <seg>Sí, prometo.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u181" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u181" ana="#chair">
                <seg>En sustitución de don Federico Buyolo, pregunto a don Baltasar Ortiz si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u182"
@@ -1536,7 +1534,7 @@
                <seg>Sí, prometo.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u183" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u183" ana="#chair">
                <seg>En sustitución de don Conrado Escobar, pregunto a doña María del Carmen Duque si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u184"
@@ -1545,45 +1543,45 @@
                <seg>Sí, juro.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u185" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u185" ana="#chair">
                <seg>Doña Talía Roselló, don Baltasar Ortiz y doña María del Carmen Duque han adquirido la condición plena de diputados. Enhorabuena.</seg>
                <note>Aplausos</note>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATE RELATIVO AL OBJETIVO DE ESTABILIDAD PRESUPUESTARIA : - ACUERDO POR EL QUE SE FIJAN LOS OBJETIVOS DE ESTABILIDAD PRESUPUESTARIA Y DE DEUDA PÚBLICA PARA EL CONJUNTO DE ADMINISTRACIONES PÚBLICAS Y DE CADA UNO DE SUS SUBSECTORES PARA EL PERIODO 2016-2018 Y EL LÍMITE DE GASTO NO FINANCIERO DEL PRESUPUESTO DEL ESTADO PARA 2016.</head>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u186" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u186" ana="#chair">
                <seg>Acuerdo por el que se fijan los objetivos de estabilidad presupuestaria y de deuda pública para el conjunto de administraciones públicas y de cada uno de sus subsectores para el periodo 2016-2018 y el límite de gasto no financiero del presupuesto del Estado para 2016.</seg>
                <seg>Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322 más 1 voto telemático, 323; a favor, 174 más 1 voto telemático, 175; en contra, 148.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u187" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u187" ana="#chair">
                <seg>Queda aprobado.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES : - REAL DECRETO-LEY 9/2015, DE 10 DE JULIO, DE MEDIDAS URGENTES PARA REDUCIR LA CARGA TRIBUTARIA SOPORTADA POR LOS CONTRIBUYENTES DEL IMPUESTO SOBRE LA RENTA DE LAS PERSONAS FÍSICAS Y OTRAS MEDIDAS DE CARÁCTER ECONÓMICO.</head>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u188" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u188" ana="#chair">
                <seg>Convalidación o derogación del Real Decreto-ley 9/2015, de 10 de julio, de medidas urgentes para reducir la carga tributaria soportada por los contribuyentes del impuesto sobre la renta de las personas físicas y otras medidas de carácter económico. Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="130"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316 más 1 voto telemático, 317; a favor, 180 más 1 voto telemático, 181; en contra, 114; abstenciones, 22.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u189" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u189" ana="#chair">
                <seg>Queda convalidado.</seg>
                <seg>Tramitación como proyecto de ley por el procedimiento de urgencia del real decreto-ley que acabamos de votar. Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316 más 1 voto telemático, 317; a favor, 142; en contra, 173 más 1 voto telemático, 174; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u190" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u190" ana="#chair">
                <seg>No se tramitará como proyecto de ley.</seg>
                <seg>DEBATE RELATIVO A LA AUTORIZACIÓN POR LA CÁMARA PREVISTA EN EL ARTÍCULO 17.1 DE LA LEY ORGÁNICA 5/2005, DE 17 DE NOVIEMBRE, DE LA DEFENSA NACIONAL.<note>VOTACIÓN</note> :</seg>
                <seg>- SOLICITUD DE AUTORIZACIÓN POR EL CONGRESO DE LOS DIPUTADOS PARA EL DESPLIEGUE Y LA PARTICIPACIÓN DE LAS FUERZAS ARMADAS EN LA OPERACIÓN MILITAR DE LA UNIÓN EUROPEA EN EL MEDITERRÁNEO CENTRAL MERIDIONAL, EUNAVFOR MED.</seg>
                <note>Número de expediente 095/000008</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u191" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u191" ana="#chair">
                <seg>Solicitud de autorización del Congreso de los Diputados para el despliegue y la participación de las Fuerzas Armadas en la operación militar de la Unión Europea en el Mediterráneo central. Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315 más 1 voto telemático, 316; a favor, 300 más 1 voto telemático, 301; en contra, 1; abstenciones, 14.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u192" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-15-CD150715.u192" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las nueve y cincuenta minutos de la noche.</seg>

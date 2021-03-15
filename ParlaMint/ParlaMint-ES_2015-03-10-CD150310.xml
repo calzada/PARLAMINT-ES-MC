@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="138">138 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="138" xml:lang="es">138 speeches</measure>
+            <measure unit="speeches" quantity="138" xml:lang="en">138 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="44"/>
                <tagUsage gi="note" occurs="77"/>
                <tagUsage gi="u" occurs="138"/>
-               <tagUsage gi="lb" occurs="389"/>
+               <tagUsage gi="seg" occurs="389"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,23 +92,19 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>EXCLUSIÓN DEL ORDEN DEL DÍA TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY DE COMUNIDADES Y CIUDADES AUTÓNOMAS: - DEL PARLAMENTO DE CATALUÑA, ORGÁNICA DE MODIFICACIÓN DE LA LEY ORGÁNICA DEL PODER JUDICIAL Y OTRAS NORMAS CONEXAS, EN MATERIA DE DERECHOS LINGÜÍSTICOS EN EL ÁMBITO DE LA JUSTICIA.</head>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
                <seg>Esta Presidencia debe informar al Pleno de que se ha recibido un escrito de la Presidencia del Parlamento de Cataluña solicitando el aplazamiento del debate de la proposición de ley de modificación de la Ley Orgánica del Poder Judicial y otras normas conexas, debiendo por ello excluirse el primer punto del orden del día.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, ORGÁNICA SOBRE TRANSPARENCIA Y RACIONALIZACIÓN DEL SISTEMA RETRIBUTIVO DE LOS MIEMBROS DEL GOBIERNO, DE LOS ALTOS CARGOS DE LA ADMINISTRACIÓN GENERAL DEL ESTADO Y LOS RESTANTES CARGOS PÚBLICOS ELECTOS.</head>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u2" ana="#chair">
                <seg>Comenzamos con la toma en consideración de la proposición de ley del Grupo Parlamentario de Unión Progreso y Democracia, orgánica sobre transparencia y racionalización del sistema retributivo de los miembros del Gobierno, de los altos cargos de la Administración General del Estado y los restantes cargos públicos electos.</seg>
                <seg>Para la presentación de esta iniciativa, tiene la palabra la señora Díez.</seg>
             </u>
@@ -129,7 +127,7 @@
                <note>Aplausos</note>
                <pb n="8"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u4" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>En turno de fijación de posiciones, por el Grupo Vasco, PNV, tiene la palabra el señor Esteban.</seg>
             </u>
@@ -143,7 +141,7 @@
                <seg>No estoy de acuerdo con que se aproveche el viaje para modificar la Ley Orgánica del Régimen Electoral General y ampliar las incompatibilidades. Yo algunas incompatibilidades las veo claras en el ámbito de los diputados y de los senadores, pero por ejemplo el acta de concejal con la de diputado o senador depende de qué estemos hablando: no es lo mismo el alcalde de una gran ciudad que el alcalde de un pequeño pueblo; no es lo mismo el concejal, que un concejal delegado de área, etcétera, en una de estas grandes ciudades. Por lo tanto, si se quiere hacer algo, se debería hacer. Mi grupo no se va a oponer a que esto se tramite en la Cámara -insisto- dentro de la materia competencial, que es de Cortes Generales, y sin entrar en el ámbito de los Gobiernos autonómicos. Me parece bien que se ordene, que<pb n="9"/> se haga una labor didáctica, ahora bien, creo que deberíamos centrarnos únicamente en esto y no entrar en otros ámbitos como el de la Loreg.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u6" ana="#chair">
                <seg>Muchas gracias, señor Esteban.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Nuet.</seg>
             </u>
@@ -159,7 +157,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u8" ana="#chair">
                <seg>Muchas gracias, señor Nuet.</seg>
                <seg>Por el Grupo Parlamentario Catalán de Convergència i Unió, tiene la palabra la señora Surroca.</seg>
             </u>
@@ -174,7 +172,7 @@
                <seg>Lamentamos que en el caso del proyecto de ley de altos cargos de la Administración General del Estado no se haya sido más ambicioso por parte del Gobierno, en este caso por parte del Grupo Popular, y se haya avanzado en algunas de las cuestiones que ustedes plantean hoy aquí mediante esta propuesta. Finalmente, quiero destacar que nuestro grupo parlamentario va a apoyar esta iniciativa con esa salvedad, en caso de que prosperara, de que tendríamos que tener en cuenta cuáles son los ámbitos competenciales de cada Administración.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u10" ana="#chair">
                <seg>Muchas gracias, señora Surroca.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra la señora Batet.</seg>
             </u>
@@ -192,7 +190,7 @@
                <seg>Finalmente, deberíamos debatir en profundidad sobre la ética pública. La corrupción política se ha situado en los últimos tiempos en el centro del hartazgo de la ciudadanía, de una sociedad golpeada por la crisis económica y los recortes en los servicios públicos. En este sentido, junto a las medidas punitivas y preventivas, frente a las conductas de los protagonistas de la corrupción -no es ahora el momento de debatir sobre ello-, desde nuestro punto de vista es preciso articular una estrategia en la que la Administración pública y sus empleados jueguen también un papel central en la prevención y en el control de la corrupción.</seg>
                <seg>Pues bien, solo después de abordar esta reforma integral y ambiciosa, tantas veces prometida por el actual Gobierno e incumplida las mismas veces, tendría verdadero sentido tratar del salario de los altos cargos y de los miembros del Gobierno&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u12" ana="#chair">
                <seg>Señora Batet, debe usted terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u13"
@@ -204,7 +202,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u14" ana="#chair">
                <seg>Muchas gracias, señora Batet.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra el señor Gómez de la Serna.</seg>
             </u>
@@ -221,7 +219,7 @@
                <seg>Tercera consideración, no se puede proponer el mismo sueldo cuando la capacitación que se exige para un puesto es distinta que para otro, es decir, cuando se exige una especial capacitación técnica, por ejemplo, para el presidente del Consejo de Seguridad Nuclear, de la CNMV o del Banco de España no es la misma que la capacitación que se requiere a un concejal. ¿Por qué? Porque cuando se requiere una capacitación técnica especial hay que tener en cuenta el nivel retributivo medio del sector en el que opera esa institución, para atraer un mínimo de talento y un mínimo de capacidad al sector público. Tampoco se tiene en cuenta si los altos cargos tienen residencia oficial o no, como el presidente del Gobierno, delegados del Gobierno, embajadores y delegados, ni si tienen o no gastos de representación.</seg>
                <seg>Por último, el déficit más importante de su proposición, en mi opinión, es que ustedes no incluyen las cuantías para cada grupo. No sabemos lo que cobrarían los altos cargos del grupo 1, ni del 2, ni del 3, ni del 8 por supuesto. ¿Cómo pretenden que se embarque Gobierno alguno en una propuesta retributiva de esta magnitud sin conocer el coste? ¿Se han molestado ustedes en valorar económicamente esta proposición o es que eso les da igual? Esta proposición solo tendría dos vías para jerarquizar los salarios: o subir los sueldos del presidente del Gobierno y de los ministros o bajar el sueldo de todos los demás. Pero no sabemos lo que ustedes proponen. Si lo que proponen es que, en estos momentos en que las familias españolas tienen dificultades para llegar a fin de mes, nosotros, como Gobierno de España y como Grupo Parlamentario Popular, aprobemos una subida salarial del Gobierno en pleno y una subida salarial para diputados y senadores, ya le adelanto que no cuenten con nosotros para este escándalo, porque sería un auténtico escándalo.<note>Aplausos</note> Nosotros hemos aprobado la Ley de Transparencia&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u16" ana="#chair">
                <seg>Señor Gómez de la Serna, debe usted terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u17"
@@ -231,14 +229,14 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u18" ana="#chair">
                <seg>Muchas gracias, señor Gómez de la Serna.</seg>
                <pb n="16"/>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY - DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, SOBRE EXCLUSIONES SANITARIAS EN ESPAÑA TRAS EL REAL DECRETO-LEY 16/2012.</head>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u19" ana="#chair">
                <seg>Proposición no de ley del Grupo Parlamentario de La Izquierda Plural, sobre exclusiones sanitarias en España tras el Real Decreto-ley 16/2012. Para la presentación de esta iniciativa tiene la palabra el señor Llamazares.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u20"
@@ -687,7 +685,7 @@
                <seg>Termino, señora presidenta. La Ley de Dependencia ha sido derogada ya de facto. Por eso vamos a apoyar esta iniciativa, aunque creemos que las enmiendas del Grupo Catalán la enriquecerían. Apoyaremos esta iniciativa y todas las que vengan en este sentido porque entendemos que hay que atender los problemas de las personas.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u85" ana="#chair">
                <seg>Muchas gracias, señora Pérez.</seg>
                <seg>También por el Grupo Parlamentario Mixto, tiene la palabra el señor Errekondo.</seg>
             </u>
@@ -700,7 +698,7 @@
                <note>Pronuncia palabras en euskera</note>
                <pb n="36"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u87" ana="#chair">
                <seg>Muchas gracias, señor Errekondo.</seg>
                <seg>Por el Grupo Vasco, PNV, tiene la palabra el señor Olabarría.</seg>
             </u>
@@ -714,7 +712,7 @@
                <seg>La Ley de la Dependencia -como ha sido comentado por la portavoz del BNG, del Grupo Mixto- está de facto derogada. Era muy difícil de aplicar -nosotros lo advertimos en su momento-, pero de facto está derogada, se está incumpliendo de una forma tan alarmante que podemos considerar que está ya amortizada políticamente, pero estamos a tiempo. Nosotros no prescindimos de la posibilidad de que se pueda regenerar y se pueda recuperar, pero se puede recuperar siempre que se atienda a los requerimientos de la moción presentada por el Grupo Socialista, de las enmiendas de naturaleza competencial y de otra naturaleza del señor Campuzano y de lo que todos reivindiquemos, que por lo menos se aplique la ley en sus propios términos. No pedimos nada más, que se aplique en sus propios términos. Mal aquel gobierno y mal aquella institución parlamentaria que tiene que reclamar sencillamente el cumplimiento de la ley. Alguna patología política, que habrá que identificar, está ocurriendo en este país en estos momentos.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u89" ana="#chair">
                <seg>Muchas gracias, señor Olabarría.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Martínez Gorriarán.</seg>
                <pb n="37"/>
@@ -728,7 +726,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u91" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra la señora García Álvarez.</seg>
             </u>
@@ -742,7 +740,7 @@
                <seg>Señorías del Partido Popular, deberían ustedes ya tener conciencia absoluta de que las políticas neoliberales enferman y no ahorran absolutamente nada; enferman a los pacientes, enferman a los familiares y no ahorran nada. Es verdad entonces lo que dijo en su momento la señora Mato, cuando afirmó el 25 de junio de 2012: La Ley de Dependencia es inviable. Ustedes desde el primer momento han considerado la Ley de Dependencia inviable y no han hecho nada por mantenerla y desarrollarla. Sin embargo, el señor Moreno Bonilla, entonces secretario de Estado y ahora candidato en Andalucía, decía: He conseguido -he conseguido- salvar el sistema de atención a las personas con dependencia. ¿Sabe lo que le dicen estos gerentes, esta asociación? Que miente, que se columpia. Y no se puede además personalizar, porque supongo que no sería un ente aparte del Gobierno. ¿Y sabe quién dijo la verdad también, probablemente la única verdad que ha dicho? El señor Rajoy en la última entrevista que se le hizo en 2011, antes de ser elegido: Mi prioridad, las pensiones; a partir de ahí, habrá que recortar todo. En dependencia lo que hay que hacer es ir haciendo lo que se pueda. Insisto, es la única verdad que ha dicho a lo largo del tiempo que lleva gobernando este país.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u93" ana="#chair">
                <seg>Muchas gracias, señora García Álvarez.</seg>
                <seg>Por el Grupo Popular tiene la palabra la señora Montesinos.</seg>
             </u>
@@ -757,7 +755,7 @@
                <note>Aplausos</note>
                <pb n="40"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u95" ana="#chair">
                <seg>Muchas gracias, señora Montesinos.</seg>
                <seg>Señora Carcedo, como hay varias enmiendas, le pregunto cuál es su decisión con respecto a las mismas.</seg>
             </u>
@@ -767,7 +765,7 @@
                <seg>Señor presidente, ya anuncié en mi intervención que no puedo aceptar dos de las enmiendas y sí en cambio la relativa al punto número 6.</seg>
                <seg>Y si me permite, solo quiero informar a la señora Montesinos que de la Ley de la Dependencia se hicieron varias evaluaciones, entre ellas una por el organismo oficial de evaluaciones&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u97" ana="#chair">
                <seg>Señora Carcedo, este no es el turno.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u98"
@@ -775,12 +773,12 @@
                ana="#regular">
                <seg>Por la Agencia de Evaluación de las Políticas Públicas y la Calidad de los Servicios.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u99" ana="#chair">
                <seg>Solo doy algún tiempo si hay una alusión directa y personal, pero para las opiniones no es momento.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO MIXTO<note>SEÑOR BOSCH</note> , SOBRE RECORTES ECONÓMICOS A REALIZAR EN EL PODER POLÍTICO Y TRANSPARENCIA EN EL GASTO PÚBLICO.</seg>
                <note>Número de expediente 173/000199</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u100" ana="#chair">
                <seg>Pasamos a la siguiente moción, que será la última que debatamos esta tarde. Es una moción del Grupo Parlamentario Mixto, sobre recortes económicos a realizar en el poder político y transparencia en el gasto público.</seg>
                <seg>Tiene la palabra el señor Tardà.</seg>
             </u>
@@ -795,7 +793,7 @@
                <seg>Esta es nuestra iniciativa parlamentaria y esperamos que ustedes sean receptivos a estas propuestas, razón por la cual vamos a pedir que se voten los siete puntos que contiene nuestra moción de forma separada a fin y efecto de que ustedes tengan la oportunidad de matizar, si lo creen conveniente, la orientación de su voto.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u102" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Como muy bien ha dicho el propio señor Tardà, hay una enmienda formulada por el Grupo Socialista. Para su defensa, tiene la palabra el señor Sánchez Amor.</seg>
             </u>
@@ -810,7 +808,7 @@
                <seg>Voy a su contenido. Ya se lo dijo el ministro Montoro, este es un asunto en el que el máximo ahorro supone una escala en términos comparativos absolutamente pequeña, pero el hecho de que sea un asunto de una escala pequeña no autoriza un tratamiento frívolo del tema. Estos temas que a veces son simbólicos merecen una reflexión y merecen propuestas más articuladas y menos de trazo grueso, como las que ustedes nos traen aquí, señor Tardà, porque las suyas son de trazo grueso. Pero quiero dejar muy clara una cosa: absoluta coincidencia con ustedes en el tema de la transparencia. Podemos diferir en si los coches tienen que ser por seguridad o por eficiencia, pero coincidimos con ustedes en que haya una máxima transparencia para un público conocimiento del uso de todos estos medios. Desde ese punto de vista cuenta usted con nuestro apoyo más incondicional.</seg>
                <seg>Lo que no podemos aceptar es este tipo de no justificación de por qué unos medios tienen que tener como motivo la seguridad y no la eficiencia, por ejemplo. ¿Usted sabe que su partido en el Senado ha enmendado el proyecto de ley de altos cargos para decir que los coches de altos cargos se utilicen no solo por seguridad sino también por eficiencia? ¿Por qué ERC propone en el Senado que los coches oficiales lo sean también por eficiencia y aquí solo por seguridad? Lo que les pido es que sean ustedes consecuentes con su carácter de partido -que a mí me parece serio- de izquierdas e institucional y que no jueguen a alimentar desde esta tribuna un tipo de discurso que lo que está fomentando es el desapego del que tanto decimos quejarnos. Por tanto, en esa adecuación de los medios a los fines, nos tienen ustedes completamente a su disposición. En la utilización de una regulación transparente y, como decimos en la enmienda -que no es que no diga nada, señor Tardà, y cito-, para garantizar y reforzar la aplicación de los principios de transparencia, austeridad y eficiencia, tanto en las Cortes como en la Administración General del Estado, en ese tipo de planteamientos nos tienen con ustedes y en la transparencia absoluta, también, pero creo que hay que tener mucho cuidado con el tipo de discurso que se hace aquí, con el tipo de argumentación que se utiliza e incluso con el tipo de vocabulario, porque vamos a acabar nosotros aquí llamándonos unos a otros casta, y yo creo que nosotros no merecemos eso, aunque haya quien esté promoviendo ese tipo de lenguaje fuera de nosotros. ¿Sabe usted, señor Tardà, por qué le digo esto?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u104" ana="#chair">
                <seg>Señor Sánchez Amor, debe usted terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u105"
@@ -821,7 +819,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u106" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u106" ana="#chair">
                <seg>Muchas gracias, señor Sánchez Amor.</seg>
                <seg>Turno de fijación de posiciones. Por el Grupo Vasco, tiene la palabra el señor Esteban.</seg>
             </u>
@@ -832,7 +830,7 @@
                <seg>Digo lo mismo con respecto a los viajes. Alguno se sorprendería sabiendo que los billetes en clase turista -en comparación con el tipo de billetes que solemos tener los diputados, en que muchas veces los cambios son de un momento para otro, son billetes abiertos- son más caros, porque esas plazas se venden más fácilmente, y después de los acuerdos institucionales a los que se llega, esas plazas son más caras. Muy bien. Quedará muy bonito, muy popular o muy en la corriente de lo que se pide ahora, pero ciertamente esa medida no ayudaría a la Administración, a las instituciones, a las arcas del Estado ni a que el presupuesto fuera menor.</seg>
                <seg>En cuanto al gasto detallado de tarjetas de crédito, etcétera, lo hemos pedido hace poco. El Gobierno vasco también ha contestado a una pregunta que le han formulado recientemente. Yo todavía estoy esperando a que el Gobierno español me dé la respuesta, espero que llegue cuánto antes y ya veremos si a partir de ahí tenemos que tomar alguna medida o no. En cuanto a las indemnizaciones por ejercicio de la función, me da igual, podemos buscar una fórmula en que sea un montante equis, pero lo que creo que todos deberíamos tener en cuenta en esta Cámara, claramente y sin complejos, sin intentar aprovechar olas populistas sin ningún sentido, es algo de lo que estábamos hablando también en el primer debate de la sesión de hoy: hay que homologarse con Europa. Sorprendentemente, en algunos casos, la primera conclusión que habría que sacar es que determinados cargos institucionales, empezando por el presidente del Gobierno, no están lo suficientemente remunerados. No hagamos demagogia con todas estas cosas. He visto a muchas formaciones jugar con esto y también a algunos de los grandes grupos, que así empezaron durante legislaturas pasadas, pero ya es hora de hablar claro, de hablar con sensatez, de verdaderamente llevar adelante políticas de austeridad respecto de aquello que es justo, lógico y normal, pero también, en otros ámbitos, es hora de homologarnos a Europa y de no hacer demagogia de todo esto. Siento que hayan sido mi amigo Joan Tardà y Esquerra quienes hayan presentado esto, pero, de verdad, Joan, no tiene ni pies ni cabeza.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u108" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u108" ana="#chair">
                <seg>Muchas gracias, señor Esteban.</seg>
                <seg>Por Unión Progreso y Democracia, tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -844,7 +842,7 @@
                <seg>Hay más cuestiones que no ha planteado aquí Esquerra, pero que también nos parecen interesantes y que estaría bien recoger en el futuro, como subvenciones a viviendas para diputados que no se presentan por Madrid, pero que ya tienen vivienda en Madrid, lo que evidentemente es un abuso, además de muchas otras. En definitiva, como son cuestiones que nuestro grupo practica y además hemos pedido que se<pb n="44"/> incluyan en numerosas ocasiones, aunque nos parezca que esto se debería haber planteado de una manera más extensa, más detallada y más técnicamente correcta, vamos a votar a favor muy a gusto.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u110" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por La Izquierda Plural, tiene la palabra el señor Nuet.</seg>
             </u>
@@ -854,7 +852,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>Hoy es la segunda ocasión en este Pleno en que debatimos sobre estos temas: antes, en una proposición de ley de Unión Progreso y Democracia sobre las retribuciones de los cargos públicos y de los cargos electos y, ahora, en esta moción de Esquerra Republicana de Catalunya sobre los medios que utilizan los cargos públicos y también los cargos electos. En primer lugar, creo que no estamos haciendo un buen debate, que es un tema verdaderamente serio, y en las dos iniciativas, el debate parlamentario, bajo mi humilde punto de vista, no ha estado a la altura. Parece como si no nos estuviésemos tomando en serio el tema.<note>Rumores</note> Es verdad, a la proposición de ley que ha propuesto antes UPyD o a la moción que ha propuesto Esquerra Republicana de Catalunya les podríamos añadir más cosas, las podríamos mejorar, ¿pero saben cuál es el problema?<note>Continúan los rumores</note> Que esta Cámara, en los últimos años, ha tenido momentos legislativos en los que hemos debatido&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u112" ana="#chair">
                <seg>Perdón, señor Nuet.</seg>
                <seg>¡Por favor, ruego silencio para que se oiga al señor Nuet!</seg>
                <seg>Continúe.</seg>
@@ -866,7 +864,7 @@
                <seg>¿De qué estamos hablando? Estamos hablando de cosas que afectan a esta Cámara y también al Senado, sí, como los coches oficiales, porque hay grupos parlamentarios que los usan y grupos parlamentarios que no los usan. No digo que los grupos parlamentarios que los usen lo estén haciendo mal. No estoy haciendo esta crítica en absoluto, pero es un asunto que deberíamos discutir y regular y posiblemente llegar a un acuerdo. En este momento resulta que no, que hay criterios distintos ante un mismo hecho. Por supuesto, con el tema de las retribuciones de los diputados y senadores, ¿ustedes no llegan a la misma conclusión que nosotros, que en la forma en que se denominan los conceptos que tenemos en nuestra nómina inducen al error y a la confusión? Pues nosotros creemos que sí, porque muchos ciudadanos que han tenido acceso a nuestras nóminas, cuando ven los conceptos retributivos, confunden muchas cosas, por ejemplo, que haya diputados que cobran una asignación para poder vivir, para tener alojamiento, cuando resulta que tienen casa en Madrid. Es un concepto que a lo mejor deberíamos consignar en la nómina de forma distinta y no permitir que siga existiendo esa denominación que induce a mucha gente cuando la lee a creer que hay algunos diputados que se están embolsando un dinero que no les pertenece. Repito, no estoy haciendo en absoluto demagogia, en absoluto, no lo acepto. Lo que digo es que ese concepto es mejorable respecto a su regulación y respecto a su conceptualización y que es un error huir de hacerlo. Eso es un error. Hay que hacerlo y hay que mejorarlo. Después, por supuesto, el transporte, las dietas, los espacios y los medios públicos, el portal de transparencia, son temas mejorables, señoras y señores diputados. Por tanto, mejoremos este tema, lo podemos hacer y votemos a favor de esta moción.</seg>
                <pb n="45"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u114" ana="#chair">
                <seg>Muchas gracias, señor Nuet.</seg>
                <seg>Por el Grupo Parlamentario Catalán de Convergència i Unió, tiene la palabra el señor Picó.</seg>
             </u>
@@ -879,7 +877,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u116" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Gallego.</seg>
             </u>
@@ -891,7 +889,7 @@
                <seg>Señorías, los diputados españoles somos los que menos cobramos de Europa. Lo pueden comprobar con una sencilla entrada en Internet. El presupuesto de esta Cámara ha bajado en los últimos tres años en 7,5 millones de euros. Es bastante más bajo que el coste del Parlamento francés, italiano o de Gran Bretaña. Las reformas que hemos impulsado en las administraciones públicas españolas han supuesto un ahorro de gastos corrientes de más de 18.000 millones de euros. Señorías, hay un 30 % menos de coches oficiales en este país si los comparamos con la cifra de 2011. En 2011 había 921 coches oficiales, ahora hay 652.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u118" ana="#chair">
                <seg>Perdón, señor Gallego.</seg>
                <seg>Ruego silencio.</seg>
                <seg>Continúe.</seg>
@@ -905,7 +903,7 @@
                <seg>Gracias.</seg>
                <note>Varios señores diputados: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u120" ana="#chair">
                <seg>Señor Tardà, aunque usted lo ha dejado muy claro, le pregunto a efectos formales: ¿votaremos punto por punto su moción?<note>Asentimiento</note> Muchas gracias, señor Tardà.</seg>
                <seg>En unos minutos vamos a votar.<note>Pausa</note> Señorías, voy a dar la palabra al señor Baldoví, que me la ha pedido.</seg>
             </u>
@@ -918,89 +916,89 @@
                <note>Aplausos</note>
                <pb n="47"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u122" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u122" ana="#chair">
                <seg>Señorías, quiero comunicarles que el jueves próximo, cuando veamos los puntos por la mañana, y dado que parece que hay un acuerdo entre los grupos, el punto 33, que se refiere al proyecto de ley del sector de hidrocarburos, se verá después del punto 30. Lo digo para que lo sepan sus señorías.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY : - DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, ORGÁNICA SOBRE TRANSPARENCIA Y RACIONALIZACIÓN DEL SISTEMA RETRIBUTIVO DE LOS MIEMBROS DEL GOBIERNO, DE LOS ALTOS CARGOS DE LA ADMINISTRACIÓN GENERAL DEL ESTADO Y LOS RESTANTES CARGOS PÚBLICOS ELECTOS.</head>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u123" ana="#chair">
                <seg>Vamos ahora con las votaciones. En primer lugar, toma en consideración de la proposición de ley del Grupo Parlamentario de Unión Progreso y Democracia orgánica sobre transparencia y racionalización del sistema retributivo de los miembros del Gobierno, de los altos cargos de la Administración General del Estado, y los restantes cargos públicos electos. Han sido emitidos seis votos telemáticos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 302 más 6 votos telemáticos, 308; a favor, 133 más 1 voto telemático, 134; en contra, 164 más 5 votos telemáticos, 169; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u124" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u124" ana="#chair">
                <seg>No se toma en consideración.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY : - DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, SOBRE EXCLUSIONES SANITARIAS EN ESPAÑA TRAS EL REAL DECRETO-LEY 16/2012.</head>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u125" ana="#chair">
                <seg>Proposición no de ley del Grupo de La Izquierda Plural sobre exclusiones sanitarias en España tras el Real Decreto-ley 16/2012. Se incorpora la enmienda del Grupo Parlamentario Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 302; a favor, 139; en contra, 161; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u126" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u126" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO VASCO<note>EAJ-PNV</note> , RELATIVA AL FOMENTO DEL EMPLEO JUVENIL.</seg>
                <note>Número de expediente 162/000575</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u127" ana="#chair">
                <seg>Proposición no de ley del Grupo Vasco, PNV, relativa al fomento del empleo juvenil. Incorpora una autoenmienda del propio grupo y una enmienda del Grupo Parlamentario Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 302; a favor, 133; en contra, 165; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u128" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u128" ana="#chair">
                <seg>Queda rechazada.</seg>
                <pb n="48"/>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - DEL GRUPO PARLAMENTARIO SOCIALISTA, AL MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD SOBRE SITUACIÓN, DESARROLLO Y PERSPECTIVAS DEL SISTEMA PARA LA AUTONOMÍA Y ATENCIÓN A LA DEPENDENCIA.</head>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u129" ana="#chair">
                <seg>Moción del Grupo Socialista al ministro de Sanidad, Servicios Sociales e Igualdad sobre situación, desarrollo y perspectivas del sistema para la autonomía y atención a la dependencia. Se ha incorporado la enmienda del Grupo Catalán al punto 6.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 302; a favor, 124; en contra, 164; abstenciones, 14.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u130" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u130" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO MIXTO<note>SEÑOR BOSCH</note> , SOBRE RECORTES ECONÓMICOS A REALIZAR EN EL PODER POLÍTICO Y TRANSPARENCIA EN EL GASTO PÚBLICO.</seg>
                <note>Número de expediente 173/000199</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u131" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u131" ana="#chair">
                <seg>Moción del Grupo Mixto, señor Bosch, sobre recortes económicos a realizar en el poder político y transparencia en el gasto público.</seg>
                <seg>Se vota en sus propios términos. Tiene siete puntos, por lo cual votaremos cada uno por separado.</seg>
                <seg>Punto número 1.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 303; a favor, 21; en contra, 165; abstenciones, 117.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u132" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u132" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 2.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 303; a favor, 117; en contra, 164; abstenciones, 22.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u133" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u133" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 3.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 303; a favor, 126; en contra, 165; abstenciones, 12.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u134" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u134" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 4.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 302; a favor, 120; en contra, 165; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u135" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u135" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 5.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 303; a favor, 20; en contra, 165; abstenciones, 118.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u136" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u136" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 6.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="49"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 303; a favor, 19; en contra, 166; abstenciones, 118.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u137" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u137" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 7.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 302; a favor, 121; en contra, 165; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u138" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-10-CD150310.u138" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las ocho y quince minutos de la noche.</seg>

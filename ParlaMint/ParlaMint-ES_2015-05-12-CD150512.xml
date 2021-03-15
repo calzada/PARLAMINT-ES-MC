@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="183">183 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="183" xml:lang="es">183 speeches</measure>
+            <measure unit="speeches" quantity="183" xml:lang="en">183 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="8"/>
                <tagUsage gi="note" occurs="107"/>
                <tagUsage gi="u" occurs="183"/>
-               <tagUsage gi="lb" occurs="489"/>
+               <tagUsage gi="seg" occurs="489"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY DE COMUNIDADES Y CIUDADES AUTÓNOMAS - DEL PARLAMENTO DE CATALUÑA, ORGÁNICA DE MODIFICACIÓN DE LA LEY ORGÁNICA DEL PODER JUDICIAL Y OTRAS NORMAS CONEXAS, EN MATERIA DE DERECHOS LINGÜÍSTICOS EN EL ÁMBITO DE LA JUSTICIA.</head>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
                <seg>Toma en consideración de la proposición de ley del Parlamento de Cataluña, orgánica de modificación de la Ley Orgánica del Poder Judicial y otras normas conexas en materia de derechos lingüísticos en el ámbito de la justicia. Para su presentación, nos acompañan esta tarde tres representantes del Parlament de Catalunya, a los que damos esta tarde la más calurosa bienvenida. En primer lugar, tiene la palabra doña Elena Ribera.</seg>
             </u>
@@ -114,7 +112,7 @@
                <seg>Muchas gracias, señor presidente, señoras y señores diputados.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u3" ana="#chair">
                <seg>Gracias, señora Ribera.</seg>
                <seg>Doña Gema Calvet.</seg>
             </u>
@@ -126,7 +124,7 @@
                <seg>Cuando la filósofa española María Zambrano se preguntaba sobre el riesgo de abstenerse, decía: ¿Cuál ha sido la suerte del pensamiento en España? Abstenerse, quedarse quieto, no cambiar nada y al hacerlo tocar la traición y sobre todo la tradición. Superen el placer de la dominación. La nueva política se debería basar en la confianza en la democracia y en el valor de la fraternidad, que es respeto. Recordemos aquellas tres propuestas de las Cartas para el progreso de la humanidad, de Herder: la gran mujer de la paz, el peligro de los falsos intereses de Estado y el sentimiento de justicia hacia otras naciones. O nacionalidades, como quieran, pero existimos. El cambio permanente, señoras y señores, es un hecho democrático. Cataluña se pronunciará sobre su futuro político, acéptenlo; pero hoy aquí defendemos un derecho básico en la justicia: el principio de oralidad en la lengua propia, expresarse y ser escuchado y tratado en el valor de la palabra que significa el catalán. No hay justicia sin lengua propia. Hoy venimos a instarles a que aprueben esta reforma y a invitarles a que sirvan a la democracia y den una oportunidad a la justicia.<note>Termina su intervención en catalán</note> Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u5" ana="#chair">
                <seg>Muchas gracias, señora Calvet.</seg>
                <seg>Finalmente, como tercer representante del Parlament de Catalunya, tiene la palabra don Salvador Milà.</seg>
             </u>
@@ -140,7 +138,7 @@
                <seg>Muchas gracias, señor presidente, y señoras y señores diputados.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u7" ana="#chair">
                <seg>Turno de fijación de posiciones.</seg>
                <seg>Por el Grupo Parlamentario Mixto, en primer lugar tiene la palabra la señora Fernández Davila.</seg>
             </u>
@@ -155,7 +153,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u9" ana="#chair">
                <seg>Muchas gracias, señora Fernández.</seg>
                <seg>Señor Tardà.</seg>
             </u>
@@ -166,7 +164,7 @@
                <seg>Conclusión: inhibición, en el mejor de los casos, cuando no agresividad manifiesta contra la normalización de la lengua catalana, con la consiguiente vulneración de derechos. Hace pocas semanas, en un juzgado barcelonés se le pedía a Joan Laporta, persona conocida, que utilizara la lengua española. Si no se hubiese tratado de una persona conocida, no hubiéramos sabido del hecho, y hubiera ocurrido, una vez más, otro caso de los muchos que ya han sido denunciados, por ejemplo por la Plataforma per la Llengua; casos y casos que se repiten, incluso contra la unidad lingüística del catalán. En el País Valencià hay jueces que se atreven a rechazar escritos dirigidos al juzgado en lengua catalana, advirtiendo que no los aceptan puesto que no están escritos en valenciano. Fíjense cuánta estupidez, qué burros son, incluso niegan -repito: niegan- la unidad lingüística de la lengua catalana, cosa que no hace, por ejemplo, la Real Academia Española. Hay casos tan flagrantes como el de la Franja de Ponent, en tierras aragonesas, que solo se permite hablar en catalán en un juzgado. Son verdaderas locuras, monumentos a la imbecilidad, monumentos a la catalanofobia.</seg>
                <seg>¿Cómo se explica, por ejemplo, que en la actualidad solo se redacten en catalán el 13 % de las sentencias, cuando en el año 2007 el porcentaje alcanzaba casi el 17 %? ¿El bajo nivel de sentencias redactadas en catalán solo tiene que ver con el nivel de competencia lingüística de jueces y magistrados o, más bien, es el resultado también de una verdadera política de aniquilamiento lingüístico? En épocas anteriores, cuando se reclamaba formación, se podía argumentar que los jueces y magistrados no conocían la lengua, pero una vez que ya se ha superado la fase de la formación, ¿cómo se explica que haya caído en picado el redactado de sentencias? Hubo 32.479 sentencias en el año 2013, y solo el 8 % en catalán. Las cifras indican una regresión extraordinaria y demuestran que, solo haciendo del catalán la lengua propia del sistema de justicia, se logrará su plena normalización. Esa plena normalización, desgraciadamente, hoy volverá a ser rechazada en ese Parlamento. Del mismo modo que no se pueden garantizar los derechos lingüísticos sin hacer del catalán la lengua propia y un requisito para jueces y magistrados, tampoco puede aceptarse que, todavía hoy día, los jueces en Cataluña no conozcan, al<pb n="10"/> menos suficientemente, el derecho civil propio que deben aplicar. Los catalanes no somos argelinos de la década de los cincuenta del siglo pasado. ¡A ver si se enteran de una puñetera vez!</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u11" ana="#chair">
                <seg>Señor Tardà, tiene usted que acabar y, además, con corrección.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u12"
@@ -176,7 +174,7 @@
                <seg>Como decía, por esa razón nos ratificamos en el convencimiento -y termino, señor presidente- de que todo ello solo es posible mediante un poder judicial propio que, en cuanto a Cataluña, solo se puede ubicar en la futura -y espero que pronta- república catalana. Y, ustedes, que con su pan se lo coman.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u13" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Por el Grupo Mixto, también, tiene la palabra la señora Enbeita.</seg>
             </u>
@@ -189,7 +187,7 @@
                <seg>Señorías, no nos vuelvan a contar eso de los médicos sobre si preferimos jueces buenos o jueces vascos, porque viendo las últimas detenciones de los jóvenes vascos simplemente por dedicarse a la política, al final una deja de creer en la justicia, en los jueces buenos y en los jueces euskaldunes. Carecemos un poco de todo.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u15" ana="#chair">
                <seg>Muchas gracias, señora Enbeita.</seg>
                <seg>Por el Grupo Vasco PNV, tiene la palabra el señor Olabarría.</seg>
             </u>
@@ -210,7 +208,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u17" ana="#chair">
                <seg>Muchas gracias, señor Olabarría.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -226,7 +224,7 @@
                <seg>Si ustedes lo que quieren -que sé que es lo que quieren- es expulsar de Cataluña el castellano -que es una de las lenguas propias de Cataluña- de la Administración de Justicia para reservar la Administración de Justicia exclusivamente a los que tengan un dominio suficiente del catalán, lo que están haciendo no es otra cosa que acabar con la igualdad de derechos, la igualdad a la tutela judicial, la igualdad de oportunidades y desde luego la igualdad jurídica de los ciudadanos. Y si luego además lo que pretenden es conseguir el mismo efecto que en la educación, díganlo claramente, estamos hablando no de derechos sino de poder, de poder en el sentido más crudo y material del asunto, de quién manda aquí, quién juzga aquí a quién, quién está en mejor disposición de ser juzgado y en qué condiciones. Porque, como les decía antes, si fuera verdad que en España estuviera prohibido juzgar, declarar en los tribunales o hacer sentencias en catalán, yo estaría de acuerdo con ustedes, pero saben que es completamente falso. El problema es estadístico. Por alguna razón, en la que yo no voy a entrar, el número de sentencias en catalán disminuye, pero entonces no digan que es que hay una situación de prohibición de facto, tendrán un problema diferente, exactamente igual que ocurre con otros usos sociales. Y la llamada política de normalización no es otra cosa que intervencionismo de un Estado autoritario en las vidas particulares de los ciudadanos, a los que se les dice incluso en qué lengua tienen que hablar, aunque prefieran hablar en otra. Y se les obliga mediante la vía de la coerción, diciéndoles: si no quieres usar esta lengua me da igual porque te voy a obligar a usarla en la educación, en la sanidad y en la justicia. Es decir, eres un ciudadano de segunda, no tienes igualdad de derechos conmigo, que soy el que manda aquí. Esto es lo que ocurre con esta proposición. De manera que lo siento mucho; no esperen la menor comprensión ni apoyo por nuestra parte a una cosa que califico finalmente de aberración democrática.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u19" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo de Izquierda Plural tiene la palabra el señor Coscubiela.</seg>
             </u>
@@ -239,7 +237,7 @@
                <seg>Pues bien, puede parecer eso muy lejos pero con ustedes trescientos años parece que sean nada, un segundo, porque desgraciadamente continúan viviendo en esa realidad. En ese sentido déjenme que les señale una cosa: señorías del Partido Popular, me han escuchado ustedes durante cuatro años -y me siento muy orgulloso de ello- haber defendido en castellano los derechos de trabajadores catalanes y<pb n="16"/> españoles frente a explotadores que hablan castellano, catalán -por cierto- también o inglés. Para explotar trabajadores la lengua utilizada no importa, es indiferente, es lo de menos. Pues con el mismo orgullo que defiendo en castellano los derechos de nuestra gente trabajadora les tengo que decir que no estoy, no estamos, no está la sociedad catalana dispuesta a aceptar que nos impidan vivir en nuestra lengua. ¡No lo vamos a aceptar! ¡Lo han intentado ustedes de todas las maneras y no lo han conseguido! Si ustedes han decidido que el Estado español tal como ustedes lo conciben es incompatible con el respeto al plurilingüismo y a la plurinacionalidad, lo que sobra no es el catalán o el plurilingüismo, los que sobran son ustedes. Si el Estado español o quienes lo gobiernan han decidido que en su seno no cabe la plurinacionalidad y el plurilingüismo, lo que va a saltar por los aires no va a ser el catalán, va a ser el Estado español. Vostès mateixos.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u21" ana="#chair">
                <seg>Muchas gracias, señor Coscubiela.</seg>
                <seg>Por el Grupo Parlamentario Catalán de Convergència i Unió tiene la palabra el señor Jané.</seg>
             </u>
@@ -254,7 +252,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u23" ana="#chair">
                <seg>Muchas gracias, señor Jané.</seg>
                <seg>Por el Grupo Socialista tiene la palabra el señor Sáez Jubero.</seg>
             </u>
@@ -271,7 +269,7 @@
                <seg>Muchas gracias, señor presidente y señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u25" ana="#chair">
                <seg>Muchas gracias, señor Sáez Jubero.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra la señora Montserrat.</seg>
             </u>
@@ -291,7 +289,7 @@
                <seg>Muchas gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u27" ana="#chair">
                <seg>Muchas gracias, señora Montserrat.</seg>
                <seg>Despedimos con agradecimiento a los comisionados del Parlament de Catalunya.</seg>
                <pb n="22"/>
@@ -299,7 +297,7 @@
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO SOCIALISTA, DE REFORMA DE LA LEY DE 18 DE JUNIO DE 1870 ESTABLECIENDO REGLAS PARA EL EJERCICIO DE LA GRACIA DE INDULTO.</head>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u28" ana="#chair">
                <seg>Proposición de ley del Grupo Socialista, de reforma de la Ley de 18 de junio de 1870 estableciendo reglas para el ejercicio de la gracia de indulto. Para su defensa, tiene la palabra el señor Echávarri.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u29"
@@ -718,7 +716,7 @@
                   <pb n="40"/> Señorías, estamos en plena campaña electoral y los vecinos y vecinas de nuestros pueblos y ciudades no necesitan que les digamos en qué situación se encuentran, porque la sufren en sus propias carnes. Nadie puede creerse la recuperación económica del Partido Popular, salvo los que no han estado nunca en crisis. Las políticas neoliberales y de recortes del Gobierno han dejado un panorama desolador para millones de hogares en los que ninguno de sus miembros tiene trabajo y para cientos de miles, en el conjunto del Estado, que no cuentan con ningún tipo de ingreso. La situación de desigualdad, vulnerabilidad, precariedad y exclusión ha aumentado de manera tan alarmante en estos más de siete años de crisis que hoy más que nunca se hace imprescindible una red de servicios sociales de proximidad capaz de garantizar la supervivencia y la dignidad de millones de personas que se encuentran en situación de pobreza y en riesgo de exclusión social, y que afecta mayoritariamente a niños y niñas y a mujeres. Son los ayuntamientos las administraciones más cercanas y preparadas para hacer frente a esta situación de emergencia social y la reforma local del Grupo Popular se torna en un muro de contención que les impide su desarrollo competencial para proteger a estas personas. De eso es de lo que estamos hablando hoy.</seg>
                <seg>No en vano esta ley ya se está demostrando como uno de los instrumentos más potentes a nivel ideológico del Partido Popular, porque sabemos cuáles son sus oscuras intenciones. Son las de sustituir un sistema público de protección social basado en derechos de ciudadanía que tengan en cuenta la dignidad y el respeto a las personas por un sistema basado en el trasvase de lo público a lo privado y en la beneficencia social. No necesitamos esperar a diciembre y al desarrollo competencial definitivo para constatar cómo en los ayuntamientos donde gobierna el Partido Popular ya se ha ido eliminando la red de asistencia y protección social, sustituyéndose por una deficiente prestación de tipo benéfico-asistencial. Por tanto, es urgente no solo que se devuelva a las entidades locales las competencias plenas que les permitan mantener, consolidar y potenciar todos los programas, las prestaciones y los servicios que han desarrollado los últimos treinta años en servicios sociales...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u92" ana="#chair">
                <seg>Señora De las Heras, tiene usted que ir terminando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u93"
@@ -729,7 +727,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u94" ana="#chair">
                <seg>Gracias, señora de las Heras.</seg>
                <seg>En turno de fijación de posiciones, en primer lugar, la señora Pérez Fernández.</seg>
             </u>
@@ -741,7 +739,7 @@
                <seg>En el caso de Galiza, sus 315 ayuntamientos tenían una deuda en el momento de la aprobación de la ley bastante menor que la del Ayuntamiento de Madrid en solitario. Por tanto, la ley no solo se basó en la homologación de todos los territorios sin tener en cuenta sus especificidades, sino que lo hizo invadiendo las competencias autonómicas, abriendo las puertas a la privatización de los servicios públicos locales y reforzando unas instituciones totalmente anacrónicas, las diputaciones provinciales; sin embargo, el principal y más grave problema de las entidades locales no se ha tocado y sigue sin resolverse. Hablamos de la financiación local, que no garantiza la suficiencia de los recursos económicos a los ayuntamientos ni la prestación de los servicios públicos básicos; como consecuencia, devalúa la calidad de esos servicios y agrava aún más la situación de las personas más vulnerables y necesitadas. Aquí, en este ámbito, en el de las políticas sociales llevadas a cabo por los municipios, es en el que la ley ha sido más dura y ha llevado al absurdo el principio de estabilidad. En este caso la reducción del gasto quiere conseguirse a<pb n="41"/> cuenta de suprimir unos servicios que venían prestando eficazmente los ayuntamientos, unos servicios vitales<note>teleasistencia, ayuda a domicilio, etcétera</note> para millones de personas; en definitiva, servicios profesionales que informan, valoran y atienden a las personas. El último informe del Consejo General de Trabajo Social habla con claridad del desmantelamiento de un sistema de servicios sociales que se ha consolidado como municipal no por capricho sino por razones de eficiencia derivadas de la proximidad, la complejidad y la eficacia.</seg>
                <seg>Señorías -voy acabando, señor presidente-, esta ley y su ataque a los servicios sociales municipales producirá una desatención generalizada en los ámbitos más rurales y de mayor dispersión de la población, como es el caso de la mayoría de los ayuntamientos de Galiza, donde los concellos son el gran dique de contención contra el aumento del empobrecimiento, la exclusión y la marginación social.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u96" ana="#chair">
                <seg>Señora Pérez, tiene que acabar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u97"
@@ -751,7 +749,7 @@
                <seg>Señorías, la atención social en la proximidad de lo local supone el 0,5 % del PIB, y es más eficaz y eficiente precisamente por la cercanía al ciudadano y por sus problemas. Por todo esto, entendemos que esta ley no tiene otra salida que su derogación o la declaración de su inconstitucionalidad. En este sentido, la propuesta de una modificación legislativa nos parece insuficiente, aunque va en la vía de lo que nosotros también defendemos. Por eso votaremos a favor.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u98" ana="#chair">
                <seg>Gracias, señora Pérez.</seg>
                <seg>Señor Baldoví.</seg>
             </u>
@@ -764,7 +762,7 @@
                <seg>Votaremos a favor de esta propuesta, como ya hicimos en su momento, firmando el compromiso de derogar esta ley en cuanto la aritmética de este Parlamento cambie.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u100" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Señora Jordà.</seg>
             </u>
@@ -775,7 +773,7 @@
                <seg>Con la reforma de la Ley reguladora de las bases del régimen local, el Estado centralista que el Partido Popular representa se sitúa en una posición de absoluta tutela de la Administración Local. Esquerra Republicana se opuso ya a su aprobación, y lo hizo no solo porque arrebataba a las entidades locales las competencias en materia de prestación de los servicios sociales de promoción y de reinserción social, que no es poco, sino también porque es una ley que ataca a la autonomía local, que no resuelve el problema de financiación de las entidades locales, que recorta en democracia, que aleja del poder a la ciudadanía, favoreciendo que las competencias sean asumidas por unas entidades, las diputaciones provinciales, que hace mucho que deberían haber desaparecido, y que vulnera las legítimas competencias exclusivas de la Generalitat de Catalunya en materia de régimen local, no teniendo en cuenta -termino, señor presidente- las singularidades de Cataluña respecto al mundo local.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u102" ana="#chair">
                <seg>Muchas gracias, señora Jordà.</seg>
                <seg>Por el Grupo Vasco, PNV, tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -788,7 +786,7 @@
                <seg>En este contexto sería razonable que se establecieran convenios interinstitucionales para que dicha prestación pueda ser ofrecida por aquellas instituciones que demandan los ciudadanos y que habitualmente son -como les decía- los ayuntamientos. Además, no se puede perder -también por razones de economía- ni la experiencia acumulada ni la información disponible, y mucho menos los empleos locales destinados a satisfacer las prestaciones sociales objeto de esta proposición no de ley. Estando, pues, básicamente de acuerdo con la filosofía de la iniciativa, nuestro grupo parlamentario va a abstenerse a la hora de votarla. El motivo es fácil de entender. Al igual que hacemos al votar iniciativas de carácter tributario, argumentando que, merced al concierto económico, en Euskadi disponemos de capacidad normativa en la materia, en este caso, en el de la Ley 27/2013, de 27 de diciembre, en el artículo 34 se modifica la disposición adicional segunda de la Ley 7/1985, de 2 de abril, reguladora de las bases de régimen local relativa al régimen foral vasco. En virtud de dicha disposición, y si las instituciones públicas de Euskadi competentes en la materia así lo deciden, podrán establecer los repartos competenciales, las tareas y los recursos que de ellos se deriven; por supuesto, en el ámbito de la Comunidad Autónoma de Euskadi o de cualquiera de sus territorios históricos. De ahí nuestra abstención, por el respeto estricto a los ámbitos competenciales.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u104" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -802,7 +800,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u106" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u106" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió tiene la palabra el señor Páramo.</seg>
             </u>
@@ -815,7 +813,7 @@
                <seg>Los ayuntamientos -mal financiados por el Estado- han desarrollado servicios, a pesar de ello, en muchísimas de nuestras ciudades y pueblos creando una tupida malla social que ha acompañado a las familias con especiales dificultades. Por tanto, debemos evitar pasar a una ley que quita competencias a los ayuntamientos para pasarlas a las autonomías, en una situación en la que si esta Administración quiere delegar los servicios sociales -por creer que desde la proximidad se puede gestionar mejor- debe asumir desde sus presupuestos la financiación de esos servicios -todo a beneficio de las arcas del Estado central-: no financiará a los municipios, no financiará a las comunidades autónomas y el perjudicado será el ciudadano. Así, si se aplica esta previsión legal nos llevará a partir del próximo mes de enero a un escenario de incapacidad de las comunidades autónomas para financiar los servicios sociales hoy existentes en asuntos tan importantes como es la atención domiciliaria, atención a la infancia en situación vulnerable, atención a las personas mayores o atención a las personas en situación de drogodependencia. Los cálculos que está haciendo la Generalitat de Catalunya es que hoy el gasto de los municipios tan solo en Cataluña puede superar los 200 millones de euros, recursos que son gestionados por ayuntamientos, y que si las comunidades autónomas deben financiar estos recursos y no tienen recursos para ello, los ayuntamientos no van a recibir dinero, nos veremos abocados a una situación absolutamente insostenible, la cual por la dureza que establece respecto al cumplimiento de sus preceptos conlleva de manera inevitable al cierre de los mismos.<pb n="44"/> Señorías, en el anterior debate hemos denunciado la política de la imposición y volvemos a lo mismo. La proposición no de ley del Grupo Catalán de mayo de 2014 y la presente proposición no de ley es una llamada a ustedes a hacer valer frente al señor Montoro y su equipo a reconsiderar su posición. El Tribunal de Cuentas y el propio ministro lo reconocen: los ayuntamientos han superado con creces su capacidad para gestionar bien y con eficacia sus competencias actuales, sin problemas económicos y, en consecuencia, no hay justificación para mantener en este momento la Larsal. Señorías del grupo mayoritario, desde Convergència i Unió les pedimos que dejen de martirizar a los ciudadanos con sus experimentos y que dejen de martirizar a los ayuntamientos con la amenaza de la imposición de esta ley. Una pesada losa que amenaza a miles de ciudadanos y miles de futuros concejales, alcaldes y alcaldesas que a partir del 24 de mayo deben asumir la responsabilidad de proveer los servicios que prestan a sus conciudadanos con eficacia y eficiencia, como hasta ahora han hecho la mayoría de los más de 8.000 municipios del Estado.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u108" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u108" ana="#chair">
                <seg>Muchas gracias, señor Pàramo.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Matarí.</seg>
             </u>
@@ -828,7 +826,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u110" ana="#chair">
                <seg>Muchas gracias, señor Matarí.</seg>
                <seg>Señora Carcedo, ¿con respecto a la enmienda que les presenta Izquierda Plural?</seg>
             </u>
@@ -838,13 +836,13 @@
                <seg>Sí, señor presidente.</seg>
                <seg>Hemos acordado una enmienda transaccional que está a disposición de los servicios de la Cámara y que incluye un punto 2 sobre la reposición de los recortes en el plan concertado de servicios sociales.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u112" ana="#chair">
                <seg>Muy bien, señora Carcedo. Así se votará.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO MIXTO, SEÑOR TARDÀ, SOBRE LOS ACTOS DE CONMEMORACIÓN DEL SETENTA ANIVERSARIO DE LA AUTOLIBERACIÓN DEL CAMPO DE EXTERMINIO DE MAUTHAUSEN, DONDE FUERON ASESINADOS MÁS DE SIETE MIL REPUBLICANOS DEL ESTADO ESPAÑOL, Y OTROS CAMPOS, ASÍ COMO DEL FIN DE LA SEGUNDA GUERRA MUNDIAL.</head>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u113" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u113" ana="#chair">
                <seg>Antes de entrar en votaciones y de ver las mociones, quiero decir para su conocimiento que, según hemos acordado en la Junta de Portavoces, hoy veremos dos mociones.</seg>
                <seg>Primera moción, del señor Tardà, sobre los actos de conmemoración del setenta aniversario de la autoliberación del campo de exterminio de Mauthausen, donde fueron asesinados más de 7.000 republicanos del Estado español y otros campos, así como del fin de la Segunda Guerra Mundial.</seg>
                <seg>Tiene la palabra el señor Tardà.</seg>
@@ -862,7 +860,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u115" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u115" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Como ha dicho el señor Tardà, han sido presentadas dos enmiendas a esta moción. En primer lugar, por el Grupo Socialista, tiene la palabra el señor Torres Mora para defender su enmienda.</seg>
                <pb n="47"/>
@@ -877,7 +875,7 @@
                <note>Prolongados aplausos</note>
                <pb n="48"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u117" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u117" ana="#chair">
                <seg>Muchas gracias, señor Torres Mora.</seg>
                <seg>Para defender la enmienda que ha presentado el Grupo Popular tiene la palabra el señor García Hernández.</seg>
             </u>
@@ -891,7 +889,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u119" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u119" ana="#chair">
                <seg>Muchas gracias, señor García Hernández.</seg>
                <seg>En turno de fijación de posiciones, en primer lugar, por el Grupo Vasco, PNV, tiene la palabra el señor Esteban.</seg>
             </u>
@@ -905,7 +903,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u121" ana="#chair">
                <seg>Muchas gracias, señor Esteban.</seg>
                <seg>Por Unión Progreso y Democracia tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -917,7 +915,7 @@
                <seg>Yendo a la parte político-constitucional, esta idea, que cuenta con el apoyo de algunos grupos -grupos que, por cierto, siempre están muy de acuerdo en determinados ejercicios de memoria histórica y en otros apoyan la amnesia, y eso me parece mal, porque cuando hablamos de víctimas de genocidios hay que hablar de todas ellas y no en función de sus ideas- de que el jefe del Estado en representación de España tiene que proceder a pedir permiso a las víctimas españolas de un exterminio nazi que fue efectivamente acordado con los responsables del régimen franquista parece que incluye la idea de que los republicanos que fueron a los campos de exterminio nazi no eran españoles. Pues lo eran. Le recomiendo fervientemente que vea -seguro que le interesa mucho- un documental que tiene a su disposición sobre el discurso de despedida de Dolores Ibárruri a las Brigadas Internacionales en Barcelona en 1938. Repite una y otra vez a los brigadistas internacionales que ellos han ido a luchar a España por los españoles, no por una tribu distinta, por una etnia diferente o por extraños colectivos sociales. Había una enorme conciencia entre todos los republicanos de que tenían un proyecto de España que evidentemente quiso exterminar Franco. Pero es que Felipe VI, el jefe del Estado actual, no es el heredero ideológico y, por tanto, el que conlleva las culpas de Franco. Esto es un intento de deslegitimación partidista, sectario, del régimen constitucional actual aprovechando la historia de Mauthausen y la terrible tragedia de los miles de republicanos españoles que fueron masacrados en los campos nazis. ¿Qué quiere que le diga? Me llama la atención que no se les haya pasado por la cabeza que Jorge Semprún -por poner un ejemplo de un español republicano que estuvo en Dachau, que sufrió todo esto y luego lo testimonió en su libro casi póstumo La escritura o la vida- nunca<pb n="51"/> pidió que le pidiera perdón el jefe del Estado en nombre de nadie. ¿Por qué? Porque él era español y fue perseguido por los nazis como español republicano, pero no hacía diferencias desde el punto de vista político ni creía que los españoles le tenían que pedir perdón a él o a los demás que acabaron en los campos nazis. Por eso, la orientación de esto me parece francamente equivocada. Me molesta tener que decirle esto, pero me parece sectaria. Me parece que adultera el debate sobre lo que pasó en los campos nazis. Me parece que no puede ni debe hacerse política de partido con una cuestión así. Esto también incurre en uno de los peores rasgos del totalitarismo que explicó brillantemente Hannah Arendt en otro libro importante sobre el proceso Eichmann, Eichmann en Jerusalén, cuando hablaba de que lo que precisamente caracteriza al totalitarismo es la banalización del mal, no querer reconocer que el mal existe y que lo han puesto en práctica ellos y, por tanto, todo son cuestiones jurídico-políticas que se pueden utilizar de una manera o de otra. No, estamos hablando de algo que es sagrado porque no se puede tocar, y no se puede tocar porque estamos hablando de la máxima inhumanidad, la que ni se puede explicar ni se puede comprender ni se puede perdonar. Hacer política de partido con esto me parece que es algo francamente impresentable, incalificable. Le animo a que intente llegar a una transaccional para que se pueda recuperar el espíritu de la Comisión Constitucional y aprobar todos por unanimidad algo que, si no se puede aprobar por unanimidad, es porque se está buscando que no la haya.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u123" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo Parlamentario de La Izquierda Plural, tiene la palabra el señor Centella.</seg>
             </u>
@@ -934,7 +932,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u125" ana="#chair">
                <seg>Muchas gracias, señor Centella.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió, tiene la palabra el señor Xuclà.</seg>
             </u>
@@ -952,7 +950,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u127" ana="#chair">
                <seg>Muchas gracias, señor Xuclà.</seg>
                <seg>Señor Tardà, aunque usted lo ha manifestado, pero para darle carácter oficial, ¿qué hace usted con las enmiendas?</seg>
             </u>
@@ -962,12 +960,12 @@
                <seg>Señor presidente, desearíamos que se votara en los términos en que ha sido presentada la moción y, si cabe decirlo, aceptamos la propuesta que ha planteado el diputado Centella.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u129" ana="#chair">
                <seg>Muy bien. Así se hará, señor Tardà.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO SOCIALISTA, AL MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS SOBRE SU POSICIÓN EN MATERIA DE ACTUACIONES PARA EVITAR LA CONFUSIÓN Y EL CONFLICTO ENTRE INTERESES PÚBLICOS Y PRIVADOS.</seg>
                <note>Número de expediente 173/000211</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u130" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u130" ana="#chair">
                <seg>Moción del Grupo Socialista al ministro de Hacienda y Administraciones Públicas, sobre su posición en materia de actuaciones para evitar la confusión y el conflicto entre intereses públicos y privados. Para la defensa de la moción, tiene la palabra la señora Rodríguez Ramos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u131"
@@ -980,7 +978,7 @@
                <seg>A continuación también conocimos la situación de la actividad privada del señor Conde. El señor Conde dijo que era legal porque había obtenido una autorización de la Comisión del Estatuto del Diputado para administrar de forma única la asesoría legal Conde y Esteban y para ejercer de abogado sin relación directa con el sector público. Para eso obtuvo la autorización de la Comisión del Estatuto del Diputado, pero esta llevaba una mención expresa de que no incurriría en el artículo 159.2, que prohíbe expresamente -señor Conde- ejercer funciones de presidente de un consejo de administración, consejero administrador, director general, gerente o equivalente de entidades de crédito o aseguradores o cualesquiera sociedades o entidades que tengan un objeto fundamentalmente financiero. Señor Conde, no ha dado ninguna explicación sobre lo que hemos conocido con escándalo de que usted es representante legal de la filial inmobiliaria del Banco Santander, Altamira Real State, asesor de esta entidad de crédito, apoderado de la sociedad Santander de Titulización Sociedad Gestora de Fondos y administrador único de una empresa energética, que usted consideró que no tenía que declarar. Señorías, esto es ilegal; esto es ilegal, si es cierto. Si un miembro de esta Cámara está ejerciendo estas funciones, es ilegal. La pregunta que debemos hacernos todos nosotros es: ¿y qué podemos hacer? ¿Cómo actúa la Comisión del Estatuto del Diputado cuando obteniendo una autorización se han ocultado datos, se han falseado o de forma clara y flagrante se está incumpliendo el apartado 2 del artículo 159 de la Ley Orgánica del Régimen Electoral General, que es la que regula las incompatibilidades de senadores y diputados.</seg>
                <seg>La Comisión del Estatuto puede hacer algo, de momento puede reunirse e investigar la veracidad de estos datos, cosa que ha solicitado mi grupo, que junto con el Grupo Parlamentario Mixto ha pedido que se convoque, porque no lo hace, pero en realidad tiene pocas competencias para actuar. Entendemos que la Comisión del Estatuto del Diputado y este Pleno deben actuar cuando se burle la ley. Por eso, señorías, en la moción que hoy traemos a votación pedimos dos cosas: primero, que desde luego se restrinja el régimen de compatibilidades y que solamente se puedan ejercer las funciones de diputado y senador y compatibilizarlas con actividades intelectuales de creación literaria, con actividades como representantes de un partido político, de la dirección de un sindicato, de participación en tertulias sin cobrar un solo euro. Y se acabó, ya no hay más excepciones porque se han burlado en demasía. En segundo lugar, que la Comisión del Estatuto del Diputado tenga verdaderas competencias para poder investigar la veracidad de los datos que se están aportando cuando se pide autorización solo para estas actividades de creación literaria y las que he citado sin remunerar. En tercer lugar, que pueda hacer una instrucción y plantear al Congreso de los Diputados las sanciones correspondientes cuando se incurra en ocultación, falseamiento o incumplimiento flagrante de esta ley. Señorías, también debemos exigir al Gobierno...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u132" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u132" ana="#chair">
                <seg>Señora Rodríguez, debe usted acabar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u133"
@@ -989,7 +987,7 @@
                <seg>Voy terminando, presidente.</seg>
                <seg>Debemos instar al Gobierno a que cumpla la Ley de Transparencia. Señorías, se aprobó la Ley de Transparencia a la que el Gobierno continuamente apela en sus discursos cuando habla de regeneración democrática y no se ha aplicado a los altos cargos que han sido nombrados antes de la publicación de la<pb n="55"/> Ley de Transparencia. Cuando se pide que se publiquen los datos fiscales de los altos cargos es para poder comparar esos mismos datos cuando salgan del Gobierno, pero el Gobierno que les nombró antes de 2013 de forma clara y con actitud obstruccionista está impidiendo que conozcamos las declaraciones de bienes e intereses de los altos cargos. Para lo único que ha servido la Ley de Transparencia es para que algunos blanqueen su currículo y, por ejemplo, la subsecretaria del Ministerio de Economía haya borrado del portal de transparencia que también perteneció a Montoro y Asociados.<note>Rumores</note> Finalmente, señorías, hemos presentado una enmienda a nuestra moción en la que pedimos que se destituya de forma inmediata al embajador representante de España ante el Reino Unido por haber sido pillado en una actuación claramente ilegal, asesorando a una empresa que está siendo investigada y que se encuentra incursa en una trama de corrupción...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u134" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u134" ana="#chair">
                <seg>Señora Rodríguez, como le pasa habitualmente, tiene que acabar. Me doy cuenta de que será interesante lo que esta diciendo, pero tiene que acabar.</seg>
                <note>Protestas</note>
             </u>
@@ -1000,7 +998,7 @@
                <seg>Aparte de esto les decía que hemos presentado una enmienda, que no les gusta, en la que instamos al Gobierno a que adopte las medidas oportunas para que el señor Alfonso Rus no pueda permanecer en el cargo público de presidente de la Diputación de Valencia...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u136" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u136" ana="#chair">
                <seg>Señora Rodríguez Ramos, ha presentado usted una autoenmienda que es aceptada por usted, evidentemente, y que conocen todos los diputados. No puede seguir; debe terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u137"
@@ -1008,7 +1006,7 @@
                ana="#regular">
                <seg>Termino. No se pongan nerviosos cuando hablo del señor Rus.<note>Protestas</note> Les digo: el señor Rus no puede permanecer en...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u138" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u138" ana="#chair">
                <seg>Señora Rodríguez, parece mentira que usted, que ha sido portavoz, no haya aprendido más del funcionamiento del Congreso. Le tengo que quitar la palabra porque se ha pasado cuatro minutos. Deje la tribuna porque ya no puede seguir, señora Rodríguez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u139"
@@ -1017,7 +1015,7 @@
                <seg>Me hubiera gustado, señor presidente, que hubiera tenido conmigo la misma benevolencia con el tiempo que la que ha tenido con los intervinientes de la anterior moción.</seg>
                <note>El señor Matarí Sáez: ¡Eso es mentira, mentira!-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u140" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u140" ana="#chair">
                <seg>Señora Rodríguez, se ha excedido usted tres veces más que cualquiera de los que han intervenido esta tarde, así que debe usted bajarse de la tribuna. Finalice despidiéndose, adiós.</seg>
                <note>Aplausos</note>
             </u>
@@ -1027,7 +1025,7 @@
                <seg>Les pido -fíjense cómo se ponen- a todos ustedes, pero especialmente a los diputados del Grupo Popular, que voten a favor esta moción, y cuando ustedes dicen que tienen tanta indignación...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u142" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u142" ana="#chair">
                <seg>Señora Rodríguez, se tiene usted que bajar y siento que se vaya así pero es que se ha empeñado usted. Abandone la tribuna.<note>Un señor diputado: ¡Vaya papelón!</note> Parece ser que no se han presentado más enmiendas que la autoenmienda, que queda aceptada, por supuesto.</seg>
                <seg>Por el Grupo Vasco<note>PNV</note> , tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -1038,7 +1036,7 @@
                <seg>La moción que hoy debatimos, a pesar de la hora que es, es de enorme actualidad e interés y lo es desgraciadamente porque cada día conocemos nuevos casos de corrupción y comportamientos irregulares o poco éticos por parte de muchos responsables políticos, de demasiados responsables políticos, comportamientos inaceptables que requieren medidas ejemplares y contundentes que no alberguen ninguna duda sobre la voluntad de los políticos y de los grupos parlamentarios para evitar las corruptelas y las malas prácticas. Los ciudadanos, que son los que nos votan, lo exigen y además así debe ser. A mí me resultaría imposible votar a un candidato implicado en irregularidades o corrupciones. Por ello, como propone el Grupo Socialista, modifiquemos las normas que sean precisas. Este es el lugar apropiado para ello, establezcamos claramente las incompatibilidades, teniendo en cuenta un principio fundamental, la no obligatoriedad de ser diputado o diputada; a nadie le obligan a ello. Si uno tiene la suerte de que se lo<pb n="56"/> propongan y acepta, me atrevería a decir que la incompatibilidad debería ser total, incompatibilidad total, dedicación total a la actividad parlamentaria y así libertad total para defender sin hipotecas los intereses generales de los ciudadanos. Sé que ello puede resultar excesivo o ingenuo por mi parte pero es lo que pienso y lo que piensa mi grupo parlamentario. Ahora bien, si no es factible ir tan lejos, parece una aproximación razonable la que propone hoy el Grupo Socialista en el apartado primero. Por supuesto que la Comisión del Estatuto de los Diputados debe tener también plena capacidad para trabajar, investigar y tomar decisiones oportunas en relación con las actividades de los diputados y diputadas de esta Cámara, al igual que debería tenerlo la Comisión homóloga del Senado. Es también obligada la transparencia absoluta de los bienes y patrimonios de los altos cargos de la Administración. No podemos ni debemos dejar sombras ni dudas en relación con la transparencia y la necesidad de controlar y exigir comportamientos ejemplares de los políticos y altos cargos de la Administración General del Estado y de las Cortes Generales.</seg>
                <seg>La ética en política debe ser la guía en los discursos, sí, pero sobre todo debe serlo en los comportamientos. Y, por ello, es más que cuestionable y criticable el comportamiento cuando era diputado del actual embajador en el Reino Unido. Que el Gobierno tomara medidas al respecto nos ofrecería a todos una señal positiva que los ciudadanos esperan del Grupo Popular y del Partido Popular, después de tantos ejemplos negativos que nos han dado muchas personas que militan bajo sus siglas y que se aprovechan de ellas para enriquecerse ilegítimamente. Por todo ello votaremos sí a la moción presentada por el Grupo Socialista.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u144" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u144" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia, señor Martínez Gorriarán.</seg>
             </u>
@@ -1050,7 +1048,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u146" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u146" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo de Izquierda Plural, el señor Centella.</seg>
             </u>
@@ -1063,7 +1061,7 @@
                <seg>La moción que se nos presenta viene a resolver algunos elementos que, repito, deberían estar resueltos hace muchos años. También es verdad que cuando plantea una moción así un grupo que ha estado tanto tiempo en el Gobierno uno le puede decir que a buenas horas mangas verdes, pero nunca es tarde si la dicha llega. Por lo tanto, estamos de acuerdo en votar favorablemente esta propuesta. Es verdad que podríamos haber propuesto un añadido, pero no lo hemos hecho para no alargar más el debate y no enturbiarlo. Podíamos haber propuesto que añadieran a los expresidentes y con eso poner el dedo en la llaga sobre quien, como es expresidente, mezcla lo público con lo privado. Con ese elemento podrían haber hecho un ejercicio de autocrítica que también les viene bien de vez en cuando. Es evidente que cuando se es expresidente se mezcla lo público con lo privado, y eso debería acabar. Ese es el único añadido que podríamos haber propuesto a lo largo del debate, pero, como les decía, es una propuesta oportuna. También es oportuno señalar que, como se ha demostrado, quien hoy ejerce de embajador en el Reino Unido mezcló lo público con lo privado y ante eso el Gobierno debería reaccionar. Nosotros vamos a votar la iniciativa tal y como se plantea aunque no sin decir que el Partido Socialista sigue mirando hacia el frente pero alguna vez tendrá que mirar hacia dentro y de una vez por todas acabar con esa situación de los expresidentes, que sigue siendo bochornosa para muchos españoles porque siguen mezclando lo público con lo privado. Dicho esto, repito que votaremos a favor de la propuesta que se nos presenta.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u148" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u148" ana="#chair">
                <seg>Muchas gracias, señor Centella.</seg>
                <seg>Por el Grupo Catalán<note>Convergència i Unió</note> , tiene la palabra la señora Surroca.</seg>
             </u>
@@ -1075,7 +1073,7 @@
                <seg>¿Qué pretende exactamente esta moción?</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u150" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u150" ana="#chair">
                <seg>Perdone un momento, señora diputada.</seg>
                <seg>Por favor, ruego silencio.</seg>
                <seg>Continúe.</seg>
@@ -1088,7 +1086,7 @@
                <seg>¿Cómo nos posicionamos desde Convergència i Unió? Ya lo hemos dicho; nosotros no haremos una batalla electoral de esta cuestión. ¿Por qué? Porque entendemos que es un tema esencial para nuestro sistema democrático. Estamos hablando de la representación de los ciudadanos y de qué modelo queremos para nuestro sistema democrático, qué sistema queremos. Vayamos a algunas de las cuestiones concretas que ustedes plantean. En cuanto al régimen de incompatibilidades, ¿qué vamos a hacer? Nosotros nos vamos a mantener fieles a los trabajos de la ponencia y al proyecto que se está tramitando en el Parlament de Catalunya, una proposición de ley de régimen electoral para Cataluña. Ahí también se establece un régimen de incompatibilidades para los diputados muy similar al que recoge la Ley Orgánica de Régimen Electoral General. Por cierto, el Partido Socialista de Cataluña no ha dicho nada al respecto, en ningún momento ha defendido lo que hoy están presentando ustedes aquí.</seg>
                <seg>Si analizamos cuál es el marco actual de nuestro sistema de incompatibilidades, veremos que es muy parecido a lo que establecen otros países de nuestro entorno, por ejemplo, Alemania. En Alemania, el código de conducta del Bundestag establece un sistema de incompatibilidades muy similar al previsto en la Ley Orgánica de Régimen Electoral General. De Francia, Bélgica, Portugal e Italia les puedo decir exactamente lo mismo; tienen previsto un sistema de incompatibilidades muy similar al nuestro. Por lo que se refiere a la prevención de los conflictos de intereses de los miembros del Gobierno y altos cargos de la Administración General del Estado, decía que hace pocas semanas aprobamos una ley que va en esa dirección; nuestro grupo parlamentario dio su voto favorable a ese proyecto de ley. Por lo tanto, para ser coherentes, entendemos que tenemos que esperar un tiempo prudencial, adecuado, para poder valorar el buen funcionamiento o no de esa ley. En todo caso, tendremos que actuar después, pero no antes. En definitiva, entendemos que esta es una iniciativa de aparador, electoralista, simplista, que ni siquiera el propio Grupo Socialista es capaz de cumplir porque ustedes han aprobado un código ético que precisamente va en esa línea de establecer un régimen de compatibilidades muy restringido y, de hecho, nos tendrían que explicar si realmente lo están cumpliendo.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u152" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u152" ana="#chair">
                <seg>Señora Surroca, debe usted terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u153"
@@ -1098,7 +1096,7 @@
                <seg>Tendrían que explicarnos si lo están cumpliendo, pero creo que tampoco es el caso. En definitiva, nuestro grupo parlamentario no puede apoyar esta iniciativa y anuncio que vamos a abstenernos.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u154" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u154" ana="#chair">
                <seg>Muchas gracias, señora Surroca.</seg>
                <seg>Por el Grupo Popular, tiene la palabra don Rafael Merino.</seg>
             </u>
@@ -1112,7 +1110,7 @@
                <seg>Esta moción, instada por el señor Sánchez en nombre de su partido, es la mayor demostración de cinismo, hipocresía, incoherencia y oportunismo político. En la moción lo mezclan todo en una búsqueda desesperada por el voto. Han provocado, señorías, sentencias de telediarios de compañeros de la bancada del Grupo Popular; han provocado sentencias de telediario, pero hoy ustedes tendrán que reflexionar, a la vista de las informaciones que salen, si esas propias sentencias de telediario que ustedes hoy han pretendido hacer con compañeros del Grupo Popular no se las deben aplicar ustedes mismos porque, señorías, ustedes siempre miran enfrente pero nunca miran sus escaños, nunca miran sus escaños. No voy a dar nombres, señorías, porque tengo respeto a todos los diputados.<note>Protestas</note> ¿Sabe una cosa, señoría? Yo creo en la democracia y en la justicia; yo no hago como usted, señora<note>La señora Rodríguez Ramos: Señoría</note> Usted denuncia, condena, juzga. Eso es lo que usted ha hecho hoy aquí. Mire usted, el embajador Trillo ha cumplido con las normas de este Parlamento, cosa que no han hecho compañeros suyos; el embajador Trillo pidió la compatibilidad y ejerció sus actividades legalmente, como han hecho otros compañeros de este grupo parlamentario. Señor Sánchez y señores del Grupo Socialista, ustedes están pidiendo responsabilidades por actuaciones previas a diciembre de 2014. ¿Están ustedes y sus compañeros de legislaturas anteriores en condiciones de comparecer en la Comisión del Estatuto del Diputado para dar explicaciones?<note>Varios señores diputados: Sí, sí</note> ¿Está usted, señora Rodríguez, en condiciones, como exsecretaria de Estado, de decir y mantener que todas las subvenciones que usted dio como secretaria de Estado era dinero público que usted sabía a quién daba y para qué lo daba?<note>Protestas.-Un señor diputado: ¿Qué está diciendo?</note> ¿Usted lo sabe, señora Rodríguez?<note>Protestas</note> No se pongan nerviosos, no se pongan nerviosos...</seg>
                <note>Protestas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u156" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u156" ana="#chair">
                <seg>Vamos a ver.<note>Protestas.-La señora Rodríguez Ramos pide la palabra</note> Silencio. La señora Rodríguez tendrá su turno cuando llegue el momento. Señor Merino, se ha pasado usted un minuto, tiene que acabar en treinta segundos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u157"
@@ -1121,7 +1119,7 @@
                <seg>Termino, señor presidente.<note>Rumores</note> Su nerviosismo les delata, señorías; su nerviosismo les delata.</seg>
                <seg>Señorías, les pido, por favor, que sean un poco más responsables. No hagan el juego a aquellos que están pretendiendo acabar con el régimen que todos nos dimos en el año 1978 ni a aquellos otros que dicen que los nacidos antes de 1978 no sirven, porque esta moción que ustedes han presentado hoy simplemente les ayuda a ellos y no a la democracia. Lo que ustedes han planteado hoy es un atentado contra la democracia, señorías.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u158" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u158" ana="#chair">
                <seg>Señor Merino, tiene usted que terminar inmediatamente.</seg>
                <pb n="60"/>
             </u>
@@ -1133,7 +1131,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u160" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u160" ana="#chair">
                <seg>Gracias, señor Merino.</seg>
                <seg>Señora Rodríguez, tiene usted la palabra, pero exactamente para la alusión que se le ha hecho.</seg>
             </u>
@@ -1143,7 +1141,7 @@
                <seg>Sí, señor presidente. Muchas gracias.</seg>
                <seg>Con todo respeto, si el señor Merino no tiene argumentos para defender la actuación de los compañeros de escaño a los que me he referido, le pido, señor presidente, que suba de nuevo a la tribuna y que explique de forma clara a qué subvención en el ejercicio de mi cargo de exsecretaria de Estado de Cooperación se refería. Si no lo hace, señor Merino, me parece que lo que usted ha hecho en esa tribuna es una acusación absolutamente falsa. O sale a la tribuna, señor Merino, y dice exactamente qué subvención...<note>Protestas</note> Presidente, presidente...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u162" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u162" ana="#chair">
                <seg>Señora Rodríguez, su argumentación ha sido clara y está vista. Usted ha pedido al señor Merino que diga qué subvención. Ya lo ha hecho. Siéntese.</seg>
                <seg>Señor Merino, tiene usted la palabra para contestar a lo que le ha dicho la señora Rodríguez, no para hablar en general.</seg>
             </u>
@@ -1154,7 +1152,7 @@
                <seg>Señora Rodríguez, me parece que después de esta intervención va a seguir usted subiendo filas de su bancada.<note>Risas</note> Señora Rodríguez, yo no he hecho una afirmación. Usted es que ni escucha. Le he preguntado...</seg>
                <note>Protestas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u164" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u164" ana="#chair">
                <seg>Por favor, ruego silencio. Tiene un minuto el señor Merino para explicarse y luego yo sustanciaré el incidente. Señor Merino, hable, pero centrándose en el asunto.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u165"
@@ -1162,7 +1160,7 @@
                ana="#regular">
                <seg>Estoy centrado en el asunto.<note>Risas</note> Yo estoy centrado; la que veo que está descentrada es la señora Rodríguez.<note>Protestas</note> Señora Rodríguez, usted sí ha hecho afirmaciones de compañeros del Partido Popular.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u166" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u166" ana="#chair">
                <seg>Señor Merino, no tiene usted la palabra. No tiene usted la palabra porque no está contestando a lo que le han dicho. La señora Rodríguez le ha preguntado por un punto concreto y parece que usted está diciendo que no ha dicho nada en concreto, sino que le ha preguntado a ella si se siente responsable, lo cual queda como un incidente saldado.<note>Rumores.-El señor Conde Bajén pide la palabra</note> Señor Conde, a usted le ha dicho la señora Rodríguez una serie de temas. Tiene la palabra para contestar exactamente a lo que ha aludido la señora Rodríguez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u167"
@@ -1171,7 +1169,7 @@
                <seg>Señor presidente, gracias por recordarme el tenor literal del Reglamento. Pido la palabra porque, después de la intervención de la señora Rodríguez, no puedo dejar de tomar la palabra en este Pleno para decir que he cumplido y cumplo con mis obligaciones escrupulosamente<note>Rumores</note> , como he tenido ocasión de argumentar ante la Comisión del Estatuto del Diputado y tendré mucho gusto en hacer cuantas veces así se solicite. Afortunadamente, el honor de los diputados no depende de la actuación torticera de la más mediocre portavoz que el Grupo Socialista jamás ha tenido.</seg>
                <note>Aplausos.-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u168" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u168" ana="#chair">
                <seg>Vista la situación, en dos minutos vamos a votar.<note>Pausa</note> Señorías, vamos a proceder a las votaciones.<note>El señor Heredia Díaz pide la palabra</note> Señor Heredia.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u169"
@@ -1181,73 +1179,73 @@
                <seg>El Grupo Parlamentario Socialista solicita que las graves acusaciones y descalificaciones que se han vertido en el último debate<note>Rumores</note> no aparezcan en el 'Diario de Sesiones'.</seg>
                <pb n="61"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u170" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u170" ana="#chair">
                <seg>Señor Heredia, en efecto, tiene usted razón, sobre todo hay unas descalificaciones personales que no añaden nada al debate. Yo encargaré a los servicios de la Cámara que esas descalificaciones desaparezcan del debate.<note>Aplausos.-Protestas</note> Me refiero a todas las descalificaciones personales que se han vertido por unos y por otros. Las descalificaciones personales van a desaparecer<note>Rumores</note> Vamos ahora a votar.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY DE COMUNIDADES Y CIUDADES AUTÓNOMAS - DEL PARLAMENTO DE CATALUÑA, ORGÁNICA DE MODIFICACIÓN DE LA LEY ORGÁNICA DEL PODER JUDICIAL Y OTRAS NORMAS CONEXAS, EN MATERIA DE DERECHOS LINGÜÍSTICOS EN EL ÁMBITO DE LA JUSTICIA.</head>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u171" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u171" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Parlamento de Cataluña, orgánica de modificación de la Ley Orgánica del Poder Judicial y otras normas conexas, en materia de derechos lingüísticos en el ámbito de la justicia.</seg>
                <seg>Hay 2 votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 301 más 2 votos telemáticos, 303; a favor, 132; en contra, 169 más 2 votos telemáticos, 171.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u172" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u172" ana="#chair">
                <seg>No se toma en consideración.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO SOCIALISTA, DE REFORMA DE LA LEY DE 18 DE JUNIO DE 1870 ESTABLECIENDO REGLAS PARA EL EJERCICIO DE LA GRACIA DE INDULTO.</head>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u173" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u173" ana="#chair">
                <seg>Proposición de ley del Grupo Parlamentario Socialista, de reforma de la Ley de 18 de junio de 1870 estableciendo reglas para el ejercicio de la gracia de indulto.</seg>
                <seg>Hay 2 votos telemáticos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 301 más 2 votos telemáticos, 303; a favor, 134; en contra, 166 más 2 votos telemáticos, 168; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u174" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u174" ana="#chair">
                <seg>No se toma en consideración.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY - DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, RELATIVA A LA UTILIZACIÓN DE PLATAFORMAS Y SERVICIOS COMPARTIDOS EN LAS ADMINISTRACIONES PÚBLICAS.</head>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u175" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u175" ana="#chair">
                <seg>Proposición no de ley del Grupo Parlamentario Popular, relativa a la utilización de plataformas y servicios compartidos en las administraciones públicas.</seg>
                <seg>Se vota en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 297; a favor, 167; en contra, 127; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u176" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u176" ana="#chair">
                <seg>Queda aprobada.<pb n="62"/> - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LA DEVOLUCIÓN A LAS ENTIDADES LOCALES DE LAS COMPETENCIAS EN MATERIA DE PRESTACIÓN DE LOS SERVICIOS SOCIALES Y DE PROMOCIÓN Y REINSERCIÓN SOCIAL.</seg>
                <note>Número de expediente 162/001230</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u177" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u177" ana="#chair">
                <seg>Proposición no de ley del Grupo Parlamentario Socialista, sobre la devolución a las entidades locales de las competencias en materia de prestación de los servicios sociales y de promoción y reinserción social.</seg>
                <seg>Hay una enmienda presentada por Izquierda Unida y se ha llegado a una transaccional, que es la que vamos a votar.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 296; a favor, 127; en contra, 163; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u178" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u178" ana="#chair">
                <seg>Queda rechazada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO MIXTO , SOBRE LOS ACTOS DE CONMEMORACIÓN DEL SETENTA ANIVERSARIO DE LA AUTOLIBERACIÓN DEL CAMPO DE EXTERMINIO DE MAUTHAUSEN, DONDE FUERON ASESINADOS MÁS DE SIETE MIL REPUBLICANOS DEL ESTADO ESPAÑOL, Y OTROS CAMPOS, ASÍ COMO DEL FIN DE LA SEGUNDA GUERRA MUNDIAL.</head>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u179" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u179" ana="#chair">
                <seg>Moción del Grupo Parlamentario Mixto, señor Tardà, sobre los actos de conmemoración del 70.º aniversario de la autoliberación del campo de exterminio de Mauthausen, donde fueron asesinados más de 7.000 republicanos del Estado español, y otros campos, así como del fin de la Segunda Guerra Mundial. La vamos a votar en sus propios términos pero por puntos. En primer lugar, votamos los puntos 1 y 2.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 302; a favor, 38; en contra, 166; abstenciones, 98.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u180" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u180" ana="#chair">
                <seg>Quedan rechazados.</seg>
                <seg>Ahora votamos el punto 3 de la moción.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 301; a favor, 135; en contra, 166.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u181" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u181" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO SOCIALISTA, AL MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS SOBRE SU POSICIÓN EN MATERIA DE ACTUACIONES PARA EVITAR LA CONFUSIÓN Y EL CONFLICTO ENTRE INTERESES PÚBLICOS Y PRIVADOS.</seg>
                <note>Número de expediente 173/000211</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u182" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u182" ana="#chair">
                <seg>Moción del Grupo Socialista al ministro de Hacienda y Administraciones Públicas sobre su posición en materia de actuaciones para evitar la confusión y el conflicto entre intereses públicos y privados. Se vota en sus propios términos, con la autoenmienda que ha presentado el Grupo Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 302; a favor, 120; en contra, 167; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u183" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u183" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las nueve y treinta y cinco minutos de la noche.</seg>

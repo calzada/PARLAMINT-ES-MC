@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="183">183 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="183" xml:lang="es">183 speeches</measure>
+            <measure unit="speeches" quantity="183" xml:lang="en">183 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="52"/>
                <tagUsage gi="note" occurs="107"/>
                <tagUsage gi="u" occurs="183"/>
-               <tagUsage gi="lb" occurs="477"/>
+               <tagUsage gi="seg" occurs="477"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>PREGUNTAS - DEL DIPUTADO DON CAYO LARA MOYA, DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿QUÉ MEDIDAS ESTÁ ADOPTANDO EL GOBIERNO PARA RESOLVER LOS DISTINTOS CONFLICTOS LABORALES ABIERTOS EN NUESTRO PAÍS?</head>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Preguntas dirigidas al señor presidente del Gobierno.</seg>
                <seg>En primer lugar, pregunta don Cayo Lara, del Grupo de La Izquierda Plural.</seg>
@@ -110,7 +108,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>Señor Rajoy, ¿qué medidas está adoptando el Gobierno para resolver los distintos conflictos laborales abiertos en nuestro país?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u3" ana="#chair">
                <seg>Muchas gracias, señor Lara.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -122,7 +120,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u5" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Lara.</seg>
             </u>
@@ -135,7 +133,7 @@
                <seg>Gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u7" ana="#chair">
                <seg>Muchas gracias, señor Lara.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -146,12 +144,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u9" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON JOSEP SÁNCHEZ I LLIBRE, DEL GRUPO PARLAMENTARIO CATALÁN DE CONVERGÈNCIA I DE UNIÓ, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿CÓMO VALORA EL PRESIDENTE EL RESULTADO DE LAS ELECCIONES AL PARLAMENTO DE CATALUÑA CELEBRADAS EL 27 DE SEPTIEMBRE?</seg>
                <note>Número de expediente 180/001394</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u10" ana="#chair">
                <seg>Pregunta al señor presidente del Gobierno del diputado don Joseph Sánchez i Llibre, del Grupo Catalán de Convergència i de Unió.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u11"
@@ -160,7 +158,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor presidente del Gobierno, ¿cómo valora los resultados de las elecciones del pasado 27 de septiembre?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u12" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -171,7 +169,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u14" ana="#chair">
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Sánchez i Llibre.</seg>
             </u>
@@ -184,7 +182,7 @@
                <seg>Muchísimas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u16" ana="#chair">
                <seg>Muchas gracias, señor Sánchez i Llibre.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -197,11 +195,11 @@
                <seg>Yo he cumplido con mi obligación como presidente del Gobierno, señor Sánchez i Llibre. Cuando lo que se plantea por parte de algunos es un referéndum en donde se liquida la soberanía nacional, cuando se debate eso en esta Cámara y esta Cámara toma posición con lo que hizo en su día, el presidente del Gobierno lo que tiene que procurar es que eso no se celebre. A partir de ahí, ha habido unas elecciones autonómicas y los resultados son los ya conocidos. El Gobierno es partidario de la lealtad institucional, es partidario del diálogo, es partidario de hablar; pero, desde luego, de lo que no es partidario es de que se liquide -como algunos pretenden- principios básicos que nos llevan uniendo siglos, como la unidad nacional, la soberanía nacional y la igualdad de los españoles. Este presidente del Gobierno por ahí no va a pasar. A partir de ahí está dispuesto a hablar, siempre -siempre lo hemos hecho- en el marco de la ley. Jamás el presidente de la Generalitat podrá decir que yo no le he atendido cuando quiso hablar conmigo por cualquier procedimiento que estimara oportuno. Pero cuando alguien pretende que el presidente del Gobierno sea cómplice de la liquidación de la voluntad...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u18" ana="#chair">
                <seg>Gracias, señor presidente.<pb n="8"/> - DEL DIPUTADO DON PEDRO SÁNCHEZ PÉREZ-CASTEJÓN, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿CÓMO VALORA EL PRESIDENTE DEL GOBIERNO LA SITUACIÓN POLÍTICA DE ESPAÑA?</seg>
                <note>Número de expediente 180/001395</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u19" ana="#chair">
                <seg>Pregunta formulada también al presidente del Gobierno por el diputado don Pedro Sánchez, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u20"
@@ -210,7 +208,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Rajoy, mi pregunta es muy sencilla. ¿Qué valoración hace de la situación política en España?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u21" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -222,7 +220,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u23" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Sánchez.</seg>
             </u>
@@ -235,7 +233,7 @@
                <note>Prolongados aplausos</note>
                <pb n="9"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u25" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -246,12 +244,12 @@
                <seg>Muchas gracias.</seg>
                <note>Prolongados aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u27" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON JON IÑARRITU GARCÍA, DEL GRUPO PARLAMENTARIO MIXTO, QUE FORMULA AL SEÑOR MINISTRO DEL INTERIOR: ¿CONSIDERA EL GOBIERNO QUE SIEMPRE TIENE QUE RESPETARSE LA LEGISLACIÓN INTERNACIONAL?</seg>
                <note>Número de expediente 180/001390</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u28" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro del Interior. En primer lugar, pregunta del diputado don Jon Iñarritu, del Grupo Mixto.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u29"
@@ -261,7 +259,7 @@
                <seg>Señor ministro, ¿considera usted que siempre debe respetarse la legalidad internacional?</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u30" ana="#chair">
                <seg>Silencio, por favor.</seg>
                <seg>Gracias, señor Iñarritu.</seg>
                <seg>Señor ministro.</seg>
@@ -274,7 +272,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u32" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Iñarritu.</seg>
             </u>
@@ -285,7 +283,7 @@
                <seg>Señor Fernández, ustedes en el País Vasco pueden seguir deteniendo, pueden seguir con su política penitenciaria propia de Guantánamo, pueden seguir plagando nuestras carreteras de controles, pueden seguir actuando como si nada hubiera cambiado, pero habrán sido cuatro años perdidos y nos encontraremos en el mismo punto de partida en el que estábamos al principio de la legislatura. No es que ustedes no vayan a ganar el Nobel de la Paz, sino que pasarán a la historia por su mediocridad y falta de valentía. Por eso me gustaría preguntarle, señor ministro, si ustedes no creen que el diálogo es la mejor herramienta para solucionar conflictos. Me gustaría que me respondiera si han aprendido alguna lección del conflicto colombiano en torno a la paz y su consecución.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u34" ana="#chair">
                <seg>Muchas gracias, señor Iñarritu.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -297,12 +295,12 @@
                <seg>Dicho esto, como España, como le decía anteriormente, es un Estado democrático y de derecho, evidentemente el Estado de derecho no está en suspenso y mientras esa organización terrorista no se disuelva formalmente, está viva, aunque operativamente esté liquidada y, por tanto, se sigue actuando. Por eso seguimos trabajando para localizar, detener y poner a disposición de la justicia a todas aquellas personas que tengan cuentas pendientes con la justicia. Esa es la cuestión. Ustedes consideran que hay un conflicto vasco, nosotros consideramos que lo que ha habido es una organización terrorista que ha sido detenida y derrotada, afortunadamente, para el bien de los vascos y para el bien del conjunto de los españoles. Y no va a haber ni justicia transicional, como dice usted, ni otro tipo de justicia más que la justicia normal, la que aplican los tribunales españoles, la que aplica la Audiencia Nacional, que es la competente para los atentados terroristas, para las organizaciones terroristas. Y además sabe usted que Francia, que no creo que sea dudoso en cuanto a que es una república democrática y de derecho, también tiene una agenda terrorista que es la agenda española. Francia y España vamos trabajando juntos codo a codo, mano a mano, para derrotar el terrorismo de ETA. Porque en Europa, que es un espacio de libertad, justicia y seguridad, no cabe una organización terrorista como ETA ni caben planteamientos como los suyos, señoría.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u36" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u36" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON RAFAEL CALDUCH CERVERA, DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, QUE FORMULA AL SEÑOR MINISTRO DEL INTERIOR: ¿CUÁL ES LA POLÍTICA DEL GOBIERNO EN MATERIA DE ASILO DE REFUGIADOS POLÍTICOS?</seg>
                <note>Número de expediente 180/001392</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u37" ana="#chair">
                <seg>Pregunta, dirigida también al señor ministro del Interior, que formula don Rafael Calduch, del Grupo Parlamentario de Unión Progreso y Democracia.</seg>
                <pb n="11"/>
             </u>
@@ -311,7 +309,7 @@
                ana="#regular">
                <seg>Señor ministro, ¿cuál es la política del Gobierno en materia de asilo de refugiados políticos?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u39" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u39" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -323,7 +321,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u41" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u41" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Calduch.</seg>
             </u>
@@ -335,7 +333,7 @@
                <seg>El Gobierno del Partido Popular ha llevado en este tema una política reactiva, a golpe de telediario. Lo que nos preguntamos en nuestro grupo parlamentario es qué va a ocurrir cuando efectivamente se produzca el apagón informativo con las demandas de solicitud de asilo que seguirán llegando a España, qué pasará con el derecho y las vidas de esas personas que solicitan el amparo y el asilo en España. Espero que el futuro Gobierno sea más responsable en este tema.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u43" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -347,12 +345,12 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u45" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u45" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON ANTONIO RAMÓN MARÍA TREVÍN LOMBÁN, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DEL INTERIOR: ¿QUÉ HA APORTADO LA NUEVA LEY DE SEGURIDAD PRIVADA A LA SEGURIDAD DE LOS ESPAÑOLES?</seg>
                <note>Número de expediente 180/001397</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u46" ana="#chair">
                <seg>Pregunta, también dirigida al ministro del Interior, que formula el diputado don Antonio Trevín, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u47"
@@ -362,7 +360,7 @@
                <seg>Hace año y medio este Congreso aprobó una nueva Ley de Seguridad Privada, más negocio a costa de la seguridad pública y más ganancias precarizando el empleo de los vigilantes. Por eso, le pregunto, señor ministro: ¿Qué ha aportado dicha ley a la seguridad de los españoles?</seg>
                <note>Un señor diputado: Muy bien</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u48" ana="#chair">
                <seg>Gracias, señor Trevín.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -374,7 +372,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u50" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Trevín.</seg>
             </u>
@@ -385,7 +383,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Risas.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u52" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u52" ana="#chair">
                <seg>Gracias, señor Trevín.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -396,12 +394,12 @@
                <seg>Me había dicho muchas cosas el señor Trevín, pero intentar privatizar la cabra de la legión, sinceramente no; además, es del ministro de Defensa, no es de mi competencia.<note>Rumores</note> Hablando en serio, señoría, como tuve ocasión de decir durante el debate del proyecto de ley de seguridad privada, en Europa -con quien nos tenemos que comparar- los ratios de seguridad privada y de policía pública por cada 100.000 habitantes ponen de manifiesto que estamos a la cabeza en el número de policías públicos por habitante y a la cola en cuanto a seguridad privada. Por tanto, no hemos hecho nada que nos aleje de lo que es normal en la Unión Europea, y todavía seguimos ahí. Vuelvo a repetir que la seguridad privada está subordinada a la seguridad pública, que es competencia exclusiva del Estado según el artículo 149 de la Constitución. La tasa actual de policías<note>Policía Nacional, Guardia Civil, policías autonómicas y policías locales</note> por cada 100.000 habitantes en España es de 519,47, muy por encima de la media comunitaria europea, mientras que la tasa de agentes de seguridad privada en activo por cada 100.000 habitantes es de 215, una de las más bajas de la Unión Europea. La proporción de los integrantes de uno y otro es de más del 70 % de seguridad pública y menos del 30 % de seguridad privada. En estos años, como su señoría sabe, hemos tenido ofertas públicas de empleo con tasas de reposición del 10 % y este año del 50 %, por razones que todos conocemos. Es evidente que la seguridad privada...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u54" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u54" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON MANUEL DE LA ROCHA RUBÍ, EN SUSTITUCIÓN DE LA DIPUTADA DOÑA ESPERANÇA ESTEVE ORTEGA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DEL INTERIOR: ¿CÓMO VA A ABORDAR EL GOBIERNO SUS COMPROMISOS EN RELACIÓN CON LA CRISIS HUMANITARIA DE REFUGIADOS?</seg>
                <note>Número de expediente 180/001398</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u55" ana="#chair">
                <seg>Pregunta, dirigida también al señor ministro del Interior, que formula el diputado don Manuel de la Rocha, del Grupo Parlamentario Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u56"
@@ -410,7 +408,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor ministro del Interior, quiero referirme otra vez a la grave crisis humanitaria que viene existiendo en Europa en los últimos meses derivada del conflicto de Siria y que está produciendo el desplazamiento de cientos de miles de personas al territorio de la Unión. La Comisión Europea ha decidido liderar una actuación en común, porque la dimensión de la crisis es inabordable por los países en solitario. Además, ha decidido buscar que en Europa haya una política común de asilo y de refugio. El Gobierno de España del que usted forma parte, tras una primera actitud de rechazo y de ponerse de perfil, se ha sumado junto a la mayoría de los Estados miembros a esa iniciativa. Ayer en esta Cámara los grupos parlamentarios aprobamos una iniciativa conjunta promovida por mi grupo y que valoramos muy positivamente porque define una visión consensuada de las políticas a seguir y de los objetivos a alcanzar, planteando al<pb n="14"/> Gobierno una serie de compromisos. Le pregunto: ¿cómo va a abordar el Gobierno sus compromisos en relación con la crisis humanitaria de refugiados?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u57" ana="#chair">
                <seg>Muchas gracias, señor de la Rocha.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -421,7 +419,7 @@
                <seg>En primer lugar, vuelvo a reiterar lo que dije antes. Me felicito, les felicito, felicito a toda la Cámara porque hayamos sido capaces de aprobar esa iniciativa. Es muy positivo y transmite a Europa un mensaje muy favorable de España como sociedad solidaria y país de acogida, que es lo que realmente somos. Difícilmente podemos pedir, como estamos haciendo, una política comunitaria, por tanto una política europea común, en materia de inmigración y de asilo si no somos capaces previamente de conseguirla a nivel nacional. Es evidente que el paso que se dio ayer en esta Cámara con la unanimidad de todos los grupos parlamentarios en torno a unos ejes de actuación que se concretan en esa proposición no de ley es una buena credencial para presentarnos ante Europa y ante el mundo como un país solidario y responsable; un país que tiene conciencia de la crisis humanitaria y que está dispuesto a concretar esa solidaridad en hechos y no solo en palabras. Señoría, tenga la certeza de que cumpliremos y estaremos a la altura de los compromisos asumidos. Acogeremos a esos refugiados con voluntad de que se integren en la sociedad española y dotaremos de los recursos económicos necesarios a nuestras administraciones para que puedan cumplir ese objetivo. En particular, usted sabe que hemos llegado también a un acuerdo todos los grupos parlamentarios, mediante una enmienda al proyecto de ley de presupuestos, para incrementar 200 millones de euros en el ámbito del Ministerio de Empleo y Seguridad Social precisamente para dotarlo ante las necesidades económicas que exige una adecuada política de asilo y de refugio; no una política de asilo y refugio de titular sino realmente solidaria y responsable que tenga como objetivo último, insisto, la integración en plena igualdad de derechos con los nacionales españoles en nuestro país.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u59" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor De la Rocha.</seg>
             </u>
@@ -432,7 +430,7 @@
                <seg>Señor ministro, a mi grupo le siguen preocupando algunos aspectos muy importantes. En primer lugar, cómo va a resolver la Unión Europea la situación de las personas que se encuentran hacinadas ante la frontera de Hungría sin que hasta ahora se hayan acordado corredores humanitarios que les permitan llegar a zona segura. En segundo lugar está algo que afecta a su ministerio, las listas de espera. Ya en este momento los solicitantes de asilo han de esperar hasta seis meses para que se les atienda. El incremento de solicitudes que se va a producir con el aumento del número de personas que la Comisión Europea está determinando para nuestro país significa un esfuerzo adicional para su ministerio que deberá mejorar significativamente la Oficina de Asilo y Refugio. En tercer lugar nos preocupa la integración. Es necesario adaptar la capacidad de acogida e integración de los refugiados a las nuevas cifras de llegada y a las previsiones de la UE. Para eso creemos imprescindible un plan estatal consensuado con las comunidades autónomas y con los ayuntamientos que incluya y defina el papel de las ONG en esta materia, así como que determine los lugares de acogida y posterior reubicación, los medios de escolarización y atención sanitaria y social y, en su caso, de empleo. Por último, señor ministro, nos preocupan algunos mensajes que usted o algunas personas de su entorno han lanzado en los últimos tiempos y que esperamos que sean ya cosa del pasado porque generan miedo y desconfianza...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u61" ana="#chair">
                <seg>Gracias, señor diputado.<note>Aplausos</note> Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u62"
@@ -442,12 +440,12 @@
                <seg>Señoría, no discrepo fundamentalmente de su señoría. En cuanto a la Oficina de Asilo y Refugio estamos dotándola de mayores recursos para hacer frente efectivamente a esta situación excepcional, y ya hay un crédito de 6,5 millones de euros para que esa infraestructura administrativa esté a la altura del reto que tenemos. Hay un grupo de trabajo en el seno de la Conferencia Sectorial de Migraciones precisamente para analizar las necesidades existentes y las capacidades que tenemos para que esa acogida e integración se puedan producir de manera adecuada. Es decir, estamos trabajando en la conferencia sectorial en el<pb n="15"/> ámbito del Ministerio de Empleo, en la comisión interministerial en el ámbito de la Vicepresidencia del Gobierno y en el Consejo de Ministros del Interior y en el Consejo Europeo...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u63" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON PEDRO MARÍA AZPIAZU URIARTE, DEL GRUPO PARLAMENTARIO VASCO<note>EAJ-PNV</note> , QUE FORMULA AL SEÑOR MINISTRO DE ECONOMÍA Y COMPETITIVIDAD: ¿PARA CUÁNDO PREVÉ EL GOBIERNO ESPAÑOL SER MIEMBRO FUNDADOR DEL CONSORCIO EUROPEO ESS-ERIC?</seg>
                <note>Número de expediente 180/001391</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u64" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Economía y Competitividad. La formula el diputado don Pedro Azpiazu, del Grupo Vasco, PNV.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u65"
@@ -457,7 +455,7 @@
                <seg>En las postrimerías de la legislatura no pretendo con mi pregunta, señor ministro, ponerle en una situación difícil e incómoda, simplemente deseo que antes de dejar su cartera cumpla con el compromiso adquirido con el Gobierno vasco en relación con la Fuente de Espalación Europea. Como sabe, Bilbao pretendió ser la sede europea de la fuente de espalación, que finalmente se ubicará en Lund por una desacertada gestión en su día del Gobierno del señor Zapatero. Como premio de consolación, se alcanzó un acuerdo para fijar en Bilbao lo que se denomina subsede. Tras un comienzo con ciertas dudas, se ha definido ya un proyecto sólido que va a permitir el desarrollo científico y tecnológico de personal cualificado a través de la futura construcción de paquetes de trabajo que se han ido reconociendo ya a nivel europeo y que harán posible la construcción de partes relevantes de la fuente europea. En fechas recientes se ha constituido el consorcio europeo ESS-ERIC para la construcción de la fuente, y en principio España no forma parte de dicho consorcio como miembro fundador, tal y como se había comprometido y no sabemos por qué. La secretaria de Estado del ramo anunció precisamente en Bilbao en el mes de abril que se firmaría dicho compromiso el 1 de julio. El retraso por parte del Ministerio de Economía en la firma de dicho compromiso puede poner, en nuestra opinión, en serio peligro los paquetes de trabajo preacordados por parte de ESS Bilbao con Lund. Sin estos paquetes de trabajo el proyecto, el de Bilbao, estaría en grave riesgo. Está en sus manos, señor ministro, evitar que el futuro del proyecto, en el que trabajan más de sesenta personas de alta cualificación, pueda quedarse en agua de borrajas. No hace falta que le convenza de la importancia que tiene la innovación, la investigación en el desarrollo económico. Este proyecto es muy importante para Euskadi, sí, pero también para la economía del conjunto del Estado. Por eso precisamente reclamamos y pedimos que se comprometa en firme y por escrito con el futuro proyecto europeo, que es también el nuestro. Por eso le pregunto, señor ministro, ¿cuándo prevé el Gobierno firmar su compromiso como miembro fundador del Consorcio Europeo de Espalación?</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u66" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -468,7 +466,7 @@
                <seg>Señoría, como conoce, la implicación de España en la Fuente Europea de Espalación ha sido muy destacada desde su inicio, desde su gestación, y además representa un buen ejemplo de colaboración en materia de investigación entre la Administración central y el Ejecutivo vasco. Como sabe, hemos apostado desde el primer momento por el proyecto ERIC, como demuestra la carta de intenciones que firmamos en 2014, expresando nuestro pleno compromiso con esta iniciativa. En este momento España es miembro fundador observador; nuestra voluntad es convertirnos en miembros de pleno derecho lo antes posible y, en cualquier caso, antes de septiembre de 2016. Para entonces vamos a ser miembros de pleno derecho. Para eso estamos trabajando en este momento, ya que, como sabe, la adhesión a este consorcio implica un compromiso de gasto plurianual cuya autorización se está gestionando actualmente. Una vez superados todos los trámites presupuestarios y obtenida dicha autorización estaremos en condiciones de culminar esta adhesión. En todo este proceso -insisto- la secretaria de Estado de I+D+i está colaborando estrechamente con sus homólogos vascos. A su vez, supone también la presencia de España en otros consorcios importantes, como es el caso del CERN, donde hemos triplicado nuestros contratos; el reactor<pb n="16"/> experimental de fusión ITER y la designación de la isla de La Palma como sede de la instalación de la red de telescopios Cherenkov.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u68" ana="#chair">
                <seg>Señor Azpiazu.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u69"
@@ -477,7 +475,7 @@
                <seg>Gracias, señor ministro.</seg>
                <seg>Espero efectivamente que se firme cuanto antes, bastante antes de 2016; me gustaría que lo hiciera usted con este Gobierno, al que creo que no le queda mucho tiempo. De todas formas sabe que soy insistente e iré hasta el final, al menos de este Gobierno. Con usted voy a intentar...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u70" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -488,7 +486,7 @@
                <seg>Muchas gracias.<note>Aplausos</note> - DEL DIPUTADO DON MIGUEL ÁNGEL HEREDIA DÍAZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿CÓMO PIENSA EL GOBIERNO RESOLVER LOS PROBLEMAS GENERADOS POR LOS RETRASOS EN LA ADJUDICACIÓN DEL PROGRAMA DE VACACIONES PARA MAYORES TRAS LA ANULACIÓN ORDENADA POR EL TRIBUNAL ADMINISTRATIVO CENTRAL DE RECURSOS CONTRACTUALES?</seg>
                <note>Número de expediente 180/001396</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u72" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Sanidad, Servicios Sociales e Igualdad. Pregunta, en primer lugar, el diputado don Miguel Ángel Heredia, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u73"
@@ -497,7 +495,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, ¿cómo piensa resolver los problemas provocados por los retrasos en la adjudicación de los viajes del Imserso?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u74" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u74" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -508,7 +506,7 @@
                <seg>Gracias, señor Heredia. Efectivamente, se produjo un recurso al Tribunal Administrativo Central de Recursos Contractuales del Ministerio de Hacienda, recurso que ordenaba repetir la valoración, especificando algunos criterios que debían tenerse en consideración. Esa valoración se ha vuelto a realizar. Por tanto, una vez resuelto este recurso y atendidos los requerimientos de ese tribunal, se va a proceder ya a la nueva adjudicación. Nosotros esperamos que apretando en los plazos, como estamos haciendo, y con la buena voluntad y colaboración de todos, que la están mostrando, no se producirán retrasos significativos.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u76" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Heredia.</seg>
             </u>
@@ -520,7 +518,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u78" ana="#chair">
                <seg>Muchas gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -533,18 +531,18 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u80" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA ÁNGELES ÁLVAREZ ÁLVAREZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿ESTÁ SATISFECHO EL GOBIERNO CON LA SITUACIÓN DEL ACCESO A LAS MUJERES JÓVENES ESPAÑOLAS A LA ELECCIÓN DE LOS ANTICONCEPTIVOS MODERNOS?</seg>
                <note>Número de expediente 180/001403</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u81" ana="#chair">
                <seg>Pregunta, dirigida también al señor ministro de Sanidad, Servicios Sociales e Igualdad, que formula la diputada doña Ángeles Álvarez, del Grupo Socialista.</seg>
                <seg>La señora ÁLVAREZ ÁLVAREZ: Señor Alonso, a usted como ministro de Sanidad, ¿qué opinión le merece el hecho de que una de cada cinco jóvenes españolas no utilice ningún tipo de protección en sus relaciones sexuales?</seg>
                <note>Rumores</note>
                <pb n="18"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u82" ana="#chair">
                <seg>Gracias, señora Álvarez.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -556,14 +554,14 @@
                <seg>Le agradezco su preocupación, señoría.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u84" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora Álvarez.</seg>
                <seg>La señora ÁLVAREZ ÁLVAREZ: Veo que la pregunta ha generado ciertas risas. Se lo voy a decir en números absolutos. Hay 4 millones de mujeres entre dieciséis y treinta años de las cuales, según esa proporción, casi 800.000 no estarían utilizando ningún tipo de protección; repito, 800.000. El problema es dónde se coloca el Gobierno frente a esta realidad. Ustedes, con sus políticas, han apostado por favorecer que las cosas sigan igual o empeoren. Ustedes incumplen la ley cuando impiden que la educación sexual sea obligatoria en los planes de estudio escolares. Consagrando la exclusión sanitaria han impedido el acceso de las jóvenes más vulnerables a los métodos anticonceptivos. Callan ante la objeción de conciencia temeraria a la píldora del día después y desconocen cuántas farmacias están objetando a la dispensa de anticonceptivos. En comunidades autónomas como la de Madrid se dificulta el acceso a anticonceptivos atípicos, como el implante, el inyectable o el diafragma. Ustedes no ejecutan la estrategia de salud sexual y reproductiva vigente y favorecen situaciones de riesgo con una política inadecuada de financiación de anticonceptivos, basada en una respuesta meramente dineraria o económica, y con eso dejan fuera de la cartera precisamente los que tienen efectos beneficiosos complementarios para las mujeres. ¿Saben lo que consiguen? Con la ausencia de políticas preventivas en materia de salud sexual y reproductiva ustedes consiguen un aumento de los embarazos no deseados, y eso provoca los abortos en este país; así que tome usted nota. Menos máscaras y más respuestas, porque ustedes a las jóvenes más vulnerables, en una política que yo llamaría perversa, primero les niegan el acceso a la prevención y después las condenan a una maternidad impuesta o a un aborto clandestino e inseguro. Nosotros vamos a trabajar para revertir esa situación de insuficiencia y de precariedad. ¿Sabe por qué? Porque es injusto que las políticas del Partido Popular condicionen la trayectoria vital de miles de mujeres jóvenes en este país, cuando ustedes obstaculizan su acceso a la salud sexual y reproductiva.</seg>
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u85" ana="#chair">
                <seg>Muchas gracias, señora Álvarez.</seg>
                <seg>Señor ministro.</seg>
                <seg>El señor ministro de SANIDAD, SERVICIOS SOCIALES E IGUALDAD<note>Alonso Aranegui</note> : Gracias, señor presidente.</seg>
@@ -571,12 +569,12 @@
                <seg>Coincido con usted en que este asunto nos ha de preocupar, debemos incidir más en la educación afectivo-sexual; lo queremos hacer, porque me parece una prioridad del Gobierno prevenir los embarazos no deseados, ya que de las más de 100.000 mujeres que abortaron el año pasado al menos un tercio no<pb n="19"/> era la primera vez que tenían que pasar por esa situación. Creo que eso se puede evitar en buena medida. Por tanto, el Gobierno lo considera una prioridad, por eso hemos pactado con el grupo de Unión del Pueblo Navarro una enmienda a los presupuestos generales para poder incidir más en campañas de sensibilización y de promoción de la salud sexual y reproductiva de las mujeres, particularmente de las más jóvenes.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u86" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA MARÍA GUADALUPE MARTÍN GONZÁLEZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿QUÉ BALANCE HACE EL GOBIERNO DEL IMPACTO DE SUS POLÍTICAS EN LAS PERSONAS MAYORES?</seg>
                <note>Número de expediente 180/001404</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u87" ana="#chair">
                <seg>Pregunta, dirigida también al ministro de Sanidad, Servicios Sociales e Igualdad, que formula la diputada doña Guadalupe Martín, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u88"
@@ -585,7 +583,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>¿Qué balance hace el Gobierno del impacto de sus políticas en las personas mayores?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u89" ana="#chair">
                <seg>Gracias, señora Martín.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -597,7 +595,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u91" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora diputada.</seg>
             </u>
@@ -607,7 +605,7 @@
                <seg>Señor ministro, por mucho que repita una mentira, no se convierte en verdad. Ustedes se han sumergido en una espiral de mentiras, no han respetado el consenso de revalorización de las pensiones y son los pensionistas los que han sufrido, y eso que anunciaron que no tocarían las pensiones. El incremento de la pensión mínima en su periodo de mandato ha sido de 42,90 euros. El incremento de la pensión mínima durante Gobiernos socialistas, el 46 %, es decir, 257 euros. Alto y claro, señor ministro. El Partido Socialista no congeló las pensiones, revalorizó año tras año la pensiones mínimas, pasando de 484 a 742 euros, y ustedes rompieron ese consenso, no les suben el IPC, sino un 0,25 %, lo que supone una pérdida de poder adquisitivo año tras año. Mire las consecuencias que trae esto: uno de cada tres hogares españoles tiene como sustentador principal a un mayor de sesenta y cinco años; seis de cada diez reconocen que su situación y bienestar han empeorado por las dificultades económicas por las que pasa su familia; ocho de cada diez mayores ayudan a sus hijos e<pb n="20"/> hijas; todos los pensionistas están condenados al repago de sus medicamentos; el 46 % de los mayores ha reducido el gasto en tratamientos para su salud; por cada euro que ha subido su pensión gastan cuatro en medicamentos; el 45 % ha reducido el gasto en el consumo de la luz; el 20 % reconoce que sus nietos han dejado de acudir al comedor escolar, y para colmo desmontan el sistema de atención a la dependencia cuando más lo necesitan y además les aumentan los copagos. Con este panorama todos tienen una visión pesimista del futuro, señor ministro; piensan que el futuro de sus nietos será incluso peor que ahora. Ese es el balance de su gestión y no otro. Señor ministro, por mucho que ustedes repitan su mentira, no la pueden convertir en verdad nunca.</seg>
                <note>Aplausos.-Un señor diputado: ¡Muy bien!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u93" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -618,12 +616,12 @@
                <seg>Pero hablando de mentiras, ¿quién se va a creer que el Partido Socialista no congeló las pensiones? ¿Cómo puede afirmar eso? Yo estaba aquí cuando el señor Zapatero anunció que las congelaba y que despreciaba las posibilidades de los mayores y utilizaba los...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u95" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA MARÍA GONZÁLEZ VERACRUZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA MINISTRA DE EMPLEO Y SEGURIDAD SOCIAL: ¿QUÉ EVOLUCIÓN PREVÉ EL GOBIERNO PARA LOS PRÓXIMOS MESES EN LA TASA DE COBERTURA PÚBLICA PARA PERSONAS EN SITUACIÓN DE DESEMPLEO EN NUESTRO PAÍS?</seg>
                <note>Número de expediente 180/001399</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u96" ana="#chair">
                <seg>Preguntas dirigidas a la señora ministra de Empleo y Seguridad Social.</seg>
                <seg>En primer lugar, la formula la diputada doña María González Veracruz, del Grupo Socialista.</seg>
             </u>
@@ -635,7 +633,7 @@
                <seg>Señora Báñez, ¿cuál es la previsión que tiene el Gobierno para la tasa de cobertura por desempleo a los parados en un contexto en el que ustedes llevan ya cuatro años gobernando, desde 2011 hasta ahora, la tasa ha ido disminuyendo desde entonces -es decir, hay más parados desprotegidos que en 2011- y han anunciado -de hecho están a punto de aprobar- un recorte de 5.000 millones de euros? ¿Cuál es su previsión, si puede dárnosla, incluso si puede atenerse a la verdad, señora ministra?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u98" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -647,7 +645,7 @@
                <note>Aplausos</note>
                <pb n="21"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u100" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
                <seg>Señora diputada.</seg>
             </u>
@@ -658,7 +656,7 @@
                <seg>Señora ministra, si evaluamos los cuatro años del Gobierno de Rajoy tendríamos que recordar cómo fueron generando parados, como consecuencia principalmente del rescate que niega el señor Rajoy pero también de su reforma laboral, y cómo esos nuevos empleos son directamente parados laborales. Pero no es ese el tema de mi pregunta, aunque sabía que iba a responderme así. Señora ministra, piense por un segundo qué les dirían aquí, si estuvieran en el lugar de esta diputada, los hombres y mujeres, especialmente mujeres, 3,7 millones según la encuesta de población activa, que están parados y que no tienen ninguna prestación. Esa es la consecuencia de sus políticas: 3,7 millones de personas a las que les está diciendo, además, que les va a recortar 5.000 millones de euros más, como si no hubiera parados de larga duración, especialmente mujeres, que hoy no tienen ninguna protección de su Gobierno, que están completamente abandonados por el Gobierno de Rajoy. Hablamos de más de siete de cada diez parados en esta situación. Probablemente cada uno de esos parados, de esos hombres y mujeres, le explicarían lo que están viviendo, y lo que están viviendo es una situación de pobreza y de desigualdad social generada por su Gobierno y por los cuatro años de sus recortes. Hablamos de recortes de derechos laborales por la reforma laboral, hablamos de recortes en prestaciones, hablamos de la eliminación de subsidios, por mucho que traten de evitarlo. Y como le gusta tanto volver al año 2011, le recuerdo que en dicho año, según la tasa de cobertura por paro registrado, se cubría el 70 % y hoy el 55 %. Y si vamos a los datos de la EPA, en 2011 se cubría el 37 %, y hoy se cubre el 27,8 %. Ese es el resumen, 30.000 millones de euros en 2011, y hoy, 19.000 millones para no proteger, que es lo que están haciendo ustedes, a los desempleados. Precariedad laboral, pobreza laboral, pero...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u102" ana="#chair">
                <seg>Gracias señora diputada.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -669,12 +667,12 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u104" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
                <seg>- DE LA DIPUTADA DOÑA MAGDALENA VALERIO CORDERO, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA MINISTRA DE EMPLEO Y SEGURIDAD SOCIAL: ¿QUÉ ACTUACIONES HA LLEVADO A CABO SU DEPARTAMENTO EN CUMPLIMIENTO DE SENTENCIAS DEL ORDEN JURISDICCIONAL SOCIAL EN LOS CASOS QUE AFECTAN A SU PARTIDO?</seg>
                <note>Número de expediente 180/001400</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u105" ana="#chair">
                <seg>Pregunta también a la señora ministra de Empleo y Seguridad Social, que formula la diputada doña Magdalena Valerio, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u106"
@@ -682,7 +680,7 @@
                ana="#regular">
                <seg>Señora ministra, en el mes de abril la justicia consideró acreditada la existencia de la simulación en la relación laboral entre el Partido Popular y el señor Bárcenas, la cual<pb n="22"/> dio lugar a unas cotizaciones que no se deberían haber producido y que pueden tener incidencia en futuras prestaciones de la Seguridad Social. Cinco meses después, hemos conocido que se ha abierto un expediente sancionador al Partido Popular por estos hechos. ¿Podría aclararme usted qué actuaciones ha llevado a cabo su departamento en cumplimiento de esta sentencia?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u107" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u107" ana="#chair">
                <seg>Muchas gracias, señora Valerio.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -694,7 +692,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u109" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
                <seg>Señora Valerio.</seg>
             </u>
@@ -706,7 +704,7 @@
                <seg>La ciudadanía está harta y les va a poner, dentro de muy poco, en el sitio que se merecen, en la oposición. El punto se lo van a poner ellos, y les auguro -y en esto coincido con el señor Aznar- que va a ser un punto final.</seg>
                <note>Aplausos.-Una señora diputada: ¡Muy bien!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u111" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u111" ana="#chair">
                <seg>Gracias, señora Valerio.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -718,12 +716,12 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u113" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u113" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>- DE LA DIPUTADA DOÑA ISABEL RODRÍGUEZ GARCÍA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA MINISTRA DE EMPLEO Y SEGURIDAD SOCIAL: ¿CÓMO VALORA EL GOBIERNO LA SITUACIÓN LABORAL DE LOS JÓVENES ESPAÑOLES?</seg>
                <note>Número de expediente 180/001401</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u114" ana="#chair">
                <seg>Última pregunta a la señora ministra de Empleo y Seguridad Social, y que formula la diputada doña Isabel Rodríguez, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u115"
@@ -733,7 +731,7 @@
                <seg>Tranquilamente le digo, señora ministra, que si usted fuera consecuente con lo que acaba de decir aquí, tolerancia cero con la corrupción, tendría que estar abandonando ya el banco azul para ponerse a refundar a este PP, porque este PP está de arriba abajo lleno de corrupción.<note>Aplausos</note> El caso Gürtel es el caso PP, es el caso Rajoy.<note>Rumores</note> Créame, nos preocupa mucho más la situación que vive nuestro país que la situación que vive su partido; esa es y debe ser su preocupación. La situación que nos preocupa de nuestro país es la de miles de jóvenes que tienen toda su vida truncada como consecuencia de su reforma laboral. Usted está muy optimista con los datos y nosotros queremos que a la economía española le vaya bien porque eso significará que les irá bien a los españoles. Pero no somos tan optimistas porque estamos a pie de calle y vemos lo que está ocurriendo en la realidad de nuestro país. Le pido por un momento que se aleje de esas estadísticas que solo sirven para el triunfalismo y que se acerque a la realidad y nos hable de eso, de cómo viven hoy los jóvenes españoles.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u116" ana="#chair">
                <seg>Gracias, señora Rodríguez.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -746,7 +744,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u118" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
                <seg>Señora diputada.</seg>
                <pb n="24"/>
@@ -757,7 +755,7 @@
                <seg>Señora ministra, la sigo viendo en el optimismo de las cifras. No le voy a hacer yo la valoración de la gestión de su Gobierno, se la acaba de hacer la OCDE en el reciente informe que hemos conocido. Algunas de las conclusiones de este informe -no de esta diputada- son: primera, que España tiene la mayor tasa de jóvenes trabajando de manera involuntaria a tiempo parcial; aquellos que tienen la suerte de trabajar lo están haciendo de manera involuntaria en contratos precarios, un 22 % frente a un 4 % en la OCDE. El salario de estos jóvenes ha descendido en estos últimos años hasta un 35 %. La Agencia Tributaria lo sitúa en el entorno de los 500 euros. Este informe nos dice también que los jóvenes españoles se ven obligados a aceptar ese tipo de trabajo porque es eso o nada. Lo que más me preocupa, señoría, es que este tipo de subempleo, estas condiciones laborales están creando una actitud de pesimismo, una baja autoestima en nuestra juventud, un riesgo a padecer la pobreza e incluso estamos poniendo en riesgo toda la inversión que hemos hecho en su educación y en su formación porque se están quedando obsoletos. No podemos confundir empleo con estos contratos. Confundir contratos de este tipo con un empleo muestra simplemente la insensibilidad absoluta con lo que es un trabajo. Un trabajo es aquello que está remunerado por realizarlo y que permite vivir dignamente, y con estos empleos, señoría, no se puede vivir dignamente. Afortunadamente, hoy estamos de despedida de este Gobierno, habrá unas próximas elecciones...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u120" ana="#chair">
                <seg>Muchas gracias, señora diputada.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -769,13 +767,13 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u122" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u122" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO DE IU, ICV-EUIA, CHA: LA IZQUIERDA PLURAL, SOBRE MEDIDAS QUE PIENSA ADOPTAR EL GOBIERNO EN LA PRESENTE SITUACIÓN DE RECOGIDA DE REFUGIADOS.</head>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u123" ana="#chair">
                <seg>Vamos a dar comienzo a las interpelaciones formuladas al Gobierno. Empezamos con la interpelación de La Izquierda Plural, sobre medidas que piensa adoptar el Gobierno en la presente situación de recogida de refugiados. Para su defensa, tiene la palabra el señor Sixto.<note>Rumores</note> Por favor, vamos a continuar con las interpelaciones. Los que tengan que abandonar por algún motivo el hemiciclo que lo hagan con toda rapidez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u124"
@@ -993,7 +991,7 @@
                <seg>Muchas gracias.</seg>
                <note>Rumores.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u149" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u149" ana="#chair">
                <seg>Muchas gracias, señor Simancas.</seg>
                <seg>Señora ministra de Empleo y Seguridad Social.</seg>
             </u>
@@ -1008,13 +1006,13 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u151" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u151" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>ENMIENDAS DEL SENADO - PROYECTO DE LEY DEL TERCER SECTOR DE ACCIÓN SOCIAL. - PROYECTO DE LEY DE VOLUNTARIADO.</head>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u152" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u152" ana="#chair">
                <seg>Continuamos con el siguiente punto del orden del día, enmiendas del Senado. Les recuerdo, aunque ya lo conocen, que no habrá votaciones hoy. Estas enmiendas del Senado que ahora vamos a debatir se votarán mañana con las demás enmiendas del Senado.</seg>
                <seg>Empezamos con el debate acumulado, conforme lo acordado en la Junta de Portavoces, de las enmiendas aprobadas por el Senado al proyecto de ley del tercer sector de acción social y al proyecto de ley de voluntariado. En primer lugar, en turno de fijación de posiciones, tiene la palabra, por el Grupo Vasco, PNV, el señor Olabarría.</seg>
             </u>
@@ -1024,7 +1022,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Si he entendido bien, hemos acumulado el debate de las enmiendas del Senado de los dos proyectos de ley que ha citado, aunque hablen de cosas diferentes.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u154" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u154" ana="#chair">
                <seg>Ya, pero la Junta de Portavoces acordó por unanimidad que, como habían sido discutidos conjuntamente, se debatirían también conjuntamente.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u155"
@@ -1036,7 +1034,7 @@
                <seg>Por último, en cuanto a la ley de voluntario, he de decir que, por si fueran pocos los atropellos competenciales anteriormente citados, se acomete uno de naturaleza funcional que es verdaderamente paradigmático de la visión jacobina del Estado y de la visión centralizadora del Estado que poseen el Grupo Popular y el Partido Popular al que este grupo tan dignamente representa. Se vincula la competencia en el artículo 2 de la ley del voluntariado al hecho de ser voluntario. En el artículo 2 se establece que esta ley será de aplicación a las personas voluntarias, a los destinatarios de la acción voluntaria. ¿Cómo se puede hacer una especie de conversión de la acción de voluntariedad del voluntariado proporcionándole una vis atractiva suficiente como para vulnerar todas las políticas que pueden ser competencialmente autonómicas y en relación a las cuales asociaciones de voluntarios están trabajando? La vinculación tiene que ser necesariamente del voluntariado en relación con la actividad desarrollada, que puede ser de ámbito estatal, pero también de ámbito autonómico, de ámbito local y también de ámbito foral. Este artículo 2, con esta vis expansiva tan desmesurada, tan extraordinaria, vulnera no solo el contenido material de los preceptos constitucionales o de las previsiones constitucionales previstas en los artículos 149 y 148, sino también artículos como el 10.12 y otros homónimos de otros estatutos de autonomía y normas forales, como la que he citado ya y que están consagradas por la disposición adicional primera de la Constitución y, en el caso de Euskadi, en la disposición adicional única de este Estatuto. Desvincular la competencia del voluntariado de aquella actividad respecto de la que el voluntariado está trabajando o está vinculando sus esfuerzos, sus desvelos y su espíritu solidario, atribuyendo al voluntario como concepto vis atractiva para hacer competente impropiamente a esta institución, es un verdadero desafuero.<pb n="46"/> Como he dicho, esto no va a tener enmienda en el Senado porque, reproduciendo otra vez lo que un canonista declararía, esta ley no tiene enmienda, y efectivamente no se ha enmendado. Ya veremos cómo se termina resolviendo la cuestión; se tendrá que terminar resolviendo en algún ámbito. La jurisprudencia del Tribunal Constitucional -ya la he citado, ya la he glosado- no avala la capacidad legislativa de este Parlamento, por lo menos a los niveles hasta los que se ha llegado en estos dos proyectos de ley. Veremos si cuando se interpongan los recursos ante el Tribunal Constitucional -que seguramente se van a interponer-, este mantiene el criterio que ha mantenido hasta el momento presente. Lo dudo, señor presidente, pero no voy a hablar del Tribunal Constitucional porque no quiero penetrar en la parte más líquida de la política española.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u156" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u156" ana="#chair">
                <seg>Muchas gracias, señor Olabarría.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia, tiene la palabra el señor Lleonart.</seg>
             </u>
@@ -1048,7 +1046,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u158" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u158" ana="#chair">
                <seg>Muchas gracias, señor Lleonart.</seg>
                <seg>Por el Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural, tiene la palabra el señor Pérez Moya.</seg>
             </u>
@@ -1063,7 +1061,7 @@
                <seg>Termino diciéndoles, señores del Grupo Popular, que repiensen ustedes su estrategia porque lo que ustedes han estado haciendo -les he puesto el ejemplo del tercer sector catalán- vulnera sentencias del Tribunal Constitucional y luego tiene repercusiones en la credibilidad política ante los ciudadanos. Hace poco más de setenta y dos horas al Partido Popular la sociedad catalana le ha dado una respuesta clara y contundente, a su manera...</seg>
                <note>Varios señores diputados pronuncian palabras que no se perciben</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u160" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u160" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u161"
@@ -1073,7 +1071,7 @@
                <seg>Muchas gracias.</seg>
                <note>Varios señores diputados pronuncian palabras que no se perciben.- Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u162" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u162" ana="#chair">
                <seg>Muchas gracias, señor Pérez Moya.</seg>
                <seg>Por el Grupo Parlamentario Catalán de Convergència i de Unió, tiene la palabra el señor Campuzano.</seg>
             </u>
@@ -1090,7 +1088,7 @@
                <seg>Son dos proyectos de ley que no creo que pasen a la historia. Estoy seguro de que en la próxima legislatura las nuevas mayorías que va a haber en esta Cámara van a tener que modificar para respetar la Constitución, los estatutos y para ser realmente útiles a la sociedad civil.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u164" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u164" ana="#chair">
                <seg>Muchas gracias, señor Campuzano.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra la señora Pérez Domínguez.</seg>
             </u>
@@ -1106,7 +1104,7 @@
                <seg>Cuando suceden este tipo de cuestiones hay que ser congruente en todo. Si respetamos las competencias de las autonomías para unas cosas, las debemos respetar para todas. Comprendo que luego suceden cosas como las del domingo, y no se entera nadie de lo que ustedes pretenden.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u166" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-30-CD150930.u166" ana="#chair">
                <seg>Muchas gracias, señora Pérez Domínguez.</seg>
                <seg>Por el Grupo Popular, en primer lugar, tiene la palabra la señora Vázquez Blanco.</seg>
                <pb n="51"/>

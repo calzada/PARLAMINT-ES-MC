@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="295">295 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="295" xml:lang="es">295 speeches</measure>
+            <measure unit="speeches" quantity="295" xml:lang="en">295 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -75,7 +77,7 @@
                <tagUsage gi="div" occurs="7"/>
                <tagUsage gi="head" occurs="6"/>
                <tagUsage gi="u" occurs="295"/>
-               <tagUsage gi="lb" occurs="922"/>
+               <tagUsage gi="seg" occurs="922"/>
                <tagUsage gi="note" occurs="184"/>
             </namespace>
          </tagsDecl>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#covid">
       <body>
@@ -168,7 +166,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Socialista, del Grupo Parlamentario Confederal de Unidas Podemos-En Comú Podem-Galicia en Común y de algunos miembros del Gobierno presentes en la sala, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2020-04-22-CD200422.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2020-04-22-CD200422.u5" ana="#chair">
                <seg>Muchas gracias, señor presidente del Gobierno.</seg>
                <seg>A continuación, intervendrán los representantes de los grupos parlamentarios.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> Muchas gracias.</seg>
                <seg>Por el Grupo Parlamentario Popular en el Congreso, tiene la palabra el señor Casado Blanco.</seg>

@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="225">225 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="225" xml:lang="es">225 speeches</measure>
+            <measure unit="speeches" quantity="225" xml:lang="en">225 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="6"/>
                <tagUsage gi="note" occurs="124"/>
                <tagUsage gi="u" occurs="225"/>
-               <tagUsage gi="lb" occurs="510"/>
+               <tagUsage gi="seg" occurs="510"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>PREGUNTAS - DEL DIPUTADO DON ANTONIO HERNANDO VERA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA VICEPRESIDENTA DEL GOBIERNO Y MINISTRA DE LA PRESIDENCIA: ¿CONSIDERA LA VICEPRESIDENTA QUE EL GOBIERNO CUMPLE DE FORMA TRANSPARENTE CON EL RESPETO INSTITUCIONAL QUE LE ES EXIGIBLE?</head>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Pregunta dirigida a la señora vicepresidenta del Gobierno y ministra de la Presidencia. La formula el diputado don Antonio Hernando, del Grupo Socialista.</seg>
             </u>
@@ -111,7 +109,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u3" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -123,7 +121,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u5" ana="#chair">
                <seg>Muchas gracias, señora vicepresidenta.</seg>
                <seg>Señor Hernando.</seg>
             </u>
@@ -133,7 +131,7 @@
                <seg>Señora vicepresidenta, la transparencia y el respeto a las instituciones se aplica no se predica, que es lo que precisamente hace usted. Hace tres meses se publicó por un medio de comunicación que usted se había ausentado de distintos Consejos de Ministros por conflictos de<pb n="7"/> intereses con miembros de su familia. Hace tres meses formulamos catorce preguntas escritas al respecto para que usted diese explicaciones sobre esto y no nos ha contestado a ninguna. Por eso, en el tiempo que le queda le pido que nos diga con precisión cuántos miembros del Gobierno, incluida usted y el presidente del Gobierno, se han ausentado e inhibido de decisiones del Consejo de Ministros por conflictos de intereses familiares con sus negocios o con sus profesiones. Ustedes se han erigido en adalides de la transparencia y cuando alguien es doña transparencia, señora vicepresidenta, es indignante que vaya a impedir que el presidente del Gobierno venga al Congreso de los Diputados a dar la cara después de que la Comisión Europea haya dicho que estos presupuestos son la última mentira del Gobierno pero sin duda la más gorda, la más grosera y la más cruel por los recortes que suponen.<note>Rumores</note> Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u7" ana="#chair">
                <seg>Muchas gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -144,12 +142,12 @@
                <seg>Muchas gracias, señor Hernando, por su pregunta.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u9" ana="#chair">
                <seg>Muchas gracias, señora vicepresidenta.</seg>
                <seg>- DEL DIPUTADO DON JORDI XUCLÀ I COSTA, DEL GRUPO PARLAMENTARIO DE CONVERGÈNCIA I DE UNIÓ, QUE FORMULA AL SEÑOR MINISTRO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN: ¿QUÉ RESPONSABILIDADES POLÍTICAS CONSIDERA QUE DEBE ASUMIR EL GOBIERNO POR EL NEGLIGENTE FUNCIONAMIENTO DE LOS SERVICIOS CONSULARES ESPAÑOLES, EN LAS PASADAS ELECCIONES AL PARLAMENTO DE CATALUÑA, LO CUAL HA PRIVADO DEL DERECHO FUNDAMENTAL AL VOTO A MILES DE CIUDADANOS CATALANES RESIDENTES EN EL EXTRANJERO E INCLUSO PUEDE HABER MODIFICADO LOS RESULTADOS ELECTORALES DEFINITIVOS?</seg>
                <note>Número de expediente 180/001409</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u10" ana="#chair">
                <seg>Pregunta dirigida el señor ministro de Asuntos Exteriores y de Cooperación. Pregunta el diputado don Jordi Xuclà, del Grupo Catalán de Convergència i de Unió.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u11"
@@ -158,7 +156,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor ministro, el derecho de voto es un derecho fundamental de primer orden, esencial en un sistema democrático. En las elecciones del 27 de septiembre 21.771 catalanes del CERA pidieron el voto rogado. Solo pudieron votar 14.781. La negligencia e indolencia del servicio consular dejó a 6.990 votantes sin poder votar. Señor ministro, ¿piensa dimitir para asumir las responsabilidades políticas de esta violación masiva del derecho fundamental?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u12" ana="#chair">
                <seg>Muchas gracias, señor Xuclà.</seg>
                <seg>Señor ministro.</seg>
                <pb n="8"/>
@@ -169,7 +167,7 @@
                <seg>Señoría, niego rotundamente la mayor. Negligencia, ninguna. Profesionalidad y dedicación, todas. Nuestra red de consulados se ha puesto al servicio del ciudadano procurando que quien quiera votar pueda hacerlo dentro de la normativa vigente. Las incidencias registradas han sido mínimas; es más, desde la introducción del voto rogado, con su colaboración, estas elecciones han sido, con las andaluzas, aquellas donde más votos se han emitido en relación con la solicitudes, un 70,2 %, más que en las elecciones catalanas de 2012 -59 %- y que en las pasadas autonómicas -un 67 %-. ¿Estamos satisfechos? No. ¿Hay margen de mejora? Sí, por supuesto, pero atacar a quienes ponen su empeño en aplicar eficazmente el actual sistema que ustedes han aprobado no es, desde luego, el camino a seguir.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u14" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Xuclà.</seg>
             </u>
@@ -181,7 +179,7 @@
                <seg>Señor ministro, el año 2012 nos garantizó la plena operatividad del servicio exterior: negligencia, incompetencia, violación flagrante del Convenio Europeo de Derechos Humanos. Los tribunales lo decidirán. Mientras tanto, usted debería dimitir y asumir...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u16" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -194,7 +192,7 @@
                <note>Aplausos</note>
                <pb n="9"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u18" ana="#chair">
                <seg>Gracias, señor ministro.<note>El señor Macias i Arau pide la palabra</note> Señor Macias.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u19"
@@ -204,7 +202,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u20" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u20" ana="#chair">
                <seg>Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u21"
@@ -213,7 +211,7 @@
                <seg>Señor presidente, lo que he dicho es que la expresión de votar contra el Estado es inadmisible en un Estado de derecho.</seg>
                <note>Protestas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u22" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u22" ana="#chair">
                <seg>No, no. Señor ministro, tiene usted que contestar a las palabras que le ha planteado el diputado. ¿Retira usted la expresión: vaya usted al psiquiatra?</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u23"
@@ -222,7 +220,7 @@
                <seg>Estoy explicando la expresión, señor presidente...</seg>
                <note>Fuertes protestas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u24" ana="#chair">
                <seg>No, no. ¿La retira o la mantiene?</seg>
                <note>Un señor diputado: Respeta al presidente</note>
             </u>
@@ -233,7 +231,7 @@
                <seg>- DE LA DIPUTADA DOÑA MARÍA SORAYA RODRÍGUEZ RAMOS, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE JUSTICIA: ¿CREE EL MINISTRO DE JUSTICIA QUE HA CUMPLIDO LOS OBJETIVOS QUE SE PROPUSO EN SU ETAPA AL FRENTE DEL MINISTERIO?</seg>
                <note>Número de expediente 180/001413</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u26" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u26" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Justicia. Pregunta la diputada doña Soraya Rodríguez Ramos, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u27"
@@ -241,7 +239,7 @@
                ana="#regular">
                <seg>Señor ministro, ¿cree que ha cumplido con los objetivos que se ha propuesto usted al frente de su departamento?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u28" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -252,7 +250,7 @@
                <seg>Señoría, mañana hace un año que comparecí en la Comisión de Justicia de esta Cámara para exponer el plan de actuación durante un año y creo que hemos cumplido razonablemente con los proyectos que teníamos: desarrollar proyectos legislativos y mantener diálogo y consenso con los profesionales; en eso hemos estado trabajando durante este año y entiendo que con un balance razonablemente satisfactorio.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u30" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora diputada.</seg>
             </u>
@@ -262,7 +260,7 @@
                <seg>Señor ministro, para celebrar esto del año, hoy cuatro asociaciones de jueces y fiscales y la fiscal general del Estado, nombrada por su Gobierno, le están pidiendo que no ponga en marcha una reforma de la Ley de Enjuiciamiento Criminal porque, de hacerlo, lo que se consigue es favorecer la impunidad de los delitos de corrupción, de las grandes tramas de corrupción, ya que con la reforma de la Ley de Enjuiciamiento Criminal de su Gobierno no se podrían instruir ni conocer causas como la Gürtel, los papeles de Bárcenas o la de Rato. Eso es lo que le están diciendo hoy los fiscales. No ponga esa cara que se lo han dicho de forma clara. Y la fiscal general del Estado ha dicho que trabajará para que la impunidad que su Gobierno provoca no se produzca.<pb n="10"/> No es la primera vez que se lo dicen, se lo dijimos en este Congreso con la reforma del Código Penal, con la que ustedes favorecían la impunidad de determinados delitos de corrupción, bajando penas a los delitos de malversación y cohecho -lo cual corregimos otros grupos parlamentarios-; o mientras conocíamos la financiación ilegal de su partido, la del PP, con los papeles de Bárcenas, ustedes planteaban que solamente se fuera a la cárcel si se dona de forma ilegal por encima de 500.000 euros. Ninguna de las donaciones que se hicieron de forma ilegal a su partido superaba esa cantidad. Todo eso, señor ministro, mientras en su código, el que ha aprobado este año, estaban criminalizando el conflicto social, criminalizando derechos de reunión, de expresión, de manifestación, e imponiendo, eso sí, para los delitos ordinarios un incremento punitivo con la instauración de la cadena perpetua. ¿Es usted consciente, señor ministro, de que su nombre y el de Rajoy aparecerán en los libros de tratado de derecho penal junto al nombre del dictador Primo de Rivera?<note>Rumores</note> Dirán los libros: En 1928 se abolió la pena perpetua y en 2015 el Gobierno de Rajoy la restauró. ¿Es usted consciente de todo esto, de esta gestión? De una gestión que durante estos cuatro años ha hecho tres cosas: ha debilitado la justicia como servicio público, la ha privatizado siempre que ha podido y la ha instrumentalizado de forma burda a favor de intereses y objetivos políticos de su Gobierno, en este caso la impunidad de los delitos de corrupción de un Gobierno...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u32" ana="#chair">
                <seg>Muchas gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -273,7 +271,7 @@
                <seg>Señoría, solo desde la ignorancia o desde la mala fe se puede decir que la Ley de Enjuiciamiento Criminal promueve la impunidad. Léase el artículo 324.8, que dice que el mero transcurso del tiempo no llevará nunca al archivo de las causas. Solamente desde la ignorancia o desde la mala fe se puede alcanzar esa conclusión, señoría.</seg>
                <note>Aplausos.-La señora Rodríguez Ramos pronuncia palabras que no se perciben</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u34" ana="#chair">
                <seg>Señora Rodríguez, no es su turno.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -284,11 +282,11 @@
                <seg>Que una persona que sabe de derecho, como me consta de su señoría, hable de la cadena perpetua, otra vez más demuestra ignorancia o mala fe. La prisión permanente revisable no tiene nada que ver, como usted bien sabe, señoría, con la cadena perpetua. En todo caso, como se apoyan los servicios públicos es dotándoles de medios y de financiación suficiente. Nosotros hemos creado 382 plazas de jueces el pasado mes de octubre, 66 plazas de fiscales, 4.000 plazas de funcionarios convocadas y un presupuesto del año 2016 que incrementa el 7,23 % el presupuesto de justicia. Se hacen las cosas dotando de medios y no simplemente haciendo discursos. Han aprobado sus señorías catorce leyes en los últimos doce meses, cuesta leerlas seguramente, pero un poquito más de estudio y un poquito más de rigor y entonces podremos debatir con contenidos lo que las reformas traen consigo, que es una justicia más ágil y una justicia cercana al ciudadano. Fíjense en cómo los profesionales las están valorando y las están apreciando. Entiendo que ustedes tengan que criticarlo todo, que ustedes tengan que negarle al Gobierno todas las reformas efectuadas, pero si usted sale a la calle y habla con abogados, con procuradores, con jueces, con fiscales, con notarios y con registradores seguramente apreciará lo que están diciendo, que están valorando las medidas adoptadas. Seguramente, que estemos llegando a un proceso preelectoral trae consigo que haya que negarle todo al Gobierno, pero, seguramente también, el tiempo, como usted muy bien ha dicho, reconocerá cuáles han sido las reformas que se han adoptado...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u36" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u36" ana="#chair">
                <seg>Muchas gracias, señor ministro.<pb n="11"/> - DEL DIPUTADO DON JOSÉ MARTÍNEZ OLMOS, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿CREE NECESARIA UNA NORMA ESTATAL QUE GARANTICE EL DERECHO A UNA MUERTE DIGNA EN ESPAÑA?</seg>
                <note>Número de expediente 180/001420</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u37" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Sanidad, Servicios Sociales e Igualdad. La formula el diputado don José Martínez Olmos, del Grupo Parlamentario Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u38"
@@ -297,7 +295,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, ¿cree necesaria una norma estatal que garantice el derecho a una muerte digna en España?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u39" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u39" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -308,7 +306,7 @@
                <seg>Es necesario que haya una norma estatal que dé cobertura y garantice la atención adecuada en la última fase de la vida y, por tanto, a morir con dignidad, y creo que ya existe. En ese sentido, la Ley 41/2002, de Autonomía del Paciente, incluye las garantías para morir con dignidad, para que nadie sea obligado a recibir un tratamiento innecesario y también incluye el derecho a los cuidados paliativos para realizar un tránsito adecuado.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u41" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u41" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Martínez Olmos.</seg>
             </u>
@@ -320,7 +318,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u43" ana="#chair">
                <seg>Muchas gracias, señor Martínez Olmos.</seg>
                <seg>Señor ministro.</seg>
                <pb n="12"/>
@@ -333,12 +331,12 @@
                <seg>Respecto de su ley, ustedes siempre presentan ese proyecto de ley cuando saben que no se va a aprobar. Lo presentaron en junio de 2011, cuando se iban a ir de estampida, y lo presentan siempre que no tienen mayoría para sacarlo adelante, pero durante ocho años no lo hicieron. Por algo será, señor Olmos.</seg>
                <note>Un señor diputado: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u45" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u45" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON EMILIO OLABARRÍA MUÑOZ, DEL GRUPO PARLAMENTARIO VASCO<note>EAJ-PNV</note> , QUE FORMULA AL SEÑOR MINISTRO DEL INTERIOR: ¿CÓMO VALORA EL DESAGUISADO HABIDO ENTRE EL GOBIERNO, LA DIRECCIÓN DEL PP Y EL PP DEL PAÍS VASCO ACERCA DE LA PROPUESTA DE ESTE ÚLTIMO SOBRE PACIFICACIÓN Y CONVIVENCIA?</seg>
                <note>Número de expediente 180/001410</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u46" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro del Interior. En primer lugar, pregunta del diputado don Emilio Olabarría, del Grupo Vasco, PNV.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u47"
@@ -347,7 +345,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor ministro, ¿cómo valora el desaguisado producido entre el Gobierno que usted representa, la dirección del Partido Popular y la dirección del Partido Popular en Euskadi acerca de la propuesta de este último sobre pacificación y convivencia?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u48" ana="#chair">
                <seg>Gracias, señor Olabarría.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -358,7 +356,7 @@
                <seg>Como cuestión previa, quiero señalar que aquí no se controla a los partidos políticos, sino al Gobierno, por lo que voy a responder en nombre del Gobierno.<note>Aplausos</note> Y por supuesto los calificativos se los dejo a su señoría; no los hago míos, como es evidente, sino todo lo contrario. En todo caso, le diré que la posición del Gobierno, del grupo parlamentario que apoya al Gobierno, del partido del Gobierno y por supuesto del Partido Popular del País Vasco es absolutamente inequívoca y rotunda en su condena del terrorismo de ETA. Y como su señoría ha hablado de plan de convivencia y pacificación, le diré que no estamos en un proceso de pacificación, no estamos en un proceso de paz; estamos en un proceso de liquidación del terrorismo, que es distinto.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u50" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u51"
@@ -370,7 +368,7 @@
                <seg>Ustedes se han vuelto a colocar en Euskadi con este desaguisado al que me refería en la pregunta en una situación de partido absolutamente prescindible en relación con la pacificación, en relación con la normalización y en relación con la convivencia; absolutamente prescindible. Yo no sé qué les pasa; si tienen querellas internas, si no hablan entre ustedes, si el Partido Popular en Euskadi pinta algo ante la hegemonía del Partido Popular español... No sé qué les pasa. En todo caso, si usted no está interesado en la reconciliación, en la normalización y en la convivencia, al margen de ustedes y sin ustedes lo haremos nosotros y lo harán los demás partidos con la compañía de la sociedad vasca.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u52" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u52" ana="#chair">
                <seg>Gracias, señor Olabarría.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u53"
@@ -381,12 +379,12 @@
                <seg>Si quiere le hablo del Partido Popular del País Vasco y le digo, desde Gregorio Ordóñez hasta el último, cuántos han dado la vida por no comulgar con las ideas de los terroristas.<note>Rumores</note> ¿Está claro?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u54" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u54" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA ISABEL RODRÍGUEZ GARCÍA, EN SUSTITUCIÓN DE LA DIPUTADA DOÑA MERITXELL BATET LAMAÑA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DEL INTERIOR: ¿CONSIDERA EL MINISTRO DEL INTERIOR QUE HA FAVORECIDO DURANTE SU MANDATO EL EJERCICIO DE LOS DERECHOS FUNDAMENTALES Y LIBERTADES PÚBLICAS?</seg>
                <note>Número de expediente 180/001416</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u55" ana="#chair">
                <seg>Pregunta de la diputada doña Isabel Rodríguez García, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u56"
@@ -395,7 +393,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>Señor ministro, me gustaría que nos hiciera un balance de su mandato y la valoración que hace de si se han respetado los derechos fundamentales y hemos avanzado en libertades públicas.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u57" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
                <pb n="14"/>
@@ -406,7 +404,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señoría, a juicio de los ciudadanos españoles; a juicio de la Oficina Estadística de la Unión Europea, Eurostat; y a juicio de los millones de turistas que nos visitan hemos avanzado en seguridad y por tanto hemos avanzado en libertad. Se lo digo porque los ciudadanos españoles califican a quienes tienen encomendada la función de velar por nuestros derechos fundamentales y libertades públicas, que son las fuerzas de seguridad, como las dos instituciones más valoradas por los españoles. Los millones de turistas que nos visitan dicen que una de las razones por las que eligen a España como destino turístico es por su seguridad. La Oficina Estadística de la Unión Europea, Eurostat, determina que España es el tercer Estado de la Unión Europea con la tasa más baja de criminalidad o, lo que es lo mismo, con mayor nivel de seguridad. Por tanto, es evidente que no puedo decir más que, gracias a la labor de los Fuerzas y Cuerpos de Seguridad, en España estamos avanzando efectivamente en la seguridad y, como somos un Estado democrático, en la libertad y en el respeto de los derechos fundamentales y las libertades públicas de los ciudadanos. Así lo dicen los datos y así opinan los ciudadanos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u59" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora diputada.</seg>
             </u>
@@ -417,7 +415,7 @@
                <seg>A lo largo de estos tres años usted ha hecho este tipo de declaraciones: el matrimonio homosexual no garantiza la pervivencia de la especie, el aborto tiene algo que ver con ETA, o el que no quiera devoluciones en caliente que se lleve a los inmigrantes a su casa. Señor ministro, dice el evangelio según San Mateo que por sus frutos los conoceréis, y estas declaraciones son sus frutos.<note>Rumores</note> ¿Qué podríamos pensar de un ministro del Interior que hace este tipo de declaraciones? Pues que es un ministro retrógrado de un Gobierno autoritario o un ministro autoritario de un Gobierno retrógrado; el árbol y el fruto. ¿Qué les molesta a ustedes? ¿Que la gente se ame en libertad? ¿Les molesta que las mujeres podamos decidir sobre nuestro propio cuerpo y nuestra maternidad? ¿Les molesta que los seres humanos, por el hecho de ser humanos, tengamos derechos? ¿Les molesta eso? ¿O lo que les molesta es que la gente que piensa esto pueda salir a reunirse y a manifestarse libremente para comunicar estas ideas diferentes a las suyas? Créame, señor ministro, llego a la conclusión, por sus actos, de que a usted le molestan ambas cosas. Por eso han querido amordazar a la sociedad española, han querido callarnos con esa ley mordaza, pero le digo una cosa, la sociedad española no se calla y no hay mordaza que pueda parar la fuerza de los votos. El pueblo español hablará en las urnas en unos meses y ahí verá el resultado de su gestión.</seg>
                <note>Rumores.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u61" ana="#chair">
                <seg>Gracias, señora Rodríguez.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -429,12 +427,12 @@
                <seg>Hoy hace ciento siete días que ha entrado en vigor la nueva Ley Orgánica sobre Protección de la Seguridad Ciudadana. Les he emplazado en varias ocasiones en las que me han preguntado sobre ella a que me digan un derecho fundamental -solo uno- o una libertad pública -solo una- que se haya visto afectada o reducida por esa ley. Estoy esperando su respuesta. Ustedes se dedican a poner eslóganes y a hacer titulares de brocha gorda, pero sin ningún contenido. Se lo vuelvo a repetir, señoría, porque todavía está a tiempo algún colega suyo, ya que a usted se le ha agotado el tiempo. Han transcurrido ciento siete días de vigencia de la ley y le diré que en esos ciento siete días se ha producido una disminución del 27 % de las retenciones policiales, que ahora están reguladas jurídicamente con absoluta precisión y<pb n="15"/> adecuación a la jurisprudencia del Tribunal Constitucional en la nueva ley. Sí, se han incrementado algunas cosas, por ejemplo, las actas por consumo y tenencia de drogas en la vía pública o por demandar o recibir prestación de servicios sexuales en las proximidades de centros frecuentados por menores. Eso sí que ha aumentado y aquello sí que se ha reducido, pero no los derechos y las libertades. Por lo demás, señoría, le diré que en España, en esta legislatura, por si no lo sabe, se han producido 120.000 manifestaciones. No hay ninguna democracia en el mundo en la que se realicen...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u63" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON FELIPE JESÚS SICILIA ALFÉREZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DEL INTERIOR: ¿MANTIENE EL MINISTRO DEL INTERIOR, TRAS LAS RECIENTES ACTUACIONES JUDICIALES, QUE SU REUNIÓN CON RODRIGO RATO ESTUVO JUSTIFICADA?</seg>
                <note>Número de expediente 180/001417</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u64" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro del Interior, que formula el diputado don Felipe Sicilia, del Grupo Parlamentario Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u65"
@@ -445,7 +443,7 @@
                <seg>Ante esto, señor ministro, yo le pregunto: ¿con cuántas personas detenidas por blanqueo de capitales y alzamiento de bienes se reúne usted en su despacho?<note>Varios señores diputados: Ahí, ahí</note> ¿Cuántos imputados por delitos fiscales, blanqueo y corrupción entre particulares suele usted recibir en el Ministerio del Interior? Señor Fernández, ¿puede usted mantener que su reunión con Rodrigo Rato está justificada tras saberse que los tuits, a los que usted hacía mención y decía que justificaban esa reunión, no han supuesto ningún tipo de delito y que la Policía ni tan siquiera los ha llevado a la autoridad judicial porque no había indicios de delito alguno?</seg>
                <note>Aplausos.-Varios señores diputados: ¡Muy bien!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u66" ana="#chair">
                <seg>Gracias, señor Sicilia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -456,7 +454,7 @@
                <seg>Señoría, efectivamente, el pasado 14 de agosto comparecí en la Comisión de Interior. Aquí está el 'Diario de Sesiones'; cuarenta y cuatro páginas explican absolutamente la realidad de lo que allí sucedió. Otra cosa es que a ustedes no les gustara porque la realidad no se adecuaba a lo que ustedes querían. Prueba de ello es que antes de escucharme presentaron una denuncia ante la Fiscalía General del Estado que la Fiscalía del Tribunal Supremo archivó sin dilación por considerar que era nada más y nada menos que una denuncia prospectiva y carente de todo fundamento fáctico. A partir de ahí, sé perfectamente que ustedes lo que quieren es construir un relato que les vaya bien porque están en campaña electoral y yo no voy a contribuir a eso, señoría.</seg>
                <note>Aplausos.-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u68" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Ruego silencio, por favor.</seg>
                <seg>Señor Sicilia.</seg>
@@ -468,7 +466,7 @@
                <seg>Señor ministro, quiere usted hacer normal lo que no es normal. Normal es que la Guardia Civil cite a un imputado a declarar. Lo que no es normal es que usted cite a un imputado para verse con él en su despacho. Lo normal, señor ministro, es que usted se vea con asociaciones de mujeres víctimas de violencia machista para ver qué medios hacen falta, pero no que usted se cite con los maltratadores, ¿verdad, señor ministro? Lo normal es que usted se vea con asociaciones de inmigrantes para que le expliquen cómo están en nuestro país los CETI, pero no es normal que usted se reúna con aquellos que están llevando a esas personas a través del tráfico ilegal de personas. Lo normal, señor ministro, es que usted se reúna con las víctimas, pero no con los delincuentes. Y lo que no puede entender nadie, señor ministro, es que los mismos policías y guardias civiles que están investigando vieran cómo el señor Rato pasaba por las puertas hacia su despacho. Su reunión debería de haber supuesto su cese fulminante, y<pb n="16"/> si a usted el presidente del Gobierno no le cesó es porque, seguramente, ya no se fiaba de mandar un SMS y confió en usted para tranquilizar al señor Rato. Rodrigo, sé fuerte, hacemos lo que podemos.<note>Risas.-Un señor diputado: ¡Bien!</note> Señor ministro, también el señor Bárcenas, al igual que Rato, fue una autoridad del Estado. También el señor Bárcenas, como el señor Rato, ha recibido amenazas a través de Twitter. También el señor Bárcenas, como el señor Rato, fue del Partido Popular y también está imputado por corrupción. Si le pide una cita el señor Bárcenas, ¿se la va a dar, señor ministro?</seg>
                <note>Varios señores diputados: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u70" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -479,7 +477,7 @@
                <seg>Señoría, en política no vale todo. No vale todo.<note>Rumores</note> Sí, sí, no vale todo. Y no crea que me impresionan sus palabras. Como dije anteriormente, comparecí aquí cuatro horas y media hace ya un tiempo, el 14 de agosto. A lo mejor se sorprenderían ustedes si les dijera a quién había recibido yo, por ejemplo, no alejado de sus filas, y no por estar imputado por delitos sino habiendo cumplido condena por delitos en la cárcel.<note>Rumores</note> Las cuestiones que hacen referencia a valoración de riesgos y protección de personas le corresponden a la Secretaría de Estado de Seguridad y, por su propia naturaleza y legalmente, están clasificadas como materia reservada. Por tanto, tengo que ser especialmente prudente cuando hablo de según qué cosas, cosa que usted no lo es, aunque por profesión...</seg>
                <note>Rumores.-La señora Ramón Utrabo pronuncia palabras que no se perciben</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u72" ana="#chair">
                <seg>Señora Ramón, le llamo al orden.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u73"
@@ -488,7 +486,7 @@
                <seg>Repito, aunque por profesión debería usted ser más prudente y hablar con más conocimiento de causa de cuestiones que afectan a la seguridad de las personas.<note>Un señor diputado: Siempre da el toquecito</note> Usted habla como diputado y yo me refiero a su profesión.<note>Un señor diputado: Es diputado</note> Yo soy ingeniero industrial y soy diputado, ¿está claro?<note>El señor Trevín Lombán: Y más cosas</note> Señor presidente, pido el amparo de la Presidencia porque no puedo hablar así.</seg>
                <note>Rumores.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u74" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u74" ana="#chair">
                <seg>Señorías, por favor, ruego silencio. Cuando termine de hablar el ministro hay un momento para exteriorizar sus sentimientos favorables o desfavorables.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -499,12 +497,12 @@
                <seg>Es que no es una pregunta ordinaria. Se han hecho acusaciones gravísimas; que si el ministro del Interior, en lugar de reunirse con las víctimas de los delitos, lo que está haciendo es amparar a los delincuentes, y ha hecho una retahíla de presuntos delincuentes o de tipificación de conductas delictivas. Es muy grave lo que usted ha dicho y no se lo acepto. La libertad de expresión no le permite a usted hacer esa acusación, aunque sea en el Congreso de los Diputados. ¿Está claro?<note>Aplausos.-Rumores.-Una señora diputada pronuncia palabras que no se perciben</note> A partir de ahí, señoría, me reitero en lo que dije en la comparecencia que, insisto, está recogido aquí en 44 páginas. Esa información se publicó el sábado 8 de agosto y el viernes 14 de agosto yo estaba compareciendo. El día anterior me denunciaron ante la Fiscalía General del Estado. Ya les contestó la Fiscalía del Tribunal Supremo. Me remito a lo que dije y a lo que les ha dicho la Fiscalía del Tribunal Supremo en relación con sus...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u76" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON JUAN LUIS GORDO PÉREZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA MINISTRA DE FOMENTO: ¿QUÉ OBJETIVO BUSCA EL GOBIERNO CON LA PRIVATIZACIÓN DE SERVICIOS PÚBLICOS ESTRATÉGICOS?</seg>
                <note>Número de expediente 180/001418</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u77" ana="#chair">
                <seg>Pregunta dirigida a la señora ministra de Fomento. La formula el diputado don Juan Luis Gordo, del Grupo Socialista.</seg>
                <pb n="17"/>
             </u>
@@ -516,7 +514,7 @@
                <seg>Señora ministra, usted ha puesto en manos del capital privado el 49 % de AENA, capital que estaba dispuesta a ampliar hasta el 60 % -no lo hizo porque las expectativas electorales se lo impidieron-, y en estos momentos en los que expira la legislatura está impulsando con fuerza la liberalización del corredor de Levante como paso previo a la venta de Renfe. Así se lo piden también algunos antiguos compañeros de Gobierno, como el señor Piqué. Señora ministra, ¿qué objetivo persigue usted con la privatización de los servicios esenciales de Fomento?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u79" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -527,7 +525,7 @@
                <seg>Muchas gracias, señor Gordo. La ministra que le habla, desde el primero hasta el último día en que tenga responsabilidad de Gobierno, va a defender, como ha hecho siempre, los servicios públicos y los servicios de interés general. Invertir más de 44.000 millones en mejorar los servicios de transporte, destinar recursos para que hoy haya 800 kilómetros más de carreteras y más de 500 de alta velocidad, y tener hoy, como sabe, obligaciones de servicio público que financia el Estado por valor de más de 6.500 millones. Como usted sabe, de cada euro que paga el ciudadano cuando saca un billete de tren de cercanías o de media distancia, el Estado pone otro euro. Eso es defender los servicios públicos.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u81" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
                <seg>Señor Gordo.</seg>
             </u>
@@ -538,7 +536,7 @@
                <seg>Señora ministra, usted está siguiendo en el proceso de privatizaciones la senda que marcó el vicepresidente Rato, está siguiendo la misma senda; una senda de...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u83" ana="#chair">
                <seg>Muchas gracias, señor diputado.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -549,12 +547,12 @@
                <seg>Muchas gracias, señor Gordo. Parece paradójico que usted, que como senador fue quien defendió la Ley de Seguridad Aérea el 9 de febrero de 2011, cuando ustedes -tras un acuerdo con los nacionalistas- pensaban privatizar el 90 % del Aeropuerto de El Prat y del Aeropuerto de Madrid-Barajas, hoy Adolfo Suárez, dijera -cito textualmente-: El soporte financiero del nuevo modelo -el que era el 90 % de privatización- es un modelo que va a impulsar la eficiencia y la competitividad. Señoría, ustedes no pueden venir aquí a dar lecciones a nadie, primero porque ustedes dejaron la compañía AENA en la ruina más absoluta, con un déficit de caja de menos 400 millones. Y hay algo que no sabe esta Cámara ni los españoles y es que habían pedido ustedes un informe a una consultora, que costó 330.000 euros, que entregaron en el mes de diciembre, cuando estaban ustedes en funciones, que decía que la compañía en aquel momento valía menos de 3.000 millones de euros. Señoría, eso deben saberlo todos y cada uno de los españoles. Los españoles deben saber que hoy, gracias a los cambios que hay en AENA, esa compañía va bien, los aviones llegan a tiempo y con los horarios cumplidos; tienen que saber que hoy la compañía tiene beneficios, y que hoy a los ciudadanos les cuesta cero euros. Como tienen que saber que está<pb n="18"/> creciendo el tráfico, del mismo modo que crece el tráfico ferroviario. La línea de Vigo a A Coruña, tan criticada, ha tenido ya 1.470.000 viajeros. Los datos y los números cantan. Menos cuentos, señoría, y más cuentas, que es lo que ustedes no supieron hacer.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u85" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
                <seg>- DE LA DIPUTADA DOÑA MARÍA ISABEL LÓPEZ I CHAMOSA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE ECONOMÍA Y COMPETITIVIDAD: ¿CÓMO PIENSA EL GOBIERNO TRANQUILIZAR A LOS POSIBLES AFECTADOS POR LA MANIPULACIÓN DE LAS EMISIONES DE GASES CONTAMINANTES EN LOS MOTORES DE VOLKSWAGEN?</seg>
                <note>Número de expediente 180/001405</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u86" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Industria, Energía y Turismo. Pregunta, en primer lugar, la diputada doña Isabel López i Chamosa, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u87"
@@ -563,7 +561,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Soria, le doy la bienvenida a este debate y a este Pleno de control, dada su larga ausencia. Le pido que me conteste a la pregunta que hemos tenido que formular al ministro de Economía para garantizarnos que tuviéramos una contestación.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u88" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -573,7 +571,7 @@
                <seg>¿Señoría, me puede decir usted a lo que se refiere?</seg>
                <note>Rumores.-Varios señores diputados: ¡Léalo!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u90" ana="#chair">
                <seg>Señora López i Chamosa.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u91"
@@ -584,7 +582,7 @@
                <seg>Señor ministro, haga caso a los sindicatos y al comité de empresa, ya que ellos entienden el sector del automóvil. Anote sus propuestas, que son propuestas de responsabilidad, para garantizar el futuro de un sector vital para la economía española. Señor ministro, tome nota de lo que le propuso mi compañero Matías Carnero y haga la carta diciéndole a la empresa cuánto está dispuesto a invertir en innovación y desarrollo. Y, por favor, señor ministro, no diga más que las inversiones están garantizadas; ayúdenles a mantener las ventas. Por último, señor ministro, ¿me podría decir con qué agencia de viajes viaja usted para ver si consigo precios tan bajos como los suyos?</seg>
                <note>Un señor diputado: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u92" ana="#chair">
                <seg>Muchas gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -595,7 +593,7 @@
                <seg>La cuestión por la que usted se interesa saltó el 19 de septiembre como consecuencia de una denuncia que puso la agencia americana de protección medioambiental contra el grupo Volkswagen. El motivo fue porque este grupo, tal como ha reconocido, a lo largo de los últimos cinco años ha colocado un software en determinados motores de vehículos, concretamente en los conocidos como...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u94" ana="#chair">
                <seg>Ruego silencio. Señor Pérez Moya, usted, que es de otro grupo, por favor...</seg>
                <pb n="19"/>
             </u>
@@ -607,12 +605,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u96" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA MARÍA GONZÁLEZ VERACRUZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE INDUSTRIA, ENERGÍA Y TURISMO: ¿CONSIDERA EL MINISTRO DE INDUSTRIA, ENERGÍA Y TURISMO QUE CUMPLE CON LOS PRINCIPIOS DE BUEN GOBIERNO?</seg>
                <note>Número de expediente 180/001419</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u97" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Industria, Energía y Turismo, que formula la diputada doña María González Veracruz, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u98"
@@ -622,7 +620,7 @@
                <seg>¿Puede usted afirmar como ministro de Industria, Energía y Turismo que cumple con los principios de buen gobierno de la Ley de Transparencia, en concreto el artículo 26? ¿Puede afirmar que mantiene el principio de imparcialidad, garantizando criterios independientes y ajenos a todo interés particular, también el del Partido Popular? ¿Puede garantizar que no acepta regalos que superen los usos habituales y que condicionen el desarrollo de sus funciones? ¿O puede garantizar otro de los puntos que dice que no se valdrá de su posición en la Administración para obtener ventajas personales, señor ministro?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u99" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -632,7 +630,7 @@
                <seg>Puedo garantizarle al cien por cien, y si fuera preciso incluso más, que todos y cada uno de los principios que están recogidos en el artículo 26 de la Ley de Transparencia del año 2013, relativos al buen gobierno, todos y cada uno de ellos, los he cumplido siempre con absoluto escrúpulo, particularmente aquellos a los que usted hace mención y de una manera singular todos aquellos que tienen que ver con la toma de decisiones, buscando siempre el interés general, nunca el interés privado ni el interés particular.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u101" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señora diputada.</seg>
             </u>
@@ -643,7 +641,7 @@
                <seg>Señor ministro, ha incumplido usted prácticamente todo el artículo 26 de la Ley de Transparencia que su propio Gobierno aprobó. Es usted exactamente el modelo de mal político ante el que la ciudadanía se revela y el Partido Socialista también. Es usted el modelo de político que en lugar de venir aquí a la sesión de control -es el segundo ministro que menos ha venido a sesión de control, después del ministro de Asuntos Exteriores y Cooperación- a dar la cara usted sabrá en qué está, y espero que dé explicaciones al respecto. En lugar de dar ejemplo está usted sacando beneficio propio de su posición, y está usted<pb n="20"/> constantemente con sus medidas políticas beneficiando a unos pocos frente al interés general, y buena prueba de ello es el apagón de las renovables y el impuesto al sol que aprobaron el otro día. Pero entremos en materia, ¿cómo ha podido usted afirmar eso cuando han aprobado la concesión de seis canales de la TDT a las televisiones, han adjudicado licencias a dos meses, a tan solo setenta y dos días de las elecciones generales? Ya dijo Mariano Rajoy que el problema que tenían era precisamente el de las televisiones, y usted a última hora intenta resolverlo. Pero le digo que por muchos pactos de silencio que hagan con Bárcenas, por muchos pactos de silencio que hagan con Rato, por mucho que intenten acallar a las televisiones no lo van a conseguir, porque su problema no son las televisiones, señor Soria, su problema es la corrupción que les tiene hasta aquí, y su mala política, como la que usted está demostrando. Le pregunto: ¿considera usted que cualquier ciudadano tiene acceso a una suite presidencial con todo incluido, de lujo, por 70 euros o por 140, como dice su resguardo, que no factura? ¿Va usted a presentar la factura por las noticias de eldiario.es que demuestren que lo que usted dice no es verdad, como nosotros defendemos? ¿Puede usted defender que no le crea ningún conflicto de intereses que su amiguete empresario de Canarias le esté regalando las vacaciones allí, al otro lado del charco, pero también en Canarias en un hotel que está pendiente de su cierre, y que además tiene que ver con sus competencias como ministro de Industria? ¿Le parece a usted cumplir...?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u103" ana="#chair">
                <seg>Muchas gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -654,13 +652,13 @@
                <seg>En el escrito de demanda demuestro que no estuve invitado una semana en el hotel<note>La señora González Veracruz: Cuatro días</note> , que pagué. Perdone un momento, ni una semana ni cuatro días, y usted lo sigue afirmando cuando he reiterado al tribunal que eso es totalmente falso. Usted ha demostrado aquí en esta Cámara que se pone del lado de los delincuentes, pero no de los presuntos<note>Aplausos.-Un señor diputado: Sí.-Protestas</note> , sino de aquellos que están condenados por una sentencia firme de calumnias e injurias. Dé usted cuentas por eso.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u105" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>- DE LA DIPUTADA DOÑA M ª OLAIA FERNÁNDEZ DAVILA, DEL GRUPO PARLAMENTARIO MIXTO, QUE FORMULA A LA SEÑORA MINISTRA DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE: ¿POR QUÉ RAZÓN EL MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE HA ESCOGIDO UN MÉTODO PARA FIJAR EL UMBRAL DE PRECIOS PARA PODER ACCEDER A LAS AYUDAS DIRECTAS POR LA CRISIS DEL SECTOR LÁCTEO QUE EXCLUYE A MÁS DEL 50 % DE LAS EXPLOTACIONES LÁCTEAS DE GALICIA, EL SECTOR QUE PERCIBE LOS PRECIOS DE LA LECHE EN ORIGEN MÁS BAJOS DEL ESTADO?</head>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u106" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u106" ana="#chair">
                <seg>Pregunta dirigida a la señora ministra de Agricultura, Alimentación y Medio Ambiente. Pregunta la diputada doña Olaia Fernández Davila, del Grupo Mixto.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u107"
@@ -670,7 +668,7 @@
                <seg>Señora ministra, ¿cuáles han sido los criterios barajados por su Gobierno para establecer unas ayudas al sector lácteo que dejan fuera al 50 % de los ganaderos gallegos?</seg>
                <pb n="21"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u108" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u108" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -681,7 +679,7 @@
                <seg>Aparte de que su afirmación no es cierta, quiero decirle que todos, absolutamente todos los ganaderos de leche españoles recibirán ayudas para paliar la coyuntura del mercado que viene padeciendo el sector lácteo. Y todos y cada uno de los ganaderos que más han sufrido la caída de precios además recibirán una ayuda complementaria; la mayoría de ellos son gallegos.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u110" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>Señora Fernández Davila.</seg>
             </u>
@@ -692,7 +690,7 @@
                <seg>Señora ministra, usted dice que lo que nosotros decimos no es cierto, pero no me aclara por qué no es cierto; no me dice cuáles son los criterios que efectivamente ustedes han manejado. Nosotros entendemos que es totalmente inadmisible, que no se puede comprender que un Gobierno establezca unas ayudas en las que, como en este caso, para que los ganaderos gallegos puedan acceder a las mismas han tenido que vender la leche a menos de 24 céntimos, mientras que ganaderos del resto del Estado pueden acceder a las mismas cuando la han vendido a menos de 31 céntimos. Eso es una discriminación clarísima a un sector lácteo en Galicia que usted sabe que es fundamental para la supervivencia de nuestro sector agrario. Además, señora ministra, estas ayudas se establecen dentro de unos acuerdos que ustedes han firmado -y se han felicitado muchísimo por la firma de los mismos- sin que el 50 % del sector, de las organizaciones productoras los hayan firmado, porque no resuelve el problema del sector lácteo. Además, personas del sector de la industria que sí lo han firmado lo definen incluso como un acuerdo que solo vale para la foto, porque no establece, como reclaman los ganaderos, un precio de referencia de la leche en origen. Es voluntario, es decir, lo puede llevar a cabo quien quiera voluntariamente, y aquellos que en este momento -es un momento de propaganda- van a llevarlo a cabo, mañana dejarán de hacerlo, y no hay nada que lo impida ni ninguna medida sancionadora para que se cumplan estas medidas.</seg>
                <seg>Señora ministra, ustedes no han entendido las movilizaciones del sector ganadero en Galicia; no han entendido que cuando tantos miles de ganaderos se movilizan, dejando su tiempo, dejando su trabajo, dejando su dinero, que no producen durante esos días de movilización, es porque no pueden soportar esta situación de sus explotaciones agrarias que están al límite. Usted sabe que a estas alturas en Galicia hay seiscientas explotaciones menos que a principios de este año...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u112" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -704,12 +702,12 @@
                <seg>Le recuerdo, señoría, que en el año 2009 el sector vivió su peor crisis. Cerraron 4.000 explotaciones. Entonces se negociaron menos de la mitad de los fondos comunitarios de ahora y hubo cero presupuesto nacional de apoyo al sector lácteo. Además hay una amplia batería de medidas. Usted ha ridiculizado un acuerdo importante, pero yo le voy a decir que pedimos la colaboración de todos los agentes de la cadena,<pb n="22"/> y yo hoy vuelvo a agradecer el esfuerzo de todos los que quisieron contribuir a trabajar con nosotros en apoyo del sector lácteo. Fueron muchos, muchísimos -la mayoría- los que se sumaron a nuestro acuerdo, que va a favorecer a todos los ganaderos lácteos españoles, al margen de quién haya decidido o no sumarse al trabajo del Gobierno. Señoría, hay que mantenerse siempre dentro de la legalidad. Dedicarse a prometer cosas inviables, dedicarse a prometer cosas que están fuera de nuestro ordenamiento jurídico, como que un acuerdo voluntario tenga un régimen de sanciones, que según indica la Constitución solo puede ir por ley, no es ayudar al sector. Por tanto le invito a que deje de centrar su tiempo en confundir al sector...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u114" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>- DEL DIPUTADO DON JOAN COSCUBIELA CONESA, DEL GRUPO PARLAMENTARIO DE IU, ICV-EUIA, CHA: LA IZQUIERDA PLURAL, QUE FORMULA AL MINISTRO DE ECONOMÍA Y COMPETITIVIDAD: ¿QUÉ PIENSA HACER EL GOBIERNO ANTE LA DENUNCIA DE FALTA DE CREDIBILIDAD DE LOS PRESUPUESTOS GENERALES DEL ESTADO DE 2016 FORMULADA POR LA UNIÓN EUROPEA?</seg>
                <note>Número de expediente 180/001407</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u115" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u115" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Economía y Competitividad. Pregunta, en primer lugar, el diputado don Joan Coscubiela, de La Izquierda Plural.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u116"
@@ -718,7 +716,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Montoro, con su jugada de dejar atados y bien atados los presupuestos, nos ha llevado usted a un esperpento total. ¿Por qué no actúan con dignidad y retiran ya estos presupuestos tramposos?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u117" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u117" ana="#chair">
                <seg>Gracias, señor Coscubiela, pero le recuerdo que usted está preguntando al señor De Guindos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u118"
@@ -726,7 +724,7 @@
                ana="#regular">
                <seg>Perdón, señor presidente. No me había dado cuenta de que el señor Montoro no estaba. Debe haberse escondido en alguno de esos cubiletes.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u119" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u119" ana="#chair">
                <seg>No, es que su pregunta es para el ministro de Economía y Competitividad, que es el que le va a contestar.<note>Rumores</note> Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u120"
@@ -735,7 +733,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Si no le importa, señor Coscubiela, le contesto yo. En primer lugar, la Comisión Europea lo que ha hecho ha sido adoptar opinión sobre el plan presupuestario para el año próximo. Entre otras cuestiones indica que nuestras previsiones son viables, pero que hay un riesgo de no cumplimiento del déficit, tanto este año como el próximo. Esto no es algo novedoso, ha ocurrido en otras ocasiones, y el tiempo siempre nos acaba dando la razón. España va a cumplir este año 2015 su objetivo de déficit público, el 4,2 %; el comportamiento de los ingresos presupuestarios es muy positivo, están creciendo al 7 %, por encima de lo presupuestado. Por otro lado, también tenemos una serie de gastos que se están corrigiendo, desde el punto de vista de su evolución, y van mejor de lo que habíamos proyectado, tanto en intereses de la deuda como en el tema del desempleo. Nuestra credibilidad está en que somos la economía de la zona euro que más crece entre las grandes, y eso se debe fundamentalmente a dos factores: en primer lugar, a que somos competitivos, y en segundo lugar, a que hemos recuperado los flujos de crédito. No tenga usted la más mínima duda de que cumpliremos con el objetivo de déficit.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u121" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Coscubiela.</seg>
             </u>
@@ -745,7 +743,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor De Guindos, no tengo ningún interés en discutir con usted quién tiene menos credibilidad fiscal, quién hace más trampas, si el señor Rajoy, el de la amnistía a defraudadores y evasores fiscales, o el señor Juncker, el de las ayudas a las multinacionales para no pagar impuestos en Europa. La realidad es otra. Ustedes, año tras año, presentan unos presupuestos tramposos: tienen que presentar cada año ampliaciones de créditos para gastos de defensa. Hacen previsiones ficticias de ingresos. En los ocho<pb n="23"/> primeros meses de este año las cotizaciones a la Seguridad Social han aumentado solo el 1,5 %, mientras ustedes previeron el 6,8 %, y eso supone muchos millones de euros menos. Mientras, ustedes están haciendo regalos en forma de tarifas planas, de exenciones en las cotizaciones, que cuestan a la Seguridad Social 1.000 millones de euros que están pagando los pensionistas. En los ocho primeros meses del año los ingresos tributarios de este país han subido solo un 5 %, mucho menos de lo que ustedes previeron para el presupuesto de 2015. Mientras, hacen regalos fiscales con intereses electorales por importe de 3.900 millones de euros, que benefician fundamentalmente a las rentas más altas. Y sobre todo aplican ustedes una política en la que todo su mérito es ajuste en gasto fiscal y asfixia a comunidades autónomas y administraciones locales. Todo su mérito ha sido castigar a los parados. Se han ahorrado ustedes 10.000 millones de euros en prestaciones de desempleo, mientras mantienen a 3 millones de personas paradas sin ningún tipo de prestación. Solo un 58 % de personas perciben prestación. Hay en este país 470.000 personas dependientes, con derecho reconocido, que no tienen acceso a su derecho y no pueden acceder a los privilegios del presidente del Gobierno para cuidar a su familia. Esa es la realidad desgraciadamente. Mientras, mantienen ustedes un sistema absolutamente cadavérico. El sistema fiscal español no se aguanta, porque ustedes continúan apoyando la evasión, la elusión y el fraude fiscal. Comisiones Obreras acaba de denunciar que las empresas del IBEX 35 pagan en impuestos menos de la mitad de lo que distribuyen como dividendos a sus capitalistas. Ese es el resultado de sus políticas, lo demás es bla-bla y bla nada más.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u123" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -756,12 +754,12 @@
                <seg>Señoría, me puede usted criticar bien por la austeridad, bien porque no cumplamos el objetivo de déficit, pero desde luego por las dos cosas al mismo tiempo no nos critique usted; aunque pedirle a usted coherencia es algo especialmente difícil. Lo que nos ha dicho la Comisión Europea para 2016 es que hay que actualizar el plan presupuestario, que incluya medidas completas y totalmente especificadas para las comunidades autónomas a medida que se vayan produciendo. Además yo le planteo una cuestión: todas las previsiones que hemos realizado a lo largo de esta legislatura, todas, se han visto superadas continuamente. Por citar un ejemplo simplemente le recuerdo que en el año 2014 el crecimiento de la economía española fue del 1,4 % cuando la Comisión Europea nos daba el 1,2 %. Pero, señoría, lo realmente importante -y supongo que esto es algo de lo que se alegrará usted, porque creo que es una cuestión fundamental para toda España- es que hace solamente tres años estábamos en la recesión más profunda de nuestra historia, y hoy España es la economía que más crece. Acabo de venir de la reunión del Fondo Monetario y del G-20 en Lima y allí se ha puesto de manifiesto que en el año 2015 la economía española va a ser, de las grandes economías del mundo, la que más crece, y en 2016 únicamente nos superará Estados Unidos. Qué diferencia, señor Coscubiela, con lo que teníamos hace tres años.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u125" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA MARÍA PILAR LUCIO CARRASCO, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE ECONOMÍA Y COMPETITIVIDAD: ¿CREE EL GOBIERNO QUE FAVORECE LA CREDIBILIDAD DE NUESTRA ECONOMÍA PRESENTAR UNAS PREVISIONES PRESUPUESTARIAS CUESTIONADAS POR DIFERENTES INSTITUCIONES Y ORGANISMOS?</seg>
                <note>Número de expediente 180/001415</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u126" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u126" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Economía y Competitividad que formula la diputada doña Pilar Lucio, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u127"
@@ -770,7 +768,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor De Guindos, ¿cree usted que favorece la credibilidad de nuestra economía presentar unas previsiones presupuestarias que han sido cuestionadas por distintas instituciones y organismos?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u128" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u128" ana="#chair">
                <seg>Gracias, señora Lucio.</seg>
                <seg>Señor ministro.</seg>
                <pb n="24"/>
@@ -782,7 +780,7 @@
                <seg>Hoy, si hay algo que desde luego se reconoce al Gobierno es credibilidad en todos los mercados de capitales. El Fondo Monetario Internacional ha rebajado la previsión de crecimiento de la economía mundial mientras que la ha mantenido para España en el 3,1 %, y como indicaba anteriormente somos la economía avanzada que más va a crecer en el año 2015. Recuerdo que el Fondo Monetario Internacional nos ha revisado ocho veces al alza las previsiones para España en los dos últimos años, qué diferencia con lo que ocurría, por ejemplo, en los años 2009, 2010 o 2011. Por otro lado, las agencias de rating en las últimas semanas, tanto Standard and Poor's como DBRS, han mejorado la calificación crediticia de la deuda española. Y ayer simplemente -hablaba usted de credibilidad- el Tesoro español colocó 4.100 millones de euros en letras a seis y a doce meses, ¿sabe a qué tipos de interés, señoría? Las de doce meses prácticamente a cero y por las de seis meses nos pagaron para prestarnos dinero. ¡Qué diferencia con lo que teníamos hace solamente unos meses!</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u130" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u130" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora diputada.</seg>
             </u>
@@ -794,7 +792,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u132" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u132" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -806,12 +804,12 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u134" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u134" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON CARLOS MARTÍNEZ GORRIARÁN, DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, QUE FORMULA AL SEÑOR MINISTRO DE EDUCACIÓN, CULTURA Y DEPORTE: ¿ESTÁ GARANTIZADO EL DERECHO DE LOS NIÑOS CASTELLANOHABLANTES A LA ESCOLARIZACIÓN EN SU LENGUA MATERNA EN LAS COMUNIDADES AUTÓNOMAS BILINGÜES?</seg>
                <note>Número de expediente 180/001408</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u135" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u135" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Educación, Cultura y Deporte.</seg>
                <seg>Pregunta, en primer lugar, el diputado don Carlos Martínez Gorriarán del Grupo de Unión Progreso y Democracia.</seg>
             </u>
@@ -821,7 +819,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Le pregunto si el Gobierno está haciendo todo lo que tiene que hacer para garantizar que todos los españoles puedan estudiar la lengua común en el conjunto del territorio del Estado, en toda España. Se lo pregunto porque seguro que usted sabe que, por una parte, la Unesco lleva muchos años promoviendo los programas bilingües en las sociedades bilingües, porque son el modelo escolar óptimo, y sin embargo en España pasan cosas como las que hace muy poco ocurrieron en Balaguer, donde una familia fue acosada y tuvieron incluso que cambiar de colegio tras ser revelada su identidad por solicitar algo que es legal: la educación bilingüe en Cataluña. ¿Qué piensa el Gobierno de todo esto?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u137" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u137" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -831,7 +829,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Sí, el Gobierno cree que este derecho, el derecho de los niños castellanohablantes a la escolarización en su lengua materna en las comunidades autónomas bilingües que recogen, tanto la Constitución española como los distintos estatutos de autonomía, está garantizado.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u139" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u139" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Martínez Gorriarán.</seg>
             </u>
@@ -842,7 +840,7 @@
                <seg>Muchas gracias, señor ministro.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u141" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u141" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -854,12 +852,12 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u143" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u143" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON MIGUEL ÁNGEL HEREDIA DÍAZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE EDUCACIÓN, CULTURA Y DEPORTE: ¿ESTÁ CONFORME EL GOBIERNO CON LOS RESULTADOS DE LA POLÍTICA IMPUESTA EN ESTA LEGISLATURA EN EL ÁMBITO DE SU DEPARTAMENTO?</seg>
                <note>Número de expediente 180/001412</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u144" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u144" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Educación, Cultura y Deporte, que formula el diputado don Miguel Ángel Heredia, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u145"
@@ -868,7 +866,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, ¿está conforme con el resultado de la política que ha llevado en esta legislatura su departamento?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u146" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u146" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
                <pb n="27"/>
@@ -878,7 +876,7 @@
                ana="#regular">
                <seg>Señor presidente, señoría, sí, estoy conforme.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u148" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u148" ana="#chair">
                <seg>Muchas gracias.</seg>
                <seg>Señor Heredia.</seg>
             </u>
@@ -888,7 +886,7 @@
                <seg>En esta legislatura que ahora termina su Gobierno, señor ministro, ha recortado en 6.800 millones el presupuesto de educación, volviendo a niveles de hace veinticinco años. Han reducido el número de profesores en más de 30.000, hay 600.000 niños y niñas que ya no cuentan con ayudas para libros de texto, se han cargado las becas de comedor, la única comida caliente para muchos niños en nuestro país, y han impuesto la Lomce, la peor ley de educación y la más injusta, una ley sin consenso, que tiene a todo el mundo en su contra. Rajoy dijo en campaña que no iba a meter la tijera en educación y mintió, señor ministro. España es el único país de la OCDE que ha subido las matrículas universitarias y ha bajado las becas, el único que en un momento de dificultad ha eliminado las becas como derecho. El resultado es que las universidades públicas han perdido en los últimos cuatro años más de 77.000 alumnos. Hay menos alumnos y peores condiciones laborales, porque más de la mitad de los becarios mayores de treinta años trabajan gratis. Esta es la realidad. Esta es su herencia en educación, pero en el ámbito de la cultura no le puedo decir que sea mucho mejor, porque en su afán de castigar al ámbito cultural subieron el IVA al 21 %, que es el triple de la media europea, y han hundido al sector. Tuvieron que cerrar el 25 % de las empresas, mandaron al paro a miles de trabajadores, y alejaron de la cultura a ese sector de la población que tiene más dificultades económicas. Señor ministro, han utilizado la crisis para hacer ideología, una ideología muy de derechas. Se han cargado la igualdad de oportunidades, han vuelto a imponer la religión como asignatura evaluable y obligatoria, y han ajustado cuentas con el mundo de la cultura, y como premio al nefasto Wert lo mandaron de retiro dorado a París, y a usted le hicieron ministro a cambio de no cambiar nada. Ya ve usted, a cambio de que la gente le llame señor ministro. Esta es su herencia, su injusta y dolorosa herencia, señor ministro.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u150" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u150" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -902,12 +900,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u152" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u152" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON PEDRO SAURA GARCÍA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CONSIDERA QUE AYUDA A LA CONFIANZA EN LA ECONOMÍA ESPAÑOLA EL PROYECTO DE PRESUPUESTOS PARA 2016 TRAS HABERSE CONFIRMADO QUE NO RESPONDE A UNAS PREVISIONES REALISTAS?</seg>
                <note>Número de expediente 180/001414</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u153" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u153" ana="#chair">
                <seg>Finalmente, pregunta, dirigida al señor ministro de Hacienda y Administraciones Públicas, que formula el diputado don Pedro Saura, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u154"
@@ -917,7 +915,7 @@
                <seg>Señor Montoro, ¿qué opina sobre el dictamen de la Comisión en relación con los presupuestos para el año que viene?</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u155" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u155" ana="#chair">
                <seg>Gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -928,7 +926,7 @@
                <seg>Con mucho gusto contesto, como siempre hago en la sesión de control, a la pregunta de su señoría, pero no se atiene al texto; no es esa la pregunta que formulaba el Grupo Socialista y que tengo aquí. La Comisión hace su papel, el que le corresponde de acuerdo con su responsabilidad, que es velar por el cumplimiento del Tratado de la Unión Europea. El Gobierno de España hace lo mismo: vela por el cumplimiento de los tratados con la Unión Europea y evita que se repitan situaciones como las de 2011, cuando un Gobierno socialista -del que usted, señor Saura, era un alto cargo- dejó un déficit oculto de 3 puntos del producto interior bruto, una desviación de 3 puntos del producto interior bruto; algo que hoy sencillamente no es posible hacer en nuestro país. Esas son las advertencias de la Comisión Europea para que, efectivamente, la reducción del déficit público sea la base de nuestro crecimiento económico y sobre todo de la creación de empleo.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u157" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u157" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Saura.</seg>
             </u>
@@ -941,7 +939,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u159" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u159" ana="#chair">
                <seg>Gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -952,7 +950,7 @@
                <seg>Lo mejor del debate que hemos sostenido usted y yo en esta legislatura ha sido la originalidad de sus contenidos. Cada sesión de control ha aportado un nuevo argumento, un nuevo calificativo. Por eso, ha hecho usted una legislatura, que antes definía, constructiva y creativa; lo mismo que ha hecho el Grupo Socialista. ¿Qué ha hecho el Grupo Socialista durante toda la legislatura? Poner ruedas al crecimiento económico de España.</seg>
                <note>Rumores.-La señora López i Chamosa: Para que corra más</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u161" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u161" ana="#chair">
                <seg>Señora López i Chamosa, la llamo al orden.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u162"
@@ -961,13 +959,13 @@
                <seg>Lo que han hecho es obstruir las reformas que ha traído el Gobierno de España. ¿No es cierto, señor Saura, que España está creciendo el doble de la media europea? ¿No es verdad eso? ¿No es cierto que España está creando la mitad del empleo que se crea en la Unión Europea? Eso es lo que necesita España, crear empleo, porque tiene una tasa de paro muy alta e inaceptable. ¿No es verdad eso? Si eso es así, si hay crecimiento y creación de empleo, es porque se han hecho reformas a las que se han opuesto ustedes. Se han programado Presupuestos Generales del Estado comprometidos con la reducción del déficit público a los ustedes han votado en contra. Ustedes no han aportado nada en esta legislatura, nada, y ese es el peor reproche que se puede hacer a un grupo que pretende ser alternativa de Gobierno. Por eso, ustedes no son alternativa de Gobierno...</seg>
                <note>Aplausos.-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u163" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u163" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO VASCO , SOBRE LA ACTITUD ENTORPECEDORA DEL GOBIERNO ESPAÑOL HACIA EL EJERCICIO Y DESARROLLO DEL AUTOGOBIERNO VASCO EN MATERIA DE SEGURIDAD.</head>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u164" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u164" ana="#chair">
                <seg>Interpelación del Grupo Parlamentario Vasco<note>EAJ-PNV</note> , sobre la actitud entorpecedora del Gobierno español hacia el ejercicio y desarrollo del autogobierno vasco en materia de seguridad. Para la defensa de la interpelación, tiene la palabra el señor Olabarría.</seg>
                <note>La señora vicepresidenta, Villalobos Talero, ocupa la Presidencia</note>
             </u>
@@ -1155,7 +1153,7 @@
                <seg>Gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u189" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u189" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Tiene la palabra el señor ministro.</seg>
             </u>
@@ -1168,12 +1166,12 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u191" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u191" ana="#chair">
                <seg>Muchas gracias, señor ministro de Educación, Cultura y Deporte.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO MIXTO<note>SEÑOR TARDÀ</note> , SOBRE PERSPECTIVAS DEL GOBIERNO ESPAÑOL ACERCA DEL FUTURO DE CATALUÑA.</seg>
                <note>Número de expediente 172/000334</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u192" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u192" ana="#chair">
                <seg>Interpelación del señor Tardà, del Grupo Mixto, sobre perspectivas del Gobierno español acerca del futuro de Cataluña. Tiene la palabra el señor Tardà.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u193"
@@ -1184,7 +1182,7 @@
                <seg>Tenemos un objetivo, que es construir un país más justo socialmente, más democrático, más solidario, razón por la cual queremos ser soberanos, queremos gestionar nuestro presente y nuestro futuro, y de ello deberían ser conscientes los ciudadanos españoles porque nada se hace contra ellos ni contra España, todo se hace a favor de nuestros intereses, de los intereses legítimos de los ciudadanos de Cataluña, sean o no sean independentistas. Usted sabe -y no lo puede negar- que el soberanismo catalán es popular, cívico, pacífico e integrador, y nadie puede achacar a Cataluña violencias, ni ahora ni durante el franquismo. Estas son nuestras tarjetas de presentación, democracia y urnas. Luego creo que ustedes deberían corregir, deberían asumir que su cerrazón no lleva a nada, puesto que si su actitud tuviera éxito, estos éxitos ustedes ya los hubieran tenido que cosechar, y he iniciado la intervención diciendo que existe una mayoría democrática en el Parlamento de Cataluña independentista. Debería usted corregir su metodología, porque no hay frutos. Serían sus frutos si hubieran ganado las elecciones o si la suma de los tres partidos que no están por la independencia hubiera ganado. Y usted diría: Vamos por buen camino y se ha demostrado el 27 de septiembre, pero no ha sido así. Resulta que hay una mayoría de ciudadanos catalanes que no piensan de la forma que usted lo hace. Las cosas son como son. No valen las amenazas, creo que sería tratar al pueblo de Cataluña de infantil. Ya sé que nos han ridiculizado. Hemos pasado por la fase de la ignorancia -como decía Gandhi-, hemos transcurrido por la fase de intentar ridiculizarnos, ahora ya estamos en la tercera fase, la previa a ganar, que es la represión. Ya estamos en esta fase, lo que quiere decir que vamos avanzando. Aun así, no nos harán descarrilar. Siempre hemos dicho como axioma que lo haremos a la catalana, pacífica, cívica y democráticamente.</seg>
                <seg>¿Usted se imagina cómo se hubiera comportado la señora Merkel si en Baviera se hubieran celebrado cinco manifestaciones en las que hubieran participado centenares de miles de ciudadanos bávaros? Estoy seguro de que la señora Merkel, que posiblemente no estaría por la independencia de Baviera, se habría sentado con los representantes políticos de Baviera y habrían hablado, de la misma manera que la derecha británica, aun cuando el Scottish National Party solo sacó -digo solo sacó- el 43 % de votos en las elecciones, se hizo merecedor de la entrevista y las negociaciones con el señor Cameron a fin y efecto de pactar un referéndum, y este referéndum, al cabo de dos años, en 2014, se celebró. ¿Por qué la señora Merkel tendría que haber actuado de forma distinta que el señor Cameron? Son demócratas y además vienen de lejos, porque en Alemania en los años cuarenta y cincuenta hubo un proceso de desnazificación, incluso de desprusianización, cosa muy distinta a lo que pasó en el Estado español. Todavía hay políticos de la derecha que no han renegado del franquismo y por supuesto todavía existe una cosmovisión en muchas personas representantes de la derecha y en parte de la izquierda de que España es Castilla o Castilla es España. Así pues, esta cosmovisión actúa en contra de la modernidad que les sería exigible a ustedes para encarar un problema político que se resolverá. Por supuesto que se resolverá, a no ser que ustedes opten por poner la cuarta marcha, la quinta y al final la sexta, pero entonces estarían absolutamente locos políticamente; sería su muerte y la de la democracia en España, cosa que los ciudadanos de España no les van a permitir. La ciudadanía española no les va a permitir soluciones que vayan más allá de la democracia y, si se limitan solamente a los canales democráticos, ganarán si existe una mayoría y, si no existe, ustedes no ganarán, a no ser, repito, que se atrevan a ir por caminos de locura; por cierto, caminos de locura que ustedes no reniegan de manera absoluta, porque lo que está ocurriendo ahora, elegir el 15 de octubre, aniversario del asesinato por parte del Ejército español -repito, asesinato por parte del Ejército español- del presidente de Cataluña, Lluís Companys, para llevar ante los tribunales al presidente de mi país, no tiene parangón en ninguna democracia.<note>Un señor diputado pronuncia palabras que no se perciben</note> ¿Qué dice usted? Dígalo a la cara.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u194" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u194" ana="#chair">
                <seg>Señor Tardà, no establezca diálogo con los diputados.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u195"
@@ -1193,7 +1191,7 @@
                <seg>No, le pido que lo diga a la cara.</seg>
                <pb n="44"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u196" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u196" ana="#chair">
                <seg>Les ruego silencio. Está hablando el señor Tardà.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u197"
@@ -1202,7 +1200,7 @@
                <seg>Digo que no tiene parangón en ninguna democracia que quieran humillar. Pero, ¿cómo se atreven ustedes a esperar ganar políticamente si han optado no solamente por la represión, sino también por la humillación? Así no van a ganar, pero van a generar sufrimiento, desazón, y los ciudadanos de Cataluña, sean o no independentistas, no nos lo merecemos, como tampoco se lo merece la ciudadanía española.</seg>
                <seg>Le voy a interpelar a través de una pregunta. ¿Están dispuestos ustedes a corregir, a asumir que hay una voluntad en el pueblo de Cataluña que se ha demostrado en los últimos años? Porque este diputado que le habla también hizo una apuesta federal en el año 2004 y dimos la investidura a Rodríguez Zapatero entendiendo que era importante ir hacia una modernización del Estado porque esta modernización conllevaría inevitablemente un Estado federal. Lo hemos probado todos, lo ha probado el nacionalismo catalán históricamente, antes el regionalismo, lo hemos probado los republicanos pero resulta que es imposible. Y esto no es un discurso académico, está respaldado por centenares de miles de personas que se han movilizado y que además han votado independencia. Luego pregunto: ¿Están dispuestos ustedes a sentarse y a negociar la secesión de Cataluña, sí o no?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u198" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u198" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -1216,7 +1214,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u200" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u200" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Tardà.</seg>
             </u>
@@ -1230,7 +1228,7 @@
                <seg>En definitiva, señor Montoro, no hay vuelta atrás, no hay vuelta atrás: o lo aceptan y hablamos democráticamente o tiran de tricornio. Yo sé que usted, como demócrata, nunca lo haría.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u202" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u202" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -1243,7 +1241,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u204" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u204" ana="#chair">
                <seg>Muchas gracias, señor ministro de Hacienda y Administraciones Públicas.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las doce y treinta minutos del mediodía.</seg>
@@ -1252,7 +1250,7 @@
          </div>
          <div type="debateSection">
             <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES - REAL DECRETO-LEY 11/2015, DE 2 DE OCTUBRE, PARA REGULAR LAS COMISIONES POR LA RETIRADA DE EFECTIVO EN LOS CAJEROS AUTOMÁTICOS.</head>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u205" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u205" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Convalidación o derogación del Real Decreto-ley 11/2015, de 2 de octubre, para regular las comisiones por la retirada de efectivo en los cajeros automáticos. Para presentar el real decreto-ley, tiene la palabra en nombre del Gobierno el señor ministro de Economía y Competitividad.</seg>
             </u>
@@ -1269,7 +1267,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u207" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u207" ana="#chair">
                <seg>Muchas gracias, señor ministro, por su intervención.</seg>
                <seg>Hay turno de fijación de posiciones. Por el Grupo Vasco, PNV, tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -1281,7 +1279,7 @@
                <seg>Es verdad que se podría haber aprovechado la ocasión, señor ministro, para corregir otro tipo de problemas que existen en la relación habitual entre los ciudadanos y las entidades financieras -otro tipo de comisiones y de comportamientos de dichas entidades-, pero solo se ha circunscrito al aspecto que usted nos ha comentado y en este sentido nos parece positivo. Como le decía, hubiera sido este el momento, pero no lo han hecho y así lo tenemos que considerar sin más. Hemos perdido esta ocasión para haber avanzado más allá de lo que estrictamente el real decreto contempla, pero como entendemos que es positivo lo vamos a votar favorablemente.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u209" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u209" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por Unión Progreso y Democracia tiene la palabra el señor Calduch.</seg>
             </u>
@@ -1296,7 +1294,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u211" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u211" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo de La Izquierda Plural tiene la palabra el señor Coscubiela.</seg>
             </u>
@@ -1312,7 +1310,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u213" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u213" ana="#chair">
                <seg>Gracias, señor Coscubiela.</seg>
                <seg>Por el Grupo Parlamentario Catalán de Convergència i de Unió tiene la palabra, en primer lugar, la señora Castellano.</seg>
             </u>
@@ -1325,7 +1323,7 @@
                <seg>Gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u215" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u215" ana="#chair">
                <seg>Muchas gracias, señora Castellano.</seg>
                <seg>Señora Ciuró, por el mismo grupo.</seg>
                <pb n="53"/>
@@ -1338,7 +1336,7 @@
                <seg>Señor ministro, la protección al consumidor es positiva, es buena. Es bueno que se informe, es bueno que se dé la información necesaria para que el consumidor pueda actuar y así dar seguridad en el tráfico porque todo esto coadyuva a la seguridad jurídica y a la recuperación económica. Por ello, el real decreto nos parece positivo. En materia de tarjetas, de transparencia y de información hay que recorrer camino, y ya hemos empezado a andar. Es verdad que es un buen real decreto contextualizado en no cobrar dos veces por un mismo servicio. Reitero, positivo. Ahora bien, hay más trabajo, más tarea. Tildamos a este real decreto de algo corto porque hay muchas operaciones que se realizan a través de cajeros automáticos. Por ejemplo, en España en 2014 se realizaron más de 2.500.000 operaciones en cajeros automáticos. Esto supone un volumen de dinero de más de 105 millones de euros; es mucho dinero. El pago con tarjeta facilita la comodidad y también la flexibilidad para obtener crédito, ya sea aplazando pagos o fraccionándolos. Ahora bien, esta comodidad y esta flexibilidad que tenemos todos los consumidores tiene una contraparte, que es el elevadísimo coste que fraccionar o pagar a plazos conlleva al consumidor. Hay operaciones que incluso llegan a costar un 20 % TAE por fraccionar o por aplazar un pago y, a pesar de que el coste es muy alto, muchos consumidores no somos conscientes del elevado importe que cuesta aplazar este pago. En este sentido, también sería bueno facilitar la información al consumidor para que sepa cuál es el coste del fraccionamiento o aplazamiento de pago. El binomio entre la facilidad para conseguir una tarjeta y el elevado tipo de interés que pagamos por fraccionar estos pagos es origen, sin duda, del sobreendeudamiento. Ahí tenemos mucho trabajo por hacer para evitar volver a caer en antiguos tics que nos han costado, entre otras cosas, esta grave crisis económica a los consumidores. Por tanto, más información. Con ello, estoy reivindicando, señor ministro, una proposición que ha presentado mi grupo parlamentario, Convergència Democràtica, en este sentido. Como finaliza la legislatura, no estaremos a tiempo de debatirla, pero este real decreto hubiese sido una buena opción para poder incluir también estas cautelas en beneficio de los consumidores para que estos supiesen el coste real del aplazamiento o del fraccionamiento de un pago, ya que las tarjetas son muy útiles y su buen uso favorece, entre otras cosas, el endeudamiento responsable.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u217" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u217" ana="#chair">
                <seg>Muchas gracias, señora Ciuró.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor Moscoso del Prado.</seg>
             </u>
@@ -1352,7 +1350,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u219" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u219" ana="#chair">
                <seg>Muchas gracias, señor Moscoso del Prado.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Martínez-Pujalte.</seg>
             </u>
@@ -1367,13 +1365,13 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u221" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u221" ana="#chair">
                <seg>Muchas gracias, señor Martínez-Pujalte, sobre todo por sus últimas palabras, que indudablemente compartimos.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DICTÁMENES DE LA COMISIÓN DEL ESTATUTO DE LOS DIPUTADOS - DICTAMEN DE LA COMISIÓN DEL ESTATUTO DE LOS DIPUTADOS SOBRE DECLARACIÓN DE ACTIVIDADES DE SEÑORES DIPUTADOS.</head>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u222" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u222" ana="#chair">
                <seg>El siguiente punto del orden del día es el relativo al dictamen de la Comisión del Estatuto de los Diputados sobre declaración de actividades de los señores diputados. No se ha manifestado por ningún grupo el deseo de intervenir, por lo que propongo a la Cámara que se apruebe por asentimiento. ¿Es así?<note>Asentimiento</note> Muchas gracias.</seg>
                <seg>En unos minutos vamos a votar el decreto-ley.</seg>
                <note>Pausa</note>
@@ -1381,16 +1379,16 @@
          </div>
          <div type="debateSection">
             <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES : - REAL DECRETO-LEY 11/2015, DE 2 DE OCTUBRE, PARA REGULAR LAS COMISIONES POR LA RETIRADA DE EFECTIVO EN LOS CAJEROS AUTOMÁTICOS.</head>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u223" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u223" ana="#chair">
                <seg>Convalidación o derogación del Real Decreto-ley 11/2015, de 2 de octubre, para regular las comisiones por la retirada de efectivo en los cajeros automáticos. Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 289 más 1 voto telemático, 290; a favor, 189; en contra, 1 voto telemático; abstenciones, 100.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u224" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u224" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>El Grupo de Convergència i de Unió ha pedido la tramitación de este decreto-ley como proyecto de ley<note>Rumores</note> por el procedimiento de urgencia, por lo que vamos a someterlo a votación.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 289 más 1 voto telemático, 290; a favor, 121 más 1 voto telemático, 122; en contra, 167; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u225" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u225" ana="#chair">
                <seg>No será tramitado como proyecto de ley.</seg>
                <seg>Se levanta la sesión.</seg>
                <seg>Eran las cinco de la tarde.</seg>

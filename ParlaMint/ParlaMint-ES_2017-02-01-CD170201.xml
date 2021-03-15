@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="243">243 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="243" xml:lang="es">243 speeches</measure>
+            <measure unit="speeches" quantity="243" xml:lang="en">243 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="note" occurs="146"/>
                <tagUsage gi="pb" occurs="71"/>
                <tagUsage gi="u" occurs="243"/>
-               <tagUsage gi="lb" occurs="633"/>
+               <tagUsage gi="seg" occurs="633"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -458,7 +456,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2017-02-01-CD170201.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2017-02-01-CD170201.u66" ana="#chair">
                <seg>Muchas gracias.</seg>
                <seg>- DE LA DIPUTADA DOÑA ÁGUEDA REYNÉS CALVACHE, DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, QUE FORMULA AL SEÑOR MINISTRO DE FOMENTO: ¿EN QUÉ CONSISTE EL PLAN DE INVERSIONES DE ACCESIBILIDAD PORTUARIA 2017-2021, PRESENTADO POR EL MINISTRO DE FOMENTO A PRINCIPIOS DE ENERO?</seg>
                <note>Número de expediente 180/000098</note>
@@ -1067,7 +1065,7 @@
                <seg>- DEL GRUPO PARLAMENTARIO CONFEDERAL DE UNIDOS PODEMOS-EN COMÚ PODEM-EN MAREA, PARA CONOCER SI EL GOBIERNO TIENE INTENCIÓN DE TRANSPONER LA DIRECTIVA 2014/17/UE DE 4 DE FEBRERO DE 2014, PARA MEJORAR LAS MEDIDAS DE PROTECCIÓN DE LOS CONSUMIDORES Y TRANSPARENCIA DE LOS CRÉDITOS HIPOTECARIOS, ASÍ COMO DE CUMPLIR DIVERSAS SENTENCIAS DEL TRIBUNAL DE JUSTICIA DE LA UNIÓN EUROPEA EN RELACIÓN A LOS PROCEDIMIENTOS DE EJECUCIONES HIPOTECARIAS EN ESPAÑA.</seg>
                <note>Número de expediente 172/000021</note>
             </u>
-            <u xml:id="ParlaMint-ES_2017-02-01-CD170201.u166" ana="#regular">
+            <u xml:id="ParlaMint-ES_2017-02-01-CD170201.u166" ana="#chair">
                <seg>Interpelación urgente del Grupo Parlamentario Confederal de Unidos Podemos-En Comù Podem-En Marea, para conocer si el Gobierno tiene intención de trasponer la<pb n="46"/> Directiva 2014/17/UE, de 4 de febrero de 2014, para mejorar las medidas de protección de los consumidores y transparencia de los créditos hipotecarios, así como cumplir diversas sentencias del Tribunal de Justicia de la Unión Europea en relación con los procedimientos de ejecuciones hipotecarias en España.</seg>
                <seg>Para su defensa tiene la palabra el señor Mayoral Perales.</seg>
             </u>

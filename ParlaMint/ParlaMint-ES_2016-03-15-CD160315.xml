@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="173">173 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="173" xml:lang="es">173 speeches</measure>
+            <measure unit="speeches" quantity="173" xml:lang="en">173 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="8"/>
                <tagUsage gi="u" occurs="173"/>
                <tagUsage gi="note" occurs="153"/>
-               <tagUsage gi="lb" occurs="468"/>
+               <tagUsage gi="seg" occurs="468"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,15 +92,11 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
                <seg>Señorías, buenas tardes.</seg>
                <seg>Antes de dar paso al orden del día, quisiera anunciarles que, como ha sido tradición en las últimas legislaturas, vamos a agrupar todas las votaciones del Pleno de hoy, y para ello les comunico que la votación, según un cálculo estimativo de la Mesa, se podrá realizar alrededor o a partir de las ocho de la tarde. Tomen esta previsión horaria simplemente a título indicativo porque es la primera vez que este Parlamento con esta composición tiene un Pleno en el que va a debatir proposiciones no de ley y otras cuestiones y, en consecuencia, todavía tenemos que ajustar bien el uso de los tiempos. Por tanto, la votación agrupada será a partir de las ocho de la tarde.</seg>
@@ -106,7 +104,7 @@
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY - DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, SOBRE LA UNIDAD DE ESPAÑA. - DEL GRUPO PARLAMENTARIO CIUDADANOS, RELATIVA A LA DEFENSA DE LA DEMOCRACIA, LA IGUALDAD Y LA UNIÓN DE TODOS LOS ESPAÑOLES.</head>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u2" ana="#chair">
                <seg>Ahora damos paso al orden del día. En primer lugar, se debatirán conjuntamente, conforme a la solicitud de los grupos proponentes y según se ha trasladado a la Junta de Portavoces, la proposición no de ley del Grupo Parlamentario Popular en el Congreso, sobre la unidad de España, y la proposición no de ley del Grupo Parlamentario Ciudadanos, relativa a la defensa de la democracia, la igualdad y la unión de todos los españoles. Para la presentación de las iniciativas y, en su caso, para la defensa de las enmiendas tiene la palabra, en primer lugar, por el Grupo Parlamentario Popular en el Congreso, que en este turno defenderá su proposición no de ley y también la enmienda que han presentado, la señora Montserrat, por un tiempo de diez minutos.</seg>
                <pb n="7"/>
             </u>
@@ -126,7 +124,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u4" ana="#chair">
                <seg>Muchas gracias, señora Montserrat.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos tiene la palabra el señor Rivera.</seg>
             </u>
@@ -147,7 +145,7 @@
                <note>Aplausos</note>
                <pb n="11"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u6" ana="#chair">
                <seg>Gracias, señor Rivera.</seg>
                <seg>Es turno ahora para los grupos que han presentado enmiendas, y para su defensa por el Grupo Parlamentario Socialista, tiene la palabra la señora Batet, por siete minutos.</seg>
             </u>
@@ -158,7 +156,7 @@
                <seg>Señorías, se traen a esta Cámara dos iniciativas en las que se insta al Gobierno a defender la legalidad y a reafirmar valores que están en nuestra Constitución, como la igualdad entre españoles, la integridad territorial o la unidad de España. El Grupo Socialista, más allá de mostrar la conformidad y la defensa de la Constitución, como siempre hemos hecho, ha presentado una enmienda con el objetivo de ofrecer una solución política a la crisis territorial, que es uno de los principales problemas políticos que tiene nuestro país. Es obvio que compartimos, como cualquier demócrata que el Gobierno, así como todos los poderes públicos, tiene que defender la legalidad vigente. El imperio de la ley ha sido, sin duda, una de las grandes conquistas de la civilización y es el origen último de nuestra libertad. Dicho esto, el Parlamento está para plantear soluciones a los problemas reales de los ciudadanos y nos tenemos que preguntar: ¿no sería mucho más útil estar sustanciando hoy, por ejemplo, la comparecencia del presidente del Gobierno en funciones para que fuera al Consejo Europeo con una posición común, con un mandato de este Parlamento, para atender la mayor crisis humanitaria, la más dolorosa y alarmante, que estamos viviendo?<note>Aplausos</note> Nos tenemos que preguntar: ¿resultamos realmente útiles? Esta Cámara, este Parlamento, ¿resulta útil a los ciudadanos votando la Constitución en forma de proposiciones no de ley? ¿Aporta algo, aporta alguna solución o deberíamos ir más allá? La respuesta, desde nuestro punto de vista, es que esta Cámara debe hacer política y, señora Montserrat, para nosotros hacer política no es solo decir que hay que cumplir la ley y la Constitución, que cae por su propio peso, es una obviedad, sino que hacer política es dialogar<note>Rumores</note> , hacer política es escuchar, es entenderse con el otro, es aproximarse, es buscar puntos de encuentro, es acordar.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u8" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u9"
@@ -169,7 +167,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u10" ana="#chair">
                <seg>Gracias, señora Batet.</seg>
                <seg>En el turno de fijación de posiciones de los grupos y, como saben, de menor a mayor, tiene, en primer lugar, la palabra por el Grupo Mixto el señor Martínez.</seg>
             </u>
@@ -181,7 +179,7 @@
                <seg>Para nosotros la clave está en que en Europa las quimeras independentistas son una antigualla inútil para afrontar y resolver los problemas cotidianos de los ciudadanos sean madrileños, vascos, andaluces, catalanes, gallegos, asturianos o de cualquier comunidad. Solo desde el cumplimiento responsable de los mandatos constitucionales dispondremos los españoles de idénticas oportunidades para construir el futuro de todas y cada una de las comunidades autónomas, generar crecimiento económico, puestos de trabajo, garantizar las pensiones de nuestros mayores y atender los servicios públicos esenciales como son la educación, la sanidad y las prestaciones sociales. La unidad de España es nuestra gran fortaleza y al tiempo nuestra Constitución es la herramienta que proporciona, en un marco de diversidad y de autonomía sin comparación en ningún otro país europeo, los instrumentos de solidaridad y equilibrio territorial a los que aspira sin duda la gran mayoría de los españoles.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u12" ana="#chair">
                <seg>Muchas gracias, señor Martínez.</seg>
                <seg>Ahora tiene la palabra, dentro del Grupo Mixto también, el señor Alli.</seg>
             </u>
@@ -194,7 +192,7 @@
                <seg>Para finalizar, señorías, defenderemos, ante la posibilidad de una modificación de la propia Constitución, como algunas fuerzas políticas están hablando en esta Cámara, la eliminación de esa disposición transitoria cuarta que da la posibilidad del mecanismo de la anexión de Navarra a Euskadi porque -insistimos- Navarra es Foral y es española.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u14" ana="#chair">
                <seg>Gracias, señor Alli.</seg>
                <seg>Es turno de la señora Beitialarrangoitia.</seg>
             </u>
@@ -207,7 +205,7 @@
                <seg>Por ello quisiera terminar diciendo al pueblo catalán que contarán con nuestro apoyo en el camino que han emprendido y que, ante las más que evidentes amenazas del Estado, encontrará en Euskal Herria Bildu a un aliado. Y junto con el apoyo seguirá trabajando, Euskal Herria Bildu, para abrir un proceso constituyente propio que lleve a Euskal Herria a la constitución de un Estado propio, independiente, conformando mayorías sociales y políticas para ello, al igual que lo está haciendo Cataluña.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u16" ana="#chair">
                <seg>Gracias, señora Beitialarrangoitia.</seg>
                <seg>Tiene la palabra la señora Sánchez.</seg>
                <pb n="14"/>
@@ -219,7 +217,7 @@
                <seg>Estamos discutiendo dos proposiciones no de ley, una relativa a la defensa de la democracia, la igualdad y la unión de todos los españoles y, otra, -el PP la ha acortado, lo cual agradecemos porque incide más en lo que realmente es el contenido- sobre la unidad de España. Esto está muy bien y se han escuchado un montón de palabras y de ideas grandilocuentes y muy bien expresadas. Ahora bien, si vamos a cuál es la propuesta que se está poniendo encima de la mesa en este momento, se trata ni más ni menos que de respaldar al Gobierno en funciones en todas las iniciativas que tenga que tomar para llegar a esto. Pues bien, el Gobierno en funciones de ninguna de las maneras ha sido un convidado de piedra ante el proceso que ha devenido en el momento en el que nos encontramos. Todas sus políticas han sido las causantes, entre otras cosas, de tener el mayor número de independentistas que hemos tenido desde el comienzo de la época democrática en este país. Por tanto, no entendemos que la solución sea respaldar al mismo Gobierno que en buena medida ha traído el problema que tenemos encima de la mesa. Si lo que queremos es trabajar para la defensa de la democracia...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u18" ana="#chair">
                <seg>Un poco de silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u19"
@@ -229,7 +227,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u20" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u20" ana="#chair">
                <seg>Gracias, señora Sánchez.</seg>
                <seg>Por último, por el Grupo Mixto tiene la palabra el señor Candela.</seg>
             </u>
@@ -244,7 +242,7 @@
                <seg>Señorías, en Compromís creemos que este baile es cosa de dos. Creemos que es necesaria una solución dialogada al malestar de los catalanes y catalanas. Creemos que es más necesaria que nunca una altura de miras que el señor Rajoy -que no está hoy aquí- no ha tenido. Señorías, creemos que para resolver este problema es necesario un Gobierno plural. Así, para terminar me dirijo al señor Sánchez -que tampoco está- para que se ponga manos a la obra y hagamos un Gobierno a la valenciana para, entre otras muchas cosas, dar una solución dialogada y democrática al pueblo de Cataluña.<pb n="15"/> Moltes gràcies.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u22" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u22" ana="#chair">
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> tiene la palabra el señor Esteban.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u23"
@@ -261,7 +259,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u24" ana="#chair">
                <seg>Gracias, señor Esteban.</seg>
                <seg>Tiene la palabra el señor Homs, por el Grupo Parlamentario Catalán</seg>
                <note>Democràcia i Llibertat</note>
@@ -275,7 +273,7 @@
                <seg>Muchas gracias, señor presidente, señoras y señores diputados.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u26" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u26" ana="#chair">
                <seg>Gracias, señor Homs.</seg>
                <seg>Por el Grupo Parlamentario de Esquerra Republicana tiene la palabra el señor Tardà.</seg>
             </u>
@@ -289,7 +287,7 @@
                <seg>Ustedes hablan de utilizar con determinación y firmeza -fíjense que hoy lo someten a votación- todos los mecanismos para impedir el derecho a decidir del pueblo de Cataluña. De hecho ya lo están haciendo. Cargos municipales en Berga, Vic, Celrá, compañeros de la CUP, Joan Coma, Montserrat Venturós, Dani Cornellá, incluso nuestro anterior presidente Artur Mas, todo ellos tendrán que comparecer ante los tribunales de justicia por defender el mandato democrático. Pero ustedes se están encontrando y se encontrarán con la dignidad -de hecho se toparán y ya se están topando- de los representantes democráticos del pueblo de Cataluña, con su firmeza, con su determinación. De hecho en los próximos meses, en los próximos años quizá el ejemplo de resistencia pacífica de Rosa Parks estará muy presente, no lo duden, en Cataluña. Su tragedia, señorías del Partido Popular, de Ciudadanos, y por desgracia del Partido Socialista, es que para mantener su concepto de unidad deben enfrentarse a la democracia. Cataluña será lo que decidamos nosotros: los ciudadanos y ciudadanas de Cataluña, sean o no independistas. Esto lo decidiremos nosotros, el señor Rivera, el señor Girauta, la señora Chacón, la señora Montserrat, yo mismo. Lo decidiremos los catalanes y ustedes a respetarlo<note>Risas.-Aplausos</note> , porque la democracia es imbatible, y porque si atentan contra nosotros y contra nuestras libertades, atentarán contra las suyas, y sus sociedades no se lo van a permitir. La democracia es imbatible, a ver si lo entienden, la democracia es imbatible. Repitan conmigo: ¡la democracia es imbatible!<note>Aplausos</note> Finalmente, unas palabras en catalán, señor presidente.</seg>
                <note>Termina su intervención en catalán, cuyo texto, que entrega al 'Diario de Sesiones', dice lo siguiente: Ciutadans de Catalunya demanem el vostre suport a les decisions del Parlament de Catalunya. Suport al Govern de Catalunya i suport a les forces politiques que, independentistes o no, són favorables a l'exercici del dret a decidir. Endavant, que guanyarem.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u28" ana="#chair">
                <seg>Gracias, señor Tardà.</seg>
                <seg>El Grupo Parlamentario Podemos-En Comú Podem-En Marea sí que ha decidido repartir su tiempo en dos intervenciones. Tiene, para la primera de ellas, la palabra el señor Errejón.</seg>
                <pb n="19"/>
@@ -301,7 +299,7 @@
                <seg>Pocos dudan hoy que el contrato social que nos permitía vivir juntos con certezas compartidas está quebrado, y no ha sido la gente común la que lo ha roto. En lo que respecta al modelo de Estado la sentencia del Tribunal Constitucional apelado por el Partido Popular contra el Estatut de Catalunya, hace diez años, colapsó los mecanismos de equilibrio territorial en España, y de aquellos barros, estos lodos. En lo referente a los derechos sociales, el verdadero corazón del pacto de convivencia, es difícil sostener que para la gente común siga habiendo garantías y seguridad. Ese acuerdo de país, la verdadera garantía de unidad entre españoles, establecía que tenía casi las mismas oportunidades quien nacía en un barrio humilde que quien nacía en un barrio privilegiado, fuese este madrileño, andaluz o valenciano. Este es el mejor legado de la gente humilde, de nuestras abuelas y de nuestras madres, y de ese legado nosotros sí estamos profundamente orgullosos. Pues bien, señorías, hoy en Barcelona la esperanza de vida en El Raval es ocho años menor a la esperanza de vida en Sant Gervasi. En Madrid la diferencia de esperanza de vida entre un vecino de Orcasur y otro del barrio de Salamanca es de más de siete años. Y esto es lo que está separando a las personas, a los españoles: la terrible desigualad por razón de origen entre los ganadores de la crisis -los menos-, y los perdedores de la crisis -los más-. Por eso para nosotros defender España tiene que ver con defender a sus gentes, principalmente defenderles de sus principales problemas: de los desahucios, del desempleo, de la precariedad o los recortes.<note>Aplausos</note> Hay una vieja tradición muy española entre los malos políticos que consiste en utilizar Cataluña como excusa para no enfrentarse a los verdaderos problemas de nuestro país. El señor Rajoy, hoy ausente, se ha doctorado en esta costumbre y el señor Rivera no le va a la zaga. Por su parte, en las cuarenta y ocho ocasiones en las que intervino en el Parlament durante los últimos años, nunca, ni una sola vez, interpeló al Gobierno de la Generalitat, nunca, sobre un solo tema de contenido social. ¿Dónde nos ha conducido a nosotros este inmovilismo? Según el barómetro del Centro de Estudios de Opinión, el CIS catalán, un 42 % de los que se declaran nuevos independentistas no se considera independentista de toda la vida, sino que lo es -cito textualmente- por la actitud y comentarios del Gobierno central hacia Cataluña. Es decir, prácticamente la mitad de los nuevos independentistas lo son gracias a la última legislatura del Partido Popular. ¿Es este el mejor camino para trabajar por la unidad de España? Nosotros creemos que las mismas recetas dan los mismos resultados, y que el problema fundamental del Partido Popular y de Ciudadanos, unidos hoy -y seguramente les veremos unidos en muchas más ocasiones-, es que no tienen ninguna propuesta para Cataluña. Ustedes saben que con sus políticas fabrican independentistas y les hacen la campaña a quienes desde Cataluña pretenden enfrentar esto unilateralmente, sin escuchar a la otra mitad. No es de extrañar, hay un interés que comparten por encima de todo: esconder los problemas que más preocupan a la gente, la corrupción que pudre estructuralmente a alguno de los partidos tradicionales, ese 3 % de mordidas en Valencia, en Madrid o en Barcelona, los 48.000 millones de euros que se nos van cada año por el agujero negro de la corrupción, esconder el sufrimiento de nuestra gente por las agresiones a lo público, por los 13 millones que están en riesgo de exclusión social, que es lo que está fracturando la unidad entre españoles. No escondamos los problemas de nuestro país, ninguno.<note>Aplausos</note> En cuanto al que aquí nos ocupa, asumamos que una buena Constitución solo dura si se adapta. Por lo tanto, porque nosotros decimos sí a la fraternidad y al futuro, votaremos no a este enésimo intento de instrumentalizar Cataluña para tapar los problemas de España, votaremos no a que los políticos irresponsables de Madrid o de Barcelona utilicen a Cataluña o a Madrid como excusa para su irresponsabilidad, votaremos no a este gesto vacío, diciendo que la unidad de España se construye día a día, desde el reconocimiento de la plurinacionalidad, de la fraternidad y de la seducción. Esta España sí que ilusiona y no la del frentismo.</seg>
                <pb n="20"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u30" ana="#chair">
                <seg>Señor Errejón, le recuerdo que se está comiendo el tiempo de su compañero.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u31"
@@ -311,7 +309,7 @@
                <seg>Tenemos una responsabilidad histórica -y aquí miramos al Partido Socialista y al señor Sánchez, hoy también ausente-: para que nuestro país construya un camino conjunto, compartido y fraterno no hay que temer a la voz de la gente, no hay que temer a las urnas, hay que alejarse de los pirómanos, hay que construir una España nueva que reconozca su riqueza, su diversidad, su plurinacionalidad, que una a fuerza de ilusionar, una patria compartida de la que sentirnos orgullosos porque no deja a nadie atrás.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u32" ana="#chair">
                <seg>Señor Domènech.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u33"
@@ -321,7 +319,7 @@
                <seg>También apelan en esta proposición no de ley al resultado de las elecciones del 20 de diciembre en Cataluña. Dicen: el 20 de diciembre en Cataluña ganaron las opciones que defendían esta proposición. Tengo una mala noticia para Ciudadanos: perdieron las elecciones del 20 de diciembre en Cataluña.<note>Aplausos</note> No solo las perdieron, ¡quedaron quintos!<note>Aplausos</note> Y aquellos que les acompañan en su proposición no de ley ¡son los sextos! ¿Esa es la gran propuesta que surge de Cataluña el 20 de diciembre? El 20 de diciembre en Cataluña varias opciones -bastantes- quedaron por delante de ustedes. La que ganó, la mayoritaria, se llamaba En Comú Podem y el mensaje era de igualdad, de libertad, que se construye desde la fraternidad de los pueblos.<note>Aplausos</note> Y esa fraternidad de los pueblos se construye no desde una idea homogénea y vacía que tienen ustedes de España, sino -y ahí está la clave- que esa fraternidad construye la igualdad y la solidaridad porque es la que permite que haya un Gobierno de izquierdas.<note>Aplausos</note> Y esa fraternidad se construye -ya voy acabando; bueno, me queda un minuto; he sido rápido incluso- asumiendo el derecho a poderlo decidir todo<note>Protestas</note> , y en el caso de Cataluña, el 80 % de los ciudadanos y ciudadanas de Cataluña apoyan el derecho a decidir, apoyan el referéndum. Ese es el mensaje de fraternidad para construir una alternativa para España. Ese es el mensaje de fraternidad que ustedes desoyen, que ustedes falsean, que ustedes manipulan. Cuando hablan del referéndum, dicen: no, se rompe la Constitución. Dicen: no... y un día hablaremos del derecho a la autodeterminación, porque también es muy gracioso lo que ha dicho el señor Rivera. Pero es que tenemos a un señor como Rubio Llorente; tenemos a un señor como Herrero de Miñón; tenemos a un señor como Pérez Royo. ¿Independentistas? ¿Son independentistas radicales esta gente? ¿Qué dicen estos? Dicen que se puede hacer un referéndum, en ese libro que enseña usted, que usted enseña constantemente, pero debería leerlo mejor. Y debería leer a los constitucionalistas que lo explican.<note>Aplausos</note> Y ustedes también deberían de leerlo; pero es que no hace falta ni leerlo, en el caso del Partido Socialista Obrero Español solo hace falta que escuchen: escuchen a Núria Parlón, del Partido Socialista de Cataluña<note>Aplausos</note> , que les ha explicado perfectamente que eso que pedimos nosotros se puede hacer.</seg>
                <seg>Y ahora sí que acabo. El problema de fondo es la no aceptación de una realidad, que es verdad -y lo decía un portavoz antes que yo- que existe de forma creciente, y que es el futuro de este país, que es<pb n="21"/> la aceptación de la plurinacionalidad. Se llenan la boca con los artículos 1 y 2 de la Constitución; citan y citan y citan. Les voy a traer a colación otras citas; otras citas de esos padres de la Constitución.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u34" ana="#chair">
                <seg>No, no, no; no muchas, porque han agotado el tiempo entre los dos más que de manera sobrada.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u35"
@@ -330,7 +328,7 @@
                <seg>Solo un momento. Solo una cita, por favor. Hablan de los artículos 1 y 2; les voy a leer una cita de Peces-Barba, cuando habla de por qué se configura el artículo 2: La existencia de España como nación no excluye la existencia de naciones en el interior de España. Eso no se atreverán a decirlo nunca ustedes en público. Y por eso son pasado y no son futuro.</seg>
                <seg>Otra cita de otro padre de la Constitución.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u36" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u36" ana="#chair">
                <seg>No, no, no, señor Domènech, ha indicado que iba a decir una cita; ya ha acabado el tiempo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u37"
@@ -338,7 +336,7 @@
                ana="#regular">
                <seg>Se acepta toda una realidad: que España es un Estado plurinacional. Y por tanto... Voy acabando.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u38" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u38" ana="#chair">
                <seg>Acabe ya, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u39"
@@ -348,7 +346,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos.-El señor Rivera Díaz pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u40" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u40" ana="#chair">
                <seg>Señor Rivera, según hemos quedado en la Junta de Portavoces esta mañana, no existe turno de réplica a la hora de fijar posición en esto.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u41"
@@ -356,7 +354,7 @@
                ana="#regular">
                <seg>Como cuestión de orden, presidente. No le pido réplica; es por falsedad y por aclarar estas cosas.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u42" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u42" ana="#chair">
                <seg>Vamos a ver. No vamos a empezar con esto en los debates porque entonces no acabamos nunca.</seg>
                <note>Rumores</note>
             </u>
@@ -365,7 +363,7 @@
                ana="#regular">
                <seg>Señor presidente, para aclarar una falsedad en la Cámara frente a los diputados. Artículo 71. Le pido treinta segundos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u44" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u44" ana="#chair">
                <seg>¿Cuál ha sido?</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u45"
@@ -373,7 +371,7 @@
                ana="#regular">
                <seg>Si me deja, se lo explico. Pero autoríceme. Es usted quien manda.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u46" ana="#chair">
                <seg>Sí, pero solo el enunciado. No, no quiero que luego intervenga. Quiero el enunciado de cuál ha sido la falsedad. Punto.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u47"
@@ -381,7 +379,7 @@
                ana="#regular">
                <seg>Sí. El señor Errejón ha dicho que en 48 ocasiones nunca he defendido ningún tema sobre asuntos sociales. Y luego, explicar lo que ha dicho el señor Domènech.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u48" ana="#chair">
                <seg>Esto no vale. Se acabó.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u49"
@@ -389,7 +387,7 @@
                ana="#regular">
                <seg>¡Presidente!</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u50" ana="#chair">
                <seg>No, no. En cuanto a las alusiones, señor Rivera, y ya lo comento también para todos los parlamentarios y parlamentarias<note>Rumores</note> , el turno de alusiones se pide en el momento en que se comete o se produce la alusión. Punto. No ha sido así y por lo tanto vamos a pasar a lo que corresponde en este momento, que es preguntar a los grupos proponentes si aceptan la enmienda que se ha presentado. He creído entender, por el debate, que hay una transacción que es aceptada tanto por el Grupo Ciudadanos como por el Grupo Popular.<note>Rumores</note> ¿No?</seg>
                <note>Rumores</note>
             </u>
@@ -399,7 +397,7 @@
                <seg>No nos han presentado enmienda alguna y queremos que la proposición no de ley se someta a votación en sus términos.</seg>
                <pb n="22"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u52" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u52" ana="#chair">
                <seg>¿Y no aceptan la enmienda presentada, por tanto?<note>Rumores</note> Corresponde preguntar por la aceptación o no de la enmienda. En el debate se ha hablado de una transacción, que efectivamente todavía no ha llegado a la Mesa. Era por si la conocían los proponentes. Si no la conocen, la pregunta es: ¿El Grupo Popular acepta la enmienda?<note>Denegaciones</note> No. ¿El Grupo Ciudadanos acepta la enmienda?</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u53"
@@ -410,7 +408,7 @@
                <seg>- DEL GRUPO PARLAMENTARIO SOCIALISTA, RELATIVA A RECUPERAR EL PACTO DE TOLEDO, COMO EXPRESIÓN DE CONSENSO POLÍTICO, Y EL DIÁLOGO SOCIAL, CON EL FIN DE ACORDAR LAS MEDIDAS QUE PERMITAN ASEGURAR PENSIONES DIGNAS Y FORTALECER LA VIABILIDAD DEL SISTEMA PÚBLICO DE PENSIONES.</seg>
                <note>Número de expediente 162/000006</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u54" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u54" ana="#chair">
                <seg>Continuamos con la proposición no de ley del Grupo Parlamentario Socialista, relativa a recuperar el Pacto de Toledo, como expresión de consenso político, y el diálogo social, con el fin de acordar las medidas que permitan asegurar pensiones dignas y fortalecer la viabilidad del sistema público de pensiones. Para la presentación de la iniciativa, tiene la palabra, por siete minutos, la señora Rodríguez Fernández.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u55"
@@ -419,7 +417,7 @@
                <seg>Señor presidente, señorías, tengo que reconocer que me siento muy honrada de que la primera iniciativa que defiende el Grupo Parlamentario Socialista en esta Cámara sea sobre la reconstrucción del Pacto de Toledo y la dignidad de nuestro sistema de pensiones, que es lo mismo que defender la seguridad y la dignidad de los más de 8,5 millones de hombres y mujeres, muchos de ellos y ellas viudos, mayores, enfermos...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u56" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u56" ana="#chair">
                <seg>Un momento, señora Rodríguez.</seg>
                <seg>Por favor, guarden silencio, y los que tengan que discurrir por el Parlamento hacia las afueras que lo hagan también en silencio, por favor.</seg>
             </u>
@@ -437,7 +435,7 @@
                <note>Aplausos</note>
                <pb n="24"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u58" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u58" ana="#chair">
                <seg>Gracias, señora Rodríguez.</seg>
                <seg>Ahora es el turno de los grupos que han formulado enmiendas. En primer lugar, por el Grupo Parlamentario Ciudadanos, tiene la palabra el señor Roldán.</seg>
             </u>
@@ -452,7 +450,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u60" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u60" ana="#chair">
                <seg>Gracias, señor Roldán.</seg>
                <seg>También como grupo enmendante, por el Grupo Parlamentario Popular tiene la palabra la señora España.</seg>
             </u>
@@ -466,7 +464,7 @@
                <seg>Luego hablan del Fondo de reserva.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u62" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u62" ana="#chair">
                <seg>Un poco de silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u63"
@@ -477,7 +475,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u64" ana="#chair">
                <seg>Ahora los grupos fijan posición y tiene la palabra el señor Alli.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u65"
@@ -489,7 +487,7 @@
                <seg>Para finalizar, tenemos un gran reto demográfico. Ya lo ha dicho el diputado del Grupo Ciudadanos en la presentación de los datos: el envejecimiento paulatino y progresivo de la sociedad española, como dicen los expertos sociológicos, nos va a llevar a una debacle poblacional, lo que supondrá consecuencias<pb n="27"/> en el ámbito sociosanitario y, lógicamente, en el ámbito del sistema de pensiones. Ahí es donde tenemos que recobrar fuerzas y llegar a grandes pactos de Estado en materia de bienestar y de sostenibilidad de las pensiones de las personas jubiladas.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u66" ana="#chair">
                <seg>Gracias, señor Alli.</seg>
                <seg>Señora Beitialarrangoitia.</seg>
             </u>
@@ -498,7 +496,7 @@
                ana="#regular">
                <seg>El acceso a una pensión que permita llevar una vida digna es un derecho que debe ser garantizado por los poderes públicos; algo que está lejos de ser una realidad. Ello se debe a las reformas realizadas en los últimos años, y debe revertirse esta situación, pero no nos engañemos, volver a la situación de 2011 tampoco lo hace posible. No hay más que mirar los datos: la mitad de las pensiones son inferiores a los 700 euros al mes y unos 5 millones de pensionistas malviven con ingresos inferiores al umbral oficial de pobreza. Esta situación se agrava en el caso de las mujeres, que por término medio vienen recibiendo pensiones un 40 % más bajas. Hablar de pensiones de viudedad supone hacerlo de pobreza, cuando no de extrema pobreza, y no quisiera olvidar además a las miles de personas cotizantes que han quedado excluidas del derecho mismo a una pensión pública. Por tanto, no basta con hablar de recuperación del poder adquisitivo cuando hay pensiones que nunca lo han tenido. Para ello debemos garantizar que no habrá pensiones por debajo del umbral de la pobreza. La Unión Europea define que el umbral de la pobreza se debe calcular sobre el equivalente al 60 % del salario medio de los trabajadores del entorno, que en el caso de Euskal Herria supone, por ejemplo, que ninguna pensión debería ser inferior a 1.080 euros. Es por tanto urgente dar una solución integral a esta cuestión que afecta cada vez a más personas. Por supuesto, no aceptamos las excusas que se han venido esgrimiendo para profundizar en la vía de los recortes, como son la insostenibilidad del régimen de las pensiones y su creciente déficit. Si partimos de la base de que las pensiones han de ser dignas, el siguiente paso es garantizar los recursos suficientes para ello, y por tanto los esfuerzos deben hacerse en la ampliación de los ingresos, invirtiendo el orden de prioridades, poniendo las necesidades de la población en primer término, apostando realmente por una política social que impulse la creación de empleo digno y la reducción del paro. Esto equilibraría las cuentas de la Seguridad Social sin necesidad de recortes. Esta es la única manera de garantizar las pensiones presentes y futuras. Para ello, Euskal Herria Bildu reclama un marco propio en materia de Seguridad Social, así como de relaciones laborales. Esa sería la forma de crear empleo y por tanto de garantizar las pensiones.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u68" ana="#chair">
                <seg>Gracias, señora Beitialarrangoitia.</seg>
                <seg>Tiene la palabra el señor Bataller.</seg>
             </u>
@@ -514,7 +512,7 @@
                <seg>Moltes gràcies.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u70" ana="#chair">
                <seg>Gracias, señor Bataller.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Barandiaran.</seg>
                <note>La señora vicepresidenta, Villalobos Talero, ocupa la Presidencia</note>
@@ -556,7 +554,7 @@
                <seg>Finalmente, señorías, ya lo ha planteado el portavoz del Grupo Vasco, a pesar de los pesares llevamos incumpliendo sistemáticamente los estatutos de autonomía que reconocen competencias de gestión en materia de Seguridad Social. Esta es otra cuestión que en esta legislatura también va a plantearse. De acuerdo con esta lógica, mi grupo votará a favor de la iniciativa de la señora Rodríguez del Grupo Socialista con la esperanza de que el consenso llegue de nuevo al Pacto de Toledo.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u76" ana="#chair">
                <seg>Gracias, señor Campuzano.</seg>
                <seg>Es el turno del Grupo Parlamentario de Esquerra Republicana y tiene la palabra el señor Salvador.</seg>
             </u>
@@ -571,7 +569,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u78" ana="#chair">
                <seg>Gracias, señor Salvador.</seg>
                <seg>Por el Grupo Parlamentario Podemos-En Comú Podem-En Marea, tiene la palabra el señor Montero.</seg>
             </u>
@@ -584,7 +582,7 @@
                <seg>Y miren ustedes por dónde, hace apenas unas semanas que Funcas, la Fundación de las Cajas de Ahorro de este país, acaba de publicar un estudio en el que estima el coste para los pensionistas de las dos reformas, la consensuada, del año 2011, y la no consensuada, del año 2013. Según Funcas, la reforma del 2011 supondrá una rebaja media en la pensión vitalicia en torno al 20 %, mientras que la reforma del 2013 añadirá una pérdida adicional del 15 %. Es decir: en menos de tres años, entre ustedes y ustedes<note>señalando a los escaños situados a izquierda y derecha del hemiciclo</note> , han pegado un recorte a los derechos de los pensionistas de más de un 35 %.<note>Aplausos</note> ; un recorte que todos ellos irán experimentando desde que se jubilen hasta el día justo antes de morirse. Eso es lo que ustedes hacen cada vez que se ponen a reformar las pensiones, con o sin consenso: salvar la salud financiera del sistema a costa de la salud de los pensionistas. Así que no vengan ahora a buscar nuestro apoyo para recortar derechos. Ahí no nos van a encontrar por mucha invocación al Pacto de Toledo o al pacto de los Toros de Guisando que hagan unos u otros en función del día y del motivo. Sin embargo, no piensen que les estamos dando un portazo en las narices porque sí les voy a decir dónde nos pueden encontrar. Nos pueden encontrar cuando se trate de hablar de qué es una pensión digna en este país, en el que el 23 % de los pensionistas viven por debajo del umbral de la pobreza y en el que el 61 % de los pensionistas tiene una pensión inferior a 800 euros. Creo sinceramente que ante esos datos, su preocupación y la nuestra es exactamente la misma y estoy seguro de que ahí podemos llegar a consensos; solo le ruego, señora Rodríguez, que no empecemos la casa por el tejado.</seg>
                <seg>Lo primero sobre lo que nos tenemos que poner de acuerdo es en que lo más importante de un sistema público de pensiones no es la salud financiera del sistema, sino las condiciones de vida de los pensionistas. No hacerlo así es confundir los fines con los medios. Si nos ponemos de acuerdo en eso, luego ya es más fácil poder ponernos de acuerdo en cómo conseguir los recursos para garantizar condiciones de vida dignas para nuestros pensionistas porque estoy seguro de que entonces será mucho más fácil hablar de otros temas. Podremos hablar de cómo subir las pensiones mínimas, porque nosotros queremos subirlas y creemos que ustedes también. Podremos hablar de cómo financiar las pensiones más allá de las cotizaciones a la Seguridad Social, porque nosotros queremos complementarlas con impuestos e igual a ustedes les parece una buena idea. Podremos hablar de qué margen tenemos para hacer una reforma fiscal que no solo nos permita ayudar a financiar las pensiones con impuestos, como se hace en otros países europeos y ustedes lo saben bien, sino también garantizar más y mejores derechos sociales. Pero, señora Rodríguez, decídase pronto si quiere hablar de eso o no, si quiere buscar consensos en ese terreno o no, porque al ritmo al que vamos, las políticas del Partido Popular no solo van a agotar el Fondo de reserva de la Seguridad Social, sino que además van a acabar con todas las conquistas sociales que tanto trabajo y lucha costaron a nuestros mayores, tanto a los que han trabajado en este país como a los que han retornado al mismo desde el exilio. Esos mayores...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u80" ana="#chair">
                <seg>Señor Montero, debe ir concluyendo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u81"
@@ -595,7 +593,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u82" ana="#chair">
                <seg>Gracias, señor Montero.</seg>
                <seg>Le corresponde ahora a la señora Rodríguez Fernández decirnos a la Cámara si acepta alguna de las enmiendas presentadas.</seg>
                <pb n="33"/>
@@ -605,12 +603,12 @@
                ana="#regular">
                <seg>Presidente, no aceptamos ninguna de las dos enmiendas presentadas ya que no añaden nada sustancialmente diferente al hecho de fortalecer el Pacto de Toledo.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u84" ana="#chair">
                <seg>Muy bien, muchas gracias.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO PODEMOS-EN COMÚ PODEM-EN MAREA, SOBRE RATIFICACIÓN DEL CONVENIO NÚMERO 189 DE LA OIT Y LA RECOMENDACIÓN NÚMERO 201 SOBRE EL TRABAJO DECENTE PARA LAS TRABAJADORAS O TRABAJADORES DOMÉSTICOS.</seg>
                <note>Número de expediente 162/000079</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u85" ana="#chair">
                <seg>Proposición no de ley del Grupo Parlamentario Podemos-En Comú Podem-En Marea sobre la ratificación del Convenio número 189 de la OIT y la Recomendación número 201 sobre el trabajo decente para las trabajadoras o trabajadores domésticos.</seg>
                <seg>Para la presentación de la iniciativa, tiene la palabra la señora Vidal.</seg>
             </u>
@@ -625,7 +623,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos.-Varios señores diputados además se ponen en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u87" ana="#chair">
                <seg>Gracias, señora Vidal.</seg>
                <seg>Turno de los grupos que han presentado enmiendas, empezando por el Grupo Parlamentario Mixto. Tiene la palabra el señor Martínez.</seg>
             </u>
@@ -637,7 +635,7 @@
                <seg>Muchas gracias.</seg>
                <pb n="35"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u89" ana="#chair">
                <seg>Gracias, señor Martínez.</seg>
                <seg>Tiene la palabra la señora Enbeita.</seg>
             </u>
@@ -652,7 +650,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u91" ana="#chair">
                <seg>Gracias, señora Enbeita.</seg>
                <seg>Señora Sánchez, tiene la palabra.</seg>
             </u>
@@ -665,7 +663,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u93" ana="#chair">
                <seg>Gracias, señora Sánchez.</seg>
                <seg>Señora Sorlí.</seg>
             </u>
@@ -678,7 +676,7 @@
                <seg>Tomemos conciencia de esta realidad. Un trabajo mal remunerado es un trabajo no reconocido, un trabajo no dignificado. La estructura ya le va bien: tener un trabajo gratuito, no atender económicamente las necesidades domésticas. En Compromís decimos sí al reconocimiento profesional, a los derechos, a la dignidad del trabajo doméstico. Y el señor Sánchez -al cual me gustaría dirigirme, pero no está- tiene la oportunidad de elegir entre la derecha que ha reducido prestaciones y ha abocado a esta gente a la clandestinidad, la nueva derecha, que se disfraza pero quiere alimentar desigualdades, favorecer a los bancos, al mercado y al poder<note>Aplausos</note> , o puede elegir la oportunidad, la alternativa política, la alternativa para todas las personas. Puede decidir gobernar para reconocer derechos, dignificar trabajos y hacer una sociedad más justa y más feliz. Hagámoslo posible; hagamos posibles políticas para todas las personas, también para las trabajadoras domésticas.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u95" ana="#chair">
                <seg>Muchas gracias, señora Sorlí.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> tiene la palabra el señor Campuzano.</seg>
             </u>
@@ -692,7 +690,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u97" ana="#chair">
                <seg>Gracias, señor Campuzano.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos, tiene la palabra la señora Faba.</seg>
             </u>
@@ -706,7 +704,7 @@
                <seg>Gracias, señorías. Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u99" ana="#chair">
                <seg>Gracias, señora Faba.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra el señor Echániz.</seg>
             </u>
@@ -722,7 +720,7 @@
                <seg>Señorías, cualquier consenso, cualquier convenio o acuerdo al que el Reino de España se sume debe hacerse sin menoscabar nuestro derecho del trabajo y sin impactar negativamente en el empleo. Así lo hacen el resto de países. Por eso, hasta este momento, de los ciento ochenta y cinco países de la OIT, solo veintidós lo han ratificado, un poco más del 10 %; y de los veintiocho países de la Unión Europea, solamente seis lo han ratificado. Casi un 90 % de los países de la OIT no lo han ratificado aún. Por eso, señorías, España, que tiene una situación mejor que la mayor parte de todos esos países de la OIT, debe hacerlo cuando tengamos la seguridad -y así lo defiende la enmienda presentada por el Grupo Parlamentario Popular- de que no perjudicará a nuestro mercado de trabajo, de que no perjudicará a nuestros trabajadores y, desde luego, cuando exista el consenso necesario entre todos los implicados.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u101" ana="#chair">
                <seg>Gracias, señor Echániz.</seg>
                <seg>Ahora sí entramos en el turno para fijar posiciones de aquellos grupos que no han presentado enmiendas. Tiene en primer lugar la palabra el representante del Grupo Parlamentario Vasco<note>EAJ-PNV</note> , el señor Barandiaran.</seg>
             </u>
@@ -736,7 +734,7 @@
                <seg>La PNL recuerda en un momento que este colectivo tiene rostro de mujer, y yo quería añadir que a veces tiene también un rostro de niña, también tiene acento inmigrante y no en pocas ocasiones apellido de irregular o clandestino. También por ello está sometido a ámbitos de explotación. Si bien la normativa laboral debiera permitir impedir esas situaciones -reitero lo que he comentado antes-, hace falta una mayor actuación inspectora para prevenir este tipo de situaciones. Como decía, como consecuencia de todo ello entendemos que, sin perjuicio de que existan ámbitos que haya necesidad de superar, es posible hacerlo puede que con alguna, pero no demasiada, dificultad. Por ello, la ratificación del Convenio 189 y de la Recomendación 201 de la OIT es una cuestión que cuesta poco hacer y más imaginar que un Gobierno democrático pueda no realizar. Anunciamos por ello que el Grupo Vasco apoyará esta PNL.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u103" ana="#chair">
                <seg>Gracias, señor Barandiaran.</seg>
                <seg>Por el Grupo Parlamentario de Esquerra Republicana tiene la palabra la señora Surra.</seg>
             </u>
@@ -748,7 +746,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u105" ana="#chair">
                <seg>Gracias, señora Surra.</seg>
                <seg>Por el Grupo Parlamentario Socialista tiene la palabra la señora Sumelzo.</seg>
             </u>
@@ -762,7 +760,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u107" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u107" ana="#chair">
                <seg>Gracias, señora Sumelzo.</seg>
                <seg>Señora Vidal, ¿acepta alguna de las enmiendas que han presentado los diferentes grupos?</seg>
             </u>
@@ -771,13 +769,13 @@
                ana="#regular">
                <seg>Aceptamos la de Foro, rechazamos la de Ciudadanos y la del Partido Popular, y aceptamos también la de Democràcia i Llibertat.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u109" ana="#chair">
                <seg>Muy bien. Muchas gracias.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPUESTAS DE CREACIÓN DE COMISIONES - SOLICITUD DEL GRUPO PARLAMENTARIO PODEMOS-EN COMÚ PODEM-EN MAREA, DE CREACIÓN DE UNA COMISIÓN PERMANENTE NO LEGISLATIVA DE LUCHA CONTRA LA CORRUPCIÓN. - SOLICITUD DEL GRUPO PARLAMENTARIO SOCIALISTA Y DE LOS SEÑORES BALDOVÍ Y GARZÓN , DE CREACIÓN DE UNA COMISIÓN PERMANENTE PARA LA AUDITORÍA DE LA CALIDAD DEMOCRÁTICA, LA LUCHA CONTRA LA CORRUPCIÓN Y LAS REFORMAS INSTITUCIONALES Y LEGALES.</head>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u110" ana="#chair">
                <seg>Pasamos a tratar el punto del orden del día correspondiente a las propuestas de creación de diferentes comisiones. En primer lugar, se van a debatir conjuntamente, conforme a lo acordado por la Junta de Portavoces, la solicitud del Grupo Parlamentario Podemos-En Comú Podem-En Marea, de creación de una comisión permanente no legislativa de lucha contra la corrupción y la solicitud del Grupo Parlamentario Socialista y de los señores Baldoví y Garzón, del Grupo Mixto, de creación de una comisión permanente para la auditoría de la calidad democrática, la lucha contra la corrupción y las reformas institucionales y legales.</seg>
                <seg>Para la defensa de las propuestas formuladas por su grupo, interviene, en primer lugar, por el Grupo Parlamentario Socialista el señor Campo.</seg>
             </u>
@@ -844,7 +842,7 @@
                <seg>Moltes gràcies, senyora vicepresidenta.</seg>
                <note>Aplausos.-El señor presidente ocupa la Presidencia</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u118" ana="#chair">
                <seg>Gracias, señor Baldoví.</seg>
                <seg>Nadie ha solicitado el turno en contra, por lo que entramos en el turno de fijación de posiciones. Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> tiene la palabra el señor Legarda.</seg>
             </u>
@@ -858,7 +856,7 @@
                <seg>Por último, respecto al normativismo que traslucen las propuestas de creación de estas comisiones, ya que se identifica el problema que se pretende atajar con la falta de legislación, se dice literalmente: el problema reside en la falta de legislación, en los resquicios a la corrupción y en establecer mecanismos sancionadores eficaces. Desde los tiempos del conde-duque de Olivares llevamos oyendo esto, pero este no es a nuestro juicio el núcleo del problema. El núcleo del problema es una falta de moralidad tanto pública como privada y esto no lo arregla en exclusiva la fe en la magia de las normas. Por lo expuesto, y estando ante una cuestión de gran relevancia pública, no nos opondremos, pero tampoco la apoyaremos con el contenido propuesto.</seg>
                <seg>Muchas gracias, señorías.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u120" ana="#chair">
                <seg>Gracias, señor Legarda.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> , tiene la palabra el señor Campuzano.</seg>
             </u>
@@ -871,7 +869,7 @@
                <seg>Si me permiten introducir un punto no de cierto escepticismo sino de una aproximación realista a esta discusión, los problemas de desafección hacia la política, de corrupción política, de empobrecimiento de nuestras instituciones, ¿están directamente vinculados a nuestro marco legal? ¿Es que el marco legal del que nos hemos dotado en los últimos años, y singularmente en la pasada legislatura -hay que reconocer al Grupo Popular que se han aprobado importantes reformas en esta materia- se aleja del marco legal de los Estados más avanzados de nuestro entorno? ¿El problema está en las leyes que tenemos, o quizá los problemas que existen en esta materia tienen que ver con cuestiones que no son tan simples como hacer más y nuevas leyes? En el Estado español continúa instalada la idea de que, frente a cualquier patología social, la respuesta es más normativa, y quizás somos líderes en legislar, pero nuestros problemas de desafección y de corrupción continúan ahí. Tenemos problemas de gobernanza en las instituciones y tal vez, señorías, tengamos problemas culturales de fondo que no se resuelvan<pb n="48"/> exclusivamente con modificaciones legislativas. En esos problemas de cultura, de fondo, que tienen que ver con la confianza de los ciudadanos hacia las instituciones, que de verdad seamos capaces de convertir esta agenda tan ambiciosa que se plantea en una agenda posible, que no se planteen tan solo cambios legislativos, sino que se introduzcan cambios culturales para encontrar el apoyo del Grupo Catalán<note>Democràcia i Llibertat</note> Vamos a ver qué da de sí esta comisión. La elaboración del plan de trabajo que se anuncia al final del texto que se va a someter a votación será fundamental. Mi grupo solicita a los demás grupos que seamos lo más serios posible en la construcción de este plan, porque lo peor que nos podría pasar es que nuestro discurso retórico, con la creación de esta comisión contra la corrupción, se quedase simplemente en una exhibición de nuevo de las diferencias políticas, de los trapos sucios, de aquello que degrada la confianza de la ciudadanía frente a esos problemas. Al menos esa va a ser nuestra posición.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u122" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u122" ana="#chair">
                <seg>Gracias, señor Campuzano.</seg>
                <seg>Por el Grupo Parlamentario de Esquerra Republicana, tiene la palabra la señora Jordà.</seg>
             </u>
@@ -885,7 +883,7 @@
                <seg>El problema no es puntual. La corrupción ha podrido todo el sistema político. Las leyes que tenemos responden en buena medida a un sistema corrupto, y hay que hacer nuevas leyes que garanticen que se responda a la voz popular y no a la voz del IBEX 35. Nosotros vamos a hacer un<pb n="49"/> verdadero proceso constituyente en Cataluña para ello. Vamos a hacer un país nuevo. Vamos a hacer la república catalana.</seg>
                <seg>Moltes gràcies.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u124" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u124" ana="#chair">
                <seg>Gracias, señora Jordà.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos, tiene la palabra el señor Villegas.</seg>
             </u>
@@ -900,7 +898,7 @@
                <note>Aplausos</note>
                <pb n="50"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u126" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u126" ana="#chair">
                <seg>Gracias, señor Villegas.</seg>
                <seg>Por el Grupo Parlamentario Popular tiene la palabra la señora Moro.</seg>
             </u>
@@ -912,11 +910,11 @@
                <seg>También hemos avanzado con la implantación de algo que era muy necesario y que nos demandaban todos, la Oficina de Recuperación y de Gestión de Activos. ¿Quiere decir esto que la labor estaba concluida? Nunca lo pensamos ni lo pensamos tampoco ahora. Por tanto, a pesar de ese camino recorrido, a pesar de lo hecho, creemos que es necesario atender la voz de la ciudadanía y afrontar la incorporación de otros instrumentos, y sobre todo mejorar aquellos mecanismos que pueden atender a la prevención -probablemente lo que más ha fallado en otros momentos- y dejar de tirarnos los trastos a la cabeza, porque como se decía en un texto por todos conocidos, nadie está libre, y por tanto, si nadie está libre, que no tire la primera piedra. Aquí se han hecho listados que faltan a la verdad, que no miran a sí mismos y que solo miran a los demás. Así no podemos trabajar. Queremos trabajar en esta Cámara, de hecho el Grupo Parlamentario Popular ha contribuido con esa transacción, que agradezco por el trabajo y el buen tono de los grupos, para que esta comisión sea una realidad. Ojo, no es una comisión que sustituye a los jueces, no es una comisión de investigación, no es una comisión que aparece ex novo, no es una comisión que sustituye al resto de comisiones legislativas. Es una comisión que permite avanzar en instrumentos de trabajo, en instrumentos de regeneración, en evaluación de lo que hemos hecho, para superar cosas que no han servido, para incorporar otros instrumentos. Eso es lo que nos piden los ciudadanos y ahí van a encontrar al Partido Popular. Seguro que la democracia finalmente nos lo agradecerá.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u128" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u128" ana="#chair">
                <seg>Gracias, señora Moro.<pb n="51"/> - SOLICITUD DEL GRUPO PARLAMENTARIO PODEMOS-EN COMÚ PODEM-EN MAREA, DE CREACIÓN DE UNA COMISIÓN PERMANENTE NO LEGISLATIVA DE DERECHOS DE LA INFANCIA Y ADOLESCENCIA, CPDIA.</seg>
                <note>Número de expediente 155/000005</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u129" ana="#chair">
                <seg>Tratamos ahora la solicitud del Grupo Parlamentario Podemos-En Comú Podem-En Marea de creación de una comisión permanente no legislativa de derechos de la infancia y la adolescencia. Para la defensa de la propuesta formulada por su grupo tiene la palabra la señora Montero.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u130"
@@ -931,7 +929,7 @@
                <seg>Esta comisión debe aportar la perspectiva de infancia desde un enfoque de derechos al conjunto de la actividad parlamentaria y al seguimiento de la acción de gobierno en materia de infancia, en todas aquellas políticas que afecten a los niños, niñas y adolescentes de forma directa o indirecta. Un seguimiento parlamentario que además fortaleza el rol del actual Observatorio de la Infancia, que ha visto muy mermada su capacidad de trabajo por la falta de presupuesto.<note>Rumores</note> La comisión debe velar también por el adecuado seguimiento y evaluación de la inversión en infancia, así como garantizar la apertura de un diálogo cotidiano con el conjunto de la sociedad civil, y en especial esas organizaciones que defienden los derechos de los niños, niñas y adolescentes, a fin de que las propuestas de estos niños y niñas puedan verse reconocidas en la actividad cotidiana de esta Cámara.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u131" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u131" ana="#chair">
                <seg>Un poco de silencio, por favor, que ya queda poco.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u132"
@@ -942,7 +940,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u133" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u133" ana="#chair">
                <seg>Gracias, señora Montero.</seg>
                <seg>Para fijar las posiciones de los grupos, tiene la palabra en primer lugar, por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , la señora Ardanza.</seg>
             </u>
@@ -953,7 +951,7 @@
                <seg>Con relación a esta propuesta de creación de una comisión permanente no legislativa de derechos de la infancia y adolescencia, de entrada, les digo que en principio mi grupo no tiene nada que objetar. Sin embargo también les digo que tenemos serias dudas en cuanto a las funciones propuestas y en cuanto a su alcance. Una primera lectura de dichas funciones nos permite constatar ya interferencias e incluso invasión de competencias propias de otros poderes del Estado. Y me estoy refiriendo, tanto a la interferencia con competencias propias de los poderes ejecutivos, como es la propia de la acción de gobierno, que implica entre otras muchas actuaciones la realización, la coordinación, la planificación y evaluación de la ejecución de las políticas en esta materia y otras transversales, como a las competencias exclusivas y<pb n="53"/> propias de las comunidades autónomas y sus correspondientes parlamentos. Y en cuanto a interferencias en competencias propias de otros poderes hay que advertir que este Congreso legisla y controla la acción de gobierno, dentro del ámbito de competencias del Estado, pero no puede realizar funciones propias de la actividad administrativa, incluso de la jurisdiccional, tales como garantizar que todas las leyes, políticas, mecanismos, planes, programas y presupuestos estén en alineación con el interés superior de la persona menor y otras similares, y aún mucho menos si lo garantizado no está dentro del ámbito competencial del Estado. Puede que no sea esta la intención de la propuesta presentada. Pero la ambigüedad y el exceso en la redacción de la propuesta permiten interpretaciones amplias y muy diversas.<note>Rumores</note> Tampoco puede este Congreso invadir por medio de la creación de comisiones permanentes no legislativas los ámbitos competenciales de las comunidades autónomas.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u135" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u135" ana="#chair">
                <seg>Un momento, señora Ardanza.</seg>
                <seg>Vuelvo a pedir silencio, porque no sé cómo sienten el volumen de esas conversaciones en los escaños, pero aquí atruenan. Por lo tanto un poco de respeto a quien está interviniendo.</seg>
                <seg>Puede continuar. Gracias.</seg>
@@ -967,7 +965,7 @@
                <seg>Por todo lo dicho, el Grupo Vasco se va a abstener en el momento de la votación para crear la comisión permanente no legislativa de derechos de la infancia y de la adolescencia.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u137" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u137" ana="#chair">
                <seg>Gracias, señora Ardanza.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> , tiene la palabra la señora Ribera.</seg>
             </u>
@@ -983,7 +981,7 @@
                <seg>Con independencia de esto, nuestra posición, incluso si el grupo proponente acepta que se eliminen estos puntos 6 y 7, que tampoco entiendo qué mal hacen, porque de lo que hablan es de que esta comisión...</seg>
                <pb n="55"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u139" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u139" ana="#chair">
                <seg>Señora Ribera concluya, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u140"
@@ -993,7 +991,7 @@
                <seg>Con independencia de que se acepte o no, nosotros vamos a votar a favor de esta propuesta que consideramos que ayuda a avanzar en positivo y que aplaudimos.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u141" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u141" ana="#chair">
                <seg>Gracias, señora Ribera.</seg>
                <seg>Por el Grupo Parlamentario de Esquerra Republicana tiene la palabra el señor Olòriz.</seg>
             </u>
@@ -1007,7 +1005,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u143" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u143" ana="#chair">
                <seg>Muchas gracias, señor Olòriz.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos, que ha presentado además una propuesta en relación con esta iniciativa, tiene la palabra señora Miguel.</seg>
             </u>
@@ -1018,7 +1016,7 @@
                <seg>Señorías, el Grupo Parlamentario Podemos-En Común Podem-En Marea presenta esta propuesta de creación de una comisión parlamentaria no legislativa sobre los derechos de la infancia y de la adolescencia, justificando esa necesidad sobre dos ejes fundamentales que compartimos. En primer lugar, que es de justicia. Es verdad que nuestra propia Constitución, desde la aceptación de la Convención de los Derechos del Niño de Naciones Unidas, sitúa al niño en un lugar preeminente en cuanto al desarrollo de políticas y legislación que aseguren su bienestar y su desarrollo pleno. En segundo lugar -además se ha debatido en esta Cámara hoy con respecto al Pacto de Toledo-, hay una razón demográfica. El alarmante envejecimiento de nuestra población hace especialmente importante el tratamiento de manera específica de la problemática y necesidades de los niños y sus familias. Y, sobre todo, mi grupo parlamentario apoya la creación de esta comisión porque el colectivo de niños y adolescentes está formado en España por un gran número de individuos que bien merecen tener un espacio en esta institución, donde se debaten de manera específica y especializada las medidas y políticas que les afectan.<pb n="56"/> Nuestra enmienda, como ha comentado nuestra compañera de Democràcia i Llibertat, no va encaminada a restringir esta propuesta, sino a hacerla más adaptable, más susceptible de consenso por parte de toda la Cámara, pues creemos que es muy importante que se constituya esta comisión. Luego, en su seno, se podrán debatir los pactos, el aumento presupuestario y todo lo que creamos conveniente. Nos congratulamos de que al menos en este aspecto la Cámara haya sido capaz...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u145" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u145" ana="#chair">
                <seg>Silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u146"
@@ -1028,7 +1026,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u147" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u147" ana="#chair">
                <seg>Muchas gracias, señora Miguel.</seg>
                <seg>Por el Grupo Parlamentario Socialista tiene la palabra la señora Rodríguez García.</seg>
             </u>
@@ -1039,7 +1037,7 @@
                <seg>Señor presidente, señorías, permítanme, aunque sea de manera rápida, empezar esta intervención, que se refiere a la infancia, recordando mi niñez. Soy niña de pueblo pequeño y estudié en un colegio público, con buenos recursos y buenos profesores. Tuve acceso a la lectura gracias a centros de bibliotecas públicos, estuve atendida en un magnífico centro de salud y pude ir a la universidad y estudiar gracias a un sistema de becas. Esta es mi realidad, pero también la de millones de niños españoles. He querido empezar así para agradecer el trabajo que hicieron quienes cuando nosotros éramos niños se sentaban en estos escaños o gobernaban nuestro país. Siempre es bueno ser agradecido y quería empezar así esta intervención.<note>Aplausos</note> Cuando algunos de nosotros acabábamos de nacer se sentaban en nuestro país las bases del Estado del bienestar, que nos han permitido avanzar individualmente y como sociedad. Con la apuesta por la sanidad pública y universal se garantizó la protección de la salud de todos los niños y niñas. Gracias al compromiso por una educación pública de calidad se hizo posible que los hijos e hijas de las familias trabajadoras accediéramos a la universidad, un avance sin precedentes en la igualdad de oportunidades en nuestro país. Estos hitos, señorías, se produjeron durante Gobiernos socialistas, pero no los hicimos solos, sino de la mano de la sociedad. Es un éxito colectivo de nuestro país. Y en esta Cámara también, señorías, hace muchos años -por ejemplo, en 1991, y no me refiero a mi grupo, sino que quiero mencionar a otro, al Grupo Parlamentario CDS- se propuso la creación de una ponencia sobre los derechos del niño en el seno de la Comisión de Política Social y de Empleo para garantizar la situación actual de la infancia. Quiero decir con esto que son ya muchos los avances en nuestro país. Es cierto que en la pasada legislatura mi grupo parlamentario trabajó en numerosas iniciativas que aquí se han mencionado, por lo que no las voy a repetir, pero por desgracia las iniciativas que aquí se plasmaron no tuvieron como consecuencia una buena gestión del Gobierno; también se han mencionado las consecuencias del Gobierno del Partido Popular en lo que se refiere a la desigualdad y a la injusticia social, que fundamentalmente padecieron después los más débiles, también los niños y las niñas. La pasada fue una legislatura marcada por la combinación de altas cifras de desempleo, de precariedad, de reducción de la protección social, que, como digo, trajeron esos datos a los que ya se ha hecho alusión y no voy a repetir. Simplemente quiero agradecer a las entidades, a las organizaciones no gubernamentales, a Save the Children, a Unicef, a Cáritas y a tantas otras, que nos hayan facilitado durante estos cuatro años de Gobierno del Partido Popular datos para conocer la realidad de lo que estaba sucediendo en nuestro país, pero, señorías, tras el 20 de diciembre no podemos conformarnos con esto. Es una buena noticia. Felicito al grupo proponente y les animo para que lancemos desde esta nueva Cámara, que representa al Congreso de los Diputados tras las elecciones, un mensaje claro de priorización de las políticas de infancia. Está bien que lo hagamos desde el Congreso de los Diputados, pero con la creación de esta comisión no es suficiente. ¿Qué les quiero decir, señorías? Que está muy bien que tengamos esta comisión para atender aquí de manera singular los problemas, los retos y las oportunidades de la infancia y la adolescencia; que está muy bien que garanticemos aquí que todas las leyes y los proyectos pasen los filtros para proteger el interés del menor; que está muy bien que hagamos aquí un seguimiento transversal de lo que sucede en los diferentes ministerios; que está muy bien que escuchemos en el Parlamento a las entidades que representan la defensa de los derechos de los niños<pb n="57"/> y las niñas. Todo eso está muy bien, lo compartimos y por eso apoyamos esta iniciativa, pero lo verdaderamente importante será contar con un Gobierno comprometido con este tipo de políticas, dispuesto a afrontar los problemas que existen en nuestro país, como la pobreza infantil o el desafío de reforzar las políticas de natalidad. Tenemos que acabar con dos dramas: con el drama personal de muchas mujeres y parejas jóvenes que quieren tener hijos y no pueden y con el drama colectivo de un país que envejece cada día.<note>Aplausos</note> Eso es lo que deseamos en el Grupo Parlamentario Socialista. Deseamos desarrollar un plan estratégico para la infancia, como han dicho aquí otros grupos, lograr un pacto por la educación, avanzar en la universalización de las escuelas de cero a tres años, configurar las becas como un derecho, poner en marcha un ingreso mínimo vital e incrementar su cuantía por cada hijo a cargo. Queremos aprobar una ley marco de servicios sociales. Queremos incluir en la cartera de servicios sanitarios la atención temprana. Queremos ampliar los permisos de paternidad y maternidad a las veintiséis semanas. Queremos reconocer a todas las mujeres con un bonus de cotización de dos años por cada hijo a efectos de su pensión. Queremos un pacto nacional por la racionalización de los horarios que nos permita ver a nuestros hijos y a nuestros hijos ver a sus padres. Son solo diez medidas que hace unos días les presentábamos aquí en ese Gobierno de cambio que proponíamos los socialistas. Son solo diez y sé que podrían ser muchas más. Estoy convencida de que si la mayoría de los que hoy deseamos un cambio de Gobierno -un Gobierno alternativo al del Partido Popular, al de los recortes y al de la desigualdad- trabajamos para hacerlo posible, esta puede ser una legislatura en la que los niños de hoy puedan comprender mañana que trabajamos por garantizarles el mejor presente y el mejor futuro, que no es otra cosa que garantizar el mejor presente y el mejor futuro para nuestro país. Hagámoslo posible.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u149" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u149" ana="#chair">
                <seg>Gracias, señora Rodríguez.</seg>
                <seg>Por último, por el Grupo Parlamentario Popular, tiene la palabra la señora González Vázquez.</seg>
             </u>
@@ -1050,7 +1048,7 @@
                <seg>Señorías, el Grupo Parlamentario Popular va a votar favorablemente la constitución de esta comisión no legislativa de derechos de la infancia y de la adolescencia. Votaremos sí a su creación porque nos parece una muy adecuada continuación del enorme trabajo legislativo que se ha hecho en esta Cámara en estos cuatro años pasados en favor de la infancia y la adolescencia. En 2011, cuando el Partido Popular llegó al Gobierno, España no contaba con políticas específicas destinadas a la infancia o a las familias. Si consideramos que el último Plan de apoyo a la infancia procedía del año 1996, nos daremos cuenta de la importancia de esta materia entre los objetivos de Gobierno del Partido Socialista: cero. El Gobierno ahora en funciones comenzó sus trabajos a través del Plan estratégico nacional de infancia y adolescencia 2013-2016. Señora representante del Grupo Parlamentario Socialista, ese plan existe ya dotado con más de 5.000 millones de euros de presupuesto. Además, este trabajo se vio culminado cuando el año pasado se aprobaron la Ley orgánica y la Ley ordinaria de protección a la infancia y a la adolescencia, que han supuesto un antes y un después en nuestro ordenamiento jurídico. Se ha incorporado por primera vez en Europa el principio del interés superior del menor, con un catálogo de derechos de niños y niñas, o la obligatoriedad de realizar una valoración de impacto en la infancia y la adolescencia de todos los anteproyectos de ley y reglamentos que se tramiten. Además, se ha ampliado a los niños y niñas el Estatuto de protección integral a las víctimas de violencia de género, que la Ley orgánica de 2004 concedía tan solo a las mujeres, ampliando la atención psicológica, la asistencia jurídica, social o económica también a los menores que sufren directa o indirectamente la violencia que sus padres ejercen sobre sus madres y sobre ellos mismos. Asimismo, se obliga a los jueces a pronunciarse para dictar medidas cautelares que afecten a los menores hijos e hijas de víctimas, primando siempre que continúen con sus madres. Recordemos que el 65 % de las mujeres que denuncian la situación de violencia de género tienen hijos e hijas menores de edad, razón por la que es evidente que los menores tienen que ser objeto de atención específica para su completa recuperación de esa situación de violencia que viven tanto ellos y ellas como sus madres. Quiero también mencionar cómo se ha definido por primera vez en una norma estatal la situación de riesgo y desamparo, simplificando y agilizando los procesos de tutela y guarda, la adopción y el acogimiento para evitar en la medida de lo posible las soluciones residenciales -los centros de menores- y favorecer las familiares en todos los casos de niñas y niños en situación de riesgo. Se ha reforzado asimismo la protección de los menores frente a delitos de carácter sexual, habiéndose creado un Registro central de delincuentes<pb n="58"/> sexuales, de forma que el acceso a determinadas profesiones que impliquen contacto con menores quede vetado a aquellas personas con antecedentes penales de este tipo. Todo ello, señorías, se ha llevado a cabo, además, con el apoyo y consejo de las comunidades autónomas, de las entidades del tercer sector -algunas de ellas presentes aquí- y de personas expertas del ámbito académico, es decir, con el máximo consenso posible. Del acuerdo que estas normas tuvieron en esta Cámara es testimonio que de 752 enmiendas presentadas se aprobaron 240, es decir, un tercio del total. Les recordaré más cuestiones concretas, señorías, en apoyo de la infancia y la mejora de las condiciones de vida de los menores y de las familias. La reforma fiscal impulsada el año pasado, 2015, tiene precisamente en las familias con varios hijos o hijas o con personas con discapacidad entre sus miembros, así como en las monoparentales con dos menores a su cargo a sus grandes beneficiarias, pagando menos y pudiendo además obtener desgravaciones y ayudas de hasta 100 euros al mes.</seg>
                <seg>Señorías, el grupo proponente ha presentado su solicitud basándose en una serie de datos un poco enmarañados sobre la pobreza infantil en nuestro país, que exigen por parte de nuestro grupo cierta aclaración. En primer lugar, hay que hacer constar que durante las dos legislaturas socialistas, 2004-2011, la pobreza infantil creció en Europa, según la tasa de riesgo de pobreza y exclusión social, Arope, más de cuatro puntos, mientras que en la Unión Europea a veintisiete cayó en siete décimas. A pesar de esto y del conocimiento de esta caída progresiva, el Plan de inclusión del año 2010 del Gobierno socialista no hizo ninguna mención ni tomó ninguna medida en relación con la pobreza infantil. En 2013, el Plan estratégico nacional de infancia y adolescencia y el Plan de inclusión social establecieron como objetivo prioritario la lucha contra la pobreza infantil, haciendo suya la recomendación europea Invertir en la infancia, romper el ciclo de desventajas. Se aprobó un fondo cuya distribución entre las comunidades autónomas permitió financiar 287 proyectos que favorecieron a 110.856 niños y niñas. En 2015 ese fondo se amplió a 32 millones de euros y en los Presupuestos Generales del Estado de 2016 pasa a tener una cuantía de 48 millones de euros para situaciones de carencia material, vía comunidades autónomas, que son, como bien sabemos y se ha recordado aquí también, las competentes en materia social. Asimismo, a través de la prioridad de financiación de proyectos de apoyo a la infancia, se han destinado en el programa de subvenciones del 0,7 del IRPF, 27,7 millones de euros para proyectos de infancia en el año 2015.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u151" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u151" ana="#chair">
                <seg>Señora González, le ruego que concluya.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u152"
@@ -1060,7 +1058,7 @@
                <seg>La pobreza infantil no es un problema, como también se ha dicho aquí, que pueda separarse de la situación de desempleo o vulnerabilidad de los progenitores o tutores del menor. Como bien saben ustedes, las comunidades autónomas y el Gobierno han puesto en marcha a lo largo de los años diferentes respuestas al problema de la pobreza, la inempleabilidad o el paro de larga duración. En 2014 el Gobierno -y con esto termino- se comprometió a revisar el panorama de las rentas mínimas de inserción junto con las comunidades autónomas y los agentes sociales para garantizar una cobertura y una protección más eficaz en todos los casos. Pues bien, la Comisión Europea acaba de conceder un proyecto al Gobierno de España para esa revisión y el establecimiento de propuestas de mejora, que esperamos que proporcionen un marco más eficaz, siempre en el respeto de las competencias que la Constitución y los respectivos estatutos de autonomía otorgan a cada Administración.</seg>
                <seg>Quiero recordar finalmente que las medidas puestas en marcha desde el Gobierno han sido valoradas favorablemente por el Consejo Europeo, que las ha considerado pasos en la adecuada dirección para mitigar la pobreza infantil. De la misma manera las han considerado los diferentes informes del secretario general de Naciones Unidas.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u153" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u153" ana="#chair">
                <seg>Señora González, ha sobrepasado, y mucho, el tiempo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u154"
@@ -1074,13 +1072,13 @@
          </div>
          <div type="debateSection">
             <head>- PROPUESTA DE CREACIÓN DE UNA COMISIÓN PERMANENTE DE SEGUIMIENTO Y EVALUACIÓN DE LOS ACUERDOS DEL PACTO DE TOLEDO - PROPUESTA DE CREACIÓN DE UNA COMISIÓN PERMANENTE SOBRE SEGURIDAD VIAL Y MOVILIDAD SOSTENIBLE. - PROPUESTA DE CREACIÓN DE UNA COMISIÓN PERMANENTE PARA LAS POLÍTICAS INTEGRALES DE LA DISCAPACIDAD. - PROPUESTA DE CREACIÓN DE UNA COMISIÓN PERMANENTE PARA EL ESTUDIO DEL CAMBIO CLIMÁTICO. - PROPUESTA DE CREACIÓN DE UNA COMISIÓN MIXTA DE CONTROL PARLAMENTARIO DE LA CORPORACIÓN DE RTVE Y SUS SOCIEDADES. - PROPUESTA DE CREACIÓN DE UNA COMISIÓN MIXTA PARA EL ESTUDIO DEL PROBLEMA DE LAS DROGAS.</head>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u155" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u155" ana="#chair">
                <seg>Señorías, en relación con el resto de propuestas de creación de comisiones permanentes incluidas en el orden del día, vamos a seguir lo acordado en la Junta de Portavoces, es decir, someterlas a su aprobación por la Cámara por asentimiento sin que haya un debate previo.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DACIÓN DE CUENTAS DE LA DIPUTACIÓN PERMANENTE - DACIÓN DE CUENTAS DE LA DIPUTACIÓN PERMANENTE DEL CONGRESO DE LOS DIPUTADOS DE LA X LEGISLATURA A LA CÁMARA DE LA XI LEGISLATURA.</head>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u156" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u156" ana="#chair">
                <seg>Lo mismo haríamos con el siguiente punto del orden del día, que es el de la dación de cuentas de la Diputación Permanente del Congreso de los Diputados de la X Legislatura a la Cámara de la XI Legislatura.</seg>
                <seg>Si no hay ninguna oposición a hacer esto así, vamos a esperar a que acabe de sonar el timbre para proceder a las diferentes votaciones.</seg>
                <note>Pausa</note>
@@ -1088,16 +1086,16 @@
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY : - DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, SOBRE LA UNIDAD DE ESPAÑA.</head>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u157" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u157" ana="#chair">
                <seg>Vamos a proceder a las votaciones pendientes del día de hoy. Les recuerdo, ya que es la primera vez que votamos en esta legislatura, que primero pulsamos el botón de presencia y luego el del sentido del voto.</seg>
                <seg>Comenzamos con la proposición no de ley del Grupo Parlamentario Popular sobre la unidad de España. Recuerdo que se vota en sus términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 326; a favor, 147; en contra, 79; abstenciones, 100.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u158" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u158" ana="#chair">
                <seg>Parece que no ha funcionado. En aquella esquina parece que no ha funcionado. Aquellos que no han visto reflejado su voto en la pantalla que se levanten, por favor, y digan cuál es el sentido de su voto.<note>Pausa</note> Vamos a hacer otra cosa. Primero, ¿cuántas personas no han podido votar en esta ocasión?<note>Pausa</note> No hablo de los que han equivocado el sentido del voto, sino de los que no han podido votar.<note>Pausa</note> Una persona. ¿Y el sentido de su voto cuál es?<note>La señora Botella Gómez: Abstención</note> El resultado definitivo de la votación es: votos emitidos, 327; a favor, 147; en contra, 79; abstenciones, 101.</seg>
                <pb n="60"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u159" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u159" ana="#chair">
                <seg>Queda aprobada.<note>El señor Iglesias Turrión pide la palabra</note> ¿Sí, señor Iglesias?</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u160"
@@ -1107,67 +1105,67 @@
                <seg>Creo que algunos diputados, algunos de mi grupo, han tenido dificultades, porque era la primera vez que utilizaban el sistema de votación, y no han podido expresar correctamente el sentido de su voto. Le pido a usted que se haga cargo y que el sentido de su voto, que creo que ha quedado claro con nuestras intervenciones, se pueda expresar en todos los diputados. Teniendo en cuenta, además, que algunas de sus señorías solo acuden a este Pleno a votar, creo que esta petición es del todo razonable.</seg>
                <note>Rumores.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u161" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u161" ana="#chair">
                <seg>Señor Iglesias, lamento mucho las equivocaciones de algún diputado o alguna diputada que haya podido errar en el sentido de su voto. Lo único que podemos hacer desde la Mesa es que aquellos que no han podido ejercer su derecho a voto se manifiesten, que es lo que hemos hecho en esta ocasión.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO SOCIALISTA, RELATIVA A RECUPERAR EL PACTO DE TOLEDO, COMO EXPRESIÓN DE CONSENSO POLÍTICO, Y EL DIÁLOGO SOCIAL, CON EL FIN DE ACORDAR LAS MEDIDAS QUE PERMITAN ASEGURAR PENSIONES DIGNAS Y FORTALECER LA VIABILIDAD DEL SISTEMA PÚBLICO DE PENSIONES.</seg>
                <note>Número de expediente 162/000006</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u162" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u162" ana="#chair">
                <seg>Pasamos ahora a votar la proposición no de ley del Grupo Parlamentario Socialista, relativa a recuperar el Pacto de Toledo, como expresión de consenso político, y el diálogo social, con el fin de acordar las medidas que permitan asegurar pensiones dignas y fortalecer la viabilidad del sistema público de pensiones. Les recuerdo que también se vota en sus términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 338; a favor, 219; en contra, 109; abstenciones, 10.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u163" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u163" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO PODEMOS-EN COMÚ PODEM-EN MAREA, SOBRE RATIFICACIÓN DEL CONVENIO NÚMERO 189 DE LA OIT Y LA RECOMENDACIÓN NÚMERO 201 SOBRE EL TRABAJO DECENTE PARA LAS TRABAJADORAS O TRABAJADORES DOMÉSTICOS.</seg>
                <note>Número de expediente 162/000079</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u164" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u164" ana="#chair">
                <seg>Votamos ahora la proposición no de ley del Grupo Parlamentario Podemos-En Comú Podem-En Marea sobre la ratificación del Convenio número 189 de la OIT y la Recomendación número 201 sobre el trabajo decente para las trabajadoras o trabajadores domésticos. Se vota en los términos resultantes de la incorporación de las enmiendas del Grupo Parlamentario Mixto, del señor Martínez Oblanca, y del Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 224; en contra, 1; abstenciones, 114.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u165" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u165" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO CIUDADANOS, RELATIVA A LA DEFENSA DE LA DEMOCRACIA, LA IGUALDAD Y LA UNIÓN DE TODOS LOS ESPAÑOLES.</seg>
                <note>Número de expediente 162/000011</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u166" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u166" ana="#chair">
                <seg>Votamos ahora la proposición no de ley del Grupo Parlamentario Ciudadanos relativa a la defensa de la democracia, la igualdad y la unión de todos los españoles. Se vota en los términos resultantes de la incorporación de la enmienda del Grupo Parlamentario Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 340; a favor, 131; en contra, 95; abstenciones, 114.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u167" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u167" ana="#chair">
                <seg>Queda aprobada.</seg>
                <pb n="61"/>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPUESTAS DE CREACIÓN DE COMISIONES : - SOLICITUD DEL GRUPO PARLAMENTARIO PODEMOS-EN COMÚ PODEM-EN MAREA, DE CREACIÓN DE UNA COMISIÓN PERMANENTE NO LEGISLATIVA DE LUCHA CONTRA LA CORRUPCIÓN. - SOLICITUD DEL GRUPO PARLAMENTARIO SOCIALISTA Y DE LOS SEÑORES BALDOVÍ Y GARZÓN , DE CREACIÓN DE UNA COMISIÓN PERMANENTE PARA LA AUDITORÍA DE LA CALIDAD DEMOCRÁTICA, LA LUCHA CONTRA LA CORRUPCIÓN Y LAS REFORMAS INSTITUCIONALES Y LEGALES.</head>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u168" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u168" ana="#chair">
                <seg>Votamos ahora la solicitud del Grupo Parlamentario Podemos-En Comú Podem-En Marea de creación de una comisión permanente no legislativa de lucha contra la corrupción y la solicitud del Grupo Parlamentario Socialista y de los señores Baldoví y Garzón, del Grupo Mixto, de creación de una comisión permanente para la auditoría de la calidad democrática, la lucha contra la corrupción y las reformas institucionales y legales. Se votan conjuntamente en los términos de la propuesta transaccional presentada por el Grupo Parlamentario Popular, por el Grupo Socialista, por el Grupo Parlamentario Podemos-En Comú Podem-En Marea, por el Grupo Parlamentario Ciudadanos y por el Grupo Parlamentario Mixto.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 338; a favor, 332; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u169" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u169" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>- SOLICITUD DEL GRUPO PARLAMENTARIO PODEMOS-EN COMÚ PODEM-EN MAREA, DE CREACIÓN DE UNA COMISIÓN PERMANENTE NO LEGISLATIVA DE DERECHOS DE LA INFANCIA Y ADOLESCENCIA</seg>
                <note>CPDIA</note>
                <note>Número de expediente 155/000005</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u170" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u170" ana="#chair">
                <seg>A continuación votamos la solicitud del Grupo Parlamentario Podemos-En Comú Podem-En Marea de creación de una comisión permanente no legislativa sobre los derechos de la infancia y de la adolescencia y se vota en los términos de la propuesta de modificación del Grupo Parlamentario Ciudadanos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 333; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u171" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u171" ana="#chair">
                <seg>Queda aprobada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>- PROPUESTA DE CREACIÓN DE UNA COMISIÓN PERMANENTE SOBRE SEGURIDAD VIAL Y MOVILIDAD SOSTENIBLE - PROPUESTA DE CREACIÓN DE UNA COMISIÓN PERMANENTE PARA LAS POLÍTICAS INTEGRALES DE LA DISCAPACIDAD. - PROPUESTA DE CREACIÓN DE UNA COMISIÓN PERMANENTE PARA EL ESTUDIO DEL CAMBIO CLIMÁTICO. - PROPUESTA DE CREACIÓN DE UNA COMISIÓN MIXTA DE CONTROL PARLAMENTARIO DE LA CORPORACIÓN DE RTVE Y SUS SOCIEDADES. - PROPUESTA DE CREACIÓN DE UNA COMISIÓN MIXTA PARA EL ESTUDIO DEL PROBLEMA DE LAS DROGAS.</head>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u172" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u172" ana="#chair">
                <seg>El resto de propuestas de creación de comisiones permanentes incluidas en el orden del día se someten a la votación de la Cámara por asentimiento. ¿Dan sus señorías el asentimiento?<note>Asentimiento</note> Así lo aprobamos.</seg>
                <pb n="62"/>
             </u>
          </div>
          <div type="debateSection">
             <head>DACIÓN DE CUENTAS DE LA DIPUTACIÓN PERMANENTE : - DACIÓN DE CUENTAS DE LA DIPUTACIÓN PERMANENTE DEL CONGRESO DE LOS DIPUTADOS DE LA X LEGISLATURA A LA CÁMARA DE LA XI LEGISLATURA.</head>
-            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u173" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-15-CD160315.u173" ana="#chair">
                <seg>Lo mismo con la dación de cuentas de la Diputación Permanente de la anterior legislatura sobre esta. ¿Se puede votar por asentimiento?<note>Asentimiento</note> Queda aprobada.</seg>
                <seg>Se levanta la sesión.</seg>
                <seg>Eran las nueve y veinte minutos de la noche.</seg>

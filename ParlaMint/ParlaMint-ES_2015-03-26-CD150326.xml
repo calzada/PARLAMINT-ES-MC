@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="249">249 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="249" xml:lang="es">249 speeches</measure>
+            <measure unit="speeches" quantity="249" xml:lang="en">249 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="12"/>
                <tagUsage gi="note" occurs="137"/>
                <tagUsage gi="u" occurs="249"/>
-               <tagUsage gi="lb" occurs="801"/>
+               <tagUsage gi="seg" occurs="801"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,21 +92,17 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>INFORME DEL DEFENSOR DEL PUEBLO CORRESPONDIENTE A LA GESTIÓN REALIZADA DURANTE EL AÑO 2014:</seg>
                <seg>- INFORME DEL DEFENSOR DEL PUEBLO CORRESPONDIENTE A LA GESTIÓN REALIZADA DURANTE EL AÑO 2014.</seg>
                <note>Número de expediente 260/000005</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u2" ana="#chair">
                <seg>El primer punto del orden del día es el relativo al informe del Defensor del Pueblo correspondiente a la gestión realizada durante el año 2014. Quiero decir aquí, como presidente del Congreso, que me felicito y felicito a la Defensora del Pueblo y a todo el organismo por la rapidez que han tenido para llevar a cabo este informe y que pueda ser debatido en la Comisión con profundidad y visto en este Pleno en el primer trimestre del año. Para presentar este informe tiene la palabra la Defensora del Pueblo, doña Soledad Becerril.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u3"
@@ -128,7 +126,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u4" ana="#chair">
                <seg>Muchas gracias, señora Becerril, por su presencia y por sus palabras.</seg>
                <seg>Vamos a comenzar, en turno de fijación de posiciones, las intervenciones de los grupos. En primer lugar, por el Grupo Mixto, tiene la palabra la señora Pérez Fernández.</seg>
             </u>
@@ -141,7 +139,7 @@
                <seg>En el ámbito también económico, aunque evidentemente afecta a lo social -todo tiene su implicación social-, quisiéramos referirnos brevemente a los abusos de las grandes compañías eléctricas. Es un capítulo importante del informe de la Defensora, que ya ocupaba una buena parte también del informe del año anterior. El abuso de las eléctricas finalmente se traduce en una -no la única- de las causas del incremento de la pobreza energética en el Estado español; más de cuatro millones de personas en esta situación.</seg>
                <pb n="11"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u6" ana="#chair">
                <seg>Señora Pérez, tiene usted que ir acabando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u7"
@@ -153,7 +151,7 @@
                <seg>Termino, señor presidente. En justicia y seguridad, justamente en un momento en el que más se necesita de estas políticas, es donde más se está retrocediendo. Hoy, con la aprobación definitiva de la ley de seguridad ciudadana, vamos a tener una nueva prueba de que se está retrocediendo en ámbitos de derechos fundamentales, que abarcan el ámbito de la justicia y la seguridad. Entendemos que queda mucho por hacer, y nos gustaría coincidir con al Defensora en su valoración de mejora de los datos del Banco de España, pero la realidad de la calle y la que viene dada a través de las quejas a la Defensora nos indica otra cosa muy diferente.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u8" ana="#chair">
                <seg>Muchas gracias, señora Pérez.</seg>
                <seg>También por el Grupo Mixto tiene la palabra el señor Tardà.</seg>
             </u>
@@ -166,7 +164,7 @@
                <seg>Concluyendo, hemos leído detenidamente el informe de la Defensora del Pueblo, y fíjense en lo que hemos visto. Resulta que a lo máximo que llega sobre el respeto a la lengua catalana es a recordar a la Dirección General de la Policía en el País Valencià&#x85;<note>Rumores</note> País Valencià porque lo digo yo; cuando usted hable, diga Comunidad Valenciana. Que cada uno diga lo que le plazca, pero yo digo País Valencià.<note>Un señor diputado: Muy bien.-Aplausos</note> Le recuerda que debe cumplirse la ley y que tiene que estar en las comisarías a disposición de la ciudadanía la documentación en catalán y en castellano. En cambio a los ayuntamientos catalanes les insta, pese a que no es su obligación legal, a rotular las señales de tráfico y de tránsito en castellano. De las trescientas actuaciones de oficio de la señora Becerril, ninguna -repito, ninguna- tiene nada que ver con las sistemáticas vulneraciones de los derechos lingüísticos por parte de funcionarios de la Administración General del Estado, policías y guardias civiles, en aeropuertos, comisarías y carreteras.</seg>
                <seg>Señora Becerril -no sé dónde está-, en catalán decimos&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u10" ana="#chair">
                <seg>Debe usted terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u11"
@@ -175,7 +173,7 @@
                <seg>&#x85; se le ve el ADN, se le ve la patita.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u12" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>La Defensora del Pueblo no está presente en el hemiciclo. Está en las tribunas, pero no en el hemiciclo, como es la costumbre desde el principio.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>PNV</note> , tiene la palabra el señor Olabarría.</seg>
@@ -194,7 +192,7 @@
                <seg>En definitiva, este informe es mejor que el del año pasado, se lo tengo que reconocer, además no está desnaturalizado por reflexiones de naturaleza ideológica que no corresponden o para las que usted carece de legitimidad. Sin embargo, le falta lo que les ha faltado a otros anteriores: contundencia. Haga caso a Calderón, al que usted ha citado: si las quejas son razonables, atiéndalas, y no solo eso, haga todo lo posible para remover los problemas, normalmente normativos y de disponibilidad presupuestaria y económica, para resolverlos. Son problemas muy graves; todos los Estados democráticos tienen déficits, pero el Estado español empieza no ya a tener déficits, sino verdaderos agujeros negros.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u14" ana="#chair">
                <seg>Muchas gracias, señor Olabarría.</seg>
                <seg>Por Unión Progreso y Democracia, tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -212,7 +210,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u16" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra la señora García Álvarez.</seg>
             </u>
@@ -234,7 +232,7 @@
                <seg>Recojo, para finalizar ya -esta vez de verdad, señor presidente-, su cita a Calderón: la queja es razonable. Las quejas que acabamos de proferir aquí son razonables; recójanlas, señora Defensora del Pueblo.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u18" ana="#chair">
                <seg>Muchas gracias, señora García Álvarez.</seg>
                <seg>Por el Grupo Catalán<note>Convergència i Unió</note> , tiene la palabra la señora Sayós.</seg>
             </u>
@@ -257,7 +255,7 @@
                <seg>En cuanto a la política social, hoy la Defensora ya ha hecho una buena exposición respecto a la protección de menores, especialmente en menores en situación de malnutrición, y no es pequeña esta situación. Por eso Convergència i Unió insiste tanto en que el Gobierno también adopte medidas al respecto, pero querría resaltar dos aspectos más: primero, que los mayores defectos observados -dice el informe- son las demoras en la tramitación de las revisiones y la falta de accesibilidad de las personas con capacidades especiales y, segundo, es claro y notorio que el Gobierno no cumple con la Ley de la Dependencia. Lo que hace el Gobierno es trasladar toda la presión económica a las comunidades autónomas sin hacerse cargo de su parte de financiación, y ello no es de recibo porque a quien se perjudica es al ciudadano dependiente.</seg>
                <seg>No puedo pasar por alto de ninguna de las maneras una injusta sentencia del Tribunal Constitucional de 5 marzo de 2015. El anterior Defensor del Pueblo, don Enrique Múgica, presentó en 2010 un recurso de inconstitucionalidad porque consideró que la Ley del Parlament de Catalunya, que regula la institución del Síndic de Greuges, invadía competencias del Estado. En concreto, y en primer lugar, las competencias en materia de tortura y otros tratos o penas crueles, inhumanas o degradantes asignadas al Síndic de Greuges no son de su competencia. En 2006 España rectificó el protocolo facultativo de la Convención contra la tortura y otros tratados o penas crueles, inhumanas o degradantes, y como el Tribunal Constitucional considera que dicho protocolo forma parte de la materia de relaciones internacionales, cuya competencia es estatal, en consecuencia considera que es competencia de la institución del Defensor del Pueblo y no del Síndic de Greuges. La sentencia limita las funciones del Síndic de Greuges a poder realizar entrevistas o a requerir la opinión del médico; y yo añado: ¡faltaría más! Esa es la interpretación misérrima que hace el Tribunal Constitucional con una lectura restrictiva del artículo 149.1.3 de la Constitución, y obvia lo realmente establecido en el artículo 17 del propio protocolo y su espíritu, y más cuando habla de delegación a entidades descentralizadas. Segundo, las competencias en materia de ámbito territorial del Síndic de Greuges con respecto a las competencias del Defensor del Pueblo. El Tribunal Constitucional solo se limita a invocar la sentencia emitida con respecto al Estatut de Autonomía de Catalunya de 2010, pero añade que, una vez depurado el artículo 78 del Estatut, la supervisión del Síndic de Greuges sobre la Administración local y los organismos vinculados a ella no es exclusiva, por lo que no excluye a la del Defensor del Pueblo, pues es competente para supervisar cualquier Administración pública, ya sea estatal, autonómica o local. Curiosamente, en ningún caso la sentencia del Tribunal Constitucional habla de establecer convenios entre el Síndic de Greuges y el Defensor del Pueblo, tampoco habla del principio de subsidiariedad entre el Síndic de Greuges y el Defensor del Pueblo ni del principio de proximidad en favor del Síndic de Greuges, ni invoca el principio de autonomía. Curioso. Pero es más curioso que el Tribunal Constitucional, en su fundamento tercero, apele al principio de voluntariedad en referencia a la inclusión del principio de cooperación entre el artículo 78 del estatut y &#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u20" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u20" ana="#chair">
                <seg>Señora Sayós, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u21"
@@ -267,7 +265,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u22" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u22" ana="#chair">
                <seg>Muchas gracias, señora Sayós.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra doña Ángeles Álvarez.</seg>
                <seg>La señora ÁLVAREZ ÁLVAREZ: En primer lugar, quisiera agradecer a la Defensora del Pueblo y a todo su equipo la gran labor que desarrollan y el informe que han presentado este año.</seg>
@@ -281,7 +279,7 @@
                <seg>Para ir terminando, efectivamente no es asunto de este informe el conocido como Decreto-ley de segunda oportunidad, al que han hecho referencia todos los intervinientes hasta el momento, porque la Defensora y el Grupo Popular en la pasada Comisión celebraron -y hoy mismo ha vuelto a hacerlo- una norma de dudosa eficacia y, por tanto -insisto, aunque no sea motivo del análisis de este informe-, quisiera matizar algunas cuestiones. El desarrollo del decreto ha dejado claro que no hay segunda oportunidad, no evita la pérdida de la vivienda, no aumenta los mínimos inembargables actualmente, no incluye a los fiadores avalistas, no hay dación en pago, no hay eliminación de las cláusulas suelo -el 99 % de los afectados tendrá que continuar con los trámites judiciales-, no corrige los requisitos excesivos y acumulativos del código de buenas prácticas y la mayoría de los autónomos que tienen contraídas deudas con la Seguridad Social y la Agencia Tributaria no podrán beneficiarse&#x85;</seg>
                <pb n="23"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u23" ana="#chair">
                <seg>Señora Álvarez, tiene que ir acabando.</seg>
                <seg>La señora ÁLVAREZ ÁLVAREZ: Voy terminando, presidente.</seg>
                <seg>No podrán beneficiarse al estar ambas exoneradas de quitas y moratorias. Por tanto, quizá ha habido una valoración precipitada y la supuesta oportunidad no evite que la institución del Defensor del Pueblo acumule en los próximos informes las quejas de un fracaso político.</seg>
@@ -290,7 +288,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u24" ana="#chair">
                <seg>Gracias, señora Álvarez.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra el señor Bertomeu.</seg>
             </u>
@@ -313,14 +311,14 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u26" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u26" ana="#chair">
                <seg>Muchas gracias, señor Bertomeu.</seg>
                <seg>Antes de entrar en el siguiente punto del orden del día y dado que hay votaciones de leyes orgánicas, voy a indicar como hora antes de la cual no habrá votaciones las cinco de la tarde; quizás sea más tarde, pero no antes de las cinco.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES - REAL DECRETO-LEY 2/2015, DE 6 DE MARZO, POR EL QUE SE ADOPTAN MEDIDAS URGENTES PARA REPARAR LOS DAÑOS CAUSADOS POR LAS INUNDACIONES Y OTROS EFECTOS DE LOS TEMPORALES DE LLUVIA, NIEVE Y VIENTO ACAECIDOS EN LOS MESES DE ENERO, FEBRERO Y MARZO DE 2015.</head>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u27" ana="#chair">
                <seg>Real Decreto-ley 2/2015, de 6 de marzo, por el que se adoptan medidas urgentes para reparar los daños causados por las inundaciones y otros efectos de los temporales de lluvia, nieve y viento acaecidos en los meses de enero, febrero y marzo de 2015. Este real decreto-ley va a ser presentado, por lo tanto tiene la palabra el señor ministro del Interior.</seg>
                <pb n="26"/>
             </u>
@@ -658,7 +656,7 @@
                <seg>Señor ministro, no han querido ni quieren que esta reforma sea un instrumento útil en la lucha contra la corrupción. Un ejemplo claro es el de la financiación ilegal de los partidos políticos, uno de los comportamientos ilícitos más graves, porque altera las reglas de la democracia y la participación en condiciones de igualdad. La respuesta de la mayoría absoluta del Partido Popular es totalmente escandalosa, hasta tal punto que quien reciba o haga donaciones ilegales destinadas a partidos políticos no tendrá pena de cárcel, solo de multa. Para que haya prisión la donación ilegal tiene que ser superior a 500.000 euros o a 100.000 euros si el donante es extranjero. Ciertamente inexplicable, o a lo mejor en algunos papeles está la explicación, sin duda ustedes deben saberlo mucho mejor que el resto de los grupos parlamentario de esta Cámara. Por este hecho deberían dar cuenta a las ciudadanas y a los ciudadanos, a los que también deberían explicar que no han recogido penas como la inhabilitación especial para empleo o cargo público, profesión u oficio ni tampoco la prohibición de contratar con las administraciones públicas, así como que no han aceptado la tipificación del delito de enriquecimiento injusto de autoridades y funcionarios&#x85;</seg>
                <pb n="50"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u70" ana="#chair">
                <seg>Señora Aguilar, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u71"
@@ -668,7 +666,7 @@
                <seg>La posición del Partido Popular deja mucho de desear y es difícil, muy difícil de explicar; ojalá lo hiciera ahora desde la tribuna el portavoz del Grupo Parlamentario Popular. En claro contraste con lo expresado, el Código Penal del Partido Popular persigue acabar con la protesta social manteniéndose la sanción penal para los huelguistas y negándose el Gobierno a derogar el artículo 315.3 del Código Penal, que había sido demandado por los grupos parlamentarios y por los sindicatos. Hablamos, por cierto, de un tipo penal que no había sido aplicado hasta la llegada del Gobierno del Partido Popular.</seg>
                <seg>Si a todo lo hasta aquí expresado, si a todo lo hasta aquí expuesto, sumamos que los delitos contra el orden público van a criminalizar la disidencia y que en materia de libertad condicional volvemos al código franquista, podemos concluir que esta reforma del Código Penal del Partido Popular recorta derechos y libertades, restaura la cadena perpetua y endurece las penas, es decir, se aproximan con ella a un sistema autoritario muy alejado del sistema democrático que tenemos y que queremos preservar.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u72" ana="#chair">
                <seg>Señora Aguilar, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u73"
@@ -677,7 +675,7 @@
                <seg>Termino, señor presidente.</seg>
                <seg>Además, no es contundente contra la corrupción. Pero no se preocupen, señorías del Grupo Parlamentario Popular, las derogaremos más pronto que tarde<note>Aplausos</note> , porque este Gobierno&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u74" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u74" ana="#chair">
                <seg>Señora Aguilar, tiene usted que terminar. Ya ha dicho que lo va a derogar, así que terminamos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u75"
@@ -688,7 +686,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u76" ana="#chair">
                <seg>Muchas gracias, señora Aguilar.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Barreda.</seg>
             </u>
@@ -707,7 +705,7 @@
                <seg>En la lucha contra la corrupción, debo recalcar que el conjunto de la reforma hará posible dar respuesta penal a los corruptos en los términos que demanda la sociedad; es decir, viendo el ingreso en prisión de los corruptos para el cumplimiento de sus penas, alejándolos de la política y de la Administración con penas de inhabilitación especial y logrando la devolución de lo ilegítimamente adquirido. Se trata de proteger a la sociedad de forma contundente frente a este fenómeno criminal; y también frente a la crítica de quienes no hicieron anda -y ustedes no hicieron nada- y ahora dicen que lo que se hace es insuficiente. Ustedes, cuando tuvieron ocasión, no hicieron nada en esta materia.</seg>
                <note>Aplausos.-Un señor diputado: ¡Eso díselo al PP!-Varios señores diputados pronuncian palabras que no se perciben</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u78" ana="#chair">
                <seg>Un momento, señor Barreda.</seg>
                <seg>Cuando ha intervenido la señora Aguilar ha habido silencio en todas las bancadas. Ruego el mismo silencio a la bancada socialista, por favor.</seg>
             </u>
@@ -723,7 +721,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u80" ana="#chair">
                <seg>Muchas gracias, señor Barreda.</seg>
                <seg>Señor ministro de Justicia.</seg>
             </u>
@@ -736,12 +734,12 @@
                <seg>Muchas gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u82" ana="#chair">
                <seg>Muchas gracias, señor ministro de Justicia.</seg>
                <seg>- PROYECTO DE LEY ORGÁNICA DE PROTECCIÓN DE LA SEGURIDAD CIUDADANA.</seg>
                <note>Número de expediente 121/000105</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u83" ana="#chair">
                <seg>Enmiendas aprobadas por el Senado al proyecto de ley orgánica de protección de la seguridad ciudadana. En primer lugar, por el Grupo Mixto, del que habrá varios intervinientes, tiene la palabra la señora Barkos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u84"
@@ -752,7 +750,7 @@
                <seg>Quiero recordar que con esta aprobación de ley orgánica amplían el poder policial sin establecer mecanismos de control o supervisión. Constriñen el ejercicio de libertad de reunión pacífica, expresión e información, criminalizan el derecho legítimo a la manifestación. Han conseguido ser con esta ley no sé si el asombro del mundo pero sí desde luego el de todas aquellas organizaciones internacionales que se<pb n="54"/> dedican a la defensa de los derechos humanos. Todas ellas nos piden, pero evidentemente por lo anteriormente señalado, que votemos que no, que es lo que vamos a hacer como Geroa Bai en el procedimiento de votación de ley orgánica.</seg>
                <seg>Gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u85" ana="#chair">
                <seg>Muchas gracias, señora Barkos.</seg>
                <seg>Señor Baldoví.</seg>
             </u>
@@ -764,7 +762,7 @@
                <seg>Esta es una ley innecesaria e injusta, pero es sobre todo una ley inútil y breve, porque, aunque ustedes quieran vaciar las calles, silenciar la protesta, domesticar las manifestaciones, llegan tarde. Los gritos, la protesta, las manifestaciones han mutado, han cambiado de aspecto. Ahora son silenciosos, sutiles, implacables. Lo vimos el domingo pasado. Los gritos de indignación, la protesta legítima, las manifestaciones cargadas de razón han adoptado una forma sencilla, aparentemente inofensiva, pero letal. Con esta arma tan simple, un sobre y una papeleta, sepultaremos esta ley perversa y, con ella, su despótica mayoría absoluta, que hoy la hará posible.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u87" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Señora Pérez Fernández.</seg>
             </u>
@@ -776,7 +774,7 @@
                <seg>La política económica y social, o mejor dicho antisocial, que ha practicado sin escrúpulos este Gobierno y que ha supuesto el empobrecimiento y la exclusión social de millones de personas que además siguen soportando recortes brutales en aras a la contención del déficit, nos ha traído hasta aquí. La responsabilidad de esta situación es del Gobierno y lo que han hecho los ciudadanos ha sido reflejar su malestar y su rechazo a esas políticas austericidas por medio de la protesta social, por cierto, en la inmensa mayoría de las veces de forma pacífica y sin incidentes destacables.</seg>
                <seg>El Gobierno responde aumentando desproporcionadamente la potestad punitiva y sancionadora, ampliando las facultades de las Fuerzas de Seguridad y la discrecionalidad policial que solo generará mayor arbitrariedad e indefensión de los ciudadanos. Señorías, hemos hablado -termino, presidente-<pb n="55"/> durante meses de esta ley y el Partido Popular prepotentemente no ha dado ni un paso atrás, tampoco en el Senado. Hoy finaliza el trámite para su aprobación, pero con ella&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u89" ana="#chair">
                <seg>Señora Pérez, tiene que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u90"
@@ -786,7 +784,7 @@
                <seg>Pero con ella no termina la protesta ni la movilización ciudadana. Con ley o sin ella, a los ciudadanos les sigue acompañando la indignación, la razón y el sentido común, y eso, señorías, no lo pueden legislar ni ustedes ni nadie. Se lo digo más claro: Non nos calarán!</seg>
                <seg>Gracias presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u91" ana="#chair">
                <seg>Gracias, señora Pérez.</seg>
                <seg>Señor Tardà.</seg>
             </u>
@@ -797,7 +795,7 @@
                <seg>Señorías, Salvador Allende y Víctor Jara pasaron a la historia como dos de las primeras víctimas mortales del neoliberalismo y desde entonces el neoliberalismo ha necesitado violencia y represión para imponerse. De hecho, hoy aquí se aprueban tres herramientas necesarias para el Gobierno español, a fin y efecto de dotar al Estado de los instrumentos represivos necesarios como son la ley mordaza, que ahora debatimos, el Código Penal y las nuevas medidas antiterroristas. El Gobierno sabe que cuando se niegan derechos y libertades a la ciudadanía y cuando se desguaza el Estado de bienestar, la sociedad se indigna, protesta y se revuelve y entonces es cuando se requiere retorcer el Estado democrático, limitando la libertad de expresión y la libertad de manifestación e institucionalizando el Estado policial. De hecho, con esta ley se va a dotar a la policía de poderes arbitrarios, limitando el Estado democrático, el Estado de derecho. Por ejemplo, dentro de esta perversa lógica neoliberal, en lugar de aprobar la dación en pago, lo que ocurre es que se legaliza la represión para aquellos que intentan impedir los desahucios y se criminaliza a las personas mientras se permite que los buitres especuladores continúen enriqueciéndose. De hecho, el Partido Popular no incumple su programa, ni tan solo traiciona su ideología. Esto hay que reconocerlo, porque solamente reconociéndolo sabremos el alcance de la magnitud de la tragedia. Ellos cumplen a pie juntillas con la biblia neoliberal, desplegando hoy aquí también leyes económicas, judiciales y represivas que forman parte de una misma lógica neoliberal. Pero no nos engañan, es una nueva estrategia del totalitarismo de siempre, del fascismo de siempre.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u93" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Señor Errekondo.</seg>
             </u>
@@ -807,7 +805,7 @@
                <seg>En Euskal Herria llevamos ya muchos años sufriendo las políticas represoras de los sucesivos Gobiernos españoles, y es que ahora el Gobierno ha decidido extenderlo al resto del Estado. Al Gobierno le molesta que la ciudadanía se manifieste, que la ciudadanía proteste y exprese cómo se siente después de haber sido despojada de sus derechos más básicos como el de la vivienda, como el de sanidad, como el de educación, como el de dependencia o como el de los servicios sociales, pero también por las reivindicaciones de sus derechos nacionales. Si actualmente este Gobierno se atreve a reventar y a atacar a porrazos manifestaciones pacíficas por la dignidad, por los derechos humanos, ¿a qué no se va a atrever después de aprobar esta reforma? Sepan las señorías del Partido Popular que no hay porrazo alguno que pueda con la dignidad de la gente. El Gobierno está inmerso en una espiral represora que parece no tener fin con medidas como esta reforma de la Ley de la Seguridad Ciudadana, del Código Penal o de la ley antiyihadista, y ha construido por tanto este entramado jurídico con el objetivo de expandir el miedo y amordazar a los ciudadanos con tal de preservar su modelo ultraliberal. Pero esto no lo decimos solo nosotros, lo dicen también los relatores especiales de la Comisión de Derechos Humanos de la ONU, que declararon hace un mes con rotundidad -y lo digo literalmente- que las reformas de la Ley de la Seguridad Ciudadana, del Código Penal y antiyihadismo amenazan con violar los derechos y libertades fundamentales de los ciudadanos. Y además denuncian también -coincidiendo con la valoración de la mayoría de la sociedad- que esto probablemente es una respuesta a las numerosas manifestaciones que se están llevando a cabo. Por otro lado al Gobierno de la ultraderecha, al Partido Popular, le molesta que la ciudadanía conozca la verdad y conozca la realidad y por ello pretende violar los derechos fundamentales,<pb n="56"/> además de los de manifestación y los de reunión, también los de opinión y los de expresión. Para ello aplican la conocida proclama de: La calle es mía y aquí mando yo. Además la aplican en tres plazos: criminalizar a los ciudadanos más comprometidos para expandir el miedo paralizante, ahogándolos en un mar de multas y finalmente amordazándolos para acallar la voz de la protesta de la gente. Y todo ello para que el Gobierno del Partido Popular pueda contar el relato a su modo, a su manera, tras una pantalla de plasma o disfrazado de Cáritas. Por ello han empezado ya a ejercer también esa represión contra los periodistas y los medios, algo que nosotros ya sufrimos hace muchos años en Euskal Herria con Egin, Egin Irratia, Egunkaria, etcétera, que tras padecer diez años de calvario, tortura y encarcelaciones finalmente fueron absueltos. En conclusión, aquí lo que hay es un Estado de derecho que se conforma con un Estado policial y que ante cualquier tipo de disidencia social o política su única respuesta es represión y más represión. Pero aquí no se equivoquen porque el Partido Popular está solo, está solo porque la reforma de la Ley de Seguridad Ciudadana tiene los días contados y todos sabemos aquí que la totalidad de los partidos políticos de la oposición se han comprometido a derogarla a la primera oportunidad. Esperemos que así sea, por cierto.</seg>
                <seg>Ya acabando, señor Fernández Díaz, saque a su policía de las calles de Euskal Herria y de todas las calles del resto del Estado porque lo que tenemos claro es que solo desde una Euskal Herria soberana construiremos una sociedad de personas con plenos derechos civiles y políticos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u95" ana="#chair">
                <seg>Muchas gracias, señor Errekondo.</seg>
                <seg>Por el Grupo Vasco<note>PNV</note> tiene la palabra el señor Olabarría.</seg>
             </u>
@@ -826,7 +824,7 @@
                <seg>De lo demás, señor ministro, no han hecho una buena ley y no solo no han hecho una buena ley, sino que se ha empeorado en el Senado con la consagración de algunas de las perversiones que le he comentado.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u97" ana="#chair">
                <seg>Muchas gracias, señor Olabarría.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -1281,7 +1279,7 @@
                <seg>¿Qué va a ocurrir? Que personas que colaboran en la comisión de estos delitos, como los colaboradores o los que realizan reflexiones apologéticas o enaltecen, van a sufrir mayores condenas que los comitentes del delito que ya han descontado su inmolación a la hora de cometer el delito; se lo han comentado muchas personas conocedoras de este fenómeno. ¿Y este fenómeno cómo se corrige? Este fenómeno se corrige -y con esto acabo, señor presidente- con la consideración de algunas de las recomendaciones de la Comisión del 11 de marzo, a la que tuve el honor de pertenecer. En la Comisión del 11 de marzo, en relación con los atentados en determinadas estaciones de tren de Madrid donde murieron más de 100 personas, se indicó que son elementos vinculados a la inteligencia, a la prevención, a la eficiencia de la actuación policial los que pueden servir para reprimir esta especial fenomenología delictiva a la que se denomina terrorismo yihadista. Y hasta qué punto es verdad esto que en esta Comisión se pudo comprobar lo siguiente. Los terroristas que cometieron los atentados obtenían los explosivos -Goma 2 en aquella época porque ya ETA estaba utilizando Titadine- en minas de caolín abandonadas en Asturias; minas de caolín que estaban protegidas por un perro sin dientes, había que sobrepasar sencillamente una barrera para obtenerla. Los que les proporcionaron los explosivos a los terroristas que cometieron estos atentados eran confidentes de la Policía, del comisario general de la Policía de Asturias, y estos confidentes de la Policía proporcionaron a los terroristas, a cambio de dinero y a cambio de substancias estupefacientes porque eran antiguos mineros traficantes de drogas, los explosivos que utilizaron para la comisión de estos atentados.</seg>
                <seg>Fíjese hasta qué punto falló la inteligencia, la prevención, la consideración de la dimensión y la profundidad del problema y los mecanismos adecuados, lo demás, el incremento de la pena, el incremento del reproche penal, la incorporación de la prisión permanente revisable, de la cadena perpetua, va a tener escasa eficiencia. Si no se articulan mejor los mecanismos preventivos basados en la inteligencia, basados en la identificación de los peligros realmente concernientes al Estado español y a todos los demás, nada se va a poder hacer con el Código Penal o con una proposición de ley orgánica de estas características. Es lo de siempre, no está la normativa punitiva llamada a resolver problemas sociales, hay otras medidas y otros mecanismos, unos de carácter social, otros de carácter preventivo, otros de carácter policial, otros de los servicios de información. En definitiva, es otro acto fallido que nos coloca en una situación y en un<pb n="82"/> problema, desde una perspectiva hermenéutica, señor ministro, muy complicada. Yo no sé qué es lo que queda vivo del Código Penal en este momento&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u161" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u161" ana="#chair">
                <seg>Señor Olabarría, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u162"
@@ -1290,7 +1288,7 @@
                <seg>Sí, acabo ya, señor presidente.</seg>
                <seg>&#x85; pero tampoco sé si este apéndice tan importante del Código Penal -es el único país del mundo donde los delitos de terrorismo se regulan en norma separada del Código Penal- va a servir para la represión y para la prevención de un fenómeno creciente y que a todos nos preocupa. Vamos a pensarlo y vamos a pensarlo entre todos, porque aquí la propensión a la unilateralidad es un peligro también.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u163" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u163" ana="#chair">
                <seg>Muchas gracias, señor Olabarría.</seg>
                <seg>Por Unión Progreso y Democracia, tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -1303,7 +1301,7 @@
                <seg>Muchas gracias.</seg>
                <pb n="83"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u165" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u165" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Llamazares.</seg>
             </u>
@@ -1318,7 +1316,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u167" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u167" ana="#chair">
                <seg>Muchas gracias, señor Llamazares.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió, tiene la palabra el señor Jané.</seg>
             </u>
@@ -1332,7 +1330,7 @@
                <seg>Creemos que esta reforma debería haberse aprobado de manera distinta desde la Comisión de Justicia, no con lectura única, no directamente en el Pleno, no con el trámite de urgencia, no con esas formas aceleradas, sino haberlo hecho con mayor serenidad, buscando un mayor consenso y buscando -con esto termino, señor presidente- la seguridad jurídica. Fíjense, en un mismo día, señor ministro de Justicia, aprobamos dos leyes orgánicas, dos, que modifican una misma norma, el Código Penal, con lo cual aquel que quiera ver cuál es el Código Penal va a tener que hacer un puzzle, ir buscando: para estos delitos hay esta ley orgánica, para estos otros, toda esta, y al final, el resto, lo que no hemos modificado. Es una forma chapucera de legislar. Por tanto, también pedimos rigor, seguridad jurídica y ser absolutamente buscadores del consenso cuando de lo que se trata es de legislar en materia de terrorismo. Nosotros no lo podemos compartir y nos vamos a abstener en la votación final de esta proposición de ley.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u169" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u169" ana="#chair">
                <seg>Muchas gracias, señor Jané.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor Trevín.</seg>
             </u>
@@ -1351,7 +1349,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u171" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u171" ana="#chair">
                <seg>Muchas gracias, señor Trevín.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Castillo.</seg>
             </u>
@@ -1366,13 +1364,13 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u173" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u173" ana="#chair">
                <seg>Muchas gracias, señor Castillo.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY DEL SISTEMA NACIONAL DE PROTECCIÓN CIVIL.</head>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u174" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u174" ana="#chair">
                <seg>Debate de totalidad del proyecto de ley del Sistema Nacional de Protección Civil.</seg>
                <seg>Para la presentación del proyecto de ley, tiene la palabra en nombre del Gobierno, el señor ministro del Interior.</seg>
             </u>
@@ -1542,7 +1540,7 @@
                <seg>Muchas gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u196" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u196" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>El señor ministro del Interior ha hecho, con todo derecho y legitimidad, un turno en contra. Por tanto, cada uno de los grupos que han presentado enmiendas a la totalidad tienen cinco minutos para contestar.</seg>
                <seg>Señor Olabarría.</seg>
@@ -1554,7 +1552,7 @@
                <seg>Tras las explicaciones del ministro, ahora sí que estoy perplejo. Me gustaría que conste en el «Diario de Sesiones» con claridad esta profunda innovación al derecho constitucional español del ministro, incorporando al concepto de competencia exclusiva la noción de equívoca. Señor ministro, si las competencias exclusivas son equívocas, a tenor de lo previsto por el Tribunal Constitucional, usted podría reivindicar las treinta y nueve que son exclusivas y que están previstas como tales por el Estatuto de<pb n="103"/> Autonomía de Gernika, pero admítame la reciprocidad. Yo podría reivindicar desde el Gobierno vasco, por ejemplo, las competencias sobre el Banco de España, porque también las estatales son equívocas. Cuando usted establece la expresión equivocidad para penetrar en ámbitos competenciales impropios, que están consagrados por títulos específicos, por preceptos como el artículo 17 del Estatuto de Autonomía de Gernika -que sí se lo he citado-, no me cite la equivocidad o el carácter equívoco de las competencias autonómicas, porque las estatales tienen el mismo carácter equívoco, y entonces entraríamos en una especie de discurso de intercambio de competencias entre unos y otros que podría acabar en una suerte de caos, de puzle muy complejo de articular. Señor ministro, se lo pido seriamente, se lo pido con el rigor jurídico intelectual del que soy capaz, vamos a intentar no realizar reflexiones metajurídicas o juegos de palabras que nos pueden llevar a un puzle en la articulación territorial del Estado, que bastante compleja es como para que con estas menciones y calificativos la compliquemos todavía más. Si son equívocos y ustedes reivindican la competencia en materia de protección civil de Euskadi, que corresponde a Euskadi y está regulada por una ley vasca, yo voy a reivindicar por el carácter equívoco de las competencias en materia de política monetaria las competencias del Banco de España para la Comunidad Autónoma vasca.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u198" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u198" ana="#chair">
                <seg>Muchas gracias, señor Olabarría.</seg>
                <seg>Señor Sixto.</seg>
             </u>
@@ -1567,7 +1565,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u200" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u200" ana="#chair">
                <seg>Muchas gracias, señor Sixto.</seg>
                <seg>Señor Guillaumes.</seg>
                <pb n="104"/>
@@ -1582,7 +1580,7 @@
                <seg>Muchas gracias, presidente. Muchas gracias, ministro. Muchas gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u202" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u202" ana="#chair">
                <seg>Muchas gracias, señor Guillaumes.<note>El señor ministro del Interior, Fernández Díaz, pide la palabra</note> Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u203"
@@ -1594,7 +1592,7 @@
                <seg>Señoría, usted ha calificado la pregunta de tonta, yo no; pero ante una pregunta tonta, la mejor respuesta es el silencio.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u204" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u204" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>En turno de fijación de posiciones respecto a este proyecto de ley, en primer lugar, tiene la palabra por el Grupo Parlamentario de Unión Progreso y Democracia el señor Martínez Gorriarán.</seg>
             </u>
@@ -1606,7 +1604,7 @@
                <seg>Gracias.</seg>
                <pb n="105"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u206" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u206" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán. Le agradezco su concisión y brevedad.</seg>
                <seg>Por el Grupo Parlamentario Socialista, tiene la palabra la señora Grande.</seg>
             </u>
@@ -1620,7 +1618,7 @@
                <seg>Dicho esto, el Grupo Socialista también es consciente de que el proyecto de ley presenta otros déficits, y les mencionaré muy brevemente algunos. Por ejemplo, no entendemos muy bien por qué el Gobierno y el Partido Popular han empezado la casa por el tejado en una ley de esta importancia, que está íntimamente ligada a otras modificaciones legales que parece que no se van a tramitar o se van hacer al margen de este texto de ley.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u208" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u208" ana="#chair">
                <seg>Perdón, señora Grande.</seg>
                <seg>Por favor, ruego silencio para que se oiga a la oradora.<note>Pausa</note> Continúe, por favor.</seg>
             </u>
@@ -1632,7 +1630,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u210" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u210" ana="#chair">
                <seg>Muchas gracias, señora Grande.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra la señora Hoyo.</seg>
             </u>
@@ -1644,7 +1642,7 @@
                <seg>Como bien ha dicho el ministro, este es un proyecto de ley que responde principalmente a la necesidad de actualizar la legislación vigente, que tiene ya treinta años, no rompiendo con ella, porque ha dado muy buen resultado, sino incorporando la legislación europea en la materia y algunas normas que se habían desarrollado reglamentariamente. Su objetivo es establecer un sistema nacional de protección civil que asegure la coordinación, la cohesión y la eficacia de las políticas públicas en esta materia. Su último fin no es otro que poder afrontar de la manera más rápida y eficaz las situaciones de emergencia que puedan producirse en beneficio de los afectados, y para ello se definen y regulan las seis fases o actuaciones del Sistema Nacional de Protección Civil -la anticipación, la prevención, la planificación, la respuesta inmediata, la recuperación y la evaluación y seguimiento del sistema para un funcionamiento eficaz- y se crean nuevos instrumentos cuyo fin es mejorar el sistema, como la red nacional de información sobre protección civil, la red de alerta nacional de protección civil o el fondo de prevención de emergencias. Además, se establecen las competencias de los órganos de la Administración General del Estado, en que por supuesto prevalece el Ministerio del Interior, aunque bien es cierto que no es el único departamento implicado: también se reconoce, por ejemplo, el papel de las delegaciones del Gobierno, de las Fuerzas y Cuerpos de Seguridad del Estado y de la Unidad Militar de Emergencia. Esto, señor Sixto, es debido a la naturaleza transversal de la protección civil.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u212" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u212" ana="#chair">
                <seg>Perdón, señora Hoyo, no la puede oír ni el señor Sixto ni nadie si sigue este runrún. Por favor, ruego silencio.<note>Pausa</note> Continúe.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u213"
@@ -1657,13 +1655,13 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u214" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u214" ana="#chair">
                <seg>Muchas gracias, señora Hoyo.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPUESTAS DE CREACIÓN DE SUBCOMISIONES - PROPUESTA DE LA COMISIÓN DE DEFENSA, DE CREACIÓN DE UNA SUBCOMISIÓN PARA EL ESTUDIO DEL MODELO DE LA RESERVA MILITAR VOLUNTARIA.</head>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u215" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u215" ana="#chair">
                <seg>El último punto del orden del día es la propuesta de la Comisión de Defensa de la creación de una subcomisión para el estudio del modelo de la reserva militar voluntaria. ¿Puedo entender que se aprueba por asentimiento?<note>Asentimiento</note> Pues así se hace.</seg>
                <seg>En unos minutos empezaremos a votar.</seg>
                <note>Pausa</note>
@@ -1671,164 +1669,164 @@
          </div>
          <div type="debateSection">
             <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES : - REAL DECRETO-LEY 2/2015, DE 6 DE MARZO, POR EL QUE SE ADOPTAN MEDIDAS URGENTES PARA REPARAR LOS DAÑOS CAUSADOS POR LAS INUNDACIONES Y OTROS EFECTOS DE LOS TEMPORALES DE LLUVIA, NIEVE Y VIENTO ACAECIDOS EN LOS MESES DE ENERO, FEBRERO Y MARZO DE 2015.</head>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u216" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u216" ana="#chair">
                <seg>Vamos a comenzar las votaciones.</seg>
                <seg>Convalidación o derogación del Real Decreto-ley 2/2015, de 6 de marzo, por el que se adoptan medidas urgentes para reparar los daños causados por las inundaciones y otros efectos de los temporales<pb n="108"/> de lluvia, nieve y viento acaecidos en los meses de enero, febrero y marzo de 2015. Hay tres votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317 más 3 votos telemáticos, 320; a favor, 316 más 3 votos telemáticos, 319; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u217" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u217" ana="#chair">
                <seg>Queda convalidado el real decreto-ley.</seg>
                <seg>Se ha pedido por varios grupos la tramitación como proyecto de ley por el procedimiento de urgencia de este real decreto-ley. Eso es lo que vamos a votar ahora. Han sido emitidos tres votos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318 más 3 votos telemáticos, 321; a favor, 140; en contra, 178 más 3 votos telemáticos, 181.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u218" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u218" ana="#chair">
                <seg>No se tramitará como proyecto de ley.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>ENMIENDAS DEL SENADO : - PROYECTO DE LEY ORGÁNICA POR LA QUE SE MODIFICA LA LEY ORGÁNICA 10/1995, DE 23 DE NOVIEMBRE, DEL CÓDIGO PENAL.</head>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u219" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u219" ana="#chair">
                <seg>En primer lugar, proyecto de ley orgánica por la que se modifica la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal.</seg>
                <seg>En primer lugar, votación separada de las enmiendas a los apartados del Artículo Único: veintiocho, ochenta, ochenta y tres bis<note>nuevo</note> , cien, ciento cuatro, ciento dieciséis, ciento veinte bis<note>nuevo</note> , ciento sesenta y nueve bis<note>nuevo</note> , doscientos veintisiete, doscientos veintiocho, doscientos treinta y dos, doscientos treinta y seis, doscientos treinta y ocho, doscientos cincuenta y tres, doscientos cincuenta y cuatro y doscientos sesenta<note>nuevo</note> ; a la disposición adicional tercera; a la disposición adicional cuarta<note>ahora tercera</note> ; a la disposición derogatoria única; y a la disposición final cuarta<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 274; en contra, 19; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u220" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u220" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas a los apartados ciento cuarenta y nueve y ciento ochenta y nueve del artículo único.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312; a favor 181; en contra, 20; abstenciones, 111.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u221" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u221" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Resto de enmiendas al proyecto de ley.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 179; en contra, 129; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u222" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u222" ana="#chair">
                <seg>Quedan aprobadas.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>VOTACIÓN DE CONJUNTO</head>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u223" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u223" ana="#chair">
                <seg>Votación de conjunto del proyecto de ley orgánica por la que se modifica la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal. Hay cuatro votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317 más 4 votos telemáticos, 321; a favor, 178 más 3 votos telemáticos, 181; en contra, 137 más 1 voto telemático, 138; abstenciones, 2.</seg>
                <pb n="109"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u224" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u224" ana="#chair">
                <seg>Queda aprobado el proyecto de ley.</seg>
                <seg>- PROYECTO DE LEY ORGÁNICA DE PROTECCIÓN DE LA SEGURIDAD CIUDADANA.</seg>
                <note>Número de expediente 121/000105</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u225" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u225" ana="#chair">
                <seg>Proyecto de ley orgánica de protección de la seguridad ciudadana. Votación de enmiendas. En primer lugar, enmienda al artículo 4.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 292; en contra, 5; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u226" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u226" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmiendas a los artículos 6 y 38.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 290; en contra, 19; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u227" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u227" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmienda al artículo 7.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 189; en contra, 120; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u228" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u228" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmiendas al artículo 36 y a la disposición final quinta<note>antes cuarta</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312; a favor, 179; en contra, 119; abstenciones, 14.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u229" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u229" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas a la disposición final primera<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312; a favor, 177; en contra, 134, abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u230" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u230" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Resto de enmiendas al proyecto de ley.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312; a favor, 179; en contra, 119; abstenciones, 14.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u231" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u231" ana="#chair">
                <seg>Quedan aprobadas.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>VOTACIÓN DE CONJUNTO</head>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u232" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u232" ana="#chair">
                <seg>Votación de conjunto del proyecto de ley orgánica de protección de la seguridad ciudadana. Hay 4 votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318 más 4 votos telemáticos, 322; a favor, 178 más 3 votos telemáticos, 181; en contra, 139 más 1 voto telemático, 140; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u233" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u233" ana="#chair">
                <seg>Queda aprobado el proyecto de ley.<pb n="110"/> - PROYECTO DE LEY ORGÁNICA DE CONTROL DE LA ACTIVIDAD ECONÓMICO&#x96;FINANCIERA DE LOS PARTIDOS POLÍTICOS, POR LA QUE SE MODIFICAN LA LEY ORGÁNICA 8/2007, DE 4 DE JULIO, SOBRE FINANCIACIÓN DE LOS PARTIDOS POLÍTICOS, LA LEY ORGÁNICA 6/2002, DE 27 DE JUNIO, DE PARTIDOS POLÍTICOS Y LA LEY ORGÁNICA 2/1982, DE 12 DE MAYO, DEL TRIBUNAL DE CUENTAS.</seg>
                <note>Numero de expediente 121/000082</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u234" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u234" ana="#chair">
                <seg>Enmiendas del Senado al proyecto de Ley orgánica de control de la actividad económico-financiera de los partidos políticos por la que se modifica la Ley orgánica 8/2007, de 4 de julio, sobre financiación de los partidos políticos; la ley orgánica 6/2002, de 27 de junio, de partidos políticos; y la ley orgánica 2/1982, de 12 de mayo, del Tribunal de Cuentas. Votación separada de las enmiendas. En primer lugar, enmienda al apartado tres del artículo primero.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 206; en contra, 99; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u235" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u235" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda a la disposición adicional tercera<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312; a favor, 309; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u236" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u236" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Resto de enmiendas.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312; a favor, 207; en contra, 2; abstenciones, 103.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u237" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u237" ana="#chair">
                <seg>Quedan aprobadas.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>VOTACIÓN DE CONJUNTO</head>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u238" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u238" ana="#chair">
                <seg>Votación de conjunto del proyecto de Ley de orgánica de control de la actividad económico-financiera de los partidos políticos, por la que se modifican la Ley orgánica 8/2007, de 4 de julio, sobre financiación de los partidos políticos; la Ley orgánica 6/2002, de 27 de junio, de partidos políticos; y la Ley orgánica 2/1982, de 12 de mayo, del Tribunal de Cuentas, por tener el mismo carácter orgánico. Hay cuatro votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318 más 4 votos telemáticos, 322; a favor, 194 más 3 votos telemáticos, 197; en contra, 121 más 1 voto telemático, 122; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u239" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u239" ana="#chair">
                <seg>Queda aprobado el proyecto de ley.</seg>
                <seg>- PROYECTO DE LEY REGULADORA DEL EJERCICIO DEL ALTO CARGO DE LA ADMINISTRACIÓN GENERAL DEL ESTADO.</seg>
                <note>Número de expediente 121/000083</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u240" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u240" ana="#chair">
                <seg>Enmiendas del Senado al proyecto de ley reguladora del ejercicio del alto cargo de la Administración General del Estado. Se votan conjuntamente, en bloque, todas las enmiendas del Senado.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 195; en contra, 21; abstenciones, 101.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u241" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u241" ana="#chair">
                <seg>Quedan aprobadas esas enmiendas.<pb n="111"/> - PROPOSICIÓN DE LEY ORGÁNICA POR LA QUE SE MODIFICA LA LEY ORGÁNICA 10/1995, DE 23 DE NOVIEMBRE, DEL CÓDIGO PENAL, EN MATERIA DE DELITOS DE TERRORISMO.</seg>
                <note>Número de expediente 122/000189</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u242" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u242" ana="#chair">
                <seg>Proposición de ley orgánica por la que se modifica la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, en materia de delitos de terrorismo. Se votan conjuntamente, en bloque, las enmiendas del Senado.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 275; en contra, 20; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u243" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u243" ana="#chair">
                <seg>Quedan aprobadas.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>VOTACIÓN DE CONJUNTO</head>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u244" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u244" ana="#chair">
                <seg>Votación de conjunto de la proposición de ley orgánica por la que se modifica la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, en materia de delitos de terrorismo. Ha habido cuatro votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317 más 4 votos telemáticos, 321; a favor, 279 más 4 votos telemáticos, 283; en contra, 24; abstenciones, 14.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u245" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u245" ana="#chair">
                <seg>Queda aprobada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY DEL SISTEMA NACIONAL DE PROTECCIÓN CIVIL.</head>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u246" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u246" ana="#chair">
                <seg>Votación conjunta de las enmiendas a la totalidad de devolución al proyecto de ley del sistema nacional de protección civil, presentada por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , el Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural, el Grupo Parlamentario Catalán<note>Convergència i Unió</note> y Grupo Mixto, señora Jordà. Hay cuatro votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317 más 4 votos telemáticos, 321; a favor, 34; en contra, 282 más 4 votos telemáticos, 286; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u247" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u247" ana="#chair">
                <seg>Quedan rechazadas.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>AVOCACIÓN POR EL PLENO</head>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u248" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u248" ana="#chair">
                <seg>Se ha solicitado la avocación por el Pleno de la Cámara de la deliberación y votación de este proyecto de ley. Han sido emitidos cuatro votos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 309 más 4 votos telemáticos, 313; a favor, 133 más 1 voto telemático, 134; en contra, 174 más 3 votos telemáticos, 177; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u249" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-26-CD150326.u249" ana="#chair">
                <seg>No se tramitará como proyecto de ley.</seg>
                <seg>Se levanta la sesión.</seg>
                <seg>Eran las siete y quince minutos de la tarde.</seg>

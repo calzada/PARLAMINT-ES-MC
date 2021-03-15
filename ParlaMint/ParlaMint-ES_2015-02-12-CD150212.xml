@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="85">85 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="85" xml:lang="es">85 speeches</measure>
+            <measure unit="speeches" quantity="85" xml:lang="en">85 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="36"/>
                <tagUsage gi="u" occurs="85"/>
                <tagUsage gi="note" occurs="67"/>
-               <tagUsage gi="lb" occurs="289"/>
+               <tagUsage gi="seg" occurs="289"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>DICTÁMENES DE LA COMISIÓN DE ASUNTOS EXTERIORES SOBRE CONVENIOS INTERNACIONALES - ACUERDO ENTRE EL REINO DE ESPAÑA Y EL REINO DE ARABIA SAUDÍ PARA LA PROMOCIÓN Y PROTECCIÓN RECÍPROCA DE INVERSIONES, HECHO EN RIAD EL 9 DE ABRIL DE 2006. - ACUERDO DE ADQUISICIÓN CONJUNTA DE CONTRAMEDIDAS MÉDICAS, HECHO EN LUXEMBURGO EL 20 DE JUNIO DE 2014.</head>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Punto del orden del día relativo a los dictámenes de la Comisión de Asuntos Exteriores sobre convenios internacionales con números de expediente 110/139 y 110/140. Algunos grupos han manifestado su deseo de intervenir. Les recuerdo que tienen cinco minutos por grupo. El Grupo Mixto, en principio, parece que no lo desea. Por el Grupo Vasco, PNV, tiene la palabra el señor Agirretxea.</seg>
             </u>
@@ -111,7 +109,7 @@
                <seg>Sabemos que este pequeño gesto del Partido Nacionalista Vasco no saldrá adelante, pero no podemos permitir que pase esto. Desde una democracia hay que enviar un mensaje a un país que no lo es. Hay que mandar un mensaje a Arabia Saudí diciendo que el PNV no acepta esto. Por tanto, no vamos a apoyar esta ratificación.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u3" ana="#chair">
                <seg>Muchas gracias, señor Agirretxea.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra la señora Lozano.</seg>
             </u>
@@ -123,7 +121,7 @@
                <seg>Nosotros creemos que no solamente hay un problema de oportunidad en este convenio y que lo más prudente sería al menos congelarlo, al menos detenerlo, sino que hay un problema profundo en nuestras<pb n="5"/> relaciones con Arabia Saudí. Creemos que se hacen muy evidentes los dobles raseros que utiliza nuestro Gobierno en las relaciones internacionales. No se puede salir a clamar en defensa de la libertad de expresión cuando se produce un atentado en París -lamentable atentado en París que todos hemos condenado- y sin embargo obviar cómo se vulneran gravemente desde los propios Estados y desde los propios Gobiernos derechos y libertades elementales como la libertad de expresión. Nuestro grupo no puede sino utilizar estos cinco minutos para reivindicar la liberación de Raif Badawi, para reivindicar una modificación en las relaciones de nuestro país con Arabia Saudí y sobre todo para reivindicar los derechos humanos; los intereses nacionales por supuesto hay que defenderlos -y en esto también somos pragmáticos-, pero siempre de la mano de los derechos humanos en nuestras relaciones comerciales y en nuestras relaciones internacionales.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u5" ana="#chair">
                <seg>Muchas gracias, señora Lozano.</seg>
                <seg>Por el Grupo de La Izquierda Plural, en primer lugar tiene la palabra el señor Llamazares.</seg>
             </u>
@@ -134,7 +132,7 @@
                <seg>Señorías, quiero llamar su atención sobre el otro convenio, denominado de contramedidas médicas. Por un momento sufrí un sobresalto y pensé que había llegado nuestra hora, aquella hora en que con los médicos se aplicara la máxima de que la gente se cura con ellos, sin ellos y a pesar de ellos. Pero no se trataba de eso. La iniciativa que hoy debatimos es importantísima. Tiene que ver con un fiasco, pero a veces los fiascos dan lugar a rectificaciones importantes. Tiene que ver con la amenaza transfronteriza de la gripe y la compra masiva de vacunas y de Tamiflu que ha quedado almacenada quién sabe dónde. En España también están almacenados esos fármacos. Ese fracaso dio lugar a una reflexión en el marco de la Unión Europea sobre la compra conjunta de medicamentos, ya no solo de vacunas -compra conjunta de medicamentos, llamo su atención-, y en concreto de antivíricos. En estos momentos hay decenas de miles de ciudadanos que ven con incertidumbre el precio del Tamiflu o el precio del Sofosbuvir, que es vital para su curación. Pues bien, aquí tenemos un instrumento comunitario que nos permite de manera conjunta a los países de la Unión Europea negociar con las grandes compañías multinacionales para rebajar los precios. Creo que a partir de ahora el Gobierno no puede decir que no tenga un instrumento para bajar un precio sobre el que hasta ahora nos ha engañado: no son 25.000 euros, son 43.000 euros cada tratamiento cuando a la empresa no le cuesta más allá de 100 euros.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u7" ana="#chair">
                <seg>Muchas gracias, señor Llamazares.</seg>
                <seg>Por La Izquierda Plural tiene también la palabra el señor Nuet.</seg>
             </u>
@@ -146,7 +144,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u9" ana="#chair">
                <seg>Muchas gracias, señor Nuet.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , tiene la palabra el señor Xuclà.</seg>
             </u>
@@ -160,7 +158,7 @@
                <seg>Ayer por la tarde, en la Comisión de Asuntos Exteriores -un debate largo, con la comparecencia del señor ministro-, un par de portavoces, algunos que hoy se han manifestado críticos, expresaban y valoraban positivamente la asistencia del rey de España a los funerales del rey de Arabia Saudí y las gestiones del rey emérito en el tráfico comercial entre España y Arabia Saudí. Señorías, creo que lo apropiado es ser claros y contundentes en el diálogo bilateral en la denuncia de los derechos humanos, pero a la vez hacer una reflexión de conjunto sobre si nosotros restringimos el tráfico jurídico y las relaciones entre Estados solo con aquellos que respetan los derechos humanos. En ese caso desgraciadamente la comunidad sería muy pequeña e incluso nosotros seríamos objeto de revisión en tantos y tantos aspectos.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u11" ana="#chair">
                <seg>Muchas gracias, señor Xuclà.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor Sáez Jubero.</seg>
             </u>
@@ -171,7 +169,7 @@
                <seg>Señorías, nuestro grupo parlamentario va votar favorablemente ambos convenios. Es un criterio general de este grupo parlamentario apoyar los convenios internacionales que firma el Gobierno, pero en particular queremos valorar en positivo ambos. El primero, el Acuerdo de adquisición conjunta de contramedidas médicas -medicamentos, productos sanitarios, bienes o servicios-, impulsado y firmado por el conjunto de los países de la Unión Europea, va a cumplir un objetivo importante, como se ha señalado, la mejora de la eficiencia y de los costes en la lucha contra las amenazas transfronterizas graves en materia de salud y cede competencias para esa eficiencia de ejecución a la Comisión Europea. Y en cuanto al Convenio con Arabia Saudí, compartiendo algunos argumentos que ya se han expresado, es un convenio que se ha firmado para<pb n="7"/> la promoción y protección recíproca de inversiones. Entendemos que es perfectamente compatible con un país con el cual tenemos relaciones diplomáticas, porque algunos de los grupos parlamentarios que han expresado hoy su posición contraria deberían denunciar también que tuviéramos relaciones diplomáticas con otros países que no cumplen los requisitos de respeto de los derechos humanos, como ocurre con tantos otros con los cuales España mantiene relaciones diplomáticas. Es un convenio que nos ayuda a mejorar el marco de seguridad jurídica, máxime en un momento en el que también las empresas españolas están afrontando una obra de envergadura, como es la construcción de la línea de alta velocidad Medina-La Meca. Ello no debe obstar para que España sea muy exigente en materia de derechos humanos con países con los que firma convenios comerciales, como es el actual con Arabia Saudí, que mantenga una posición firme y exigente, sobre todo en un momento como el actual en que España va a ostentar ese puesto de responsabilidad en el Consejo de Seguridad de Naciones Unidas. Del mismo modo que valoramos positivamente este convenio, denunciamos esos déficits de democracia y derechos humanos en países como Arabia Saudí.</seg>
                <seg>Muchas gracias, señorías. Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u13" ana="#chair">
                <seg>Muchas gracias, señor Sáez Jubero.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Beneyto.</seg>
             </u>
@@ -185,14 +183,14 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u15" ana="#chair">
                <seg>Muchas gracias, señor Beneyto.</seg>
                <pb n="8"/>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY ORGÁNICA DE RÉGIMEN DE PERSONAL DE LA POLICÍA NACIONAL.</head>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u16" ana="#chair">
                <seg>Pasamos al debate de totalidad del proyecto de ley orgánica de régimen de personal de la Policía Nacional. Para la presentación del proyecto de ley tiene la palabra, en nombre del Gobierno, el señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u17"
@@ -223,7 +221,7 @@
                <seg>Muchas gracias, señor presidente; muchas gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u18" ana="#chair">
                <seg>Muchas gracias, señor ministro, por la presentación de la ley. A este proyecto, como ha mencionado el señor ministro, se han presentado dos enmiendas a la totalidad de devolución. Para la defensa de la presentada por el Grupo de La Izquierda Plural, tiene la palabra el señor Sixto.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u19"
@@ -381,7 +379,7 @@
                <seg>En cualquier caso, esperamos un debate abierto y transparente, a la altura de una ley que -repito, señor ministro- consideramos histórica. Por primera vez se regulan derechos y deberes de la Policía.<pb n="31"/> Esto merece un texto legislativo que sea una herramienta para el cuerpo, pero también un seguro para la ciudadanía. Repito, las Fuerzas y Cuerpos de Seguridad deben aportar seguridad, no inseguridad, como ha sucedido demasiadas veces en los últimos tiempos debido a actuaciones muy individuales e identificables pero que han existido. Por tanto, cuenten con nuestra colaboración en el sentido que les hemos dicho y ojalá esto contribuya a que de verdad el Cuerpo Nacional de Policía constituya de nuevo para toda la población un elemento de seguridad.<note>El señor presidente ocupa la Presidencia</note> Gracias, señor ministro. Gracias, señor presidente. Gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u34" ana="#chair">
                <seg>Muchas gracias, señor Guillaumes.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Cabello de Alba.</seg>
             </u>
@@ -396,7 +394,7 @@
                <seg>En realidad, señor Sixto, en esta ocasión su grupo al presentar la enmienda a la totalidad se ha limitado a sumar en un corta y pega las peticiones sindicales de enmiendas al articulado, que tiene un matiz, pero ni las recoge todas ni de todos los sindicatos, ni tan siquiera ha analizado correctamente su contenido. Le pongo otro ejemplo. Critica usted el sistema de evaluación del desempeño y dice -vuelvo a entrecomillar- que la actividad policial no puede estar al servicio de unas evaluaciones, sino de unas necesidades. Es obvio, estoy de acuerdo con usted en eso. Lo que olvida, señor Sixto, es que este método de gestión de personal aparece expresamente recogido en el artículo 20 del Estatuto básico del empleado público, Ley 7/2007&#x85;</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u36" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u36" ana="#chair">
                <seg>Perdón, señor Cabello de Alba. Ruego silencio para poder atender al interviniente.</seg>
                <seg>Continúe.</seg>
             </u>
@@ -409,7 +407,7 @@
                <seg>No coincido con usted en muchas de las interpretaciones contenidas en su enmienda a la totalidad. No quiero insistir en el tema del lenguaje sexista, porque de forma extraordinariamente clara lo ha expresado luego el señor ministro, pero sí quiero dejar clara una cosa, porque da la sensación de que es<pb n="33"/> algo que se impide hacer en el Cuerpo Nacional de Policía. Precisamente, con independencia de cuál sea la redacción que estima más conveniente a través de las directrices de técnica normativa, la resolución de 16 de septiembre de 2009 de la entonces Dirección General de la Policía y de la Guardia Civil ya propicia que ese lenguaje no sexista sea el que se incluya en el Cuerpo Nacional de Policía, y desde entonces y en la actualidad, usted lo sabe perfectamente, existen en el Cuerpo Nacional de Policía -así viene recogido en sus respectivos carnés profesionales- comisarias y comisarios, inspectoras e inspectores, subinspectoras y subinspectores, etcétera.</seg>
                <seg>Desde luego, no serán estas las cuestiones por las que se pueda evitar el consenso, señor Sicilia, ni estas ni otras que han surgido con el resto de los grupos parlamentarios, porque se puede llegar a acuerdos a lo largo del trámite parlamentario. Estoy seguro de eso, a pesar de que entiendo que usted ha utilizado esta tribuna y este momento y, por tanto, al propio Cuerpo Nacional de Policía como excusa para realizar un cierto alegato ideológico, que desde luego no comparto y que, en cualquier caso, me parece extemporáneo. Sí le digo que estoy absolutamente convencido de que es su voluntad, como lo es también la mía, que en el trámite parlamentario se ofrezca a la institución policial un texto legal mejorado, que les permita seguir realizando su magnífico servicio a la sociedad con eficacia y con transparencia, pero también con las garantías corporativas y personales que este colectivo nos demanda. Por eso, señor Sicilia, como de verdad creo en&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u38" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u38" ana="#chair">
                <seg>Señor Cabello, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u39"
@@ -420,7 +418,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u40" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u40" ana="#chair">
                <seg>Gracias, señor Cabello de Alba.</seg>
                <seg>En dos minutos vamos a votar.</seg>
                <note>Pausa</note>
@@ -428,174 +426,174 @@
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - DEL GRUPO PARLAMENTARIO MIXTO , SOBRE LAS CONSECUENCIAS NEGATIVAS DEL NUEVO SISTEMA DE INTERRUMPIBILIDAD ELÉCTRICO PARA INDUSTRIAS DE GRAN IMPORTANCIA COMO ALCOA A CORUÑA Y ALCOA AVILÉS Y MEGASA SIDERÚRGICA, ENTRE OTRAS MUCHAS.</head>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u41" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u41" ana="#chair">
                <seg>Vamos a votar, en primer lugar, las mociones. Las dos primeras mociones se van a votar punto a punto y el tiempo de votación está en 10 segundos, se lo digo para que se fijen en el asunto. Yo diré simplemente aprobado o rechazado en cada punto.</seg>
                <seg>Primera moción. Moción, consecuencia de interpelación, del Grupo Mixto, señora Pérez Fernández, sobre las consecuencias negativas del nuevo sistema de interrumpibilidad eléctrico para industrias de gran importancia, como Alcoa A Coruña y Alcoa Avilés y Megasa Siderúrgica, entre otras muchas. Esta moción se va a votar en sus propios términos y sus cinco puntos los votaremos separadamente.</seg>
                <seg>Punto número 1.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 127; en contra, 172; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u42" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u42" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto número 2.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312; a favor, 124; en contra, 173; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u43" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto número 3.<pb n="34"/> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 126; en contra, 172; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u44" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u44" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto número 4.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 21; en contra, 279; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u45" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u45" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto número 5.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 21; en contra, 270; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u46" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, SOBRE LA SITUACIÓN DE LA POLÍTICA ENERGÉTICA DEL ESTADO.</seg>
                <note>Número de expediente 173/000192</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u47" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u47" ana="#chair">
                <seg>Moción del Grupo de La Izquierda Plural sobre la situación de la política energética del Estado. Se vota en sus propios términos. Los puntos se votarán separadamente y son dieciséis.</seg>
                <seg>Punto 1.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 25; en contra, 171; abstenciones, 119.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u48" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 2.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 127; en contra, 171; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u49" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u49" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 3.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 121; en contra, 172; abstenciones, 23.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u50" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 4.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 139; en contra, 173; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u51" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u51" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 5.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 138; en contra, 172; abstenciones, 5.</seg>
                <pb n="35"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u52" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u52" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 6.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 127; en contra, 173; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u53" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 7.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 132; en contra, 172; abstenciones, 12.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u54" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u54" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 8.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 138; en contra, 172; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u55" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 9.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 136; en contra, 173; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u56" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u56" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 10.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 126; en contra, 173; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u57" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 11.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 120; en contra, 173; abstenciones, 22.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u58" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u58" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 12.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 120; en contra, 186; abstenciones, 8.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u59" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 13.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 121; en contra, 176; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u60" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u60" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 14.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="36"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 121; en contra, 179; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u61" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 15.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 121; en contra, 172; abstenciones, 23.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u62" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u62" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 16.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 120; en contra, 178; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u63" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LOS PERMISOS DE INVESTIGACIÓN Y EXPLORACIÓN DE HIDROCARBUROS EN CANARIAS Y EL MEDITERRÁNEO.</seg>
                <note>Número de expediente 173/000193</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u64" ana="#chair">
                <seg>Moción del Grupo Parlamentario Socialista, sobre los permisos de investigación y exploración de hidrocarburos en Canarias y el Mediterráneo.</seg>
                <seg>Hay admitida una enmienda transaccional del Grupo Parlamentario Socialista a la enmienda del Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural, que es la que conocen sus señorías.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 132; en contra, 178; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u65" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u65" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, SOBRE LAS MEDIDAS QUE PIENSA LLEVAR A CABO EL GOBIERNO PARA SUPRIMIR EL AFORAMIENTO DE LOS DIPUTADOS, SENADORES Y GOBIERNO.</seg>
                <note>Número de expediente 173/000194</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u66" ana="#chair">
                <seg>Moción del Grupo Parlamentario de Unión Progreso y Democracia, sobre las medidas que piensa llevar a cabo el Gobierno para suprimir el aforamiento de los diputados, senadores y Gobierno. Se vota en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 117; en contra, 173; abstenciones, 25.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u67" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u67" ana="#chair">
                <seg>Queda rechazada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DICTÁMENES DE LA COMISIÓN DE ASUNTOS EXTERIORES SOBRE CONVENIOS INTERNACIONALES : - ACUERDO ENTRE EL REINO DE ESPAÑA Y EL REINO DE ARABIA SAUDÍ PARA LA PROMOCIÓN Y PROTECCIÓN RECÍPROCA DE INVERSIONES, HECHO EN RIAD EL 9 DE ABRIL DE 2006.</head>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u68" ana="#chair">
                <seg>Votamos ahora el acuerdo entre el Reino de España y el Reino de Arabia Saudí para la promoción y protección recíproca de inversiones, hecho en Riad el 9 de abril de 2006.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="37"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 286; en contra, 17; abstenciones, 10.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u69" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>- ACUERDO DE ADQUISICIÓN CONJUNTA DE CONTRAMEDIDAS MÉDICAS, HECHO EN LUXEMBURGO EL 20 DE JUNIO DE 2014.</seg>
                <note>Número de expediente 110/000140</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u70" ana="#chair">
                <seg>Acuerdo de adquisición conjunta de contramedidas médicas, hecho en Luxemburgo el 20 de junio de 2014.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 313.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u71" ana="#chair">
                <seg>Queda aprobado por unanimidad.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY ORGÁNICA DE RÉGIMEN DE PERSONAL DE LA POLICÍA NACIONAL.</head>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u72" ana="#chair">
                <seg>Votación conjunta de las enmiendas a la totalidad de devolución al proyecto de ley orgánica de régimen de personal de la Policía Nacional, presentadas por los grupos parlamentarios de IU, ICV-EUiA, CHA: La Izquierda Plural y Socialista. Se han emitido cinco votos telemáticos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311 más 5 votos telemáticos, 316; a favor, 115 más 3 votos telemáticos, 118; en contra, 174 más 2 votos telemáticos, 176; abstenciones, 22.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u73" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>ELECCIÓN DE DIPUTADOS, DE CONFORMIDAD CON EL PUNTO TERCERO DE LA RESOLUCIÓN DE LA PRESIDENCIA DEL CONGRESO DE LOS DIPUTADOS SOBRE SECRETOS OFICIALES, DE 11 DE MAYO DE 2004:</seg>
                <seg>- ELECCIÓN DE DIPUTADOS, POR EL PLENO DE LA CÁMARA, A LOS EFECTOS DE LO PREVISTO EN EL PUNTO TERCERO DE LA RESOLUCIÓN DE LA PRESIDENCIA DEL CONGRESO DE LOS DIPUTADOS, DE 11 DE MAYO DE 2004, SOBRE SECRETOS OFICIALES.</seg>
                <note>Número de expediente 052/000002</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u74" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u74" ana="#chair">
                <seg>Pasamos a examinar el último punto del orden del día, la elección de un señor diputado, de conformidad con el punto tercero de la Resolución de la Presidencia del Congreso de los Diputados sobre secretos oficiales, de 11 de mayo de 2004. El diputado propuesto por el Grupo Parlamentario Popular en el Congreso es don Rafael Hernando Fraile.</seg>
                <seg>Los grupos que deseen intervenir lo podrán hacer de menor a mayor por un tiempo de cinco minutos. En primer lugar, por el Grupo Parlamentario Mixto, tiene la palabra el señor Tardà.</seg>
             </u>
@@ -606,7 +604,7 @@
                <seg>Si quieren se lo recuerdo. Esquerra Republicana de Catalunya, que había sido elegida la fuerza política representante del Grupo Mixto en esta Comisión de Secretos Oficiales -repito: elegida por el resto del grupo parlamentario-, fue vetada por el Partido Popular aun cuando Esquerra ya estuvo representada en la Comisión de Secretos Oficiales en otras legislaturas. ¿Saben por qué? Porque<pb n="38"/> resulta que éramos independentistas y amigos de los independentistas vascos presentes en este Parlamento, elegidos democráticamente por la ciudadanía vasca, de los compañeros y compañeras de Amaiur. No fuera caso que pasáramos información. ¡Qué absurdo, qué ridículo! ¡Qué estúpidos fueron ustedes políticamente! Y no les cayó la cara de vergüenza.<note>Protestas</note> No les cayó la cara de vergüenza porque tienen poca, esta es la verdad. Lo que ustedes hicieron no tiene nombre.</seg>
                <note>Continúan las protestas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u76" ana="#chair">
                <seg>Por favor, ruego silencio. Señor Tardà, proceda usted con moderación en sus apelativos a los grupos plurales.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u77"
@@ -615,7 +613,7 @@
                <seg>Llevamos sufriendo un atropello desde hace tres años y entonces pedimos al resto de compañeros de la oposición que fueran solidarios. ¿Lo fueron? Sí. ¿Mucho? Poco. Porque ustedes saben que si se hubieran negado a conformar la Comisión este Parlamento no hubiera podido soportar esta vergüenza. Aun así, ustedes, legítimamente, optaron por ser solidarios a medias con nosotros. Así pues, a lo largo de estos tres años hemos ido protestando cuando hemos podido. ¿Cómo? Siempre nos hemos ausentado cuando ha habido votaciones para elegir nuevos cargos de representantes en esta Comisión. Y como ya estamos ante el último momento antes de que finalice esta legislatura para evidenciar este atropello, les pedimos que ustedes hagan lo posible. Nosotros nos ausentamos, quizá ustedes pudieran hacer lo mismo o hacer un nulo. De alguna manera, no dejar como precedente este atropello a fin y efecto de que en la próxima legislatura no se pueda utilizar este precedente como ejemplo de normalidad. De aquí a cuatro días quizás lo va a padecer Podemos o lo padecerán otras fuerzas políticas. Quizás algún día, ustedes. Sepan que los republicanos catalanes nos hubiéramos partido la cara por ustedes si les hubiera ocurrido lo mismo que nos ha ocurrido a nosotros. Así pues, hagan lo que tengan que hacer.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u78" ana="#chair">
                <seg>Gracias, señor Tardà.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Nuet.</seg>
             </u>
@@ -627,7 +625,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u80" ana="#chair">
                <seg>Muchas gracias, señor Nuet.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor Heredia.</seg>
             </u>
@@ -640,7 +638,7 @@
                <note>Aplausos</note>
                <pb n="39"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u82" ana="#chair">
                <seg>Muchas gracias, señor Heredia.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Bermúdez de Castro.</seg>
             </u>
@@ -650,14 +648,14 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señorías, esta es la quinta ocasión en que se produce este debate en esta legislatura en el que los grupos políticos han tenido la oportunidad de expresar su opinión. Pero también es la quinta ocasión en que algún portavoz aprovecha este turno para realizar descalificaciones, realizar afirmaciones subidas de tono, lanzar juicios de valor tan injustos como exagerados y repetir los ya cansinos latiguillos contra el Grupo Parlamentario Popular por carecer de argumentos que sostengan su posición.<note>Aplausos</note> Ya sé que intentar convencerles es una misión tan inútil como baldía, porque, reitero, es la quinta ocasión en que tenemos este debate, pero, por respeto a esta Cámara, intentaré resumir nuestras razones y con ello responder también a sus acusaciones. Para empezar, y es lo que vamos a votar, quiero significar que el candidato propuesto por nuestro grupo parlamentario tiene suficiente altura política, experiencia, capacidad y condiciones sobradas para poder pertenecer a la Comisión de Secretos Oficiales.<note>Aplausos</note> Una comisión que es especial, señorías, que no es una comisión cualquiera porque aborda una información muy sensible y de extrema importancia para todos los españoles, una comisión que conoce cuestiones relacionadas con los servicios de inteligencia y que afectan a nuestra seguridad como nación, por lo que a los diputados que quieran formar parte de la misma se les debe exigir un compromiso de discreción, pero también un plus de lealtad con el Estado; sí, señorías, un plus de lealtad con el Estado<note>Aplausos</note> que no se puede presumir de todos los diputados, no desde luego de algunos por los discursos que han realizado, también esta mañana, porque van justo en la dirección contraria. Por cierto, señor Tardà, la misma libertad que tiene usted para subir a esta tribuna y decir lo que le da la gana tenemos el resto de los diputados para decidir sobre las condiciones de idoneidad de quien tiene que formar parte de la Comisión de Secretos Oficiales. ¡Faltaría más!<note>Aplausos</note> ¿O es que aquí el único que tiene libertad para actuar es usted? No olviden que la resolución de mayo de 2004 no dice que los grupos designan ni eligen un representante, lo que dice la resolución de 2004 es que los grupos pueden proponer un candidato, pero quien elige a ese representante es esta Cámara y lo hace de manera libre, soberana y por mayoría, que es como se deciden las cosas en un parlamento democrático.<note>Aplausos</note> Así que dejen ya de hablar de vetos, y menos de atropello, porque son ustedes los que no han querido encontrar una solución y buscar una alternativa dentro del Grupo Mixto. No hablen de vetos, hablen de votos. Y si hablamos de votos, empiecen por preguntarse una cosa. Si esta Cámara tiene 350 diputados y 165 no son del Grupo Parlamentario Popular ¿por qué los candidatos de su formación en las cuatro votaciones anteriores ni siquiera han tenido 140 votos, en algunos casos solo 90? ¿O es que eso no se lo han preguntado? Pues si se lo han preguntado, la respuesta la han tenido en esta Cámara y no es en exclusiva por veto del Partido Popular, porque hay otros diputados de otras formaciones que tampoco les han votado. Eso es también libertad y democracia, señor Tardá.<note>Aplausos</note> Por eso, y termino, no confunda esta tribuna con un mitin de campaña porque, al final, por mucha bronca y mucho espectáculo que quieran montar, los que terminan quedando políticamente en evidencia son ustedes. ¿Saben por qué? Porque no se puede defender la ruptura del Estado y querer formar parte a la vez de una comisión que pretende precisamente salvaguardar su protección y su seguridad. Así que, aclárense. No se puede defender una cosa y su contraria porque, al final, lo que les puede ocurrir es lo mismo que al demagogo, que acaben siendo ustedes víctimas de su propia propaganda. Nada más.<note>Aplausos</note> Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u84" ana="#chair">
                <seg>Muchas gracias, señor Bermúdez de Castro.</seg>
                <seg>Vamos a votar por el sistema establecido en el artículo 205 en relación con el 204 del Reglamento, resultando elegido el diputado si alcanza una mayoría de tres quintos, es decir, 210 votos.<note>Las señoras y los señores diputados del Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural, así como varios diputados y diputadas del Grupo Parlamentario Mixto abandonan el hemiciclo</note>
                   <pb n="40"/> Por los señores secretarios de la Mesa se procede al llamamiento de las señoras y los señores diputados, quienes van depositando su papeleta en la urna.</seg>
                <seg>Terminada la votación, se inicia el escrutinio.</seg>
                <seg>Terminado el escrutinio, dijo</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u85" ana="#chair">
                <seg>El resultado de la votación ha sido el siguiente: votos emitidos, 279; votos a favor de don Rafael Hernando Fraile, 252; votos a favor de don Joan Tardà i Coma, 1; votos en blanco, 7; votos nulos, 19. Por tanto queda elegido don Rafael Hernando Fraile a los efectos de esta resolución de la Presidencia. Enhorabuena.<note>Aplausos</note> Se levanta la sesión.</seg>
                <seg>Era la una de la tarde.</seg>
             </u>

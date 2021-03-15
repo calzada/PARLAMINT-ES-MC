@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="48">48 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="48" xml:lang="es">48 speeches</measure>
+            <measure unit="speeches" quantity="48" xml:lang="en">48 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="31"/>
                <tagUsage gi="note" occurs="41"/>
                <tagUsage gi="u" occurs="48"/>
-               <tagUsage gi="lb" occurs="199"/>
+               <tagUsage gi="seg" occurs="199"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY DE PRESUPUESTOS GENERALES DEL ESTADO PARA EL AÑO 2016.</head>
-            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Para la defensa de la enmienda de totalidad a los Presupuestos Generales del Estado presentada por el Grupo Vasco, PNV, tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -128,7 +126,7 @@
                <seg>Señor ministro, a modo de conclusión, he de resumirle algunas consideraciones. En primer lugar, como le decía antes, esta es una infraestructura de la red transeuropea prioritaria sobre la que el Estado está actuando a remolque y con considerable retraso en su ejecución y puesta en marcha. Frente al compromiso adquirido por el señor Rajoy en relación con el AVE de Galicia, un compromiso firme, no se observa un comportamiento político similar en el caso de esta infraestructura. En segundo lugar, el compromiso no se adquiere simplemente elevando la previsión presupuestaria respecto a la del año anterior a pocos meses de las elecciones. El desarrollo y avance de la infraestructura hay que medirlos por la ejecución presupuestaria y hasta la fecha no ha avanzado al ritmo necesario. En tercer lugar, el cumplimiento del compromiso arrancado por este grupo para que la red esté operativa en 2019 requiere de una gestión y administración de las obras seria, ágil y rigurosa, cosa que no vemos hasta ahora por parte del ministerio y de ADIF. Hay tramos de obras parados o semiparados, que conllevan no solamente retrasos sino los subsiguientes sobrecostes. Y en cuarto y último lugar, el desarrollo de los proyectos y las obras posteriores de acceso a las tres capitales está muy lejos de responder a una planificación y consiguiente compromiso presupuestario que lleven a la Y ferroviaria a estar operativa en el año 2019.</seg>
                <seg>Señor Montoro, por lo que le he señalado, comprenderá que nuestro grupo parlamentario, el Grupo Vasco en el Congreso, haya presentado esta enmienda a la totalidad. El fraude a los ciudadanos que supone la presentación de este proyecto, que lo va gestionar otro Gobierno, la insuficiente y frágil información económica disponible a estas alturas del ejercicio, la ausencia de debate sobre temas económicos de fondo y la falta de compromiso necesario para culminar el proyecto de la Y ferroviaria en el plazo previsto son básicamente los motivos, para nosotros más que suficientes, para que retire el proyecto.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u3" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Tiene la palabra el señor ministro de Hacienda y Administraciones Públicas.</seg>
             </u>
@@ -150,7 +148,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u5" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Azpiazu.</seg>
             </u>
@@ -165,7 +163,7 @@
                <seg>Yo sé que este presupuesto no va a entrar en vigor, sé que este presupuesto no lo va gestionar el próximo Gobierno. Lo van a rehacer, lo van a cambiar nuevas previsiones. Usted dice que no, pero cada día salen datos económicos que harían revisable el cuadro macroeconómico de las cifras presupuestarias. Pues el nuevo Gobierno con nuevas cifras hará un nuevo cuadro macroeconómico y unos nuevos presupuestos. Por lo tanto, no deseche muchas de las ideas que aquí le estamos planteando. Se me acaba el tiempo y tampoco quiero entrar en muchas más cuestiones que a las que, al margen estrictamente del presupuesto, usted se ha referido. Me da que no vamos a tener mucha oportunidad en el siguiente debate presupuestario, salvo que usted nos anuncie que va a seguir o algo así. No obstante, nuestro grupo, señor Montoro, como sabe, ha planteado siempre los debates presupuestarios con estricta seriedad, tratando de analizar las cuestiones con rigor y esto lo hemos hecho año tras año, fuera un año electoral o no, y seguramente lo seguiremos haciendo en el futuro.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u7" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Señor ministro de Hacienda y Administraciones Públicas.</seg>
             </u>
@@ -180,7 +178,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u9" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Pasamos ahora al Grupo Parlamentario Mixto. Hay varias enmiendas a la totalidad que serán defendidas por sus portavoces. En el caso de que no haya enmienda a la totalidad, fijarán su posición. Como siempre, aquí se acumula la réplica. En primer lugar, tiene la palabra el señor Larreina.</seg>
             </u>
@@ -450,7 +448,7 @@
                <seg>Muchas gracias, señor presidente. Muchas gracias, señorías.</seg>
                <note>Prolongados aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u43" ana="#chair">
                <seg>Muchas gracias, señor Olano</seg>
                <seg>Señor ministro de Hacienda y Administraciones Públicas.</seg>
             </u>
@@ -462,14 +460,14 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u45" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u45" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>En unos minutos vamos a votar.<note>Pausa</note> Vamos a proceder a la votación en bloque de todas las enmiendas a la totalidad de devolución presentadas al proyecto de ley de Presupuestos Generales del Estado para el año 2016.</seg>
                <seg>Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa.-Se produce un error en el panel electrónico y no se refleja la totalidad de los votos emitidos</note> Está claro que ha habido un fallo en la traducción de síes y noes que no parece representativo de la voluntad de la Cámara. Por lo tanto, va a comenzar la votación.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 336 más 1 voto telemático, 337; a favor, 150 más 1 voto telemático, 151; en contra, 185; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u46" ana="#chair">
                <seg>Quedan rechazadas las enmiendas a la totalidad presentadas al proyecto de ley de Presupuestos Generales del Estado para el año 2016.<note>El señor Duran i Lleida pide la palabra</note> Señor Duran.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u47"
@@ -478,7 +476,7 @@
                <seg>No sé el color que me corresponde, pero quiero que quede claro que yo he votado que sí.</seg>
                <note>Risas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-26-CD150826.u48" ana="#chair">
                <seg>Queda constancia en el 'Diario de Sesiones' de las palabras del señor Duran.</seg>
                <seg>Se levanta la sesión.</seg>
                <seg>Eran las doce y treinta minutos del mediodía.</seg>

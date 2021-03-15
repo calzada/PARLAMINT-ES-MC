@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="245">245 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="245" xml:lang="es">245 speeches</measure>
+            <measure unit="speeches" quantity="245" xml:lang="en">245 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="note" occurs="139"/>
                <tagUsage gi="pb" occurs="63"/>
                <tagUsage gi="u" occurs="245"/>
-               <tagUsage gi="lb" occurs="601"/>
+               <tagUsage gi="seg" occurs="601"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>PREGUNTAS - DEL DIPUTADO DON CAYO LARA MOYA, DEL GRUPO PARLAMENTARIO DE IU, ICV-EUIA, CHA: LA IZQUIERDA PLURAL, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿CREE MÁS URGENTE PARA LOS CIUDADANOS ESPAÑOLES FIRMAR UN ACUERDO CONTRA EL TERRORISMO YIHADISTA EN LUGAR DE UNO CONTRA LA POBREZA?</head>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Preguntas dirigidas al señor presidente del Gobierno. En primer lugar, pregunta el diputado don Cayo Lara, de Izquierda Plural.</seg>
             </u>
@@ -109,7 +107,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>Señor Rajoy, ¿cree más urgente para los ciudadanos españoles firmar un acuerdo contra el terrorismo yihadista en lugar de uno contra la pobreza?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u3" ana="#chair">
                <seg>Gracias, señor Lara.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -119,7 +117,7 @@
                <seg>Que el Gobierno y los dos principales partidos de la Cámara firmen un acuerdo contra el terrorismo yihadista me parece de puro sentido común y que estén de acuerdo en esta materia, también. Además este es un acuerdo abierto a todas las fuerzas políticas y es absolutamente compatible con firmar un acuerdo para luchar contra la pobreza.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u5" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Lara.</seg>
             </u>
@@ -129,7 +127,7 @@
                <seg>Gracias, señor Rajoy, por su respuesta, pero ayer conocimos un informe de la Red europea de lucha contra la pobreza que dice que hay casi 13 millones de personas en España que están en el umbral de la pobreza, 5 millones en exclusión severa; somos el segundo país en pobreza infantil de la Unión Europea; 9 millones de personas sufren pobreza energética. Su recuperación y despegue es una falacia, 80.000 parados más en enero y 200.000 cotizantes menos a la Seguridad Social. Su reforma laboral sigue provocando más despidos baratos. Las multinacionales están deslocalizando empresas sin piedad y buscando salarios miserables para los trabajadores. Un tercio de los salarios en España son indignos, mientras la banca sigue teniendo más beneficios y las grandes empresas también. Su Gobierno es cómplice de todo esto, no solo por su reforma laboral sino por el salario mínimo interprofesional de vergüenza. Me estoy reuniendo cada semana con trabajadores de empresas en crisis: los de Coca-Cola, que exigen el cumplimiento de la sentencia; los de John Deere, que tienen anunciado un ERTE; con los trabajadores de empresas en Sagunto y en concreto esta semana con los de Bosal, 222 trabajadores que fueron despedidos con una carta el día de los Reyes Magos. ¡Qué paradoja!<note>Muestra una camiseta con el texto No al cierre de Bosal.-Rumores</note> Estos trabajadores son la España real. Señor Rajoy, mire esta camiseta; no es solamente una camiseta, es la España real, es la España que está sufriendo los dramas de sus políticas.<note>Aplausos</note> Son miles y miles de trabajadores y trabajadoras que levantaron este país y que no soñaron ni en la peor de sus pesadillas que iban a llegar a sufrir tantas humillaciones como están sufriendo en este momento. En nombre de todos ellos, señor Rajoy, le exijo hoy en esta Cámara que haga un plan de lucha contra la pobreza, que presente un plan de empleo urgente para los parados de larga duración que no tienen ayudas y que derogue la reforma laboral porque, si no lo hace usted, lo va a hacer otro Gobierno con una mayoría diferente en esta Cámara, porque esta es una auténtica emergencia social en este país.</seg>
                <note>Rumores.-Aplausos.-El señor Lara Moya se aproxima al escaño del señor presidente del Gobierno, Rajoy Brey, y le hace entrega de la camiseta.-Protestas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u7" ana="#chair">
                <seg>Señor Lara&#x85; Señor Lara, no debe usted interrumpir la pregunta y la respuesta. Al terminar puede hacer lo que quiera, pero ahora no ha estado bien lo que ha hecho.</seg>
                <seg>Señor presidente del Gobierno.</seg>
                <pb n="7"/>
@@ -142,12 +140,12 @@
                <seg>Le voy a decir algunas de las decisiones que hemos adoptado, que son muy positivas para luchar contra la pobreza, y los resultados. En primer lugar, este es un país que está creciendo económicamente -ya lo ha hecho en 2014 y lo va a hacer en 2015- después de seis meses de crecimiento económico negativo; eso es actividad, eso es bienestar y riqueza. El año pasado, tras seis años de aumento continuado del desempleo, ha habido 487.000 parados menos; este año todavía habrá menos parados y eso será también un dato muy positivo. Hemos garantizado las pensiones y las hemos subido, afectan a 9.200.000 personas. Hemos gastado en estos tres años casi 100.000 millones de euros en pagar seguros de desempleo. Hemos prorrogado el plan Prepara y hemos firmado un acuerdo con las organizaciones sindicales en el mes de diciembre para atender a las personas que están en mayor situación de dificultad. Hemos creado un fondo contra la pobreza infantil. Mediante el sistema de pago de proveedores hemos atendido a todas aquellas organizaciones sociales que se dedicaban a atender a aquellas personas que estaban en situación de mayor dificultad. Los últimos datos de Eurostat, que es el organismo oficial de la Unión Europea, dicen que después de cuatro años continuados de crecimiento de la pobreza, entendiendo por tal aquellas personas que están por debajo del 60 % de la renta mediana del país, en 2013 ya se produjo una inflexión, los datos son más positivos; en 2014 todavía no son definitivos, pero también lo serán. Por tanto, vamos claramente a mejor y le pido un poco de equilibrio en el juicio.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u9" ana="#chair">
                <seg>Gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON JOSEP ANTONI DURAN I LLEIDA, DEL GRUPO PARALAMENTARIO CATALÁN<note>CONVERGÈNCIA I UNIÓ</note> , QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿NO CREE EL PRESIDENTE DEL GOBIERNO QUE DEBERÍA MATIZAR MUCHO MÁS SUS PERSPECTIVAS PARA EL AÑO 2015?</seg>
                <note>Número de expediente 180/001187</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u10" ana="#chair">
                <seg>Pregunta del diputado don Josep Antoni Duran i Lleida, del Grupo Catalán de Convergència i Unió.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u11"
@@ -156,7 +154,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor presidente del Gobierno, ¿no cree que debería matizar mucho más sus perspectivas para 2015 en términos, lógicamente, de previsiones económicas?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u12" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -168,7 +166,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u14" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Duran.</seg>
             </u>
@@ -180,7 +178,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u16" ana="#chair">
                <seg>Muchas gracias, señor Duran.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -192,11 +190,11 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u18" ana="#chair">
                <seg>Muchas gracias, señor presidente.<pb n="9"/> - DEL DIPUTADO DON PEDRO SÁNCHEZ PÉREZ-CASTEJÓN, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿CONSIDERA EL PRESIDENTE DEL GOBIERNO QUE SUS REFORMAS GARANTIZAN LA IGUALDAD DE OPORTUNIDADES EN EL ACCESO A LA EDUCACIÓN?</seg>
                <note>Número de expediente 180/001189</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u19" ana="#chair">
                <seg>Pregunta del diputado don Pedro Sánchez, del Grupo Socialista, que formula al presidente del Gobierno.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u20"
@@ -205,7 +203,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Rajoy, ¿considera que sus contrarreformas educativas están garantizando la igualdad de oportunidades entre nuestros jóvenes?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u21" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -216,7 +214,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u23" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Sánchez.</seg>
             </u>
@@ -228,7 +226,7 @@
                <seg>Señor Rajoy, siempre que gobierna la derecha orientan su política educativa hacia un mismo lugar, hacia una misma dirección, que es quebrar la igualdad de oportunidades. Ustedes quieren crear en nuestro sistema universitario estudiantes de primera y de segunda división, cuyas posibilidades futuras dependan de la cuenta corriente de sus padres y de sus madres, y eso no lo vamos a permitir, señor Rajoy. Cualquier padre de clase media trabajadora quiere un Gobierno que ayude a sus hijos a abrir las universidades para que puedan estudiar una licenciatura o un grado, y no cerrarla como se está haciendo desde que lleva gobernando este país. En cuanto a sus contrarreformas educativas hay una buena noticia, que durarán poco, tan poco como su Gobierno, es decir hasta el próximo mes de noviembre.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u25" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Señor presidente.</seg>
                <pb n="10"/>
@@ -241,12 +239,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u27" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>- DE LA DIPUTADA DOÑA SILVIA OÑATE MOYA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE DEFENSA: ¿QUÉ SOLUCIONES VA A OFRECER EL MINISTERIO DE DEFENSA A LOS TRABAJADORES Y LAS TRABAJADORAS DE LA EMPRESA CLEANET QUE DESARROLLAN SU ACTIVIDAD EN INSTALACIONES DEL MINISTERIO DE DEFENSA Y SE HAN VISTO AFECTADOS POR EL IMPAGO DE SUS NÓMINAS POR PARTE DE LA EMPRESA?</seg>
                <note>Número de expediente 180/001192</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u28" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Defensa. La formula la diputada doña Silvia Oñate, del Grupo Parlamentario Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u29"
@@ -256,7 +254,7 @@
                <seg>Señor ministro, me siento muy orgullosa de que mi primera pregunta sea en nombre de ocho mujeres trabajadoras que hoy están aquí, en esta Cámara, sentadas en la tribuna de invitados. Ellas representan a unas doscientas cincuenta mujeres que también hoy se están manifestando en la plaza de Neptuno; reivindican algo tan básico, tan absolutamente básico como cobrar un salario por su trabajo. No cobran, señor ministro, desde hace seis meses. Por eso le preguntamos: ¿Qué soluciones va a ofrecer su ministerio a los trabajadores y las trabajadoras de la empresa Cleanet que desarrollan su actividad en las instalaciones del Ministerio de Defensa y se han visto afectadas por el impago de sus nóminas por parte de la empresa?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u30" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -268,7 +266,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u32" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora diputada.</seg>
             </u>
@@ -279,7 +277,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u34" ana="#chair">
                <seg>Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u35"
@@ -290,12 +288,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u36" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u36" ana="#chair">
                <seg>Muchas gracias, señor ministro de Defensa.</seg>
                <seg>- DE LA DIPUTADA DOÑA ISABEL RODRÍGUEZ GARCÍA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿QUÉ ACTUACIONES PIENSA LLEVAR A CABO EL MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS EN RELACIÓN CON LOS DELITOS FISCALES PRESUNTAMENTE COMETIDOS COMO CONSECUENCIA DE LAS OBRAS EN LA SEDE CENTRAL DEL PARTIDO POPULAR?</seg>
                <note>Número de expediente 180/001198</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u37" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Hacienda y Administraciones Públicas. La formula la diputada doña Isabel Rodríguez, del Grupo Parlamentario Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u38"
@@ -304,7 +302,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>Señor ministro, la Agencia Tributaria sostiene en sus informes que se han producido delitos contra la Hacienda precisamente como consecuencia de las obras en la sede del Partido Popular. Esta misma tarde funcionarios de su ministerio van a comparecer para ratificar esos informes. De ahí la pregunta que le<pb n="12"/> planteo: ¿Qué actuaciones piensa llevar a cabo su ministerio en relación con los delitos fiscales presuntamente cometidos como consecuencia de las obras en la sede del Partido Popular?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u39" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u39" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -316,7 +314,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u41" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u41" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora diputada.</seg>
             </u>
@@ -327,7 +325,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u43" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -338,12 +336,12 @@
                <seg>Señora diputada, con actuaciones como la suya no sé para qué necesitamos la justicia; la cerramos; usted ya ha sentenciado<note>Aplausos</note> ; ha condenado, y ha pedido actuaciones y responsabilidades políticas, pero a raíz de qué: de indicios. Pues indicios tienen ustedes en sus bancos unos cuantos<note>Rumores</note> Unos cuantos ahí que ciertamente, en manejo de dinero público, dejan muchísimo que desear. Por lo demás ya veo que usted lee determinados titulares con fruición.<note>Rumores</note> Sin embargo son titulares con interés, porque en vez de destacar en el día de hoy actuaciones como todo el fraude en Andalucía de la formación profesional, todo los ERE en Andalucía, se dedican a lo que se dedican, a hacer insinuaciones.<note>Rumores y protestas</note> Los funcionarios trabajan, señoría, y su resultado está ahí. Nadie debería dudar de su calidad y de su pundonor. Eso es lo que estoy recabando de su actuación. Como no<pb n="13"/> lo ha hecho nunca este partido cuando ha estado en la oposición.<note>La señora Aguilar Rivero: Bueno, bueno.-Rumores</note> Nunca, nunca, señorías. Enseñen ustedes algún extracto de alguna intervención mía donde yo dude de la Intervención General del Estado o de la Agencia Tributaria; muestren alguna intervención.<note>Rumores</note> No, eso es típico&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u45" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u45" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA ISABEL SÁNCHEZ ROBLES, DEL GRUPO PARLAMENTARIO VASCO<note>EAJ-PNV</note> , QUE FORMULA A LA SEÑORA MINISTRA DE FOMENTO: ¿QUÉ MEDIDAS CONCRETAS PIENSA ADOPTAR EL GOBIERNO PARA HACER REALIDAD EL COMPROMISO ADQUIRIDO POR USTED EL PASADO 28 DE ENERO CON LA ALTA VELOCIDAD EN EUSKADI?</seg>
                <note>Número de expediente 180/001186</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u46" ana="#chair">
                <seg>Preguntas dirigidas a la señora ministra de Fomento. Pregunta, en primer lugar, la diputada doña Isabel Sánchez Robles, del Grupo Vasco PNV.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u47"
@@ -353,7 +351,7 @@
                <seg>¿Qué es lo que ha cambiado desde el Pleno celebrado el pasado 29 de octubre, hace escasamente tres meses, señora ministra? Le recuerdo que usted y su grupo se negaron a adquirir un compromiso público ante esta Cámara para que en el año 2020, un año después de 2019, la Y vasca fuera una realidad. Señora ministra, también le pregunto: ¿qué es lo que ha cambiado desde el día 18 de diciembre, fecha en que culminó la tramitación de los Presupuestos Generales del Estado, por cierto, con nuevos recortes para la Y vasca apoyados por el Partido Popular, y sin que fuera incorporada ninguna enmienda propuesta por nuestro grupo para acelerar el ritmo de las obras de esta infraestructura estratégica?</seg>
                <seg>Sinceramente, señora ministra, debo reconocer que se trata de una buena noticia; e una buena noticia si se cumple y si no,estamos ante un anuncio preelectoral. Por eso le pregunto: ¿qué pasos va a dar para cumplir con la palabra dada?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u48" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -363,7 +361,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señoría, el Gobierno va a seguir como hasta ahora, invirtiendo en la Y vasca para que en 2019 todos los ciudadanos vascos y todos los españoles tengan una vía de alta capacidad. Señoría, lo hemos hecho invirtiendo -a pesar de la crisis de estos cuatro años- 2.300 millones de euros en la Y vasca: 916 millones de euros en los Presupuestos Generales del Estado y 1.400 millones de euros a través del cupo. Además la cantidad presupuestada en los Presupuestos Generales del Estado para 2015 ha crecido un 17 %.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u50" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>Señora diputada.</seg>
             </u>
@@ -374,7 +372,7 @@
                <seg>Por último, ministra, Euskadi, Europa y este grupo parlamentario, sinceramente&#x85;</seg>
                <pb n="14"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u52" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u52" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -385,12 +383,12 @@
                <seg>Gracias, señora Sánchez Robles. Señoría, el ritmo inversor que estamos llevando a cabo en la legislatura, a pesar -como le decía- del déficit que nos encontramos, es de 600 millones al año. Si seguimos con este ritmo, que estoy segura de que se va a hacer o que se va incluso a mejorar, en poco más de cuatro años habremos concluido la Y vasca. Señoría, le voy a describir la situación de los trabajos. En el ramal guipuzcoano -como usted sabe- las obras de plataforma están en ejecución hasta Astigarraga, y se han finalizado obras en tres tramos, estando previsto que se terminen otros seis. En el área vizcaína siete tramos con las obras de plataforma terminadas, otras siete en obras, que concluiremos tres de ellas en el 2015. El tramo Atxondo-Abadiño con obras licitadas que vamos a adjudicar en este semestre. En el nudo de Bergara hemos iniciado las obras de la plataforma del tramo Mondragón-Bergara, sector Kobate. En este mismo tramo licitamos el 2 de octubre las obras de plataforma del sector Angiozar, que adjudicaremos el próximo mes de marzo, y vamos a licitar los tres tramos restantes del nudo de Bergara -como usted sabe- en este primer trimestre, el sector Zumelegi, el Elorrio-Bergara y el Elorrio-Elorrio, y además estarán contratados todos los tramos pendientes en el ramal Vitoria-Bilbao. Tras su contratación el pasado mes de octubre también están en ejecución los proyectos de montaje de vía, de catenaria, de telemando, y de energía. Continuamos trabajando en los accesos a las ciudades y hemos iniciado la información pública del Astigarraga-Oiartzun-Lezo.</seg>
                <seg>Señoría, estamos cumpliendo con los compromisos y le puedo asegurar que si todos los Gobiernos destinan lo que ha destinado este Gobierno a la Y vasca, como le dije ya un día en esta Cámara&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u54" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u54" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>- DEL DIPUTADO DON JUAN LUIS GORDO PÉREZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA MINISTRA DE FOMENTO: ¿QUÉ ESPERA ALCANZAR EL GOBIERNO CON LA PRIVATIZACIÓN DE AENA?</seg>
                <note>Número de expediente 180/001197</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u55" ana="#chair">
                <seg>Pregunta que formula a la señora ministra de Fomento el diputado don Juan Luis Gordo, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u56"
@@ -400,7 +398,7 @@
                <seg>Señora ministra, hoy con la salida a bolsa de AENA el Gobierno da un paso decisivo en su privatización. El Consejo Consultivo de Privatizaciones, a propuesta de su ministerio, aprobó el paso a manos privadas del 60 % de la propiedad de AENA. Esa es la auténtica hoja de ruta del Gobierno, al menos la tácita, y con ello se pone en peligro no solamente la movilidad de los españoles, sino la cohesión social y la vertebración territorial de nuestro país. Díganos, señora ministra, ¿qué pretende el Gobierno con la privatización de AENA?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u57" ana="#chair">
                <seg>Gracias, señor Gordo.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -411,7 +409,7 @@
                <seg>Muchas gracias, señor Gordo. Lo que hemos hecho, señoría, hasta ahora es lo que el Gobierno socialista fue incapaz de hacer, dejó AENA al borde de la quiebra, dejó AENA con una caja de menos 500 millones, no se podía pagar la nómina, que se estaba pagando con la cuenta de proveedores, y lo que hemos hecho ha sido es darle la vuelta a la compañía. La compañía sigue siendo pública, no falte usted a la verdad, léase usted las leyes que ha aprobado esta Cámara. Como usted sabe, la entrada de capital privado es del 49 %, y esta va a seguir siendo, señoría, una empresa pública con servidores públicos.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u59" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
                <seg>Señor Gordo.</seg>
             </u>
@@ -423,7 +421,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u61" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -435,12 +433,12 @@
                <seg>Señor Gordo, la pena es que tenga tan poco tiempo. Señoría, lo que hemos hecho -y usted lo sabe bien- ha sido sanear AENA, ha sido darle la vuelta a las lamentables cuentas que ustedes tenían, ha sido no volver a hacer lo que ustedes hicieron, señoría, que está muy bien tener buenos aeropuertos, pero no hacer terminales faraónicas -como las que ustedes hicieron- despilfarrando el dinero de todos los españoles.<note>Protestas</note> Señoría, ¿sabe lo que le pasa a usted en el fondo? Que no le lleva el cuerpo, no le lleva el cuerpo que hoy esté entrando capital privado en AENA efectivamente, que haya habido una demanda altísima, porque han entrado -eso que llama usted amigos, pues muchos amigos debemos tener- más de 90.000 inversores en el proceso a 58 euros la acción. Señoría, no se olvide de que aquí está el documento de los socialistas donde pidieron una valoración de AENA, y en ella los fondos propios no llegaban a 3.000 millones. Hoy la compañía vale en fondos propios tres veces más y el valor total son 19.700 millones. Eso es lo que hace el Partido Popular cuando gobierna.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u63" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>- DE LA DIPUTADA DOÑA UXUE BARKOS BERRUEZO, DEL GRUPO PARLAMENTARIO MIXTO, QUE FORMULA A LA SEÑORA MINISTRA DE EMPLEO Y SEGURIDAD SOCIAL: ¿QUÉ RAZONES ESGRIME EL GOBIERNO PARA SEGUIR INCUMPLIENDO SUS OBLIGACIONES PARA CON LAS PERSONAS PARADAS DE LARGA DURACIÓN EN NAVARRA?</seg>
                <note>Número de expediente 180/001184</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u64" ana="#chair">
                <seg>Preguntas dirigidas a la señora ministra de Empleo y Seguridad Social. Pregunta, en primer lugar, doña Uxue Barkos del Grupo Mixto.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u65"
@@ -450,7 +448,7 @@
                <seg>Señora ministra, en el año 2013 su Gobierno decidió dejar de pagar el subsidio por desempleo a las personas en paro de larga duración que en Navarra reciben la renta de inclusión social, una renta complementaria. Lo cierto es que ante diferencias de criterio con lo defendido -sin mucho éxito, por cierto- por el Gobierno de UPN al respecto, ustedes tomaron la peor de las decisiones: dejar de pagar y por tanto incumplir sus obligaciones para con un grupo de parados de larga duración. ¿Qué razones puede esgrimir usted para mantener esta decisión a todas luces injusta?</seg>
                <pb n="16"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u66" ana="#chair">
                <seg>Gracias, señora Barkos.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -461,7 +459,7 @@
                <seg>Señora Barkos, le pido que sea justa y no hable con demagogia. La respeto mucho personalmente pero le pido en esta pregunta un poco de rigor. El Gobierno cumple escrupulosamente en todo el territorio nacional con sus obligaciones con los parados de este país, en Navarra y en toda España. Por tanto nunca ha incumplido con esas obligaciones, legales por otra parte, que tenemos. Aplicamos la misma legislación y las mismas condiciones en Navarra que en el resto de España para que todas las personas, vivan donde vivan, tengan protegidos sus derechos. Por consiguiente, señora Barkos, le pido que retire esa acusación injusta de incumplimiento.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u68" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>Señora Barkos.</seg>
             </u>
@@ -471,7 +469,7 @@
                <seg>Señora ministra, no hay acusación alguna que retirar, la realidad es la realidad, y su Gobierno, amparándose en una interpretación de la Ley General de la Seguridad Social, adopta la decisión en 2013. Francamente creo que la hemeroteca es la que desmiente esa petición de rigor que usted me hace. Todo lo contrario -y le voy a decir más-, se niegan ustedes a hablar y nos lo están demostrando una y otra vez, porque esta situación que lleva prolongándose todo el año 2014 no ha sido hecha pública hasta el pasado mes de noviembre. Además este interés por silenciar su propia decisión -recuerdo, dejar de pagar 426 euros a 700 familias sin ingresos- lo han prolongado desde entonces. La delegada de su Gobierno en Navarra se niega a comparecer en el Parlamento, y no se ha producido -y en el mes de noviembre la solicité yo personalmente- su comparecencia para hablar de esta cuestión. Hubiera habido en cualquier caso otro mecanismo, pero es que ni siquiera, señora ministra, responden a las preguntas que por escrito sus socios de UPN registraron en esta misma Cámara hace dos meses; dos meses han tenido, ministra, para dar una explicación. Y ya que no responden a este tema de gravedad -insisto, y con todo el rigor y la importancia que el asunto tiene-, le voy a preguntar si van a reunir a la junta de cooperación porque de este asunto tampoco tenemos noticias, si van a restituir los 4 millones de euros que el Gobierno de Navarra ha adelantado para poder pagar a esas personas en la situación que le estaba relatando, y sobre todo, ministra, si va a asumir de nuevo el Gobierno y el departamento que usted dirige sus responsabilidades con esas personas, y por tanto si van a pagar a los parados de larga duración en Navarra los 426 euros mensuales que deben pagar. Es muy sencillo -y yo se lo trasladé a su Gobierno en un debate anterior-: si el problema está en la Ley General de la Seguridad Social para evitar diferencias de criterio, háganlo ya, porque con sus diferencias de criterio algunas familias no pueden arrancar el mes.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u70" ana="#chair">
                <seg>Gracias, señora Barkos.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -483,12 +481,12 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u72" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
                <seg>- DEL DIPUTADO DON RAFAEL SIMANCAS SIMANCAS, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA MINISTRA DE EMPLEO Y SEGURIDAD SOCIAL: ¿QUÉ VALORACIÓN HACE EL GOBIERNO DE LOS DATOS DE PARO REGISTRADO RELATIVOS AL MES DE ENERO DE 2015?</seg>
                <note>Número de expediente 180/001193</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u73" ana="#chair">
                <seg>Pregunta dirigida también a la señora ministra de Empleo y Seguridad Social que formula el diputado don Rafael Simancas, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u74"
@@ -499,7 +497,7 @@
                <seg>Debe usted saber, señora ministra -quizá nadie se lo ha dicho-, que cuando usted hace un mitin, cuando habla en los mítines no le escuchan solo sus compañeros, sino que también le están escuchando los parados, los trabajadores pobres, los explotados, los que no llegan a final de mes con los salarios de miseria, y estas personas se sienten insultadas. Por eso yo le pido, señora ministra,&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u75" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -511,7 +509,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u77" ana="#chair">
                <seg>Muchas gracias, señora ministra.<note>El señor vicepresidente, Barrero López, ocupa la Presidencia</note> - DEL DIPUTADO DON ROMÁN RUIZ LLAMAS, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE INDUSTRIA, ENERGÍA Y TURISMO: ¿QUÉ MEDIDAS PIENSA TOMAR SU MINISTERIO PARA EVITAR UNA NUEVA SUBIDA DE LA LUZ?</seg>
                <note>Número de expediente 180/001194</note>
             </u>
@@ -727,12 +725,12 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u111" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u111" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA MARÍA ANGELINA COSTA PALACIOS, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE EDUCACIÓN, CULTURA Y DEPORTE: ¿CÓMO RECIBE EL GOBIERNO EL RECHAZO MAYORITARIO A SU &#x93;PLAN DE FLEXIBILIZACIÓN UNIVERSITARIA&#x94;?</seg>
                <note>Número de expediente 180/001191</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u112" ana="#chair">
                <seg>Procede ahora la pregunta al señor ministro de Educación, Cultura y Deporte de la diputada doña Angelina Costa, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u113"
@@ -741,7 +739,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor ministro, con este cambio hemos tenido ocasión de que usted respirara un poco. Le pregunto: ¿Cómo recibe el Gobierno el rechazo mayoritario a su plan de flexibilización universitaria?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u114" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -753,7 +751,7 @@
                <note>Risas</note>
                <pb n="24"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u116" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señora Costa.</seg>
             </u>
@@ -764,7 +762,7 @@
                <seg>Señor ministro, ya sabemos que usted es el rey del eufemismo y del circunloquio, pero las explicaciones que desde el ministerio se están dando sobre el nuevo decreto se llevan la palma. Espero que usted me dé algunas explicaciones ahora que me convenzan mucho más. Todo por no reconocer las verdaderas intenciones de su Gobierno: más recortes presupuestarios en el ámbito educativo, por mucho que digan lo contrario. Los números, efectivamente, no engañan. Ha vuelto a engañar a los estudiantes y a sus familias. En fin, a toda la comunidad universitaria, igual que hizo con los decretos de becas, por ejemplo. Los grados de tres años -y usted lo sabe- señor ministro, serán más baratos, sí, pero un grado de tres años convertirá en casi obligatorio cursar un máster para alcanzar la necesaria competencia formativa y las familias no ahorrarán, sino que tendrán que pagar el doble, y ya vamos desvelando su intención, ahondar más en la brecha de la desigualdad. Este nuevo decreto no es un mero retoque, es una reforma en toda regla. Muchas veces le dije que no abordara usted la reforma a base de decretazos; no me ha hecho caso. Una evaluación antes de abordar esta reforma hubiera sido muy necesaria. Señor ministro, aparque y derogue este decreto.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u118" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -775,13 +773,13 @@
                <seg>Señora Costa, en realidad vuelvo al comienzo de mi primera intervención. Este decreto, sobre el que espero tener una oportunidad de dar explicaciones más detalladas en la interpelación que seguirá a continuación, introduce únicamente una flexibilización en la duración de los grados. Introduce esa flexibilización en un doble sentido: flexible en cuanto a que son las propias universidades las que tienen la potestad de introducirla y de hacerlo con el alcance que deseen. En ningún lugar del decreto se dice que a partir de ahora todos los grados vayan a ser de tres años, ni se les pide a las universidades que tengan grados de tres años. Lo hace, entre otras cosas, para facilitar la internacionalización de nuestro sistema universitario, que, como sabe su señoría perfectamente porque vive en ese mundo, es hoy por hoy muy limitada. Lo hace también porque es la experiencia de la mayor parte de los sistemas universitarios de éxito que existen a nuestro alrededor. Usted conoce perfectamente la lista de países que aplican rígidamente el sistema de grados de 240 créditos ECTS de grados de cuatro años. Si no la conoce, se la recito ahora mismo: Armenia, Chipre, Georgia, Grecia, Kazajstán, Turquía, Rusia y Ucrania. Punto final. Esos son los ocho países que en el espacio de cuarenta y ocho países que forman el Espacio Europeo de Educación Superior aplican rígidamente el sistema de grados de cuatro años. Si ustedes creen que el papel de España es estar alineados con esos ocho países y, por tanto, ser totalmente asimétricos con Inglaterra, Francia, Italia, Alemania, Bélgica, Holanda, Portugal, en definitiva, con todos los países con los que tenemos más relaciones de movilidad, allá ustedes; nosotros pensamos de otra manera.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u120" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DE DIPUTADO DON ANTONIO CANTÓ GARCÍA DEL MORAL, DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, QUE FORMULA AL SEÑOR MINISTRO DE ECONOMÍA Y COMPETITIVIDAD: ¿QUÉ MEDIDAS HA ADOPTADO EL GOBIERNO PARA GARANTIZAR QUE LOS ACCIONISTAS DE BANKIA ESTAFADOS PUEDAN RECUPERAR SU DINERO?</seg>
                <note>Número de expediente 180/001188</note>
                <pb n="25"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u121" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Economía y Competitividad, que formula el diputado don Antonio Cantó, del Grupo Parlamentario de Unión Progreso y Democracia.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u122"
@@ -790,7 +788,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, voy a dejar a un lado el hecho de que ustedes estaban dentro de las cajas de ahorros y, por lo tanto, son corresponsables de esa deuda de 100.000 millones de euros que pagaremos entre todos. Solo Bankia nos ha producido una deuda de 20.000 millones de euros. Eso sí, les recordaré que ustedes podrían haber elegido no estar en las cajas de ahorros. Nosotros, por ejemplo, podríamos haber estado en algunas, y no quisimos. Lo digo para que sepa que hay otra forma de hacer política. Pero al ver cómo está actuando el Gobierno estos días en la causa de Bankia, me surge una duda, y por eso quiero preguntarle: ¿Para quién trabaja usted, señor ministro?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u123" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -802,7 +800,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u125" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Cantó.</seg>
             </u>
@@ -815,7 +813,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u127" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
                <pb n="26"/>
@@ -829,13 +827,13 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u129" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LA NUEVA REGULACIÓN DE LA ORDENACIÓN DE LAS ENSEÑANZAS UNIVERSITARIAS OFICIALES.</head>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u130" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u130" ana="#chair">
                <seg>Pasamos al turno de interpelaciones. En primer lugar, interpelación del Grupo Socialista sobre la nueva regulación de la ordenación de las enseñanzas universitarias oficiales. La defensa de esta interpelación la llevará a cabo la señora González Veracruz.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u131"
@@ -846,7 +844,7 @@
                <seg>Entienda que cada vez que escuchamos hablar de reformas por parte de este Gobierno nos pongamos a temblar; no el Grupo Parlamentario Socialista sino la mayoría de los españoles, y muy especialmente en el tema de la educación, en el que soy absolutamente radical porque de eso depende el presente y el futuro de demasiada gente e incluso de nuestro país. Su sensibilidad es cero y por desgracia hoy lo han demostrado, desde el presidente del Gobierno hasta usted mismo con sus respuestas en sesión de control. La realidad -reconózcala, señor Wert, y no se esconda en datos que ocultan la realidad o en teorías que nada tienen que ver con lo que sucede- es que esta reforma de 3 + 2&#x85;</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u132" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u132" ana="#chair">
                <seg>Perdón, señora diputada.</seg>
                <seg>Por favor, ruego que no hagan corrillo y atiendan a lo que dice la señora diputada.<note>Pausa</note> Continúe.</seg>
                <pb n="27"/>
@@ -1107,7 +1105,7 @@
                <seg>Señorías, intervengo en esta iniciativa en nombre del Grupo Popular para fijar la posición de nuestro grupo. Señora Pérez, permítame que empiece reconociendo que tienen usted y el grupo al que representa tienen todo el derecho del mundo a presentar aquellas iniciativas que estimen oportunas, de acuerdo con el Reglamento de esta Cámara. Ahora bien, el resto de los grupos también tenemos el derecho a expresar nuestra opinión, y con todo respeto, señora Pérez, creo que esta iniciativa en estos momentos es cuando<pb n="44"/> menos extemporánea, porque el pasado mes de diciembre tuvimos la oportunidad de hablar de este mismo asunto y en aquella ocasión el ministro de Industria, Energía y Turismo ofreció explicaciones más que suficientes. En aquel debate, señorías, se ofrecieron explicaciones sobre el déficit tarifario, sus componentes y las medidas que ha llevado a cabo el Gobierno para evitar que el déficit estructural no solo no siguiese creciendo al ritmo que lo estaba haciendo, sino que se redujese en 2014. Permítame que le recuerde que para reducir el déficit del sistema bien bajamos los costes, bien incrementamos los ingresos. Este Gobierno lo tuvo claro, optó por reducir los costes regulados. Estos tienen varios componentes: el transporte, la red de transporte desde la producción a la subestación; la distribución desde la subestación al punto de consumo; pagos por capacidad, por tener listas las centrales térmicas; la insularidad y la extrapeninsularidad; la interrumpibilidad o lo que paga el sistema a las empresas intensivas en consumo por si en algún momento, por necesidades del sistema, tienen que interrumpir su nivel de consumo. Pues bien, ustedes proponen en su moción suspender el sistema de subasta recientemente adoptado y volver al anterior, según el cual se asignaba un precio en función de la potencia contratada. Además, por la forma en la que ustedes hacen la exposición y repasando el debate del pasado diciembre parece deducirse de sus intervenciones que ese sistema es especialmente lesivo, dañino con estas empresas intensivas en el consumo eléctrico, y en especial con las que usted nombra.<note>El señor presidente ocupa la Presidencia</note> Pues bien, señoría, debería saber usted, en primer lugar, que este sistema tan dañino, tan lesivo es el propuesto por las empresas, en concreto por algunas de las que usted ha mencionado. Esta semana, de hecho, hemos asistido a la inauguración del gaseoducto de A Mariña que va a permitir a la planta de Alcoa, San Cipriao, reducir en un 25 % los costes de producción de alúmina; creo que es una buena noticia. En España existía un modelo anterior, como comentábamos, que planteaba problemas desde el punto de vista de la competencia que hemos que tener en cuenta. De hecho, fueron las propias empresas las que propusieron cambiar el sistema ante el temor de poder ser objeto de un expediente por la Comisión Europea. Esto no es un supuesto alejado de la realidad, porque, como todos sabemos, la propia Alcoa en Italia, como consecuencia de una denuncia, tuvo que cerrar una de sus plantas allí. Ante esta situación el Gobierno toma nota y -repito- a instancia de las empresas se busca un sistema que pueda satisfacerlas y respetar la normativa europea de competencia. Todos somos muy conscientes de lo que supone que la Unión Europea declare cualquier medida ayuda de Estado. Usted es gallega y yo también, las dos tenemos muy presentes el sector naval. Pues bien, se ha adoptado un mecanismo de subastas sucesivo, más competitivo y eficiente que el sistema anterior, en el que la cantidad fijada por interrumpibilidad se determinaba conforme a una fórmula establecida administrativamente. A partir de un precio de salida el importe va bajando en cada ronda de las sucesivas subastas. La prestación de servicio se asigna al último competidor que queda en la puja sin retirarse y, por tanto, está dispuesto a prestar ese servicio a un precio más bajo. Se han celebrado ya varias subastas<note>en noviembre, diciembre</note> , y eso se ha traducido en un ahorro para los consumidores de 35 millones de euros. En consecuencia, no vamos a poner en peligro a muchas empresas españolas ante una hipotética declaración de ayuda de Estado. Además, este grupo parlamentario no está de acuerdo en que el sistema sea perjudicial para estas empresas, pero menos aún en poner a los trabajadores como justificación. En este plenario -todos lo han dicho- todos estamos de acuerdo en defender todos puestos de trabajo, pero con la misma firmeza le digo que si alguna vez esos puestos de trabajo estuvieron en peligro no fue por la decisión del Gobierno sino por las decisiones que ha tomado la empresa. En el debate del pasado diciembre ya quedó claro cuál fue la estrategia de la empresa. Si usted estuvo con alguno de los trabajadores de estos centros sabrá, igual que yo, que ellos también son conscientes de la estrategia que tiene su empresa.</seg>
                <seg>Dicho esto, en su punto 4 pide de nuevo un mercado diferenciado para Galicia. Una vez más sabe cuál es nuestro posicionamiento en este tema. No vamos a votar a favor de mercados diferenciados. Para nosotros el principio de solidaridad y la unidad de mercado están fuera del debate. De ahí que no vayamos a acompañarle en este punto. Desde el Gobierno se está trabajando para conseguir un mercado europeo de la energía común para tener una energía más barata y, en consecuencia, más competitiva. De ahí la apuesta española por conseguir más interconexiones con Francia para que el consumidor industrial y el consumidor doméstico español puedan suministrarse de energía allí donde sea más barato en cada momento. En relación con el último punto, el apoyo a las energías renovables, tampoco les vamos a acompañar. Como ya les he comentado en algún momento de mi intervención, este Gobierno ha tomado decisiones importantes para solucionar un problema heredado.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u166" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u166" ana="#chair">
                <seg>Señora Moraleja, debe ir acabando.</seg>
                <pb n="45"/>
             </u>
@@ -1119,7 +1117,7 @@
                <seg>Muchas gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u168" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u168" ana="#chair">
                <seg>Muchas gracias, señora Moraleja.</seg>
                <seg>Señora Pérez Fernández, ¿qué hace usted con las enmiendas?</seg>
             </u>
@@ -1128,12 +1126,12 @@
                ana="#regular">
                <seg>Señor presidente, varios grupos nos han solicitado la posibilidad de votar la moción por puntos. Precisamente, para poder facilitarlo tengo que rechazar de entrada todas las enmiendas presentadas; insisto, lo rechazo para facilitar que se pueda votar punto por punto.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u170" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u170" ana="#chair">
                <seg>Muchas gracias, señora Pérez Fernández. Así se hará mañana.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO DE IU, ICV-EUIA, CHA: LA IZQUIERDA PLURAL, SOBRE LA SITUACIÓN DE LA POLÍTICA ENERGÉTICA DEL ESTADO.</seg>
                <note>Número de expediente 173/000192</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u171" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u171" ana="#chair">
                <seg>Moción consecuencia de interpelación del Grupo de La Izquierda Plural, sobre la situación de la política energética del Estado. Para defender la iniciativa tiene la palabra el señor Sanz.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u172"
@@ -1149,7 +1147,7 @@
                <note>Aplausos</note>
                <pb n="47"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u173" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u173" ana="#chair">
                <seg>Muchas gracias, señor Sanz.</seg>
                <seg>En efecto, se ha presentado una enmienda a esta moción, formulada por el Grupo Socialista. Para su defensa, tiene la palabra el señor Segura.</seg>
             </u>
@@ -1161,7 +1159,7 @@
                <seg>Son muchas las consideraciones que me gustaría hacer al respecto, pero obviamente me voy a centrar en esta última parte de mi intervención en la defensa del contenido de nuestras enmiendas. Nuestras veintitrés enmiendas constituyen un conjunto de descripciones sintéticas de la política energética del Grupo Parlamentario Socialista. En ese sentido defendemos, primero, impulsar un pacto de Estado de la energía a partir del diálogo entre las fuerzas políticas y los representantes de la sociedad civil, con el objeto de dotar a la política energética de una estabilidad mayor de la que ha tenido en los últimos años, consistente y coherente con los contenidos de la hoja de ruta de la Unión Europea para una economía baja en carbono en el horizonte 2050. En segundo lugar, planteamos realizar en los próximos seis meses una auditoría regulatoria de costes del sistema eléctrico. Planteamos avanzar hacia una transición energética basada en la sostenibilidad económica, medioambiental y social que nos conduzca hacia un modelo de crecimiento bajo en carbono, apueste claramente por las energías renovables, reduzca la dependencia energética, y favorezca el ahorro y la eficiencia energética. Planteamos también una nueva planificación de infraestructuras de electricidad y de gas natural, un nuevo plan de energías renovables, una nueva estrategia española de ahorro y eficiencia energética que sea coherente con los objetivos de la política energética que ha configurado la Unión Europea, y con la prospectiva realizada. Planteamos mejorar la transparencia y diseñar un sistema de información energética con el objeto de facilitar todos los detalles del funcionamiento técnico y económico del sector eléctrico, con total transparencia y disponibilidad para los interesados. Proponemos también aprobar un nuevo marco normativo para el sector energético que restituya cuanto antes la seguridad jurídica en el sector de las energías renovables, y facilite la generación distribuida, el autoconsumo energético, el uso de la cogeneración para sectores variados<pb n="48"/> como el de purines y tantos otros de importancia medioambiental. Planteamos mejorar el mercado eléctrico español dándole una mayor robustez ante intentos de afectar su funcionamiento, haciéndolo más eficiente en la fijación de precios y facilitando la entrada de nuevos actores, con el objeto de garantizar la competencia y dificultar las malas prácticas actuales, con una especial atención a la reforma de los mercados de ajustes y servicios complementarios.</seg>
                <seg>Consideramos asimismo esencial revisar en profundidad las tarifas de los pequeños consumidores que sean establecidas por los precios del nuevo mercado, lo que se ha venido denominando la temática vinculada a la pobreza energética. Creemos en la necesidad de dotar a la política energética de la transversalidad que requiere, al tener muchos puntos de contacto con otras áreas de gobierno como son la económica, la ambiental, la fiscal, la urbanística, la internacional, la industrial, la de empleo, la de formación, así como con los necesarios y pertinentes acuerdos con las distintas administraciones, fundamentalmente las comunidades autónomas. Creemos en la necesidad de trasladar a los Presupuestos Generales del Estado el coste de las políticas sociales y territoriales que ahora se cargan sobre la factura eléctrica -imagínense la sensibilidad que tiene este diputado canario- esencialmente&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u175" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u175" ana="#chair">
                <seg>Señor Segura, tiene usted que ir acabando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u176"
@@ -1171,7 +1169,7 @@
                <seg>Especialmente los derivados de apoyo a la insularidad, de apoyo a la generación renovable en zonas aisladas como son Ceuta, Melilla y fundamentalmente el archipiélago canario. Y así, señorías, sucesivamente un conjunto de veintitrés puntos que están recogidos en el Boletín del Congreso de los Diputados, y que intuyo lógicamente que el grupo parlamentario proponente habrá considerado. Sí queremos decir -y con esto termino esta intervención-, señorías, que no son puntos que hayamos elaborado de manera arbitraria para salir del paso, no, sino que sintetizan la posición política que el Grupo Parlamentario Socialista ha mantenido a lo largo de esta legislatura, y que está recogida en las enmiendas a la totalidad a los proyectos de ley presentados por el Gobierno, y también en los debates de convalidación de tantos reales decretos-leyes a los que he hecho referencia al comienzo de mi intervención.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u177" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u177" ana="#chair">
                <seg>Muchas gracias, señor Segura.</seg>
                <seg>Comenzamos el turno de fijación de posiciones y por el Grupo Mixto tiene la palabra, en primer lugar, el señor Quevedo.</seg>
             </u>
@@ -1181,7 +1179,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>En dos minutos, que es el tiempo que tengo, quisiera decir, en primer lugar, que los nacionalistas canarios compartimos en buena medida las denuncias y propuestas formuladas en la moción que hoy se discute. Sin ánimo de ser exhaustivas, desde luego, creemos que actúan en lo esencial, donde creemos que hay que actuar, en un sector, el energético, que ha sido víctima, como otros muchos sectores esenciales a lo largo de esta nefasta legislatura, de una auténtica contrarreforma, un retroceso sin precedentes en materia energética para el conjunto del Estado. Represento a una comunidad que entiende como ninguna la necesidad de desarrollar políticas sustentadas en las energías renovables&#x85;<note>Pausa</note> Perdón, señor presidente, pero tengo dificultades para continuar.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u179" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u179" ana="#chair">
                <seg>En ese caso vamos a alterar un poco el orden dentro del Grupo Mixto. Tiene la palabra la señora Jordà.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u180"
@@ -1191,7 +1189,7 @@
                <seg>Otro aspecto. Que los precios de la energía bajen y que la cantidad producida sea la más próxima a la que demandan los consumidores es otro objetivo de una buena política energética. ¿Qué se está haciendo? Todo lo contrario; tanto el Partido Popular como el Partido Socialista han protegido el oligopolio que domina al mercado, intentando de todas las formas posibles, incluso rozando la ilegalidad -como ha puesto de manifiesto en más de una ocasión la Unión Europea-, evitar la regulación del autoconsumo. En definitiva -y acabo-, ¿cuál es su política energética, señorías del Partido Popular? Es aquella que trata de proteger los derechos históricos de las eléctricas que llevan operando en España varias décadas, financiando campañas electorales a partidos políticos, y siendo lugar de jubilación de exministros; nada que ver evidentemente con los intereses de la ciudadanía.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u181" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u181" ana="#chair">
                <seg>Muchas gracias, señora Jordà.</seg>
                <seg>Damos la palabra al señor Quevedo.</seg>
             </u>
@@ -1202,7 +1200,7 @@
                <seg>Decía anteriormente que los nacionalistas canarios representamos un territorio donde precisamente el debate sobre qué energías es necesario que impulsemos es algo absolutamente determinante. Teóricamente somos un paraíso para las energías alternativas, y hemos tenido que denunciar reiteradamente que, lejos de actuar en esta línea, lo que se ha hecho ha sido lo contrario, estimular las energías fósiles, las llamadas energías sucias, y perjudicar notablemente la evolución hacia la soberanía energética de Canarias. La soberanía energética no puede ser total, pero disminuir la dependencia de energías fósiles por supuesto que es posible, y no es lo que se está haciendo. Lejos de esto, hemos tenido que denunciar, al igual que se hace en esta moción -y es un elemento que nos ayuda, que nos impulsa, a apoyarla con más contundencia si cabe-, el Real Decreto 1/2012, que no solo no ayudó, sino que en Canarias suspendió la bonificación a las energías renovables, en una agresión sin precedentes al sector que precisamente debería ser impulsado. Tienen por lo tanto nuestro apoyo, y confiamos en que la repetición de este debate alumbre en algún momento una solución, que no puede ser otra que acabar con la contrarreforma en materia energética que venimos sufriendo en el Estado.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u183" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u183" ana="#chair">
                <seg>Muchas gracias, señor Quevedo.</seg>
                <seg>Dentro del Grupo Mixto, tiene la palabra ahora la señora Ariztegui.</seg>
             </u>
@@ -1215,7 +1213,7 @@
                <seg>La primera: desenchúfense de Garoña. Este mismo sábado se ha realizado un simulacro de emergencia para visibilizar las trágicas consecuencias que su reapertura podría tener en la ciudadanía, entre otras la de Vitoria. Una bomba de relojería a punto de ser activada que tiene responsables concretos: ustedes, señorías del PP, y Endesa e Iberdrola. Lo han pedido todas las instituciones, la sociedad constantemente:<pb n="50"/> por favor, no despierten al monstruo. La segunda: no al fracking, abandonen ya sus permisos de investigación para perforaciones por fractura hidráulica. Se lo decimos a ustedes y naturalmente al Gobierno vasco. La sociedad vasca viene manifestando de muchas maneras su rechazo a esta técnica destructiva y altamente contaminante, contraria a nuestra marcha hacia un modelo basado en energías renovables y contra el cambio climático. Escuchen a la ciudadanía de una vez. Y tres: no a los proyectos de autopistas eléctricas. No están justificadas, no responden a nuestras necesidades energéticas, sino a los intereses de las grandes multinacionales: exportar la energía a Francia. Respondan, pues, a los miles de recursos y a lo manifestado en las consultas ciudadanas que se han realizado en todos los municipios afectados. Defiendan de una vez el interés público, aparquen definitivamente sus megaproyectos. Y voy acabando. De verdad no nos dé más razones, ya tenemos muy claro que solo desde nuestra soberanía podremos desarrollar una política energética que tenga en cuenta las necesidades de todas las personas y de la madre naturaleza. Y pese a quien pese, seguimos avanzando en alternativas para rebajar nuestra dependencia, y desde luego subir peldaños hacia la soberanía energética.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u185" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u185" ana="#chair">
                <seg>Muchas gracias, señora Ariztegui.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia, tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -1225,7 +1223,7 @@
                <seg>Intervengo brevemente, señor presidente, para decirle al grupo proponente que en su moción -seguro que no les sorprende- hay cosas con las que estamos de acuerdo y que compartimos -y hemos coincidido en muchas votaciones en muchas iniciativas en esta Cámara-, y otras con las que no. Justamente hay un problema de fondo y forma, yo creo que esto es un resumen del programa energético de La Izquierda Plural, lo cual evidentemente es muy legítimo; pero, claro, si al final se presenta como una votación completa es casi como un contrato de adhesión que lógicamente no podemos compartir. Pese a que es tan detallado hay por ejemplo algunos puntos en los que la confusión los hace difíciles de comprender. Por ejemplo, en el punto 7º, donde hablan de regular un precio social contra la pobreza energética -cosa que como saben compartimos-, y al final añaden una frase misteriosa que dice que el coste de estas medidas repercute sobre los beneficios de las empresas suministradoras. No sé si quiere decir que son los beneficios los que tienen que financiar unos bonos sociales o qué es exactamente. En fin, eso por lo tanto nos crea un problema. Lo que yo les propongo -espero que nos lo digan tranquilamente cuando llegue el turno de hablar de las enmiendas- es que acepten el voto por separado de los puntos, porque votaremos muchos, otros en contra como pueden suponer, y en otros nos abstendremos.</seg>
                <seg>Esta es la posición de mi grupo. Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u187" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u187" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , tiene la palabra el señor Picó.</seg>
             </u>
@@ -1239,7 +1237,7 @@
                <seg>Para terminar, señorías, y creo que resumiendo todas las explicaciones que han dado los portavoces anteriormente, en esta materia el medio y el largo plazo es el plano temporal en el que debemos pensar, y es la forma de saber hacia dónde vamos y cómo queremos llegar. Ya no es el momento de primar la visión cortoplacista frente a la de futuro, porque el impacto de actuar a corto plazo ya se ha demostrado que es un auténtico fracaso.</seg>
                <seg>Muchas gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u189" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u189" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Por el Grupo Popular tiene la palabra el señor Gallego.</seg>
             </u>
@@ -1257,7 +1255,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u191" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u191" ana="#chair">
                <seg>Muchas gracias, señor Gallego.</seg>
                <seg>Señor Sanz, ¿cómo vamos a enfocar la votación?</seg>
             </u>
@@ -1266,13 +1264,13 @@
                ana="#regular">
                <seg>La votaremos por separado.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u193" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u193" ana="#chair">
                <seg>O sea, que no acepta usted la enmienda y votaremos por separado.</seg>
                <seg>Muchas gracias.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LOS PERMISOS DE INVESTIGACIÓN Y EXPLORACIÓN DE HIDROCARBUROS EN CANARIAS Y EL MEDITERRÁNEO.</seg>
                <note>Número de expediente 173/000193</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u194" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u194" ana="#chair">
                <seg>Moción del Grupo Socialista sobre los permisos de investigación y exploración de hidrocarburos en Canarias y el Mediterráneo.</seg>
                <seg>Para su defensa tiene la palabra doña Patricia Hernández.</seg>
                <pb n="53"/>
@@ -1288,7 +1286,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u196" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u196" ana="#chair">
                <seg>Muchas gracias, señora Hernández.</seg>
                <seg>En efecto, como ha dicho la señora Hernández, hay varias enmiendas formuladas por el Grupo de La Izquierda Plural y para su defensa tiene la palabra la señora Ortiz.</seg>
             </u>
@@ -1303,7 +1301,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u198" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u198" ana="#chair">
                <seg>Muchas gracias, señora Ortiz.</seg>
                <seg>Turno de fijación de posiciones. Comenzamos por el Grupo Parlamentario Mixto. En primer lugar, tiene la palabra el señor Baldoví.</seg>
             </u>
@@ -1315,7 +1313,7 @@
                <seg>Señorías del PSOE, señorías del PP, si estamos de acuerdo, no hay problema, suspendamos los permisos y autorizaciones de exploración de hidrocarburos en el Mediterráneo y en Canarias. Votemos todos a favor y se acabó. Pero, como el PP dirá Diego donde dijo antes digo, unas preguntas fáciles de contestar. Hay un informe desfavorable del ministerio. ¿Ha comenzado la exploración de la empresa? ¿Va a comenzar en breve? ¿Van a suspender de una vez por todas las prospecciones en el Mediterráneo? Sean claros.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u200" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u200" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Señor Quevedo.</seg>
             </u>
@@ -1326,7 +1324,7 @@
                <seg>Esta vez prometo no utilizar la técnica de la tos para tener un minuto más. Los nacionalistas canarios apoyaremos esta moción defendida por la portavoz del Grupo Socialista porque hace referencia a un asunto, que es el de las prospecciones petrolíferas, sobre el que los nacionalistas canarios hemos consumido una gran cantidad de energía y en el que nos hemos encontrado de frente con una defensa numantina de los intereses de Repsol por parte del Gobierno de España y muy especialmente del ministro de Industria, Energía y Turismo, señor Soria, hasta el punto de ofender la inteligencia. Lo que no es razonable es desestimar e ignorar la enorme cantidad de protestas que desde los más amplios sectores en Canarias se generaron contra esta prospección. Aun así, esto se hizo y tan se hizo que, al final, tuvimos que soportar la vergüenza de que la Armada Española defendiese a un buque de bandera liberiana y acabase pasando por encima de una embarcación de Greenpeace, que nos pareció un buen ejemplo de hasta dónde se estaba dispuesto a llegar para defender algo que no queremos. Y si no, lo consultamos, que fue otra propuesta que hicimos los nacionalistas y que también se nos rechazó. Ahora, fíjense en lo más dramático, es Repsol la<pb n="56"/> que decide abandonar las prospecciones y con pataleta, como ya se ha dicho aquí muy bien, se le dice que siga prospectando porque se lo decimos nosotros. Qué oportunidad para -ya que quiere salir disparada la compañía petrolera que ha instado a todo esto y al enemigo que huye puente de plata- suspender los permisos en Canarias y en el Mediterráneo, porque si no es así todos tendremos la sospecha de que nos vamos a volver a llevar un disgusto más pronto o más tarde en esta materia. Qué oportunidad para corregir, para mejorar y para evolucionar en el sentido favorable al interés general.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u202" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u202" ana="#chair">
                <seg>Muchas gracias, señor Quevedo.</seg>
                <seg>Señora Jordà.</seg>
             </u>
@@ -1339,7 +1337,7 @@
                <seg>Acabo. El Gobierno y las empresas deben saber que en unos meses una nueva mayoría en este Parlamento va a derogar cualquier permiso a esta práctica nociva, a esta fiebre gasística que solo esconde intereses especulativos. Sepan también que en Cataluña, en la nueva república catalana, tampoco se va a practicar esta atrocidad porque ya a día de hoy el Parlament català ha derogado cualquier permiso de fracking y el nuevo país que vamos a construir apostará evidentemente, decididamente también, por las alternativas limpias de producción eléctrica que no supongan ningún riesgo para la salud.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u204" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u204" ana="#chair">
                <seg>Gracias, señora Jordà.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -1349,7 +1347,7 @@
                <seg>Señor presidente, intervendré brevemente para decir que no podemos apoyar esta moción por argumentos que he repetido hasta la saciedad, hasta yo me aburro. Hay muchas iniciativas que se han presentado en Pleno y en Comisión, no digo en contra ya de determinada política energética o determinada iniciativa de explotación de hidrocarburos, sino de algo que solo se puede calificar de pensamiento mágico, que es prohibir los hidrocarburos; es decir, prescindimos de ellos, no queremos usarlos, no nos da la gana. Es decir, una especie de política que sería interesantísima en el País de Nunca Jamás de Peter Pan, pero que en el mundo real francamente no tiene futuro. Todos los estudios que he leído sobre de dónde procede la energía que usamos estiman entre el 70 % como mínimo y el 88 % como máximo, que es una enorme cantidad, el porcentaje de energía primaria que procede de los hidrocarburos. Yo lo que le pregunto a la proponente: ¿está en condiciones de prometer a Canarias que si mañana mismo Canarias no tiene una gota de petróleo todo va a funcionar como ayer o como hoy? Evidentemente no puede y entonces, ¿qué es lo que se hace? Ella misma lo ha resumido muy bien y ha dicho una frase en este sentido muy sincera: No queremos riesgos. No querer riesgos en la vida está muy bien, es una aspiración, pero no tiene nada que ver con la realidad. Hay riesgos y hay que asumir riesgos y además hay que asumir riesgos controlados, porque si no lo que se está haciendo es derivar los riesgos<pb n="57"/> a terceros países, por ejemplo, a vecinos de Canarias africanos como Nigeria, grandes productores de petróleo con pésimos controles de calidad medioambiental y de seguridad en las explotaciones, que se ha cargado medio delta del río Níger debido a la falta de controles ambientales. No sé, supongo que ya le han informado de esto. Las islas Canarias son unas islas fascinantes, magníficas, yo voy siempre encantado, pero no son un planeta aparte, están en un planeta que se llama Tierra. Si usted no quiere explotar hidrocarburos en aguas territoriales cercanas a Canarias en condiciones de seguridad, como lo hacen Canadá, Noruega, Escocia, muchísimos países en todo el mundo, lo que está haciendo es derivar los riesgos hacia países del tercer mundo. Eso es lo que está haciendo. Porque usted va a consumir el mismo petróleo que ahora y al precio que le pidan, eso sí, que por cierto ha bajado de una manera espectacular gracias también a otro demonio que siempre recorre esta Cámara, a veces dan ganas de llamar al exorcista, al fracking, el mal de los males, que ha conseguido una caída drástica del precio del petróleo y también que se hayan paliado en parte los efectos de la crisis económica.</seg>
                <seg>Nosotros siempre estaremos en la misma posición. Cuando haya peticiones de exploraciones de hidrocarburos, muchas de las cuales están vigentes por cierto porque son autorizaciones que dieron los Gobiernos socialistas, no el actual Gobierno sino los Gobiernos socialistas, en su momento con el apoyo entusiasta de Coalición Canaria, en aguas canarias, nosotros estaremos siempre a favor de que se exijan las máximas garantías medioambientales de sostenibilidad y rentabilidad para esas exploraciones. Pero para negarnos o para apoyar la prohibición de la investigación, no cuenten con nosotros, para eso en la Edad Media tendrían socios mucho mejores, desde luego nosotros no.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u206" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u206" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió, el señor Picó.</seg>
             </u>
@@ -1362,7 +1360,7 @@
                <seg>Una tercera y última perspectiva es la del impacto de la autorización de esos proyectos de prospección e investigación. Incrementar la evaluación de impacto ambiental, exigir más estudios, estudios relativos al impacto que podrían tener estas autorizaciones, creo que es una medida que podemos todos compartir, y es necesario establecer de una manera más precisa los costes y los supuestos beneficios que de ello podrían resultar para que se tome una decisión óptima que responda al interés general de manera satisfactoria.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u208" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u208" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Mariscal.</seg>
                <pb n="58"/>
@@ -1378,7 +1376,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u210" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u210" ana="#chair">
                <seg>Muchas gracias, señor Mariscal.</seg>
                <seg>Señora Hernández, ¿admite la enmienda?</seg>
             </u>
@@ -1388,7 +1386,7 @@
                <seg>Mi enmienda, la del Grupo Socialista, evidentemente sí, y las 4 y 5, de Izquierda Unida. Con las otras, me gustaría elaborar una transaccional con los grupos parlamentarios que han mostrado su disposición a participar.</seg>
                <seg>Señor presidente, le pido que me deje aclarar una falsedad que han repetido tres portavoces, un error.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u212" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u212" ana="#chair">
                <seg>Tiene usted dos minutos, pero para referirse a lo que usted denomina falsedad no para reabrir el debate.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u213"
@@ -1396,7 +1394,7 @@
                ana="#regular">
                <seg>Se han equivocado. Les miro con ternura porque decir que yo estoy equivocada o no me he estudiado el tema cuando&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u214" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u214" ana="#chair">
                <seg>Céntrese en el punto concreto.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u215"
@@ -1407,7 +1405,7 @@
                <seg>Muchas gracias.</seg>
                <note>La señora Grande Pesquero: ¡Muy bien! Clarito, clarito.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u216" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u216" ana="#chair">
                <seg>Muchas gracias, si alguien de los aludidos pide la palabra, se la daré, claro.</seg>
                <seg>Señor Baldoví.</seg>
             </u>
@@ -1416,7 +1414,7 @@
                ana="#regular">
                <seg>¿Diría lo mismo de las prospecciones de Valencia? Yo me he referido a las de Valencia.<note>La señora Grande Pesquero: Y a las de Canarias</note> Si las de Canarias, no, ¿las de Valencia las autorizó un Gobierno socialista, sí o no? ¿Sí o no?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u218" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u218" ana="#chair">
                <seg>Basta, señor Baldoví, ya lo ha dejado claro.</seg>
                <seg>Señor Mariscal.</seg>
             </u>
@@ -1426,7 +1424,7 @@
                <seg>Señora Hernández, escúcheme, le voy a hacer una afirmación.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u220" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u220" ana="#chair">
                <seg>Señor Mariscal, estamos con un punto único.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u221"
@@ -1436,11 +1434,11 @@
                <note>La señora Grande Pesquero: ¡Ya está, quien no deroga, autoriza!-Risas y aplausos</note>
                <pb n="60"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u222" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u222" ana="#chair">
                <seg>Creo que han quedado suficientemente claros los puntos de vista de todos.<note>La señora Grande Pesquero: Sí, ha quedado muy claro</note> - DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, SOBRE LAS MEDIDAS QUE PIENSA LLEVAR A CABO EL GOBIERNO PARA SUPRIMIR EL AFORAMIENTO DE LOS DIPUTADOS, SENADORES Y GOBIERNO.</seg>
                <note>Número de expediente 173/000194</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u223" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-11-CD150211.u223" ana="#chair">
                <seg>Moción del Grupo Parlamentario de Unión Progreso y Democracia, sobre las medidas que piensa llevar a cabo el Gobierno para suprimir el aforamiento de los diputados, senadores y Gobierno.</seg>
                <seg>Para defender esta moción, tiene la palabra la señora Díez.</seg>
                <note>La señora vicepresidenta, Villalobos Talero, ocupa la Presidencia</note>

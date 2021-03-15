@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="71">71 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="71" xml:lang="es">71 speeches</measure>
+            <measure unit="speeches" quantity="71" xml:lang="en">71 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="59"/>
                <tagUsage gi="note" occurs="228"/>
                <tagUsage gi="u" occurs="71"/>
-               <tagUsage gi="lb" occurs="304"/>
+               <tagUsage gi="seg" occurs="304"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>MINUTO DE SILENCIO</head>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
                <seg>Señorías, quiero comunicarles una muy mala noticia. Hace tan solo unas horas ha fallecido don José María Benegas. José María Benegas era el diputado más antiguo de este Parlamento. Lo fue en esta Cámara en el año 1977 y lo era ahora mismo y en los años que han transcurrido. Tuvo una larga y fructífera trayectoria política. Comenzó su carrera como secretario general del Partido Socialista Obrero Español de Euskadi en 1977, fue consejero de Interior del Consejo General Vasco, secretario de Organización del PSOE, presidente del PSOE de Euskadi y secretario de Relaciones Políticas del PSOE. Fue un gran político, comprometido y responsable. La muerte de José María Benegas, Txiki Benegas, es muy triste para todos, pero en especial -y aquí hay muchos- para los que tuvimos el honor de colaborar con él durante una larga trayectoria política. Por ello les ruego que le dediquemos un minuto de silencio.</seg>
                <note>La Cámara, puesta en pie, guarda un minuto de silencio.-Prolongados aplausos de las señoras y los señores diputados, puestos en pie</note>
@@ -107,7 +105,7 @@
          </div>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY DE PRESUPUESTOS GENERALES DEL ESTADO PARA EL AÑO 2016.</head>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u2" ana="#chair">
                <seg>Debate de totalidad del proyecto de ley de Presupuestos Generales del Estado para el año 2016. En primer lugar y para la presentación del proyecto de ley, tiene la palabra en nombre del Gobierno el ministro de Hacienda y Administraciones Públicas.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u3"
@@ -147,13 +145,13 @@
                <seg>Gracias, señor presidente, y gracias, señor presidente del Gobierno.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u4" ana="#chair">
                <seg>Gracias, señor ministro de Hacienda.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Era la una y quince minutos de la tarde.</seg>
                <seg>Se reanuda la sesión a las cuatro de la tarde.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u5" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Pasamos al debate de las enmiendas de totalidad presentadas al proyecto de ley de Presupuestos Generales del Estado para el año 2016. Se han presentado doce enmiendas a la totalidad de devolución a este proyecto de ley. En primer lugar, para la defensa de su enmienda a la totalidad, por el Grupo Socialista, tiene la palabra don Pedro Sánchez.</seg>
             </u>
@@ -167,7 +165,7 @@
                <seg>Señorías, lo que hace el Fondo Monetario Internacional en su reciente informe sobre España es poner en duda las previsiones de crecimiento de su Gobierno. Señala que sin un cambio de rumbo, que solo vendrá de la mano de un cambio de Gobierno y un cambio de prioridades en la política económica, nuestra economía empezará a rebajar sus tasas de crecimiento durante los próximos años y la tasa de desempleo continuará siendo insoportablemente alta durante muchísimo tiempo. El Gobierno, es evidente, señorías -lo hemos compartido en esta Cámara en algunas otras intervenciones-, gestiona una coyuntura exterior favorable, sin importarle para nada ni la renovación del modelo productivo, ni la creación de más y mejores empleos, ni la creación de más y mejores empresas, ni la mejora de la productividad, ni conseguir que la recuperación sea sostenible y vigorosa por sí misma, sin dependencias externas. En todo caso, viendo los nubarrones que asoman por Asia y el impacto que ha tenido la crisis griega sobre nuestro sistema financiero, resulta ridículo, señor Rajoy, escucharle proclamar que España está blindada tras las crisis como consecuencia de sus reformas. Su apego por políticas equivocadas del pasado, su falta de ideas novedosas para el futuro, su ataque a los derechos laborales y sociales son la principal amenaza para nuestra economía.</seg>
                <seg>Señorías, como se ha hecho un ejercicio de memoria sobre estos últimos cuatro años por parte del interviniente esta mañana, me gustaría hacer lo propio. Hagamos algo de memoria, señorías. En junio de 2012, a los seis meses de entrar el señor Rajoy en La Moncloa, con la prima de riesgo situada en el triple de lo que ustedes la recibieron cuando entraron en el Gobierno<note>Rumores</note> , España...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u7" ana="#chair">
                <seg>Ruego silencio, por favor.</seg>
                <seg>Continué, señor Sánchez.</seg>
             </u>
@@ -189,7 +187,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Prolongados aplausos de las señoras y los señores diputados del Grupo Parlamentario Socialista, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u9" ana="#chair">
                <seg>Muchas gracias, señor Sánchez.</seg>
                <seg>Tiene la palabra el señor ministro de Hacienda y Administraciones públicas.</seg>
                <note>Protestas.-Varios señores diputados: ¡No!-Aplausos</note>
@@ -200,7 +198,7 @@
                <seg>Señor presidente, señorías, segundo debate de presupuestos; segundo debate de presupuestos del señor Sánchez en diez meses. La verdad es que no me ha sorprendido. Tenía mis dudas en el primero de que llegara al segundo, eso se lo digo con franqueza y con la misma nobleza y lealtad; tenía mis dudas, pero ahí está, liderando al Partido Socialista.<note>Rumores</note> ¿Y por qué esta liderando al Partido Socialista en este segundo debate de presupuestos? Pues está porque...<note>Rumores.-Risas</note> Se lo voy a explicar, señorías. A continuación, el señor Sánchez también desplegará su capacidad de explicación, que tan generosamente ha utilizado esta tarde, por cierto. Está ahí por una razón, porque, tras perder las elecciones del 24 de mayo<note>Varios señores diputados: ¡Uh!</note> , usted lo que ha hecho ha sido revestirse de apoyo, de pactos con la izquierda radical<note>Varios señores diputados: ¡Ah!-Risas</note> , con Podemos,...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u11" ana="#chair">
                <seg>Ruego silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u12"
@@ -210,7 +208,7 @@
                <seg>Me ha parecido interesante el final de su planteamiento, señor Sánchez. Ha dicho: si yo gano las elecciones, cambiaré ese proyecto de presupuestos para el año 2016. ¿Se lo va a permitir o le van a inducir a cambiarlo sus socios potenciales? Esos mismos socios potenciales a los que usted ha dado el poder municipal, que hasta ahora están ejerciendo a la espera de unas elecciones generales pero que todos sabemos lo que realmente están pensando. O será a esos socios que en Cataluña, sin rubor, marcan el independentismo como bandera y a los que está apoyando su partido en Cataluña para que ocupen esas alcaldías.<note>Rumores.-Aplausos</note> O a lo mejor hablamos de otros socios en el Gobierno de Navarra, que en la votación de investidura contaron con la abstención de su partido en Navarra para que formaran Gobierno. Ese es el señor Gonzá... Sánchez...<note>Varios señores diputados: ¡Ole!-Aplausos</note> Ese es el señor Sánchez -perdón, se me acumulan los apellidos- y su representación política en el Partido Socialista y eso es lo que está haciendo con el Partido Socialista. No me cabe ninguna duda -lo voy a decir así esta tarde-<note>Continúan los rumores</note> ...</seg>
                <pb n="19"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u13" ana="#chair">
                <seg>Ruego silencio para que se escuche al ministro como se ha oído al señor Sánchez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u14"
@@ -222,7 +220,7 @@
                   <pb n="20"/> Señor Sánchez, el Pacto de Toledo lo liquidó el Gobierno del señor Zapatero.<note>Rumores y protestas.- Aplausos</note> Me quiere usted decir...<note>Rumores</note> Que yo sepa o que yo recuerde, era usted diputado, ¿no?<note>Rumores</note> No. ¿Sabe qué pasa con usted? Aparte de que es más joven, más alto<note>Rumores</note> y tiene mejor voz<note>Rumores</note> , ¿sabe qué pasa con usted? Con usted pasa una cosa: que va de nuevo.<note>La señora López i Chamosa pronuncia palabras que no se perciben</note> Va de nuevo por la vida.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u15" ana="#chair">
                <seg>Señora López i Chamosa, la llamo al orden.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u16"
@@ -232,7 +230,7 @@
                <seg>¿A usted le parece excesivo que el conjunto de las administraciones públicas alcancemos el año próximo un déficit del 2,8 % y de esa manera salgamos del procedimiento de corrección establecido -de corrección del déficit excesivo- por la Unión Europea? ¿A usted le parece que eso está bien? ¿Le parece bien que el año próximo las administraciones públicas registremos el primer superávit nominal que haga que la deuda pública sobre el producto interior bruto empiece a bajar? ¿Le parece bien o no le parece bien? Porque usted ha subido aquí y ha dicho: los nuevos gobernantes autonómicos -esos que usted ha propiciado con esos pactos políticos que para usted serán naturales, desde luego que sí, no lo dudo; lo serán para usted, pero no me negará que crean mucho recelo esos pactos políticos que usted mismo ha auspiciado- han recibido una herencia muchísimo mejor de la que algunos de ellos dejaron.<note>Rumores y protestas</note> ¿Cuál era el déficit público de Castilla-La Mancha en 2011? ¿Hace falta que se lo recuerde?<note>Una señora diputada: Cuéntalo</note> ¿O acaso hace falta que le recuerde cuál era el déficit público de Extremadura?<note>Una señora diputada: Eso, ¡recuérdalo!-Rumores</note> ¿O de Baleares?</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u17" ana="#chair">
                <seg>¡Silencio! Señora Rodríguez, le ruego silencio.</seg>
                <pb n="21"/>
             </u>
@@ -251,7 +249,7 @@
                <seg>Muchas gracias.</seg>
                <note>Prolongados aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u19" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Sánchez.</seg>
             </u>
@@ -266,7 +264,7 @@
                <note>Protestas y rumores.-Prolongados aplausos</note>
                <pb n="25"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u21" ana="#chair">
                <seg>Muchas gracias, señor Sánchez.</seg>
                <seg>Señor ministro de Hacienda.</seg>
             </u>
@@ -286,7 +284,7 @@
                <seg>Gracias, señorías. Gracias, señor presidente.</seg>
                <note>Prolongados aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u23" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Enmienda a la totalidad de devolución que ha presentado el Grupo Catalán de Convergència i d'Unió. Tiene la palabra el señor Macias.</seg>
             </u>
@@ -529,7 +527,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u53" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>En el turno de réplica, tiene la palabra, en primer lugar, el señor Garzón.</seg>
             </u>
@@ -546,7 +544,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u55" ana="#chair">
                <seg>Muchas gracias, señor Garzón.</seg>
                <seg>Señor Coscubiela.</seg>
             </u>
@@ -557,7 +555,7 @@
                <seg>Señor Ozores, perdón, señor Montoro, cuando los asesores le preparen los datos para la réplica programada, dígales, por favor, que se los expliquen bien para que no haga usted el ridículo como hoy. Su ministra de Empleo se presentó a la reforma laboral diciendo que el objetivo era la reducción de la temporalidad, y hoy la temporalidad está prácticamente en la misma tasa que cuando ustedes llegaron al poder. Segunda cuestión, han impulsado ustedes el contrato a tiempo parcial para un reparto insolidario del empleo: 4 puntos más de contrato a tiempo parcial, con el agravante de que se utiliza para la<pb n="50"/> prolongación abusiva de las jornadas, con horas extras que no se pagan, además de que el contrato a tiempo parcial es forzado y afecta fundamentalmente a las mujeres. En cuanto al contrato a tiempo indefinido, señor Montoro, de cada cien contratos que se hacen al mes, ¿sabe usted cuántos son indefinidos a tiempo parcial? No lo sabe; yo se lo voy a decir, menos de la mitad. Esa es la realidad, menos de la mitad son indefinidos a tiempo parcial, y eso que se incluyen los indefinidos para emprendedores, que son indefinidamente temporales, porque, gracias a su reforma laboral, se puede rescindir el contrato durante el primer año porque el trabajador está en periodo de prueba. Ese es su modelo de precarización del empleo. En cuanto a salarios dice: Eso lo fija la negociación colectiva. Sí, ya se encargaron ustedes en la reforma laboral de poner grilletes a los trabajadores y a los sindicatos, para que no pudieran negociar en igualdad de condiciones en la negociación colectiva, como han denunciado ellos.</seg>
                <seg>Por último, señor Montoro, no insista usted en lo de la izquierda radical. Nos sentimos orgullosos de ser izquierda radical porque radical quiere decir ir a la raíz de los problemas y de las soluciones.<note>Aplausos</note> Ir a la raíz de los problemas es entender que un país no puede tener un 38% de ingresos fiscales y pretender ser un país justo socialmente y económicamente eficiente; un 8% menos de ingresos que la media de la Unión Europea...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u57" ana="#chair">
                <seg>Señor Coscubiela, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u58"
@@ -567,7 +565,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u59" ana="#chair">
                <seg>Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u60"
@@ -580,7 +578,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u61" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Para defender la enmienda de totalidad que ha presentado el Grupo de Unión Progreso y Democracia, tiene la palabra la señora Díez.</seg>
             </u>
@@ -614,7 +612,7 @@
                <seg>Gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u63" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -638,7 +636,7 @@
                <note>Aplausos</note>
                <pb n="60"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u65" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u65" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora Díez.</seg>
             </u>
@@ -652,7 +650,7 @@
                <seg>En España la protección social, señor ministro, depende de dónde vivas, de la parte de España en la que vivas, de la comunidad autónoma en la que vivas. Lo que el MOU le obliga a Grecia, renta mínima sostenible homologada, en España no existe. No me diga usted que hablo de cualquier cosa que no tiene que ver con los presupuestos. Los presupuestos deberían ser para corregir estas desigualdades, y no lo son. ¿Sabe usted cuál es la renta mínima de las comunidades autónomas, lo que ponen las comunidades autónomas, además de lo que pone el Estado en el Plan Prepara y en la RAI? ¿Sabe usted cuál es en el momento actual la situación entre comunidades autónomas? La que más pone, la que más paga de renta mínima es el País Vasco: veinticuatro meses, 663 euros. Y la que menos la Comunidad Valenciana: treinta y seis meses, 285 euros. Para corregir estas desigualdades es para lo que tendría que funcionar el Fondo interterritorial, para lo que tienen que funcionar los presupuestos, para que haya igualdad entre españoles, al margen de la comunidad autónoma en la que vivan. De eso habla nuestra alternativa, eso es una alternativa: hablar de esas cuestiones. Eso es plantear una alternativa. ¿Cuál es la diferencia de renta entre comunidades autónomas? La media del PIB en España, ese del que usted ha hablado tanto, es de 22.780 euros de renta per capita; en Andalucía 16.000 largos, y en Madrid 31.000. Para evitar estas desigualdades es para lo que deben funcionar los Presupuestos Generales del Estado y el Estado. ¿Cuál es la diferencia de gasto por habitante total de servicios públicos esenciales -sanidad más educación más protección social- entre comunidades autónomas? Alcanza un 60 %, en Asturias 8.531 euros por habitante y en Andalucía 5.600. La diferencia de gasto por habitante en educación es del 55 %, en el País Vasco 1.224 y en Andalucía 959. Para evitar estas desigualdades es para lo que tienen que funcionar el Estado y sus presupuestos.</seg>
                <pb n="61"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u67" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u67" ana="#chair">
                <seg>Señora Díez, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u68"
@@ -662,7 +660,7 @@
                <seg>De eso se trata la alternativa, señor ministro, de corregir estas desigualdades, de corregir esta injusticia, y eso se hace con los presupuestos, con unos presupuestos que no se resignen a la miseria, que no se resignen a la desigualdad y que no se resignen a la pobreza. Sí, este grupo parlamentario no desiste, tiene una alternativa y la presenta. No nos resignamos a ser alternancia, ni nos resignamos a aplaudirles a ustedes, presuman o no presuman; sería, señor Montoro, muy antipatriótico.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u69" ana="#chair">
                <seg>Gracias, señora Díez.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -677,7 +675,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-25-CD150825.u71" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las nueve y treinta y cinco minutos de la noche.</seg>

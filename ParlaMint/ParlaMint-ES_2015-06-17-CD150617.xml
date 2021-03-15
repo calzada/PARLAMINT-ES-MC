@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="230">230 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="230" xml:lang="es">230 speeches</measure>
+            <measure unit="speeches" quantity="230" xml:lang="en">230 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="56"/>
                <tagUsage gi="note" occurs="124"/>
                <tagUsage gi="u" occurs="230"/>
-               <tagUsage gi="lb" occurs="539"/>
+               <tagUsage gi="seg" occurs="539"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,21 +92,17 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PREGUNTAS - DE LA DIPUTADA DOÑA ROSA MARÍA DÍEZ GONZÁLEZ, DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿QUÉ RECOMENDACIONES DEL FMI PIENSA ADOPTAR EL GOBIERNO?</head>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u2" ana="#chair">
                <seg>Preguntas dirigidas al Gobierno. En primer lugar, preguntas dirigidas al señor presidente del Gobierno. Pregunta de la diputada doña Rosa Díez, del Grupo Parlamentario Unión Progreso y Democracia.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u3"
@@ -113,7 +111,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>El último informe del Fondo Monetario Internacional sobre la economía española ignora el despilfarro, ignora la insultante concentración de riqueza, las crecientes diferencias en la distribución de la renta, la<pb n="6"/> destrucción de la clase media, el incremento de la pobreza y la desigualdad y además pide más impuestos, menos prestaciones por desempleo, copago en sanidad y educación, menos pensiones y mayor facilidad para despedir a la gente. Yo le pregunto, señor Rajoy, qué recomendaciones del Fondo Monetario Internacional va a tener usted en cuenta.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u4" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -127,7 +125,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u6" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señora Díez.</seg>
             </u>
@@ -136,7 +134,7 @@
                ana="#regular">
                <seg>Efectivamente, señor presidente, en relación con las declaraciones del Fondo Monetario Internacional, hay dos partes: aquella de la reflexión en la que reconoce que el crecimiento de la economía española, la recuperación, se debe fundamentalmente a factores exógenos, desde el cambio hasta nuestro entorno y sobre todo a un durísimo ajuste en empleos y en salarios. Pero no me quiero referir a esa reflexión, que compartimos -el ajuste de los salarios y de los empleos y los factores externos son fundamentales a la hora de la recuperación que se inició en el año 2014-, a lo que me quiero referir es precisamente a las recomendaciones, porque a nuestro grupo parlamentario le da miedo que usted, de las recomendaciones, elija las peores, las que son malas para los ciudadanos. Le pido que entre las recomendaciones elija algunas que son positivas, que también las hay, por ejemplo, acabar con la dualidad del mercado laboral, con lo que el Fondo Monetario Internacional denomina crecimiento inclusivo. El fondo -lo mismo que Piketty, por cierto, recientemente- defiende el contrato único indefinido, una buena forma de combatir la temporalidad ya que un sistema muy protector, como usted sabe, afecta a muy pocos trabajadores y condena particularmente a los jóvenes a esperar a una edad avanzada para beneficiarse; una fórmula -la del contrato único indefinido- que supone un equilibrio que evite los contratos basura. Hay otra recomendación importante: apoyar la competitividad y a las pymes eliminando todo privilegio fiscal, barreras legales, gasto público duplicado y el despilfarro, algo que también este grupo parlamentario le viene requiriendo, siempre con su posición en contra. Hay una tercera recomendación, que también es una recomendación positiva a la que usted podría atender: reducir el sobreendeudamiento exigiendo responsabilidad por malas prácticas pasadas; por ejemplo, en el caso de Bankia: sí, hay que rescatar, pero hay que exigir responsabilidades a aquellos que se comportaron mal, a aquellos que son responsables de la crisis y, además, una auténtica ley que defienda una segunda oportunidad. Eso solo por citarle tres de las<pb n="7"/> recomendaciones que le hace el Fondo Monetario Internacional a usted, al Gobierno de España, para la economía española y que este grupo parlamentario ha venido pidiendo aquí, en esta Cámara...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u8" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -147,12 +145,12 @@
                <seg>Efectivamente, hay algunas cosas en las que podemos coincidir con el Fondo Monetario Internacional y con usted y otras en las que no. Ya le digo que no voy a subir impuestos, al contrario, voy a bajarlos: ya se ha bajado el impuesto de la renta y el de sociedades en este año 2015, que afecta a 12 millones de contribuyentes, y la bajada media del IRPF es del 8,07; en el año 2016 volverá a haber otra nueva bajada del IRPF y del impuesto de sociedades y estudiaremos, si el nivel de recaudación lo permite, nuevas bajadas de impuestos. Estoy de acuerdo con lo que usted y el Fondo Monetario Internacional dicen sobre las pymes y la competitividad; ha sido muy importante y ha sido un principio inspirador de nuestra acción de Gobierno y por eso se está creando empleo en nuestro país a muy buen ritmo. Estoy de acuerdo con el control del gasto público, estoy de acuerdo también con controlar la deuda y, en general, con lo que estoy de acuerdo es con mantener una política reformista que ha conseguido superar la crisis, aunque todavía nos quedan muchas cosas por hacer porque el gran objetivo es que al final de la próxima legislatura haya en España...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u10" ana="#chair">
                <seg>Gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON CAYO LARA MOYA, DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿TIENE PREVISTO SEGUIR LAS ÚLTIMAS RECOMENDACIONES DEL FMI PARA NUESTRO PAÍS?</seg>
                <note>Número de expediente 180/001345</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u11" ana="#chair">
                <seg>Pregunta del diputado don Cayo Lara, de La Izquierda Plural.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u12"
@@ -161,7 +159,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Rajoy, hoy que va remodelar el Gobierno le hemos puesto fáciles las preguntas, esta es la misma que la anterior: ¿tiene previsto seguir las últimas recomendaciones del Fondo Monetario Internacional para nuestro país? Que conste que no nos hemos puesto de acuerdo.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u13" ana="#chair">
                <seg>Gracias, señor Lara.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -173,7 +171,7 @@
                <note>Aplausos</note>
                <pb n="8"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u15" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Lara.</seg>
             </u>
@@ -187,7 +185,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u17" ana="#chair">
                <seg>Muchas gracias, señor Lara.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -198,12 +196,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u19" ana="#chair">
                <seg>Gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON PEDRO SÁNCHEZ PÉREZ-CASTEJÓN, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿CONSIDERA QUE LAS DECLARACIONES DEL PRESIDENTE DE RTVE DICIENDO QUE ES Y SEGUIRÁ SIENDO VOTANTE DEL PP CONSTITUYEN UN EJERCICIO DE INDEPENDENCIA INFORMATIVA?</seg>
                <note>Número de expediente 180/001349</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u20" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u20" ana="#chair">
                <seg>Pregunta dirigida al señor presidente del Gobierno que formula el diputado don Pedro Sánchez, del Grupo Socialista.</seg>
                <pb n="9"/>
             </u>
@@ -214,7 +212,7 @@
                <seg>Señor Rajoy, me gustaría saber si considera adecuadas las declaraciones hechas por el presidente de Radiotelevisión Española en esta sede parlamentaria afirmando que es votante del Partido Popular y que siempre seguirá siendo votante del Partido Popular.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u22" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u22" ana="#chair">
                <seg>Silencio, por favor.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -224,7 +222,7 @@
                <seg>En España, como usted sabe, hay libertad ideológica, hay libertad de voto y hay libertad de expresión y supongo que usted no pretenderá quitársela a nadie, sea esa persona quien sea. Y desde luego, refiriéndome a lo que dice el texto de la pregunta, las opiniones manifestadas por el director general no afectan para nada a la independencia informativa<note>Varios señores diputados: ¡No, qué va!</note> , suya y de los funcionarios de Televisión Española.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u24" ana="#chair">
                <seg>Señor Sánchez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u25"
@@ -236,7 +234,7 @@
                <seg>Señorías, señores del Gobierno, no sé si usted esta tarde, señor Rajoy, va a modificar el Gobierno, si lo va a cambiar, si va a adelantar las elecciones o va a hacer ambas cosas, adelantar las elecciones y cambiar el Gobierno, pero le voy a decir una cosa: a los españoles ni les importa ni les interesa porque a estas alturas de la legislatura el único cambio que esperan es el suyo al frente de la Presidencia del Gobierno tras las elecciones generales.</seg>
                <note>Varios señores diputados: ¡Muy bien!-Aplausos.-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u26" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u26" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Ruego silencio a todos, por favor.<note>Una señora diputada: ¡Allí! ¡Allí!</note> Señor presidente del Gobierno.</seg>
             </u>
@@ -246,13 +244,13 @@
                <seg>No sé qué cambio esperan los españoles, pero tengo para mí que el único cambio que no esperan es que vuelvan al Gobierno quienes generaron en España 3.400.000 parados<note>Varios señores diputados: ¡Muy bien!-Aplausos</note> ; el único cambio que no esperan es que vuelvan al Gobierno quienes dejaron a este país al borde de la quiebra<note>Varios señores diputados: ¡Venga, hombre!</note> ; el único cambio que no esperan es que quienes dejaron a este país al borde del rescate vuelvan una vez más al Gobierno; el único cambio que no esperan es que vuelvan al Gobierno aquellos que hicieron una política económica que generó seis años de crecimiento negativo y aumento continuado del desempleo en nuestro país y que creó la mayor crisis económica que hemos vivido en España desde la vuelta de la democracia en 1977. Y, desde luego, el único cambio que no esperan de ninguna de las maneras es el que puede provocar una persona que después de haber dicho<pb n="10"/> en todos los foros a los que asistió en los últimos meses que jamás se iba a aliar con partidos extremistas, radicales o a las órdenes de Venezuela<note>Protestas.-Aplausos</note> se haya aliado con ellos en toda España y, saltándose la voluntad democrática de los españoles que en las grandes ciudades votaron al Partido Popular<note>Varios señores diputados: ¡Ahí, ahí!-Otros señores diputados: ¡Hala, hombre!-Rumores</note> , haya dado el poder a grupos extremistas que ya están dando el espectáculo que estamos viendo en el Ayuntamiento de Madrid. Los responsables no son esos concejales; el responsable es usted<note>Varios señores diputados: ¡Muy bien!</note> , que ha convertido al Partido Socialista en un partido de izquierda radical, extremista y alejado de toda centralidad. Usted.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Popular, puestos en pie.-Protestas.-El señor Elorza González agita un pañuelo blanco</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u28" ana="#chair">
                <seg>Muchas gracias, señor presidente del Gobierno.</seg>
                <seg>Señor Elorza, le ruego que se modere en sus gestos.</seg>
                <seg>- DEL DIPUTADO DON ANTONIO HERNANDO VERA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA VICEPRESIDENTA DEL GOBIERNO Y MINISTRA DE LA PRESIDENCIA: ¿CONSIDERA RAZONABLES LAS MEDIDAS QUE PRETENDE ADOPTAR EL GOBIERNO EN EL FINAL DE LA LEGISLATURA?</seg>
                <note>Número de expediente 180/001350</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u29" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u29" ana="#chair">
                <seg>Preguntas dirigidas a la señora vicepresidenta del Gobierno y ministra de la Presidencia. Pregunta el diputado don Antonio Hernando, del Grupo Parlamentario Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u30"
@@ -263,7 +261,7 @@
                <seg>Gracias.</seg>
                <note>Varios señores diputados: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u31" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u31" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -274,7 +272,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u33" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u33" ana="#chair">
                <seg>Gracias, señora vicepresidenta.</seg>
                <seg>Señor Hernando.</seg>
             </u>
@@ -284,7 +282,7 @@
                <seg>Señora vicepresidenta, en el Círculo de Economía el presidente del Gobierno dijo recientemente: 'Nos ha hecho daño la corrupción y el martilleo continuado de todos los casos, sobre todo en las televisiones'. La reflexión del señor Rajoy demuestra su aversión a la libertad de información, porque con este concurso ustedes les han puesto una pistola en el pecho a las televisiones.<note>Varios señores diputados: ¡Hala!-Protestas</note> , especialmente a aquellas televisiones que tienen programas informativos de política y tienen programas que critican al Partido Popular o que hablan de la corrupción del Partido Popular.</seg>
                <note>Rumores.-La señora Fabra Fernández pronuncia palabras que no se perciben</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u35" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u35" ana="#chair">
                <seg>Señora Fabra, le ruego silencio.</seg>
                <pb n="11"/>
             </u>
@@ -295,7 +293,7 @@
                <seg>Resuelvan este concurso, háganlo pronto y háganlo sin sectarismo. Le garantizo que los malos resultados del Partido Popular no se deben al martilleo informativo sobre la corrupción en el Partido Popular, sino a la propia existencia de la corrupción en el Partido Popular y, sobre todo, a los martillazos que sus políticas han descargado sobre los trabajadores, las familias, las mujeres, los pensionistas o los estudiantes. Esas son las claves de su debacle electoral y no la libertad de información. Entérense de una vez.</seg>
                <note>Varios señores diputados: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u37" ana="#chair">
                <seg>Muchas gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -308,7 +306,7 @@
                <seg>Muchas gracias, señor Hernando.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u39" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u39" ana="#chair">
                <seg>Muchas gracias, señora vicepresidenta.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u40"
@@ -317,11 +315,11 @@
                <seg>¡Herencia es el Fondo de reserva!</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u41" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u41" ana="#chair">
                <seg>Señora López i Chamosa, de intervenir, que no debe, hágalo cuando termine una pregunta y antes de empezar la otra; ese es el momento.<note>Risas</note> - DEL DIPUTADO DON JOSEBA ANDONI AGIRRETXEA URRESTI, DEL GRUPO PARLAMENTARIO VASCO<note>EAJ-PNV</note> , QUE FORMULA AL SEÑOR MINISTRO DE JUSTICIA: ¿CUÁNDO VA A DEVOLVER EL GOBIERNO A SUS LEGÍTIMOS PROPIETARIOS LAS DIFERENTES BANDERAS Y ENSEÑAS ARREBATADAS A ORGANIZACIONES POLÍTICAS DEMOCRÁTICAS ASÍ COMO A SUS BATALLONES EN LA GUERRA CIVIL Y QUE SE ENCUENTRAN EN DIFERENTES MUSEOS Y ARCHIVOS?</seg>
                <note>Número de expediente 180/001331</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u42" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u42" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Justicia. Pregunta que formula el diputado don Joseba Agirretxea, del Grupo Vasco, PNV.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u43"
@@ -331,7 +329,7 @@
                <seg>En la Guerra Civil, a raíz de la sublevación de parte del ejército a las órdenes del general Franco, se produjeron asesinatos, torturas, saqueos, expolios, expropiaciones, robos y otra serie de vulneraciones de derechos individuales y colectivos. El ejército español sublevado fue el ejército que a la postre se instauraría<pb n="12"/> como el ejército del Estado, por lo que todos aquellos símbolos, banderas, pertenencias, etcétera, arrebatados al bando que defendía la legalidad republicana vigente de partidos políticos y sindicatos de la época, incluidos sus batallones, fueron automáticamente incorporados como botín de guerra al patrimonio español. Usted sabe que todo ello es una ofensa para sus legítimos propietarios y muestra un nulo respeto a la memoria. Con objeto de subsanar esta injusta situación, señor ministro, le pregunto cuándo va a devolver el Gobierno a sus legítimos propietarios las diferentes banderas y enseñas arrebatadas a organizaciones políticas democráticas, así como a sus batallones en la Guerra Civil, que se encuentran en diferentes museos y archivos estatales. Me gustaría que me diera una respuesta política, una respuesta de conjunto de Gobierno y no solo de su departamento.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u44" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u44" ana="#chair">
                <seg>Muchas gracias, señor Agirretxea.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -344,7 +342,7 @@
                <seg>Señorías, la Ley de Patrimonio Histórico nos dice en su preámbulo que en un Estado democrático los bienes culturales deben estar adecuadamente protegidos, deben estar adecuadamente puestos al servicio del conjunto de los ciudadanos, y este es, en definitiva, el camino hacia la libertad de los pueblos. Esa ley no la hizo un Gobierno del Partido Popular, sino un Gobierno del Partido Socialista, y yo estoy muy de acuerdo con ese preámbulo, señoría.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u46" ana="#chair">
                <seg>Muchas gracias, señor ministro de Justicia.</seg>
                <seg>Señor Agirretxea.</seg>
             </u>
@@ -355,7 +353,7 @@
                <seg>Hay injusticias que jamás se repararán, señor ministro, pero por lo menos tenga la dignidad de tener un comportamiento mínimamente democrático. No es necesaria ninguna legislación para que el Gobierno devuelva lo incautado. Esta ikurriña<note>Muestra una ikurriña</note> está en el Archivo de Salamanca, su propietario es el Partido Nacionalista Vasco, y ni está donada, ni está cedida, ni está dejada en usufructo; está arrebatada en una de nuestras sedes, exactamente la de Gautegiz de Arteaga; lo pone aquí, es del batzoki de Gautegiz de Arteaga. ¿Qué hace en Salamanca la ikurriña del batzoki de Gautegiz de Arteaga? Nunca hemos sabido de su ubicación hasta que hemos llevado a cabo una gran investigación y nos hemos enterado de su existencia y de su ubicación. ¿Cuántas más tendrán ustedes en su poder, y no solamente del PNV, sino de la UGT o de la CNT, etcétera? Muchísimas más. Es nuestra y no tiene ningún derecho a retenerla. ¿Por qué está allí? ¿Cómo ha llegado allí? ¿O acaso el Estado español y sus instituciones, incluido el ejército, es el legítimo heredero de quien la arrebató? ¿Se imagina usted que en Alemania o en un museo italiano se exhibieran las banderas arrebatadas por los fascistas? No es propiedad de todos los españoles, como usted dice, es propiedad de unos...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u48" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
                <pb n="13"/>
@@ -366,7 +364,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señoría, muy en particular con esta bandera del batzoki de Gautegiz de Arteaga que usted menciona, en el año 2008, el Gobierno aprobó un real decreto por el que se planteaba un procedimiento para la restitución o devolución. ¿Qué pasó, por qué no lo solicitaron ustedes?<note>Protestas.-El señor Esteban Bravo: Le hemos dicho que no sabíamos dónde estaba. ¿Cómo la vamos a pedir?</note> Ahí está el procedimiento para poder recuperarla y no se recuperó.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u50" ana="#chair">
                <seg>Señor Esteban, le llamo al orden.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u51"
@@ -374,12 +372,12 @@
                ana="#regular">
                <seg>Señoría, yo comprendo su interés legítimo y razonable sobre las banderas y otros objetos, que le aseguró que no reciben ningún tratamiento distinto al del resto de los elementos que conforman la memoria histórica de este país, la memoria colectiva de todos los españoles, que están a disposición de todos los españoles. Ha habido posibilidades, como se hizo con la devolución de los papeles y los documentos del lehendakari Aguirre, para su devolución en colaboración con el Ministerio de Educación.<note>El señor Esteban Bravo: ¡Qué caradura! Aplausos.-El señor Conde Bajén: ¡Un poco de respeto, por favor</note> -Es posible la cesión de bienes desde los distintos museos nacionales...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u52" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u52" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Esteban, le llamo la atención porque se está usted comportando sorprendentemente.<note>El señor Esteban Bravo: ¡Por algo será!</note> - DEL DIPUTADO DON ALBERTO GARZÓN ESPINOSA, DEL GRUPO PARLAMENTARIO DE IU, ICV-EUIA, CHA: LA IZQUIERDA PLURAL, QUE FORMULA AL SEÑOR MINISTRO DE DEFENSA: ¿QUÉ EFECTOS PUEDE TENER EN NUESTRO PAÍS EL NUEVO CONVENIO CON LOS EE.UU. SOBRE LA BASE DE MORÓN?</seg>
                <note>Número de expediente 180/001330</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u53" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Defensa, que formula el diputado don Alberto Garzón, de La Izquierda Plural.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u54"
@@ -387,7 +385,7 @@
                ana="#regular">
                <seg>Señor ministro, ¿qué efectos puede tener en nuestro país el nuevo convenio que se va a firmar hoy con Estados Unidos sobre la base de Morón?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u55" ana="#chair">
                <seg>Gracias, señor Garzón.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -398,7 +396,7 @@
                <seg>Señoría, en el orden bilateral, la relación más importante para España en seguridad y defensa es, con toda certeza, la que mantenemos con los Estados Unidos de América. Por lo tanto, y dado que el nuevo protocolo de enmienda al Convenio de cooperación en materia de defensa entre España y Estados Unidos actualiza, refuerza y estrecha esa relación, sus efectos serán, sin duda, muy positivos para la seguridad y la defensa de nuestro país, de Estados Unidos y, sobre todo, de la comunidad internacional, de aquellos países con los que compartimos valores, intereses y también, por cierto, amenazas.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u57" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Garzón.</seg>
             </u>
@@ -408,7 +406,7 @@
                <seg>Señor ministro, ese convenio no responde a los intereses de España ni tampoco de Andalucía, el lugar donde está la base de Morón. Durante mucho tiempo, esas bases han sido y siguen siendo un despliegue de grandes empresas estadounidenses que permiten las puertas giratorias de antiguos gobernantes y políticos estadounidenses y que precarizan las relaciones laborales allí presentes. Hay más de 2.500 trabajadores de nacionalidad española que han sufrido la precariedad, los ERE, mientras que su Gobierno no ha hecho absolutamente nada en defensa de esos trabajadores porque ha estado sumiso a los intereses de Estados Unidos. Eso es lo que representa este convenio, esta nueva firma. Ustedes ejercen lo que podríamos llamar el patriotismo de pacotilla, porque es el Partido Popular el que cuando gobierna en determinadas ciudades pone las banderas más grandes; es el Partido Popular el que, muchas veces, tiene pulseras de España, y es el Partido Popular el que se indigna<pb n="14"/> cuando se pita el himno de España. Pero es el Partido Popular también el que cede el terreno a una potencia imperialista como es Estados Unidos, que va derramando la sangre por todo el país cometiendo torturas, haciendo detenciones ilegales y todo tipo de acciones contra la comunidad internacional al margen del convenio de Naciones Unidas, y al que ustedes hacen pleno seguidismo, sumisión y una continua genuflexión. Nosotros creemos que ese es un camino profundamente equivocado, y además se ha demostrado. Se demostró cuando el anterior Gobierno del presidente José María Aznar siguió al Gobierno de Estados Unidos a una guerra ilegal e injusta; cuando su Gobierno permitió las detenciones ilegales, los vuelos de esos detenidos ilegalmente; cuando también ustedes modificaron, en esta misma legislatura, las leyes para que no se pudiera juzgar a los asesinos del periodista español José Couso. Es decir, hacen un ejercicio de sumisión plena a un ejército imperialista que derrama sangre, y no un ejercicio de seguridad nacional, porque desde ahí se está siendo cómplice del terror, de la masacre, del drama. La seguridad es un concepto civil, no militar. Hay que cooperar, hay que desarmar, hay que trabajar en el seno de Naciones Unidas y no cooperar única y exclusivamente con Estados Unidos, que ya sabemos lo que hace. Las tierras de Andalucía, las tierras de España no quieren ser cómplices de los asesinatos que se cometan a seis horas de la base de Morón con la industria y la tecnología de Estados Unidos. Es indignante que se firme este convenio.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u59" ana="#chair">
                <seg>Gracias, señor Garzón.</seg>
                <seg>Señor ministro de Defensa.</seg>
             </u>
@@ -420,12 +418,12 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u61" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON AITOR ESTEBAN BRAVO, DEL GRUPO PARLAMENTARIO VASCO<note>EAJ-PNV</note> , QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿POR QUÉ SE EMPECINA SU GOBIERNO EN IMPEDIR EL NORMAL DESARROLLO DE LA ERTZAINTZA, INSTITUCIÓN FUNDAMENTADA EN LA DISPOSICIÓN ADICIONAL PRIMERA DE LA CONSTITUCIÓN, RECURRIENDO INSISTENTEMENTE SUS CONVOCATORIAS DE OFERTA PÚBLICA DE EMPLEO?</seg>
                <note>Número de expediente 180/001346</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u62" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u62" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Hacienda y Administraciones Públicas. Pregunta, en primer lugar, el diputado don Aitor Esteban, del Grupo Vasco, PNV.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u63"
@@ -435,7 +433,7 @@
                <seg>Señor ministro, ¿por qué se empecina el Gobierno en impedir el normal desarrollo de la Ertzaintza, institución fundamentada en la disposición adicional primera de la Constitución, recurriendo insistentemente sus convocatorias de oferta pública de empleo, respecto a la última de las cuales ya le ha enviado un requerimiento previo al recurso?</seg>
                <pb n="15"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u64" ana="#chair">
                <seg>Gracias, señor Esteban.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -446,7 +444,7 @@
                <seg>Que yo sepa, no es así; no se ha enviado ningún requerimiento relativo a un cuerpo específico, el de la Policía autónoma vasca, y no hay sino un requerimiento de información. Le recuerdo, señor Esteban, que el año pasado se repuso el 100 % de los efectivos de la Ertzaintza y, por lo tanto, la disposición de este Gobierno ha sido siempre que la Policía autónoma vasca cuente con la disposición de esos efectivos y con el cumplimiento de las normas reguladoras básicas que nos conciernen a todos los ciudadanos, a todos los españoles y a todos los vascos, que son los que se aprueban en esta Cámara, razón que estoy seguro de que su señoría compartirá, una vez que se ha serenado respecto a alocuciones anteriores que ha hecho esta mañana y que a mí, como miembro del Gobierno, no me han parecido ni las más pertinentes ni las más moderadas.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u66" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Esteban.</seg>
             </u>
@@ -459,7 +457,7 @@
                <seg>Le pido que no sigan adelante porque, de lo contrario, poner un recurso -que espero que no se produzca- supondría, en nuestra opinión, el incumplimiento de la foralidad y un enfrentamiento serio con el Gobierno vasco.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u68" ana="#chair">
                <seg>Muchas gracias, señor Esteban.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -469,12 +467,12 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>No hay ningún ánimo de conflicto por parte del Gobierno de España de provocar ningún enfrentamiento, pero sí tenemos el ánimo de que se cumpla la normativa. Yo tengo que discrepar de los planteamientos que su señoría ha hecho esta mañana aquí, de las interpretaciones que hace. La regulación básica concierne a todos los funcionarios públicos de todas las administraciones que componen el Estado de las autonomías de España, a todos. No existe un reducto que quede al margen de esa normativa. Por eso, el año pasado resolvimos el tema cambiando la normativa estatal, se lo recuerdo, señor Esteban, y usted<pb n="16"/> estuvo de acuerdo con ese procedimiento y con ese planteamiento de cambio. Por lo tanto, no me venga a decir ahora que no vale la normativa estatal. Si está usted buscando un conflicto será por otro tipo de motivo. Será porque estamos al final de una legislatura; será porque tiene usted el pensamiento puesto en un partido político o en otro; será por la formación y la conformación de pactos que está usted adquiriendo en el País Vasco con su grupo político, o será por otro motivo. Pero el único motivo que inspira al Gobierno de España es reponer los efectivos de la Policía autónoma, como hemos venido haciendo, al 100 % el año pasado, y que la sociedad vasca cuente con los elementos de seguridad que se conforman en torno a la oferta del conjunto de Fuerzas de Seguridad del Estado.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u70" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON MANUEL PEZZI CERETO, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿VALORÓ EL GOBIERNO LAS CONSECUENCIAS EN LA INDUSTRIA DE LAS CARRERAS DE CABALLOS EN ESPAÑA CUANDO SE ACORDÓ EL CIERRE DE LA COMPETICIÓN EN EL HIPÓDROMO DE LA ZARZUELA, PROPIEDAD DE LA SEPI?</seg>
                <note>Número de expediente 180/001352</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u71" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Hacienda y Administraciones Públicas, que formula el diputado don Manuel Pezzi, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u72"
@@ -482,7 +480,7 @@
                ana="#regular">
                <seg>¿Cuánto tiempo más, señor ministro, tendrá la industria de los caballos de carreras en España que sufrir la incompetencia de sus colaboradores en la SEPI y en el Hipódromo de La Zarzuela?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u73" ana="#chair">
                <seg>Muchas gracias, señor Pezzi.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -494,7 +492,7 @@
                <seg>También quiero decirle con toda franqueza que me parece inadmisible que por razón de una sociedad privada estén paralizadas las carreras de caballos en España; me parece realmente incalificable. Por ello, la Real Federación Hípica Española está trabajando aceleradamente para que exista un regulador oficial y podamos abrir cuanto antes este tipo de actividad que, como su señoría señala, tan importante es para la industria del caballo en España. Invito incluso a que la próxima semana se lleve adelante una convocatoria en Comisión para que comparezcan los responsables y busquemos el mayor consenso posible para resolver cuanto antes esta situación.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u75" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Pezzi.</seg>
             </u>
@@ -506,7 +504,7 @@
                <seg>España ha tenido casi 1.000 caballos de carreras; tras la gestión de Faina Zurita, 300. Señorías, 1.000 puestos de trabajo. Se está hundiendo la industria porque no hay competición y los propietarios tienen que llevar los caballos a los prados de Francia. Yo le hago una propuesta fácil, rápida: cese a Faina Zurita y nombre a alguien con cabeza que pueda llevar las carreras de caballos de nuevo al Hipódromo de la Zarzuela y, por tanto...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u77" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -517,12 +515,12 @@
                <seg>Señor diputado, ya le he hecho una oferta, una oferta constructiva, no la que usted está expresando, para que la semana próxima se produzca aquí, en esta sede parlamentaria, la reunión de voluntades. Estoy invitando a su grupo a que sea constructivo, pero la intervención que ha hecho no es constructiva. Le invito a resolver el problema de una vez. Le voy a recordar que fui el ministro de Hacienda que impulsó la apertura del hipódromo, lo hice durante mi etapa anterior de ministro. No existe otra voluntad por parte del Gobierno que resolver esta cuestión porque detrás están los puestos de trabajo de miles de familias de España. Por tanto, le invito a que de una vez hagamos este encuentro en sede parlamentaria y resolvamos esta cuestión y no permitamos que problemas de...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u79" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON MIGUEL ÁNGEL HEREDIA DÍAZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE ECONOMÍA Y COMPETITIVIDAD: ¿POR QUÉ NO APOYA ADECUADAMENTE EL GOBIERNO A LAS FAMILIAS QUE ESTÁN SUFRIENDO DESAHUCIOS?</seg>
                <note>Número de expediente 180/001351</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u80" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Economía y Competitividad. La formula el diputado don Miguel Ángel Heredia, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u81"
@@ -531,7 +529,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, ¿por qué no apoya adecuadamente el Gobierno a las familias que sufren desahucios en nuestro país?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u82" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -541,7 +539,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Este es el único y primer Gobierno que ha puesto en marcha políticas efectivas para los colectivos más vulnerables, que no han podido hacer frente al pago de la hipoteca. Y así lo demuestran las más de 36.600 familias que se han beneficiado de todas las medidas adoptadas por este Gobierno.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u84" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Heredia.</seg>
                <pb n="18"/>
@@ -552,7 +550,7 @@
                <seg>Señor ministro, su Gobierno vive ajeno al drama de los que han perdido su empleo, a los niños que se encuentran en situación de pobreza y a los que sufren desahucios. Duele que los desahucios continúen aumentando en nuestro país. En 2014 han sido 68.000 y en este año continúan aumentando. Duele cómo los niños ven a sus padres perder primero su empleo y luego su vivienda. Y duele sobre todo que los bancos, que ya están obteniendo importantes beneficios, continúen llevando a cabo un desahucio cada quince minutos en nuestro país. Y mientras tanto su Gobierno solo pone parches, y solo pone parches porque nunca ha tenido voluntad real de solucionar este problema. Su moratoria contra los desahucios ha sido un rotundo fracaso porque el número de beneficiarios ha sido mínimo y por eso lo ha prorrogado dos años más. De las 6.000 casas del Fondo social de la vivienda, 5.000 no se han adjudicado, y el código de buenas prácticas solo sirve para que usted dé unas cifras que nunca nadie puede contrastar; yo creo que usted cada día se inventa esos datos. Incluso el Tribunal de Justicia de la Unión Europea ha criticado duramente su gestión contra los desahucios. Y todo ello por no hablar del banco malo, ese que su Gobierno vendió como un gran éxito pero que ha sido un rotundo fracaso, que el pasado año tuvo una pérdida de 585 millones, el doble que el año anterior. Eso sí, su presidente tiene un sueldo de 400.000 euros y el resto de los consejeros de otro millón más. ¿No le parece a usted, señor ministro, vergonzoso que cuando hay tantas familias que pierden sus viviendas, que se van a la calle, el banco responsable de administrar las casas de los desahuciados gaste una fortuna en sueldos? Ustedes no buscan solución a este problema ni permiten que nadie la busque. La Junta de Andalucía aprobó una ley contra los desahucios y a usted le faltó tiempo para llevarla al Tribunal Constitucional. Pues le diré que la Junta de Andalucía, con su presidenta, Susana Díaz, al frente, va a seguir tomando medidas que frenen los desahucios en nuestro país. Su Gobierno ha preferido rescatar los bancos a rescatar a las personas. Cualquier Gobierno decente hubiese apoyado y rescatado a las familias. Entérese, señor ministro, el único desahucio que quieren los españoles en nuestro país es el de Rajoy de La Moncloa, y lo quieren cuanto antes.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u86" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -565,11 +563,11 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u88" ana="#chair">
                <seg>Gracias, señor ministro.<pb n="19"/> - DE LA DIPUTADA DOÑA ANA MARÍA ORAMAS GONZÁLEZ-MORO, DEL GRUPO PARLAMENTARIO MIXTO, QUE FORMULA A LA SEÑORA MINISTRA DE FOMENTO: ¿CREE EL GOBIERNO QUE ESPAÑA Y CANARIAS CUENTAN CON LOS MEDIOS SUFICIENTES PARA HACER FRENTE A ACCIDENTES MARÍTIMOS DESPUÉS DE LA EXPERIENCIA CON EL PESQUERO OLEG NAYDENOV?</seg>
                <note>Número de expediente 180/001344</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u89" ana="#chair">
                <seg>Preguntas dirigidas a la señora ministra de Fomento. Pregunta, en primer lugar, la diputada doña Ana Oramas, del Grupo Mixto.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u90"
@@ -580,7 +578,7 @@
                <seg>Es un asunto muy serio para el Estado y para la comunidad autónoma. Nosotros nos preguntamos qué hubiera pasado si, en vez de un pesquero con 1.500 toneladas, hubiera sido un petrolero de los que pasan normalmente por Canarias con 50.000 o 100.000 toneladas de fuel. Nos preguntamos también qué hubiera pasado si se hubiera hundido al norte de Gran Canaria en vez de al sur, si hubiera sido en otra época del año, con otro tipo de corriente. Sobre la base de todo eso pensamos que podía generarse una gran catástrofe. Hay veces que no se pueden evitar las cosas, pero sí se puede mejorar la prevención, como usted y yo hemos hablado. Por eso, le planteo: ¿Se ha analizado la posibilidad de puertos de refugio en Canarias? ¿Se ha mirado también la posibilidad de mejorar los servicios de extinción de los puertos canarios no solo por el tema de los petroleros sino también por el número de cruceros que están en los puertos de Canarias cuyos servicios de extinción de incendios no están preparados? ¿Se van a actualizar los protocolos? ¿Vamos a hacer un plan de formación de voluntarios? Por último, ¿se ha previsto que el programa de vigilancia de la Agencia Europea de Seguridad Marítima esté permanentemente activado en Canarias?</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u91" ana="#chair">
                <seg>Muchas gracias, señora Oramas.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -592,7 +590,7 @@
                <seg>Señoría, quiero recordarle que ha sido este Gobierno quien ha aprobado el Sistema Nacional de Respuesta, tan importante para dar una respuesta rápida y adecuada. Señoría, quiero recordarle que ha sido este Gobierno quien ha aprobado el sistema nacional de respuesta, tan importante para conseguir que sea rápida y adecuada; ha sido este Gobierno el que ha aprobado el Plan marítimo nacional, y ha sido este Gobierno el que está poniendo todos los medios materiales y humanos para que una desgracia como la del Oleg Naydenov se haya podido controlar y que el impacto medioambiental haya sido el mínimo posible. Como usted muy bien ha dicho se pusieron todos los medios disponibles, y cuarenta y ocho horas después del hundimiento estaba contratado ya el robot para localizar e inspeccionar el pecio. Se están tapando las grietas y también como usted ha dicho estamos trabajando para la extracción del fuel, porque así se dará por terminado lo que sin duda ha sido un accidente marítimo que podía haber tenido consecuencias muy graves.</seg>
                <seg>Señoría, también hay que agradecer la actuación de los bomberos, la actuación de todos los profesionales del puerto de Las Palmas. También tengo que decirle sobre los lugares refugio que la Directiva 2009 de la Comunidad Europea dice que los Gobiernos tienen que tener planes, y por eso este<pb n="20"/> Gobierno tiene el sistema Prisma que actúa para decir en cada momento cuál es la mejor decisión. La ministra le anunció a las organizaciones no gubernamentales como usted sabe que se va a constituir un grupo de trabajo con Puertos del Estado y con todas las autoridades portuarias. Hacemos una labor, señoría, que creo que es muy importante para prevenir...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u93" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>Señora Oramas.</seg>
             </u>
@@ -603,12 +601,12 @@
                <seg>A mí me gustaría que la ministra compareciera lo antes posible para, con tiempo, poder analizar todas las materias. Le quiero plantear que después de cualquier incidencia hay que hacer balance, ver qué cosas se pueden mejorar, y en ese sentido, tanto los planes refugio como los protocolos, como la formación de voluntarios, como el plan de vigilancia son necesarios para Canarias. Necesitamos más seguridad ambiental, necesitamos seguridad para Canarias, sobre todo porque es zona de paso de grandes petroleros; tenemos grandes barcos, como el Queen Mary, y no tenemos los servicios de extinción necesarios en los puertos canarios.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u95" ana="#chair">
                <seg>Gracias, señora Oramas.</seg>
                <seg>- DEL DIPUTADO DON JORDI JANÉ I GUASCH, DEL GRUPO PARLAMENTARIO CATALÁN<note>CONVERGÈNCIA I UNIÓ</note> , QUE FORMULA A LA SEÑORA MINISTRA DE FOMENTO: ¿QUÉ PREVISIONES CONCRETAS TIENE EL GOBIERNO PARA CUMPLIR CON LAS PROMESAS REALIZADAS DESDE EL MINISTERIO DE FOMENTO PARA INSTALAR EL TERCER RAÍL, PERMITIENDO LA CONEXIÓN EN ANCHO EUROPEO Y LA ALTA VELOCIDAD EN LAS CIUDADES DE TARRAGONA, REUS Y EN TODA LA LÍNEA ENTRE VILA-SECA Y CASTELLBISBAL?</seg>
                <note>Número de expediente 180/001348</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u96" ana="#chair">
                <seg>Pregunta dirigida también a la señora ministra de Fomento, que formula el diputado don Jordi Jané del Grupo Parlamentario Catalán</seg>
                <note>Convergència i Unió</note>
             </u>
@@ -618,7 +616,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señora ministra de Fomento, la segunda gran área metropolitana de Cataluña está en torno a las ciudades de Tarragona y Reus. A esas ciudades no llega la alta velocidad. Hace dos años usted recibió en su despacho al alcalde de Reus y se comprometió a que, a través del tercer raíl entre Vila-seca y Reus, llegaría la alta velocidad a la ciudad de Reus, y que a través del tercer raíl que se iba a implantar ya entre Vila-seca y Castellbisbal, llegaría también la alta velocidad a la estación urbana de Tarragona. Esas promesas no se concretan, señora ministra, con realidades. Hay que realizar una conexión en la zona del Penedès entre ese tercer raíl y la línea de alta velocidad que llega hasta Sants, porque hay muchas empresas -empresas químicas, empresas que generan empleo, empresas que buscan competitividad- que ya han realizado obras en su interior para instalar el ancho europeo, pero no llega el tercer raíl y no pueden conectar en ancho europeo esas mercancías para salir hacia Europa, y hacer de ese corredor mediterráneo una realidad. Por eso le pregunto, señora ministra, por concreciones. No queremos excusas; queremos calendarios concretos de ejecución de las obras: cuándo llegará efectivamente ese tercer raíl.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u98" ana="#chair">
                <seg>Muchas gracias, señor Jané.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -628,7 +626,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señorías, señor Jané, trabajamos desde el primer momento por que el corredor mediterráneo sea una realidad, y lo hemos hecho dedicando a la sección del corredor mediterráneo 4.800 millones de euros en esta legislatura. Señoría, hemos pasado de la publicidad al trabajo de ingeniería y a estar trabajando en la vía en todos los tramos del corredor mediterráneo.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u100" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
                <seg>Señor Jané.</seg>
                <pb n="21"/>
@@ -638,7 +636,7 @@
                ana="#regular">
                <seg>Señora ministra, publicidad mucha, pero calendario... ¿Cuál es el calendario? ¿Cuándo llegará exactamente el tercer raíl en ese tramo crucial que iría desde Reus, pasando por Vila-seca, y continuando por Tarragona y todo ese corredor de mercancías hasta Castellbisbal, y después urbano, conectándolo con la línea de alta velocidad que llega hasta Sants, a través de una conexión en la zona del Penedès? Hay inquietud en muchísima parte de la sociedad que pide a la ministra de Fomento esa concreción. Tenga en cuenta que la Cámara de Comercio de Tarragona, que todo el clúster químico de Tarragona, que todo el puerto de Tarragona están esperando ese tercer raíl para poder conectar realmente con el ancho europeo; si alguien quiere el ancho ibérico también puede tenerlo, porque el tercer raíl permite ambos anchos. Esa concreción, señora ministra, no llega, y por tanto...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u102" ana="#chair">
                <seg>Gracias, señor diputado.<note>Aplausos</note> Señora ministra.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u103"
@@ -648,11 +646,11 @@
                <seg>Mire, señoría, a finales de 2011 no se había puesto en marcha no ya la contratación de los tramos, sino que no había proyecto de ninguno de los tramos del corredor mediterráneo, y el corredor mediterráneo -y usted coincide conmigo- es el eje esencial del transporte de mercancías de este país. En esta legislatura, señoría, hemos dedicado a la Comunidad Autónoma de Cataluña 8.900 millones, de los cuales más de 2.900 han ido destinados al ferrocarril, y eso para dar una solución definitiva. Pero, señoría, le puedo enseñar -lo tengo aquí- que las empresas de transporte de mercancías -y le nombro: Continental Rail, Comsa Rail, Ferrovial Railway, Tracción Rail o Logística- han dicho todas ellas que a lo largo del 2015 no van a pasar ni una sola tonelada por vías de ancho UIC. Es bueno que lo sepan todos los ciudadanos.</seg>
                <seg>Le voy a decir, en el poco tiempo que me queda, cómo está la situación real de las obras en el corredor: Castellbisbal-Vila-seca 76 millones de euros, que se están ejecutando teniendo en cuenta las necesidades y las demandas de todos los operadores. Respecto al tramo siguiente, Tarragona-Vandellós, estamos finalizando ya la infraestructura: 188 millones de euros en este año, concluyendo ya las obras de plataforma, las del viaducto, la estación de Cambrils, así como los trabajos de electrificación y la estación de Hospitalet. Vamos a reducir los tiempos en treinta y cinco minutos. Entre Vandellós y Castellón estamos también implantando el ancho estándar en ambas vías, y entre Castellón y Valencia los trabajos van muy avanzados para que pueda haber alta velocidad a Castellón antes de que termine el año. En relación con el nudo Vila-seca y Reus estamos finalizando la redacción del proyecto para luego licitar la obra, y tenemos en redacción el estudio informativo del entorno de L'Arboç. Por eso, señoría, el compromiso de este Gobierno con el corredor...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u104" ana="#chair">
                <seg>Gracias, señora ministra.<note>Aplausos</note> - DE LA DIPUTADA DOÑA MARÍA ANGELINA COSTA PALACIOS, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE EDUCACIÓN, CULTURA Y DEPORTE: ¿A QUÉ INTERESES RESPONDE LA APROBACIÓN DEL NUEVO DECRETO DE CREACIÓN, RECONOCIMIENTO, AUTORIZACIÓN Y ACREDITACIÓN DE UNIVERSIDADES Y CENTROS UNIVERSITARIOS?</seg>
                <note>Número de expediente 180/001353</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u105" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Educación, Cultura y Deporte. En primer lugar, formula su pregunta doña Angelina Costa, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u106"
@@ -661,7 +659,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor ministro, creo que me va a corresponder el dudoso honor de formularle una de las últimas preguntas que se le dirijan como ministro de Educación en este hemiciclo. Si es así, le deseo que en su nuevo destino le vaya mejor que en esta etapa ministerial; no le será difícil, señor ministro.<note>Risas.-Aplausos</note> Por eso le pregunto a qué intereses responde la aprobación del nuevo decreto.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u107" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u107" ana="#chair">
                <seg>Muchas gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
                <pb n="22"/>
@@ -672,7 +670,7 @@
                <seg>Muchas gracias, señor presidente. Gracias, señora Costa, por sus buenos deseos.</seg>
                <seg>Me imagino que el decreto al que se refiere es el que regula el reconocimiento, acreditación, etcétera, de centros, y los intereses -respondiendo literalmente a lo que el enunciado de su pregunta plantea- son exactamente los mismos que en toda la acción normativa del Gobierno: en primer lugar, como es natural, la defensa de los intereses generales, y en segundo lugar, en este caso específico, la promoción de una universidad más eficiente, más flexible, más internacionalizada, y que preste un mejor servicio a todos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u109" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora diputada.</seg>
             </u>
@@ -682,7 +680,7 @@
                <seg>Lo cierto, señor ministro, es que me esperaba su respuesta, muy en su línea: generalidades, algún que otro sofisma, y cerros de Úbeda, aunque con un objetivo claro y trazado, que es el de desmantelar y demoler la universidad pública. Así han procedido con los decretos sobre becas, subida de tasas, Erasmus, exigua tasa de reposición, especialmente grave para el PDI, el tristemente famoso 3 + 2, y siempre la madre de todas las batallas sobrevolando: una insuficiente financiación para nuestras universidades públicas; claro que como ustedes las creen insostenibles, para qué se van a preocupar de dotarlas mejor.<note>Rumores</note> Y ahora este decreto, un decreto que nuestro grupo esperaba, un decreto que estábamos reclamando -lo creíamos necesario-, pero que ha provocado sobre todo una descarada proliferación de las universidades privadas; algunas de ellas se han creado sin control y usted lo sabe, y algunas de ellas tienen un discutible nivel académico y una inexistente...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u111" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u111" ana="#chair">
                <seg>Perdón, señora diputada.</seg>
                <seg>Por favor, los que no vayan a atender a las preguntas, abandonen el hemiciclo. Continúe.</seg>
             </u>
@@ -694,7 +692,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u113" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u113" ana="#chair">
                <seg>Muchas gracias, señora Costa.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -706,12 +704,12 @@
                <seg>Tienen ustedes una obsesión -para mí incomprensible- respecto de las universidades privadas, y cualquiera que les oyera pensaría que estamos hablando de un país en el que existe una situación equilibrada entre universidades públicas y universidades privadas. Las universidades privadas -que por cierto, señora Costa, han crecido más o se han creado más bajo Gobiernos socialistas que bajo Gobiernos del PP- hoy suponen el 12 % del alumnado de todo el sistema universitario en lo que se refiere a grado, y menos del 30 % en máster. Y en cuanto a la garantía de los sistemas este real decreto mantiene no solo las garantías que antes existían, sino unas actualizadas a la nueva ordenación de los estudios universitarios,<pb n="23"/> tanto en cuanto a infraestructuras como a los requisitos especiales para ciencias de la salud, el número de doctores en cada uno de los niveles, etcétera; en definitiva es garantista y promotor de flexibilidad, especialización e internacionalización.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u115" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u115" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON PABLO MARTÍN PERÉ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE EDUCACIÓN, CULTURA Y DEPORTE: ¿CONSIDERA QUE LOS DIFERENTES SECTORES DEL MUNDO DE LA CULTURA ESTÁN SATISFECHOS CON SU GESTIÓN AL FRENTE DEL MINISTERIO?</seg>
                <note>Número de expediente 180/001354</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u116" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Educación, Cultura y Deportes. La formula el diputado don Pablo Martín Peré del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u117"
@@ -720,7 +718,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, ¿considera usted que los diferentes sectores del mundo cultural están satisfechos con su gestión al frente del ministerio?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u118" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -729,7 +727,7 @@
                ana="#regular">
                <seg>Muchas gracias, señor presidente. Gracias, señor Martín Peré. Yo tengo bastante menos talento para la generalización del que muestran ustedes en sus preguntas, y del que me imagino mostrará en la segunda parte de su intervención, y por tanto sinceramente le digo que desconozco cuál es el nivel de satisfacción de eso que llama usted los sectores, fuera obviamente de algunas declaraciones públicas de alguno. En cambio puedo decirle sin arriesgar que sí existen una serie de datos alentadores sobre la evolución de las industrias culturales y creativas en este último ejercicio que permiten un cierto optimismo, siendo plenamente consciente de las grandes dificultades que la situación presupuestaria y la situación económica han supuesto para este sector.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u120" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Martín Peré.</seg>
             </u>
@@ -742,7 +740,7 @@
                <note>Aplausos</note>
                <pb n="24"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u122" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u122" ana="#chair">
                <seg>Muchas gracias, señor Martín Peré.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -752,12 +750,12 @@
                <seg>Muchas gracias, señor Martín Peré.</seg>
                <seg>Considero a mi propia persona mucho menos importante que los temas que usted ha planteado, y prefiero referirme a esos datos a los que antes hacía alusión. Si hablamos de artes escénicas, en el último año ha habido un crecimiento del 12 % en el número de compañías de teatro, del 3 % en el número de compañías de danza, del 4 % en espacios escénicos y del 5 % en salas de concierto. El programa Platea ha movilizado más de 1.200 funciones en salas y 77 en la calle, más de 225.000 espectadores. El cine español, señor Martín Peré -me imagino que no le gusta a usted el dato-, ha tenido el mejor año de su historia en el año 2014. Además hemos cambiado, con pleno consenso del sector, todo el sistema de ayudas a la cinematografía, y lo acabamos de hacer en un reciente real decreto-ley que fue convalidado en esta Cámara hace un par de semanas. Hemos luchado contra la piratería de una forma más eficiente que ningún Gobierno anterior. Hemos actuado contra casi 400 webs. Hemos conseguido el cierre de 31 y la eliminación de material contrario a la propiedad intelectual en más de 300 de ellas. El mundo de la música el año pasado ha registrado un incremento del 21,2 % en las ventas, con un incremento aún mayor en la compra legal de música en soporte digital, y también la edición y el libro han tenido crecimientos. Entiendo que estos datos, que son datos que se pueden consultar en la propia web...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u124" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u124" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA SILVIA OÑATE MOYA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE EDUCACIÓN, CULTURA Y DEPORTE: ¿POR QUÉ NO PROMUEVE EL GOBIERNO EL CUMPLIMIENTO DEL PRINCIPIO DE IGUALDAD REAL Y EFECTIVA ENTRE MUJERES Y HOMBRES EN EL ÁMBITO DEL DEPORTE?</seg>
                <note>Número de expediente 180/001355</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u125" ana="#chair">
                <seg>Pregunta también dirigida al señor ministro de Educación, Cultura y Deporte que formula la diputada doña Silvia Oñate del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u126"
@@ -768,7 +766,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u127" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -779,7 +777,7 @@
                <seg>Gracias, señora Oñate, y saludo también a la señora León, que ha mostrado cierta resistencia a reunirse, pese a las invitaciones que ha recibido para ello...</seg>
                <note>Varios señores diputados: ¡Oh!- Rumores.-Protestas por parte del señor Pezzi Cereto</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u129" ana="#chair">
                <seg>¡Silencio, por favor! Señor Pezzi, silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u130"
@@ -789,7 +787,7 @@
                <seg>Señora Oñate, pongo a su disposición -se lo hará llegar esta misma mañana- un calendario preciso de todas las actuaciones que en este caso se han realizado. Me sorprende que diga que este Gobierno no promueve la igualdad entre hombres y mujeres en el deporte, cuando bajo este Gobierno la presencia de las mujeres en los órganos directivos de las federaciones deportivas españolas se ha incrementado un 59 %, cuando este Gobierno ha creado una Subdirección General de Mujer y Deporte que antes no existía, cuando este Gobierno ha puesto en marcha el programa Universo Mujer, que además ha sido<pb n="25"/> calificado como acontecimiento de excepcional interés, cuando bajo este Gobierno, señora Oñate, se están produciendo los mejores éxitos del deporte femenino español de toda la historia.<note>Protestas</note> Seleccionen, pues, los temas con un poquito más de oportunidad, y aprovecho para desear suerte a la Selección Española de Fútbol Femenino, que esta noche se enfrenta a Corea y puede pasar a octavos de final.</seg>
                <note>Aplausos.-Protestas por parte de la señora Costa Palacios</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u131" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u131" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora Costa, no está usted preguntando.<note>Un señor diputado: ¡Por ahora!</note> Señora Oñate.</seg>
             </u>
@@ -800,7 +798,7 @@
                <seg>Muchas gracias.</seg>
                <note>Varios señores diputados: ¡Muy bien!-Prolongados aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u133" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u133" ana="#chair">
                <seg>Muchas gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -812,12 +810,12 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u135" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u135" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA MARÍA VIRTUDES MONTESERÍN RODRÍGUEZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE INDUSTRIA, ENERGÍA Y TURISMO: ¿PIENSA EL GOBIERNO QUE LA SUBASTA ANUAL POR INTERRUMPIBILIDAD ES LA MEJOR FÓRMULA PARA MANTENER EL EMPLEO EN LAS EMPRESAS GRANDES CONSUMIDORAS DE ENERGÍA?</seg>
                <note>Número de expediente 180/001356</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u136" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u136" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Industria, Energía y Turismo. La formula la diputada doña Mariví Monteserín del Grupo Parlamentario Socialista.</seg>
                <pb n="26"/>
             </u>
@@ -829,7 +827,7 @@
                <seg>Muchas gracias, señor ministro.</seg>
                <note>Una señora diputada: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u138" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u138" ana="#chair">
                <seg>Muchas gracias, señora Monteserín.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -840,11 +838,11 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u140" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u140" ana="#chair">
                <seg>Gracias, señor ministro.<pb n="27"/> - DE LA DIPUTADA DOÑA LAURA CARMEN SEARA SOBRADO, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿POR QUÉ NO HA DADO CUMPLIMIENTO EL GOBIERNO A LOS MANDATOS DE ESTA CÁMARA SOBRE ADECUACIÓN DE LA LEGISLACIÓN ESPAÑOLA A LAS PREVISIONES DE LA CONVENCIÓN INTERNACIONAL SOBRE DERECHOS DE LAS PERSONAS CON DISCAPACIDAD?</seg>
                <note>Número de expediente 180/001357</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u141" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u141" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Sanidad, Servicios Sociales e Igualdad. Pregunta en primer lugar la diputada doña Laura Seara, del Grupo Parlamentario Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u142"
@@ -852,7 +850,7 @@
                ana="#regular">
                <seg>Señor ministro, el 1 de agosto de 2011, bajo el Gobierno del presidente Zapatero, se aprobó la Ley de adaptación a la Convención internacional de derechos de las personas con discapacidad. En ella se instaba al Gobierno para que en el plazo de un año aprobara una norma que diera cumplimiento a lo relativo con el ejercicio de la capacidad jurídica de las personas con discapacidad. Hasta hoy, señor ministro. El 23 octubre del año 2013 el Congreso aprobó una PNL instando también al Gobierno a elaborar en el plazo de seis meses un informe con estas propuestas legislativas incluyendo las que afectaban también al derecho electoral. Hasta hoy también. Por tanto, nosotros le preguntamos: ¿Por qué no han dado cumplimiento a estos mandatos, señor ministro?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u143" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u143" ana="#chair">
                <seg>Gracias, señora Sara.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -863,7 +861,7 @@
                <seg>Señora Seara, sabe usted que desde que se ratificó la Convención internacional sobre derechos de las personas con discapacidad España ha realizado un trabajo intenso, progresivo, continuado de adaptación al mandato de la convención, trabajo que comenzaron en su legislatura, en la última del Partido Socialista, y que este Gobierno también ha continuado; por tanto, se ha seguido trabajando en ello. Lo más importante desde el punto de vista legislativo fue la agrupación de las tres leyes principales en materia de discapacidad: la Lismi, la Liundau y la Ley de infracciones y sanciones en materia de igualdad de oportunidades, no discriminación y accesibilidad universal. Como usted sabe, se han integrado en una nueva norma que se venía demandando desde hacía mucho tiempo por parte de las organizaciones representativas de la discapacidad y de sus familias. Por tanto, importantes aspectos que estaban recogidos en las leyes, como la educación o la accesibilidad, que habían sido desarrollados por leyes posteriores específicas y que tanto en su terminología como en su enfoque estaban lejos de los principios contenidos previstos en la Convención de Naciones Unidas, se han podido adecuar.</seg>
                <seg>El enfoque es que las personas con discapacidad son titulares de derechos. Todo este trabajo ha convertido a España en un referente internacional en materia de discapacidad y en nuestro proceso de adaptación a la Convención de Naciones Unidas que, como usted señala, no está completo. A usted le preocupan -y a mí también- las adaptaciones de nuestro sistema de tutela, de curatela y del derecho de voto de las personas con discapacidad. En ese sentido, se constituyó un grupo de trabajo con los Ministerios de Interior y de Justicia, que está trabajando en la previsión para la adaptación de estas normas.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u145" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u145" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora Seara.</seg>
             </u>
@@ -874,7 +872,7 @@
                <seg>Hoy va a ser probablemente el hombre del día, y como seguro que hablará con el señor Rajoy déle un recado de nuestra parte, a él y a su cuenta de Twitter. Dígale que aplazar esta reforma un día, un mes y un año sí es mezquino y sectario y no los pactos alcanzados en los ayuntamientos de nuestro país. ¿Sabe por qué? Porque ustedes cuanto más gobiernan más daño hacen a quienes menos lo merecen, señor Alonso.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u147" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u147" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -884,12 +882,12 @@
                <seg>No ha debido ir muy bien en Orense, pero eso no es una responsabilidad atribuible a mí. En España no hay 2,5 millones de personas con discapacidad, señora Seara, hay casi 4 millones, y nosotros pensamos en todos ellos, en todos los que tienen esa limitación. Se ha hecho una política no solo activa sino muy reconocida de apoyo a todo el sector, de hecho España fue merecedora en el año 2013 del Premio Roosevelt que otorga Naciones Unidas y que es como el Nobel de la discapacidad. Otros lo reconocen fuera y, por tanto, creo que también es bueno que aquí hablemos bien de nuestro país. Y si hablamos de voto, de la voluntad que emana de las urnas, también es bueno que se respete alguna vez la decisión mayoritaria de los ciudadanos, no como hacen ustedes que para encubrir sus derrotas son capaces de pactar con cualquiera.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u149" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u149" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA ESPERANÇA ESTEVE ORTEGA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿CÓMO TIENE PREVISTO EL GOBIERNO INCORPORAR LA ATENCIÓN A LAS PERSONAS EN SITUACIÓN DE DEPENDENCIA MODERADA?</seg>
                <note>Número de expediente 180/001358</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u150" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u150" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Sanidad, Servicios Sociales e Igualdad y que formula la diputada doña Esperança Esteve, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u151"
@@ -898,7 +896,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>Señor ministro, ¿cómo tiene previsto el Gobierno incorporar al sistema la atención a las personas en situación de dependencia moderada?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u152" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u152" ana="#chair">
                <seg>Gracias, señora Esteve.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -909,7 +907,7 @@
                <seg>Gracias, señora Esteve, le agradezco la pregunta. Hemos hablado más veces de este asunto en la Cámara. Como usted sabe, las personas con dependencia moderada, que son más de 300.000 y que están ya valoradas, se tienen que incorporar, como preveía la Ley de Dependencia, en el séptimo y octavo años de aplicación; por tanto, la incorporación está prevista a partir del 1 de julio. En ese sentido, las comunidades autónomas, que son las que reconocen la situación de dependencia, integrarán a estas personas y les ofrecerán el recurso correspondiente. En cuanto a la financiación y las obligaciones que tienen que cumplir la Administración General del Estado y el ministerio, la incorporación de estas personas está garantizada a través de los créditos del presupuesto de 2015 y, como le he dicho en esta Cámara y vuelvo a reiterar hoy, con las ampliaciones de crédito que sean precisas para cubrir tanto las necesidades que ya se venían devengando a lo largo de este año como las nuevas que se detecten como consecuencia de la incorporación de estas 300.000 personas con dependencia moderada.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u154" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u154" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora Esteve.</seg>
                <pb n="29"/>
@@ -922,7 +920,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u156" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u156" ana="#chair">
                <seg>Muchas gracias, señora Esteve.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -934,13 +932,13 @@
                <seg>Hemos ido garantizando las liquidaciones mes tras mes. En este momento no hay absolutamente ninguna cantidad pendiente, y sobre las modificaciones presupuestarias, de las que le hablaba, es verdad que vienen siendo una práctica habitual para adecuar los créditos que existen en los presupuestos a la demanda que realmente se va produciendo. Siempre ha habido ampliaciones; en 2009 fue de 468 millones; 358 en 2010; el año pasado fue de 58 millones de euros. Este año habrá que hacer una ampliación para adecuar el presupuesto y para incluir a los 300.000 dependientes moderados, y le garantizo que las comunidades autónomas recibirán, como viene haciendo hasta ahora, mes tras mes, la liquidación oportuna. Con lo cual, habremos cumplido con el despliegue de la ley y ahí estará la mano tendida para evaluar, definitivamente, cómo ha ido y para mirar al futuro de la Ley de promoción de autonomía y de la dependencia. Espero que...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u158" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u158" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO MIXTO , SOBRE LA POSTURA DEL GOBIERNO EN RELACIÓN CON LA SITUACIÓN DE CRISIS Y EL MODO CONCRETO EN QUE AFECTA A LAS MUJERES.</head>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u159" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u159" ana="#chair">
                <seg>Interpelación del Grupo Mixto, de la señora Enbeita, sobre la postura del Gobierno en relación con la situación de crisis y el modo concreto en que afecta a las mujeres. Tiene la palabra la señora Enbeita.</seg>
                <pb n="30"/>
             </u>
@@ -1247,7 +1245,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <pb n="51"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u199" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u199" ana="#chair">
                <seg>Muchas gracias, señor Larreina.</seg>
                <seg>Por el Grupo Vasco, PNV, tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -1260,7 +1258,7 @@
                <seg>Por tanto, reclamar a Europa una política más expansiva, como han practicado los Estados Unidos, seguramente nos hubiera evitado muchísimos sufrimientos innecesarios y nos hubiera ayudado a salir de la crisis económica de verdad, por lo que debemos plantear esta cuestión. Ahí estarían, como dice la moción, los eurobonos, una política presupuestaria más expansiva, un BEI más comprometido, un presupuesto comunitario más expansivo, etcétera. En todo caso, medidas comprometidas para la salida de la crisis. Lo que no sé si estará o si debería estar en este juego es el Plan Juncker, que no nos lo han sabido explicar y que parece que ha desaparecido antes de que se pusiera en marcha. Queremos un cambio de la política económica con realidades, no con ocurrencias. Compartimos también plenamente que el crecimiento, no sé si justo es la palabra adecuada, pero sí que ha de ser un crecimiento inclusivo, integrador y positivo para todos aquellos que lo han pasado peor en estos años de la crisis económica. Las desigualdades generadas y el desempleo elevado han afectado a los más débiles, a los menos cualificados, a las mujeres, a los jóvenes, a los mayores de cuarenta y cinco años; en definitiva, a los más desprotegidos. La precarización salarial y las condiciones laborales, la pobreza que se ha generado en tantos y tantos ámbitos, desde la pobreza infantil a la energética, la marginación que ello supone debe ser corregida y debe ser considerada a la hora de establecer la política económica para que se produzca un crecimiento económico inclusivo y justo. En este sentido, proponen revisar la reforma laboral, apoyar la formación profesional, la I+D, la lucha contra el fraude, la revisión en profundidad del sistema tributario, un sistema en el que paguen más los que más tienen, los que más capacidad tienen, basado en criterios de solidaridad y de progresividad fiscal, unas políticas de gasto paliativas, integradoras, etcétera. Con todas ellas estamos de acuerdo -cómo no- y nos parecen necesarias.</seg>
                <seg>Poco más podemos decir al fijar la posición en una moción. Ahora bien, para poner estas medidas en funcionamiento es preciso entrar, como decía, en el detalle de las cosas, en el impacto de las mismas, en los costes, en la coherencia de estas políticas para que no se anulen unas con otras ni tengan efectos contradictorios. Es decir, hay que estudiarlo con detenimiento. Hoy simplemente pulsamos la situación y comentamos una primera impresión. Un ejemplo de consistencia de esto que le comento y que en este caso no se da, es que muchas políticas -como comprenderá, el Grupo Socialista y el señor Moscoso lo saben perfectamente- deben ser implementadas también por las comunidades autónomas. Por ejemplo, la política industrial, la política de vivienda y tantas otras, y no solo por una cuestión de competencia -que<pb n="52"/> no es poco respetar los márgenes competenciales-, sino porque es un tema también de efectividad de la política, por eficiencia.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u201" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u201" ana="#chair">
                <seg>Señor Azpiazu, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u202"
@@ -1269,7 +1267,7 @@
                <seg>Termino, señor presidente.</seg>
                <seg>Dentro de poco, con un nuevo Gobierno, con una nueva Comisión tendremos que hablar de estos temas. Desde el Grupo Vasco queremos y lo vamos a hacer porque es muy importante, porque nos queda todavía bastante tiempo para salir de verdad de la crisis. Por todo esto, vamos a votar favorablemente a esta moción.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u203" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u203" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por Unión Progreso y Democracia, tiene la palabra el señor Calduch.</seg>
             </u>
@@ -1283,7 +1281,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u205" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u205" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Garzón.</seg>
             </u>
@@ -1296,7 +1294,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u207" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u207" ana="#chair">
                <seg>Muchas gracias, señor Garzón.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> tiene la palabra el señor Picó.</seg>
             </u>
@@ -1307,7 +1305,7 @@
                <seg>Por mucho que algunos datos macroeconómicos estén mejorando -y es así-, en ningún caso se puede afirmar que la crisis haya acabado. Los terribles datos del paro que aún se mantienen, especialmente en el caso de jóvenes y de mayores de cincuenta años, junto con el elevado número de personas en situación de desempleo desde hace ya demasiados años, no permiten a mi grupo parlamentario compartir las alegrías que algunos han manifestado y continúan manifestando. No nos podemos situar en la satisfacción cuando la situación familiar y personal de muchos ciudadanos continúa siendo dramática; los datos de pobreza persisten y la desigualdad no para de agrandarse. Es imposible, señorías, estar satisfecho con esta situación.<pb n="54"/> El Grupo Parlamentario Socialista nos presenta con esta moción sus recetas económicas, con propuestas generalistas como la necesaria reindustrialización, el impulso de la investigación, el incremento de las dotaciones de las políticas activas de empleo, la adopción de un plan de choque contra el desempleo de larga duración, la reducción del IVA cultural, entre otras muchas. El señor Moscoso ha dedicado su intervención a explicar sobradamente los puntos propuestos, y creo que ha hecho un buen análisis de la situación. Pero, señor Moscoso, no nos puede pedir al resto de fuerzas políticas representadas en este Pleno una adhesión a sus propuestas, y se lo digo desde la perspectiva de que en términos generales podemos compartir muchas de las que usted ha propuesto a través de la moción formulada, pero si entramos a fondo en el análisis de estas propuestas mi grupo parlamentario puede poner muchos acentos diferenciadores. Le pondré algunos ejemplos. El último punto de la moción, el que se refiere a la competencia efectiva en los mercados de bienes y servicios, no contiene ni una mínima referencia a la Ley de Unidad de Mercado, una ley a la que mi grupo parlamentario -y también el suyo- nos hemos opuesto y manifestado radicalmente en contra. Quiero recordar que estamos hablando de una ley totalmente intervencionista, una ley totalmente burocratizadora, una ley que vulnera completamente las competencias que ostentan las comunidades autónomas, y una ley uniformizadora y centralizadora que pretende asumir las competencias como digo de las comunidades autónomas en muchísimos aspectos normativos, para borrarlas del mapa o intentar eliminarlas. Ninguna referencia en su moción. O por ejemplo -el señor Azpiazu se refería también a ello- su moción habla de agilizar la aplicación y poner en marcha de forma efectiva el programa de garantía juvenil. Habla de una política integral de reindustrialización. Se refiere al medio rural, entre otros aspectos, pero en ninguno de estos casos -en ninguno, señor Moscoso- se consideran las competencias que ostentan las comunidades autónomas en estas materias. Le pongo el ejemplo de Cataluña. Cataluña ostenta competencias en materia de industria, en materia de empleo, en materia de agricultura, y no se hace ninguna referencia, señor Moscoso, a las comunidades autónomas en los puntos que usted ha propuesto. Dos ejemplos como le digo entre otros muchos que le podría poner, y que a pesar de compartir la música general de su moción, no nos permiten compartir plenamente su propuesta. Compartimos el fondo, repito, pero a su moción le pondríamos acentos, acentos que para nosotros son importantes.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u209" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u209" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Por el Grupo Popular tiene la palabra el señor Tarno.</seg>
             </u>
@@ -1322,12 +1320,12 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u211" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u211" ana="#chair">
                <seg>Muchas gracias, señor Tarno.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO MIXTO<note>SEÑOR QUEVEDO</note> , SOBRE LA LIBRE CIRCULACIÓN DE LAS OBRAS DE ARTE ENTRE CANARIAS-PENÍNSULA-EUROPA-CANARIAS.</seg>
                <note>Número de expediente 173/000219</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u212" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u212" ana="#chair">
                <seg>Moción del Grupo Mixto, del señor Quevedo, sobre la libre circulación de las obras de arte entre Canarias-península-Europa-Canarias. Para su defensa tiene la palabra el señor Quevedo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u213"
@@ -1341,7 +1339,7 @@
                <seg>Confiamos en que todo el mundo asuma sus responsabilidades, el Parlamento de Canarias y el Gobierno de Canarias las que tiene, y el Gobierno de España las suyas. También quiero agradecer el apoyo que me ha parecido percibir por parte de los distintos grupos especialmente. Consideramos que con esto estamos haciendo un ejercicio de responsabilidad, y confiamos en que sirva para desbloquear un asunto que por ser es elemental, evidente, y de pura justicia en nuestra opinión. Por tanto celebraremos -si las cosas evolucionan como creemos- que en este caso hayamos sido capaces de ponernos todos de acuerdo.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u214" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u214" ana="#chair">
                <seg>Muchas gracias, señor Quevedo.</seg>
                <seg>Como muy bien ha dicho el propio señor Quevedo hay una sola enmienda presentada por el Grupo Parlamentario Popular a esta moción, y para su defensa tiene la palabra el señor Cabrera.</seg>
             </u>
@@ -1354,7 +1352,7 @@
                <seg>Señorías, todos tenemos la firme voluntad de encontrar soluciones, y mucho trabajo se ha realizado ya desde hace más de una década, pero ha sido también -hay que ser justo- con este Gobierno cuando más se han concretado las medidas para eliminar barreras aduaneras, dentro de lo que son las competencias del Gobierno de la nación. Ya en 2001 el Diputado del Común recogía esta problemática. El propio presidente autonómico entonces, don Adán Martín, y la diputada doña Nardy Barrios, comprometían entonces una comisión de investigación. En 2004 el entonces ministro de Justicia, don Juan Fernando López Aguilar, abordó el asunto también en una rueda de prensa. Más recientemente, en 2013, se abordaron mociones y preguntas orales en el Senado por parte del Grupo Socialista, y también proposiciones de ley en el mismo año del Partido Popular en el Congreso. Asimismo en el Parlamento de Canarias fueron aprobadas distintas iniciativas para abordar los mismos problemas de estos trámites; jornadas en Tenerife en 2007; jornadas recientemente, en 2015, en Gran Canaria. En definitiva todas estas iniciativas abordaron la movilidad de las obras y su doble consideración de bien cultural y comercial. Paralelamente en el ámbito de la Unión Europea el eurodiputado don Gabriel Mato viene realizando gestiones, coordinando los esfuerzos de las tres administraciones: la autonómica, la central y la de la Unión Europea. En 2014, como bien se ha adelantado aquí, tanto en el Congreso como en el Senado en diferentes comisiones de Cultura se instaba al Gobierno a encontrar soluciones, y el Gobierno ha estudiado y sigue estudiando algunas alternativas -algunas se han puesto en marcha ya- que no son sencillas, puesto que como todos sabemos cualquier decisión debe estar dentro de los límites que establece la normativa europea en esta materia. Está bien reiterar estos esfuerzos, pero tenemos que seguir avanzando y concretando algunas propuestas.</seg>
                <seg>Señorías, los límites de la solución no se encuentran en nuestra propia regulación, sino en las obligaciones que se generan a partir de la normativa europea, a partir de las directivas de la Unión. Dicho esto, el Gobierno, sin menoscabo de que haya que seguir avanzando, no solo ha planteado estar en la mejor disposición, sino que también está haciendo esfuerzos para reconocer y compensar los costes derivados de esta situación. Cabe recordar, como adelantaba también el señor Quevedo -ha sido una buena noticia para Canarias-, el gran consenso que hemos conseguido para dotarnos de un nuevo Régimen Económico y Fiscal, nuestro REF, el más avanzado, ambicioso y potente que nunca antes habíamos tenido para nuestra comunidad, y que como bien reconoce el Gobierno de Canarias representa todos los intereses de la sociedad canaria. Y quiero recordar la importante implicación del Gobierno de la nación ante las negociaciones que se llevaron a cabo en la Unión Europea en unos momentos de máxima dificultad, pero habrá que seguir concretando y desarrollando ámbitos económicos y reduciendo costes burocráticos como los que hoy traemos a este debate. Por otro lado, se ha conseguido una significativa simplificación de los trámites que se realizan, tanto para la entrada de los citados bienes culturales en la península como para su salida. Mediante una resolución de la directora del departamento...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u216" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u216" ana="#chair">
                <seg>Señor Cabrera, debe ir usted acabando, máxime cuando le han aceptado la enmienda.</seg>
                <note>Risas</note>
             </u>
@@ -1366,7 +1364,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u218" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u218" ana="#chair">
                <seg>Muchas gracias, señor Cabrera.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , para fijación de posición, tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -1376,7 +1374,7 @@
                <seg>Señor presidente, señorías, señor Quevedo, recuerdo que hace muchos años -quizá diez- un artista canario precisamente me habló sobre el tema que hoy se nos trae a través de esta moción. Desconocía entonces el asunto, pero no era difícil darse cuenta de que existía una traba innecesaria, injusta y costosa para que los artistas canarios pudieran trasladar sus obras a la península o a Europa, para que pudieran ser expuestas y contempladas como las de otros peninsulares o europeos. Era una discriminación que evidentemente había que corregir, pero parece que todavía está pendiente. Al que me lo explicaba y a mí mismo nos parecía evidente, y por lo tanto creíamos que era cuestión de poco tiempo, pero desgraciadamente no ha sido así. Dado que no estoy en la Comisión de Cultura y no tengo información específica al respecto sinceramente pensaba que este asunto estaba ya resuelto. Sin embargo por la moción presentada observo que el problema sigue, y que poco o nada se ha hecho al respecto. Veremos si esta es la última moción y es la buena. Poco o nada se ha hecho a los efectos de considerar la producción artística de Canarias como bien cultural, y no solo como bien comercial o de mercado, garantizando así su libre circulación en igualdad de condiciones que la producción artística de la península. Se han hecho declaraciones y proposiciones no de ley aprobadas en Canarias y en esta Cámara, incluso por unanimidad, y como otras proposiciones están en el cajón de las promesas y los compromisos incumplidos; en ese cajón de proposiciones no de ley, mociones e iniciativas aprobadas y olvidadas. Desgraciadamente así es la política, y ese suele ser el final de muchas de esas iniciativas en esta Cámara. Incluso el compromiso del propio Ministro de Hacienda se ha quedado en agua de borrajas. Todos considerábamos y consideramos que es preciso corregir la situación, pero de hecho hace tan solo seis meses, cuando se aprobó el Régimen Económico y Fiscal de Canarias, que era el instrumento idóneo para solventar esta cuestión, no se hizo. La pregunta es por qué. Pero independientemente de cuál sea la respuesta, es preciso conseguir en esta Cámara un compromiso firme para que no se demore más y no sea un asunto para la siguiente legislatura, sino que se resuelva efectivamente en lo poco que queda de esta legislatura. Además viendo cómo legisla el Partido Popular por reales decretos-leyes y leyes ómnibus, cualquier ley puede ser buena para incorporar la reforma que reclaman los artistas canarios, los partidos canarios y el resto de los grupos parlamentarios.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u220" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-17-CD150617.u220" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia, tiene la palabra el señor Lleonart.</seg>
             </u>

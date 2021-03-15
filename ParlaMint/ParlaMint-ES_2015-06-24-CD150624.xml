@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="207">207 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="207" xml:lang="es">207 speeches</measure>
+            <measure unit="speeches" quantity="207" xml:lang="en">207 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -75,7 +77,7 @@
                <tagUsage gi="head" occurs="3"/>
                <tagUsage gi="pb" occurs="55"/>
                <tagUsage gi="u" occurs="207"/>
-               <tagUsage gi="lb" occurs="506"/>
+               <tagUsage gi="seg" occurs="506"/>
                <tagUsage gi="note" occurs="134"/>
             </namespace>
          </tagsDecl>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>PREGUNTAS - DEL DIPUTADO DON JON IÑARRITU GARCÍA, DEL GRUPO PARLAMENTARIO MIXTO, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿EN QUÉ CONSISTIRÁ EL APOYO DEL GOBIERNO ESPAÑOL AL PROCESO DE PAZ EN COLOMBIA?</head>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Preguntas dirigidas al Gobierno, y en este caso concreto al señor presidente del Gobierno. Pregunta, en primer lugar, del diputado don Jon Iñarritu, del Grupo Mixto.</seg>
             </u>
@@ -109,7 +107,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Rajoy, ¿en qué consistirá el apoyo de su Gobierno al proceso de paz en Colombia?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u3" ana="#chair">
                <seg>Gracias, señor Iñarritu.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -121,7 +119,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u5" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Iñarritu.</seg>
             </u>
@@ -133,7 +131,7 @@
                <seg>A estas alturas ya no le preguntaré por el caso vasco ya que sabida es su respuesta, pero sí me gustaría saber cómo impulsarán ustedes el proceso de paz colombiano ante los intentos de sabotaje que están realizando los sectores más ultras, como el del señor Uribe.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u7" ana="#chair">
                <seg>Muchas gracias, señor Iñarritu.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -145,10 +143,10 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u9" ana="#chair">
                <seg>Muchas gracias, señor presidente.<pb n="7"/> - DEL DIPUTADO DON AITOR ESTEBAN BRAVO, DEL GRUPO PARLAMENTARIO VASCO<note>EAJ-PNV</note> , QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿CONSIDERANDO QUE EL GOBIERNO HA INCUMPLIDO GRAVEMENTE SU OBLIGACIÓN, QUE QUEDÓ LEGALMENTE ESTABLECIDA, DE PRESENTAR UN INFORME SOBRE EL GRADO DE DESARROLLO DE LA PREVISIÓN SOCIAL COMPLEMENTARIA Y SOBRE LAS MEDIDAS QUE PODRÍAN ADOPTARSE PARA PROMOVER SU DESARROLLO EN EL ESTADO ESPAÑOL, QUÉ PREVISIONES TIENE EL GOBIERNO AL RESPECTO? 180/001362).</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u10" ana="#chair">
                <seg>Pregunta que formula también al presidente del Gobierno el diputado don Aitor Esteban, del Grupo Parlamentario Vasco, PNV.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u11"
@@ -157,7 +155,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>La disposición adicional decimonovena de la Ley 27/2011, de 1 de agosto, sobre actualización, adecuación y modernización del sistema de Seguridad Social, establece que en el plazo de seis meses el Gobierno remitirá al Congreso un informe sobre el grado de desarrollo de la previsión social complementaria y sobre las medidas que podrán adoptarse para promover su desarrollo en España. La ley entró en vigor el 1 de enero de 2013 y, por tanto, el plazo de remisión finalizó el 30 de junio del año 2013, hace ya dos años; todo ello, evidentemente, enmarcado en las recomendaciones de la Comisión del Pacto de Toledo, que hablaba de un insuficiente grado de desarrollo de la previsión social complementaria en el Estado español y la necesidad de seguir reforzándola. Sin embargo, en estos últimos tiempos lo que hemos vivido ha sido una pluralidad de discursos desde diferentes ministerios del Gobierno, y esta pluralidad de discursos ha incidido, a nuestro entender de manera negativa, en la definición a futuro del sistema; un sistema que el presidente del Gobierno ha elogiado en muchas ocasiones. Se han producido diversas medidas debilitadoras; desde el discurso del modelo de Estado -un ejemplo es el recurso de inconstitucionalidad que se puso contra la Ley vasca de previsión social complementaria-, truncando una línea mantenida durante más de quince años y un trabajo que había sido calificado como excelente por parte de este Gobierno y de los anteriores; desde el discurso de reducción del gasto público, porque ha habido prohibición de aportaciones institucionales a las EPSV y a planes de pensiones y ha habido que negociar una y otra vez la posibilidad de que aquellas instituciones que lo desearan pudieran continuar con sus aportaciones; desde el discurso de la negociación colectiva porque al debilitarse la función de los convenios provinciales de ámbito inferior al estatal que dinamizaban los pactos de empresa se ha disminuido el tema de las EPSV; desde el discurso de fortalecimiento de la Seguridad Social, a la hora de definir cómo se computan las bases de cotización. Todo esto pone en cuestión proyectos avanzados, proyectos importantes y modelos a seguir. Por eso, le urjo, le pido, señor presidente, que presente cuanto antes ese informe y que el Gobierno enfile una política que impulse la previsión social voluntaria en el Estado.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u12" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -169,12 +167,12 @@
                <seg>Es verdad que hemos recurrido una ley del Gobierno vasco sobre entidades de previsión social voluntaria del año 2012 y es verdad que en el año 2014 el Tribunal Constitucional nos ha dado la razón. Por tanto, simplemente...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u14" ana="#chair">
                <seg>Gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON PEDRO SÁNCHEZ PÉREZ-CASTEJÓN, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿CÓMO VALORA EL PRESIDENTE DEL GOBIERNO EL IMPACTO DE SUS POLÍTICAS EN LOS HOGARES ESPAÑOLES?</seg>
                <note>Número de expediente 180/001365</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u15" ana="#chair">
                <seg>Pregunta al señor presidente del Gobierno, que formula el diputado don Pedro Sánchez, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u16"
@@ -183,7 +181,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Rajoy, me gustaría saber qué consideración le merece el impacto de sus políticas en el gasto de las familias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u17" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -195,7 +193,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u19" ana="#chair">
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Sánchez.</seg>
             </u>
@@ -207,7 +205,7 @@
                <seg>Hay que recordar que usted, señor Rajoy, llegó al Gobierno defraudando a los españoles porque dijo que iba a hacer una cosa y en cuanto llegó al Gobierno hizo la contraria.<note>Protestas</note> Sí, hizo la contraria, y ahora usted pretende hacer creer a los españoles que en cuatro meses va a enmendar todo lo que ha desmantelado en cuarenta y dos. Le digo una cosa, señor Rajoy, sencilla y llanamente, usted no tiene ninguna credibilidad respecto a los españoles.</seg>
                <note>Varios señores diputados: ¡Oh!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u21" ana="#chair">
                <seg>Señor presidente.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u22"
@@ -218,11 +216,11 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos.-La señora López i Chamosa pronuncia palabras que no se perciben</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u23" ana="#chair">
                <seg>Señora Chamosa ¡no tiene usted un momento fijo para intervenir! No tiene usted ninguna pregunta para el Pleno.<note>Risas.-Rumores</note> - DEL DIPUTADO, DON ANTONIO HERNANDO VERA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA VICEPRESIDENTA DEL GOBIERNO Y MINISTRA DE LA PRESIDENCIA: ¿CÓMO VALORA LA SITUACIÓN DE LOS DERECHOS Y LIBERTADES EN ESPAÑA DESPUÉS DE TRES AÑOS Y MEDIO EN EL GOBIERNO?</seg>
                <note>Número de expediente 180/001366</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u24" ana="#chair">
                <seg>Pregunta dirigida a la señora vicepresidenta del Gobierno y ministra de la Presidencia. La formula el diputado don Antonio Hernando, del Grupo Socialista.</seg>
                <pb n="10"/>
             </u>
@@ -233,7 +231,7 @@
                <seg>Señora vicepresidenta, le pregunto acerca de su valoración sobre la situación de los derechos y las libertades en España después de tres años y medio de Gobierno y, más concretamente, sobre el derecho de información.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u26" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u26" ana="#chair">
                <seg>Muchas gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -245,7 +243,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u28" ana="#chair">
                <seg>Señor Hernando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u29"
@@ -257,7 +255,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u30" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -267,12 +265,12 @@
                <seg>¡Acabáramos, señor Hernando!<note>Rumores</note> Resulta que tras su grandilocuente pregunta sobre qué pasó con los derechos y libertades de los españoles en esta legislatura, a usted lo único que le preocupaba era el destino de dos personas. Tiene mucho que explicar usted, que fue portavoz de Interior y mano derecha del señor Pérez Rubalcaba, de por qué utiliza su pregunta para interesarse por el destino de dos policías cuando en toda la legislatura no se ha preocupado por el destino de 68.000. Tiene usted mucho que explicar.<note>Aplausos</note> Cuando quiera, señor Hernando, hacemos usted y yo un debate sobre derechos y libertades, aunque quizá le interesaría hacerlo en otro foro, porque lo que tendría que explicar es por qué su partido apoya a concejales en grupos municipales que ni defienden la libertad ideológica<note>Protestas</note> ni respetan la libertad<pb n="11"/> religiosa ni respetan los derechos de las víctimas, ya sean del holocausto, ya sean del terrorismo, y que critican la política penitenciaria. Quizá ese debate...<note>El señor Hernando Vera pronuncia palabras que no se perciben</note> Deje de insultarme, señor Hernando, que le leo los labios.<note>Rumores</note> Quizá ese debate, señor Hernando, lo debería usted plantear en los cientos de plenos municipales en los que ustedes están apoyando a radicales que no respetan ni el más mínimo de los derechos humanos. Esa es la patética posición de su grupo. Lo están perdiendo todo porque se están perdiendo a sí mismos<note>Rumores</note> y, sobre todo, le están perdiendo el respeto a sus votantes y al resto de los ciudadanos. Señor Hernando, preocúpese un poquito más de los derechos de los ciudadanos y un poquito menos de sus enjuagues dentro del Partido Socialista.</seg>
                <note>Aplausos.-Protestas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u32" ana="#chair">
                <seg>Muchas gracias, señora vicepresidenta.</seg>
                <seg>- DEL DIPUTADO DON CAYO LARA MOYA, DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, QUE FORMULA AL MINISTRO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN : ¿PIENSA EL GOBIERNO AMPARAR A LA CIUDADANA SAHARAUI TAKBAR HADDI, ACTUALMENTE EN HUELGA DE HAMBRE EN LAS PALMAS DE GRAN CANARIA, EN SU DEMANDA AL GOBIERNO DE MARRUECOS DEL CADÁVER DE SU HIJO PREVIA REALIZACIÓN DE UNA AUTOPSIA INDEPENDIENTE?</seg>
                <note>Número de expediente 180/001360</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u33" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u33" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Asuntos Exteriores y de Cooperación, que formula don Cayo Lara, del Grupo de La Izquierda Plural.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u34"
@@ -281,7 +279,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>Señor ministro, ¿piensa el Gobierno amparar a la ciudadana saharaui Takbar Haddi, que ha estado en huelga de hambre en Las Palmas de Gran Canaria en demanda al Gobierno de Marruecos del cadáver de su hijo, previa realización de una autopsia independiente?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u35" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u35" ana="#chair">
                <seg>Gracias, señor Lara.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -292,7 +290,7 @@
                <seg>En primer lugar, quiero decir que ante la tragedia a la que usted se refiere el Gobierno quiere expresar su pésame a la señora Haddi. En segundo lugar, quiero tranquilizarle y decir que hemos transmitido la preocupación que este suceso ha provocado en la opinión pública española al Gobierno de Marruecos.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u37" ana="#chair">
                <seg>Perdón, señor ministro.</seg>
                <seg>Por favor, ruego que despejen el hemiciclo los que no quieran quedarse. Estamos atendiendo a la pregunta hecha al señor ministro.</seg>
                <seg>Continúe, señor ministro.</seg>
@@ -304,7 +302,7 @@
                <seg>Como usted sabe, señor Lara, el señor Haidala fue herido en una reyerta el día 31 de enero, fue trasladado desde la comisaría al hospital de El Aaiún, cuando volvió a la comisaría se vio que la herida seguía sangrando y fue trasladado al hospital de Agadir, donde falleció. La señora Haddi viajó a los territorios del Sáhara para recoger el cadáver y se negó a hacerlo mientras no hubiese una autopsia independiente, en vista de lo cual el fiscal ordenó la inhumación. La señora Haddi comenzó una huelga de hambre que, como usted sabe, terminó el 16 de junio.</seg>
                <seg>Respecto a qué ha hecho el Gobierno en este caso, le diré que estamos en contacto permanente con las autoridades de Marruecos, haciendo un seguimiento constante de lo que está pasando a través de nuestra embajada en Rabat -hoy mismo me reuniré con el embajador y con la delegación del Gobierno en Canarias-. La policía trasladó a la fiscalía de El Aaiún el hecho al que usted se refiere y la investigación sigue abierta. Por último, quiero aprovechar la ocasión para subrayar que el Gobierno respeta -faltaría<pb n="12"/> más- las manifestaciones pacíficas, pero condena el asalto que se hizo al consulado de Marruecos en Las Palmas y se han tomado las medidas para que ese suceso no se vuelva a repetir.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u39" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u39" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Lara.</seg>
             </u>
@@ -316,7 +314,7 @@
                <seg>No estamos hablando de una pelea callejera por causas comunes, sino que hablamos de agresiones de colonos a colonizados, agresiones que han acabado con la vida de una persona. Reivindicar el derecho a la patria hoy en el Sáhara sigue costando la vida a la gente. En los territorios ocupados se siguen violando, como usted sabe, los derechos humanos; el Gobierno marroquí incumple todas las resoluciones de la ONU sobre derechos del pueblo saharaui. Nosotros lo seguimos considerando un pueblo hermano, ya que fue nuestra cincuenta y tres provincia y algunos exhiben el carné de españoles con mucho orgullo. España sigue siendo una potencia administradora de facto porque no se cumplieron las normas internacionales de descolonización y se permitió la ocupación por la fuerza del territorio que estaba bajo nuestro protectorado. Por tanto, intervenga en nombre del Gobierno y no permita, por supuesto, interferencias ni obstáculos en las demandas que se presentarán ante la justicia española.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u41" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u41" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -327,12 +325,12 @@
                <seg>Finalmente quiero señalarle que la posición del Gobierno sobre el tema de fondo es que queremos una solución política, justa, duradera, mutuamente aceptable y...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u43" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA MERITXELL BATET LAMAÑA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE JUSTICIA: ¿ESTÁ SATISFECHO EL MINISTRO DE JUSTICIA CON SU FORMA DE LEGISLAR?</seg>
                <note>Número de expediente 180/001369</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u44" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u44" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Justicia. En primer lugar pregunta de la diputada doña Meritxell Batet del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u45"
@@ -341,7 +339,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>¿Está satisfecho de cómo se está legislando?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u46" ana="#chair">
                <seg>Gracias, señora Batet.</seg>
                <seg>Señor ministro.</seg>
                <pb n="13"/>
@@ -354,7 +352,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u48" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señora Batet.</seg>
             </u>
@@ -371,7 +369,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u50" ana="#chair">
                <seg>Muchas gracias, señora Batet.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -383,12 +381,12 @@
                <seg>En cuanto al Código Penal, le recomiendo que estudien el asunto. Es una cuestión meramente doctrinal; los delitos menos graves de antes son ahora delitos leves, las penas son las mismas, el enjuiciamiento va a ser más ágil a través del juicio de faltas y por lo tanto...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u52" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u52" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON GONZALO JOSÉ ORDÓÑEZ PUIME, DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, QUE FORMULA AL SEÑOR MINISTRO DE JUSTICIA: ¿EN QUÉ MEDIDA EL REGLAMENTO EUROPEO DE PROTECCIÓN DE DATOS VA A CONTRIBUIR A REFORZAR LA TUTELA DE LOS DERECHOS DE LOS CIUDADANOS?</seg>
                <note>Número de expediente 180/001363</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u53" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Justicia y que formula el diputado don Gonzalo Ordóñez, del Grupo Popular.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u54"
@@ -400,7 +398,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u55" ana="#chair">
                <seg>Muchas gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -413,12 +411,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u57" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON PEDRO SAURA GARCÍA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CÓMO JUSTIFICA QUE SU POLÍTICA FISCAL INCREMENTE LA DESIGUALDAD?</seg>
                <note>Número de expediente 180/001370</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u58" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u58" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Hacienda y Administraciones Públicas que formula el diputado don Pedro Saura, del Grupo Parlamentario Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u59"
@@ -428,7 +426,7 @@
                <seg>Señor ministro, ¿cómo justifica que su política fiscal incremente la desigualdad en España?</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u60" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u60" ana="#chair">
                <seg>Gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -439,7 +437,7 @@
                <seg>Señor Saura, no lo puedo justificar de ninguna manera porque no es verdad. Lo que hemos hecho con la política tributaria es contribuir a la igualdad de los españoles. Desde el inicio de la legislatura subimos impuestos porque teníamos un déficit público oculto heredado del Gobierno socialista anterior y esa subida afectó a las grandes empresas y a las rentas más altas. Esto no es una opinión, son cifras; igual que no son opiniones sino cifras las consecuencias de la rebaja fiscal que ha comenzado en el año 2015. Por cierto, a ver si el señor Sevilla es capaz de explicar al señor Sánchez lo que es la progresividad en el impuesto sobre la renta de las personas físicas y que no compare los 50 euros de una cuota que puede ser proporcionalmente muy superior a los 12.000 euros de rentas superiores, que están pagando proporcionalmente mucho más tipo impositivo de acuerdo con su capacidad económica, tal y como determina nuestra Constitución. Señor Saura, estoy seguro de que el señor Sevilla, que tienen mucha experiencia, introducirá al señor Sánchez en los conceptos de progresividad y equidad tributaria y, por tanto, tendremos en el final de la legislatura un debate mucho más normalizado y racionalizado y no escucharemos afirmaciones que no se sostienen en ninguna realidad.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u62" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u62" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Saura.</seg>
                <pb n="16"/>
@@ -452,7 +450,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u64" ana="#chair">
                <seg>Gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -464,12 +462,12 @@
                <seg>Le voy a decir otra cosa más esta mañana. Como la recaudación tributaria está mejorando, como realmente tenemos un mejor cumplimiento el déficit en el conjunto de nuestras administraciones públicas, el programa del Gobierno es seguir utilizando...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u66" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA MARÍA GUADALUPE MARTÍN GONZÁLEZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DEL INTERIOR: ¿CONSIDERA EL SEÑOR MINISTRO DEL INTERIOR QUE LA POLÍTICA DESARROLLADA EN INSTITUCIONES PENITENCIARIAS CUMPLE CON LOS COMPROMISOS ADQUIRIDOS?</seg>
                <note>Número de expediente 180/001371</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u67" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u67" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro del Interior. Formula la primera la diputada doña Guadalupe Martín González, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u68"
@@ -477,7 +475,7 @@
                ana="#regular">
                <seg>¿Considera el ministro que la política desarrollada en Instituciones Penitenciarias cumple con los compromisos adquiridos?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u69" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -487,7 +485,7 @@
                <seg>Gracias, señor presidente.<pb n="17"/> Señoría, sí, cumple con los compromisos adquiridos, que lógicamente tienen en común el hecho de cumplir con los objetivos que tiene la institución penitenciaria asignados constitucionalmente y por nuestro ordenamiento jurídico.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u71" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señora diputada.</seg>
             </u>
@@ -499,7 +497,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u73" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -510,12 +508,12 @@
                <seg>Señoría, cuando ustedes dicen según qué cosas me viene a la memoria ese dicho de que piensa el ladrón que todos son de su condición.<note>Rumores</note> ¿Es que ustedes espiaban? Lo digo así claro. Porque parece mentira que ustedes puedan ni siquiera pensar que desde el Ministerio del Interior se está espiando a diputados.<note>Rumores</note> Eso sería un delito gravísimo. Si ustedes lo piensan y lo reiteran -y después me van a preguntar y voy a contestar con mucha claridad-, me empezaré a preocupar seriamente porque quiere decir que a lo mejor ustedes estaban en el pasado realizando prácticas de esas características.<note>Rumores.-Aplausos</note> Voy a la cuestión. Señoría, todos los programas de tratamiento existentes se mantienen y se han implementado algunos: programas de intervención en violencia familiar y doméstica, programa de prevención del delito, programa con agresores sexuales y abusadores de menores, programa de intervención en seguridad vial, programa frente a la pornografía infantil en Internet, programa de intervención frente a los agresores por violencia de género sometidos a medidas alternativas y programa contra el maltrato animal. Todos estos son nuevos en relación con los anteriores, que se mantienen. Le puedo decir además que en estos momentos hay 12.269 internos trabajadores en talleres penitenciarios, se han incrementado los planes de formación, de orientación laboral y de inserción laboral, y ha crecido porcentualmente el número de internos beneficiarios en enseñanzas regladas y no regladas. En materia de sanidad penitenciaria, señoría, la institución penitenciaria se ha integrado, como sin duda sabe, en el comité institucional de la estrategia nacional para la hepatitis C, con el objetivo general de asegurar la equidad en el acceso a las nuevas terapias para esta enfermedad infecciosa de alta prevalencia, como es evidente, en prisión. Se ha ampliado la oferta de actividades de rehabilitación en prisión para internos con problemas de adicción a drogas, entre otros dispositivos, mediante nuevas unidades UTE -unidades<pb n="18"/> terapéuticas educativas-; existen veinticuatro, de las cuales diez se han creado en esta legislatura. Y se está participando con el Plan nacional de drogas...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u75" ana="#chair">
                <seg>Gracias, señor ministro.<note>Protestas en la tribuna de invitados</note> No pueden ustedes intervenir. Evácuenlos.</seg>
                <seg>- DE LA DIPUTADA DOÑA PILAR GRANDE PESQUERO, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DEL INTERIOR: ¿CREE EL MINISTRO DEL INTERIOR QUE SU POLÍTICA EN MATERIA DE PLANIFICACIÓN Y EJECUCIÓN DEL GASTO SE ADECUA A LOS PRINCIPIOS QUE DEBEN REGIR LA ACTUACIÓN DE UN RESPONSABLE PÚBLICO?</seg>
                <note>Número de expediente 180/001372</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u76" ana="#chair">
                <seg>Continuamos con las preguntas dirigidas al señor ministro del Interior. Ruego silencio, por favor.</seg>
                <seg>Pregunta la diputada doña Pilar Grande, del Grupo Parlamentario Socialista.</seg>
             </u>
@@ -525,7 +523,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, sin ponerse nervioso ni regañarnos, ¿puede decirme si cree que su política en materia de planificación y ejecución del gasto se adecua a los principios que deben regir la actuación de un responsable público?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u78" ana="#chair">
                <seg>Gracias, señora Grande.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -534,7 +532,7 @@
                ana="#regular">
                <seg>Mi respuesta es que sí.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u80" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señora Grande.</seg>
             </u>
@@ -545,7 +543,7 @@
                <seg>Permítame una licencia personal.<note>Muestra una foto</note> Permítame que le presente a Kira, mi mascota, que, como muchas mascotas, es miembro de mi familia y cuando viaja lo hace en el transportín, en la bodega del avión y previo pago de las tasas. ¿Puede usted asegurarnos, señor ministro, que hace lo mismo con su perra Lola?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u82" ana="#chair">
                <seg>Muchas gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -558,13 +556,13 @@
                <seg>En cuanto a la otra pregunta que me hace, le diré, señoría, que las nuevas oficinas abiertas a lo largo de esta legislatura en relación con la expedición de documentos por parte del Cuerpo Nacional de Policía son: Lalín, en Pontevedra; Torrevieja, en Alicante; Alcañiz, en Teruel; Fraga, en Huesca; Vinaróz, en Castellón; Zafra, en Badajoz; Collado Villalba, en Madrid, y Tarancón, en Cuenca. Se encuentran en fase de estudio las siguientes oficinas: Arucas, en Las Palmas; Castro Urdiales, en Cantabria; Vilafranca del Penedès, en Barcelona; Sant Boi de Llobregat, en Barcelona; Roquetas de Mar, Almería y Tarazona, Zaragoza. Si quiere, le cuento más cosas; simplemente, le diré, para terminar, que en relación con...</seg>
                <note>Aplausos.-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u84" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Silencio, por favor. Ruego silencio.</seg>
                <seg>- DEL DIPUTADO DON FELIPE JESÚS SICILIA ALFÉREZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DEL INTERIOR: ¿CONSIDERA EL MINISTRO DEL INTERIOR QUE SUS DECISIONES EN MATERIA DE PERSONAL DEL CUERPO NACIONAL DE POLICÍA Y, ESPECÍFICAMENTE EN LO RELATIVO A RECOMPENSAS Y ESCARMIENTOS, RESPETAN LA NEUTRALIDAD A LA QUE SUS RESPONSABLES ESTÁN OBLIGADOS?</seg>
                <note>Número de expediente 180/001373</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u85" ana="#chair">
                <seg>Continúan las preguntas al señor ministro del Interior. Pregunta el diputado don Felipe Sicilia, del Grupo Socialista</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u86"
@@ -574,7 +572,7 @@
                <seg>Señor ministro, su decisiones en materia de recompensas y condecoraciones en el Cuerpo Nacional de Policía han sido más que cuestionadas, han generado una gran indignación. Pero lo verdaderamente indignante y lamentable, señor Fernández, son sus escarmientos, sus particulares castigos a algunos miembros del Cuerpo Nacional de Policía. El último, hace poco más de una semana, cuando cesó de sus responsabilidades a dos comisarios principales por tomar café con un diputado socialista. Señor Fernández, ¿le parece esta una decisión justa y ecuánime? ¿Desde cuándo, señor ministro, se cesa por tomar café en el Cuerpo Nacional de Policía?</seg>
                <note>Varios señores diputados: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u87" ana="#chair">
                <seg>Gracias, señor Sicilia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -585,7 +583,7 @@
                <seg>Señoría, usted es policía y, por tanto, sin duda, sabe perfectamente cuáles son las normas jurídicas que regulan el funcionamiento y el comportamiento de los miembros de las Fuerzas y Cuerpos de Seguridad. A lo mejor ha olvidado lo que aprendió en la academia de Ávila, pero sin duda lo conoce. El artículo 5 de la Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad, dice que son principios básicos de actuación de los miembros de las Fuerzas y Cuerpos de Seguridad los siguientes: Actuar en el cumplimiento de sus funciones con absoluta neutralidad política e imparcialidad. Dicho eso, debo decirle respecto del caso al que usted se refiere que la decisión la tomaron la Dirección General de la Policía y el director adjunto operativo de la Policía. Yo les respaldo, evidentemente, pero lo hicieron en el ejercicio de<pb n="20"/> sus competencias, de sus responsabilidades y porque ocupaban cargos de confianza. Se ha actuado en el marco de la legalidad, pero si quiere que le cite precedentes, con mucho gusto en la réplica le citaré algunos que, evidentemente, avalan lo hecho, puesto que lo que hicieron ustedes en el pasado también venía avalado por el cumplimiento de estos principios de imparcialidad política al tratarse de cargos que estaban destinados en puestos de confianza. Por tanto, con la misma libertad en el marco de la ley que se les nombraba, con la misma libertad se les cesaba. Sí, señor Trevín, le daré algún caso.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u89" ana="#chair">
                <seg>Señor Sicilia.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u90"
@@ -595,7 +593,7 @@
                <seg>Por eso le exigimos, señor Fernández, que deje de utilizar a la policía para su política sucia y mezquina de ataque al adversario. Señor Fernández, ¿puede usted asegurarles a mis compañeros y compañeras del Cuerpo Nacional de Policía que se pueden seguir tomando con tranquilidad un café conmigo sin que tengan ningún tipo de represalia cuando vuelvan a sus comisarías? Y ¿puede usted asegurarme que mis compañeros van a velar por mi seguridad cuando salga del Congreso en lugar de espiarme?</seg>
                <note>Una señora diputada: ¡Muy bien! Prolongados aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u91" ana="#chair">
                <seg>Gracias, señor Sicilia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -606,12 +604,12 @@
                <seg>Usted ha hecho unas acusaciones que espero que las pueda probar. Usted ha dicho nada más y nada menos que desde el Ministerio del Interior se ha espiado a unos comisarios, se les ha retratado tomando café con un diputado, con el señor Trevín<note>Una señora diputada: Sí</note> , y que esas fotografías se han dado a la prensa. Todo eso es radical y absolutamente falso.<note>Rumores</note> Todo eso es radical y absolutamente falso, y quien acusa tiene el deber de probar que su acusación es cierta. La libertad de expresión y el derecho a la información es un derecho fundamental y si el Ministerio del Interior se dedicara a espiar, como usted dice, a diputados, o a cualquier otra persona al margen de la ley, estaría incurriendo en un delito gravísimo, y usted como policía, al decir eso, está ofendiendo a sus 70.000 compañeros.<note>Rumores y Protestas</note> Está ofendiendo a sus 70.000 compañeros, se lo digo así de claro.<note>Aplausos</note> El Ministerio del Interior no tiene nada que ver con esas fotografías y con su difusión.<note>Una señora diputada: No, ¡qué va!</note> Usted me creerá o no me creerá, pero espero que lo pruebe. Yo me enteré de eso viendo la portada del periódico que publicó esa información<note>Rumores</note> , ¿está claro? Y dicho eso...</seg>
                <note>Aplausos.-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u93" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Ruego silencio en estas preguntas.</seg>
                <seg>- DEL DIPUTADO DON ANTONIO RAMÓN MARÍA TREVÍN LOMBÁN, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DEL INTERIOR: ¿MANTIENE EL MINISTRO DEL INTERIOR QUE SE ESTÁN RESPETANDO EN SU DEPARTAMENTO LOS DERECHOS Y LIBERTADES FUNDAMENTALES GARANTIZADOS POR LA CONSTITUCIÓN? 180/001374).</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u94" ana="#chair">
                <seg>Pregunta, también dirigida al señor ministro del Interior, que formula el diputado don Antonio Trevín, del Grupo Parlamentario Socialista.</seg>
                <pb n="21"/>
             </u>
@@ -621,7 +619,7 @@
                <seg>Señor ministro, ¿cuántas veces ha hecho usted en las últimas semanas la pregunta de Vargas Llosa: ¿cuándo se empezó a joder el Perú, Zavalita? Es decir, cuándo se nos empezó a torcer esta legislatura. Se les empezó a torcer cuando ustedes, borrachos de mayoría absoluta, se creyeron impunes; y, a partir de ahí, hicieron un uso del poder abusivo. Señor ministro, abro comillas: Rosalía no puede hacer el paseíllo. Cierro comillas. Bárcenas, al presidente Rajoy. Y Rosalía no hizo el paseíllo. Porque al día siguiente, responsables policiales -a sus órdenes- la escoltaron para que entrara y saliera de la Audiencia con total sigilo. Ahí empezó a funcionar la policía política: Bárcenas, la Gürtel, los casos de corrupción de miembros del Partido Popular, siguieron jalonando la legislatura Y usted respondió aumentando la policía política: recursos del Estado a favor del Partido Popular. Y ahora va a responderme como ministro del Interior del Gobierno de España, no como el jefe de los guardias del Partido Popular: ¿Dice usted -y lo mantiene aquí- que se respetan en su departamento los derechos constitucionales?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u96" ana="#chair">
                <seg>Gracias, señor Trevín.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -632,7 +630,7 @@
                <seg>Señoría, le vuelvo a decir: el Cuerpo Nacional de Policía lo integran 70.000 hombres y mujeres, y hay sindicatos representativos de esa institución que, por cierto, recientemente han celebrado elecciones. Usted ha dicho que yo mando a los guardias del partido. Dígaselo usted a los sindicatos y dígaselo usted a los 70.000 policías. En todo caso, lo leerán porque consta en el 'Diario de Sesiones'. Este es el concepto que tiene usted de la Policía Nacional y usted ha sido delegado del Gobierno y ha mandado a la Policía y ha mandado a la Guardia Civil en Asturias. Por tanto, sabe efectivamente cuáles son los límites del ejercicio de poder, lo que es desviación del poder y confundir a la policía con policía política. El que acuse usted de eso es indigno de una persona que ha tenido responsabilidades de esas características y ofende claramente a la policía como ofendería en su caso a la guardia civil.<note>Rumores</note> Debo decir, que ya que habla usted de policía política -ha utilizado usted el término-, una manera de demostrar con hechos y no con acusaciones y disquisiciones como las que usted hace -indignas, evidentemente-, es ver hasta qué punto se reduce el margen de discrecionalidad en la provisión de puestos de trabajo de la policía, porque a menor discrecionalidad menor politización y a menor politización mayor grado de profesionalidad. Cuando llegamos al Gobierno, señoría, el catálogo de puestos de trabajo contemplaba 5.841 puestos provistos por el sistema extraordinario de libre designación. A día de hoy se han reducido en un 52 % los puestos de libre designación. En comisión de servicio había 5.699 y a día de hoy ha habido una reducción del 30 %. Es decir, cada vez menos discrecionalidad para que cada vez haya más profesionalidad; no lo que hicieron ustedes.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u98" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Trevín.</seg>
             </u>
@@ -643,7 +641,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Rumores.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u100" ana="#chair">
                <seg>Gracias, señor Trevín.</seg>
                <seg>Señor ministro.</seg>
                <pb n="22"/>
@@ -655,12 +653,12 @@
                <seg>Se lo digo con toda claridad, los comisarios principales Telésforo Rubio y Santano Soria han sido relevados de sus funciones por el director adjunto operativo en el ejercicio de sus competencias y en el marco de la legalidad. Estaban destinados en puestos de confianza y han sido relevados. Si ustedes pretendían con estas preguntas presionarme, están equivocados; van a seguir relevados en cumplimiento de lo dispuesto en la ley que regula el funcionamiento de las Fuerzas y Cuerpos de Seguridad.<note>Rumores</note> Se pueden reunir cuando quieran pero de la forma adecuada. Como usted comprenderá, tengo cosas más importantes que hacer que seguirle a usted y espiarle a usted.<note>Rumores y protestas</note> En todo caso, ya que se rasga las vestiduras le diré, señoría: Rubalcaba fulmina a un comisario jefe por hablar con Cospedal sobre sus escoltas. Febrero de 2010. Era el jefe de la unidad de protección de escoltas para hablar de la protección de la secretaria general del Partido Popular.<note>Rumores</note> Por tanto, un poco menos de...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u102" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON CARLES PÀRAMO I PONSETÍ EN SUSTITUCIÓN DEL DIPUTADO DON JORDI XUCLÀ I COSTA, DEL GRUPO PARLAMENTARIO CATALÁN<note>CONVERGÈNCIA I UNIÓ</note> , QUE FORMULA A LA SEÑORA MINISTRA DE FOMENTO: ¿CONSIDERA EL GOBIERNO SATISFACTORIO HABER LICITADO 5,5 NUEVOS KILÓMETROS DE OBRAS DE DESDOBLAMIENTO DE LA N-II EN LA PROVINCIA DE GIRONA DURANTE LA PRESENTE LEGISLATURA CON PERIODOS DE EJECUCIÓN DE 40 Y 32 MESES TENIENDO EN CUENTA QUE QUEDAN PENDIENTES DE DESDOBLAR 44 KILÓMETROS DE LA REFERIDA CARRETERA EN LA DEMARCACIÓN DE GIRONA?</seg>
                <note>Número de expediente 180/001364</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u103" ana="#chair">
                <seg>Pregunta dirigida a la señora ministra de Fomento, la formula el diputado don Carles Pàramo, del Grupo Catalán de Convergència i Unió.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u104"
@@ -669,7 +667,7 @@
                <seg>Señora ministra, la N-II en Girona continúa sin contar con un calendario para su desdoblamiento total. Estamos decepcionados. ¿Qué piensa decirnos como excusa?</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u105" ana="#chair">
                <seg>Gracias, señor Pàramo.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -679,7 +677,7 @@
                <seg>Muchas gracias, señor presidente. Muchas gracias, señor Pàramo.</seg>
                <seg>Desde el Ministerio de Fomento hemos destinado a Girona durante la presente legislatura más de 910 millones de euros, de ellos 180 millones a la red de carreteras y una parte muy importante a la N-II.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u107" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u107" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>Señor Pàramo.</seg>
             </u>
@@ -689,7 +687,7 @@
                <seg>En la presente legislatura el Gobierno de España del PP ha actuado pobremente en la N-II en las tierras de Girona. Hay que acabar los 7 kilómetros del tramo Sils-Caldes de Malavella; obras adjudicadas en épocas del PSOE, una obra que ha acumulado hasta quince meses de retraso. Aparte de ese tramo, como decía proveniente de la anterior legislatura, las licitaciones lanzadas por ustedes se han limitado a 2,7 kilómetros en el tramo Sils-Maçanet de la Selva, con un periodo de ejecución de treinta meses -¿por qué casi tres años si solo son 2,7 kilómetros?-, y 3 kilómetros de Medinyà a Orriols, con un periodo de ejecución de cuarenta y dos meses, de mal en peor. Aún hoy ninguna de las dos obras se han iniciado. Mientras tanto, en las comarcas de Girona quedan 55 kilómetros de N-II sin desdoblar. Y encima, para más inri, una novedad sin pies ni cabeza: el Gobierno de España del PP ha decidido descartar el desdoblamiento de la N-II entre Maçanet y Tordera con el argumento que podemos calificar de fantasmagórico y alucinante, la propuesta de conexión con el cuarto cinturón.</seg>
                <seg>En resumen, sobre el papel, usted, señora ministra, es quien más ha sabido dar la imagen de ocuparse de la N-II en Girona, pero al final de la legislatura mucho ruido y pocas nueces. Los propietarios han cobrado el importe de las expropiaciones después de años de pleitos, las pocas obras que continúan lo hace con una lentitud que es exasperante para los miles de usuarios y continuamos sin concretar sobre<pb n="23"/> lo que queda pendiente. En definitiva, mucha gesticulación para unos resultados que son de vergüenza ajena. ¿Dónde está la inversión real? ¿Con qué finalidad los plazos de ejecución de treinta y cuarenta y dos meses para 2,7 y 3 kilómetros? Nada del eje pirenaico y nada de la variante de Olot. ¿Por qué el Gobierno de España, del PP, es reacio a invertir de forma real y seria en las comarcas de Girona? ¿Por qué hemos visto adjudicaciones de 30 kilómetros en la autovía de La Plata cuando en Girona eran de 3 y 3 kilómetros de longitud? ¿Por qué esta tomadura de pelo? ¿Por qué el Gobierno de España no nos presenta un plan racional, el cual debería contener...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u109" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -700,11 +698,11 @@
                <seg>En primer lugar, debo decirle que falta usted a la verdad porque no son ciertos los kilómetros a los que usted se refiere. Señoría, hemos actuado en 90 kilómetros; 20 kilómetros de obra en este momento están en ejecución o en servicio, 20 en los terceros carriles de la A-7, 50 kilómetros en proyecto y se han invertido más de 100 millones de euros: 58 en la nacional N-II y en la AP-7 42 millones. Como usted bien sabe, el anterior Gobierno le cedió a la Generalitat de Catalunya un tramo de la N-II, el tramo del Maresme entre Montgat y Tordera. El Estado le transfirió 97 millones de euros y ustedes, el Gobierno de la Generalitat, a día de hoy han invertido cero. Tendrá usted que explicar por qué, porque ustedes son responsables de un tramo de esa carretera. En segundo lugar, tenemos todos los trabajos en marcha, señoría, y lo sabe usted bien. En el tramo entre Tordera y Maçanet hemos licitado, adjudicado e iniciado la redacción del proyecto de acondicionamiento. Lo terminamos este año y lo vamos a licitar. En ese mismo tramo hemos licitado y contratado las obras de mejora de los dos enlaces de Tordera. Todos los trabajos preparatorios están en marcha, la obra ya está adjudicada y en dos o tres semanas estará en marcha. Entre Maçanet y Girona, en el tramo Maçanet-Sils hemos redactado el proyecto y licitado, adjudicado e iniciadas las obras, que están en ejecución, señoría. También, como sabe, está aprobado el proyecto de Vidreres y en el tramo Sils-Caldes de Malavella hemos reactivado las obras y las hemos finalizado, señoría; las hemos finalizado en diciembre de 2014. En el tramo de la circunvalación de Girona, hemos ejecutado y puesto en servicio, tres nuevos enlaces de uso libre de la autopista de peaje; en el tramo entre Girona-la frontera, en el tramo Medinyà-Orriols, como usted sabe, señoría, hemos redactado y aprobado el proyecto y hemos licitado e iniciado las obras, y en el resto de los tramos están los proyectos en marcha.</seg>
                <seg>En fin, señoría, usted es de una provincia a la que, gracias a este Gobierno, ha llegado el AVE y estamos haciendo la N-II y la vamos a terminar cuando no estaba ni en proyecto...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u111" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u111" ana="#chair">
                <seg>Gracias, señora ministra.<note>Aplausos</note> - DEL DIPUTADO, DON MIGUEL ÁNGEL HEREDIA DÍAZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE EDUCACIÓN, CULTURA Y DEPORTE: ¿CUÁNDO PIENSA EL GOBIERNO PARALIZAR LA APLICACIÓN DE LA LOMCE?</seg>
                <note>Número de expediente 180/001367</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u112" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Educación, Cultura y Deporte.</seg>
                <seg>Pregunta, en primer lugar, el diputado don Miguel Ángel Heredia.</seg>
             </u>
@@ -714,7 +712,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, ¿cuándo piensa su Gobierno paralizar la aplicación de la Lomce?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u114" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -724,7 +722,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Gracias, señor Heredia. Usted tiene una formación doble, en magisterio y en ciencias y además con muy buen currículum, pero en derecho no tiene mucha porque, si la tuviera, sabría que el Gobierno -ni este ni ninguno- no tiene capacidad alguna de paralizar un instrumento normativo, como es esa ley, cuyo<pb n="24"/> calendario de aplicación está incluido en la propia ley. Por tanto, en virtud de los principios de legalidad y jerarquía normativa, este Gobierno no puede paralizar, ni ahora ni nunca, una ley.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u116" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Heredia.</seg>
             </u>
@@ -734,7 +732,7 @@
                <seg>Entonces, señor ministro, le diré alguna otra cuestión: ¿sabe usted que fue un Gobierno socialista el que consiguió la universalización de la educación, que se pudiera estudiar en igualdad de oportunidades, porque la mejor inversión que hace un país es la inversión en educación? Pero su Gobierno, con la excusa de la crisis, ha llevado a cabo el ataque más duro contra la escuela pública en toda la historia de la democracia, convirtiendo lo que era un derecho en un privilegio. Le voy a dar dos datos: el primero de ellos es que el gasto en educación ha bajado a niveles de hace veinticinco años, habiéndose recortado en 7.500 millones de euros; el gasto de una familia con un estudiante universitario se ha disparado un 50 % como consecuencia de sus recortes; hoy hay 33.500 profesores menos, 6.000 de ellos universitarios; hoy hay 600.000 niños y niñas que ya no tienen ayuda para libros de texto; ustedes se han cargado las becas de comedor, la única comida caliente para muchos niños en este país, algo absolutamente indecente cuando una de cada cinco familias está en riesgo de exclusión; han disparado el precio de las matrículas universitarias y han recortado el número de becarios y la cuantía de las becas en más de 600 euros. A eso se añade su maldita herencia, que es la Lomce, la peor ley de educación y la más injusta. Es una ley profundamente ideológica, muy de derechas, confesional y regresiva; una ley que se ha hecho impuesta, sin consultar, sin dialogar con la comunidad educativa y que ha supuesto un hito histórico: el hecho de que todo el mundo, absolutamente todo el mundo, esté en contra. Sabe perfectamente que es una ley que va a durar lo que tarden en celebrarse nuevas elecciones. En este sentido, señor Wert, le diré que usted va a pasar a la historia como el peor ministro de la democracia, y lo va a hacer por haber dejado la educación pública como un solar, por haberse cargado las expectativas y el futuro de muchos estudiantes y por haber impedido que el hijo de un peón de albañil pueda estudiar en igualdad de oportunidades en nuestro país que el hijo de un banquero. Esta era la política que quería Rajoy en materia de educación y por eso le premia y le manda a París. Soy de los que piensan que París está demasiado cerca para el mucho daño que usted ha hecho, pero solo le pido una cosa: se vaya donde se vaya, llévese con usted esta injusta y nefasta ley, la Lomce.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u118" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -745,11 +743,11 @@
                <seg>Evidentemente, señor Heredia, las consideraciones que ha hecho usted -no hace falta insistir en ello- no tienen absolutamente nada que ver con el objeto de su pregunta, que era sobre la aplicación de la Lomce. Ahora, si usted lo que quiere es que hablemos de los resultados educativos de una etapa y de la otra, lo hago con mucho gusto: por ejemplo, empiezo diciéndole que, cuando ustedes abandonaron el Gobierno, el abandono educativo temprano de este país, que es la forma más cruel y radical de exclusión que se puede practicar con los jóvenes, ascendía al 26,3 %, y que cuando nosotros salgamos del Gobierno, cuando acabe la legislatura, cuando tengamos los datos de la EPA del cuarto trimestre del 2015, le puedo asegurar que va a estar por debajo del 20 %, es decir, que se habrá producido la mayor reducción del abandono escolar temprano que haya tenido nunca lugar en una legislatura en España. Por ejemplo, le puedo decir que cuando ustedes dejaron el Gobierno la consignación presupuestaria en los programas de becas y ayudas generales al estudio ascendía a 1.168 millones de euros y que este ejercicio presupuestario 2015 y el ejercicio presupuestario anterior, el 2014... No, no haga gestos con la cabeza porque las cifras que están en el libro amarillo son cifras que están en el libro amarillo. Como digo, asciende a 1.415 millones. Le diré que en este momento tenemos la tasa bruta de acceso a la universidad, calculada sobre la población en edad de cursar estudios universitarios, más alta de la historia, casi dos puntos superior a la que dejaron ustedes, de forma tal que no hay un solo indicador en materia educativa que no haya mejorado en estos años y que esté peor. Y, sobre todo, lo más importante es que a través de la Lomce se cambian las reglas del juego para que las cosas sigan mejorando en los años venideros.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u120" ana="#chair">
                <seg>Muchas gracias, señor ministro.<pb n="25"/> - DE LA DIPUTADA DOÑA MAGDALENA VALERIO CORDERO, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE EDUCACIÓN, CULTURA Y DEPORTE: ¿QUÉ BALANCE HACE DE LA POLÍTICA EDUCATIVA DEL GOBIERNO EN ESTA LEGISLATURA?</seg>
                <note>Número de expediente 180/001368</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u121" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Educación, Cultura y Deporte, que formula la diputada doña Magdalena Valerio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u122"
@@ -757,7 +755,7 @@
                ana="#regular">
                <seg>Señor ministro, la verdad es que hoy se esperaba ya a otra persona en su cargo, pero veo que, aun muy a su pesar, todavía le tenemos aquí para responder a nuestra pregunta: ¿Qué balance hace de la política educativa del Gobierno en esta legislatura?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u123" ana="#chair">
                <seg>Gracias, señora Valerio.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -768,7 +766,7 @@
                <seg>Yo creo que la condición de diputado o diputada autoriza a muchas cosas, pero una de aquellas a las que no autoriza es a atribuirse la valoración de los estados de ánimo de cada uno. Señora Valerio, me temo que no es usted quién para decir si yo estoy aquí a mi pesar o con mucho agrado, que es la situación en la que estoy.<note>Risas</note> En segundo lugar, ¿cuál es el balance que hago? Un político que tenga unas ambiciones razonables para su país -o una persona cualquiera, no hace falta que sea un político- no puede nunca declararse satisfecho del balance de su actividad, menos en un terreno como el educativo, en el que lo que hay que hacer es tanto que no una legislatura sino cuatro no son tiempo suficiente para atender a toda esa demanda. Dicho esto, y como acabo de responder a su compañero, el señor Heredia, no hay ni un solo indicador -ni uno solo- en materia educativa que haya experimentado un empeoramiento o un retroceso en estos años. Con todo, queda muchísimo por hacer.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u125" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora Valerio.</seg>
             </u>
@@ -780,7 +778,7 @@
                <seg>Señor ministro, en este último mes se ha suscitado mucha expectación mientras el señor Rajoy deshojaba la margarita de una posible remodelación ministerial; parece ser que no le quedan más pétalos y al final la cosa ha quedado en nada de nada. Mientras, usted sigue esperando su marcha a París con su equipo mermado, sin secretaria de Estado desde el 30 de mayo; una situación esperpéntica e insostenible.<pb n="26"/> Cada día parece usted más un ministro en funciones -sí, señor Wert- de un Gobierno en funciones.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u127" ana="#chair">
                <seg>Gracias, señora Valerio.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -791,12 +789,12 @@
                <seg>Señora Valerio, usted tiene un interés en hablar de mí muy superior al que yo pueda tener. Debe ser una cosa obsesiva.<note>Risas</note> Creí que usted me preguntaba por el balance de la política educativa y el balance de la política educativa, señora Valerio, es el que le he formulado a su compañero, el señor Heredia, y muchas más cosas: por ejemplo, la creación de 300.000 plazas más en formación profesional, que está a la base de la disminución del abandono educativo temprano; por ejemplo, la tasa más alta de titulación en nivel CINE 3 que haya habido nunca, dos puntos por encima de la que había-. Señor Heredia -esto tiene que ver con los datos que ha dado usted-, ¿cómo puede decir que la inversión educativa es ahora la de hace veinticinco años? Sé que usted es biólogo y no matemático, pero si quiere nos sentamos dos tardes y vemos los números, porque hay cosas que no se pueden decir.<note>Rumores</note> En la comparación de presupuestos liquidados, el de 2014 está a la altura aproximadamente del de 2008 -fíjese usted en la distancia que hay hasta los veinticinco años- y la tasa de acceso a la universidad -ya que hablan tanto de la igualdad de oportunidades- es ahora la más alta de toda la historia. Por tanto, ese balance que ustedes pintan no tiene ninguna relación con la realidad. No obstante, hay muchísimo que hacer y vamos a aplicar...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u129" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON JULIO LLEONART CRESPO, DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿QUÉ ENTIENDE POR FAMILIA EL GOBIERNO DEL PARTIDO POPULAR?</seg>
                <note>Número de expediente 180/001361</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u130" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u130" ana="#chair">
                <seg>Pregunta dirigida al señor Ministro de Sanidad, Servicios Sociales e Igualdad, que formula el diputado don Julio Lleonart, del Grupo Parlamentario de Unión Progreso y Democracia.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u131"
@@ -806,7 +804,7 @@
                <seg>Dado que no existe precepto alguno en la Constitución española ni en la legislación ordinaria en el que se defina a la familia y existe un amplio consenso en definir a la familia como un conjunto de personas físicas relacionadas entre sí por vínculos conyugales o de parentesco, querría preguntarle al señor ministro: ¿Qué entiende por familia el Gobierno del Partido Popular?</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u132" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u132" ana="#chair">
                <seg>Muchas gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -817,7 +815,7 @@
                <seg>Señor diputado, usted hacía una definición que se parece mucho a la que el Diccionario de la Real Academia hace respecto de lo que se entiende comúnmente por familia. Sin embargo, si usted mira el Plan de familia, no introducimos una definición, ni siquiera la del diccionario, pero pretendemos abarcar y dar respuesta a los distintos modelos de familia que existen en nuestra sociedad y ser sensibles a cómo va evolucionando y va cambiando un elemento central para garantizar el pleno desarrollo de la personalidad, que es un derecho constitucional, que ha ido adquiriendo distintos matices y que está en permanente cambio.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u134" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u134" ana="#chair">
                <seg>Señor diputado.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u135"
@@ -827,7 +825,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u136" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u136" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -838,13 +836,13 @@
                <seg>En cuanto a la subrogación, nosotros defendemos -y lo ha visto en las leyes de protección de la infancia- el interés superior del menor. Siempre ampararemos y protegeremos a los menores, con independencia de cómo tengamos considerada en España la subrogación o de la circunstancia de las parejas que acuden a otros países donde se alquilan, digamos, las madres y donde se produce esa situación de subrogación. Lo vemos en Grecia o en Estados Unidos. Los niños al final son inscritos y protegidos en España, como no puede ser de otra manera.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u138" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u138" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO DE IU, ICV-EUIA, CHA: LA IZQUIERDA PLURAL, SOBRE MEDIDAS QUE PIENSA ADOPTAR EL GOBIERNO FRENTE A LOS DESALOJOS HIPOTECARIOS.</head>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u139" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u139" ana="#chair">
                <seg>Interpelación del Grupo de La Izquierda Plural, sobre las medidas que piensa adoptar el Gobierno frente a los desalojos hipotecarios.</seg>
                <seg>Para la defensa de la interpelación tiene la palabra el señor Sixto.</seg>
             </u>
@@ -1327,7 +1325,7 @@
                <seg>En definitiva, señorías, nuestro grupo parlamentario hoy no puede apoyar esta propuesta, porque entiende que no va a contribuir a una lucha eficaz contra la corrupción, especialmente en este momento de la legislatura en el que estamos. Por ello, vamos a abstenernos. Insisto, nuestro grupo está al lado de cualquier iniciativa que pueda suponer un avance en la lucha contra la corrupción, pero no apoyará aquellas propuestas que únicamente signifiquen hacer ruido y que no nos lleven a ninguna parte.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u203" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u203" ana="#chair">
                <seg>Muchas gracias, señora Surroca.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor Such.</seg>
                <pb n="58"/>
@@ -1341,7 +1339,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u205" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u205" ana="#chair">
                <seg>Muchas gracias, señor Such.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra el señor Gómez de la Serna.</seg>
             </u>
@@ -1358,7 +1356,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u207" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u207" ana="#chair">
                <seg>Muchas gracias, señor Gómez de la Serna.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Era la una y cincuenta y cinco minutos de la tarde.</seg>

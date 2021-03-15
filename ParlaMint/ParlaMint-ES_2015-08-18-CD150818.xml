@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="104">104 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="104" xml:lang="es">104 speeches</measure>
+            <measure unit="speeches" quantity="104" xml:lang="en">104 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="42"/>
                <tagUsage gi="note" occurs="42"/>
                <tagUsage gi="u" occurs="104"/>
-               <tagUsage gi="lb" occurs="364"/>
+               <tagUsage gi="seg" occurs="364"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>COMUNICACIÓN DEL GOBIERNO - COMUNICACIÓN DEL GOBIERNO EN LA QUE SOLICITA LA CELEBRACIÓN DE UN DEBATE SOBRE LA CONTRIBUCIÓN ESPAÑOLA ANTE UN TERCER PROGRAMA DE AYUDA A GRECIA.</head>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
                <seg>Comunicación del Gobierno ante el Pleno de la Cámara en la que solicita la celebración de un debate sobre la contribución española ante un tercer programa de ayuda a Grecia. Este debate se ajustará a lo que hemos acordado en la Junta de Portavoces que hemos tenido a las once.</seg>
                <seg>Tiene la palabra en nombre del Gobierno el señor ministro de Economía y Competitividad.</seg>
@@ -132,7 +130,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u3" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Van a intervenir a continuación los grupos parlamentarios de mayor a menor. Comenzará, por el Grupo Socialista, el señor Moscoso del Prado.</seg>
             </u>
@@ -154,7 +152,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u5" ana="#chair">
                <seg>Muchas gracias, señor Moscoso del Prado.</seg>
                <seg>Por el Grupo Catalán de Convergència i d'Unió tiene, en primer lugar, la palabra del señor Macias.</seg>
             </u>
@@ -170,7 +168,7 @@
                <seg>Muchas gracias, señor presidente. Muchas gracias, señoras y señores diputados.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u7" ana="#chair">
                <seg>Muchas gracias, señor Macias.</seg>
                <seg>Por el mismo grupo, de Convergència i d'Unió, tiene la palabra el señor Sánchez i Llibre.</seg>
             </u>
@@ -186,7 +184,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u9" ana="#chair">
                <seg>Muchas gracias, señor Sánchez i Llibre.</seg>
                <seg>Por el Grupo Parlamentario de La Izquierda Plural, tiene la palabra, en primer lugar, el señor Garzón.</seg>
             </u>
@@ -207,7 +205,7 @@
                <note>Aplausos</note>
                <pb n="15"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u11" ana="#chair">
                <seg>Muchas gracias, señor Garzón.</seg>
                <seg>Dentro del Grupo de La Izquierda Plural, tiene la palabra ahora el señor Coscubiela.</seg>
             </u>
@@ -222,7 +220,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u13" ana="#chair">
                <seg>Muchas gracias, señor Coscubiela.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia, tiene la palabra la señora Díez.</seg>
                <pb n="16"/>
@@ -246,7 +244,7 @@
                <seg>Acabo, señorías, señores del Gobierno, como comencé. Hemos de ser conscientes de que el problema es doble; que es un problema político; que una política fiscal y económica equivocada nos ha llevado a la situación en la que estamos, y que la renuncia de Europa, de las instituciones europeas a aprovechar la crisis del euro para progresar hacia una mayor integración política de la Unión, capaz de considerar a Grecia como una parte de la Unión necesitada de ayuda, y no solo como un socio comercial incumplidor y retrasado, es lo que nos ha traído hasta aquí. Todos los españoles tendríamos que recordarlo. ¿Se acuerdan de cuando se puso en marcha a nivel europeo el Fondo de cohesión? El Fondo de cohesión se puso en marcha en Europa porque nuestro Gobierno -el Gobierno español de entonces- convenció a los socios europeos de que la cohesión de Europa era muy buena para Alemania, muy buena para los países ricos; que no solamente era un gesto de solidaridad con los países del sur, sino que era muy buena para el progreso de Europa; que la cohesión era una ventaja para todos los europeos; en el corto plazo era una ayuda a los países que acabábamos de entrar, pero políticamente una ventaja para los países más importantes, para las economías más importantes de Europa. Pues ahora debiéramos de aprovechar la oportunidad para eso mismo, para hacer un discurso europeo y unas propuestas europeas; aprovechar la crisis para salir de la crisis renovados, reformados y crecidos en términos políticos, y no solo con políticas fiscales o con políticas económicas.</seg>
                <seg>El memorándum de entendimiento, como se ha dicho antes -usted lo ha dicho por encima, pero voy a insistir un poco en ello, porque en nuestra propuesta de resolución iremos también por ahí-, impone a Grecia una serie de reformas para impulsar su competitividad; unas reformas por cierto, señor ministro, que otros países miembros -España entre otros- se niegan a adoptar internamente, o que en realidad para que tengan éxito requieren de reformas a nivel comunitario, para que sean de verdad eficaces y para que tengan éxito en Grecia y en toda Europa. Es preciso un renovado impulso reformista en toda la Unión que genere esas externalidades positivas para el conjunto, y una revisión -como he dicho- de las políticas de solidaridad, de las políticas europeas.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u15" ana="#chair">
                <seg>Señora Díez, tiene que ir usted terminando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u16"
@@ -254,7 +252,7 @@
                ana="#regular">
                <seg>Termino. Defenderé después, entonces, las propuestas que queremos hacer en este Pleno. Confirmo que nuestro grupo parlamentario dará el apoyo al rescate, dará el apoyo a la participación española, y lo dará desde la perspectiva que acabo de explicar, no porque creamos que haya que ayudar a Grecia, sino porque es nuestro problema. Lo que ocurre en Grecia ocurre en Europa. Es nuestro problema. No es nuestro problema ser solidarios, sino resolver los problemas que tenemos los europeos; y lo que está ocurriendo en Grecia es responsabilidad de todos los europeos -también de los griegos, pero también de todos los europeos-, y por tanto apoyamos la posición del Gobierno, apoyamos el tercer rescate, y no nos preguntamos cuánto nos cuesta ni que podríamos hacer con ese dinero. Nos preguntamos cuánto nos costaría no tener una unión política y una unión económica en Europa. Eso es lo que queremos que nos preguntemos y que se pregunten todos los ciudadanos; cuánto nos costaría que no existiera Europa; cuánto nos costaría en términos democráticos y en términos políticos. Por eso<pb n="19"/> plantearemos algunas propuestas, además de apoyar al Gobierno, para que el Gobierno a nivel europeo, en las instituciones europeas refuerce el proyecto común europeo e introduzca y promueva medidas positivas, impulse la lucha contra el fraude fiscal, impulse alguna de las medidas para el mejor gobierno que nos recomienda a todos y que se recomienda en el memorándum a los griegos, como por ejemplo la inclusión de una ley de segunda oportunidad en los créditos públicos o la puesta en marcha de una estrategia nacional para una renta mínima garantizada.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u17" ana="#chair">
                <seg>Señora Díez, tiene usted que acabar, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u18"
@@ -264,7 +262,7 @@
                <seg>Gracias, presidente, por su generosidad.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u19" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Por el Grupo Vasco PNV tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -278,7 +276,7 @@
                <seg>Reconocemos también como positivos algunos avances facilitados por la troika, ampliada por el MEDE. La reducción del superávit fiscal en un 11 % del PIB durante los próximos tres años facilitará sin duda alguna el esfuerzo presupuestario que de todas formas los griegos han de realizar. Es positiva esta flexibilización de las condiciones fiscales, aunque es previsible, señor ministro, que una mayor flexibilización en el futuro será también necesaria. A pesar de ello y de que serán los acreedores los que harán frente a parte de la deuda de los bancos, garantizándose que no se recortarán los depósitos de hasta 100.000 euros, los griegos han aceptado un memorándum de entendimiento cuya aplicación les va a exigir grandes esfuerzos y sacrificios: eliminar jubilaciones anticipadas, revisar el sistema de pensiones, cambios tributarios, liberalizar el sector energético, modificar el régimen fiscal agrario y crear un fondo para privatizar bienes públicos hasta un importe de 50.000 millones, entre otras medidas, y no va a ser nada fácil. Por ello hay que solicitar a los responsables griegos, a las instituciones europeas y al Fondo Monetario Internacional la mayor responsabilidad y compromiso con esta situación, pero a la vez también hay que exigirles la flexibilidad necesaria para que el caso griego acabe bien y no nos estalle a todos, porque además del futuro de los griegos, que es muy importante, nos estamos jugando el futuro de la Unión Europea y hemos de ser conscientes de ello.</seg>
                <seg>Hemos hablado en multitud de ocasiones en otros debates -hoy mismo otros portavoces se han referido a ello- de la falta de institucionalización, de la falta de cohesión a nivel europeo, de la falta de dar pasos hacia una unión política más consistente, que afronte con más garantías problemas como el de Grecia. No voy a entrar en esta cuestión, que es absolutamente imprescindible, pero quiero señalar que es importante que se conozca el importe que tenemos que aportar y el esfuerzo que tenemos que realizar, para que se sepa que detrás de esto no solo hay palabras, sino también considerables recursos que salen del bolsillo de todos, una aportación considerable que hay que interpretar en términos de necesidad, pero también de solidaridad. El tercer rescate alcanza a los 86.000 millones de euros, tal como ha señalado el señor ministro. Los ciudadanos a través de las instituciones aportamos o avalamos en este caso en torno a 10.000 millones de euros -creo que lo ha cifrado en 10.150 millones-, que sumados a los anteriores suponen 34.000 millones, una cifra muy relevante. Habrá que darlos por bien empleados si con ellos se arregla el problema y para que esto sea posible todos, todos, tenemos que poner de nuestra parte. Como decía antes, no está todo conseguido; es difícil la tarea, pero tenemos la responsabilidad de intentarlo.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u21" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por el Grupo Mixto va a haber intervenciones prácticamente de todos los componentes, y este turno incluye el de réplica. En primer lugar, tiene la palabra el señor Larreina.</seg>
                <pb n="21"/>
@@ -291,7 +289,7 @@
                <seg>Nosotros vamos a decir no a este rescate. Además lo decimos desde el convencimiento de que tenemos la obligación y el derecho a propugnar un modelo europeo diferente, a propugnar la necesidad de acabar con esa especie de nuevo imperialismo económico que se está imponiendo desde Alemania, desde los sectores económicos fundamentalmente, y que está dando la espalda a la construcción de una Europa de la ciudadanía, a una Europa de los pueblos, a una Europa más cohesionada. Porque, insisto, este acuerdo que ustedes nos han traído aquí va en contra de la gente, va en contra de la gente de a pie y va a favor de esa economía especulativa que atenta a la dignidad de las personas y que todo lo somete a esas grandes cifras económicas que al final no son tan grandes, son pequeñas, son al final la negación de la propia realidad de Grecia, de la propia realidad de la Unión Europea. Por eso nosotros, desde nuestra concepción soberanista, reivindicamos el derecho que tienen los ciudadanos griegos a elegir su propio Gobierno y a tomar sus propias decisiones. Reivindicamos también la necesidad de construir esa Europa diferente, una Europa social, una Europa que acabe con el déficit democrático actual. Uno de los problemas que tiene Europa en toda esta crisis económica mundial que ha sufrido ha sido precisamente que estamos en una pseudoeuropa, estamos con un banco europeo que no es un banco europeo; estamos con un parlamento europeo que no es un auténtico parlamento europeo; estamos con una comisión europea que no es un gobierno europeo; estamos con un eurogrupo que no se sabe lo que es, y que incluso no tiene base legal para tomar sus decisiones, y las está tomando con un déficit democrático importante. Nosotros pensamos que es hora de decir no a todo este proceso de desmembración, de desmantelamiento de la Unión Europea; es hora de decir no a toda esa imposición de unas políticas ultraliberales que están a favor de la economía especulativa y que dan la espalda a la economía real, que dan la espalda a la ciudadanía europea. Estamos convencidos de que precisamente nuestra concepción soberanista de recuperar la soberanía de la ciudadanía, la soberanía de los pueblos de Europa, es lo que contribuirá a hacer una Europa más sólida, una Europa consolidada, una Europa cohesionada, una<pb n="22"/> Europa social y una Europa que esté al servicio de los ciudadanos y no de los mercados. Por eso nuestro apoyo solidario al pueblo griego, nuestro apoyo solidario a todos los pueblos de Europa que quieren contribuir a construir esa nueva Europa social, y nuestro convencimiento de que solo desde el ejercicio de la soberanía ciudadana podemos conseguir esa Europa más justa, más social.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u23" ana="#chair">
                <seg>Muchas gracias, señor Larreina.</seg>
                <seg>Tiene la palabra el señor Tardà.</seg>
             </u>
@@ -303,7 +301,7 @@
                <seg>Que quede claro, pues, que vamos a votar en contra de este rescate que ustedes proponen porque no queremos legitimar a los chantajistas, cuyos representantes aquí hoy, ustedes, han dado muestras de no respetar en lo más mínimo la soberanía del pueblo griego, imponiendo un rescate mucho más duro del que rechazaron en el referéndum, lo cual les obliga a ellos a malvender a precio de saldo su país, además sin ninguna garantía de poder superar esta recesión, porque buena parte de los 86.000 millones son destinados solo al pago de los intereses de la deuda. Que quede claro, pues, que son ustedes políticamente muy hipócritas, porque ustedes no hacen los deberes. Usted, señor De Guindos, a pesar de desguazarnos el Estado social, a pesar de fracturar la sociedad, a pesar de consolidar grandes bolsas de pobreza, a pesar de todo ello, está provocando todavía mayor deuda en el Estado español. Ya estamos rondando el cien por cien del producto interior bruto, una deuda que convierte al Estado español en un Estado fallido. Hoy aquí nos traen una fórmula que es la píldora griega, porque sabe -o debería saber- que cuando suban los intereses y cuando España no pueda pagar la deuda, no pueda financiar la deuda, nos van a endosar esta fórmula que hoy aquí acuñamos, la fórmula griega, es decir, el desguace total del Estado social, la selva y el no futuro.</seg>
                <seg>Entenderán, pues, señorías, que nosotros los republicanos no validemos este patrón que aquí hoy se acuña, y debemos decirle además que es falso que seamos solidarios con el pueblo griego. Aquí de lo que se trata no es de donar, no es de prestar sin intereses, sino de ganar dinero, porque es evidente que, a no ser que la capacidad de sufrimiento del pueblo griego sobrepase lo humano,...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u25" ana="#chair">
                <seg>Señor Tardà, tiene que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u26"
@@ -312,7 +310,7 @@
                <seg>... ustedes saben perfectamente que no hay ninguna posibilidad de que con este rescate el pueblo griego pueda salir hacia delante. Debería recordarles -termino, señor presidente- que buena parte de esta deuda, por ejemplo -termino con este ejemplo-, viene endosada al dictado de Francia y Alemania, que en el primer rescate impusieron la compra de armamento, cosa que explica los altos presupuestos del Ministerio de Defensa griego. Es decir, el mismo gasto militar que tanto se ha cuestionado ha venido al dictado de los intereses de Alemania y Francia, razón por la cual nosotros nos oponemos a este nuevo rescate.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u27" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Señora Fernández Davila.</seg>
                <pb n="23"/>
@@ -324,7 +322,7 @@
                <seg>Compartiendo la necesidad de apoyar a Grecia, no podemos compartir el acuerdo que hoy nos trae a debate el Gobierno del Estado español, porque este acuerdo no solo es humillante para los griegos, sino que es la plasmación de un modelo europeo con el que el Bloque Nacionalista Galego está frontalmente en contra. Un modelo de capitalismo voraz, incansable, como lo está demostrando en su lucha titánica, por cierto, por eliminar los logros sociales alcanzados en tantos años de esfuerzo y sufrimiento. Señor De Guindos, nos atrevemos a decir que las condiciones en las que se produce el acuerdo le resta cualquier atisbo de legitimidad democrática. Y nos atrevemos a decirlo porque las condiciones fueron todo un ejemplo de prepotencia y de imposición por parte de los Gobiernos que dictan las políticas de la Unión Europea. No faltaron las amenazas y el Gobierno heleno se vio obligado a aceptar bajo el chantaje de un bloqueo financiero extremo. El Gobierno de Grecia no fue realmente libre para firmar este acuerdo que humilla a todo un pueblo, además de suponer, de hecho, la supresión de su soberanía, dejando en la práctica a la nación griega bajo un protectorado de Alemania y de la UE. Las condiciones que se recogen en el memorándum inciden en las mismas políticas fracasadas que han abocado a Grecia a la situación que propicia este tercer rescate. Se niegan ustedes, señor ministro, los defensores de este documento, no solo a perdonar parte de la deuda griega, sino ni siquiera a una reestructuración parcial de la misma y optan, como han hecho, por profundizar en su endeudamiento. Las exigencias establecidas supondrán más sacrificio y sufrimiento a las clases populares y trabajadoras.</seg>
                <seg>Señorías, no podemos manifestarnos a favor de estos acuerdos porque también estamos en desacuerdo con el austericidio impuesto no solo en Grecia, sino por el Gobierno de Mariano Rajoy en el Estado español a sus ciudadanos, y porque, además, estamos preocupados en este momento por que el Gobierno del Estado español pueda seguir haciendo más reformas laborales, subidas de impuestos directos o más recortes sociales, como le está indicando en este momento el Fondo Monetario Internacional. Decir no desde el Bloque Nacionalista Galego a estos acuerdos es decir no a una Europa empeñada en garantizar el sobre enriquecimiento de una minoría condenando a la mayoría al empobrecimiento; una Europa que sigue empeñada en garantizar que el capital especulativo no vea minorizados sus grandes y cuantiosos beneficios, aunque eso signifique dejar al capital productivo sometido a una crisis brutal. Sí es posible otra Europa. Le preguntaría hoy, señor De Guindos y representantes del Gobierno del Estado español, qué ha pasado con ese cambio de modelo productivo que todos han dicho...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u29" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u29" ana="#chair">
                <seg>Señora Fernández, tiene que acabar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u30"
@@ -334,7 +332,7 @@
                <seg>...que había que trabajar para poder superar la crisis. No hemos visto que ni este Gobierno ni la Unión Europea hayan hecho algo al respecto. Lo que sí hemos visto es que se han esforzado, y mucho, en garantizar el dominio de la economía especulativa. Le pregunto, señor ministro, ¿puede explicarle la Unión Europea a los ciudadanos griegos que gracias a la crisis griega la banca alemana se ahorrara 100.000 millones de euros? Esto, señores que defienden el modelo europeo actual, es lo que representa: empobrecimiento de las mayorías sociales y enriquecimiento de las minorías, como está total y absolutamente demostrado.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u31" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u31" ana="#chair">
                <seg>Muchas gracias, señora Fernández Davila.</seg>
                <seg>Señora Oramas.</seg>
             </u>
@@ -345,7 +343,7 @@
                <seg>Mi compañero, Pedro Quevedo, y yo -Coalición Canaria y Nueva Canarias- vamos a apoyar este rescate a Grecia y esta aportación del Gobierno y de España por varias razones. La primera, porque creemos que Grecia tiene que estar en la Comunidad Europea; que Grecia es importante en el euro y que la alternativa era la salida, como muy bien han dicho portavoces anteriores y el ministro. Creemos, además, que en este momento esa situación que vive Grecia crea dudas de que al final todo este rescate, todas estas medidas, puedan ayudar al pueblo griego a salir y a hacer asumibles las nuevas deudas que asume Grecia. Y no lo dice la portavoz de Coalición Canaria-Nueva Canarias, lo dice el propio Gobierno griego cuando afirma que el fondo de 50.000 millones de euros que calcula la Comisión Europea no existe. Lo dice el Fondo Monetario Internacional, que tiene dudas de la sostenibilidad y la capacidad de la deuda griega. Lo dice el ministro de Economía alemán, que dice que hubiera sido mejor que hubiera habido una quita a Grecia y que Grecia hubiera salido. En ese sentido, yo creo que el retraso en la decisión del Fondo<pb n="24"/> Monetario Internacional de entrar en este momento y retrasar la misma dos meses no inspira confianza en la decisión que se está tomando. Pero, así y todo, nosotros vamos a apoyar esta propuesta porque, como muy bien han dicho el portavoz socialista y el portavoz de Convergència i Unió, al final esto es un plato de lentejas: las tomas o las dejas. Al final, es la única solución en este momento para salvar la permanencia de Grecia y nosotros estamos convencidos de que eso es necesario.</seg>
                <seg>También quiero aprovechar este momento para volver a hacer un llamamiento con respecto a la inmigración en el Mediterráneo; esa situación de Grecia con más de 150.000 personas que han llegado este año; esas islas a las que están llegando miles de seres humanos que huyen de la guerra, que huyen del hambre; unas islas en las que no se quieren quedar esos refugiados sino que usan para llegar a Europa, como vivimos en Canarias en el año 2006. Desde la Comisión Europea no puede responderse a un país que está en una situación económica, de inmigración y de refugiados desbordada, con 400 millones de euros; no se puede resolver con cupos miserables. Al final, esta gente viene a Europa; al final, los españoles, que tuvimos esta experiencia, tenemos que hacer real el discurso que hicimos en el año 2006. Esto no era un problema español, ahora no es un problema griego y, como digo siempre, nosotros tenemos que estar en el problema de la inmigración al lado de Italia y de Grecia y no de Alemania, de Inglaterra, de Francia y de otros, porque llegan a Europa y son seres humanos. Cuando uno se lanza al mar y no tiene...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u33" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u33" ana="#chair">
                <seg>Señora Oramas, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u34"
@@ -355,7 +353,7 @@
                <seg>...y no tiene nada que perder, eso no se para ni con 400 millones ni con dos barcos; se para con una política europea decidida en las zonas de conflicto y en África.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u35" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u35" ana="#chair">
                <seg>Gracias, señora Oramas.</seg>
                <seg>Señor Baldoví.</seg>
             </u>
@@ -367,7 +365,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <pb n="25"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u37" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Señor Álvarez Sostres.</seg>
                <seg>El señor ÁLVAREZ SOSTRES: Muchas gracias, señor presidente.</seg>
@@ -376,7 +374,7 @@
                <seg>Ahora pintamos el dinero en la cuota correspondiente con el sacrificio de la sociedad española, y no importa que nos llamen rácanos si el objetivo es una Europa unida, pero esto también, señor De Guindos, resulta muy educativo para nuestra propia sociedad de puertas adentro. Tenemos alguna duda, el rescate tendrá una vigencia de tres años y después -la mayoría de los analistas consideran que no habrá una quita sobre esa deuda- ¿qué pasará?, ¿puede haber un cuarto rescate, acaso un quinto rescate que nos exija nuevas aportaciones cuando ya superan los tres rescates precedentes, como usted nos ha citado, los 34.000 millones de euros? Eso significa un gran sacrificio por nuestra parte. El presente político de Grecia y los problemas de estabilidad del propio Gobierno, ¿hasta qué punto nos permiten ser optimistas en este sentido? Yo no rechazaré la ayuda a Grecia y la implicación financiera de nuestro país, pero tampoco -se lo confirmo- veo claro el futuro de Grecia si no logran cambios estructurales en su economía. Es un sí pero. Parece que con este tercer rescate y sus políticas de sacrificio se ve la luz del túnel, pero no sé si al final del túnel es otro tren el que viene con más deudas y con un default. En todo caso, en Foro no seremos ambiguos ni cicateros con la corresponsabilidad en la ayuda al pueblo griego, porque se demuestra, en definitiva, que las sociedades siempre suelen estar por delante de los engañadores y falsificadores de la verdad.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u38" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u38" ana="#chair">
                <seg>Muchas gracias, señor Álvarez Sostres.</seg>
                <seg>Señor Salvador.</seg>
             </u>
@@ -389,7 +387,7 @@
                <seg>Termino. Debemos confiar en que cumplan el calendario y sus compromisos. Tiempo e instrumentos tenemos para evaluar si la palabra que empeñan los políticos griegos se cumple y si los nuevos sacrificios que tendrá que asumir el pueblo griego dan su fruto, como todos esperamos, lo antes posible. Unión del Pueblo Navarro quiere acompañar su compromiso, el del pueblo griego, con nuestro voto favorable a ayudarles. Es lo que nos reclama hoy la intrahistoria de la construcción europea, la unidad y la solidaridad con el pueblo de Grecia.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u40" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u40" ana="#chair">
                <seg>Muchas gracias, señor Salvador.</seg>
                <seg>Señor Serrano, como último interviniente del Grupo Mixto.</seg>
             </u>
@@ -400,7 +398,7 @@
                <seg>Desgarradora, señor ministro, su capacidad, la de ustedes, para utilizar el sufrimiento del pueblo griego como parte de su campaña electoral. Mientras ustedes aplican medidas de inmisericorde austeridad en sanidad, educación, dependencia, asistencia a las víctimas del paro estructural, etcétera, no les importa tirar del erario público en viajes y dietas de diputados y en gastos del personal del Congreso para un Pleno extraordinario y electoralista. Les daría igual que toda la oposición hubiese votado en contra de su juego, ya tienen su mayoría suficiente; el Congreso como tal es el que le aplaude. Este Pleno extraordinario es innecesario y, por tanto, despilfarrador, señor ministro. Está planteado en beneficio exclusivo de sus intereses electoralistas. Geroa Bai no acepta su juego. Votaré no a un acuerdo que usted sabe bien que no va a funcionar, porque ya está advertido de que no va a solucionar el problema de Grecia, como no funcionaron los dos planes anteriores. Lo único que hará será prorrogar y aumentar su sufrimiento. Grecia nos legó, además, otros dos grandes valores a Europa: la democracia y la tragedia. Ustedes, gentil reciprocidad la suya, aplican a la sociedad griega una democracia reinterpretada bajo el peso de sus panzer financieros y devuelven la tragedia a las vidas cotidianas de sus gentes.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u42" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u42" ana="#chair">
                <seg>Muchas gracias, señor Serrano.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Martínez-Pujalte.</seg>
                <pb n="27"/>
@@ -420,7 +418,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u44" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u44" ana="#chair">
                <seg>Muchas gracias, señor Martínez-Pujalte.</seg>
                <seg>Tiene ahora la palabra el señor ministro de Economía y Competitividad.</seg>
             </u>
@@ -532,13 +530,13 @@
                <note>Aplausos</note>
                <pb n="35"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u58" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u58" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Vamos a suspender ahora el Pleno. Les comunico a los portavoces que los grupos tienen treinta minutos, hasta las cuatro menos cuarto, para presentar sus propuestas; a las cuatro se reunirá la Mesa, después de haberlas visto técnicamente para calificarlas, y a las cuatro y cuarto reanudaremos el Pleno.</seg>
                <seg>Se suspende la sesión a las tres y veinte minutos de la tarde.</seg>
                <seg>Se reanuda la sesión a las cuatro y veinte minutos de la tarde.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u59" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Han sido presentadas las propuestas de resolución por los grupos parlamentarios. Como hemos decidido en Junta de Portavoces, se irán viendo de menor a mayor. Por el Grupo Parlamentario Mixto ha habido una propuesta y para defenderla tiene la palabra, en primer lugar, el señor Baldoví.</seg>
             </u>
@@ -550,7 +548,7 @@
                <seg>Nosotros proponemos, junto con los otros miembros del Grupo Mixto, un cambio en las políticas económicas, un cambio en nuestra política económica exterior que vaya en beneficio del pueblo griego, porque ese cambio de políticas sería un cambio que afectaría también a nuestro pueblo, al pueblo portugués, al pueblo italiano y al pueblo europeo en general. Proponemos respeto a las decisiones soberanas de los ciudadanos griegos. Por último, proponemos que esta deje de ser la Europa de los mercaderes y comience a ser de una vez por todas la Europa de los ciudadanos.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u61" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>En esta misma propuesta, tiene ahora la palabra la señora Fernández Davila.</seg>
             </u>
@@ -561,7 +559,7 @@
                <seg>Desde el Bloque Nacionalista Galego y en consecuencia con la intervención que tuvimos esta mañana, donde manifestamos nuestro posicionamiento en relación con los acuerdos del tercer rescate a Grecia, presentamos esta propuesta de resolución porque no solamente nos sentimos solidarios con el pueblo griego y, por lo tanto, reclamamos el derecho a ejercer su soberanía para que no estén supeditados, que es lo que conlleva el acuerdo alcanzado, a la soberanía de Alemania y de la Unión Europea, sino también porque en estos últimos años, concretamente en esta legislatura en la que gobierna el Partido Popular, también sufrimos en el Estado español toda esa política de recortes que se le exige también al Estado griego. A pesar de que en repetidísimas ocasiones el presidente del Gobierno dice que España no fue rescatada, esa política, ese austericidio que el Gobierno de Rajoy imprimió al trabajo del Gobierno en esta legislatura indica que el Estado español también fue rescatado y, por eso, tuvimos las imposiciones de la Unión Europea en relación con estos recortes que todos y todas conocemos. Por eso, nosotros reclamamos en nuestra resolución una Europa distinta, una Europa social, una Europa de los pueblos, una Europa que no trate de usurpar la soberanía de las naciones que la componen y que no sirva para garantizar que la economía especulativa sea el motor único de la Unión Europea. Queremos una Europa social y queremos que la economía esté al servicio del bienestar de las personas. Por eso, defendemos la resolución.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u63" ana="#chair">
                <seg>Muchas gracias, señora Fernández Davila.</seg>
                <seg>Señor Tardà.</seg>
                <pb n="36"/>
@@ -574,7 +572,7 @@
                <seg>Frente a esta divisa, que además queda blindada con el actual rescate que hoy, al parecer, aquí se va a aprobar, presentamos una propuesta de resolución que tiene tres pies. Primer pie, apoyo a la ciudadanía griega; segundo pie, los pueblos tienen derecho a decidir su futuro, y tercer pie, las personas son mucho más importantes que los negocios y que la acumulación de capitales. Estas son las tres patas sobre las cuales se fundamenta nuestra resolución, que a nuestro entender tiene todo el sentido y debería ser contemplado por ustedes en la medida en que se aleja de radicalidades y pretende hacer justicia, no solamente respecto al pueblo griego sino también respecto a todos los pueblos de Europa, puesto que si algo tiene este rescate de importante para nosotros es que es un aviso para navegantes porque lo que hoy ocurre en Grecia quizá mañana, posiblemente y, por desgracia, pronto, puede ocurrirles a otros pueblos de Europa. Pedimos, pues, vuestro voto favorable a nuestra propuesta de resolución, que además viene compartida por los compañeros de Compromís, del Bloque Nacionalista Galego y de Amaiur.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u65" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u65" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Tiene la palabra el señor Larreina.</seg>
             </u>
@@ -585,7 +583,7 @@
                <seg>Señorías, señor ministro, nosotros los soberanistas de Euskal Herria, junto con los soberanistas de otras naciones que componen ahora mismo el Estado, hemos presentado esta propuesta de resolución en clave claramente positiva. Es una propuesta de resolución que dice sí manifestando nuestro apoyo a la ciudadanía griega, defendiendo que al igual que la ciudadanía del resto de los pueblos de Europa tienen derecho a decidir su propio futuro, sin ningún tipo de injerencias, presiones o imposiciones externas, precisamente porque esas imposiciones van en contra de su soberanía y de los principios básicos de la democracia. Al mismo tiempo expresamos nuestro rechazo a la imposición de medidas que en vez de ayudar a la población atentan contra la dignidad de las personas, porque están poniendo por encima del ser humano los intereses de la economía especulativa, porque se están promoviendo e impulsando políticas de austeridad que dan la espalda al objetivo fundamental de una Europa social, que es servir a la ciudadanía, y al mismo tiempo están dificultando -y la experiencia así lo confirma- un crecimiento socialmente sostenible, están incrementando la desigualdad, están recortando derechos sociales y están atentando contra el Estado de bienestar y al mismo tiempo socavando la cohesión social en Grecia y en el conjunto de la Unión Europea. Por eso, nuestra propuesta de resolución tiene ese doble carácter: positivo, de solidaridad con la ciudadanía griega, de solidaridad con el resto de la ciudadanía de Europa que tiene derecho a una Europa social y a una Europa del bienestar, y al mismo tiempo de rechazo de una serie de políticas ultraliberales que lo único que han demostrado hasta la fecha es que incrementan la desigualdad, que imponen criterios antisociales y que al final van en contra de la propia ciudadanía.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u67" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u67" ana="#chair">
                <seg>Muchas gracias, señor Larreina.</seg>
                <seg>Para defender la resolución que ha presentado el Grupo Vasco, PNV, tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -597,7 +595,7 @@
                <seg>No voy a repetir los argumentos de esta mañana. Lo esencial del debate ya se ha producido. Conocemos perfectamente las posiciones de cada uno. Solo intervengo para pedirles el apoyo a nuestra<pb n="37"/> propuesta de resolución. La hemos elaborado, insisto, de una manera que se entienda y pueda ser apoyada por todos los grupos de la Cámara. Entrar en mezclar contenidos e incorporar elementos dificultaría el consenso y el máximo apoyo que según el Grupo Vasco es deseable. Desde nuestro grupo también avanzamos que no tendremos inconveniente en apoyar otras propuestas o al menos otros puntos de las propuestas de otros grupos parlamentarios, siempre y cuando vayan en la línea de lo que nosotros proponemos.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u69" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu, por su concisión.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra la señora Díez.</seg>
             </u>
@@ -614,7 +612,7 @@
                <seg>Por último, señor ministro, en relación con la cuestión sobre la que le he llamado antes la atención respecto de las cosas que se les piden en el memorándum a los griegos, pero que no se aplican los países europeos, pedimos que España asuma y defienda en Europa las mejores prácticas enumeradas por la Comisión Europea en el memorando de entendimiento con Grecia, que aún no se han introducido en nuestro país, como la inclusión de la ley de segunda oportunidad de los créditos públicos o la puesta en marcha de una estrategia nacional para una renta mínima garantizada que racionalice de manera coherente todas las ayudas no contributivas existentes en nuestro país para que lleguen a todas las personas con necesidades de la forma más justa y al margen de la comunidad autónoma en la que residan, esto es, que ese diagnóstico que hacemos para España lo hacemos también para Europa, y eso que pedimos al Gobierno de España para España le pedimos que lo impulse también a nivel europeo, porque, como digo -y además creo que en coherencia con lo que el ministro ha planteado en la réplica-, si nos limitamos a apoyar el rescate pero no somos conscientes de que el éxito del mismo depende de medidas estructurales que tiene que tomar Europa para toda Europa y no solo Grecia para los griegos, lo que estaremos haciendo hoy es predecir la fecha del fracaso del tercer rescate para Grecia y, por tanto, del fracaso de las decisiones comunitarias europeas.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u71" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Por el Grupo Parlamentario de La Izquierda Plural, tiene en primer lugar la palabra el señor Garzón.</seg>
             </u>
@@ -627,7 +625,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u73" ana="#chair">
                <seg>Muchas gracias, señor Garzón.</seg>
                <seg>En defensa de la misma proposición, tiene la palabra, creo, el señor Coscubiela.<note>Denegación</note> Entonces pasamos al Grupo Catalán de Convergència i d'Unió. Tiene la palabra el señor Macias.</seg>
             </u>
@@ -639,7 +637,7 @@
                <seg>Una tercera cuestión para nosotros muy relevante es que se pueda proceder a la aprobación y a la implementación de todo el programa y que desde la Cámara podamos efectuar un cumplido seguimiento de todo el proceso. Por ello pedimos que el Gobierno informe semestralmente al Congreso de los Diputados de la implementación de dicho programa. También instamos al Gobierno a que impulse la participación del Fondo Monetario Internacional en el acuerdo, lo cual garantiza plenamente la validez de este, y finalmente algo que para nosotros es muy relevante -se ha hablado también esta mañana-, y es que procedamos a aprender de todo aquello que no ha funcionado, que de alguna manera es la gobernanza. Por tanto, instamos al Gobierno a proceder en el seno de las instituciones de la Unión a perfeccionar estos mecanismos de gobernanza, especialmente aquellos dedicados a impulsar la convergencia en el espacio europeo de máxima integración política, económica, fiscal y social.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u75" ana="#chair">
                <seg>Muchas gracias, señor Macias.</seg>
                <seg>Señor Picó, por el mismo grupo.</seg>
                <pb n="40"/>
@@ -652,7 +650,7 @@
                <seg>Para Unió Democràtica de Catalunya es un acuerdo necesario para avanzar en medidas para paliar la grave situación económica, presupuestaria y social en que se encuentra incursa Grecia, pero también es un paso necesario para asegurar la estabilidad de la zona euro. El programa de asistencia es fruto del diálogo y del acuerdo entre la Unión Europea y Grecia ratificado por el Parlamento heleno y creemos que el acuerdo se basa en la responsabilidad y la solidaridad. La integración europea supone soberanía compartida, señorías, entre la Unión Europea y los Estados miembros. Esa soberanía compartida europea implica una responsabilidad colectiva que da pie a una solidaridad entre los socios: solidaridad compartida, responsabilidad colectiva, solidaridad entre los socios. El señor Sánchez i Llibre decía en el debate que estamos ante un gran ejemplo de solidaridad europea. Efectivamente, de solidaridad entre los miembros de la Unión Europea desde la responsabilidad mutua.</seg>
                <seg>Creemos también los diputados de Unió Democràtica de Catalunya que es un acuerdo que debe tener como objetivos el crecimiento económico de Grecia, la creación de empleo y el mantenimiento y sostenibilidad del Estado del bienestar en Grecia. El acuerdo debe suponer romper con la Grecia de los últimos cuarenta años para alcanzar un crecimiento sostenible, un acuerdo que busque ayudar a Grecia a impulsar el crecimiento sostenible y la creación de empleo. Grecia debe tener futuro como economía competitiva dentro de la Unión Europea. También debe ser un acuerdo que no debe olvidar la situación que están viviendo los ciudadanos griegos. No podemos olvidar que la Unión Europea es económica, naturalmente, pero también y sobre todo es y debe ser la Europa social.<note>Rumores</note> Unas últimas consideraciones que finalmente recoge la propuesta de resolución formulada, como han puesto de manifiesto otros Estados miembros de la Unión Europea...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u77" ana="#chair">
                <seg>Perdón, señor Picó.</seg>
                <seg>Ruego silencio.</seg>
                <seg>Siga, señor Picó.</seg>
@@ -665,7 +663,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u79" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Por el Grupo Socialista y para defender su propuesta, tiene la palabra el señor Moscoso del Prado.</seg>
                <pb n="41"/>
@@ -678,7 +676,7 @@
                <seg>Instamos a culminar la unión bancaria, la unión fiscal, la unión económico-social y la unión política. Para ello hacemos una serie de propuestas que aparecen relatadas de manera correlativa. También instamos a que se cuente con el máximo apoyo de todas las fuerzas políticas del espectro parlamentario. Unión bancaria y financiera, completar la unión bancaria para evitar que el contribuyente financie futuros rescates, para cortar el círculo vicioso entre deuda pública y privada, para reducir el coste de potenciales crisis bancarias futuras y para erradicar el riesgo moral en el que han incurrido los gestores financieros en los últimos años. Hay que recordar que se han privatizado beneficios y se han socializado pérdidas.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u81" ana="#chair">
                <seg>Por favor, ruego un poco de silencio para atender al orador.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u82"
@@ -694,7 +692,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u83" ana="#chair">
                <seg>Muchas gracias, señor Moscoso del Prado.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Floriano.</seg>
             </u>
@@ -705,7 +703,7 @@
                <seg>Este es el debate al que hemos sido convocados, señorías, y este es el debate que el grupo parlamentario no va a eludir. ¿Cuál sería la cara con la que se miraría a Europa si ante la posibilidad o la imposibilidad de que parte de sus ciudadanos pudiesen sacar dinero en los cajeros automáticos de sus bancos, en lugar de una solución les dijésemos, como ha hecho hoy el Grupo Parlamentario Socialista, esperen que vamos a ver si nos ponemos de acuerdo en crear un tesoro europeo? ¿Cuál sería la cara con la que se miraría a Europa si ante la imposibilidad de que parte de sus pensionistas pudiesen cobrar sus pensiones, en lugar de contestarles, con euros, asegurándoles su devolución, les hubiéramos dicho, como ha hecho hoy el Grupo Parlamentario Socialista...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u85" ana="#chair">
                <seg>Perdón, señor Floriano.</seg>
                <seg>Por favor, ocupen sus escaños y atiendan al orador.</seg>
                <seg>Continúe.</seg>
@@ -720,7 +718,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u87" ana="#chair">
                <seg>Muchas gracias, señor Floriano.</seg>
                <seg>En unos minutos vamos a votar.</seg>
                <note>Pausa</note>
@@ -728,7 +726,7 @@
          </div>
          <div type="debateSection">
             <head>JURAMENTO O PROMESA DE ACATAMIENTO DE LA CONSTITUCIÓN POR NUEVOS SEÑORES DIPUTADOS</head>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u88" ana="#chair">
                <seg>Vamos a proceder al juramento o promesa de acatamiento de la Constitución, conforme al artículo 20.1.3 del Reglamento. En sustitución de doña Gracia Fernández Moya, pregunto a don Antonio López Olmo si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u89"
@@ -736,14 +734,14 @@
                ana="#regular">
                <seg>Sí, prometo.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u90" ana="#chair">
                <seg>Don Antonio López Olmo ha adquirido la condición plena de diputado. Enhorabuena.</seg>
                <note>Aplausos</note>
             </u>
          </div>
          <div type="debateSection">
             <head>DECLARACIÓN INSTITUCIONAL</head>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u91" ana="#chair">
                <seg>Firmada por todos los grupos, se ha hecho llegar a esta Presidencia una declaración institucional contra la violencia de género que va a leer el secretario primero.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u92"
@@ -755,63 +753,63 @@
                <seg>España es un ejemplo para la comunidad internacional en su lucha contra este terrible problema. Debemos seguir avanzando en su completa eliminación, y para ello se precisa de la colaboración de toda la ciudadanía. Todos y todas desde nuestros respectivos cometidos personales, familiares o profesionales debemos comprometernos en esta tarea. Por ello, pedimos a todos los poderes del Estado y a la sociedad ese compromiso y esa colaboración que -tenemos la completa seguridad- obtendremos para la total desaparición de la violencia de género. Firmado: Todos los grupos parlamentarios.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u93" ana="#chair">
                <seg>Muchas gracias, señor secretario primero.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>COMUNICACIÓN DEL GOBIERNO - COMUNICACIÓN DEL GOBIERNO EN LA QUE SOLICITA LA CELEBRACIÓN DE UN DEBATE SOBRE LA CONTRIBUCIÓN ESPAÑOLA ANTE UN TERCER PROGRAMA DE AYUDA A GRECIA.</head>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u94" ana="#chair">
                <seg>Vamos a proceder a las votaciones. En primer lugar, propuesta de resolución del Grupo Mixto<note>del señor Larreina, del señor Tardà, de la señora Fernández Davila y del señor Baldoví</note> Se vota en sus términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 21; en contra, 288; abstenciones, 11.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u95" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta de resolución del Grupo Vasco, PNV, que se vota también en sus términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 302; en contra, 9; abstenciones, 11.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u96" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta de resolución del Grupo Unión Progreso y Democracia. Votamos, en primer lugar, el punto 1.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 298; en contra, 17; abstenciones, 7.</seg>
                <pb n="45"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u97" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Ahora el punto 2.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 100; en contra, 190; abstenciones, 30.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u98" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Propuesta de resolución de La Izquierda Plural. Se vota en sus términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 20; en contra, 293; abstenciones, 9.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u99" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta del Grupo Catalán de Convergència i d'Unió. En primer lugar, puntos 1 a 4.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 321; a favor, 297; en contra, 9; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u100" ana="#chair">
                <seg>Quedan aprobados.</seg>
                <seg>Punto 5 de la propuesta del Grupo Catalán.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 130; en contra, 184; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u101" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Propuesta de resolución del Grupo Socialista. En primer lugar, punto 1.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 115; en contra, 179; abstenciones, 28.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u102" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 2 de la propuesta de resolución del Grupo Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 299; en contra, 19; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u103" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Propuesta de resolución del Grupo Popular, que se vota en sus términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 297; en contra, 20; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-08-18-CD150818.u104" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Se levanta la sesión.</seg>
                <seg>Eran las cinco y veinticinco minutos de la tarde.</seg>

@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="113">113 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="113" xml:lang="es">113 speeches</measure>
+            <measure unit="speeches" quantity="113" xml:lang="en">113 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="9"/>
                <tagUsage gi="note" occurs="80"/>
                <tagUsage gi="u" occurs="113"/>
-               <tagUsage gi="lb" occurs="348"/>
+               <tagUsage gi="seg" occurs="348"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY DE MODIFICACIÓN PARCIAL DE LA LEY 58/2003, DE 17 DE DICIEMBRE, GENERAL TRIBUTARIA. - PROYECTO DE LEY ORGÁNICA POR LA QUE SE REGULA EL ACCESO Y PUBLICIDAD DE DETERMINADA INFORMACIÓN CONTENIDA EN LAS SENTENCIAS DICTADAS EN MATERIA DE FRAUDE FISCAL.</head>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
                <seg>Empezamos con el debate de totalidad de iniciativas legislativas, en concreto el proyecto de ley de modificación parcial de la Ley 58/2003, de 17 de diciembre, General Tributaria, y el proyecto de ley orgánica por la que se regula el acceso y publicidad de determinada información contenida en las sentencias dictadas en materia de fraude fiscal, que se debatirán acumuladamente conforme a lo acordado en la Junta de Portavoces y ratificado por la Diputación Permanente.</seg>
                <seg>Para la presentación de los proyectos de ley, tiene la palabra, en nombre del Gobierno, el señor ministro de Hacienda y Administraciones Públicas.</seg>
@@ -130,7 +128,7 @@
                <seg>Gracias, señoras y señores diputados; gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u3" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>A cada uno de estos dos proyectos de ley que estamos debatiendo conjuntamente se ha presentado una enmienda a la totalidad de devolución por parte del Grupo Socialista.</seg>
                <seg>Para defender esas dos enmiendas, en su nombre tiene la palabra el señor Saura.</seg>
@@ -506,7 +504,7 @@
                <seg>Muchas gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u52" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u52" ana="#chair">
                <seg>Muchas gracias, señora Lozano.</seg>
                <seg>Para presentar su enmienda, también con texto alternativo, por el Grupo Catalán de Convergència i de Unió tiene la palabra el señor Xuclà.</seg>
             </u>
@@ -523,7 +521,7 @@
                <seg>Muchas gracias, señor presidente, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u54" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u54" ana="#chair">
                <seg>Muchas gracias, señor Xuclà.</seg>
                <seg>Intervenciones de los grupos. Para fijación de posiciones, vamos a comenzar por el Grupo Vasco, PNV. Señor Agirretxea.</seg>
             </u>
@@ -537,7 +535,7 @@
                <seg>Además, en cuanto al contenido, podemos diferir mucho y la historia que ahora ha contado el señor Xuclà es muy interesante, porque no se pueden utilizar estas cuestiones según quién esté mandando y en qué momento. Puestos a hacer demagogia, la semana pasada, en una mesa redonda sobre sanidad, una compañera del Partido Popular criticaba y decía que si el Gobierno catalán usara dinero en potenciar la sanidad en vez de abrir embajadas por el mundo tendría más dinero para ese fin. ¿Saben ustedes cuántas vacunas se pueden comprar con lo que vale el misil Taurus, que nos cuesta 10 millones de euros y que no sé contra quien vamos a usar? Hay que tener mucho cuidado con las demagogias que se usan para ciertas cuestiones, porque en esta, con todos estos conceptos que aparecen en este proyecto de ley, podemos hacer toda la que queramos. Por tanto, cuidado, son cuestiones mucho más serias y nos parece muy mala forma de legislar esta de los reales decretos, porque parece que se quiere esconder algo, que no hay ganas de clarificar, que en vez de presentar capítulos abiertos en los presupuestos en los que todo el mundo sabe para qué es, se trae de manera medio oscura en forma de real decreto algo que todos sabemos que después van a aprobar por medio de una mayoría absoluta. En consecuencia, somos muy críticos tanto con la metodología como con el contenido.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u56" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u56" ana="#chair">
                <seg>Muchas gracias, señor Agirretxea.</seg>
                <seg>Por La Izquierda Plural, tiene la palabra el señor Sanz.</seg>
             </u>
@@ -553,7 +551,7 @@
                <seg>Voy acabando. Son estas las cuestiones que deberían centrar el debate que nos ocupa hoy, pero lamentablemente me parece que vamos a volver a ver cómo el Partido Popular impide su debate y este debate colisiona con los intereses de un Gobierno que desde luego quiere ser todo menos transparente, a pesar de que haga juegos florales como este trámite que luego pasa por ponencia y que previsiblemente la semana que viene veremos ya totalmente satisfecho; o sea, no debate. Es un Gobierno el suyo, señorías del Partido Popular, que certifica mediante este bochornoso trámite su apuesta por la patronal del sector bélico, siendo capaz de quedar en evidencia, como se ha dicho ya aquí, por las formas y también por el fondo y el poco respeto que se tiene a esta Cámara, antes de dejar de pagar esa factura que cheque a cheque, año a año, va ya por más de 4.000 millones de euros.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u58" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u58" ana="#chair">
                <seg>Gracias, señor Sanz.</seg>
                <seg>Por el Grupo Socialista tiene la palabra el señor López Garrido.</seg>
             </u>
@@ -565,7 +563,7 @@
                <seg>Señorías, tengo aquí un cuadro donde se ve cuál es la diferencia -quizá ustedes no lo ven desde ahí- entre lo programado en los Presupuestos Generales del Estado para programas especiales de armamento y lo ejecutado. Prácticamente la cantidad programada y aprobada cada noviembre o cada diciembre era de casi 7 millones de euros y aquí tenemos estas columnas enormes que son lo ejecutado a través de créditos extraordinarios. En todos los años se ha programado lo mismo y en el año 2012 se incluyeron en los presupuestos 7 millones para el programa 122.B, gasto en programas especiales de modernización. En el año 2012 -fue el primero- se ejecutaron 1.782 millones de euros en pagos de programas especiales de armamento. En el siguiente año los 7 millones se convirtieron en 877 millones. En el siguiente año, 2014, los 7 millones previstos en los presupuestos se convirtieron en una ejecución real de 883 millones, y este año, 2015, los 7 millones consabidos se han convertido en 846 millones. Es decir, en la legislatura ustedes han aprobado en los Presupuestos Generales del Estado para programas especiales de armamento 27.377.000 euros y han ejecutado en esta legislatura a través de los consabidos decretos-leyes 4.390 millones de euros. Se programan 27 millones y se ejecutan 4.390<pb n="45"/> millones. Es decir, ustedes han ejecutado irregularmente ciento sesenta veces la cantidad que estaba prevista para esos programas en los Presupuestos Generales del Estado, ciento sesenta veces. Es un auténtico escándalo, desde luego, nada parecido se ha producido a través de créditos extraordinarios en ninguna otra partida presupuestaria seguramente en todas las legislaturas de la democracia española. Por tanto, estamos ante un proyecto de ley derivado de un decreto-ley que es rigurosamente innecesario, un proyecto de ley inútil, una farsa. Se le ha llamado blanqueo, ocultación y pantomima, pero nosotros le llamaríamos una verdadera farsa ejecutada ante este hemiciclo porque el objetivo de este proyecto de ley no es ninguno, simplemente enmascarar la absoluta inconstitucionalidad del decreto-ley del que deriva, nada más que eso. Nunca ha habido urgencia ni extraordinaria necesidad en esta legislatura para aprobar estos decretos-leyes. Nunca la ha habido. Y este año 2015 es el más absurdo de todos porque, ¿por qué ustedes han planteado un decreto ley también este año si pensaban tramitarlo como proyecto de ley? ¿Para qué un decreto-ley? Creo que no pensaban hacerlo y se les ha ocurrido al final presentar un proyecto de ley para intentar sanar dos cosas de esta forma. En primer lugar, para sanar la inconstitucionalidad evidente sobre la cual esperamos que se pronuncie el Tribunal Constitucional como consecuencia del recurso de inconstitucionalidad presentado el año pasado por el Grupo Parlamentario Socialista y otros grupos parlamentarios y de otro recurso de inconstitucionalidad presentado la semana pasada por el Grupo Parlamentario Socialista contra el decreto-ley que aprobó el Gobierno hace algunas semanas. Este es el primer objetivo; inútil, porque ya está el decreto-ley en vigor. En segundo lugar, para sanar la inquietud y la preocupación que hay en la industria de defensa por que el Tribunal Constitucional eventualmente pueda anular los pagos realizados a la misma. Este proyecto de ley no puede sanar nada de eso, porque ya está en vigor el decreto-ley que se aprobó hace unas semanas. No sana absolutamente nada. Solo sirve para darnos la razón, porque el Gobierno ya no soportaba por más tiempo el estigma de inconstitucionalidad de toda esta ristra de decretos-leyes y ha terminado por aceptar que habría que hacer algo a través de un proyecto de ley. Para eso ha servido, para darnos la razón en última instancia.</seg>
                <seg>Nosotros queremos mirar hacia el futuro y, por eso, hemos presentado dos enmiendas que harían bien en apoyar. La primera se refiere a los presupuestos de 2016 anunciados por el señor Rajoy. El señor Rajoy ha anunciado que va a presentar aquí unos presupuestos y que los va a tramitar. Todo el mundo sabe que son presupuestos absolutamente electoralistas, pero lo más grave de esos presupuestos no es eso, sino que son presupuestos que se van a presentar despreciando la voluntad de quienes van a votar en noviembre o diciembre y despreciando la mayoría que se va a formar en este hemiciclo y que será absolutamente distinta de la que hay ahora mismo aquí. El Gobierno le va a colocar ese presupuesto a una mayoría diferente que va a tener que utilizar ese instrumento al menos al principio. Es un desprecio absoluto a la decisión mayoritaria de los ciudadanos, pero, como nos tememos que eso va a suceder, hemos presentado una enmienda diciendo que por una vez en la legislatura en los presupuestos que van a presentar ustedes este mes incluyan los programas especiales de armamento. Además, presentamos otra enmienda para que antes de marzo del año que viene el próximo Gobierno, que será distinto al que hay ahora mismo, envíe por fin una comunicación a esta Cámara sobre la ordenación de la financiación de estos programas especiales de armamento; un replanteamiento, una reprogramación. Igualmente, creemos que deben adecuarse a las prioridades militares y a las necesidades de la defensa y no a las necesidades de la tesorería de los proveedores de armamento. Saben ustedes que hemos planteado en este hemiciclo la necesidad de que haya una programación plurianual para las inversiones en defensa y que hemos sido derrotados por la mayoría absoluta del Grupo Parlamentario Popular.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u60" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u60" ana="#chair">
                <seg>Señor López Garrido, debe usted terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u61"
@@ -576,7 +574,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u62" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u62" ana="#chair">
                <seg>Muchas gracias, señor López Garrido.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra la señora Barreiro.</seg>
                <pb n="46"/>
@@ -592,14 +590,14 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos.-Varios señores diputados: ¡Bravo!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u64" ana="#chair">
                <seg>Muchas gracias, señora Barreiro.</seg>
                <pb n="47"/>
             </u>
          </div>
          <div type="debateSection">
             <head>ACUERDO DE TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA - TERCER PROTOCOLO DE ENMIENDA DEL CONVENIO DE COOPERACIÓN PARA LA DEFENSA ENTRE EL REINO DE ESPAÑA Y LOS ESTADOS UNIDOS DE AMÉRICA, DE 1 DE DICIEMBRE DE 1988, Y SUS ENMIENDAS, HECHO EN WASHINGTON EL 17 DE JUNIO DE 2015.</head>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u65" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u65" ana="#chair">
                <seg>Se somete a la aprobación de la Cámara la tramitación directa y en lectura única del tercer protocolo de enmienda del Convenio de cooperación para la defensa entre el Reino de España y los Estados Unidos de América, de 1 de diciembre de 1988, y sus enmiendas, hecho en Washington el 17 de junio de 2015.</seg>
                <seg>Quiero señalar que no se trata de discutir el fondo de este asunto. Para eso lo veremos la semana que viene en extenso. Lo que se somete a la aprobación de la Cámara es la tramitación directa y en lectura única. Por lo tanto, es un aspecto formal. Lo digo para que lo sepan los que vayan a intervenir. Por el Grupo de Unión Progreso y Democracia tiene la palabra la señora Lozano.</seg>
             </u>
@@ -612,7 +610,7 @@
                <seg>No voy a entrar en el fondo del asunto, pero creo que el conflicto laboral existente entre los trabajadores de Morón, con los que mi grupo se reunió hace algunas semanas, justifica que esta información, al menos, fuera facilitada a las Cortes. Con esta tramitación rápida y por la vía de urgencia, creemos que una vez más se salva la legalidad pero se descuida la legitimidad del Congreso, y me parece que esta Cámara no está sobrada de legitimidad como para que la despreciemos. Por eso, termino como empecé, señorías, las prisas para los delincuentes y los malos toreros.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u67" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u67" ana="#chair">
                <seg>Muchas gracias, señora Lozano.</seg>
                <seg>Por La Izquierda Plural tiene la palabra el señor Centella.</seg>
             </u>
@@ -626,7 +624,7 @@
                <seg>Mi grupo va a votar en contra de la tramitación. Es evidente que intentaremos presentar una enmienda a la totalidad y poner en evidencia que anteponen el interés de no se sabe quiénes a la seguridad nacional de la forma más chapucera posible. Lo hacen de la forma más antidemocrática posible. Es verdad que será legal pero no tiene nada de ética, ni mucho menos tiene nada de consideración con el Parlamento de Andalucía, un Parlamento que representa a millones de personas que son afectadas por esta tramitación. Me gustaría que cuando suba a esta tribuna el portavoz o la portavoz del Partido Popular explicase si se ha consultado a la Comunidad Autónoma de Andalucía, como bien indica el Estatuto de Autonomía de Andalucía. Por eso, nuestro voto negativo es un voto claramente a su conciencia, es un voto que los pone en evidencia y nuestro grupo votará en contra esta semana y también la que viene.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u69" ana="#chair">
                <seg>Muchas gracias, señor Centella.</seg>
                <seg>Por el Grupo Parlamentario Catalán de Convergència i d´Unió, el señor Xuclà.</seg>
             </u>
@@ -716,7 +714,7 @@
                <seg>Por todo ello, señorías, manifestamos nuestro voto favorable a la moción que presenta Unió.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u82" ana="#chair">
                <seg>Muchas gracias, señora Fernández.</seg>
                <seg>Por el Grupo Vasco, PNV, señor Agirretxea.</seg>
                <pb n="52"/>
@@ -729,7 +727,7 @@
                <seg>Por último, es una pregunta que nos hemos hecho muchas veces cuando hemos debatido el IVA en el sector cultural. Todavía el Gobierno no nos ha demostrado que este aumento del IVA haya beneficiado, haya recaudado, haya dado positivo de alguna manera y que haya compensado este aumento del IVA. Va en contra del consumo y a quien perjudica precisamente es a los ciudadanos que no pueden consumir, a los que dejan de consumir y eso automáticamente hace que se retraiga esa actividad económica y que surja en muchos casos economía sumergida en actividades tan fáciles de que aflore la economía sumergida como puede ser esta del sector de las peluquerías. La dignidad de esta actividad y de estos profesionales requiere que se active más el consumo; es muy fácil que todos digamos: Me lo haré en casa, pero esta actividad económica requiere incentivar el consumo y para eso tiene que descender el IVA porque si no, los precios no estarán al alcance de muchos ciudadanos que están pasándolo muy mal a raíz de esta crisis. Por tanto, apoyaremos esta iniciativa.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u84" ana="#chair">
                <seg>Muchas gracias, señor Agirretxea.</seg>
                <seg>Por el grupo de Unión Progreso y Democracia, señor Calduch.</seg>
             </u>
@@ -741,7 +739,7 @@
                <note>Aplausos</note>
                <pb n="53"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u86" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo de La Izquierda Plural, señor Coscubiela.</seg>
             </u>
@@ -755,7 +753,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u88" ana="#chair">
                <seg>Muchas gracias, señor Coscubiela.</seg>
                <seg>Por el Grupo Parlamentario Socialista, tiene la palabra la señora Blanquer.</seg>
             </u>
@@ -769,7 +767,7 @@
                <seg>Termino. Reducir el tipo impositivo a determinados sectores como el de las peluquerías no repara tanto sufrimiento, tantas pérdidas de empleo, pero sí puede recuperar la esperanza puesta en una actividad que es el único sustento que hace viable el proyecto de vida para muchas personas, especialmente mujeres pues representan el 85 % de este sector. Por todo lo expuesto, votaremos a favor de esta moción.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u90" ana="#chair">
                <seg>Muchas gracias, señora Blanquer.</seg>
                <seg>Por el Grupo Parlamentario Popular tiene la palabra el señor Gallego.</seg>
             </u>
@@ -783,7 +781,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos.-Varios señores diputados: Muy bien, Antonio</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u92" ana="#chair">
                <seg>Muchas gracias, señor Gallego.</seg>
                <seg>En dos minutos empezamos a votar.</seg>
                <note>Pausa</note>
@@ -792,7 +790,7 @@
          </div>
          <div type="debateSection">
             <head>JURAMENTO O PROMESA DE ACATAMIENTO DE LA CONSTITUCIÓN POR NUEVOS SEÑORES DIPUTADOS</head>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u93" ana="#chair">
                <seg>Vamos a proceder al juramento o promesa de acatamiento de la Constitución. En primer lugar, en sustitución de don Gaspar Zarrías, pregunto a doña María de las Mercedes Gámez García si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u94"
@@ -801,7 +799,7 @@
                <seg>Sí, prometo.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u95" ana="#chair">
                <seg>En sustitución de don Manuel Chaves, pregunto a don Salvador de la Encina si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u96"
@@ -810,7 +808,7 @@
                <seg>Sí, juro.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u97" ana="#chair">
                <seg>En sustitución de doña Carmen Montón, pregunto a don Josep Antoni Santamaría i Mateo si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u98"
@@ -819,79 +817,79 @@
                <seg>Sí, prometo.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u99" ana="#chair">
                <seg>Doña María de las Mercedes Gámez, don Salvador de la Encina y don Josep Antoni Santamaría han adquirido la condición plena de diputados. Enhorabuena,</seg>
                <note>Aplausos</note>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY DE MODIFICACIÓN PARCIAL DE LA LEY 58/2003, DE 17 DE DICIEMBRE, GENERAL TRIBUTARIA.</head>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u100" ana="#chair">
                <seg>Votación de la enmienda a la totalidad de devolución al proyecto de ley de modificación parcial de la Ley 58/2003, de 17 de diciembre, General Tributaria, presentada por el Grupo Socialista. Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316 más 1 voto telemático, 317; a favor, 129; en contra, 174 más 1 voto telemático, 175; abstenciones, 13.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u101" ana="#chair">
                <seg>Queda rechazada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>AVOCACIÓN POR EL PLENO</head>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u102" ana="#chair">
                <seg>Votamos ahora la solicitud que se ha hecho por el Grupo Socialista de avocación por el Pleno de la Cámara de este proyecto de ley. Hay un voto telemático.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322 más 1 voto telemático, 323; a favor, 148; en contra, 173 más 1 voto telemático, 174; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u103" ana="#chair">
                <seg>No se tramitará por el Pleno.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>- PROYECTO DE LEY ORGÁNICA POR LA QUE SE REGULA EL ACCESO Y PUBLICIDAD DE DETERMINADA INFORMACIÓN CONTENIDA EN LAS SENTENCIAS DICTADAS EN MATERIA DE FRAUDE FISCAL</head>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u104" ana="#chair">
                <seg>Votación de la enmienda a la totalidad de devolución del proyecto de ley orgánica por la que se regula el acceso y publicidad de determinada información contenida en las sentencias dictadas en materia de fraude fiscal, presentada por el Grupo Socialista. Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322 más 1 voto telemático, 323; a favor, 126; en contra, 181 más 1 voto telemático, 182; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u105" ana="#chair">
                <seg>Queda rechazada.<pb n="57"/> - PROYECTO DE LEY POR LA QUE SE CONCEDEN CRÉDITOS EXTRAORDINARIOS Y UN SUPLEMENTO DE CRÉDITO POR IMPORTE DE 856.440.673,35 EUROS EN EL PRESUPUESTO DEL MINISTERIO DE DEFENSA, PARA ATENDER AL PAGO DE OBLIGACIONES CORRESPONDIENTES A PROGRAMAS ESPECIALES DE ARMAMENTO Y A LA REALIZACIÓN DE OTRAS ACTUACIONES DEL DEPARTAMENTO</seg>
                <note>PROCEDENTE DEL REAL DECRETO-LEY 7/2015, DE 14 DE MAYO</note>
                <note>Número de expediente 121/000159</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u106" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u106" ana="#chair">
                <seg>Proyecto de ley por la que se conceden créditos extraordinarios y un suplemento de crédito por importe de 856.440.673,35 euros en el presupuesto del Ministerio de Defensa para atender al pago de obligaciones correspondientes a programas especiales de armamento y a la realización de otras actuaciones del departamento. Hay tres enmiendas con texto alternativo y vamos a votarlas por separado.</seg>
                <seg>En primer lugar, enmienda presentada por el Grupo Mixto, por el señor Tardà. Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 321 más 1 voto telemático, 322; a favor, 21; en contra, 181 más 1 voto telemático, 182; abstenciones, 119.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u107" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u107" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda a la totalidad con texto alternativo también, presentada por el Grupo Parlamentario de Unión Progreso y Democracia. Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322 más 1 voto telemático, 323; a favor, 35; en contra, 175 más 1 voto telemático, 176; abstenciones, 112.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u108" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u108" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Votamos ahora la tercera enmienda a la totalidad con texto alternativo, presentada por el Grupo Parlamentario Catalán de Convergència i d´Unió. Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322 más 1 voto telemático, 323; a favor, 36; en contra, 176 más 1 voto telemático, 177; abstenciones, 110.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u109" ana="#chair">
                <seg>Queda rechazada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>ACUERDO DE TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA : - TERCER PROTOCOLO DE ENMIENDA DEL CONVENIO DE COOPERACIÓN PARA LA DEFENSA ENTRE EL REINO DE ESPAÑA Y LOS ESTADOS UNIDOS DE AMÉRICA, DE 1 DE DICIEMBRE DE 1988, Y SUS ENMIENDAS, HECHO EN WASHINGTON EL 17 DE JUNIO DE 2015.</head>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u110" ana="#chair">
                <seg>Acuerdo de tramitación directa y en lectura única del Tercer Protocolo de enmienda del Convenio de cooperación para la defensa entre el Reino de España y los Estados Unidos de América, de 1 de diciembre de 1988, y sus enmiendas, hecho en Washington el 17 de junio de 2015. Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317 más 1 voto telemático, 318; a favor, 301 más 1 voto telemático, 302; en contra, 14; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u111" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u111" ana="#chair">
                <seg>Se hará su tramitación directa y en lectura única.</seg>
                <pb n="58"/>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - DEL GRUPO PARLAMENTARIO CATALÁN DE CONVERGÈNCIA I DE UNIÓ, SOBRE LA NECESIDAD DE QUE EL GOBIERNO CONTEMPLE LA INMEDIATA REDUCCIÓN DEL IVA A PELUQUERÍAS Y A LOS SERVICIOS PRESTADOS POR PERSONAS FÍSICAS QUE PRACTIQUEN EL DEPORTE O LA EDUCACIÓN FÍSICA EN GIMNASIOS E INSTALACIONES DEPORTIVAS, ACTIVIDAD MUY VINCULADA A LA MEJORA DE LOS HÁBITOS DE SALUD.</head>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u112" ana="#chair">
                <seg>Moción consecuencia de la interpelación del Grupo Parlamentario Catalán de Convergència i d´Unió sobre la necesidad de que el Gobierno contemple la inmediata reducción del IVA a peluquerías y a los servicios prestados a personas físicas que practiquen el deporte o la educación física en gimnasios e instalaciones deportivas, actividad muy vinculada a la mejora de los hábitos de salud. Se vota en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 321; a favor, 145; en contra, 169; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u113" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u113" ana="#chair">
                <seg>Queda rechazada la moción.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las nueve y cuarenta minutos de la noche.</seg>

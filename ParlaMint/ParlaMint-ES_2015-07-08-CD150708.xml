@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="328">328 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="328" xml:lang="es">328 speeches</measure>
+            <measure unit="speeches" quantity="328" xml:lang="en">328 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="93"/>
                <tagUsage gi="note" occurs="195"/>
                <tagUsage gi="u" occurs="328"/>
-               <tagUsage gi="lb" occurs="878"/>
+               <tagUsage gi="seg" occurs="878"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>PREGUNTAS - DEL DIPUTADO DON JOAN COSCUBIELA CONESA, DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, QUE FORMULA A LA SEÑORA VICEPRESIDENTA DEL GOBIERNO Y MINISTRA DE LA PRESIDENCIA: ¿CONSIDERA EL GOBIERNO QUE LA NUEVA POLÍTICA DE COMUNICACIÓN DEL EJECUTIVO HA MEJORADO LAS CONDICIONES DE VIDA DE LA CIUDADANÍA?</head>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>En la sesión plenaria prevista para hoy se ha incluido en el debate la aprobación de enmiendas del Senado que tienen carácter orgánico. Por ello, les adelanto que las votaciones no tendrán lugar antes de las cinco de la tarde.</seg>
                <seg>Vamos a comenzar con las preguntas dirigidas al Gobierno. En primer lugar, preguntas dirigidas a la señora vicepresidenta del Gobierno y ministra de la Presidencia. Pregunta, en primer lugar, el diputado don Joan Coscubiela de La Izquierda Plural.</seg>
@@ -110,7 +108,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señora vicepresidenta, durante cuatro años su Gobierno ha aprovechado de manera oportunista la crisis para imponer políticas que han provocado un aumento brutal de las desigualdades sociales y un incremento de la pobreza. ¿Considera que vistiendo de seda sus políticas mejora la vida de las personas?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u3" ana="#chair">
                <seg>Gracias, señor Coscubiela.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -122,7 +120,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u5" ana="#chair">
                <seg>Muchas gracias, señora vicepresidenta.</seg>
                <seg>Señor Coscubiela.</seg>
             </u>
@@ -133,7 +131,7 @@
                <seg>Por mucho miedo, por mucha intoxicación que ustedes practiquen no van a evitar que los ciudadanos de este país continúen luchando por sus derechos y por sus libertades y lo van a demostrar pronto en las urnas, señora vicepresidenta.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u7" ana="#chair">
                <seg>Gracias, señor Coscubiela.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -145,12 +143,12 @@
                <seg>Por último, quiero recordarle que usted es aquí oposición, pero empieza a ser gobierno en algunos sitios y precisamente por su política de comunicación e intoxicación y por su política de empeoramiento del nivel de vida de los ciudadanos ya empiezan a conocerse los ayuntamientos donde ustedes gobiernan. Muchas gracias, señor Coscubiela.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u9" ana="#chair">
                <seg>Muchas gracias, señora vicepresidenta.</seg>
                <seg>- DEL DIPUTADO DON ANTONIO HERNANDO VERA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA VICEPRESIDENTA DEL GOBIERNO Y MINISTRA DE LA PRESIDENCIA: ¿CONSIDERA LA VICEPRESIDENTA DEL GOBIERNO QUE HA EJERCIDO SATISFACTORIAMENTE SUS FUNCIONES COMO MINISTRA DE LA PRESIDENCIA?</seg>
                <note>Número de expediente 180/001379</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u10" ana="#chair">
                <seg>Pregunta dirigida también a la señora vicepresidenta que formula don Antonio Hernando, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u11"
@@ -158,7 +156,7 @@
                ana="#regular">
                <seg>Señora vicepresidenta, ¿cómo valora el ejercicio de sus responsabilidades en la preparación, desarrollo y seguimiento del programa legislativo del Gobierno y las relaciones del Gobierno con las Cortes Generales?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u12" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
                <pb n="9"/>
@@ -171,7 +169,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u14" ana="#chair">
                <seg>Gracias, señora vicepresidenta.</seg>
                <seg>Señor Hernando.</seg>
             </u>
@@ -182,7 +180,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u16" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -195,12 +193,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u18" ana="#chair">
                <seg>Gracias, señora vicepresidenta.</seg>
                <seg>- DEL DIPUTADO DON ANTONI PICÓ I AZANZA, EN SUSTITUCIÓN DE DOÑA MARÍA CONCEPCIÓN TARRUELLAS TOMÀS, DEL GRUPO PARLAMENTARIO CATALÁN DE CONVERGÈNCIA I DE UNIÓ, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿CONSIDERA EL GOBIERNO QUE SE HAN ADOPTADO LAS MEDIDAS ADECUADAS PARA LUCHAR CONTRA LOS ALTOS ÍNDICES DE VULNERABILIDAD SOCIAL, DESIGUALDAD Y POBREZA?</seg>
                <note>Número de expediente 180/001389</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u19" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Sanidad, Servicios Sociales e Igualdad.</seg>
                <seg>Pregunta, en primer lugar, el diputado don Antoni Picó, del Grupo Catalán de Convergència i de Unió.</seg>
             </u>
@@ -210,7 +208,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, ¿considera el Gobierno que se han adoptado las medidas adecuadas para luchar contra los altos índices de vulnerabilidad social, desigualdad y pobreza?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u21" ana="#chair">
                <seg>Gracias, señor Picó.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -221,7 +219,7 @@
                <seg>Efectivamente, el Gobierno, desde el primer minuto, decidió que para combatir la desigualdad y los índices de pobreza, que habían sufrido el mayor aumento de la Unión Europea entre el año 2008 y el 2011 como consecuencia de la crisis económica, lo más importante era, en primer lugar, iniciar un proceso de reformas para volver a España al crecimiento y a la creación de empleo porque es lo que había castigado más especialmente a las rentas más bajas, a las ocupaciones de menor titulación, a las capas más vulnerables de la sociedad. Y, en segundo lugar, que tenía que realizar esa política de reformas y de reactivación económica garantizando los grandes servicios públicos, las grandes prestaciones sociales del Estado. Ese es el esfuerzo que se hizo y es lo que nos ha llevado a este momento, en el que podemos ver el futuro de una manera bien distinta.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u23" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Picó.</seg>
             </u>
@@ -233,7 +231,7 @@
                <seg>Señor ministro, en épocas de bonanza económica los datos de pobreza, especialmente infantil, se situaban por encima de la media europea. El problema existía y se ha agudizado. Muchos países europeos han sufrido la crisis, pero sus datos de pobreza no se han incrementado como en España y ello es debido a que cuentan con políticas de apoyo a la familia, con políticas de justicia social y equidad y de potentes ayudas sociales, precisamente lo que no tenemos. Voy a hacerle una propuesta, señor ministro. Unió Democrática le propone que cree un fondo para combatir la pobreza y la exclusión social dotado con los ingresos por autoliquidaciones extemporáneas recaudadas por la Agencia Tributaria. Distribúyanlo entre las comunidades autónomas; háblelo con el señor Montoro. ¿Sabe a cuánto puede ascender este fondo, con datos de 2014? A más de 1.300 millones de euros y ustedes en los presupuestos dedicaron una partida específica a pobreza infantil de 32 millones de euros. Háganlo ya, señor ministro, 1.300 millones de euros. Los datos de pobreza, exclusión social y desigualdad son, como le digo, indecentes. O se toman medidas contundentes y cuanto antes o...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u25" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -247,15 +245,15 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u27" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA ÁNGELES ÁLVAREZ ÁLVAREZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿CÓMO PIENSA EL GOBIERNO ATENDER LAS RECOMENDACIONES DEL GRUPO DE TRABAJO DE NACIONES UNIDAS SOBRE LA CUESTIÓN DE LA DISCRIMINACIÓN CONTRA LA MUJER EN LA LEGISLACIÓN Y EN LA PRÁCTICA?</seg>
                <note>Número de expediente 180/001388</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u28" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Sanidad, Servicios Sociales e Igualdad que formula la diputada doña Ángeles Álvarez del Grupo Socialista.<pb n="12"/> La señora ÁLVAREZ ÁLVAREZ: Acabamos de conocer un informe del grupo de trabajo de Naciones Unidas que recomienda corregir situaciones creadas por su Gobierno que ponen en riesgo los derechos de las españolas. ¿Piensa atenderlas o seguirá profundizando en el acoso a los derechos de las mujeres?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u29" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u29" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -268,14 +266,14 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u31" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u31" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora Álvarez.</seg>
                <seg>La señora ÁLVAREZ ÁLVAREZ: Señor ministro, el informe señala literalmente impresionantes esfuerzos y progresos de España precisamente durante los Gobiernos socialistas; el problema es la manifiesta preocupación sobre los riesgos que corren esos logros con las medidas de su Gobierno. Este informe califica de regresiva la eliminación de Educación para la Ciudadanía y les recomienda reimplantarla como asignatura obligatoria.</seg>
                <seg>La ONU les insta -y abro comillas- a suspender todos los intentos de restringir el actual acceso seguro y legal al aborto -cierro comillas-. Pero es que, además, les previene sobre la temeridad que supone una reforma que va a poner en riesgo a cientos de jóvenes españolas con embarazos no deseados que, además, por ejemplo, son víctimas de violencia intrafamiliar. Una de las cosas que hace el informe es afear su insensibilidad en el caso González, asimismo, alerta de la poca protección que se otorga en este país a los hijos de padres violentos y ustedes están votando de manera sistemática en contra de cada proposición socialista para reforzar la protección de los menores. Este informe también dice que la excesiva carga que soportan las mujeres españolas para atender a personas dependientes es culpa de sus recortes en protección social y que eso está expulsando a las mujeres del mercado laboral. El informe considera que su reforma del Instituto de la Mujer debilita aún más el objetivo de eliminar la discriminación y además nos está alertando -y le vuelvo a abrir comillas- porque la situación de los servicios de protección a víctimas se está deteriorando en todo el país. Le recomiendo que lea la letra pequeña porque de lo que habla en verdad es de las comunidades que hasta ahora ustedes estaban gobernando. Usted no puede marcar un perfil positivo en materia de igualdad porque las políticas de su Gobierno han sido un permanente atentado a la libertad de las mujeres en este país por tierra, mar y aire. La cuestión ahora sería si usted va a atender las veintinueve recomendaciones de Naciones Unidas o seguirá hostigando a las mujeres.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u32" ana="#chair">
                <seg>Gracias, señora Álvarez.</seg>
                <seg>Señor ministro.</seg>
                <pb n="13"/>
@@ -287,12 +285,12 @@
                <seg>Se ha dado cumplida respuesta a cada una de las recomendaciones, que nosotros agradecemos porque nos gusta colaborar con organismos internacionales. Sobre otras cuestiones, diré también que las leyes que se hacen en España las decide este Parlamento, como no podría ser de otra manera porque ha de ser así. Pero ya que me habla usted de hijos de padres violentos y hoy se van a aprobar las leyes de protección a la infancia -que entiendo que es un gran avance, un avance importante que usted reconocerá-, ¿no ha sido este Gobierno el que permite que los jueces puedan poner garantías sobre la patria potestad, la custodia y el régimen de visitas? ¿O no ha sido una enmienda del Partido Popular la que hace que aquel que asesine a un familiar no pueda cobrar la pensión y que, por tanto, el asesino de una mujer no pueda cobrar la pensión de viudedad?<note>Aplausos</note> Con su Gobierno esa enmienda no se introdujo. Por tanto, estamos avanzando...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u34" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON MIGUEL ÁNGEL HEREDIA DÍAZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN: ¿EN QUÉ BENEFICIA A NUESTRO PAÍS LA FIRMA DEL PROTOCOLO DE ENMIENDA DEL CONVENIO CON LOS ESTADOS UNIDOS QUE AFECTA A LA BASE DE MORÓN?</seg>
                <note>Número de expediente 180/001380</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u35" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u35" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Asuntos Exteriores y de Cooperación formulada por el diputado don Miguel Ángel Heredia, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u36"
@@ -301,7 +299,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, ¿en qué beneficia a nuestro país la firma del protocolo de enmienda del Convenio con los Estados Unidos respecto a la base de Morón?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u37" ana="#chair">
                <seg>Muchas gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -312,7 +310,7 @@
                <seg>Señor diputado, no quisiera yo adelantar acontecimientos porque la semana que viene tengo prevista una comparecencia para discutir en extenso esta cuestión, pero, a una pregunta directa, una respuesta directa. Podemos hablar de tres beneficios. En primer lugar, añade valor a la seguridad de España, a la seguridad de Europa y a la seguridad de los aliados. En segundo lugar, refuerza los dos anclajes en los que se basa la política exterior española: nuestro protagonismo en Europa y el vínculo con los Estados Unidos. En tercer lugar, aporta beneficios concretos para la zona porque el acuerdo firmado por Defensa supone la inversión de 29 millones de dólares que, sin duda, repercutirán en la creación de empleo.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u39" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u39" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Heredia.</seg>
             </u>
@@ -324,7 +322,7 @@
                <seg>Es cierto que en las últimas semanas ustedes nos han trasladado seguridades por varias vías pero nosotros queremos hoy aquí un compromiso en sede parlamentaria, y en ese marco les planteamos si el Gobierno tiene previsto en el convenio con Estados Unidos que por cada civil americano haya un trabajador español contratado directamente por el Ministerio de Defensa. Les preguntamos si van a exigir a los servicios de apoyo que los presten trabajadores y no soldados; si se va a mediar por parte del Gobierno para evitar nuevos ERE, y se va vigilar que esos 29 millones de euros en infraestructuras de la base representen contratos para españoles, porque parece una obviedad pero quiero insistir: esta va a ser una base española. En definitiva, señor ministro, ¿el Gobierno puede garantizar que este convenio va a suponer en primer lugar el mantenimiento y posteriormente el incremento de empleo para trabajadores de la zona?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u41" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u41" ana="#chair">
                <seg>Muchas gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -335,12 +333,12 @@
                <seg>Mire usted, en un dilema antiguo entre una Europa atlántica o una Europa de espaldas a los Estados Unidos, este Gobierno quiere una Europa fuerte con una alianza fuerte con los Estados Unidos. En segundo lugar, la relación bilateral en materia de seguridad más importante que tenemos es la que poseemos con los Estados Unidos, por eso esa relación ha sido siempre una política de Estado. El Convenio para la cooperación de la defensa fue firmado en época de Felipe González con los votos de este grupo parlamentario. Las dos enmiendas, la de 2002 en época de Aznar y la de 2012 en época de Rajoy, fueron aprobadas por este Gobierno con los votos de ese grupo parlamentario. Y aquí lo que se ha producido es un aumento de la amenaza en nuestra frontera sur. Empezó con un ataque al consulado de Bengasi que le costó la vida al embajador; Estados Unidos nos pidió un despliegue temporal de la fuerza en Morón, accedimos; pidieron una prórroga, accedimos; pidieron una segunda prórroga y volvimos a acceder. Gracias a las buenas relaciones y a la política de este Gobierno, lo que era temporal va a ser permanente; en vez de establecerse esa base en un país amigo pero no español, se establece en España, lo cual da mayor protagonismo a España en la defensa en Europa, en la Unión Europea, y mayor protagonismo en el seno de la alianza con nuestros aliados. Poder, podemos volver la espalda a nuestras alianzas, pero deber, debemos mantenerlas. Ustedes sabrán si podemos o debemos.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u43" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA ISABEL RODRÍGUEZ GARCÍA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE JUSTICIA: ¿CREE EL GOBIERNO QUE ES VIABLE LA APROBACIÓN DE LA PENA DE PRISIÓN PERMANENTE REVISABLE EN CONTRA DEL RESTO DE LOS GRUPOS PARLAMENTARIOS?</seg>
                <note>Número de expediente 180/001381</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u44" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u44" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Justicia. Pregunta la diputada doña Isabel Rodríguez del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u45"
@@ -350,7 +348,7 @@
                <seg>Señor ministro, la semana pasada, diputados de todos los grupos parlamentarios, a excepción del Grupo Popular, registramos este recurso ante el Tribunal Constitucional contra la cadena perpetua que ustedes nos han impuesto. ¿No cree que son inviables este tipo de reformas en contra de la mayoría política de este Parlamento? ¿Es usted capaz de explicarnos por qué lo hace? Si es cierto que nuestro país tiene las tasas más bajas de delincuencia de nuestro entorno, si es cierto que la criminalidad ha ido descendiendo día a día en nuestro país, si es cierto que somos uno de los países de la Unión Europea con más población reclusa, con más población en las cárceles, si es cierto que somos uno de los países de la Unión Europea con las penas más altas y de cumplimiento más íntegro, ¿a qué se debe esta<pb n="15"/> reforma? ¿Por qué nos han hecho retroceder un siglo en nuestro derecho penal? ¿Y por qué lo han hecho contra todos? ¿De verdad cree que esto va ser viable en el futuro?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u46" ana="#chair">
                <seg>Muchas gracias, señora Rodríguez.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -362,7 +360,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u48" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señora Rodríguez.</seg>
             </u>
@@ -372,7 +370,7 @@
                <seg>Señor ministro, frentismo de ustedes contra todos. Respeto su mayoría absoluta, pero ustedes han hecho un abuso de su mayoría que tiene como consecuencia un rechazo de una mayoría social y política.<note>Aplausos</note> ¿Argumentos jurídicos? Los tiene en el recurso y le animo a que los lea, pero le puedo enunciar algunos: es una pena inhumana; es una pena que vulnera claramente los principios de proporcionalidad y de culpabilidad que nos lleva también a incumplir el derecho a la libertad; es una pena contraria al principio de legalidad penal porque es una pena indeterminada; es una pena que rompe el claro mandato de nuestra Constitución de resocialización porque prácticamente impide la reinserción de los reos. No se entiende, señor ministro, su empeño en ir contra todos y en mantener esta reforma contra todos. Esta cadena perpetua no será perpetua, porque afortunadamente su Gobierno no es perpetuo. ¿En algún momento se creyeron no solo absolutos, sino también perpetuos? Afortunadamente, no será perpetua y sí será revisable, pero no para justificar su constitucionalidad. No será revisable por los juzgados dentro de veinticinco años, sino que será revisable por una mayoría social que les dará la espalda en las próximas elecciones generales y será revisable por un nuevo Gobierno que cambiará y derogará esta ley con el apoyo de una mayoría social y política en esta Cámara. Así será.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u50" ana="#chair">
                <seg>Muchas gracias, señora Rodríguez.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -384,12 +382,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u52" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u52" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON RAFAEL CALDUCH CERVERA, DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿PIENSA EL GOBIERNO RECUPERAR LAS APORTACIONES AL RÉGIMEN MUTUALISTA DE LOS FUNCIONARIOS PARA MEJORAR SU SOSTENIBILIDAD FUTURA?</seg>
                <note>Número de expediente 180/001377</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u53" ana="#chair">
                <seg>Preguntas dirigidas al señor Ministro de Hacienda y Administraciones Públicas. En primer lugar, pregunta del diputado don Rafael Calduch, del Grupo de Unión Progreso y Democracia.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u54"
@@ -397,7 +395,7 @@
                ana="#regular">
                <seg>Señor ministro, ¿piensa el Gobierno recuperar las aportaciones al régimen mutualista de los funcionarios para mejorar su sostenibilidad?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u55" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -407,7 +405,7 @@
                <seg>Señor diputado, la Mutualidad General de Funcionarios Civiles del Estado, Muface, tiene actualmente una situación económica saneada y no presenta ningún problema de falta de liquidez o tesorería. De hecho, paga puntualmente a sus proveedores en un plazo inferior a treinta días, especialmente a las entidades médicas concertadas y a los colegios oficiales de farmacia de España con los que tiene firmados los correspondientes convenios. Muface es un sistema solvente y sostenible que, además, como saben todos los funcionarios, está plenamente garantizado por el Estado.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u57" ana="#chair">
                <seg>Señor diputado.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u58"
@@ -417,7 +415,7 @@
                <seg>Muchas gracias.</seg>
                <pb n="17"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u59" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -429,12 +427,12 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u61" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON PEDRO SAURA GARCÍA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿QUÉ INTENCIONES TIENE EL GOBIERNO RESPECTO DE LOS PRESUPUESTOS GENERALES DEL ESTADO PARA 2016?</seg>
                <note>Número de expediente 180/001382</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u62" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u62" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Hacienda y Administraciones públicas que formula el diputado don Pedro Saura, del Grupo Parlamentario Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u63"
@@ -444,7 +442,7 @@
                <seg>Señor ministro, ¿qué intenciones tiene el Gobierno con relación a los presupuestos, los va a adelantar?</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u64" ana="#chair">
                <seg>Muchas gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -456,7 +454,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u66" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Saura.</seg>
             </u>
@@ -468,7 +466,7 @@
                <note>Rumores</note>
                <pb n="18"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u68" ana="#chair">
                <seg>Perdón, señor Saura. Ruego silencio para que se oiga al señor Saura. Continúe.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u69"
@@ -479,7 +477,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u70" ana="#chair">
                <seg>Gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -490,12 +488,12 @@
                <seg>La dignidad no solo de los españoles, la capacidad intelectual de los españoles es, efectivamente, muy alta. Esa es exactamente la que rebaja su señoría con el lenguaje, ese lenguaje tan científico que lleva adelante en el debate de la política económica de los presupuestos.<note>Aplausos</note> Señor Saura, usted hace todo un acopio de descalificaciones, ahora chapuzas, pero ese es el lenguaje de los Presupuestos Generales del Estado. Lo que ha ocurrido en este país lo saben todos los españoles, por supuesto que lo saben todos los españoles. Aquí hubo un gobierno que negó la crisis económica que se nos venía encima y desde esa negación practicó la política económica y presupuestaria que alimentó esa crisis económica. Al final de su anterior mandato tiró la toalla, convocó elecciones generales con cuatro meses de anticipación para no hacer los presupuestos generales correspondientes al año 2012. Aquí hubo un gobierno que renunció a su responsabilidad -el Gobierno del presidente Zapatero, del que usted formaba parte y que estuvo apoyado por el señor Sánchez, sentado aquí- con esas medidas del año 2010, que lo que hicieron fue traer más paro a España, destruir cientos de miles de pequeñas y medianas empresas y destruir la confianza en España de nuestros socios europeos y de los inversores internacionales. Ese es el balance de ustedes en esa legislatura, y ahora quiere recuperar esa legislatura diciendo lo bien que lo hizo el señor Zapatero, que salió -si me permite la expresión- por pies por esa puerta para no hacer los presupuestos del Estado. Ahora va a haber un gobierno en España que va a traer un presupuesto para los españoles, para garantizar que, con independencia de quién sea el próximo Gobierno de España, se aplique una política económica que promueva el crecimiento económico y...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u72" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA SUSANA SUMELZO JORDÁN, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿PIENSA EL GOBIERNO DEVOLVER A LOS EMPLEADOS PÚBLICOS LOS DERECHOS QUE LES HA QUITADO EN ESTA LEGISLATURA?</seg>
                <note>Número de expediente 180/001383</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u73" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Hacienda y Administraciones Públicas que formula la diputada doña Susana Sumelzo, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u74"
@@ -505,7 +503,7 @@
                <seg>Señor Montoro, ¿piensa su Gobierno devolverles a los empleados públicos los derechos que les ha quitado durante esta legislatura?</seg>
                <pb n="19"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u75" ana="#chair">
                <seg>Gracias, señora Sumelzo.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -517,7 +515,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u77" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señora Sumelzo.</seg>
             </u>
@@ -529,7 +527,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u79" ana="#chair">
                <seg>Gracias, señora Sumelzo.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -541,12 +539,12 @@
                <seg>Señorías, ustedes, el Partido Socialista, que están echándose en manos de la izquierda radical, son precisamente una falta de garantía para que pueda prosperar...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u81" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON JON IÑARRITU GARCÍA, DEL GRUPO PARLAMENTARIO MIXTO, QUE FORMULA AL SEÑOR MINISTRO DEL INTERIOR: ¿QUÉ VALORACIÓN HACE EL MINISTRO DE SU GESTIÓN AL FRENTE DEL MINISTERIO DEL INTERIOR?</seg>
                <note>Número de expediente 180/001376</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u82" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro del Interior. En primer lugar, pregunta el diputado don Jon Iñarritu, del Grupo Mixto.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u83"
@@ -555,7 +553,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>¿Qué valoración hace el ministro de su gestión al frente de su ministerio?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u84" ana="#chair">
                <seg>Gracias, señor Iñarritu.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -566,7 +564,7 @@
                <seg>No creo que me corresponda valorar mi gestión. En todo caso, comparecí el 31 de enero de 2012 ante la Comisión de Interior de esta Cámara, estableciendo los compromisos y objetivos fundamentales de mi gestión mientras estuviera al frente del ministerio y las cifras y los hechos avalan esos compromisos, en la medida en que el objetivo fundamental era contribuir a que España fuera un país cada vez más seguro y en el que se garantizaran más y mejor los derechos fundamentales y libertades públicas que la Constitución reconoce a nuestros ciudadanos.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u86" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor diputado.</seg>
             </u>
@@ -577,7 +575,7 @@
                <seg>Por lo que se refiere a la valla de Melilla, un tanto de lo mismo: brutalidad policial y expulsiones en caliente, sin respetar el derecho de asilo. Así se lo han recordado varias organizaciones internacionales. Y por si fuera poco, desde su ministerio se han lanzado mensajes peligrosos de efectos llamada, invasiones, asaltos, estigmatizando con ello a potenciales solicitantes de asilo, mensajes propios de la extrema derecha. Mensaje de extrema derecha ha sido también el homenaje de su Gobierno a los voluntarios nazis de la División Azul en Barcelona, un hecho al que usted se refirió diciendo que se hizo en un ambiente de reconciliación histórica. ¿Qué reconciliación, señor Fernández? De igual forma ascendieron a coronel a un guardia civil que festejó en un cuartel el aniversario del 23-F. Por eso es de suponer que la veintena de agentes que recientemente se fotografiaron bajo la estatua de un dictador en Melilla lo hicieron para que usted les ascienda también, ¿verdad? Señor Fernández, aumento de la represión, medallas a figuras religiosas, mensajes mesiánicos, proclamas de estigmatización de extranjeros, control policial de la oposición e incluso de jueces. ¿Usted considera que su mandato puede ser recordado como el de un gobierno de la Europa del siglo XXI? Los hechos mencionados han sido motivo de apercibimiento tanto de la ONU como de la Unión Europea y del Consejo de Europa y usted ha hecho oídos sordos. ¿Cree que todos ellos están equivocados, señor ministro?</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u88" ana="#chair">
                <seg>Muchas gracias, señor Iñarritu.</seg>
                <seg>Señor ministro.</seg>
                <pb n="21"/>
@@ -590,12 +588,12 @@
                <seg>En cuanto al tema de Melilla, sencillamente...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u90" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON FELIPE JESÚS SICILIA ALFÉREZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DEL INTERIOR: ¿EN QUÉ MEJORA LA SEGURIDAD DE LOS CIUDADANOS LA ENTRADA EN VIGOR DE LA LEY MORDAZA?</seg>
                <note>Número de expediente 180/001384</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u91" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro del Interior y que formula don Felipe Sicilia, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u92"
@@ -605,7 +603,7 @@
                <seg>Señor ministro, hace una semana entró en vigor la ley mordaza, su ley mordaza, una ley que empezó con el rechazo del Consejo General del Poder Judicial, continuó con las críticas de los relatores de Naciones Unidas, puso en alerta al comisario de Derechos Humanos del Consejo de Europa y llenó las páginas de la prensa internacional, sobrecogida por el retraso que esta ley suponía en nuestros derechos y libertades. Una ley que rechazan centenares de organizaciones, desde Amnistía Internacional o Greenpeace hasta Cruz Roja o Cáritas, señor ministro. Una ley que cuenta con el rechazo de todo el arco parlamentario, a excepción del Partido Popular; salvo ustedes, señor Fernández, nadie quiere esta ley, una ley innecesaria. Porque, señor ministro, díganos ¿en qué va a mejorar la seguridad de los españoles su ley mordaza?</seg>
                <note>Una señora diputada: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u93" ana="#chair">
                <seg>Gracias, señor Sicilia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -616,7 +614,7 @@
                <seg>Como cuestión previa le diré, señor Sicilia, que me preocupa que el pacto con fuerzas radicales de izquierda<note>Rumores</note> , le haya llevado a que asuman ustedes su lenguaje como propio; eso me preocupa. Respecto a esa ley a la que usted califica en los términos que ha dicho, le voy a leer algunas de las cosas que usted debería conocer. Por ejemplo, en relación con los aspectos más controvertidos cabe destacar el uso no autorizado de imágenes de actuaciones policiales, que ha sido interpretado de manera torticera por quienes se oponen a esta ley. Se podrán seguir grabando actuaciones policiales, lo que impide la ley, eso sí, es difundir esas imágenes de forma que se ponga en peligro la integridad del funcionario o de su familia. Cabe recordar que ya ha sucedido en el pasado la difusión de imágenes de policías e incluso de su dirección postal, sufriendo acoso por parte de algunos ciudadanos, lo que supuso que tuvieran que trasladarse de domicilio. La grabación de imágenes a efectos informativos no está sancionada en esta ley -luego continuaré-. Pero esto no lo digo yo, lo dicen los cuatro sindicatos<pb n="22"/> policiales unánimemente, los cuatro sindicatos policiales respaldan esta ley y niegan lo que usted está diciendo. Me parece que usted, que es policía, debería tener más respeto por sus 70.000 compañeros que unánimemente consideran...</seg>
                <note>Varios señores diputados: ¡No! ¡Es diputado, es diputado!-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u95" ana="#chair">
                <seg>¡Ruego silencio, por favor! ¡No interrumpan!</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u96"
@@ -624,7 +622,7 @@
                ana="#regular">
                <seg>¿Puedo continuar?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u97" ana="#chair">
                <seg>Continúe, señor ministro, que yo preveré para que se le escuche en toda la Cámara.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u98"
@@ -634,7 +632,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u99" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Sicilia.</seg>
             </u>
@@ -645,7 +643,7 @@
                <seg>Señor ministro, soy policía y me siento muy orgulloso pero a ver si de una vez por todas se entera usted de que aquí estoy como diputado para controlar y fiscalizar su trabajo, su labor.<note>Aplausos</note> Mire, señor ministro, en esa tarea de controlar al Gobierno, que es la tarea que ahora tengo y no la de policía, es por lo que le digo que ustedes no pueden pretender hacernos creer que un grupo de pensionistas estafados por las preferentes y que están protestando en la puerta de Bankia son un peligro para la seguridad de este país. Como tampoco es un peligro para la seguridad de este país un grupo de personas sentadas en una vivienda para evitar un desahucio. Como tampoco son un peligro para este país unos ecologistas que se cuelgan en una grúa para protestar contra su ley mordaza. No son un peligro para los españoles, son un peligro para su Gobierno, del que usted forma parte.<note>Aplausos.-Varios señores diputados: ¡Muy bien!</note> Por eso, señor ministro, es por lo que ustedes prevén sanciones que pueden llegar hasta los 600.000 euros, para acallar estas protestas. Y lo peor no es la sanción, lo peor es que ustedes han quitado a los jueces la capacidad de tener un control previo antes de sancionar las conductas. Señor ministro, esta ley es solo reflejo de su miedo. Esta es la ley del miedo, del miedo que tienen, señor ministro, porque ya se sienten muertos. Son un Gobierno muerto. Así se sienten y así va a estar esta ley dentro de cinco meses. Una ley que va a estar muerta porque la derogaremos y volveremos a darles a los españoles los derechos y libertades que ustedes les han quitado.</seg>
                <note>Aplausos.-Varios señores diputados: ¡Muy bien!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u101" ana="#chair">
                <seg>Gracias, señor Sicilia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -656,11 +654,11 @@
                <seg>Entiendo que la derogarán y volverán a la ley de la patada en la puerta, que fue declarada inconstitucional por el Tribunal Constitucional.<note>Aplausos</note> Señoría, una mentira aunque se repita mil veces no pasa a ser verdad. Le voy a poner un ejemplo. La ley vigente hasta el pasado 1 de julio, la Ley Orgánica de Protección de la Seguridad Ciudadana, sancionaba como infracción grave que se manifestaran sin haberlo comunicado a la Delegación del Gobierno ante el Congreso de los Diputados o el Senado. Eso la ley vigente hasta el pasado 1 de julio. En la vigente ley, esa infracción pasa a ser leve, por ejemplo. ¿Se da usted cuenta? Y las cuantías de las sanciones son las mismas que las que se establecieron en el año 1992.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u103" ana="#chair">
                <seg>Gracias, señor ministro.<pb n="23"/> - DEL DIPUTADO DON MARIO BEDERA BRAVO, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE EDUCACIÓN, CULTURA Y DEPORTE: ¿TIENE INTENCIÓN EL MINISTRO DE ABORDAR INMEDIATAMENTE EL DIÁLOGO CON LOS GOBIERNOS AUTONÓMICOS, QUE EN SU MAYOR PARTE SON CONTRARIOS A LA IMPLANTACIÓN DE LA LOMCE?</seg>
                <note>Número de expediente 180/001385</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u104" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Educación, Cultura y Deporte. La formula don Mario Bedera, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u105"
@@ -669,7 +667,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>Señor ministro, permítame en nombre del Grupo Socialista, felicitarle por su nombramiento como ministro de Educación. Usted trae a esta Cámara una fama de hombre cordial y dialogante, y de verdad que son virtudes que va a tener que exhibir y que va a necesitar frente a lo que llamaría una endiablada herencia recibida. Esta herencia le va a obligar a decidir desde el primer momento si usted quiere pasar como un simple epígono del señor Wert mientras languidece la legislatura o si, por el contrario, va a trabajar para corregir los desatinos anteriores. Tiene usted una ocasión muy buena para empezar a hacerlo convocando a la sectorial de educación y revisando el calendario de implantación de la Lomce porque hay un nuevo escenario autonómico, porque lo han solicitado las comunidades autónomas de todos los colores -la pasada semana, sin ir más lejos, mi presidenta, la presidenta de la Comunidad Autónoma de Castilla y León, en el debate de investidura lo volvía a repetir- y porque la incertidumbre del inicio de curso en septiembre así lo aconseja. ¿Lo va usted a hacer?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u106" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u106" ana="#chair">
                <seg>Gracias, señor Bedera.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u107"
@@ -677,7 +675,7 @@
                ana="#regular">
                <seg>Sí.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u108" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u108" ana="#chair">
                <seg>Señor ministro, no se precipite. Yo también le doy la bienvenida, pero no se precipite en contestar hasta que no tenga el micrófono preparado.</seg>
                <seg>Ahora, señor ministro.</seg>
             </u>
@@ -686,7 +684,7 @@
                ana="#regular">
                <seg>Pues lo diré otra vez: Sí.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u110" ana="#chair">
                <seg>Señor Bedera.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u111"
@@ -696,7 +694,7 @@
                <seg>Muy bien, señor ministro. No es casualidad que nueve de las diecisiete comunidades autónomas no hayan aprobado aún los currículos que se van a aplicar en el mes de septiembre, y varias eran del Partido Popular. No es casualidad que en algunas comunidades gobernadas por el PP también se hayan aprobado los currículos con rango de orden y no con rango de decreto para correr más, para saltarse algunos informes preceptivos de los consejos escolares y los consejos consultivos. No es casualidad que muchos centros a estas alturas no sepan qué asignaturas van a dar en septiembre o que haya comunidades autónomas con currículos Lomce y libros de texto y metodología LOE. Y no es casualidad porque se ha hecho una implantación muy precipitada. Se lo han comentado no solo las comunidades autónomas, sino también los sindicatos, la comunidad educativa, hasta el Consejo de Estado. Fíjese, la Logse tardó diez años en implantarse, la LOCE se planteaba a cinco años, con la Lomce han sido dos años, aunque luego se prorrogó un tercero. Usted va a poder corregir este desaguisado. Está absolutamente en sus manos; pero, eso sí, tiene que elegir entre buscar excusas legales para que todo siga igual, aunque haya jurisprudencia del Tribunal Constitucional, como usted sabe, o utilizar sus habilidades diplomáticas, que las tiene, para hacer del consenso la guía de su mandato. Dicho de otra forma, señor ministro, usted tiene que elegir entre si quiere ser el príncipe de Salina, de El gatopardo, o el rey Arturo que siente en su mesa redonda a los consejeros de Educación.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u112" ana="#chair">
                <seg>Gracias, señor Bedera.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -708,12 +706,12 @@
                <seg>Le voy a pedir -usted ha sido secretario de Estado y conoce estos temas muy bien- que me ayude en ello. Estuve el domingo en Aragón, en la toma de posesión del presidente. El presidente de Aragón me habló de la lealtad bidireccional y me he encontrado con que lo primero que hace la consejera del Gobierno de Aragón es paralizar la Lomce. Dígale que espere a que hable conmigo, dígale, por favor, que me escuche. Ortega decía que el esfuerzo inútil produce melancolía y yo no quiero acabar siendo un ministro melancólico a base de esfuerzos inútiles. De todas maneras, le doy las gracias por su intervención. Ayer en el Senado uno de sus compañeros me comparó con André Malraux, hoy ya estoy entre el príncipe de Salina o el rey Arturo. Gracias por este recibimiento. Espero ser digno de él.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u114" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON EMILIO OLABARRÍA MUÑOZ, DEL GRUPO PARLAMENTARIO VASCO<note>EAJ-PNV</note> , QUE FORMULA A LA SEÑORA MINISTRA DE EMPLEO Y SEGURIDAD SOCIAL: ¿CREE QUE LA MEJOR FORMA DE FOMENTAR LA NATALIDAD ES APLICANDO UN COMPLEMENTO A LA PENSIÓN DÉCADAS DESPUÉS DE HABER SIDO MADRE?</seg>
                <note>Número de expediente 180/001378</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u115" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u115" ana="#chair">
                <seg>Preguntas dirigidas a la señora ministra de Empleo y Seguridad Social. Pregunta, en primer lugar, el diputado don Emilio Olabarría, del Grupo Vasco, PNV.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u116"
@@ -722,7 +720,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señora ministra, ¿considera razonable el Gobierno ubicar las únicas políticas natalistas conocidas de su Gobierno en el segmento de edad configurado por las jubiladas con dos o más hijos y en las viudas?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u117" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u117" ana="#chair">
                <seg>Gracias, señor Olabarría.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -733,7 +731,7 @@
                <seg>Señor Olabarría, esta es una de las doscientas propuestas y medidas que hemos presentado en el Plan integral de apoyo a la familia que le invito a que lea para que vea que es un plan importante para la familia, para la mujer y para el futuro de este país.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u119" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u119" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>Señor Olabarría.</seg>
             </u>
@@ -744,7 +742,7 @@
                <seg>Quiero comentarle, en todo caso, que las políticas natalistas son políticas importantes para evitar una de las perversiones que afectan al futuro de nuestro sistema de pensiones, que es la inversión de la<pb n="25"/> pirámide poblacional. En cualquier país conocido del mundo en donde no se practique lo que la doctrina italiana llamaría innovación creativa o uso alternativo del derecho, y en este caso también uso alternativo de la biología -si me permite la expresión-, las políticas natalistas se ubican y se focalizan sobre el segmento de edad de las mujeres y de las parejas que están en edad de procrear, entre los dieciséis y los treinta y seis años, y entre los dieciséis y cuarenta años en algunos países escandinavos. No parece razonable ni útil ubicar políticas natalistas mediante una expectativa de derecho que se va a producir treinta o treinta y cinco años después. ¿Por qué? Porque las personas que pueden procrear, por razones biológicas, no saben si treinta o treinta y cinco años después va a existir un sistema de pensiones público como el que conocemos, si esta contingencia va a estar protegida, si va a estar protegida de esta manera o de otra. Desde esa perspectiva, estas políticas, denominadas eufemísticamente por su Gobierno natalistas no tienen ninguna virtualidad. Pero, además, lo hacen mal, señora ministra, porque lo hacen mediante lo que ustedes denominan complemento contributivo para mujeres jubiladas con dos o más hijos. El complemento no puede ser de naturaleza contributiva porque falta el presupuesto de la contribución, de la contributividad, y no hay una prestación respecto a cuya financiación no se haya contribuido que tenga este carácter o esta naturaleza de prestación contributiva. Podría ser asistencial o no contributiva. En todo caso, señora ministra, a nosotros no nos parece mal que incremente las pensiones; las pensiones en el Estado español, en términos medios, son las segundas más bajas de la Europa comunitaria. Subir las pensiones está bien como concepto, como principio general; lo que en materia de pensiones deberíamos evitar todos es la extravagancia, este humus de extravagancia que tiene esta medida y, sobre todo, deberíamos evitar todos, señora ministra -y para eso se creó el Pacto de Toledo-, el electoralismo.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u121" ana="#chair">
                <seg>Muchas gracias, señor Olabarría.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -757,11 +755,11 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u123" ana="#chair">
                <seg>Gracias, señora ministra.<pb n="26"/> - DE LA DIPUTADA DOÑA MARÍA ISABEL LÓPEZ I CHAMOSA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA MINISTRA DE EMPLEO Y SEGURIDAD SOCIAL: ¿CÓMO VALORA LA MINISTRA DE EMPLEO Y SEGURIDAD SOCIAL LAS DECLARACIONES DEL GOBERNADOR DEL BANCO DE ESPAÑA SOBRE LAS PENSIONES?</seg>
                <note>Número de expediente 180/001386</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u124" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u124" ana="#chair">
                <seg>Pregunta dirigida a la señora ministra de Empleo y Seguridad Social que formula la diputada doña Isabel López i Chamosa, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u125"
@@ -770,7 +768,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>¿Comparte el Gobierno las declaraciones del gobernador del Banco de España que aconseja a los jóvenes hacer un plan de pensiones privado porque en el futuro sus pensiones serán más bajas?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u126" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u126" ana="#chair">
                <seg>Gracias, señora López i Chamosa.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -782,7 +780,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u128" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u128" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>Señora López i Chamosa.</seg>
             </u>
@@ -793,7 +791,7 @@
                <seg>Señora ministra, ahora están eufóricos porque dicen que han aumentado las cotizaciones, es decir, los cotizantes a la Seguridad Social. Hay los mismos cotizantes que en 2011 pero con una diferencia, que como ustedes para conseguir estas cotizaciones han dividido el empleo, han caído los ingresos de la Seguridad Social. La evidencia de ello es que han tenido que echar mano de nuevo a la caja de la Seguridad Social, a la hucha de las pensiones, señora ministra, a la hucha que les dejó el Gobierno socialista.<note>Rumores</note> Ahora usted me puede decir que los socialistas congelamos las pensiones, pero sabe que es mentira. Fue el Gobierno que más subió las pensiones. Además, señora ministra, usted desde la Ley 23/2012, su ley favorita, ha conseguido que los pensionistas no tengan ningún incremento en su pensión y también que ninguno de los futuros pensionistas tenga el cien por cien de su pensión. Les ha retirado la carta. Mándeles una carta a los trabajadores pidiéndoles disculpas por su recorte en sus...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u130" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u130" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -807,12 +805,12 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u132" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u132" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
                <seg>- DEL DIPUTADO DON JUAN MOSCOSO DEL PRADO HERNÁNDEZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE ECONOMÍA Y COMPETITIVIDAD: ¿CÓMO VALORA EL GOBIERNO LA SITUACIÓN ECONÓMICA DE GRECIA?</seg>
                <note>Número de expediente 180/001387</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u133" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u133" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Economía y Competitividad que formula el diputado don Juan Moscoso del Prado, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u134"
@@ -820,7 +818,7 @@
                ana="#regular">
                <seg>Señor ministro, ¿cómo valora la situación en Grecia?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u135" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u135" ana="#chair">
                <seg>Gracias, señor Moscoso del Prado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -831,7 +829,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u137" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u137" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Moscoso.</seg>
             </u>
@@ -843,7 +841,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u139" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u139" ana="#chair">
                <seg>Muchas gracias, señor Moscoso del Prado.</seg>
                <seg>Tiene la palabra el señor ministro.</seg>
             </u>
@@ -854,13 +852,13 @@
                <seg>Señoría, la posición del Gobierno español es la que ayer adoptó la cumbre, es decir: cumplimiento de las reglas; ayuda a Grecia, no ayuda incondicionada, sino sujeta a una condicionalidad, y evidentemente, hay que ajustarse a todos los condicionantes, a todos los requisitos que se establecen en el tratado. Esa ha sido siempre la posición española y, además, sabe usted perfectamente que esa ha sido la consideración. España defiende que lo mejor que puede ocurrir es que Grecia permanezca en el euro; el euro es un proyecto irreversible en el cual se defiende la integridad territorial de todos sus miembros, y por lo tanto, es lo que siempre hemos defendido. Pero hay una cuestión que es importante, señoría: hace un año -parece mentira- Grecia empezaba a crecer, a crear empleo, se hablaba incluso de una salida limpia, Grecia incluso volvió a emitir, señoría; y hoy, como consecuencia del deterioro de la economía en los últimos seis meses, Grecia ha vuelto a la recesión, lo verá usted en los datos que se van a ir produciendo, que indican que la recesión es profunda. Además, tenemos una situación dolorosísima -que habría que plantearse por qué hemos llegado a ella-; tenemos unas vacaciones bancarias y un corralito impuesto por un decreto-ley de las propias autoridades griegas. Lo fundamental es la implementación de reformas fiscales de pensiones, de reformas de mercados, que se estabilice la economía griega y devolverla al crecimiento. Ahí es donde todos estamos, señoría.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u141" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u141" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY DE SEGURIDAD NACIONAL.</head>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u142" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u142" ana="#chair">
                <seg>Vamos a debatir ahora las enmiendas a la totalidad correspondientes al proyecto de ley de seguridad nacional. Para la presentación de este proyecto de ley, tiene la palabra, en nombre del Gobierno, la señora vicepresidenta.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u143"
@@ -1109,7 +1107,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos.-El señor Nuet Pujals pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u172" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u172" ana="#chair">
                <seg>Muchas gracias, señor Serrano.</seg>
                <seg>Señor Nuet, vamos a terminar el debate y luego me pide usted la palabra si lo considera oportuno y, si yo lo considero oportuno, se la daré.</seg>
                <seg>Por el Grupo Popular tiene la palabra la señora Rodríguez-Salmones.</seg>
@@ -1124,7 +1122,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u174" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u174" ana="#chair">
                <seg>Muchas gracias, señora Rodríguez-Salmones.</seg>
                <seg>Señor Nuet, me ha pedido la palabra. Tiene un minuto.</seg>
                <pb n="54"/>
@@ -1136,7 +1134,7 @@
                <seg>El señor Serrano ha hecho una alusión a mi alusión y me gustaría clarificar este tema. El señor Serrano sabe perfectamente que lo que aprobó el Consejo de Seguridad de Naciones Unidas no fue otra cosa que un bloqueo al espacio aéreo libio; el Consejo de Seguridad no aprobó ni el bombardeo ni la ocupación de Libia. Evidentemente, España no bombardeó, pero estuvo en el operativo que bombardeó y que ocupó. Además, el señor Serrano también sabe que algunos miembros permanentes del Consejo de Seguridad con derecho a veto no usaron ese veto, convencidos de que se iba a bloquear el espacio aéreo y después dijeron que habían sido engañados. Por tanto, es bueno clarificar eso porque el Consejo de Seguridad aprobó una cosa y luego se hizo otra.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u176" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u176" ana="#chair">
                <seg>Muchas gracias, señor Nuet.</seg>
                <seg>Señor Serrano.</seg>
             </u>
@@ -1146,13 +1144,13 @@
                <seg>Quince segundos.</seg>
                <seg>Hubo resolución de Naciones Unidas y España lo que hizo fue controlar el espacio aéreo para buscar el bloqueo. No participó en otro tipo de operaciones. Nada más que eso.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u178" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u178" ana="#chair">
                <seg>Muchas gracias, señor Serrano.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>ENMIENDAS DEL SENADO - PROYECTO DE LEY ORGÁNICA DE RÉGIMEN DE PERSONAL DE LA POLICÍA NACIONAL.</head>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u179" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u179" ana="#chair">
                <seg>Pasamos a las enmiendas aprobadas por el Senado. En primer lugar, al proyecto de ley orgánica de régimen de personal de la Policía Nacional.</seg>
                <seg>En turno de fijación de posiciones, por el Grupo de Unión Progreso y Democracia, tiene la palabra la señora Díez.</seg>
             </u>
@@ -1167,7 +1165,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u181" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u181" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Sixto.</seg>
             </u>
@@ -1180,7 +1178,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u183" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u183" ana="#chair">
                <seg>Muchas gracias, señor Sixto.</seg>
                <seg>Por el Grupo Catalán de Convergència i de Unió, tiene la palabra el señor Guillaumes.</seg>
             </u>
@@ -1194,7 +1192,7 @@
                <seg>Aquí enlazamos con lo más grave de esta ley. En sede parlamentaria, sentado en ese segundo sillón que ahí vemos, el ministro dijo: esta pasarela funcionará igual entre Policía Nacional y Guardia Civil. Ustedes estaban aquí, la mayoría, ¿se acuerdan? Lo dijo con solemnidad, en sede parlamentaria, no sé si ustedes se fijaron. No pasaron ni cinco minutos y empezó a coger el teléfono de manera compulsiva. Yo sí que me fijé. Misteriosamente, a pesar de que el ministro asumió un compromiso, que parece tan razonable, ¿el Cuerpo Nacional de Policía sí y la Guardia Civil no? Por eso le digo que recuerda más a la canción de Somewhere over the rainbow que no propiamente a una pasarela. Simplemente, el ministro no ha cumplido lo que dijo que haría en sede parlamentaria, cayendo en una situación absurda. Lo que pueden hacer los Mossos resulta que no lo puede hacer la Guardia Civil o no lo puede hacer el Cuerpo Nacional de Policía. La inferencia que se deduce de esto es muy alarmante. Tenemos a un ministro, el señor Fernández Díaz, que, una de dos, o no se entera de lo que pasa en su casa o no manda en su casa. Los dos aspectos son muy alarmantes. Si fuera la única pista, diríamos que puede ser una mala interpretación, pero hemos visto informes sin firmar, falsificaciones de atestados policiales, acusaciones de mentiras que luego han resultado ser verdades como templos y publicaciones en los periódicos de información que en principio es guardada confidencialmente por la policía. Ahí hay un grado de desgobierno y de irresponsabilidad en el mejor de los casos o algo peor, que es lo que me temo. Permítanme el latinajo: Quis custodiet ipsos custodes? ¿Quién vigila a los vigilantes? Se atribuye normalmente a Graham Greene, El factor humano. Mentira, esto lo dijo Platón en La República. Esto tiene 2.600 años. ¿Quién vigila a los vigilantes? No lo sé, señorías, pero lo que está claro en esta situación es que el señor ministro, no; y esto es muy, pero que muy alarmante. Un ministerio como el del Interior tiene que dar seguridad y tranquilidad a ciudadanas y ciudadanos. Esto es lo que se espera de un Ministerio del Interior. En lugar de esto, vemos que genera alarmismo, que el ministro a menudo queda en evidencia como con lo que acaba de decir y que no sabemos quién manda y quién dirige o, si dirige él, con qué criterios. Tengo todas las dudas sobre si dirige él. En el mejor de los casos, como esta ley es un buen ejemplo de cosas dichas en sede parlamentaria que finalmente quedan en agua de borrajas, hemos de decir que a los custodes, que les tocaría custodiet, el señor ministro no los custodia. No me imagino una situación más alarmante que esta que ocurre en un Ministerio del Interior en democracia.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u185" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u185" ana="#chair">
                <seg>Muchas gracias, señor Guillaumes.</seg>
                <seg>Por el Grupo Parlamentario Socialista, tiene la palabra el señor Trevín.</seg>
             </u>
@@ -1211,7 +1209,7 @@
                <note>Aplausos</note>
                <pb n="60"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u187" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u187" ana="#chair">
                <seg>Muchas gracias, señor Trevín.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Cabello de Alba.</seg>
             </u>
@@ -1227,7 +1225,7 @@
                <seg>Por cierto, señor Sicilia, esta mañana le oía, no sin cierta sorpresa, en la sesión de control al Gobierno, con motivo de una pregunta al ministro del Interior, reivindicar su condición de diputado, que me parece muy bien, pero sería bueno que en su condición de diputado fuese capaz de pasar de la demagogia, de la creación y de la repetición de eslóganes a un análisis un poco más profundo de las leyes, de sus comentarios y de sus consecuencias. Sería bueno para su país, aunque fuese en detrimento de los intereses de su partido.</seg>
                <note>El señor Trevín Lombán pronuncia palabras que no se perciben</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u189" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u189" ana="#chair">
                <seg>Señor Trevín, no es su turno.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u190"
@@ -1239,7 +1237,7 @@
                <seg>Muchas gracias, señorías. Muchas gracias, señor presidente, por su generosidad.</seg>
                <note>Aplausos.-El señor Sicilia Alférez pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u191" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u191" ana="#chair">
                <seg>Muchas gracias, señor Cabello de Alba.</seg>
                <seg>Señor Sicilia, en efecto, usted ha sido citado y no estaba dentro del debate. Por lo tanto, tiene tres minutos para decir lo que le parezca.</seg>
             </u>
@@ -1249,7 +1247,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Como bien dice, sin estar en el objeto del debate he sido mencionado por el señor Cabello de Alba. Señor Cabello de Alba, resulta triste que usted tenga que utilizar este debate, el debate sobre la ley de<pb n="62"/> régimen de personal de la Policía, para contestar a lo que el ministro ha sido incapaz de contestarme. Hasta el momento usted es diputado, como yo; no se arrogue la capacidad del ministro que ni tan siquiera ha sido capaz de poder contestarme, porque no he faltado a la verdad en nada de lo que le he dicho al ministro en mi pregunta. Señor Cabello de Alba, jamás he hecho ni con usted, ni con el ministro, ni con nadie de su grupo -porque me merecen el máximo respeto- lo que usted acaba de hacer ahora mismo hacia mi persona. Al menos debería tenerme el mismo respeto, no por lo que soy sino por lo que represento y por la legitimidad que tengo, que es la misma que la que tiene usted, la que nos dan los ciudadanos. No le he llamado a usted demagogo, como usted ha hecho conmigo. Lo que usted ha hecho no es valorar una intervención, que, insisto, no le correspondía -y eso que usted acusa al señor Trevín de hablar de otras cuestiones; ha caído en lo mismo-; cuando yo hablaba con el ministro en la pregunta y le decía que unos ecologistas que se cuelguen en una grúa y desplieguen una pancarta pueden tener una sanción de hasta 30.000 euros, no estaba haciendo demagogia, señor Cabello de Alba. Y, si usted conoce la ley mordaza, sabe que no es demagogia, es lo que ustedes acaban de aprobar en esa ley. Usted sabe perfectamente, señor Cabello de Alba, que no es demagogia decir que un grupo de ciudadanos que se sienten en la puerta de una vivienda para evitar un desahucio, aunque lo hagan de manera pacífica, pueden ser multados con hasta 30.000 euros.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u193" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u193" ana="#chair">
                <seg>Señor Sicilia, le ha dado la palabra pero tiene que terminar ya.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u194"
@@ -1259,7 +1257,7 @@
                <seg>Señor Cabello de Alba, eso no es demagogia, es describir lo que ustedes han hecho en una ley. Y resulta muy triste que tenga usted que utilizar su turno de palabra durante el debate de la ley del régimen de personal de la Policía para darme la réplica que no ha sido capaz de darme el ministro.</seg>
                <note>Aplausos.-El señor Cabello de Alba pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u195" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u195" ana="#chair">
                <seg>Señor Cabello de Alba, tiene la palabra pero céntrese en el tema.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u196"
@@ -1270,12 +1268,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u197" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u197" ana="#chair">
                <seg>Muchas gracias, señor Cabello de Alba.</seg>
                <seg>- PROYECTO DE LEY ORGÁNICA POR LA QUE SE MODIFICA LA LEY ORGÁNICA 6/1985, DE 1 DE JULIO, DEL PODER JUDICIAL.</seg>
                <note>Número de expediente 121/000134</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u198" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u198" ana="#chair">
                <seg>Pasamos a las enmiendas aprobadas por el Senado al proyecto de ley orgánica por la que se modifica la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial.</seg>
                <seg>En primer lugar, tiene la palabra por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> el señor Olabarría.</seg>
             </u>
@@ -1602,7 +1600,7 @@
                <seg>Señora Ciuró, es curioso que de este a oeste del territorio peninsular tengamos la misma sensación del debate que hubo aquí a propósito de la interpelación de La Izquierda Plural. En cuanto al ministro de Economía, parecía que la cosa no iba con él, que en la interpelación en esta Cámara no hizo más que echar balones fuera. Es un ministro de Economía que se sube a la tribuna del Congreso de los Diputados y parece que no le afectan los problemas económicos de la gente. Es un ministro de Economía que viene y que parece no entender que la burbuja inmobiliaria también pasa por él, que no es algo ajeno a su Gobierno ni a su partido político, como si la liberalización del suelo, la modificación de la Ley de Enjuiciamiento Civil, la modificación de los tipos de interés fijo o variable no hubieran pasado por decisiones que tomaron sus Gobiernos, como si esas decisiones no hubiesen estado ya reconocidas, desde hace mucho tiempo, como el origen de la burbuja inmobiliaria, como si además no existieran todos los indicios hoy de que incluso se hubieran financiado con la venta y la especulación del suelo. Es un ministro de Economía que se deshace de toda responsabilidad, al señalar que la mayor parte de la comercialización de los créditos morosos se produjo mientras estaban gobernando otros, sin acordarse siquiera de que justamente él, antes de la caída de Lehman Brothers, se dedicaba a vender hipotecas basura, justamente cuando se producían esos créditos morosos.<note>Aplausos</note> Lo que es más grave es que es un ministro de Economía que miente. Miente a conciencia cuando afirma que son el primer Gobierno que actuó. Hasta el Grupo de Convergència i de Unió ha llegado a repetir ese mantra que no es cierto. Ya en el año 2007 y en el año 2009 se adoptaron medidas, por ejemplo, limitar los mínimos inembargables o aumentar los porcentajes mínimos de adjudicación del bien. Con eso, con decir que fueron los primeros, con decir que ya han hecho algo, parece que han cumplido el expediente y se han resueltos los problemas de los ciudadanos. Ya está, hicimos algo, pusimos en marcha un código de buenas prácticas. ¿Y con eso hemos hecho algo? ¿Lo hemos resuelto? ¿Está resuelto? No.<note>El señor presidente ocupa la Presidencia</note> ¿De verdad entienden que el problema está resuelto con una ley como la que se está tramitando en este momento que no garantiza el acceso a la vivienda? ¿Cómo es posible que un Gobierno pretenda garantizar el acceso a la vivienda al pedir que se les ejecuten todos los bienes a los ciudadanos y a las ciudadanas antes de darles una oportunidad? ¿Cómo es posible que lo quieran hacer cargándose, mediante la política de vivienda, las VPO? ¿Cómo es posible que lo quieran hacer permitiendo que sus Gobiernos autonómicos y municipales vendan las viviendas sociales que hemos construido entre todos para especular de nuevo mediante los fondos buitre? ¿Cómo pretenden crear esa alternativa social de vivienda?</seg>
                <seg>El mismo día que ese ministro de Economía se subía a echar balones fuera, Amnistía Internacional nos presentaba un informe que se aproximaba bastante más a la realidad. Las conclusiones del informe de Amnistía Internacional son que todo lo hecho hasta la fecha es insuficiente y además incumple el derecho internacional de los derechos humanos. Nosotros podemos añadir algún calificativo más: es un auténtico fracaso en cuanto se siguen produciendo desalojos forzosos de manera masiva en nuestro país, de gente que no es que no pague porque no quiere, sino que no paga porque no puede; de gente que contrajo un crédito con un solo objetivo: acceder a una casa, algo que nunca debiera estar por encima de sus posibilidades, pero por las que hoy están pagando un precio muy alto. Pondré un ejemplo del fracaso: las palabras de la vicepresidenta del Gobierno el día de esta legislatura en que, según su propia denominación, ella se puso sentimental, y decía: Esto le puede pasar a cualquiera. Una sociedad solidaria es capaz de ponerse en la piel de los que lo han padecido sin ser responsables de ello. Quiero saber si mes a mes las llaves que hoy firmamos en la constitución del Fondo social de vivienda son la puerta a la esperanza. Pues bien, de estas palabras hace 905 días. En esos 905 días se han iniciado 170.000<pb n="84"/> desalojos hipotecarios. ¿Saben cómo va el Fondo social de vivienda en esos 905 días? Según los datos publicados, que no necesariamente son los que reproduce el señor De Guindos, siguen disponibles 5.040 de esas 6.000 viviendas. Es un rotundo fracaso, así que la moción que hoy presenta La Izquierda Plural, basada en esas recomendaciones de Amnistía Internacional, va a ser apoyada por el Grupo Socialista, a la que añadimos algunas cuestiones al objeto de incrementar esa alternativa social de vivienda y generar una mayor protección a los ciudadanos y a las ciudadanas, impedir que se utilicen las viviendas sociales para la especulación y además dar garantías a las cláusulas abusivas. Todas son medidas necesarias; todas están dirigidas al rescate que necesitamos, el rescate de las familias. Son complementarias a las que se están adoptando desde el minuto uno en los nuevos gobiernos locales y autonómicos en los que hemos asumido responsabilidades, porque si en algo vamos a ser radicales -sí, radicales, de ir a la raíz-, señorías...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u238" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u238" ana="#chair">
                <seg>Señora Iglesias, tiene usted que ir terminando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u239"
@@ -1612,7 +1610,7 @@
                <seg>Termino ya, presidente. Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u240" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u240" ana="#chair">
                <seg>Muchas gracias, señora Iglesias.</seg>
                <seg>En turno de fijación de posiciones, en primer lugar, por el Grupo Mixto, tiene la palabra la señora Fernández Davila.</seg>
             </u>
@@ -1624,7 +1622,7 @@
                <seg>Señorías, nuestro grupo va a apoyar esta moción presentada por La Izquierda Plural y defendida por el señor Sixto porque compartimos todos y cada uno de los puntos que en ella se plantean, habida cuenta de que también conocemos el informe de Amnistía Internacional en el que se analiza muy profundamente esta cuestión. Nos preocupa que mientras exista esta situación de desesperación de muchas familias ante los desahucios, un 30 % de vivienda esté vacía en el Estado, más de 3 millones de viviendas. Señorías, esto es porque en vez de construir para garantizar el derecho a la vivienda se estuvo construyendo para garantizar el movimiento de fondos económicos y, en todo caso, el enriquecimiento de unos pocos. Tampoco el Estado español es ejemplo, en este caso, de vivienda social porque es el Estado de la Unión Europea que menos vivienda social tiene a disposición de los ciudadanos, escasamente el 1,1 %. Pero nos preocupa, señorías, que en el informe del Consejo del Poder Judicial se diga que en los últimos dos años se han desalojado más de 100.000 familias de sus viviendas habituales y que en los tres primeros meses del año 2015 todo hace indicar que se va a seguir la misma tónica; que los resultados en el año 2015 van a ser semejantes a los de 2014. Por eso nos parecen muy acertados los diferentes puntos que presenta la moción de La izquierda Plural y, vuelvo a decir, que desde el Bloque Nacionalista Galego le vamos a dar nuestro voto favorable.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u242" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u242" ana="#chair">
                <seg>Muchas gracias, señora Fernández.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> tiene la palabra el señor Olabarría.</seg>
                <pb n="85"/>
@@ -1637,7 +1635,7 @@
                <seg>Está muy bien lo que han presentado porque se ajusta a lo que preconiza Amnistía Internacional pero está muy bien porque se han hecho los deberes en varios ámbitos. Nicolás Sartorius, persona conocida, acaba de escribir un libro -que el señor Sixto seguramente habrá leído- en el que comenta que, a pesar de que el derecho a la vivienda está reconocido en un precepto que no posibilita el recurso de amparo del Tribunal Constitucional -está ubicado en el artículo 47, no entre los derechos fundamentales que son los que están entre los artículos 14 a 29 de la Constitución-, cuando se produce un lanzamiento -dice con pertinencia el señor Sartorius- se están vulnerando casi todos los derechos fundamentales previstos en los artículos 14 a 29 de la Constitución. Desde luego el artículo 19, derecho a elegir residencia; el artículo 18, derecho a la intimidad y al honor; artículo 17, derecho a la libertad y a la seguridad, no hay más que ver las agresiones que están sufriendo muchas personas que se ven lanzadas y sin techo; el derecho a la educación; el derecho a participar en asuntos públicos. Se podría llegar a la conclusión, si el señor Sartorius tiene razón y mi impresión es que la tiene, de que podría por proyección recurrirse al amparo del Tribunal Constitucional en los supuestos de lanzamiento. Es una eventualidad un tanto alambicada y quizás un tanto especulativa pero sería razonable y, desde luego, coincide con lo que en la moción del Grupo de La Izquierda Plural se preconiza.</seg>
                <seg>Por otra parte, señor presidente, el Gobierno tampoco ha hecho los deberes en el cumplimiento de una sentencia resuelta por el Tribunal de la Unión Europea en virtud de una cuestión prejudicial planteada por un juez catalán en la que no solo obliga a la preterición de las llamadas cláusulas abusivas, sino a otros requerimientos que obligarían no solo a la reforma de la Ley de Enjuiciamiento Civil, sino a la propia configuración del contrato de hipoteca tal y como está concebido en el Código Civil español en estos momentos. No se ha hecho; se han hecho aproximaciones pero aproximaciones manifiestamente no solo insuficientes, sino incluso a veces contradictorias con los requerimientos con esta sentencia que estoy citando; como los códigos de buenas prácticas, perífrasis en definitiva buenistas que pretenden aproximarse al cumplimiento de una obligación ya legal para el Estado español y que no se ha cumplido. Por tanto, algunos de los requerimientos de esta moción se incardinan en este pedimento que también compartimos. También la Ley de Segunda Oportunidad, otra aproximación que no termina de hincar el diente a la cuestión troncal, que es la subsistencia de cláusulas abusivas. Los datos que manejamos, que son los del Consejo General del Poder Judicial y otros -no sería malo ponerse de acuerdo en cuántos lanzamientos, desalojos y ejecuciones hipotecarias estamos conviviendo- nos comentan que desde 2008 a 2014 se han producido en el Estado español 578.546 desalojos, lanzamientos. Una cifra espectacular y que nos coloca en el ranquin de los países donde más ejecuciones hipotecarias con lanzamiento se producen. A esto se puede unir que el Estado español es uno de los países que tiene un parque de viviendas sociales más bajo de la Unión Europea; odiosas son las comparaciones de su 2 % con el 32 % de los Países Bajos, el 23 % de Austria, el 18 % del Reino Unido y otros ejemplos que podríamos citar, señor presidente. Esto unido a que en esta materia en la que se están incumpliendo obligaciones legales, algunas dimanantes de sentencias judiciales del Tribunal Europeo y otras de nuestra Constitución y de requerimientos que obedecen a una sensibilidad mínima, casi superficial en materia de justicia social...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u244" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u244" ana="#chair">
                <seg>Señor Olabarría, se le ha encendido el rojo. Como usted no lo ve se lo digo yo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u245"
@@ -1646,7 +1644,7 @@
                <seg>¿Qué se me ha encendido el rojo? Le agradezco la recomendación, señor presidente, pero es superflua porque iba a finalizar en este momento.</seg>
                <seg>El señor Sixto ha hecho un planteamiento muy equilibrado en sus propuestas y todas ellas serán objeto de votación favorable por parte de nuestro grupo. Le agradezco, señor presidente, primero, las<pb n="86"/> expansiones de naturaleza ideológica que me ha permitido al inicio de mi intervención y también que sea tan celoso en la admonición del uso del tiempo, cosa que no es mala en caso de algunos diputados de esta Cámara.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u246" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u246" ana="#chair">
                <seg>Señor Olabarría, tan solo quería facilitarle algo que usted no podía ver.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -1659,7 +1657,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u248" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u248" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo Popular tiene la palabra el señor Floriano.</seg>
             </u>
@@ -1672,7 +1670,7 @@
                <seg>Con respecto a su actitud y la actitud del resto de los grupos que apoyan esta iniciativa, a mí me gustaría preguntar por qué se han opuesto a la suspensión inmediata y por un plazo de dos años de los desahucios de familias en especial riesgo de exclusión, porque mi grupo ha votado que sí y ustedes han votado todos que no. ¿Por qué se han opuesto a la suspensión inmediata y por un plazo de dos años de los lanzamientos de aquellas personas en situación de especial vulnerabilidad? Porque mi grupo ha votado que sí y ustedes han votado todos que no. ¿Les parecía acaso poco tiempo? En ese caso, ¿por qué se han opuesto a que la suspensión de los lanzamientos en lugar de dos años fuera de cuatro? Porque ustedes han votado que no a la iniciativa que presentaba mi grupo para que se suspendieran los lanzamientos por cuatro años. ¿Por qué se han opuesto a la creación del fondo social de viviendas? ¿O por qué se han opuesto, por ejemplo, a la limitación de los intereses de demora para evitar que la deuda se multiplicara por impago? Porque mi grupo ha votado que sí a eso, ustedes se han opuesto. ¿Por qué se han opuesto a la limitación del valor de la tasación de la vivienda para que la subasta no sea inferior al 75 % del valor de la escritura? No solo se oponen a las reformas que han permitido que la política económica que se aplique permita sacar de la situación de crisis a la que se vieron abocadas muchas familias sino que además se oponen radicalmente a muchas de las iniciativas para paliar la situación en la que se encuentran las personas más vulnerables, las situaciones más urgentes.</seg>
                <seg>No quiero hacer juicio de intenciones, pero ¿qué les mueve a ustedes a esa reiteración al no? ¿Quieren resolver el problema?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u250" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u250" ana="#chair">
                <seg>Señor Floriano, debe usted terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u251"
@@ -1684,7 +1682,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u252" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u252" ana="#chair">
                <seg>Gracias, señor Floriano.</seg>
                <seg>Señor Sixto, ¿cuál es su posición respecto a las enmiendas formuladas?</seg>
             </u>
@@ -1693,11 +1691,11 @@
                ana="#regular">
                <seg>Me gustaría informar a la Cámara de que vamos a presentar una transaccional que recogerá la propuesta del Grupo Socialista y lo fundamental de la propuesta del Grupo de Convergència i de Unió, recogiendo la referencia que en el punto cuarto de nuestra moción se hace a la Sareb y que en breve pasaremos a la Mesa de la Cámara.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u254" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u254" ana="#chair">
                <seg>Muchas gracias, señor Sixto.<pb n="88"/> - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LA SUFICIENCIA FINANCIERA DE LAS COMUNIDADES AUTÓNOMAS Y LAS ENTIDADES LOCALES.</seg>
                <note>Número de expediente 173/000226</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u255" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u255" ana="#chair">
                <seg>Moción consecuencia de interpelación del Grupo Socialista sobre la suficiencia financiera de las comunidades autónomas y las entidades locales.</seg>
                <seg>Para su defensa tiene la palabra el señor Rangel.</seg>
             </u>
@@ -1713,7 +1711,7 @@
                <seg>Muchas gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u257" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u257" ana="#chair">
                <seg>Muchas gracias, señor Rangel.</seg>
                <seg>Se ha presentado a esta moción una enmienda del Grupo Parlamentario Catalán de Convergència i de Unió. He dicho una enmienda, pero pueden ser dos. En primer lugar, tiene la palabra -y él lo explicará- el señor Picó.</seg>
             </u>
@@ -1724,7 +1722,7 @@
                <seg>Señorías, el Gobierno del Estado ha preferido financiar de forma extraordinaria a las comunidades autónomas a través de préstamos y créditos en lugar de hacerlo -y afirmo- en contra de lo previsto en la ley de forma ordinaria a través de un nuevo sistema de financiación. El año pasado deberíamos tener el nuevo sistema de financiación y es evidente que no lo tenemos; una nueva deslealtad del Gobierno del Estado. ¿Qué adiciona Unió Democràtica de Catalunya con la enmienda que hemos formulado? Cuatro puntos. Primero, reclamamos la participación efectiva de las comunidades autónomas en los ingresos que se han recaudado por el aumento del IVA y determinados impuestos especiales. Segundo, la modificación del importe de las entregas a cuenta del sistema de financiación autonómico con el fin de adecuarlo a la evolución de ingresos tributarios recaudados. Señorías, no tiene ningún sentido que las comunidades autónomas reciban un importe inferior en el año 2015 al que percibieron en el año 2012, cuando hay una reactivación de la economía y un incremento de recaudación impositiva. Tercer punto. La dotación y transferencia del pago a cuenta del Fondo de competitividad correspondiente a los años 2014 y 2015. Y cuarto punto, la monetarización del principio de lealtad institucional, que en cada revisión del sistema de financiación de las comunidades autónomas se olvida por parte del Gobierno. Y lo reclamamos, no por capricho, señorías. Lo reclamamos en razón de la lealtad institucional y por legalidad y, sobre todo, como decía el señor Rangel, en beneficio del conjunto de los ciudadanos. No creo que el señor Montoro, que dentro de veinticinco minutos estará reunido en el Consejo de Política Fiscal y Financiera, nos escuche, pero sería importante que estuviera aquí para oírlo.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u259" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u259" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Por el Grupo Parlamentario Catalán de Convergència i de Unió tiene la palabra la señor Sayós.</seg>
             </u>
@@ -1736,7 +1734,7 @@
                <seg>La iniciativa que presenta el Grupo Parlamentario Socialista apela al principio de solidaridad. De aquí nuestro matiz: dar transparencia a dicho principio. La última vez que se publicaron las balanzas fiscales fue en 2005. Debo señalar que el principio de solidaridad debe entenderse como un instrumento esencial más entre las comunidades autónomas y que así se configura el Fondo de compensación interterritorial, con el fin de corregir los desequilibrios económicos interterritoriales y hacer efectivo el principio de solidaridad, cuyos recursos, destinados a gastos de inversión, serán distribuidos por las Cortes Generales entre las comunidades autónomas, de acuerdo con el artículo 158 de la Constitución. Pero también quiero recordar que el principio de solidaridad tiene límites y debe ser cuantificado y medido. El artículo 156 de la Constitución establece la autonomía financiera de las comunidades autónomas para cumplir y ejercer sus competencias. En vez de eso, el Gobierno ha optado por limitar la autonomía financiera de las comunidades autónomas y tutelar sus fuentes de financiación, previendo liquidez a cuentagotas, vía FLA o vía Fondo a proveedores.</seg>
                <seg>Lo más triste e injusto es que los recursos que pertenecen a las comunidades autónomas, pero que el Estado se niega a anticipar este año, están financiando al propio Estado. Así de ridículo. ¿Para qué? Lo supimos el otro día con el anuncio del presidente Rajoy...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u261" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u261" ana="#chair">
                <seg>Señora Sayós, tiene que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u262"
@@ -1747,7 +1745,7 @@
                <seg>Acabo, señor presidente. Señorías, este Gobierno del PP no respeta ni el principio de autonomía ni el principio de suficiencia económica ni el principio de subsidiariedad en materia de servicios sociales; en definitiva, en materia de políticas asistenciales. Esto es un gravísimo error político, porque hay niños, jóvenes, personas, familias que necesitan especial atención, no solo asistencial sino vital para su subsistencia. Este es nuestro deber y este también es su deber.</seg>
                <seg>Muchas gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u263" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u263" ana="#chair">
                <seg>Muchas gracias, señora Sayós.</seg>
                <seg>En turno de fijación de posiciones, en primer lugar, por el Grupo Mixto, tiene la palabra el señor Baldoví.</seg>
             </u>
@@ -1760,7 +1758,7 @@
                <seg>Anunciamos el voto favorable a esta propuesta.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u265" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u265" ana="#chair">
                <seg>Gracias, señor Baldoví.</seg>
                <seg>Señor Quevedo.</seg>
             </u>
@@ -1772,7 +1770,7 @@
                <seg>En octubre del año 2013 presenté una moción formulada en los mismos términos desde la perspectiva canaria, lo cual no quiere decir que no tengamos conciencia absoluta de la situación gravísima de deterioro de las condiciones de vida de la población que se ha producido en el conjunto del Estado, aunque creemos que en Canarias de forma agravada y, lamentablemente, lo podemos demostrar con los datos del paro por encima del 30 %; parados de larga duración, 68 %; paro juvenil, por encima del 56 %, bla, bla, bla. Y además de esto, una injusta financiación autonómica -lo reconoció hasta el ministro Soria en su época de consejero de Hacienda del Gobierno de Canarias- que lleva a Canarias a perder 800 millones de euros al año. Son dos puntos de su PIB, mucho dinero, y repercute inmediatamente en los servicios públicos fundamentales, justamente cuando la gente necesita más colchones sociales, lo cual deviene en dramático, por no hablar del trato absolutamente injusto en los Presupuestos Generales del Estado. Si en esta tesitura quien tiene que hacer el esfuerzo es precisamente quien está más cerca de los ciudadanos, pero quien tiene que garantizar este tipo de servicios y no practica el esfuerzo es quien está más lejos de los ciudadanos y son quienes lo usan para otras cosas que no son el interés general, esta moción deviene en imprescindible. A lo mejor, a lo mejor, atendiendo a las circunstancias preelectorales en las que estamos, a alguien se le remueve la conciencia. Esta moción es puro sentido común, por lo que la vamos a apoyar y confiamos en que consigan ustedes el apoyo general de la Cámara.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u267" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u267" ana="#chair">
                <seg>Muchas gracias, señor Quevedo, por la exactitud de su tiempo.</seg>
                <seg>Tiene la palabra ahora la señora Fernández.</seg>
             </u>
@@ -1784,7 +1782,7 @@
                <seg>Somos conscientes -finalizo, señor presidente- de que esta negociación requiere tiempo y sobre todo vocación de querer llegar a acuerdos, pero consideramos más oportuno que el Gobierno se dedique a resolver este asunto de la financiación autonómica que a elaborar unos presupuestos a todo correr, simplemente para hacer populismo electoral. Por eso, a pesar de que hay muy poco tiempo, nos parece que es suficiente si el Gobierno quisiera afrontar la financiación con las comunidades autónomas y dejar este asunto resuelto. En todo caso, de no hacerlo, este Gobierno se quedará con la gloria de no haber sido<pb n="92"/> capaz de cumplir con una de sus responsabilidades, que es la de llegar a acuerdos con las comunidades autónomas en materia de financiación.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u269" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u269" ana="#chair">
                <seg>Gracias, señora Fernández.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia tiene la palabra el señor Calduch.</seg>
             </u>
@@ -1796,7 +1794,7 @@
                <seg>Por eso nuestro voto va a ser favorable a esta moción pero con salvedades. En primer lugar, creemos que hay que cambiar el modelo pero no creemos que eso tenga que ser la puerta, la justificación para incumplir los objetivos de déficit porque los objetivos de déficit no los pone este Gobierno sino que se los ponen, que es diferente. En segundo lugar, creemos que el cambio de modelo debe ir acompañado de una revisión de cómo se distribuye el gasto en las comunidades autónomas por la sencilla razón de que queremos evitar que, con el aumento de recursos, se vuelva otra vez a la duplicidad de órganos, a la apertura de nuevas televisiones, etcétera, a ese gasto que llevó a un déficit excesivo que tuvimos que enfrentar todos los ciudadanos, no solo los dirigentes de las comunidades autónomas. Tiene que ser la oportunidad para reducir la brecha de la pobreza, especialmente de la pobreza infantil y para reducir la exclusión social. Por eso apoyamos la idea de que las competencias que tienen los ayuntamientos y entidades locales en materia de asistencia y políticas sociales deben serles devueltas junto con los ingresos correspondientes. Pero, reitero, no es un cheque en blanco a la moción, es un apoyo con unas condiciones claras que nuestro grupo velará por que se cumplan.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u271" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u271" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo Parlamentario de La Izquierda Plural tiene la palabra el señor Pérez Moya.</seg>
             </u>
@@ -1812,7 +1810,7 @@
                <seg>Votaremos favorablemente la moción presentada por el Grupo Socialista.</seg>
                <seg>Muchas gracias, señor presidente. Gracias, señores diputados.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u273" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u273" ana="#chair">
                <seg>Muchas gracias, señor Pérez Moya.</seg>
                <seg>Por el Grupo Popular, tiene la palabra la señora Romero.</seg>
             </u>
@@ -1824,7 +1822,7 @@
                <seg>Señorías, saben que a nosotros no nos gustaba el modelo. El Gobierno ya ha manifestado que la circunstancia de crisis económica y el hundimiento de los recursos tributarios impidieron abordar su reforma. Saben que para reformar el sistema es imprescindible que estén constituidos los gobiernos autonómicos para que se sienten en el Consejo de Política Fiscal y Financiera. ¿Podría haberse abordado la reforma el 30 de junio, como pedían en sus enmiendas a la Lofca? El modelo es suyo, ustedes lo hicieron así y para tapar el fracaso del modelo de financiación de 2009 se pretende hacer responsable de no sé qué al Gobierno del Partido Popular. El Gobierno lo que ha hecho es reforzar la financiación autonómica como nunca en este país se había hecho para garantizar la prestación de los servicios a los ciudadanos, servicios que estaban necesitados de auxilio financiero ante la ruina de las arcas. El Gobierno ha facilitado liquidez a las comunidades autónomas y ayuntamientos por importe de 184.000 millones de euros. Gracias al Gobierno las administraciones territoriales se han ahorrado más de 20.000 millones en intereses y podían ir a pedir crédito, lo que no podían hacer antes dada su situación financiera. La realidad es que con las reformas emprendidas por el Gobierno y ese crecimiento del país al 3 %, con el<pb n="94"/> consecuente aumento de los recursos tributarios, las comunidades autónomas dispondrán en 2016 de unos 10.000 millones de euros más que este año, a cuenta del sistema de financiación vigente, el suyo. Por supuesto, señorías, que hay que reformar el sistema de financiación, pero un buen modelo con un mal Gobierno genera insuficiencia y un modelo como el actual, bastante perfeccionable, con un buen Gobierno genera 100.000 millones de euros más de ingresos para todos. Esa macroeconomía que es la única que dicen ustedes que va bien al final son camas de hospitales, plazas escolares y servicios sociales.<note>Rumores</note> El segundo punto se refiere al reparto del objetivo de déficit en 2016. Saben de sobra que en la fijación de dicho objetivo concurre una pluralidad de factores técnicos. Lo saben de sobra y, como prueba de que no es verdad lo que dicen...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u275" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u275" ana="#chair">
                <seg>Perdón, señora Romero.</seg>
                <seg>Por favor, ruego silencio. El que no quiera estar, que se vaya fuera a hablar.<note>Pausa</note> Siga, señora Romero.</seg>
             </u>
@@ -1837,7 +1835,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u277" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u277" ana="#chair">
                <seg>Gracias, señora Romero.</seg>
                <seg>Señor Rangel, ¿qué me dice usted de las enmiendas?</seg>
             </u>
@@ -1847,7 +1845,7 @@
                <seg>Sí, señor presidente.</seg>
                <seg>Entendemos que están subsumidas en nuestra proposición y no las admitimos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u279" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u279" ana="#chair">
                <seg>Las votaremos en sus propios términos. Muchas gracias.</seg>
                <seg>En dos minutos vamos a votar.</seg>
                <note>Pausa</note>
@@ -1855,7 +1853,7 @@
          </div>
          <div type="debateSection">
             <head>JURAMENTO O PROMESA DE ACATAMIENTO DE LA CONSTITUCIÓN POR NUEVOS SEÑORES DIPUTADOS</head>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u280" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u280" ana="#chair">
                <seg>Vamos a proceder al juramento o promesa de acatamiento de la Constitución. En sustitución de don Jordi Jané pregunto a doña Teresa Gomis de Barbarà si jura o promete la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u281"
@@ -1863,7 +1861,7 @@
                ana="#regular">
                <seg>Sí, prometo.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u282" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u282" ana="#chair">
                <seg>La señora doña Teresa Gomis ha adquirido la condición plena de diputada. Enhorabuena.</seg>
                <note>Aplausos</note>
                <pb n="95"/>
@@ -1871,230 +1869,230 @@
          </div>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY DE SEGURIDAD NACIONAL.</head>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u283" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u283" ana="#chair">
                <seg>Vamos a comenzar con las votaciones.</seg>
                <seg>Votación conjunta de las enmiendas a la totalidad de devolución al proyecto de ley de seguridad nacional, presentadas por los Grupos Parlamentarios Mixto, señor Tardà, Vasco, PNV, La Izquierda Plural y Catalán de Convergència i de Unió. Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 321 más 1 voto telemático, 322; a favor, 39; en contra, 281 más 1 voto telemático, 282; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u284" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u284" ana="#chair">
                <seg>Quedan rechazadas.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>AVOCACIÓN POR EL PLENO</head>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u285" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u285" ana="#chair">
                <seg>Solicitud de avocación por el Pleno de la Cámara de este proyecto de ley cuyas enmiendas a la totalidad acabamos de votar. Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320 más 1 voto telemático, 321; a favor, 143; en contra, 177 más 1 voto telemático, 178.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u286" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u286" ana="#chair">
                <seg>No se avoca a Pleno.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>ENMIENDAS DEL SENADO : - PROYECTO DE LEY ORGÁNICA DE RÉGIMEN DE PERSONAL DE LA POLICÍA NACIONAL.</head>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u287" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u287" ana="#chair">
                <seg>Enmiendas del Senado. Proyecto de Ley Orgánica de régimen de personal de la Policía Nacional.</seg>
                <seg>Votación separada de las enmiendas. En primer lugar, enmiendas a los artículos 25.1, 47.7, 55.2, 62 y 40.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312; a favor, 293, en contra, 12, abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u288" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u288" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas a la nueva disposición final modificativa de la Ley Orgánica 2/1986, de 13 de marzo.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 198; en contra, 109; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u289" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u289" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Resto de enmiendas.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 180; en contra, 123; abstenciones, 10.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u290" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u290" ana="#chair">
                <seg>Quedan aprobadas.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>VOTACIÓN DE CONJUNTO</head>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u291" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u291" ana="#chair">
                <seg>Votación de conjunto del proyecto de ley orgánica de régimen de personal de la Policía Nacional por tener el mismo carácter orgánico. Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="96"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314 más 1 voto telemático, 315; a favor, 178 más 1 voto telemático, 179; en contra, 132; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u292" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u292" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>- PROYECTO DE LEY ORGÁNICA POR LA QUE SE MODIFICA LA LEY ORGÁNICA 6/1985, DE 1 DE JULIO, DEL PODER JUDICIAL.</seg>
                <note>Número de expediente 121/000134</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u293" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u293" ana="#chair">
                <seg>Enmiendas al proyecto de ley orgánica por la que se modifica la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial.</seg>
                <seg>En primer lugar, enmiendas al preámbulo y al artículo único, apartados veintiséis bis<note>nuevo</note> y cincuenta y cuatro.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 177; en contra, 120; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u294" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u294" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo único, apartados ocho<note>con la corrección técnica distribuida</note> y diecinueve bis<note>nuevo</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 199; en contra, 100; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u295" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u295" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo único, apartados quince y diecisiete.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 200; en contra, 111; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u296" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u296" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo único, apartado dieciocho.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 196; en contra, 99; abstenciones, 19.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u297" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u297" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo único, apartados diecinueve ter<note>nuevo</note> , veintiuno, veintitrés y noventa y cuatro bis<note>nuevo</note> y a la disposición adicional quinta<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 189; en contra, 116; abstenciones, 8.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u298" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u298" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo único, apartado veintisiete.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 281; en contra, 14; abstenciones, 19.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u299" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u299" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo único, apartado veintinueve y a la disposición final cuarta.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 291; en contra, 21; abstenciones, 2.</seg>
                <pb n="97"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u300" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u300" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo único, apartados treinta y cuatro y cuarenta y seis, a la disposición transitoria tercera y a la disposición final tercera.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 297; en contra, 11; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u301" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u301" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo único, apartados cuarenta bis<note>nuevo</note> , sesenta y seis y ciento seis bis<note>nuevo</note> y a la disposición transitoria novena<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 311; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u302" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u302" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo único, apartado cincuenta y ocho.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 279; en contra, 21; abstenciones, 14.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u303" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u303" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo único, apartado sesenta y uno y a la disposición transitoria segunda, en lo relativo a los apartados 3 y 4.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 197; en contra, 112; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u304" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u304" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas a la disposición transitoria segunda, en lo relativo a la renumeración de los apartados 1 y 2.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 199; en contra, 99; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u305" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u305" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo único, apartado sesenta y ocho.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 183; en contra, 114; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u306" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u306" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo único, apartado sesenta y nueve.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 182; en contra, 118; abstenciones, 14.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u307" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u307" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo único, apartado setenta y nueve</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 192; en contra, 10; abstenciones, 112.</seg>
                <pb n="98"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u308" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u308" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas a la disposición adicional segunda.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 179; en contra, 20; abstenciones, 116.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u309" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u309" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas a la disposición adicional tercera<note>ahora segunda</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 292; en contra, 16; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u310" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u310" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas a la disposición adicional cuarta<note>ahora tercera</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 192; en contra, 22; abstenciones, 100.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u311" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u311" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas a la disposición adicional cuarta<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 290; en contra, 20; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u312" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u312" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas a la disposición adicional sexta<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 283; en contra, 32.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u313" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u313" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas a la disposición transitoria cuarta y a la disposición transitoria séptima.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 201; en contra, 99; abstenciones, 14.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u314" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u314" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas a la disposición final primera y a la disposición final séptima bis nueva.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 184; en contra, 119; abstenciones, 11.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u315" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u315" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas a la disposición final novena.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 282; en contra, 32.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u316" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u316" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Resto de enmiendas del Senado al proyecto de ley.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 192; en contra, 100; abstenciones, 22.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u317" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u317" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <pb n="99"/>
             </u>
          </div>
          <div type="debateSection">
             <head>VOTACIÓN DE CONJUNTO</head>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u318" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u318" ana="#chair">
                <seg>Votación de conjunto del proyecto de ley orgánica por la que se modifica la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, por tener el mismo carácter orgánico. Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322 más 1 voto telemático, 323; a favor, 178 más 1 voto telemático, 179; en contra, 139; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u319" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u319" ana="#chair">
                <seg>Queda aprobada la ley orgánica.</seg>
                <seg>- PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 43/2003, DE 21 DE NOVIEMBRE, DE MONTES.</seg>
                <note>Número de expediente 121/000128</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u320" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u320" ana="#chair">
                <seg>Enmiendas al proyecto de ley por la que se modifica la Ley 43/2013, de 21 de noviembre, de Montes.</seg>
                <seg>En primer lugar, enmiendas al preámbulo y al artículo único, apartados veinticuatro, setenta, ochenta y nueve y noventa.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 179; en contra, 7; abstenciones, 129.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u321" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u321" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo único, apartado cuarenta y seis.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 181; en contra, 132; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u322" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u322" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo único, apartado cuarenta y nueve.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 183; en contra, 103; abstenciones, 28.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u323" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u323" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo único, apartado sesenta y tres.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 184; en contra, 32; abstenciones, 99.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u324" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u324" ana="#chair">
                <seg>Quedan aprobadas.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTE : - MOCIÓN CONSECUENCIA DE INTERPELACIÓN URGENTE DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, SOBRE MEDIDAS QUE PIENSA ADOPTAR EL GOBIERNO FRENTE A LOS DESALOJOS HIPOTECARIOS.</head>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u325" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u325" ana="#chair">
                <seg>Moción del Grupo de La Izquierda Plural sobre medidas que piensa adoptar el Gobierno frente a los desalojos hipotecarios. Hay una propuesta conjunta en los términos de las enmiendas transaccionales con Grupo Socialista y de Convergència i de Unió. Ese texto que tienen sus señorías es el que vamos a votar.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="100"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 144; en contra, 173; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u326" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u326" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>- MOCIÓN CONSECUENCIA DE INTERPELACIÓN URGENTE DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LA SUFICIENCIA FINANCIERA DE LAS COMUNIDADES AUTÓNOMAS Y LAS ENTIDADES LOCALES.</seg>
                <note>Número de expediente 173/000226</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u327" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u327" ana="#chair">
                <seg>Moción del Grupo Socialista sobre la suficiencia financiera de las comunidades autónomas y las entidades locales. Se vota en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 129; en contra, 177; abstenciones, 8.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u328" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u328" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Se levanta la sesión.</seg>
                <seg>Eran las cinco y veinte minutos de la tarde.</seg>

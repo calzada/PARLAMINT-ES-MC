@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="147">147 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="147" xml:lang="es">147 speeches</measure>
+            <measure unit="speeches" quantity="147" xml:lang="en">147 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="7"/>
                <tagUsage gi="note" occurs="63"/>
                <tagUsage gi="u" occurs="147"/>
-               <tagUsage gi="lb" occurs="424"/>
+               <tagUsage gi="seg" occurs="424"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO SOCIALISTA, DE MODIFICACIÓN DE LA LEY GENERAL TRIBUTARIA RELATIVA A LA PUBLICIDAD DE LOS DATOS EN LOS PROCESOS EXTRAORDINARIOS DE REGULARIZACIÓN TRIBUTARIA.</head>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
                <seg>Toma en consideración de la proposición de ley del Grupo Socialista de modificación de la Ley General Tributaria relativa a la publicidad de los datos en los procesos extraordinarios de regularización tributaria. Para presentar la iniciativa tiene la palabra la señora Vázquez Morillo.</seg>
             </u>
@@ -118,7 +116,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u3" ana="#chair">
                <seg>Muchas gracias, señora Vázquez.</seg>
                <seg>En turno de fijación de posiciones, en primer lugar, por el Grupo Vasco, PNV, tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -133,7 +131,7 @@
                <seg>En lo que podemos estar perfectamente de acuerdo es en que se modifique la Ley General Tributaria con el fin de que en futuras amnistías, en el caso de que se produjeran aunque son indeseables, se conozca efectivamente quién ha sido el amnistiado y quién ha defraudado, pero que se sepan esas cuestiones de antemano antes de poner en marcha un proceso de esas características. Sabemos que es difícil hacer esto con los del año 2012, pero si hay voluntad política y amplísimas mayorías, podemos intentarlo. Es en todo caso un tema de enorme interés para el conjunto de los ciudadanos por lo que he comentado. Sería oportuno debatirlo en profundidad al inicio de la próxima legislatura, porque ya estamos en lo que se llama el tiempo de la calderilla, estamos para pocas iniciativas en esta Cámara, pero creemos que es un tema importante que merece una reflexión y que la merecerá seguramente en la próxima legislatura. Además, probablemente será en una Cámara con una composición diferente, con unas sensibilidades y con unas preocupaciones diferentes cuando esta cuestión se suscite. Traslademos, pues, el debate -tampoco es en este momento tan urgente esta cuestión puntual- a la siguiente legislatura. Por cierto, quisiera recordar algo que es obvio, que siempre lo hago y que casi nunca se reconoce, y es que en el Estado español hay cinco haciendas, que la Hacienda del Estado ha hecho una regularización, una amnistía fiscal -llamémoslo de las dos maneras para que todo el mundo se quede contento-, pero que las haciendas forales no han realizado ninguna amnistía fiscal.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u5" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Calduch.</seg>
                <pb n="8"/>
@@ -149,7 +147,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u7" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Garzón.</seg>
                <pb n="9"/>
@@ -164,7 +162,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u9" ana="#chair">
                <seg>Muchas gracias, señor Garzón.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> tiene la palabra el señor Picó.</seg>
             </u>
@@ -179,7 +177,7 @@
                <seg>Por todo ello, el Grupo Parlamentario de Convergència i Unió espera tener la oportunidad de debatir en nombre de nuestros grupos parlamentarios este tema con más detenimiento y profundidad en la tramitación del proyecto de ley de modificación de la Ley General Tributaria, que tramitaremos en la Comisión de Hacienda a la cual pertenecemos usted y yo. Además, estoy convencido de que el Grupo Parlamentario Socialista formulará este asunto vía enmienda al articulado del citado proyecto de ley.</seg>
                <seg>Muchas gracias, señorías, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u11" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra la señora Madrazo.</seg>
             </u>
@@ -194,7 +192,7 @@
                <seg>Con esta regularización fiscal han aflorado en España más de 40.000 millones de euros que, gracias a ustedes y a los Gobiernos socialistas, seguirían ocultos -porque según ustedes no había que hacerlo-; seguirían ocultos en Suiza, en Andorra, en paraísos fiscales y probablemente incluso habrían prescrito esas deudas tributarias, porque ustedes querían hacer la política del avestruz, mirar hacia otro lado y seguir como estábamos, con las fortunas campando a sus anchas por los paraísos fiscales. Con esta regularización fiscal -de la que han dicho ustedes barbaridades- hay 715 personas que están siendo investigadas, porque la Agencia Tributaria ha encontrado en estos declarantes -que se han retratado con nombres y apellidos- indicios de blanqueo de capitales. Por eso gracias a esta regularización extraordinaria hay más de 715 contribuyentes que se acogieron a esta regularización y que están siendo objeto de investigación por posibles indicios de blanqueo de capitales. Aparte hay más de 7.000 contribuyentes que están siendo investigados por la Agencia Tributaria gracias a los datos que han aportado a través de estas declaraciones.<pb n="13"/> Señorías, el Partido Popular quiere seguir avanzando hacia una mayor transparencia y va a seguir trabajando para avanzar en un sistema fiscal más justo y más equitativo, en el que paguemos todos y así podamos pagar todos menos impuestos; ese es nuestro objetivo. Es verdad que la Ley General Tributaria dispone el carácter reservado de los datos obtenidos por la Administración Tributaria, pero queremos avanzar en transparencia. Por ello, ya se encuentran en tramitación, como saben sus señorías, dos proyectos de ley que van en esa dirección: uno, el de modificación de la Ley General Tributaria y, otro, el proyecto de ley orgánica que regula la publicidad de las sentencias condenatorias firmes por fraude fiscal. Sus objetivos son muy claros, que los incumplimientos más relevantes puedan ser objeto de publicación para reforzar la conciencia jurídico-tributaria e incentivar el ingreso efectivo de las deudas con Hacienda. Para ello se publicarán los listados de contribuyentes con deudas y sanciones que superen determinada cuantía y se harán públicas, como les digo, las sentencias firmes por delito fiscal. Estas modificaciones son equilibradas, respetuosas con nuestro ordenamiento jurídico y buscan avanzar en la lucha contra el fraude, pero preservando -también han manifestado aquí otros intervinientes- la seguridad jurídica, que es fundamental en un Estado de derecho.</seg>
                <seg>Señores socialistas, una vez más llegan tarde. Por ello, vamos a votar que no a una iniciativa que carece de mínimo rigor jurídico y que haría saltar por los aires nuestros principios básicos del derecho. Les invitamos a ustedes y a todos los grupos representados en esta Cámara a mejorar estos dos proyectos de ley con las aportaciones que ustedes hagan en forma de enmiendas en su tramitación. Tampoco nos creemos las buenas intenciones del Partido Socialista ni de su líder Pedro Sánchez, después de los pactos que hemos visto, con asombro, en estos últimos días.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u13" ana="#chair">
                <seg>Señora Madrazo, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u14"
@@ -205,12 +203,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u15" ana="#chair">
                <seg>Muchas gracias, señora Madrazo.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, DE AUTOCONSUMO DE ENERGÍA.</seg>
                <note>Número de expediente 122/000152</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u16" ana="#chair">
                <seg>Proposición de ley del Grupo de La Izquierda Plural de autoconsumo de energía. Para su defensa, tiene la palabra el señor Pérez Moya.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u17"
@@ -627,7 +625,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u73" ana="#chair">
                <seg>Muchas gracias, señor Garzón.</seg>
                <seg>Se ha presentado una enmienda a esta proposición no de ley por parte del Grupo Socialista. Para su defensa tiene la palabra el señor López Garrido.</seg>
             </u>
@@ -641,7 +639,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u75" ana="#chair">
                <seg>Muchas gracias, señor López Garrido.</seg>
                <seg>Por el Grupo Mixto, tiene la palabra en primer lugar la señora Fernández.</seg>
             </u>
@@ -652,7 +650,7 @@
                <seg>Señorías, intervenimos para posicionar al Bloque Nacionalista Galego de manera favorable a esta iniciativa de La Izquierda Plural y lo vamos a hacer porque, si bien es cierto que de estas cuestiones hemos hablado en diferentes ocasiones y también nuestro grupo ha presentado iniciativas en sentido parecido, la proposición no de ley que se debate en el día de hoy nos parece oportuna por dos razones que confluyen en el tiempo, por un lado, el debate en la Unión Europea a propósito de los planteamientos del Gobierno griego de la necesidad de reestructurar la deuda y, por lo tanto, de modificar aquellos criterios que en este momento están establecidos. A todas luces y de acuerdo con las informaciones que emanan incluso del encuentro de los mandatarios europeos en el día de ayer, el debate de la reestructuración de la deuda ya no es tan extraño y existen incluso posiciones de que habrá que hablar de la cuestión. Sin aventurarnos por supuesto a decir que el esfuerzo del Gobierno griego en estas cuestiones vaya a tener el resultado que a nuestro grupo le gustaría, nos parece muy positivo el hecho de que el Gobierno griego haya planteado esta cuestión, además de otras muchas, para mejorar la vida de los ciudadanos de Grecia. Por otro lado, señorías, porque, a la vista de que una vez más -no puede ser de otra manera- el Estado español va a incumplir los topes de déficit exigidos por la Unión Europea, ya estamos escuchando voces que piden al Gobierno más reformas, que viene a ser lo mismo que decir más recortes.</seg>
                <seg>Nosotros como Bloque Nacionalista Galego nos hacemos la siguiente pregunta. Si los dos grupos mayoritarios, del Partido Popular y del Partido Socialista, cuando en el año 2009 acordaron la modificación<pb n="38"/> del artículo 135 de la Constitución para dar prioridad al pago de la deuda, hubieran planteado la necesidad de un pago de la misma de manera diferente a la que se estableció, ¿estaríamos en esta situación de tanto empobrecimiento social? Como dijo el señor Garzón, lo que ha hecho el Gobierno con las políticas emanadas de Bruselas, acatando la directrices de esa famosa troika, es empobrecer a la ciudadanía. Es verdad que se ha incrementado el número de ricos, pero ha sido en 40.000 frente a los millones de ciudadanos españoles que están en la pobreza y en este momento en la mayor precariedad laboral.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u77" ana="#chair">
                <seg>Señora Fernández, debe terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u78"
@@ -662,7 +660,7 @@
                <seg>El Gobierno y Funcas aventuran que va a haber un incremento del IPC, pero lo dejan a la consideración de que será el incremento del gasto interno el que lo favorecerá. No es la primera vez que estas previsiones fallan, porque el consumo interno no crece, y no crece precisamente por ese empobrecimiento.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u79" ana="#chair">
                <seg>Muchas gracias, señora Fernández.</seg>
                <seg>Señor Serrano.</seg>
             </u>
@@ -675,7 +673,7 @@
                <seg>Vistos los efectos sobre la inmensa mayoría de la sociedad de los criterios de la troika acerca de la deuda pública, tenía que hacerme una pregunta ya de otro calado, de calado antropológico, sobre la propia concepción de quiénes son personas que subyace a semejante proclama. En efecto, quien siga apoyando esos criterios de la troika y siga proclamando la prioridad inequívoca de las personas al mismo tiempo es que tiene una concepción peligrosa de quién es persona y quién no en la sociedad. Solo serían personas las gentes exitosas en el ámbito que sea y dejan excluidos de la categoría humana a los desahuciados sociales, a los marginados, a los perdedores, a los no ganadores, que somos la gran mayoría. Solo serían personas, según esa honesta y sincera proclama, una reducida élite de gentes, las gentes que están haciendo su agosto con esas políticas económicas sobre la deuda pública, aceptadas hace ya tiempo con la reforma constitucional, y sin ningún refrendo popular, del citado artículo 135.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u81" ana="#chair">
                <seg>Muchas gracias, señor Serrano.</seg>
                <seg>Señor Larreina.</seg>
             </u>
@@ -686,7 +684,7 @@
                <seg>Estamos ante un tema importante. El señor López Garrido, portavoz del Grupo Socialista, decía algo con lo que puedo estar de acuerdo. Dice que lo fundamental es la salida de la crisis. Pero hay que plantearse el zertarako, el para qué, es decir para qué vamos a salir de la crisis. ¿Para que siga todo igual o para cambiar hacia un modelo mucho más justo socialmente? Creo que ese es el problema fundamental. Ustedes en su enmienda han propuesto una serie de cuestiones que permiten que todo siga igual. Avanzan en ciertos temas sociales, pero creo que no van a la raíz del asunto. Por eso nosotros vamos a votar la proposición original, porque pensamos que sí va a la raíz del asunto. No solo se trata de salir de la crisis, sino de salir de la crisis para ir a un modelo social mucho más justo, para ir a otro modelo social de Europa.<pb n="39"/> Aquí se está hablando mucho de la deuda pública, que es un elemento fundamental, y de que la deuda pública hay que pagarla, pero no se habla de la deuda social, que es importante también, la deuda social de muchos países del norte con los países del sur, tanto en el ámbito planetario como en el ámbito propio de la Unión Europea. Estamos hablando del caso de Grecia, que es un caso muy llamativo y escandaloso desde el punto de vista de la gestión que se ha hecho hasta la fecha, pero si analizamos quiénes están detrás de esa gestión, vemos que están los mismos que ahora mismo reclaman esa deuda injusta. Están los mismos que han estado apalancando un sistema basado en el puro mercado, olvidándose de las personas, un sistema que está protegiendo ahora a la banca alemana frente a otro tipo de cuestiones, no a los ciudadanos. Creo que ese es el elemento fundamental y que ese es el elemento de reflexión que debemos llevar adelante. ¿Para qué queremos salir de la crisis? ¿Para seguir con una Europa que está fundamentada en la Europa de los mercados, que cada vez se acerca más al punto cero del inicio de la Unión Europea, aquella Comunidad Europea del Carbón y del Acero, cuando aquel era un tema instrumental para empezar a andar, pero para llegar a otra meta? Sin embargo, en vez de avanzar hacia una Europa más social, una Europa de la ciudadanía, una Europa de los pueblos, una Europa centrada en la naturaleza, se está volviendo otra vez a la Europa del puro mercado, olvidándose de las personas. Ese es el elemento que nosotros desde Amaiur queremos subrayar. Estamos por construir una Europa diferente, una Europa que esté basada en las personas, una Europa social, una Europa justa, una Europa solidaria, una Europa en la que la deuda social sea el objetivo y la preocupación fundamental y no simplemente una Europa de los mercados que da la espalda continuamente a las personas que la componen. Por eso vamos a votar la proposición no de ley original con ese convencimiento de que otra Europa es posible y que la queremos construir nosotros desde esa Europa de los pueblos, desde las comunidades naturales, desde Euskal Herria en nuestro caso.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u83" ana="#chair">
                <seg>Muchas gracias, señor Larreina.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -699,7 +697,7 @@
                <seg>Sinceramente, si se aprobara el texto que trae a esta Cámara generaría muchas preocupaciones e incógnitas. Cada uno de los puntos es discutible y seguro que mejorable, pero abordarlos, como le decía, en una PNL me parece un poco excesivo. Plantear derogar, como hace usted, el Pacto de Estabilidad me parece bien, pero es un instrumento de política económica básica de la Unión Europea sobre el cual las instituciones y los países europeos tendrán algo o mucho que decir. La reforma del artículo 135 de la Constitución nos parece adecuada, puesto que no aporta nada positivo a la política económica -ya lo dijimos en su día- y supone una innecesaria restricción. Su grupo también solicita una auditoría de la deuda pública en todos los países. Supongo que todos los países, o al menos la mayoría de ellos, sabrán el origen y la naturaleza de sus deudas. Creo que el fin no es no pagar o demorar; la idea tiene que ser pagar, no apuntar en la barra de hielo. Solo si no se puede -podría ser el caso griego- habría que ayudar a reestructurar la deuda. Quizá Grecia necesite esa restructuración para poder seguir en el euro, porque creo que es importante para todo el mundo, y para que pueda salir de la crisis lo antes posible. Cada caso es negociable pero -insisto, señor Garzón, y se lo digo con aprecio- eso me parece un poco demasiado.</seg>
                <seg>La puesta en marcha de un plan de estímulo europeo la hemos reclamado en multitud de ocasiones y estamos convencidos de su necesidad, a pesar de que hace poco oíamos todos que venía el señor Juncker ...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u85" ana="#chair">
                <seg>Señor Azpiazu, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u86"
@@ -710,7 +708,7 @@
                <seg>Por lo argumentado, y para que no haya confusiones y malas interpretaciones, nuestro grupo va a votar que no a esta iniciativa que nos parece, insisto, un tanto excesiva; no obstante, si se votara por puntos -lo solicitamos a la Mesa- votaríamos favorablemente a los números 2 y 5 y votaríamos desfavorablemente al resto.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u87" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Calduch.</seg>
             </u>
@@ -723,7 +721,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u89" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , tiene la palabra la señora Riera.</seg>
             </u>
@@ -738,7 +736,7 @@
                <seg>Señor presidente, déjeme cinco segundos para hacer una breve reflexión, a la que creo que estamos obligado, sobre el papel de Europa; una reflexión en torno a cómo se ha gestionado la crisis por parte de la Unión Europea. Cabe reflexionar sobre algunas decisiones especialmente financieras y vinculadas a la liquidez, ya que algunas han llegado tarde y los tiempos de llegada han podido condicionar también los de recuperación en países como España. Necesitamos más y mejor Europa, necesitamos una Europa más unida y más integrada, con vocación de crecimiento, de competitividad, de bienestar y de ocupación.</seg>
                <seg>Por último, en el último Forum de la OCDE se reclamaba más inversión -comparto las palabras del portavoz socialista- para el crecimiento...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u91" ana="#chair">
                <seg>Señora Riera, debe usted terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u92"
@@ -748,7 +746,7 @@
                <seg>...y este es el mensaje que necesitamos para Europa; un objetivo, que las políticas de inversión sirvan al crecimiento y al bienestar, así como a la mayor integración europea.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u93" ana="#chair">
                <seg>Muchas gracias, señora Riera.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra el señor Suárez.</seg>
             </u>
@@ -762,7 +760,7 @@
                <seg>Acabo, señor presidente. Hay dos formas de resolver los problemas. Se pueden afrontar, como ha hecho este Gobierno, con medidas difíciles; sí, señorías, hemos adoptado medidas duras, difíciles, pero al final España tiene un futuro, España tiene un camino. Hemos ido a Europa -ya se ha dicho aquí-: el Plan Juncker, 300.000 millones de euros de inversión. O las cosas se pueden afrontar como hace la izquierda, sobre todo la que usted representa, con mucha demagogia. Cuando hay un problema, lo que hay que hacer es reestudiarlo, plantear nuevos planes, nuevas constituciones. Ustedes lo resuelven todo a base de nuevas reglas en el Boletín Oficial del Estado. El papel lo aguanta todo. ¿Sabe por qué? Porque el populismo es normativista, es reglamentista. Ustedes pretenden cambiar la realidad con los papeles, y eso no ha sido nunca posible en toda la historia.</seg>
                <seg>Señor Garzón, siendo consciente...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u95" ana="#chair">
                <seg>Señor Suárez, debe usted terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u96"
@@ -773,7 +771,7 @@
                <note>Aplausos</note>
                <pb n="44"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u97" ana="#chair">
                <seg>Muchas gracias, señor Suárez.</seg>
                <seg>Señor Garzón, ¿acepta usted la enmienda propuesta por el Grupo Socialista?</seg>
             </u>
@@ -782,14 +780,14 @@
                ana="#regular">
                <seg>No. Preferimos que se vote en sus propios términos. En todo caso, aceptamos la sugerencia de que se haga por puntos separados.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u99" ana="#chair">
                <seg>Muy bien. Así se hará.</seg>
                <seg>Muchas gracias.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE MEDIDAS URGENTES CONTRA LA POBREZA INFANTIL.</head>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u100" ana="#chair">
                <seg>Vamos a pasar a la primera moción, que será el último punto que debatamos esta tarde. Es una moción del Grupo Socialista sobre medidas urgentes contra la pobreza infantil. Para su defensa, tiene la palabra la señora Carcedo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u101"
@@ -800,7 +798,7 @@
                <seg>La situación de las rentas familiares define la situación de la infancia. Hemos dicho por activa y por pasiva que no hay niños pobres en familias ricas, por lo que la situación de las rentas familiares define la situación de la infancia. En esta legislatura, señorías, hemos asistido a un flujo caudalosísimo de aumento de la pobreza en las rentas familiares, sobre todo en las familias de rentas más bajas. El principal recurso de las familias, señorías, viene determinado por el salario, y los salarios en esta legislatura se han recortado un 9 %. A los que no tienen salario y cobran la protección por desempleo, debemos ponerles cara, y esa cara son 850.000 personas paradas menos que están protegidas por algún tipo de ayuda. Esta situación, evidentemente, conduce a una mayor vulnerabilidad en las familias y a una mayor desprotección en la infancia. El resultado final es que cerca de 800.000 familias con hijos no tienen ningún tipo de protección. La encuesta de condiciones de vida, señorías, nos dice que todos los tipos de familias con hijos están por encima de la media del 22,2 % en riesgo de pobreza, y las familias sin hijos están por debajo de este 22 %, hasta el punto de que un 42 % de las familias monoparentales con hijos están por debajo del umbral de la pobreza. Esta es la realidad y es el fruto y las consecuencias de la política que hemos vivido en estos cuatro años de legislatura, un incremento de la desigualdad y de la pobreza en determinadas familias. Por lo tanto, es evidente que el resultado final es la pobreza infantil.</seg>
                <seg>En cuanto a los servicios públicos, son la garantía de equidad por derecho universal en el Estado del bienestar. Quiero insistir, una vez más, en que los fatídicos decretos del año 2012 han quebrado este<pb n="45"/> principio de derecho universal, fundamentalmente en la educación. La educación es la columna vertebral del Estado del bienestar, es la garantía de ascenso social, es la garantía de futuro para los niños. Pues bien, desde la educación infantil -como ya he expuesto reiteradamente en esta Cámara- a las tasas universitarias, pasando por el recorte de las becas en general, tanto en cantidad como en su cuantía -600 euros menos por beca-, como por las becas de los libros -600.000 niños menos que tienen ayudas para los libros-, dibuja un panorama donde esa ruptura del ciclo de las desventajas de verdad no es una ruptura, sino una fortaleza. Las consecuencias de este fortalecimiento del ciclo de las desventajas se van a expresar en la próxima encuesta de condiciones de vida en unas cifras, que si las de este año son escandalosas, las que veremos van a reflejar una situación inmensamente peor.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u102" ana="#chair">
                <seg>Señora Carcedo, debe usted terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u103"
@@ -810,7 +808,7 @@
                <seg>Recogemos también, señorías, la modificación del Real Decreto 16/2002, que elimina la universalidad de la asistencia sanitaria para todos los ciudadanos que vivan en España, independientemente de la situación de los padres de los niños afectados por esta medida, por lo que habría que eliminarla.</seg>
                <seg>Los servicios sociales, también reiteradamente expuestos en esta Cámara, son uno de los elementos básicos para atender a los niños en situaciones de necesidad; para canalizar y satisfacer las necesidades de las familias, de las familias con hijos, y esta sociedad no puede mirar para otro lado; para derogar los artículos de la mal llamada Ley de racionalización y sostenibilidad de la Administración local que ponen en riesgo, ponen en una situación de incertidumbre la pervivencia de esos servicios sociales de cercanía. Ese es básicamente el contenido de esta moción.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u104" ana="#chair">
                <seg>Señora Carcedo, tiene usted que terminar ya. No puede insistir.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u105"
@@ -821,7 +819,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u106" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u106" ana="#chair">
                <seg>Gracias, señora Carcedo.</seg>
                <seg>Se han presentado dos enmiendas a esta moción. En primer lugar, por La Izquierda Plural, para su defensa, tiene la palabra la señora García Álvarez.</seg>
             </u>
@@ -837,7 +835,7 @@
                <seg>En cuanto a la moción, y dada la situación, en mi grupo creemos que nos presentan una moción de mínimos, que ya adelantamos que vamos a votar favorablemente a pesar de ello, si bien hemos presentado una enmienda que tiene por objeto no la modificación del Real Decreto-ley 16/2012, de 20 de abril, sino su derogación, tal y como muchas veces hemos pedido desde este atril. Señorías -termino con esto, señor presidente-, el paradigma de la izquierda -lo dije al inicio- es el desarrollo de los pueblos y el bienestar humano; el paradigma de la derecha en este momento y con las políticas que está llevando, es el aumento de la pobreza, de las desigualdades y de mucha miseria en muchos países, y especialmente en países fuera de nuestras fronteras.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u108" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u108" ana="#chair">
                <seg>Muchas gracias, señora García Álvarez.</seg>
                <seg>Para presentar la otra enmienda, que formula el Grupo Catalán<note>Convergència i Unió</note> , tiene la palabra el señor Campuzano.</seg>
             </u>
@@ -852,7 +850,7 @@
                <seg>Muchas gracias.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u110" ana="#chair">
                <seg>Muchas gracias, señor Campuzano. Ruego silencio para que se pueda oír a los oradores.</seg>
                <seg>En turno de fijación de posiciones, en primer lugar, por el Grupo Mixto, tiene la palabra la señora Pérez.</seg>
             </u>
@@ -867,7 +865,7 @@
                <seg>Termino, presidente. Tener a más de 2,5 millones de niños y niñas en situación de exclusión social es algo incalificable que debería convertirse en una prioridad para el Gobierno, debería convertirse en la prioridad de cualquier Gobierno. Cerrar los ojos ante esta situación es una irresponsabilidad, además de una hipocresía más como muchas de las que rigen la política social de este Gobierno. Por esta razón, consideramos que cualquier iniciativa en este sentido debe ser valorada. Por eso el Bloque Nacionalista Galego va a apoyar la propuesta del Partido Socialista.</seg>
                <seg>Gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u112" ana="#chair">
                <seg>Gracias, señora Pérez.<note>Rumores</note> Por favor, hay diputados que quieren atender a los oradores. Permítanles que lo hagan e interrumpan tanta conversación.</seg>
                <seg>Tiene la palabra ahora, por el Grupo Parlamentario Vasco<note>PNV</note> , la señora Sánchez Robles.</seg>
             </u>
@@ -879,7 +877,7 @@
                <seg>Por ello, solo me queda decirles que cuenten con nosotros para trabajar leal y honestamente, hombro con hombro, y solo así entre todos conseguiremos salir del agujero y poner freno a la miseria y a la pobreza. El toma y daca sobra cuando estamos hablando de un problema tan grave como este. En cualquier caso, señora Carcedo, sí le diré que trabajaremos hombro con hombro y que los derechos no están en la piel de toro exclusivamente, están en Europa, están en la Carta de Derechos Humanos. Y una cosa es dónde se encuentran los derechos y otra cosa es a quién le corresponde aplicarlos. Las instituciones deben respetar esos derechos y tratar de incentivar, desde sus competencias, políticas de manera coordinada y armonizada para salir del grave problema que tenemos. Lamento profundamente que siga pensando desde la mentalidad centralista e impidiendo -quizá impidiendo no-, con una voluntad centralizadora, poniendo obstáculos a ese trabajo colaborativo y cooperativo, que es el que realmente daría sus frutos, también desde esas políticas de cercanía que usted ha defendido en su intervención.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u114" ana="#chair">
                <seg>Gracias, señora Sánchez Robles.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia tiene la palabra la señora Díez.</seg>
                <pb n="50"/>
@@ -894,7 +892,7 @@
                <seg>El Grupo Socialista plantea en su iniciativa muchas cuestiones. En unas podemos estar más de acuerdo en su diagnóstico y en su receta, pero nuestro grupo, Unión Progreso y Democracia, está esencialmente de acuerdo en el diagnóstico de todas ellas: mejora de la renta familiar, subida del salario mínimo. La semana pasada tuvimos una iniciativa -también de su grupo- y nosotros planteamos una enmienda, que no fue aceptada, para que el salario mínimo interprofesional para 2015 se incrementara en un 5 % y cada año hubiera una garantía de un 3 %. No fue aceptada, pero el debate fue planteado, a nuestro juicio, en los justos términos. Se plantea la extensión de la protección por desempleo. No únicamente lo hemos debatido, sino que hemos propuesto también en esta Cámara la prestación por hijo a cargo -también el responsable de Convergència i Unió lo planteaba-, porque es a nuestro juicio una prestación absolutamente imprescindible.</seg>
                <seg>Hemos debatido numerosas iniciativas a lo largo de esta legislatura en ese sentido y siempre han sido vencidas, en el sentido de rechazadas, por el grupo mayoritario. Garantizar los derechos de la infancia en todo el territorio es algo que es absolutamente elemental, básico. Es una cuestión de derechos individuales, los derechos no están por ahí, como decía la portavoz del Grupo Vasco, no están ni en la piel de toro ni en Europa. Los derechos son de cada uno de los individuos, son derechos fundamentales de cada uno de los ciudadanos, también de los niños, aunque no voten. De esos derechos tenemos que hablar y esos derechos tenemos que garantizar. A nuestro juicio, la distribución competencial que existe actualmente en nuestro país -lo hemos dicho muchas veces- no resuelve este problema, al contrario, lo acrecienta. Hay más desigualdad precisamente por esta distribución competencial. No es un debate en términos ideológicos, basta con ver lo que ha ocurrido. Durante todos estos años de crisis económica lo que se ha hecho es profundizar en la pobreza y en la desigualdad también entre los más pobres, dependiendo de la parte de España en la que se viviera. A nuestro juicio, quien proclama el derecho, que son las Cortes, tiene que tener los instrumentos para hacerlo efectivo en condiciones de igualdad, también en esta materia tan sensible. Por tanto, esta es una cuestión que debemos revisar, pero no desde una perspectiva ideológica, sino para garantizar la igualdad, algo en lo que, por lo menos en teoría, está de acuerdo toda la Cámara. No se trata de quitar competencias a uno o a otro, se trata de organizarnos de forma que la igualdad esté<pb n="51"/> garantizada para todos y cada uno de los ciudadanos, que esté garantizada. La señora portavoz me hace gestos, no sé si quiere decir eso, pero lo voy a decir por si acaso.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u116" ana="#chair">
                <seg>Señora Díez, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u117"
@@ -906,7 +904,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u118" ana="#chair">
                <seg>Gracias, señora Díez.</seg>
                <seg>Por el Grupo Popular tiene la palabra la señora Montesinos.</seg>
             </u>
@@ -921,7 +919,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u120" ana="#chair">
                <seg>Muchas gracias, señora Montesinos.</seg>
                <seg>Señora Carcedo, ¿acepta alguna de las dos enmiendas presentadas?</seg>
             </u>
@@ -932,7 +930,7 @@
                <seg>Aceptamos la enmienda del Grupo Parlamentario de La Izquierda Plural y, lamentablemente, no podemos aceptar la enmienda del Grupo Parlamentario Catalán</seg>
                <note>Convergència i Unió</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u122" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u122" ana="#chair">
                <seg>Muchas gracias, señor Carcedo.</seg>
                <seg>Así se votara en unos minutos.</seg>
                <note>Pausa</note>
@@ -940,7 +938,7 @@
          </div>
          <div type="debateSection">
             <head>JURAMENTO O PROMESA DE ACATAMIENTO DE LA CONSTITUCIÓN POR NUEVOS SEÑORES DIPUTADOS</head>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u123" ana="#chair">
                <seg>Señorías, vamos a proceder al juramento o promesa de acatamiento de la Constitución, conforme al artículo 20.1.3.º del Reglamento.</seg>
                <seg>En sustitución de don Ernesto Aguiar, pregunto a doña Ofelia Reyes Miranda si jura o promete acatar la Constitución.</seg>
             </u>
@@ -950,7 +948,7 @@
                <seg>Sí, juro.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u125" ana="#chair">
                <seg>En sustitución de doña Rosa Aguilar, pregunto a don Antonio Luis Amaro López si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u126"
@@ -959,7 +957,7 @@
                <seg>Sí, prometo.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u127" ana="#chair">
                <seg>En sustitución de doña María Virtudes Monteserín, pregunto a doña Rosa María Cañizares si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u128"
@@ -968,7 +966,7 @@
                <seg>Sí, prometo.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u129" ana="#chair">
                <seg>En sustitución de doña Patricia Hernández, pregunto a doña Ana Vanessa Rodríguez Concepción si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u130"
@@ -978,7 +976,7 @@
                <note>Aplausos</note>
                <pb n="53"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u131" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u131" ana="#chair">
                <seg>En sustitución de don Vicente Guillén, pregunto a doña María Yolanda Casaus Rodríguez si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u132"
@@ -987,77 +985,77 @@
                <seg>Sí, prometo.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u133" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u133" ana="#chair">
                <seg>Doña Ofelia Reyes Miranda, don Antonio Luis Amaro López, doña Rosa María Cañizares, doña Ana Vanessa Rodríguez Concepción y doña María Yolanda Casaus han adquirido la condición plena de diputados. Enhorabuena.</seg>
                <note>Aplausos</note>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY : - DEL GRUPO PARLAMENTARIO SOCIALISTA, DE MODIFICACIÓN DE LA LEY GENERAL TRIBUTARIA RELATIVA A LA PUBLICIDAD DE LOS DATOS EN LOS PROCESOS EXTRAORDINARIOS DE REGULARIZACIÓN TRIBUTARIA.</head>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u134" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u134" ana="#chair">
                <seg>Vamos a votar la toma en consideración de la proposición de ley del Grupo Socialista de modificación de la Ley General Tributaria relativa a la publicidad de los datos en los procesos extraordinarios de regularización tributaria.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 131; en contra, 172; abstenciones, 13.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u135" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u135" ana="#chair">
                <seg>No se tomará en consideración.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, DE AUTOCONSUMO DE ENERGÍA.</seg>
                <note>Número de expediente 122/000152</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u136" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u136" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo de La Izquierda Plural de autoconsumo de energía.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 142; en contra, 171; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u137" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u137" ana="#chair">
                <seg>No se toma en consideración.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY : - DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO SOBRE LA PARTICIPACIÓN ESPAÑOLA EN EL CONSEJO DE SEGURIDAD DE NACIONES UNIDAS DURANTE EL PERIODO 2015-2016.</head>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u138" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u138" ana="#chair">
                <seg>Proposición no de ley del Grupo Popular sobre la participación española en el Consejo de Seguridad de Naciones Unidas durante el periodo 2015-2016. Se vota en sus términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 277; en contra, 13; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u139" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u139" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, SOBRE MEDIDAS PARA PROMOVER UN GRAN ACUERDO SOBRE LA DEUDA PÚBLICA EUROPEA.</seg>
                <note>Número de expediente 162/001163</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u140" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u140" ana="#chair">
                <seg>Proposición no de ley del Grupo de La Izquierda Plural sobre medidas para promover un gran acuerdo sobre la deuda pública europea. Se va a votar en sus términos, pero lo vamos a hacer punto por punto. Son cinco puntos. Punto 1.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="54"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 21; en contra, 294; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u141" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u141" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 2.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 27; en contra, 288.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u142" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u142" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 3.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 19; en contra, 293; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u143" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u143" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 4.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 19; en contra, 295; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u144" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u144" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 5.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 37; en contra, 277; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u145" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u145" ana="#chair">
                <seg>Queda rechazado.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE MEDIDAS URGNTES CONTRA LA POBREZA INFANTIL.</head>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u146" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u146" ana="#chair">
                <seg>Votación de la moción del Grupo Socialista sobre medidas urgentes contra la pobreza infantil. Se vota con la incorporación de la enmienda del Grupo de La Izquierda Plural.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 140; en contra, 169; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u147" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u147" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las nueve de la noche.</seg>

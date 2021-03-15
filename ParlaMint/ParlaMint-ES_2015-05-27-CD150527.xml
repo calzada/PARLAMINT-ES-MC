@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="178">178 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="178" xml:lang="es">178 speeches</measure>
+            <measure unit="speeches" quantity="178" xml:lang="en">178 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="48"/>
                <tagUsage gi="note" occurs="116"/>
                <tagUsage gi="u" occurs="178"/>
-               <tagUsage gi="lb" occurs="460"/>
+               <tagUsage gi="seg" occurs="460"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>PREGUNTAS - DEL DIPUTADO DON SABINO CUADRA LASARTE, DEL GRUPO PARLAMENTARIO MIXTO, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿SE CONSIDERA EL GOBIERNO LEGITIMADO PARA SEGUIR HACIENDO LA POLÍTICA DE SIEMPRE?</head>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Preguntas dirigidas al Gobierno, concretamente al señor presidente del Gobierno. Pregunta en primer lugar el diputado don Sabino Cuadra, del Grupo Mixto.</seg>
             </u>
@@ -108,7 +106,7 @@
                ana="#regular">
                <seg>Señor Rajoy, ¿va a seguir su Gobierno haciendo la misma política de siempre?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u3" ana="#chair">
                <seg>Muchas gracias, señor diputado.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -117,7 +115,7 @@
                ana="#regular">
                <seg>En lo sustancial, sí. Ha sido la política económica la que ha marcado esta legislatura y la política de consolidación fiscal y reformas se va a seguir manteniendo, puesto que está dando resultados.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u5" ana="#chair">
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor diputado.</seg>
             </u>
@@ -126,7 +124,7 @@
                ana="#regular">
                <seg>Señor Rajoy, para nosotros y nosotras allí en Euskal Herria su Gobierno desde un principio ha sido un Gobierno ilegítimo.<note>Rumores</note> Me explico. Ustedes, uniendo sus resultados a los de UPN allí en Navarra, consiguieron tan solo un 23 % de los votos de las elecciones de 2011. Hoy ya no llegan ni siquiera al 15 % tras las últimas elecciones. Con este porcentaje ustedes han estado imponiendo recortes, reformas, leyes y presupuestos reaccionarios ante los que las amplias mayorías políticas, sociales, sindicales e incluso institucionales de nuestro pueblo han estado en contra. En Navarra, de donde yo vengo, ustedes han recurrido y tumbado quince leyes aprobadas por nuestro Parlamento foral. No solo eso sino que aquí en este Congreso ustedes están haciendo uso de una mayoría parlamentaria que hace mucho tiempo dejó de existir -aquel 44 % que obtuvieron- y entre sesenta y setenta escaños de los que ustedes aquí ocupan, desde un punto de vista democrático los están ocupando de forma ilegítima.<note>Protestas</note> No solo digo esto sino que están ustedes aprovechándose en el último tramo de la legislatura para traer aquí, en aluvión, un montón de leyes que están alterando de forma sustancial temas muy importantes. Me refiero a algunas que han pasado: la ley mordaza, la reforma del Código Penal, la Ley de Mutuas, la Ley del Sector Público, el sector ferroviario, el cine, las carreteras, hidrocarburos, la Ley de Enjuiciamiento Criminal, la Ley de Partidos Políticos... Señor Rajoy, ¿sabe cómo se le llama a esto? A esto se le llama pucherazo.<note>Protestas</note> Pucherazo de mal perdedor, pucherazo de jugador tramposo. Señor Rajoy, tal y como señalan todas las encuestas -y usted lo sabe- y han ratificado las elecciones andaluzas, las autonómicas y las municipales, ustedes ya aquí están usurpando un poder que no les corresponde. Así de claro. Ustedes están haciendo uso de una mayoría parlamentaria que hace tiempo ha caducado y ya sabe usted lo que ocurre con los productos que caducan, que son perjudiciales para la salud; la democrática, en este caso. Señor Rajoy, no más pucherazos, no más pucherazos, no más pucherazos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u7" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor presidente.</seg>
                <pb n="6"/>
@@ -138,12 +136,12 @@
                <seg>Su intervención es evidentemente antidemocrática, lo cual no me puede sorprender en absoluto dada lo que ha sido su trayectoria política y de otro tipo a lo largo de muchos años.<note>Aplausos</note> Este Gobierno que presido es un Gobierno legítimo, cuenta con el apoyo de más de 180 diputados en esta Cámara, ha sido votado por más de 11 millones de españoles, tiene un mandato de cuatro años -tal como fijan la Constitución y las leyes- y seguiremos aprobando leyes de aquí al final de la legislatura porque pretendemos cumplir un programa electoral y porque, como he dicho en numerosas ocasiones, la nuestra es una política reformista y hay muchas reformas que es necesario hacer de cara al futuro. Por lo tanto, insisto en que este Gobierno es un Gobierno legítimo y democrático y parece mentira que en el año 2015 todavía se puedan escuchar en esta Cámara intervenciones tan burdas, antidemocráticas e ilegítimas. Esas sí que son ilegítimas.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u9" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON PERE MACIAS I ARAU EN SUSTITUCIÓN DEL DIPUTADO DON JOSEP ANTONI DURAN I LLEIDA, DEL GRUPO PARLAMENTARIO CATALÁN<note>CONVERGÈNCIA I UNIÓ</note> , QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿POR QUÉ EL GOBIERNO SE HA OLVIDADO DE INVERTIR EN UN CORRECTO FUNCIONAMIENTO DE CERCANÍAS?</seg>
                <note>Número de expediente 180/001315</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u10" ana="#chair">
                <seg>Pregunta dirigida también al señor presidente del Gobierno que formula el diputado don Pere Macias del Grupo Parlamentario Catalán</seg>
                <note>Convergència i Unió</note>
             </u>
@@ -154,7 +152,7 @@
                <seg>Señor presidente, hoy usted ha venido en coche, otros hemos venido andando, pero hay centenares de miles de ciudadanos que necesitan un buen servicio de transporte público para llegar a su trabajo en Madrid, Barcelona y otras ciudades. ¿Se ha preguntado usted qué pasa cuando este servicio no es fiable, cuando los retrasos son habituales, las averías frecuentes, la información escasa y a menudo, como la semana pasada en Barcelona, el caos afecta a 80.000 ciudadanos? El Gobierno, señor presidente, no puede estar nada orgulloso de cómo se trata a los ciudadanos en un servicio tan esencial.</seg>
                <seg>Por esta razón le pregunto: ¿Qué ha hecho el Gobierno y qué piensa hacer para mejorar el servicio de cercanías?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u12" ana="#chair">
                <seg>Gracias, señor Macias.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -166,7 +164,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u14" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Macias.</seg>
             </u>
@@ -177,7 +175,7 @@
                <seg>Señor presidente, el Gobierno no ha hecho los deberes. Le voy a dar un dato. Por los túneles de ADIF en Barcelona circulan un máximo de 19 trenes por hora; a pocos metros, por los túneles de ferrocarriles de la Generalitat circulan 32. ¿Cuál es la razón? Que unos han estado invirtiendo desde hace años, con<pb n="7"/> mejoras continuas y perceptibles, mientras su Gobierno se desentendía del problema. No sirve, señor Rajoy, echarle la culpa a la Generalitat. Sin trenes, sin estaciones, sin vías, que son competencia suya, ¡tiene coraje echarle la culpa a la Generalitat del desastre de cercanías! Tampoco sirve presentar al final del mandato un plan virtual de cercanías que, por cierto, no está ni en la web del ministerio. Señor Rajoy, hablar de cercanías es hablar de ferrocarril social, del que afecta de verdad a los ciudadanos en su quehacer cotidiano. No puede, señor presidente, dejarlos tirados cada mañana.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u16" ana="#chair">
                <seg>Gracias, señor Macias.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -190,12 +188,12 @@
                <seg>Por tanto, se está invirtiendo en estos trenes de cercanías...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u18" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON PEDRO SÁNCHEZ PÉREZ-CASTEJÓN, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿CÓMO VALORA USTED LA POLÍTICA DE SU GOBIERNO HACIA LOS AYUNTAMIENTOS?</seg>
                <note>Número de expediente 180/001318</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u19" ana="#chair">
                <seg>Pregunta del diputado don Pedro Sánchez, del Grupo Parlamentario Socialista, al presidente del Gobierno.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u20"
@@ -204,7 +202,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Rajoy, me gustaría saber su opinión sobre la política de su Gobierno respecto a los ayuntamientos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u21" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -216,7 +214,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u23" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Sánchez.</seg>
             </u>
@@ -228,7 +226,7 @@
                <seg>Señor Rajoy, en el momento en el que hay uno de cada tres españoles sufriendo pobreza y, sobre todo, muchos niños y jóvenes en nuestro país como consecuencia de sus políticas, lo que han hecho ha sido privatizar muchos servicios sociales en manos de los ayuntamientos. Estamos hablando de cosas tan esenciales, tan básicas, como las políticas públicas de empleo, como por ejemplo las oficinas antidesahucios, como por ejemplo la atención a las mujeres maltratadas, como por ejemplo los servicios de teleasistencia y también de atención domiciliaria, como por ejemplo las becas de comedor, los comedores escolares, como por ejemplo la salud pública. La lista es interminable, señor Rajoy. Bajo el eufemismo de las competencias impropias, ustedes lo que están haciendo es privatizar derechos de ciudadanía que son, al final, la identidad de la política municipal. Sé que me dirá, señor Rajoy, que hay que cuadrar las cuentas públicas, pero yo le diré, señor Rajoy, que si usted mira las buenas prácticas en muchos ayuntamientos, por ejemplo en Dos Hermanas, en Vigo o, incluso, en Fuenlabrada...<note>Rumores</note> -sí, sí, en un ayuntamiento de la Comunidad de Madrid- verá que hay una inversión potente en política social, y eso no está reñido en absoluto con el rigor presupuestario. Eso, por ejemplo, no ha ocurrido aquí, en el Ayuntamiento de Madrid, que es el ayuntamiento más endeudado de España. Yo le digo lo siguiente, señor Rajoy. El próximo 13 de junio se van a constituir todas las corporaciones locales en este país y, por tanto, tenemos la enorme oportunidad de corregir muchos errores practicados por su Gobierno y por usted. Le traigo una propuesta, señor Rajoy, retire su contrarreforma de la Ley de la Administración Local que privatiza derechos esenciales y blinde esos servicios sociales hoy en manos de los ayuntamientos, porque justo en el momento en el que se sufre mayor desigualdad, como ayer nos dijo el Instituto Nacional de Estadística, lo que se necesita es un Gobierno comprometido con las políticas sociales y también con blindar esas políticas sociales. Si no lo hace usted, lo haremos nosotros en cuanto ganemos las elecciones.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u25" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -241,12 +239,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u27" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON GASPAR LLAMAZARES TRIGO, DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, QUE FORMULA AL SEÑOR MINISTRO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN: ¿CUÁLES SON LAS MEDIDAS QUE EL GOBIERNO PIENSA ADOPTAR PARA REMOVER LOS OBSTÁCULOS QUE DIFICULTAN O IMPIDEN HASTA EL EXTREMO EL EJERCICIO DEL DERECHO DE VOTO DE LOS ELECTORES ESPAÑOLES EN EL EXTRANJERO?</seg>
                <note>Número de expediente 180/001314</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u28" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Asuntos Exteriores y de Cooperación. En primer lugar, pregunta el diputado don Gaspar Llamazares de La Izquierda Plural.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u29"
@@ -255,7 +253,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, no le voy a pedir que se mire en el espejo. Lo que le pido es que mire la situación de los ciudadanos españoles en el exterior y sus derechos políticos. Cada vez son más, además de emigrantes, exiliados; no tienen derechos políticos. Le pido cuentas en relación con el derecho de los emigrantes a participar en las elecciones; un derecho que no solamente tiene que ser rogado sino que les es negado.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u30" ana="#chair">
                <seg>Gracias, señor Llamazares.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -265,7 +263,7 @@
                <seg>Señoría, como sabe, la Ley General Electoral fue reformada en abril de 2011, en la pasada legislatura. En esa ley se estableció, entre otras modificaciones, la reforma del artículo 75, el denominado voto rogado. Tras la aprobación de esta ley se constató una drástica disminución de la participación electoral de los residentes en el extranjero. Este es un hecho del que somos conscientes y nos preocupa. Tanto el Gobierno como el ministerio han tratado de facilitar, a quien haya querido, votar en estas elecciones. Le voy a referir algunas medidas.</seg>
                <seg>Hemos creado un nuevo procedimiento que permite realizar los envíos de las solicitudes por internet. Este medio se une a los ya disponibles, el correo postal y el fax. Hemos empleado las nuevas tecnologías. Toda la información relativa al proceso electoral, así como los formularios de solicitud del voto, se difunden a través de las redes sociales y se cuelgan en la red. Hemos extendido los horarios de los consulados el sábado 11 y el domingo 12, periodo de consulta de listas y reclamaciones, así como el sábado 25, último día del plazo fijado a los no residentes para solicitar su documentación electoral y durante los días de depósito del voto en urnas. Además, hemos ampliado los medios en embajadas y consulados. Se han formado equipos electorales. Se han suscrito convenios de franqueo prepagado. Se han empleado valijas diplomáticas extraordinarias o mensajería urgente. A la luz de los resultados a los que usted se refiere estas medidas no han sido suficientes. Por eso seguiremos trabajando de cara a la próxima cita electoral.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u32" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Llamazares.</seg>
                <pb n="10"/>
@@ -277,7 +275,7 @@
                <seg>Con relación a los nuevos procedimientos de voto rogado, señor ministro, han estado obstruidos, colapsados, en buena parte del periodo. De tal manera que al final, cuando han podido rogar muy a lo último, les ha llegado el voto fuera de tiempo ya. No han podido votar y el que ha estado empecinado en ello ha ido a votar al consulado en el último minuto. Pero no solamente eso, además tiene que tener el don de la paciencia y el don de la templanza, porque el luego el ministerio se dedica a nivel internacional a dar lecciones de democracia cuando no cumple democráticamente con sus ciudadanos. Señorías, esto de multiplicar por veinte la abstención de una abstención general no es abstención, es obstrucción. Los ciudadanos no tienen que ser héroes sino ser ciudadanos.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u34" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u35"
@@ -287,12 +285,12 @@
                <seg>En segundo lugar, esa modificación es también costumbre inveterada en las democracias consolidadas, no como las que a usted le gustan, el que eso se haga por un amplio consenso; busque usted un amplio consenso.<note>Rumores</note> En tercer lugar, mi departamento ha considerado siempre como punto central de su política colocar al ciudadano en el centro de la política y eso hemos hecho. Me he referido a los medios que se han utilizando para suplir las deficiencias que establece la Ley Electoral. Y le digo: el resultado no nos gusta, si quiere modificarlo estamos a su disposición.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u36" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u36" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA MERITXELL BATET LAMAÑA, EN SUSTITUCIÓN DE LA DIPUTADA DOÑA TRINIDAD JIMÉNEZ GARCÍA-HERRERA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN: ¿QUÉ POSICIÓN MANTIENE EL GOBIERNO ANTE LA AGENDA EUROPEA DE MIGRACIÓN?</seg>
                <note>Número de expediente 180/001320</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u37" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Asuntos Exteriores y de Cooperación, que formula la diputada doña Meritxell Batet, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u38"
@@ -305,7 +303,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u39" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u39" ana="#chair">
                <seg>Muchas gracias, señora Batet.</seg>
                <seg>Aunque indudablemente era una construcción dialéctica, tengo que señalar aquí que en este turno de preguntas solo puede hacerse una pregunta. No obstante, es una construcción dialéctica de la señora diputada muy respetable.</seg>
                <seg>Señor ministro.</seg>
@@ -319,11 +317,11 @@
                <seg>Lo que estamos...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u41" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u41" ana="#chair">
                <seg>Gracias, señor ministro.<pb n="12"/> - DEL DIPUTADO DON EMILIO OLABARRÍA MUÑOZ, DEL GRUPO PARLAMENTARIO VASCO<note>EAJ-PNV</note> , QUE FORMULA AL SEÑOR MINISTRO DEL INTERIOR: ¿QUÉ MEDIDAS PIENSA ADOPTAR EL GOBIERNO PARA ASUMIR LOS REQUERIMIENTOS DE LAS CINCO CONDENAS DEL TRIBUNAL EUROPEO DE DERECHOS HUMANOS EN RELACIÓN CON SU ACTITUD RENUENTE A INVESTIGAR CASOS DE TORTURA EN EL ESTADO ESPAÑOL?</seg>
                <note>Número de expediente 180/001316</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u42" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u42" ana="#chair">
                <seg>Pregunta dirigida al señor ministro del Interior. Formula la pregunta el diputado don Emilio Olabarría, del Grupo Vasco, PNV.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u43"
@@ -332,7 +330,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, ¿qué medidas piensa adoptar su Gobierno, suponiendo que piense adoptar alguna, con relación al cumplimiento de los requerimientos de las cinco condenas del Tribunal Europeo de Derechos Humanos al Reino de España por no investigar los casos de tortura?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u44" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u44" ana="#chair">
                <seg>Gracias, señor Olabarría.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -342,7 +340,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Olabarría, usted ha sido miembro del Consejo General del Poder Judicial y, por tanto, sabe perfectamente lo que es la separación de poderes. Espero de su rectitud de intención que formule la pregunta en los términos que se compadecen con lo que ha dicho de verdad el Tribunal Europeo de Derechos Humanos, porque en ningún caso este tribunal ha condenado al Gobierno de España por torturas. No ha entrado a cuestionar esos temas en las cinco decisiones del tribunal a las que usted se refiere. Las cuestiones traen causa de hechos producidos en legislaturas anteriores y en absoluto se refieren al Poder Ejecutivo; se refieren, según el Tribunal de Derechos Humanos de Estrasburgo, a la insuficiente investigación judicial en relación con esos temas. Por tanto, no requiere en absoluto al Gobierno sino a otro poder del Estado.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u46" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Olabarría.</seg>
             </u>
@@ -353,7 +351,7 @@
                <seg>Le voy a dar más datos que hacen referencia a su Gobierno -no al Poder Judicial ni a la Administración de Justicia-, existen 3.587 -le repito la cifra, 3.587- denuncias recopiladas por el informe sobre las torturas de Euskadi entre los años 1960 y 2013, informe encargado por el Gobierno vasco y dirigido por el prestigioso forense Francisco Etxeberria. Le voy a dar más datos, señor ministro, el relator contra la tortura de las Naciones Unidas, Theo van Boven, ha manifestado que existen 6.000 denuncias de tortura veraces, que tienen suficiente fundamento. No sé si estos datos que le estoy manifestando, señor ministro, a usted le abochornan; creo que a cualquier gobernante democrático estos datos deberían abochornarle. Con esta actitud en relación con la investigación de los casos de tortura también se mensura la calidad democrática de un Estado, y la calidad democrática de un Estado y la calidad democrática de este Estado en el ámbito de la persecución y de la investigación de los casos de tortura no...</seg>
                <pb n="13"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u48" ana="#chair">
                <seg>Muchas gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -365,12 +363,12 @@
                <seg>Por otra parte, señoría, debo decirle que, de esas cinco denuncias, todas menos una se refieren a denuncias de supuestos miembros de ETA a los que se les aplicó el régimen de incomunicación. Actualmente este régimen de incomunicación ya dispone, como su señoría debería saber, de un riguroso control legal y judicial, y aún así en la actual reforma de la Ley de Enjuiciamiento Criminal, que está en tramitación parlamentaria, como sabe, se introducen modificaciones que tienen como objeto el incremento de las garantías frente a eventuales actuaciones que atenten contra la integridad de las personas, así como novedades en la detención incomunicada. De hecho, en este año por ejemplo, de los 80 presuntos terroristas detenidos, a ninguno se le aplicado ya la detención incomunicada.</seg>
                <seg>Muchas gracias, señoría.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u50" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON ANTONIO RAMÓN MARÍA TREVÍN LOMBÁN, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE INDUSTRIA, ENERGÍA Y TURISMO: ¿QUÉ VA A HACER EL GOBIERNO PARA LOGRAR QUE LAS ELÉCTRICAS EMPIECEN A COMPRAR YA CARBÓN DE LAS MINAS ESPAÑOLAS?</seg>
                <note>Número de expediente 180/001323</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u51" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u51" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Industria, Energía y Turismo. La formula el diputado don Antonio Trevín, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u52"
@@ -379,7 +377,7 @@
                <seg>Señor ministro, el próximo mes nuestra minería privada del carbón estará en concurso, como la vascoleonesa, o prácticamente parada, y los mineros, cobrando el desempleo o despedidos. Para seguir manteniendo activo este sector se precisaban solvencia y voluntad política. No tuvimos suerte con su nombramiento. De su insolvencia en esta materia fue buena muestra su lección magistral sobre la necesidad del fracking para liberar el gas atrapado en las rocas y, según usted, el gas enquistado. De su nula voluntad política es buena muestra lo que opinó ayer su compañero el presidente Herrera: Es un ejemplo de insensibilidad, arrogancia y antipatía la forma en que Soria está tratando este tema. Solo por incompetencia o por voluntad decidida de liquidar el carbón español puede explicarse la orden hecha pública por su ministerio para lograr que las eléctricas compren y quemen carbón nacional. Le aseguro que con ese mecanismo ni van a comprarlo ni van a quemarlo, y esta minería se acabará. Por ello le pregunto, ¿qué va a hacer el Gobierno para lograr que las eléctricas empiecen a comprar ya carbón de las minas españolas?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u53" ana="#chair">
                <seg>Muchas gracias, señor Trevín.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -390,7 +388,7 @@
                <seg>Muchas gracias.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u55" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Ruego silencio, a todos menos al señor Trevín, que tiene la palabra.</seg>
             </u>
@@ -403,7 +401,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u57" ana="#chair">
                <seg>Muchas gracias, señor Trevín.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -413,12 +411,12 @@
                <seg>Yo creo que usted conoce incluso mejor que yo que los planes de reestructuración de la minería del carbón en España no empezaron hace tres años y medio, empezaron en el año 1992. Entonces en el sector de la minería del carbón se producían 20 millones de toneladas y había 45.000 empleos y a principios del año 2012 se producían 5,5 millones de toneladas y había 4.000 trabajadores en el sector. Eso ha sido veintidós años después y 22.000 millones de euros después, que son los que se han invertido en el sector de la minería del carbón, algunos con Gobiernos de mi partido y otros con Gobiernos de su partido. El problema no es que el Gobierno tenga más o menos voluntad, la tiene absolutamente toda. El problema es que las medidas que tenemos que tomar para que el carbón siga siendo parte del mix nacional tienen que ser compatibles también con el derecho comunitario. Supongo que usted está de acuerdo.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u59" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON MIGUEL ÁNGEL HEREDIA DÍAZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿CÓMO PIENSA EL GOBIERNO RESOLVER LOS PROBLEMAS CREADOS A LOS CIUDADANOS POR LOS RECORTES EN SANIDAD?</seg>
                <note>Número de expediente 180/001319</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u60" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u60" ana="#chair">
                <seg>Pasamos ahora a las preguntas dirigidas al señor ministro de Sanidad, Servicios Sociales e Igualdad. Formula la primera el diputado don Miguel Ángel Heredia, del Grupo Socialista.</seg>
                <pb n="15"/>
             </u>
@@ -428,7 +426,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, ¿cómo piensa el Gobierno resolver los problemas creados a los ciudadanos por los recortes en sanidad?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u62" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u62" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -440,7 +438,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u64" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Heredia.</seg>
             </u>
@@ -452,7 +450,7 @@
                <seg>Señor ministro, nadie puede entender que su Gobierno esté recortando la financiación en sanidad a las comunidades autónomas. Es intolerable que ustedes prefieran meter la mano en el bolsillo a los ciudadanos, en lugar de apretarle el cinturón a las grandes empresas farmacéuticas implantando una subasta de medicamentos, como hace la Junta de Andalucía. Me parece miserable que la gente tenga que elegir entre poder comer y tener que pagar sus medicinas. ¿Cuánto vale la vida de un paciente, señor ministro? La sanidad es un derecho, pero ustedes, su Gobierno, el Partido Popular, la han convertido en un negocio.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u66" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -463,12 +461,12 @@
                <seg>La sanidad pública en España no es gratuita, se paga con fondos públicos, no es gratis. Por tanto, nuestra obligación es gestionarla de la mejor manera posible, negociar cada día para reducir los precios de los medicamentos, como hemos venido haciendo para reducir la factura en farmacia, garantizando que los medicamentos lleguen a todo el mundo. Tenemos acumulados ahorros de 4.500 millones en farmacia y somos el único país occidental que está garantizando el tratamiento -usted que hablaba de hepatitis C- a todos los pacientes, el único país. Por tanto, nuestro sistema es fuerte porque se ha trabajado por su sostenibilidad. En cuanto a la financiación de las comunidades autónomas, usted sabe que no es finalista, cada uno prioriza. La que menos, Andalucía. Un 9,5 % bajó el presupuesto en sanidad de 2011 a 2015 y es la que menos destina a sanidad por habitante. Por tanto, aplíquese el cuento en Andalucía y no dé lecciones a los demás.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u68" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA MARÍA LUISA CARCEDO ROCES, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿QUÉ EFECTOS ESPERA EL GOBIERNO QUE TENGA EL PLAN DE FAMILIA EN LA SITUACIÓN DE LAS FAMILIAS ESPAÑOLAS?</seg>
                <note>Número de expediente 180/001324</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u69" ana="#chair">
                <seg>Pregunta dirigida también el señor ministro de Sanidad, Servicios Sociales e Igualdad que formula la diputada doña María Luisa Carcedo, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u70"
@@ -477,7 +475,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, me gustaría que nos explicase de forma comprensible para inteligencias normales el contenido y los efectos que prevé sobre la población el Plan de familia reiteradamente anunciado.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u71" ana="#chair">
                <seg>Gracias, señora Carcedo.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -488,7 +486,7 @@
                <seg>Efectivamente, el Gobierno ha venido poniendo en marcha una política de familia a lo largo de toda la legislatura que se ha visto complementada en los últimos días con la presentación de un plan integral organizado, que es el segundo que se realiza en la historia de la democracia española -el primero lo hizo otro Gobierno del Partido Popular, ustedes nunca consideraron que la política de familia tuviera que estar sujeta a un plan integral de actuación porque no existía-. Es verdad que la mayor parte de las medidas del plan, unas tres cuartas partes, ya está en marcha, son medidas que ya se han aplicado, pero creo que el plan tiene compromisos muy importantes: compromisos de apoyo a las rentas que perciben las familias que se manifiestan sobre todo en las decisiones de la última reforma fiscal y la puesta en marcha de los cheques familiares; compromisos de que todas las políticas que haga el Gobierno, todas las decisiones que adopte tengan que ser evaluadas desde el punto de vista del impacto familiar -creo que ese es un cambio muy positivo-; un compromiso también para hacer frente a los cambios sociodemográficos que sufre la población española y que ponen en cierto riesgo de cara al futuro la base de nuestro sistema de solidaridad, que es una solidaridad entre generaciones. Hay un apoyo decidido a la conciliación, apoyo a las mujeres que son las que en la mayor parte de los casos llevan todo el peso de la responsabilidad familiar, y también una apuesta decidida por la corresponsabilidad para intentar que los hombres definitivamente se incorporen a lo que también tiene que ser su obligación. Hay algunas novedades para corregir situaciones de injusticia como la que lleva a que las mujeres tengan mermadas sus pensiones -lo estamos viendo, cobran de media una pensión un 37 % inferior a las pensiones que cobran los hombres- porque han dedicado más tiempo al cuidado de sus hijos en muchas ocasiones y han tenido trabajos a tiempo parcial, han acumulado excedencias, han cotizado menos años. Por tanto, vamos a primar a las mujeres y reconocer el papel de las mujeres españolas que han sido madres. En definitiva,<pb n="17"/> toda una política integral que no queremos que sea un objeto de discordia, sino un elemento positivo para seguir trabajando en el futuro.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u73" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora Carcedo.</seg>
             </u>
@@ -499,7 +497,7 @@
                <seg>Señor ministro, es incomprensible. Pero también es absolutamente injustificable que mire para otro lado ante los datos que conocimos ayer de pobreza infantil; no menciona para nada la pobreza infantil. Las familias vulnerables son las verdaderamente ausentes de las medidas del señor Montoro. Sí, señor Montoro, las familias vulnerables no están incluidas en sus beneficios fiscales porque están topados por las cotizaciones a la Seguridad Social, y los que cotizan poco no alcanzan a esas deducciones y por supuesto los que no tienen sueldo. Por tanto, ha habido un incremento de la pobreza. No me mire extrañado que lo sabe mejor que yo. Señor ministro, evidentemente...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u75" ana="#chair">
                <seg>Gracias, señora Carcedo.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -510,12 +508,12 @@
                <seg>El Gobierno puso ya en marcha medidas y las pactó con los agentes sociales para ayudar a los parados de larga duración que tienen cargas familiares, y creo que...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u77" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA ISABEL RODRÍGUEZ GARCÍA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿CONSIDERA EL GOBIERNO QUE EL PLAN DE FAMILIA TIENE LA DOTACIÓN PRESUPUESTARIA SUFICIENTE?</seg>
                <note>Número de expediente 180/001325</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u78" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Sanidad, Servicios Sociales e Igualdad que formula la diputada doña Isabel Rodríguez, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u79"
@@ -524,7 +522,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>Señor ministro, ¿considera que el Plan de familia tiene dotación presupuestaria suficiente?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u80" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -536,7 +534,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u82" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora diputada.</seg>
             </u>
@@ -549,7 +547,7 @@
                <seg>Señor ministro, en política no todo vale, no todo es decir; es hacer. Se equivoca Rajoy cuando dice que han errado en la comunicación. Ustedes han errado en la acción y a mí me daría vergüenza, tras estos datos de pobreza, haber salido de aquel Consejo de Ministros, con un power point. Esto fue lo único que usted arrancó a sus colegas, un power point.<note>Aplausos</note> Bien hubiera merecido la pena haber arrancado algo de presupuesto para atender a los niños, a las familias, a aquellos que están sufriendo como consecuencia de sus recortes. Les queda poco tiempo; dedíquense a la acción y no tanto a la comunicación.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u84" ana="#chair">
                <seg>Gracias, señora Rodríguez.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -559,11 +557,11 @@
                <seg>Donde no hubo un solo euro de financiación, ni uno solo, fue en su plan de familia, porque el plan de familia del Partido Socialista no ha existido nunca. Jamás han hecho un plan de familia.<note>Aplausos</note> Donde no hubo un solo euro, señoría, fue en el fondo contra la pobreza infantil del Partido Socialista, porque ese fondo no existía; lo hemos creado nosotros y por tanto jamás hubo ahí un solo euro. Estamos trabajando a favor de la inclusión y dando la vuelta a la situación con la política económica, con el crecimiento y con la creación de empleo. Habrá visto usted, según la EPA del primer trimestre de 2015, que 185.000 hogares en los que nadie percibía ingresos empiezan ya a tener renta. Esta es la situación que está cambiando en España y que está dando un vuelco y una oportunidad. Se está produciendo un vuelco en la realidad social española: vuelve a haber una expectativa de crecimiento, vuelve a haber oportunidades, la gente está encontrando por fin empleo y hay una perspectiva razonable de que puedan mejorar sus ingresos. A partir de ahí, queremos revisar el sistema de rentas mínimas y el sistema de ayudas que hay en España y queremos hacerlo en el marco del plan, por lo que el plan marca una fuerte ambición de futuro y un gran compromiso presupuestario de presente. Este, como le decía, es el vuelco y no el de las elecciones del domingo, que no se produjo, porque siguen ustedes detrás y la única expectativa y esperanza que tienen es agarrarse a Podemos como una tabla de salvación.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u86" ana="#chair">
                <seg>Gracias, señor ministro.<pb n="19"/> - DE LA DIPUTADA DOÑA MARÍA ISABEL LÓPEZ I CHAMOSA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿CREE EL GOBIERNO QUE LAS MEDIDAS DE APOYO A LA MATERNIDAD DEL PLAN DE FAMILIA INCENTIVAN LA NATALIDAD?</seg>
                <note>Número de expediente 180/001327</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u87" ana="#chair">
                <seg>Última pregunta dirigida al señor ministro de Sanidad, Servicios Sociales e Igualdad, que formula la diputada doña Isabel López i Chamosa, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u88"
@@ -571,7 +569,7 @@
                ana="#regular">
                <seg>Señor ministro, ¿cree el Gobierno que las medidas de apoyo a la maternidad del Plan de familia incentivan la natalidad?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u89" ana="#chair">
                <seg>Gracias, señora López i Chamosa.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -580,7 +578,7 @@
                ana="#regular">
                <seg>Sobre todo reconocen el papel de las mujeres españolas y tratan de corregir una injusticia, pero, contestando a su pregunta, creo que sí, que la medida es natalista.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u91" ana="#chair">
                <seg>Gracias, señor ministro</seg>
                <seg>Señora López i Chamosa.</seg>
             </u>
@@ -590,7 +588,7 @@
                <seg>Señor ministro, las medidas que fomentan la natalidad son las que se han cargado ustedes con los recortes que han hecho. Todos y cada uno de sus recortes han perjudicado la natalidad y sobre todo a las mujeres trabajadoras. Han eliminado prácticamente la dependencia, casi han eliminado los servicios sociales -se los han quitado a los ayuntamientos para pasárselos a las diputaciones- y se han cargado los permisos de paternidad que aprobamos, los han suspendido. Le voy a dar un dato: según el INE, en el año 2013 hubo 425.715 nacimientos, de los que 130.000 no generaron ninguna prestación -esa es su política-, y ahora se sacan de la manga subir las pensiones un 5 %, un 10 % o un 15 %, en función de los hijos que tengan. ¿Sabe cuál es el problema de las mujeres que están a punto de acceder a la pensión? Que no tienen cotizaciones, señor ministro. No tienen cotizaciones; han trabajado toda su vida y no han cotizado por ellas. Para que usted lo entienda, la media de cotización de las mujeres que acceden a la pensión es de treinta años, mientras que los hombres superan los cuarenta años. ¿Sabe usted qué hacen con esta medida? Dejan fuera de esta prestación a todas las madres del baby boom, porque son anteriores al año 2016, así como a las mujeres que cobran la pensión mínima o el 40 % de las pensiones. Señor ministro, el domingo los ciudadanos les han dicho que no quieren sus políticas, que quieren que se vayan a casa, y lo que las mujeres queremos son derechos, señor ministro, derechos y no limosnas.</seg>
                <note>Una señora diputada: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u93" ana="#chair">
                <seg>Gracias, señora López i Chamosa.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -601,12 +599,12 @@
                <seg>El permiso de paternidad lo dejaron ustedes congelado, prorrogado.<note>La señora López i Chamosa hace signos negativos</note> Sí, sí, lo dejaron ustedes así. No me hable de recortes, porque en cuanto tuvieron la primera dificultad -creo que a Zapatero le tuvieron que llamar todos los líderes mundiales para que tomara medidas- ¿qué hicieron? Recortar las pensiones y quitar el cheque bebé. No sé si el cheque bebé era una medida que fomentaba la natalidad, porque el asunto es más complejo y requiere más tiempo que el breve espacio de esta pregunta, pero la verdad es que mientras estuvo el número de nacimientos cayó hasta los 486.574.<pb n="20"/> Las mujeres sufren una doble penalización. Piden el 95 % de las excedencias para el cuidado de los hijos y son las que mayoritariamente reducen su jornada laboral. El 73 % de los contratos a tiempo parcial recaen en mujeres. Eso hace que cobren una pensión que es un 37 % más baja. Nosotros vamos a introducir un incentivo y se lo vamos a proponer a su señoría en la Comisión del Pacto de Toledo. No la veo muy dispuesta a hablar y colaborar para mejorar e implementar esta medida que puede beneficiar, a partir del 1 de enero de 2016, a 123.000 mujeres españolas. En el período de vigencia del plan, en 2017, el acumulado será de 455.000 mujeres españolas a las que se les reconoce ese esfuerzo y, por tanto, van a poder tener un complemento a su pensión de un 5 % si han tenido dos hijos, un 10 % si han tenido tres hijos o un 15 % si han tenido cuatro hijos. Creo que es de justicia. Es una medida que ya se aplica en Francia -en Francia le parecerá bien, porque gobiernan los socialistas- y que se puede aplicar también en España.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u95" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON PEDRO SAURA GARCÍA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿QUÉ NUEVOS ANUNCIOS TIENE PREVISTO REALIZAR EL GOBIERNO EN MATERIA DE IMPUESTOS?</seg>
                <note>Número de expediente 180/001321</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u96" ana="#chair">
                <seg>Pasamos a las preguntas dirigidas al señor ministro de Hacienda y Administraciones Públicas. Pregunta en primer lugar el diputado don Pedro Saura, del Grupo Parlamentario Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u97"
@@ -616,7 +614,7 @@
                <seg>Señor Montoro, ¿qué nuevos anuncios tiene previstos el Gobierno en materia de impuestos?</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u98" ana="#chair">
                <seg>Gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -627,7 +625,7 @@
                <seg>Señor Saura, los anuncios son relativos a bajar los impuestos, como ya estamos bajando el IRPF y el impuesto sobre sociedades. Le diré a su señoría que en este año 2015, de enero a abril, se han reducido -y por tanto se han inyectado en el bolsillo de los españoles- 953 millones de euros del IRPF. Esto irá a más con las dos pagas extraordinarias que aún quedan a lo largo del año, hasta un total de 3.366 millones de euros. En cuanto al impuesto sobre sociedades, en el primer pago fraccionado se ha reducido en 361 millones de euros, que es prácticamente el total del año, porque la previsión es que en el año 2015 el impuesto sobre sociedades se reduzca en 437 millones de euros. Esa es la primera fase de la reducción prevista en el año 2015, que se completará en el año 2016, tal y como está en la ley en vigor, con un total de reducción de impuestos de 5.000 millones de euros.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u100" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Saura.</seg>
             </u>
@@ -640,7 +638,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u102" ana="#chair">
                <seg>Gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -652,12 +650,12 @@
                <seg>Señoría, el resultado del domingo fue que el Partido Popular fue el partido más votado en España y el resultado del domingo fue que el Partido Socialista está tan contento porque se pone en manos de Podemos. Ese es el resultado del domingo. Eso es lo que parece que a ustedes y a su secretario general...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u104" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA SUSANA SUMELZO JORDÁN, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CÓMO JUSTIFICA EL GOBIERNO LAS NUEVAS RESTRICCIONES EN MATERIA DE TRANSPARENCIA DE LA INFORMACIÓN DEL SECTOR PÚBLICO?</seg>
                <note>Número de expediente 180/001322</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u105" ana="#chair">
                <seg>Pregunta que formula al ministro de Hacienda y Administraciones Públicas la diputada doña Susana Sumelzo del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u106"
@@ -667,7 +665,7 @@
                <seg>Señor Montoro, ¿podría explicarnos la razón por la que introducen nuevas restricciones a la transparencia en la información del sector público?</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u107" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u107" ana="#chair">
                <seg>Gracias, señora Sumelzo.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -679,7 +677,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <pb n="22"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u109" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señora Sumelzo.</seg>
             </u>
@@ -691,7 +689,7 @@
                <seg>Una cosa más. El pasado domingo ha sido solo el primer aviso, pequeño, aunque no muy pequeño, por cierto. Muy pronto vendrá el definitivo, y usted, para alivio de todos, ya no tendrá que ocuparse de estas cosas.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u111" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u111" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -702,12 +700,12 @@
                <seg>El portal de la transparencia ha recibido, desde el pasado 10 de diciembre hasta el 25 de mayo, 527.012 visitas de ciudadanos, que han visto un total de 3.266.208 páginas. En los últimos treinta días, las visitas han sido 51.022 y las páginas visitadas 161.200. Además, desde diciembre se han recibido 2.064 solicitudes de derecho de acceso a la información pública, siendo el Ministerio de Hacienda y Administraciones Públicas el que mayor número de solicitudes ha recibido, seguido de Presidencia, Interior, Fomento y la Seguridad Social. También ha suscitado gran interés lo relativo al conocimiento de la Casa Real.</seg>
                <seg>Datos tributarios. Esto lo podía haber formulado en la pregunta. ¿Por qué no lo ha formulado en la pregunta? Lo ha hecho oculto. Se ha referido en general a la transparencia y ha ocultado el sentido de la pregunta. Su señoría puede tener la gran tranquilidad de que el Gobierno, muy pronto, en el próximo Consejo de Ministros, aprobará la modificación de la Ley General Tributaria, relativa al levantamiento parcial del deber de confidencialidad de los datos de la Agencia Tributaria en materia tributaria. Eso es lo que hará el Gobierno, traerá a la Cámara esta ley. Por cierto -se lo he dicho públicamente-, ya he hablado con el Partido Socialista, también con el señor Saura en otras condiciones y en privado, respecto al contenido de la modificación de esa ley. Espero que ustedes den traslado...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u113" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u113" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON ANTONIO HERNANDO VERA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿MANTIENE EL GOBIERNO SU INTENCIÓN DE SUPRIMIR COMPETENCIAS SOCIALES DE LOS AYUNTAMIENTOS A LA VISTA DEL RESULTADO DE LAS ELECCIONES MUNICIPALES?</seg>
                <note>Número de expediente 180/001328</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u114" ana="#chair">
                <seg>Pregunta del diputado don Antonio Hernando, del Grupo Parlamentario Socialista, dirigida al señor ministro de Hacienda y Administraciones públicas.</seg>
                <pb n="23"/>
             </u>
@@ -718,7 +716,7 @@
                <seg>Señor ministro, la Ley de racionalización de la Administración local prevé la supresión de las competencias en servicios sociales de los ayuntamientos. Ha sido recurrida por casi 3.000 corporaciones ante el Constitucional. Las competencias se liquidan a final de año. Después de los resultados electorales del pasado 24 de mayo ¿el Gobierno prevé seguir con sus planes?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u116" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -730,7 +728,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u118" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Hernando.</seg>
             </u>
@@ -742,7 +740,7 @@
                <seg>Por favor, señor Montoro, conteste con humildad; no como el señor presidente, que después de esta debacle electoral sigue diciendo que es el mejor candidato a la Presidencia del Gobierno. Usted pertenece a un Gobierno y a un partido que están en desbandada. En desbandada está la vicepresidenta del Gobierno, que ya ni viene a las sesiones de control; el ministro de Economía, que dice que se va al final de la legislatura; el ministro de Educación, que dicen que se quiere ir a la OCDE; y usted, que dice que no se va porque nosotros pedimos su dimisión. Así que hoy no voy a pedir su dimisión, a ver si tenemos suerte. Simplemente le voy a decir: Adiós, señor Montoro, adiós.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u120" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -752,13 +750,13 @@
                <seg>Gracias, señor presidente.<pb n="24"/> Señor Hernando, adiós no, hasta luego, porque luego tengo que atender una interpelación, con el permiso de su señoría, si tiene a bien que cumpla con mis deberes de contestación en la Cámara.</seg>
                <seg>Señor Hernando, las políticas sociales se cuantifican y se miden. En España, el total de políticas sociales que estamos sufragando desde los presupuestos de las administraciones públicas, en términos de producto interior bruto, es el mismo que existía cuando dejaron ustedes el Gobierno en el año 2011, el 27,5 % de nuestro producto interior bruto. Entiendo que sigan insistiendo en materia de lo que llaman recortes, lo entiendo, pero hágase una pregunta y déjese de tanta retórica y de tanto pensar en mi futuro. ¿Qué hubiera sucedido en esos ayuntamientos si no se hubiera hecho el Plan de proveedores? Pregúnteselo al Cermi, pregúnteselo. ¿Quién ha pagado esas facturas a las ONG que estaban prestando esos servicios sociales? ¿Quién ha hecho posible que continúen abiertas esas residencias de mayores o de discapacitados? Lo han hecho el Plan de proveedores y los mecanismos especiales de financiación, señor Hernando. Esa es la realidad de las cifras.<note>Aplausos</note> Gracias, señor ministro.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u122" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u122" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO SOCIALISTA, AL MINISTRO DE EDUCACIÓN, CULTURA Y DEPORTE, SOBRE EL BALANCE DE LA POLÍTICA DEL GOBIERNO DURANTE LA PRESENTE LEGISLATURA.</head>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u123" ana="#chair">
                <seg>En primer lugar, hay una interpelación del Grupo Socialista al ministro de Educación, Cultura y Deporte, sobre el balance de la política educativa del Gobierno durante la presente legislatura. Para su defensa, tiene la palabra el señor Bedera.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u124"
@@ -1013,13 +1011,13 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>El señor presidente ocupa la Presidencia</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u155" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u155" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LA ORIENTACIÓN DE LA POLÍTICA FISCAL CONTENIDA EN LA ACTUALIZACIÓN DEL PROGRAMA DE ESTABILIDAD 2015-2018 Y SUS EFECTOS SOBRE LA DESIGUALDAD.</head>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u156" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u156" ana="#chair">
                <seg>Vamos a debatir la moción, que ayer no debatimos, del Grupo Socialista sobre la orientación de la política fiscal contenida en la actualización del programa de estabilidad 2015-2018 y sus efectos sobre la desigualdad. Para defender esta moción tiene la palabra el señor Hurtado.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u157"
@@ -1033,7 +1031,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u158" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u158" ana="#chair">
                <seg>Muchas gracias, señor Hurtado.</seg>
                <seg>No se han presentado enmiendas a esta moción. Para fijación de posiciones, por el Grupo Vasco PNV, tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -1045,7 +1043,7 @@
                <seg>Todo esto, señores del Grupo Socialista, nos parece importante, pero plantearlo hoy me parece no digo desafortunado, pero sí que no tiene la fuerza que debería tener un debate de estas características -insisto-, porque creo que las posibilidades de cambio y de giro de la política económica hoy son cero. Además, esta cuestión no hay que debatirla como un tema electoral. ¿Por qué? Porque es un asunto demasiado importante para llevarlo al límite del debate electoral. Votaremos que sí, pero lo haremos en este contexto simplemente, porque no esperamos que el PP cambie nada, pero sí nos parece importante que estas reformas, estas reflexiones y estas medidas se incorporen en las agendas de los grupos parlamentarios y de los partidos políticos para cambiar de cara al futuro, en la siguiente legislatura, la política económica, y que sirva para facilitar la salida de una crisis que, según muchos, todavía va a ser bastante duradera.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u160" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u160" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra la señora Díez.</seg>
             </u>
@@ -1059,7 +1057,7 @@
                <seg>En definitiva, con esta profunda voluntad reformadora, de verdad y no solo como eslogan, podríamos liberar recursos para no tener que hacer más recortes sociales, para ser más justos, para abordar reformas importantes, como la del sistema de la Seguridad Social, y no seguir friendo con impuestos a los verdaderos emprendedores, a los que de verdad quieren y tienen la capacidad de crear puestos de trabajo. Por tanto, se requieren reformas, se requiere revisión e, insisto, hay que ponerse a ello. En este sentido, el que nos plantea el Grupo Socialista es un debate de fondo bien interesante y bien necesario y todavía hay una oportunidad hasta la celebración de las elecciones generales. A pesar de que en la propuesta del Grupo Socialista hay algunas reformas que nos parecen fundamentales y que en su intervención no ha tocado ninguna de ellas, y porque nos parece mucho más lo positivo que lo ausente, el Grupo de Unión Progreso y Democracia votará a favor de esta moción.</seg>
                <seg>Gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u162" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u162" ana="#chair">
                <seg>Gracias, señora Díez.</seg>
                <seg>Por La Izquierda Plural, tiene la palabra el señor Nuet.</seg>
             </u>
@@ -1072,7 +1070,7 @@
                <seg>Acabo. La OCDE nos recomienda cosas como: políticas fiscales que redistribuyan el crecimiento -repito, lo dice la OCCE, políticas fiscales que redistribuyan el crecimiento-; seguir apostando por sistemas de sanidad pública, educación pública, pensiones y mayores impuestos personales directos que ayudan a mantener el equilibrio y son claves para afrontar el crecimiento. Por tanto, somos más desiguales porque hay un Gobierno y unas políticas que inciden en esa desigualdad. La solución es muy sencilla, cambiemos el Gobierno y habremos matado la bicha.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u164" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u164" ana="#chair">
                <seg>Muchas gracias, señor Nuet.</seg>
                <seg>Por el Grupo Catalán<note>Convergència i Unió</note> tiene la palabra el señor Picó.</seg>
             </u>
@@ -1088,7 +1086,7 @@
                <seg>Señorías, apoyaremos la moción presentada por el Grupo Parlamentario Socialista, esperando que el Gobierno se replantee la actualización que ha hecho del programa de estabilidad por las consecuencias sociales que va a suponer.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u166" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u166" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Por el Grupo Popular, tiene la palabra la señora Madrazo.</seg>
             </u>
@@ -1105,13 +1103,13 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u168" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u168" ana="#chair">
                <seg>Muchas gracias, señora Madrazo.</seg>
                <seg>INFORME ACERCA DEL CUMPLIMIENTO DEL PRESUPUESTO DE LA CÁMARA CORRESPONDIENTE AL EJERCICIO 2014, DE CONFORMIDAD CON EL ARTÍCULO 31.1.2.º DEL REGLAMENTO:</seg>
                <seg>- INFORME ACERCA DEL CUMPLIMIENTO DEL PRESUPUESTO DE LA CÁMARA CORRESPONDIENTE AL EJERCICIO 2014, DE CONFORMIDAD CON EL ARTÍCULO 31.1.2.º DEL REGLAMENTO.</seg>
                <note>Número de expediente 023/000003</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u169" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u169" ana="#chair">
                <seg>Vamos ahora a debatir el informe acerca del cumplimiento del presupuesto de la Cámara correspondiente al ejercicio 2014, de conformidad con el artículo 31.1.2.º del Reglamento y del que es responsable la Mesa y su presidente.</seg>
                <seg>Para la presentación de un resumen de este informe, tiene la palabra la secretaria tercera.</seg>
             </u>
@@ -1124,7 +1122,7 @@
                <seg>Por otra parte, durante el ejercicio 2014 se han solicitado varias transferencias de crédito aprobadas por la Mesa de la Cámara en sus reuniones de 14 de enero, 13 de mayo, 11 de noviembre y 3 de diciembre de 2014 por un importe total de 398.069,58 euros. Por último, a lo largo del ejercicio 2014, el Congreso de los Diputados ha recibido 100.440,37 euros en concepto de ingresos extrapresupuestarios y 84.404,35 euros en concepto de intereses generados por las cuentas abiertas a su nombre.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u171" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u171" ana="#chair">
                <seg>Muchas gracias, señora secretaria tercera, por la lectura de su informe.</seg>
                <seg>Ahora, aunque no tienen obligación, pueden intervenir los grupos. Empezamos por el Grupo Vasco.<note>Pausa</note> No interviene. Por el Grupo de Unión Progreso y Democracia, tiene la palabra la señora Díez.</seg>
             </u>
@@ -1138,7 +1136,7 @@
                <seg>En suma y para concluir, aunque se ha avanzado desde que se debatió el primer informe, en el año 2012 -cabe destacar que es la tercera vez que lo hacemos desde que existe el Congreso de los Diputados-, el avance es insuficiente. Tenemos los medios para hacerlo muchísimo mejor, no de cara a nosotros, sino de cara -insisto- a los ciudadanos, que nos están observando y cada vez quieren más transparencia, más capacidad de controlarnos a todos por la vía de la transparencia. No tenemos nada que ocultar, así que exhibámoslo. Tenemos instrumentos para hacerlo, así que hagámoslo. Hagamos un ejercicio de transparencia, que estaría muy bien para todos. Nadie perdería nada; al contrario, esta institución ganaría en credibilidad, algo que necesita la democracia y que necesitamos todos.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u173" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u173" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Voy a precisar algo que ha dicho la señora Díez para que quede claro. La primera vez que aquí discutimos un informe fue en 2013 y fue la ejecución presupuestaria de 2012. En 2012 no se produjo esta reunión porque la ejecución presupuestaria era de una Mesa que no era la que correspondía.</seg>
                <seg>Establecido este punto, por el Grupo Catalán<note>Convergència i Unió</note> tiene la palabra el señor Macias.</seg>
@@ -1152,7 +1150,7 @@
                <note>Aplausos</note>
                <pb n="52"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u175" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u175" ana="#chair">
                <seg>Muchas gracias, señor Macias, por su intervención.</seg>
                <seg>Por el Grupo Parlamentario Socialista, tiene la palabra el señor Ábalos.</seg>
                <seg>El señor ÁBALOS MECO: Gracias, señor presidente.</seg>
@@ -1163,7 +1161,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u176" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u176" ana="#chair">
                <seg>Muchas gracias, señor Ábalos.</seg>
                <seg>Por el Grupo Popular tiene la palabra el señor Olano.</seg>
             </u>
@@ -1179,7 +1177,7 @@
                <seg>Muchas gracias, señorías; muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u178" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-05-27-CD150527.u178" ana="#chair">
                <seg>Muchas gracias, señor Olano.</seg>
                <seg>En este punto, el presidente, en nombre de la Mesa, se muestra satisfecho con la recepción que ha tenido el presupuesto entre los diputados y grupos parlamentarios.</seg>
                <seg>Se suspende la sesión.</seg>

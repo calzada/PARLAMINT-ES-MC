@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="203">203 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="203" xml:lang="es">203 speeches</measure>
+            <measure unit="speeches" quantity="203" xml:lang="en">203 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="49"/>
                <tagUsage gi="note" occurs="181"/>
                <tagUsage gi="u" occurs="203"/>
-               <tagUsage gi="lb" occurs="513"/>
+               <tagUsage gi="seg" occurs="513"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -236,7 +234,7 @@
                <seg>Este ascenso es un enorme insulto a todos los que nos horrorizó la represión policial del 1 de octubre, una mayoría mucho más amplia que la actual mayoría parlamentaria en Cataluña, y usted lo sabe. Rectifique, pida perdón por la violencia encarnizada, destituya y no promocione a su máximo responsable policial. Digo máximo responsable policial porque el máximo responsable político es usted.</seg>
                <seg>Muchas gracias, señora presidenta.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2018-03-21-CD180321.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2018-03-21-CD180321.u25" ana="#chair">
                <seg>Muchas gracias.</seg>
                <seg>Señor presidente, adelante.</seg>
             </u>
@@ -1185,7 +1183,7 @@
                <seg>- DEL GRUPO PARLAMENTARIO CIUDADANOS, AL MINISTRO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN SOBRE EL PAPEL DE ESPAÑA EN LA RESOLUCIÓN DE LAS MÚLTIPLES CRISIS QUE AFECTAN A VENEZUELA.</seg>
                <note>Número de expediente 172/000114</note>
             </u>
-            <u xml:id="ParlaMint-ES_2018-03-21-CD180321.u186" ana="#regular">
+            <u xml:id="ParlaMint-ES_2018-03-21-CD180321.u186" ana="#chair">
                <seg>Pasamos al siguiente punto del orden del día: Interpelación urgente del Grupo Parlamentario Ciudadanos al ministro de Asuntos Exteriores y de Cooperación sobre el papel de España en la resolución de las múltiples crisis que afectan a Venezuela. Para su defensa, tiene la palabra el señor Maura Barandiarán.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-03-21-CD180321.u187"

@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="102">102 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="102" xml:lang="es">102 speeches</measure>
+            <measure unit="speeches" quantity="102" xml:lang="en">102 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="13"/>
                <tagUsage gi="note" occurs="50"/>
                <tagUsage gi="u" occurs="102"/>
-               <tagUsage gi="lb" occurs="348"/>
+               <tagUsage gi="seg" occurs="348"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>DICTÁMENES DE LA COMISIÓN DE ASUNTOS EXTERIORES SOBRE CONVENIOS INTERNACIONALES - ACUERDO SOBRE PRIVILEGIOS E INMUNIDADES DE LA AGENCIA INTERNACIONAL DE ENERGÍAS RENOVABLES , HECHO EN ABU DABI EL 13 DE ENERO DE 2014, JUNTO CON UNA RESERVA Y UNA DECLARACIÓN. - ACUERDO ENTRE EL GOBIERNO DEL REINO DE ESPAÑA Y EL CONSEJO DE MINISTROS DE LA REPÚBLICA DE ALBANIA PARA EL INTERCAMBIO Y PROTECCIÓN RECÍPROCA DE INFORMACIÓN CLASIFICADA, HECHO EN TIRANA EL 17 DE FEBRERO DE 2015. - ACUERDO ENTRE EL REINO DE ESPAÑA Y UCRANIA PARA LA PROTECCIÓN RECÍPROCA DE INFORMACIÓN CLASIFICADA, HECHO EN KIEV EL 10 DE FEBRERO DE 2015. - ACUERDO ENTRE EL REINO DE ESPAÑA Y EL GOBIERNO DE LA REPÚBLICA DE INDIA PARA EL INTERCAMBIO Y PROTECCIÓN RECÍPROCA DE INFORMACIÓN CLASIFICADA, HECHO EN NUEVA DELI EL 4 DE MARZO DE 2015. - PROTOCOLO DE ADHESIÓN DEL GOBIERNO DE LA FEDERACIÓN DE RUSIA AL CONVENIO DE 16 DE DICIEMBRE DE 1988 RELATIVO A LA CONSTRUCCIÓN Y EXPLOTACIÓN DE UNA INSTALACIÓN EUROPEA DE RADIACIÓN SINCROTRÓNICA, HECHO EN GRENOBLE EL 23 DE JUNIO DE 2014 Y EN PARÍS EL 15 DE JULIO DE 2014. - CONVENIO ENTRE EL REINO DE ESPAÑA Y EL PRINCIPADO DE ANDORRA PARA EVITAR LA DOBLE IMPOSICIÓN EN MATERIA DE IMPUESTOS SOBRE LA RENTA Y PREVENIR LA EVASIÓN FISCAL Y DE SU PROTOCOLO, HECHO EN ANDORRA LA VIEJA EL 8 DE ENERO DE 2015. - ACUERDO SOBRE LA TRANSFERENCIA Y MUTUALIZACIÓN DE LAS APORTACIONES AL FONDO ÚNICO DE RESOLUCIÓN, HECHO EN BRUSELAS EL 21 DE MAYO DE 2014. - ACUERDO ENTRE EL REINO DE ESPAÑA Y GEORGIA SOBRE COOPERACIÓN EN EL ÁMBITO DE LA LUCHA CONTRA LA DELINCUENCIA, HECHO EN MADRID EL 21 DE ENERO DE 2015. - DECISIÓN DEL CONSEJO DE 26 DE MAYO DE 2014 SOBRE EL SISTEMA DE RECURSOS PROPIOS DE LA UNIÓN EUROPEA , ADOPTADA EN BRUSELAS EL 26 DE MAYO DE 2014.</head>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Dictámenes de la Comisión de Asuntos Exteriores sobre convenios internacionales, con números de expediente del 110/000168 al 110/000176. Algunos grupos han manifestado que quieren intervenir, por lo<pb n="7"/> que, por el tiempo acostumbrado, tiene la palabra, en primer lugar, el señor Nuet, del Grupo de La Izquierda Plural.</seg>
             </u>
@@ -112,7 +110,7 @@
                <seg>Quiero felicitar al Gobierno de Andorra y al Gobierno de España por este acuerdo, pero les pido que sigan mejorando esa relación porque sin duda es bueno para España, pero sobre todo es bueno para el Principado de Andorra, al cual le deseamos lo mejor del mundo.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u3" ana="#chair">
                <seg>Muchas gracias, señor Nuet.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra doña Trinidad Jiménez.</seg>
             </u>
@@ -126,7 +124,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u5" ana="#chair">
                <seg>Muchas gracias, señora Jiménez.</seg>
                <seg>Por el Grupo Popular, tiene la palabra la señora Miguélez.</seg>
             </u>
@@ -144,13 +142,13 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u7" ana="#chair">
                <seg>Muchas gracias, señora Miguélez.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY DEL SECTOR FERROVIARIO.</head>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u8" ana="#chair">
                <seg>Vamos ahora a debatir las enmiendas a la totalidad del proyecto de ley del sector ferroviario. Para su presentación, tiene la palabra, en nombre del Gobierno, la señora ministra de Fomento.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u9"
@@ -193,7 +191,7 @@
                <seg>Muchas gracias, señor presidente. Muchas gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u10" ana="#chair">
                <seg>A este proyecto de ley se han presentado cinco enmiendas a la totalidad de devolución, que han sido rebatidas extensamente por la señora ministra, y ahora vamos a dar a los grupos la oportunidad de que las defiendan. Empezamos por el Grupo Mixto y tiene la palabra la señora Pérez Fernández.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u11"
@@ -208,7 +206,7 @@
                <seg>Por otro lado, el BNG tampoco puede compartir la visión centralista y centralizadora que se sigue manteniendo. Como en otros sectores, por un lado, se apuesta sin rubor por entregar los servicios públicos al sector privado y, por otro lado, se mantiene férreamente la negativa incomprensible a que las comunidades autónomas puedan acceder a la gestión de sus servicios ferroviarios, manteniendo su carácter público en las conexiones dentro de sus territorios.</seg>
                <seg>Tampoco podemos pasar por alto la regulación que el proyecto de ley hace de la seguridad ferroviaria. También nos resulta paradójico, incluso contradictorio, que se efectúen ingentes inversiones en infraestructura ferroviaria pública y, sin embargo, se actúe de una forma cicatera a la hora de dotar de los medios más avanzados de seguridad en la red ferroviaria. En este aspecto concreto de la seguridad ferroviaria, la propia ministra ha repetido hasta la saciedad que el siniestro de Angrois -que acabó con la vida de ochenta personas y que puso de manifiesto graves deficiencias en seguridad ferroviaria, tal y como se demostró con las actuaciones que se llevaron a cabo pocos días después de ese accidente- es el siniestro que suponía un antes y un después en materia de seguridad ferroviaria. Sin embargo, señora ministra, menos de dos años después de esa tragedia se inaugura el Eixo Atlántico A Coruña-Vigo y se hace sin la instalación del sistema más avanzado de seguridad, el ERTMS.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u12" ana="#chair">
                <seg>Señora Pérez, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u13"
@@ -221,7 +219,7 @@
                <seg>Gracias, presidente.</seg>
                <pb n="19"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u14" ana="#chair">
                <seg>Gracias, señora Pérez Hernández.</seg>
                <seg>Dentro del Grupo Mixto, tiene ahora la palabra el señor Tardà.</seg>
             </u>
@@ -235,7 +233,7 @@
                <seg>Ahora usted nos presenta un proyecto de ley para modernizar el sistema ferroviario, pero yo le pregunto: ¿cómo resuelve esta ley la situación que diariamente se sufre en cercanías de Cataluña? ¿Cómo resuelve esta ley el perjuicio que representa para la economía catalana no tener una red ferroviaria a la altura de su potencial productivo? Si en cuarenta años el Estado solo ha hecho una inversión importante en cercanías -que fue la transformación de la línea de mercancías del Vallès en una línea de pasajeros- y ha renunciado a sus obligaciones inversoras, con su proyecto de liberalización me pregunto cómo espera que inviertan en el mantenimiento y mejora del servicio empresas que buscan el interés económico estricto y no el interés general. Ustedes condenarán a la desaparición a las líneas convencionales que a ojos del capitalismo no son rentables. A no ser que exista gato encerrado. A no ser que detrás estén los florentinos y toda la gente del palco del Bernabeu y aquí exista una operación encubierta a medio plazo. Repito que la sociedad ha sido víctima de las políticas megalómanas aplicadas al sistema ferroviario de alta velocidad. Hablamos de 24.000 millones de deuda de ADIF y de más de 5.000 millones de deuda de Renfe. Por cierto, respecto al déficit de Renfe, Comisiones Obreras argumenta con razón que buena parte de la falta de funcionalidad obedece a la falta de una plantilla suficiente.</seg>
                <seg>En definitiva, la ley que usted nos presenta hoy, en lugar de liberalizar, lo que debería hacer es afrontar la trágica situación que se sufre. Sin embargo, ustedes presentan un proyecto de ley -repito- sin concretar los fundamentos sobre los que pivota la liberalización del mercado ferroviario en el Estado español, razón por la cual insisto en que aquí hay gato encerrado. El mismo Consejo de Estado ya ha dejado bien explícito que estos fundamentos sobre los que se basa la liberalización no existen. Además, lo presentan de manera urgente, a alta velocidad -voy terminando, señor presidente-, antes de que se emitiera el informe parlamentario de la subcomisión, antes de poder contrastar y evaluar las consideraciones<pb n="20"/> a realizar por los sectores afectados y adelantándose -insisto en el gato encerrado- a los plazos establecidos por la directiva europea, incluso antes de conocer cómo debe estructurarse la normativa de aplicación que actualmente se está tramitando en Bruselas. ¿Por qué Grecia, Portugal, Holanda, Irlanda y Austria han manifestado su oposición a la aplicación total de la normativa? ¿Por qué Francia y Alemania se mantienen a la expectativa? ¿Por qué tantas prisas? ¿Por qué hacerlo ahora precisamente a las puertas de la disolución de este Parlamento? Porque hay gato encerrado. Esta es nuestra teoría. Aquí detrás hay grandes grupos de capital que intentan lo siguiente -como siempre, todo está inventado-: intentan quedarse con los beneficios, privatizar los beneficios para que el pueblo pague los déficits. Les recuerdo los miles de millones de deuda de ADIF y de Renfe. Por cierto, con esta deuda...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u16" ana="#chair">
                <seg>Señor Tardà, tiene que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u17"
@@ -244,7 +242,7 @@
                <seg>Le agradezco su indulgencia una vez más.</seg>
                <seg>... los cánones serán altos, de manera que me pregunto qué operadores tendrán interés en intervenir; no los de fuera: los amigos, los florentinos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u18" ana="#chair">
                <seg>Gracias, señor Tardà.</seg>
                <seg>Por el Grupo Parlamentario Mixto, finalmente interviene el señor Baldoví.</seg>
             </u>
@@ -532,7 +530,7 @@
                <seg>Gracias, señor presidente, señoras y señores diputados.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u57" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>A cada uno de estos proyectos de ley se han presentado tres enmiendas a la totalidad de devolución. En primer lugar, para la defensa de esas enmiendas a cada proyecto de ley, por el Grupo de La Izquierda Plural, tiene la palabra la señora Castaño.</seg>
             </u>
@@ -552,7 +550,7 @@
                <seg>Desde La Izquierda Plural entendemos que las demandas ciudadanas han cambiado y que la ciudadanía exige una administración más ágil, eficiente, tecnológicamente más avanzada, permeable a las demandas sociales y también más transparente, más cercana a la ciudadanía, que coloque, en definitiva, en el centro de su actuación a las personas. Consideramos asimismo que en las relaciones entre las distintas administraciones deben primar el diálogo, la colaboración y evidentemente el respeto al reparto competencial. A nuestro juicio, los proyectos que aquí se presentan no son la respuesta a las necesidades que hemos enumerado. Por tanto, por todo lo hasta aquí expuesto y de acuerdo con lo<pb n="42"/> recogido en las dos enmiendas a la totalidad que hemos presentado, desde La Izquierda Plural apoyaremos las enmiendas a la totalidad que hoy se presentan y en el trámite de enmiendas presentaremos las que consideremos posteriormente que pueden contribuir a mejorar los textos presentados.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u59" ana="#chair">
                <seg>Muchas gracias, señora Castaño.</seg>
                <seg>Por el Grupo Catalán de Convergència y de Unió, tiene la palabra la señora Sayós.</seg>
             </u>
@@ -573,7 +571,7 @@
                <seg>En la motivación de los proyectos de ley el Gobierno no puede escurrirse al amparo del artículo 149.1, apartados 13.ª, 14.ª o cualquier otro. No puede escurrirse al amparo de la extensión de títulos competenciales horizontales. No puede escurrirse en este amparo para reforzar el protagonismo de la Administración General del Estado en la relaciones para con los ciudadanos, ni debilitar institucionalmente a las comunidades autónomas ni a las administraciones locales. Ni lo que es peor, el Gobierno no puede escurrirse en esta táctica para subordinar progresivamente la administración autonómica y local a la Administración General del Estado. El principio que se establece en la Constitución española no es que haya una administración jerárquicamente superior a las otras en términos de subordinación, sino que la Constitución española hace un reparto competencial entre ellas. Por todo ello, repito el consejo: por favor, señor ministro, señores del Gobierno, reciclen sus conocimientos en derecho y aplíquense en las asignaturas de derecho constitucional y de derecho administrativo.</seg>
                <seg>Muchas gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u61" ana="#chair">
                <seg>Muchas gracias, señora Sayós, por su brevedad.</seg>
                <seg>Por el Grupo Parlamentario Socialista y para defender las enmiendas a la totalidad a los dos proyectos, tiene la palabra José Enrique Serrano.</seg>
             </u>
@@ -596,7 +594,7 @@
                <seg>Señor presidente, señorías, al principio de mi intervención decía que la regulación que nos presentan trata de cómo se ejerce el poder. Están en su derecho de hacerlo conforme a sus postulados, pues son el Gobierno legítimo en ejercicio. Pero ese derecho se debilita hasta casi desaparecer, cuando pretenden ejercerlo en el tramo final -casi diría que agónico- de la legislatura. Tomar esta iniciativa, sometiéndola a un procedimiento que exige habilitaciones exorbitantes de la actividad de las cámaras y que aun así habrá que recorrer a uña de caballo, hace imposible, en términos reales, el debate sereno sobre cómo y el porqué de sus innovaciones y esfuma la posibilidad de un consenso que debería ser un objetivo compartido, al tratarse de dos proyectos estructurantes y estructurales sobre la organización y funcionamiento de las administraciones.</seg>
                <seg>Estas circunstancias que son para nosotros difícilmente rebatibles -tengo un profundo respeto por las instituciones-, no quiero decir que deslegitiman, pero afirmo que empobrecen extremadamente su posición, sobre todo si consideramos que han dispuesto de tres años y medio para traer aquí estos textos, y ahora pretenden que el Congreso de los Diputados lo resuelva, cuando se le han remitido poco más de cuatro meses antes de la fecha previsible de disolución de las cámaras -previsible, no estoy afirmando nada excesivo-, y cuando se nos anuncia que el plazo de enmiendas al articulado se cerrará inexorablemente el martes que viene. Además, al hacerlo así, se desresponsabilizan por completo de su puesta en marcha efectiva. ¡Ahí queda eso!, le vienen a decir al nuevo Gobierno, al que tome posesión a fin de año.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u63" ana="#chair">
                <seg>Señor Serrano, tiene usted que ir acabando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u64"
@@ -609,7 +607,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u65" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u65" ana="#chair">
                <seg>Muchas gracias, señor Serrano.</seg>
                <seg>Turno de fijación de posiciones. Por el Grupo Parlamentario Vasco, PNV, tiene la palabra el señor Olabarría.</seg>
             </u>
@@ -657,7 +655,7 @@
                <seg>No se puede afirmar, como se hace en esa enmienda a la totalidad, que la disposición adicional primera del proyecto de ley de procedimiento administrativo común y de las administraciones públicas -cito textual- preserva y prolonga la diferencia de determinados procedimientos ajenos al ámbito común. Y añade: Es la mayor prueba de que el proyecto de ley va más allá de lo básico. Efectivamente la disposición adicional primera lo que reconoce es que, por razones temáticas, competenciales, hay procedimientos especiales -y se citan claramente-, procedimientos que tienen que ver con el régimen tributario, con el régimen de asilo y extranjería o con el régimen de Seguridad Social. Efectivamente por razón de la materia son regímenes especiales que generan leyes especiales, con procedimientos administrativos especiales, que no van recogidos en el ámbito común. ¿Reconocer que existen esos ámbitos administrativos y regulatorios especiales es proyectar la Ley de Procedimiento Administrativo de forma abusiva? Yo creo que no, que sencillamente es delimitar los ámbitos de aplicación de ambas leyes.</seg>
                <seg>Se desaprovecha la oportunidad de clarificar que es una denuncia -otra de las referencias que se hacen en esta enmienda a la totalidad-. No; en el artículo 62 se regula claramente. Voy concluyendo, y termino con una referencia -por cierto, no sé si debo argumentarla respecto de Convergència o respecto de Unió, porque unos son un poco más independentistas y otros un poco menos- que tiene que ver con cómo pervierten ustedes el léxico y la argumentación en su propia enmienda a la totalidad. Por ejemplo, cito textualmente: Sobrepasar los límites propios de la competencia estatal y de condicionar de forma ilegítima las competencias autonómicas. ¿Ilegítima o ilegal? Porque no es lo mismo, pues la legitimidad la da la soberanía popular y la legalidad la establecen las instituciones. Confunden regulación común con privación o limitación de poderes o competencias autonómicas...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u71" ana="#chair">
                <seg>Señor Calduch, conviene que vaya terminando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u72"
@@ -668,7 +666,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u73" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo Popular, interviene en primer lugar el señor Martín-Toledano.</seg>
             </u>
@@ -681,7 +679,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u75" ana="#chair">
                <seg>Muchas gracias, señor Martín-Toledano.</seg>
                <seg>También por el Grupo Parlamentario Popular tiene la palabra el señor Matarí.</seg>
             </u>
@@ -691,7 +689,7 @@
                <seg>Señor presidente, señoras y señores diputados, la reforma sobre las administraciones públicas es, como bien ha explicado el señor ministro esta mañana, una de las más importantes de esta legislatura. Ha sido una reforma integral que atañe a la cultura y al funcionamiento de la Administración, una reforma para garantizar la estabilidad presupuestaria, para mejorar la eficiencia de la Administración y para avanzar en transparencia y en regeneración. Y lo más importante, una reforma para facilitar las relaciones de la Administración con ciudadanos y con empresas. A este último objetivo es al que atiende este proyecto que hará posible una Administración más ágil, con menos cargas administrativas y con más derechos para los ciudadanos. Para conseguirlo se eliminan trámites hasta ahora obligatorios. Por ejemplo, no se exigirá con carácter general la presentación de documentos originales. No será necesario presentar documentos que ya han sido aportados previamente ante cualquier Administración<pb n="54"/> pública. No será necesario aportar documentos que hayan sido elaborados por las propias administraciones y ciertos trámites pasan a ser iniciados de oficio. Parecen cosas pequeñas, pero todos sabemos la cantidad de tiempo que nos hacen perder y el coste económico que significa el vuelva usted mañana, ir de ventanilla en ventanilla para hacer un trámite que en pura lógica nos lo tiene que resolver la propia Administración. Y a partir de estos proyectos de ley esto será así.</seg>
                <seg>También se facilita y se simplifica la forma de realizar algunos trámites. Por ejemplo, se abre un registro electrónico para que las veinticuatro horas del día, los trescientos sesenta y cinco días del año pueda el ciudadano presentar cualquier escrito. Se podrán realizar apoderamientos presenciales o electrónicos sin coste alguno.<note>Rumores</note> A algún grupo le parece mal que las empresas puedan apoderar simplemente entrando en una página web para que una persona realice trámites en su nombre, como, por ejemplo, presentar solicitudes, obtener licencias comerciales,<note>Rumores</note> , concurrir a la licitación de un contrato público o presentar recursos administrativos contra sanciones...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u77" ana="#chair">
                <seg>Perdón, señor diputado. Por favor, atiendan al señor diputado que está interviniendo. Ya es el último que interviene. Siga usted.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u78"
@@ -706,7 +704,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u79" ana="#chair">
                <seg>Muchas gracias, señor Matarí.</seg>
                <seg>En dos minutos empezaremos a votar.</seg>
                <note>Pausa</note>
@@ -714,119 +712,119 @@
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - DEL GRUPO PARLAMENTARIO MIXTO , SOBRE LA POSTURA DEL GOBIERNO EN RELACIÓN CON LA SITUACIÓN DE CRISIS Y EL MODO CONCRETO EN QUE AFECTA A LAS MUJERES.</head>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u80" ana="#chair">
                <seg>Moción del Grupo Mixto, de la señora Enbeita, sobre la postura del Gobierno en relación con la situación de crisis y el modo concreto en que afecta a las mujeres. Hay una enmienda transaccional de la señora Enbeita con el Grupo Socialista y con La Izquierda Plural y esa transaccional es la que vamos a votar.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312; a favor, 117; en contra, 173; abstenciones, 22.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u81" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, SOBRE LA NECESIDAD DE CELEBRAR UN DEBATE PARLAMENTARIO SOBRE LOS CASOS DE CORRUPCIÓN POLÍTICA CONOCIDOS DURANTE LA PRESENTE LEGISLATURA Y LA FINANCIACIÓN DE LOS PARTIDOS POLÍTICOS EN LOS ÚLTIMOS VEINTE AÑOS.</seg>
                <note>Número de expediente 173/000224</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u82" ana="#chair">
                <seg>Moción de La Izquierda Plural sobre la necesidad de celebrar un debate parlamentario sobre los casos de corrupción política conocidos durante la presente legislatura y la financiación de los partidos políticos en los últimos veinte años. Se vota en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 309; a favor, 121; en contra, 172; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u83" ana="#chair">
                <seg>Queda rechazada.</seg>
                <pb n="56"/>
             </u>
          </div>
          <div type="debateSection">
             <head>DICTÁMENES DE LA COMISIÓN DE ASUNTOS EXTERIORES SOBRE CONVENIOS INTERNACIONALES : - CONVENIO ENTRE EL REINO DE ESPAÑA Y EL PRINCIPADO DE ANDORRA PARA EVITAR LA DOBLE IMPOSICIÓN EN MATERIA DE IMPUESTOS SOBRE LA RENTA Y PREVENIR LA EVASIÓN FISCAL Y DE SU PROTOCOLO, HECHO EN ANDORRA LA VIEJA EL 8 DE ENERO DE 2015. - DECISIÓN DEL CONSEJO DE 26 DE MAYO DE 2014 SOBRE EL SISTEMA DE RECURSOS PROPIOS DE LA UNIÓN EUROPEA , ADOPTADA EN BRUSELAS EL 26 DE MAYO DE 2014.</head>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u84" ana="#chair">
                <seg>Votación de los dictámenes de la Comisión de Asuntos Exteriores sobre convenios internacionales.</seg>
                <seg>En primer lugar, votamos los dos asuntos siguientes: Convenio entre el Reino de España y el Principado de Andorra para evitar la doble imposición en materia de impuestos sobre la renta y prevenir la evasión fiscal y de su Protocolo, y la Decisión del Consejo de 26 de mayo de 2014 sobre el sistema de recursos propios de la Unión Europea. Estos dos acuerdos se votan conjuntamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 286; abstenciones, 19.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u85" ana="#chair">
                <seg>Quedan aprobados.</seg>
                <seg>- ACUERDO SOBRE PRIVILEGIOS E INMUNIDADES DE LA AGENCIA INTERNACIONAL DE ENERGÍAS RENOVABLES<note>IRENA</note> , HECHO EN ABU DABI EL 13 DE ENERO DE 2014, JUNTO CON UNA RESERVA Y UNA DECLARACIÓN.<note>Número de expediente 110/000168</note> - ACUERDO ENTRE EL GOBIERNO DEL REINO DE ESPAÑA Y EL CONSEJO DE MINISTROS DE LA REPÚBLICA DE ALBANIA PARA EL INTERCAMBIO Y PROTECCIÓN RECÍPROCA DE INFORMACIÓN CLASIFICADA, HECHO EN TIRANA EL 17 DE FEBRERO DE 2015.<note>Número de expediente 110/000169</note> - ACUERDO ENTRE EL REINO DE ESPAÑA Y UCRANIA PARA LA PROTECCIÓN RECÍPROCA DE INFORMACIÓN CLASIFICADA, HECHO EN KIEV EL 10 DE FEBRERO DE 2015.<note>Número de expediente 110/000170</note> - ACUERDO ENTRE EL REINO DE ESPAÑA Y EL GOBIERNO DE LA REPÚBLICA DE INDIA PARA EL INTERCAMBIO Y PROTECCIÓN RECÍPROCA DE INFORMACIÓN CLASIFICADA, HECHO EN NUEVA DELI EL 4 DE MARZO DE 2015.<note>Número de expediente 110/000171</note> - PROTOCOLO DE ADHESIÓN DEL GOBIERNO DE LA FEDERACIÓN DE RUSIA AL CONVENIO DE 16 DE DICIEMBRE DE 1988 RELATIVO A LA CONSTRUCCIÓN Y EXPLOTACIÓN DE UNA INSTALACIÓN EUROPEA DE RADIACIÓN SINCROTRÓNICA, HECHO EN GRENOBLE EL 23 DE JUNIO DE 2014 Y EN PARÍS EL 15 DE JULIO DE 2014.<note>Número de expediente 110/000172</note> - ACUERDO SOBRE LA TRANSFERENCIA Y MUTUALIZACIÓN DE LAS APORTACIONES AL FONDO ÚNICO DE RESOLUCIÓN, HECHO EN BRUSELAS EL 21 DE MAYO DE 2014.<note>Número de expediente 110/000174</note> - ACUERDO ENTRE EL REINO DE ESPAÑA Y GEORGIA SOBRE COOPERACIÓN EN EL ÁMBITO DE LA LUCHA CONTRA LA DELINCUENCIA, HECHO EN MADRID EL 21 DE ENERO DE 2015.</seg>
                <note>Número de expediente 110/000175</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u86" ana="#chair">
                <seg>En cuanto a los siete convenios pendientes, propongo al Pleno que se aprueben por asentimiento.<note>Asentimiento</note> Quedan aprobados.</seg>
                <pb n="57"/>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY DEL SECTOR FERROVIARIO.</head>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u87" ana="#chair">
                <seg>Votación conjunta de las enmiendas a la totalidad de devolución al proyecto de ley del sector ferroviario, presentadas por el Grupo Parlamentario Mixto, señora Pérez Fernández y señora Jordà, el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , el Grupo Parlamentario IU, ICV-EUiA, CHA: La Izquierda Plural y el Grupo Socialista. Son de devolución y las votamos conjuntamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 122; en contra, 186; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u88" ana="#chair">
                <seg>Quedan rechazadas.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>AVOCACIÓN POR EL PLENO</head>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u89" ana="#chair">
                <seg>Ha sido solicitada la avocación por el Pleno de la Cámara de la deliberación y votación final de este proyecto y esto es lo que sometemos a votación.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312; a favor, 142; en contra, 170.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u90" ana="#chair">
                <seg>No será avocado a Pleno.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>- PROYECTO DE LEY DE RÉGIMEN JURÍDICO DEL SECTOR PÚBLICO</head>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u91" ana="#chair">
                <seg>Votación conjunta de las enmiendas a la totalidad de devolución al proyecto de ley de régimen jurídico del sector público, presentadas por los grupos parlamentarios de IU, ICV-EUiA, CHA: La Izquierda Plural, Catalán de Convergència y de Unió, y Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312; a favor, 133; en contra, 174; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u92" ana="#chair">
                <seg>Quedan rechazadas.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>AVOCACIÓN POR EL PLENO</head>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u93" ana="#chair">
                <seg>Votamos ahora la solicitud de avocación por el Pleno de este proyecto de ley.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312; a favor, 141; en contra, 171.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u94" ana="#chair">
                <seg>No será avocado a Pleno.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>- PROYECTO DE LEY DEL PROCEDIMIENTO ADMINISTRATIVO COMÚN DE LAS ADMINISTRACIONES PÚBLICAS</head>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u95" ana="#chair">
                <seg>Votación conjunta de las enmiendas a la totalidad de devolución al proyecto de ley del procedimiento administrativo común de las administraciones públicas, presentado por los grupos de La Izquierda Plural, Catalán de Convergència y de Unió y Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312; a favor, 135; en contra, 174; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u96" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <pb n="58"/>
             </u>
          </div>
          <div type="debateSection">
             <head>AVOCACIÓN POR EL PLENO</head>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u97" ana="#chair">
                <seg>Avocación por el Pleno de la Cámara de la deliberación de este proyecto de ley.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 139; en contra, 172.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u98" ana="#chair">
                <seg>No será avocado a Pleno.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>AVOCACIÓN POR EL PLENO - PROYECTO DE LEY DE SOCIEDADES LABORALES Y PARTICIPADAS.</head>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u99" ana="#chair">
                <seg>Solicitud de avocación por el Pleno de la Cámara de la deliberación y votación final del proyecto de ley de sociedades laborales y participadas, que ha presentado el Grupo Parlamentario Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 139; en contra, 173; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u100" ana="#chair">
                <seg>No será avocado a Pleno.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>- PROYECTO DE LEY POR LA QUE SE MODIFICA Y ACTUALIZA LA NORMATIVA EN MATERIA DE AUTOEMPLEO Y SE ADOPTAN MEDIDAS DE FOMENTO Y PROMOCIÓN DEL TRABAJO AUTÓNOMO Y DE LA ECONOMÍA SOCIAL</head>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u101" ana="#chair">
                <seg>Solicitud de avocación, también del Grupo Socialista, por el Pleno de la Cámara de la deliberación y votación final del proyecto de ley por la que se modifica y actualiza la normativa en materia de autoempleo y se adoptan medidas de fomento y promoción del trabajo autónomo y de la economía social.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 141; en contra, 171; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u102" ana="#chair">
                <seg>No será avocado a Pleno.</seg>
                <seg>Se levanta la sesión.</seg>
                <seg>Eran las dos y quince minutos de la tarde.</seg>

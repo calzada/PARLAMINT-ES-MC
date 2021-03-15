@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="150">150 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="150" xml:lang="es">150 speeches</measure>
+            <measure unit="speeches" quantity="150" xml:lang="en">150 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="49"/>
                <tagUsage gi="note" occurs="182"/>
                <tagUsage gi="u" occurs="150"/>
-               <tagUsage gi="lb" occurs="413"/>
+               <tagUsage gi="seg" occurs="413"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,28 +92,24 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u1" ana="#chair">
                <seg>Señorías, se abre la sesión.</seg>
                <seg>Dos cuestiones previas. En primer lugar, quisiera anunciarles que las votaciones acumuladas del día de hoy serán sobre las ocho de la tarde.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>INCLUSIÓN EN EL ORDEN DEL DÍA DICTÁMENES DE LA COMISIÓN DEL ESTATUTO DE LOS DIPUTADOS: - DICTAMEN DE LA COMISIÓN DEL ESTATUTO DE LOS DIPUTADOS SOBRE DECLARACIÓN DE ACTIVIDADES DE EXCELENTÍSIMOS SEÑORES DIPUTADOS.</head>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u2" ana="#chair">
                <seg>Segunda cuestión previa. De conformidad con lo dispuesto por el artículo 68.1 del Reglamento y lo acordado por la Junta de Portavoces, esta Presidencia somete al Pleno de la Cámara la inclusión como último asunto del orden del día de la sesión de mañana jueves, 28 de abril, de un nuevo punto relativo al dictamen de la Comisión del Estatuto de los Diputados. ¿Lo acuerda así la Cámara?<note>Asentimiento</note> En consecuencia, queda aprobada la inclusión en el orden del día de este punto.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIÓN DE REFORMA DEL REGLAMENTO DEL CONGRESO DE LOS DIPUTADOS - DEL GRUPO PARLAMENTARIO CATALÁN , DE REFORMA DEL REGLAMENTO DEL CONGRESO DE LOS DIPUTADOS PARA LA CREACIÓN DEL REGISTRO DE LOS GRUPOS DE INTERÉS O LOBBIES.</head>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u3" ana="#chair">
                <seg>Ahora corresponde debatir en primer lugar la toma en consideración de la proposición del Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> de reforma del Reglamento del Congreso de los Diputados para la creación del registro de los grupos de interés o lobbies. Para la presentación de la iniciativa tiene la palabra el señor Campuzano.</seg>
                <pb n="5"/>
             </u>
@@ -131,7 +129,7 @@
                <note>Aplausos</note>
                <pb n="7"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u5" ana="#chair">
                <seg>Gracias, señor Campuzano.</seg>
                <seg>Como nadie ha solicitado turno en contra, en turno de fijación de posiciones tiene la palabra en primer lugar, por el Grupo Mixto, el señor Martínez.</seg>
             </u>
@@ -141,7 +139,7 @@
                <seg>Señor presidente, en Foro, donde tenemos la transparencia en la gestión pública como un principio inspirador, vemos esta iniciativa de reforma reglamentaria como una oportunidad para profundizar en el control de la relación de los grupos de interés con los legisladores<note>Rumores</note> , cuestión en la que nos llevan ventaja la gran mayoría de países de nuestro entorno y las instituciones representativas europeas, ante las que están reconocidas y registradas miles de organizaciones con estas características.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u7" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u8"
@@ -151,7 +149,7 @@
                <seg>En la práctica, el Poder Legislativo es receptivo a grupos de interés; de hecho, no pocas comparecencias de expertos y especialistas en diferentes materias se realizan precisamente para exponer cuestiones o aspiraciones que permiten a los diputados o senadores formarse una opinión en determinados asuntos y decidir finalmente su voto. Sin embargo, hay que avanzar en la transparencia por razones de regeneración democrática, de sometimiento al escrutinio de la sociedad y para acompasar las Cortes Generales a los avances legislativos que ellas mismas impulsaron con la aprobación de la Ley de Transparencia y Buen Gobierno, que entró en vigor a finales de 2014. A los efectos de incorporar en el Reglamento de la Cámara Baja una regulación de los lobbies, cabe señalar que en la legislatura pasada el Pleno aprobó una iniciativa que no se llevó finalmente a término, destino que ante la inminente disolución de las Cámara también tendrá esta propuesta del Grupo Democràcia i Llibertat, que reedita aquel acuerdo y reitera la necesidad de ampliar la transparencia parlamentaria con un registro de grupos de interés, su relación con los diputados, el establecimiento de un código de conducta, así como los derechos de acceso a la información y participación y la supervisión del cumplimiento de estas normas. De ahí que, junto con nuestro voto favorable, dejamos claro también que la creación y regulación de un registro de grupos de interés o lobbies en el Congreso de los Diputados es otra asignatura que nos queda pendiente.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u9" ana="#chair">
                <seg>Gracias, señor Martínez.</seg>
                <seg>Señora Sánchez.</seg>
             </u>
@@ -162,7 +160,7 @@
                <seg>El registro de lobbies que nos plantean los compañeros de Democràcia i Llibertat es algo a celebrar; nos parece correcto. Entendemos que lo que se propone aquí es un registro jurídicamente vinculante y obligatorio, y eso está muy bien, porque en el preámbulo aluden como modelo precisamente al Registro europeo de 2011. Quisiera decir que es un fiasco completo, que se está demostrando que la información que se recoge en él es incompleta y que no está ni muchísimo menos toda la información que se necesita para saber quién está presionando. Y a eso voy.<note>Rumores</note> No solamente necesitamos saber quién está presionando -y esto lo hilo con lo que han comentado de la huella legislativa-, necesitamos saber sobre qué se está presionando y cuánto se gasta en ello. ¿Por qué? Porque de otra manera podemos seguir recibiendo la información desde el Parlamento de que se está teniendo en cuenta a todos los grupos de interés, a las organizaciones de la sociedad civil, cuando los únicos intereses que se acaban reflejando y que acaban convirtiéndose en grupos de presión que verdaderamente funcionan son los que tienen y siguen teniendo un acceso privilegiado al poder porque ellos mismos tienen mayor poder. Y nos venden gato por liebre diciendo que se tiene en cuenta a la ciudadanía, cuando en realidad son las grandes oligarquías financieras y empresariales de este país...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u11" ana="#chair">
                <seg>Silencio.</seg>
                <pb n="8"/>
             </u>
@@ -173,7 +171,7 @@
                <seg>... las que se ven reflejadas en estas normas. Por eso entendemos que esto que se ha dejado sin incorporar sobre la huella legislativa es algo que verdaderamente hace muchísima falta, porque no queremos que se sigan confundiendo organizaciones de la sociedad civil con los intereses de los que más tienen.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u13" ana="#chair">
                <seg>Muchas gracias, señora Sánchez.</seg>
                <seg>Señor Bataller.</seg>
             </u>
@@ -185,7 +183,7 @@
                <seg>Apoyamos esta propuesta porque es una obligación de transparencia en línea con el espíritu del Gobierno valenciano, que ha creado una consejería específica para luchar por la máxima transparencia en la actividad pública después de veinte años de ocultación, falseamiento, clientelismo, que ahora nos pasa factura con unas arcas vacías y una imagen arruinada que estamos recuperando con un esfuerzo incansable, acción tras acción, decisión tras decisión, porque nosotros sí actuamos, nosotros sí decidimos. Pero no se confíen aquellos que a lo mejor están instalados en el mundo de Peter Pan, porque el Gobierno a la valenciana como fórmula de progreso, desde la pluralidad y el compromiso por la transparencia, será pronto una realidad en el Estado y algunos tendrán que salir definitivamente de su verano azul y asumir las demandas de las personas que sí están viviendo en la realidad, entre otras muchas cosas, la transparencia.</seg>
                <seg>Moltes gràcies.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u15" ana="#chair">
                <seg>Gracias, señor Bataller.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Esteban.</seg>
             </u>
@@ -205,7 +203,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u17" ana="#chair">
                <seg>Gracias, señor Esteban.</seg>
                <seg>Por el Grupo Parlamentario de Esquerra Republicana, tiene la palabra la señora Jordà.</seg>
             </u>
@@ -220,7 +218,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u19" ana="#chair">
                <seg>Por Ciudadanos tiene la palabra el señor Salvador.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u20"
@@ -237,7 +235,7 @@
                <seg>Y no estoy de acuerdo con que este es un Pleno en el que hay añoranza y nostalgia. No, este es un Pleno de plena fortaleza, en el que nos ratificamos aquellos que entendíamos que había que respetar al Parlamento hasta el último día, que este proyecto de ley tenía que entrar y había que tratarlo con el suficiente rigor, que el absentismo no está en absoluto justificado y que había que afrontar la política parlamentaria hasta el último día porque los ciudadanos que nos pagan el sueldo, los que nos han puesto en este hemiciclo, nos lo están reclamando. Solamente hay dos culpables en este momento desde nuestro punto de vista de no haber llegado a ese acuerdo que era necesario y perentorio. Por una parte, los del absentismo, los que reparten el ventilador, los que no tienen ningún tipo de interés desde el primer día en que esta legislatura camine, el mismo que dijo no a su majestad el rey, el mismo que no ha dicho nada positivo durante todo este tiempo y sin embargo no quiere que de ninguna manera nadie le cuestione el sitio porque seguramente ha hecho mucho para merecerlo. Por otra, aquellos que han estado desde el primer día en campaña electoral y que hacían propuestas imposibles que sabían que nadie podía aceptar. También ellos en este momento están lanzados a su campaña; la empezaron ambos el domingo. Pero Ciudadanos va a trabajar durante estos dos meses sin denuedo y con muchísimo esfuerzo para mejorar los resultados, para ser más influyentes y, sobre todo, para que los españoles no tengan que aguantar que haya otra legislatura con un resultado como el de esta.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u21" ana="#chair">
                <seg>Gracias, señor Salvador.</seg>
                <seg>Por el Grupo Parlamentario Podemos-En Comú Podem-En Marea, tiene la palabra la señora Elizo.</seg>
             </u>
@@ -257,7 +255,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u23" ana="#chair">
                <seg>Gracias, señora Elizo.</seg>
                <seg>Por el Grupo Socialista tiene la palabra la señora Lozano.</seg>
             </u>
@@ -274,7 +272,7 @@
                <seg>Muchas gracias, señorías.</seg>
                <note>Prolongados aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u25" ana="#chair">
                <seg>Gracias, señora Lozano.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra el señor Suárez.</seg>
             </u>
@@ -285,7 +283,7 @@
                <seg>Señorías, decía al portavoz de Democracia y Libertad que tenía una sensación extraña al subir a esta tribuna; que España era diferente. Yo también la tengo, señoría. En el resto de Europa, habitualmente, gobierna el partido que gana las elecciones. En este país, lamentablemente, no. Eso es lo que nos diferencia del resto de los países, señoría.<note>Aplausos</note> Les agradezco a los miembros de Democracia y Libertad la iniciativa, sin duda llena de experiencia, no me cabe la menor duda. Y anuncio el voto favorable del Grupo Popular porque estamos de acuerdo con el fondo y podríamos estar de acuerdo con el planteamiento, con muchas de las cosas que han dicho. Quiero hacer una precisión a Ciudadanos y a Podemos: había política antes de llegar ustedes al Parlamento, aquí se han tramitado iniciativas -veo que asienten-. La filosofía del Gobierno en la anterior legislatura fue precisamente avanzar en transparencia y se hizo, señorías...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u27" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u28"
@@ -300,14 +298,14 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u29" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u29" ana="#chair">
                <seg>Gracias, señor Suárez.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO VASCO , DE REFORMA DE LA LEY 9/1968, DE 5 DE ABRIL, SOBRE SECRETOS OFICIALES. <pb n="18"/>
             </head>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u30" ana="#chair">
                <seg>Pasamos ahora a sustanciar el segundo punto del orden del día, relativo a la toma en consideración de la proposición de ley del Grupo Parlamentario Vasco<note>EAJ-PNV</note> , de reforma de la Ley 9/1968, de 5 de abril, sobre secretos oficiales.</seg>
                <seg>Para la presentación de esta iniciativa, tiene la palabra el señor Esteban.</seg>
             </u>
@@ -318,7 +316,7 @@
                <seg>Decía hoy a la prensa el portavoz del Partido Popular, el señor Rafael Hernando, con su salero habitual, que esto parecía la orquesta del Titanic al tocar como si no pasara nada mientras el barco se hunde. Nosotros presentamos una proposición de ley aquí, pero les aseguro que tenemos toda la intención de salvarnos de este naufragio, nos vamos a embarcar en el próximo paquebote que salga y les vamos a tocar la música...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u32" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u33"
@@ -331,7 +329,7 @@
                <seg>Proponemos modificar esta ley, hay que modificarla. En nuestra propuesta, que está abierta a posibles modificaciones por parte de otros grupos, hay una premisa clara, y es que tiene que haber un tope temporal, un momento en el que automáticamente se desclasifiquen los documentos. Insisto, muchos de los documentos de la Guerra Civil y posteriores siguen estando escondidos sin que puedan acceder a<pb n="19"/> ellos no solo investigadores sino también el público en general. ¡Qué les voy a contar de la Transición! Exactamente lo mismo. Hemos intentado no irnos a los topes menores, como en otros países, sino poner algo que pudiera ser más aceptable con algunos grupos que pudieran tener reservas. En España, la ley en vigor tiene una doble clasificación y en eso no hemos querido entrar; en otros países hay tres e incluso cuatro clasificaciones de documentos. En el caso español está la materia reservada y la materia secreta; eso lo hemos dejado así. Fíjense, en Estados Unidos, recientemente, se modificó a veinte años -hasta hace poco eran veinticinco- para que los documentos fueran públicos; en un país como Estados Unidos, que tiene unas relaciones internacionales muy complejas. Bien es cierto que tienen una categoría muy especial que tienen que justificar, pero evidentemente en materia internacional las cosas que hace Estados Unidos -discúlpenme- no son comparables a las que hace España; hay algunos documentos que pueden ser excepcionados, pero son escasos, contados, la inmensa mayoría se desclasifican a los veinte años. En el caso del Reino Unido son treinta años, y se está hablando de bajarlo a veinte. En España hay que esperar a que al Consejo de Ministros se le ocurra desclasificar los documentos para que puedan ser accesibles. Esto no puede ser así. Lo que proponemos es lo siguiente: en el caso de materias reservadas, diez años; y en el caso de materias secretas, veinticinco años, que pueden ser prorrogados por el Consejo de Ministros por otros diez años más, esto es, un total de treinta y cinco años, pero esta prórroga tiene que ser excepcional y por supuesto tiene que ser motivada, no vale que quede al capricho del Consejo de Ministros correspondiente. Hay que dar las razones. Y si el plazo transcurre, se produce la cancelación automática de su secreto. Si un documento es aportado en una sesión de Cortes Generales, sea el Congreso o el Senado, en una sesión que no sea secreta, es lógico que se produzca la desclasificación automática y su acceso libre. Claro, también podríamos decir que aquí hay reuniones secretas, pero quizá tengamos que mejorar nuestro funcionamiento en la Cámara porque es verdad que hay una Comisión de secretos oficiales pero, sinceramente, ni yo ni los predecesores de mi grupo a los que he preguntado hemos visto nunca documentos secretos clasificados. La información que se da en esa Comisión, sin desvelar nada -yo nunca doy ni ruedas de prensa ni canutazos ni hablo con los periodistas después de esas reuniones-, les aseguro que no es nada del otro mundo, no se revela ningún secreto oficial. Todo lo que parezca alguna película de otro país europeo o de Estados Unidos es nada comparable con lo que sucede en la Comisión de secretos oficiales de España. Por lo tanto, ahí sí tenemos una tarea; quizá generar un clima de confianza para que se puedan ver ahí documentos que estén todavía clasificados. En todo caso, si se produce en una sesión no secreta, la desclasificación debería ser automática. En definitiva, lo que proponemos es que nos adecuemos a los tiempos, que cumplamos con los compromisos internacionales, que seamos coherentes con la transparencia que todos decimos defender, que en el país se pueda hablar con normalidad de temas que parecen hoy en día todavía tabú, habiendo transcurrido ya treinta y cinco años, y que los ciudadanos y los investigadores puedan enterarse de qué pasó realmente o de algunos detalles desconocidos, algunos recientes, pero otros que igual nos dan novedades hasta del siglo XVIII.</seg>
                <seg>Muchas gracias, señor presidente. Seguiremos tocando la misma música en el próximo Parlamento.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u34" ana="#chair">
                <seg>Gracias, señor Esteban.</seg>
                <seg>No hay turno en contra. El Grupo Mixto tampoco va a intervenir en el de fijación de posiciones. Por tanto, tiene la palabra el señor Xuclà, por el Grupo Parlamentario Catalán</seg>
                <note>Democràcia i Llibertat</note>
@@ -346,7 +344,7 @@
                <seg>El señor Esteban me comentaba antes del inicio de la sesión que justo ahora se han cumplido treinta y cinco años del golpe de Estado -ustedes contemplan veinticinco años más diez de prórroga- y creo que ya sería el momento de conocer algunos documentos respecto a aquello que sucedió el 23 de febrero del año 1981; no solo enseñar a las visitas los mismos restos del golpe de Estado -creo que reconstruidos hace poco en la última restauración-, sino que vayamos a la profundidad, a la verdad histórica. Ley de Transparencia de 2013 sin afrontar la revisión de la Ley de Secretos Oficiales; Ley de Memoria Histórica del anterior Gobierno socialista sin afrontar la desclasificación de documentos. Hay un manifiesto de más de 3.000 investigadores e historiadores de distintas universidades españolas que reclaman la necesidad de conocer esta verdad para poder estudiar en profundidad nuestro pasado, para poder poner luz a nuestro pasado. Sin duda, nos parece una buena iniciativa e incluso hay una mayoría para la toma en consideración de la misma y espero que los pocos meses de esta legislatura breve hayan servido para<pb n="21"/> tomar en consideración algunas iniciativas, pero también para configurar las bases de un sistema democrático puesto al día y que algunos tabúes del pasado ya no lo sean a partir de la próxima legislatura.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u36" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u36" ana="#chair">
                <seg>Gracias, señor Xuclà.</seg>
                <seg>Por el Grupo Parlamentario de Esquerra Republicana, tiene la palabra el señor Tardà.</seg>
             </u>
@@ -359,7 +357,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u38" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u38" ana="#chair">
                <seg>Gracias, señor Tardà.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos, tiene la palabra el señor Gutiérrez.</seg>
             </u>
@@ -376,7 +374,7 @@
                <seg>Muchas gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u40" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u40" ana="#chair">
                <seg>Gracias, señor Gutiérrez.</seg>
                <seg>Por el Grupo Parlamentario Podemos-En Comú Podem-En Marea, tiene la palabra el señor Martínez.</seg>
             </u>
@@ -394,7 +392,7 @@
                <note>Aplausos</note>
                <pb n="26"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u42" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u42" ana="#chair">
                <seg>Gracias, señor Martínez.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor Rallo.</seg>
             </u>
@@ -706,7 +704,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u84" ana="#chair">
                <seg>Gracias, señor Martínez-Maillo.</seg>
                <seg>Para la defensa de las enmiendas formuladas va a intervenir, en primer lugar, el Grupo Parlamentario Mixto. Tiene la palabra la señora Oramas.</seg>
             </u>
@@ -720,7 +718,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u86" ana="#chair">
                <seg>Gracias, señora Oramas.</seg>
                <seg>Señor Salvador.</seg>
             </u>
@@ -734,7 +732,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u88" ana="#chair">
                <seg>Gracias, señor Salvador.</seg>
                <seg>Señora Enbeita.</seg>
             </u>
@@ -745,7 +743,7 @@
                <seg>Señorías, no es la primera vez que en esta Cámara se habla de Venezuela. Esta tarde, aparte de esta proposición no de ley, llevan ustedes un rato hablando de Venezuela. Hemos escuchado muchas veces<pb n="43"/> aquí que en Venezuela no se respetan los derechos humanos, que hay presos políticos y que Venezuela es una dictadura. Desde el principio de mi intervención me gustaría subrayar que no compartimos el texto que hoy se presenta aquí, porque dudamos -y tenemos derecho a dudar- de que Leopoldo López sea un preso político.<note>Fuertes protestas.-El señor Cantó García del Moral: ¡Qué sorpresa!</note> Tranquilos, solo tengo dos minutos y acabo enseguida.<note>Rumores</note> Acabo enseguida, tranquilos. El 23 de enero de 2014 Leopoldo López llamó a tomar las calles y en esos altercados hubo cuarenta y tres víctimas. Algunas de ellas hace un par de semanas estuvieron aquí.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u90" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u91"
@@ -754,7 +752,7 @@
                <seg>La mayoría de los grupos políticos no las quisieron recibir, aunque solo fuera para escuchar su versión de lo ocurrido. Ni siquiera las quisieron recibir. Por ello decimos que dudamos de lo que hoy se está contando aquí.</seg>
                <seg>Venezuela es un país mayor de edad que no necesita intervenciones ajenas para mantener su ordenamiento jurídico.<note>Rumores</note> Por eso, reivindicamos para Venezuela un futuro en paz en el que el pueblo venezolano sea quien decida en qué Estado, con qué recursos y con qué Gobierno quiere vivir.<note>Rumores</note> Ahora las elecciones venezolanas les parecen a ustedes tan legítimas, pero antes no se lo parecían.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u92" ana="#chair">
                <seg>Silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u93"
@@ -764,7 +762,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos.-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u94" ana="#chair">
                <seg>Gracias, señora Enbeita.</seg>
                <seg>Señora Sánchez.</seg>
             </u>
@@ -777,7 +775,7 @@
                <seg>Muchas gracias.</seg>
                <note>Prolongados aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u96" ana="#chair">
                <seg>Gracias, señora Sánchez.</seg>
                <seg>Señor Baldoví.</seg>
                <pb n="44"/>
@@ -789,7 +787,7 @@
                <seg>Perdonen la voz, pero es lo que queda después de un día agitado.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u98" ana="#chair">
                <seg>Silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u99"
@@ -799,7 +797,7 @@
                <seg>Esta mañana, cuando ha terminado una Comisión, una diputada se ha acercado a mí y me ha dicho: te voy a dar un beso. Gracias por intentarlo.<note>Varios señores diputados: ¡Oh!</note> Hay también momentos bonitos en el Parlamento; ustedes no lo hacen fácil pero hay momentos bonitos.<note>Aplausos.-Rumores</note> Repito, gracias por intentarlo. Hemos seguido hablando y la diputada me ha dicho: ...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u100" ana="#chair">
                <seg>Un momento, señor Baldoví.</seg>
                <seg>Silencio, por favor.</seg>
             </u>
@@ -809,7 +807,7 @@
                <seg>... Estoy apesadumbrada. En esta y en otras Comisiones hemos aprobado muchas iniciativas, hemos dejado al PP solo una y otra vez.<note>Rumores</note> Como contrapartida vemos que algunos dirigentes del Partido Popular hoy tienen una sonrisa de oreja a oreja. Vamos a elecciones; van a tener una nueva oportunidad de conservar el poder, lo único que les interesa<note>Protestas.-Varios señores diputados pronuncian palabras que no se perciben</note> , porque cuando lo pierden, cuando lo pierden les crecen los enanos como en Valencia.</seg>
                <note>Protestas.-Varios señores diputados pronuncian palabras que no se perciben</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u102" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u103"
@@ -817,7 +815,7 @@
                ana="#regular">
                <seg>Yo siempre soy muy educado cuando habla un diputado del PP; en mi vida he interrumpido a un diputado del PP, y ustedes siempre están interrumpiéndome.<note>Aplausos.-Rumores.-Varios señores diputados pronuncian palabras que no se perciben</note> Digo esto...<note>Rumores.-Varios señores diputados pronuncian palabras que no se perciben</note> ¿Y ustedes son un partido serio?<note>Varios señores diputados: Sí.-Rumores</note> Si me dejaran terminar...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u104" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u105"
@@ -826,7 +824,7 @@
                <seg>Digo esto porque esta PNL es un monumental monumento a la hipocresía. Al PP los presos políticos le interesan cuando son de un determinado país, cuando son de un determinado país.<note>Aplausos</note> Lo digo con esta imagen.<note>Muestra una fotografía del señor Rajoy con el señor Obiang</note> Miren, el presidente del Gobierno con un dictador. ¿Ustedes no saben que en Guinea se tortura?<note>Aplausos</note> ¿Ustedes no saben que en Guinea se mata?<note>Aplausos</note> ¿Ustedes no lo saben?, ¿no lo saben? ¡Claro que lo saben!</seg>
                <note>Prolongados aplausos de las señoras y los señores diputados del Grupo Parlamentario Podemos-En Comú Podem-En Marea, del Grupo Parlamentario de Esquerra Republicana y algunos del Grupo Parlamentario Mixto, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u106" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u106" ana="#chair">
                <seg>Señor Baldoví, concluya, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u107"
@@ -837,7 +835,7 @@
                <seg>Acabo con otra imagen.<note>Muestra una fotografía del señor Aznar con el señor Chávez</note> Miren, su presidente de honor con otro dictador. Le dejaron poner la jaima...</seg>
                <note>Aplausos.-Un señor diputado pronuncia palabras que no se perciben</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u108" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u108" ana="#chair">
                <seg>Concluya ya, señor Baldoví.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u109"
@@ -845,7 +843,7 @@
                ana="#regular">
                <seg>Me quedan dos segundos, pero me interrumpen.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u110" ana="#chair">
                <seg>Concluya ya.</seg>
                <note>Varios señores diputados pronuncian palabras que no se perciben</note>
                <pb n="45"/>
@@ -856,7 +854,7 @@
                <seg>Acabo.</seg>
                <seg>Aquí la preocupación por los presos se acaba pronto. Sobre todo, cuando sabemos que por medio hay negocios, negocios de armamento o negocios como el del señor Aznar...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u112" ana="#chair">
                <seg>Señor Baldoví.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u113"
@@ -865,7 +863,7 @@
                <seg>... para adjudicarse el 1 % de las desaladoras.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u114" ana="#chair">
                <seg>Ha acabado su tiempo, señor Baldoví.</seg>
                <seg>Por el Grupo de Esquerra Republicana, la señora Surra.</seg>
                <note>Prolongados rumores</note>
@@ -880,7 +878,7 @@
                <note>Aplausos.-Varios señores diputados: ¡Bien!</note>
                <pb n="46"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u116" ana="#chair">
                <seg>Gracias, señora Surra.</seg>
                <seg>Por el Grupo Parlamentario Podemos-En Comú Podem-En Marea, tiene la palabra el señor Bustinduy.</seg>
             </u>
@@ -893,7 +891,7 @@
                <seg>Eso es lo que planteamos en la enmienda que hemos presentado, ayudar a resolver esta situación exclusivamente a través del diálogo y la vía diplomática, y no la confrontación y la injerencia. Pero digamos la verdad, esto no es lo que les interesa a ustedes porque si así fuera, lo harían. A ustedes les interesa alimentar una operación político-mediática incesante y obsesiva para convertir Venezuela en un asunto de política interior, cuyo único objetivo es desautorizar y criminalizar a una fuerza política con 5 millones de votos.<note>Aplausos</note> Para ello no han dudado en utilizar los aparatos del Estado, fabricando informes falsos, con acusaciones falsas que han llevado a prisión por prácticas de extorsión mafiosa a quienes las presentaban<note>Rumores</note> Esto es algo gravísimo e inaceptable, y en un país serio el ministro del Interior ya habría tenido que presentar su dimisión.<note>Prolongados aplausos de las señoras y señores diputados del Grupo Parlamentario Podemos-En Comú Podem-En Marea, puestos en pie.-Un señor diputado: ¡Bravo!</note> Fíjense, mientras yo preparaba esta intervención me enteré por la prensa de que el ministro Margallo estaba con una cohorte de empresarios visitando Kazajistán; un país que Amnistía Internacional denuncia año tras año por cientos de casos de tortura, y allí el ministro anunció que España va a apoyar su candidatura al Consejo de Seguridad de Naciones Unidas. Ese mismo día me enteré, por la prensa también, de que el anterior jefe del Estado y el anterior ministro de Asuntos Exteriores, el señor Moratinos, estaban en un funeral de Estado en Arabia Saudí, una dictadura que ejecutó a 158 personas el año pasado.<note>Aplausos</note> No escuché a nadie poner el grito en el cielo, no escuché a nadie poner el grito en el cielo. Digamos la verdad, señores del PP, su interés prioritario en esta cuestión no es defender los derechos humanos, sino obtener réditos políticos para la campaña electoral.<note>Rumores.-El señor Martínez-Maillo Toribio pronuncia palabras que no se perciben</note> Si no fuera así, si ustedes trajeran a esta Cámara una preocupación y un compromiso sincero con los presos políticos y los derechos humanos,<pb n="47"/> tal vez hablaríamos aquí alguna vez de los más de 600 presos palestinos...</seg>
                <note>Rumores.-Un señor invitado desde la tribuna pública: ... ¡Han sido financiados por el Gobierno de Venezuela! ¡Sinvergüenzas!...-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u118" ana="#chair">
                <seg>Un momento, por favor.</seg>
                <seg>El público no puede intervenir de ninguna de las maneras. Por favor, desalojen a esta persona.<note>Se procede a su desalojo mientras continúa: ¡Libertad, libertad!-Varios señores diputados: ¡Libertad, libertad!-Protestas y rumores</note> Continúe, diputado.</seg>
             </u>
@@ -903,7 +901,7 @@
                <seg>En una democracia y en un Parlamento se habla y se escucha, como yo les he escuchado a ustedes y les voy a seguir escuchando.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u120" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u121"
@@ -912,7 +910,7 @@
                <seg>Con la venia, presidente.</seg>
                <seg>Si no fuera así, si ustedes trajeran a esta Cámara una preocupación y un compromiso sincero con los presos políticos y los derechos humanos, tal vez hablaríamos aquí alguna vez de los 600 presos palestinos que están detenidos sin cargos en cárceles de Israel.<note>Aplausos.-La señora Martínez Saiz pronuncia palabras que no se perciben</note> Tal vez hablaríamos, como se ha mencionado antes, de Brahim Saika, un sindicalista saharaui que murió hace diez días en huelga de hambre tras ser detenido arbitrariamente y sometido a torturas en Marruecos. Tal vez hablaríamos de los presos retenidos sin cargos ni juicio y sometidos a torturas en Guantánamo. Si su compromiso fuera sincero, tal vez ustedes romperían el acuerdo de colaboración que tiene el Partido Popular con el Partido Comunista de China<note>Aplausos</note> ; un país donde hay miles de presos políticos y ejecutados cada año.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u122" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u122" ana="#chair">
                <seg>Señor Bustinduy, concluya.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u123"
@@ -924,7 +922,7 @@
                <seg>Muchas gracias.</seg>
                <note>Varios señores diputados: ¡Bravo!-Aplausos de las señoras y de los señores diputados del Grupo Parlamentario Podemos-En Comú Podem-En Marea, puestos en pie.-Protestas.-Varios señores diputados pronuncian palabras que no se perciben</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u124" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u124" ana="#chair">
                <seg>Por el Grupo Socialista tiene la palabra el señor Gutiérrez Limones.</seg>
                <note>Protestas.-Varios señores diputados pronuncian palabras que no se perciben</note>
             </u>
@@ -942,7 +940,7 @@
                <seg>Buenas tardes y muchas gracias.</seg>
                <note>Prolongados aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u126" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u126" ana="#chair">
                <seg>Muchas gracias, señor Gutiérrez Limones.</seg>
                <seg>En el turno de fijación de posiciones tiene la palabra por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , el señor Esteban.</seg>
             </u>
@@ -955,7 +953,7 @@
                <seg>¿Cuál es la acusación de tomar las calles, que decía antes la señora Enbeitia? Ustedes también han llamado a ocupar las calles y no creo que eso tenga que ser un hecho para llevar a alguien a la cárcel y tampoco creo que se haya producido una conexión entre ningún delito concreto y ninguna violencia concreta ejercida en las calles que se pueda unir con el señor López o con otros dirigentes políticos. Por lo tanto, no se puede negar que hay un problema de derechos humanos. Si no, ¿cómo se entendería cuando están encarceladas todas las cabezas de la oposición? Esa no es una situación normal y no puede decirse que toda la oposición son unos delincuentes. Eso tampoco se lo cree nadie. No es aceptable. Hay un problema de inseguridad ciudadana evidente que tenemos que ayudar a normalizar y para eso hace falta un diálogo político, pero el diálogo político podrá ser una realidad desde el momento en que afirmemos los derechos para todos y también el respeto a todas las opciones políticas. También hay un problema económico de desabastecimiento serio.</seg>
                <seg>Lo cierto es que los adversarios políticos, líderes de opciones políticas contrarias al Gobierno, van a prisión con acusaciones muy genéricas y con juicios que se posponen, algunos sin sentencia, en un régimen de aislamiento, y esto no debería ser aceptable en ningún régimen, y en un régimen que se denomina popular y cercano al pueblo tampoco, debería serlo todavía menos. Yo creo que hay que mantener un cierto equilibrio. Hay que reconocer la legitimidad del Gobierno venezolano para estar ahí, pero también hay que reconocer la legitimidad del Parlamento, y no se puede tener a la oposición de esa manera, con acusaciones genéricas, encarcelada. Creemos que los términos en los que se ha planteado el contenido -no tanto la exposición por parte de algún portavoz-, la propuesta que se hace entre el Partido Popular y el Partido Socialista es razonable y, por lo tanto, votaremos favorablemente, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u128" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u128" ana="#chair">
                <seg>Gracias, señor Esteban.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Democràcia y Llibertat</note> , tiene la palabra el señor Xuclà.</seg>
             </u>
@@ -971,7 +969,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u130" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u130" ana="#chair">
                <seg>Gracias, señor Xuclà.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos, tiene la palabra el señor Rivera.</seg>
             </u>
@@ -985,7 +983,7 @@
                <seg>Termino con una frase de uno de nuestros presidentes, Manuel Azaña, que decía que la libertad no hace ni mejores ni peores a los hombres, nos hace sencillamente hombres. Pues eso, ¡libertad para Venezuela!</seg>
                <note>Aplausos del Grupo Parlamentario Ciudadanos, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u132" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u132" ana="#chair">
                <seg>Gracias, señor Rivera.</seg>
                <seg>Vamos a pasar a las votaciones del día de hoy.</seg>
                <pb n="52"/>
@@ -993,27 +991,27 @@
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIÓN DE REFORMA DEL REGLAMENTO DEL CONGRESO DE LOS DIPUTADOS - DEL GRUPO PARLAMENTARIO CATALÁN , DE REFORMA DEL REGLAMENTO DEL CONGRESO DE LOS DIPUTADOS PARA LA CREACIÓN DEL REGISTRO DE LOS GRUPOS DE INTERÉS O LOBBIES.</head>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u133" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u133" ana="#chair">
                <seg>En primer lugar, toma en consideración de la proposición de ley del Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> de reforma del Reglamento del Congreso de los Diputados para la creación del registro de los grupos de interés o lobbies.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 329; a favor, 329.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u134" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u134" ana="#chair">
                <seg>Queda aprobada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY : - DEL GRUPO PARLAMENTARIO VASCO , DE REFORMA DE LA LEY 9/1968, DE 5 DE ABRIL, SOBRE SECRETOS OFICIALES.</head>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u135" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u135" ana="#chair">
                <seg>Votamos a continuación la toma en consideración de la proposición de ley del Grupo Parlamentario Vasco<note>EAJ-PNV</note> , de reforma de la Ley 9/1968, de 5 de abril, sobre secretos oficiales.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 219; en contra, 111.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u136" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u136" ana="#chair">
                <seg>Queda aprobada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY : - DEL GRUPO PARLAMENTARIO PODEMOS-EN COMÚ PODEM-EN MAREA, RELATIVA A LA DEROGACIÓN DE LAS REFORMAS LABORALES DE 2010 Y 2012 QUE AFECTAN Y MODIFICAN EL TEXTO REFUNDIDO DEL ESTATUTO DE LOS TRABAJADORES.</head>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u137" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u137" ana="#chair">
                <seg>Procedemos a votar el texto de las proposiciones no de ley según lo acordado en el curso del debate y votamos, en primer lugar,...</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u138"
@@ -1022,7 +1020,7 @@
                <seg>Señor presidente, solo para pedir si fuera posible la votación separada de la proposición no de ley de Podemos porque, como hemos manifestado, el Grupo Parlamentario Socialista quiere votar en contra de la reforma laboral del Partido Popular y que se abra un nuevo proceso de diálogo social.</seg>
                <note>La señora Bescansa Hernández pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u139" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u139" ana="#chair">
                <seg>Un momento, señora Bescansa, porque todavía no había dicho ni qué íbamos a votar. Vamos a votar la proposición no de ley del Grupo Parlamentario Podemos sobre la derogación de las reformas laborales y cuando algún grupo pide votar por puntos, el grupo que ha propuesto la proposición no de ley debe aceptarlo, si no, no se podría hacer.</seg>
                <seg>Señora Bescansa.</seg>
             </u>
@@ -1032,7 +1030,7 @@
                <seg>En la medida en que en la elaboración de la enmienda se propuso al Partido Socialista desagregar por puntos o establecer una negociación por puntos...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u141" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u141" ana="#chair">
                <seg>¿Sí o no?</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u142"
@@ -1042,16 +1040,16 @@
                <note>Rumores</note>
                <pb n="53"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u143" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u143" ana="#chair">
                <seg>Entonces vamos a votar la proposición no de ley en sus términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 332; a favor, 81; en contra, 116; abstenciones, 135.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u144" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u144" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, RELATIVA A LA PRONTA LIBERACIÓN DE LOS PRESOS POLÍTICOS EN LA REPÚBLICA BOLIVARIANA DE VENEZUELA.</seg>
                <note>Número de expediente 162/000031</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u145" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u145" ana="#chair">
                <seg>A continuación, votamos la proposición no de ley del Grupo Parlamentario Popular en el Congreso relativa a la pronta liberación de los presos políticos en la República Bolivariana de Venezuela. En principio se vota en los términos de la enmienda transaccional presentada por el Grupo Parlamentario Popular, por el Grupo Parlamentario Socialista y por el Grupo Parlamentario Ciudadanos, a no ser que algún grupo se oponga a ello.<note>El señor Tardà i Coma pide la palabra</note> Señor Tardà.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u146"
@@ -1060,7 +1058,7 @@
                <seg>Desearíamos que se votara en los términos en que fue presentada.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u147" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u147" ana="#chair">
                <seg>Entonces no se puede votar la transacción, pero sí preguntar al señor Martínez-Maillo si la votamos en sus términos o acepta la incorporación de algunas de las enmiendas de adición presentadas.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u148"
@@ -1069,12 +1067,12 @@
                <seg>Por supuesto que este truco parlamentario no va a servir para que se evite la votación también de la enmienda del Grupo Socialista y que podamos votar todos conjuntamente por la libertad de Venezuela. Por supuesto que aceptamos la propuesta.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u149" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u149" ana="#chair">
                <seg>Entonces votaremos la proposición no de ley con la enmienda de adición del Grupo Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 328; a favor, 250; en contra, 12; abstenciones, 66.</seg>
                <note>Prolongados aplausos, con las señoras y los señores diputados del Grupo Parlamentario Popular en el Congreso, del Grupo Parlamentario Socialista y del Grupo Parlamentario Ciudadanos puestos en pie mirando a la tribuna de invitados</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u150" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-27-CD160427.u150" ana="#chair">
                <seg>Señorías, se suspende la sesión hasta mañana a las nueve.</seg>
                <seg>Eran las ocho y cincuenta y cinco minutos de la noche.</seg>
             </u>

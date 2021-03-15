@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="121">121 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="121" xml:lang="es">121 speeches</measure>
+            <measure unit="speeches" quantity="121" xml:lang="en">121 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -75,7 +77,7 @@
                <tagUsage gi="head" occurs="6"/>
                <tagUsage gi="pb" occurs="50"/>
                <tagUsage gi="u" occurs="121"/>
-               <tagUsage gi="lb" occurs="377"/>
+               <tagUsage gi="seg" occurs="377"/>
                <tagUsage gi="note" occurs="100"/>
             </namespace>
          </tagsDecl>
@@ -90,22 +92,18 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u1" ana="#chair">
                <seg>Se abre la sesión. Buenas tardes.</seg>
                <seg>Quiero anunciarles que, siguiendo la práctica habitual de otras sesiones, vamos a agrupar todas las votaciones del día y les comunico que esa votación se realizará, según cálculos aproximados, no antes de las ocho de la tarde.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATE DE TOTALIDAD DE PROPUESTAS DE REFORMA DE ESTATUTOS DE AUTONOMÍA - PROPUESTA DE REFORMA DE LA DISPOSICIÓN ADICIONAL PRIMERA DEL ESTATUTO DE AUTONOMÍA DE LA COMUNIDAD VALENCIANA.</head>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u2" ana="#chair">
                <seg>Comenzamos con el punto primero del orden del día, relativo al debate de totalidad de propuestas de reforma de Estatutos de Autonomía y en este caso se tramitará la propuesta de reforma de la disposición adicional primera del Estatuto de Autonomía de la Comunidad Valenciana. Por ello, nos acompañan tres representantes de Les Corts Valencianes que integran la delegación que defenderá la propuesta y a quienes doy la bienvenida en nombre de la Cámara.</seg>
                <seg>Para la presentación de la iniciativa tiene la palabra, en primer lugar y por cinco minutos, según lo fijado en la Junta de Portavoces de esta mañana, el señor Ferri Fayos.</seg>
             </u>
@@ -119,7 +117,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u4" ana="#chair">
                <seg>Gracias, señor Ferri.</seg>
                <seg>Tiene la palabra el señor Mata Gómez.</seg>
             </u>
@@ -134,7 +132,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u6" ana="#chair">
                <seg>Muchas gracias, señor Mata.</seg>
                <seg>Tiene la palabra el señor Bellver.</seg>
             </u>
@@ -148,7 +146,7 @@
                <seg>Desde el pasado 16 de septiembre, cuando ocupé esta tribuna, han ocurrido algunas cosas importantes y preocupantes que deben ser traídas a colación a este debate ante la presencia de nuevos actores políticos. Desde el Partido Popular hablamos de la vía valenciana a la hora de afrontar reformas estatutarias sin mácula constitucional. Mientras tanto, algunas de esas nuevas formaciones hoy hablan de Gobiernos a la valenciana. El tan cacareado Gobierno a la valenciana es un Gobierno presidido, que no dirigido, por el Partido Socialista, maniatado por el Grupo Parlamentario Podemos, y que no ha traído a nuestra tierra más que más déficit, más deuda y más impuestos.<note>Aplausos</note> Y lo que es peor, como estamos viendo<pb n="7"/> en estos últimos tiempos, este Consell se ha convertido en un verdadero repelente de las inversiones en nuestra comunidad. Han conseguido, sin bajarse de sus coches oficiales, que en nuestra comunidad haya una auténtica fuga de inversiones.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u8" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u9"
@@ -159,7 +157,7 @@
                <seg>Señorías, a pesar de lo que algunos pretenden hacer ver, la Comunidad Valenciana ni hoy ni ayer tuvo un problema de gastos; el problema que tiene es un problema de ingresos, como lo dicen todos los informes de los expertos...</seg>
                <note>El señor Campos Arteseros pronuncia palabras que no se perciben</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u10" ana="#chair">
                <seg>Señor Campos, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u11"
@@ -167,7 +165,7 @@
                ana="#regular">
                <seg>... tanto públicos como privados, el último de ellos conocido precisamente hace unos días. De hecho, somos la única comunidad autónoma que reúne tres características letales para nuestras cuentas públicas, para cualquier cuenta pública: siempre menor financiación que la media; siempre menor renta per cápita que la media, debido al millón de personas que tomaron la decisión de venir a vivir con nosotros a principios de este siglo; y siempre una inversión estatal por debajo de la media nacional. Por cierto, hablando de inversión y teniendo en cuenta estas tres características, fueron los consells del Partido Popular los que tuvieron que suplir las carencias de las inversiones del Estado destinando 16.600 millones de euros a infraestructuras sociales.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u12" ana="#chair">
                <seg>Señor Bellver, le ruego que vaya concluyendo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u13"
@@ -178,7 +176,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u14" ana="#chair">
                <seg>Gracias, señor Bellver.</seg>
                <seg>Es ahora el turno de fijación de posiciones. Por el Grupo Parlamentario Mixto, tiene la palabra el señor Baldoví.</seg>
             </u>
@@ -196,7 +194,7 @@
                <seg>Moltes gràcies, señor president.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u16" ana="#chair">
                <seg>Gracias, señor Baldoví.</seg>
                <seg>¿Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , va a intervenir el señor Azpiazu?<note>Denegación</note> Por el Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> , tiene la palabra el señor Homs.</seg>
             </u>
@@ -209,7 +207,7 @@
                <seg>Muchas gracias por su atención.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u18" ana="#chair">
                <seg>Gracias, señor Homs.</seg>
                <seg>Por el Grupo Parlamentario de Esquerra Republicana, tiene la palabra la señora Capella.</seg>
             </u>
@@ -222,7 +220,7 @@
                <seg>Es evidente que la falta de inversión en el País Valencià es solo la punta del iceberg de los problemas de financiación del propio País Valencià. Es un territorio con una renta por habitante inferior a la media y, sin embargo, aporta al Estado más ingresos vía impuestos de lo que después recibe en gasto e inversión. Este extremo lo ha confirmado el propio ministro de Hacienda, hoy ausente en este hemiciclo, quien a través de la publicación de las balanzas fiscales puso de manifiesto ya un déficit fiscal de más de 1.400 millones de euros. Es intolerable que el País Valencià aporte más de lo que recibe cuando el sistema de financiación no cubre ni siquiera la inversión en educación, sanidad y servicios sociales. Resulta indecente que la solución adoptada por el Gobierno español hasta la fecha no haya sido modificar el sistema de financiación, sino ofrecer un préstamo, es decir, hacer negocio.<note>Rumores</note> El País Valencià, igual que ocurre con la totalidad de los països que conforman los països catalans, padece expolio fiscal, y ello afecta a la vida de los ciudadanos y las ciudadanas del País Valencià, a sus derechos y a su bienestar.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u20" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u20" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u21"
@@ -231,7 +229,7 @@
                <seg>Esquerra Republicana no se ha cansado de proponer reformas para solucionarlo. Por ejemplo, en el debate de la reforma del Estatut de Autonomía del País Valencià en el año 2006, el Grupo Parlamentario de Esquerra, entre muchísimas enmiendas, propuso la creación de la Agencia Tributaria valenciana; enmiendas que fueron rechazadas tanto por el Partido Popular, como por el Partido Socialista Obrero Español. Tomen nota ambos de este dato.</seg>
                <seg>En definitiva, Esquerra Republicana votará a favor de este mientras tanto, pero ustedes saben que Esquerra Republicana aboga por que en un futuro inmediato el País Valencià emprenda el camino de la proclamación de la república del País Valencià, donde los valencianos y las valencianas sean dueños de su futuro y tengan la plena libertad para decidir sobre todo aquello que les afecta. Concluyo haciendo mías las palabras del poeta Pere Quart: I una pàtria tant petita que la somio complerta. ¡Visca el País Valencià!¡Visca els països catalans!<note>Aplausos</note> Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u22" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u22" ana="#chair">
                <seg>Gracias, señora Capella.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos, tiene la palabra la señora Martín.</seg>
             </u>
@@ -247,7 +245,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u24" ana="#chair">
                <seg>Muchas gracias, señora Martín.</seg>
                <seg>Por el Grupo Parlamentario Podemos-En Comú Podem-En Marea, tiene la palabra la señora Ballester.</seg>
             </u>
@@ -266,7 +264,7 @@
                <note>Aplausos</note>
                <pb n="15"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u26" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u26" ana="#chair">
                <seg>Muchas gracias, señora Ballester.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor López Milla.</seg>
             </u>
@@ -286,7 +284,7 @@
                <seg>Moltes gràcies. Muchas gracias, señoras y señores diputados.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u28" ana="#chair">
                <seg>Muchas gracias, señor López Milla.</seg>
                <seg>Para finalizar este turno tiene la palabra el señor Camps, por el Grupo Parlamentario Popular.</seg>
             </u>
@@ -297,7 +295,7 @@
                <seg>Debatimos hoy sobre la proposición de ley orgánica -y leo textual, señora portavoz de Esquerra Republicana de Catalunya- de reforma de la disposición adicional primera del Estatuto de Autonomía de la Comunitat Valenciana. Subrayo, Comunitat Valenciana, no País Valenciano supuestamente parte de unos països catalans que solo existen en el imaginario colectivo de algunos de ustedes.<note>Aplausos</note> Mi tierra se llama Comunitat Valenciana. Subo además a esta tribuna a defender la posición de mi grupo, orgulloso, señor López, orgulloso de los Gobiernos del Partido Popular en la Comunidad Valenciana, de su obra, con algunos errores, pero con muchos más aciertos que errores durante todos estos años.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u30" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u31"
@@ -314,7 +312,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u32" ana="#chair">
                <seg>Gracias, señor Camps.</seg>
                <seg>Hemos concluido el debate de la propuesta de reforma del Estatut de la Comunidad Valenciana y quisiera volver a agradecer, en nombre de la Cámara, a los representantes de Les Corts su presencia y su participación en este debate. Quiero agradecer también, cómo no, al president de estas Corts, al señor Enric Morera, que nos acompaña desde la tribuna, y al conjunto de la delegación que ha venido de este territorio encabezada por su president, el president de la Generalitat Valenciana, don Ximo Puig. Moltes gràcies. Muchas gracias a todos y a todas.</seg>
                <note>Aplausos</note>
@@ -322,7 +320,7 @@
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LA SUSPENSIÓN DEL CALENDARIO DE LA IMPLANTACIÓN DE LA LEY ORGÁNICA 8/2013, DE 9 DE DICIEMBRE, PARA LA MEJORA DE LA CALIDAD EDUCATIVA</head>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u33" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u33" ana="#chair">
                <seg>Corresponde debatir la toma en consideración de la proposición de ley del Grupo Parlamentario Socialista sobre la suspensión del calendario de la implantación de la Ley Orgánica 8/2013, de 9 de diciembre, para la mejora de la calidad educativa. Para la presentación de la iniciativa, tiene la palabra el señor Simancas.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u34"
@@ -331,7 +329,7 @@
                <seg>Presidente, señor ministro, señoras y señores diputados, representantes de la comunidad educativa, subo a esta tribuna para solicitar la toma en consideración de una proposición de ley destinada a suspender la implantación de la Lomce.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u35" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u35" ana="#chair">
                <seg>Un poco de silencio, por favor. Espere, señor Simancas. Por favor, si van a salir del hemiciclo, háganlo en silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u36"
@@ -348,7 +346,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u37" ana="#chair">
                <seg>Gracias, señor Simancas.</seg>
                <seg>Nadie ha solicitado la utilización del turno en contra. Por lo tanto, pasamos al turno de fijación de posiciones. Empezamos por el Grupo Mixto y por la señora Oramas, que tiene dos minutos.</seg>
             </u>
@@ -361,7 +359,7 @@
                <seg>En cuanto a los consejos escolares, los transforman solo en órganos informativos. Además, quiero decirles que unas de las medidas que más nos preocupan son las evaluaciones externas, estableciendo ránquines entre centros y -nos tememos- sin tener en cuenta los contextos socioeconómicos y culturales, que son los que ayudan a explicar y comprender los resultados, no solo entre comunidades autónomas sino también dentro de ellas. En todo este proceso no se han tenido en cuenta las características de territorios como Canarias, regulándose que estas pruebas las aplicará funcionariado externo al centro. ¿Sabe el Estado que en Canarias somos ocho islas y lo que supondría desplazar al profesorado? ¿Sabe el Estado que tenemos alumnado disperso en escuelas unitarias y en un territorio orográfico complicado? ¿Se ha tenido en cuenta cómo organizar la aplicación de las pruebas en los centros privados? Una vez más se trata igual a quienes son distintos. Tiene que haber una nueva ley de educación que esta vez esté apoyada por todos los partidos políticos y refrendada por la sociedad, que tenga estabilidad en el tiempo y donde la formación profesional tenga un papel fundamental. Estamos hablando de la educación, señorías, de aquello que vertebra las sociedades, que forma ciudadanos responsables, que crea conciencia crítica y que diferencia a un país avanzado de otro subdesarrollado.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u39" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u39" ana="#chair">
                <seg>Gracias, señora Oramas.</seg>
                <seg>Tiene la palabra el señor Martínez.</seg>
                <pb n="23"/>
@@ -375,7 +373,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u41" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u41" ana="#chair">
                <seg>Muchas gracias, señor Martínez.</seg>
                <seg>Tiene la palabra el señor Salvador.</seg>
             </u>
@@ -388,7 +386,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u43" ana="#chair">
                <seg>Gracias, señor Salvador.</seg>
                <seg>Tiene la palabra la señora Enbeita.</seg>
             </u>
@@ -399,7 +397,7 @@
                <seg>Señorías, en su día, a pesar de que la comunidad educativa estaba absolutamente en contra, el Partido Popular aprobó la Lomce. Solos ante la Cámara, con el no más rotundo del resto de los partidos políticos, el señor Wert acabó por implantar su capricho. Después de la aprobación de la ley, el Partido Popular no ha conseguido convencer a nadie de lo importante y buena que ha sido esta ley. En Euskal Herria, por ejemplo, la mayoría sindical se ha pronunciado en contra de esta ley, la sociedad se ha movilizado reiteradamente, hay padres y madres que han optado por que sus hijos desobedezcan las reválidas, a pesar de las consecuencias educativas, las huelgas estudiantiles se repiten en contra de la Lomce y de la reforma universitaria del 3+2. Pero algunos, como siempre, ahí siguen en su erre que erre particular. Ahora nos alegra que como ejercicio de sentido común podamos debatir o decidir en esta Cámara la desimplantación de la Lomce, si es que esa palabra existe, ya me perdonarán que soy de colegio público. Pero parar el calendario no es suficiente. En la legislatura anterior esta Cámara adquirió un claro compromiso que decía así: Los grupos parlamentarios abajo firmantes acuerdan que en el primer período de sesiones de la próxima legislatura procederán a derogar la Lomce y paralizar de forma inmediata su aplicación. Señorías, el PSOE nos presenta hoy una propuesta para parar el calendario de la aplicación de la Lomce, pero no estamos hablando de la derogación. Señorías, siendo honesta cada una consigo misma, el compromiso que se adquirió fue la derogación. Lo que deberíamos de conseguir es la derogación, porque la Lomce jamás nos garantizará una educación en igualdad de género que nos construya una juventud con capacidad crítica o, por ejemplo, que garantice las mismas oportunidades para todas. Comenzar con la no aplicación está bien, es un paso adelante, siempre que el compromiso de derogación siga en pie. Si no volverán ustedes a decepcionar a muchísima gente.</seg>
                <seg>En el caso de Euskal Herria, y dejando claro que estamos absolutamente en contra de la Lomce y de todo lo que puede llegar a significar, reivindicamos un sistema educativo propio, soberano, euskaldun, paritario y libre de religiones. Y viendo lo que valen los acuerdos y lo que cambian las palabras en esta Cámara, una vez más, está claro que si Euskal Herria acabará teniendo un sistema educativo como el que se merece será porque han sido la sociedad y la comunidad educativa vasca las que han construido su propio modelo. Y en eso estamos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u45" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u45" ana="#chair">
                <seg>Gracias, señora Enbeita.</seg>
                <seg>Tiene la palabra la señora Sánchez.</seg>
             </u>
@@ -409,7 +407,7 @@
                <seg>Paralización del calendario de implantación de la Lomce. No voy a detenerme en si estamos o no de acuerdo con la Lomce porque ya sabemos todos y todas lo que opinamos de esta nefasta ley. Pero vamos a meternos con el fondo del asunto de la propuesta que tenemos hoy encima de la mesa, que lo único que propone es la paralización del calendario. ¿Vamos a votar a eso que sí? Evidentemente sí, porque es indispensable. Ahora bien, desde Izquierda Unida-Unidad Popular esperamos que este primer incumplimiento del PSOE de su compromiso de derogar la Lomce no sea una deriva hacia tiempos pasados como, OTAN de entrada no, y se convierta en un nuevo revival que nos puede llevar a cosas como, reforma laboral de entrada no, o Ley mordaza de entrada no.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u47" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u47" ana="#chair">
                <seg>¡Silencio, por favor!</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u48"
@@ -419,7 +417,7 @@
                <seg>También nos preocupa otra cuestión: cuando dentro del escueto texto que hoy discutimos dicen que hace falta un nuevo pacto, porque en realidad esto no es necesario. No vamos a hacer un nuevo acuerdo. Si no, van a tirar ustedes a la papelera lo que durante más de dos años se lleva pactando con la Marea Verde, con el Sindicato de Estudiantes, con la plataforma por la Educación Pública con la que todos nosotros hemos firmado también el pacto de documento de bases para una nueva ley de educación, acuerdo social y político educativo, y que debe ser la base de lo siguiente que empecemos a construir para sustituir esta nefasta ley, y lo que tenemos que hacer no es paralizar un calendario, sino derogar la ley absolutamente.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u49" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u49" ana="#chair">
                <seg>Gracias, señora Sánchez.</seg>
                <seg>Tiene la palabra la señora Sorlí.</seg>
             </u>
@@ -431,7 +429,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u51" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u51" ana="#chair">
                <seg>Gracias, señora Sorlí.</seg>
                <seg>Por el Grupo Parlamentario Vasco tiene la palabra el señor Agirretxea.</seg>
                <note>La señora vicepresidenta, Villalobos Talero, ocupa la Presidencia</note>
@@ -488,7 +486,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u57" ana="#chair">
                <seg>Gracias, señor Olòriz.</seg>
                <seg>Tiene la palabra, por el Grupo Parlamentario Ciudadanos, el señor Roldán.</seg>
             </u>
@@ -507,7 +505,7 @@
                <note>Aplausos</note>
                <pb n="32"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u59" ana="#chair">
                <seg>Muchas gracias, señor Roldán.</seg>
                <seg>Por el Grupo Parlamentario Podemos-En Comú Podem-En Marea, tiene la palabra la señora Belarra.</seg>
             </u>
@@ -525,7 +523,7 @@
                <note>Aplausos</note>
                <pb n="34"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u61" ana="#chair">
                <seg>Gracias, señora Belarra.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra la señora Moneo.</seg>
             </u>
@@ -542,13 +540,13 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u63" ana="#chair">
                <seg>Gracias, señora Moneo.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY - DEL GRUPO PARLAMENTARIO DE ESQUERRA REPUBLICANA, SOBRE LA REVISIÓN DEL PLAN HIDROLÓGICO DE LA CUENCA DEL EBRO.</head>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u64" ana="#chair">
                <seg>Pasamos al punto III del orden del día, que es el relativo a las proposiciones no de ley, y comenzamos con la del Grupo Parlamentario de Esquerra Republicana sobre la revisión del Plan hidrológico de la cuenca del Ebro. Para la presentación de la iniciativa y la defensa de la enmienda presentada tiene la palabra el señor Eritja.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u65"
@@ -558,7 +556,7 @@
                <seg>Señorías, el pasado 8 de enero el mismo Gobierno en funciones actual decidió aprobar en el Consejo de Ministros doce planes hidrológicos correspondientes al segundo ciclo de planificación 2015-2021, según revisión y actualización incluida en el Real Decreto 1/2016, de 8 de enero, y publicado el 19 del mismo en el BOE; un Gobierno en funciones que entonces no tuvo ningún reparo en tomar dicha decisión.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u66" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u67"
@@ -568,7 +566,7 @@
                <seg>El 2 de junio de 2015...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u68" ana="#chair">
                <seg>Un momento, señor Eritja.</seg>
                <seg>Silencio, por favor. Todos estos corrillos, estando todos levantados hablando unos con otros... Un poco de respeto a quien tiene la palabra en la tribuna.</seg>
                <seg>Gracias. Continúe.</seg>
@@ -581,7 +579,7 @@
                <seg>En definitiva, el Plan hidrológico aprobado continúa respondiendo más a un modelo tradicional de planificación, centrado más en la gestión cuantitativa del recurso y el desarrollo de infraestructuras ligadas a la satisfacción de las demandas de uso, que al nuevo modelo de gestión integral que propone la Directiva-marco del Agua. Pero, como ya apuntó la Comisión Europea, en el caso de que el progreso resulte insuficiente y no exista un compromiso creíble para colmar las lagunas identificadas, la Comisión considerará las acciones apropiadas para asegurar una implementación correcta de la directiva marco. De hecho, representaría un gran perjuicio económico para los usuarios del agua la pérdida de fondos europeos, así como sanciones por el incumplimiento de los acuerdos de asociación 2014-2020 en materia de los planes hidrológicos y de las políticas tarifarias.</seg>
                <seg>¿Este es el modelo de gestión que persigue el nuevo Plan hidrológico del Ebro? Si es así, y contrariamente a lo que pretende la directiva marco, va a acabar fomentando de forma inevitable el enfrentamiento social entre comunidades de regantes y ambientalistas, así como entre territorios. Quizás es esto lo que se pretende. De hecho, desde Cataluña hace tiempo que percibimos una clara intencionalidad política al respecto. Quizás desde Cataluña tengamos que esperar hasta que la nueva república catalana pueda tratar la gestión del agua como una gestión estratégica y de Estado y aprovechar, como no puede<pb n="38"/> ser de otra manera, el momento constituyente y el nuevo posible marco jurídico sobre aguas internacionales para definir un nuevo plan hidrológico que permita poder aplicar los criterios de gestión integral, defensa y equilibrio territorial tal y como se establece en las directivas europeas.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u70" ana="#chair">
                <seg>Le ruego que vaya concluyendo, señoría.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u71"
@@ -589,7 +587,7 @@
                ana="#regular">
                <seg>Por todo ello, los grupos parlamentarios de Esquerra Republicana y de Democràcia i Llibertat reclamamos al Congreso de los Diputados que reconozca como insuficientes los caudales ecológicos mínimos fijados para el tramo final del río Ebro y, por lo tanto, que inste al Gobierno español a la revisión del Plan hidrológico de la cuenca del Ebro y a la adecuación del régimen de caudales ecológicos incrementándolos con el fin de conseguir el cumplimiento de los objetivos marcados por la Directiva-marco del Agua.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u72" ana="#chair">
                <seg>Señor Eritja, concluya ya, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u73"
@@ -600,7 +598,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u74" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u74" ana="#chair">
                <seg>Gracias, señor Eritja.</seg>
                <seg>Para la defensa de las enmiendas formuladas por sus grupos, interviene, en primer lugar, por el Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> , el señor Bel.</seg>
             </u>
@@ -612,7 +610,7 @@
                <seg>¿Qué pretende nuestra enmienda? Muy fácil, constatar que estos caudales son insuficientes e instar al Gobierno, al Gobierno en funciones, que es el que lo aprobó, a modificar estos caudales ecológicos incrementándolos y fijándolos en torno a las posiciones que estableció la misma Comisión para la Sostenibilidad de les Terres de l´Ebre, donde hay una confluencia de administraciones, técnicos y sociedad civil, que establece unos caudales que van a garantizar la supervivencia del delta. Y digo la supervivencia del delta porque estos días he leído y escuchado que lo que se quiere es agua para Cataluña. No se equivoquen, el Delta del Ebro no es un problema de les Terres de l´Ebre, el Delta del Ebro no es un problema exclusivamente de Cataluña, el Delta del Ebro es también un problema y una cuestión que afecta al Estado español y al conjunto de la Unión Europea. Por tanto, lo único que pedimos es una posición de más agua para el Delta del Ebro, y esto es absolutamente compatible con los actuales usos de regadío, industriales y domésticos que tiene el río Ebro. Evidentemente, se tendrán que revisar las reservas para algunos riegos que hoy no están ni planificados. Solo con estas reservas de riegos no planificados podríamos alcanzar estos caudales ecológicos planteados.<pb n="39"/> Evidentemente, por las enmiendas que se han planteado hacen previsible la posición de cada uno de los grupos parlamentarios. Agradezco la enmienda presentada por el Grupo Podemos-En Comú Podem-En Marea que va en la línea. Ya se ha explicado que no se incorpora para que después no sea vetada la transaccional, pero en todo caso estamos de acuerdo. Lamentamos la posición del Grupo Socialista, que se manifiesta en unos términos en les Terres de l´Ebre y en Cataluña y en otros términos aquí en la Cámara, que es donde se está debatiendo. En todo caso, les hago una última apelación. Si no rectificamos nosotros estos caudales ecológicos absolutamente insuficientes, vamos a pasar la vergüenza de que sea la Unión Europea quien nos los haga rectificar. Por tanto, hagamos un ejercicio de soberanía y rectifiquemos nosotros lo que, si no, nos va a rectificar la Unión Europea.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u76" ana="#chair">
                <seg>Gracias, señor Bel.</seg>
                <seg>Tiene la palabra por el Grupo Parlamentario Ciudadanos, el señor Cantó.</seg>
             </u>
@@ -626,7 +624,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u78" ana="#chair">
                <seg>Muchas gracias, señor Cantó.</seg>
                <seg>Por el Grupo Parlamentario Podemos-En Comú Podem-En Marea, tiene la palabra el señor Alonso.</seg>
             </u>
@@ -639,7 +637,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos.-Varios señores diputados de Podemos-En Comú Podem-En Marea, puestos en pie, muestran un dibujo que representa una cañería hecha un nudo y una pancarta en la que se lee: Lo riu sense cabals és la mort del delta</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u80" ana="#chair">
                <seg>Gracias, señor Alonso.</seg>
                <seg>Por el Grupo Parlamentario Socialista tiene la palabra la señora Lucio.</seg>
             </u>
@@ -654,7 +652,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u82" ana="#chair">
                <seg>Muchas gracias, señora Lucio.</seg>
                <seg>En el turno de fijación de posiciones solo ha solicitado intervenir el Grupo Popular, por lo que tiene la palabra el señor Suárez.</seg>
             </u>
@@ -668,7 +666,7 @@
                <seg>Señorías, lo que ustedes pretenden sencillamente es colapsar el sistema de regadíos de la cuenca hidrográfica del Ebro. Aquí todo el mundo ha hecho mención a su condición, también el señor Ferran, el portavoz de Podemos. El que les habla es aragonés y podría hacer valer también esta condición. Concretamente mi infancia transcurrió en un pueblo de Los Monegros, de esos duros, como decía Labordeta. He visto emigrar a Cataluña al 50 % de ese pueblo hasta que llegó el regadío. He visto abrir escuelas y he visto a gente en la calle, todo gracias al regadío, señorías. El Plan hidrológico de cuenca que hoy está aquí en debate pretende equilibrar todos los intereses, también los del Delta del Ebro -como les decía, 170.000 hectáreas-, porque los regantes en el Delta del Ebro disponen del doble de agua que un regante en Aragón o en Navarra. Señorías, este Gobierno ha tenido el coraje de tomar decisiones, que en materia hídrica no son fáciles.</seg>
                <seg>Ahora voy a la enmienda del Grupo Parlamentario Socialista, que circunscribo a esa nueva ola que nos invade de derogar todo lo que ha aprobado el Partido Popular. Fundamentalmente dice muy poco,<pb n="43"/> señorías. Es una enmienda que no dice absolutamente nada, porque lo que se dice ahí lo cumple el Plan hidrológico de cuenca del Ebro aprobado por el Partido Popular. Les falta a ustedes coraje para apoyar hoy al Partido Popular. Señorías, lo que ustedes plantean al final ya sucedió. No han aprendido absolutamente nada. En 2004 la señora Narbona sacó la disposición adicional décima y modificó el artículo 26 para que no fuéramos capaces de fijar el caudal ambiental del río Ebro. En ocho años tuvieron que hacer lo que había dispuesto el Partido Popular en el Plan hidrológico de cuenca, pero en ocho años fueron incapaces de aprobar los veinticinco planes hidrológicos de cuenca a los que estaban obligados por la Directiva-marco del Agua del año 2009.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u84" ana="#chair">
                <seg>Señor Suárez, le ruego que concluya.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u85"
@@ -679,7 +677,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u86" ana="#chair">
                <seg>Gracias, señor Suárez.</seg>
                <seg>Señor Eritja, ya sé que lo ha dicho en su primera intervención, pero me corresponde volver a preguntarle, para que conste con mayor claridad a la hora de facilitar las votaciones, si su grupo acepta alguna de las enmiendas presentadas.</seg>
             </u>
@@ -688,12 +686,12 @@
                ana="#regular">
                <seg>No, en principio no. Básicamente aceptamos nuestra autoenmienda y la de Democràcia i Llibertat.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u88" ana="#chair">
                <seg>Muchas gracias.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO CATALÁN<note>DEMOCRÀCIA I LLIBERTAT</note> , SOBRE EL INCREMENTO DEL SALARIO MÍNIMO INTERPROFESIONAL.</seg>
                <note>Número de expediente 162/000140</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u89" ana="#chair">
                <seg>Continuamos con la proposición no de ley del Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> sobre el incremento del salario mínimo interprofesional. Para la presentación de la iniciativa y la defensa de la enmienda presentada, tiene la palabra el señor Campuzano.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u90"
@@ -722,7 +720,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u93" ana="#chair">
                <seg>Gracias, señor Salvador.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos, tiene la palabra el señor Del Campo.</seg>
                <pb n="46"/>
@@ -739,7 +737,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u95" ana="#chair">
                <seg>Gracias, señor Del Campo.</seg>
                <seg>Por el Grupo Parlamentario Podemos-En Comú Podem-En Marea, tiene la palabra el señor Rodríguez Rodríguez.</seg>
             </u>
@@ -756,7 +754,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u97" ana="#chair">
                <seg>Gracias, señor Rodríguez.</seg>
                <seg>Por el Grupo Parlamentario Socialista, tiene la palabra el señor Saura.</seg>
             </u>
@@ -772,7 +770,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u99" ana="#chair">
                <seg>Gracias, señor Saura.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra la señora Asian González.</seg>
             </u>
@@ -785,7 +783,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u101" ana="#chair">
                <seg>Muchas gracias, señora Asian.</seg>
                <seg>En el turno de fijación de posiciones, tiene la palabra, por el Grupo Parlamentario Mixto, en primer lugar, la señora Beitialarrangoitia.</seg>
             </u>
@@ -799,7 +797,7 @@
                <seg>Para terminar, quiero retar a sus señorías a que se pongan un momento a pensarlo y que intenten llevar una vida digna con 655 euros al mes. Ya les adelanto que les resultará difícil, cuando no imposible.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u103" ana="#chair">
                <seg>Muchas gracias, señora Beitialarrangoitia.</seg>
                <seg>Tiene la palabra la señora Sánchez.</seg>
             </u>
@@ -811,7 +809,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u105" ana="#chair">
                <seg>Gracias, señora Sánchez.</seg>
                <seg>Señor Bataller.</seg>
             </u>
@@ -824,7 +822,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u107" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u107" ana="#chair">
                <seg>Gracias, señor Bataller.</seg>
                <seg>Por último, por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Barandiaran Benito.</seg>
             </u>
@@ -836,7 +834,7 @@
                <seg>Hace pocas fechas en la Comisión de Empleo y Seguridad Social, de la que también formo parte, se comentó, entre otras cuestiones, la adaptación de la normativa española y el grado de cumplimiento de la Carta Social Europea. Era el informe XX-3, del año 2014, emitido por el Comité Europeo de Derechos Sociales. En ella se recogía, en relación con el salario mínimo interprofesional, una respuesta que había dado el Gobierno español precisamente a las preguntas que se le formulaban sobre lo inadecuado de estas cantidades. Pues bien, la respuesta del Gobierno español dice textualmente así: La crisis económica y financiera se debe tener en cuenta a la hora de fijar el salario mínimo interprofesional en la medida en que esta influye en la creación de empleos. Esta es la interpretación que hizo en su momento el Gobierno, que la congelación del salario mínimo interprofesional es una medida utilizada por el Gobierno como herramienta frente a la situación de crisis e hipotéticamente con un propósito de creación de empleo. Dicho sea con todo el respeto, señores del Gobierno, esa ecuación es inaceptable, nos parece casi infernal, pero sobre todo nos parece reveladora de modelos socioeconómicos en los que, con todo el respeto, no participamos. Nos parece insostenible desde el punto de vista humano y desde el punto de vista social utilizar ese mecanismo que convierte a los pobres en más pobres, precisamente a los perceptores del salario mínimo interprofesional. Nos parece duro mantenerlo cuando se es consciente de que es generador de desigualdad, porque se ha mantenido en este último decreto a pesar de que la consecuencia de la desigualdad también ha sido analizada por parámetros que asimismo han sido analizados por mis predecesores. Y lo que es también grave es que, aun cuando esa medida produce todos estos efectos y por tanto menoscabo de la dignidad personal de estos trabajadores, se ha seguido manteniendo por razones que se han basado en la hipótesis de que serviría para la creación de empleo. Sin embargo, creemos que también es discutible que sea efectiva para este fin, para el objetivo de crear empleo, no solo porque nos parece falsa o perversa la ecuación de que a menos salario más trabajo, sino también porque no hay duda de que menos salario desincentiva al trabajador y le aleja de la posibilidad de participar en el mantenimiento de sus propios servicios y prestaciones públicas. Ese, señorías, no es el modelo que ha defendido el Grupo Vasco.</seg>
                <seg>Por el contrario, creemos que es necesario aproximar las cantidades del salario mínimo a las cuantías y modelos propuestos por la Carta Social Europea, esto es, aquellos que pretenden evitar la pobreza. Y la definición de mínimo digno y la definición de pobreza no es una cuestión que nos vayamos a inventar en estos momentos. Hay unas estadísticas EU-SILC, que fueron creadas a partir del año 2013 y que están amparadas en el Reglamento 1177/2003 de la Comisión, que define, entre otras cuestiones, la tasa de riesgo de pobreza y entiende que esta es una cuantía que identifica con una renta inferior al 60 % de la renta nacional disponible equivalente. Por eso, la Carta Social Europea, en el reverso de esa misma moneda y para cumplir los requerimientos del artículo 4, precisa que la cuantía del salario mínimo interprofesional en cada país debe alcanzar el 60 % del salario medio neto del territorio del Estado.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u109" ana="#chair">
                <seg>Señor Barandiaran, vaya concluyendo. Sé que ha tapado el marcador del tiempo con los folios, pero comprobará que se ha pasado.</seg>
                <pb n="53"/>
             </u>
@@ -846,7 +844,7 @@
                <seg>Precisamente porque entiende que, en caso contrario, se incide en ese riesgo de pobreza. Ese es, por tanto, el objetivo que pretendemos que se siga y por eso ahora anunciamos que vamos a apoyar la proposición no de ley, porque ese es el modelo no solo retributivo, sino social y socioeconómico con el que de alguna manera podemos converger, y con quien se aparte de él no podríamos converger de ninguna manera.</seg>
                <seg>Gracias, señor presidente. Gracias, señorías.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u111" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u111" ana="#chair">
                <seg>Gracias, señor Barandiaran.</seg>
                <seg>Antes de pasar a las votaciones, tengo que preguntarle, señor Campuzano, si su grupo acepta algunas de las enmiendas presentadas.</seg>
             </u>
@@ -856,47 +854,47 @@
                <seg>Señor presidente, la Mesa conoce el texto que hemos acordado con la casi mayoría de los grupos. Mi grupo agradece el debate, la propuesta y el texto acordado.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u113" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u113" ana="#chair">
                <seg>Gracias, señor Campuzano.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATE DE TOTALIDAD DE PROPUESTAS DE REFORMA DE ESTATUTOS DE AUTONOMÍA : - PROPUESTA DE REFORMA DE LA DISPOSICIÓN ADICIONAL PRIMERA DEL ESTATUTO DE AUTONOMÍA DE LA COMUNIDAD VALENCIANA.</head>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u114" ana="#chair">
                <seg>Vamos a dar comienzo a las votaciones. Votamos, en primer lugar, la propuesta de reforma de la disposición adicional primera del Estatuto de Autonomía de la Comunidad Valenciana.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 334; a favor, 290; abstenciones, 44.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u115" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u115" ana="#chair">
                <seg>Queda aprobada.</seg>
                <note>Aplausos</note>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY : - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LA SUSPENSIÓN DEL CALENDARIO DE LA IMPLANTACIÓN DE LA LEY ORGÁNICA 8/2013, DE 9 DE DICIEMBRE, PARA LA MEJORA DE LA CALIDAD EDUCATIVA</head>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u116" ana="#chair">
                <seg>Votamos a continuación la toma en consideración de la proposición de ley del Grupo Parlamentario Socialista, sobre la suspensión del calendario de la implantación de la Ley orgánica 8/2013, de 9 de diciembre, para la mejora de la calidad educativa.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 186; en contra, 112; abstenciones, 41.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u117" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u117" ana="#chair">
                <seg>Queda aprobada.</seg>
                <note>Aplausos</note>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY : - DEL GRUPO PARLAMENTARIO DE ESQUERRA REPUBLICANA, SOBRE LA REVISIÓN DEL PLAN HIDROLÓGICO DE LA CUENCA DEL EBRO.</head>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u118" ana="#chair">
                <seg>Procedemos ahora a votar el texto de las proposiciones no de ley, según lo acordado en el curso del debate. En primer lugar, la proposición no de ley del Grupo Parlamentario de Esquerra Republicana, sobre la revisión del Plan hidrológico de la cuenca del Ebro. Se vota en los términos resultantes de la incorporación de la enmienda del Grupo Parlamentario de Esquerra Republicana y del Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> Comienza la votación.<note>Pausa</note>
                   <pb n="54"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 90; en contra, 159; abstenciones, 90.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u119" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u119" ana="#chair">
                <seg>Queda rechazada.<note>Aplausos</note> - DEL GRUPO PARLAMENTARIO CATALÁN<note>DEMOCRÀCIA I LLIBERTAT</note> , SOBRE EL INCREMENTO DEL SALARIO MÍNIMO INTERPROFESIONAL.</seg>
                <note>Número de expediente 162/000140</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u120" ana="#chair">
                <seg>Por último, votamos la proposición no de ley del Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> , sobre el incremento del salario mínimo interprofesional. Si ningún grupo se opone, se vota en los términos de la enmienda transaccional presentada.</seg>
                <seg>Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 339.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-05-CD160405.u121" ana="#chair">
                <seg>Queda aprobada por unanimidad.<note>Aplausos</note> Se suspende la sesión hasta mañana a las nueve de la mañana.</seg>
                <seg>Eran las ocho y cincuenta minutos de la noche.</seg>
                <seg>Corrección de error.</seg>

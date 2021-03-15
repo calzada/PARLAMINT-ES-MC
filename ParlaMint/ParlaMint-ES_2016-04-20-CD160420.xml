@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="33">33 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="33" xml:lang="es">33 speeches</measure>
+            <measure unit="speeches" quantity="33" xml:lang="en">33 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="3"/>
                <tagUsage gi="u" occurs="33"/>
                <tagUsage gi="note" occurs="27"/>
-               <tagUsage gi="lb" occurs="96"/>
+               <tagUsage gi="seg" occurs="96"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,22 +92,18 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u1" ana="#chair">
                <seg>Señorías, se reanuda la sesión.</seg>
                <seg>Antes de seguir con el orden del día, les comunico que el cálculo para la votación de hoy es que esta se produzca alrededor de las diez y cuarto.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>SOLICITUDES DE CREACIÓN DE COMISIONES DE INVESTIGACIÓN - SOLICITUD, FORMULADA POR LOS GRUPOS PARLAMENTARIOS PODEMOS-EN COMÚ PODEM-EN MAREA Y MIXTO, DE CREACIÓN DE UNA COMISIÓN DE INVESTIGACIÓN RELATIVA A LAS SUPUESTAS IRREGULARIDADES, ERRORES ADMINISTRATIVOS O FALTA DE MEDIOS PUESTOS A DISPOSICIÓN DE LA CIUDADANÍA ESPAÑOLA RESIDENTE EN EL EXTRANJERO PARA EJERCER SU DERECHO AL VOTO.</head>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u2" ana="#chair">
                <seg>Comenzamos con el punto del orden del día relativo a la solicitud formulada por los Grupos Parlamentarios Podemos-En Comú Podem-En Marea y Mixto de creación de una comisión de investigación relativa a las supuestas irregularidades, errores administrativos o falta de medios puestos a disposición de la ciudadanía española residente en el extranjero para ejercer su derecho al voto. Para la defensa de esta solicitud tiene la palabra en primer lugar, por el Grupo Mixto, el señor Martínez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u3"
@@ -115,7 +113,7 @@
                <seg>Intervengo en nombre de Foro para expresar el apoyo a la creación de esta comisión de investigación relativa al ejercicio del voto por los españoles residentes en el extranjero. La reforma de la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General introdujo numerosos cambios, entre otros, en las garantías para el procedimiento de votación del Censo Electoral de los Residentes Ausentes -CERA-, que entraron en vigor con la reforma de la Ley Orgánica 2/2011 en enero de ese año, y que fue el resultado de una iniciativa parlamentaria conjunta, con unos importantes trabajos en el seno de la Comisión Constitucional, culminados hace casi seis años, durante la IX Legislatura. Hablamos de modificaciones que en ningún caso se impulsaron mediante el ejercicio de la iniciativa legislativa contemplada en el artículo 87 de la Constitución y que se atribuye al Gobierno. Es importante destacarlo, porque al tratarse de un asunto medular en la democracia -nada menos que el ejercicio del voto-, este es un tipo de reforma...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u4" ana="#chair">
                <seg>Guarden silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u5"
@@ -126,7 +124,7 @@
                <seg>Concluyo, señor presidente. La comisión de investigación se promueve sobre la base del descenso de participación de los votantes del CERA, por plazos muy exiguos y dudas sobre los incumplimientos administrativos en el origen del proceso, en los retrasos para la recepción de las papeletas de votación y en las demoras de los servicios postales, entre otros aspectos. Nosotros también queremos que se investiguen las irregularidades en el proceso de recepción de los votos, en su incorporación al escrutinio y en su recuento final, que como se ha señalado puede alterar el reparto definitivo de escaños e incluso las posibilidades de formación de un Gobierno.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u6" ana="#chair">
                <seg>Muchas gracias, señor Martínez.</seg>
                <seg>Señora Sánchez.</seg>
             </u>
@@ -137,7 +135,7 @@
                <seg>Como las palabras nunca o casi nunca son inocentes, ya lo de voto rogado desde el principio parece que fue un gran error. La comisión de investigación que se propone en este momento tiene como objetivos auditar responsabilidades políticas, técnicas, pero sobre todo proponer soluciones, porque a lo que no nos podemos atener es a que una participación que era superior al 30 % antes de una ley esté ahora por debajo del 5 %. Esto ya se vio en 2011, y en esta Cámara se dejó morir una propuesta del Parlamento gallego que ya atendía este problema, con lo cual creemos que el que se haya movilizado gente, la propia ciudadanía desde plataformas como la Marea Granate, debería hacernos ver que hay un problema, porque como decía las palabras no son inocentes, y simplemente que haya que rogar la posibilidad de un derecho ya nos dice lo poco afortunada que fue esta ley desde su inicio.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u8" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u9"
@@ -146,7 +144,7 @@
                <seg>Lo que hemos visto es que ha bajado la participación, y como en lo único que nos ponemos todos de acuerdo en esta Cámara es en la sacrosanta democracia representativa, al menos aquí deberíamos hacer todo lo posible por que todos los votos de los españoles en el extranjero, por que 2 millones de votos puedan ser ejercidos como un derecho y no rogados ni robados.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u10" ana="#chair">
                <seg>Muchas gracias, señora Sánchez.</seg>
                <seg>Por el Grupo Podemos-En Comú Podem-En Marea tiene la palabra el señor Bustinduy.</seg>
             </u>
@@ -164,7 +162,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Podemos-En Comú Podem-En Marea, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u12" ana="#chair">
                <seg>Gracias, señor Bustinduy.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Legarda.</seg>
             </u>
@@ -177,7 +175,7 @@
                <seg>Por último y en términos relativos, no podemos desconocer la significación que en nuestra historia parlamentaria han tenido las comisiones de investigación y la ocasión que las han propiciado. Por todo ello no consideramos procedente dar nuestro apoyo a la creación de la comisión que se propone, sin embargo consideramos que los problemas que se han ido apuntando pudieran tener un tratamiento adecuado ya en las comisiones que existen, en concreto en la Comisión de Justicia. En esta podrían comparecer y podríamos revisar el procedimiento electoral, en concreto el artículo 75 de la Loreg, dar audiencia a esos colectivos que se consideran perjudicados, y solventar los problemas con una reforma del artículo 75 de la Loreg.</seg>
                <seg>Muchas gracias, señorías.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u14" ana="#chair">
                <seg>Gracias, señor Legarda.</seg>
                <seg>Por el Grupo Parlamentario Catalán Democràcia i Llibertat, tiene la palabra la señora Nogueras.</seg>
             </u>
@@ -188,7 +186,7 @@
                <seg>Hablábamos la semana pasada de esa tónica inadmisible que ha impregnado la política española, y no me refiero al populismo y a la demagogia, que también, sino concretamente al fallismo. La política falla, y si la política, además de fallar, es lenta, entonces el resultado es esperpéntico. Los ciudadanos se alejan cada vez más de lo que debería ser la herramienta que más usan. Vamos a votar sí a la solicitud formulada por Podemos, aunque ya les advierto que además de supuestas irregularidades y errores, el problema principal es que muy a menudo estos políticos hacen las cosas mal, muy mal. Está muy mal que a estas alturas no solo no tengamos el corredor mediterráneo, sino que se nos intente vender el corredor central. Sin corredor no hay progreso. Mal, muy mal que, lejos de tener un proyecto de gran país competitivo, creativo y potente, estos Gobiernos hayan contribuido a empequeñecer el país sin proyecto, sin herramientas, sin imaginación y sin creatividad, fallando de nuevo y seguimos sin progreso.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u16" ana="#chair">
                <seg>¡Silencio, por favor!</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u17"
@@ -201,7 +199,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u18" ana="#chair">
                <seg>Gracias, señora Nogueras.</seg>
                <seg>Por el Grupo Parlamentario de Esquerra Republicana tiene la palabra el señor Tardà.</seg>
             </u>
@@ -218,7 +216,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u20" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u20" ana="#chair">
                <seg>Gracias, señor Tardà.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos, tiene la palabra el señor Hervías.</seg>
             </u>
@@ -235,7 +233,7 @@
                <seg>Pero también voy a hablar de Podemos, que están más pendientes de los focos y de las sillas. Y para esas preocupaciones sociales que tanto tienen, a la hora de buscar soluciones, lo que hacen es intentar dinamitar un acuerdo de más de doscientas reformas y, en vez de buscar políticas sociales, lo que intentan es tener, por ejemplo, el CNI -el servicio de inteligencia que, ¡claro!, para ayudar a los más necesitados va a hacer una función excelente-, o el Ministerio de Defensa o el Ministerio del Interior, donde van a hacer también unas funciones excelentes para esas preocupaciones sociales que ustedes tienen.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u22" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u22" ana="#chair">
                <seg>Silencio, Por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u23"
@@ -245,7 +243,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u24" ana="#chair">
                <seg>Muchas gracias, señor Hervías.</seg>
                <seg>Por el Grupo Parlamentario Socialista, tiene la palabra el señor Cámara.</seg>
             </u>
@@ -263,7 +261,7 @@
                <seg>Gracias por su atención, especialmente a quienes han seguido mi intervención, señorías, y gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u26" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u26" ana="#chair">
                <seg>Gracias, señor Cámara.</seg>
                <seg>Por el Grupo Parlamentario Popular tiene la palabra el señor García Hernández.</seg>
                <pb n="13"/>
@@ -277,7 +275,7 @@
                <seg>Hoy nos traen esta loable iniciativa disfrazada de -entre comillas- supuestas irregularidades, errores administrativos y falta de medios para que votemos a favor -lo que haremos-, pero de nuevo surgen dudas, porque en esta época tan democrática cómo le va a ser difícil votar a la gente -nuevo concepto que para ustedes sustituye a ciudadano o a persona-. ¿No será de nuevo por estos perversos señores,<pb n="14"/> incluidos los modestos funcionarios, que cercenan los derechos de los demás? Eso ya no hay quien se lo crea. Por eso tenemos la sospecha de que una comisión sobre medios, como en otros regímenes, acaba siendo una comisión sobre personas.<note>Aplausos</note> Y como la única forma que conozco de resistir la tentación es caer en ella, hablaré un poco sobre Venezuela y sobre la famosa lista Maisanta. El otro día aludió a ella el señor Xuclà en la Comisión, haciéndose eco de la anécdota que cuenta el señor Anasagasti, que tenía la doble nacionalidad, venezolana y española. Yendo un día a un mercadillo, compró un CD a precio de mercadillo con esta famosa lista Maisanta. Para su sorpresa, cuando la introdujo en el ordenador vio el registro de cuándo votó y lo que votó en Venezuela. ¡Para dar escalofríos! ¿Cuándo se hizo eso? Con ocasión del revocatorio. Por eso le digo al señor Sánchez que, antes de copiar el modelo presidencialista, se dé cuenta de que estamos en un modelo parlamentario antes de que el pasteleo llegue a límites insospechados. Lo que tenemos que tener bien claro es que esta Comisión de investigación no puede servir para traer la lista Maisanta a España y ahí estará el Partido Popular y espero que muchos de ustedes.<note>Aplausos</note> Aquí aparecen muchos interrogantes que me gustaría poner sobre la mesa. ¿Por qué una comisión de investigación, que siempre busca un responsable político, y no una comisión no permanente o de estudio para buscar medios, ver dónde están los fallos y arbitrar soluciones? La propia Junta Electoral Central ya respondió a la cuestión de Izquierda Unida de por qué estaba fallando este sistema y lo dijo clarísimamente: los plazos de la ley -por tanto, algo se podrá cambiar en la ley- y sobre todo los sistemas postales extranjeros. Desde luego no somos nosotros los que hemos asesorado a Venezuela en ninguno de los casos sobre cómo se debe mantener o hacer el voto.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u28" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u29"
@@ -287,14 +285,14 @@
                <seg>Usando su mismo informe, quiero decirles que en España no se obliga a la gente a votar, sí a inscribirse en el censo, como recoge el artículo 32, y que en las últimas elecciones andaluzas votó el 66 % de la gente que pidió el voto, desde luego mucha más participación que en la consulta de Podemos a sus bases sobre el pacto PSOE-Ciudadanos, que fue de un 37 %, y sin embargo no les he oído pedir una comisión de investigación al respecto.<note>Aplausos</note> Pero, claro, una comisión de investigación en su partido a lo mejor pone a temblar a más de uno, y vista ayer la pérdida en la fe de las primarias de su líder, no me extraña que todo lo que suene a democracia no lo acepten así. Aun así, les reitero de nuevo nuestro voto afirmativo, nunca un cheque en blanco, nunca una participación en la búsqueda de un culpable sino de una solución. Allí estaremos, pero la verdad es que todo parece indicar que los únicos que estaremos a por setas seremos los del consenso, los otros nos volverán a enseñar el famoso reloj con su famoso tic-tac.</seg>
                <note>Prolongados aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u30" ana="#chair">
                <seg>Gracias, señor García.</seg>
                <pb n="15"/>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPUESTAS DE CREACIÓN DE SUBCOMISIONES - PROPUESTA DE LA COMISIÓN DE EMPLEO Y SEGURIDAD SOCIAL, DE CREACIÓN DE UNA SUBCOMISIÓN PARA EL ESTUDIO DE LAS MEJORES PRÁCTICAS, EL SEGUIMIENTO Y PROPUESTAS DE MEDIDAS PARA EL EMPLEO ENTRE EL COLECTIVO DE MENORES DE 30 AÑOS.</head>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u31" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u31" ana="#chair">
                <seg>Señorías, pasamos al último punto del orden del día, relativo a las propuestas de creación de subcomisiones, en concreto a la propuesta de la Comisión de Empleo y Seguridad Social, de creación de una subcomisión para el estudio de las mejoras prácticas, el seguimiento y propuestas de medidas para el empleo entre el colectivo de menores de treinta años. Tal y como ha sido habitual en esta cuestión de crear subcomisiones, les pregunto si puede entenderse aprobada por asentimiento.<note>Asentimiento</note> Queda aprobada dicha propuesta.</seg>
                <seg>También debo preguntar si algún grupo quiere intervenir en el turno de explicación de voto.</seg>
                <note>Denegaciones</note>
@@ -302,11 +300,11 @@
          </div>
          <div type="debateSection">
             <head>SOLICITUDES DE CREACIÓN DE COMISIONES DE INVESTIGACIÓN : - SOLICITUD, FORMULADA POR LOS GRUPOS PARLAMENTARIOS PODEMOS-EN COMÚ PODEM-EN MAREA Y MIXTO, DE CREACIÓN DE UNA COMISIÓN DE INVESTIGACIÓN RELATIVA A LAS SUPUESTAS IRREGULARIDADES, ERRORES ADMINISTRATIVOS O FALTA DE MEDIOS PUESTOS A DISPOSICIÓN DE LA CIUDADANÍA ESPAÑOLA RESIDENTE EN EL EXTRANJERO PARA EJERCER SU DERECHO AL VOTO.</head>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u32" ana="#chair">
                <seg>Vamos a someter a votación la propuesta formulada por los Grupos Parlamentarios Podemos-En Comú Podem-En Marea y Mixto, de creación de una comisión de investigación relativa a las supuestas irregularidades, errores administrativos o falta de medios puestos a disposición de la ciudadanía española residente en el extranjero para ejercer su derecho al voto.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 312; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u33" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-20-CD160420.u33" ana="#chair">
                <seg>Queda aprobada.<note>Aplausos</note> Les comunico a los miembros de la Diputación Permanente que la reuniremos a las once menos cuarto, en la sala Constitucional, para proceder a su constitución.</seg>
                <seg>Se levanta la sesión.</seg>
                <seg>Eran las diez y veinte minutos de la mañana.</seg>

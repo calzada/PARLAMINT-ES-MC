@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="57">57 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="57" xml:lang="es">57 speeches</measure>
+            <measure unit="speeches" quantity="57" xml:lang="en">57 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="43"/>
                <tagUsage gi="note" occurs="43"/>
                <tagUsage gi="u" occurs="57"/>
-               <tagUsage gi="lb" occurs="264"/>
+               <tagUsage gi="seg" occurs="264"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>COMUNICACIÓN DEL GOBIERNO : - COMUNICACIÓN DEL GOBIERNO EN LA QUE SOLICITA LA CELEBRACIÓN DE UN DEBATE DE POLÍTICA GENERAL SOBRE EL ESTADO DE LA NACIÓN. COMPARECENCIA DEL GOBIERNO ANTE EL PLENO DE LA CÁMARA, DE CONFORMIDAD CON LO DISPUESTO POR EL ARTÍCULO 203 DEL REGLAMENTO. : - COMPARECENCIA, A PETICIÓN PROPIA, DEL PRESIDENTE DEL GOBIERNO ANTE EL PLENO DE LA CÁMARA, PARA INFORMAR SOBRE EL CONSEJO EUROPEO CELEBRADO EL 18 DE DICIEMBRE DE 2014.</head>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Esteban.</seg>
             </u>
@@ -124,7 +122,7 @@
                <seg>Señor presidente, voy concluyendo. Para ello intentaré expresar en grueso trazo la senda que creemos que todo Gobierno debe transitar en las presentes circunstancias. Somos partidarios de la separación de poderes, no de confundir o de supeditar al Ejecutivo los otros dos. Creemos en el Estado de derecho, y nos gustaría un funcionamiento más diligente y menos mediático de la justicia. Creemos en que quien incurra en actuaciones corruptas debe ser castigado y devolver el daño patrimonial causado. Creemos en el ejercicio transparente y honrado de la política al servicio de la sociedad. Creemos en un modelo más justo y equitativo, que requiere recaudar con justicia para financiar las políticas sociales a través de la redistribución adecuada de los recursos disponibles. Creemos en la nación vasca, cuya voluntad no puede estar subordinada a lo que decida sobre ella alguien que no sean sus ciudadanos y ciudadanas. Ya no miramos hacia el tiempo de descuento que queda de su acción política. Nuestra mirada está en el futuro, y el futuro no es la mayoría absoluta del Partido Popular. Confiamos en que sea un futuro abierto, de negociación y entendimiento, en el que, en vez de esconder la cabeza ante los retos estructurales, estos sean afrontados con convicción y realismo, un futuro que en lo referente a Euskadi y Cataluña debe contemplar necesariamente una segunda transición.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u3" ana="#chair">
                <seg>Muchas gracias, señor Esteban.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -153,7 +151,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u5" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Esteban.</seg>
             </u>
@@ -169,7 +167,7 @@
                <seg>En cuanto a política penitenciaria -voy acabando, señor presidente, no quiero abusar-, usted me dice: seguiremos aplicándola hasta el final. Señor presidente, las circunstancias han cambiado. No puede hacer la misma política que cuando ETA estaba actuando. Desde luego, yo he sido el primero en mi discurso que he dicho que ETA se tiene que disolver. Antes que usted lo he dicho yo. No puede ser que siga usted aplicando la política penitenciaria como la aplica. Usted me dice: y seguiremos manteniendo la dispersión para que puedan tomar decisiones individualmente. Oiga, aquí hay muchos presos de ETA, algunos presos de ETA que han renunciado a la violencia, que han hecho un examen de lo que ha pasado, que han mostrado su dolor por los actos que han cometido, que se han entrevistado con familiares. ¿Y sabe qué ha ocurrido? Que no se les ha aplicado ningún beneficio penitenciario. No, el señor Fernández y su Gobierno no les ha aplicado ningún beneficio penitenciario. Es más, incluso han intentado castigarles cuando hicieron declaraciones públicas en una radio, por ejemplo uno de ellos, en contra de ETA, simplemente porque había salido sin permiso a esa radio para hacer declaraciones en contra de ETA. ¿Y usted me está hablando de que la dispersión sirve para conceder luego beneficios penitenciarios? No han dado ni uno. Los únicos que han dado algún beneficio penitenciario han sido los jueces de vigilancia. Señor presidente, no puede seguir con esta política. No tiene ningún sentido, por mucho que le presionen -se lo he dicho antes- la derecha más rancia de su partido y las inercias. Hay inercias en uno y en otro lado. Hay que acabar con esto de una vez y usted puede hacer mucho, porque, sin cambiar la legislación, esa legislación puede ser aplicada más inteligentemente, y seguro que será en beneficio de todos.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u7" ana="#chair">
                <seg>Muchas gracias, señor Esteban.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -191,7 +189,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u9" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Ahora es el turno del Grupo Mixto, y en primer lugar, tiene la palabra el señor Cuadra.</seg>
             </u>
@@ -406,7 +404,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u34" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Ahora pasamos a la réplica del Grupo Mixto. Cada uno de los oradores sabe el tiempo que tiene, así que les ruego que se adapten a él, por la hora en la que estamos.</seg>
                <seg>Señor Cuadra.</seg>
@@ -419,7 +417,7 @@
                <seg>Yo no le voy a decir -empezando por mí- que no nos pueda venir bien mejorar nuestros niveles de ética y de moral, pero lecciones de usted, de su Gobierno y de su partido ¡ni una! En materia de ética y de moral, ustedes a la cola, callados y a repetir curso porque están faltos de mucho.<note>Rumores y protestas</note> Y cuando alguien hable de corrupción -que en esto sí son ustedes de champions- entonces levanten la mano. Porque esto son matemáticas puras, miren ustedes todos los cargos públicos, presidentes de comunidades, consejeros, miembros de partido, cajeros y gente que anda a su alrededor, miren el número de gente implicada por corrupción. La mayor parte de la gente es de su partido. Repito, de moral y de ética, a la cola, callados y sin decir nada hasta que no hablen todos los demás. ¡Por favor, faltaría mas!<note>Rumores</note>
                   <pb n="35"/> Termino. En cualquier caso, repito, después de haber dicho todo lo que le he comentado y sin soltar ningún exabrupto, nosotros vinimos aquí hace tres años con la mano tendida para hablar de paz, de diálogo, de acuerdo. Se nos negó, se nos robó el grupo parlamentario. Toda nuestra actuación en este Congreso se silencia, se tergiversa. Los medios de comunicación que ustedes controlan, públicos, y buena parte de los privados nos ningunean para que el mensaje de las 333.000 personas que nos eligieron en Euskal Herria y el mensaje de muchísima más gente que está a favor de este proceso de paz y de normalización democrática quede oculto.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u36" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u36" ana="#chair">
                <seg>Tiene usted que terminar, señor Cuadra.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u37"
@@ -427,7 +425,7 @@
                ana="#regular">
                <seg>Esto es lo que están haciendo ustedes y, a pesar de eso, seguimos diciendo: Esta es nuestra mano, sigue estando tendida. Olvídense ustedes de la victoria franquista. Por Euskal Herria han pasado godos, visigodos, ostrogodos, árabes, no sé cuántos reyes, Franco cuarenta años, no han pasado por allí&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u38" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u38" ana="#chair">
                <seg>Señor Cuadra, no puede usted ahora hacer historia.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u39"
@@ -435,7 +433,7 @@
                ana="#regular">
                <seg>No sigan por esa vía, apuesten por la paz.<note>Rumores</note> Apuesten por la normalización democrática. Ya les vale.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u40" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u40" ana="#chair">
                <seg>Tiene usted que terminar. Muchas gracias, señor Cuadra.</seg>
                <seg>Señor Bosch.</seg>
             </u>
@@ -448,7 +446,7 @@
                <seg>También quiero que usted tenga ocasión de explicarse, como Artur Mas, que pueda comparecer y despejar las dudas. Eso es lo que a mí me gustaría y por eso le digo lo que le digo. Por cierto, Artur Mas compareció a petición propia y nosotros se lo habíamos pedido cuatro veces, que compareciera a petición propia, nos parecía lo correcto. A la quinta -le ayudamos un poco- compareció a petición propia. Usted, señor Rajoy, no sé si está muy bien informado de lo que pasa en Catalunya. Pues, cambie de informante. Por cierto, uno de sus principales informantes, Alicia Sánchez-Camacho, no comparece, no quiere comparecer ni a petición propia ni como sea, en el caso Método 3 La Camarga. ¿Qué pasa, que para mandar en el Partido Popular tienes que presentar un carné de impresentable, de que no comparecen, de que está prohibido? ¿Le prohíben a la gente que se explique, que dé explicaciones de lo que sabe en sede parlamentaria, en una comisión? Le pedimos que permita una comisión de investigación sobre la corrupción en todo el Estado. Eso es lo que le pedimos, comparezca y no despiste ni maree más con asuntos que desconoce. Señor Rajoy, por favor, permita que se cree la comisión y comparezca.</seg>
                <seg>Usted dice que todo mejora, la economía, el empleo, la recaudación&#x85; La democracia no, lo acabamos de ver con la sentencia del Tribunal Constitucional. Y usted dice que nos irá todo mejor unidos. Si nos irá mejor unidos, ¿cómo es que no nos va mejor ahora, o no llevamos siglos con esta historia? Dice que nos irá mejor unidos. ¿Por qué a partir de ahora?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u42" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u42" ana="#chair">
                <seg>Tiene usted que terminar, señor Bosch.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u43"
@@ -457,7 +455,7 @@
                <seg>Termino ya.</seg>
                <seg>Le diré algo que creo que sí mejora, honestamente, creo que sí mejora y es motivo de satisfacción para mí y para la mayoría, y es que el pueblo se mueve, avanza, quiere cambiar las cosas. La gente quiere cambiar las cosas y por eso estoy convencido de que llegaremos a una república catalana y, con un poco<pb n="36"/> de suerte y con deseos fraternales, también a una república española. Y usted, señor Rajoy, se quedará ahí pasmado en su falso El Dorado. La vida es así.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u44" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u44" ana="#chair">
                <seg>Gracias, señor Bosch.</seg>
                <seg>Señora Oramas.</seg>
             </u>
@@ -470,7 +468,7 @@
                <seg>Le pido implicación. Ya pasamos de lo que ha hecho estos tres años, pero por los menos en los próximos nueve meses que quedan, implíquese. Implíquese con el Plan Juncker para luchar contra el paro, con el REF económico y con las medidas de conectividad de Canarias. No nos deje a los canarios a nuestra suerte. Como usted ha dicho: el sobrecoste de la lejanía y la insularidad existe haya crisis o no, con lo cual las medidas tienen que existir haya crisis o no, señor Rajoy.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u46" ana="#chair">
                <seg>Muchas gracias, señora Oramas.</seg>
                <seg>Señor Álvarez Sostres.</seg>
                <seg>El señor ÁLVAREZ SOSTRES: Gracias, señor presidente.</seg>
@@ -478,7 +476,7 @@
                <seg>Con respecto a las infraestructuras -aprovecho para hablar algo de Europa-, la política de crecimiento que se ha dictado en el Consejo los días 18 y 19 de diciembre facilita a España y a Asturias esta tendencia a mejorar las infraestructuras que tenemos en Asturias y en el resto de España. Estoy refiriéndome al Plan Juncker y a los 300.000 millones de distribución en los próximos años. Señor presidente, supongo que sabe que Europa tenía previsto financiar el corredor en ancho internacional Palencia-Gijón. Su Gobierno lo ha quitado como proyecto. De los sesenta proyectos que se han enviado a Bruselas, ha desaparecido el de Palencia-Gijón. Es cierto que se han metido proyectos que afectan a El Musel y a Avilés y también a las comunicaciones del AVE en la variante, pero concretamente este corredor en sí mismo no. Creo recordar que el plazo termina mañana. Usted dijo en su discurso que ese plan era dinámico y móvil, así que le pido que introduzca ese corredor, que está aprobado además por seis comunidades autónomas del noroeste de España, que conecta con los puertos fundamentales de El Musel y Gijón a través del norte de España. Le pido que realice esta gestión, esta petición tan<pb n="37"/> absolutamente necesaria por el aislamiento de Asturias. Esto lo concretaré en la propuesta de resolución de mañana, y me gustaría que el Grupo Popular y por supuesto el resto de los grupos facilitasen esta intención votando a favor.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u47" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u47" ana="#chair">
                <seg>Muchas gracias, señor Álvarez Sostres.</seg>
                <seg>Señor Salvador.</seg>
             </u>
@@ -490,7 +488,7 @@
                <seg>Termino hablando de Navarra. Navarra no es un mito, no es una idea utópica, un espacio geográfico indefinido, una comunidad étnica cerrada y excluyente. Navarra es una comunidad política real, histórica, viva, con una vocación política singular propia, con instituciones y símbolos milenarios, una comunidad dinámica y solidaria que mi partido quiere conservar y también mejorar. Es una comunidad que afrontará una vez más el asalto al poder de quienes quieren ensayar el enésimo intento de construir, desde el odio y las mentiras, un experimento de nación excluyente y malhumorada, como hoy también hemos podido comprobar. Es nuestro desafío, es verdad, pero también es un desafío para el país. Por eso, frente a los que siempre rebuscan en la historia imponiendo puerta a puerta su modelo de nación obligatoria, mi partido, Unión del Pueblo Navarro, seguirá apostando por una Navarra abierta, alegre, moderada y solidaria. Yo solo espero, señor presidente, que encontremos entre todos, entre la mayoría, entre muchos, una nueva ilusión, un espacio de colaboración abierto que nos permita mirar al futuro con más confianza y muchos menos complejos.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u49" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u49" ana="#chair">
                <seg>Muchas gracias, señor Salvador.</seg>
                <seg>Señora Barkos.</seg>
             </u>
@@ -503,7 +501,7 @@
                <seg>Presidente, no quiero terminar -seguro que además lo hago en nombre de todo mi grupo- sin trasladar ánimo y calor a nuestro compañero y amigo el señor Baldoví.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u51" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u51" ana="#chair">
                <seg>Muchas gracias, señora Barkos.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -520,7 +518,7 @@
                <note>Aplausos</note>
                <pb n="40"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u53" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Por el Grupo Popular tiene la palabra el señor Hernando.</seg>
             </u>
@@ -549,7 +547,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Popular en el Congreso, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u55" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -563,7 +561,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Popular en el Congreso, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-25-CD150225.u57" ana="#chair">
                <seg>Muchas gracias, señor presidente del Gobierno.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Era la una y treinta y cinco minutos de la tarde.</seg>

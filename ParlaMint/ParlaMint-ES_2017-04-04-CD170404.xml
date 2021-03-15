@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="106">106 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="106" xml:lang="es">106 speeches</measure>
+            <measure unit="speeches" quantity="106" xml:lang="en">106 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="41"/>
                <tagUsage gi="note" occurs="60"/>
                <tagUsage gi="u" occurs="106"/>
-               <tagUsage gi="lb" occurs="362"/>
+               <tagUsage gi="seg" occurs="362"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -731,7 +729,7 @@
                <seg>Mi enmienda tiene cuatro puntos. El primero insta a la eliminación de las diferencias entre los impuestos que satisfacen los españoles en función del lugar de residencia, con objeto de garantizar que el sistema tributario español esté presidido por el principio de homogeneidad fiscal e igualdad entre las comunidades autónomas. La simplificación del sistema impositivo también nos parece necesaria, porque el elevado número de figuras impositivas y su complejidad impiden un adecuado control y favorecen el fraude fiscal. En tercer lugar, queremos que se potencien los recursos destinados a la lucha contra el fraude fiscal. Y finalmente, instamos al Gobierno a aplicar reformas en el impuesto sobre la renta de las personas físicas para combatir las bolsas de fraude en el impuesto, con especial atención a rentas empresariales y profesionales no declaradas, así como en el IVA sobre el ámbito del tráfico intercomunitario de bienes y servicios, potenciando el intercambio de información entre países intervinientes.</seg>
                <seg>Nada más, señor presidente, y muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2017-04-04-CD170404.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2017-04-04-CD170404.u92" ana="#chair">
                <seg>Muchas gracias, señor Oblanca.</seg>
                <seg>Por el Grupo Parlamentario Ciudadanos, tiene la palabra el señor De la Torre Díaz.</seg>
             </u>

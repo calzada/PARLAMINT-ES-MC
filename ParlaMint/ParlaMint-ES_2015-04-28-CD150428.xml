@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="121">121 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="121" xml:lang="es">121 speeches</measure>
+            <measure unit="speeches" quantity="121" xml:lang="en">121 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="note" occurs="66"/>
                <tagUsage gi="pb" occurs="44"/>
                <tagUsage gi="u" occurs="121"/>
-               <tagUsage gi="lb" occurs="345"/>
+               <tagUsage gi="seg" occurs="345"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>MODIFICACIÓN DEL ORDEN DEL DÍA</head>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
                <seg>De conformidad con lo dispuesto en el artículo 68.1 del Reglamento, y acordada por la Junta de Portavoces, esta Presidencia propone al Pleno la modificación del orden del día en la parte correspondiente a interpelaciones, de tal manera que la interpelación del Grupo Socialista que figura en el orden del día con el número 28 pase a debatirse en primer lugar. ¿Lo acuerda así la Cámara?</seg>
                <note>Asentimiento</note>
@@ -108,7 +106,7 @@
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO SOCIALISTA, DE MODIFICACIÓN DEL ARTÍCULO 42.1 DEL ESTATUTO DE LOS TRABAJADORES PARA GARANTIZAR LA IGUALDAD EN LAS CONDICIONES LABORALES DE LOS TRABAJADORES SUBCONTRATADOS.</head>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u2" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo Socialista de modificación del artículo 42.1 del Estatuto de los Trabajadores para garantizar la igualdad en las condiciones laborales de los trabajadores subcontratados. Para la presentación de esta iniciativa, tiene la palabra doña Sofía Hernanz.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u3"
@@ -123,7 +121,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u4" ana="#chair">
                <seg>Muchas gracias, señora Hernanz.</seg>
                <seg>Turno de fijación de posiciones. Por el Grupo Mixto, tiene la palabra la señora Fernández Davila.</seg>
             </u>
@@ -136,7 +134,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u6" ana="#chair">
                <seg>Muchas gracias, señora Fernández Davila.</seg>
                <seg>Señor Tardà.</seg>
             </u>
@@ -149,7 +147,7 @@
                <seg>Por lo tanto, votaremos a favor de esta iniciativa parlamentaria. Desconozco si el Grupo Popular la va a aceptar. Si esto fuera así, intentaríamos aunar esfuerzos a fin y efecto de que saliera algo interesante antes de finalizar esta legislatura. Y, por supuesto, ¡viva la clase trabajadora! Hoy, como mínimo, tenemos necesidad de hacer una cierta catarsis. ¡Visca la clase trabajadora! Y creo que todavía nos quedan algunas cosas por compartir, lo cual creo que es, más que importante, incluso emocionante.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u8" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Por el Grupo Parlamentario Vasco, PNV, tiene la palabra la señora Sánchez Robles.</seg>
             </u>
@@ -164,7 +162,7 @@
                <seg>Por todo lo señalado, el artículo único de la proposición de ley es aceptable, pero también le diremos que es modesto para resolver los problemas que afectan a la subcontratación y que sucintamente han sido citados a lo largo de la exposición. Es razonable que sea el mismo objeto social de la empresa principal, de la contratista y subcontratista, y es igualmente razonable que se garanticen las condiciones laborales para todas ellas. Pero para esto -aquí es donde entendemos que es mejorable, por lo que si esta proposición es votada favorablemente- os ayudaremos a enriquecerla- no únicamente vale una reforma normativa como la que se propone, sino que además es preciso -lo ha señalado la diputada Olaia Fernández- una contundente actuación inspectora que evite lo que ya se ha constituido en una perversión en el seno del mercado laboral. En cualquier caso, y a pesar de este matiz, como les decía, el Grupo Vasco apoyará la toma en consideración de esta proposición de ley.</seg>
                <seg>Muchas gracias y disfruten de la tarde.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u10" ana="#chair">
                <seg>Muchas gracias, señora Sánchez Robles.</seg>
                <seg>Por Unión Progreso y Democracia tiene la palabra el señor Anchuelo.</seg>
             </u>
@@ -179,7 +177,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u12" ana="#chair">
                <seg>Muchas gracias, señor Anchuelo.</seg>
                <seg>Por el Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural, tiene la palabra el señor Coscubiela.</seg>
             </u>
@@ -192,7 +190,7 @@
                <seg>Pues bien, esa es la realidad que debemos abordar y lo debemos hacer desde la perspectiva clarísima de que ese autónomo -lo estamos viendo en algún conflicto actualmente- se convierte en una persona que no tiene la más mínima capacidad de decidir sus condiciones de trabajo, ni siquiera a través de la negociación colectiva porque la tienen negada como tal. Lo estamos viendo estos días con el conflicto de los trabajadores de las contratas de Movistar, Telefónica. Quien controla el producto y el mercado es una gran corporación en régimen de oligopolio que es Movistar, pero quien presta una parte importante de lo que son los servicios propios de Movistar son empresas contratadas, subcontratadas, subcontratadas de subcontratadas y, al final, está el autónomo, explotándose a sí mismo de manera escandalosa y vergonzosa. No se persigue un objetivo de calidad del servicio -lo sabemos muy bien los usuarios de algunas de esas compañías-, sino el objetivo de ampliar beneficios para distribuir más dividendos y ampliar la fortuna de Alierta y toda su camarilla, porque ese es el objetivo fundamental de esa estrategia. Eso lo saben muy bien los compañeros y compañeras&#x85;</seg>
                <note>Las señoras y los señores diputados del Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural, puestos en pie, muestran unos carteles en los que se lee: Solidaridad con los trabajadores de las subcontratas de Movistar</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u14" ana="#chair">
                <seg>Señor Coscubiela, le voy a cortar porque está usted secundado. Tienen ustedes que retirar esos papeles. Les llamo al orden por primera vez; retiren los papeles.<note>Las señoras y los señores diputados del Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural continúan mostrando los carteles</note> Les llamo al orden por segunda vez. Si no los retiran, tendré que expulsarles.</seg>
                <note>Las señoras y los señores diputados del Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural retiran los carteles y ocupan sus escaños</note>
             </u>
@@ -206,7 +204,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u16" ana="#chair">
                <seg>Gracias, señor Coscubiela.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió tiene la palabra el señor Campuzano.</seg>
             </u>
@@ -224,7 +222,7 @@
                <seg>En cualquier caso, bienvenido sea nuestro debate y va a contar con nuestro apoyo.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u18" ana="#chair">
                <seg>Muchas gracias, señor Campuzano.</seg>
                <seg>Por el Grupo Popular tiene la palabra la señora Álvarez-Arenas.</seg>
                <seg>La señora ÁLVAREZ-ARENAS CISNEROS: Muchas gracias, señor presidente.</seg>
@@ -241,11 +239,11 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u19" ana="#chair">
                <seg>Muchas gracias, señora Álvarez-Arenas.<pb n="17"/> - DEL GRUPO PARLAMENTARIO VASCO<note>EAJ-PNV</note> , DE MODIFICACIÓN DEL REAL DECRETO LEGISLATIVO 1/2001, DE 20 DE JULIO, POR EL QUE SE APRUEBA EL TEXTO REFUNDIDO DE LA LEY DE AGUAS.</seg>
                <note>Número de expediente 122/000196</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u20" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u20" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo Parlamentario Vasco<note>EAJ-PNV</note> , de modificación del Real Decreto Legislativo 1/2001, de 20 de julio, por el que se aprueba el texto refundido de la Ley de Aguas.</seg>
                <seg>Para su defensa tiene la palabra el señor Agirretxea.</seg>
             </u>
@@ -263,7 +261,7 @@
                <seg>Por ello pedimos su apoyo en esta toma en consideración. El Nerbioi-Ibaizabal discurre por territorio vasco, es un río -si me permiten la expresión- vasco. Los que van a votar en contra de esta toma en consideración tendrán que decir cuáles son los motivos; no vamos a hacer de esto una causa política cuando estamos hablando de causas puramente hidrográficas. Si alguien ve en esto un nuevo Treviño, está totalmente equivocado. La decisión ha de ser técnica, la decisión ha de ser jurídica; las sentencias del Tribunal Constitucional así lo atestiguan. El caso que les he puesto del río Almanzora creo que es evidente. Por lo tanto, supongo que ustedes sabrán perfectamente atender la petición del Grupo Vasco, que es legal y a su vez mucho más eficiente. La labor del Gobierno ha de ser eficiente, y en este caso pedimos eficiencia, porque si la gestión de esta cuenca está en manos de quien más cerca está, de quien atiende perfectamente las necesidades de los que tienen esos problemas, será mucho mejor.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u22" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u22" ana="#chair">
                <seg>Muchas gracias, señor Agirretxea.</seg>
                <seg>En turno de fijación de posiciones, en primer lugar, por el Grupo Parlamentario Mixto, tiene la palabra el señor Errekondo.</seg>
             </u>
@@ -277,7 +275,7 @@
                <seg>Hoy nos encontramos con que también se nos niega el control y la gestión sobre cuencas tan importantes como las del Oria y el Urumea o la del Bidasoa. Es decir, podríamos decir que hoy la capacidad de las instituciones vascas para gestionar los ríos vascos es residual. Para ustedes, señores del Partido<pb n="20"/> Popular, a las angulas que suben el Oria río arriba les pedirían ustedes el pasaporte por adentrarse en las tierras navarras; sepan ustedes que las propias angulas saben que transcurrir las aguas de Gipuzkoa a Navarra o viceversa es transcurrir por las aguas del mismo país, que es Euskal Herria. Llegará más pronto que tarde ese día. No tengan ninguna duda de que las instituciones vascas ostentarán algún día la soberanía plena sobre los recursos propios naturales y de que el Estado español tendrá que acordar con el Estado vasco la gestión de aquellas cuencas que recorran las tierras de ambos Estados.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u24" ana="#chair">
                <seg>Muchas gracias, señor Errekondo.</seg>
                <seg>Por Unión Progreso y Democracia tiene la palabra el señor Lleonart.</seg>
             </u>
@@ -291,7 +289,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u26" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u26" ana="#chair">
                <seg>Muchas gracias, señor Lleonart.</seg>
                <seg>Por el Grupo Parlamentario de La Izquierda Plural, tiene la palabra el señor Sixto.</seg>
             </u>
@@ -304,7 +302,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u28" ana="#chair">
                <seg>Muchas gracias, señor Sixto.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , tiene la palabra el señor Barberà.</seg>
             </u>
@@ -316,7 +314,7 @@
                <seg>Señorías, si observamos las cuencas hidrográficas que tiene el País Vasco, 2.300 kilómetros cuadrados están gestionados como cuenca intracomunitaria y 2.100 kilómetros cuadrados están gestionados como intercomunitarias. Supongo que será de difícil gestión tener la mitad de la superficie de las cuencas hidrográficas gestionadas desde Oviedo y desde el Estado central. En este caso, nada que discutir si fuese así, pero es que en 1.000 kilómetros cuadrados, que es la cuenca del Nerbioi-Ibaizabal, por un 1 % de esa cuenca, por 9 kilómetros cuadrados, 1.000 kilómetros cuadrados dentro de la Comunidad Autónoma del País Vasco están gestionados por el Estado. Debate político, debate competencial y, por tanto, además de las consideraciones jurídicas y técnicas que en la exposición de motivos de la proposición de ley del Grupo Vasco creo que convencen, nosotros apoyaremos esta iniciativa. Creemos que esta cuenca debe gestionarse intracomunitariamente y, por tanto, apoyaremos esta proposición de ley e intentaremos en el debate -si se aprueba-, si es que en algún otro espacio del Estado existe alguna peculiaridad diferente, tratarla también.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u30" ana="#chair">
                <seg>Muchas gracias, señor Barberà.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra la señora Pérez Herraiz.</seg>
             </u>
@@ -331,7 +329,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u32" ana="#chair">
                <seg>Muchas gracias, señora Pérez Herráiz.</seg>
                <seg>Por el Grupo Popular tiene la palabra el señor Collarte.</seg>
             </u>
@@ -347,13 +345,13 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u34" ana="#chair">
                <seg>Muchas gracias, señor Collarte.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY - DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, RELATIVA A LA ELABORACIÓN POR EL MINISTERIO DE DEFENSA DEL PROTOCOLO DE ACTUACIÓN EN RELACIÓN CON EL ACOSO SEXUAL, POR RAZÓN DE SEXO Y PROFESIONAL, EN LAS FUERZAS ARMADAS.</head>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u35" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u35" ana="#chair">
                <seg>Proposición no de ley del Grupo Popular relativa a la elaboración por el Ministerio de Defensa del protocolo de actuación en relación con el acoso sexual, por razón de sexo y profesional, en las Fuerzas Armadas.</seg>
                <seg>Para la presentación de la iniciativa tiene la palabra la señora Navarro.</seg>
             </u>
@@ -697,7 +695,7 @@
                <note>Aplausos</note>
                <pb n="40"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u85" ana="#chair">
                <seg>Muchas gracias, señora González Veracruz.</seg>
                <seg>Se han presentado enmiendas a esta moción. Para la defensa de la primera de ellas, por Unión Progreso y Democracia tiene la palabra el señor Anchuelo.</seg>
             </u>
@@ -712,7 +710,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u87" ana="#chair">
                <seg>Muchas gracias, señor Anchuelo.</seg>
                <seg>Para presentar la enmienda del Grupo Parlamentario Popular, tiene la palabra don Ildefonso Pastor.</seg>
                <pb n="41"/>
@@ -725,7 +723,7 @@
                <seg>Hay un segundo punto en el que hay una gran coincidencia, que es el de incentivos al retorno emprendedor; una materia, el emprendimiento, sobre la que el Gobierno ha hecho mucho en esta legislatura. También hay coincidencias importantes en garantía juvenil, fruto de la negociación del Gobierno a nivel europeo, y que asigna importantes recursos para la formación, para la empleabilidad y para las oportunidades de los jóvenes, y en la que nosotros planteamos que se mejore la financiación de las comunidades autónomas a través de esa mejora, que ha conseguido el ministerio en la prefinanciación de la garantía juvenil, o la implantación de medidas necesarias para garantizar la extensión del programa de garantía a los menores de treinta años, como también anunció la ministra.<note>Rumores</note> El cuarto es el de formación profesional en la alternancia para fomentar el retorno de los jóvenes desempleados al sistema educativo; una formación profesional dual que impulsó el Gobierno del Partido Popular, que está vinculada al contrato para la formación y el aprendizaje y que está teniendo una evolución muy positiva: hay 341.000 contratos desde enero de 2012 -que es una progresión importantísima-, con un 131 % más en 2014 que en 2012. Esto nos ha permitido que los datos de hoy, de la última EPA, arrojen que el paro en menores de treinta años se ha reducido en lo que va de legislatura en 267.000 personas, muestra de que algo está cambiando en nuestro mercado laboral. Sin embargo, no quiero perder la ocasión de señalar que es necesario poner luz sobre aquellos jóvenes que se van y sobre los que van buscando mejores oportunidades, que efectivamente los hay. Le voy a facilitar los datos de los emigrantes del año 2013. En 2013 salieron de España medio millón de personas, de los cuales eran jóvenes menores de treinta años 143.000 y, de esos, habían nacido en España 10.000 personas, siendo menores de veinticinco años 3.595. Por tanto, el 85,7 % de la salida de jóvenes de entre quince y veintinueve años corresponde a jóvenes nacidos fuera de España naturalizados y que retornan a sus países de origen.<pb n="42"/> Es exactamente lo mismo que lo que usted pretende para los jóvenes que han tenido que salir de España, que retornen a sus países de origen. Nosotros queremos que los españoles retornen aquí, todos los jóvenes, incluso aquellos que no han nacido en España.<note>Continúan los rumores</note> Por otro lado, a lo largo de su intervención ha hablado de que hay que mejorar la calidad de la contratación. Es curioso, porque el otro día leía un tuit del presidente de ATA -que, por cierto, ha hablado muy bien de la última reforma relativa a los autónomos que ha planteado el Gobierno- que decía que es cierto, que hay que mejorar la calidad de la contratación, que es una realidad y un reto, aunque quien más critica la calidad del empleo sea incapaz de crearlo.<note>Rumores</note> Fíjese, empiezo a dudar de si estaba pensando precisamente en ustedes. En todo caso, es obvio que queda mucho por hacer, pero la enmienda que hemos planteado es una mano tendida al Grupo Socialista, una mano tendida para el acuerdo. Esto es lo que nos demanda la sociedad. La pelota, señorías, está en su tejado.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u89" ana="#chair">
                <seg>Muchas gracias, señor Pastor.</seg>
                <seg>Turno de fijación de posiciones. En primer lugar, por el Grupo Mixto, del que intervendrán varios oradores, tiene la palabra el señor Baldoví.</seg>
             </u>
@@ -735,7 +733,7 @@
                <seg>El ministerio trabaja para conseguir que los jóvenes que quieran buscar oportunidades fuera de España puedan hacerlo porque a eso se le llama movilidad exterior. -Fátima Báñez en estado puro y sin complejos-. La emigración de jóvenes al extranjero no se debe solo a la crisis económica, sino a la globalización, a la libre circulación de trabajadores en Europa, al reclamo de profesionales por su buena preparación técnica y, por qué no decirlo, al impulso aventurero de la juventud. -Marina del Moral, secretaria general de Inmigración y Emigración, sin complejos-. Es una manera cínica de contar lo que está sufriendo toda una generación: la expulsión forzosa de su tierra, de su entorno o de su vida. Una diáspora que tiene caras y ojos, ya que dejan familia, amigos, su vida porque no les queda más opción; o mejor dicho, porque con la política económica del Partido Popular y su falta de reconocimiento del problema, su incapacidad para encontrar soluciones y su idea de que rezando a la Virgen baja el paro, no les dejan más opción. Han rescatado bancos, pero se han olvidado de garantizar un futuro para una generación.<note>Rumores</note> A nuestro entender, la solución no pasa solo por planes de repatriación, pasa por crear empleo aquí, crear oportunidades para los que aún no se han ido y para los que quieran volver. Queremos que todas las ayudas y programas de los que se puedan beneficiar los jóvenes que han emigrado, también estén disponibles para los jóvenes que se han quedado. Y queremos además que se apoye a los jóvenes que están fuera para hacer los trámites para volver: convalidaciones, etcétera; para ejercer sus derechos no hay por qué quitarles la tarjeta de atención sanitaria. Y un último punto: hay que facilitar el voto desde el extranjero; en estas elecciones se van a quedar sin votar miles y miles de jóvenes emigrados y todo gracias a su culpa. Pero para todo eso habrá que cambiar de Gobierno. En mi tierra, en la valenciana, estamos ya en ello.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u91" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Por el Grupo Parlamentario Mixto también, la señora Oramas.</seg>
             </u>
@@ -746,7 +744,7 @@
                <seg>El año 2013 tuve la oportunidad, el día 30 de mayo, de celebrar el Día de Canarias en Berlín con jóvenes canarios que estaban allí. Les puedo garantizar una cosa, señores del Partido Popular: había unos que eran científicos, músicos, gente súperpreparada, con talento, que no estaban en Berlín porque les encantara Berlín; habían tenido que salir porque allí se les reconocía su trabajo pero no era la vida que querían. Y después estuve con otros jóvenes que sin ser científicos sí habían hecho lo que sus padres les decían: estudia, que si estudias tendrás una oportunidad en este país&#x85; Aquello que le dijimos a los jóvenes, y después de terminar una carrera estaban fregando platos en Berlín. Así de claro. Ellos tampoco estaban voluntariamente en Berlín. Por eso creo que es importante, después del esfuerzo que hizo este país en formación, volver a dar esperanza y una oportunidad a tanta gente con tanto talento.<note>Continúan los rumores</note> Por otro lado, en esta moción hay una parte muy importante que nosotros denunciamos aquí varias veces: la importancia de que se incluya hasta los treinta años el programa de garantía juvenil. Tenemos gente que acabó los estudios, les pilló la crisis y no han tenido oportunidad. Esto es importantísimo, pero,<pb n="43"/> sobre todo, los problemas que ha habido en la tramitación. Por eso nos parece tan importante abrir los plazos y que la convocatoria esté abierta de forma permanente. En cuanto a los registros telemáticos, ha sido un verdadero desastre. El papel que tienen que jugar las comunidades autónomas para que la formación, las oportunidades laborales estén adaptadas al mercado de cada comunidad autónoma, es importantísimo, y prácticamente se ha excluido a las comunidades autónomas. Por eso los nacionalistas canarios vamos a apoyar esta moción.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u93" ana="#chair">
                <seg>Muchas gracias, señora Oramas.</seg>
                <seg>Señora Fernández Davila.</seg>
             </u>
@@ -756,7 +754,7 @@
                <seg>Sí, señor presidente.</seg>
                <seg>Intervengo desde el escaño. Mientras el Gobierno y el Grupo Popular que lo apoya se mantienen en esa actitud complaciente de definir la situación de los jóvenes que se marchan como movilidad geográfica, ellos en cambio se definen como exiliados. Y se definen como exiliados, señorías, porque entienden que no se van, sino que los echan, y los echa la falta de oportunidades de trabajo que este Gobierno les está negando. Porque no es verdad, como ha dicho el portavoz del Grupo Popular, que el Gobierno está haciendo todo lo posible. ¿Qué ha hecho el Gobierno en I+D sino crear las condiciones para que nuestros jóvenes científicos se tengan que marchar del Estado español? En Galicia, señorías, vivimos esta situación de una manera no sé si tan grave o más que en el resto del Estado. Lo cierto es que una cuarta parte de los emigrados son de nuestro país. Tres de cada cuatro familias tienen una persona emigrante, la mayoría jóvenes que en este momento están dando testimonios incluso desde los diferentes Estados en los que están trabajando reclamando unidad a las fuerzas políticas para que se haga una política que les permita volver. Voltar á terra es una plataforma creada en Galicia de cantidad de jóvenes que quieren volver, sobre todo, para aportar a su país la sabiduría, el conocimiento y el trabajo que están en condiciones de hacer. Señorías, tengamos en cuenta que el abandono de nuestros jóvenes tiene una incidencia tremenda en la despoblación o la reducción de población.<note>Rumores</note> Por eso nosotros vamos a apoyar esta moción del Grupo Socialista, porque entendemos que tiene medidas que sirven para impulsar esas políticas que reclaman los jóvenes y que son políticas de creación de empleo, políticas de oportunidades incluso para aquella formación a la que el Estado español no está dando alternativas de trabajo. Apoyamos esta moción.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u95" ana="#chair">
                <seg>Muchas gracias, señora Fernández Davila.</seg>
                <seg>Por el Grupo Vasco, PNV, tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -768,7 +766,7 @@
                <seg>Votaremos, pues, favorablemente esta iniciativa, aunque lo planteado por el Grupo Socialista sea un programa electoral más que una moción propiamente.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u97" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Coscubiela.</seg>
             </u>
@@ -781,7 +779,7 @@
                <seg>Parece que al Gobierno no le va mal esa situación de exilio de los jóvenes, y no digo que la quiera, pero, como el exilio de los jóvenes supone que dejen de formar parte de la población activa, sin hacer nada, curiosamente, baja el nivel de paro, porque en la medida en que baja la población activa se produce una reducción puramente estadística de la realidad del paro en España. En estos momentos, la situación de los jóvenes en nuestro país tiene al menos tres problemas gravísimos que deberíamos abordar, y deberíamos hacerlo desde el acuerdo. Para eso hace falta que el Partido Popular y el Gobierno reconozcan que existe el problema, en primer lugar, en términos sociales. Ya se ha dicho -no hace falta insistir- que no puede continuar condenándose a la generación mejor formada de la historia a una situación de falta de expectativas para los próximos años. En segundo lugar, en términos económicos y educativos nos estamos convirtiendo, si se me permite la expresión, en los indios de Europa; me refiero a los ciudadanos indios, a los que su país forma muy bien para luego exportarlos a todo el mundo como los mejor cualificados. No podemos continuar formando a nuestros jóvenes sin tener expectativas, porque eso es algo que aprovechan otras economías, mientras este país importa personal no cualificado para sustentar un tejido productivo ocioso que se alimenta estrictamente de poca calidad formativa y productiva. Y, en tercer lugar, hay un problema democrático. ¿Se han dado ustedes cuenta de que la falta de expectativas de estos jóvenes hoy es el principal factor corrosivo de nuestro sistema democrático? Es decir, uno de los factores en estos momentos del desapego de los jóvenes, si es que han tenido alguna vez apego por nuestro sistema democrático, es esa falta de expectativas. La sociedad no genera ninguna expectativa, les está excluyendo, y ellos responden situándose en una posición no de automarginación, sino de excluidos por el propio sistema. Esa es la gravedad de este problema.<note>Continúan los rumores</note>
                   <pb n="45"/> Por último, dejen que me refiera a una cuestión que he de mencionar obligadamente porque va a continuar saliendo en estos debates de manera reiterada, que es la famosa pócima mágica, el famoso bálsamo de Fierabrás del contrato único. Hay cosas en las que coincido con el amigo Álvaro Anchuelo pero en eso no. Como el contrato único va a tener cada vez más padrinos que se van a disputar esa brillante idea, déjenme que les diga algo que les he dicho ya muchas veces: para que los jóvenes tengan el derecho no es solución que se lo quiten a los trabajadores que ya lo tienen, no lo ha sido nunca.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u99" ana="#chair">
                <seg>Señor Coscubiela, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u100"
@@ -793,7 +791,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u101" ana="#chair">
                <seg>Muchas gracias, señor Coscubiela.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió tiene la palabra el señor Campuzano.<note>Continúan los rumores</note> Ruego silencio, por favor, porque no se puede oír al interviniente.</seg>
             </u>
@@ -806,7 +804,7 @@
                <seg>En segundo lugar, el Grupo Socialista en su moción plantea algunas consideraciones sobre la garantía juvenil, las compartimos y las hemos expresado también en iniciativas parlamentarias propias, en sesiones de control, en comparecencias del Gobierno. Es más, avanzado ya el año 2015, tenemos el gran riesgo y el gran escándalo de que la garantía juvenil fracase en su implementación en España, y que fracase por muchas razones: una, por una cuestión que ustedes apuntan en su moción, que es el sistema informático. Al sistema informático que el Ministerio de Empleo ha generado para permitir que los jóvenes accedan a<pb n="46"/> esta garantía juvenil es casi imposible acceder. Los jóvenes no tienen documento de identidad electrónico y menos aún los jóvenes que tienen menos nivel formativo, que son aquellos más necesitados de este recurso, y cualquier opción que no sea el documento de identidad electrónico es de una complejidad absurda que desanima a cualquier joven. Al mismo tiempo, el hecho de que las comunidades autónomas, o al menos algunas de ellas, no puedan hacer frente a las inversiones para poner en marcha la garantía juvenil, puede implicar que la misma no se desarrolle en toda su dimensión. Sería gravísimo vista la situación de desempleo que padecemos.</seg>
                <seg>El Gobierno ha rectificado y ha accedido a alguna petición que los grupos de la oposición formulábamos como la de ampliar la garantía juvenil hasta los treinta años. Bienvenida sea esa medida, pero la implementación de la garantía juvenil debería incidir no principalmente en subvencionar la contratación, que puede ser adecuado en determinadas circunstancias, sino en abordar las debilidades de nuestros sistemas de ocupación y de políticas activas de empleo en materia de jóvenes que al menos afectarían a dos cuestiones. En primer término, la atención individualizada a los jóvenes, que ha parecido en el anterior debate y que quiere decir más recursos para los servicios públicos de empleo para esa atención personal. En segundo, todas las pasarelas que permitan hacer posible las segundas oportunidades, por tanto, permitir que un joven que ha abandonado el sistema educativo pueda reincorporarse a los sistemas de formación. Eso exige más recursos para esas políticas.<note>Continúan los rumores</note> Finalmente, con ello termino, señor presidente, el debate sobre el choque de generaciones que el señor Anchuelo nos planteaba nos parece equivocado. No se trata hoy de afirmar que unos están más protegidos que otros, sino que nuestro Estado del bienestar&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u103" ana="#chair">
                <seg>Señor Campuzano, tiene usted que acabar, pero los demás deben guardar silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u104"
@@ -816,7 +814,7 @@
                <seg>Decía que nuestro Estado del bienestar debería estar más orientado a jóvenes y a niños, y esa es la gran debilidad que expresa también el desempleo juvenil.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u105" ana="#chair">
                <seg>Muchas gracias, señor Campuzano.</seg>
                <seg>Señora González Veracruz, como hay dos enmiendas tiene usted que decirme qué hace con ellas.</seg>
             </u>
@@ -825,7 +823,7 @@
                ana="#regular">
                <seg>En primer lugar, agradecemos el apoyo de UPyD, pero no podemos aceptar su enmienda, puesto que hoy mismo hemos presentado nuestro modelo que refleja tres tipos de contrato&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u107" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u107" ana="#chair">
                <seg>Señora González Veracruz, no polemice y defina.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u108"
@@ -833,7 +831,7 @@
                ana="#regular">
                <seg>En el caso de la enmienda del Grupo Popular no puedo aceptarla, puesto que &#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u109" ana="#chair">
                <seg>¿La votamos en sus propios términos?</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u110"
@@ -841,59 +839,59 @@
                ana="#regular">
                <seg>La votamos en sus propios términos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u111" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u111" ana="#chair">
                <seg>Muy bien. Así se hará en unos minutos.</seg>
                <note>Rumores.-Pausa</note>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY : - DEL GRUPO PARLAMENTARIO SOCIALISTA, DE MODIFICACIÓN DEL ARTÍCULO 42.1 DEL ESTATUTO DE LOS TRABAJADORES PARA GARANTIZAR LA IGUALDAD EN LAS CONDICIONES LABORALES DE LOS TRABAJADORES SUBCONTRATADOS.</head>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u112" ana="#chair">
                <seg>Vamos a comenzar las votaciones.</seg>
                <seg>Toma en consideración de la proposición de ley del Grupo Socialista, de modificación del artículo 42.1 del Estatuto de los Trabajadores para garantizar la igualdad en las condiciones laborales de los trabajadores subcontratados. Hay 3 votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="47"/> Efectuada la votación, dio el siguiente resultado: votos a favor, 306 más 3 votos telemáticos, 309; a favor, 137 más 1 voto telemático, 138; en contra, 167 más 2 votos telemáticos, 169; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u113" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u113" ana="#chair">
                <seg>No se toma en consideración.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO VASCO<note>EAJ-PNV</note> , DE MODIFICACIÓN DEL REAL DECRETO LEGISLATIVO 1/2001, DE 20 DE JULIO, POR EL QUE SE APRUEBA EL TEXTO REFUNDIDO DE LA LEY DE AGUAS.</seg>
                <note>Número de expediente 122/000196</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u114" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo Vasco, PNV, de modificación del Real Decreto Legislativo 1/2001, de 20 de julio, por el que se aprueba el texto refundido de la Ley de Aguas. Hay 3 votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306 más 3 votos telemáticos, 309; a favor, 36; en contra, 270 más 3 votos telemáticos, 273.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u115" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u115" ana="#chair">
                <seg>No se toma en consideración.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY : - DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, RELATIVA A LA ELABORACIÓN POR EL MINISTERIO DE DEFENSA DEL PROTOCOLO DE ACTUACIÓN EN RELACIÓN CON EL ACOSO SEXUAL, POR RAZÓN DE SEXO Y PROFESIONAL, EN LAS FUERZAS ARMADAS.</head>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u116" ana="#chair">
                <seg>Proposición no de ley del Grupo Popular en el Congreso, relativa a la elaboración por el Ministerio de Defensa del protocolo de actuación en relación con el acoso sexual, por razones de sexo y profesional, en las Fuerzas Armadas. Hay una enmienda transaccional, que conocen sus señorías y que es la que vamos a votar.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 302; a favor, 302.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u117" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u117" ana="#chair">
                <seg>Queda aprobada por unanimidad.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO SOCIALISTA, RELATIVA A LA IMPLANTACIÓN URGENTE DEL PROGRAMA GARANTÍA+45.</seg>
                <note>Número de expediente 162/0001218</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u118" ana="#chair">
                <seg>Proposición no de ley del Grupo Parlamentario Socialista relativa a la implantación urgente del Programa Garantía+45. Hay una incorporación de la enmienda del Grupo de La Izquierda Plural y ese texto es el que votamos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 119; en contra, 165; abstenciones, 22.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u119" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u119" ana="#chair">
                <seg>Queda rechazada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LAS MEDIDAS QUE PIENSA ADOPTAR EL GOBIERNO PARA EVITAR LA EMIGRACIÓN DE LOS JÓVENES ESPAÑOLES Y FAVORECER EL RETORNO DE AQUELLOS QUE SE HAN VISTO OBLIGADOS A SALIR FUERA DE ESPAÑA EN BUSCA DE OPORTUNIDADES DE EMPLEO.</head>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u120" ana="#chair">
                <seg>Moción del Grupo Parlamentario Socialista sobre las medidas que piensa adoptar el Gobierno para evitar la emigración de los jóvenes españoles y favorecer el retorno de aquellos que se han visto obligados a salir fuera de España en busca de oportunidades de empleo. Se va a votar en los propios términos de la propuesta.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="48"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 306; a favor, 138; en contra, 168.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-28-CD150428.u121" ana="#chair">
                <seg>Queda rechazada la moción.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las ocho y diez minutos de la noche.</seg>

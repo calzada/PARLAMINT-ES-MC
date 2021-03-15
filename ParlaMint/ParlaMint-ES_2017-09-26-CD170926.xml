@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="48">48 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="48" xml:lang="es">48 speeches</measure>
+            <measure unit="speeches" quantity="48" xml:lang="en">48 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="note" occurs="37"/>
                <tagUsage gi="pb" occurs="21"/>
                <tagUsage gi="u" occurs="48"/>
-               <tagUsage gi="lb" occurs="175"/>
+               <tagUsage gi="seg" occurs="175"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -378,7 +376,7 @@
                <seg>Una vez más, desde Foro reiteramos que conceptualmente el sistema escolar es la base del desarrollo económico y social de España y resultan imprescindibles cambios en el diseño del mismo con el objetivo de combinarlo con los avances de la economía y de la sociedad. En Foro, tal como describía nuestro programa electoral, consideramos que es preciso ir a un modelo de educación que se base en la certeza de que el eje de la educación es el individuo y la familia como poseedora de derechos fundamentales, pero defendemos también la liberalización del sistema escolar, con el centro educativo como fundamento de una España moderna y renovada. Como base de la deseada igualdad, renovamos nuestra afirmación en el principio de diversidad y no en la uniformidad, pero esa diversidad no está reñida con la necesaria y mensurable homogeneidad propia de un solo sistema escolar. Lo contrario da lugar a situaciones graves contra el orden constitucional, incubadas ya desde los años noventa en una escuela como la que el Grupo Socialista ampara en el punto 5 de su moción. ¿Pero no han caído aún en la cuenta de cuál es el camino y cuál es el objetivo de la escuela nacionalista? Es preciso incidir en los cambios estructurales pero también en cómo se enseña, qué se enseña y cómo se tiene que aprender. No debería tratarse solo de parchear viejos proyectos. El fin último sería que la escuela española orientase su funcionamiento hacia la conformación de una nueva sociedad fundamentada en una mayor equidad y justicia social desde una igualdad de oportunidades.</seg>
                <seg>A la vista de esta iniciativa, señalo que comparto su diagnosis financiera, pero al mantener el marco general de la LOE, y desde luego su concepción pedagógica -citación tardíamente reconocida por el entonces ministro señor Wert-, la moción aporta muy poco a solucionar los graves defectos de nuestro modelo escolar, más allá de las mejoras estadísticas, que siempre vienen bien, aunque en educación lo importante es la estadística a medio y largo plazo.<note>Rumores</note> Hoy no les hacemos ninguna enmienda salvo la de totalidad...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2017-09-26-CD170926.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2017-09-26-CD170926.u34" ana="#chair">
                <seg>Silencio, señorías.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-09-26-CD170926.u35"

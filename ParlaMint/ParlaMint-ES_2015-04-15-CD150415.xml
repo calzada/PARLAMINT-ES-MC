@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="253">253 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="253" xml:lang="es">253 speeches</measure>
+            <measure unit="speeches" quantity="253" xml:lang="en">253 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="104"/>
                <tagUsage gi="note" occurs="158"/>
                <tagUsage gi="u" occurs="253"/>
-               <tagUsage gi="lb" occurs="747"/>
+               <tagUsage gi="seg" occurs="747"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,15 +92,11 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Comparecencia del presidente del Gobierno para informar sobre el Consejo Europeo de los días 19 y 20 de marzo de 2015. Tiene la palabra el señor presidente del Gobierno.</seg>
             </u>
@@ -129,7 +127,7 @@
                <seg>Señoras y señores diputados, muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u3" ana="#chair">
                <seg>Muchas gracias, señor presidente del Gobierno.</seg>
                <seg>En primer lugar, por el Grupo Socialista tiene la palabra el señor Sánchez.</seg>
             </u>
@@ -156,7 +154,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u5" ana="#chair">
                <seg>Muchas gracias, señor Sánchez.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió, tiene la palabra el señor Duran i Lleida.</seg>
             </u>
@@ -180,7 +178,7 @@
                <seg>Hagamos también entender a Rusia que le debilita su enfrentamiento con la Unión Europea y entendamos nosotros -y es muy importante- que Rusia tiene necesidad de guardar un área de seguridad. Sé, señor presidente -y con ello acabaría mi reflexión porque se acaba también el tiempo-, que en la Unión Europea hay distintas sensibilidades. ¡Cómo no lo voy a comprender! No puede ser la misma sensibilidad la del presidente de Polonia que la del presidente de España. Lo sé y es lógico que sea así y, por tanto, la síntesis de esas sensibilidades a veces lleva a tomar decisiones que no nos acaban de agradar del todo. También sé que en el marco de la Alianza Atlántica la sensibilidad norteamericana no es la misma que la sensibilidad europea, pero me remito otra vez a quien cité al inicio de este capítulo al tratar el tema de Rusia-Ucrania, que es el presidente Prodi. Estados Unidos -decía Prodi, y estoy completamente de acuerdo- es nuestro gran amigo, pero no es Europa. Por tanto, Europa tiene y debe tener su posición que no necesariamente tiene y debe ser idéntica a la de los Estados Unidos.</seg>
                <seg>Para acabar, voy a hablarle de Libia, señor presidente. Libia es una muestra de Estado fallido. Un país dividido en dos partes, la parte occidental tocando a Túnez con lo que es -y después me referiré a ello- toda la pujanza del yihadismo en esa zona. El deterioro de Libia es, a nuestro juicio, un reto y también una amenaza. Reto, ¿por qué? Porque significa la incapacidad por parte no simplemente de Europa sino de Europa y Estados Unidos, por muchos esfuerzos que ha hecho la comunidad internacional -y en este sentido agradecemos y aplaudimos a Bernardino León, en nombre de Naciones Unidas-, de sustituir el Estado de Gadafi por otro Estado democrático. No es el primer caso en que Europa y el mundo occidental fracasan y no es el primer caso de Estado fallido. Pero ahora estamos hablando de Libia, porque de Libia hablan las conclusiones del Consejo Europeo. Por tanto, ahí hay un fracaso y un reto, que es también la incapacidad de controlar la inmigración. Antes el señor Sánchez hizo referencia a la noticia -que no sé si está confirmada- de que 400 personas, la mayoría niños, se han dejado la vida en una barcaza intentando llegar a costas europeas, y no solo es una tragedia sino que es una vergüenza para el mundo occidental y una vergüenza especialmente para el mundo europeo, porque no gastamos lo que deberíamos gastar en esos países de África para evitar la inmigración, no actuamos como deberíamos actuar en origen. Es una amenaza también. ¿Por qué? Porque, como se vio en el atentado de Túnez, los dos&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u7" ana="#chair">
                <seg>Señor Duran, tiene usted que terminar.</seg>
                <pb n="21"/>
             </u>
@@ -193,7 +191,7 @@
                <seg>Muchas gracias, señor presidente del Gobierno. Muchas gracias, señor presidente, por su benevolencia.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u9" ana="#chair">
                <seg>Muchas gracias, señor Duran.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Coscubiela.</seg>
             </u>
@@ -317,7 +315,7 @@
                <seg>En cuanto a inmigración -aunque ya he rebasado el tiempo-, el párrafo que leo cada vez que hay una cumbre, sobre las conclusiones, es exactamente el mismo y además ha coincidido, como ya han señalado algunos diputados, con otra tragedia más, parece ser, en esa frontera sur cerca de Italia. Esperemos que esa política de inmigración, que al mismo tiempo tiene que ser humanitaria, se pueda llegar a concretar y avanzar de una vez en los próximos tiempos.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u25" ana="#chair">
                <seg>Muchas gracias, señor Esteban.</seg>
                <seg>Quiero comunicar a sus señorías que nos acompaña en la tribuna doña Margarita Popova, vicepresidenta de la República de Bulgaria, a quien saludo efusivamente.<note>Aplausos</note> Muchas gracias.</seg>
                <seg>Continuamos con el Grupo Parlamentario Mixto que acumula en este turno, como siempre, su turno de réplica. Tiene la palabra el señor Larreina.</seg>
@@ -332,7 +330,7 @@
                <seg>Voy finalizando, señor presidente. Usted hablaba también de la fiscalidad, que es un tema importante, pero aquí además se está actuando de espaldas a la realidad, a la realidad de la gente de la calle, a la realidad de las pequeñas y medianas empresas. Usted tiene que llevar allí una propuesta muy clara, que es acabar con las Sicav, y hay que hacerlo a nivel de la Unión Europea porque es el mayor paraíso fiscal, es una de las mayores raíces de insolidaridad, que está detrás de todas las burbujas económicas que están detrás de todas las crisis que se han producido en el pasado. Usted habla de la importancia de las grandes empresas en el mercado americano, que son las grandes constructoras, y que no crean empleo aquí sino allí. Traen el dinero de allí y lo meten en las Sicav, no repercutiendo en la riqueza y en la solidaridad con el resto de la ciudadanía del Estado español y con el resto de la ciudadanía del Estado europeo. Es un elemento que está pendiente, que está en la agenda y que tiene que afrontar. Por eso nosotros -con esto acabo de verdad, señor presidente- propugnamos otro modelo de Europa, propugnamos otra forma de construir Europa, basada más en los principios que proponían los padres fundadores y, sobre todo, en el reconocimiento de las distintas realidades que hay en el seno de la Unión Europea y, desde el punto de vista, del reconocimiento de nuestra identidad nacional y del derecho de Euskal Herria a decidir su futuro y a formar parte de esa Europa en igualdad de oportunidades con el resto de los pueblos de Europa.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u27" ana="#chair">
                <seg>Muchas gracias, señor Larreina.</seg>
                <seg>Señor Tardà.</seg>
                <pb n="34"/>
@@ -344,7 +342,7 @@
                <seg>Señor Rajoy, ¿usted cree que don Jorge Fernández Díaz es una mala persona? Estoy convencido de que coincido con usted en afirmar que no, rotundamente no; de hecho, si el señor Fernández Díaz fuera una mala persona yo quedaría un tanto aliviado porque pensaría que asociar yihadismo con independentismo es producto de la mente de una mala persona, pero yo estoy convencido de que el señor Fernández Díaz no lo es. Es más, aseguro que no es una mala persona porque lo conozco y sé como piensa, lo que es todavía más preocupante porque significa que responde a una posición política, y esto sí que es lo que a nos provoca pánico. ¿Hasta dónde están dispuestos a llegar para hacer descarrilar una hipotética -repito: hipotética- voluntad democrática de la ciudadanía catalana a decidir su futuro? -Vuelvo a repetir: hipotética y democrática-. ¿Todo vale? ¿No creen que es muy perverso asociar religión musulmana y yihadismo a independentismo como posición independentista de un musulmán catalán o de un catalán cercano a otro conciudadano de religión musulmana? ¿Cuándo va a parar esta espiral?, ¿dentro de tres semanas?, ¿cuándo estemos a punto de convocar unas elecciones que, quieran o no, tendrán un carácter plebiscitario, no porque lo diga Esquerra Republicana, sino porque quizás lo diga la mayoría de la ciudadanía catalana? Porque si ahora llegan hasta aquí, ¿hasta dónde llegarán cuando estemos en el proceso definitivo, cuando estemos a las puertas -repito: quizás- de declarar la independencia? Una sociedad democrática debería poner freno a estas espirales. Si no, sufriremos y sufrirá la democracia. ¿Cuál es su objetivo?, ¿meternos a todos en la cárcel?, ¿media Cataluña en la cárcel? Las buenas personas -repito: doy fe de que él y yo lo somos; no puedo hablar por usted porque no lo conozco personalmente, quizás, creo, que usted mismo lo sea- deberíamos evitar esto. Además, porque es absurdo no hablar de las causas reales del yihadismo.</seg>
                <seg>Las causas reales del yihadismo se encuentran en los Estados fallidos, en los Estados criminales muy amigos de las democracias europeas, al menos de algunas -quizá no de las escandinavas- y en el desguace del Estado del Bienestar. Ya que se ha hablado tanto de energía, en este último encuentro, usted ¿ya les ha recordado a sus socios los 30.000 millones -deuda ilegítima- que se han contraído con los oligopolios energéticos -cinco empresas-, a fin y efecto de acumular capitales más allá de aquello que se había previsto como síntoma y voluntad de modernidad, de hacer cómplices a los ciudadanos en todo aquello que tenía que ver con las renovables?, ¿cuántas familias que creyeron en un futuro energéticamente sostenible se han arruinado? Para finalizar&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u29" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u29" ana="#chair">
                <seg>Señor Tardà, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u30"
@@ -353,7 +351,7 @@
                <seg>Para finalizar, le pido, señor Rajoy: unos cuantos diputados de todos los grupos parlamentarios dentro de un par de horas iremos a Barajas, donde hay una ciudadana, una señora, una persona, en este caso una mujer proveniente de una república africana a la que es muy importante que se le dé asilo. Es muy importante porque al parecer por sus tendencias sexuales, en el caso de que fuera repatriada, quizás perdería su vida. Estoy convencido de que tanto los compañeros del Partido Popular como los compañeros de los distintos grupos parlamentarios haremos alguna acción, conjuntamente con el ministerio, a fin y efecto de que no ocurra algo por lo que después nos tiraríamos de los pelos. Son pocas horas y está en su mano, en pocas horas, hacer algo. Se lo pido -no soy nadie para pedírselo- porque es un tema urgente.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u31" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u31" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Señora Fernández Davila.</seg>
             </u>
@@ -367,7 +365,7 @@
                <seg>Para finalizar, porque se me ha acabado el tiempo, quiero decirle que también nos preocupa el famoso Plan Juncker en la medida en que a estas alturas, y según trasciende, no se sabe si se va a llevar a cabo porque no se conoce cómo se va a financiar. A estas alturas no está muy claro, aunque teóricamente haya una línea de financiación porque parece que no es posible. Le pediríamos que si puede nos hable algo sobre esto en su respuesta.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u33" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u33" ana="#chair">
                <seg>Muchas gracias, señora Fernández.</seg>
                <seg>Señor Quevedo.</seg>
             </u>
@@ -379,7 +377,7 @@
                <seg>En relación con la unión de la energía, se insiste en la necesidad de la unión de la energía con una política climática de futuro. Completamente de acuerdo, el pequeño problema es que esto es justamente lo contrario de las políticas que ustedes han desarrollado en materia energética: España es el tercer Estado de la Unión Europea con la energía más cara, las empresas energéticas españolas son las que más beneficios perciben de toda la Unión Europea, el sector menos competitivo de la Unión Europea es el español, y está el incremento escandaloso de la pobreza energética que sufre este país. Esto no tiene nada que ver con lo que se está planteando aquí porque nosotros conocemos bien su obsesión por las energías renovables. Los canarios hemos sufrido la afrenta de las prospecciones petrolíferas -no será<pb n="36"/> que no les hayamos pedido a ustedes de todas las formas posibles dialogar en esta cuestión- y una agresión con un resultado, como conoce, que no es precisamente el mejor. Además hay una agresión al desarrollo de las energías renovables; tenemos el 6 % de las energías renovables de penetración -que es un escándalo por lo bajo- en un lugar como Canarias que debería ser el paraíso de las energías renovables; también tenemos un conflicto institucional permanente que bloquea el desarrollo de este tipo de energías. Por supuesto al objetivo 2020 de la Unión Europea en esta materia no llegamos de ninguna manera; en 2030 no sé, pero en 2020 nosotros no cumplimos esos objetivos. Además hay un escándalo monumental porque dos plataformas asociadas a las energías renovables han tenido que denunciar a Anticorrupción que las medidas contra las energías renovables no estaban sustentadas en informes, como se venía diciendo, que se pagan pero no se usan. Nos sorprende que se pueda estar satisfecho con el resultado de esta cumbre, pero si significa que sirve para una revisión de sus políticas, entonces a lo mejor ha valido para algo.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u35" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u35" ana="#chair">
                <seg>Muchas gracias, señor Quevedo.</seg>
                <seg>Señor Baldoví.</seg>
             </u>
@@ -390,7 +388,7 @@
                <seg>En cuanto a crecimiento y empleo, como siempre ha sacado pecho con algunas cifras -las que le convienen-, pero tiene un problema, como acertadamente dijo el señor Floriano en esa distendida charla de salón que compartió con usted, con la señora Cospedal y los señores Arenas y Pons: le falta darle piel a cada cifra que da. Vamos a intentar dar piel a las cifras: según el CIS, las preocupaciones de los españoles apuntan al paro y a la corrupción, cosas que tienen mucho que ver con usted; a la desigualdad, que ha aumentado; a la justicia social, en donde ocupamos el puesto veintiuno de la Unión Europea. Más piel: los desahucios, que aumentaron un 7,4 en 2014; las coberturas de las personas paradas han bajado a 55 %, un 7 % menos. Por último -y voy acabando-, a pesar de sus cifras triunfalistas en el empleo, la Seguridad Social obtuvo un déficit histórico en el 2014: 15.000 millones, debido, evidentemente, a la precariedad en el empleo y a la devaluación de los salarios; además, han sacado 24.000 millones de la hucha de las pensiones. Esa es la verdadera piel de los ciudadanos. Su lema para esta campaña es trabajar, hacer y crecer; trabajar, hacer y crecer la desigualdad, la injusticia social o la precariedad.</seg>
                <seg>Acabo. Con el tratado de libre comercio deberían esforzarse&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u37" ana="#chair">
                <seg>Debe usted terminar, señor Baldoví.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u38"
@@ -399,7 +397,7 @@
                <seg>Me quedan treinta segundos. El señor Sánchez se ha pasado nueve minutos y yo me paso poquito.</seg>
                <pb n="37"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u39" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u39" ana="#chair">
                <seg>Hay que medirlo porcentualmente.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u40"
@@ -409,7 +407,7 @@
                <seg>Dice en las conclusiones que deberían esforzarse por comunicar los beneficios del acuerdo y mejorar el diálogo con la sociedad civil. Esto es un auténtico sarcasmo, porque aquí solo vemos secretismo -se oculta información- y lo que hace falta es luz y taquígrafos. Por tanto, me uno a la petición del señor Esteban y le digo: señor Rajoy, ¿cuándo nos contará los beneficios de ese acuerdo, cuándo nos los va a contar?</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u41" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u41" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Señor Álvarez Sostres.</seg>
                <seg>El señor ÁLVAREZ SOSTRES: Gracias, señor presidente.</seg>
@@ -417,14 +415,14 @@
                <seg>Parece claro, señor presidente, que, según sus palabras, la cumbre ya lejana del 19 de marzo se centró en cuestiones propias de la política exterior en Ucrania, en cuestiones de seguridad antiterrorista y en los problemas aún persistentes del posible default de Grecia tratados en una minicumbre reduccionista y nocturna a la que usted no fue invitado, y a mí, con franqueza, me gustaría conocer las causas, porque el reino ha prestado una parte de los 240.000 millones de euros del rescate, que salen algo caros para los cuarenta y siete segundos que, según usted, le dedicaron a este problema de Grecia. Nos dice que algo más de tiempo le dedicaron a los problemas del crecimiento interior de la energía, disminuyendo nuestro perfil energético y nuestra propia dependencia energética, que asciende casi al 98 %. La nueva ley de hidrocarburos, en trámite parlamentario -que yo enmendé sin éxito porque a Foro no se le pueden aceptar enmiendas de manera general-, trata de nuclear y actualizar este importante tema, como es el apoyo a la investigación de campo sobre hidrocarburos convencionales y no convencionales. Me interesaría conocer su opinión real acerca de la investigación sobre las nuevas fuentes de energía no convencionales, en este caso producciones de gas, el llamado fracking, etcétera, a efectos de nuestro propio país y, por supuesto, de aquellas comunidades que tengan esta viabilidad.</seg>
                <seg>Otro de los asuntos que sobrevolaron las reuniones fue dar impulso al plan de inversiones, absolutamente necesario para la creación de empleo y para el crecimiento. En el pasado debate del estado de la Nación yo le presenté sin éxito una iniciativa esencial para Asturias y las comunidades vecinas del noroeste y norte de España y después una proposición no de ley referida al corredor Palencia-Gijón y su incursión en el corredor atlántico, corredor que, como usted sabe, estaba dentro de los nueve corredores transeuropeos y en programas de financiación de estas infraestructuras, en las que se han producido algunas novedades financieras importantes -ya las citó usted-: a través del ICO se han dado 1.500 millones de euros; 8.000 ha dado Francia y 8.000 ha dado Alemania. Lo que quiero decirle, señor Rajoy, es que ahora, fruto de los vientos electorales, el Ministerio de Fomento ha sacado hace unos días a información pública el tramo Gijón-Avilés, dentro de la línea de AVE Madrid-Asturias, pero embrollándolo todo, el AVE y la mejora de los ferrocarriles de cercanías en itinerarios y material. Le ruego que no nos engañe más, yo se lo pido por favor; sé que usted siempre es generoso en muchísimas cuestiones y le pido que sea generoso en esta. Es un hecho que desde León no habrá alta velocidad para Asturias, y la razón es que sin este requisito, que su ministerio no cumple, no habrá financiación europea para algo que no sea alta velocidad. ¿No es cierto que ya han tenido que contar en Bruselas que el ancho ibérico de la variante es provisional porque si no tendrían que devolver fondos ya recibidos? Si estoy confundido, le ruego que me saque de ese error y yo se lo agradeceré. No me haga creer que todo forma parte del modelo Rajoy.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u42" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u42" ana="#chair">
                <seg>Señor Álvarez, tiene usted que acabar.</seg>
                <seg>El señor ÁLVAREZ SOSTRES: Termino, señor presidente.</seg>
                <seg>Un modelo que, retórica aparte, consiste en tres años de incumplimiento y dos meses de activación de promesas ad calendas graecas. Estamos ante una línea de financiación vital para Asturias, para las comunidades vecinas, y le ruego que con la ayuda europea, que tenemos esa oportunidad, termine las obras y conecte a Asturias con el corredor atlántico y el resto de corredores europeos.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
                <pb n="38"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u43" ana="#chair">
                <seg>Muchas gracias, señor Álvarez Sostres.</seg>
                <seg>Señor Salvador.</seg>
             </u>
@@ -437,7 +435,7 @@
                <seg>El tercer punto hace mención a un popurrí de temas: política europea de Vecindad, Cumbre de la Asociación Oriental, el conflicto de Ucrania o la crisis de Libia. Yo, en abstracto -porque obviamente no puedo entrar en ningún detalle-, le diría: busquemos una voz europea única que en todos estos temas defienda nuestros intereses y nuestros valores; seamos cautos para poder acertar en los aliados o con los aliados y en las estrategias, y acompañemos todos los esfuerzos de quienes quieren crear condiciones para mejorar la vida de los ciudadanos. Me gustaría hacer tres sugerencias en materia de inmigración, que es un tema sensible y doloroso: tenemos que aumentar el apoyo de la Unión a los países de origen y de tránsito; tenemos que mantener la vigilancia, el control y la sanción a las mafias que trafican con personas, y también debemos coordinar la respuesta humanitaria de seguridad, que creo que será el objetivo del programa europeo sobre inmigración que se verá próximamente. No dicen nada las conclusiones sobre terrorismo y sobre Grecia, y me gustaría decir algo. Sobre terrorismo, no bajemos la guardia y sigamos actuando unidos, que es como actuaremos con mayor fortaleza. Sobre Grecia, es verdad que están en un problema y tenemos un problema. Busquemos ser justos, y cuando digo justos me refiero a ser ponderados, pero sin componendas y sin atajos.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u45" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u45" ana="#chair">
                <seg>Muchas gracias, señor Salvador.</seg>
                <seg>Finalmente, como último interviniente del Grupo Mixto, tiene la palabra la señora Barkos.</seg>
             </u>
@@ -450,7 +448,7 @@
                <seg>Termino. Unión energética. En opinión de Geroa Bai, estamos perdiendo la posibilidad real de ser referente energético en renovables a futuro, una posición, por cierto, que se están encargando de ocupar otros países fuera incluso de la Unión y además con una enorme convicción en torno a este apartado. Estoy hablando de Estados Unidos, creo que poco sospechoso de estar haciendo inversiones y estrategias que no coincidan con lo que la deriva del sector puede proponernos. Por tanto, estamos perdiendo esa posibilidad real y está usted eligiendo el camino fácil de ir al tran tran de lo que le marcan otros intereses en Europa cuando hablamos de unión energética. Estamos perdiendo posiciones ciertas en términos de soberanía energética. Nos parece que este es un punto que debe usted reconducir.</seg>
                <seg>Gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u47" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u47" ana="#chair">
                <seg>Gracias, señora Barkos.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra don Rafael Hernando.</seg>
             </u>
@@ -471,7 +469,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u49" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u49" ana="#chair">
                <seg>Muchas gracias, señor Hernando.</seg>
                <seg>Tiene la palabra el señor presidente del Gobierno para responder a lo formulado por los grupos.</seg>
             </u>
@@ -525,7 +523,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u51" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u51" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Entramos en un turno de réplica e, insisto, como ya dije en la reunión de portavoces, en que voy a ser muy estricto. No lo he sido en la primera intervención, pero ahora sí por la hora en la que estamos.</seg>
                <seg>Tiene la palabra el señor Sánchez.</seg>
@@ -541,7 +539,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u53" ana="#chair">
                <seg>Muchas gracias, señor Sánchez.</seg>
                <seg>Señor Coscubiela.</seg>
             </u>
@@ -555,7 +553,7 @@
                <seg>Sobre el tratado transatlántico de inversiones y comercio, no nos hagan ustedes trampas; nadie está en contra del comercio y del libre comercio. Estamos en contra y nos oponemos a un tratado de inversiones y comercio transatlántico que tiene como principal objetivo crear una gran área económica sin ningún tipo de mecanismo de control político y eso ya sabemos, por la experiencia de la Unión Europea, hacia donde nos lleva. Nos lleva fundamentalmente a una situación de desplazamiento del poder político desde los ciudadanos y sus instituciones hacia los mercados, que son los que terminan imponiendo al final las políticas, que es lo que le ha pasado a este país con sus políticas de empleo, con la reforma laboral, con su connivencia y con el dictado de la troika. No queremos eso y por ello planteamos nuestra oposición a ese tratado transatlántico en esos términos. Y sobre todo a que se establezca una sustitución de tribunales de justicia por tribunales arbitrales. Los mecanismos arbitrales son buenos para resolver conflictos entre partes voluntariamente, pero usted sabe que en estos momentos algunos de esos mecanismos arbitrales han obligado a Estados europeos y de fuera de Europa a modificar sus políticas porque un órgano arbitral<pb n="56"/> privado ha decidido que esas políticas deberían cambiarse. Eso es lo que no estamos dispuestos a aceptar. En todo caso, le exigimos transparencia; si hay algo opaco y oscuro en Europa en estos momentos es el tratado transatlántico y ustedes no quieren que los ciudadanos sepan qué se está discutiendo.</seg>
                <seg>Por último, por cortesía con el señor Hernando, que me pide que haga una rectificación o que pida disculpas, que para el caso sería lo mismo, y lo hace imputándome concreta y directamente que no tengo propuestas ni argumentos y solo insultos, permítame que le diga que si algo he demostrado durante estos tres años es que argumentos y alternativas no me faltan. Sea usted un poquito más prudente, porque le recuerdo que usted es el diputado que ha venido aquí a explicarnos que eso del cambio climático se parece bastante a la profecía maya del fin del mundo. O sea, que le pido prudencia en las imputaciones personales. Vamos a lo importante. No les insulto, les digo sencillamente aquello que no les gusta escuchar. Se lo digo haciéndome eco de lo que en estos momentos me dicen muchas personas, no todo el mundo pero me lo dice la ciudadanía en muchas ocasiones. A ustedes les gustaría que este Congreso fuera una burbuja; es más, fíjense ustedes en su reacción. Viene alguien aquí, les pone un espejo y les enseña su realidad, que no les gusta porque de verdad en algunos aspectos es bastante vergonzosa, y en vez de cambiarla, ustedes le pegan una patada al espejo y quieren enmudecer y hacer callar al que lleva el espejo. Y eso no puede ser, se van a tener que acostumbrar a que les digamos una cosa evidente y es que esta legislatura está llena de situaciones -no solo del periodo anterior sino del actual- en las que dirigentes del Partido Popular están inmersos en situaciones de corrupción. ¿Me lo he inventado yo?<note>El señor Hernando Fraile: ¿Va a pedir disculpas?</note> Ahí llegaré. ¿Me lo he inventado yo? No me lo he inventado, hoy mismo aparece. No son cualesquiera, son dirigentes de primer nivel con la connivencia -y lo he dicho- del presidente del Gobierno español, porque si no hay algunas cosas que no podrían pasar como lo que hoy hemos descubierto del señor Rato.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u55" ana="#chair">
                <seg>Señor Coscubiela, le he advertido que no le iba a dar más tiempo. Tiene diez segundos para terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u56"
@@ -563,7 +561,7 @@
                ana="#regular">
                <seg>Le tengo que dar la explicación al señor Hernando.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u57" ana="#chair">
                <seg>No, la hace usted luego por escrito. Diga usted lo que quiera pero tiene veinte segundos para acabar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u58"
@@ -572,7 +570,7 @@
                <seg>Como no soy descendiente de Zoroastro, no soy de los que creen que todo el bien está a un lado y todo el mal está a otro. Por supuesto, jamás se me ocurriría decir que un colectivo humano es todo corrupto y que un colectivo humano es todo honesto, lo que sí le puedo decir es que hay colectivos humanos que propician, toleran, amparan y protegen la corrupción.<note>El señor Hernando Fraile: ¿Va a pedir disculpas?</note> De todas maneras, hay un mecanismo muy claro, que el señor Montoro cumpla su promesa de dar transparencia al fraude fiscal, de dar transparencia a la amnistía fiscal y así lo sabremos todos.<note>El señor Hernando Fraile: ¿Va a pedir disculpas?</note> Si hay alguna persona que se ha sentido ofendida, personalmente se las pediré; a ustedes como colectivo no les tengo que pedir disculpas, les tengo que pedir responsabilidades.</seg>
                <note>Protestas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u59" ana="#chair">
                <seg>Señor Coscubiela, ha terminado usted su intervención.<note>Aplausos</note> Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u60"
@@ -584,7 +582,7 @@
                <seg>Acabo ya. Seguimos pensando que es fundamental que desde el Gobierno se impulse de verdad la integración política, social y europea, y eso significa que los Gobiernos tienen que aceptar renunciar a parte de su poder a cambio de un mayor control democrático por el Parlamento Europeo y por los órganos supervisores independientes, y desde luego por la participación de la ciudadanía europea. Sin eso, el proyecto europeo se va a ver sometido cada vez más a tensiones insoportables y podría acabar mal, y está en nuestra mano evitarlo.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u61" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>¿Por el Grupo Vasco?<note>Denegaciones</note> Muchas gracias.</seg>
                <seg>Señor Hernando, por el Grupo Popular.</seg>
@@ -597,7 +595,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u63" ana="#chair">
                <seg>Muchas gracias, señor Hernando.</seg>
                <seg>Señor presidente del Gobierno.</seg>
                <pb n="58"/>
@@ -612,13 +610,13 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u65" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u65" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PREGUNTAS - DE LA DIPUTADA DOÑA ROSA MARÍA DÍEZ GONZÁLEZ, DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿QUÉ RAZONES HAN LLEVADO AL GOBIERNO A ANUNCIAR UN CAMBIO SOBRE SU POLÍTICA SANITARIA, CONTRARIA A LA UNIVERSALIZACIÓN DEL SISTEMA?</head>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u66" ana="#chair">
                <seg>Preguntas dirigidas al Gobierno. Comenzamos con las preguntas dirigidas al presidente. En primer lugar, pregunta la diputada doña Rosa Díez, de Unión Progreso y Democracia.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u67"
@@ -627,7 +625,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>Señor Rajoy, los inmigrantes sin papeles, por efecto del Real Decreto-ley 16/2012, se quedaron sin asistencia sanitaria. Fue ese real decreto que convirtió a los pacientes en clientes y que transformó la universalidad del sistema sanitario en el aseguramiento para aquellos que pudieran pagarlo. Para mi grupo, la protección de los derechos fundamentales, de los derechos humanos, siempre ha estado por encima de los papeles que tengan o que dejen de tener esos seres humanos. Por eso le pregunto hoy, señor Rajoy: ¿Qué razones tiene su Gobierno para haber modificado una política sanitaria que expulsaba del sistema a aquellos que no podían pagarlo y que, como digo, convertía la universalización en un mero aseguramiento para aquellos que podían pagarlo? ¿Qué le ha llevado a usted a cambiar de posición y a reconocer que no se puede dejar abandonados a seres humanos, tengan o no tengan papeles?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u68" ana="#chair">
                <seg>Muchas gracias, señora diputada.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -639,7 +637,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u70" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señora Díez.</seg>
             </u>
@@ -648,7 +646,7 @@
                ana="#regular">
                <seg>Señor Rajoy, si eso que usted ha dicho fuera cierto, que todo lo habían hecho bien y que no había quedado nadie sin protección de la salud, no sé por qué el ministro de Sanidad ha rectificado o ha dicho que rectifica esa decisión política por razones de salud pública; lo ha dicho el ministro de Sanidad. Si lo que usted ha dicho fuera cierto, no tendría que rectificar la política de salud pública aduciendo además que es un problema de las urgencias, que lo hace porque las urgencias están saturadas y para ser más prácticos. No sé lo que significa ser más prácticos; por supuesto, no puede decir que porque las urgencias están saturadas, porque llevan mucho tiempo saturadas por un diseño del sistema de asistencia sanitaria primaria, del sector primario, del inicial, y no de cómo funcionan las urgencias. Señor Rajoy, ustedes han hecho una política sanitaria que ha expulsado del sistema a centenares de miles de personas que lo necesitaban. Lo han hecho para ahorrar dinero, pero ni han ahorrado dinero ni han introducido ninguna reforma ni mejora en el sistema público. ¿Qué han hecho? Echar del sistema a los que lo necesitan y poner en riesgo el sistema público de salud y la salud pública de todos los españoles, porque las personas que van por la calle sin papeles y que llevan virus infecciosos no preguntan a los que van a su lado si ellos tienen papeles o no. Ustedes han creado un grave problema de salud pública y además han abandonado a las personas que más lo necesitan. No digan ahora que rectifican por las urgencias. Rectifican porque lo han hecho mal. Por cierto, díganme cómo van a rectificar, porque ha dicho el ministro que no les va a dar una tarjeta. ¿Cómo lo van a hacer entonces? ¿Cómo lo van a hacer y cuándo lo van a hacer?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u72" ana="#chair">
                <seg>Muchas gracias, señora diputada.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -659,11 +657,11 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u74" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u74" ana="#chair">
                <seg>Muchas gracias, señor presidente.<pb n="61"/> - DEL DIPUTADO DON CAYO LARA MOYA, DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿QUÉ MEDIDAS PIENSA ADOPTAR ANTE LAS REIVINDICACIONES CIUDADANAS DE PAN, TECHO Y TRABAJO?</seg>
                <note>Número de expediente 180/001249</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u75" ana="#chair">
                <seg>Pregunta dirigida también al señor presidente del Gobierno y que formula don Cayo Lara, de La Izquierda Plural.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u76"
@@ -671,7 +669,7 @@
                ana="#regular">
                <seg>Señor Rajoy, ¿qué medidas piensa adoptar su Gobierno tras las reivindicaciones de pan, techo y trabajo de las marchas por la dignidad?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u77" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -683,7 +681,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u79" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Lara.</seg>
             </u>
@@ -694,7 +692,7 @@
                <seg>Gracias, señor Rajoy.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u81" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor presidente.</seg>
                <pb n="62"/>
@@ -705,7 +703,7 @@
                <seg>Yo solo le voy a pedir a usted una cosa, señor Lara, que haga sus juicios de valor con un poquito más de equilibrio. España no es el país que usted acaba de describir ahora. España ha pasado una crisis económica gravísima. Ha estado al borde del rescate, al borde la quiebra. Hemos tenido una etapa de recesión, de crecimiento económico negativo, se han perdido muchos puestos de trabajo, ha habido que ajustarse presupuestariamente; pero, por fortuna, las cosas han cambiado. Lo primero que ha cambiado es que España se ha librado del rescate, porque eso hubiera sido un problema grave para nuestro país, como lo ha sido -y toda esta Cámara lo conoce- para muchos otros países de la Unión Europea. Además, hemos sido capaces de mantener en una situación de extrema dificultad todos los pilares del Estado de bienestar. Tenemos una sanidad pública como no tiene nadie; tenemos un sistema público de pensiones como tienen muy pocos; sistema educativo, servicios sociales. Lo mejor es que ahora se está creando empleo en nuestro país. El año pasado ya 440.000 españoles encontraron un empleo y este año van a ser más de medio millón. Si perseveramos en la política económica podremos tener en cuatro años 20 millones de personas trabajando en nuestro país, que tiene que ser el gran objetivo para los próximos años. Ya sabemos que hay gente que tiene dificultades, claro que lo sabemos; por eso hemos tomado decisiones. Ya hemos podido empezar a hacer rebajas fiscales, hay más becas; como he dicho antes, hay 800.000 españoles más con tarjetas sanitarias; hemos apoyado un plan contra la pobreza infantil; hemos creado un Fondo social de viviendas. Sin duda alguna quedan muchas cosas por hacer, pero este país ha dado un salto hacia delante en los últimos años muy importante y la sociedad española ha sido capaz de superar una de las crisis económicas más graves que hemos vivido en muchísimos años. Desde luego, discursos como el suyo no ayudan absolutamente a nada porque España, por suerte, no es ese país que usted dice, señor Lara.<note>Aplausos</note> - DEL DIPUTADO DON PEDRO SÁNCHEZ PÉREZ-CASTEJÓN, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿QUÉ BALANCE HACE EL PRESIDENTE DEL GOBIERNO DE SU POLÍTICA EDUCATIVA?</seg>
                <note>Número de expediente 180/001252</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u83" ana="#chair">
                <seg>Pregunta dirigida también al señor presidente del Gobierno, que formula el diputado don Pedro Sánchez, del Grupo Parlamentario Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u84"
@@ -715,7 +713,7 @@
                <seg>Señor Rajoy, lo único que le pido es que diga la verdad, que no falte a la verdad.<note>Rumores</note> No es cierto que ustedes hayan mantenido el Estado del bienestar; ustedes han hecho un ajuste contra el Estado del bienestar. La prueba son los recortes que están sufriendo la sanidad pública y también la educación pública. Así que me gustaría saber el balance que usted hace de su política educativa, señor Rajoy.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u85" ana="#chair">
                <seg>Señor presidente del Gobierno.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u86"
@@ -725,7 +723,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u87" ana="#chair">
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Sánchez.</seg>
             </u>
@@ -735,7 +733,7 @@
                <seg>Claro, señor Rajoy, por eso tenemos un 51 % de tasa de desempleo juvenil y siete de cada diez contratos que tienen los jóvenes son de empleo precario.<note>Rumores</note> Por favor, señor Rajoy, esas cosas que usted dice, dígalas en los mítines pero no las diga en el Congreso de los Diputados, porque no las cree nadie. Las políticas de desigualdad empiezan con usted cuando deberían de comenzar las políticas de igualdad, que es precisamente en la escuela. Le he escuchado decir que la educación es la mayor garantía de progreso y, al mismo tiempo, ha<pb n="63"/> recortado 17.000 millones de euros la inversión pública en educación. Le he escuchado decir que la educación es invertir en futuro, y lo que ustedes han hecho ha sido despedir a 30.000 profesores de la educación pública y aumentar la ratio de alumnos por profesor. Le he escuchado decir, señor Rajoy, que la educación es una forma de incorporar valores a nuestros hijos y a nuestras hijas, y al mismo tiempo han suprimido la educación cívica, han subvencionado la educación segregada entre niños y niñas y también han impuesto la religión en el sistema educativo público. Señor Rajoy, habla de seres humanos normales, pero impone unas pruebas de resistencia inhumanas, tanto a los padres y las madres como a los profesores de la educación pública como consecuencia de sus recortes.<note>Rumores</note> El pasado lunes, señor Rajoy, firmé un compromiso con la comunidad educativa, algo que no han hecho ustedes en estos tres años y medio de Gobierno<note>Un señor diputado pronuncia palabras que no se perciben</note> , que pretende incorporar y recuperar como derecho la educación pública en nuestro país; derecho perdido como consecuencia de los recortes que ustedes están realizando. El señor Wert me calificó de apóstol de la equidad.<note>Rumores.-Risas</note> Es la manía que tienen ustedes de incorporar siempre la religión al debate de la educación. Yo le diría al señor Wert, señor Rajoy, que más que apóstol yo soy un defensor más, como millones de españoles que lo que queremos es una educación pública de calidad para que el éxito profesional y educativo de nuestros hijos y nuestras hijas no dependa de la cuenta corriente de sus padres sino de su esfuerzo y de su mérito. Soy un defensor más que lo que quiere es recuperar la educación como derecho y evitar lo que ustedes están intentando desde el primer minuto que llegaron a la Moncloa, acabar precisamente con la igualdad de oportunidades y con la educación pública. ¿Sabe qué, señor Rajoy? No lo van a conseguir.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u89" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u90"
@@ -746,12 +744,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u91" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON ANTONIO HERNANDO VERA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA VICEPRESIDENTA DEL GOBIERNO Y MINISTRA DE LA PRESIDENCIA: ¿CREE LA VICEPRESIDENTA QUE EL GOBIERNO ESTÁ ACTUANDO CORRECTAMENTE EN LAS CAUSAS JUDICIALES QUE AFECTAN AL PARTIDO POPULAR?</seg>
                <note>Número de expediente 180/001253</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u92" ana="#chair">
                <seg>Pregunta, dirigida a la señora vicepresidenta del Gobierno y ministra de la Presidencia, que formula el diputado don Antonio Hernando, del Grupo Socialista.</seg>
                <pb n="64"/>
             </u>
@@ -762,7 +760,7 @@
                <seg>Señorías, señora vicepresidenta, le pregunto si considera que el Gobierno actúa correctamente en las causas judiciales que afectan a su partido, al Partido Popular. Conteste, pero sin rodeos. Lo que queremos saber, en primer lugar, es por qué el Ministerio de Hacienda hizo este documento<note>Muestra varios documentos</note> -número 1- sobre un informe de la Agencia Tributaria -número 2- fechado el día 16 de marzo y que entró en la Audiencia Nacional, físicamente, el 17 de marzo a las 9.30 horas. El informe de la Agencia Tributaria dice que el Partido Popular podría haber cometido un fraude de 220.00 euros. En segundo lugar, queremos saber por qué el ministerio de Hacienda envió este argumentario a medios de comunicación que reprodujeron en sus ediciones del día 17 frases textuales -documentos 3 y 4-. Son dos preguntas muy concretas, así que respóndalas sin irse por las ramas.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u94" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -772,7 +770,7 @@
                <seg>Señor Hernando, a la primera de sus preguntas le contestaré que este Gobierno colabora y respeta a la justicia tanto en las causas que afectan al Partido Popular como al Partido Socialista, como a otros partidos de esta Cámara. En segundo lugar, señor Hernando, los informes se remiten telemáticamente y se colabora con la Administración de Justicia cuando se emiten los informes que pide y cuando se emiten las simulaciones que se reclaman.<note>Rumores</note> Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u96" ana="#chair">
                <seg>Muchas gracias, señora vicepresidenta.</seg>
                <seg>Señor Hernando.</seg>
             </u>
@@ -784,7 +782,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u98" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -796,12 +794,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u100" ana="#chair">
                <seg>Muchas gracias, señora vicepresidenta.</seg>
                <seg>- DE LA DIPUTADA DOÑA MARÍA SORAYA RODRÍGUEZ RAMOS, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE JUSTICIA: ¿VA A CONTINUAR EL GOBIERNO CON SUS PLANES RESPECTO AL REGISTRO CIVIL?</seg>
                <note>Número de expediente 180/001255</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u101" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Justicia que formula la diputada doña Soraya Rodríguez, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u102"
@@ -812,7 +810,7 @@
                <seg>Usted dice que el Registro Civil va a seguir siendo gratuito, y miente, y lo sabe. Si no lo financia del presupuesto general del Estado, ¿quién lo va a pagar? ¿Los registradores que lo gestionan? ¡Por Dios! Esto es tan absurdo que no se sostiene ni un minuto. Lo van a pagar los ciudadanos de forma indirecta, por la vía de atrás, de la misma manera que en su reforma, por cierto negociada solo con el Colegio de Registradores, están intentando incrementar los actos jurídicos que ahora no tienen que ser inscritos, por lo tanto no hay que pagar arancel por ellos, como vecindad, poderes notariales, para que ahora los ciudadanos los tengan que inscribir y pagar aranceles, aranceles indirectos, cruzados, ilegales. Los ciudadanos van a pagar más para recibir menos, porque no van a poder acceder desde sus pueblos a los registros, suprimen las oficinas de los ayuntamientos con una oficina por provincia, ¡qué barbaridad!</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u103" ana="#chair">
                <seg>Gracias, señora Rodríguez.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -824,7 +822,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u105" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora Rodríguez.</seg>
             </u>
@@ -834,7 +832,7 @@
                <seg>Los registradores no. La mera sospecha de que desde la Presidencia del Gobierno se están intentando privatizar los datos personales y más íntimos de los españoles con el solo objetivo de incrementar el volumen de negocio de una profesión a la que se pertenece, como el presidente del Gobierno, y a la que se puede volver es gravísimo. Atenta contra el corazón de la democracia, contra el Estado de derecho y muestra hasta dónde son ustedes capaces de llegar en el uso y en el abuso del poder.<note>Aplausos</note> Y luego dice su compañero Floriano que les falta piel. No, lo que les falta es vergüenza.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u107" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u107" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -845,12 +843,12 @@
                <seg>Señora Rodríguez, insisto, estaré encantado de escuchar por primera vez y entender -porque creo que es la tercera vez que comparezco en esta Cámara para hablar sobre esta materia además de haber comparecido un par de veces en el Senado- cuál es la propuesta del Partido Socialista en materia de registros civiles. Estaremos encantados de recibir esa propuesta. No sé qué les pasa a ustedes con algunos funcionarios públicos, como en este caso los registradores. Son funcionarios públicos que dependen del Ministerio de Justicia, que están bajo la tutela del ministerio y, por tanto, esta es una opción. Yo estoy dispuesto a hablar de otras opciones, totalmente dispuesto y me gustaría conocer cuáles son las suyas. Tener un Registro Civil público, gratuito, de calidad, al servicio del ciudadano, telemático en el año 2015 me parece que es una buena propuesta sobre la que trabajar. Ustedes de momento parece que lo único que quieren es negar la posibilidad de que quien hoy en España se dedica a la gestión de bases de datos, como son los registros de la propiedad o los registros mercantiles, puedan hacer otra función más. Nosotros pensamos que es una de las posibilidades. Hablemos, propóngannos alternativas que las estudiaremos con todo cuidado, siempre con el compromiso -y procuren, por favor, no intoxicar el debate- de un registro público y gratuito para todos los ciudadanos.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u109" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON PEDRO SAURA GARCÍA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CONSIDERA EL MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS QUE HACE TODO LO POSIBLE PARA EVITAR LA CONFUSIÓN ENTRE INTERESES PÚBLICOS Y PRIVADOS?</seg>
                <note>Número de expediente 180/001256</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u110" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Hacienda y Administraciones Públicas.</seg>
                <seg>En primer lugar formula su pregunta don Pedro Saura, del Grupo Socialista.</seg>
             </u>
@@ -861,7 +859,7 @@
                <seg>Señor ministro, ¿cree que trabaja adecuadamente para evitar la confusión entre el interés público y el interés privado?</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u112" ana="#chair">
                <seg>Gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
                <pb n="67"/>
@@ -873,7 +871,7 @@
                <seg>Señor Saura, la respuesta es muy obvia: sí. La tarea y la responsabilidad de un Gobierno en todos sus ámbitos y especialmente en el económico es precisamente evitar cualquier no confusión como formula usted, sino cualquier colisión entre intereses privados e intereses públicos.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u114" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Saura.</seg>
             </u>
@@ -886,7 +884,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u116" ana="#chair">
                <seg>Gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -899,11 +897,11 @@
                <note>Un señor diputado: ¡Muy bien!-Aplausos</note>
                <pb n="68"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u118" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON FRANCISCO GONZÁLEZ CABAÑA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿QUÉ RAZONES HAN LLEVADO AL GOBIERNO A RETIRAR ANTE LA COMISIÓN EUROPEA EL PROYECTO «NUEVA TERMINAL DE CONTENEDORES DE CÁDIZ»? Número de expediente 180/001260).</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u119" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u119" ana="#chair">
                <seg>Pregunta dirigida también al señor Ministro de Hacienda y Administraciones Públicas que formula don Francisco González Cabaña, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u120"
@@ -912,7 +910,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor ministro, visto su espíritu numantino y su resistencia a la dimisión, explíqueme las razones que han llevado al Gobierno a retirar ante la Comisión Europea el proyecto Nueva terminal de contenedores de Cádiz.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u121" ana="#chair">
                <seg>Gracias, señor González Cabaña.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -925,7 +923,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u123" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor González Cabaña.</seg>
             </u>
@@ -937,7 +935,7 @@
                <seg>Como usted bien conoce, 2011 es el año en el que se adjudica la obra. Puertos del Estado incrementa la ayuda del Fondo de desarrollo regional hasta 60 millones de euros, que es la asignación definitiva. Dos circunstancias, ajenas ambas a la Autoridad Portuaria, hacen que se retrase la liberación de los fondos para tres puertos españoles. En dos de ellos se ha resuelto: no eran andaluces. El de Cádiz no se ha<pb n="69"/> resuelto: era un puerto andaluz. Sin lugar a dudas, en el caso del puerto de Cádiz la decisión de retirada del proyecto evidencia de manera clara la falta de interlocución y la limitada capacidad de influencia o negligencia de su Gobierno, el Gobierno de España, ante Europa cuando de defender un proyecto andaluz se trata. La decisión, señor ministro, es una decisión extemporánea, usted conoce que ya se ha ejecutado el 90 % de la obra y que se está ejecutando el túnel de acceso a la terminal. Es también un misil en la línea de flotación del proyecto propagandístico más intenso del Partido Popular en los últimos tiempos en la provincia de Cádiz, que no es otro que el de la plataforma logística del Sur. Usted la va a hundir. Pero, con todo ello, no sabemos qué es más preocupante, si la retirada temporal del proyecto o la afirmación de la diputada y alcaldesa de Cádiz, la señora Martínez, que pocos días después dijo en la prensa provincial: Si falla Bruselas, el dinero lo pone Rajoy. ¡Ahí queda eso! Tome nota, señor Montoro.</seg>
                <note>Una señora diputada: ¡Muy bien! Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u125" ana="#chair">
                <seg>Gracias, señor González Cabaña.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -948,12 +946,12 @@
                <seg>Su señoría tiene razón, los servicios que tengo son muy buenos pero me han confundido en el apellido, señor González.</seg>
                <seg>Le he explicado que es un planteamiento puramente burocrático, que hemos elegido esa vía para que sea más operativo, más rápido y pueda estar resuelto. Si su señoría me hubiera escuchado, no habría hecho el discurso político porque lo que ha habido es una voluntad del Gobierno de España por Cádiz porque efectivamente Cádiz tiene una tasa de paro absolutamente inaceptable&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u127" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON MIGUEL ÁNGEL HEREDIA DÍAZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DEL INTERIOR: ¿QUÉ INFORMACIÓN PUEDE FACILITAR EL MINISTRO DEL INTERIOR, TRAS SUS GESTIONES CON EL GOBIERNO DE MARRUECOS, SOBRE LAS CIRCUNSTANCIAS DEL RESCATE DE LOS ESPELEÓLOGOS ESPAÑOLES ACCIDENTADOS EN ESE PAÍS?</seg>
                <note>Número de expediente 180/001254</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u128" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u128" ana="#chair">
                <seg>Pregunta dirigida al señor ministro del Interior, que formula don Miguel Ángel Heredia, del Grupo Parlamentario Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u129"
@@ -965,7 +963,7 @@
                <seg>Señor ministro, el patriotismo de salón del que tanto presume el Gobierno hay que demostrarlo sobre el terreno, aquí y en Marruecos. Por eso le pregunto, señor ministro, si el Gobierno hizo todo lo posible, todo lo que estaba en su mano para salvar la vida de nuestros compatriotas.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u130" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u130" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -978,7 +976,7 @@
                <seg>Finalmente, le diré que también su majestad el Rey y el presidente del Gobierno estuvieron, como es lógico, interesados y permanentemente informados de la evolución de los acontecimientos y que hay un procedimiento judicial abierto en Marruecos en el que ha testificado Juan Bolívar, el ciudadano español policía nacional&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u132" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u132" ana="#chair">
                <seg>Gracias, señor ministro.<note>La señora vicepresidenta, Villalobos Talero, ocupa la Presidencia</note> - DE LA DIPUTADA DOÑA MARÍA GONZÁLEZ VERACRUZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA MINISTRA DE FOMENTO: ¿CÓMO JUSTIFICA EL MINISTERIO DE FOMENTO EL INCUMPLIMIENTO DEL CONVENIO QUE PREVEÍA SOTERRAR EL TRAZADO DEL AVE A SU PASO POR LA CIUDAD DE MURCIA?</seg>
                <note>Número de expediente 180/001257</note>
             </u>
@@ -1722,7 +1720,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u238" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u238" ana="#chair">
                <seg>Muchas gracias, señor Ferrer.</seg>
                <seg>Señor Centella, había una enmienda. ¿La acepta?</seg>
             </u>
@@ -1731,12 +1729,12 @@
                ana="#regular">
                <seg>Como se ha pedido votación separada, votaremos por separado los puntos y, por tanto, no puedo admitir la enmienda porque sería imposible votar la enmienda y los puntos separados.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u240" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u240" ana="#chair">
                <seg>Muchas gracias, señor Centella.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO CATALÁN<note>CONVERGÈNCIA I UNIÓ</note> , SOBRE LAS PRIORIDADES DEL GOBIERNO PARA POTENCIAR LA ECONOMÍA DIGITAL.</seg>
                <note>Número de expediente 173/000203</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u241" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u241" ana="#chair">
                <seg>Moción del Grupo Catalán<note>Convergència i Unió</note> , sobre las prioridades del Gobierno para potenciar la economía digital. Tiene la palabra la señora Riera para defender la iniciativa.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u242"
@@ -1750,7 +1748,7 @@
                <seg>A nuestra moción el Grupo Parlamentario Popular y el Grupo Parlamentario Socialista han presentado dos enmiendas, que agradecemos desde ahora. Con relación a la enmienda presentada por el Grupo Popular hemos llegado, señorías, a una transacción que nos parece que recoge, tanto los objetivos de nuestra moción como los de la enmienda que el Grupo Popular ha presentado, y que permite y nos permite ampliar y enriquecer el texto de la moción haciendo una específica referencia al impulso de la industria 4.0. Con relación a la enmienda presentada por el Grupo Socialista agradecemos también el espíritu constructivo, pero sentimos no poder aceptarla, porque no entra tal como está redactada en el espíritu ni de la interpelación ni de la moción, y plantea unas cuestiones que, si bien son importantes y podemos compartir porque hacen referencia a instrumentos de impulso de la innovación tecnológica, pero de carácter más local, no forman parte, señorías, de esta moción. En cualquier caso esperamos que entiendan los motivos de nuestra posición, y que más allá de ello el Grupo Socialista y también el resto de grupos puedan sumarse y votar favorablemente esta moción, porque no pueden dejar de compartir los objetivos que hemos perseguido y que se persiguen.<pb n="107"/> Retomo mis palabras anteriores. Esta moción nos ha de permitir sumar y evidenciar un consenso entre los distintos grupos para reforzar todo lo que representa la Fundación Mobile World Capital, y sobre todo reforzar un consenso sobre la importancia de los retos de la transformación digital y de la apuesta firme y decisiva por una economía digital, y por un impacto económico y social muy relevante.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u243" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u243" ana="#chair">
                <seg>Muchas gracias, señora Riera.</seg>
                <seg>En efecto se han presentado enmiendas a esta moción. En primer lugar, por el Grupo Socialista y para su defensa tiene la palabra la señora Muñoz.</seg>
             </u>
@@ -1767,7 +1765,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u245" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u245" ana="#chair">
                <seg>Gracias, señora Muñoz.</seg>
                <seg>La enmienda que ha presentado el Grupo Popular la defiende el señor Fernández Álvarez.</seg>
             </u>
@@ -1779,7 +1777,7 @@
                <seg>Si tenemos en cuenta que la economía digital es el presente, es el futuro, es una apuesta del Gobierno, también hemos tenido muy claro desde siempre que Cataluña es fundamental en esa apuesta, y que organizar el Mobile World Congress podríamos decir que es una bendición para Cataluña y para el conjunto de España. El Gobierno de España ha estado a la altura. No me referiré a la intervención de la portavoz del Grupo Parlamentario Socialista, aunque sí diré que ahora entiendo por qué están ustedes hechos unos zorros en el Ayuntamiento de Barcelona después de haberla oído. En cualquier caso diré que el Gobierno de España aporta 3 millones de euros a tres programas de incubación de empresas que van a ser fundamentales en este proyecto. Y no solamente en esto, yo mismo como portavoz de innovación y también como catalán tuve el placer de valorar desde el Grupo Parlamentario Popular la inversión de 5,8 millones de euros del Gobierno de España en el Centro Nacional de Supercomputación, en Barcelona. El Gobierno de España apuesta claramente por la innovación, por la economía digital, y por Cataluña. Por tanto nuestra actitud -como ha explicado muy bien la señora Riera- no podía ser otra que la de intentar llegar a un acuerdo en una moción de estas características. Lo hemos logrado y hemos aprobado un texto transaccional.</seg>
                <seg>Hay un punto que es crucial en esta moción: cómo trabajamos juntos para lograr que el Mobile World Congress continúe en Barcelona en el siguiente periodo, que va de 2018 a 2023. Aquí, celebrando el acuerdo y el consenso, señora Riera, me permitirá que con toda cordialidad le plantee otras cosas. Le quería pedir un pequeño favor: traslade a sus compañeros de Convergència i Unió en el Gobierno de Catalunya y en el Parlament de Catalunya lo que hoy hemos aprobado aquí. Explíqueselo, porque en el<pb n="109"/> Parlament de Catalunya no se puede hablar de esto. No sé si están en un proceso de enajenación mental transitorio -no sé si de Kafka, pero sí kafkiano-, pero allí solo se puede hablar de una cosa. Lo que hoy hemos hecho aquí, allí es imposible; ya se pueden presentar proposiciones de la naturaleza que sean, que es imposible. La rapidez con la que usted y yo en nombre de nuestros respectivos grupos hemos llegado a un acuerdo aquí sobre una materia tan importante, allí es imposible. La Generalitat de Catalunya también tiene competencias muy importantes para garantizar el objetivo de que el Mobile World Congress continúe en Barcelona. Sabe usted que competimos con otras ciudades; las grandes capitales del mundo compiten con nosotros para que Barcelona sea o no la sede. Uno de los parámetros fundamentales para decidir cuál es la sede más adecuada es la movilidad. Vienen miles de personas que necesitan servicios de movilidad. La Línea 9 de metro es básica y lleva muchos años de retraso. Es competencia de la Generalitat de Catalunya -ya han dicho que este año nos olvidemos, y que al año que viene ya veremos- y lleva 14.000 millones de euros de sobrecoste. Explique usted a sus compañeros del Gobierno de Catalunya y del Parlament de Catalunya el acuerdo al que hemos llegado aquí, y pídales por favor que espabilen un poquito con la Línea 9. No solo eso, sino que la Generalitat de Catalunya y el Gobierno de Catalunya tienen también competencias en innovación claras y diáfanas, y están provocando que los datos de Cataluña en I+D+i, que siempre fueron los mejores de España junto con los de Navarra, en los dos últimos años sean los peores. También tendríamos que intentar allí lo que hoy hemos hecho aquí. Intente trasladar allí el sentido común que hoy hemos tenido aquí. No hablaré de recuperar el sentido común, porque por desgracia hay algunos que difícilmente recuperarán un sentido común que nunca han tenido, pero hay gente muy válida en todos los sitios con la que se puede trabajar.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u247" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u247" ana="#chair">
                <seg>Señor Fernández Álvarez, tiene usted que acabar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u248"
@@ -1789,7 +1787,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u249" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u249" ana="#chair">
                <seg>Muchas gracias, señor Fernández Álvarez.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -1800,7 +1798,7 @@
                <seg>Vamos a apoyar esta moción, no tenemos ningún problema en hacerlo incluso con la enmienda transaccional que se ha pactado con el Grupo Parlamentario Popular, pero sí quiero decir que reducir el apoyo a la economía digital a determinados eventos, aunque sean tan importantes como el Barcelona Mobile World, no deja de ser en nuestra opinión una visión no solamente sesgada, sino -cómo diría yo- justo aquella que ha impedido que en España haya un desarrollo eficaz de la economía digital desde el punto de vista regulador. No se ha mencionado aquí y es una pena que se haya perdido la ocasión, pero es que es uno de los países de Europa que en vez de incrementar el porcentaje del PIB de economía digital durante la crisis lo ha bajado. ¿Por qué? Porque tenemos un marco normativo y legislativo hostil a los startups, al desarrollo de la economía digital, que está lleno de barreras de acceso para proteger modelos de negocio que necesitan ser protegidos, porque no han querido adaptarse al mundo digital, etcétera. En ese sentido, aunque nos parece muy bien que este tipo de eventos se apoyen, desde luego creer que el impulso de la economía digital se puede reducir a determinados eventos no deja de ser un error de bulto, así que llamamos la atención al respecto en un sentido por supuesto amistoso y colaborador -un tanto ácido, como el Partido Popular-. Realmente hay que impulsar la economía digital porque nos va mucho en ello, tanto en la lucha contra la crisis económica como para salir de la crisis con un modelo económico diferente; esto que se dice tantas veces y se hace tan poco. De manera que cuenten con nuestro apoyo, pero les pido por favor que se tomen en serio la cuestión de fondo: que tenemos un marco regulatorio y económico hostil y negativo para el desarrollo de la economía digital, desde el punto de vista fiscal, laboral y administrativo, y esto hay que resolverlo cuanto antes.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u251" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u251" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Aunque ya lo ha manifestado, señora Riera, a efectos puramente formales le pregunto qué va a hacer con las dos enmiendas.</seg>
                <pb n="110"/>
@@ -1810,7 +1808,7 @@
                ana="#regular">
                <seg>Tal y como he dicho en mi intervención, no podemos aceptar la enmienda del Grupo Parlamentario Socialista, y sí que hemos transaccionado una enmienda con el Grupo Parlamentario Popular, que ahora entregaremos.<note>Un señor diputado: ¡Muy bien!</note> Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u253" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-15-CD150415.u253" ana="#chair">
                <seg>Muchas gracias, señora Riera, esa será la que se someterá a votación.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las seis y veinticinco minutos de la tarde.</seg>

@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="27">27 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="27" xml:lang="es">27 speeches</measure>
+            <measure unit="speeches" quantity="27" xml:lang="en">27 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -75,7 +77,7 @@
                <tagUsage gi="pb" occurs="20"/>
                <tagUsage gi="note" occurs="37"/>
                <tagUsage gi="u" occurs="27"/>
-               <tagUsage gi="lb" occurs="141"/>
+               <tagUsage gi="seg" occurs="141"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -89,15 +91,11 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
-            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u1" ana="#chair">
                <seg>Señorías, buenos días. Se reanuda la sesión.</seg>
                <seg>Comenzamos con el punto del orden del día relativo al informe de la defensoría del pueblo correspondiente a la gestión realizada durante el año 2015.<note>Rumores.</note> Un poco de silencio, por favor. Como saben sus señorías, con arreglo a las normas de procedimiento, las deliberaciones comenzarán una vez que la Defensora del Pueblo haya terminado la presentación de su informe, y el turno de fijación de posiciones en ese momento será de diez minutos por grupo.</seg>
                <seg>Para la exposición de un resumen del informe tiene la palabra la Defensora del Pueblo, doña Soledad Becerril Bustamante.</seg>
@@ -126,7 +124,7 @@
                <seg>Gracias a todos, señorías. Muchas gracias, señor presidente, por su atención.</seg>
                <note>Aplausos.</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u3" ana="#chair">
                <seg>Gracias, señora Becerril. Muchas gracias a la defensoría del pueblo, parte de la cual nos acompaña hoy aquí en la tribuna, por su labor y por la presentación de este resumen del informe de 2015.</seg>
                <seg>Ahora, en el turno de fijación de posiciones, interviene, en primer lugar, por el Grupo Parlamentario Mixto, la señora Oramas.</seg>
             </u>
@@ -140,7 +138,7 @@
                <seg>En ese sentido, tal y como destacó el presidente del Gobierno de Canarias recientemente, las expectativas han mejorado, pero aún conviven con una realidad que no podemos esconder; esta realidad<pb n="7"/> que conocí muy de cerca siendo alcaldesa de San Cristóbal de la Laguna, y sobre todo que tiene rostro. Es muy necesario en temas tan sensibles poner cara a los números y a las estadísticas. En este caso, la cara más triste de la pobreza en España es la de los niños que la sufren. Es labor de todos romper el ciclo de las desventajas; es trabajo común desde cada uno de los partidos y colectivos sociales, desde esta Cámara, pero también desde cada una de las instituciones del país, trabajar todo lo duro que se pueda para aplicar políticas de lucha contra la pobreza y la exclusión social de los más pequeños. Estoy segura de que ningún miembro de esta Cámara estará en desacuerdo con lo que digo, hay que trabajar para dar a esos niños una esperanza de romper el círculo en el que se encuentran para salir adelante. Hay que darles la vida que se merecen. Lo estamos haciendo pero tenemos que hacerlo más y mejor, mucho mejor. La pobreza energética afecta a los niños, y al final esta sociedad tiene que ser de todos.</seg>
                <seg>Muchas gracias, señor presidente, señores diputados.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u5" ana="#chair">
                <seg>Muchas gracias, señora Oramas.</seg>
                <seg>Tiene la palabra el señor Martínez.</seg>
             </u>
@@ -154,7 +152,7 @@
                <seg>Mi reconocimiento en todo caso hacia la gran utilidad del Defensor del Pueblo para propiciar soluciones y esperanza a muchos de los casos que se le plantean y a quien debemos su alta contribución a una mejor democracia para todos los españoles.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u7" ana="#chair">
                <seg>Muchas gracias, señor Martínez.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Agirretxea.</seg>
             </u>
@@ -173,7 +171,7 @@
                <seg>Por último, señor presidente, si me lo permite, aludiré a los inmigrantes y los refugiados -algo en lo que incidió-. La crisis de refugiados que afecta a Europa ha marcado la labor de la institución en materia migratoria, sin duda alguna, y el Defensor ha reclamado una respuesta común y coordinada desde la Unión Europea para hacer frente a esta crisis. Me parece perfecto, estoy de acuerdo: hay que exigir a quien hay que exigir; en este momento es el Gobierno el que debe actuar. La semana pasada el Gobierno nos habló aquí de la actitud que el Gobierno español ha tenido en Europa, y creemos que hay una serie de acciones que se deben dar y en las que no vemos que el Gobierno español verdaderamente haya incidido como debe. En el caso de Turquía, dotarla como garante de todos nuestros derechos, es una especie de despensa donde queremos esconder lo que no queremos ver. Turquía no es un país seguro, y eso lo sabemos perfectamente. Como no me queda más tiempo y no son más que repeticiones de cosas que mi portavoz dijo la semana pasada en esta tribuna, voy a concluir. Voy a concluir pidiendo que en un principio la Defensora siga trabajando con esta índole, que se dote de más espíritu crítico y de más inconformismo cuando la sociedad verdaderamente pide cuestiones y que sea una especie de punta de lanza de lo que las necesidades sociales reclaman, no solamente a las instituciones gubernamentales sino a la propia sociedad en sí para que responda a sus necesidades.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u9" ana="#chair">
                <seg>Gracias, señor Agirretxea.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> tiene la palabra la señora Ribera.</seg>
             </u>
@@ -208,7 +206,7 @@
                <seg>Espero haber sido lo suficientemente claro y directo, y permítanme que acabe con una última referencia al señor Rajoy -y a su grupo parlamentario-, que sorprendentemente hoy tampoco está aquí. El otro día mi compañera Ana Surra dijo que era refugiada y ustedes se mofaron.<note>Protestas.-El señor Tarno Blanco hace gestos negativos.</note> El señor Rajoy dijo que se descafilicaba...<note>Protestas.</note> No se inquieten; cálmense.<note>El señor Tarno Blanco y el señor Suárez Lamata pronuncian palabras que no se perciben.</note> Dijo que se descalificaba sola. Lo dijo un señor que dice que un plato es un plato y un vaso es un vaso, lo cual es sorprendente. Les digo una cosa, Ana Surra atesora en un solo día de su vida más dignidad y decencia que todos ustedes en una vida entera.<note>El señor Tarno Blanco: ¡Eso, seguro!</note> Muchas gracias, y buenos días.</seg>
                <note>Aplausos.-El señor Suárez Lamata: ¡Un maleducado!-Una señora diputada: ¡Sí, señor!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u13" ana="#chair">
                <seg>Por el Grupo Parlamentario Ciudadanos, tiene la palabra el señor Cano.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u14"
@@ -231,7 +229,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos.</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u15" ana="#chair">
                <seg>Gracias, señor Cano.</seg>
                <seg>Por el Grupo Parlamentario de Podemos-En Comú Podem-En Marea tiene la palabra la señora Rosell.</seg>
             </u>
@@ -248,7 +246,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados de Grupo Parlamentario Podemos-En Comú Podem-En Marea, algunos de ellos puestos en pie.</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u17" ana="#chair">
                <seg>Gracias, señora Rosell.</seg>
                <seg>Por el Grupo Parlamentario Socialista, tiene la palabra la señora Galovart.</seg>
                <pb n="18"/>
@@ -263,7 +261,7 @@
                <seg>Pasando a otro tipo de cuestiones, nos sorprende que el tema violencia machista se encuentre ubicado en las áreas Administración de Justicia e igualdad de trato, pues, con todos los respetos, entendemos que ese no es el lugar y sí lo sería un apartado propio que permitiera tener una visión conjunta de esta problemática y que fuera consecuencia de la decisión firme de la defensoría de dar un nuevo impulso a la lucha contra esta violencia machista.</seg>
                <note>Rumores.</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u19" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u20"
@@ -279,7 +277,7 @@
                <seg>Gracias por su atención.</seg>
                <note>Aplausos.</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u21" ana="#chair">
                <seg>Gracias, señora Galovart.</seg>
                <seg>Para finalizar este turno, tiene la palabra, por el Grupo Parlamentario Popular, el señor García Urbano.</seg>
             </u>
@@ -303,7 +301,7 @@
                <seg>En primer lugar, la labor que usted ha realizado en 2015 no solamente ha consistido en el funcionamiento de la Administración, usted ha salido además a la calle, el Defensor del Pueblo ha salido a la calle, ha recorrido el país, ha visitado el extranjero; ha estado en colegios, en centros sanitarios, en centros penitenciarios, en campos de refugiados, en centros de menores.</seg>
                <seg>En segundo lugar, usted ha dado un ejemplo de transparencia en su funcionamiento interno que debe servir de modelo a otras administraciones. El Grupo Popular valora muy positivamente ese ejercicio de transparencia y le pide, eso sí, que excite permanentemente el celo del resto de administraciones para<pb n="22"/> que mantengan la misma dosis de transparencia y cumplan las leyes de transparencia y buen gobierno sobre la materia.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u23" ana="#chair">
                <seg>Señor García, le ruego que los cuatro puntos que le quedan los resuma de manera telegráfica porque ha superado el tiempo con creces.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u24"
@@ -313,7 +311,7 @@
                <seg>Punto 4. El informe pone de manifiesto el rigor, la profesionalidad y también la austeridad con la que se ha actuado y todo ello sirve igualmente y coadyuva para garantizar ese prestigio del que goza. Le puedo afirmar hoy que no hay en España ni una sola persona, ni un solo español que, frente a la percepción que se tiene de otras instituciones, dude de la utilidad de la institución.</seg>
                <seg>Punto 5. El trabajo durante 2015 ha sido chequear la Administración, pero se ha hecho más. Es cierto que se ha cumplido con ese papel de hacer una especie de ITV a la Administración, algo que coadyuva a que los ejes de la Administración estén permanentemente engrasados con un control de calidad, pero usted ha ido mucho más lejos y ha hecho más, la bajada del número de quejas le ha permitido incrementar el número de recomendaciones. Esa es una buena dirección. Un país que tiene un Defensor del Pueblo que baja...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u25" ana="#chair">
                <seg>Señor García, eso no es telegráfico. Mire el reloj que tiene a su lado.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u26"
@@ -324,7 +322,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos.</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-04-13-CD160413.u27" ana="#chair">
                <seg>Gracias, señor García.</seg>
                <seg>Reitero nuestro agradecimiento a la institución de la defensoría del pueblo.</seg>
                <seg>Hemos concluido el orden del día y, por tanto, se levanta la sesión.</seg>

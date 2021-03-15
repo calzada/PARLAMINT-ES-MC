@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="102">102 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="102" xml:lang="es">102 speeches</measure>
+            <measure unit="speeches" quantity="102" xml:lang="en">102 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="39"/>
                <tagUsage gi="note" occurs="45"/>
                <tagUsage gi="u" occurs="102"/>
-               <tagUsage gi="lb" occurs="298"/>
+               <tagUsage gi="seg" occurs="298"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,23 +92,19 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>MODIFICACIÓN DEL ORDEN DEL DÍA</head>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
                <seg>De conformidad con lo dispuesto por el artículo 68.1 del Reglamento y acordado en la Junta de Portavoces, esta Presidencia propone al Pleno de la Cámara la modificación del orden del día en interpelaciones urgentes, de tal manera que la del Grupo de Unión Progreso y Democracia, que figura en el orden del día con el número 27, pase a debatirse en primer lugar dentro del punto V, interpelaciones urgentes. ¿Lo acuerda así la Cámara?<note>Asentimiento</note> Muchas gracias.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, SOBRE REFORMA DEL IMPUESTO SOBRE EL VALOR AÑADIDO DE LOS SERVICIOS BÁSICOS: AGUA, ELECTRICIDAD, GAS Y TRANSPORTE.</head>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u2" ana="#chair">
                <seg>Toma en consideración de la proposición de ley de La Izquierda Plural sobre reforma del impuesto sobre el valor añadido de los servicios básicos: agua, electricidad, gas y transporte. Para la presentación de la iniciativa tiene la palabra la señora Ortiz.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u3"
@@ -124,7 +122,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u4" ana="#chair">
                <seg>Muchas gracias, señora Ortiz.</seg>
                <seg>En turno de fijación de posiciones, por el Grupo Mixto, tiene la palabra en primer lugar la señora Fernández Davila.</seg>
             </u>
@@ -136,7 +134,7 @@
                <seg>Somos conscientes de que todas las soluciones a estos problemas no las da la propuesta que hoy presenta La Izquierda Plural, pero también somos conscientes de que, si se lleva a cabo lo que aquí se propone, aminoraría en gran medida la situación de gravedad que están sufriendo muchísimos ciudadanos por la cuestión energética y, sobre todo, desde nuestro punto de vista, facilitaría poder alcanzar un precio justo para unos productos que son básicos y de primera necesidad para la ciudadanía.</seg>
                <seg>Muchísimas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u6" ana="#chair">
                <seg>Muchas gracias, señora Fernández.</seg>
                <seg>Señora Jordà, por el Grupo Mixto también.</seg>
             </u>
@@ -147,7 +145,7 @@
                <seg>Señoras y señores diputados, cuando faltaban solo cuatro días para que los ciudadanos acudieran a las urnas, el candidato Mariano Rajoy lanzó una de las más famosas mentiras en campaña electoral: Yo no voy a subir los impuestos -dijo-, porque hoy subirlos significa más paro y significa a la vez también más recesión, significa darle una vuelta más a las maltrechas economías de las familias y de las empresas. Resulta, señoras y señores diputados, que a las maltrechas economías de las familias y de las empresas les ha subido el precio de sus bienes básicos, el agua y la luz. Desde el año 2010, el IVA que tributan los servicios básicos ha subido 5 puntos: del 16 % al 21 % en el caso de la energía y del 7 % al 10 % en el caso del agua y del transporte público. Como siempre -y no descubro absolutamente nada-, negocio en abundancia para algunos; ruina y a la vez desesperación para centenares de miles de personas. Para ver el negocio en abundancia hay que ver también los astronómicos beneficios que se reparten las compañías eléctricas, en las que se sientan como consejeros -y ya lo hemos denunciado en más de una ocasión- exministros y expresidentes del PSOE y del Partido Popular, muy bien pagados por cierto. Mientras, las ciudadanas y los ciudadanos pagamos la luz más cara de toda Europa, pese a que arrastramos una deuda eléctrica de más de 26.000 millones de euros, que, curiosamente, es menor que los beneficios conseguidos por las empresas en el tiempo en que se ha generado dicha deuda. Dicho en otras palabras, que la deuda con las eléctricas -causa de encarecimiento de la factura de la luz y de otros recortes sociales- ha ido directamente a enriquecer a las empresas. Señoras y señores diputados, bienvenidos al neoliberalismo. Y mientras las empresas y sus consejeros se enriquecen, más de 7 millones de personas son, hoy por hoy, víctimas de la pobreza energética. Esto solo se puede definir como vergonzoso y como un descarado expolio social, como es un expolio social el sistema fiscal español, que hace que las clases bajas y las clases medias paguen más impuestos que las grandes fortunas, o que los salarios de los trabajadores paguen más impuestos que los beneficios de los especuladores, por ejemplo, bursátiles. Es necesario pues y urgente como mínimo rebajar el IVA de servicios básicos como la luz o el agua para aliviar la carga de familias y de empresas.<pb n="8"/> Fíjense en la paradoja. Resulta que el Gobierno del Partido Popular subió los impuestos para que el Gobierno tuviera más dinero y, supuestamente -esto es mucho suponer, pero lo suponemos- poder atender las necesidades de la población, pero si resulta que la luz y el agua son necesidades básicas de familias y empresas, ¿no sería más oportuno rebajarles el IVA? Lejos de esto, suministros básicos como el agua, la luz o el gas cuestan mucho más desde el inicio de la crisis. Hemos insistido a lo largo de esta legislatura -no es la primera vez- en que no se trata de reducir los impuestos, sino de rebajarlos para las clases medias y bajas, para las pymes y autónomos, a la vez que se aumenten para las grandes empresas y las grandes fortunas. Si aun así quieren mantener los ingresos por el IVA, entonces bajen el tipo impositivo de la luz, el agua y el transporte público, beneficiando a toda la población, y creen -como hace tiempo les reclamamos desde Esquerra Republicana- un IVA de lujo para los productos más selectos, que son los que compra la gente evidentemente con más recursos, la gente más pudiente, la gente con más dinero, por cierto, la gente a quien no le afecta la crisis, la gente que sigue aumentando su fortuna pese a la misma crisis. No obstante, no solo no hacen nada para combatir la pobreza en general y la pobreza energética en particular, sino que además boicotean los intentos del Parlament de Catalunya de actuar contra la miseria creando un impuesto a la banca o adoptando un pacto para luchar contra la pobreza energética, reducir los niveles de pobreza y asumir los objetivos que se fijan en los acuerdos de Lisboa. Esto es lo que hacen. La respuesta del Partido Popular fue llevar al Constitucional nuestra propuesta, la propuesta catalana. ¡Bravo, señorías! Está claro, la única opción -y acabo- sigue siendo la de construir un país nuevo, es la única manera, la república catalana, que ante todo pretende ser un país donde sí exista la justicia social.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u8" ana="#chair">
                <seg>Gracias, señora Jordà.</seg>
                <seg>Por el Grupo Vasco, PNV, tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -158,7 +156,7 @@
                <seg>Intervendré muy brevemente desde el escaño para fijar la posición del Grupo Vasco con relación a la toma en consideración de la proposición de ley sobre la reforma del impuesto sobre el valor añadido en los servicios básicos: agua, electricidad, gas y transporte. Adelanto que nuestro grupo va a votar favorablemente a esa toma en consideración. Entendemos que la rebaja del IVA en estos productos básicos es una cuestión no solo de carácter económico sino también una cuestión de carácter social. La crisis económica ha llevado a muchísima gente a lo que se ha denominado pobreza energética, esto es, que no puede pagar la factura de electricidad, la factura del agua o la factura de los transportes públicos. Entendemos que es una iniciativa positiva que de verdad nos gustaría debatir y además nos gustaría hacerlo en un sentido amplio, porque creemos que hay otro gran número de servicios y de productos que, siendo de carácter básico, son costosos para muchos colectivos que tienen rentas bajas y que están pasándolo muy mal en la época de crisis. Sería pues importante ampliar esta lista de una forma considerable. Esperamos que otros grupos también voten favorablemente la toma en consideración. Desde luego, nosotros sí lo vamos a hacer.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u10" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Anchuelo.</seg>
             </u>
@@ -172,7 +170,7 @@
                <seg>Nosotros querríamos reabrir el debate en general del IVA porque criticamos su subida tan drástica por este Gobierno, que había prometido una bajada de impuestos y que triplicó el IVA, no solo subió los tipos sino que cambió la clasificación de muchos productos. El IVA es un impuesto que grava el consumo únicamente y afecta más a las rentas bajas, que se consumen en su totalidad, y somos partidarios -como también defendimos en nuestra propuesta de reforma fiscal- de reducir selectivamente el IVA en productos culturales, educativos, material escolar. Defendemos que el IVA de productos sanitarios -que subió por una sentencia del Tribunal de Justicia de la Unión Europea- revierta a la sanidad, es decir, que esos ingresos que genere la subida reviertan en la sanidad. Por tanto, esta proposición de ley nos da la oportunidad de reabrir en conjunto este debate del IVA y, en consecuencia, votaremos favorablemente su toma en consideración.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u12" ana="#chair">
                <seg>Muchas gracias, señor Anchuelo.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió, tiene la palabra el señor Picó.</seg>
             </u>
@@ -188,7 +186,7 @@
                <seg>Coherencia, señora Ortiz. Quiero recordar que en aquella ocasión, en el año 2008, el Grupo Parlamentario Socialista votaba en contra de la iniciativa formulada por Convergència i Unió -en aquellos momentos gobernaban- y el Grupo Parlamentario Popular votaba a favor de la toma en consideración. Parece que hoy el sentido del voto va a ser al contrario. Nos damos por satisfechos con que el Grupo<pb n="11"/> Parlamentario de La Izquierda Plural haya cambiado su parecer y ahora defienda la adopción de medidas para paliar la pobreza energética, como defiende ahora Convergència i Unió y ya defendía en el año 2008, y no por nada, sino porque es una medida necesaria y de justicia social.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u14" ana="#chair">
                <seg>Muchas gracias. señor Picó.</seg>
                <seg>Por el Grupo Parlamentario Socialista, tiene la palabra la señora Vázquez Morillo.</seg>
             </u>
@@ -202,7 +200,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u16" ana="#chair">
                <seg>Muchas gracias, señora Vázquez.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra la señora Asian.</seg>
             </u>
@@ -219,12 +217,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u18" ana="#chair">
                <seg>Muchas gracias, señora Asián.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE MODIFICACIÓN DE LA LEY 17/2006, DE 5 DE JUNIO, DE LA RADIO Y TELEVISIÓN DE TITULARIDAD ESTATAL, PARA RECUPERAR LA INDEPENDENCIA DE LA CORPORACIÓN RTVE Y EL PLURALISMO EN LA ELECCIÓN PARLAMENTARIA DE SUS ÓRGANOS.</seg>
                <note>Número de expediente 122/000172</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u19" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo Socialista sobre modificación de la Ley 17/2006, de 5 de junio, de la Radio y la Televisión de titularidad estatal, para recuperar la independencia de la Corporación RTVE y el pluralismo en la elección parlamentaria de sus órganos. Tiene la palabra para defender la iniciativa don Germán Rodríguez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u20"
@@ -594,7 +592,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u72" ana="#chair">
                <seg>Muchas gracias, señor Martín-Toledano.</seg>
                <seg>Señor Sánchez i Llibre, creo que hay una enmienda&#x85;</seg>
             </u>
@@ -603,12 +601,12 @@
                ana="#regular">
                <seg>No la vamos a aceptar, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u74" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u74" ana="#chair">
                <seg>Muchas gracias, señor Sánchez i Llibre.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, SOBRE MEDIDAS PARA ERRADICAR LA ENDOGAMIA UNIVERSITARIA MEDIANTE LA REFORMA DEL SISTEMA DE SELECCIÓN DEL PERSONAL DOCENTE E INVESTIGADOR PERMANENTE UNIVERSITARIO.</seg>
                <note>Número de expediente 162/001050</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u75" ana="#chair">
                <seg>Proposición no de ley de Unión Progreso y Democracia, sobre medidas para erradicar la endogamia universitaria mediante la reforma del sistema de selección del personal docente e investigador permanente universitario.</seg>
                <seg>Quiero comunicarles que este va a ser el último punto del orden del día que vamos a debatir esta tarde.</seg>
                <seg>Tiene la palabra, para defender la iniciativa, el señor Martínez Gorriarán.</seg>
@@ -626,7 +624,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u77" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Como ha dicho el señor Martínez Gorriarán, hay dos enmiendas formuladas. En primer lugar, por el Grupo Catalán de Convergència i Unió y para la defensa de su enmienda, tiene la palabra el señor Barberà.</seg>
             </u>
@@ -639,7 +637,7 @@
                <seg>El Grupo Parlamentario Catalán de Convergència i Unió cree oportuno pedir al Gobierno que abra un debate más amplio que su propuesta para consensuar el marco de la reforma de la gestión de personal y, por tanto, estamos dispuestos a hablar de su iniciativa de movilidad, de internacionalización, de financiación, de capacidad de captación, estamos de acuerdo en abrir el debate, pero, como usted ya ha reflejado en su intervención -como no podía ser de otra manera-, este modelo debe ser respetuoso con el marco competencial de Cataluña, con su modelo propio de sistema universitario. Por eso hemos presentado enmiendas al primer punto, donde usted añadía a la titulación y a la experiencia el deber documentar al menos tres años de trabajos en otras universidades o en empresas, centros investigadores, etcétera. Fíjese, ese es el problema de la legislación estatal, esa premisa estaría impidiendo llevar a cabo un programa de captación de talento innovador, como es el Jaume Serra i Hunter. Esta premisa de tres años que estábamos discutiendo antes no permitiría llevar a cabo este programa. Por eso necesitamos un marco flexible estatal para que cada comunidad autónoma pueda ejecutar dentro de esa flexibilidad su propio modelo de sistema universitario de acuerdo con cada territorio, con cada política del Gobierno y de su entorno que refleje esas necesidades del territorio. Por ello, señorías, nos vamos a abstener, porque estamos de acuerdo en que hay que abrir un debate, pero no en la dirección en que ustedes quieren hacerlo.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u79" ana="#chair">
                <seg>Muchas gracias, señor Barberà.</seg>
                <seg>Para defender la enmienda que ha presentado el Grupo Popular, tiene la palabra la señora Moro.</seg>
             </u>
@@ -654,7 +652,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u81" ana="#chair">
                <seg>Gracias, señora Moro.</seg>
                <seg>Turno de fijación de posiciones. En primer lugar, por el Grupo Vasco, PNV, tiene la palabra la señora Sánchez Robles.</seg>
             </u>
@@ -664,7 +662,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>Señorías, lo cierto es que cuando procedí a la lectura de la parte dispositiva de esta iniciativa tengo que reconocer que me temblaron las piernas, y me temblaron solo de pensar en la posibilidad de instar al Gobierno o, lo que es lo mismo, al ministro Wert a presentar -y cito literal- en el plazo de seis meses un proyecto de ley. Tengo que reconocer la valentía o, quizá mejor, la osadía del grupo proponente a la vista<pb n="39"/> del destrozo, del daño incalculable causado en tan solo dos años por el Gobierno popular y por el Ministerio de Educación en el sistema educativo español, primero de frente, con la Lomce, y ahora, en materia de política universitaria, de perfil vía decretazo. En la primera moción del orden del día de mañana tendremos la oportunidad de debatir sobre las últimas joyas evacuadas por el Ejecutivo en materia de ordenación de las enseñanzas universitarias, pero eso será mañana.<note>Rumores</note> Retomo el hilo. Como comprenderán, conocedora del insigne currículum del ministro Wert, pensé: sinceramente, qué necesidad de ir a buscar peligros, qué necesidad. Bien es verdad que, en una segunda reflexión más serena, también concluí que esta PNL no hace más que poner de manifiesto el pobre balance de la gestión del ministro Wert en política universitaria: maquillaje, recortes y más recortes, y algún retoquillo de carácter administrativo. Al fin y al cabo, lo que pone blanco sobre negro esta iniciativa es que este Gobierno y el señor ministro no han sido capaces de llevar a efecto el compromiso adquirido al inicio de esta legislatura, como bien ha señalado el señor Barberà en su intervención.<note>Continúan los rumores</note> Por otra parte, es incuestionable que el sistema de selección, de contratación y de promoción del personal docente e investigador, de los PDI, de la universidad en general padece endogamia. Es ciertamente incuestionable. En esta apreciación estamos al cien por cien de acuerdo con el fondo de la iniciativa, nosotros y creo que toda la comunidad educativa. Lo es también la necesidad de proceder a su revisión, con la voluntad de acabar de una vez por todas con los efectos más que negativos de esta dolencia que también el señor Martínez Gorriarán ha puesto de manifiesto a lo largo de su intervención: resta competitividad a las universidades del Estado&#x85;<note>Continúan los rumores</note> Presidente, me están indicando que no se me escucha.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u83" ana="#chair">
                <seg>Perdón, señora Sánchez.</seg>
                <seg>Ruego silencio para que se oiga a la señora diputada.</seg>
             </u>
@@ -673,7 +671,7 @@
                ana="#regular">
                <seg>Como decía, resta competitividad a las universidades del Estado y condiciona la calidad y la eficiencia del sistema universitario. En eso estamos totalmente de acuerdo. Sin embargo, no podemos compartir la visión catastrofista -como ha puesto también de manifiesto la señora Moro- que se traslada a través de la parte expositiva de una manera homogeneizadora y generalista, y aún menos en lo que se refiere al trabajo del personal y de los profesionales de la educación. Desde luego, al hilo también de lo señalado por el señor Barberà, no podemos aceptar que se obvien las competencias de las comunidades autónomas, de las distintas administraciones educativas, de las universidades, depositando además nuestro espíritu en un Gobierno, en un ministerio y en un ministro que han hecho del imperativo categórico la ley, que se han demostrado ciegos, sordos y mudos para con la opinión no solo de los grupos parlamentarios de esta Cámara sino del sector educativo y de toda la sociedad, un Gobierno que, además, embozado en su mayoría parlamentaria, que no social -ya lo hemos comentado en otras ocasiones-, ha hecho como les decía de la imposición una máxima. Sinceramente, es arriesgar demasiado. Considerando por tanto la nefasta gestión que han realizado, que además se encuentra ya en tiempo de descuento, entendemos -y es duro lo que voy a decir- que es preferible mantener el statu quo en espera de tiempos políticos mejores y de nuevas mayorías parlamentarias. Por eso, ya les avanzo que nuestro voto será la abstención.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u85" ana="#chair">
                <seg>Muchas gracias, señora Sánchez Robles.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra la señora García Álvarez.</seg>
             </u>
@@ -689,7 +687,7 @@
                <seg>Tenemos que hablar de la movilidad del profesorado universitario en general -ahora bloqueada, por cierto- y no solo de hacerles la vida imposible a los que van a consolidar su puesto de trabajo. No convirtamos a las víctimas -el profesorado precario y temporal- en culpables. ¿Por qué se quiere aplicar esta medida al profesorado precario y no se propone también para los catedráticos de universidad que llevan más de veinte años en la misma?</seg>
                <seg>En definitiva, lo que a nuestro entender ustedes proponen con esta proposición no de ley sigue la línea del informe de la comisión de expertos encargada por el ministro Wert, que propone un sistema sin las garantías exigibles a una contratación pública y la desfuncionarización paulatina del personal académico, creando una suerte de dos categorías de profesorado. Parece, pues, que se pretende un sistema dual de profesorado -eso gusta mucho en los bancos de la derecha-, dividido en una élite de fichajes estrella con contratos blindados y una mayoría de profesorado en condiciones precarias y dependientes de continuas renovaciones de sus superiores, mal pagados y trabajando a destajo, con graves dificultades para mantener una cierta libertad de cátedra y también la propia independencia académica.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u87" ana="#chair">
                <seg>Señora diputada, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u88"
@@ -699,7 +697,7 @@
                <seg>Estas fórmulas ya ensayadas en otros momentos y universidades lo que refuerzan es la jerarquización estamental, como lo definió Fernández Buey. Todas estas consideraciones que le hemos hecho, señor Martínez Gorriarán, señores de UPyD, son para señalar, evidentemente, nuestro voto en contra a la iniciativa.</seg>
                <pb n="41"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u89" ana="#chair">
                <seg>Muchas gracias, señora García Álvarez.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor Bedera.</seg>
             </u>
@@ -714,7 +712,7 @@
                <seg>Por ello, señor Martínez Gorriarán, en otras circunstancias votaríamos su proposición no de ley, seguramente con matices, pero la votaríamos para eliminar la endogamia en la universidad. Hoy tememos<pb n="42"/> seriamente por su viabilidad y pensamos que primum vivere, deinde philosophare y, por tanto, nos vamos a abstener.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u91" ana="#chair">
                <seg>Muchas gracias, señor Bedera.</seg>
                <seg>Señor Martínez Gorriarán, aunque ya lo ha expresado, a efectos formales le pregunto qué va a hacer con las enmiendas.</seg>
             </u>
@@ -724,51 +722,51 @@
                <seg>Señor presidente, no las aceptamos. Se votará en sus términos.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u93" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Votaremos en unos minutos.</seg>
                <note>Pausa</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u94" ana="#chair">
                <seg>Vamos a proceder a las votaciones.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY : - DEL GRUPO PARLAMENTARIO DE IU, ICV-EUIA, CHA: LA IZQUIERDA PLURAL, SOBRE REFORMA DEL IMPUESTO SOBRE EL VALOR AÑADIDO DE LOS SERVICIOS BÁSICOS: AGUA, ELECTRICIDAD, GAS Y TRANSPORTE.</head>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u95" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo de La Izquierda Plural, sobre reforma del impuesto sobre el valor añadido de los servicios básicos: agua, electricidad, gas y transporte. Hay 4 votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318 más 4 votos telemáticos, 322; a favor, 147 más 2 votos telemáticos, 149; en contra, 169 más 2 votos telemáticos, 171; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u96" ana="#chair">
                <seg>No se toma en consideración.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE MODIFICACIÓN DE LA LEY 17/2006, DE 5 DE JUNIO, DE LA RADIO Y LA TELEVISIÓN DE TITULARIDAD ESTATAL, PARA RECUPERAR LA INDEPENDENCIA DE LA CORPORACIÓN RTVE Y EL PLURALISMO EN LA ELECCIÓN PARLAMENTARIA DE SUS ÓRGANOS.</seg>
                <note>Número de expediente 122/000172</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u97" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo Socialista, sobre modificación de la Ley 17/2006, de 5 de junio, de la radio y la televisión de titularidad estatal, para recuperar la independencia de la Corporación Radiotelevisión Española y el pluralismo en la elección parlamentaria de sus órganos. Hay 4 votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318 más 4 votos telemáticos, 322; a favor, 148 más 2 votos telemáticos, 150; en contra, 169 más 2 votos telemáticos, 171; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u98" ana="#chair">
                <seg>No se toma en consideración.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY : - DEL GRUPO PARLAMENTARIO CATALÁN , RELATIVA AL PAGO ANUAL DEL FONDO DE COMPETITIVIDAD CORRESPONDIENTE A LOS AÑOS 2014 Y 2015 A LA GENERALITAT DE CATALUÑA Y DEMÁS COMUNIDADES AUTÓNOMAS BENEFICIARIAS DEL MISMO.</head>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u99" ana="#chair">
                <seg>Proposición no de ley del Grupo Parlamentario Catalán de Convergència i Unió, relativa al pago anual del Fondo de competitividad correspondiente a los años 2014 y 2015 a la Generalitat de Cataluña y demás comunidades autónomas beneficiarias del mismo. Se vota en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="43"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 134; en contra, 170; abstenciones, 9.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u100" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, SOBRE MEDIDAS PARA ERRADICAR LA ENDOGAMIA UNIVERSITARIA MEDIANTE LA REFORMA DEL SISTEMA DE SELECCIÓN DEL PERSONAL DOCENTE E INVESTIGADOR PERMANENTE UNIVERSITARIO.</seg>
                <note>Número de expediente 162/001050</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u101" ana="#chair">
                <seg>Proposición no de ley del Grupo de Unión Progreso y Democracia, sobre medidas para erradicar la endogamia universitaria mediante la reforma del sistema de selección del personal docente e investigador permanente universitario. Se vota también en sus términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 7; en contra, 183; abstenciones, 123.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-17-CD150217.u102" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las siete y cincuenta minutos de la tarde.</seg>

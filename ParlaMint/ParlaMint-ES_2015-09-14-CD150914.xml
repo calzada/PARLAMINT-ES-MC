@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="136">136 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="136" xml:lang="es">136 speeches</measure>
+            <measure unit="speeches" quantity="136" xml:lang="en">136 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="54"/>
                <tagUsage gi="note" occurs="66"/>
                <tagUsage gi="u" occurs="136"/>
-               <tagUsage gi="lb" occurs="457"/>
+               <tagUsage gi="seg" occurs="457"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>JURAMENTO O PROMESA DE ACATAMIENTO DE LA CONSTITUCIÓN POR NUEVOS SEÑORES DIPUTADOS</head>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
                <seg>Con carácter previo al examen del orden del día, vamos a proceder al juramento o promesa de acatamiento de la Constitución, conforme al artículo 20.1.3.º del Reglamento. En sustitución de don José María Benegas, pregunto a doña Loly de Juan de Miguel si jura o promete acatar la Constitución.</seg>
             </u>
@@ -108,7 +106,7 @@
                ana="#regular">
                <seg>Prometo acatar la Constitución.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u3" ana="#chair">
                <seg>En sustitución de don José Máximo López Vilaboa, pregunto a doña Mónica Raquel Pérez Serna si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u4"
@@ -116,14 +114,14 @@
                ana="#regular">
                <seg>Sí, juro.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u5" ana="#chair">
                <seg>Doña Loly de Juan de Miguel y doña Mónica Raquel Pérez Serna han adquirido la condición plena de diputadas. Enhorabuena.</seg>
                <note>Aplausos</note>
             </u>
          </div>
          <div type="debateSection">
             <head>DICTÁMENES DE COMISIONES SOBRE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY DE PRESUPUESTOS GENERALES DEL ESTADO PARA EL AÑO 2016.</head>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u6" ana="#chair">
                <seg>Señorías, antes de comenzar el debate del dictamen del proyecto de ley de Presupuestos Generales del Estado para 2016, quiero anunciarles la presencia en la tribuna de una delegación de diputados de la Cámara de Uruguay, a la que damos nuestra más calurosa bienvenida.<note>Aplausos</note> Quiero anunciarles también que la primera votación será mañana martes sobre las ocho de la noche. El miércoles continuaremos con el debate y, al finalizar el mismo, tendremos la última votación del dictamen de presupuestos.</seg>
                <seg>Vamos a comenzar el debate. En primer lugar, corresponde el debate de las secciones 12, Asuntos Exteriores y Cooperación, y 34, Relaciones financieras con la Unión Europea. Para la presentación de las secciones, tiene la palabra en nombre del Gobierno el ministro de Asuntos Exteriores y Cooperación.</seg>
             </u>
@@ -157,7 +155,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u8" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>En turno de defensa de enmiendas, en primer lugar, por el Grupo Parlamentario Mixto tiene la palabra el señor Salvador.</seg>
             </u>
@@ -175,7 +173,7 @@
                <seg>Señor presidente, señorías, todas estas aportaciones o mejoras que nosotros proponemos para estos presupuestos a través de nuestras enmiendas nos parecen útiles, realistas, pragmáticas y una apuesta de futuro por nuestra comunidad. Responden a unas demandas, a unas preocupaciones y a unas ambiciones, que no son otras que desear y esperar que con estos cambios sigamos mejorando la vida de los españoles y, especialmente, para mi partido la vida de todos los navarros.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u10" ana="#chair">
                <seg>Muchas gracias, señor Salvador.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia tiene la palabra la señora Lozano.</seg>
             </u>
@@ -189,7 +187,7 @@
                <seg>Creemos que el entusiasmo que produce el acuerdo nuclear con Irán -y que desde luego nosotros compartimos-, no nos puede conducir a políticas erráticas y no nos puede conducir a hacer afirmaciones como la de que usted es el embajador del régimen de los ayatolás. Usted no puede ser el embajador de un régimen que solo en la primera mitad de este año ha ejecutado a 700 personas, según las organizaciones de derechos humanos; un régimen que cuelga a los presos comunes y a los presos políticos en la calle, que los ahorca en las calles, un régimen que impone cada vez mayores restricciones a la libertad de las mujeres, a las que impone castigos físicos severos si no se atienen a determinadas normas respecto a su vestimenta. Nosotros pensamos que en cualquier viaje del ministro de Asuntos Exteriores, vaya acompañado de grandes empresarios o no -algo que, insisto, en sí mismo no censuramos-, usted tiene que defender sobre todo la reputación española y tiene que poner sobre la mesa la agenda de derechos humanos siempre. Nuestro país tiene una reputación como defensor de los derechos de las mujeres, tiene una reputación como donante de fondos de cooperación. Por tanto, esta enmienda de totalidad, señor ministro, no es solo una enmienda al presupuesto de su ministerio, sino una enmienda de totalidad a su actuación y, particularmente, una enmienda a que nuestro país legitime regímenes tiránicos y antidemocráticos.</seg>
                <seg>Muchas gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u12" ana="#chair">
                <seg>Muchas gracias, señora Lozano.</seg>
                <seg>Por el Grupo de La Izquierda Plural tiene la palabra, en primer lugar, el señor Nuet.</seg>
             </u>
@@ -203,7 +201,7 @@
                <seg>Me referiré a un último tema antes de dar la palabra a mi compañero que va a presentar y defender algunas enmiendas concretas. La práctica congelación de los fondos de cooperación es pan para hoy y<pb n="12"/> hambre para mañana porque usted sabe, señor ministro, que la ola migratoria no se detiene en las fronteras levantando las vallas y poniendo más alambradas de espino. La ola migratoria se detiene en su origen invirtiendo en paz, pero paz antes de la guerra, no después de la guerra como en Libia o como en Siria, paz antes de la guerra; invirtiendo en desarrollo; invirtiendo en democracia. Y nuestro país, en este momento, no está a la altura en temas de cooperación de su papel de miembro no permanente del Consejo de Seguridad de Naciones Unidas.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u14" ana="#chair">
                <seg>Muchas gracias, señor Nuet.</seg>
                <seg>Señor Pérez Moya.</seg>
             </u>
@@ -214,7 +212,7 @@
                <seg>Señor ministro, por centrarme más en enmiendas concretas a partir de la intervención que ha hecho mi compañero, le plantearé que nuestras enmiendas van dirigidas sobre todo al aumento de la ayuda y cooperación al desarrollo. Como decía mi compañero el señor Nuet, los continuos recortes en la ayuda oficial al desarrollo que se han experimentado en los últimos años están provocando el desmantelamiento de la política de la cooperación española. En ese sentido, el programa de cooperación al desarrollo se ve directamente afectado ya que disminuye en su dotación casi un 3 % respecto al año pasado y un 25 % respecto a 2012. Nosotros presentamos enmiendas para que se aporten 400 millones de euros porque es fundamental la ayuda a la cooperación para hacer frente a las crisis humanitarias, y la ayuda a las organizaciones no gubernamentales para fortalecer el papel que están jugando en la asistencia humanitaria en cuanto a eficiencia e inmediatez. Por esa razón es importante trabajar conjuntamente. Asimismo, la Agencia Española de Cooperación Internacional para el Desarrollo, la Aecid, es una de las principales perjudicadas y acumula una caída de más de 600 millones de euros en el periodo de la legislatura, lo que significa un 72 % menos de presupuesto con respecto a lo programado en 2011. Quiero destacar un par de enmiendas, sobre todo una en la que solicitamos 179 millones de euros para hacer frente a los compromisos del 0,7 % asumido por los Estados miembros de la Unión Europea y que nuestro país no está cumpliendo con respecto a la Europa a quince. Entendemos que esas aportaciones serían una manera efectiva de ejecutar una política de cooperación que debe dotarse de un presupuesto suficiente a la altura de los desafíos que plantea el cuarto plan director y que debe incrementar las capacidades humanas y técnicas adquiridas en los últimos años en materia de cooperación al desarrollo. Las crisis que vivimos en el ámbito internacional nos obligan a tener esas políticas y esos incrementos presupuestarios.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u16" ana="#chair">
                <seg>Muchas gracias, señor Pérez Moya.</seg>
                <seg>Por el Grupo Parlamentario Catalán de Convergència i d'Unió, en primer lugar, tiene la palabra el señor Picó.</seg>
             </u>
@@ -743,7 +741,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u90" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo Catalán de Convergència i d'Unió tiene la palabra el señor Picó.</seg>
             </u>
@@ -757,7 +755,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <pb n="39"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u92" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>En turno de fijación de posiciones, por el Grupo Socialista tiene la palabra el señor Hurtado.</seg>
             </u>
@@ -771,7 +769,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u94" ana="#chair">
                <seg>Muchas gracias, señor Hurtado.</seg>
                <seg>Por el Grupo Parlamentario Popular tiene la palabra el señor Ordóñez.</seg>
             </u>
@@ -784,7 +782,7 @@
                <seg>La tercera razón para el incremento de la deuda es el saneamiento del sistema financiero, la necesaria utilización del MEDE para sanear y recapitalizar el sector bancario que supuso 3,8 puntos de deuda. Han sido 40.000 millones de euros que han permitido salvar no a los banqueros, como torticeramente dice la izquierda, sino a los depositantes, a los ahorros de los ciudadanos y a los pequeños inversores. Les pregunto, señores del Grupo Socialista, ¿es que acaso el Gobierno socialista entregó 30.000 millones de euros a la banca para salvar o hacer más ricos o ricos a los consejeros de los bancos?<note>Aplausos</note> A la izquierda se le ha reconocido siempre su capacidad de propaganda y demagogia -son únicos-, no la virtud y la responsabilidad en el buen gobierno. Les pregunto, ¿qué opinan, cuál es su parecer cuando aquí se aprueba, con el voto favorable del Grupo Socialista un rescate, una entrega de 25.000 millones de euros a Grecia para salvar los bancos? ¿Estamos hablando, como dicen ustedes cuando se refieren al Partido Popular, de capitalismo de amiguetes o estamos hablando de solidaridad? Creo que es según hablen ustedes en cada caso. Carecen, por lo tanto, de autoridad moral para criticar un incremento de deuda que posibilitó fortalecer y consolidar el crecimiento económico actual, como también aquellos otros 24.000 millones de euros de déficit de tarifa eléctrica a los que fue necesario hacer frente. Y les recuerdo que la subida de la electricidad durante su mandato fue del 70 %. También incidió en este incremento de deuda la solidaridad con aquellos países que debieron ser rescatados: Grecia, Irlanda y Portugal, y que supuso 2,1 puntos del PIB. Señorías, España tiene efectivamente una elevada deuda, un 97 %, como la tiene Reino Unido, un 90 %; Francia, un 95 %; Italia, 102 %; Estados Unidos, 103 %, pero España está demostrando que tiene competitividad, que tiene capacidad de ahorro y, por lo tanto, también capacidad de reducir su deuda como lo hará ya en el año 2016. Para ello no hay otro secreto que el crecimiento económico.</seg>
                <seg>Señor Hurtado, en estos momentos el crédito está creciendo. Debe informarse cuando suba a esta tribuna para manifestarse respecto a lo que ocurre con el sector bancario. El crédito a la vivienda está creciendo un 71 %, el crédito al consumo un 55 % anual y a las pymes un 25 %.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u96" ana="#chair">
                <seg>Señor Ordóñez, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u97"
@@ -795,7 +793,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u98" ana="#chair">
                <seg>Muchas gracias, señor Ordóñez.</seg>
                <seg>Pasamos al debate del título VI. Defensa de las enmiendas por parte del Grupo de Unión Progreso y Democracia. Tiene la palabra el señor Calduch.</seg>
             </u>
@@ -810,7 +808,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u100" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo Catalán de Convergència i d'Unió, tiene la palabra el señor Picó.</seg>
             </u>
@@ -825,7 +823,7 @@
                <seg>Por lo tanto, nuestro grupo parlamentario valora negativamente esta legislatura en materia fiscal. Ha habido un incremento de la presión fiscal que ha recaído, sobre todo, en las clases medias y en sectores productivos que podían haber alentado la reactivación económica y la creación de empleo.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u102" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Turno de fijación de posiciones. En primer lugar, por el Grupo Socialista, tiene la palabra la señora Vázquez Morillo.</seg>
             </u>
@@ -842,7 +840,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u104" ana="#chair">
                <seg>Muchas gracias, señora Vázquez.</seg>
                <seg>Por el Grupo Popular, tiene la palabra la señora Madrazo.</seg>
             </u>
@@ -852,7 +850,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señorías, señora Vázquez, la verdad es que hay que tener mucho valor para pertenecer al Partido Socialista Obrero Español y salir aquí a hablar de cifras de paro, de déficit público...<note>Protestas.-Varios señores diputados: ¡Por favor, pero qué dices!-Aplausos</note> Es absolutamente increíble.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u106" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u106" ana="#chair">
                <seg>Ruego silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u107"
@@ -867,7 +865,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u108" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u108" ana="#chair">
                <seg>Muchas gracias, señora Madrazo.</seg>
                <seg>Título VII. Defensa de enmiendas. Por el Grupo de Unión Progreso y Democracia, el señor Calduch.</seg>
             </u>
@@ -881,7 +879,7 @@
                <seg>También hemos presentado una enmienda al Fondo de compensación interterritorial. Nos oponemos claramente al sistema que ha aplicado este Gobierno de sustituir progresivamente los distintos fondos regulados y controlados presupuestariamente por una serie de créditos extraordinarios destinados a pagar facturas, facturas que estaban en los cajones, facturas heredadas, pero pagadas sin ningún tipo de control presupuestario previo. Ese Fondo de liquidez autonómico, ese Fondo de compensación, etcétera, que se han ido inventando y que ha aumentado y abultado tanto la deuda pública se están aplicando de forma arbitraria; no de manera discrecional, sino de forma arbitraria. ¿Por qué? Porque no son cantidades que se aportan con criterios finalistas. Son las comunidades autónomas las que se endeudan con el criterio que les da la gana y es el Gobierno, que satisface de forma directa o avalando deuda pública de comunidades autónomas cuya deuda pública no pueden colocar en los mercados internacionales, el que decide arbitrariamente qué cantidades cubre y qué cantidades no. Frente a eso proponemos, por ejemplo, que se refuerce el Fondo de compensación interterritorial, que es finalista. Las cantidades van destinadas a proyectos que se presupuestan y que se presentan por las comunidades autónomas. Y no solamente creemos que hay que reforzar esos fondos, sino que también hay controlarlos. Por eso -y concluyo- hemos presentado una enmienda al artículo 106 para crear una comisión de estudio que supervise y controle el Fondo de compensación interterritorial.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u110" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo de La Izquierda Plural tiene la palabra el señor Garzón.</seg>
             </u>
@@ -891,7 +889,7 @@
                <seg>A este título mi grupo solo ha presentado una enmienda, concretamente al artículo 99, en relación con la financiación territorial, con la financiación de los ayuntamientos, entendiendo que hace falta añadir un nuevo fondo a aquellos ayuntamientos con menos de 20.000 habitantes con el que se pueda compensar la infrafinanciación que existe en este momento. Los ayuntamientos son las entidades públicas más cercanas a la ciudadanía, los que gestionan los servicios públicos que están más relacionados con la vida cotidiana de la gente. Entendemos que es necesario hacerse eco de esta demanda y por eso presentamos a este título esta única enmienda.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u112" ana="#chair">
                <seg>Muchas gracias, señor Garzón.</seg>
                <seg>Por el Grupo Catalán de Convergència i d'Unió, tiene la palabra el señor Macias.</seg>
             </u>
@@ -906,7 +904,7 @@
                <seg>Finalmente, otra de nuestras enmiendas coincide con una enmienda del Grupo de La Izquierda Plural, pero nosotros no decimos rehacer, sino mantener un fondo que creamos en su momento en virtud de un pacto con el Partido Socialista, un Fondo especial de financiación a favor de los municipios de población inferior a 20.000 habitantes, ¿por qué? Parece lógico darse cuenta de que estos municipios lo están pasando muy mal, que hay que atender unas necesidades sociales de primer orden, y parecería lógico también que con la dotación que pudiéramos, con alguna dotación, tuviéramos una especial atención hacía estos municipios, lo que significaría tener una especial sensibilidad hacia las necesidades de los ciudadanos.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u114" ana="#chair">
                <seg>Muchas gracias, señor Macias.</seg>
                <seg>Por el Grupo Socialista tiene la palabra el señor Hurtado.</seg>
             </u>
@@ -923,7 +921,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u116" ana="#chair">
                <seg>Gracias, señor Hurtado.</seg>
                <seg>En turno de fijación de posiciones, tiene la palabra por el Grupo Popular el señor Matarí.</seg>
             </u>
@@ -941,7 +939,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u118" ana="#chair">
                <seg>Muchas gracias, señor Matarí.</seg>
                <seg>Por último, pasamos al debate correspondiente a las disposiciones adicionales, transitorias, derogatorias y finales y anexos.</seg>
                <seg>En turno de defensa de enmiendas, por el Grupo Parlamentario Mixto, tiene la palabra el señor Quevedo.</seg>
@@ -958,7 +956,7 @@
                <seg>Voy terminando, porque el señor presidente ya me avisa. Les vamos a pedir algo sencillo, y es una enmienda de adición en la que se diga que a todos los efectos la condición de residente en la Comunidad canaria se acreditará con el documento nacional de identidad. No sé si ustedes son conscientes de la indignación general que ha producido en Canarias que un montón de gente, coterráneos míos y algunos otros compañeros que veo por ahí y que aprovecho para saludarlos, haya tenido que estar paseándose con un papelito por los aeropuertos canarios porque decía alguien del Ministerio de Fomento que había no sé qué tramas terroríficamente corruptas que estaban hurtándole el dinero al Estado. El resultado ha sido haber ofendido a un montón de gente a la que no le ha bastado con su documento nacional de identidad para trasladarse dentro del territorio del Estado.</seg>
                <seg>Muchas gracias, señor presidente, por su benevolencia.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u120" ana="#chair">
                <seg>Muchas gracias, señor Quevedo.</seg>
                <seg>Por el Grupo Vasco PNV, tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -969,7 +967,7 @@
                <seg>La enmienda 239 plantea hacer una modificación con el objeto de enmendar una cuestión que es bastante complicada, por lo técnica que es de explicar, pero que está clara una vez que se analiza el acuerdo de la Comisión Mixta de transferencia al País Vasco de las políticas activas de empleo. Es una corrección técnica, y en el caso de que no se corrija esta cuestión en la ley de presupuestos habrá que corregirla, lógicamente, cuando se liquide el cupo con el Estado; habrá que minorar el 6,24 % de ese importe a nivel estatal, etcétera. Se puede hacer esta corrección en este momento y no esperar a la liquidación del cupo para tener el asunto resuelto. La enmienda 241 -que es la última- hace una nueva disposición final tercera bis, por la que se modifica la Ley General de Subvenciones. ¿Para qué? De la misma manera a la que me referí anteriormente en otra enmienda, es para que en esta Ley General de Subvenciones se incluya también la cláusula de régimen foral relativa al País Vasco, que no está contemplada en esta ley y sí en otras leyes de carácter económico y fiscal. De esta forma, se sería mucho más respetuoso con el espíritu de la cláusula y con estas normativas.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u122" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u122" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Calduch.</seg>
             </u>
@@ -984,7 +982,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u124" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u124" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Sixto.</seg>
             </u>
@@ -999,7 +997,7 @@
                <seg>Por último, en relación con la Iglesia católica y también con una enmienda que marca perfil, planteamos la supresión definitivamente<note>Varios señores diputados pronuncian palabras que no se perciben</note> ... No, no, por Dios, que cada uno tenga libertad de adorar al dios o dioses que quiera o de profesar la superstición que considere oportuna. Lo que consideramos absolutamente injustificado en pleno siglo XXI es que los obispos de la Iglesia católica -que la Iglesia católica- en definitiva, sigan teniendo el privilegio de hacer certificaciones de dominio sobre bienes inmuebles, mediante las cuales lo que ellos digan valga ante los registros públicos como prueba de posesión de determinados bienes.<note>Aplausos</note> Planteamos que eso en la época de Franco y en la Edad Media quizá estaría muy bien, pero que en pleno siglo XXI la Iglesia católica... y, señorías, muchísimos cristianos de base no lo entienden y no lo comparten. Estas son nuestras enmiendas, que marcan perfil y que, ya digo, ha sido un privilegio subir esta tribuna a defenderlas. Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u126" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u126" ana="#chair">
                <seg>Muchas gracias, señor Sixto.</seg>
                <seg>Por el Grupo Parlamentario Catalán de Convergència i d´Unió, tiene la palabra el señor Picó.</seg>
             </u>
@@ -1012,7 +1010,7 @@
                <seg>Para terminar, los diputados y diputadas de Unió Democràtica de Catalunya queremos centrar la atención en la siguiente enmienda que hemos formulado, con la cual proponemos una disposición final en relación con la modificación de la Ley del impuesto sobre el valor añadido para impulsar la exención del pago de este impuesto a las donaciones de alimentos a bancos de alimentos o entidades sin ánimo de lucro a semejanza de los modelos vigentes en países de nuestro más directo entorno. No es de recibo, señorías, que los ciudadanos y las empresas respondan a las llamadas para donar alimentos que hacen las entidades sin ánimo de lucro o los bancos de alimentos y paliar las grandes carencias o necesidades que sufren muchas familias y que quien salga ganando de estas donaciones sea el Estado al recaudar más IVA, por tanto, no parece justo.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u128" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u128" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Tiene la palabra el señor Macias.</seg>
             </u>
@@ -1025,7 +1023,7 @@
                <seg>Hablando de más lealtad institucional, estaría bien que el Estado compensara a las comunidades autónomas por el incremento de coste que han soportado como consecuencia de un incremento del IVA de ciertos productos sanitarios, o que el Estado aporte al Sistema Nacional de Salud los recursos adicionales necesarios para compensar el coste de los nuevos medicamentos del tratamiento de la Hepatitis C. Les ha dado créditos, pero no se lo ha pagado y lo lógico sería que se financie. También estaría bien que se liquidasen las deudas pendientes con las comunidades autónomas en concepto del Fondo de cohesión sanitaria y del Fondo de garantía asistencial. O por ejemplo, para no tener que decir que generosamente se da al FLA -no se da al FLA, se presta-, si se dieran las cantidades correspondientes a cada año al Fondo de competitividad, a lo mejor las comunidades no necesitarían endeudarse tanto.</seg>
                <seg>La gran enmienda que resume bastante la profunda deslealtad institucional es la que reclama la dotación de 750 millones de euros como compensación para lo establecido en la disposición adicional tercera del Estatuto de Autonomía de Cataluña, de 2008. Ustedes dicen: no, es que esto está derogado. Es verdad, pero esta cantidad había sido acordada en una comisión mixta entre el Estado y la Generalitat,<pb n="56"/> y cuando una comisión de dos se reúne y acuerda algo, pero luego uno dice que no lo va a cumplir, me suena a profunda deslealtad institucional. ¿Por qué? Porque soy mayor y tengo más fuerza.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u130" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u130" ana="#chair">
                <seg>Señor Macias, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u131"
@@ -1034,7 +1032,7 @@
                <seg>Voy acabando, señor presidente. Lo haré con una frase: Por favor, por favor, dejen de justificar las deslealtades institucionales. Dejen de hacerlo.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u132" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u132" ana="#chair">
                <seg>Muchas gracias, señor Macias.</seg>
                <seg>Por el Grupo Socialista tiene la palabra el señor Caldera.</seg>
             </u>
@@ -1049,7 +1047,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u134" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u134" ana="#chair">
                <seg>Muchas gracias, señor Caldera.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Pastor.</seg>
             </u>
@@ -1065,7 +1063,7 @@
                <seg>Muchas gracias.</seg>
                <note>Varios señores diputados: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u136" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-14-CD150914.u136" ana="#chair">
                <seg>Muchas gracias, señor Pastor.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las nueve y cuarenta y cinco minutos de la noche.</seg>

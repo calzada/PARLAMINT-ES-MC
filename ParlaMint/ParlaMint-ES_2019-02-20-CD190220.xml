@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="231">231 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="231" xml:lang="es">231 speeches</measure>
+            <measure unit="speeches" quantity="231" xml:lang="en">231 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="53"/>
                <tagUsage gi="note" occurs="202"/>
                <tagUsage gi="u" occurs="231"/>
-               <tagUsage gi="lb" occurs="544"/>
+               <tagUsage gi="seg" occurs="544"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -1432,7 +1430,7 @@
                <seg>El nacionalismo tampoco es una cosa tan complicada, es relativamente reciente en la historia contemporánea, se va a los libros, se estudia y se ve muy bien que sistemáticamente se interpreta todo como un éxito si triunfan en su enfrentamiento con el Estado y se interpreta como un éxito si fracasan. Se interpreta todo como un éxito. Es verdad, señor Rufián, que hay más cadenas de televisión y yo, por ejemplo, nunca veo TV3 y uno se puede aislar si quiere, pero esa no es la cuestión; la cuestión es que es la televisión pública y es la que pago con mis impuestos; esa es la cuestión.</seg>
                <seg>El problema, señorías, es que el PSC es un partido nacionalista. Alfonso Guerra cometió un error, aunque fueron pocos, pero cometió uno: él integró en el PSOE a todas las formaciones socialistas que había en España, las que eran de carácter nacional y las que eran de carácter regional e hizo una excepción con el PSC. No quiero presumir, pero yo escribí un libro sobre la historia del PSOE y me parece que la conozco mejor que muchos de ustedes. ¡Qué lastima! Ese es uno de los pocos errores que cometió Alfonso Guerra, que está, por cierto, cada vez más lúcido y siempre lo ha estado. Al final ¿qué ha pasado con el error? Pues que el PSC se ha comido al PSOE. ¡Pobre Pablo Iglesias -el antiguo-, pobre Indalecio Prieto, pobre Julián Besteiro, pobre Rodolfo Llopis y pobre Felipe González! El PSC se les ha comido. ¿Y esto es lo que ustedes entienden por convivencia? Mire usted: somos nosotros los que socavamos la paz social, el PP y Ciudadanos<note>muestra la fotocopia de un artículo de El Mundo en el que se lee: Sánchez lanza la campaña contra PP y Ciudadanos: 'Socavan la paz social'</note> , no los que dan el golpe, no los que nos impiden visitar pueblos de Cataluña, no los que rompen la nariz o la cara a nuestros militantes, no los que pasan lejía por el suelo donde ha pisado Inés Arrimadas. No, somos nosotros. Tienen un portavoz en el Senado que nos comparó con perros y que dijo que nosotros íbamos a provocar cuando fuimos a Alsasua.<note>Muestra la fotocopia de una noticia de la agencia Europa Press en la que se lee: El PSOE defiende al portavoz que acusó a Ciudadanos de ir a Alsasua a 'agitar' el odio</note> Por lo visto, a Alsasua no se puede ir. ¿Le desautorizaron ustedes? No, ustedes le defendieron. ¿Por qué? Porque ustedes se han convertido en el PSC. La señora Lastra asegura que PP y Ciudadanos no son constitucionalistas.<note>Muestra la fotocopia de un artículo de La Vanguardia en el que se lee: Lastra (PSOE</note> asegura que PP y Ciudadanos 'no son constitucionalistas'). Me tengo que callar dos segundos porque lo que me iba a salir no quedaba bonito.<note>Aplausos</note> Tengo más, tengo muchos más ejemplos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2019-02-20-CD190220.u225" ana="#regular">
+            <u xml:id="ParlaMint-ES_2019-02-20-CD190220.u225" ana="#chair">
                <seg>Señor Girauta, tiene que ir usted acabando.</seg>
                <pb n="56"/>
             </u>

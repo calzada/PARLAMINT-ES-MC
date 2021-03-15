@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="158">158 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="158" xml:lang="es">158 speeches</measure>
+            <measure unit="speeches" quantity="158" xml:lang="en">158 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="98"/>
                <tagUsage gi="note" occurs="424"/>
                <tagUsage gi="u" occurs="158"/>
-               <tagUsage gi="lb" occurs="862"/>
+               <tagUsage gi="seg" occurs="862"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>DEBATE SOBRE LA INVESTIDURA DEL CANDIDATO A LA PRESIDENCIA DEL GOBIERNO</head>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u1" ana="#chair">
                <seg>Buenos días, señorías, se reanuda la sesión.</seg>
                <seg>Comenzamos, como corresponde, con los turnos de intervención de los grupos parlamentarios en este debate sobre la investidura del candidato a la Presidencia del Gobierno. Antes que nada, de conformidad con el artículo 171.5 del Reglamento, les anuncio que, según las previsiones, la votación no se producirá antes de las veinte horas del día de hoy.</seg>
                <seg>Por el Grupo Parlamentario Popular en el Congreso, tiene la palabra el señor Rajoy.</seg>
@@ -122,7 +120,7 @@
                <seg>Muchas gracias.</seg>
                <note>Varios señores diputados: ¡Muy bien!-Prolongados aplausos de las señoras y los señores diputados del Grupo Parlamentario Popular en el Congreso, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u3" ana="#chair">
                <seg>Gracias, señor Rajoy.</seg>
                <seg>Tiene la palabra el candidato a la Presidencia del Gobierno.</seg>
             </u>
@@ -138,7 +136,7 @@
                <seg>En cuanto a la regeneración democrática y la lucha contra la corrupción, señorías, ¿sabe cuál es la esencia, señor Rajoy, de todo lo que decimos en ese acuerdo? Sacar la política de la crónica de sucesos en la cual su partido y usted la han metido como consecuencia de los casos de corrupción.<note>Aplausos</note> Es curioso, señor Rajoy, porque cuando presentamos el acuerdo el señor Rivera y yo mismo, a los cinco minutos portavoces de su grupo parlamentario y usted mismo lo descalificaron sin leerlo. Dijeron que eran simplemente cinco propuestas, que le recuerdo cuáles eran: la supresión de aforamientos, la limitación de mandatos a ocho años de la Presidencia del Gobierno, la supresión de las diputaciones provinciales...<note>Varios señores diputados: ¡Oh, ahora!</note> Sí, sí. Y era también reducir a 250.000 las firmas para poder propiciar la iniciativa legislativa popular en el Congreso de los Diputados y reducir a la mitad el número de miembros del pleno del Consejo General del Poder Judicial, de veinte a diez. Usted dijo entonces para descalificarlo que no servía, que no sumaba. Y es cierto, ayer lo dije: el PSOE y Ciudadanos sumamos aquí 130 diputados. Por cierto, son más que 123, en realidad 122, porque entiendo, señor Rajoy, que a Gómez de la Serna no lo cuenta usted como miembro del Grupo Parlamentario Popular.<note>Aplausos.-El señor Floriano Corrales pronuncia palabras que no se perciben</note> Pero les digo: sí sirve, señorías, sí sirve. Sí sirve porque, en primer lugar, plantea una salida centrada al atasco político en el cual usted ha metido a España. En segundo lugar, porque plantea soluciones progresistas a los problemas de los españoles que podemos poner en marcha la próxima semana. Y en tercer lugar, señor Rajoy, porque obedece al mandato de la ciudadanía, que lo que nos dijo, señor Rajoy, es que la única victoria política que esperan de sus políticos es el acuerdo y ese acuerdo es, para quien ha gobernado desde el absolutismo durante estos últimos cuatro años, señor Rajoy, el mayor de sus fracasos.</seg>
                <note>Varios señores diputados: ¡Uh!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u5" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>El señor Rajoy tiene la palabra.</seg>
             </u>
@@ -156,7 +154,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos de las señoras y los señores del Grupo Parlamentario Popular en el Congreso, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u7" ana="#chair">
                <seg>Gracias, señor Rajoy.</seg>
                <seg>El señor candidato tiene la palabra.</seg>
             </u>
@@ -171,7 +169,7 @@
                <seg>Muchas gracias.</seg>
                <note>Prolongados aplausos de las señoras y los señores diputados del Grupo Parlamentario Socialista, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u9" ana="#chair">
                <seg>Gracias, señor Sánchez.<note>El señor presidente del Gobierno en funciones, Rajoy Brey, pide la palabra</note> El señor Rajoy ha pedido la palabra y, como es tradición en este Parlamento, le daremos tres minutos desde el escaño.</seg>
                <pb n="17"/>
             </u>
@@ -184,7 +182,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u11" ana="#chair">
                <seg>Gracias, señor Rajoy.</seg>
                <seg>Señor candidato.</seg>
             </u>
@@ -194,7 +192,7 @@
                <seg>Señor Rajoy, no voy a entrar en el 'y tú más', no voy a entrar en la descalificación.<note>Protestas</note> Usted ha faltado al respeto a los españoles y a sus votantes. Insisto, usted tendría que haber estado en esa tribuna defendiendo su investidura y no escuchando sentado en su escaño cómo yo hacía esa investidura. Así que le insisto, no critique a quienes hemos puesto en marcha el reloj de la democracia y a quienes estamos intentando forjar el cambio político, que es el mandato de los españoles.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u13" ana="#chair">
                <seg>Muchas gracias.<note>Rumores</note> Silencio, por favor.</seg>
                <seg>Es el turno ahora del Grupo Parlamentario Podemos-En Comú Podem-En Marea, que va a tener tres intervenciones que se repartirán el tiempo. En primer lugar, tiene la palabra el señor Iglesias.</seg>
                <note>Aplausos</note>
@@ -219,7 +217,7 @@
                <seg>Sabe usted que somos firmes y que siempre le hemos mirado a usted, y a su partido de igual a igual. El pasado fin de semana estuve repasando debates de investidura de las últimas décadas. Reconozco que me indignó comprobar la displicencia y la arrogancia con la que los representantes de su partido se dirigían a hombres justos como Gerardo Iglesias, Julio Anguita o José Antonio Labordeta. Aquellos hombres justos intervenían desde esta tribuna cargados de razones, pero quizá con pocos escaños. Hoy las cosas han cambiado y si de algo se nos puede acusar es de haberles tratado a ustedes de igual a igual. No hay en nuestra dignidad ni en nuestra firmeza ningún ánimo de revancha, señor Sánchez.<note>Rumores</note> Le aseguro que nuestra lealtad será igual de firme si rectifican ustedes y se ponen de acuerdo con nosotros. Pero entienda que el tiempo del turno bipartidista se terminó en España. Rectifique usted y trátenos como a un socio con el que se comparten decisiones y responsabilidades. No vuelva a tratar de engañarnos, señor Sánchez. Le voy a ser sincero -y voy terminando ya-, si rectifica usted y gobernamos<pb n="22"/> juntos nuestra acción nos creará enemigos, pero no debe importarnos. Merecer el odio de los que envenenan al pueblo deberá ser para nosotros una honra. La frase no es mía, señor Sánchez, es de Pablo Iglesias, el fundador de su partido.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u15" ana="#chair">
                <seg>Señor Iglesias, vaya concluyendo porque le recuerdo que tiene que compartir el tiempo con otros dos portavoces y lleva consumidos veinticinco minutos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u16"
@@ -230,7 +228,7 @@
                <seg>Muchas gracias.</seg>
                <note>Prolongados aplausos de las señoras y los señores diputados del Grupo Parlamentario Podemos-En Comú Podem-En Marea, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u17" ana="#chair">
                <seg>Gracias, señor Iglesias.</seg>
                <seg>El señor Domènech tiene la palabra.</seg>
             </u>
@@ -240,7 +238,7 @@
                <seg>Señor presidente, señorías, señor candidato a la Presidencia del Gobierno, ciertamente nos encontramos en un momento histórico, pero que el momento sea histórico no significa que todo lo que hagamos en ese momento sea equiparable a una acción histórica. Hemos asistido esta mañana en la intervención del señor Rajoy, y en las réplicas entre el señor Rajoy y el señor Sánchez, a un debate muy interesante, con mucha ironía -ironía fina-, pero básicamente a un debate sobre quién había fracasado más, es decir, si había fracasado más un Partido Popular que se encuentra absolutamente aislado políticamente en esta Cámara o si había fracasado aún más un Partido Socialista Obrero Español con un pacto con Ciudadanos que no sumaba. A pesar de toda la retórica y de toda la ironía, hemos asistido a un debate sobre si habían fracasado más aquellos que habían sacado el peor resultado de su historia y habían perdido un millón y medio de votos o si habían fracasado más aquellos que habían perdido tres millones y medio de votos. Es un debate que como historiador puedo encontrar más o menos interesante, pero creo que es un debate que lo único que indica al final, a pesar de sus retóricas y a pesar de sus peleas, es algo que los ciudadanos dijeron el 20 de diciembre: se ha acabado el bipartidismo.<note>Aplausos</note> Nos encontramos, efectivamente, en un momento histórico, pero no es un momento histórico solo hecho de esperanzas, es un momento histórico hecho, y mucho, de sufrimientos. Desde 2008 hasta hoy nuestra sociedad se ha transformado radicalmente y, más allá de la crisis y sobre todo de la gestión que se hizo de la misma, ha convertido a España no solo en el país cabecera, como ha indicado hoy el señor Rajoy, en creación de empleo y en no sé qué cosas más -seguro que son muchas, sin duda-, sino en el país cabecera de Europa en desigualdad social. Ese ha sido el resultado de las políticas de estos últimos años, desde 2010 hasta hoy. Esta situación tiene un nombre, y no solo tiene nombre, tiene rostros. Nos encontramos esos rostros por la calle, nos interpelan cada día. Esta situación se llama pobreza; se llama precariedad; se llama privatización de nuestros derechos; se llama desahucios; se llama estafa, no crisis, estafa. Algunos podemos recordar todavía el mundo anterior a 2008 y probablemente desde este espacio ese mundo anterior a 2008 parece que aún se esté viviendo ahora. Pero pensemos, aquellos jóvenes y aquellas jóvenes que en 2008 tenían diez años hoy ya tienen dieciocho -eran niños, fueron adolescentes y ya son adultos- y su vida y su mundo es el de la crisis. Ya no es crisis, es un nuevo modelo de sociedad contra el que tenemos que luchar. Este es el momento histórico que estamos viviendo y también es el momento, ciertamente, de una gran oportunidad; una oportunidad construida con los mimbres de los que han luchado, los que han resistido y los que han desafiado. No olvidaremos jamás, porque venimos de allí, que aquí quien ha luchado contra la crisis, quien ha resistido la crisis, quien ha desafiado al sistema político que llevó a esta sociedad a la crisis fue la gente en las fábricas, en las plazas, en las calles, los que detenían los desahucios.<note>Aplausos</note> Esos son los que llevan la esperanza cálida del cambio, pero una esperanza cálida del cambio que se construye también con la dureza de las certezas. En ese sentido, sí, vivimos un momento de una gran oportunidad, de la conformación ciertamente de un Gobierno del cambio, pero, lo lamento, esto no es lo que hoy votamos aquí. Hoy no votamos aquí la esperanza de un Gobierno del cambio, hoy votamos un pacto. Tampoco votamos al señor Rajoy, que no se ha presentado a la investidura. Por cierto, me ha preocupado oír al señor Sánchez que se ha presentado<pb n="23"/> a la investidura porque no se ha presentado el señor Rajoy. Espero que se haya presentado para algo más que eso; esperamos todos que se haya presentado para algo más que eso.<note>Aplausos</note> Hoy votamos una propuesta de pacto firmado el pasado 24 de febrero entre PSOE y Ciudadanos. Es un acuerdo que fue presentado en su momento no como un acuerdo de investidura -en eso los dos firmantes del pacto fueron claros-, sino como un acuerdo de Gobierno, por tanto, no era solo la búsqueda de unos votos y después buscar alianzas con otros sectores sino que era claramente el eje central de la política de Gobierno que se estaba proponiendo en esos momentos. Era un pacto, además -y así se presentó por ambos firmantes, por el señor Rivera, a quien agradecemos pocas cosas pero alguna sí, su sinceridad-, para excluir a unos e incluir a otros; para excluir a 5 millones de votos por el cambio real -así se dijo y ustedes no lo contradijeron- y para incluir a otros -no sé si al señor Rajoy pero, en todo caso, al Partido Popular-. Era un pacto que claramente nos excluía y no entiendo ninguna de las sorpresas, no entiendo ninguna de las invocaciones que lleva haciendo en las últimas semanas el Partido Socialista Obrero Español. No entiendo que su único mensaje en estos días sea: si no nos votáis a nosotros, gobierna el Partido Popular.<note>Un señor diputado: Es la verdad</note> Ese es el mensaje de los años noventa, es el que les ha quedado prácticamente como el único mensaje político en estos años y es el mensaje que les ha llevado al peor resultado electoral de su historia. ¿Hay algo más ahí que eso?<note>Aplausos</note> Se dijo además, en ese uso y abuso de las palabras, que era un pacto histórico -en palabras del señor Sánchez- que convocaba a todos los españoles, y ciertamente algunos en la Cámara -básicamente del Partido Socialista Obrero Español, no sé si también de Ciudadanos, aunque lo dudo- se preguntan si ante tamaña iluminación histórica, ante este big bang de la historia política española, cómo puede ser que no nos planteemos, como mínimo, la abstención. Esa es la pregunta que subyace en todo el discurso que están haciendo. Pues porque ese pacto no es luz, ese pacto es oscuridad, ese pacto no es futuro, ese pacto es pasado, ese pacto no es de izquierdas, ese pacto es de derechas.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u19" ana="#chair">
                <seg>Un momento. Señor Domènech, si quiere que su compañera tenga siquiera cinco minutos de intervención, debería ir concluyendo ya la suya.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u20"
@@ -250,7 +248,7 @@
                <seg>Y un mensaje desde la fraternidad y desde la esperanza, y es que a partir de cuando acabe esta sesión podamos empezar a hablar. Ustedes han interpelado mucho a nuestros votantes estos días -no pasa nada, están en su derecho-, y desde ese mensaje y esta interpelación conjunta a su fraternidad, yo también quiero interpelar a sus votantes y más allá incluso de sus votantes.</seg>
                <note>Termina su intervención en catalán.-Prolongados aplausos de las señoras y los señores diputados del Grupo Parlamentario Podemos-En Comú Podem-En Marea, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u21" ana="#chair">
                <seg>Gracias, señor Doménech.</seg>
                <seg>La señora Fernández tiene la palabra.</seg>
             </u>
@@ -264,7 +262,7 @@
                <seg>Muchas gracias.</seg>
                <note>Prolongados aplausos de las señoras y los señores diputados del Grupo Podemos-En Comú Podem-En Marea, puestos en pie.-El señor Viejo Viñas pronuncia palabras que no se perciben</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u23" ana="#chair">
                <seg>Gracias, señora Fernández.</seg>
                <seg>El candidato tiene la palabra.</seg>
             </u>
@@ -279,7 +277,7 @@
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Socialista, puestos en pie</note>
                <pb n="28"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u25" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Señor Iglesias, tiene la palabra.</seg>
             </u>
@@ -294,7 +292,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Podemos-En Comú Podem-En Marea, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u27" ana="#chair">
                <seg>Gracias, señor Iglesias.</seg>
                <seg>Tiene la palabra el señor Sánchez.</seg>
             </u>
@@ -305,7 +303,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u29" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u29" ana="#chair">
                <seg>Gracias, señor candidato.</seg>
                <seg>Señor Iglesias, tiene tres minutos exactamente desde el escaño.</seg>
             </u>
@@ -315,7 +313,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Sánchez, había un poema de Machado que decía: Has dicho media verdad, dirán que mientes dos veces si dices la otra mitad. A ver si se ponen ustedes de acuerdo. O somos la ETA o somos Rajoy, pero las dos cosas a la vez es harto complicado, señor Sánchez.<note>Aplausos</note> Señor Sánchez, repite usted como un mantra que no hay mayoría de izquierdas, y le vuelvo a recomendar que en los debates asamblearios, aunque se trate de una asamblea parlamentaria, es mucho mejor escucharse antes que llevar las fichas preparadas con las consignas aprendidas.<note>Rumores</note> Créame usted, señor Sánchez, que sí que hay mayoría. Si quiere se lo explico. Un gobierno del Partido Socialista, de Podemos y las confluencias, de Compromís y de Izquierda Unida obtendría más votos en esta Cámara que un gobierno del Partido Popular con Ciudadanos; y cada grupo político que haga con sus votos y con sus abstenciones lo que entienda conveniente.<note>Rumores</note> Usted no puede aquí poner vetos a nadie cuando han gobernado y han llegado a acuerdos de gobierno con esas fuerzas políticas a las que ustedes pretenden criminalizar, con las que yo no quiero ponerme de acuerdo para hacer un gobierno. Pero, desde luego, lo que no se puede hacer, señor Sánchez, es la cuadratura del círculo. Ayer dijo usted, en un ejercicio de transformismo digno de elogio, que es posible desde ideologías completamente diferentes mezclarse. Sonaba a Manu Chao: 'Me gusta Malasaña, me gustas tú'. Vamos a mezclarnos aunque seamos completamente diferentes para encontrar el término medio de la virtud. Mire usted, es imposible que una fuerza política con un programa como el suyo se ponga de acuerdo en cuestiones económicas con una fuerza política cuya política económica está dictaminada por el señor Garicano, que trabajó en la Fundación FAES. Precisamente porque es así, el Partido Popular les invita a ustedes a que se pongan de acuerdo con ellos. Eso lo entiende todo el mundo que está en su casa. ¿Cómo no va la gente a entender que no se puede aplicar políticas económicas comunes desde ideologías diferentes? Señor Pedro Sánchez, claro que podría haber un gobierno de progreso que obtuviera los apoyos parlamentarios. El problema no es ese. El problema es que a usted le han prohibido gobernar con nosotros. Lo dijeron algunos de los miembros de la vieja guardia de su partido. Lo dijo el señor Felipe González, sí el que tiene el pasado manchado de cal viva. Cuídese de él, señor Sánchez.<note>Protestas.-Varios señores diputados: ¡Fuera, fuera!-Un señor diputado: ¡Ya está bien!-Varios señores diputados pronuncian palabras que no se perciben</note> Cuídese de él porque son malos consejeros. No se pongan ustedes...<note>Protestas.-Varios señores diputados: ¡Fuera, fuera!</note> ¿Fuera? ¿Están ustedes gritando fuera porque les diga la verdad? Yo sé que a lo mejor...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u31" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u31" ana="#chair">
                <seg>Silencio, por favor.<note>Continúan las protestas</note> ¡Silencio!</seg>
                <seg>Un momento, señor Iglesias. Silencio, por favor.</seg>
             </u>
@@ -326,7 +324,7 @@
                <note>Continúan los rumores y protestas</note>
                <pb n="31"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u33" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u33" ana="#chair">
                <seg>Vamos a ver...</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u34"
@@ -334,7 +332,7 @@
                ana="#regular">
                <seg>Le pido su amparo, señor presidente, para poder terminar mi intervención.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u35" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u35" ana="#chair">
                <seg>Tu tiempo ya había terminado, señor Iglesias.<note>Risas.-Rumores y protestas</note> Sí, los tres minutos habían terminado.</seg>
                <note>Protestas</note>
             </u>
@@ -344,7 +342,7 @@
                <seg>Querido Patxi, no sabía que nos íbamos a tutear pero si nos tuteamos no hay ningún problema. Así que, Patxi, te pido por lo menos quince segundos para terminar la intervención.</seg>
                <note>Risas.-Aplausos.-Protestas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u37" ana="#chair">
                <seg>No, no. He sido más que generoso -lo sabe- en su primera intervención.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u38"
@@ -354,7 +352,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u39" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u39" ana="#chair">
                <seg>Señor Iglesias, no le he retirado el uso de la palabra. Había consumido, y de sobra, el tiempo que le correspondía.<note>El señor Iglesias Turrión pronuncia palabras que no se perciben</note> He sido extremadamente generoso en sus primeras intervenciones pero tenía tres minutos y estaban ya sobrepasados con creces.<note>El señor Mayoral Perales pronuncia palabras que no se perciben</note> No tiene la palabra, por lo tanto, silencio por favor. En esta Cámara se pueden admitir las explosiones de expresiones, que a veces se traducen en aplausos y a veces en abucheos, y ambas están al mismo nivel; y eso aparece en los diarios de sesiones relatando el ambiente político que se vive aquí. Lo que no se puede admitir de ninguna de las maneras es ni el insulto, ni la descalificación, ni el grito por el grito; eso no se puede admitir en esta Cámara. Cada uno sabrá cuándo sobrepasa esa línea del respeto y la educación y acaba en el insulto o no. Desde luego, los tiempos son para aquel al que le corresponde la palabra, y el mejor respeto y la mejor educación, efectivamente, es el silencio. No hagamos nada que pueda demostrar que no somos ni educados ni respetuosos. No caigamos en el insulto ni en la descalificación ni en la provocación y sigamos con este debate por los senderos por los que iba anteriormente.<note>Aplausos</note> Gracias.</seg>
                <seg>Señor candidato, tiene la palabra.</seg>
             </u>
@@ -366,7 +364,7 @@
                <seg>Señor Iglesias, con Ciudadanos compartimos los valores constitucionales y creo que muchos de sus votantes también los comparten. Usted viene aquí a darnos lecciones de izquierdas y ha sacado algunas frases de la hemeroteca. Yo no voy a utilizar la hemeroteca. Simplemente le recordaré que fue usted en el diario El País el que decía que jugar a izquierda y a derecha era un juego de trileros, señor Iglesias.<note>El señor Iglesias Turrión pronuncia palabras que no se perciben</note> Por eso le digo, señor Iglesias, que demos una oportunidad al cambio. Le tiendo la mano para que hagamos ese Gobierno del cambio desde ahora, porque los colectivos antidesahucios, las personas que están sufriendo la crisis, las personas que están sufriendo la emergencia social, las personas que están sufriendo la pobreza, la clase media y trabajadora que el Partido Popular ha hundido con sus medidas crueles e ineficaces, no merecen una hora más de Gobierno del señor Rajoy, aunque sea en funciones. Dese una oportunidad y dé una oportunidad al cambio, señor Iglesias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u41" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u41" ana="#chair">
                <seg>Gracias, señor candidato.</seg>
                <seg>El señor García-Margallo ha pedido la palabra, supongo que por las alusiones, situación que aparece reconocida en el artículo 71 del Reglamento, efectivamente, siempre que haya habido juicios de valor o inexactitudes. Por lo tanto, tiene tres minutos para explicar cuáles son las inexactitudes o los juicios de valor.</seg>
             </u>
@@ -376,7 +374,7 @@
                <seg>Señor presidente, el señor candidato lleva más de un mes haciendo serias economías con la verdad sobre las declaraciones que yo hice. Está grabado y reproducido varias veces. En los márgenes, es decir, en los pasillos de una reunión de la coalición, nunca en el foro formal, se me preguntó cuál sería la actitud de un hipotético Gobierno de coalición entre el Partido Socialista Obrero Español y Podemos. Dije que había serias divergencias entre esas dos fuerzas políticas. El Partido Socialista, y así lo dije, siempre fue leal en el comportamiento de la coalición. El partido del señor Iglesias, Podemos, en su Consejo de la Paz se manifiesta claramente en contra de las acciones militares llevadas a cabo por la coalición militar en Siria y en Iraq y, eventualmente, en un futuro, si así se decide, en Libia. Lo único que yo dije es que si hay un Gobierno de coalición sería bueno saber cuál de las tesis de los dos partidos que forman ese Gobierno -a las que, por cierto, se añadía Izquierda Unida en una posición similar a la del señor Iglesias- va a prevalecer. Por tanto, señor secretario general del Partido Socialista, su partido tuvo la oportunidad de interpelarme sobre esto en mi comparecencia en la Comisión de Exteriores en la que estuve cuatro horas. No se atrevieron a hacerlo en terreno abierto y quieren realizarlo de forma torticera, creyendo que no se puede actuar por alusiones. Señor presidente, lo que ha dicho el señor secretario general es falso de toda falsedad; o lo sabe y está haciendo economías de la verdad, o no lo sabe y no tiene la categoría para ser candidato, improvisando de esta manera en un tema tan serio.</seg>
                <note>Rumores.-Aplausos.-El señor ministro del Interior en funciones, Fernández Díaz, pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u43" ana="#chair">
                <seg>Eso sí que ha sido un juicio de valor. Señor García-Margallo. Iba bien en el turno de alusiones, hasta que efectivamente ha introducido un juicio de valor que no debería haber estado dentro de este turno.<note>Rumores</note> Por lo tanto, economicen ustedes también los turnos cuando les corresponde para ser fieles a la verdad.</seg>
                <seg>Señor Fernández Díaz, por alusiones también.<note>Rumores</note> Estrictamente, visto el precedente, tiene la palabra para ver dónde está el juicio de valor o dónde está la falsedad.</seg>
             </u>
@@ -388,7 +386,7 @@
                <seg>Muchas gracias.</seg>
                <note>El señor candidato a la Presidencia del Gobierno, Sánchez Pérez-Castejón, pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u45" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u45" ana="#chair">
                <seg>Gracias, señor Fernández Díaz.</seg>
                <seg>Continuamos con el Pleno. Señor candidato.</seg>
             </u>
@@ -399,7 +397,7 @@
                <seg>No quiero entrar en un rifirrafe, sino simplemente recordar algunas de las apreciaciones que ha hecho, por ejemplo, el ministro de Asuntos Exteriores. Dijo textualmente usted: 'Me vi obligado a informar ayer a mis colegas en Roma de que con un posible Gobierno de coalición del Partido Socialista con Podemos, si prevalecieran las tesis del segundo, España podría ser el país que abandonase la coalición internacional en la que estamos todos empeñados'.<note>Rumores</note> Como ven, no son cuestiones menores. Yo lo que les digo, señor García-Margallo y señor Fernández Díaz, es que ha bastado tener el temor de que ustedes pierdan el poder para volver a utilizar el terrorismo como arma electoral<note>Rumores.-Aplausos</note> Lo más grave de todo esto, ¿saben lo qué es, señores ministros en funciones? Que no han contado con la reprobación del hoy presidente del Gobierno en funciones.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u47" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u47" ana="#chair">
                <seg>Gracias, señor candidato.</seg>
                <seg>Corresponde el turno al Grupo Parlamentario de Ciudadanos. Tiene la palabra el señor Rivera.</seg>
             </u>
@@ -431,7 +429,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Ciudadanos, puestos en pie.-El señor presidente del Gobierno en funciones, Rajoy Brey, pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u49" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u49" ana="#chair">
                <seg>Gracias, señor Rivera.</seg>
                <seg>El señor Rajoy ha pedido la palabra, supongo que por alusiones también, y se la voy a dar, cómo no<note>Rumores</note> , pero permítanme una reflexión general. Estamos en el debate de investidura, posiblemente el debate más importante de cada una de las legislaturas. En estos debates se hace evidentemente un repaso de lo que ha sido el pasado, se hace diagnóstico del presente, se hacen proyecciones y apuestas<pb n="41"/> de futuro y se hacen interpelaciones permanentes de unos a otros, porque el debate es vivo, y así tiene que ser, pero esas interpelaciones no pueden dar lugar a un permanente turno de alusiones, porque entonces estaríamos pervirtiendo el sentido del propio debate.<note>Rumores</note> Es decir, anuncio que voy a dar ese turno por alusiones, pero no daré muchos más, por no decir ninguno más, porque estaríamos pervirtiendo el debate, a no ser que haya ciertamente falsedades o juicios de valor.</seg>
                <seg>Señor Rajoy, tiene la palabra por tres minutos, como corresponde a estos turnos.</seg>
@@ -442,7 +440,7 @@
                <seg>Señor presidente, creo que tiene usted razón y le agradezco mucho que me haya dado la palabra.</seg>
                <seg>He sido aludido, como el señor Rivera no ignora, en sucesivas oportunidades a lo largo de su intervención. Solamente quería decirle dos o tres cosas utilizando el mismo tono que usted ha usado para dirigirse hacia mi persona. Ha utilizado la palabra respeto. Ha dicho: Hablo de usted con respeto. Yo también voy a hablarle a usted con respeto. Usted es partidario de que el señor Sánchez sea el presidente del Gobierno.<note>Rumores</note> Yo lo respeto, pero usted tiene que respetar que yo entienda que el señor Sánchez no debe ser el presidente del Gobierno. Si usted, sus diputados y sus votantes quieren darle sus votos al Partido Socialista, yo lo respeto, pero el Partido Popular no se ha presentado a las elecciones ni las ha ganado para hacer presidente del Gobierno al señor Sánchez.<note>Aplausos</note> Usted está en su pleno derecho a hacerlo.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u51" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u51" ana="#chair">
                <seg>Señor Rajoy, sabe perfectamente que esta intervención no entra dentro de las alusiones.<note>Protestas</note> Parece evidente que tiene que haber juicio de valor o falsedad, según aparece en el Reglamento. Por tanto, ajústese a ese sentido.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u52"
@@ -450,7 +448,7 @@
                ana="#regular">
                <seg>Quiero explicarle al señor Rivera que yo no estoy a favor de votar al señor Sánchez porque no estoy a favor de cómo se ha desarrollado la impostura.<note>Varios señores diputados pronuncian palabras que no se perciben</note> No estoy a favor, no, y, sobre todo, porque yo no estoy a favor de la derogación de toda la política económica que fue buena para España. Si usted quiere derogar toda la política económica que se ha hecho en estos cuatro años, haga presidente al señor Sánchez. Si usted quiere que se suban los impuestos, si usted quiere suprimir las diputaciones, haga presidente al señor Sánchez,...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u53" ana="#chair">
                <seg>Señor Rajoy.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u54"
@@ -459,7 +457,7 @@
                <seg>... pero no me obligue a mí a votar al señor Sánchez. Eso lo hace usted porque quiere.</seg>
                <note>Aplausos.-Protestas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u55" ana="#chair">
                <seg>Señor Rajoy, sabe que ha hecho una intervención que para nada se ajusta al artículo 71 del Reglamento.<note>Rumores</note> No, y lo saben perfectamente.</seg>
                <seg>Continuamos. Señor candidato, tiene la palabra.</seg>
             </u>
@@ -477,7 +475,7 @@
                <seg>He escuchado al señor Rajoy decir que no está de acuerdo con esa reforma, que necesita más escaños y además anuncia y amenaza con que en el Senado puede bloquear cualquier tipo de reforma constitucional. No me extraña que venga del señor Rajoy porque siempre instrumentaliza todas las instituciones en beneficio partidista. Lo hizo con la Presidencia del Gobierno renunciando a presentar su candidatura a la investidura y lo vuelve a hacer amenazando para utilizar el Senado en beneficio partidista y no en beneficio de la ciudadanía. Porque, señorías del Grupo Parlamentario Popular, dónde está el problema para acabar con los aforamientos, dónde está el problema para limitar a ocho años el mandato de la Presidencia del Gobierno. ¡Pero si lo dijo el señor Aznar cuando era presidente del Gobierno! No incluirlo en la Constitución pero sí aplicárselo en primera persona. ¿Por qué no lo podemos incluir en la Constitución? ¿Dónde está el problema de reducir a 250.000 las firmas de la iniciativa legislativa popular? ¿Dónde está el problema de suprimir las diputaciones provinciales y crear consejos provinciales de alcaldes y alcaldesas? ¿Dónde está el problema de reducir a diez el Consejo General del Poder Judicial en su órgano de gobierno?<note>Aplausos</note> Son cuestiones que pueden aprobar perfectamente ustedes. Estoy convencido, señorías, de que si ustedes explicaran estas medidas a su electorado, en una mayoría amplia votarían que sí. Por cierto, señor Iglesias, pasaría lo mismo con los votantes de Podemos. Usted en su programa plantea suprimir las diputaciones, eliminar los aforamientos, entiendo que estará de acuerdo con la limitación de mandatos y también entiendo que estará de acuerdo con la reducción a 250.000 firmas de la iniciativa legislativa popular. Por tanto, ¿dónde está el problema para que lo pongamos en marcha, señor Iglesias, desde la próxima semana?<note>El señor presidente ocupa la Presidencia</note> Finalmente, señorías, es muy importante porque en algunas ocasiones he escuchado algunos elementos de crítica por parte de algunos grupos parlamentarios diciendo que esta propuesta de acuerdo, esta propuesta de gobierno no recoge ningún elemento sustantivo que resuelva la crisis de convivencia en Cataluña. Discrepo en el fondo porque cuando estamos hablando, por ejemplo, de recuperar la Ley de Dependencia, cuando estamos hablando de universalizar la sanidad pública, cuando estamos hablando de recuperar, por ejemplo, los derechos laborales perdidos -reforma laboral aprobada, por cierto, por las derechas, la española y también la derecha catalana-, cuando estamos hablando de recuperar la Seguridad<pb n="44"/> Social de los cuidadores no profesionales de muchos de esos dependientes, estamos hablando también de muchos catalanes que han sufrido en primera persona esos recortes y esas políticas. Pero, además, señorías, en esa reforma constitucional planteamos varios elementos que creo que son compartidos por la mayoría de diputados y diputadas en esta Cámara. En primer lugar, la mayoría de diputados y diputadas creo que compartimos que tenemos que abrir un periodo de reflexión sobre la reforma constitucional en nuestro país. Por eso nuestro compromiso -está fijado en el acuerdo- es poner en marcha en el plazo de un mes contando desde hoy una subcomisión en la Comisión Constitucional para empezar a hablar del perímetro de la reforma constitucional. También hablamos, señorías, de que en el plazo de seis meses se ponga en marcha la ponencia de reforma constitucional. Y ahí el Grupo Parlamentario Socialista y el Grupo Parlamentario de Ciudadanos hemos acordado un cierto perímetro, un esbozo de esa reforma constitucional que hace cosas que pueden ser compartidas por la inmensa mayoría de votantes, tanto a la izquierda como a la derecha. Es, por ejemplo, blindar los derechos sociales. Es, por ejemplo, reconocer como derechos fundamentales la sanidad pública. Es, por ejemplo, reconocer nuevos derechos y libertades en la Constitución. Es, por ejemplo, señorías, dar salida a la crisis territorial que se está viviendo en Cataluña con una reforma del título VIII de la Constitución y con la aprobación de una reforma que haga del Senado una verdadera Cámara territorial. Y por qué no, señor Domènech -ya le he escuchado a usted que lo critica-, llevar ese Senado, que es una Cámara territorial, a Catalunya, a Barcelona, como propuso Pascual Maragall. ¿Por qué no?<note>Rumores</note> Por tanto, señorías, acabo mi intervención agradeciendo públicamente de nuevo al señor Rivera y al Grupo Parlamentario Ciudadanos...</seg>
                <note>Continúan los rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u57" ana="#chair">
                <seg>Un momento, señor Sánchez.</seg>
                <seg>Ruego silencio, por favor. Ruego silencio.</seg>
             </u>
@@ -487,7 +485,7 @@
                <seg>Hay diputados y diputadas más pendientes de la confrontación que del acuerdo, pero estos son los tiempos que vivimos, señor Rivera. En todo caso, muchas gracias por su valentía.</seg>
                <note>Varios señores diputados: ¡Oh!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u59" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Señor Rivera, tiene la palabra.</seg>
             </u>
@@ -501,7 +499,7 @@
                <seg>¿Por qué tenemos que pensar que los jueces tienen que seguir puestos directamente desde las centrales de los partidos políticos? ¿Por qué no podemos poner en marcha un sistema para que los nombramientos sean entre expertos y así romper los tentáculos con los partidos políticos? ¿Qué es lo que les molesta a ustedes? ¿Que así no pueden colocar a los suyos? ¿Que así no pueden llamar al fiscal y decirle que haga una cosa o la contraria con Rita Barberá? ¿Eso es lo que les preocupa a ustedes?<note>Aplausos</note> El señor Rajoy antes hacía referencia a lo bien que va España. En España seguro que ha hecho cosas bien -ya lo dije antes-, pero podemos mejorar mucho, tenemos mucho margen. Les voy a dar un dato. El Consejo de Europa, que vela por las libertades y los derechos fundamentales en los países miembro, nos tuvo que llamar la atención por la politización de la Fiscalía y los tribunales españoles. Ustedes, que dijeron que iban a despolitizar la justicia -es lo que decía el programa electoral del Partido Popular en 2011-, han hecho lo contrario, han convertido la justicia en una ventanilla del Ministerio de Justicia en vez de un poder del Estado. Por tanto, vamos a despolitizar la justicia, como decían ustedes en su programa y no hicieron con mayoría absoluta. En definitiva, lo que está pasando es que muchos votantes que confiaron en ustedes pensando que iban a cambiar muchas cosas con mayoría absoluta les dieron un mandato de cambio y ustedes no cambiaron nada. Es más, politizaron la justicia, la educación no ha mejorado, hay más precariedad y hay más corrupción. No he hablado mucho de corrupción porque ya está en el aire, ya se sabe. Tenemos una situación económica difícil y el segundo problema de España, por delante de la economía, es la corrupción. Ustedes ante la corrupción dicen que son manzanas podridas. No, manzanas podridas no, cestos enteros de manzanas podridas; todo un sistema institucionalizado, con lingotes de oro en algunas sedes de algunos partidos. ¿Pero esto qué es? ¿Pero dónde estamos? ¿Esto es una democracia avanzada de Europa? ¿Qué hacen partidos comerciando con lingotes de oro?<note>Rumores</note> ¿Qué hacen decenas de diputados colaborando para blanquear dinero de mordidas públicas, como se está investigando en Valencia?<note>Rumores.-El señor Hernando Fraile: ¡Pero qué dices!</note> ¿Qué hacemos? Sí, sí, señor Hernando, sabe de lo que le hablo, me temo que sabe de lo que le hablo.<note>Protestas</note> No pasa nada, calma, tranquilos.</seg>
                <pb n="46"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u61" ana="#chair">
                <seg>Silencio, por favor.</seg>
                <seg>Les ruego silencio y que no establezcan conversaciones con el orador que está en el uso de la palabra.</seg>
             </u>
@@ -514,7 +512,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Ciudadanos, puestos en pie.-El señor Hernando Fraile pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u63" ana="#chair">
                <seg>Gracias, señor Rivera.</seg>
                <seg>¿Sí, señor Hernando?</seg>
             </u>
@@ -525,7 +523,7 @@
                <note>Rumores</note>
                <pb n="47"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u65" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u65" ana="#chair">
                <seg>No, no, no.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u66"
@@ -533,7 +531,7 @@
                ana="#regular">
                <seg>Sí, sí. Ha dicho: El señor Hernando sabe de qué hablo.<note>Rumores</note> Sí, señor. Señor López, usted quizá no lo haya podido escuchar porque estaba en otras cosas.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u67" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u67" ana="#chair">
                <seg>No, estaba aquí.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u68"
@@ -541,7 +539,7 @@
                ana="#regular">
                <seg>Pues yo lo he escuchado perfectamente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u69" ana="#chair">
                <seg>No. Estaba aquí.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u70"
@@ -550,7 +548,7 @@
                <seg>Bueno, pues repase el 'Diario de Sesiones' y verá cómo ha hecho esas alusiones, alusiones directas. Yo le tengo que decir al señor Rivera que no sé absolutamente nada de lo que me dice. No sé si usted habla porque usted sí conoce de este asunto, pero permítame que le diga una cosa: en cuanto a lucha contra la corrupción, ha sido este Gobierno el que ha hecho setenta medidas de lucha contra la corrupción...</seg>
                <note>Protestas.-Varios señores diputados: ¡Eso no son alusiones!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u71" ana="#chair">
                <seg>Ya está, señor Hernando, no tiene la palabra para esto.<note>El señor Domènech Sampere pide la palabra</note> ¿Sí, señor Domènech?</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u72"
@@ -558,7 +556,7 @@
                ana="#regular">
                <seg>Quería aludir a la referencia que ha hecho el señor Sánchez en relación con...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u73" ana="#chair">
                <seg>No, no. Hasta aquí hemos llegado con las alusiones. Vamos a ver, el artículo 71 del Reglamento es meridianamente claro. Solo se considera alusión, y por lo tanto solo permite abrir un turno por alusión, cuando haya habido juicio de valor o falsedad. Por lo tanto, no ha lugar a pervertir lo que es el debate de investidura jugando a debates cruzados entre diferentes portavoces o grupos políticos. No, no tiene la palabra.</seg>
                <seg>Continuamos con el debate.</seg>
             </u>
@@ -567,7 +565,7 @@
                ana="#regular">
                <seg>¿Que el señor Sánchez haya indicado que yo no tenía en consideración la tradición del socialismo no es un juicio de valor?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u75" ana="#chair">
                <seg>¡No, no, por favor! No es ni juicio de valor ni falsedad. Es una valoración política y no debemos equivocarnos en los términos en los que se maneja este debate. No, no tiene la palabra.</seg>
                <seg>Continuamos. Señor candidato.</seg>
             </u>
@@ -578,7 +576,7 @@
                <seg>Voy a intervenir desde el escaño para hacer lo mismo que ha hecho el señor Rivera, que es agradecer en nombre del Grupo Parlamentario Socialista a los negociadores durante este mes largo de muchas horas, de muchas renuncias no solamente a las horas de sueño, sino también a las horas familiares y de conciliación, su predisposición a acordar y a encontrar soluciones; soluciones, efectivamente, de dos partidos, señorías, que provienen de ideologías muy distintas, pero hemos antepuesto los intereses generales a los intereses de cada uno de los partidos. Esa es la nueva política, señorías, la política que piden los españoles a sus representantes en esta Cámara. La vieja política es el uso de falacias ad hominem.<note>Rumores</note> Porque, señorías, lo importante son los acuerdos, no quién negocia esos acuerdos. Y los acuerdos y los contenidos de esas políticas son soluciones progresistas y reformistas para el conjunto de españoles. Así que, señor Rivera, gracias por ser parte de la solución.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u77" ana="#chair">
                <seg>Muchas gracias, señor candidato.</seg>
                <seg>Continuamos con los turnos de intervención y es el tiempo del Grupo Parlamentario de Esquerra Republicana. Tiene la palabra el señor Tardà.<note>Rumores</note> Se ruega silencio.</seg>
             </u>
@@ -600,7 +598,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario de Esquerra Republicana, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u79" ana="#chair">
                <seg>Gracias, señor Tardà.</seg>
                <seg>Tiene la palabra el señor candidato.</seg>
             </u>
@@ -615,7 +613,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u81" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Señor Tardà, tiene la palabra.</seg>
             </u>
@@ -627,7 +625,7 @@
                <seg>Y dos, le veo escaso de talla de estadista<note>Rumores</note> porque a nadie le obligan a ser candidato a presidente del Gobierno. Yo no me atrevería; no tengo la talla. Ahora bien, le voy a poner un ejemplo histórico. Permítame que se lo diga porque soy profesor y no puedo evitarlo, y porque además usted es más joven y me lo puedo permitir.<note>Risas</note> En el año 2013 murió Mandela. El señor Rajoy fue a su entierro. ¿Cuántos jefes de Estado había? Muchísimos. ¿Cuántos presidentes de Gobierno? Muchísimos, incluso alguno que yo no quería, el señor Rajoy.<note>Risas.-Aplausos</note> Es una broma. En el año 2013 murió Adolfo Suárez. ¿Cuántos jefes de Estado había? Uno. ¿Quién? Teodoro Obiang. Aun así, esto es una injusticia, porque aun cuando la transición fue lo que fue porque estaba tutelada por los mismos militares que se habían levantado en contra de la legalidad republicana, Adolfo Suárez no se lo merecía, porque Adolfo Suárez tuvo mucho coraje. Y le pondré un ejemplo relacionado con usted. El 15 de junio del año 1977, en Cataluña ganaron las izquierdas y las fuerzas políticas antifranquistas, y todos los diputados, también los del PSC, se constituyeron en asamblea de parlamentarios. ¿Qué hizo Suárez? Con dos narices -por no decir otra palabra por respeto a la Cámara-, aun cuando no había legislación que lo apoyara, porque todavía existían las leyes franquistas, ¿qué hizo? Con mucho coraje, y jugándosela posiblemente, pactó el retorno y el restablecimiento de la única institución republicana recuperada, la única: la Generalitat.<note>Aplausos</note> ¿Había cuerpo legal para hacerlo? No, no había cuerpo legal para hacerlo, estaba fuera de la ley, las leyes franquistas no permitían hacerlo. ¿Por qué lo hizo? Porque supongo que entendió que la democracia en aquel momento estaba por encima incluso de la ley.<note>Aplausos</note> ¿Dónde está su coraje? ¿Dónde está su talla de estadista ahora negándose a la celebración del referéndum? ¿Y usted tiene que ser el presidente del Gobierno español? Pues me sabe mal por aquellos que todavía seguirán perteneciendo al Reino de España. Por suerte, nosotros nos vamos.</seg>
                <note>Risas.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u83" ana="#chair">
                <seg>Gracias, señor Tardà.</seg>
                <seg>Señor Sánchez.</seg>
             </u>
@@ -637,13 +635,13 @@
                <seg>Señor Tardà, le voy a responder desde el escaño para decirle dos cosas. Cuando hacía referencia a la figura del ex presidente Suárez, tiene que recordar también que la diferencia de ese momento con el de ahora es que hay una Constitución democrática que fue aprobada por la mayoría de los catalanes en el 78.<note>Aplausos</note> Esa es la diferencia, señor Tardà. Defender la democracia es defender la legalidad, y dentro de la legalidad podremos hablar de lo que usted quiera, señor Tardà. Incluso, podremos hablar de un nuevo Estatuto para Cataluña, podremos hablar de la financiación, podremos hablar de competencias, podremos hablar de lo que quieran, pero siempre dentro de la Constitución y dentro del Estatuto de Autonomía de Cataluña, señor Tardà. Lo que nunca vamos a aceptar los socialistas, vivamos donde vivamos, ya sea en Cataluña, en Andalucía, en Madrid o en cualquier otro territorio de España, es que un gobernante tenga que obligar a su población a tener que escoger entre ser catalán o ser español, cuando ambas identidades históricamente, señor Tardà, siempre han sumado. Eso es lo que ustedes están planteando y a eso nosotros lo llamamos fractura, y no lo vamos a permitir, señor Tardà.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u85" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Suspendemos en este momento la sesión hasta las tres.</seg>
                <seg>Era la una y cincuenta minutos de la tarde.</seg>
                <seg>Se reanuda la sesión a las tres y cinco minutos de la tarde.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u86" ana="#chair">
                <seg>Señorías, vamos a continuar con el turno de grupos parlamentarios en esta sesión de investidura.</seg>
                <seg>Le corresponde ahora el turno al Grupo Parlamentario Catalán<note>Democràcia i Llibertat</note> Para ello tiene la palabra el señor Homs.</seg>
                <pb n="55"/>
@@ -670,7 +668,7 @@
                <seg>Muchas gracias, señor presidente, señor candidato, señoras y señores diputados.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u88" ana="#chair">
                <seg>Muchas gracias, señor Homs.</seg>
                <seg>Tiene la palabra el candidato a la Presidencia del Gobierno.</seg>
             </u>
@@ -688,7 +686,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u90" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Señor Homs, tiene la palabra.</seg>
             </u>
@@ -706,7 +704,7 @@
                <seg>Muchas gracias, señoras y señores diputados.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u92" ana="#chair">
                <seg>Gracias, señor Homs.</seg>
                <seg>Tiene la palabra el candidato a presidente del Gobierno.</seg>
             </u>
@@ -721,7 +719,7 @@
                <note>Aplausos</note>
                <pb n="65"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u94" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Señor Homs, desde el escaño, tiene tres minutos.</seg>
             </u>
@@ -733,7 +731,7 @@
                <seg>Finalmente -y fíjese en lo que le voy a decir, porque dicho por mí tiene su enjundia- sí hay una mayoría para hacer un Gobierno de izquierdas, no se equivoque; depende de usted.<note>Aplausos</note> Sí la hay. No se engañe, sí la hay; lo que pasa, señor Sánchez, es que no es cómoda, y yo lo admito. No es cómoda, yo lo admito, porque tiene 90 diputados, pero la mayoría existe si usted está dispuesto a activarla.<note>Rumores</note> No va a ser cómoda. En ese sentido, aquellos que tengamos, digamos, predisposición al interés general tendremos la obligación de entender que no va a ser cómoda, especialmente para el Partido Socialista Obrero Español, pero está...</seg>
                <note>Aplausos.-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u96" ana="#chair">
                <seg>Gracias, señor Homs. Ha agotado su tiempo.</seg>
                <seg>Señor Sánchez.</seg>
             </u>
@@ -745,7 +743,7 @@
                <seg>En tercer lugar, no sabía yo que era usted el portavoz de la izquierda en esta Cámara, señor Homs.<note>Risas.-Aplausos</note> Sí le diré una cosa: si usted pretende -y yo entiendo que lo haga porque usted está gobernando con ellos en Cataluña- que el Gobierno de España descanse sobre las espaldas de Esquerra Republicana, ya le digo yo que no.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u98" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Turno del Grupo Parlamentario Vasco<note>EAJ-PNV</note> Señor Esteban, tiene la palabra.</seg>
             </u>
@@ -770,7 +768,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u100" ana="#chair">
                <seg>Eskerrik asko, Esteban jauna.</seg>
                <seg>Señor Sánchez, tiene la palabra.</seg>
             </u>
@@ -784,7 +782,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u102" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Esteban jauna, zurea da hitza.</seg>
             </u>
@@ -798,7 +796,7 @@
                <seg>En cualquier caso, seguimos con la mano tendida, creo que se abre un nuevo ciclo y ya veremos lo que da de sí. No sé qué intenciones tienen el resto de los partidos de moverse, de hablar o de discutir, pero nosotros estamos dispuestos a hablar. También le digo que es muy difícil que podamos utilizar todos los mimbres del cesto que ha utilizado para presentarse aquí con el acuerdo con Ciudadanos. Más valdría utilizar nuevos mimbres -si algunos le sirven, perfecto- para hacer un nuevo cesto y, si puede ser, no tan grande como el anterior porque, de verdad, nos va a ir mejor. Con las líneas básicas y las ideas claras y actuando con lealtad -y en eso, desde luego, siempre va a tener usted, o cualquier otro partido, si llega a un acuerdo, la lealtad plena del Partido Nacionalista Vasco-, quizá se pueda llegar a algo.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u104" ana="#chair">
                <seg>Eskerrik asko, señor Esteban.</seg>
                <seg>El candidato tiene la palabra.</seg>
             </u>
@@ -810,7 +808,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u106" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u106" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Corresponde ahora el turno al Grupo Mixto. Todos sabemos que dentro del Grupo Mixto hay siete formaciones políticas y la voluntad de la Mesa, y seguro que la de la Cámara, es que todas ellas puedan tener su tiempo para expresar su opinión. Seremos generosos con el cómputo total del Grupo Mixto, pero, igual que vamos a ser generosos, les pedimos que sean rigurosos con el tiempo que hemos pactado para cada uno de los grupos.</seg>
                <seg>En primer lugar, el señor Baldoví tiene la palabra por diez minutos.</seg>
@@ -833,7 +831,7 @@
                <seg>Nos vemos el lunes.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u108" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u108" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Tiene la palabra por siete minutos el señor Garzón.</seg>
             </u>
@@ -847,7 +845,7 @@
                <seg>Usted nos pide que hagamos casi un acto de fe, que creamos que es posible esa compatibilidad entre la economía de derechas y la agenda social de izquierdas, nos dice que no hagamos caso a lo que dice sinceramente o con apariencia de sinceridad el señor Rivera, nos dice también que no escuchemos las críticas legítimas y además creo que acertadas que hacen los sindicatos -como, por ejemplo, Comisiones Obreras- del acuerdo de Ciudadanos con el Partido Socialista. En última instancia, nosotros creemos que no podemos no escuchar, que no podemos dejar de ser coherentes. Por eso, hay que hacer política social con economía de izquierdas. Creemos, señor Sánchez, que no se trata solo de derogar el artículo 315.3 del Código Penal sobre el derecho a huelga, porque naturalmente hay que derogarlo. Evidentemente, estamos de acuerdo, porque no se puede meter en la cárcel a más de 300 sindicalistas que están en procesos judiciales por haber defendido los derechos de todos y de todas, pero creemos mucho más importante que directamente no haya que hacer huelgas generales porque se ha dinamitado el derecho del trabajo, y ese acuerdo en materia laboral lo que va a hacer es empujar a más gente a la huelga general. Es verdad, no los meten en la cárcel, pero van a tener que seguir protestando en las huelgas, y eso es lo que no puede ser.<note>Aplausos</note> Somos optimistas desde Izquierda Unida-Unidad Popular. Creemos que es posible, que hay números, que se puede hacer. Nunca hemos dicho que sea fácil. Hemos conseguido poner de acuerdo a cuatro partidos en una mesa. Hemos tardado sesenta y tres días, de ahí la dificultad, pero se ha conseguido. Lo que ocurre es que nosotros siempre hemos dicho que votaríamos en función del programa completo, de la visión global, y esta visión global es imposible de aprobar porque es incoherente, porque económicamente es imposible llevar a cabo la agenda social si se aceptan los postulados liberales. Creo sinceramente -y no me quiero meter en casas ajenas- que en este momento necesitamos una socialdemocracia comprometida con los postulados clásicos de la propia socialdemocracia, no del social liberalismo, porque necesitamos dar la vuelta a esta Unión Europea, pero no con simples retóricas, sino con actos, con correlación de fuerzas, estableciendo alianzas con Portugal, con Grecia, denunciando tratados infames de la Unión Europea, denunciando el papel del Banco Central Europeo y del presidente Mario Draghi, denunciando en última instancia la política que nos genera esos problemas en la calle, que es de lo que deberíamos estar hablando y no de la hipotética situación de elecciones anticipadas.</seg>
                <seg>Venimos de una tradición de izquierdas -somos herederos y continuadores de ella-, de una tradición de lucha social. Seguimos aquel postulado de Marcelino Camacho que decía que el derecho a huelga se consiguió haciendo huelgas, porque sabemos que los derechos de hoy son las luchas de ayer y que si no luchamos hoy no tendremos derecho mañana. Por eso, vamos a seguir luchando, y luchamos aquí, en este hemiciclo, en la calle, en las movilizaciones, pero luchamos siempre desde la coherencia. Por eso, no le podemos admitir que nos intente llevar de nuevo a ese falso dilema. Es mentira, es falso -y usted lo sabe- que esto sea una elección entre Albert Rivera y Mariano Rajoy. Esto no es una elección entre ellos. Lo que le pedimos es que usted sea presidente, pero siguiendo aquel adagio latino que decía que la fortuna sonríe a los audaces. Y le pedimos a usted, secretario general del Partido Socialista, que sea audaz, algo que no va a ser fácil, pero ahí le vamos a encontrar y nos va a encontrar a nosotros, porque no queremos un Gobierno del principal partido corrupto de la Unión Europea, que es el Partido Popular, porque queremos solucionar los problemas de la gente, pero para eso necesitamos, como bien sabe usted, su participación, pero con la izquierda, aprendiendo de todos los errores pasados, aprendiendo de todo lo que podemos llevar hasta el futuro y entendiendo que el contexto es diferente. Ya no habrá más bipartidismo. Lo que hay son 5 millones de votos del Partido Socialista, 3 millones de Podemos, 2 millones de las confluencias y un millón de Izquierda Unida-Unidad Popular. La izquierda es así; es rica, es diversa.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u110" ana="#chair">
                <seg>Señor Garzón, le ruego que vaya concluyendo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u111"
@@ -858,7 +856,7 @@
                <note>Aplausos</note>
                <pb n="78"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u112" ana="#chair">
                <seg>Gracias, señor Garzón.</seg>
                <seg>Beitialarrangoitia andrea, zurea da hitza. Zazpi minutu.</seg>
             </u>
@@ -874,7 +872,7 @@
                <seg>Ante las demandas de la ciudadanía vasca, de la gallega o de la catalana -en esto es en lo único que hablan claro- nos dicen que no y ahí son rotundos. La misma respuesta aun sabiendo que la unidad de España que pretenden defender a costa de negar lo que es la esencia de la democracia, que es el respeto a la decisión de la opinión de la ciudadanía, hace aguas. Una España sumida en una crisis de muchos tipos, con sus bases carcomidas por una corrupción que es parte del sistema y que se va extendiendo sin límite. -Voy acabando-. Intentan agarrarse a la tan cacareada soberanía nacional como tabla de salvación ante un más que seguro naufragio, porque la artimaña diseñada con ruido de sables en 1978 ya no se sostiene y es hora ya de abrir cauces a un verdadero sistema democrático. Cada vez son más las voces que defienden el derecho a decidir. Esa mayoría debe ir extendiéndose, y mientras eso ocurre seguiremos trabajando para que las personas a las que representamos puedan ir tomando el rumbo de su presente y su futuro en Euskalerria y para hacer valer ante el Gobierno que se conforme en Madrid -si llega a formarse algún día- las decisiones de la ciudadanía vasca. Esa es nuestra meta. Por tanto, no cuenten con nuestro voto para seguir negándonos nuestra condición de pueblo soberano, para condenar a la gente a la pobreza, para defender los intereses de unos pocos privilegiados y poderosos; en definitiva, para seguir como hasta ahora.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u114" ana="#chair">
                <seg>Gracias, señora Beitialarrangoitia.</seg>
                <seg>Le corresponde el turno, por siete minutos también, al señor Alli.</seg>
             </u>
@@ -887,7 +885,7 @@
                <seg>Señorías, Unión del Pueblo Navarro es el partido político de la mayoría social de Navarra que incluye a las personas que creen en las libertades individuales, en la igualdad de oportunidades dentro del marco de convivencia que es España, que es Europa como espacio de progreso y de prosperidad. Unión del Pueblo<pb n="80"/> Navarro es un firme defensor de los derechos históricos amparados en la Constitución española, del autogobierno, de la capacidad de Navarra para gestionar y recaudar sus propios impuestos, ...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u116" ana="#chair">
                <seg>Un poco de silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u117"
@@ -902,7 +900,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u118" ana="#chair">
                <seg>Gracias, señor Alli.</seg>
                <seg>Tiene la palabra por cinco minutos el señor Martínez.</seg>
                <pb n="81"/>
@@ -916,7 +914,7 @@
                <seg>El acuerdo de coalición suscrito por Foro con el Partido Popular en esta legislatura es transparente, proporciona un remedio contra el sucursalismo, que tanto daño político nos ha causado desde 2004, y garantiza como contrapartida nuestro voto a la candidatura del señor Rajoy como presidente, para un programa nacional de Gobierno que da respuestas a las principales causas de los males de Asturias, es decir, una nueva financiación autonómica que responda al mandato constitucional de igualdad y solidaridad entre españoles y territorios y la asignación de las inversiones del Estado con criterios de equidad entre comunidades autónomas; unas infraestructuras que concluyan la autovía del Suroccidente, la circunvalación de Oviedo, los accesos viarios a los puertos del Musel, Avilés y Zalia. Asimismo, que llegue hasta Oviedo, Gijón y Avilés el AVE europeo, ese gran proyecto del Gobierno de Aznar que el Gobierno de su compañero Zapatero nos sustrajo, al perpetrar en fondo de saco una estación término en León.</seg>
                <note>Continúan los rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u120" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u121"
@@ -926,7 +924,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u122" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u122" ana="#chair">
                <seg>Gracias, señor Martínez.</seg>
                <seg>Tiene la palabra la señora Oramas, también por cinco minutos.</seg>
             </u>
@@ -939,7 +937,7 @@
                <seg>Mi partido, que representa un nacionalismo integrador, progresista y solidario con el resto de los pueblos que conforman el Estado, tiene además la obligación de trasladar las necesidades de un territorio que ya no puede estar nunca más alejado de las mentes y los corazones de quienes pueden decidir su futuro.</seg>
                <note>Continúan los rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u124" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u124" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u125"
@@ -949,7 +947,7 @@
                <seg>Déjenme que termine con un verso precioso del poeta Pedro Lezcano: Aprendí desde entonces / que mi patria era hembra y era ancha / y que en su vientre, henchido de futuro, / estaba la esperanza. Canarias, que tanta esperanza ha albergado, no debe esperar más. Confío en que entre todos, con esta voluntad de cambio, de entendimiento, consigamos que este sea por fin el tiempo de Canarias.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u126" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u126" ana="#chair">
                <seg>Muchas gracias, señora Oramas.</seg>
                <seg>Tiene la palabra también por cinco minutos y, por último, el señor Quevedo.</seg>
             </u>
@@ -964,7 +962,7 @@
                <seg>El partido Nueva Canarias, en este proceso, se ha sentido muy cómodo con el acuerdo que suscribimos, bastante cómodo con el acuerdo que presentó el Partido Socialista, algo menos cómodo con el acuerdo con Ciudadanos, pero, ¿saben lo que les digo? Que aquí no se trata de estar cómodos, se trata de trabajar por el cambio político. La comodidad es lo contrario del cambio político. Estar satisfecho con uno mismo es justamente lo contrario de lo que se necesita.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u128" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u128" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u129"
@@ -972,7 +970,7 @@
                ana="#regular">
                <seg>Señor candidato, hemos aplaudido el valor que usted ha demostrado para asumir un reto difícil, en condiciones difíciles, para someterse a esta investidura. Le ratificamos aquí el compromiso que adquirió Nueva Canarias, con usted y con su partido, de defender su investidura, de apoyar su investidura, que es lo que vamos a hacer, porque consideramos que ha hecho usted el trabajo que es necesario hacer, por difícil que sea. Creemos que su propuesta, al margen del resultado de las votaciones que se produzcan hoy o el próximo viernes, tiene una virtud enorme: genera una oportunidad para que las fuerzas políticas que queremos trabajar por el cambio encontremos el consenso en torno a una propuesta inicial que es un buen elemento de debate -lo creemos en Nueva Canarias- y ese es el mérito de su trabajo y el mérito que hoy le reconocemos aquí. Le diré una cosa: para el objetivo de encontrar un Gobierno alternativo al que representó el Partido Popular, cualquier esfuerzo es poco, y lo dice alguien que en Canarias ha suscrito acuerdos entre Partido Socialista, Podemos y Nueva Canarias...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u130" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u130" ana="#chair">
                <seg>Señor Quevedo, debe ir concluyendo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u131"
@@ -982,7 +980,7 @@
                <seg>Como decía, para alguien que en Canarias ha suscrito acuerdos para garantizar la gobernabilidad de instituciones tan importantes como el Ayuntamiento de Las Palmas de Gran Canaria o el Cabildo de Gran Canaria, lo que sería inaceptable, la auténtica línea roja ¿saben ustedes cuál es? Que se repitan las elecciones porque no hemos sabido estar a la altura y responder al mandato de los ciudadanos.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u132" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u132" ana="#chair">
                <seg>Gracias, señor Quevedo.</seg>
                <seg>Un momento, señor Sánchez. Señorías, como pueden apreciar, vamos muy bien en la gestión y en el uso de los tiempos, y por eso la Mesa con algunos grupos ha promovido una conversación entre todos para ver si era posible adelantar la votación del horario previsto, y parece que hay unanimidad entre todos los grupos para que adelantemos esa hora de las ocho a las siete de la tarde. Si no hay nadie que se oponga a esta decisión, haremos que la votación se produzca a las siete.<note>Pausa</note> Muchas gracias.</seg>
                <seg>Señor candidato a la Presidencia, tiene la palabra.</seg>
@@ -997,7 +995,7 @@
                <seg>Usted plantea en ese acuerdo, en el Acuerdo del Botánico, el derecho a la luz, al agua y al gas, y en este acuerdo estamos hablando del derecho al agua como un derecho, como un bien, y estamos hablando de aprobar una ley de lucha contra la pobreza energética. Se habla de la pobreza infantil y de combatirla, y estamos hablando de aumentar las prestaciones por hijo a cargo y además extender su duración. Se habla de la dependencia, ya he hecho referencia en anteriores intervenciones. Se habla de la violencia de género, ayer hice en mi intervención una explícita defensa en el acuerdo de todo aquello que tiene que ver con el pacto social, político e institucional en la lucha contra la violencia de género. Se habla de la transparencia y nosotros estamos reconociendo en este acuerdo, señoría, que tenemos que modificar y avanzar más en la Ley de Transparencia que aprobó el Gobierno en funciones, y también garantizar la independencia de ese Consejo de la Transparencia, que ahora mismo está presidido por una persona afín al Partido Popular y al Gobierno en funciones.</seg>
                <seg>Se habla de la participación ciudadana. No se me ocurre mejor fórmula de incentivar la participación ciudadana que reducir a 250.000 firmas la iniciativa legislativa popular.<note>Rumores</note> Se habla de la reforma de la Ley Electoral.<note>Rumores</note> Eso viene...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u134" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u134" ana="#chair">
                <seg>¡Silencio, por favor!</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u135"
@@ -1014,7 +1012,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u136" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u136" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Para el turno de réplica del Grupo Mixto, que está repartido en cuatro minutos para el señor Baldoví y dos minutos para los demás, voy a ser muy estricto, porque si no, después de que hemos adelantado la hora, nos vamos a pasar. El señor Baldoví ya está bajando, pero para dos minutos les recomendaría, sin que suponga ninguna descortesía, que intervinieran desde el escaño.</seg>
             </u>
@@ -1028,7 +1026,7 @@
                <seg>Moltes gràcies.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u138" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u138" ana="#chair">
                <seg>Gracias, señor Baldoví.</seg>
                <seg>Señor Garzón, tiene dos minutos.</seg>
                <pb n="89"/>
@@ -1041,7 +1039,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u140" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u140" ana="#chair">
                <seg>Gracias, señor Garzón.</seg>
                <seg>Señora Beitialarrangoitia.</seg>
             </u>
@@ -1056,7 +1054,7 @@
                <note>Aplausos</note>
                <pb n="90"/>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u142" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u142" ana="#chair">
                <seg>Tiene la palabra, por dos minutos también, el señor Alli.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u143"
@@ -1066,7 +1064,7 @@
                <seg>Señor Sánchez, quiero hacerle dos consideraciones. Una, no me ha respondido en relación con el autogobierno y con la disposición transitoria cuarta que defiende Unión del Pueblo Navarro. Que quede muy claro que Unión del Pueblo Navarro lo que va a defender es que Navarra sea foral y española. Dos, le haré una reflexión, con todo mi respeto, para que sepa qué es exactamente Unión del Pueblo Navarro. Sus fundadores lo definieron con tres principios ideológicos. En primer lugar, sí, somos conservadores en la defensa de lo nuestro, de la tierra, de las costumbres, de nuestros hábitos; en segundo lugar, somos liberales, porque defendemos el libre mercado, la iniciativa privada, las libertades individuales, y en tercer lugar, somos tremendamente progresistas en el ámbito social. A los hechos me remito. Navarra en este momento tiene un perceptor de renta básica por cada 25 navarros, cuando la media nacional es de un perceptor de renta básica por cada 175 españoles. Somos la comunidad número 12, de 278 regiones europeas, con menos tasa de pobreza severa, según la agencia Eurostat, en su indicador Arope, At risk of poverty and exclusion. La definición de esos tres principios ideológicos, señor Sánchez, es la centralidad ideológica, y desde ahí votaremos con total libertad a cualquier iniciativa, venga del partido que venga. Así es como hemos trabajado durante veinticuatro años el Partido Socialista de Navarra y Unión del Pueblo Navarro, y estamos en un momento histórico para buscar esas fuerzas de consenso de los partidos constitucionalistas.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u144" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u144" ana="#chair">
                <seg>Gracias, señor Alli.</seg>
                <seg>El señor Martínez también tiene sus dos minutos de tiempo.</seg>
             </u>
@@ -1078,7 +1076,7 @@
                <seg>Me recuerda el candidato, acertadamente, mi paso por el Senado, donde critiqué mucho al Partido Popular, y le digo aquí, ante toda España, ante mis paisanos, que volveré a hacerlo una y mil veces, porque los asturianos me han puesto en las Cortes Generales, hoy en el Congreso de los Diputados, para defender Asturias. Con el Partido Popular hemos firmado un acuerdo de coalición, titulado Para sumar desde Asturias por España, que garantiza con Rajoy el cumplimiento y la solución de los principales problemas de los asturianos; esos problemas que usted, señor Sánchez, olvidó ayer, ha ignorado hoy y volverá a olvidar mañana si sale investido presidente. No será con el voto de Foro.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u146" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u146" ana="#chair">
                <seg>Gracias, señor Martínez.</seg>
                <seg>La señora Oramas también tiene los dos minutos de réplica.</seg>
             </u>
@@ -1090,7 +1088,7 @@
                <seg>Finalmente, le quiero decir que me voy a abstener hoy. Sabemos que tenemos el acuerdo sobre Canarias, pero necesitamos un acuerdo para que haya un Gobierno de España con una mínima estabilidad,<pb n="91"/> con un tiempo determinado y pactado para hacer esas reformas de regeneración y de Estado y las políticas sociales que necesita este país. Usted tiene que negociar en los próximos días y horas. Y si tiene ese mínimo, ese Gobierno, aunque sea en minoría, con apoyos parlamentarios puntuales, a nosotros, a los nacionalistas canarios, nos va a encontrar, como siempre nos ha encontrado esta Cámara, en los grandes pactos de Estado.</seg>
                <seg>Gracias a todos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u148" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u148" ana="#chair">
                <seg>Gracias, señora Oramas.</seg>
                <seg>El señor Quevedo también dispone de su tiempo. Va a intervenir desde el escaño.</seg>
             </u>
@@ -1100,7 +1098,7 @@
                <seg>Prácticamente está todo dicho, pero Nueva Canarias quiere insistir en que aquí hay una oportunidad, una oportunidad para construir un Gobierno alternativo al del Partido Popular, que ha supuesto una involución clara en derechos y en igualdad, un aumento de la pobreza, un deterioro de los grandes servicios públicos, etcétera. Por tanto, el objetivo de las fuerzas que creemos en el cambio político no puede ser otro que construir un nuevo Gobierno. En Nueva Canarias tenemos claro que la mayoría social agradecerá cualquier esfuerzo en ese sentido. Tener que acudir a un nuevo proceso electoral supondría, en nuestra opinión, un auténtico escándalo democrático, con un resultado que probablemente se parecería a este, aunque a lo mejor habría alguna sorpresa, y al día siguiente nos tendríamos que ir a vivir a las Antípodas, a ser posible, porque a ver cómo lo explicamos. Hay que hacer un esfuerzo gigantesco para alcanzar un acuerdo político de cambio y está en nuestras manos. Ese es el mensaje de Nueva Canarias.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u150" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u150" ana="#chair">
                <seg>Gracias, señor Quevedo.</seg>
                <seg>Señor candidato.</seg>
             </u>
@@ -1117,7 +1115,7 @@
                <seg>Al señor Quevedo, de Nueva Canarias, quiero agradecerle su voto afirmativo y decirle que, en efecto, España necesita con urgencia un Gobierno, que España necesita con urgencia un cambio y que España necesita con urgencia un acuerdo que haga posible ese Gobierno y ese cambio. Eso es lo que yo someto a su consideración en esta votación. Espero, humildemente, que entre todos consigamos cambiar España, cambiar el Gobierno, cambiar las políticas y poner fin a quien no está hoy presente en su escaño, al presidente del Gobierno en funciones, al señor Rajoy.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u152" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u152" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Para concluir el turno de los grupos, tiene la palabra el señor Hernando, en representación del Grupo Socialista.</seg>
             </u>
@@ -1132,7 +1130,7 @@
                <seg>Hace más de treinta años este país dio una lección de concordia al mundo, y lo incomprensible es que hoy, treinta y ocho años después, con la experiencia democrática que tenemos de práctica en las instituciones, de vida en plena libertad, no seamos capaces ni siquiera de sentarnos a dialogar. Quizás la diferencia entre los protagonistas de entonces y los actuales es que aquellos tenían más ganas de ser y de hacer que de estar y figurar. Ojalá esto cambie en poco tiempo.<note>Aplausos</note> Señor presidente, señorías, el PSOE ha cumplido ciento treinta y siete años de historia. Los diputados y diputadas aquí presentes somos herederos de los primeros socialistas del siglo XIX que desde pequeños talleres, desde las minas o desde las grandes fábricas alzaron su voz rota para gritar libertad; somos herederos de los socialistas que derramaron lágrimas secas en las cárceles de la dictadura o el exilio; somos herederos de los miles y miles de obreros que en los años setenta del siglo pasado conquistaron la libertad sindical y también somos herederos y estamos orgullosos de los Gobiernos de Felipe González y de José Luís Rodríguez Zapatero.<note>Aplausos</note> Gobiernos que levantaron el Estado del bienestar, que construyeron la sanidad universal y la enseñanza pública y gratuita para todos. Somos hijos de los Gobiernos que rompieron el muro infranqueable de los Pirineos para integrar a España en la Unión Europea. Somos hijos de los que ampliaron las libertades, de hombres y mujeres de los que estamos orgullosos, a pesar de que hoy se les haya pretendido insultar y manchar con cal, personas que hicieron de la igualdad y de la libertad su bandera y que la conquistaron, señorías.<note>Aplausos</note> Termino ya, señorías. Hoy también quiero expresar, cómo no, a Pedro Sánchez todo el apoyo y el máximo reconocimiento de su grupo, del Grupo Socialista. Queremos agradecer su responsabilidad y su determinación para buscar el acuerdo mirando al futuro sin ira y dejando a un lado los agravios. El futuro es de los valientes; es una contracción de una cita más larga de Víctor Hugo, que dice: El futuro tiene muchos nombres: para los débiles es lo inalcanzable, para los temerosos lo desconocido y para los valientes es la oportunidad. El Grupo Parlamentario Socialista quiere reconocer el valor y la responsabilidad de un candidato que ha querido dar una oportunidad a millones de ciudadanos que no lo están pasando bien y que en estos momentos nos están mirando.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u154" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u154" ana="#chair">
                <seg>Gracias, señor Hernando.<note>Prolongados aplausos de las señoras y los señores diputados del Grupo Parlamentario Socialista, puestos en pie</note> Señor candidato, tiene la palabra.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u155"
@@ -1144,7 +1142,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u156" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u156" ana="#chair">
                <seg>Gracias.</seg>
                <seg>Señorías, hemos concluido el debate y mientras se está haciendo el llamamiento sonoro para que todos los diputados y diputadas que no estén aquí puedan acudir para participar en la votación, permítanme decirles una que, como han visto, hemos mejorado y mucho las previsiones que había hecho este presidente sobre el tiempo que iba a ocupar este debate y esto quiere decir dos cosas: la primera es que hemos respetado todos muy bien los tiempos y la gestión de los tiempos, pero la segunda y la más importante es que, a pesar de algunos episodios puntuales que pueden es usarse y se están usando de hecho para decir que ha sido un debate bronco, un debate con salidas de tono en el que algunos se han tenido que emplear a fondo, yo creo que ha sido un debate intenso y vivo como corresponde a un debate de investidura, y, sobre todo, un debate que se ha comportado bajo el principio del parlamentarismo. El parlamentarismo es el predominio de la palabra, el predominio de la educación, del respeto y del intercambio de criterios. Por eso, aunque no sea habitual, este presidente novato en estas lides, aunque no sea habitual y alguno quiera grapar esto en el Reglamento como parece que quieren grapar otras cuestiones que han dicho, lo único que quiere hacer es darles las gracias por haber hecho posible este debate y darles las gracias por haber hecho fácil a la Mesa la labor de la ordenación de este debate. Muchas gracias.<note>Aplausos</note> Ahora, para adelantar también, vamos a proceder al sorteo que está previsto en el artículo 86 del Reglamento porque, como saben, la votación es por llamamiento y por orden alfabético pero empezando por aquel diputado o diputada que sea elegido en ese sorteo.<note>Pausa</note> El número es el 160 y corresponde al señor Hurtado Zurera, Antonio.<note>Rumores</note> Por lo tanto, señorías, ocupen todos y todas sus escaños porque vamos a pasar a la votación para el otorgamiento de la confianza al candidato propuesto por su majestad el rey. Conforme establece el Reglamento de la Cámara en su artículo 85.2, la votación será pública por llamamiento y sus señorías responderán sí, no o abstención desde su escaño cuando sean llamados por las señoras y los señores secretarios, que leerán los nombres desde la tribuna de oradores. Les ruego que contesten al llamamiento con voz clara y audible, aunque los señores secretarios y secretarias que les llamen repetirán el sentido de la votación para evitar dificultades. Por tanto, ruego a la secretaria primera que dé comienzo al llamamiento.</seg>
                <seg>Por los secretarios de la Mesa se procede al llamamiento de las señoras y los señores diputados, que van manifestando el sentido de su voto.</seg>
@@ -1498,10 +1496,10 @@
                <seg>Elizo Serrano, María Gloria</seg>
                <seg>Villalobos Talero, Celia</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u157" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u157" ana="#chair">
                <seg>¿Alguna señora diputada o algún señor diputado no ha sido nombrado para votar?<note>Pausa</note> Vamos a proceder a realizar el escrutinio de los votos emitidos.<note>Pausa</note> Efectuado el recuento, dijo</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u158" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-03-02-CD160302.u158" ana="#chair">
                <seg>Señorías, el resultado de la votación ha sido el siguiente: votos emitidos, 350; votos a favor del candidato, 130; votos en contra, 219, y abstenciones, 1. No habiendo alcanzado el candidato propuesto la mayoría absoluta, procede someter la misma propuesta a nueva votación cuarenta y ocho horas después de la anterior, conforme a lo dispuesto en el artículo 99.3 de la Constitución. Por lo tanto, el Pleno de la Cámara puede reunirse con posibilidad jurídica de decidir a partir, aproximadamente, de las 19:45 del próximo viernes, 4 de marzo. En consecuencia, esta Presidencia convoca al Pleno de la Cámara para el día 4 de marzo a las 18:30 horas porque, como saben, previamente hay un debate con la participación de todos los grupos para proceder a la segunda votación de la misma propuesta, con la previsión anticipada de que fuere cual fuere el desarrollo del debate no se iniciará la votación en ningún caso antes de la misma hora a la que hemos iniciado esta, que eran las siete de la tarde.</seg>
                <seg>Así pues, se levanta la sesión.</seg>
                <seg>Eran las siete y cuarenta y cinco minutos de la tarde.</seg>

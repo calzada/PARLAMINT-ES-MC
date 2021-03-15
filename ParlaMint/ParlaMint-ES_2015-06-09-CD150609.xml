@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="127">127 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="127" xml:lang="es">127 speeches</measure>
+            <measure unit="speeches" quantity="127" xml:lang="en">127 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="11"/>
                <tagUsage gi="note" occurs="59"/>
                <tagUsage gi="u" occurs="127"/>
-               <tagUsage gi="lb" occurs="389"/>
+               <tagUsage gi="seg" occurs="389"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -355,7 +353,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u31" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u31" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Centella.</seg>
             </u>
@@ -370,7 +368,7 @@
                <seg>Nuestro grupo va a votar a favor de la tramitación. Entendemos que es bueno que se tramite, es bueno el debate, pero tenemos dudas sobre algunos aspectos de la ley. Evidentemente aquí no se vota la ley. Uno puede estar en desacuerdo con la ley pero de acuerdo con que se produzca el debate y de acuerdo con que hay que regular y resolver esa situación, porque lo peor es dejarlo como está. Por lo tanto, tenemos dudas y presentaremos enmiendas a lo largo de la tramitación de la ley. Por ejemplo, creemos que hay situaciones que dificultarían la puesta en marcha del nuevo impuesto. Si este tributo se implanta de forma unilateral no evitaría la utilización de redes, de convenios que tuviesen ese fin de elusión tributaria, porque se propone una tributación territorial y no se consigue sortear el segundo artículo de los convenios firmados por España conforme al modelo de la OCDE. Es decir, puede ser algo con muy buenas intenciones, pero que luego resulte un tanto inútil. En segundo lugar, no entendemos que si a una empresa residente se le exigen las cuotas del impuesto sobre esas sociedades eludidas, a las que no son residentes se les exija un nuevo impuesto. En esta situación se podría pensar más en una actitud sancionadora que en una actitud impositiva que es a donde debemos ir. Repito, estos son elementos que no entran en el debate de hoy. Lo que queremos resaltar hoy es esa necesidad de que la economía no puede estar al servicio de los intereses de la minoría, que la globalización no es un mantra que se repite y que todo lo tapa. La globalización significa desigualdad, significa mayor pobreza para unos y mayor riqueza para unos pocos, significa que en este mundo la mayor parte de las guerras que están ocurriendo son en función de esos intereses y que la destrucción del planeta también se hace en función de los mismos intereses, un sistema que es injusto en sí y que algún día tengo la esperanza de que sea sustituido por otro sistema que sea más justo y más igualitario. Muchas gracias.</seg>
                <pb n="25"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u33" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u33" ana="#chair">
                <seg>Muchas gracias, señor Centella.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> tiene la palabra la señora Riera.</seg>
             </u>
@@ -386,7 +384,7 @@
                <seg>Hechas estas tres consideraciones, nuestro grupo parlamentario -tal y como ya he avanzado en mi intervención- apoyará la toma en consideración de esta iniciativa legislativa, manifestando y reiterando que, más allá de compartir el objetivo que se persigue, es necesario abrir un debate legislativo sobre las formas y las soluciones a esta problemática, teniendo en cuenta que se trata de una problemática europea y diría que internacional y que , por tanto, soluciones más armonizadas a nivel europeo serían no solo necesarias sino bienvenidas.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u35" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u35" ana="#chair">
                <seg>Muchas gracias, señora Riera.</seg>
                <seg>Por el Grupo Popular, tiene la palabra la señora Asian.</seg>
             </u>
@@ -402,13 +400,13 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u37" ana="#chair">
                <seg>Muchas gracias, señora Asian.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY - DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, RELATIVA A LA REALIZACIÓN DE UN ESTUDIO SOBRE LO QUE HA SUPUESTO EL DESARROLLO DE LA LEY DE PROMOCIÓN DE LA AUTONOMÍA PERSONAL Y ATENCIÓN A LAS PERSONAS EN SITUACIÓN DE DEPENDENCIA.</head>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u38" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u38" ana="#chair">
                <seg>Proposición no de ley del Grupo Popular, relativa a la realización de un estudio sobre lo que ha supuesto el desarrollo de la Ley de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia. Para defender la iniciativa, tiene la palabra la señora Montesinos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u39"
@@ -629,7 +627,7 @@
                <seg>Si tomamos como referencia la última década, periodo en el que se han alternado los Gobiernos del PSOE y del PP, nos encontramos con que el salario mínimo interprofesional ha pasado de 540,90 euros en 2006 -obviamente por 14 pagas- a los 648,60 euros de 2015; es decir, un aumento de 107,70 euros, que equivale a un incremento medio anual del 1,9 %. Teniendo en cuenta que durante ese mismo periodo el IPC tuvo un aumento medio anual del 1,8 %, sería sencillo concluir que su actualización ha permitido garantizar la capacidad adquisitiva básica de las personas; sin embargo, como siempre ocurre, estos datos estadísticos deben analizarse con detalle para no caer en una visión errónea de la realidad. En primer lugar, la evolución del SMI no ha sido homogénea durante esta década. En efecto, mientras en los tres primeros años aumentó en 60 euros, en los siete restantes tan solo aumentó en 48,60 euros. Ello se ha debido en buena medida a las congelaciones aplicadas en 2012 y 2014. Además el grave aumento del desempleo provocado por la crisis económica ha restringido el número de trabajadores cubiertos por el SMI, algo que ha provocado una caída de la capacidad adquisitiva de las personas y de las familias. De acuerdo con estos datos de la encuesta de presupuestos familiares, solo entre 2011 y 2013 el gasto anual medio por hogar se redujo en 2.032 euros, equivalente a un 7 % del total. De acuerdo con las constantes manifestaciones del presidente del Gobierno y los datos macroeconómicos que nos facilita el Ministerio de Economía y Competitividad, en 2014 el crecimiento del producto interior bruto se estimó en un 1,4 %, que pasará a ser entre el 2,9 % y el 3 % entre el presente año y 2018, y habrá una reducción -estimamos que muy optimista- de la tasa de paro de casi 9 puntos porcentuales en el mismo periodo.</seg>
                <seg>Nuestra posición se basa en dos argumentos claros y contundentes. Porque el crecimiento del producto interior bruto y del empleo junto con el moderado incremento del IPC lo permiten y porque además es de justicia para los millones de trabajadores que cobran el SMI y para sus familias, nuestro grupo parlamentario no solamente apoya esta medida de aumentar el 5 %, sino que quiere ir más allá, por lo que ha propuesto una enmienda en la que ofrecemos a los demás grupos de la Cámara y al propio Gobierno un pacto público para garantizar el crecimiento del SMI en torno a un 3 %, revisable al alza, de acuerdo con el crecimiento del producto interior bruto, el IPC y el mercado laboral durante los próximos tres años de la siguiente legislatura. Con ello demostraríamos a la ciudadanía...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u69" ana="#chair">
                <seg>Señor Calduch, tiene usted que ir acabando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u70"
@@ -640,7 +638,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u71" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra la señora Álvarez-Arenas.</seg>
                <seg>La señora ÁLVAREZ-ARENAS CISNEROS: Muchas gracias, señor presidente.</seg>
@@ -648,13 +646,13 @@
                <seg>En cuanto a la pérdida de poder adquisitivo del salario mínimo interprofesional no es cierto porque, como es sabido, en 2013, que es a lo que se refiere esta iniciativa en su exposición de motivos, el IPC subió el 0,3 y el salario mínimo subió el 0,6. En 2014, cuando no hubo incremento del salario mínimo interprofesional, el IPC fue del menos 1 %. El segundo acuerdo para el empleo y la negociación colectiva, firmado en enero de 2012 por los agentes sociales, ha facilitado el camino hacia la moderación salarial y se ha iniciado un proceso de mejora de nuestra competitividad, que es el requisito previo para el crecimiento económico y la creación de empleo que se está produciendo en España, del que ya nadie duda, señorías. Desde luego, también necesita continuar y sobre todo hacer posible que el empleo llegue a todos los que todavía no tienen una oportunidad de trabajar. No se puede sostener lo que el Grupo Socialista indica en su exposición de motivos para justificar esta proposición no de ley. No se puede hablar en términos generales de pérdida de poder adquisitivo, de cohesión social y de consumo, porque los datos que arrojan las estadísticas y el Instituto Nacional de Estadística son los siguientes: el consumo privado ha pasado en España del menos 2,9 en 2012 al 2,3 en positivo en 2014 y a una previsión para este año de un crecimiento del consumo privado del 2,7. El salario medio en 2013 se situaba en 26.027 euros y en 2014 en 26.162. Por lo tanto, todos los datos van en una dirección contraria a la que establece el Grupo Socialista, que no es que sea lo mejor; no, claro que no. Queda mucho por hacer, mucho camino por recorrer y mucho que mejorar; pero la progresión y las tendencias no son las que marcan la iniciativa del Grupo Parlamentario Socialista, sino todo lo contrario. Un solo apunte más sobre este tema, de 2004 a 2011 -no tengo que recordar quién estaba en el Gobierno- el salario mínimo interprofesional subió un 39 %, y en ese mismo periodo nuestra tasa de paro subió 15 puntos y la pobreza y el riesgo de exclusión social -como ya he dicho al principio- se incrementaron en un 28 %. Por ello, señorías, es importante tener mesura, continuar en la senda actual, que sin duda está dando buenos resultados en todos los indicadores a los que me he referido.</seg>
                <seg>Habla también el Grupo Parlamentario Socialista en su iniciativa de la encuesta de población activa en relación con los salarios -voy a intentar terminar porque veo que se me pone la luz roja-. Señorías, lo que más me interesa señalar es la referencia constante que se hace a la Carta Social Europea. No es cierto que en la Carta Social Europea se recoja en ningún sitio que el salario mínimo interprofesional tiene que alcanzar el 60 % del salario medio; no es cierto. El artículo 4.1 de la Carta Social Europea habla de los derechos de los trabajadores a una remuneración suficiente, pero nunca lo establece, como ustedes falsamente ponen en su iniciativa y recogen también en el petitum de esta proposición no de ley. No se puede ni manipular ni faltar a la verdad, señorías. Además, voy a ponerles un ejemplo, y con esto voy a terminar, señor presidente. En esta Cámara el 10 de marzo de 2009 se debatió una proposición de ley del Parlamento de Cataluña que venía justamente pidiendo que el salario mínimo alcanzara ese 60 % del salario medio español; repito, el 10 de marzo de 2009, Gobierno del señor Zapatero. ¿Saben ustedes lo<pb n="43"/> que votaron, señores socialistas, que ahora vienen aquí a solicitar esto? Votaron que no, votaron en contra de esa propuesta. También lo hicimos nosotros, pero unos tenemos coherencia y responsabilidad, en el Gobierno hoy y en la oposición en 2009, y ustedes, en su línea habitual, ni coherencia ni responsabilidad. Cuando gobiernan votan no y cuando están en la oposición lo proponen, como hoy, basándose en falsedades y demagogias. Ya se sabe, donde dije digo, digo Diego. De ahí, la coherencia de nuestra enmienda...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u72" ana="#chair">
                <seg>Señora Álvarez-Arenas, termine.</seg>
                <seg>La señora ÁLVAREZ-ARENAS CISNEROS: Termino, señor presidente, refiriéndome a la coherencia de nuestra enmienda, en la que se habla de lo que he señalado al principio: fijar el salario mínimo de acuerdo con el Estatuto de los Trabajadores y teniendo en cuenta la mejora de las condiciones generales de la economía, etcétera -como está en el texto de nuestra enmienda-. Es un elemento absolutamente cohesionado y equilibrado para facilitar esa adaptación progresiva del salario mínimo interprofesional al crecimiento de nuestra economía. Por lo tanto, señorías, si no se acepta nuestra enmienda, tendremos que votar en contra de una iniciativa cargada de demagogia y de inexactitudes, por no decir de falsedades.</seg>
                <seg>Muchas gracias, señor presidente, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u73" ana="#chair">
                <seg>Muchas gracias, señora Álvarez-Arenas.</seg>
                <seg>Turno de fijación de posiciones. Por el Grupo Parlamentario Vasco, tiene la palabra el señor Olabarría.</seg>
             </u>
@@ -665,7 +663,7 @@
                <seg>La portavoz del Grupo Popular comentaba que el requerimiento de la Carta Social Europea es el de la suficiencia, es el mismo requerimiento del artículo 35 de la Constitución española. La suficiencia no puede ser de cuantía inferior a lo que se denomina umbral técnico de la pobreza por el Eurostat. Dicho umbral está definido precisamente por el 60 % de las retribuciones medias o de los salarios medios del país en donde se aplica la determinación del criterio de suficiencia. No lo digo yo; esto lo dice, como sabe la portavoz del Grupo Popular, la jurisprudencia del Tribunal Constitucional en el ámbito de las retribuciones y también del sistema público de pensiones. No es ninguna novedad lo dicho, y el requerimiento del Grupo Socialista está bien fundado, desde una perspectiva constitucional. Si no se llega a un salario mínimo interprofesional del 60 % de los salarios medios del Estado, no estaríamos con un salario mínimo interprofesional inferior al umbral técnico de la pobreza, incumpliendo el requerimiento de suficiencia exigido por la jurisprudencia constitucional, vulnerando el artículo 35, vulnerando el artículo 141 -de pensiones sería el artículo 41-. Mire hasta qué punto es cierto lo que le estoy comentando, que en este momento un salario mínimo interprofesional en España -de 645 euros- alcanzaría -si consideramos que en Europa el 60 % del salario medio interprofesional debe ser el 60 % de los salarios medios- una cuantía de 1.869 euros, exactamente. Manteniendo un salario mínimo en el Estado español de 645 euros no llegamos ni al 34,5 % de lo que se requiere para cubrir lo que la Carta Social Europea mandata, que es llegar al 60 % del salario mínimo interprofesional. ¿Por qué digo que estaríamos bajo el umbral de la pobreza? No hay más que analizar un documento del Gobierno del Estado español. En la Encuesta de condiciones de vida de 2013, publicado el 27 de mayo de 2014, se sitúa en términos anuales el umbral de la pobreza en 8.114,2 euros en los hogares con una sola persona. Si utilizamos el salario mínimo interprofesional español, nos encontraríamos con una cifra de 9.034,2 euros, en una unidad familiar constituida por una sola persona; pero como las unidades familiares son de más de una persona en más del 80 % de los casos, entonces estaríamos ubicando el salario mínimo interprofesional considerado por unidad familiar en el Estado español bajo el umbral mínimo de la pobreza. Estaríamos incumpliendo el requerimiento, bien glosado por usted, de que tiene que ser suficiente, como reclama la Carta Social Europea y el artículo 35 de la Constitución; por lo tanto, estaríamos con un salario mínimo interprofesional insuficiente. De todas formas, aquí se han dicho cosas interesantes también, señor presidente; aquí hay que distribuir responsabilidades de forma pertinente. El salario mínimo interprofesional en 2010 y 2011 se incrementó en porcentajes inferiores al IPC, y estas no son responsabilidades atribuibles al Grupo Popular, aunque él posteriormente lo congeló, en 2012 y 2014. Por lo tanto, estamos ante un salario mínimo<pb n="44"/> interprofesional que, considerándolo por unidad familiar o individualmente, no cumple los requerimientos de suficiencia del artículo 35 de la Constitución española y del artículo 41 de la Carta Social Europea.</seg>
                <seg>¿Cuál es la otra reflexión? Tras la reforma laboral y la invocación hecha por la portavoz del Grupo Popular al Estatuto de los Trabajadores, esto nos pone en guardia; nos preocupa manifiestamente. La deflación salarial sufrida por los salarios en el Estado español del 0,8, por término medio, es por la aplicación del Estatuto de los Trabajadores tras la reforma laboral de 2012, por la que el empresario unilateralmente puede disponer de la retribución por causas económicas, técnicas, organizativas y de fuerza mayor. Esto provoca una deflación salarial, una disminución salarial del 0,8 sufrida por la media de los trabajadores españoles. Le pido a la portavoz del Grupo Popular, desde la estima que sabe que le tengo también, que no invoque el Estatuto de los Trabajadores porque este degrada las condiciones salariales por las razones que le he dicho tras la reforma de 2012. Hay que distribuir responsabilidades. Antes de la reforma de 2012 hubo otra reforma en 2010, no de su Gobierno sino del del Partido Socialista Obrero Español, también de características similares a las acometidas, de forma más brutal...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u75" ana="#chair">
                <seg>Señor Olabarría, usted no lo ve, pero la luz ya se ha puesto roja.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u76"
@@ -675,7 +673,7 @@
                <seg>A la hora de imputar responsabilidades vamos a dejarnos ya de distribuirlas entre unos y otros y vamos a ubicar el salario mínimo interprofesional de forma digna, constitucionalmente digna por lo menos. No es mala propuesta la presentada por el Grupo Socialista para ir progresando o transitando hacia esa dignidad que la Constitución y la Carta Social Europea requieren en relación con el salario mínimo interprofesional.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u77" ana="#chair">
                <seg>Gracias, señor Olabarría.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Coscubiela.</seg>
             </u>
@@ -689,7 +687,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u79" ana="#chair">
                <seg>Muchas gracias, señor Coscubiela.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió, tiene la palabra el señor Campuzano.</seg>
             </u>
@@ -701,7 +699,7 @@
                <seg>Desde este punto de vista votaremos favorablemente esta iniciativa, convencidos además, señorías -y con esto termino-, de que el debate sobre las desigualdades -que es un debate que ha llegado para instalarse en nuestra economía y en nuestra sociedad- en el caso español está muy claramente vinculado al funcionamiento del mercado de trabajo, tanto en la cuestión del paro de larga duración como en las condiciones de trabajo que se han generado durante estos años de crisis, y en esa lógica de las medidas en las que parece razonable que toca avanzar, está ese objetivo de alcanzar el 60 % del salario medio, tal como establece la Carta Social Europea. Debe ser nuestro horizonte, esta iniciativa va en esa dirección y contará con nuestro apoyo.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u81" ana="#chair">
                <seg>Muchas gracias, señor Campuzano.</seg>
                <seg>Señora Ramón, le pregunto cuál es su posición respecto a las enmiendas.</seg>
             </u>
@@ -712,13 +710,13 @@
                <seg>En primer lugar, agradezco las tres enmiendas que han planteado los grupos, pero no vamos a aceptarlas, en el caso del Grupo Popular porque es de una generalidad absoluta que no aporta nada y en el otro caso por no mezclar conceptos.</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u83" ana="#chair">
                <seg>Entonces la votaremos en sus propios términos.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE EL BALANCE DE LA POLÍTICA EDUCATIVA DEL GOBIERNO DURANTE LA PRESENTE LEGISLATURA.</head>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u84" ana="#chair">
                <seg>Pasamos a la moción del Grupo Socialista sobre el balance de la política educativa del Gobierno durante la presente legislatura. Este será, de acuerdo con lo hablado en la Junta de Portavoces, el último punto que debatiremos esta tarde. Para su defensa tiene la palabra el señor Bedera.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u85"
@@ -734,7 +732,7 @@
                <seg>Gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u86" ana="#chair">
                <seg>Muchas gracias, señor Bedera.</seg>
                <seg>Se ha presentado una enmienda por el Grupo Catalán de Convergència i Unió y para su defensa tiene la palabra la señora Sayós.</seg>
             </u>
@@ -747,7 +745,7 @@
                <seg>En lo referente a la derogación de la Ley orgánica para la mejora de la calidad educativa, sería la medida previa para construir un consenso que va implícito en lo que siempre se ha reclamado por parte de Convergència i Unió, es decir un pacto de Estado para la educación. Eso es conseguir estabilidad para que la comunidad educativa tenga de una vez por todas un marco claro de referencia para dedicar sus esfuerzos a la mejora de la educación y no a los cambios legales y administrativos que les van imponiendo y que suponen una situación continua de inestabilidad e inseguridad. Por tanto, repito: estabilidad en la comunidad educativa. Es necesario que la educación, el sistema educativo y la comunidad educativa gocen de un pacto fruto del consenso que otorgue serenidad y siente unas bases sólidas para el desarrollo de un modelo educativo de éxito y que garantice la igualdad de oportunidades.</seg>
                <seg>A este respecto les puedo asegurar que el Parlament de Catalunya tiene experiencia precisamente en el ámbito educativo. La tramitación de la Llei d'Educació de Catalunya es un claro ejemplo. En Cataluña el modelo educativo y la cultura son garantía de la cohesión social de nuestra sociedad, son garantía de éxito escolar, son plataforma para alcanzar una profesión de futuro y son instrumento básico para la transmisión de nuestra cultura. La institución educativa es básica y la sociedad catalana confía en el modelo de escuela catalana y en su modelo de inmersión lingüística, ambos descritos y explicitados en la Llei d'Educació de Catalunya. Precisamente hoy el Tribunal Superior de Justicia de Cataluña avala -y<pb n="49"/> repito: avala- el modelo educativo catalán dejando sin efecto el último ataque del Gobierno contra Cataluña. El Tribunal Superior de Justicia de Cataluña ha desestimado la medida cautelar que solicitó la Abogacía del Estado para que se abriera un nuevo plazo de preinscripción en las escuelas catalanas, de forma que las familias pudieran elegir el castellano como lengua vehicular. La ha desestimado por considerar que dicha medida cautelar no es procedente y porque esa cuestión ya está agotada por la propia Llei d'Educació de Catalunya al impedir la segregación de alumnos por razón lingüística. Es un triunfo para el modelo educativo catalán.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u88" ana="#chair">
                <seg>Señora Sayós, debe usted acabar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u89"
@@ -757,7 +755,7 @@
                <seg>Es un triunfo para el modelo educativo catalán, pero es un triunfo amargo, porque el modelo del sistema educativo no debería discutirse en los tribunales.</seg>
                <seg>Finalmente, por lo que hace referencia a la nueva ordenación de las enseñanzas universitarias oficiales, en referencia a la cual versa la segunda modificación del texto de la moción que planteamos en nuestra enmienda, ya hemos dicho en otras ocasiones, tanto en la Comisión de Educación como en este hemiciclo, que nuestra interpretación del Real Decreto-ley 43/2015 es positiva para el modelo universitario catalán. Es positiva, pero en lo que no estamos de acuerdo es en la forma adoptada por el Gobierno al emitir un real decreto, no estamos de acuerdo en que se utilice esta fórmula legislativa. La flexibilización puede ser, bien aplicada, una herramienta útil para buscar la mejora continua del sistema universitario.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u90" ana="#chair">
                <seg>Señora Sayós, tiene usted que acabar. Se le ha acabado el tiempo. Diga usted que esta es la enmienda y ya está.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u91"
@@ -766,7 +764,7 @@
                <seg>Muchas gracias, presidente, ya he acabado.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u92" ana="#chair">
                <seg>Muchas gracias, señora Sayós.</seg>
                <seg>En turno de fijación de posiciones, por el Grupo Mixto, en primer lugar, tiene la palabra el señor Álvarez Sostres.</seg>
                <seg>El señor ÁLVAREZ SOSTRES: Gracias, señor presidente.</seg>
@@ -775,7 +773,7 @@
                <seg>Mi balance, señor presidente, es que esta legislatura se recordará por la autorreconocida candidez reformista de un ministerio laboratorio sin conexión con su propio partido ni con el mundo educativo y social, por la cerrazón fundamentalista de otros y por el romántico irracionalismo particularista de un nacionalismo de fibra parcial o totalmente excluyente.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u93" ana="#chair">
                <seg>Muchas gracias, señor Álvarez Sostres.</seg>
                <seg>Señora Pérez.</seg>
                <pb n="50"/>
@@ -788,7 +786,7 @@
                <seg>Desde luego, al igual que en el punto que hemos tratado anteriormente, el de la dependencia, habría que dotar presupuestariamente todas aquellas partidas tendentes a valorizar la educación pública, a universalizarla y a hacerla una verdadera garantía del futuro. Se requiere mayor dotación para becas, para aumentar los recursos para los servicios complementarios, para eliminar las precarizadas condiciones laborales del profesorado con menos salario, para aumentar el profesorado, que ha sido reducido brutalmente en estos años, sobre todo el dedicado a la atención de niños y niñas con necesidades educativas especiales. La enseñanza universitaria, además de la caída del profesorado y de las becas para el alumnado y para la formación de docentes, ha sufrido también una descapitalización de la investigación con la pérdida continuada de personal cualificado y necesita de mayores recursos públicos que vayan en la dirección de recuperar calidad, alumnado y, sobre todo, la igualdad de acceso para los alumnos con menos recursos económicos.</seg>
                <seg>La concepción de que la educación es un recurso estratégico para cualquier Estado y para su población, así como una conquista histórica, ha sido abandonada por este Gobierno, y sus políticas han atacado directamente la igualdad de oportunidades, políticas que hoy nos sitúan a la cabeza de Europa en desigualdad y en falta de gasto público en educación. En eso es en lo que el Partido Popular es un verdadero campeón. Con estos principios y su política austericida han hecho un daño gravísimo al sistema educativo público, que ha afectado...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u95" ana="#chair">
                <seg>Señora Pérez, tiene que acabar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u96"
@@ -798,7 +796,7 @@
                <seg>... un daño gravísimo que ha afectado al sistema educativo público y que ha afectado muy negativamente al alumnado más desfavorecido económicamente. Es un daño que costará mucho tiempo y muchos recursos paliar y también la toma de decisiones contundentes que reviertan esta demolición. Algunas de ellas se recogen en esta moción y por eso vamos a votarla favorablemente.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u97" ana="#chair">
                <seg>Gracias, señora Pérez.</seg>
                <seg>Señora Ariztegui, dentro del Grupo Mixto.</seg>
             </u>
@@ -811,7 +809,7 @@
                <seg>Desde que la conocimos en Euskal Herria, el rechazo a esta ley es mayoritario y contundente. Prueba de ello son estos últimos días, en los que, frente a la imposición de reválidas, la dinámica popular ha respondido con responsabilidad y coherencia, con insumisión y desobediencia, con un valiente plante generalizado que ha logrado unir a una comunidad muchas veces distanciada: aulas vacías, pruebas no realizadas. Las madres y padres que se han negado a que sus hijas e hijos hagan estas pruebas, el profesorado, los centros que, firmes, han desafiado estas órdenes, los pueblos que han apoyado a sus escuelas, créanme, eso es lo mejor que tenemos, y ya les han puesto nota a ustedes: cero patatero. Aún están a tiempo de recuperar en septiembre. Deroguen la Lomce y las demás normas que han aprobado. Desde luego, desde Amaiur nos reafirmamos en seguir avanzando en la construcción de nuestro propio sistema educativo desde Euskal Herria y para Euskal Herria.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u99" ana="#chair">
                <seg>Gracias, señora Ariztegui.</seg>
                <seg>Por favor, ruego silencio y que no se hagan grupos para conversar en el hemiciclo.</seg>
                <seg>Por el Grupo Vasco, PNV, tiene la palabra la señora Sánchez Robles.</seg>
@@ -827,7 +825,7 @@
                <seg>Confío en que haya disfrutado. Bon voyage.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u101" ana="#chair">
                <seg>Gracias, señora Sánchez Robles.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -839,7 +837,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u103" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra la señora García Álvarez.</seg>
             </u>
@@ -852,7 +850,7 @@
                <seg>El señor ministro reclama datos, pero solo si le benefician. En caso contrario son mera especulación no contrastada o falta de comprensión de los datos de su propio ministerio. No creo que pueda encontrarse mayor dosis de cinismo político que el realizado por el ministro, señor Wert. Porque, señorías, son muchos los datos oficiales sobre los que numerosas organizaciones no gubernamentales han trabajado y siguen trabajando en la elaboración de sus informes, y será casualidad, pero todas ellas llegan a las mismas conclusiones que los diputados y diputadas de la oposición de esta Cámara. Mucha casualidad parece. Los datos ponen de manifiesto que ustedes, señorías, del Partido Popular y su Gobierno, han acabado con la equidad del sistema educativo público. Los datos dicen que ustedes han optado por un sistema segregador y mercantilista. Los datos dicen que ustedes no apuestan por la calidad del sistema y menos aún por sus trabajadores públicos. Los datos dicen que a la población más vulnerable se les cercena la posibilidad de acceso a niveles académicos superiores. Los datos dicen que ustedes han optado por teledirigir al alumnado más vulnerable a ser mano de obra barata, casi esclava. Los datos dicen que ustedes han optado por el mercantilismo por encima del bienestar social.</seg>
                <seg>Señorías, Malala Yousafzai, ganadora del Premio Nobel de la Paz, escribió que un niño, un profesor, un libro y una pluma pueden cambiar el mundo. La educación es la única solución. Señorías, es evidente el porqué de las políticas educativas del Gobierno de don Mariano Rajoy. No quieren cambiar el mundo, quieren mantener sus postulados neoliberales y depredadores a la vez que destruir los derechos de la clase trabajadora. Por todo ello, votaremos a favor de la iniciativa que hoy se nos trae.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u105" ana="#chair">
                <seg>Muchas gracias, señora García Álvarez.</seg>
                <seg>Por el Grupo Parlamentario Popular tiene la palabra la señora Moneo.</seg>
             </u>
@@ -864,7 +862,7 @@
                <seg>Señorías, lo único que ustedes ofrecen es la política de tierra quemada, y nosotros no vamos a acompañarles. Nos piden que enterremos una ley que recoge las medidas más ambiciosas y más efectivas para lograr el éxito escolar, medidas de éxito en aquellos países que las han aplicado. La existencia de diferentes vías que respondan a los intereses y a las aptitudes de los alumnos, flexibles, alternativas a la rigidez que ha condenado a los alumnos a las más altas tasas de fracaso escolar. Los programas de mejora del aprendizaje y del rendimiento para ayudar a que ningún alumno con dificultades se quede atrás. Las evaluaciones censales, externas, en línea a las que disponen diecisiete países en Europa, las mismas evaluaciones que permiten mejorar los resultados académicos entre un 20 y un 40 %. La formación profesional básica que permite esas segundas oportunidades...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u107" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u107" ana="#chair">
                <seg>Perdón, señora Moneo, un momento. Por favor, ruego silencio para oír a la oradora.</seg>
                <pb n="54"/>
             </u>
@@ -879,7 +877,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u109" ana="#chair">
                <seg>Señor Bedera, le pregunto por la enmienda presentada.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u110"
@@ -887,7 +885,7 @@
                ana="#regular">
                <seg>Sí, señor presidente. Hemos llegado a una transacción con Convergència i Unió que hemos entregado a los servicios de la Cámara.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u111" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u111" ana="#chair">
                <seg>Muchas gracias.</seg>
                <seg>Esa transacción es la que pondremos a votación dentro de unos minutos.</seg>
                <note>Pausa</note>
@@ -895,7 +893,7 @@
          </div>
          <div type="debateSection">
             <head>JURAMENTO O PROMESA DE ACATAMIENTO DE LA CONSTITUCIÓN POR NUEVOS SEÑORES DIPUTADOS</head>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u112" ana="#chair">
                <seg>Vamos a proceder al juramento o promesa de acatamiento de la Constitución, conforme al artículo 20.1.3 del Reglamento, de dos nuevos miembros del Congreso de los Diputados. En sustitución de doña Uxue Barkos, pregunto a don Bizente Serrano Izko si jura o promete acatar la constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u113"
@@ -904,7 +902,7 @@
                <seg>Sí, prometo por imperativo legal.</seg>
                <note>Rumores.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u114" ana="#chair">
                <seg>Silencio, por favor.</seg>
                <seg>En sustitución de don Joaquín Francisco Puig Ferrer, pregunto a don Josep Lluís Grau Vallés si jura o promete acatar la Constitución.</seg>
             </u>
@@ -914,7 +912,7 @@
                <seg>Prometo.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u116" ana="#chair">
                <seg>Don Bizente Serrano Izko y don Josep Lluís Grau Vallés han adquirido la condición plena de diputado. Enhorabuena.</seg>
                <note>Aplausos</note>
                <pb n="55"/>
@@ -922,7 +920,7 @@
          </div>
          <div type="debateSection">
             <head>MINUTO DE SILENCIO</head>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u117" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u117" ana="#chair">
                <seg>Señorías, el pasado lunes, 1 de junio, falleció don Francisco Antonio González Pérez, diputado del Partido Popular en esta Cámara durante cinco legislaturas. Somos muchos los que recordamos a Paco por su labor política, por su compromiso con Ceuta, de donde ahora era delegado del Gobierno, pero también por su carácter afable y siempre conciliador.</seg>
                <seg>Hoy también hemos conocido la triste noticia del fallecimiento de don Pedro Zerolo, quien si bien no fue diputado en esta Cámara pasará a la historia de nuestro país por su inquebrantable y comprometida lucha por la defensa de los derechos civiles y de las libertades individuales. Con afecto y con el deseo de hacer llegar a sus familiares y amigos nuestro sentimiento de pesar y a propuesta de los grupos parlamentarios, ruego a sus señorías que guardemos un minuto de silencio.<note>Las señoras y los señores diputados, puestos en pie, guardan un minuto de silencio</note> Muchas gracias.</seg>
                <note>Aplausos</note>
@@ -930,51 +928,51 @@
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY DE COMUNIDADES AUTÓNOMAS Y CIUDADES AUTÓNOMAS : - DEL PARLAMENTO DE CATALUÑA, DE MODIFICACIÓN DE LA LEY 37/1992, DE 28 DE DICIEMBRE, DEL IMPUESTO SOBRE EL VALOR AÑADIDO, EN RELACIÓN CON EL SECTOR DE LA CULTURA.</head>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u118" ana="#chair">
                <seg>Vamos a las votaciones. Lo hacemos en primer lugar de la toma en consideración de la proposición de ley del Parlamento de Cataluña, de modificación de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido, en relación con el sector de la cultura. Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311 más 1 voto telemático, 312; a favor, 141; en contra, 170 más 1 voto telemático, 171.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u119" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u119" ana="#chair">
                <seg>No se toma en consideración.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY : - DEL GRUPO PARLAMENTARIO SOCIALISTA, DE CREACIÓN DEL IMPUESTO SOBRE LA DETRACCIÓN DE RENTAS EN ABUSO DE DERECHO Y DE MODIFICACIÓN DE LA LEY 58/2003, DE 17 DE DICIEMBRE, GENERAL TRIBUTARIA.</head>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u120" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo Socialista de creación del impuesto sobre la detracción de rentas en abuso de derecho y de modificación de la Ley 58/2003, de 17 de diciembre, General Tributaria. Hay un voto emitido telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311 más 1 voto telemático, 312; a favor, 139; en contra, 171 más 1 voto telemático, 172; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u121" ana="#chair">
                <seg>No se toma en consideración.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY : - DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, RELATIVA A LA REALIZACIÓN DE UN ESTUDIO SOBRE LO QUE HA SUPUESTO EL DESARROLLO DE LA LEY DE PROMOCIÓN DE LA AUTONOMÍA PERSONAL Y ATENCIÓN A LAS PERSONAS EN SITUACIÓN DE DEPENDENCIA.</head>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u122" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u122" ana="#chair">
                <seg>Proposición no de ley del Grupo Popular, relativa a la realización de un estudio sobre lo que ha supuesto el desarrollo de la Ley de promoción de la autonomía personal y atención a las personas en situación de dependencia. Se va a votar en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="56"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 167; en contra, 137; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u123" ana="#chair">
                <seg>Queda aprobada la proposición no de ley.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO SOCIALISTA, RELATIVA A LA DIGNIFICACIÓN DEL SALARIO MÍNIMO INTERPROFESIONAL ACERCÁNDOLO AL 60 % DEL SALARIO MEDIO, TAL Y COMO ESTABLECE LA CARTA SOCIAL EUROPEA.</seg>
                <note>Número de expediente 162/001123</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u124" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u124" ana="#chair">
                <seg>Proposición no de ley del Grupo Parlamentario Socialista, relativa a la dignificación del salario mínimo interprofesional acercándolo al 60 % del salario medio, tal y como establece la Carta Social Europea. También se vota en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 131; en contra, 168; abstenciones, 12.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u125" ana="#chair">
                <seg>Queda rechazada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE EL BALANCE DE LA POLÍTICA EDUCATIVA DEL GOBIERNO DURANTE LA PRESENTE LEGISLATURA.</head>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u126" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u126" ana="#chair">
                <seg>Moción del Grupo Socialista sobre el balance de la política educativa del Gobierno durante la presente legislatura. Hay una enmienda del Grupo de Convergència i Unió y una enmienda transaccional que conocen los diputados, que es la que sometemos a votación.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 137; en contra, 166; abstenciones, 8.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-09-CD150609.u127" ana="#chair">
                <seg>Queda rechazada la moción.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las nueve de la noche.</seg>

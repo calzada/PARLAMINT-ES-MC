@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="109">109 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="109" xml:lang="es">109 speeches</measure>
+            <measure unit="speeches" quantity="109" xml:lang="en">109 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="note" occurs="67"/>
                <tagUsage gi="pb" occurs="49"/>
                <tagUsage gi="u" occurs="109"/>
-               <tagUsage gi="lb" occurs="382"/>
+               <tagUsage gi="seg" occurs="382"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -147,7 +145,7 @@
                <seg>Hoy nos traen este real decreto, que resuelve en parte las denuncias que habíamos realizado: facilita la inscripción, que un mayor número de jóvenes se puedan acoger al plan de garantía juvenil, el papel que tienen que jugar determinadas instituciones, agentes sociales y comunidades autónomas y se ha alcanzado un acuerdo dentro marco del diálogo social y de la conferencia sectorial. Nosotros lo vamos a apoyar, pero nos sigue pareciendo insuficiente. Creemos que este tema lo tienen que gestionar las comunidades autónomas con políticas específicas y teniendo en cuenta los criterios y el perfil de los jóvenes parados en cada uno de los territorios, que son distintos. En cualquier caso, no entendemos por qué cuando la Comisión Europea distribuyó los fondos en función de los índices de paro de los países de Europa no se produjo también un reparto de fondos en función de los índices de paro juvenil de las comunidades autónomas. En nuestra opinión, estas cuestiones se tendrían que gestionar al cien por cien por las comunidades autónomas. No tiene sentido un servicio de inscripción centralizado, como se ha estado haciendo. Por eso, lo vamos a apoyar -creemos que es un avance-, pero tendremos que evaluar resultados en los próximos meses para intentar que el mayor número de jóvenes parados de este país pueda acceder a un empleo lo más rápidamente posible y justificar así las ayudas europeas en tiempo y en plazo.</seg>
                <seg>Muchas gracias, señora presidenta.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2017-01-31-CD170131.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2017-01-31-CD170131.u7" ana="#chair">
                <seg>Muchas gracias.</seg>
                <seg>También por el Grupo Mixto, tiene la palabra el señor Martínez Oblanca.</seg>
             </u>
@@ -592,7 +590,7 @@
                <note>Prolongados aplausos</note>
                <pb n="41"/>
             </u>
-            <u xml:id="ParlaMint-ES_2017-01-31-CD170131.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2017-01-31-CD170131.u68" ana="#chair">
                <seg>Muchas gracias, señor Montero.</seg>
                <seg>En turno de fijación de posiciones intervienen, a continuación, los grupos parlamentarios. Por el Grupo Parlamentario Mixto, tiene la palabra el señor Martínez Oblanca.</seg>
             </u>
@@ -603,7 +601,7 @@
                <seg>Foro fue el primer partido en incluir en 2011 en su programa electoral -mucho antes que el Parlamento y el Tribunal Europeo- la modificación de la Ley Hipotecaria, vigente desde 1946, para que, en caso de hipoteca sobre vivienda habitual, se altere un principio de responsabilidad universal, recayendo esta solo sobre los bienes hipotecados, con el fin de aliviar las dificultades derivadas de la crisis. Partiendo de la sentencia de la justicia europea, la sucesión de mandatos judiciales en relación con las cláusulas suelo precisaba la adopción de medidas urgentes para proteger a los consumidores, por lo que reclamamos también el diligente cumplimiento de las sentencias sin dilaciones leguleyas ni trucos procedimentales. Con especial decreto-ley el Gobierno cumple con la obligación de tratar de que aquellas entidades bancarias que han vendido préstamos hipotecarios con cláusulas suelo, las devuelvan de forma activa porque entre otros aspectos, como han señalado los jueces, son abusivas, faltas de transparencia y tampoco se informó adecuadamente al consumidor. Son ilegales, en definitiva, y por tanto nulas. Estamos ante un asunto crucial porque se suma a otros escándalos recientes en un sector que ha recibido en seis años grandes ayudas públicas en torno a los 61.500 millones de euros. En este caso, no solo está en juego la rápida devolución a los afectados de los aproximadamente 4.000 millones de euros que el Banco de España ha estimado como impacto de las cláusulas suelo, también lo está la credibilidad presente y futura de las instituciones y empresas financieras y, por supuesto, la de los responsables políticos que deben velar por el cumplimiento de la ley. Este conjunto de medidas es toda una guía de buenas prácticas, que tiene que servir de orientación para que a la avalancha de consumidores afectados se les devuelva mediante procedimientos ágiles su dinero indebidamente cobrado y con los intereses correspondientes.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2017-01-31-CD170131.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2017-01-31-CD170131.u70" ana="#chair">
                <seg>Por el Grupo Mixto, tiene la palabra el señor Alli Martínez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-01-31-CD170131.u71"

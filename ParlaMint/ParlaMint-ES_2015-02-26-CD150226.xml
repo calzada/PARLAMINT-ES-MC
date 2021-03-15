@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="153">153 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="153" xml:lang="es">153 speeches</measure>
+            <measure unit="speeches" quantity="153" xml:lang="en">153 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="35"/>
                <tagUsage gi="note" occurs="176"/>
                <tagUsage gi="u" occurs="153"/>
-               <tagUsage gi="lb" occurs="470"/>
+               <tagUsage gi="seg" occurs="470"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,15 +92,11 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Corresponde debatir las propuestas de resolución presentadas a la comunicación del Gobierno para el debate de política general en torno al estado de la Nación. Para la defensa de las mismas tiene la palabra en primer lugar, por el Grupo Mixto -por el Grupo Mixto intervendrán varios oradores por el tiempo que tienen asignado-, la señora Barkos.</seg>
             </u>
@@ -110,7 +108,7 @@
                <seg>Paso a analizar breve y someramente la propuesta de resolución presentada por Geroa Bai en este último debate sobre el estado de la Nación de la legislatura y, por tanto, el balance final de lo que ha sido el Gobierno del Partido Popular; además, estrictamente del Partido Popular por cuanto que la mayoría absoluta ha llevado a que las políticas que se han venido realizando durante estos tres años recaigan única y exclusivamente en su responsabilidad.<note>Rumores</note> La propuesta de resolución de Geroa Bai es una propuesta ómnibus. Habida cuenta de que la posibilidad de presentación se constriñe a una sola, queríamos hacer un repaso somero de temas que nos resultan especialmente importantes y sensibles. Primero -y empiezo por lo más local-, mirando la relación que ha mantenido el Gobierno del Estado con el Gobierno foral y con las principales instituciones forales, una propuesta de superación de conflictos interinstitucionales. En primer término, lo que nos resulta más urgente es la reforma en los términos correspondientes de la Ley General de la Seguridad Social para hacer compatible el subsidio por desempleo para parados de larga duración. Proponemos también la reforma de la Lofca y la revisión y negociación de los límites del déficit. En la racionalización de las grandes infraestructuras quiero detenerme en dos cuestiones fundamentales: el cumplimiento de los planes y la finalización de la autovía del Pirineo -quiero recordar que sigue penalizando por la vía de los peajes en sombra a los navarros-, y el cumplimiento de competencia propia en materia de cuidado y mantenimiento del cauce de ríos y caudales fluviales. Hay alguna otra iniciativa en este sentido que espero que cuente con la mayoría de la Cámara, pero quiero recordar que no es un plan nuevo, es simplemente el recordatorio al Gobierno del Estado de que su competencia en esta materia -en materia de cuidado de ríos y cauces fluviales- está generando en estos momentos, estos mismos días, en Navarra y en otras zonas del Estado auténticos problemas a la ciudadanía por no haber dado cumplimiento a esta cuestión.<note>Rumores</note> La propuesta de resolución incluye medidas para la regeneración del mercado de trabajo, formación, medidas legislativas industriales y de financiación, etcétera, y animo a sus señorías al voto afirmativo al conjunto de la propuesta de resolución.</seg>
                <seg>Gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u3" ana="#chair">
                <seg>Muchas gracias, señora Barkos.</seg>
                <seg>Señor Salvador.</seg>
             </u>
@@ -123,7 +121,7 @@
                <seg>Muchas gracias.</seg>
                <pb n="4"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u5" ana="#chair">
                <seg>Muchas gracias, señor Salvador.</seg>
                <seg>Señor Álvarez Sostres.</seg>
                <seg>El señor ÁLVAREZ SOSTRES: Señor presidente, gracias.</seg>
@@ -131,7 +129,7 @@
                <seg>No puedo aceptar la enmienda de Izquierda Unida por su concepción de analogía entre la alta velocidad y las altas prestaciones. No son lo mismo. Y tampoco puedo aceptar la del Partido Popular porque la línea de financiación en que pretende incluir este corredor es la TENT y eso, como se sabe, está prácticamente obsoleto con el Plan Juncker en funcionamiento. Dígase con toda claridad que no se quiere apoyar este corredor y dejémonos de zarandajas. Seis comunidades en octubre de 2011 -Navarra, País Vasco, Cantabria, Castilla y León, la propia Asturias y Galicia- apoyaron un protocolo que instaba al Gobierno a apoyar este corredor para terminar la alta velocidad del norte y del noroeste. Se trata sencillamente de dar cumplimiento a este protocolo firmado en octubre de 2011 por estas seis comunidades. Por todo ello, pedimos su urgente inclusión en el ámbito de los sesenta proyectos cuyo plazo termina hoy, para que sea financiado con vistas a esta línea de subvención del Plan Juncker.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u6" ana="#chair">
                <seg>Muchas gracias, señor Álvarez Sostres.</seg>
                <seg>Señor Quevedo.</seg>
             </u>
@@ -143,7 +141,7 @@
                <seg>Tengo veinticuatro segundos para decirles a ustedes que el Régimen Económico y Fiscal de Canarias tiene una parte fiscal que ya se aprobó y una económica que es más relevante, la que desde tiempos de los Reyes Católicos, con peor o mejor fortuna, trata de compensar la insularidad y la lejanía. Pedimos dos cosas: la renovación del REF, que es inevitable, y sobre todo su cumplimiento, sistemáticamente incumplido en todos sus aspectos a lo largo de la actual legislatura.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u8" ana="#chair">
                <seg>Muchas gracias, señor Quevedo. Ha visto usted que en dos minutos se pueden decir muchas cosas.</seg>
                <seg>Señora Pérez.</seg>
                <pb n="5"/>
@@ -157,7 +155,7 @@
                <seg>Serían pasos importantes para que la ciudadanía no pierda definitivamente la confianza en la política y en los políticos.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u10" ana="#chair">
                <seg>Muchas gracias, señora Pérez.</seg>
                <seg>Señor Tardà.</seg>
             </u>
@@ -169,7 +167,7 @@
                <seg>Finalmente, exigimos que se someta, repito, que se someta a referéndum el futuro tratado de libre comercio que están negociando con absoluta opacidad los Estados y los lobbies. En los países que ya tienen tratado de libre comercio, éste ha supuesto la entrada de empresas de los Estados Unidos en detrimento de las propias y, sobre todo, en detrimento de los derechos sociales y laborales, como el salario mínimo interprofesional, el número de horas trabajadas, así como la misma libertad sindical. Igualmente, ha significado una desregularización de la legislación medioambiental, supeditando la protección de la naturaleza a los intereses económicos; por ejemplo, la generalización del fracking. Además, ustedes saben que se blindan con cláusulas indemnizatorias, el mismo modelo ideológico neoliberal, en detrimento de otros modelos sociales, cuando menos de carácter socialdemócrata.<pb n="6"/> En definitiva, creemos que tiene que ser la ciudadanía la que en referéndum decida si prefiere que se traslade el modelo neoliberal americano a la Europa social y del Estado del bienestar que las clases populares construyeron en los últimos ochenta años.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u12" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Señor Iñarritu.</seg>
             </u>
@@ -183,7 +181,7 @@
                <seg>Como decía, a pesar de que estamos mejor, siguen las macrooperaciones policiales, de carácter más mediático que policial. El ministro del Interior avisó en dos a los medios antes de que se produjeran, continúan los miles y miles de controles policiales, checkpoint, en nuestras carreteras tensionando y generando peligro, continúan las medidas de excepción con los presos vascos. Ayer decía el señor Rajoy que no había ninguna razón para modificar la dispersión de los presos vascos, pero sí que la hay. Existen tres condenas ya del Tribunal de Estrasburgo porque el alejamiento de presos de sus lugares de origen es contrario a la Carta de Derechos Humanos. Ya les condenó Europa de manera unánime por la doctrina Parot, ahora les va a condenar Luxemburgo por no reconocer las penas que se han cumplido en el extranjero y Estrasburgo por la dispersión. ¿Saben por qué? Porque ustedes no se mueven sobre la base de la legalidad, se mueven basándose en la venganza.</seg>
                <seg>Voy acabando, señor presidente. A los presos del GAL, del Batallón Vasco Español, a los torturadores, ya los indultaron ustedes, pero con los presos vascos hay excepcionalidad o incluso ilegalidad. Decenas de víctimas del terrorismo de Estado -para que vea que hay más de una clase de víctimas-, incluido el señor Muguruza, diputado en esta Cámara y que no ha contado nunca con el reconocimiento de esta Cámara; le han vetado las ayudas a su familia, lo que es miserable, y por una decisión arbitraria del Gobierno. Señores del PP, son ustedes los Álvaro Uribe del proceso de pacificación del País Vasco. Dejen<pb n="7"/> de poner palos en la rueda de la pacificación y la normalización.<note>El señor Bermúdez de Castro Fernández: Es una infamia</note> Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u14" ana="#chair">
                <seg>Muchas gracias, señor Iñarritu.</seg>
                <seg>Por el Grupo Vasco, PNV, tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -346,7 +344,7 @@
                <seg>Por último, evidentemente, queremos otro modelo de agricultura. Queremos caminar hacia un modelo de agricultura que respete y mantenga la biodiversidad y el medio natural; y hoy queremos que voten en contra de los transgénicos, señorías.<note>El señor presidente ocupa la Presidencia</note> Les pedimos que digan no a los transgénicos y les pedimos que digan sí a las producciones ambientales, a la producción ecológica e integrada, a la producción tradicional, y que pongan a disposición el patrimonio público precisamente para la incorporación de jóvenes y de mujeres que tanto necesita nuestro medio rural y nuestro medio urbano también, porque esto no solo afecta al campo.</seg>
                <seg>Estas son algunas de las medidas que para Aragón y para la España interior rural y agraria ponemos sobre la mesa. Ningún país puede construirse sin mirar hacia su interior, señorías, sin tener los pies en la tierra literalmente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u38" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u38" ana="#chair">
                <seg>Señor Sanz tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u39"
@@ -357,7 +355,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u40" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u40" ana="#chair">
                <seg>Muchas gracias, señor Sanz.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió, tiene la palabra el señor Macias.</seg>
             </u>
@@ -376,7 +374,7 @@
                <seg>Muchas gracias, señoras y señores diputados.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u42" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u42" ana="#chair">
                <seg>Muchas gracias, señor Macias.</seg>
                <seg>Por el Grupo Socialista tiene la palabra el señor Hernando.</seg>
             </u>
@@ -398,7 +396,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Socialista, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u44" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u44" ana="#chair">
                <seg>Muchas gracias, señor Hernando.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Bermúdez de Castro.</seg>
             </u>
@@ -414,7 +412,7 @@
                <seg>Termino. Los diputados del Grupo Popular estamos convencidos de que si mantenemos el rumbo vienen para España años de empleo, de oportunidades, de crecimiento y de prosperidad. Esos años no serán un regalo. Serán fruto del esfuerzo de los españoles que son los verdaderos protagonistas de este cambio, y también del compromiso de un Gobierno que ha trabajado siempre a favor del interés general, siempre pensando en lo mejor para los ciudadanos; serán fruto, señorías, de los que pensamos que la victoria solo acompaña a los que luchan por ella. Desde luego queda mucho camino por recorrer y tendremos que superar nuevos problemas y dificultades, como la desigualdad social, pero eso es compatible con reconocer que vamos en la buena dirección. Por eso yo invito a todos a que contribuyan a que esta etapa de recuperación que hemos iniciado sea lo más rápida e intensa posible, así como que dialoguemos y busquemos el consenso en los temas fundamentales. Hoy hemos dialogado y hemos alcanzado algunos acuerdos. Es el diálogo y el acuerdo lo que nos están reclamando los ciudadanos y es la forma para que nos miren con confianza; la misma, señorías, que mi grupo tiene en el Gobierno presidido por Mariano Rajoy, que ha sabido estar a la altura y actuar con valentía y eficacia ante una de las situaciones más difíciles de nuestra historia. La misma confianza y el mismo orgullo que tenemos de pertenecer a nuestro país, a España, que nunca se ha rendido y que nos ha dado a todos una lección de superación y fortaleza, puesto que cuando ha caminado unida y con determinación siempre ha conseguido salir adelante, salvar las dificultades y ser un ejemplo de progreso, de empleo y bienestar. Señorías, para conseguir ese objetivo y para servir a España siempre podrán contar con los diputados del Grupo Parlamentario Popular.</seg>
                <note>Rumores.-Aplausos de las señoras y señores diputados del Grupo Parlamentario Popular, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u46" ana="#chair">
                <seg>Muchas gracias, señor Bermúdez de Castro.</seg>
                <seg>Agradezco a los portavoces de los grupos su diligente labor esta mañana. Tenemos ya el cuaderno de votaciones. Les pido que den un último repaso y en unos minutos comenzamos a votar.</seg>
                <note>Pausa</note>
@@ -422,549 +420,549 @@
          </div>
          <div type="debateSection">
             <head>SOLICITUD DE PRÓRROGA DE SUBCOMISIONES - SOLICITUD DE PRÓRROGA DEL PLAZO OTORGADO A LA SUBCOMISIÓN DE ESTUDIO Y ANÁLISIS DEL SISTEMA FERROVIARIO ESPAÑOL, CONSTITUIDA EN EL SENO DE LA COMISIÓN DE FOMENTO, PARA LA CONCLUSIÓN DE SUS TRABAJOS, HASTA EL FINAL DEL PRESENTE PERIODO DE SESIONES.</head>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u47" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u47" ana="#chair">
                <seg>En primer lugar, de conformidad con lo anunciado en la Junta de Portavoces de 24 de febrero, esta Presidencia somete al Pleno la prórroga, hasta el final del presente periodo de<pb n="25"/> sesiones, del plazo otorgado para emitir informe a la Subcomisión de estudios y análisis del sistema ferroviario español, constituida en el seno de la Comisión de Fomento. ¿Lo acuerda así la Cámara?<note>Asentimiento</note> Queda aprobada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>COMUNICACIÓN DEL GOBIERNO : - COMUNICACIÓN DEL GOBIERNO EN LA QUE SOLICITA LA CELEBRACIÓN DE UN DEBATE DE POLÍTICA GENERAL SOBRE EL ESTADO DE LA NACIÓN.</head>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u48" ana="#chair">
                <seg>Vamos a votar las propuestas, que van a ser presentadas por orden numérico. Advierto a los diputados que las votaciones han sido reducidas a diez segundos. Estableceré si la propuesta queda rechazada o aprobada, aunque en el «Diario de Sesiones» estará el resultado de cada votación.</seg>
                <seg>Propuesta de resolución del Grupo Parlamentario Mixto, del señor Quevedo y de la señora Oramas. Propuesta 1, con la enmienda 32 del Grupo Vasco, PNV.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 46; en contra, 275; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u49" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u49" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 2.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 124; en contra, 187; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u50" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuestas de La Izquierda Plural. Propuesta 3.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 115; en contra, 176; abstenciones, 33.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u51" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u51" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 4.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 126; en contra, 194; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u52" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u52" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 5.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 128; en contra, 176; abstenciones, 19.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u53" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 6.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 117; en contra, 176; abstenciones, 30.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u54" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u54" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 7, con la enmienda 33 del Grupo Vasco, PNV.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="26"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 46; en contra, 276; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u55" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 8.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 26; en contra, 290; abstenciones, 8.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u56" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u56" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 9.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 30; en contra, 274; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u57" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 10.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 22; en contra, 179; abstenciones, 115.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u58" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u58" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 11.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323: a favor, 130; en contra, 175; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u59" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 12.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 17; en contra, 277; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u60" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u60" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 13.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 17; en contra, 179; abstenciones, 126.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u61" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 14.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 27; en contra, 275; abstenciones, 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u62" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u62" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 15.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 141; en contra, 177; abstenciones, 5.</seg>
                <pb n="27"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u63" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 16.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 114; en contra, 179; abstenciones, 22.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u64" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 17 y última de La Izquierda Plural.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 26; en contra, 177; abstenciones, 121.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u65" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u65" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Vamos a votar ahora las propuestas de resolución del Grupo Vasco, PNV. Propuesta 18.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 143; en contra, 177; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u66" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 19.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 33; en contra, 181; abstenciones, 109.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u67" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u67" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 20.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 117; en contra, 183; abstenciones, 23.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u68" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 21.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 120; en contra, 193; abstenciones, 10.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u69" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 22.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 45; en contra, 278; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u70" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 23.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 44; en contra, 279; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u71" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 24.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="28"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 127; en contra, 181; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u72" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 25.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 145; en contra, 177; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u73" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 26.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 145; en contra, 176; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u74" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u74" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 27.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 48; en contra, 271; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u75" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 28.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 35; en contra, 183; abstenciones, 106.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u76" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 29.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 45; en contra, 279.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u77" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 30.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 144; en contra, 178.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u78" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 31.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 45; en contra, 273; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u79" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 32, que es la última del Grupo Vasco, PNV.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 45; en contra, 279.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u80" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Ahora, propuestas de la señora Fernández Davila y de la señora Pérez Fernández. En primer lugar, propuesta 33.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="29"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 29; en contra, 278; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u81" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 34.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 24; en contra, 180; abstenciones, 112.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u82" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta de resolución del señor Álvarez Sostres. Propuesta 35.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 25; en contra, 175; abstenciones, 115.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u83" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta del señor Baldoví, a quien todos deseamos un pronto restablecimiento.<note>Aplausos</note> Propuesta 36.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 321; a favor, 27; en contra, 177; abstenciones, 117.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u84" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta del señor Cuadra. Propuesta 37.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 43; en contra, 277; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u85" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta del señor Iñarritu. Propuesta 38.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 43; en contra, 275; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u86" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta del señor Larreina. Propuesta 39.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 29; en contra, 277; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u87" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta de la señora Enbeita. Propuesta 40.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 25; en contra, 291; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u88" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta de la señora Barkos, que es la número 41.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 42; en contra, 180; abstenciones, 102.</seg>
                <pb n="30"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u89" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Votamos ahora las propuestas de resolución del Grupo de Unión Progreso y Democracia.</seg>
                <seg>Propuesta 42.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 4; en contra, 317; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u90" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 43, con la enmienda 35 del Grupo Vasco, PNV.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 140; en contra, 176; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u91" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 44.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 15; en contra, 197; abstenciones, 104.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u92" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 45.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 19; en contra, 276; abstenciones, 22.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u93" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 46.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 17; en contra, 176; abstenciones, 124.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u94" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 47, con la enmienda 36 del Grupo Vasco, PNV.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 142; en contra, 175.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u95" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 48.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 101; en contra, 176; abstenciones, 40.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u96" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 49.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 4; en contra, 306; abstenciones, 13.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u97" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 50.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="31"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 123; en contra, 178; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u98" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 51.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 134; en contra, 177; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u99" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 52.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 147; en contra, 177.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u100" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 53.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 5; en contra, 208; abstenciones, 103.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u101" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 54.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 123; en contra, 176; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u102" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 55.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 3; en contra, 284; abstenciones, 28.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u103" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 56, última de las que presenta el Grupo de UPyD.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 2; en contra, 315; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u104" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuestas de resolución del Grupo Socialista.</seg>
                <seg>Propuesta 57.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 111; en contra, 185; abstenciones, 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u105" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 58.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 116; en contra, 177; abstenciones, 31.</seg>
                <pb n="32"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u106" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u106" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 59, con la enmienda 15 del propio Grupo Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 119; en contra, 178; abstenciones, 26.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u107" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u107" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 60.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 101; en contra, 176; abstenciones, 47.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u108" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u108" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 61.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 98; en contra, 175; abstenciones, 42.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u109" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 62.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 129; en contra, 179; abstenciones, 9.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u110" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 63, del Grupo Socialista, con la enmienda 39 del Grupo Vasco PNV.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 120; en contra, 176; abstenciones, 28.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u111" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u111" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 64.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 127; en contra, 179; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u112" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 65.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 124; en contra, 177; abstenciones, 16.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u113" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u113" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 66.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 321; a favor, 121; en contra, 175; abstenciones, 25.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u114" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 67.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="33"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 123; en contra, 177; abstenciones, 23.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u115" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u115" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 68, con la enmienda 16 del propio Grupo Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 133; en contra, 178; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u116" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 69.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 135; en contra, 176; abstenciones, 11.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u117" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u117" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 70.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 126; en contra, 175; abstenciones, 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u118" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 71, última del Grupo Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 144; en contra, 175; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u119" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u119" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuestas de resolución del Grupo Parlamentario Catalán<note>Convergència i Unió</note> Propuesta 72.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 46; en contra, 276; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u120" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 73.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 131; en contra, 183; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u121" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 74, con la enmienda 52 del Grupo Popular.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 193; en contra, 5; abstenciones, 126.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u122" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u122" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta 75.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 26; en contra, 270; abstenciones, 26.</seg>
                <pb n="34"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u123" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 76.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 44; en contra, 174; abstenciones, 105.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u124" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u124" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 77.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 137; en contra, 179; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u125" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 78, con la enmienda 46 del Grupo Popular.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 217; en contra, 2; abstenciones, 104.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u126" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u126" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta 79.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 40; en contra, 179; abstenciones, 98.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u127" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 80.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 43; en contra, 274; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u128" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u128" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 81, en los términos de la enmienda transaccional a la 47 del Grupo Popular y que sin duda todos ustedes conocen.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 306; en contra, 3; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u129" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta 82.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 114; en contra, 177; abstenciones, 33.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u130" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u130" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 83, con la enmienda 41 del Grupo Vasco<note>EAJ-PNV</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 135; en contra, 178; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u131" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u131" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 84.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="35"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 39; en contra, 275; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u132" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u132" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 85, con la enmienda 42 del Grupo Vasco<note>EAJ-PNV</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 37; en contra, 178; abstenciones, 102.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u133" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u133" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 86, última de las propuestas del Grupo Parlamentario Catalán<note>Convergència i Unió</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 44; en contra, 178; abstenciones, 102.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u134" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u134" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuestas del señor Bosch.</seg>
                <seg>En primer lugar, propuesta 87.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 146; en contra, 177; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u135" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u135" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 88.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 27; en contra, 279; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u136" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u136" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuesta 89.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 14; en contra, 275; abstenciones, 34.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u137" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u137" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Propuestas del Grupo Popular.</seg>
                <seg>Propuesta 90, con la enmienda 43 del Grupo Parlamentario Vasco<note>EAJ-PNV</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 174; en contra, 117; abstenciones, 26.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u138" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u138" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta 91.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 177; en contra, 124; abstenciones, 19.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u139" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u139" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta 92.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 178; en contra, 17; abstenciones, 121.</seg>
                <pb n="36"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u140" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u140" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta 93.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 313; a favor, 178; en contra, 115; abstenciones 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u141" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u141" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta 94.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 173; en contra, 124; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u142" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u142" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta 95.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 173; en contra, 132; abstenciones, 10.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u143" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u143" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta 96.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 180; en contra, 127; abstenciones, 17.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u144" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u144" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta 97.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 176; en contra, 105; abstenciones, 35.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u145" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u145" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta 98, en los términos de la enmienda transaccional a la 23 del Grupo Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316: a favor, 292; en contra, 18; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u146" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u146" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta 99.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 176; en contra, 46; abstenciones, 102.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u147" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u147" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta 100.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 180; en contra, 126; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u148" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u148" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta 101, con la enmienda 6 del Grupo Catalán<note>Convergència i Unió</note> Comienza la votación.<note>Pausa</note>
                   <pb n="37"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 193; en contra, 26; abstenciones, 104.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u149" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u149" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta 102.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 178; en contra, 145; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u150" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u150" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta 103, con la enmienda 30 del Grupo Parlamentario de Unión Progreso y Democracia.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 195; en contra, 116; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u151" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u151" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Propuesta 104.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 276; en contra, 29; abstenciones, 19.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u152" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u152" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Última propuesta, que la hace el señor Salvador. Propuesta 105.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 294; abstenciones, 30.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u153" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-02-26-CD150226.u153" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Se levanta la sesión.</seg>
                <seg>Era la una y cincuenta y cinco minutos de la tarde.</seg>

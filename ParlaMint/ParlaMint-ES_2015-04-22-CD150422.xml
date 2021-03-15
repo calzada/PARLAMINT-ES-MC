@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="199">199 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="199" xml:lang="es">199 speeches</measure>
+            <measure unit="speeches" quantity="199" xml:lang="en">199 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="note" occurs="129"/>
                <tagUsage gi="pb" occurs="52"/>
                <tagUsage gi="u" occurs="199"/>
-               <tagUsage gi="lb" occurs="509"/>
+               <tagUsage gi="seg" occurs="509"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>PREGUNTAS - DE LA DIPUTADA DOÑA MARÍA OLAIA FERNÁNDEZ DAVILA, DEL GRUPO PARLAMENTARIO MIXTO, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿ESTÁ DISPUESTO EL GOBIERNO A REALIZAR LAS MODIFICACIONES NORMATIVAS PRECISAS, DADA LA CONDICIÓN DE EXPORTADOR DE ENERGÍA ELÉCTRICA DEL TERRITORIO GALLEGO, PARA QUE GALICIA DISPONGA DE UNA TARIFA ELÉCTRICA PROPIA QUE LE PERMITA ABARATAR LOS COSTES DE LA ENERGÍA, COMPENSANDO ASÍ LOS DAÑOS POR LA EXPLOTACIÓN DE SUS RECURSOS NATURALES?</head>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Preguntas dirigidas al Gobierno y más concretamente al presidente del Gobierno. Pregunta en primer lugar doña Olaia Fernández Davila, del Grupo Mixto.</seg>
             </u>
@@ -110,7 +108,7 @@
                <seg>Señor Rajoy, ¿está dispuesto el Gobierno a realizar las modificaciones normativas precisas para que Galicia disponga de una tarifa eléctrica propia que le permita abaratar los costes de la energía, compensando así los daños por la explotación de sus recursos naturales?</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u3" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -122,7 +120,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u5" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señora Fernández Davila.</seg>
                <pb n="7"/>
@@ -136,7 +134,7 @@
                <seg>Señor Rajoy, permítame finalizar mi intervención trasladándole nuestra preocupación sobre&#x85;</seg>
                <note>Muestra un cartel que dice: Telefónica explotadora, contratas en folga</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u7" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -148,12 +146,12 @@
                <seg>Muchas gracias.</seg>
                <note>Un señor diputado: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u9" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON AITOR ESTEBAN BRAVO, DEL GRUPO PARLAMENTARIO VASCO<note>EAJ-PNV</note> , QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿QUÉ VALORACIÓN HACE DE LA EFICACIA DE LA COORDINACIÓN POLICIAL EN EUROPA EN LA LUCHA CONTRA EL TERRORISMO YIHADISTA?</seg>
                <note>Número de expediente 180/001264</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u10" ana="#chair">
                <seg>Pregunta dirigida también al señor presidente del Gobierno del diputado don Aitor Esteban, del Grupo Vasco, PNV.</seg>
                <pb n="8"/>
             </u>
@@ -163,7 +161,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>¿Qué valoración hace de la eficacia de la coordinación policial en Europa en la lucha contra el terrorismo yihadista?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u12" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -173,7 +171,7 @@
                <seg>Muchas gracias, señor Esteban. Todo se puede mejorar y debemos trabajar para ello, pero la valoración general que yo hago es positiva. La lucha contra el terrorismo es un objetivo de permanente atención tanto en el Consejo Europeo como en los consejos JAI o incluso en los consejos de Exteriores y de Defensa. Las decisiones más específicas se toman en el JAI, en el Consejo de Justicia y Asuntos de Interior, donde se trata el tema de manera permanente, y los esfuerzos de coordinación de medidas siguen en el Comité para la cooperación de seguridad e interior, donde están los distintos Estados de la Unión Europea y también las agencias, como Europol, Eurojust, Cepol, Frontex, etcétera. Hoy se trabaja de forma coordinada en los siguientes ámbitos: reforzar los controles en las fronteras exteriores, en el PNR europeo, en el intercambio de información entre servicios competentes con las distintas agencias de la Unión, en la lucha contra el tráfico de armas, en la prevención de la radicalización y en la prevención de vínculos de grupos radicales en conflicto en el exterior.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u14" ana="#chair">
                <seg>Señor diputado.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u15"
@@ -183,7 +181,7 @@
                <seg>Dice usted que todo se puede mejorar y, efectivamente, creo que es mejorable, empezando por casa, porque desde luego, si es verdaderamente importante la amenaza, la información y ese intercambio de la información que tienen las agencias europeas, no se entiende por qué el Estado español no autoriza a las policías autonómicas, Mossos y Ertzaintza, que son policías integrales, a tener una conexión directa a las bases de datos internacionales policiales. Esto sería eficacia policial y diligencia en una política de seguridad; una eficacia que a nivel local se ha demostrado con la detención que ha habido de una célula yihadista local por parte de los Mossos d&#x92;Esquadra. Insisto, son policías integrales. No se entiende tampoco, respecto a los foros europeos, que no se comunique en qué se avanza en los mismos, incluso en el organizado hace poco de ministros de Asuntos Exteriores y de líderes de la ribera sur del Mediterráneo en Barcelona. No hay información, tampoco participación, incluso de cara al Estado. Las policías autonómicas tuvieron conocimiento por la prensa, que no por parte de su Gobierno, de la redacción de dos planes: el Plan de prevención y protección antiterrorista y el Plan estratégico de lucha contra la radicalización violenta. Tuvieron que pedírselo expresamente al Ministerio del Interior, que se lo remitió, pero de eso hace meses y desde entonces no ha habido ninguna otra comunicación. Por lo tanto, estoy de acuerdo con usted en que es un tema grave, en que es necesaria una diligente coordinación policial y en que este es un problema a nivel europeo y también estará usted de acuerdo conmigo en que todas las policías del Estado, Mossos y Ertzaintza incluidos, son policías integrales y, por lo tanto, no están subordinadas a otro cuerpo de seguridad del Estado. Dentro de esa responsabilidad que le pido y que debemos tener todos, dígame usted ahora que van a autorizar a las policías autonómicas a conectarse directamente a las bases de datos internacionales policiales.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u16" ana="#chair">
                <seg>Gracias, señor Esteban.</seg>
                <seg>Señor presidente del Gobierno.</seg>
             </u>
@@ -195,12 +193,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u18" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON PEDRO SÁNCHEZ PÉREZ-CASTEJÓN, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿CÓMO VALORA EL PRESIDENTE DEL GOBIERNO EL DETERIORO DE LA CALIDAD DEMOCRÁTICA DE LAS INSTITUCIONES EN ESPAÑA?</seg>
                <note>Número de expediente 180/001267</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u19" ana="#chair">
                <seg>Pregunta también dirigida al señor presidente del Gobierno que formula el diputado don Pedro Sánchez, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u20"
@@ -209,7 +207,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Rajoy, me gustaría saber qué opinión le merece el deterioro de la calidad democrática en las instituciones del país.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u21" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -220,7 +218,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u23" ana="#chair">
                <seg>Señor Sánchez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u24"
@@ -231,7 +229,7 @@
                <seg>Mire, señor Rajoy, usted tiene el dudoso honor de ser el presidente de la democracia que más comparecencias ha rechazado en este Congreso de los Diputados durante estos últimos tres años y medio; setenta, señor Rajoy, setenta comparecencias rechazadas por parte de usted a todos los grupos de esta Cámara que estamos en la oposición. Yo le insisto y le exijo que comparezca aquí, que rinda cuentas y que nos explique cuál es su vinculación directa con la trama de financiación irregular del Partido Popular.</seg>
                <seg>Mire, señor Rajoy, su grupo parlamentario, los 186 diputados y diputadas, ayer tuvieron una ocasión de oro de demostrar que están junto con sus votantes, que están con los trabajadores y no con los defraudadores. Ustedes ayer, todos los miembros y «miembras» del Grupo Parlamentario Popular&#x85;<note>Risas.-Rumores</note> ¡Permítanme ustedes la broma, permítanme ustedes la broma!</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u25" ana="#chair">
                <seg>Ruego silencio.</seg>
                <pb n="10"/>
             </u>
@@ -240,7 +238,7 @@
                ana="#regular">
                <seg>Ustedes lo que hicieron, señores del PP...<note>Continúan los rumores</note> Tienen ustedes que tener un poquito de gracia.<note>Varios señores diputados pronuncian palabras que no se perciben</note> Ustedes lo que hicieron, señores del PP, fue precisamente&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u27" ana="#chair">
                <seg>Un momento. ¡Silencio para oír al orador!</seg>
                <seg>Continúe.</seg>
             </u>
@@ -250,7 +248,7 @@
                <seg>Ustedes lo que hicieron fue rechazar una comisión de investigación que pidieron en el Parlamento de Cataluña para investigar el fraude del señor Pujol, y usted, señor Rajoy, ha vuelto a prohibir la publicación de la amnistía fiscal de los defraudadores que aprobaron en el año 2012. Le digo una cosa, señor Rajoy, publique esa lista porque, si no, lo haremos nosotros en cuanto lleguemos al Gobierno.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u29" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u29" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -260,12 +258,12 @@
                <seg>Después de escucharle a usted, señor Sánchez, me reafirmo en mi afirmación inicial. No hay ninguna pérdida de calidad democrática de las instituciones en España. Lo que sí parece que hay es una pérdida de calidad en la oposición democrática en nuestro país.<note>Varios señores diputados: ¡Muy bien!-Aplausos</note> Señorías, cuando ustedes gobernaban nombraban al director de Radiotelevisión Española. Habla usted de la justicia. Yo digo que la justicia en este país es independiente. Lo es el Tribunal Constitucional, lo es el órgano de gobierno de los jueces, lo es el Tribunal Supremo y lo es el resto de los órganos judiciales. No sé por qué habla usted de la composición del Tribunal Constitucional, porque el Tribunal Constitucional es el que es con los votos a favor de su partido, igual que lo es el órgano de gobierno, el Consejo General del Poder Judicial. Por tanto, si no está de acuerdo, desconozco cuál es la razón por la que le dio el apoyo a la persona que usted ha citado hoy aquí.<note>Aplausos</note> Le voy a hablar de la Agencia Estatal Tributaria. Las decisiones del Gobierno en esta legislatura han permitido aflorar en España 124.000 millones de euros -que se dice pronto- que ahora van a comenzar a tributar en nuestro país. Las decisiones del Gobierno de España y la actuación de la Agencia Estatal Tributaria en la lucha contra el fraude han permitido recaudar, en los años 2012, 2013 y 2014, 34.785 millones de euros, que son los mejores datos de la historia de España de la Agencia Estatal Tributaria, en el primer trimestre de 2015 -el mejor dato de un primer trimestre de la historia- con 2.889 millones de euros recaudados. El proceso de regularización fiscal es un proceso de regularización como el que hicieron ustedes en los años 1984 y 1991<note>Una señora diputada: ¡No!</note> , con dos diferencias: que entonces, de aquellos que iban a la regularización, no eran conocidos sus nombres por Hacienda y que no tributaban nada, cosa que no sucede en este momento. Ese proceso ni limpia ni borra delitos. Por otra parte, en cuanto a la publicación de las listas, le voy a dar un dato por si usted tiene a bien hacer alguna suerte de comentario. Ustedes han estado en el Gobierno de España veintidós años. Jamás dieron el dato de un solo contribuyente de la Agencia Estatal Tributaria, fuera alguien que regularizara, fuera alguien sancionado por incumplir la legislación vigente. Hicieron bien y yo también voy a cumplir ahora con mi obligación. Lo que no me parece de recibo ni democrático es hacer una cosa cuando se está en el Gobierno y decir otra&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u31" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u31" ana="#chair">
                <seg>Gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON ANTONIO HERNANDO VERA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA VICEPRESIDENTA DEL GOBIERNO Y MINISTRA DE LA PRESIDENCIA: ¿CÓMO VALORA EL GOBIERNO QUE UN EXVICEPRESIDENTE DEL GOBIERNO PARA ASUNTOS ECONÓMICOS SE HAYA ACOGIDO A LA AMNISTÍA FISCAL?</seg>
                <note>Número de expediente 180/001268</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u32" ana="#chair">
                <seg>Pregunta dirigida a la señora vicepresidenta del Gobierno y ministra de la Presidencia que formula el diputado don Antonio Hernando, del Grupo Socialista.</seg>
                <pb n="11"/>
             </u>
@@ -276,7 +274,7 @@
                <seg>Señorías, señora vicepresidenta, en marzo de 2012 el Gobierno aprobó una amnistía fiscal. Tres meses después aprobaron que se pudiesen acoger a ella los defraudadores con estructuras societarias sofisticadas y opacas. No contentos con eso, permitieron que aflorase el dinero en efectivo que no se sabía ni de dónde venía ni cómo se había conseguido. Finalmente, la Dirección General de Tributos garantizó a los defraudadores que no se harían comprobaciones aisladas de las declaraciones. La amnistía no iba bien y el Ministerio de Hacienda se la vendió a los grandes despachos de abogados a los que acudían grandes fortunas con cuentas pendientes con Hacienda. La Asociación de profesionales de inspectores de la Hacienda pública calificó la amnistía de impresentable, antisocial e injusta. Y con todo este cúmulo de despropósitos, señora vicepresidenta, le pregunto: ¿usted pretende que se olvide con esta imagen<note>Muestra una fotografía en la que se ve al señor De Rato Figaredo siendo introducido en un coche</note> esta otra imagen<note>Muestra otra fotografía en la que se ve a los señores De Rato Figaredo y Rajoy Brey dándose un abrazo</note> , señora vicepresidenta, cuando es el señor Rajoy el que ha hecho una amnistía fiscal a la que se ha acogido el señor Rato?</seg>
                <note>Rumores.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u34" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -287,7 +285,7 @@
                <seg>Creo que no ha oído al presidente del Gobierno. Este Gobierno ha hecho una amnistía fiscal aplicando la ley y ha hecho una amnistía fiscal muy diferente de las dos que hicieron los Gobiernos del Partido Socialista<note>Rumores</note> , conviene que las recuerden, porque eran opacas, sin control y encima dando intereses a los defraudadores. Mire, señor Hernando, si quiere que hablemos sobre cómo actuó el Gobierno del señor don José Luis Rodríguez Zapatero, cuando quiera hablamos de cómo trataron la lista Falciani.<note>Rumores</note> Señor Hernando, saque menos fotos y tome más decisiones, porque tiene usted importantes fotos con diputados de su bancada también afectados de procedimientos judiciales.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u36" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u36" ana="#chair">
                <seg>Gracias, señora vicepresidenta.</seg>
                <seg>Señor Hernando.</seg>
             </u>
@@ -298,7 +296,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u38" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u38" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -308,12 +306,12 @@
                <seg>Señor Hernando, la mejor manera de proteger a todos esos contribuyentes es que en este país, con este Gobierno, cuando hay algún fraude fiscal, se persigue, con independencia de cómo se llame el que no haya firmado su declaración tributaria.<note>Rumores</note> Mire, señor Hernando, yo sí confío en la Agencia Tributaria, confío en los fiscales y confío en los jueces. En los que no confío es en ustedes, porque la mayor burla a todos esos contribuyentes es que durante todo el tiempo de la crisis pagaron un montón y, sin embargo, ustedes hundieron las cuentas, y por eso hubo que hacer una amnistía fiscal. Y no<pb n="12"/> se me ponga estupendo, porque ustedes valoraron también hacerla. Sin embargo, los ciudadanos los echaron del Gobierno y nosotros tuvimos que pagar el agujero de los 70.000 millones de euros.<note>Rumores</note> Señor Hernando, cae usted en sus propias trampas y le voy a decir una cosa bien clara: quien todos los días se dedica, no con una sino con dos ruedas de prensa -para desmentir la anterior-, como hace usted, a tapar la corrupción de los suyos no puede pretender que nosotros no trabajemos contra el fraude, y lo hacemos, todas las instituciones del país, no ustedes. Ustedes quieren que se publique. Yo quiero que se investigue.<note>El señor Hernando Vera vuelve a mostrar la fotografía en la que se ve al señor De Rato Figaredo siendo introducido en un coche.-La señora Ramón Utrabo pronuncia palabras que no se perciben</note> Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u40" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u40" ana="#chair">
                <seg>Gracias, señora vicepresidenta.</seg>
                <seg>Señora Ramón, le ruego silencio.<note>Rumores</note> - DEL DIPUTADO DON MIGUEL ÁNGEL HEREDIA DÍAZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN: ¿CÓMO ABORDA EL GOBIERNO LA CATÁSTROFE HUMANITARIA QUE SUPONEN LOS CONTINUOS EPISODIOS DE DESAPARICIÓN DE PERSONAS INMIGRANTES EN EL MEDITERRÁNEO COMO CONSECUENCIA DEL NAUFRAGIO DE SUS EMBARCACIONES?</seg>
                <note>Número de expediente 180/001279</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u41" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u41" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Asuntos Exteriores y de Cooperación. Pregunta en primer lugar el diputado don Miguel Ángel Heredia, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u42"
@@ -322,7 +320,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, ¿cómo aborda el Gobierno la catástrofe humanitaria tras los continuos episodios de desaparición de inmigrantes en el Mediterráneo a consecuencia del naufragio de sus embarcaciones?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u43" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -331,7 +329,7 @@
                ana="#regular">
                <seg>Le agradezco especialmente la pregunta porque ante las tragedias que estamos presenciando lo único que no podemos hacer es caer en lo que el Papa ha llamado la globalización de la indiferencia. Como usted sabe, señoría, el aumento de la pobreza y el hambre, la inestabilidad, los conflictos civiles y el sectarismo religioso están provocando que en este momento haya un número mayor de desplazados internos, de refugiados y de inmigrantes que ha habido nunca desde la Segunda Guerra Mundial. Es una labor que debemos afrontar todos juntos a nivel de Naciones Unidas y a nivel europeo y eso es exactamente lo que estamos haciendo. El Gobierno del presidente Rajoy lo primero que hizo fue resucitar el llamado Grupo del Olivo, que agrupa a los países del Mediterráneo más afectados por el fenómeno, que se reunieron en Alicante para hacer una declaración sobre inmigración, que fue corregida en París y que fue evaluada en la reunión de Barcelona, y eso formará parte, gracias -insisto- a la iniciativa de este Gobierno, del plan de inmigración que está preparando el Servicio Europeo de Acción Exterior de la Unión Europea. Yo mismo me desplacé al Consejo de Seguridad hace muy poco tiempo con ocasión de un pleno sobre protección de minorías religiosas, que es otra de las causas que fomentan la inmigración.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u45" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u45" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Heredia.</seg>
             </u>
@@ -342,7 +340,7 @@
                <seg>Señor ministro, me gustaría que usted nos diese algunas explicaciones. Por ejemplo, me gustaría que nos explicase por qué su Gobierno ha desmantelado la cooperación con los países de origen, por qué su Gobierno se niega a ampliar las funciones del Frontex para permitir salvar las vidas de estas personas y cuántas patrulleras, cuántos helicópteros y cuántos barcos de salvamento va a destinar a esta misión. ¡Claro que hay que luchar contra las mafias! Pero en serio; son mafias que mueven todos los años millones de euros en paraísos fiscales. Por cierto, unos paraísos fiscales que son muy familiares para algunos compañeros de su partido político.<note>Rumores y protestas</note> Señor ministro, hace tiempo que deberíamos haber pasado de las lamentaciones a la acción. Necesitamos hechos y no buenas palabras. Europa no puede continuar más tiempo con su vergonzoso silencio que está provocando que convirtamos nuestro mar común en una fosa común.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u47" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u47" ana="#chair">
                <seg>Muchas gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -353,12 +351,12 @@
                <seg>Para abordar un tema tan difícil como este, no se pueden mezclar cosas. No sé si ha sugerido que alguno de los emigrantes que han perdido la vida tenía su domicilio en un paraíso fiscal, y me parecería un humor negro propio de La Codorniz y no propio de esta Cámara.</seg>
                <seg>Para luchar contra la inmigración hay que saber, como todo en política, qué es lo que hay que hacer. En primer lugar, hay que controlar la inmigración ilegal que es aprovechada por las mafias que operan en Estados fallidos. En segundo lugar, hay que establecer mecanismos de entrada legal e integración de los emigrantes para que vivan en condiciones de dignidad. En tercer lugar, hay que cooperar con los países de origen y destino. Quiero recordarle que España está mucho más cerca de Italia que de las costas africanas, en concreto de Marruecos, de Mauritania y Senegal, y que gracias a la acción exterior de este Gobierno el drama de la inmigración no se produce en estas costas, se produce en otras costas y con destinos&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u49" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u49" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON ANTONIO GALLEGO BURGOS, DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, QUE FORMULA AL SEÑOR MINISTRO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN: ¿CÓMO VALORA EL SEÑOR MINISTRO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN LA REUNIÓN MINISTERIAL INFORMAL CON LOS PAÍSES DE LA VECINDAD SUR QUE TUVO LUGAR EL 13 DE ABRIL EN BARCELONA?</seg>
                <note>Número de expediente 180/001266</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u50" ana="#chair">
                <seg>Pregunta también dirigida al señor ministro de Asuntos Exteriores y de Cooperación, que formula el diputado don Antonio Gallego del Grupo Popular.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u51"
@@ -369,7 +367,7 @@
                <seg>Muchas gracias, señor ministro.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u52" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u52" ana="#chair">
                <seg>Muchas gracias, señor Gallego.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -383,12 +381,12 @@
                <seg>Desde el punto de vista de la cooperación, hemos concentrado nuestros esfuerzos -los escasos recursos que nos dejaron los de enfrente- en veintitrés países y en aquellos sectores que más&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u54" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u54" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON CARLOS MARTÍNEZ GORRIARÁN, DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, QUE FORMULA AL SEÑOR MINISTRO DE JUSTICIA: ¿LE PARECE ADMISIBLE QUE UN PRESIDENTE DEL GOBIERNO, QUE ES REGISTRADOR, PRIVATICE EL REGISTRO CIVIL EN BENEFICIO DE SU PROPIO GREMIO?</seg>
                <note>Número de expediente 180/001265</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u55" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Justicia. Pregunta, en primer lugar, el diputado don Carlos Martínez Gorriarán del Grupo Parlamentario de Unión Progreso y Democracia.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u56"
@@ -399,7 +397,7 @@
                <seg>Muchas gracias.</seg>
                <pb n="15"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u57" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -410,7 +408,7 @@
                <seg>Señorías, señor Martínez Gorriarán, como bien dice usted, conoce cuál es la posición de este ministro y de este Gobierno, por tanto, permítame que le haga dos aclaraciones. En primer lugar, ni el presidente del Gobierno ni el Consejo de Ministros ni el ministro de Justicia tienen ninguna intención de privatizar el servicio del Registro Civil; al contrario, tenemos un compromiso de mejora como ya la Ley 20/2011 manifestaba. En segundo lugar, señoría, estaríamos haciendo un servicio al entendimiento de la opinión pública sobre esta cuestión si hablamos de un servicio público de calidad y de su funcionamiento y no introducimos elementos de confusión. Los registradores de la propiedad y mercantiles son funcionarios públicos. Le puedo facilitar a su señoría un buen dosier de jurisprudencia del Tribunal Supremo y del Tribunal Constitucional, si tiene tiempo e interés para leerlo. Podemos hablar del Registro Civil y estaré encantado de que lo hagamos y, sobre todo, de conocer su propuesta, pero, en todo caso, no hay ningún escenario de privatización. Esté tranquilo su señoría y estén tranquilos todos los ciudadanos españoles.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u59" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Martínez Gorriarán.</seg>
             </u>
@@ -420,7 +418,7 @@
                <seg>Señor ministro, debe ser que a ustedes las privatizaciones les salen sin darse cuenta; se ponen a hacer cosas y, de repente: ¡Ahí va! Me ha salido una privatización. Qué cosa tan extraordinaria porque incluso los registradores de la propiedad, a través de su órgano oficial que es el colegio oficial, han rechazado lo que denominan una privatización. Según ustedes ni siquiera los registradores de la propiedad saben lo que está ocurriendo con el Registro Civil, lo cual ya es extraordinario. No me diga que son funcionarios públicos, porque no son funcionarios del Estado, no tienen una plaza pública; son funcionarios que han accedido a una plaza pero que dirigen negocios privados, y si alguien dirige un negocio privado, por mucho que sea de un cuerpo especial del Estado, no es un funcionario que está cumpliendo funciones administrativas, sino alguien que dirige un negocio privado, lo cual es muy respetable. Lo que no es respetable es convertir una dependencia del Ministerio de Justicia en un servicio privatizado de modo encubierto, además, con su extraña pretensión de que los registradores deberían hacerlo gratis, cosa que a los registradores les tiene verdaderamente entusiasmados.</seg>
                <seg>Nadie considera ni cree que se mejore técnicamente ni de ninguna manera el Registro Civil basándose en los registradores de la propiedad que, además, en su gran mayoría -aunque haya alguna minoría, que ya aflorará- no quieren ese traspaso, no quieren esa llevanza. Aquí de lo que se está tratando es de una privatización encubierta. Llamen ustedes a las cosas por su nombre, dejen de marear diciendo que una privatización es una privatización y no otra cosa. Esa es la cuestión. Tienen ustedes y lo siento -lo hemos hablado otras veces- una credibilidad cero en materia de justicia: ni las tasas judiciales sirven para mejorar la Administración de Justicia ni están dotando a los juzgados de medios; han mantenido las tasas judiciales a las pymes y a las entidades jurídicas, han dejado abandonado y en una situación patética el turno de oficio de la justicia y ahora, además, lo que están haciendo es desmantelar otro servicio público más, entregándolo a unos registradores que, encima, no lo quieren recibir. Es completamente increíble que usted diga que eso no es una privatización. Será que es otra cosa, será el caos organizado o el desmadre y el desmantelamiento de los servicios públicos. Eso sí que lo es, ya se lo digo. Desde luego, todo el mundo menos ustedes -usted en particular- está de acuerdo en que es una privatización y encubierta y en que hay un conflicto de intereses, señor ministro. Lo siento, así son las cosas.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u61" ana="#chair">
                <seg>Gracias, señor Martínez Gorriarán.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -432,12 +430,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u63" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON JORDI JANÉ I GUASCH, DEL GRUPO PARLAMENTARIO CATALÁN<note>CONVERGÈNCIA I UNIÓ</note> , QUE FORMULA AL SEÑOR MINISTRO DE JUSTICIA: ¿CUÁLES SON LAS RAZONES POR LAS QUE EL MINISTERIO DE JUSTICIA HA DECIDIDO DISTRIBUIR ENTRE COMUNIDADES AUTÓNOMAS SOLO 6 DE LOS 564 MILLONES DE EUROS RECAUDADOS EN CONCEPTO DE TASAS JUDICIALES, QUE DEBERÍAN SER DESTINADOS A FINANCIAR LA JUSTICIA GRATUITA?</seg>
                <note>Número de expediente 180/001277</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u64" ana="#chair">
                <seg>Pregunta dirigida igualmente al señor ministro de Justicia, del diputado don Jordi Jané del Grupo Parlamentario Catalán</seg>
                <note>Convergència i Unió</note>
             </u>
@@ -447,7 +445,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro de Justicia, ¿cómo justifica que de los más de 560 millones de euros que han recaudado en concepto de tasas judiciales destinen, un dinero que estaba vinculado a la asistencia jurídica gratuita, solo 6 millones a las comunidades autónomas, que son precisamente las que tienen que atender en sus territorios, cuando tienen esa competencia, esa asistencia jurídica gratuita? ¿Cómo lo justifica, señor ministro?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u66" ana="#chair">
                <seg>Muchas gracias, señor Jané.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -457,7 +455,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>Señoría, se justifica de manera muy sencilla, porque no tienen nada que ver. El presupuesto del Ministerio de Justicia, en el que aparecen por primera vez este año 6 millones de euros para formalizar convenios de colaboración con las comunidades autónomas que tienen competencias en medios materiales y personales de la justicia, que ya hemos empezado a desarrollar en la conferencia sectorial que celebramos hace dos semanas, no tiene nada que ver con las tasas de la justicia. Las tasas judiciales tienen un origen, un hecho imponible, una gestión que es absolutamente estatal, además, por supuesto, de que ningún ingreso tributario está vinculado a un gasto concreto, sino que lo que hace es financiar el Tesoro público. No tienen nada que ver las tasas judiciales con la financiación de las comunidades autónomas, como ustedes saben, porque cuando, en el caso de la Generalitat de Cataluña o de cualquier otro Gobierno autonómico, recibieron la transferencia de los medios materiales y personales obtuvieron la financiación suficiente y adecuada, que ha evolucionado conforme al modelo de financiación autonómica que existe en nuestro país. Son cuestiones totalmente distintas.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u68" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Jané.</seg>
             </u>
@@ -467,7 +465,7 @@
                <seg>Señor ministro, sorprende su respuesta, se aparta de la legalidad. Usted dice que no tiene nada que ver, pero el artículo 11 de la Ley de Tasas aprobada por estas Cortes Generales, que por cierto aprobaron en absoluta soledad, con el voto en contra del resto de grupos parlamentarios y<pb n="17"/> la oposición de los colegios de abogados y procuradores, y que han tenido que rectificar, dice lo siguiente: La tasa judicial se considerará vinculada al sistema de justicia gratuita. Usted dice que no tiene nada que ver, pero si no tiene nada que ver ¿por qué destina ahora 6 millones? No debe destinar 6 millones, debe destinar el coste de ese servicio de asistencia jurídica gratuita que tienen las comunidades autónomas que han asumido esa competencia. Eso es lo que deben asumir, y eso, señor ministro no es generosidad, es equidad; eso no es hacer un regalo a las comunidades autónomas, eso es justicia; eso no es arbitrariedad, es cumplir precisamente lo que dice ese artículo 11, artículo que han aprobado y que después, cuando se tiene que trasladar vía presupuestos, se olvidan de él. Por tanto, se reclama por los Gobiernos de las comunidades autónomas, por los colegios de abogados, los abogados, los procuradores, porque están realizando un servicio, unas mejoras. Le daré un dato: Solo en el año 2013 a la Comunidad Autónoma de Cataluña le supuso 60 millones de euros atender sus competencias en la asistencia jurídica gratuita, y ese año, de esos 60 millones, 2,3 millones eran por el sobrecoste que supuso la Ley de Tasas del año 2012, porque se amplió, y personas que no tenían que justificar una insuficiencia de ingresos se acogieron a ello. En consecuencia, le pedimos equidad y que cumplan con las comunidades autónomas, señor ministro.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u70" ana="#chair">
                <seg>Muchas gracias, señor Jané.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -479,12 +477,12 @@
                <seg>Señoría, las tasas judiciales tienen un hecho imponible, y es el ejercicio de la función jurisdiccional; y ese hecho imponible es una competencia exclusiva del Estado. La Generalitat de Cataluña ha constituido una tasa propia en el ejercicio de sus competencias, y me parece muy legítimo y, además, muy razonable que lo haga. La financiación del turno de oficio, de la asistencia jurídica gratuita que abona la Generalitat a los abogados en Cataluña lo hace con el crédito que en su día se transfirió y que formó parte de las transferencias que recibió la Generalitat. Ese crédito ha evolucionado, ha ido aumentándose, ha ido creciendo, y seguramente es suficiente para atender los gastos. Es la decisión del Gobierno de Cataluña poner más o menos dinero en ese crédito, como es su decisión, por ejemplo, subir el baremo que el Estado paga a los abogados en nuestro territorio. Si tiene un gasto adicional tendrá que tener financiación propia, no financiación por parte del Estado. Por tanto, ese es el ejercicio de lealtad que hacemos con todas&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u72" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON ALBERTO GARZÓN ESPINOSA, DEL GRUPO PARLAMENTARIO DE IU, ICV-EUIA, CHA: LA IZQUIERDA PLURAL, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CÓMO VALORA EL ALCANCE DE SU AMNISTÍA FISCAL DE 2012 SOBRE LOS BENEFICIARIOS DE LA MISMA COMO EL EXVICEPRESIDENTE SEGUNDO DEL GOBIERNO Y MINISTRO DE ECONOMÍA ENTRE 1996 Y 2004, RODRIGO RATO?</seg>
                <note>Número de expediente 180/001278</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u73" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Hacienda y Administraciones Públicas. En primer lugar, pregunta el diputado don Alberto Garzón, del Grupo de La Izquierda Plural.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u74"
@@ -492,7 +490,7 @@
                ana="#regular">
                <seg>Señor ministro, ¿cómo valora el alcance de la amnistía fiscal de 2012 sobre los beneficiarios, entre quienes se encontraba el exministro de Economía durante ocho años, Rodrigo Rato?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u75" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
                <pb n="18"/>
@@ -503,7 +501,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor diputado, el ministro de Hacienda y Administraciones Públicas no habla nunca en público de nombres propios.<note>Risas.-Rumores</note> No lo hace.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u77" ana="#chair">
                <seg>Por favor, ruego silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u78"
@@ -514,7 +512,7 @@
                <seg>Gracias señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u79" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Garzón.</seg>
             </u>
@@ -527,7 +525,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u81" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
                <pb n="19"/>
@@ -539,12 +537,12 @@
                <seg>Señor Garzón, se tiene usted que rendir ante la evidencia. Es con este Gobierno con el que se están conociendo las declaraciones de bienes y derechos en el extranjero en una cuantía como no habíamos conocido en la historia de la Hacienda española. Es así, señor Garzón. Es ahora cuando la Agencia Tributaria está investigando la lucha contra el fraude sin tener en cuenta -como dije en esta tribuna- nombres, apellidos, amigos o enemigos. Eso es así, señor Garzón. El origen del caso que usted plantea no es el que ya estaba abierto en la Audiencia Nacional, en absoluto, sino que ha sido la investigación de la Agencia Tributaria llevada a la fiscalía, que es la vía correcta para hacerlo. A ustedes -a la izquierda- no les gusta ni una cosa ni la contraria. Lo que usted no quiere hacer, señor Garzón, es reconocer la realidad más evidente: que con este Gobierno, con el Gobierno del Partido Popular, se está luchando contra el fraude fiscal en unos niveles y con un grado de eficacia como nunca antes lo había hecho un Gobierno en España.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u83" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON PEDRO SAURA GARCÍA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿DESDE CUÁNDO SABÍA EL GOBIERNO QUE EL EXVICEPRESIDENTE DEL GOBIERNO PARA ASUNTOS ECONÓMICOS SE HABÍA ACOGIDO A LA AMNISTÍA FISCAL?</seg>
                <note>Número de expediente 180/001270</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u84" ana="#chair">
                <seg>Pregunta dirigida también al señor Ministerio de Hacienda y Administraciones Públicas que formula el diputado don Pedro Saura, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u85"
@@ -555,7 +553,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u86" ana="#chair">
                <seg>Muchas gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -565,7 +563,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Saura, lo que tiene que preguntarse usted y el Grupo Socialista&#x85;<note>Rumores.-El señor Hernando Vera: Pregunta lo que quiere</note> , si me lo permiten, claro.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u88" ana="#chair">
                <seg>Ruego silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u89"
@@ -574,7 +572,7 @@
                <seg>Si a ustedes no les gustan las respuestas que doy, basta con que no me las formulen y punto. Así acabo antes, no se preocupe, señoría.<note>Aplausos.-Protestas</note> Lo que tiene que preguntarse el Grupo Socialista es por qué cuando existían 124.000 millones de euros en el extranjero de ciudadanos contribuyentes españoles y la recaudación tributaria caía en España 70.000 millones de euros ustedes -la señora Salgado, el señor Solbes y el señor Zapatero- no hicieron nada para corregir esa situación.<note>Aplausos</note> Eso es lo que usted tiene que preguntarse, a eso es a lo que tiene que dar respuesta. Ahora están en la oposición y por lo visto son distintos. El señor Sánchez estaba aquí ya en 2010 y no proponía ninguna iniciativa para luchar contra el fraude, como estamos haciendo en el Gobierno del Partido Popular, con limpieza y transparencia. Por supuesto, quien esté ahí -como dije en esa tribuna- tendrá que responder de sus actos, sea quien fuere y, por supuesto, que yo también. Sea quien fuere, pero unos cuanto antes también. Con toda tranquilidad, con toda tranquilidad, entre otros, algunos diputados suyos que están sentados en esa bancada todavía.<note>Aplausos.-La señora Rodríguez García pronuncia palabras que no se perciben</note> Dicho esto, le insisto en la idea de que el Gobierno tiene que valorar positivamente un proceso que fue la regularización extraordinaria y la Ley antifraude que ha permitido el afloramiento de estas cuantías.<pb n="20"/> Cuando usted quiera comparecemos otra vez, debatimos y demás los elementos que sean pertinentes, pero es que llevan ustedes desde comienzo de la legislatura con esta cuestión, y no sé exactamente qué clase de rédito político le dan, pero por supuesto, tienen al Gobierno de España dispuesto a dar las explicaciones pertinentes.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u90" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señora Rodríguez, le ruego silencio.</seg>
                <seg>Señor Saura.</seg>
@@ -589,7 +587,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u92" ana="#chair">
                <seg>Gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -600,7 +598,7 @@
                <seg>Este Gobierno lo ha hecho tan mal que España está creciendo y creando empleo a la cabeza de Europa<note>Rumores</note> , y van dos ocasiones -van dos- en las que un Gobierno socialista arruina a España y un Gobierno del Partido Popular tiene que tomar las riendas de la política económica para sacar a España de la crisis.<note>Rumores.-Aplausos</note> Y van dos, señor Saura, van dos. Amigos; amigos tienen los españoles que tienen que confrontar&#x85;<note>Aplausos</note> - DE LA DIPUTADA DOÑA PATRICIA HERNÁNDEZ GUTIÉRREZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CONSIDERA EL MINISTRO DE HACIENDA QUE HA DADO SUFICIENTES EXPLICACIONES SOBRE LA RELACIÓN ENTRE LAS ADMINISTRACIONES PÚBLICAS Y EL DESPACHO QUE FUNDÓ?</seg>
                <note>Número de expediente 180/001271</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u94" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Hacienda y Administraciones Públicas que formula la diputada doña Patricia Hernández, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u95"
@@ -611,7 +609,7 @@
                <note>Una señora diputada: ¡Ahí le duele!-Aplausos</note>
                <pb n="21"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u96" ana="#chair">
                <seg>Gracias, señora Hernández.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -621,7 +619,7 @@
                <seg>Señoría, superado el prejuicio de que fundar una empresa en España es algo pecaminoso -desde luego para la izquierda lo es, y así va España cuando gobierna la izquierda-<note>Rumores</note> , ya le he explicado -lo hice desde la tribuna- que yo dejé la empresa a cuya fundación contribuí hace siete años, en abril de 2007, y en el tiempo en que estuve en ella no hubo ningún contrato con administraciones españolas. Tan sencillo como eso, señora diputada.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u98" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora Hernández.</seg>
             </u>
@@ -633,7 +631,7 @@
                <seg>Los ciudadanos ven a un ministro de Hacienda que pierde las elecciones, monta un despacho mientras sigue cobrando de lo público, más sobresueldos del Partido Popular; después abandona el despacho, pero siguen estando en ese despacho los miembros de su gabinete cuando era ministro; luego vuelve al Gobierno, donde se lleva a los que han contratado con usted. La gente se pregunta si ese despacho va a recibir un trato diferente al de los demás despachos o si los clientes de ese despacho reciben un trato de favor como contribuyentes. Es más, le voy a hacer una pregunta directa: ¿cuántos de esos clientes de Montoro y Asociados o de Equipo Económico se acogieron a la amnistía fiscal? ¿Cuántos de esos pertenecen a la lista de los 30.000? Publique esa lista y lo podremos ver. Cuando los ciudadanos conocemos que se adjudican contratos públicos a un despacho que usted ha creado, tenemos derecho a preguntarnos si a ese despacho se le trata igual que a los otros, y no es asunto particular. Como tampoco es un asunto particular lo del señor Rato, que se acogió a una amnistía fiscal pública. ¿Cuántos de esos amnistiados&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u100" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -645,12 +643,12 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u102" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA MARÍA VIRTUDES MONTESERÍN RODRÍGUEZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CÓMO VALORA EL GOBIERNO EL IMPACTO DE SU REFORMA LOCAL SOBRE LA CAPACIDAD DE LOS AYUNTAMIENTOS EN LA PRESTACIÓN DE SERVICIOS PÚBLICOS?</seg>
                <note>Número de expediente 180/001272</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u103" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Hacienda y Administraciones Públicas de la diputada doña Mariví Monteserín, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u104"
@@ -658,7 +656,7 @@
                ana="#regular">
                <seg>Señor ministro, le formulo la pregunta que figura en el orden del día.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u105" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -670,7 +668,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u107" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u107" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora Monteserín.</seg>
             </u>
@@ -682,7 +680,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u109" ana="#chair">
                <seg>Muchas gracias, señora Monteserín.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -694,12 +692,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u111" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u111" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON JOAN RANGEL TARRÉS, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CUÁLES SON LOS MOTIVOS POR LOS QUE NO SE REÚNEN LOS ÓRGANOS DE COOPERACIÓN ENTRE EL ESTADO Y LA GENERALITAT DE CATALUÑA?</seg>
                <note>Número de expediente 180/001273</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u112" ana="#chair">
                <seg>Pregunta dirigida también al señor ministro de Hacienda del diputado don Joan Rangel, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u113"
@@ -709,7 +707,7 @@
                <seg>Señor ministro, espero que me responda porque le voy a hacer una pregunta de control y espero que, con su habitual estilo, no termine descalificándome. ¿Cuáles son los motivos por los que no se reúnen los órganos de cooperación entre el Estado y la Generalitat de Catalunya? En especial, me gustaría saber por qué no se reúne la comisión bilateral Generalitat-Estado.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u114" ana="#chair">
                <seg>Muchas gracias, señor Rangel.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -720,7 +718,7 @@
                <seg>El Gobierno de España se ha reunido durante esta legislatura con los distintos niveles de gobierno de la Generalitat de Catalunya y en estos encuentros ha tenido una relación institucional correcta que ha permitido alcanzar numerosos acuerdos. Hemos mantenido esta relación institucional en el seno del Consejo de Política Fiscal y Financiera, y de las doce reuniones que ha celebrado la Generalitat ha participado en once. Igualmente, han sido frecuentes las reuniones de la subcomisión de seguimiento normativo, prevención y solución de conflictos para tratar de solucionar discrepancias sobre la aprobación de leyes por el Parlamento de Cataluña. Ha habido treinta y una reuniones de la citada subcomisión. Es<pb n="24"/> verdad que la comisión bilateral entre la Generalitat y el Estado no se ha reunido ni una sola vez en esta legislatura, es cierto, porque, como usted conoce perfectamente también, por parte de la Generalitat de Catalunya se ha convertido esta legislatura en una sistemática convocatoria electoral, para entendernos, desde el año 2012, cuando estaba convocada. A partir de ahí, como le digo, los demás órganos de relación han funcionado perfectamente desde la lealtad institucional, pero no se ha reunido esa comisión, insisto, porque ha fallado el sustrato político para que pudiéramos llevarla adelante.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u116" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Rangel.</seg>
             </u>
@@ -732,7 +730,7 @@
                <seg>Muchas gracias, señor ministro. Muchas gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u118" ana="#chair">
                <seg>Muchas gracias, señor Rangel.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -743,12 +741,12 @@
                <seg>¿Ve cómo acababa así? Da igual el tema de control, acaban así. Están en su derecho, por supuesto, faltaba más, pero yo también estoy en el derecho contrario, me lo van a reconocer por lo menos. Da igual el tema. Pero no da igual, al Gobierno de España le hubiera gustado tener la relación institucional máxima con el Gobierno de la Generalitat de Catalunya. Usted sabe -¿o es que no lo sabe y no es catalán?- que ha habido circunstancias excepcionales planteadas desde la Generalitat de Catalunya, por cierto. ¿O ha sido el Gobierno de España el que las ha planteado en términos políticos en esta legislatura? A partir de esas circunstancias excepcionales, el Gobierno de España se ha dedicado a garantizar la financiación de los servicios públicos de los catalanes desde la máxima lealtad institucional y, por tanto, a impulsar la recuperación económica de Cataluña con independencia de las cuestiones políticas que se siguen planteando desde sus órganos de Gobierno. Eso es lo que realmente importa&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u120" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON JUAN LUIS GORDO PÉREZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿QUÉ INFORMACIÓN PUEDE FACILITAR EL MINISTRO DE HACIENDA RESPECTO DE LA DENUNCIA DE LA AGENCIA TRIBUTARIA SOBRE EL PAGO DE COMISIONES A ALTOS CARGOS DE CASTILLA Y LEÓN PARA FACILITAR LA INSTALACIÓN DE PARQUES EÓLICOS EN ESA COMUNIDAD AUTÓNOMA?</seg>
                <note>Número de expediente 180/001280</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u121" ana="#chair">
                <seg>Pregunta al señor ministro de Hacienda y Administraciones Públicas del diputado don Juan Luis Gordo, del Grupo Socialista.</seg>
                <pb n="25"/>
             </u>
@@ -759,7 +757,7 @@
                <seg>Señor ministro, a través de un medio de comunicación hemos tenido conocimiento de que Hacienda ha constatado la existencia de un grupo organizado de personas y sociedades que cobraron hasta 110 millones de euros por agilizar la tramitación de parques eólicos en Castilla y León. De la información conocida, sabemos que han participado altos cargos sumisos en la trama orquestada por la Consejería de Economía del señor Villanueva. ¿Qué nos puede informar al respecto?</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u123" ana="#chair">
                <seg>Muchas gracias, señor Gordo.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -771,7 +769,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u125" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Gordo.</seg>
             </u>
@@ -782,7 +780,7 @@
                <seg>Señor ministro, aclárenos, explíquenos por qué las grandes empresas eléctricas han tenido que pagar cantidades exorbitantes para acceder a la licencia de los parques eólicos. ¿Por qué han tenido que pagar cantidades exorbitantes? Y se las han pagado a sociedades participadas por altos cargos. Hay nada más y nada menos que doscientos parques eólicos en Castilla y León, lo cual significa que ha habido un sobrecoste de 900 a 1.000 millones de euros. Aclárelo. Y díganos también si este sistema se ha extendido a otras comunidades autónomas. Díganos qué beneficios, quiénes reciben esos beneficios y por qué medios y si ha afectado a la tarifa eléctrica. Es su competencia y lo tiene que aclarar. Le digo más, el señor Herrera no ha querido comparecer en las Cortes<note>La señora Sánchez García: ¿Cómo que no?</note> , lo mismo que usted no ha querido comparecer en esta Cámara para explicar el caso Rato. Dedíquense ustedes a otra cosa. España y Castilla y León necesitan servidores públicos y no personas que se sirvan a sí mismos.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u127" ana="#chair">
                <seg>Gracias, señor Gordo.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -793,19 +791,19 @@
                <seg>Sobre los hechos a los que usted se refiere, a quien tendrá que preguntar no es al ministro de Hacienda y Administraciones Públicas actual, le tendrá que preguntar al señor Sebastián<note>Risas</note> , que es el ministro de Industria tutelante, al señor Montilla y al señor Clos, ¿o es que no hubo esos Gobiernos y esos ministros de Industria que fueron los que tenían la responsabilidad de tutelar todos los sistemas de adjudicaciones y de primas?</seg>
                <note>El señor Gordo Pérez: ¡Es corrupción del PP!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u129" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>EXCLUSIÓN DEL ORDEN DEL DÍA DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS: - PROYECTO DE LEY DE ORDENACIÓN, SUPERVISIÓN Y SOLVENCIA DE LAS ENTIDADES ASEGURADORAS Y REASEGURADORAS.</head>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u130" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u130" ana="#chair">
                <seg>Terminado el punto de las preguntas y antes de pasar a las interpelaciones quiero decirles a los señores diputados, de cara al orden del día de mañana, que el punto 30, debate de totalidad de iniciativas legislativas sobre el proyecto de ley de ordenación, supervisión y solvencia de las entidades aseguradoras y reaseguradoras, desaparece del orden del día porque había una enmienda a la totalidad del Grupo de Convergència i Unió que este ha retirado.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO CATALÁN , SOBRE LAS MEDIDAS QUE DEBERÍA ADOPTAR EL GOBIERNO PARA EXIMIR DE LA PRESENTACIÓN DEL IMPUESTO SOBRE SOCIEDADES A LAS PEQUEÑAS ENTIDADES SIN ÁNIMO DE LUCRO.</head>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u131" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u131" ana="#chair">
                <seg>Interpelación urgente del Grupo Catalán de Convergència i Unió, sobre las medidas que debería adoptar el Gobierno para eximir de la presentación del impuesto sobre sociedades a las pequeñas entidades sin ánimo de lucro. Para la defensa de la interpelación, tiene la palabra el señor Sánchez i Llibre.<note>Rumores</note> Por favor, ruego a los que no van a seguir la interpelación que abandonen el hemiciclo y a los que vayan a hacerlo que se dispongan adecuadamente.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u132"
@@ -821,7 +819,7 @@
                <seg>Muchas gracias, señor presidente, señoras y señores diputados.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u133" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u133" ana="#chair">
                <seg>Muchas gracias, señor Sánchez i Llibre.</seg>
                <seg>Tiene la palabra ahora, en nombre del Gobierno, el señor ministro de Hacienda y Administraciones Públicas.</seg>
             </u>
@@ -836,7 +834,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u135" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u135" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Sánchez i Llibre.</seg>
             </u>
@@ -849,7 +847,7 @@
                <seg>Queremos intentar resolver esta situación y estamos convencidos de que lo vamos a conseguir con su sensibilidad y con su reconocimiento. A todas estas asociaciones sin ánimo de lucro les vamos a dar una gran noticia y podrán seguir haciendo esta gran labor social que están realizando hasta la fecha. En una palabra, vamos a ver si somos capaces entre todos de incrementar la felicidad de todas estas asociaciones y fundaciones que están trabajando por el bien común, ya que lo están haciendo sin percibir ninguna remuneración económica. Vamos a ver si somos capaces desde el Congreso de los Diputados, desde la Administración, de darles esta gran noticia para que vean incrementada su felicidad y para que vean a la Administración pública -en este caso a la Agencia Tributaria- como la cara amable que les posibilita realizar esta gestión.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u137" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u137" ana="#chair">
                <seg>Muchas gracias, señor Sánchez i Llibre.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -861,12 +859,12 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u139" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u139" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, SOBRE MEDIDAS PARA REVOCAR EL ACUERDO DEL CONSEJO DE MINISTROS DE 13/03/2015, QUE NIEGA LA EXTRADICIÓN SOLICITADA POR LAS AUTORIDADES ARGENTINAS DE PERSONAS ACUSADAS DE GRAVES CRÍMENES REALIZADOS DURANTE LA DICTADURA FRANQUISTA.</seg>
                <note>Número de expediente 172/000303</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u140" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u140" ana="#chair">
                <seg>Interpelación del Grupo de La Izquierda Plural, sobre medidas para revocar el acuerdo del Consejo de Ministros de 13 de marzo de 2015, que niega la extradición solicitada por las autoridades argentinas de personas acusadas de graves crímenes realizados durante la dictadura franquista. Para su defensa, tiene la palabra el señor Nuet.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u141"
@@ -1114,7 +1112,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u170" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u170" ana="#chair">
                <seg>Muchas gracias.</seg>
                <seg>Por el Grupo Parlamentario Popular, tiene la palabra el señor López Garrido.</seg>
             </u>
@@ -1130,7 +1128,7 @@
                <seg>Muchas gracias, señor presidente; muchas gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u172" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u172" ana="#chair">
                <seg>Muchas gracias, señor López Garrido.</seg>
                <seg>Señora Ariztegui, le han presentado una enmienda, ¿puede decirme cuál es su posición respecto a ella?</seg>
             </u>
@@ -1139,13 +1137,13 @@
                ana="#regular">
                <seg>No la aceptamos y pedimos la votación por puntos, por favor.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u174" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u174" ana="#chair">
                <seg>Así se hará, señora Ariztegui.</seg>
                <seg>Muchas gracias.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, SOBRE LOS PROPÓSITOS DEL GOBIERNO EN RELACIÓN A LA CONDENA DE LA LIMPIEZA NACIONAL Y CRÍMENES CONTRA LA HUMANIDAD COMETIDOS POR LA BANDA TERRORISTA ETA Y SU ENTRAMADO POLÍTICO, A FIN DE DAR LA NECESARIA SATISFACCIÓN Y RECONOCIMIENTO A LAS VÍCTIMAS DE ESTAS VIOLACIONES MANIFIESTAS DE LAS NORMAS INTERNACIONALES DE DERECHOS HUMANOS Y SATISFACER EL DERECHO INALIENABLE A CONOCER LA VERDAD.</seg>
                <note>Número de expediente 173/000206</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u175" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u175" ana="#chair">
                <seg>Moción del Grupo Parlamentario de Unión Progreso y Democracia sobre los propósitos del Gobierno en relación con la condena de limpieza nacional y crímenes contra la humanidad cometidos por la banda terrorista ETA y su entramado político, a fin de dar la necesaria satisfacción y reconocimiento a las víctimas de estas violaciones manifiestas de las normas internacionales de derechos humanos y satisfacer el derecho inalienable a conocer la verdad.</seg>
                <seg>Esta moción va a ser defendida por la señora Díez.</seg>
             </u>
@@ -1164,7 +1162,7 @@
                <seg>Gracias presidente, por su generosidad.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u177" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u177" ana="#chair">
                <seg>Gracias, señora Díez.</seg>
                <seg>En efecto, se han formulado enmiendas por varios grupos. Comenzamos por el Grupo Mixto, pero intervendrán tanto los que han formulado enmienda como los que no lo han hecho. En primer lugar, por el Grupo Mixto, tiene la palabra el señor Salvador.</seg>
             </u>
@@ -1176,7 +1174,7 @@
                <seg>Señora Díez, no tenemos ningún problema en votar lo mismo que votamos en Pamplona. Si no acepta la transacción, lo tendríamos que hacer así sin ningún complejo. Nosotros decimos aquí lo mismo que allí, aunque es verdad que tenemos el visto bueno de los promotores de la iniciativa de esa declaración a nuestra postura de firmar una transacción con más grupos, y me consta -así nos lo han dicho- que prefieren unidad y consenso en este tema. En todo caso, pase lo que pase -mañana será la votación-, con todo, nosotros seguiremos denunciando la impunidad de los jefes etarras, exigiendo la necesidad de resolver esos más de 326 asesinatos sin respuesta, apoyando a los miles de desplazados de la persecución etarra y colaborando con todas las iniciativas para que se reconozca y se declare que la izquierda abertzale fue cómplice necesaria de ETA y, en definitiva, para que no cambie el relato de la verdad. En todo caso, señora Díez, señorías, creo que debemos hacerlo todos juntos, o al menos cuantos más mejor.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u179" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u179" ana="#chair">
                <seg>Muchas gracias, señor Salvador.</seg>
                <seg>Señor Tardà.</seg>
                <pb n="52"/>
@@ -1190,7 +1188,7 @@
                <seg>Finalmente, por el contrario, nos alegramos de que en la Sala Ernest Lluch de este Congreso se celebren el próximo día 29 de mayo las jornadas por la paz y la convivencia en Euskal Herria, en las que participarán víctimas de ETA y de los GAL para avanzar en el camino de la reconciliación y la fraternidad. Este es un encuentro organizado por la parroquia San Carlos Borromeo de Madrid que cuenta con el aval de un buen número de diputadas y diputados de este Congreso.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u181" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u181" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>También por el Grupo Mixto, tiene la palabra el señor Urbina.</seg>
             </u>
@@ -1201,7 +1199,7 @@
                <seg>Señora Díez, entiendo que tiene la casa hecha unos zorros, que necesita votos a toda costa y que se tiene que presentar aquí como el ariete contra la izquierda abertzale y para eso nos trae esta moción, una moción que sabe que no tiene cobertura legal, que no se ajusta a la realidad y que no aporta nada a la convivencia en Euskal Herria. Pero esto a usted le da igual. lo que quiere son votos. Además, la trae a una Cámara que todavía ha sido incapaz de reconocer el verdadero genocidio, el que cometieron los franquistas en el Estado español y en Euskal Herria, donde, entre otras cosas, los cuneteros dejaron 3.500 muertos en Nafarroa y cientos de fosas comunes. Por lo tanto, señora Díez, un poco de seriedad a la hora de traer planteamientos a la Cámara.</seg>
                <seg>Insisten ustedes en el tema del relato, insisten ustedes en intentar contarnos qué ha ocurrido y qué no ha ocurrido en Euskal Herria. No nos lo tiene que contar nadie, nuestro pueblo lo ha vivido en sus propias carnes, no solo los últimos cincuenta años sino muchos más, y cada uno de nosotros -también usted- tiene su propio relato en el que cada uno sabe qué es lo que ha hecho, por qué lo ha hecho y qué es lo que ha sufrido. Por tanto, señora Díez, nada del relato uniformador que nos pretenden ustedes imponer. El relato lo conforman y lo van a conformar todos esos relatos individuales y colectivos que han vivido en sus propias carnes lo ocurrido durante todo este tiempo, mal que le pese, señora Díez. Y es cierto, en ese relato hay víctimas, demasiadas, que hay que reconocer y reparar, pero el cien por cien, señora Díez, sin dejar al margen ninguna víctima. En ese relato hay vulneración de derechos fundamentales, individuales y colectivos, que habrá que abordar, lo mismo que existen causas y porqués que deberán ser algún día abordados de manera democrática. Su propuesta, esta moción, no aporta nada positivo en ese sentido y por eso votaremos en contra, señora Díez.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u183" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u183" ana="#chair">
                <seg>Muchas gracias, señor Urbina.</seg>
                <seg>Se ha presentado también una enmienda por el Grupo de La Izquierda Plural, para cuya defensa tiene la palabra el señor Nuet.</seg>
                <pb n="53"/>
@@ -1213,7 +1211,7 @@
                <seg>Nuestro grupo ha presentado una enmienda que voy a leer textualmente. Dice así: «El Congreso de los Diputados condena de forma rotunda y expresa la violencia terrorista perpetrada por ETA y exige su disolución incondicional». La hemos presentado, en primer lugar, para que no haya dudas sobre nuestra postura, independientemente de lo que ahora vamos a opinar. Porque en el fondo de la condena de la violencia estamos todos de acuerdo, por supuesto, pero no podemos permitir que el populismo se adueñe del debate sobre la violencia en Euskadi y los años del plomo. De hecho, el populismo ya utilizó el tema a fondo para sus intereses políticos, pero ahora no estamos ya en ese contexto político. Por suerte, la paz, la racionalidad, el diálogo y la normalización política se han abierto paso de forma definitiva. Y hay que afirmar que tanto la izquierda abertzale como las víctimas de todas las violencias hoy forman parte de la solución en Euskadi y no del problema. Por tanto, de una forma muy clara en 1948 las Naciones Unidas aprobaron la Convención para la prevención y la sanción del delito de genocidio, y esa convención dice lo que dice; por tanto, cuando juzgamos los crímenes de lesa humanidad o de genocidio, lo hacemos a la luz de esa norma internacional, que de forma clara dice que los crímenes de lesa humanidad significan un ataque generalizado o sistemático contra una población civil o, por ejemplo, que para poder hablar de genocidio tenemos que estar frente a un plan o una política de Estado expresa -como fueron en su día las leyes nazis y las leyes franquistas que se aprobaron en España- o encubierta. Y es tan necesario que existan los crímenes como que exista el plan para cometerlos, y solo en ese caso se puede hablar de genocidio. Por tanto, no podemos votar favorablemente la iniciativa que se nos presenta porque lo que hace es retorcer los convenios internacionales para que se adapten al ideario político de una formación política, y eso no es posible. Los convenios internacionales están por encima de eso y, a la hora de juzgar, repito, los crímenes de lesa humanidad y de genocidio deben ser juzgados con esos criterios y no con los de una formación política o de un grupo de partidos políticos. Por todo ello, vamos a votar en contra. También nosotros nos congratulamos de que el Congreso de los Diputados el próximo 29 de mayo acoja en la simbólica Sala Ernest Lluch un encuentro de víctimas de ETA y del GAL, para que las víctimas dialoguen y nos enseñen a algunos y a algunas el camino y las soluciones.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u185" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u185" ana="#chair">
                <seg>Muchas gracias, señor Nuet.</seg>
                <seg>Para defender la enmienda del Grupo Socialista, tiene la palabra el señor Sicilia.</seg>
             </u>
@@ -1228,7 +1226,7 @@
                <seg>Muchas gracias.</seg>
                <note>Varios señores diputados: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u187" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u187" ana="#chair">
                <seg>Muchas gracias, señor Sicilia.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Barreda para presentar su enmienda.</seg>
             </u>
@@ -1242,7 +1240,7 @@
                <seg>Termino. Porque las víctimas son una prioridad, también lo son para nosotros los centenares de crímenes de ETA pendientes de resolución judicial, pendientes de esclarecimiento. Defendemos un final de ETA sin impunidad y con justicia, lo que nos obliga a pensar en las familias de cada una de las víctimas todos los días, a respaldar la labor del Estado de derecho y las Fuerzas y Cuerpos de Seguridad del Estado para detener y poner a disposición de la justicia a los terroristas huidos, más de 130 en esta legislatura, por cierto, en múltiples países de Europa y América, en una labor que permite que se cumplan las previsiones legales, es decir, que los criminales respondan de sus actos, cumplan íntegramente sus condenas y lejos de todo escenario de impunidad se sigan resolviendo casos y se puedan reabrir otros con el aporte de nuevas pruebas. Hoy podemos dar un nuevo paso en esa dirección.</seg>
                <seg>Señora Díez, quiero decirle para terminar que arrogarse de modo partidista iniciativas conjuntas, iniciativas de las que ni siquiera han sido ustedes partícipes hasta la fecha, no es la mejor manera de abordar estas cuestiones. Son cuestiones en las que estamos firmemente convencidos de que la unidad de los demócratas es un elemento fundamental. Es esa unidad la que ha contribuido de modo decisivo a la derrota de ETA, la de las fuerzas políticas, la de los ciudadanos respaldando la justicia, a las instituciones y a las fuerzas de seguridad. El fin de ETA es la victoria de todos los demócratas desde la unidad y lo tenemos presente tanto a la hora de firmar iniciativas como, por cierto, a la hora de ocupar la tribuna en mítines de precampaña. Por ello, sigo confiando en que podamos alcanzar&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u189" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u189" ana="#chair">
                <seg>Señor Barreda, tiene usted que terminar.</seg>
                <pb n="56"/>
             </u>
@@ -1254,7 +1252,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u191" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u191" ana="#chair">
                <seg>Muchas gracias, señor Barreda.</seg>
                <seg>En turno de fijación de posiciones, por el Grupo Vasco, PNV, tiene la palabra el señor Esteban.</seg>
             </u>
@@ -1267,7 +1265,7 @@
                <seg>El Instituto de la Memoria estará para el 26 de junio, el que ha promovido el Gobierno vasco. ¿Qué se puede pedir al Defensor del Pueblo que no se haya hecho ya? El informe del Instituto Valentín de Foronda sobre las acciones de ETA y la violencia de persecución. Se está haciendo y se está acabando el mapa de todas las acciones terroristas, municipio por municipio, el mapa de la memoria. Se ha hecho un informe por parte del Gobierno vasco de los casos no resueltos. En Euskadi hay un Día de la memoria de las víctimas de violencia política. ¿Qué estudio más quieren hacer? ¿Qué puede aportar el Defensor del<pb n="57"/> Pueblo? Me temo que no mucho más porque se ha hecho mucho y se tendrá en cuenta a las víctimas. No hagamos como si no se estuviera haciendo nada. ¡Claro que se están identificando y se está haciendo ese mapa!</seg>
                <seg>Voy terminando, señor presidente. Usted vuelve a insistir en el terrorismo en la Corte Penal Internacional, el señor Barreda ha ido por ahí, cuando el terrorismo en la Corte Penal Internacional necesita de una definición muy precisa para saber qué es lo que se va a juzgar. Se lo dije en los debates de unas resoluciones que se citan por parte de la enmienda que les ha presentado el Grupo Socialista y el Grupo Popular. Hace dos días el PKK era una organización terrorista para los aliados occidentales y para Estados Unidos y hoy en día resulta que es un aliado importante porque está combatiendo contra el Daesh. Ahí sí que podríamos entrar en la definición de genocidio contra algún grupo específico como, por ejemplo, los yazidíes o los cristianos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u193" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u193" ana="#chair">
                <seg>Señor Esteban, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u194"
@@ -1277,7 +1275,7 @@
                <seg>No puede pretender que el terrorismo, diciéndolo así sin más y por tanto quedando a la decisión de cada Estado qué es lo que se define por terrorista y por terrorismo, entre como tal en la Corte Penal Internacional. Un poco más de seriedad. Por tanto, tendremos que votar necesariamente en contra porque esta propuesta rompe todos los cánones y también desde luego la enmienda presentada por los dos grupos mayoritarios tendremos que votarla en contra.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u195" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u195" ana="#chair">
                <seg>Muchas gracias, señor Esteban.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> tiene la palabra el señor Guillaumes.</seg>
             </u>
@@ -1292,7 +1290,7 @@
                <seg>Hemos de decir que indudablemente la enmienda presentada por el Grupo Parlamentario Socialista, el Grupo Parlamentario Popular y Unión del Pueblo Navarro -no sabemos si alguien más- mejora infinitamente el texto del Grupo Parlamentario de Unión Progreso y Democracia -cosa que no es demasiado difícil-, pero cae en el mismo pecado original. Cae otra vez en la simplificación de los<pb n="58"/> conceptos de genocidio y lesa humanidad y, por tanto, es el mismo error político. No obstante, nos abrimos a que en el futuro de la manera razonable que se tiene que hacer, reuniéndonos todos los grupos y redactando un texto, podamos hablar de los desplazamientos forzados por amenazas. Estamos abiertos. Insisto en que es una realidad que vale la pena reconocer y, como todo lo que vale la pena, hay que hacerlo bien. Creemos que las víctimas no merecen menos que eso.</seg>
                <seg>Muchas gracias, presidente. Muchas gracias, señorías.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u197" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u197" ana="#chair">
                <seg>Muchas gracias, señor Guillaumes.</seg>
                <seg>Señora Díez, he entendido que podrá haber una transaccional con las enmiendas.</seg>
             </u>
@@ -1302,7 +1300,7 @@
                <seg>Gracias, presidente, por su amparo y por reconocerme el derecho a presentar iniciativas y a defenderlas, cosa que los demás me han negado.</seg>
                <seg>Hay una enmienda de La Izquierda Plural que ya he dicho que rechazaba -perdónenme por mi osadía al poder rechazar una enmienda- y hay una enmienda presentada por otros grupos a la que he presentado una transaccional y todavía no tengo respuesta. Perdónenme la osadía por no tener todavía respuesta y querer seguir ejerciendo como diputada gracias a los votos que me dieron los ciudadanos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u199" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-22-CD150422.u199" ana="#chair">
                <seg>Pues si hay transaccional, se votará la transaccional y, si no, se votará en sus términos.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Era la una y cuarenta minutos de la tarde.</seg>

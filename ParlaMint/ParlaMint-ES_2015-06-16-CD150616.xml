@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="106">106 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="106" xml:lang="es">106 speeches</measure>
+            <measure unit="speeches" quantity="106" xml:lang="en">106 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="8"/>
                <tagUsage gi="note" occurs="55"/>
                <tagUsage gi="u" occurs="106"/>
-               <tagUsage gi="lb" occurs="344"/>
+               <tagUsage gi="seg" occurs="344"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>JURAMENTO O PROMESA DE ACATAMIENTO DE LA CONSTITUCIÓN POR NUEVOS SEÑORES DIPUTADOS</head>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u1" ana="#chair">
                <seg>Vamos a proceder al juramento o promesa de acatamiento de la Constitución conforme al artículo 20.1.3.º del Reglamento. En sustitución de don Gaspar Llamazares Trigo, pregunto a doña Ana María Castaño Rey si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u2"
@@ -107,21 +105,21 @@
                ana="#regular">
                <seg>Prometo.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u3" ana="#chair">
                <seg>Doña Ana María Castaño Rey ha adquirido la condición plena de diputada. Enhorabuena.</seg>
                <note>Aplausos</note>
             </u>
          </div>
          <div type="debateSection">
             <head>MODIFICACIÓN DEL ORDEN DEL DÍA</head>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u4" ana="#chair">
                <seg>De conformidad con el artículo 68.1 del Reglamento y lo acordado en Junta de Portavoces, esta Presidencia propone al pleno de la Cámara la modificación del orden del día en la parte de mociones, de tal manera que la moción del Grupo Mixto, del señor Quevedo, que figura en el orden del día como punto 5, sea debatida en último lugar de las mociones. Asimismo, esta Presidencia propone al Pleno de la Cámara una modificación en la parte referente a interpelaciones, en el sentido de permutar el orden del debate de los puntos 26 y 27. ¿Lo acuerda así la Cámara?<note>Asentimiento</note> Esto que se ha acordado por la Cámara quiere decir que hoy veremos las dos proposiciones de ley, las dos proposiciones no de ley y la moción del Grupo Parlamentario Catalán</seg>
                <note>Convergència i Unió</note>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO SOCIALISTA, REGULADORA DE LOS DERECHOS DE LA PERSONA ANTE EL PROCESO FINAL DE LA VIDA.</head>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u5" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo Parlamentario Socialista, reguladora de los derechos de la persona ante el proceso final de su vida. Para la presentación de la iniciativa, tiene la palabra el señor Martínez Olmos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u6"
@@ -138,7 +136,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u7" ana="#chair">
                <seg>Muchas gracias, señor Martínez Olmos.</seg>
                <seg>Van a intervenir los grupos para fijación de posiciones. En primer lugar, por el Grupo Mixto, tiene la palabra el señor Baldoví.</seg>
                <pb n="8"/>
@@ -152,7 +150,7 @@
                <seg>Espero que hoy se apruebe esta iniciativa y ya en la próxima legislatura se aborde también, como ha dicho el ponente, con valentía el derecho a decidir el momento en que termina nuestra vida. Ojalá hoy a la hora de votar todos los diputados y todas las diputadas tengan presente, por encima de dogmas, tres palabras simples, sencillas: libertad, respeto y, sobre todo, humanidad.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u9" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Por el Grupo Mixto también, la señora Fernández Davila.</seg>
             </u>
@@ -163,7 +161,7 @@
                <seg>Señorías, hoy nos propone el Grupo Socialista debatir de nuevo el derecho de las personas ante el proceso final de la vida y ya anunciamos desde el Bloque Nacionalista Galego que vamos a votar favorablemente porque, aunque en los últimos años se ha tratado este asunto en diferentes ocasiones, aún no se ha legislado adecuadamente, de manera que cuando una persona quiera ejercer su derecho a decidir sobre su vida en el momento que se enfrenta, por ejemplo, a un proceso de enfermedad en fase terminal no tenga que enfrentarse a las grandes dificultades legales con las que se encuentra actualmente, que solo añaden angustia y dolor a la vida de una persona que ya no está en condiciones de soportarlo. Esto no lo decimos porque se nos ocurra, porque sí, no solamente porque lo conocemos por familiares o personas del entorno que han sufrido estas situaciones, sino porque muchas veces en los medios de comunicación han trascendido circunstancias que a todos nos han parecido dramáticas, algunas consiguieron su objetivo y otras sabemos que no ha sido así. Del mismo modo que sabemos que las dificultades, incluso desde el punto de vista legal -pueden acabar en un proceso, aunque finalmente puedan salir incluso absueltos-, afectan a los facultativos, como fue la experiencia que ocurrió en la Comunidad de Madrid. Por tanto, apoyamos este texto, porque lo que se pretende con esta proposición de ley es justamente garantizar no solo que se pueda ejercer ese derecho, sino que se den las mejores condiciones para que las personas, en los últimos días de su vida, como demandamos desde hace muchos años, puedan ejercer una muerte digna. Eso lo decimos todos cuando lo vemos de lejos, pero cuando lo vemos cerca parece que no queremos afrontar la realidad. Por eso, vuelvo a repetir, vamos a votar favorablemente este texto.<pb n="9"/> Pero no queremos finalizar nuestra intervención, el poco tiempo que tenemos, sin hacer mención a algo que nos parece muy importante -el portavoz del Grupo Socialista también lo ha mencionado-, y es que se debe legislar en la dirección en la que va la propuesta que hoy debatimos, pero también es necesario avanzar en la dirección de garantizar el derecho a las personas que quieren decidir sobre su vida o sobre su muerte, lo que es la muerte digna, por estar, como ha ocurrido en muchos casos de personas que lo han solicitado, en graves situaciones de invalidez severa, etcétera; como dijo en su momento Ramón Sampedro, que ha sido un ejemplo en la lucha reivindicativa de este derecho, cuando una persona vive una vida que no es más que una muerte en vida o una vida muerta. Por eso nosotros aprovechamos esta ocasión para volver a manifestar nuestra posición sobre la necesidad de legislar respecto de esta cuestión, para que estas personas puedan ejercer ese derecho a la muerte digna.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u11" ana="#chair">
                <seg>Muchas gracias, señora Fernández.</seg>
                <seg>Tiene la palabra ahora, también por el Grupo Mixto, la señora Jordà.</seg>
             </u>
@@ -174,7 +172,7 @@
                <seg>Probablemente, no descubro nada si digo que el deseo de todas las personas es ser felices; probablemente, también lo es, consciente o inconscientemente, el de aquella cuya vida se ha convertido en un infierno diario. El deseo de la muerte no es más que la constatación cruel y dolorosa de que no se puede ser feliz con la vida que se tiene, de que no se puede vivir en dignidad. Afortunadamente, hay quien en situaciones similares desea continuar viviendo y lo aplaudo, pero esta voluntad es única y exclusivamente una voluntad personal, es fruto de una decisión libre y personal. La existencia de este tipo de personas debe servir como estímulo para otras que están en su misma situación con el fin de alentarlas en su deseo de vivir, pero nunca puede servir como excusa para negar el sufrimiento que padecen otras y su derecho de poner fin a su vida. Dejen de marear la perdiz y cojan el toro por los cuernos, dejen de regular lo que ya está regulado, hablemos no de la voluntad de alguien de quitar la vida a alguien, sino de la voluntad de uno mismo a no querer seguir viviendo cuando las circunstancias de la vida son tan tristes que personalmente se determina que no es vida, así como de la necesaria complicidad que requiere de otra persona para llevar a cabo en este caso su voluntad. Por ello -voy acabando, señor presidente-, la actuación de esta persona no es un acto cruel que deba ser penado por el Código Penal; por el contrario, es un inmenso, un inmenso acto de amor, un inmenso acto de humanismo y de fidelidad hacia la persona que sufre. Hagamos, pues, un alegato a favor de la libertad individual de la persona, de una libertad que debe ser tan grande, tan grande como para incluir el derecho a decidir sobre la propia vida y a la vez también sobre la propia muerte.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u13" ana="#chair">
                <seg>Muchas gracias, señora Jordà.</seg>
                <seg>Por el Grupo Vasco, PNV, tiene la palabra el señor Agirretxea.</seg>
             </u>
@@ -190,7 +188,7 @@
                <seg>En el caso de Euskadi podemos decir que todas las cuestiones que están planteadas en esta proposición de ley, que presenta el Grupo Socialista, se cumplen por la vía de los hechos. Del mismo modo, en el Parlamento vasco está en trámite en estos momentos un proyecto de ley sobre la dignidad y los derechos de las personas en el final de la vida. Nosotros consideramos que las comunidades autónomas son las que, entre otras cosas, pueden y deben desarrollar un marco legislativo propio para esta área. No tenemos muy claro lo que ustedes entienden por carácter puramente básico, y que el Partido Socialista trae aquí, aunque estamos totalmente de acuerdo con dos cuestiones: que todos deben tener esos derechos y que en todos los lugares se deben aplicar o que no se deben poner cortapisas ni restricciones a esos derechos de los enfermos, y mucho menos aportando solamente el valor de la decisión de una de las partes.</seg>
                <seg>Ante esta situación podríamos lanzar preguntas. ¿Cómo se debe atender de una manera integral y respetuosa, con su dignidad, a las personas que sufren lentas y penosas enfermedades degenerativas e incurables? ¿Es éticamente aceptable ayudar a morir a una persona que así lo desea a causa de su tremendo sufrimiento? ¿A quién corresponde establecer qué es una muerte digna? ¿La prolongación de la vida es siempre un bien o en ocasiones se ha de ceder ante otras consideraciones médicas y humanas? ¿Puede alargarse la vida a cualquier precio? ¿Es justificable la obstinación terapéutica o lo que es lo mismo, es éticamente aceptable reducir el esfuerzo terapéutico en determinados supuestos y dejar que una persona fallezca? ¿Tiene la obligación el personal sanitario de sujetarse a la voluntad del paciente aun cuando esta contradiga su criterio profesional? Y si la tiene, ¿tiene derecho a la objeción de conciencia? Son preguntas que seguramente todos nos hacemos, y la parte legislativa que el Grupo Socialista nos trae hoy como proposición de ley contiene elementos que para nuestro grupo no hay que tachar. Es más, con todos ellos estamos de acuerdo. Y vuelvo a reiterar que deberíamos dar un paso más y debatir de más cosas porque hay más situaciones; quizás le podamos poner nombres como eutanasia, suicidio asistido, muerte digna, etcétera. La gente ha vivido y llega el momento en que tiene que morir. La calidad de vida es importante, pero hablemos también de calidad de muerte. Hagamos que la muerte también tenga una calidad...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u15" ana="#chair">
                <seg>Señor Agirretxea, debe usted terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u16"
@@ -199,7 +197,7 @@
                <seg>Acabo, señor presidente, diciendo que estamos de acuerdo con los contenidos de la proposición del Grupo Socialista. Esperemos que algún día debatamos abiertamente todas estas cuestiones.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u17" ana="#chair">
                <seg>Muchas gracias, señor Agirretxea.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -216,7 +214,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u19" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por La Izquierda Plural, tiene la palabra la señora García Álvarez.</seg>
             </u>
@@ -232,7 +230,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u21" ana="#chair">
                <seg>Muchas gracias, señora García Álvarez.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , tiene la palabra la señora Tarruella.</seg>
             </u>
@@ -246,7 +244,7 @@
                <seg>Tal y como digo, nosotros no tenemos nada que añadir al contenido de esta proposición de ley. Si traemos aquí la ley vigente en Cataluña verán que es muy parecida, quizá un poco más amplia, adaptada a la realidad y a las necesidades sociales que hay en Cataluña en estos momentos. Además quiero decir que fue un senador de Convergència i Unió, compañero de partido, el señor Jaume Cardona, el que trajo al Senado la Ley de Autonomía Personal nacional, actualmente en vigor. Lo recuerdo con mucha emoción porque cuando trajo al Senado la proposición para hacer lo que hoy es la Ley de Últimas Voluntades él era ya un enfermo terminal, falleció poco después de aprobar esa ley y lo hizo con mucho orgullo y con mucha dignidad. Esa ley, que ya cubre todo el territorio nacional, creemos que si se desarrollara y se hiciera cumplir cubriría estupendamente todo lo que esta proposición de ley nos viene a decir. Y me dirán ustedes que si hay invasión de competencias, si la considero innecesaria, ¿por qué no voto en contra? Pues porque nos parece que si en alguna comunidad autónoma no se hace, las personas están por encima de todo y tienen derecho, al final de la vida, a que en esos momentos sean respetuosos con ellos, no se encarnicen con ellos con medidas terapéuticas innecesarias, tienen derecho a no tener dolor, a afrontar la etapa final de la vida con el máximo de dignidad. Eso nos parece importante y, por lo tanto, en esta proposición de ley nos vamos a abstener.</seg>
                <seg>Muchísimas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u23" ana="#chair">
                <seg>Muchas gracias, señora Tarruella.</seg>
                <seg>Por el Grupo Popular tiene la palabra don Ovidio Sánchez.</seg>
             </u>
@@ -259,12 +257,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u25" ana="#chair">
                <seg>Muchas gracias, señor Sánchez.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO CATALÁN<note>CONVERGÈNCIA I UNIÓ</note> , PARA POSIBILITAR QUE LOS TRABAJADORES PUEDAN INICIAR UN EXPEDIENTE DE REGULACIÓN DE EMPLEO PARA LA EXTINCIÓN DE SUS CONTRATOS, CUANDO EL EMPRESARIO NO DÉ COMIENZO AL PROCEDIMIENTO Y SE VEAN PERJUDICADOS POR ELLO.</seg>
                <note>Número de expediente 122/000150</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u26" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u26" ana="#chair">
                <seg>Proposición de ley del Grupo Parlamentario Catalán<note>Convergència i Unió</note> para posibilitar que los trabajadores puedan iniciar un expediente de regulación de empleo para la extinción de sus contratos, cuando el empresario no dé comienzo al procedimiento y se vean perjudicados por ello.</seg>
                <seg>Para presentar esta iniciativa tiene la palabra el señor Campuzano.</seg>
             </u>
@@ -587,7 +585,7 @@
                <seg>Quiero agradecer al Grupo Popular y al Grupo Socialista sus enmiendas, que creo que enriquecen bastante el texto. En algunos casos vienen a decir lo mismo, aunque con otras palabras, y en otros complementan lo que queremos decir en esta proposición no de ley relativa a las vacunas y cuya tramitación nos gustaría que fuera posible. Señor presidente, anuncio que estamos trabajando en una transaccional que nos gustaría muchísimo que pudieran apoyar para que esta proposición no de ley saliera adelante, si fuera posible, por unanimidad.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u68" ana="#chair">
                <seg>Muchas gracias, señora Tarruella.</seg>
                <seg>Para la defensa de las enmiendas a las que se ha referido la señora Tarruella, en primer lugar, por el Grupo Socialista, tiene la palabra la señora Fernández Moya.</seg>
             </u>
@@ -602,7 +600,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos.-Un señor diputado: ¡Muy bien!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u70" ana="#chair">
                <seg>Muchas gracias, señora Fernández Moya.</seg>
                <seg>Por el Grupo Popular, para presentar también su enmienda, tiene la palabra el señor Mingo.</seg>
             </u>
@@ -617,7 +615,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u72" ana="#chair">
                <seg>Muchas gracias, señor Mingo.</seg>
                <seg>En turno de fijación de posiciones, por el Grupo Mixto, la señora Pérez tiene la palabra.</seg>
             </u>
@@ -631,7 +629,7 @@
                <seg>Nosotros esperamos que así sea, que el Gobierno escuche a los profesionales sanitarios y atienda a la preocupación de los padres y madres y, por tanto, libere la venta de la vacuna en farmacias. También estamos de acuerdo en que debe revisarse y ampliarse el calendario común de vacunación infantil para evitar enfermedades y muertes, pero también, señorías, para evitar algo que en este momento se está produciendo, que es desigualdad.</seg>
                <seg>Muchas gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u74" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u74" ana="#chair">
                <seg>Muchas gracias, señora Pérez.</seg>
                <seg>Por el Grupo Vasco, PNV, tiene la palabra el señor Agirretxea.</seg>
             </u>
@@ -646,7 +644,7 @@
                <seg>Dicho esto, hay cuestiones con las que no se puede ni se debe jugar. Y, como decía la señora Tarruella, cuando tú quieres hacerte daño a ti mismo, es un problema tuyo; pero cuando tu negligencia o tu convicción perjudican a los demás, se deben tomar ciertas medidas profilácticas. No sé cuáles. Por lo tanto, estamos de acuerdo con la proposición que ha presentado Convergència i Unió y la apoyaremos.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u76" ana="#chair">
                <seg>Muchas gracias, señor Agirretxea.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia, tiene la palabra la señora Díez.</seg>
             </u>
@@ -660,7 +658,7 @@
                <seg>Con el objetivo de unificar el calendario de vacunación en nuestro país, en 2011, se puso en marcha a través de distintas recomendaciones de la Asociación Española de Vacunología y de la Asociación Española de Pediatría un documento que recogía toda una serie de argumentos y justificaciones que avalaban la creación de un calendario de vacunación único -este del que les estamos hablando en nombre de Unión Progreso y Democracia-. Como consecuencia de esa presión, se puso en marcha ese calendario, pero -ustedes lo saben bien, el portavoz del Grupo Popular lo ha citado aunque de una manera ligera o pasando por encima de ello- cuando se puso en marcha ese calendario, que tenía que estar en vigor a principios del año 2014 -sin que eso haya sido así-, el calendario de vacunación único resultó calificado por los profesionales como muy básico, retrógrado en algunos casos respecto a los calendarios de vacunación ya existentes en diferentes comunidades autónomas. Esa fue una calificación de los propios profesionales.</seg>
                <seg>Se hablaba, por ejemplo, del retroceso que suponía ese calendario común porque se solicitaba a algunas comunidades autónomas que retiraran vacunas como la del neumococo o de la varicela que ellas mismas sí tenían incluidas en sus calendarios. Ustedes lo recordarán y recordarán además las consecuencias dramáticas que ha tenido la retirada de esas vacunas; consecuencias que han generado mucha perturbación, mucha inseguridad y en algunos casos lamentablemente muertes. Elaborar un calendario común de vacunación infantil de máximos que garantice la igualdad...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u78" ana="#chair">
                <seg>Señora Díez, tiene que ir terminando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u79"
@@ -670,7 +668,7 @@
                <seg>Gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u80" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Por el Grupo de La Izquierda Plural tiene la palabra la señora Castaño, a quien felicito por su disposición a intervenir en el día que adquiere su condición de diputada.</seg>
             </u>
@@ -685,7 +683,7 @@
                <seg>Por todo lo aquí expuesto y porque nos posicionamos al lado de la salud pública y de los intereses de la ciudadanía, frente al afán de la industria farmacéutica por vender cada día más y más productos, votaremos en contra de la proposición presentada.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u82" ana="#chair">
                <seg>Muchas gracias, señora Castaño.</seg>
                <seg>Señora Tarruella, aunque usted ya lo ha manifestado, le pregunto si hay una enmienda transaccional.</seg>
             </u>
@@ -698,7 +696,7 @@
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO CATALÁN , SOBRE LA SOSTENIBILIDAD Y FINANCIACIÓN DEL SISTEMA SANITARIO.</head>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u84" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u84" ana="#chair">
                <seg>Señora Tarruella, vuelvo a llamarla para que defienda la moción del Grupo Parlamentario Catalán<note>Convergència i Unió</note> sobre la sostenibilidad y financiación del sistema sanitario.</seg>
                <seg>Tiene la palabra, señora Tarruella.</seg>
             </u>
@@ -714,7 +712,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u86" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u86" ana="#chair">
                <seg>Muchas gracias, señora Tarruella.</seg>
                <seg>En efecto, hay dos enmiendas que van a ser aceptadas, pero para su defensa tiene la palabra, en primer lugar, por La Izquierda Plural el señor Coscubiela.</seg>
                <pb n="44"/>
@@ -730,7 +728,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u88" ana="#chair">
                <seg>Gracias, señor Coscubiela.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra, para presentar su enmienda, el señor Rangel.</seg>
             </u>
@@ -746,7 +744,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u90" ana="#chair">
                <seg>Muchas gracias, señor Rangel.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra la señora Díez.</seg>
             </u>
@@ -759,7 +757,7 @@
                <seg>Gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u92" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Por el Grupo Popular, tiene la palabra la señora Rodríguez Sánchez.</seg>
             </u>
@@ -770,7 +768,7 @@
                <seg>Créame, señora Tarruella, que el Grupo Popular comparte con usted la preocupación por la sostenibilidad del sistema, y no es una preocupación nueva que haya llegado con la crisis. Nuestra preocupación es compartida por todos los agentes implicados con la salud desde hace muchísimos años, y la financiación, aun siendo un elemento clave, no es el único factor para esa sostenibilidad. Así lo manifestaron en su totalidad todos los expertos que comparecieron en la subcomisión, como saben muy bien tanto el representante del PNV como usted misma, que tuvo un papel muy activo. El resto de los grupos también lo sabrían si hubiesen participado y mostrado interés en esas comparecencias para analizar los problemas estructurales del sistema sanitario y su sostenibilidad.<pb n="47"/> Claro que la financiación es importante, y podemos coincidir en que el sistema actual, regulado por la Ley de 2009 del Gobierno socialista, merece todo un repaso. Esta es una cuestión que hay que abordar de manera reflexiva, pero coincidirá conmigo en que en los momentos que hemos vivido lo primero que había que abordar era la propia supervivencia del sistema sanitario, que en 2011 nos encontramos prácticamente en la UCI. Con esa situación de partida y en unos momentos muy duros este Gobierno ha tenido que tomar medidas extraordinarias para dar liquidez a las comunidades autónomas, asegurar las prestaciones sanitarias y hacerlo con calidad. Líneas ICO, pago a proveedores, adelanto de entregas a cuenta, el FLA, la continuidad del aplazamiento de las liquidaciones negativas. Señorías, solamente para el pago a proveedores la Generalitat ha recibido más de 15.000 millones. Quiero recordar que las comunidades son las responsables de establecer prioridades en la aplicación de la financiación transferida, porque mientras el Gobierno está haciendo todo ese esfuerzo, la Generalitat anuncia hoy la apertura de tres nuevas embajadas -en Marruecos, Portugal y el Vaticano- mientras se cierran ambulatorios y el anuncio se hace el mismo día que el Colegio de Farmacéuticos denuncia un impago cercano a 300 millones de euros.</seg>
                <seg>En su moción proponen la creación de otros fondos. Señorías, las medidas adoptadas por este Gobierno aseguran las prestaciones y su eficiencia. Los costes por innovaciones se equilibran con los ahorros por las agrupaciones homogéneas, los precios de referencia y los genéricos, y esto significa ahorro para las comunidades autónomas. Y mucho más nos ahorraríamos si todos participásemos en todas las centrales...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u94" ana="#chair">
                <seg>Perdón, señora diputada.</seg>
                <seg>Ruego silencio, por favor.</seg>
             </u>
@@ -782,7 +780,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u96" ana="#chair">
                <seg>Muchas gracias, señora Rodríguez Sánchez.</seg>
                <seg>Usted, señora Tarruella, lo ha explicado perfectamente pero a efectos de comprobación, ¿admite las enmiendas del Grupo Socialista y del Grupo de La Izquierda Plural?<note>Asentimiento</note> Así se votará.</seg>
                <seg>En unos minutos procederemos a votar.<note>Pausa</note> Señorías, en la madrugada del pasado domingo nos dejó don José Federico de Carvajal, diputado en esta Cámara durante la IV Legislatura y presidente del Senado de España durante dos legislaturas. José Federico de Carvajal fue un hombre comprometido con sus principios, firme defensor de los derechos de los trabajadores, llegando a ser presidente de la Federación de Trabajadores del Derecho de la UGT. Hoy,<pb n="48"/> el Congreso de los Diputados quiere rendir homenaje a quien fue un referente en la España de la Transición y hacer llegar su sentimiento de pesar a todos sus familiares y amigos. Quiero añadir también y a instancia de todos los grupos parlamentarios, ante la triste noticia del fallecimiento de Ana María Vidal-Abarca, fundadora de la Asociación de Víctimas del Terrorismo, que el Congreso de los Diputados desea también hacer llegar su muestra de pesar y cariño a sus familiares y amigos, así como a todo el colectivo de las víctimas del terrorismo. Descansen en paz.</seg>
@@ -791,51 +789,51 @@
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY : - DEL GRUPO PARLAMENTARIO SOCIALISTA, REGULADORA DE LOS DERECHOS DE LA PERSONA ANTE EL PROCESO FINAL DE LA VIDA.</head>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u97" ana="#chair">
                <seg>Vamos a votar, en primer lugar, la toma en consideración de la proposición de ley del Grupo Socialista reguladora de los derechos de la persona ante el proceso final de la vida.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 312; a favor, 123; en contra, 171; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u98" ana="#chair">
                <seg>No se toma en consideración.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO CATALÁN<note>CONVERGÈNCIA I UNIÓ</note> , PARA POSIBILITAR QUE LOS TRABAJADORES PUEDAN INICIAR UN EXPEDIENTE DE REGULACIÓN DE EMPLEO PARA LA EXTINCIÓN DE SUS CONTRATOS, CUANDO EL EMPRESARIO NO DÉ COMIENZO AL PROCEDIMIENTO Y SE VEAN PERJUDICADOS POR ELLO.</seg>
                <note>Número de expediente 122/000150</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u99" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u99" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo Parlamentario Catalán<note>Convergència i Unió</note> para posibilitar que los trabajadores puedan iniciar un expediente de regulación de empleo para la extinción de sus contratos cuando el empresario no dé comienzo al procedimiento y se vean perjudicados por ello.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 128; en contra, 171; abstenciones, 12.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u100" ana="#chair">
                <seg>No se toma en consideración.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY : - DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, RELATIVA AL DESARROLLO DE UN MARCO DE ACTUACIÓN PARA LAS PERSONAS MAYORES.</head>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u101" ana="#chair">
                <seg>Proposición no de ley del Grupo Popular relativa al desarrollo de un marco de actuación para las personas mayores. Se vota en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 173; en contra, 133; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u102" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO CATALÁN<note>CONVERGÈNCIA I UNIÓ</note> , SOBRE RESTRICCIONES EN LA DISPENSACIÓN DE VACUNAS.</seg>
                <note>Número de expediente 162/000977</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u103" ana="#chair">
                <seg>Proposición no de ley del Grupo Parlamentario Catalán<note>Convergència i Unió</note> sobre restricciones en la dispensación de vacunas.</seg>
                <seg>Se vota en los términos resultantes de una enmienda transaccional de los grupos Catalán<note>Convergència i Unió</note> y Popular.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="49"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 310; a favor, 199; en contra, 11; abstenciones, 100.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u104" ana="#chair">
                <seg>Queda aprobada la proposición no de ley.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - DEL GRUPO PARLAMENTARIO CATALÁN , SOBRE LA SOSTENIBILIDAD Y FINANCIACIÓN DEL SISTEMA SANITARIO.</head>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u105" ana="#chair">
                <seg>Votación de la moción del Grupo Parlamentario Catalán<note>Convergència i Unió</note> sobre la sostenibilidad y financiación del sistema sanitario, con la incorporación de las enmiendas de los Grupos Socialista y de La Izquierda Plural.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 311; a favor, 134; en contra, 170; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u106" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-06-16-CD150616.u106" ana="#chair">
                <seg>Queda rechazada la moción.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las ocho y treinta minutos de la noche.</seg>

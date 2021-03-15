@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="81">81 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="81" xml:lang="es">81 speeches</measure>
+            <measure unit="speeches" quantity="81" xml:lang="en">81 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="23"/>
                <tagUsage gi="u" occurs="81"/>
                <tagUsage gi="note" occurs="131"/>
-               <tagUsage gi="lb" occurs="189"/>
+               <tagUsage gi="seg" occurs="189"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#covid">
       <body>
@@ -198,7 +196,7 @@
                <seg>Señora Vázquez y señorías del Partido Popular, se lo decía: si ustedes de verdad quieren demostrar que luchan contra la corrupción, hoy tienen una oportunidad para hacerlo. Dejen de utilizar a la Policía -dejen de utilizar a la Policía- para tapar sus vergüenzas, porque eso perjudica al interés de España; dejen de utilizar y bloquear instituciones como el Consejo General del Poder Judicial porque eso perjudica a España; y dejen de justificar la corrupción porque eso perjudica a España. Si tan patriotas son, ¿saben lo que pueden hacer? En lugar de pedir el carné de militante al señor Fernández Díaz, pídanle que venga a comparecer en la Comisión y que explique lo que fue la Kitchen. Por cierto, díganle también al secretario de Estado de Seguridad, al señor Martínez, que no hace falta que vaya al juzgado a tirar de la manta, que lo puede hacer pero que también lo esperamos aquí en esta sede para que dé las explicaciones que vamos a exigirle.</seg>
                <note>Aplausos.-Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2020-10-01-CD201001.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2020-10-01-CD201001.u18" ana="#chair">
                <seg>Gracias, señor Sicilia.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> Tiene la palabra el señor Echenique Robba.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-10-01-CD201001.u19"

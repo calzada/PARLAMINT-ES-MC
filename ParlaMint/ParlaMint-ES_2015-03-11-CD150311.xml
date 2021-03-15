@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="209">209 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="209" xml:lang="es">209 speeches</measure>
+            <measure unit="speeches" quantity="209" xml:lang="en">209 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="50"/>
                <tagUsage gi="note" occurs="145"/>
                <tagUsage gi="u" occurs="209"/>
-               <tagUsage gi="lb" occurs="484"/>
+               <tagUsage gi="seg" occurs="484"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>MINUTO DE SILENCIO</head>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Señorías, hoy se cumplen once años del brutal atentado terrorista de Atocha, El Pozo y Santa Eugenia que se cobró la vida de 192 personas. El 11 de marzo de 2004 conmocionó a todos los españoles y quedará siempre en nuestra memoria. En recuerdo de las víctimas y unidos en el dolor a todos sus familiares, allegados y amigos, ruego que guardemos un minuto de silencio.<note>Las señoras y los señores diputados, puestos en pie, guardan un minuto de silencio</note> Muchas gracias.</seg>
                <note>Aplausos</note>
@@ -107,7 +105,7 @@
          </div>
          <div type="debateSection">
             <head>PREGUNTAS - DEL DIPUTADO DON ALFRED BOSCH I PASCUAL, DEL GRUPO PARLAMENTARIO MIXTO, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿CONSIDERA EL GOBIERNO ADECUADO PARA ERRADICAR LA POBREZA INFANTIL EN CATALUÑA LOS 2,25 EUROS POR NIÑO QUE DESTINÓ PARA COMBATIRLA MEDIANTE EL FONDO CORRESPONDIENTE?</head>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u2" ana="#chair">
                <seg>Comenzamos con las preguntas dirigidas al señor presidente del Gobierno. Pregunta, en primer lugar, el diputado don Alfredo Bosch, del Grupo Parlamentario Mixto.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u3"
@@ -117,7 +115,7 @@
                <seg>Muchas gracias.</seg>
                <pb n="6"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u4" ana="#chair">
                <seg>Muchas gracias, señor Bosch.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -129,7 +127,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u6" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Bosch.</seg>
             </u>
@@ -139,7 +137,7 @@
                <seg>¿Sabe lo que pasa, presidente? Que no se lo digo yo, se lo dice todo el mundo; todo el mundo le da tirones de orejas. Se lo dice Unicef, que manifiesta que más de una cuarta parte de la población infantil está en situación de pobreza, que no se hace lo suficiente y que hay necesidad de un sistema de protección como tienen en otros países, que sí han conseguido reducir la pobreza infantil. Se lo dijo la Comisión Europea hace cinco días en su informe, en el cual exponían que los 17 millones de euros -que es la cifra que dan ellos- que destinaron a la pobreza infantil en 2014 son claramente insuficientes, y le dicen que son políticas regresivas que penalizan o castigan a las familias con las rentas más bajas. Eso es lo que le dicen, y le dicen también que la sociedad española desgraciadamente es el líder en pobreza infantil en la Unión Europea, y ese es el problema. Oiga, ¿se puede comprometer usted realmente a luchar contra la pobreza infantil? ¿Puede dedicar, por ejemplo -propuesta-, en este ejercicio el Fondo de contingencia a la pobreza infantil en vez de dedicarlo, como hacen cada año -1.700 millones de euros cada año-, a comprar armas, a gasto militar? ¿Pueden dedicarlo a pobreza infantil? Es posible, se hace en otros lugares. Señor Rajoy, le pido que hable con el corazón en la mano, le pido que sea sincero, que diga lo que piensa, que diga lo que siente. ¿Le parece que se está haciendo lo suficiente contra la pobreza infantil? ¿Le parece que se está haciendo bien o le da igual, o le entra por una oreja y le sale por la otra? ¡Qué triste pena, señor Rajoy! ¡Qué triste pena!</seg>
                <note>Pronuncia palabras en catalán</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u8" ana="#chair">
                <seg>Gracias, señor Bosch.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -150,12 +148,12 @@
                <seg>Yo le voy a decir lo que estamos haciendo en un tema en el que, precisamente porque puede ser dramático, conviene ser ecuánime y actuar con sensatez y dejar de lado la demagogia. Quiero hacer las siguientes consideraciones. La primera es que el principal factor que explica la pobreza infantil es el paro de los padres, por tanto la política más importante en esta materia, como en tantas, es hacer un esfuerzo para generar empleo en nuestro país y terminar con el paro. Por suerte, se han producido avances sustanciales en el año 2014 y yo espero que entre el año 2014 y el año 2015 se creen un millón de puestos de trabajo en nuestro país. Dicho esto, lo que acabo de señalar no es en absoluto suficiente y por eso hemos hecho más cosas y estamos dispuestos a hacer todo aquello que sea necesario para mejorar la situación de los niños. Hemos aprobado un plan de inclusión social, ese plan al que usted se refiere está dotado este año con 32 millones de euros. Asimismo, un plan concertado dirigido a los servicios sociales y a las corporaciones locales por importe de 27 millones de euros. Hemos destinado a subvenciones de programas sociales del IRPF más de 600 millones en esta legislatura y al Fondo de pago de alimentos, 40 millones de euros. También el FLA y el Plan de pago a proveedores sirven para atender la sanidad, la educación y los servicios sociales de los ayuntamientos y de las comunidades autónomas. Hemos creado un nuevo mecanismo de financiación, el Fondo social, para que los municipios cobren las atenciones que dedican a fines sociales mediante convenios con comunidades autónomas. Hemos aprobado un fondo específico para familias en situación de especial dificultad. Hemos prorrogado el Prepara. Hemos firmado con los sindicatos un programa extraordinario para formar a la gente para que pueda trabajar. Hemos<pb n="7"/> acordado programas de urgencia social, ayudas al Fondo social de la vivienda y se ha hecho un gran esfuerzo en el impuesto de la renta. Se puede hacer mucho más, y haremos cuanto sea necesario, pero no es justo decir que no se aborda este problema.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u10" ana="#chair">
                <seg>Gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON PERE MACIAS I ARAU, EN SUSTITUCIÓN DE DON JOSEP ANTONI DURAN I LLEIDA, DEL GRUPO PARLAMENTARIO CATALÁN<note>CONVERGÈNCIA I UNIÓ</note> , QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿QUÉ PRIORIDADES TIENE EL GOBIERNO EN POLÍTICA INDUSTRIAL?</seg>
                <note>Número de expediente 180/001230</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u11" ana="#chair">
                <seg>Pregunta que formula el diputado don Pere Macias, del Grupo Catalán de Convergència i Unió.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u12"
@@ -166,7 +164,7 @@
                <seg>Señor presidente, para salir de la crisis hace falta política industrial. Europa quiere que el 20 % del PIB de todos los países sea generado por la industria. Nosotros hemos perdido un millón de puestos de trabajo. Usted sabe, señor presidente, el efecto arrastre que tiene la industria sobre los otros sectores económicos. La recuperación solo será sostenible con industria. Esto se lo formuló, con otras palabras, nuestro portavoz en el debate del estado de la Nación, donde oímos muchas descalificaciones y pocas propuestas, y, de hecho, ninguna respuesta a nuestro portavoz en materia de política industrial. Por esto, le reformulamos algunas de las cuestiones más relevantes que, a nuestro juicio, deben presidir la política industrial. Vamos a tratar cuatro temas. En primer lugar, vamos a hablar de impulsar la innovación, de ser competitivos en energía, de minorar costes logísticos de transporte y de una política fiscal que atraiga la inversión industrial. En algunos sectores industriales, como el de la industria química -la de Tarragona y otros polígonos en toda España-, están muy preocupados por estos aspectos. Señor presidente, respecto a la política energética, nuestras industrias no son competitivas con una reforma energética que solo se ha hecho por motivos presupuestarios. En materia de innovación, entre los años 2010 y 2015 en los presupuestos ha disminuido un 50 % la inversión pública en innovación, y esto no es de recibo en estos momentos. Si hablamos de logística y transporte, dos temas. Autorización de vehículos de más capacidad de carga: en Portugal, 60 toneladas; en España, 40. ¿Cómo vamos a ser competitivos, señor presidente? Si hablamos de logística, el corredor mediterráneo. Según usted, debía estar en funcionamiento en febrero de 2015; aún tienen que empezar las obras. Si hablamos de política fiscal, acabamos de retirar las ayudas a la inversión en modernización medioambiental. Europa nos exige aplicar mejores técnicas disponibles. ¿Qué hacemos para ayudar a la industria? Le retiramos las ayudas. Las industrias, señor presidente, van a irse. Por esto, le pido, señor presidente, que afine su puntería en materia de política industrial.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u13" ana="#chair">
                <seg>Muchas gracias, señor Macias.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -178,12 +176,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u15" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>- DEL DIPUTADO DON PEDRO SÁNCHEZ PÉREZ-CASTEJÓN, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿CONSIDERA EL PRESIDENTE QUE LA ACTUACIÓN DEL GOBIERNO ANTE LAS INUNDACIONES DE LAS ÚLTIMAS SEMANAS HA SIDO LA ADECUADA?</seg>
                <note>Número de expediente 180/001220</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u16" ana="#chair">
                <seg>Pregunta dirigida al señor presidente del Gobierno que formula el diputado don Pedro Sánchez, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u17"
@@ -192,7 +190,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor Rajoy, ¿considera usted adecuada su gestión ante los efectos de la riada del Ebro?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u18" ana="#chair">
                <seg>Muchas gracias, señor Sánchez.</seg>
                <seg>Señor presidente.</seg>
             </u>
@@ -204,7 +202,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u20" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u20" ana="#chair">
                <seg>Muchas gracias, señor presidente.</seg>
                <seg>Señor Sánchez.</seg>
             </u>
@@ -215,7 +213,7 @@
                <seg>Señor Rajoy, el pasado 6 de marzo, cuando visitó de una forma precipitada la ciudad de Zaragoza, resumió en una sola frase su filosofía de acción política; usted dijo: yo voy donde me llevan. Usted dijo textualmente eso: yo voy donde me llevan. Señorías, este es el problema. El problema es que tenemos un presidente que no empatiza con el sufrimiento de la gente.</seg>
                <note>Rumores y protestas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u22" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u22" ana="#chair">
                <seg>Silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u23"
@@ -224,7 +222,7 @@
                <seg>Tenemos un presidente del Gobierno que no sabe dónde va; y lo que es más grave, señorías, tenemos un presidente del Gobierno que ni está ni le interesa ni le importa<pb n="9"/> el sufrimiento de la gente.<note>Rumores</note> Por eso, usted todavía no se ha reunido ni con los agricultores ni con los ganaderos ni con las vecinas y vecinos afectados de la ribera del Ebro, que no solamente están en la ciudad de Zaragoza, están en toda la provincia de Zaragoza, señor Rajoy; y están también en Navarra, en La Rioja y en Castilla y León, y le están esperando a usted y a su Gobierno, señor Rajoy. El hecho cierto es que hay algunas cosas que su Gobierno podría haber evitado: por ejemplo, la inexactitud en el caudal del río; por ejemplo, los recortes sistemáticos en todo lo que tiene que ver con las inversiones públicas en el mantenimiento del cauce del río; y también el no pagar las indemnizaciones, pues todavía tienen ustedes pendiente el pago a todos los afectados por las riadas del año 2013, aunque esa debe ser la tónica habitual por parte de su Gobierno, porque ocurre también con otras indemnizaciones, por ejemplo en Puerto Lumbreras o en la catástrofe de Lorca, señor Rajoy. Ahora ustedes presentan un real decreto deprisa y corriendo que es, a todas luces, insuficiente.<note>Rumores</note> Les diré una cosa, señorías del Grupo Parlamentario Popular, presidente del Gobierno, señor Rajoy, en esa riada ustedes se han dejado muchas cosas por delante, y una de ellas es su credibilidad como presidente del Gobierno, señor Rajoy.<note>Rumores</note> Sí, usted se esconde cada vez que hay un problema y, por eso, usted se ha negado aquí a responder a las preguntas que tienen que ver con la trama Gürtel<note>Rumores</note> y que implican a su partido directamente, señor Rajoy.<note>Rumores y protestas.-Aplausos</note> Sí, sí. ¿Pero sabe cuál es el problema? El problema es que mientras usted calla tenemos un ministro de Justicia que amedrenta y amenaza al juez instructor de la Gürtel, tenemos a un ministro de Hacienda que lo que hace es no colaborar con la justicia y utilizar de manera partidista a la Agencia Tributaria.<note>Rumores</note> Yo le pregunto una cosa, señor Rajoy: ¿como presidente del Partido Popular ha pagado los 245.000 euros de fianza que le exige la Audiencia Nacional por la trama Gürtel?<note>Rumores y protestas</note> Deje de esconderse, acuda aquí al Congreso de los Diputados y asuma sus responsabilidades como presidente del Partido Popular&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u24" ana="#chair">
                <seg>Gracias, señor Sánchez.</seg>
                <seg>Señor presidente, le recuerdo que solo tiene obligación de contestar a la pregunta que figura en el orden del día.<note>Protestas</note> Señor presidente.</seg>
             </u>
@@ -234,11 +232,11 @@
                <seg>Así lo haré, señor presidente, y no le pediré al señor Sánchez explicaciones por los 850 millones de los ERE de Andalucía que todavía no hemos conocido en esta Cámara a qué lo destinaron<note>Aplausos</note> , ni sobre los más de 250 imputados que se han producido, ni por la falta de explicaciones por parte de la presidenta de la Junta de Andalucía.<note>Protestas</note> A ello no me referiré, me referiré a lo que hizo usted cuando fue a Zaragoza. Fue allí cuando el Gobierno ya había ido. Fue allí a criticar a todos: al presidente del Gobierno, a la ministra de Agricultura, al ministro del Interior y al secretario de Medio Ambiente. Dio la sensación de que fue allí a ver si pescaba algo. Quiso retirar la pregunta que me ha hecho hoy aquí porque veía que ya no podía hacer nada. Olvidó decirle al conjunto de la Cámara que pararon las grandes obras como Yesa y Biscarrués, que probablemente hubieran evitado muchos de estos problemas.<note>Protestas</note> Realmente, la sensación que yo tengo, señor Sánchez, es que usted no debería hacer campañas a costa del sufrimiento de la gente ni debería desautorizar a los técnicos.</seg>
                <note>Un señor diputado: ¡Bravo!-Rumores.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u26" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u26" ana="#chair">
                <seg>Gracias, señor presidente.<note>La señora López i Chamosa pronuncia palabras que no se perciben.-Rumores y protestas</note> Señora López i Chamosa, le llamo al orden por primera vez.<note>Rumores</note> - DEL DIPUTADO DON ANTONIO HERNANDO VERA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA VICEPRESIDENTA DEL GOBIERNO Y MINISTRA DE LA PRESIDENCIA: ¿COORDINA LA VICEPRESIDENTA LAS ACTUACIONES DEL GOBIERNO PARA GARANTIZAR EL RESPETO A LA INDEPENDENCIA DE OTROS PODERES DEL ESTADO?</seg>
                <note>Número de expediente 180/001221</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u27" ana="#chair">
                <seg>Pregunta del diputado don Antonio Hernando, del Grupo Socialista, dirigida a la señora vicepresidenta del Gobierno y ministra de la Presidencia.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u28"
@@ -249,7 +247,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u29" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u29" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -260,7 +258,7 @@
                <seg>La separación de poderes está garantizada por nuestra Constitución y es la Constitución y las leyes las que determinan la forma de relación entre ambos, tanto las causas de recusación como el contenido y la extensión del auxilio judicial. Señor Hernando, el respeto por la separación de poderes hay que tenerlo desde el Gobierno y desde los demás poderes del Estado, recuérdelo también usted cuando me conteste a esta parte de su pregunta.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u31" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u31" ana="#chair">
                <seg>Gracias, señora vicepresidenta.</seg>
                <seg>Señor Hernando.</seg>
             </u>
@@ -271,7 +269,7 @@
                <seg>Gracias.</seg>
                <note>Varios señores diputados: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u33" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u33" ana="#chair">
                <seg>Gracias, señor Hernando.</seg>
                <seg>Señora vicepresidenta.</seg>
             </u>
@@ -283,7 +281,7 @@
                <note>Rumores y protestas</note>
                <pb n="11"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u35" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u35" ana="#chair">
                <seg>Por favor, silencio. Señora Ramón, silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u36"
@@ -292,7 +290,7 @@
                <seg>Señor Hernando, a lo mejor debe dar un poco más de juego a sus diputados para que hablen en el turno de preguntas que les corresponda y no cuando estamos contestando los demás.<note>Varios señores diputados: ¡La carta!</note> Señor Hernando, se nombrará secretario de la Sala de gobierno a quien por la ley corresponda, pero, como le decía, dado que usted es tan sensible a los errores del Gobierno, me gustaría que me comentara después&#x85;<note>El señor Villarubia Mediavilla: ¡Aquí, aquí!</note> , en pasillos, que es donde usted suele hacerlo cuando no gana en las preguntas, qué le parecen estas declaraciones.<note>Varios señores diputados: ¡La carta!</note> Si cree, señor Hernando&#x85;<note>Rumores</note> Señores del Partido Socialista, les veo muy excitados, pero me gustaría&#x85;</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u37" ana="#chair">
                <seg>Un momento, señora vicepresidenta.</seg>
                <seg>Por favor, está hablando la vicepresidenta y está contestando a una pregunta.<note>Varios señores diputados: No está contestando</note> Cuando termine ustedes podrán manifestar su agrado o su desencanto, pero cuando termine.</seg>
                <seg>Siga, por favor.</seg>
@@ -303,13 +301,13 @@
                <seg>¿Qué hubiera dicho, señor Hernando, si esa carta hubiera dicho: Precisamente el día en que los militantes de Izquierda Unida estaban votando sí o no a un Gobierno de coalición con el PSOE, la jueza hace coincidir esa detención con ese hecho -palabras de Pedro Sánchez-, y después decir que los jueces también están sujetos a crítica? ¿Qué hubiera dicho si esa carta -escrita por el señor Chaves hablando de sí mismo- hubiera dicho: El auto de Alaya roza la prevaricación? ¿Qué hubiera dicho si esa carta -según la señora Susana Díaz- hubiera dicho: Hubo demasiadas coincidencias entre los autos y las elecciones?, ¿o -Susana Díaz, dos-: La jueza con este tipo de actuaciones vuelve a interferir en una campaña electoral. ¿Qué hubiera dicho, señor Hernando, si el consejero de Justicia de una comunidad autónoma hubiera escrito en esa carta -el tique electoral, el señor de Susana Díaz-: No comparto las decisiones de la juez, pero es muy guapa?<note>Rumores.-El señor Hernando Vera muestra de nuevo la carta.-Varios señores diputados: ¡La carta!</note> Mire, señor&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u39" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u39" ana="#chair">
                <seg>Gracias, señora vicepresidenta.</seg>
                <seg>Vamos a continuar con las preguntas, ruego que haya respeto de unos hacia otros.</seg>
                <seg>- DEL DIPUTADO DON RAFAEL LARREINA VALDERRAMA, EN SUSTITUCIÓN DE DON JON IÑARRITU GARCÍA, DEL GRUPO PARLAMENTARIO MIXTO, QUE FORMULA AL SEÑOR MINISTRO DEL INTERIOR: ¿ESTIMA EL GOBIERNO CORREGIR LA DENEGACIÓN DE ASILO AL CIUDADANO SAHARAUI HASSANA AALIA?</seg>
                <note>Número de expediente 180/001200</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u40" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u40" ana="#chair">
                <seg>Pregunta dirigida al señor ministro del Interior. La formula el diputado don Rafael Larreina, del Grupo Mixto.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u41"
@@ -319,7 +317,7 @@
                <seg>Señor ministro, el joven Hassana Aalia es un activista y pacifista saharaui condenado a cadena perpetua por haber participado en la protesta pacífica Gdeim Izik, condenado en un juicio inicuo. Múltiples organismos internacionales que fueron observadores en ese proceso han denunciado públicamente y de forma unánime que el procedimiento seguido en el juicio de este tribunal militar estuvo plagado de irregularidades y que no contó con las garantías mínimas para considerarlo un juicio justo. Su ministerio ha denegado la solicitud de asilo presentada por este joven y le ordena la salida del Estado español, pero en esa misma resolución reconocen que es un activista de la causa saharaui, que es miembro de la Asociación saharaui de víctimas de derechos humanos y que Hassana desde los diecisiete años ha sufrido detenciones y malos tratos. Esto le reconoce la concurrencia que la ley establece para garantizar precisamente el derecho de asilo, para reconocer ese derecho; sin embargo, ustedes han decidido negarle ese derecho reconocido en la ley. ¿Por qué, señor ministro? Explíquenos el porqué de esta injusta resolución.</seg>
                <pb n="12"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u42" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u42" ana="#chair">
                <seg>Gracias, señor Larreina.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -330,7 +328,7 @@
                <seg>Señoría, como cuestión previa quiero recordarle lo que dice al respecto el artículo 16.4 de la Ley 12/2009, de 30 de octubre, reguladora del derecho de asilo y de la protección subsidiaria. Dice literalmente: Toda información relativa al procedimiento, incluido el hecho de la presentación de la solicitud, tendrá carácter confidencial. Por eso, entenderá que estoy limitado por ley a ser más explícito en cuanto a mi respuesta. La persona por la que se interesa su señoría vive en España desde 2011, el 12 de enero de 2012 presentó la solicitud de protección internacional y el 15 de diciembre pasado la Comisión Interministerial de Asilo y Refugio dictó resolución desestimatoria. Una vez que por auto de la Audiencia Nacional del pasado 27 de febrero se denegó al interesado la suspensión cautelarísima de la ejecución de la resolución denegatoria que él había solicitado, por entender que no concurren circunstancias de especial urgencia que justifiquen esa suspensión cautelar al no existir una orden de salida del territorio nacional en vías de inminente ejecución, ha presentado recurso contencioso-administrativo ante la Audiencia Nacional. Estaremos atentos, como es evidente, a lo que disponga ese órgano jurisdiccional.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u44" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u44" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor diputado.</seg>
             </u>
@@ -340,7 +338,7 @@
                <seg>Señor ministro, no haga perder el tiempo. Usted tenía que haber resuelto esa petición por la vía lógica. Le animo a que se informe sobre las causas del fallecimiento de Mohamed Lamin Haidala en El Aaiún hace menos de tres semanas y de las del preso político saharaui Abdul Baqi Aliyen a finales de enero. Al menos nueve personas han muerto bajo tortura en los dos últimos años en el Sáhara e innumerables en estos cuarenta años de abandono del pueblo saharaui. Señor Fernández, rectifique esta decisión que es claramente injusta. Rompa con la historia de su ministerio, con independencia de quién está al frente de él; una historia de apoyo a la tortura, de dar cobijo a los torturadores, de premiar a los torturadores, a los internos y recientemente a los externos. Ustedes premiaron a un marroquí torturador de saharauis que está perseguido, está reclamado por la justicia francesa. Ponga fin a esta situación, no facilite la labor de los torturadores marroquíes con el joven Hassana. Haga caso a lo que le ha dicho la mayoría de esta Cámara y la del Parlamento vasco, incluido el Grupo Popular. Rectifique y no ponga a los pies de los caballos al joven Hassana.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u46" ana="#chair">
                <seg>Muchas gracias, señor Larreina.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -352,15 +350,15 @@
                <seg>Es evidente que en el ámbito administrativo la resolución de la comisión interministerial ha dado por finalizado el procedimiento y que ahora, como le he dicho, está en manos de la Sala de lo Contencioso-administrativo de la Audiencia Nacional. En España hay separación de poderes y nos remitimos a ese fallo. En todo caso, esta persona, si tiene las condiciones para permanecer legalmente en España, no será obligado, no será expulsado de nuestro país en virtud de la denegación de esa petición de asilo o protección internacional que había presentado. Le añado, para que quede claro, que España es un país muy sensible a estas peticiones. En 2014 han sido aceptadas más de un 40 % del total de las peticiones de asilo y de protección subsidiaria formuladas en nuestro país, teniendo presente que en los tres últimos años se está incrementando exponencialmente a un ritmo de un 30 % anual el número de peticiones que para este tipo de protección nos formulan otras personas. Estamos haciendo un esfuerzo&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u48" ana="#chair">
                <seg>Muchas gracias, señor ministro.<pb n="13"/> - DE LA DIPUTADA DOÑA ÁNGELES ÁLVAREZ ÁLVAREZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE JUSTICIA: ¿CREE EL MINISTRO QUE ES DE JUSTICIA QUE LAS VÍCTIMAS DE VIOLENCIA DE GÉNERO SE VEAN DOBLEMENTE VICTIMIZADAS COMO CONSECUENCIA DE LAS QUERELLAS DE SUS AGRESORES?</seg>
                <note>Número de expediente 180/001223</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u49" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u49" ana="#chair">
                <seg>Pregunta, dirigida al señor ministro de Justicia, que formula la diputada doña Ángeles Álvarez, del Grupo Socialista.</seg>
                <seg>La señora ÁLVAREZ ÁLVAREZ: Vamos a pasar de las cartas raras a las cosas raras. ¿Cree que es de justicia que las víctimas de violencia de género se vean doblemente victimizadas como consecuencia de las querellas de sus agresores?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u50" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -371,14 +369,14 @@
                <seg>Señorías, señora Álvarez, permítanme que empiece transmitiendo mis condolencias y mi repulsa por las últimas agresiones, los últimos episodios de violencia de género que hemos conocido estos días.<note>La señora Montón Giménez: Asesinatos</note> En ese contexto, como se puede imaginar, ningún Gobierno -tampoco anterior- va a estar nunca a favor de la doble victimización de las mujeres ni, en particular, de la violencia de género. Todas las políticas que estamos llevando a cabo van precisamente en la dirección de la protección de las víctimas y, en ningún caso, a su revictimización.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u52" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u52" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señora Álvarez.</seg>
                <seg>La señora ÁLVAREZ ÁLVAREZ: Permítame que le describa un poco la situación: juzgados donde, por prejuicios hacia las víctimas, no se celebran ni tan siquiera comparecencias para decidir si se concede o no una orden de protección; aumento absolutamente indecoroso del archivo de denuncias cuando solo se cuenta con el testimonio de la víctima en un tipo de delitos en los que lo frecuente es, precisamente, la ausencia de testigos; juzgados de violencia con comportamientos anómalos que están archivando hasta el 90 % de las denuncias por maltrato; amparo judicial al acoso querulante; mujeres víctimas de malos tratos que están ahora mismo en prisión o en vísperas de ingreso, cuyo único delito, señor ministro, ha sido proteger a sus hijas o, en todo caso, respetar su decisión de no querer verse con un progenitor violento, y que son víctimas sometidas a indefensión y extorsión para que sean proactivas y obliguen a sus hijos a mantener encuentros con los violentos, y cuya negativa a colaborar en ese despropósito es causa de informes tendenciosos que están abocando al castigo penal a las víctimas. No es de justicia que desde las instituciones se firmen acuerdos con organizaciones que dan formación al personal de los equipos psicosociales -eso es de su competencia- en las que se instruye -atienda bien- para que la atención psicológica a los menores sea autorizada por el progenitor violento.</seg>
                <seg>Jueces para la democracia y Mujeres juristas Themis les han alertado de que su estatuto de la víctima va a silenciar aún más a las víctimas de violencia de género. Usted debe corregir, vía indulto, algunos de estos despropósitos y poner sensatez para arrinconar a aquellos que con prejuicios sexistas están dañando desde las instituciones a las víctimas. Lo grave es que Naciones Unidas les ha dado las pautas y una guía, y ustedes lo que han hecho ha sido no corregir&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u53" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -389,12 +387,12 @@
                <seg>Señoría, precisamente con ese instrumento, con el estatuto de la víctima -que ha tenido un apoyo muy importante en esta Cámara y esperemos que también en el Senado-, vamos a contar con mejores herramientas para proteger a todas las víctimas de los delitos y, en particular, a las de violencia de género, además de evitar la revictimización. No solamente el estatuto de la víctima, por mucho que ustedes se han atribuido la defensa de las víctimas de violencia de género, sino la Ley orgánica contra la violencia de género, diez años después de su aprobación, no está funcionando adecuadamente. Por lo tanto, hay que insistir en los esfuerzos, en la dotación de medios; hay que mejorar nuestro marco jurídico para<pb n="14"/> comprometernos con esa lucha efectiva contra la violencia de género. Es lo que estamos haciendo, no solamente con el estatuto de la víctima sino también, por ejemplo, en el ámbito educativo mediante el reforzamiento de los contenidos obligatorios sobre la igualdad en las etapas de la enseñanza obligatoria, así como con la prevención en el nuevo protocolo sanitario en casos de violencia de género o en la revisión de los cuestionarios penales. La nueva Ley de Asistencia Jurídica Gratuita atribuye ese beneficio a todas las víctimas de violencia de género al margen de los aspectos de su capacidad económica. Asimismo el nuevo Código Penal -confío en que hoy el Senado lo pueda aprobar- refuerza el rechazo contra ese tipo de comportamientos, igual que la protección ante otros nuevos, como el matrimonio forzado, el hostigamiento y la distribución de imágenes íntimas sin consentimiento. Eso es lo que estamos haciendo, señoría; pretendemos reforzar nuestro marco jurídico y por supuesto atender los casos particulares. Ante el caso de la señora Salmerón -que usted cita-, seguramente sabe que hemos sido los primeros en manifestar nuestro interés para identificar la singularidad de esas circunstancias. En cuanto al indulto se está tramitando y tendremos la máxima sensibilidad para poder encontrar las circunstancias que permitan su otorgamiento, si lo informa favorablemente el tribunal sentenciador. En todo caso, como también el ministro de Sanidad&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u55" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA IRENE LOZANO DOMINGO, DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, QUE FORMULA AL SEÑOR MINISTRO DE DEFENSA: ¿QUÉ MEDIDAS VA A TOMAR EL GOBIERNO PARA PREVENIR EL ACOSO SEXUAL EN LAS FUERZAS ARMADAS?</seg>
                <note>Número de expediente 180/001219</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u56" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u56" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Defensa. La formula la diputada doña Irene Lozano, del Grupo de Unión Progreso y Democracia.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u57"
@@ -404,7 +402,7 @@
                <seg>Señor ministro le formulo esta pregunta sobre acoso sexual en las Fuerzas Armadas y específicamente sobre el acoso y persecución de la comandante Zaida Cantera no para que me conteste a mí sino a ella, que está sentada en la tribuna. Como usted sabe muy bien, porque me consta que ha estado informado del caso en todo momento, la entonces capitán Zaida Cantera fue acosada sexualmente, agredida por un teniente coronel; después de que él entrara en la cárcel fue perseguida por coroneles y por generales que hasta intentaron fabricar un caso contra ella para meterla seis años en la cárcel. Por este motivo ella le pidió ayuda a usted; le escribió una carta para pedirle personalmente ayuda, y usted personalmente se la negó. Lo sangrante de este caso es que la comandante podría ser enviada hoy a zona de operaciones a una misión internacional, podría recibir la orden de combatir y podría morir en ese combate defendiendo la libertad y la seguridad de todos nosotros, defendiendo también su libertad y su seguridad, señor ministro. Ella podría morir por usted y usted no movió un dedo por ella. Esto se llama parasitar a los ciudadanos. Por eso, me parece que es motivo suficiente para pedir hoy su dimisión, a menos que tenga alguna explicación de por qué usted ascendió al general que fabricó el caso contra ella, por qué protegió a todos los mandos que miraron para otro lado mientras ella estaba siendo acosada y por qué, en cambio, la desprotegió a ella y no le brindó su ayuda en ningún momento.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u58" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u58" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -416,7 +414,7 @@
                <note>Aplausos.-Rumores y protestas.-La señora Aguilar Rivero: ¿Y de este tema?</note>
                <pb n="15"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u60" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u60" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Silencio, por favor.</seg>
                <seg>Señora Lozano.</seg>
@@ -427,7 +425,7 @@
                <seg>Me acaba usted de confirmar, señor ministro, que en efecto no hizo nada, por lo tanto pido que cese inmediatamente en su cargo.<note>Aplausos</note> Me acaba de confirmar que lo único que es capaz de hacer es añadir mentira a la ignominia que sufrió la comandante Zaida Cantera de Castro, añadir mentiras que son aún más bochornosas y más indignantes. Dimita, señor ministro, es lo único digno que puede hacer porque hay muchas Zaidas en el Ejército de Tierra, mujeres -también hombres- que sufren acoso, agresión y violación; un caso como este no puede volver a repetirse. Usted es responsable de que ocurriera y ahora es responsable de que no vuelva a ocurrir. Nadie puede confiar en que usted haga nada por toda esa gente que no tiene los cauces adecuados para denunciar institucionalmente en condiciones de seguridad y para que sus casos sean escuchados. Le hago una última petición, porque sé que hay sádicos que aún quieren seguir torturando psicológicamente a la comandante: acelere su expediente, porque lo único que ella quiere es salir de ese ejército en el que la han torturado y en el que vio frustrada su vocación. Sepa que tiene el respaldo de la sociedad, hay 100.000 personas que han firmado ya una petición&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u62" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u62" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -437,12 +435,12 @@
                <seg>Señoría, en lugar de tanta impostura y tanto circo mediático<note>Rumores y protestas</note> al que usted nos acostumbra, su grupo podría haber empezado por apoyar los proyectos de ley que el Gobierno ha traído a esta Cámara y que refuerzan la protección ante estos hechos.<note>Rumores</note> El Ministerio de Defensa y las Fuerzas Armadas son tenaces en la lucha por la igualdad y por la dignidad de la mujer; de hecho, son ejemplo en la OTAN y en otras organizaciones internacionales, en las que somos nación encargada de impartir numerosos cursos de género. La incidencia de estos delitos, que este ministro y las Fuerzas Armadas lamentan profundamente<note>Rumores</note> , es un 400 % menor que en la sociedad en general y son perseguidos, juzgados y condenados, porque hay tolerancia cero. Por eso, señoría, le pido que deje de manchar el buen nombre de nuestras Fuerzas Armadas<note>Rumores y protestas</note> en su búsqueda de autopromoción en la venta de un libro. Usted ha citado una enfermedad que yo tenía en un abyecto artículo que ha publicado. Mi enfermedad se ha pasado, señoría, la suya no; la suya es la bajeza moral y es consustancial con su persona.</seg>
                <note>Aplausos.-Prolongados rumores y protestas.-El señor ministro de Defensa pronuncia palabras que no se perciben, y hace un gesto de silencio</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u64" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Vuelvo a reiterar hoy que me gustaría&#x85;<note>La señora Lozano Domingo pide la palabra</note> Señora Lozano, este es un tiempo tasado y no hay réplica ni contrarréplica.<note>Continúan los rumores y protestas.-Varios señores diputados pronuncian palabras que no se perciben.-La señora Lozano Domingo pide la palabra.-La señora Diez González pide la palabra</note> No tiene la palabra.<note>La señora Lozano: Cuando acaben las preguntas</note> Cuando acaben las preguntas habrá posibilidad de que me pida la palabra para explicar lo que le parezca conveniente, pero cuando acaben las preguntas.<note>Un señor diputado: Dentro de una hora.-Continúan los rumores</note> - DEL DIPUTADO DON PEDRO SAURA GARCÍA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿CONSIDERA EL MINISTRO DE HACIENDA QUE PRESTA DILIGENTEMENTE LA COLABORACIÓN REQUERIDA POR LOS JUECES EN LOS PROCESOS QUE AFECTAN A SU PARTIDO?</seg>
                <note>Número de expediente 180/001224</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u65" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u65" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Hacienda y Administraciones Públicas. Pregunta del diputado don Pedro Saura, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u66"
@@ -453,7 +451,7 @@
                <seg>Gracias, señor presidente.</seg>
                <pb n="16"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u67" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u67" ana="#chair">
                <seg>Gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -464,7 +462,7 @@
                <seg>No es al ministro de Hacienda al que se dirigen los jueces para pedir colaboración sino a la Agencia Tributaria, que está siempre a disposición de la justicia para ofrecer el auxilio que se le requiera en todos los casos, afecten a quien afecten. Quiero recordarle que en 2014 la colaboración con la justicia ha sido facilitada por 1.409 funcionarios de la Agencia Tributaria, en su mayoría inspectores y técnicos de Hacienda. Además la agencia también ha facilitado el auxilio judicial mediante información tributaria que se ha enviado a los tribunales, respondiendo una media de 72 informes cada día laborable. Por tanto, señoría, nunca ha habido una colaboración más estrecha, más fluida, entre la Agencia Tributaria y los tribunales en la persecución contra el fraude fiscal.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u69" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Saura.</seg>
             </u>
@@ -476,7 +474,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u71" ana="#chair">
                <seg>Gracias, señor Saura.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -487,12 +485,12 @@
                <seg>Señor Saura, el respeto al Estado de derecho de este Gobierno y de este ministro es completo; no lo es precisamente la clase de oposición que su señoría, en nombre de ese grupo parlamentario, está haciendo desde el primer día en esta Cámara. A usted no le interesa cómo va el déficit público y si está promoviendo la recuperación económica y la creación de empleo ni en Murcia ni en el resto de España. A usted no le importa más que un tema desde el comienzo de esta legislatura. Con eso hace menosprecio a la Agencia Tributaria, a los funcionarios de esa Agencia Tributaria, como jamás se ha dado en esta Cámara, donde he tenido también la ocasión de ejercer la oposición. Nunca se ha hecho con la irresponsabilidad que están ejerciendo ustedes desde el primer momento de esta legislatura: descalificando la autonomía y la independencia de esos funcionarios, yendo contra la calificación profesional de esos funcionarios.<note>Aplausos</note> Eso es lo que hace usted. Además le digo -ya se lo he dicho varias veces- que ningún gobierno de España -e incluso estoy seguro de que tampoco el<pb n="17"/> Gobierno anterior- ha tenido la capacidad de manipular a la Agencia Tributaria ni a la Intervención General del Estado. Ningún diputado ha lanzado acusaciones tan severas, como las que ha hecho usted, maldiciendo el comportamiento institucional de instituciones que son fundamentales al derecho&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u73" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON ANTONIO HURTADO ZURERA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS: ¿QUÉ HA HECHO EL GOBIERNO PARA LA REGULARIZACIÓN EN EL IRPF DE LAS PENSIONES EN EL EXTRANJERO?</seg>
                <note>Número de expediente 180/001225</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u74" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u74" ana="#chair">
                <seg>Pregunta, dirigida al señor ministro de Hacienda y Administraciones Publicas, que formula el diputado don Antonio Hurtado, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u75"
@@ -503,7 +501,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u76" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u76" ana="#chair">
                <seg>Gracias, señor Hurtado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -515,7 +513,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u78" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Hurtado.</seg>
             </u>
@@ -525,7 +523,7 @@
                <seg>Señor ministro, perdone que le diga que usted no ha amnistiado para nada a los millones de emigrantes retornados con pensiones en el extranjero. Usted ha amnistiado a 30.000 presuntos chorizos en este país, pero para nada a millones de emigrantes retornados.<note>Aplausos.-Un señor diputado: ¡Muy bien!</note> Señor ministro, usted ha mandado 700.000 cartas a personas, muchas de ellas con pensiones -aquí tengo los ejemplos- de 17 euros al mes, de 50 euros al mes, de 127 euros al mes; personas que no llegan a la necesidad ni a la obligación de declarar. Les ha mandado usted cartas intimidatorias a muchas personas pensionistas que tienen invalidez absoluta,<pb n="18"/> que están exentas del pago del IRPF; les ha mandado usted cartas intimidatorias a muchísimas personas que ya habían declarado y que habían sido objeto de expediente de comprobación por su parte. Por tanto, tres de las cuatro cartas que usted ha remitido -se están llevando la salud de muchos porque están enormemente preocupados-, que están creando una enorme alarma social, se las podía haber ahorrado; la otra, que no se la tenía que haber ahorrado, también, porque se lo hemos dicho. Usted tenía que haber devuelto de oficio las condonaciones que se han regulado sin molestar a nadie, porque usted tiene la información. Lo mismo que tiene la información para poner multas también la tiene para devolver el importe de las multas injustas. Usted tenía que haber remitido los borradores para regularizar y tenía que haber regulado el fraccionamiento. Están haciendo ustedes deudas, se está levantando&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u80" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u80" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -536,12 +534,12 @@
                <seg>A comienzos de febrero se enviaron más de 650.000 cartas a los potenciales afectados por esta medida. En ellas se les informa del periodo que se ha abierto para regularizar la situación, se explica la decisión de condonar las posibles sanciones, recargos e intereses -ha empleado usted la palabra condonar, o sea que hemos condonado- y se especifican los pasos que deben dar; se les está dando la facilidad. Estas son cartas aclaratorias y, además, toda esa información se ha puesto a su disposición en el portal de la Agencia Tributaria y en un número gratuito de atención telefónica. Para aquellas personas que tengan dificultad para completar la documentación, se ha habilitado un servicio de asistencia personal, en el que se ofrece información y se confeccionan las declaraciones que sean precisas con cita previa para evitar esperas. Eso es todo lo que se ha hecho. Hay 31.000 citas en las delegaciones especiales ya concertadas para atender ese servicio y se han presentado más de 10.500 formularios para&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u82" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DEL DIPUTADO DON MARIO BEDERA BRAVO, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE EDUCACIÓN, CULTURA Y DEPORTE: ¿CREE RAZONABLE QUE EL ADOCTRINAMIENTO RELIGIOSO SEA EVALUABLE EN EL SISTEMA EDUCATIVO?</seg>
                <note>Número de expediente 180/001226</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u83" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Educación, Cultura y Deporte. La formula el diputado don Mario Bedera, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u84"
@@ -551,7 +549,7 @@
                <seg>Señor ministro, hace tres años intentó demostrar con una cita falsa que Educación para la Ciudadanía adoctrinaba a los alumnos. A pesar del escándalo que se organizó, usted decidió finalmente eliminar por completo la asignatura del currículo. Sin embargo, hace pocos días se publicaba el currículo de Religión Católica según el cual a los alumnos se les va a evaluar sobre la incapacidad de la persona para alcanzar por sí misma la felicidad o sobre reconocer y comprender el origen divino del cosmos y que no proviene del caos o el azar, contenidos que nunca se habían formulado en términos tan radicales. Por eso, le pregunto si cree razonable que el adoctrinamiento religioso sea evaluable en el sistema educativo.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u85" ana="#chair">
                <seg>Gracias, señor Bedera.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -562,7 +560,7 @@
                <seg>En los términos en los que usted formula su pregunta sinceramente no me considero obligado y ni siquiera legitimado para responderla. Lo único que se ha hecho respecto a ese currículo -y lo ha dicho usted correctamente- es publicarlo. Es la única competencia que le corresponde al Gobierno y la única competencia que han ejercido en el curso de todos los años que median desde que se firmaron los<pb n="19"/> acuerdos con la Santa Sede en materia educativa y cultural, el 3 de enero de 1979, los sucesivos Gobiernos, que en el curso de todos estos años durante veintidós de ellos fueron socialistas. Son currículos como los que han firmado los señores Solana, Rubalcaba, Saavedra o la señora Cabrera; en definitiva, la práctica totalidad de los ministros socialistas que se han sucedido. Le he dicho -lo sabe usted perfectamente- que no hay más competencia respecto a esta materia, en virtud del artículo VI de ese acuerdo, que la de publicar los currículos. Lógicamente, lo que en ellos haya lo decide la autoridad religiosa correspondiente, que en el caso de la religión católica es la Conferencia Episcopal y en el caso de las demás confesiones con las que tiene suscritos acuerdos el Gobierno español son sus respectivas autoridades.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u87" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señor Bedera.</seg>
             </u>
@@ -572,7 +570,7 @@
                <seg>Señor Wert, el currículo de Religión Católica es un anacronismo, una reliquia del pasado que no encaja en un Estado moderno, democrático y aconfesional como es el nuestro, sobre todo en esa última versión extrema. Usted hace referencia a otras órdenes, por ejemplo la de doña Mercedes Cabrera. Le voy a leer dos o tres apartados. En el currículo de 2007 se hablaba de las respuestas a las grandes preguntas del ser humano en el judaísmo, cristianismo e islam. Se hablaba de relacionar las grandes religiones vigentes, descubriendo sus principales semejanzas y diferencias. Se hablaba de conocer los distintos elementos que conforman el fenómeno religioso como base de comprensión de las distintas religiones. Nada que ver con lo que ha publicado hace poco en el boletín. Mi grupo quiere resaltar hoy que esto no es casual. La llegada del dogma al boletín no es casual. La negación de la evidencia científica en el aula no es casual. Usted ha alentado y permitido todo esto con sus modificaciones en la Lomce, haciendo que la religión sea evaluable, que vaya a contar para la media y, sobre todo, que tenga una asignatura espejo, Valores Cívicos, que sitúa al mismo nivel doctrina científica y moral común o, lo que es lo mismo, que coloca en pie de igualdad los contenidos de una materia que constituyen los principios constitucionales compartidos y que rigen la convivencia de un pueblo con contenidos fijados por una organización confesional ajena al sistema público y que no puede situarse en esa situación puramente por razón de imperativo constitucional. Esto sí es obra suya y, por lo tanto, ha sido usted quien ha propiciado la exaltación del dogma en la escuela equiparando religión y Constitución, confundiendo funciones religiosas y funciones públicas. Esto no lo dice este diputado, esto es doctrina, pero doctrina del Tribunal Constitucional.</seg>
                <note>Varios señores diputados: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u89" ana="#chair">
                <seg>Gracias, señor Bedera.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -583,11 +581,11 @@
                <seg>En primer lugar, la religión siempre ha sido evaluable, entre otras razones porque eso se desprende directamente del artículo VI del acuerdo que antes le he mencionado. En segundo lugar, deja usted de mencionar lo que a mi juicio es completamente esencial y entiendo que desvirtúa de raíz su razonamiento. Es una asignatura opcional y, como tal asignatura opcional, corresponde a los padres en el caso de los menores de edad o a los propios alumnos en el caso de los mayores de edad cursarla o no cursarla. Su condición evaluable siempre se ha mantenido. Otra cuestión es que durante algunos años se estableció una excepción en cuanto a la inclusión de esa nota para el acceso a concurrencias competitivas. Pero le digo lo de antes: los tratados internacionales, los acuerdos internacionales son leyes y las leyes hay que cumplirlas. Es perfectamente legítimo que usted considere que ese tipo de contenidos no caben en un sistema educativo, han tenido veintidós años para plantearlo de otra manera; a mí no me impute cosas que en absoluto corresponden ni a este ministro ni a este Gobierno.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u91" ana="#chair">
                <seg>Gracias, señor ministro de Educación, Cultura y Deporte.<pb n="20"/> - DEL DIPUTADO DON ALBERTO GARZÓN ESPINOSA, DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, QUE FORMULA A LA SEÑORA MINISTRA DE EMPLEO Y SEGURIDAD SOCIAL: ¿CUÁLES SON LOS MOTIVOS POR LOS QUE EL GOBIERNO SIGUE MANTENIENDO LA EXIGENCIA DE PEONADAS PARA COBRAR EL SUBSIDIO AGRARIO?</seg>
                <note>Número de expediente 180/001216</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u92" ana="#chair">
                <seg>Pregunta dirigida a la señora ministra de Empleo y Seguridad Social. La formula el diputado don Alberto Garzón, del Grupo de La Izquierda Plural.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u93"
@@ -595,7 +593,7 @@
                ana="#regular">
                <seg>Señora ministra, ¿cuáles son los motivos del Gobierno para exigir el mantenimiento de las peonadas para cobrar el subsidio agrario?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u94" ana="#chair">
                <seg>Gracias, señor Garzón.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -607,7 +605,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u96" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>Señor Garzón.</seg>
             </u>
@@ -619,7 +617,7 @@
                <note>Aplausos</note>
                <pb n="21"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u98" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -632,12 +630,12 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u100" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>- DEL DIPUTADO DON JOSEBA ANDONI AGIRRETXEA URRESTI, DEL GRUPO PARLAMENTARIO VASCO<note>EAJ-PNV</note> , QUE FORMULA A LA SEÑORA MINISTRA DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE: ¿CUÁLES SON LOS CRITERIOS EN LOS QUE SE HA BASADO EL GOBIERNO A LA HORA DE FIJAR EL REPARTO DE LA CUOTA DE JUREL ENTRE LAS ZONAS 8.ªC Y 8.ªB?</seg>
                <note>Número de expediente 180/001218</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u101" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u101" ana="#chair">
                <seg>Preguntas dirigidas a la señora ministra de Agricultura, Alimentación y Medio Ambiente. Pregunta en primer lugar el diputado don Joseba Agirretxea, del Grupo Vasco, PNV.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u102"
@@ -647,7 +645,7 @@
                <seg>Señora ministra, ¿cuáles son los criterios en los que se ha basado su Gobierno a la hora de fijar el reparto de la cuota de jurel o de chicharro en las zonas 8.ªC y 8.ªB del Cantábrico?</seg>
                <seg>Gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u103" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u103" ana="#chair">
                <seg>Gracias, señor Agirretxea.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -659,7 +657,7 @@
                <seg>Gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u105" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u105" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>Señor diputado.</seg>
             </u>
@@ -669,7 +667,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Usted puede decir eso, pero consideramos que lo establecido por el Gobierno no responde a unos criterios justos y equitativos. Este último año, como ha dicho, el Consejo de Ministros de Pesca ha<pb n="22"/> aprobado un mecanismo que faculta a Portugal y a España para poder traspasar hasta el 50 % de la cuota de la zona 8.ªB a la 8.ªC. Esta decisión, que en sí es una buena noticia, ha sido utilizada por ustedes de manera tergiversada, causando un grave perjuicio a la flota vasca. Ustedes, para paliar la reducción del 25 % en la cuota de jurel o chicharro, en vez de reducir a todos el porcentaje equitativamente, han sacrificado los intereses de la flota vasca exclusivamente. Esta decisión hace que la flota que pesca mayoritariamente en la zona 8.ªC no sufra ningún tipo de reducción de cuota a costa de que la flota vasca, que tiene mayoritariamente sus cuotas en la zona 8.ªB, reduzca sus posibilidades de pesca en más de un 40 %. Es decir, han sacrificado a una flota, la vasca exclusivamente, para que otra flota no sufra la reducción de cuota, y esto es inaceptable. La flota vasca, de pescar 6.100 toneladas en 2014, este año va a poder pescar 3.200 toneladas. Además, esta decisión ha sido unilateral, sin consultar con las comunidades autónomas y mucho menos con el sector. Tenga por seguro que la flota vasca en su momento aceptaría el traspaso de cuota de que disponía en la zona 8.ªB a la 8.ªC, que permitiría aumentar la cuota en esta zona del Cantábrico noroeste, algo que parte de la flota pedía -ya lo sabíamos-, pero respetando los porcentajes. Evidentemente, una vez realizado ese traspaso, y teniendo en cuenta las cuotas resultantes a cada flota, estoy seguro de que, tal y como ocurrió el año pasado con la cesión de 300 toneladas por parte de la flota vasca a la gallega, las distintas flotas hubieran llegado a un acuerdo, porque es un sector maduro y merece una oportunidad; tiene capacidad de autogestionarse sin necesidad de tanto intervencionismo interesado. Está claro, señora ministra, que ustedes han tomado una decisión política, no una decisión pesquera o sectorial; una decisión que, permítame la expresión, sustituye el caladero de pesca por el caladero de votos, y no es la primera vez. ¿Por qué todas las decisiones que toman y que afectan al Cantábrico siempre perjudican a la misma flota? ¿Por qué abrieron la pesquería de la anchoa en otoño? ¿Por qué han retrasado tanto la pesquería del verdel? ¿Han testado la opinión del sector o solo las&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u107" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u107" ana="#chair">
                <seg>Gracias, señor diputado.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -682,11 +680,11 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u109" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u109" ana="#chair">
                <seg>Muchas gracias, señora ministra.<pb n="23"/> - DE LA DIPUTADA DOÑA SUSANA SUMELZO JORDÁN, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA A LA SEÑORA MINISTRA DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE: ¿VA A RECTIFICAR EL GOBIERNO SU POLÍTICA TRAS LA CATÁSTROFE PRODUCIDA POR EL DESBORDAMIENTO DEL RÍO EBRO?</seg>
                <note>Número de expediente 180/001227</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u110" ana="#chair">
                <seg>Pregunta dirigida también a la señora ministra de Agricultura, Alimentación y Medio Ambiente que formula doña Susana Sumelzo, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u111"
@@ -696,7 +694,7 @@
                <seg>Señora ministra, en la tribuna tenemos hoy a alcaldes de pueblos inundados que pueden dar cuenta de que ustedes no han estado a la altura de las necesidades de los ciudadanos ante una catástrofe como la que han sufrido estos días muchas de estas tierras. Ustedes -usted en concreto- no quiso verlos cuando visitó Zaragoza; se escondió en un despacho. El ministro del Interior tampoco; sobrevoló la zona en helicóptero. Al menos hoy, que están ellos aquí, dígales si el Gobierno va a rectificar la política tras la catástrofe producida por los desbordamientos del río Ebro.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u112" ana="#chair">
                <seg>Muchas gracias, señora Sumelzo.</seg>
                <seg>Señora ministra.</seg>
             </u>
@@ -708,7 +706,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u114" ana="#chair">
                <seg>Muchas gracias, señora ministra.</seg>
                <seg>Señora diputada.</seg>
             </u>
@@ -719,7 +717,7 @@
                <seg>Señora García Tejerina, déjense de herencias porque para herencias las que van a dejar ustedes en la ribera del Ebro. Ya es tarde para pisar el barro, pero asuman su obligación y no pierdan un minuto más en dar soluciones a los ciudadanos. Señora ministra, le hemos oído hablar de oportunismo y parece usted no entender que hablar de los problemas de los ciudadanos no solamente es oportuno, sino que también es obligatorio.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u116" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señora ministra.</seg>
                <pb n="24"/>
@@ -732,12 +730,12 @@
                <seg>Este Gobierno ha terminado con las desmedidas y preocupantes desviaciones que sistemáticamente se producían entre lo previsto y lo gastado cuando gobernaban. Hemos logrado acuerdos importantes en el ámbito del agua, en el que el Gobierno socialista se dedicó a sembrar guerras; acuerdos importantes como el del Tajo-Segura, que beneficia a cinco comunidades autónomas y que, por cierto, dolorosamente los socialistas rechazan. Hemos acabado con la parálisis de infraestructuras hidráulicas como Yesa y Biscarrués, que estuvieron ocho años paradas, o el Enciso, que también dejaron parada, por citar algunas. Ustedes abandonaron estas obras y este Gobierno las ha retomado. Las obras de infraestructuras hidráulicas no se improvisan y le recuerdo, señoría, que los embalses son imprescindibles para laminar avenidas y evitar situaciones como las vividas en el Ebro. Por la existencia de los embalses actuales, al menos 800 metros...</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u118" ana="#chair">
                <seg>Gracias, señora ministra.</seg>
                <seg>- DEL DIPUTADO DON MIGUEL ÁNGEL HEREDIA DÍAZ, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿ESTÁ SATISFECHO EL GOBIERNO CON LA APLICACIÓN QUE ESTÁ HACIENDO DE LA LEY DE PROMOCIÓN DE LA AUTONOMÍA PERSONAL Y ATENCIÓN A LAS PERSONAS EN SITUACIÓN DE DEPENDENCIA?</seg>
                <note>Número de expediente 180/001222</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u119" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u119" ana="#chair">
                <seg>Preguntas dirigidas al señor ministro de Sanidad, Servicios Sociales e Igualdad. En primer lugar pregunta el diputado don Miguel Ángel Heredia, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u120"
@@ -746,7 +744,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Señor ministro, ¿está satisfecho el Gobierno con la aplicación de la Ley de promoción de la autonomía personal y atención a las personas en situación de dependencia?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u121" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -757,7 +755,7 @@
                <seg>El Gobierno ha trabajado a lo largo de esta legislatura para que el sistema para la autonomía personal y atención a la dependencia sea hoy más ágil, transparente, ordenado y sostenible. Hemos cuidado y hemos garantizado el derecho subjetivo a la promoción de la autonomía personal y a la atención ante situaciones de dependencia. Lo hemos hecho en una circunstancia que ciertamente era difícil. Se mantuvo el baremo de valoración que aprobó el Gobierno anterior y se ha mejorado el catálogo de servicios y prestaciones. Pero además, y estos son algunos de los resultados, hemos reducido el plazo medio total para tramitar el procedimiento en cuarenta y nueve días, hemos mejorado la transparencia del sistema de información, hemos pagado la deuda con la Seguridad Social que dejó el Gobierno anterior -1.000 millones de euros- y el sistema atiende hoy al 83 % de las personas con derecho a prestaciones y servicios, 12 puntos más que a finales de 2011. Cerca del 40 % de los beneficiarios se han incorporado en<pb n="25"/> la legislatura y hay 7.000 beneficiarios más con prestación que a finales de 2011. La lista de espera se ha reducido en un 50 % y los servicios profesionales han crecido más de cinco puntos; han aumentado en más de 19.000 las nuevas afiliaciones en el sector de los servicios sociales. Por tanto, hay algunos resultados y ahora, en el año 2015 -año de terminación de la implantación de la ley-, es el tiempo para hacer un estudio, una evaluación, un análisis compartido y poder consensuar entre todos una mirada de futuro.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u123" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Señor Heredia.</seg>
             </u>
@@ -768,7 +766,7 @@
                <seg>Sé bien que usted ahora va a criticar a la Junta de Andalucía, espero que no lo haga como el vídeo del señor Monago. Pero usted y yo sí sabemos una cosa, que Andalucía está entre las tres comunidades mejor valoradas por el Observatorio estatal para la Ley de Dependencia. Por cierto, la peor valorada es la Comunidad Valenciana, gobernada por el Partido Popular. Y usted sabe también que Andalucía lidera el ranquin en número de beneficiarios de la Ley de Dependencia, con 163.000 personas; por cierto, el pasado año, 11.000 más. Rajoy dijo, señor ministro, que esta ley no era sostenible y lo único que no es sostenible es tener un presidente nefasto al frente de este país, como es el señor Rajoy.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u125" ana="#chair">
                <seg>Gracias, señor Heredia.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -778,11 +776,11 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>La verdad es que usted ha elegido un mal tema si era un asunto que quería introducir en la campaña electoral de Andalucía: hablar de dependencia hoy en la Cámara. Yo, que respeto a todas las comunidades y quiero trabajar con ellas, no es que critique a la Junta de Andalucía, la critican los hechos, y quiero que usted los conozca y los escuche con claridad. Uno de cada tres dependientes que están pendientes de recibir prestación en España está en Andalucía, es decir la tercera parte de la lista de espera, porque la lista de espera en Andalucía está en el 23,6 %, es decir 7 puntos por encima del resto de España. Quiero decirle también que entre diciembre de 2011 y diciembre de 2014 Andalucía ha disminuido el número de beneficiarios con prestación en 27.707 personas. Por tanto, no se puede hacer la crítica, que además no es cierta, de que ha disminuido el número de beneficiarios cuando donde disminuye es en Andalucía.<note>Aplausos</note> Que yo sepa, en Andalucía no hay un sistema de financiación diferente, la mayor parte de la financiación, como ponen de manifiesto los informes, proviene del Estado.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u127" ana="#chair">
                <seg>Gracias, señor ministro.<pb n="26"/> - DE LA DIPUTADA DOÑA SILVIA OÑATE MOYA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿QUÉ ACTUACIONES DESARROLLA SU DEPARTAMENTO PARA COMBATIR LA DESIGUALDAD SALARIAL ENTRE HOMBRES Y MUJERES?</seg>
                <note>Número de expediente 180/001228</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u128" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u128" ana="#chair">
                <seg>Pregunta de la diputada doña Silvia Oñate, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u129"
@@ -791,7 +789,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>¿Qué actuaciones desarrolla su departamento, señor ministro, para combatir la desigualdad salarial entre mujeres y hombres?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u130" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u130" ana="#chair">
                <seg>Gracias, señora Oñate.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -802,7 +800,7 @@
                <seg>Señora diputada, el empleo es la plataforma más sólida para avanzar en la igualdad real entre mujeres y hombres, y nuestra primera prioridad desde el principio de la legislatura, y sigue siéndolo, es la creación de empleo. Por eso el 70 % del presupuesto del Plan estratégico de igualdad de oportunidades se dedica al empleo y a la conciliación. Y porque hay diferencias -siempre las ha habido y sigue habiéndolas- en las tasas de actividad, en las de empleo y en la retribución ante un mismo trabajo, estamos trabajando en un plan especial de igualdad en el ámbito laboral y contra la discriminación salarial, que será el primero que un Gobierno apruebe en Consejo de Ministros.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u132" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u132" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora Oñate.</seg>
             </u>
@@ -814,7 +812,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u134" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u134" ana="#chair">
                <seg>Muchas gracias, señora Oñate.</seg>
                <seg>Señor ministro.</seg>
                <pb n="27"/>
@@ -828,12 +826,12 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u136" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u136" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA ESPERANÇA ESTEVE ORTEGA, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD: ¿QUÉ PIENSA HACER EL GOBIERNO PARA EVITAR LA EXCLUSIÓN DE UNA GRAN PARTE DE LA POBLACIÓN?</seg>
                <note>Número de expediente 180/001229</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u137" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u137" ana="#chair">
                <seg>Pregunta ahora la diputada doña Esperança Esteve, del Grupo Socialista.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u138"
@@ -842,7 +840,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>Señor ministro, ¿qué piensa hacer el Gobierno para evitar la exclusión social de una gran parte de la población?</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u139" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u139" ana="#chair">
                <seg>Muchas gracias, señora Esteve.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -853,7 +851,7 @@
                <seg>Señoría, el Gobierno trabaja todos los días para reducir el número de personas que se encuentran en riesgo de exclusión y para reforzar el apoyo de las familias que hoy todavía tienen importantes dificultades económicas. Es una tarea que, como usted comprenderá, no resulta nada fácil porque España fue el país de la OCDE en el que más creció la desigualdad entre 2007 y 2011, y la causa de que eso fuera así fue la fuerte destrucción de empleo. Por tanto, la medida más importante en política social y para luchar contra la desigualdad es favorecer un crecimiento económico con una consecuencia social capaz de trasladarse a la generación de empleo. Hemos venido trabajando en esta legislatura para redoblar el apoyo a las familias y para apoyar a los parados de larga duración garantizando, primero, el Estado del bienestar y, segundo, preservando las prestaciones sociales y ampliándolas y, sobre todo, creando nuevos puestos de trabajo, que es el proceso en el que estamos en estos momentos.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u141" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u141" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Señora Esteve.</seg>
             </u>
@@ -864,7 +862,7 @@
                <seg>Señor ministro, le pido que, además de sus medidas -que son bienintencionadas y sirven para paliar-, hagan otro tipo de políticas con información estratégica, que contemplen el corto y el medio plazo, para ver qué impacto tienen estas políticas. En todo caso&#x85;</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u143" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u143" ana="#chair">
                <seg>Gracias, señora Esteve.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -876,12 +874,12 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u145" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u145" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>- DE LA DIPUTADA DOÑA TEÓFILA MARTÍNEZ SAIZ, DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, QUE FORMULA AL SEÑOR MINISTRO DE INDUSTRIA, ENERGÍA Y TURISMO: ¿QUÉ MEDIDAS PIENSA ADOPTAR EL GOBIERNO PARA QUE LA BAJADA DEL PRECIO DE LOS HIDROCARBUROS SE VEA REFLEJADA EN LOS PRECIOS DE LOS COMBUSTIBLES?</seg>
                <note>Número de expediente 180/001231</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u146" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u146" ana="#chair">
                <seg>Pregunta dirigida al señor ministro de Industria, Energía y Turismo que formula la diputada doña Teófila Martínez, del Grupo Popular.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u147"
@@ -890,7 +888,7 @@
                <seg>Señor presidente, señor ministro, son ya seis semanas las que venimos contemplando cómo el precio de los combustibles sube, justo correspondiendo con la subida de los precios del petróleo que se viene produciendo desde primeros de año. La mayoría de los españoles, el Gobierno de una manera muy especial, somos conscientes de nuestra dependencia de los precios del crudo porque nuestra economía depende de esos precios, ya que necesitamos importar el 99 % de nuestro consumo porque viene del exterior. Por tanto, nuestra economía, nuestra competitividad y nuestro empleo dependen mucho de esos precios y de su aplicación en el consumo diario. Nos preocupa -sé que a usted<pb n="29"/> también- cómo se ha comportado últimamente en plena crisis la repercusión de esas bajadas o subidas del precio del petróleo en los precios de los combustibles porque, sin duda, eso llena de incertidumbre a los pequeños y medianos empresarios, a los agricultores y a todos los ciudadanos en general porque es imposible hacer previsiones cuando se está pasando una crisis tan dura como esta. Por tanto, nos asombramos y nos preocupamos cuando comprobamos -el año pasado- que aunque los precios del petróleo bajaban ostensiblemente la bajada en los precios de los combustibles era inapreciable. Eso nos tenía muy preocupados a todos los ciudadanos. Sorprendentemente hemos ido a peor al ver que al subir los precios la subida de los combustibles no se ha hecho esperar, y al día siguiente prácticamente habían subido los precios de los combustibles.</seg>
                <seg>Como usted sabe, señor ministro, recientemente la Comisión Nacional del Mercado y la Competencia ha impuesto sanciones por un total de 32,5 millones de euros a cinco petroleras por pactar los precios de los combustibles, pero no por estas prácticas de repercutir a distintas velocidades sus precios. Sabemos que el Gobierno es el garante de los derechos de los ciudadanos y vela por ellos, como demuestra una vez más el hecho de que a través de una nueva fórmula que fija el cálculo de los precios de los gases licuados de petróleo envasado la bombona de butano -por ejemplo- baje un 10 %. Por todo ello, y al margen de lo contenido en el proyecto de ley de hidrocarburos que debatiremos mañana en esta Cámara, queremos saber qué medidas piensa&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u148" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u148" ana="#chair">
                <seg>Gracias, señora diputada.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -902,7 +900,7 @@
                <seg>La pregunta es: ¿cómo si baja un 50 % la materia prima solo baja un 20 % o un 18 % el precio de venta al público? Por una razón sencilla: dentro del precio de venta al público la materia prima es una parte, ni siquiera la más importante. En cada litro de gasolina el 35 % es lo que supone el combustible, el otro 75 % son impuestos más los márgenes de distribución que tienen de las empresas. ¿Qué hemos hecho para paliar esa situación? Hemos introducido modificaciones en la Ley General de Hidrocarburos en el año 2013 para incrementar la competencia. Hoy hay más estaciones de servicio independientes y mañana, cuando se debata la enmienda a la totalidad de la Ley General de Hidrocarburos, veremos que también se introducen nuevas modificaciones.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u150" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u150" ana="#chair">
                <seg>Gracias, señor ministro.</seg>
                <seg>Hemos terminado el punto establecido para preguntas.</seg>
                <note>La señora Lozano Domingo pide la palabra</note>
@@ -912,7 +910,7 @@
                ana="#regular">
                <seg>Señor presidente, al amparo del artículo 71, por las alusiones personales que me ha hecho el ministro de Defensa, le pido la palabra.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u152" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u152" ana="#chair">
                <seg>Tiene usted la palabra, señora Lozano.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u153"
@@ -921,7 +919,7 @@
                <seg>Señor ministro, no voy a entrar a valorar sus cualidades morales porque creo que su actitud hoy aquí ha sido elocuente por sí misma. Pero buscar la justicia, defender a las víctimas, hacer lo correcto y controlar al Gobierno no es bajeza moral, sencillamente es mi trabajo. Yo<pb n="30"/> pensaba que su negligencia en el caso de la comandante Zaida Cantera se debía a que a usted le parece algo menor que una mujer sea acusada sexualmente. Lo que hoy he comprobado es que usted empatiza con los acosadores, con los perseguidores y con los agresores de la comandante Zaida Cantera.</seg>
                <note>Rumores y protestas.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u154" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u154" ana="#chair">
                <seg>Usted tiene la palabra, señora Lozano, para una alusión, no para reiniciar el debate, y menos para acusar al ministro. Por lo tanto, hable de la alusión que usted ha recibido y si está de acuerdo o no está de acuerdo con ella, pero no puede reabrir el debate. Se lo advierto.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u155"
@@ -930,7 +928,7 @@
                <seg>No estoy de acuerdo con que el ministro nos mande callar a las mujeres.<note>Rumores.-Aplausos</note> No estoy de acuerdo con que el ministro nos mande callar a las mujeres y con que mande callar a las militares que sufren acoso sexual. No me pida disculpas a mí, pídale disculpas a ella y a todas las militares que sufren acoso sexual por su negligencia. Los militares no merecen tener un ministro como usted. ¡Presente su dimisión de inmediato, señor ministro!</seg>
                <note>Protestas.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u156" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u156" ana="#chair">
                <seg>Gracias, señora Lozano.</seg>
                <seg>Señor ministro de Defensa.</seg>
             </u>
@@ -940,7 +938,7 @@
                <seg>Señoría, ya le he descrito en mi intervención cuáles son las medidas que hemos tomado para evitar lo que usted dice que yo promuevo, oculto, tapo, y hago todas las barbaridades que a usted se le ocurre decir de mí.<note>El señor Hernando Fraile pronuncia palabras que no se perciben</note> Usted ha votado en contra de todas esas medidas.<note>La señora Lozano Domingo hace gestos negativos</note> Haga el favor de ser un poco coherente. Usted tiene la piel muy fina, señoría, me puede insultar, me ha llamado lobbista; he aguantado tres años sus insultos en esta Cámara sin decir ni pío. Ahora resulta que le digo una manera de actuar que me parece reprobable moralmente y usted se duele, a usted le parece que eso no es manera de tratarla a usted. Segundo, sí pido mis disculpas por haber hecho el gesto de silencio; las pido, perdón. No se lo he hecho a ustedes ni a las mujeres militares; lo he hecho porque había un poco de ruido.</seg>
                <note>Un señor diputado: Tú, cállate ya.-La señora Díez González: ¿A mí? El señor Aguiar Rodríguez: ¡Cállate que está hablando el ministro!-Fuertes rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u158" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u158" ana="#chair">
                <seg>Por favor, ruego silencio. Está hablando el ministro de Defensa y está contestando a una alusión.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u159"
@@ -954,7 +952,7 @@
          </div>
          <div type="debateSection">
             <head>INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LAS MEDIDAS QUE PIENSA ADOPTAR EL GOBIERNO PARA EVITAR LOS GRAVES RETROCESOS QUE ESTÁ PROVOCANDO EN LOS DERECHOS Y LIBERTADES DE LAS MUJERES Y PARA CONVERTIR LA IGUALDAD DE OPORTUNIDADES ENTRE HOMBRES Y MUJERES EN SU PRINCIPAL EJE DE ACTUACIÓN.</head>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u160" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u160" ana="#chair">
                <seg>Interpelación del Grupo Socialista sobre las medidas que piensa adoptar el Gobierno para evitar los graves retrocesos que está provocando en los derechos y libertades de las mujeres y para convertir la igualdad de oportunidades entre hombres y mujeres en su principal eje de actuación.</seg>
                <seg>Para la defensa de la interpelación, tiene la palabra la señora Montón.</seg>
                <note>La señora vicepresidenta, Villalobos Talero, ocupa la Presidencia</note>
@@ -1214,13 +1212,13 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u194" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u194" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, SOBRE LAS MEDIDAS QUE PIENSA ADOPTAR EL GOBIERNO PARA DAR UNA SOLUCIÓN RÁPIDA, TRANSPARENTE Y EFECTIVA A LOS PERJUDICADOS POR LA SALIDA A BOLSA DE BANKIA, A FIN DE QUE RECUPEREN LO PERDIDO Y SE DEPUREN LAS CORRESPONDIENTES RESPONSABILIDADES.</head>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u195" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u195" ana="#chair">
                <seg>Pasamos ahora a la moción presentada por el Grupo de Unión Progreso y Democracia, sobre las medidas que piensa adoptar el Gobierno para dar una solución rápida, transparente y efectiva a los perjudicados por la salida a Bolsa de Bankia, a fin de que recuperen lo perdido y se depuren las correspondientes responsabilidades. Para la presentación de esta moción, tiene la palabra el señor Anchuelo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u196"
@@ -1235,7 +1233,7 @@
                <seg>Cuarta y última cuestión, estas propuestas habría que complementarlas con una solución general y satisfactoria para otros estafados, los 200.000 preferentistas estafados en Bankia. Algunos de ellos han acudido al arbitraje y ahora se verán perjudicados, porque han renunciado a emprender acciones judiciales que podrían haberles dado un mayor resarcimiento. Como le dijimos al señor ministro, habría que recordar que el Gobierno, el grupo mayoritario y todos nosotros trabajamos a favor de los ciudadanos, a favor de los 350.000 accionistas y de los 200.000 preferentistas estafados. Esos son los intereses que deberíamos promover y no obstaculizar. Para ello, nuestra moción, la moción de UPyD da una oportunidad al Gobierno, al grupo mayoritario y a los diferentes grupos. Por lo tanto, esperamos que la apoyen.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u197" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u197" ana="#chair">
                <seg>Muchas gracias, señor Anchuelo.</seg>
                <seg>A esta moción se ha presentado una enmienda por el Grupo Socialista. Para su defensa, tiene la palabra la señora Blanquer.</seg>
             </u>
@@ -1250,7 +1248,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u199" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u199" ana="#chair">
                <seg>Muchas gracias señora Blanquer.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -1262,7 +1260,7 @@
                <seg>En este contexto es evidente que el Gobierno, a través del FROB, debe defender los intereses públicos que están en juego en los tribunales, tal y como propone UPyD en su moción, personándose en la causa como acusación particular, haciendo que sea Bankia y no el Estado quien resarza a los perjudicados por su salida a Bolsa, facilitando el acuerdo extrajudicial para compensar a los accionistas engañados y dando una solución satisfactoria a todos los preferentistas, también engañados. A nuestro grupo parlamentario le parecen muy correctas estas demandas, que compartimos plenamente. Queremos que los afectados puedan pasar página y vean razonablemente satisfechas sus justas demandas y que la factura se pague con equidad y justicia, en proporción a las responsabilidades de cada uno. Reconozco que este Gobierno y el señor De Guindos en concreto, como decía antes, han dado pasos satisfactorios, pero en nuestra opinión insuficientes. Los ciudadanos piden justicia y exigen responsabilidades. Como estamos de acuerdo con la moción, la votaremos favorablemente.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u201" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u201" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por el Grupo Parlamentario de IU, ICV-EUiA, CHA: La Izquierda Plural tiene la palabra el señor Coscubiela.</seg>
             </u>
@@ -1276,7 +1274,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u203" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u203" ana="#chair">
                <seg>Muchas gracias, señor Coscubiela.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , tiene la palabra la señora Riera.</seg>
             </u>
@@ -1291,7 +1289,7 @@
                <seg>En relación con las preferentes, no puedo dejar de recordar y de decirles que si hay un grupo que ha trabajado con la máxima convicción desde el minuto cero y que ha presentado iniciativas y enmiendas para dar solución a ello, para dar solución a los afectados por la pérdida de sus ahorros, ese es el Grupo de Convergència i Unió. Un ejemplo de ello está en la solución dada a los 6.000 afectados en el Maresme, en Mataró, en Cataluña. Por tanto, nuestra sensibilidad en estos temas, que afectan a muchas personas, a muchos ahorradores, está muy demostrada, pero también entendemos que hemos de ser especialmente rigurosos cuando se tratan estos temas económicos y financieros, pero sobre todo sociales. Hay que hacer las cosas bien y con la máxima rigurosidad.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u205" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u205" ana="#chair">
                <seg>Muchas gracias, señora Riera.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor López Garrido.</seg>
             </u>
@@ -1309,7 +1307,7 @@
                <seg>Muchísimas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u207" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u207" ana="#chair">
                <seg>Muchas gracias, señor López Garrido.</seg>
                <seg>Señor Anchuelo, hay una enmienda presentada, ¿qué va a hacer usted con esa enmienda?</seg>
             </u>
@@ -1318,7 +1316,7 @@
                ana="#regular">
                <seg>Agradecemos la enmienda socialista, pero no cambia sustancialmente lo que ya proponemos y preferimos que nuestra moción se vote en sus propios términos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u209" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-11-CD150311.u209" ana="#chair">
                <seg>Muchas gracias, señor Anchuelo. Esa votación se hará mañana jueves.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Era la una y veinte minutos de la tarde.</seg>

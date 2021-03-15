@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="60">60 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="60" xml:lang="es">60 speeches</measure>
+            <measure unit="speeches" quantity="60" xml:lang="en">60 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="8"/>
                <tagUsage gi="note" occurs="42"/>
                <tagUsage gi="u" occurs="60"/>
-               <tagUsage gi="lb" occurs="187"/>
+               <tagUsage gi="seg" occurs="187"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>DICTÁMENES DE LA COMISIÓN DE ASUNTOS EXTERIORES SOBRE CONVENIOS INTERNACIONALES - ACUERDO ENTRE EL GOBIERNO DEL REINO DE ESPAÑA Y EL GOBIERNO DE GRANADA SOBRE SUPRESIÓN RECÍPROCA DE VISADOS PARA TITULARES DE PASAPORTES DIPLOMÁTICOS, HECHO EN NUEVA YORK EL 22 DE SEPTIEMBRE DE 2014. - TRATADO DE EXTRADICIÓN ENTRE EL REINO DE ESPAÑA Y LA REPÚBLICA SOCIALISTA DE VIETNAM, HECHO EN MADRID EL 1 DE OCTUBRE DE 2014. - TRATADO SOBRE TRASLADO DE PERSONAS CONDENADAS ENTRE EL REINO DE ESPAÑA Y LA REPÚBLICA SOCIALISTA DE VIETNAM, HECHO EN MADRID EL 1 DE OCTUBRE DE 2014. - PROTOCOLO DEL ACUERDO DE ESTABILIZACIÓN Y ASOCIACIÓN ENTRE LAS COMUNIDADES EUROPEAS Y SUS ESTADOS MIEMBROS, POR UNA PARTE, Y LA ANTIGUA REPÚBLICA YUGOSLAVA DE MACEDONIA, POR OTRA, PARA TENER EN CUENTA LA ADHESIÓN DE LA REPÚBLICA DE CROACIA A LA UNIÓN EUROPEA, HECHO EN BRUSELAS EL 18 DE JULIO DE 2014. - ACUERDO DE ASOCIACIÓN ENTRE LA UNIÓN EUROPEA Y LA COMUNIDAD EUROPEA DE LA ENERGÍA ATÓMICA Y SUS ESTADOS MIEMBROS, POR UNA PARTE, Y GEORGIA, POR OTRA, HECHO EN BRUSELAS EL 27 DE JUNIO DE 2014. - ACUERDO DE ASOCIACIÓN ENTRE LA UNIÓN EUROPEA Y LA COMUNIDAD EUROPEA DE LA ENERGÍA ATÓMICA Y SUS ESTADOS MIEMBROS, POR UNA PARTE, Y LA REPÚBLICA DE MOLDAVIA, POR OTRA, HECHO EN BRUSELAS EL 27 DE JUNIO DE 2014. - CONVENIO ENTRE EL REINO DE ESPAÑA Y EL SULTANATO DE OMÁN PARA EVITAR LA DOBLE IMPOSICIÓN Y PREVENIR LA EVASIÓN FISCAL EN MATERIA DE IMPUESTOS SOBRE LA RENTA Y SU PROTOCOLO, HECHO EN MASCATE EL 30 DE ABRIL DE 2014.</head>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Comenzamos con el punto del orden del día correspondiente a los dictámenes de la Comisión de Asuntos Exteriores sobre convenios internacionales que tienen números de expediente del 110/000156 a 110/000162. Son los puntos 29 a 35 del orden del día. Algunos grupos han manifestado su deseo de intervenir por el tiempo fijado en Junta de Portavoces y que ellos conocen. Comenzamos por el Grupo de Unión Progreso y Democracia y tiene la palabra la señora Lozano.</seg>
                <pb n="6"/>
@@ -112,7 +110,7 @@
                <seg>La Unión Europea hace tiempo que ha dedicado grandes esfuerzos en Georgia y para darse cuenta de que las negociaciones sobre el acuerdo de asociación han progresado rápidamente y que la Unión Europea ha encontrado un buen socio no hay más que ver distintas resoluciones del Parlamento Europeo, como la de 3 de septiembre de 2008, sobre la situación en Georgia; la de 20 de mayo de 2010, sobre la necesidad de una estrategia de la Unión Europea para el Cáucaso meridional y la de 7 de abril de 2011, sobre la revisión de la política europea de vecindad en su dimensión oriental. Sin embargo, queremos también aprovechar este trámite para hacer un llamamiento en cuanto a que se ha de vigilar la capacidad para cumplir los correspondientes compromisos adoptados, siempre teniendo en cuenta la situación y la ambición específica de Georgia. Necesitamos reafirmar que la participación activa de Georgia y su compromiso con los valores y principios compartidos, como la democracia, el Estado de derecho, la buena gobernanza y el respeto de los derechos humanos, son esenciales para garantizar un impacto sostenible en el desarrollo del país. Creemos también que son necesarias mejoras adicionales en el ámbito de las reformas en el sistema judicial, los derechos laborales, la integración de las minorías y especialmente los derechos de las mujeres. Como conclusión, el acuerdo de asociación creemos que da un paso más en la colaboración no solo española sino también europea con un socio importante de la región y reafirma el compromiso de la Unión y de España por la promoción de sus valores fundamentales más allá de sus fronteras. Por tanto, votaremos a favor de este acuerdo así como de los restantes que se someten a la consideración de la Cámara.</seg>
                <seg>Muchas gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u3" ana="#chair">
                <seg>Muchas gracias, señora Lozano.</seg>
                <seg>Por el Grupo de La Izquierda Plural tiene la palabra el señor Nuet.</seg>
             </u>
@@ -126,7 +124,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u5" ana="#chair">
                <seg>Muchas gracias, señor Nuet.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió tiene la palabra el señor Xuclà.</seg>
             </u>
@@ -139,7 +137,7 @@
                <seg>Finalmente, también quiero hacer una referencia al tratado internacional referido a Georgia, quizás no con el entusiasmo incondicional de la portavoz que me ha precedido en el uso de la palabra porque precisamente los años de relación y de deseo de que las cosas vayan bien con Georgia me han hecho llegar a la conclusión de que las cosas son un poquito más complicadas. A Georgia la hemos intentado ayudar, como a Ucrania, y quizás el sobreesfuerzo de algunas administraciones de la otra parte del Atlántico por intentar hacer dos Estados muy cercanos en Georgia y en Ucrania ha tenido efectos contraproducentes. En Georgia el cambio de Gobierno no es solo cambio de Gobierno sino casi cambio de régimen. Georgia tiene una nueva mayoría; una mayoría que mantiene su candidatura para la Unión Europea y que mantiene sus compromisos del partenariado oriental de la Unión Europea, pero Georgia es un país que requiere aún de mucha ayuda, y con este instrumento, con este tratado internacional, se le proporciona para mejorar en sus estándares de institucionalización, de lucha contra la corrupción y de creación de un sistema judicial moderno, fiable y no politizado.<pb n="8"/> En este marco, señorías, nosotros vamos a apoyar el conjunto de los tratados, incluso al del Sultanato de Omán porque no hay mejor forma de empezar una exposición de motivos que decir: Con esto se trata de mejorar el trato comercial, pero aprovechando que el río pasa por debajo del puente vamos a votar que no por otros motivos que no traen causa del contenido de este tratado internacional. Cuando tengamos que hablar de derechos humanos y Omán lo vamos a hacer en Pleno y en Comisión, pero ahora nosotros, señorías, vamos a apoyar el conjunto de los tratados porque votamos la materia, el articulado, la sustancia de ellos.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u7" ana="#chair">
                <seg>Muchas gracias, señor Xuclà.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor Sáez Jubero.</seg>
             </u>
@@ -154,7 +152,7 @@
                <seg>Muchas gracias, presidente, muchas gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u9" ana="#chair">
                <seg>Muchas gracias, señor Sáez Jubero.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Beneyto.</seg>
             </u>
@@ -169,13 +167,13 @@
                <seg>El acuerdo de cooperación existente con la Unión Europea y el acuerdo de libre comercio que se negocia desde hace bastantes años no han avanzado. En estos momentos es una buena ocasión para que España estreche sus relaciones con este país, que es el quinto en la península arábiga con mayores reservas de hidrocarburos, y este convenio es una buena ocasión para hacerlo. Es la ocasión -al igual que sucede con Egipto y otros países en donde puede haber la necesidad de identificar violaciones de derechos humanos-, para que se haga desde la diplomacia y no con el cierre de puertas o dando la espalda. La diplomacia es la mejor manera de engagement, de imbricar, de conversación, de ir cambiando las situaciones. Esto es lo que hacen los convenios, en particular el convenio con Omán, que hoy venimos a ratificar.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u11" ana="#chair">
                <seg>Muchas gracias, señor Beneyto.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY DE MODIFICACIÓN DE LA LEY DE ENJUICIAMIENTO CRIMINAL PARA LA AGILIZACIÓN DE LA JUSTICIA PENAL Y EL FORTALECIMIENTO DE LAS GARANTÍAS PROCESALES. - PROYECTO DE LEY ORGÁNICA DE MODIFICACIÓN DE LA LEY DE ENJUICIAMIENTO CRIMINAL PARA EL FORTALECIMIENTO DE LAS GARANTÍAS PROCESALES Y LA REGULACIÓN DE LAS MEDIDAS DE INVESTIGACIÓN TECNOLÓGICA.</head>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u12" ana="#chair">
                <seg>Vamos con el siguiente punto del orden del día y, como acordamos en Junta de Portavoces, vamos a debatir de forma acumulada las enmiendas presentadas al proyecto de ley de modificación de la Ley de Enjuiciamiento Criminal para la agilización de la justicia penal y el fortalecimiento de las garantías procesales y las presentadas al proyecto de ley orgánica de modificación de la Ley de<pb n="10"/> Enjuiciamiento Criminal para el fortalecimiento de las garantías procesales y la regulación de las medidas de investigación tecnológica. Esto es, los proyectos se van a debatir conjuntamente.</seg>
                <seg>Para su presentación conjunta tiene la palabra el señor ministro de Justicia.</seg>
             </u>
@@ -197,7 +195,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u14" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>A estos dos proyectos de ley se han presentado hasta siete enmiendas a la totalidad. Vamos a comenzar por el Grupo Mixto y, como siempre, algunos defenderán su enmienda y otros intervendrán en turno de fijación de posición, pero en este mismo bloque. En primer lugar, tiene la palabra la señora Fernández Davila.</seg>
                <pb n="14"/>
@@ -211,7 +209,7 @@
                <seg>Ante el complicado escenario que atraviesa la Administración de Justicia, particularmente la justicia penal, este proyecto de ley de modificación de la Ley de Enjuiciamiento Criminal para el fortalecimiento de las garantías procesales y la regulación de las medidas de investigación tecnológica, nos parece decepcionante. Es una clara oportunidad perdida, señor ministro, que implicará que se prolongue por más tiempo su inmersión en esa penosa situación de limitadísimos medios para efectuar su labor con eficacia, lo que motiva nuestra petición de devolución de estos proyectos de ley.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u16" ana="#chair">
                <seg>Muchas gracias, señora Fernández.</seg>
                <seg>Por el Grupo Mixto, tiene la palabra la señora Jordà.</seg>
             </u>
@@ -222,7 +220,7 @@
                <seg>Por otro lado, tampoco compartimos la regulación de la intervención de las telecomunicaciones. El Gobierno ha dado marcha atrás y, a diferencia de lo contemplado en el anteproyecto de ley, no amplía el catálogo de delitos en los que el Ministerio del Interior o el secretario de Estado de Seguridad pueden acordar la intervención de las telecomunicaciones. Sin embargo, la regulación de la posibilidad de que pueda acordarse la incomunicación de un detenido, supone una vulneración de las garantías que deben asistir a las personas que son privadas de su libertad ambulatoria y puede suponer también una vulneración de su derecho de defensa. Finalmente, nos genera muchas dudas el carácter extensivo de algunas medidas de investigación, como es la posibilidad de que se puedan colocar dispositivos electrónicos que permitan la captación y grabación de las comunicaciones, incluso en el domicilio particular de la persona que se está investigando.</seg>
                <seg>Señor ministro, señorías, muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u18" ana="#chair">
                <seg>Muchas gracias, señora Jordà.</seg>
                <seg>Tiene la palabra el señor Álvarez.</seg>
                <seg>El señor ÁLVAREZ SOSTRES: Gracias, señor presidente.</seg>
@@ -339,7 +337,7 @@
                <seg>Con esto acabo mi tiempo ajustadísimo, señor presidente, cero segundos.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u33" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u33" ana="#chair">
                <seg>Pues se lo agradezco de verdad, señor Esteban, y creo que se lo agradecen todos los diputados.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra la señora Díez.</seg>
             </u>
@@ -355,7 +353,7 @@
                <seg>Gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u35" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u35" ana="#chair">
                <seg>Gracias, señora Díez.</seg>
                <seg>Por el Grupo Catalán de Convergència i Unió, tiene la palabra el señor Jané.</seg>
             </u>
@@ -373,7 +371,7 @@
                <seg>Señor presidente, señorías, agradezco a todos los portavoces sus intervenciones, pero de manera muy especial hoy al señor Llamazares, portavoz de su grupo en la Comisión de Justicia, que ha tenido una trayectoria impecable en esta Comisión y en todos los debates parlamentarios. Podemos coincidir o no con el señor Llamazares pero siempre se ha expresado con corrección y con un buen estilo parlamentario. En Convergència i Unió le deseamos, señor Llamazares, lo mejor en sus nuevas propuestas y nuevos destinos políticos con los que va a presentarse próximamente.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u37" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u37" ana="#chair">
                <seg>Muchas gracias, señor Jané.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Conde.</seg>
             </u>
@@ -389,7 +387,7 @@
                <seg>Por último, señorías, la señora Díez ha planteado una serie de cuestiones ajenas a este debate. Empezaba diciendo que si este fuera el Parlamento británico y no el español&#x85;</seg>
                <note>Continúan los rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u39" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u39" ana="#chair">
                <seg>Por favor, ruego silencio para que se pueda oír al orador.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u40"
@@ -398,7 +396,7 @@
                <seg>Se lamentaba la señora Díez de que este fuera el Parlamento español y no el británico, cosa normal porque hace poco también se lamentaba de que ella había fundado un partido para Dinamarca y no para España. No me extraña, debe ser un modo singular de hacer campaña, ir quejándose de las instituciones y del país en el que uno vive. En fin, cada uno es muy dueño de actuar como quiera. Señoría, lo que es evidente -quiero contestarle aquí- es que ni el Gobierno ni el Partido Popular tienen la más mínima intención de sancionar a ningún medio de comunicación por el hecho de que existan filtraciones de sumarios. Lo que el ministro hizo ayer, y con toda razón, es manifestarse sobre un asunto que está de plena actualidad en Europa, dado que en este momento en la Comisión de Libertades Públicas del Parlamento Europeo se está discutiendo una directiva relativa precisamente a esta materia, una materia que lleva el título del refuerzo de ciertos aspectos de la presunción de inocencia y del derecho a estar presente en el propio juicio en los procesos penales, directiva en relación con la cual el grupo parlamentario de la señora Díez, del que forma parte, ha presentado enmiendas que precisamente pretenden que se eviten las filtraciones contenidas en los sumarios. Sin embargo, señora Díez, lo que no puedo aceptar es que hable de desprecio del Gobierno a su grupo parlamentario porque no es cierto. Que se hable de desprecio al parlamentarismo no puedo aceptarlo, sobre todo, de una persona como usted, porque si alguien ha demostrado desprecio a su propio grupo parlamentario, tanto aquí como en el Parlamento Europeo, es exactamente su señoría.<note>Aplausos</note> Señorías, termino. Esta ley no es el código de justicia penal que quería el Partido Popular. Nosotros no renunciamos a hacer otro Código Procesal Penal cuando llegue el momento, pero estas dos leyes, cuyas enmiendas a la totalidad hoy debatimos, son imprescindibles para ir mejorando la calidad de la justicia penal en España. Señorías, la ley que hoy pretendemos modificar, que data del año 1882, tenía una magnífica exposición de motivos redactada por el ministro Alonso Martínez.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u41" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u41" ana="#chair">
                <seg>Señor Conde, le ruego que acabe.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u42"
@@ -408,7 +406,7 @@
                <seg>Decía Alonso Martínez: La sociedad debe marchar como la naturaleza, gradualmente, y no a saltos. Los progresos jurídicos deben irse eslabonando si han de encarnar las costumbres del país. Este es un buen eslabón para tener una buena ley procesal penal y, por tanto, pido a sus señorías que no acepten las enmiendas a la totalidad presentadas.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u43" ana="#chair">
                <seg>Muchas gracias, señor Conde.</seg>
                <seg>En dos minutos procederemos a votar.</seg>
                <note>Pausa</note>
@@ -416,7 +414,7 @@
          </div>
          <div type="debateSection">
             <head>DECLARACIÓN INSTITUCIONAL</head>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u44" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u44" ana="#chair">
                <seg>Se ha presentado a esta Presidencia, firmada por todos los grupos, una declaración institucional de apoyo al pueblo de Nepal. Va a proceder a su lectura el secretario primero.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u45"
@@ -430,74 +428,74 @@
          </div>
          <div type="debateSection">
             <head>SOLICITUD DE PRÓRROGA DE SUBCOMISIONES - SOLICITUD DE LA COMISIÓN DE SANIDAD Y SERVICIOS SOCIALES DE PRÓRROGA HASTA EL 7 DE SEPTIEMBRE DE 2015, DEL PLAZO PARA LA CONCLUSIÓN DE LOS TRABAJOS DE LA SUBCOMISIÓN PARA ABORDAR EL PROBLEMA DE LA VIOLENCIA CONTRA LOS NIÑOS Y LAS NIÑAS.</head>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u46" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u46" ana="#chair">
                <seg>De conformidad con lo acordado en la Junta de Portavoces, someto al Pleno de la Cámara la prórroga, hasta el 7 de septiembre de 2015, del plazo otorgado para la conclusión de sus trabajos a la subcomisión para abordar el problema de la violencia contra los niños y las niñas, constituida en el seno de la Comisión de Sanidad y Servicios Sociales.<note>Asentimiento</note> Se acuerda por asentimiento.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : MOCIÓN CONSECUENCIA DE INTERPELACIÓN URGENTE DEL GRUPO PARLAMENTARIO DE IU, ICV-EUIA, CHA: LA IZQUIERDA PLURAL, SOBRE MEDIDAS PARA REVOCAR EL ACUERDO DEL CONSEJO DE MINISTROS DE 13/03/2015, QUE NIEGA LA EXRADICIÓN SOLICITADA POR LAS AUTORIDADES ARGENTINAS DE PERSONAS ACUSADAS DE GRAVES CRÍMENES REALIZADOS DURANTE LA DICTADURA FRANQUISTA.</head>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u47" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u47" ana="#chair">
                <seg>Moción del Grupo de Izquierda Plural sobre medidas para revocar el acuerdo del Consejo de Ministros, de 13 de marzo de 2015, que niega la extradición solicitada por las autoridades argentinas de personas acusadas de graves crímenes realizados durante la dictadura franquista. Se va a votar en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 308; a favor, 34; en contra, 174; abstenciones, 100.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u48" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u48" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO CATALÁN<note>CONVERGÈNCIA I UNIÓ</note> , SOBRE LAS MEDIDAS QUE DEBERÍA ADOPTAR EL GOBIERNO PARA EXIMIR DE LA PRESENTACIÓN DEL IMPUESTO SOBRE SOCIEDADES A LAS PEQUEÑAS ENTIDADES SIN ÁNIMO DE LUCRO.</seg>
                <note>Número de expediente 173/000209</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u49" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u49" ana="#chair">
                <seg>Moción del Grupo Catalán de Convergència i Unió sobre las medidas que debería adoptar el Gobierno para eximir de la presentación del impuesto sobre sociedades a las pequeñas entidades sin ánimo de lucro. Hay un texto transaccional presentado por todos los grupos parlamentarios y es el que vamos a votar.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305; a favor, 305.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u50" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u50" ana="#chair">
                <seg>Queda aprobado por unanimidad.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DICTÁMENES DE LA COMISIÓN DE ASUNTOS EXTERIORES SOBRE CONVENIOS INTERNACIONALES : - CONVENIO ENTRE EL REINO DE ESPAÑA Y EL SULTANATO DE OMÁN PARA EVITAR LA DOBLE IMPOSICIÓN Y PREVENIR LA EVASIÓN FISCAL EN MATERIA DE IMPUESTOS SOBRE LA RENTA Y SU PROTOCOLO, HECHO EN MASCATE EL 30 DE ABRIL DE 2014.</head>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u51" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u51" ana="#chair">
                <seg>En cuanto a los dictámenes de la Comisión de Asuntos Exteriores sobre convenios internacionales votamos, en primer lugar, el convenio entre el Reino de España y el Sultanato de Omán para evitar la doble imposición y prevenir la evasión fiscal en materia de impuestos sobre la renta y su protocolo hecho en Mascate el 30 de abril de 2014.<pb n="35"/> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 304; a favor, 289; en contra, 12; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u52" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u52" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>- ACUERDO ENTRE EL GOBIERNO DEL REINO DE ESPAÑA Y EL GOBIERNO DE GRANADA SOBRE SUPRESIÓN RECÍPROCA DE VISADOS PARA TITULARES DE PASAPORTES DIPLOMÁTICOS, HECHO EN NUEVA YORK EL 22 DE SEPTIEMBRE DE 2014.<note>Número de expediente 110/000156</note> - TRATADO DE EXTRADICIÓN ENTRE EL REINO DE ESPAÑA Y LA REPÚBLICA SOCIALISTA DE VIETNAM, HECHO EN MADRID EL 1 DE OCTUBRE DE 2014.<note>Número de expediente 110/000157</note> - TRATADO SOBRE TRASLADO DE PERSONAS CONDENADAS ENTRE EL REINO DE ESPAÑA Y LA REPÚBLICA SOCIALISTA DE VIETNAM, HECHO EN MADRID EL 1 DE OCTUBRE DE 2014.<note>Número de expediente 110/000158</note> - PROTOCOLO DEL ACUERDO DE ESTABILIZACIÓN Y ASOCIACIÓN ENTRE LAS COMUNIDADES EUROPEAS Y SUS ESTADOS MIEMBROS, POR UNA PARTE, Y LA ANTIGUA REPÚBLICA YUGOSLAVA DE MACEDONIA, POR OTRA, PARA TENER EN CUENTA LA ADHESIÓN DE LA REPÚBLICA DE CROACIA A LA UNIÓN EUROPEA, HECHO EN BRUSELAS EL 18 DE JULIO DE 2014.<note>Número de expediente 110/000159</note> - ACUERDO DE ASOCIACIÓN ENTRE LA UNIÓN EUROPEA Y LA COMUNIDAD EUROPEA DE LA ENERGÍA ATÓMICA Y SUS ESTADOS MIEMBROS, POR UNA PARTE, Y GEORGIA, POR OTRA, HECHO EN BRUSELAS EL 27 DE JUNIO DE 2014.<note>Número de expediente 110/000160</note> - ACUERDO DE ASOCIACIÓN ENTRE LA UNIÓN EUROPEA Y LA COMUNIDAD EUROPEA DE LA ENERGÍA ATÓMICA Y SUS ESTADOS MIEMBROS, POR UNA PARTE, Y LA REPÚBLICA DE MOLDAVIA, POR OTRA, HECHO EN BRUSELAS EL 27 DE JUNIO DE 2014.</seg>
                <note>Número de expediente 110/000161</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u53" ana="#chair">
                <seg>Resto de los dictámenes de la Comisión de Asuntos Exteriores sobre convenios internacionales.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 304; a favor, 303; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u54" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u54" ana="#chair">
                <seg>Quedan aprobados todos ellos.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY DE MODIFICACIÓN DE LA LEY DE ENJUICIAMIENTO CRIMINAL PARA LA AGILIZACIÓN DE LA JUSTICIA PENAL Y EL FORTALECIMIENTO DE LAS GARANTÍAS PROCESALES.</head>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u55" ana="#chair">
                <seg>Votación conjunta de las enmiendas a la totalidad de devolución al proyecto de ley de modificación de la Ley de Enjuiciamiento Criminal para la agilización de la justicia penal y el fortalecimiento de las garantías procesales, presentadas por los Grupos Parlamentarios Mixto<note>señor Tardà y señora Fernández</note> , de La Izquierda Plural y Socialista. Hay tres votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 308 más 3 votos telemáticos, 311; a favor, 121 más 1 voto telemático, 122; en contra, 174 más 2 votos telemáticos, 176; abstenciones, 13.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u56" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u56" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <pb n="36"/>
             </u>
          </div>
          <div type="debateSection">
             <head>AVOCACIÓN POR EL PLENO</head>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u57" ana="#chair">
                <seg>Vamos a votar ahora la solicitud de avocación por el Pleno de la Cámara de la deliberación y votación final de este proyecto de ley. Hay tres votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 308 más 3 votos telemáticos, 311; a favor, 308 más 1 voto telemático, 309; en contra, 2 votos telemáticos.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u58" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u58" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>- PROYECTO DE LEY ORGÁNICA DE MODIFICACIÓN DE LA LEY DE ENJUICIAMIENTO CRIMINAL PARA EL FORTALECIMIENTO DE LAS GARANTÍAS PROCESALES Y LA REGULACIÓN DE LAS MEDIDAS DE INVESTIGACIÓN TECNOLÓGICA.</seg>
                <note>Número de expediente 121/000139</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u59" ana="#chair">
                <seg>Votación conjunta de las enmiendas a la totalidad de devolución al proyecto de ley orgánica de modificación de la Ley de Enjuiciamiento Criminal para el fortalecimiento de las garantías procesales y la regulación de las medidas de investigación tecnológica, presentadas por los Grupos Mixto, señor Tardà, La Izquierda Plural y Socialista. Hay tres votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 308 más 3 votos telemáticos, 311; a favor, 121 más 1 voto telemático, 122; en contra, 174 más 2 votos telemáticos, 176; abstenciones, 13.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u60" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-30-CD150430.u60" ana="#chair">
                <seg>Quedan rechazadas las enmiendas de totalidad.</seg>
                <seg>Se levanta la sesión.</seg>
                <seg>Eran las doce y cinco minutos del mediodía.</seg>

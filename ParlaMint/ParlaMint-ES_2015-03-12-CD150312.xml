@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="159">159 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="159" xml:lang="es">159 speeches</measure>
+            <measure unit="speeches" quantity="159" xml:lang="en">159 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -75,7 +77,7 @@
                <tagUsage gi="head" occurs="14"/>
                <tagUsage gi="pb" occurs="84"/>
                <tagUsage gi="u" occurs="159"/>
-               <tagUsage gi="lb" occurs="551"/>
+               <tagUsage gi="seg" occurs="551"/>
                <tagUsage gi="note" occurs="120"/>
             </namespace>
          </tagsDecl>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 39/2007, DE 19 DE NOVIEMBRE, DE LA CARRERA MILITAR.</head>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u1" ana="#chair">
                <seg>Se reanuda la sesión.</seg>
                <seg>Debate de totalidad del proyecto de ley por la que se modifica la Ley 39/2007, de 19 de noviembre, de la Carrera Militar. Para la presentación de este proyecto de ley tiene la palabra, en nombre del Gobierno, el señor ministro de Defensa.</seg>
             </u>
@@ -117,7 +115,7 @@
                <note>Aplausos</note>
                <pb n="8"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u3" ana="#chair">
                <seg>Muchas gracias, señor ministro de Defensa.</seg>
                <seg>Como ha señalado el ministro, a este proyecto de ley se ha presentado una enmienda a la totalidad de devolución. La ha presentado el Grupo Parlamentario de Unión Progreso y Democracia, y para su defensa tiene la palabra la señora Lozano.</seg>
             </u>
@@ -135,7 +133,7 @@
                <seg>Por tanto, tanto en este proyecto de ley como en otras reformas legales que el Gobierno está planeando observamos una nueva voluntad de no resolver los problemas auténticos de la carrera militar, de no crear un modelo de carrera militar que es el que se merecen nuestro militares, que les proporcione estabilidad y certidumbre, que proteja sus derechos y que los proteja a ellos. Por eso hemos pedido la devolución de este texto al Gobierno.</seg>
                <seg>Muchas gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u5" ana="#chair">
                <seg>Gracias, señora Lozano.</seg>
                <seg>En turno de fijación de posiciones, en primer lugar, por el Grupo Vasco, PNV, tiene la palabra el señor Agirretxea.</seg>
             </u>
@@ -146,7 +144,7 @@
                <seg>Intervengo muy brevemente y desde el escaño para decir que este proyecto de ley es, como ha dicho el ministro, un proyecto derivado de un mandato. Se trata de un tema de por sí complejo y por su complejidad precisamente tuvimos que crear esa subcomisión que trató de estudiar, por una parte, las demandas de los afectados y, por otra, las cuestiones que considerábamos que podrían facilitar la elaboración de este proyecto de ley. Hemos recibido, evidentemente, las quejas de los profesionales y las preocupaciones de los afectados directamente por este proyecto de ley y sin duda alguna no es fácil. La ley tiene algunas lagunas y cubre parcialmente esas necesidades y los argumentos de la enmienda a<pb n="10"/> la totalidad presentada tampoco subsanan del todo esa cuestión. Por tanto, mi grupo parlamentario no va a oponerse a que se tramite, aunque seguramente será mejorable en el proceso posterior.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u7" ana="#chair">
                <seg>Muchas gracias, señor Agirretxea.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Sanz.</seg>
             </u>
@@ -164,7 +162,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u9" ana="#chair">
                <seg>Muchas gracias, señor Sanz.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , tiene la palabra el señor Guillaumes.</seg>
             </u>
@@ -176,7 +174,7 @@
                <seg>Hay otras situaciones que estamos estudiando y que deberían ser incorporadas a la ley; algunas de ellas se han citado. Nos reservamos el derecho a presentar enmiendas. No nos podemos oponer a una ley que defiende a gente -no me abstendré de utilizar una cita clásica- que, como dijo Horacio Cocles en el siglo III antes de Cristo, defendiendo un puente delante de un ejército etrusco -una situación que seguro que implicaba la muerte de todos los soldados-, en una época en la que no existía el concepto claro de patria ni mucho menos el de democracia en la antigua república romana, una expresión que considero muy bella para definir lo que hace este colectivo: Qué más bello que luchar y morir -en este caso ser herido- por las tumbas de nuestros padres. Estamos hablando de defender a este colectivo y, en este sentido, es muy difícil oponerse. No obstante, nos guardamos la reserva de defender a muchos otros colectivos que sinceramente entendemos que también tienen su derecho y que serían de utilidad operativa y económicamente para las Fuerzas Armadas.</seg>
                <seg>Gracias, presidente. Gracias, señor ministro. Gracias, señorías.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u11" ana="#chair">
                <seg>Muchas gracias, señor Guillaumes.</seg>
                <seg>Por el Grupo Parlamentario Socialista, tiene la palabra don José Enrique Serrano.</seg>
             </u>
@@ -192,7 +190,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u13" ana="#chair">
                <seg>Muchas gracias, señor Serrano.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Ferrer.</seg>
             </u>
@@ -205,7 +203,7 @@
                <seg>Nada de lo que hasta ahora les he dicho es desconocido para el resto de grupos políticos de esta Cámara, ninguno de los problemas, de las dificultades o de los riesgos. No me duele reconocer que la inmensa mayoría se han conducido con responsabilidad y sentido de Estado, de ahí el abrumador apoyo recogido por el dictamen de la subcomisión en la tramitación del presente proyecto, con la presentación de todas aquellas enmiendas al articulado que han considerado y que consideren necesarias. Solo una formación política ha interpuesto enmienda a la totalidad y esa es, cómo no, UPyD, y yo me pregunto por qué. He leído atentamente la disposición que regula esta figura y cabe interponer enmienda a la totalidad por dos razones; porque esta verse sobre la oportunidad, los principios o el espíritu del proyecto de ley, y cuando leo el texto de la enmienda presentada por UPyD esta se limita a enumerar una serie de cuestiones que, a juicio de su señoría, deberían ser contempladas por el proyecto, es decir, deberían ser objeto de enmienda al articulado o bien porque se proponga un texto completo alternativo al proyecto, algo que evidentemente brilla por su ausencia y que, desde luego, nadie esperábamos. En la norma que regula las<pb n="15"/> razones que justifican la enmienda a la totalidad no he encontrado ninguna referencia al minuto de gloria. La búsqueda del minuto de gloria no justifica una enmienda a la totalidad de acuerdo con la voluntad del legislador<note>Aplausos.-Varios señores diputados: ¡Muy bien!</note> , como tampoco lo es el titular de prensa del día siguiente, del mismo modo que tampoco encuentro referencia alguna a los intereses de partido propios de año electoral. Podría terminar aquí, pero Oscar Wilde decía: Lo resisto todo menos la tentación. Y yo no resisto la tentación de hacer una referencia a lo que sucedió ayer.</seg>
                <seg>Señora Lozano, ayer trató usted de mancillar el honor del ministro de Defensa en relación con un delito del que fue víctima la comandante Cantero, que todos lamentamos y condenamos profundamente. Haría falta tener una mente muy retorcida para pensar que no es así.<note>Aplausos</note> Lo hizo pasando por encima del hecho de que es el mismo ministro que ha impulsado la política de tolerancia cero para el acoso en el seno de las Fuerzas Armadas, con un éxito en la gestión como lo demuestra el hecho de que los casos de acoso en nuestros ejércitos sean un 400 % menor que en el resto de la sociedad española. El mismo ministro que incluyó el acoso como falta muy grave en la Ley de régimen disciplinario de las Fuerzas Armadas; el mismo ministro que ha incluido el acoso como delito en el nuevo proyecto de Código Penal Militar. Nada de esto existía, señoría, antes de este ministro.<note>Aplausos.-Rumores.-El señor Pezzi Cereto: Se merece una medalla</note> Pero no se preocupe porque Pedro Morenés está acostumbrado a su estilo, en mi opinión, a su mal estilo.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u15" ana="#chair">
                <seg>Señor Pezzi, silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u16"
@@ -214,7 +212,7 @@
                <seg>Sin ir más lejos, ayer por la tarde usted lanzó un tuit a las redes sociales afirmando que el oficial que acosó a la comandante Cantero fue ascendido a coronel por el Ministerio de Defensa, ocultando deliberadamente que ese ascenso se produjo en julio de 2011, siendo ministra Carme Chacón. Un estilo, en mi opinión, miserable, reconocible, pero miserable.<note>Rumores</note> Pero no es esto lo que más le preocupa al ministro y al Partido Popular, lo más repugnante es que ha orquestado usted una campaña, programa de televisión incluido, en la que se transmite la imagen de que los hombres de nuestras Fuerzas Armadas o son unos violadores o son unos encubridores<note>Varios señores diputados: ¡Muy bien!</note> cuando lo que son es hombres de honor en su inmensa mayoría. Y todo por un minuto de gloria, por un titular de prensa, por arañar unos miserables votos. Señora Lozano, aguántese usted si puede.</seg>
                <note>Aplausos.-La señora Lozano Domingo pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u17" ana="#chair">
                <seg>Gracias, señor Ferrer.</seg>
                <seg>Señora Lozano, como ha sido usted aludida, no tiene que explicar por qué pide la palabra. Tiene usted tres minutos.</seg>
             </u>
@@ -225,7 +223,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u19" ana="#chair">
                <seg>Gracias, señora Lozano.</seg>
                <seg>Señor Ferrer.</seg>
             </u>
@@ -236,7 +234,7 @@
                <seg>Señora Lozano, seguro que la comandante sabrá disculparme. Únicamente quiero decirle una cosa, si esa es la forma que usted y UPyD entienden que es la más útil, la más razonable y la más sensata de proteger el honor de los miembros de las Fuerzas Armadas, por favor no insistan más.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u21" ana="#chair">
                <seg>Muchas gracias, señor Ferrer.</seg>
                <seg>Señor ministro de Defensa.</seg>
                <pb n="16"/>
@@ -248,19 +246,19 @@
                <seg>Sin ánimo de abrir debate quiero agradecer la disposición de algunos miembros de esta Cámara a negociar y a partir de ahora hablar de las mejoras posibles que pueda haber en este proyecto que hoy se presenta, el Gobierno &#x96;como ha estado hasta ahora- está abierto a poderlas negociar y a perfeccionarlas. Especialmente agradezco el tono que ha tenido el representante del Grupo Socialista en este sentido.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u23" ana="#chair">
                <seg>Muchas gracias, señor ministro de Defensa.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DICTAMEN DE LA COMISIÓN DEL ESTATUTO DE LOS DIPUTADOS - DICTAMEN DE LA COMISIÓN DEL ESTATUTO DE LOS DIPUTADOS SOBRE DECLARACIÓN DE ACTIVIDADES DE SEÑORES DIPUTADOS.</head>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u24" ana="#chair">
                <seg>A continuación tenemos el dictamen de la Comisión del Estatuto de los Diputados sobre declaraciones de actividades de los señores diputados en un informe que tienen sus señorías. No ha habido petición de intervenciones. Por tanto, pasaremos en su momento, al final del Pleno, a votarlo.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES - REAL DECRETO-LEY 1/2015, DE 27 DE FEBRERO, DE MECANISMO DE SEGUNDA OPORTUNIDAD, REDUCCIÓN DE LA CARGA FINANCIERA Y OTRAS MEDIDAS DE ORDEN SOCIAL.</head>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u25" ana="#chair">
                <seg>A continuación convalidación o derogación del Real Decreto-ley 1/2015, de 27 de febrero, de mecanismo de segunda oportunidad, reducción de carga financiera y otras medidas de orden social.</seg>
                <seg>Para la presentación del real decreto-ley, en nombre del Gobierno, tiene la palabra el señor ministro de Economía y Competitividad.</seg>
             </u>
@@ -283,7 +281,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u27" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Ha solicitado la utilización del turno en contra del real decreto-ley el Grupo Socialista. Compartirán el turno y, en primer lugar, tiene la palabra el señor Moscoso del Prado.</seg>
             </u>
@@ -299,7 +297,7 @@
                <seg>Por mi parte he concluido. Le paso ahora la palabra al señor De la Rocha.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u29" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u29" ana="#chair">
                <seg>Muchas gracias, señor Moscoso del Prado. En efecto, comparte turno con el señor De la Rocha.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u30"
@@ -400,7 +398,7 @@
                <seg>El código de buenas prácticas -que ustedes pusieron en marcha- se ha demostrado un fracaso, porque las personas que se han podido acoger han sido una minoría. Vemos que la dación en pago sigue sin estar encima de la mesa como una opción real para las personas que sufren la angustia de la situación socioeconómica. Si vemos a las familias monoparentales con hijos, a las que ustedes ahora, con un gran y bonito cartel, dicen que van a dar una ayuda de 1.200 euros, suena muy bien, pero cuando al final uno analiza quiénes se pueden acoger observa que las familias monoparentales con menos posibilidades económicas, con menos ingresos, no van a poder acogerse a esa situación. En definitiva creo que tienen que rectificar, aunque ya no les dé tiempo porque se les acaba la legislatura. Es una legislatura perdida desde el punto de vista de la justicia social y de dar respuesta a la situación de las personas con menos posibilidades, es una legislatura perdida desde el punto de vista de dar respuesta a los problemas estructurales de la economía del Estado español, que siguen siendo los mismos que cuando ustedes entraron, pero con un agravante: que han pasado los años y se han acrecentado, y cuando venga la siguiente crisis las consecuencias serán todavía mucho peores que las actuales, y las seguirán sufriendo las personas más débiles, como ahora, mientras que las grandes fortunas, las grandes empresas, las empresas del IBEX, los grandes bancos van a seguir contando con el apoyo de los Gobiernos, que están alimentados con esas puertas giratorias. Al final, como decía antes, los Gobiernos están actuando con gran prontitud, con gran celeridad para dar respuesta a las necesidades y urgencias de las grandes empresas, pero con mucha lentitud para dar respuesta a las angustias de la gente de a pie, de la gente de la calle.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u43" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u43" ana="#chair">
                <seg>Gracias, señor Larreina.</seg>
                <seg>Pasamos al Grupo Vasco, PNV. Señor Azpiazu.</seg>
             </u>
@@ -498,7 +496,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u53" ana="#chair">
                <seg>Muchas gracias, señor Sánchez i Llibre.</seg>
                <seg>Por el Grupo Popular tiene la palabra el señor Martínez-Pujalte.</seg>
             </u>
@@ -515,7 +513,7 @@
                <seg>Se ha avanzado en esta legislatura, hubo un primer texto de modificación de la Ley Concursal, hubo un segundo texto de modificación de la Ley Concursal, se modificó también la situación en la Ley de Emprendedores y hoy hacemos un avance estructural importantísimo, pero no por una situación que se haya producido hace tres años, sino por una situación de hace más de un siglo que el Grupo Parlamentario Popular puede corregir. Los títulos II y III de este decreto-ley hablan de hacer llegar la recuperación a los ciudadanos, a las familias, a los emprendedores, recortando las tasas judiciales. Se está avanzando, señorías, porque se están haciendo las cosas bien, se está avanzando porque se está creciendo, y no me cansaré de repetirlo. Hoy estamos tomando medidas positivas para los ciudadanos porque se da la coyuntura favorable para hacerlo, porque se está creciendo y creando empleo. No nos vamos a cansar de decirlo, señorías. Otros grupos dicen que esto es publicidad. No, lo que no es publicidad es que cada día que nos levantamos se creen 1.200 empleos en España.<note>Aplausos</note> Eso no es publicidad. Tampoco es hablar de ningún tipo de herencia saber que cuando el PSOE gobernaba entre 2008 y 2011 se destruían 2.200. Hoy estamos trabajando para mejorar la situación de los ciudadanos.</seg>
                <seg>Presidente, señorías, no me quiero alargar, pero quiero que sepan claramente que queremos crecer y que la economía vaya bien para trasladarlo a los ciudadanos. Queremos crecer porque queremos que los ciudadanos vivan mejor. Nadie en esta Cámara piensa más en las personas concretas que se levantan y tienen afanes todos los días que los diputados y diputadas del Grupo Parlamentario Popular.<note>Aplausos</note> Nadie, señorías, nadie. No pueden subir a la tribuna y uno tras otro insultar al Grupo Parlamentario Popular y que ahora yo diga que todos somos iguales. No, quien trabaja por las personas y por España es el Grupo Parlamentario Popular.<note>Varios señores diputados: ¡Muy bien!-Aplausos.-Rumores</note> Y si les escuece, lo siento.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u55" ana="#chair">
                <seg>Un momento, señor Martínez-Pujalte.</seg>
                <seg>Pido silencio.</seg>
             </u>
@@ -526,7 +524,7 @@
                <seg>Muchas gracias.</seg>
                <note>Varios señores diputados: ¡Muy bien!-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u57" ana="#chair">
                <seg>Señor Campos, no le voy a llamar al orden hoy porque es su cumpleaños, pero le ruego que esté en silencio.<note>Risas</note> Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u58"
@@ -537,13 +535,13 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u59" ana="#chair">
                <seg>Muchas gracias, señor ministro de Economía y Competitividad.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 34/1998, DE 7 DE OCTUBRE, DEL SECTOR DE HIDROCARBUROS, Y POR LA QUE SE REGULAN DETERMINADAS MEDIDAS TRIBUTARIAS Y NO TRIBUTARIAS EN RELACIÓN CON LA EXPLORACIÓN, INVESTIGACIÓN Y EXPLOTACIÓN DE HIDROCARBUROS.</head>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u60" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u60" ana="#chair">
                <seg>De acuerdo con lo que planteé el martes y aceptó el Pleno, vamos a continuar con el debate de totalidad del proyecto de ley por la que se modifica la Ley 34/1998, de 7 de octubre, del Sector de Hidrocarburos, y por la que se regulan determinadas medidas tributarias y no tributarias en relación con la exploración, investigación y explotación de hidrocarburos. Para presentar este proyecto de ley, tiene la palabra el ministro de Industria, Energía y Turismo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u61"
@@ -565,7 +563,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u62" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u62" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Como parece que las enmiendas de totalidad se mantienen, vamos a empezar por las del Grupo Mixto. Ahora van a intervenir todos los miembros del Grupo Mixto, los que tienen enmienda y los que no. Comenzamos por la señora Pérez.</seg>
             </u>
@@ -578,7 +576,7 @@
                <seg>Voy terminando, señor presidente. En definitiva, señorías, este proyecto de ley perpetúa un modelo energético insostenible centrado en las energías fósiles y en el gran negocio que ejercen en el sector energético las multinacionales del petróleo y del gas, que además en los últimos años ha frenado en seco el desarrollo de las energías renovables mediante la supresión de primas. Un modelo energético que hemos criticado muchas veces, que aumenta la dependencia energética, que centraliza competencias e impide a las comunidades autónomas diseñar su propio desarrollo energético; un modelo irresponsable que impulsa la utilización de técnicas agresivas que ya se están cuestionando, incluso prohibiendo, en otros países de nuestro entorno pero que aquí, en este Estado y con este Gobierno, se promueven sin tener en cuenta sus riesgos para el medio ambiente, la salud de las personas e incluso para la economía de las zonas donde se lleva a cabo. Por todas estas razones, señorías, hemos presentado esta enmienda a la totalidad y la petición de devolución al Gobierno de este proyecto de ley.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u64" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u64" ana="#chair">
                <seg>Muchas gracias, señora Pérez.</seg>
                <seg>Tiene ahora la palabra la señora Jordà.</seg>
             </u>
@@ -591,7 +589,7 @@
                <seg>Acabo, señor presidente. La dignidad -importante- y el territorio -también muy importante- no tienen precio, señorías, y aún menos para perpetuar la absurda dependencia de los combustibles fósiles.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u66" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u66" ana="#chair">
                <seg>Muchas gracias, señora Jordà.</seg>
                <seg>También por el Grupo Parlamentario Mixto, tiene la palabra el señor Baldoví.</seg>
             </u>
@@ -602,7 +600,7 @@
                <seg>Señor ministro, ¿usted para quién trabaja?<note>Rumores.-Un señor diputado pronuncia palabras que no se perciben</note> A mí me parece que no. Le voy a explicar las razones para votar no a este proyecto de ley. En primer lugar, anula el poder de la Administración local para evitar las instalaciones de estaciones de servicio con independencia del uso local del suelo, de conformidad con el Plan de urbanización municipal, y favorece la instalación de estaciones de servicio desatendidas, es decir, sin personal; eso es trabajar para crear empleo. En segundo lugar, el cumplimiento de las medidas de seguridad y protección medioambiental será satisfecho mediante una declaración responsable del operador mayorista, quien exigirá a su vez el cumplimiento del desarrollo reglamentario futuro al minorista. En tercer lugar, los instrumentos de medición y control no están sometidos a verificación metrológica acreditada, a pesar de basarse en sus mediciones la recaudación de impuestos y subvenciones a la Administración local y a los propietarios del espacio perforado. Abundo; se facilita, se le pone una autopista al fracking, todo son ventajas. Antes, con el señor De Guindos, facilidades para los bancos y ahora facilidades para las multinacionales, que se van a aprovechar. Recuerde, señor ministro, el terremoto de Ossa de Montiel hace pocos días estaba en un territorio donde se quiere hacer fracking. Yo creo que no hemos aprendido o no aprenden del fiasco del proyecto Castor. En quinto lugar, el proyecto de reforma de la ley limita el desarrollo futuro tanto de la orden como de la reglamentación sectorial específica a reconocer oficialmente la presunción de conformidad derivada de la declaración responsable del operador mayoritario. En sexto lugar, sigue apostando por las energías sucias, mientras que han hundido a las renovables y han hundido al autoconsumo. Eso no lo hacen en otros países que usted ha citado en esta misma tribuna.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u68" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u68" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>También por el Grupo Parlamentario Mixto, señor Quevedo.</seg>
                <pb n="49"/>
@@ -614,7 +612,7 @@
                <seg>Señorías, señor ministro, hoy volvemos a asistir a una vuelta de tuerca más a favor de la promoción de las energías llamadas sucias, la producción de energía a través de los combustibles fósiles. Desde nuestro punto de vista, lo que deberían haber hecho, señor ministro, con este proyecto de ley sobre hidrocarburos es haber impulsado las energías renovables, sobre las cuales los nacionalistas canarios le tenemos que recordar que, siendo el posible paraíso de las renovables, el índice de penetración es del 6 %. Pero con lo que nos encontramos aquí es con lo que parece ser un servicio más a aquellos que se dedican a los combustibles fósiles y a aquellos que se dedican a utilizar el fracking, a pesar de que hay muchísimos informes en contra. Yo no he conseguido leer ni una sola palabra a favor de esta técnica. Como además resulta que este proyecto de ley viene aquí sin el informe de los reguladores, de la Comisión Nacional de los Mercados y la Competencia y del Consejo de Estado -vaya manía de saltarse los órganos reguladores-, coloca un elemento de sospecha en todo este tema que usted debe entender. Por cierto, ya podíamos haber hablado de incentivos -aunque no nos los creemos como están planteados aquí- antes de que Repsol se dedicase a perforar en Canarias. Le tengo que recordar que no les han suspendido los permisos desde que han salido viento en popa y a toda vela fuera de las aguas canarias. Nosotros no podemos aceptar que en este caso Canarias quedase de nuevo excluida de un posible incentivo. Si además de lo que hemos tenido que soportar, hubiese habido petróleo, Canarias, con este proyecto de ley, no hubiese recibido un incentivo. ¿Sabe por qué? Porque según ustedes el mar que rodea al archipiélago canario no forma parte de su territorio. Esto hay que corregirlo. Confiamos en que al menos en eso tengamos la oportunidad de que usted nos apoye en algunas de las enmiendas parciales que plantearemos oportunamente. Anuncio que los nacionalistas canarios apoyaremos todas las enmiendas a la totalidad formuladas.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u70" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u70" ana="#chair">
                <seg>Muchas gracias, señor Quevedo.</seg>
                <seg>Señora Ariztegui.</seg>
             </u>
@@ -624,7 +622,7 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Una ofensa, señor ministro, este proyecto de ley tramado para hacernos tragar el fracking, una técnica prohibida cada vez en más países por sus riesgos, es una auténtica ofensa. Es una ofensa, primero, contra el sentido común, porque no contentos con tumbar la alternativa, las renovables, y cuando en todo el mundo tratan de reducir la dependencia energética, ustedes siguen empeñados en un modelo fracasado, totalmente dependiente de los combustibles fósiles y, segundo, contra la evidencia científica, que cada vez con más datos alerta de sus gravísimos efectos contaminantes sobre la salud y el medio ambiente. Posibles externalidades negativas, dice usted. Bonito eufemismo. Señor ministro, ¿le gustaría vivir cerca de esos pozos donde se inyectan millones de litros de agua mezclados con tóxico químico radiactivo? No, ¿verdad? Pues a Amaiur tampoco. Es una tremenda irresponsabilidad ante la actual situación de emergencia climática y energética. Si en las sucesivas cumbres sobre el clima que ustedes aprueban se insiste en que la mayoría de las reservas fósiles deberían quedar bajo el suelo para evitar cambios climáticos catastróficos, ¿a qué van ustedes a esas conferencias si luego hacen todo lo contrario? Es una ofensa también a sus propias leyes, a la democracia, un paso recentralizador más, porque se pasan por el arco del triunfo la contestación mayoritaria de la población, alarmada con esta técnica, y la voluntad y el derecho de las personas y pueblos que dicen alto y claro no al fracking. Con la complicidad del Tribunal Constitucional derriban decisiones legítimas de parlamentos, como la ley de Nafarroa que prohibía el francking, y conceden carta blanca a la actuación de empresarios y gobiernos autonómicos sin escrúpulos para seguir con su economía especulativa, atrasada e irracional, y encima lo peor de esta ley es que quieren engañarnos con el tocomocho -pagado a escote entre todos y todas, claro- de las compensaciones. Esta ley no es más que un intento de comprar la voluntad y el silencio de administraciones locales, afectados y afectadas y sociedad en general, pero oiga bien, ni todo el dinero del mundo puede pagar este disparate. Euskal Herria avanza hacia un modelo limpio, justo y democrático, en tránsito hacia la independencia y soberanía energética y desde luego no aceptará imposiciones como esta ley.<note>La señora diputada termina su intervención en euskera</note> Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u72" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u72" ana="#chair">
                <seg>Muchas gracias, señora Ariztegui.</seg>
                <seg>Por el Grupo de La Izquierda Plural, para presentar su enmienda a la totalidad, tiene la palabra la señora Ortiz.</seg>
                <pb n="50"/>
@@ -1074,7 +1072,7 @@
                <seg>Muchas gracias, señor presidente, señoras y señores diputados.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u127" ana="#chair">
                <seg>Muchas gracias, señor Sánchez i Llibre.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra para defender su enmienda el señor Saura.</seg>
             </u>
@@ -1089,7 +1087,7 @@
                <seg>Cuando hablan de las facturas en los cajones creo que deberían ser más prudentes y se tendrían aplicar el cuento, porque, si hablamos de facturas en los cajones, las comunidades autónomas con más facturas en los cajones son las comunidades autónomas o las administraciones gobernadas por el Partido Popular. Quiero llamar la atención sobre que la única comunidad autónoma que ha sido amonestada y señalada por la Unión Europea ha sido, por las facturas en los cajones, la Comunidad Valenciana. Creo que deberían ser ustedes más prudentes. Es más, crearon un fondo de proveedores, uno, una vez, porque decían que había que pagar las facturas en los cajones. No solamente hemos pasado de dos a siete fondos; es que el Fondo de proveedores se ha renovado tres veces, no una sino tres veces se ha reformulado el Fondo de proveedores. Por tanto, con eso de las facturas en los cajones deberían ser más prudentes y aplicarse el cuento.</seg>
                <seg>Ya llevamos mucha legislatura y podemos describir el relato y la secuencia de cuál ha sido la política del Ministerio de Hacienda en materia de financiación autonómica y de estabilidad presupuestaria y la voy a tratar de resumir rápidamente. Usted llegó al Gobierno y planteó una ley de estabilidad presupuestaria que era una ley de estabilidad presupuestaria ideológica, dura, que no se podía cumplir.<note>Rumores</note> Además de eso, la ley llevaba hombres de negro hacia las comunidades autónomas, memorándums, troika, intervención, renacionalización de las competencias económicas de las comunidades autónomas y además no se aprobó un nuevo modelo de financiación autonómica. Ese es el resultado rápido de la<pb n="84"/> secuencia de su alternativa, una ley de estabilidad presupuestaria muy difícil de cumplir. De entrada, llegar al 60 % del PIB en el año 2020 de deuda pública, si ahora estamos en el cien por cien, era imposible de cumplir.<note>Continúan los rumores</note> Así hasta los hombres de negro hacia las comunidades autónomas. ¿Cuál es el resultado de esa política&#x85;</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u129" ana="#chair">
                <seg>Perdón, señor Saura.</seg>
                <seg>¡Por favor, ruego silencio para que se pueda oír al señor Saura!</seg>
             </u>
@@ -1167,106 +1165,106 @@
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, SOBRE LAS MEDIDAS QUE PIENSA ADOPTAR EL GOBIERNO PARA DAR UNA SOLUCIÓN RÁPIDA, TRANSPARENTE Y EFECTIVA A LOS PERJUDICADOS POR LA SALIDA A BOLSA DE BANKIA, A FIN DE QUE RECUPEREN LO PERDIDO Y SE DEPUREN LAS CORRESPONDIENTES RESPONSABILIDADES.</head>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u140" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u140" ana="#chair">
                <seg>Vamos a proceder a las votaciones. Comenzamos con la moción del Grupo Parlamentario de Unión Progreso y Democracia sobre las medidas que piensa adoptar el Gobierno para dar una solución rápida, transparente y efectiva a los perjudicados por la salida a bolsa de Bankia, a fin de que recuperen lo perdido y se depuren las correspondientes responsabilidades. Se vota en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 283; a favor, 104; en contra, 164; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u141" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u141" ana="#chair">
                <seg>Queda rechazada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 39/2007, DE 19 DE NOVIEMBRE, DE LA CARRERA MILITAR.</head>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u142" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u142" ana="#chair">
                <seg>Debate de totalidad de iniciativas legislativas. En primer lugar, votación de la enmienda a la totalidad de devolución al proyecto por la que se modifica la Ley 39/2007, de 19 de noviembre, de la Carrera Militar, presentada por el Grupo Parlamentario de Unión Progreso y Democracia.</seg>
                <seg>Han sido emitidos 6 votos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 285 más 6 votos telemáticos, 291; a favor, 12; en contra, 266 más 6 votos telemáticos, 272; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u143" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u143" ana="#chair">
                <seg>Queda rechazada.</seg>
                <pb n="88"/>
             </u>
          </div>
          <div type="debateSection">
             <head>AVOCACIÓN POR EL PLENO</head>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u144" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u144" ana="#chair">
                <seg>Se ha solicitado la avocación por el Pleno de la Cámara de la deliberación y voto de esta ley. Se vota la avocación.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 285 más 6 telemáticos, 291; a favor, 121 más 1 voto telemático, 122; en contra, 164 más 5 votos telemáticos, 169.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u145" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u145" ana="#chair">
                <seg>No queda avocada por el Pleno.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DICTAMEN DE LA COMISIÓN DEL ESTATUTO DE LOS DIPUTADOS : - DICTAMEN DE LA COMISIÓN DEL ESTATUTO DE LOS DIPUTADOS SOBRE DECLARACIÓN DE ACTIVIDADES DE SEÑORES DIPUTADOS.</head>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u146" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u146" ana="#chair">
                <seg>Dictamen de la Comisión del Estatuto de los Diputados sobre declaración de actividades de los señores diputados, que no ha tenido intervenciones. ¿Puedo dar por hecho que se aprueba por asentimiento?<note>Asentimiento</note> Queda aprobado.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES : - REAL DECRETO-LEY 1/2015, DE 27 DE FEBRERO, DE MECANISMO DE SEGUNDA OPORTUNIDAD, REDUCCIÓN DE LA CARGA FINANCIERA Y OTRAS MEDIDAS DE ORDEN SOCIAL.</head>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u147" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u147" ana="#chair">
                <seg>Real Decreto-ley 1/2015, de 27 de febrero, de mecanismo de segunda oportunidad, reducción de la carga financiera y otras medidas de orden social. Han sido emitidos 6 votos telemáticamente y vamos a votar su convalidación o derogación.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 288 más 6 votos telemáticos, 294; a favor, 176 más 5 votos telemáticos, 181; en contra, 16; abstenciones, 96 más 1 voto telemático, 97.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u148" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u148" ana="#chair">
                <seg>Queda convalidado el real decreto.</seg>
                <seg>Vamos a votar ahora la tramitación como proyecto de ley por el procedimiento de urgencia de este real decreto.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 288 más 6 votos telemáticos, 294; a favor, 287 más 6 votos telemáticos, 293; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u149" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u149" ana="#chair">
                <seg>Se tramitará como proyecto de ley.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 34/1998, DE 7 DE OCTUBRE, DEL SECTOR DE HIDROCARBUROS, Y POR LA QUE SE REGULAN DETERMINADAS MEDIDAS TRIBUTARIAS Y NO TRIBUTARIAS EN RELACIÓN CON LA EXPLORACIÓN, INVESTIGACIÓN Y EXPLOTACIÓN DE HIDROCARBUROS.</head>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u150" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u150" ana="#chair">
                <seg>Votación conjunta de las enmiendas a la totalidad de devolución al proyecto de ley por la que se modifica la Ley de 7 de octubre, del Sector de Hidrocarburos, y por la que se regulan determinadas medidas tributarias y no tributarias en relación con la exploración, investigación y explotación de hidrocarburos. Se han presentado por los grupos parlamentarios Mixto, señora Pérez Fernández y señora Jordà, de La Izquierda Plural y Socialista, y han sido emitidos 6 votos telemáticos.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="89"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 288 más 6 votos telemáticos, 294; a favor, 104 más 1 voto telemático, 105; en contra, 172 más 5 votos telemáticos, 177; abstenciones, 12.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u151" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u151" ana="#chair">
                <seg>Quedan rechazadas.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>AVOCACIÓN POR EL PLENO</head>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u152" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u152" ana="#chair">
                <seg>Ha sido solicitada la avocación por el Pleno de la tramitación de este proyecto de ley, y eso es lo que vamos a votar.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 288 más 6 votos telemáticos, 294; a favor, 122 más 1 voto telemático, 123; en contra, 166 más 5 votos telemáticos, 171.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u153" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u153" ana="#chair">
                <seg>No será avocado por el Pleno.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>ENMIENDAS DEL SENADO : - PROYECTO DE LEY REGULADORA DE LA BIBLIOTECA NACIONAL DE ESPAÑA.</head>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u154" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u154" ana="#chair">
                <seg>Enmiendas del Senado al proyecto de ley reguladora de la Biblioteca Nacional de España. Vamos a votar, en primer lugar, la enmienda al artículo 1.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 285; a favor, 280; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u155" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u155" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda al artículo 3.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 285; a favor, 281; en contra, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u156" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u156" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Resto de enmiendas aprobadas en el Senado a este proyecto de ley.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 285; a favor, 265; en contra, 10; abstenciones, 10.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u157" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u157" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS<note>VOTACIÓN</note> :</seg>
                <seg>- PROYECTO DE LEY ORGÁNICA DE MODIFICACIÓN DE LA LEY ORGÁNICA 8/1980, DE 22 DE SEPTIEMBRE, DE FINANCIACIÓN DE LAS COMUNIDADES AUTÓNOMAS Y DE LA LEY ORGÁNICA 2/2012, DE 27 DE ABRIL, DE ESTABILIDAD PRESUPUESTARIA Y SOSTENIBILIDAD FINANCIERA.</seg>
                <note>Número de expediente 121/000127</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u158" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u158" ana="#chair">
                <seg>Votación conjunta de las enmiendas a la totalidad de devolución al proyecto de ley orgánica de modificación de la Ley orgánica 8/1980, de 22 de septiembre, de financiación de las comunidades autónomas, y de la Ley orgánica 2/2012, de 27 de abril, de estabilidad presupuestaria y sostenibilidad financiera. Estas enmiendas han sido presentadas por los grupos Mixto, señora Fernández Davila y señor Bosch, de Unión Progreso y Democracia, de La Izquierda Plural y Socialista. Han sido emitidos seis votos telemáticos.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="90"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 285 más 6 votos telemáticos, 291; a favor, 103 más 1 voto telemático, 104; en contra, 167 más 5 votos telemáticos, 172; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u159" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u159" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Se levanta la sesión.</seg>
                <seg>Eran las cinco y veinte minutos de la tarde.</seg>

@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="237">237 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="237" xml:lang="es">237 speeches</measure>
+            <measure unit="speeches" quantity="237" xml:lang="en">237 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="18"/>
                <tagUsage gi="note" occurs="158"/>
                <tagUsage gi="u" occurs="237"/>
-               <tagUsage gi="lb" occurs="744"/>
+               <tagUsage gi="seg" occurs="744"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DE CONVENIOS INTERNACIONALES - TERCER PROTOCOLO DE ENMIENDA DEL CONVENIO DE COOPERACIÓN PARA LA DEFENSA ENTRE EL REINO DE ESPAÑA Y LOS ESTADOS UNIDOS DE AMÉRICA, DE 1 DE DICIEMBRE DE 1988, Y SUS ENMIENDAS, HECHO EN WASHINGTON EL 17 DE JUNIO DE 2015.</head>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u1" ana="#chair">
                <seg>Señorías, se reanuda la sesión.</seg>
                <seg>Tramitación directa y en lectura única del Tercer Protocolo de Enmienda del Convenio de Cooperación para la Defensa entre el Reino de España y los Estados Unidos de América, de 1 de diciembre de 1988, y sus enmiendas, hecho en Washington el 17 de junio de 2015. Para presentar el convenio y en nombre del Gobierno, tiene la palabra el señor ministro de Asuntos Exteriores y de Cooperación.</seg>
             </u>
@@ -123,7 +121,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u3" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Se ha presentado una enmienda a la totalidad de devolución por el Grupo Parlamentario de La Izquierda Plural. Para su defensa, tiene la palabra el señor Centella.</seg>
             </u>
@@ -138,7 +136,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u5" ana="#chair">
                <seg>Muchas gracias, señor Centella.</seg>
                <seg>Pasamos entonces a las intervenciones de los grupos. En primer lugar, por el Grupo Vasco, PNV, tiene la palabra el señor Esteban.</seg>
             </u>
@@ -151,7 +149,7 @@
                <seg>Me gustaría entrar, aunque nos llevaría horas, a debatir sobre Oriente Medio, sobre el norte de África, etcétera, pero desde luego no comparto el análisis simplista del señor Centella de buenos, buenos y malos, malos, porque estamos hablando de intervenciones en Libia. Intervenciones a medias en Libia, ya que quizá el problema en Libia fue que la intervención se produjo a medias. En Siria ni siquiera se ha intervenido, incluso habiendo una crisis humanitaria como la que se ha ocasionado. Es complicado todo esto, no es tan sencillo, pero lo que sí es verdad, lo que sí es cierto es que hay un peligro evidente y mucho más incontrolable que lo que podía suponer la posible amenaza del bloque oriental en su momento, etcétera, porque adopta otras formas, porque este es un mundo más abierto y porque lo cierto es que las<pb n="13"/> fuerzas de la OTAN sin el paraguas logístico y técnico de Estados Unidos no son realmente operativas. En diferentes operaciones se ha puesto de manifiesto que el que ha tenido que poner el paraguas técnico-militar ha sido Estados Unidos. Por tanto, nuestro grupo ve con toda lógica que puedan mantenerse estas bases y se siga colaborando en este sentido.</seg>
                <seg>Por mi parte, nada más. El tema es lo suficiente claro y nítido como para no tener que debatirlo con más profundidad.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u7" ana="#chair">
                <seg>Muchas gracias, señor Esteban.</seg>
                <seg>Por Unión Progreso y Democracia, tiene la palabra la señora Lozano.</seg>
             </u>
@@ -168,7 +166,7 @@
                <seg>Señor ministro, echamos en falta una mayor audacia -no sé si llamarlo así- en la negociación bien desde el punto de vista estratégico bien desde el punto de vista de las contrapartidas. No nos han dado ninguna explicación de cómo ha sido esta negociación; no tenemos la certeza de que se haya dado una visión de largo plazo ni tampoco de corto plazo. Vamos a apoyar este protocolo estrictamente porque pensamos que es bueno para nuestro país que se refuercen esos lazos de alianza con Estados Unidos, pero tengo que decirle que nos han puesto muy difícil lo que para nosotros hubiera sido fácil. Hubiera sido muy fácil contar con este grupo parlamentario, transmitirle esa información, explicar los detalles de la negociación, y probablemente hubiéramos apoyado con entusiasmo, o por lo menos con más información, este protocolo. Nos han puesto difícil lo que era fácil, pero, a pesar de eso, lo haremos por responsabilidad.</seg>
                <seg>Muchas gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u9" ana="#chair">
                <seg>Muchas gracias, señora Lozano.</seg>
                <seg>Por el Grupo Catalán de Convergència i de Unió, tiene la palabra el señor Xuclà.</seg>
             </u>
@@ -183,7 +181,7 @@
                <seg>El Grupo Parlamentario Catalán de Convergència i de Unió va a votar favorablemente, convencidos de que esta es una renovación de una alianza de largo recorrido, de interés común y de causa común.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u11" ana="#chair">
                <seg>Muchas gracias, señor Xuclà.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor López Garrido.</seg>
             </u>
@@ -198,7 +196,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u13" ana="#chair">
                <seg>Muchas gracias, señor López Garrido.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Tarno.</seg>
             </u>
@@ -211,7 +209,7 @@
                <seg>Hay posiciones muy llamativas. El señor Centella lo simplifica todo en buenos y malos, en todo. Hoy son las bases y ayer era Grecia. Ellos siempre dan carnés de buenos y carnés de malos. Por cierto, en Grecia hay cuatro bases de la OTAN y no tienen ningún interés en modificarlas. Incluso están hablando de añadir una más. El presupuesto de Defensa de Grecia, no de médicos ni de esos que usted quiere, es del 2,2 % del PIB. El presupuesto de Defensa de España es del 0,9 % del PIB. Es para que nos situemos algunos. Ayer decíamos una cosa y hoy decimos otra. Señorías, el primero que está interesado en la defensa de los trabajadores de la base de Morón, como de todos los trabajadores de este país, es el Gobierno de España. El primero que hace políticas en defensa del trabajo en este país somos nosotros, el Gobierno y el grupo que lo sustenta. Ustedes se preocupan hoy por los trabajadores de la base de<pb n="19"/> Morón y yo también, pero no hoy, desde que se puso en marcha el primer ERE con un Gobierno socialista y auspiciado por socialistas que, por cierto, es el inicio de todo el problema laboral en la base aérea de Morón, y no vamos a hablar de ERE, porque a lo mejor en vez de hablar aquí tendríamos que hablar en un juzgado. No vamos a hablar de ERE.<note>La señora Pozuelo Meño: Di cuál</note> Donde se han visto muchos de esos ERE y la ilegalidad de esos ERE.<note>La señora Pozuelo Meño: Donde se ha archivado</note> Donde se han visto.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u15" ana="#chair">
                <seg>Por favor, ruego silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u16"
@@ -222,7 +220,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos.-El señor ministro de Asuntos Exteriores y de Cooperación, García-Margallo Marfil, pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u17" ana="#chair">
                <seg>Muchas gracias, señor Tarno.</seg>
                <seg>Tiene la palabra el señor ministro de Asuntos Exteriores y de Cooperación.</seg>
             </u>
@@ -242,7 +240,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u19" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Doy ahora la palabra, en primer lugar, al señor Centella por cinco minutos. A continuación del señor Centella, los portavoces que han intervenido y que me pidan la palabra tendrán también su turno de réplica.</seg>
                <seg>Tiene la palabra, señor Centella.</seg>
@@ -258,7 +256,7 @@
                <seg>Muchas gracias.</seg>
                <pb n="23"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u21" ana="#chair">
                <seg>Muchas gracias, señor Centella.</seg>
                <seg>¿Portavoces que quieren intervenir?<note>Pausa</note> ¿Señor Esteban?<note>Denegación.-La señora Lozano Domingo pide la palabra</note> Señora Lozano, tiene cinco minutos.</seg>
             </u>
@@ -270,7 +268,7 @@
                <seg>En segundo lugar, me hablan usted y el señor Xuclà de la información que está disponible en la web. No le hablo de la información que necesita este grupo parlamentario para posicionarse. Hemos tenido reuniones con la Embajada de Estados Unidos, a propósito de la base de Morón. Hemos tenido reuniones con el comité de empresa de Morón, que nos ha informado sobre la situación de los trabajadores. Y, en esa sucesión de reuniones, creemos que hubiera sido lógico haber tenido una reunión con el Gobierno para que nos hubiera dado su punto de vista. No es una cuestión de tener la información en sí, es una cuestión de la relación institucional que debe haber entre un Gobierno y un grupo parlamentario, y la prueba de que nuestra información es buena es que los párrafos que usted ha leído de ese memorándum de entendimiento coinciden con lo que yo he dicho, no expresan un compromiso concreto de empleo sino un compromiso genérico, una intención y unos planes. La información que tenemos es buena; lo que echaba en falta y le pedía es que hubieran manejado este asunto con otro tipo de relación institucional en la que este grupo parlamentario hubiera podido escuchar el punto de vista del Gobierno con una mayor cercanía.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u23" ana="#chair">
                <seg>Muchas gracias, señora Lozano.</seg>
                <note>El señor López Garrido pide la palabra</note>
             </u>
@@ -282,7 +280,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u25" ana="#chair">
                <seg>Muchas gracias, señor López Garrido.</seg>
                <seg>Señor Tarno.</seg>
             </u>
@@ -296,7 +294,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u27" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u27" ana="#chair">
                <seg>Muchas gracias, señor Tarno.</seg>
                <seg>Señor ministro.</seg>
             </u>
@@ -310,13 +308,13 @@
                <note>Aplausos</note>
                <pb n="25"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u29" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u29" ana="#chair">
                <seg>Vamos a pasar al siguiente punto, pero antes quiero decirles que en el orden del día hay algunos temas de carácter orgánico y, por tanto, tengo que establecer una hora de votación. Las votaciones no serán antes de las cinco de la tarde; temo que sean un poco después, pero no antes de las cinco en ningún caso.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES : - REAL DECRETO-LEY 8/2015, DE 26 DE JUNIO, DE MEDIDAS DE APOYO PARA LA CONTINUIDAD DE BARCELONA COMO 'MOBILE WORLD CAPITAL' PARA EL PERIODO 2019-2023.</head>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u30" ana="#chair">
                <seg>Convalidación o derogación del Real Decreto-ley 8/2015, de 26 de junio, de medidas de apoyo para la continuidad de Barcelona como Mobile World Capital para el periodo 2019-2023.</seg>
                <seg>Para la presentación del real decreto-ley, en nombre del Gobierno, tiene la palabra el señor ministro de Industria, Energía y Turismo.</seg>
             </u>
@@ -703,7 +701,7 @@
                <seg>Les recuerdo que hemos pedido votación separada de la enmienda número 13, que quizá es la más llamativa y la que, de alguna manera, podría mostrar una cierta voluntad en contra de esta corrupción -porque corrupción es el hecho de que un magistrado supedite sus funciones sagradas en beneficio de su carné-; así pues, esta enmienda la sometemos a votación y tienen posibilidad de votarla. Aun así, ya les digo que no vamos a tener ningún miedo a su Tribunal Constitucional porque es de parte y vendido. El derecho a decidir de los pueblos es mucho más potente que sus argucias para impedir que los pueblos puedan decidir su futuro. De manera que me remito a la voluntad democrática que expresaremos los catalanes dentro de pocas semanas. Ustedes pregúntense, como demócratas, qué piensan hacer y cómo quieren actuar, si como demócratas o como otra cosa.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u81" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Por el Grupo Vasco, PNV, tiene la palabra el señor Esteban.</seg>
             </u>
@@ -718,7 +716,7 @@
                <seg>Evidentemente, votaremos a favor de las enmiendas del resto de los grupos y nos opondremos a este cambio que se pretende realizar.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u83" ana="#chair">
                <seg>Muchas gracias, señor Esteban. Queda clara su posición.</seg>
                <seg>Por el Grupo de La Izquierda Plural tiene la palabra el señor Nuet.</seg>
             </u>
@@ -732,7 +730,7 @@
                <seg>Finalmente, diré para acabar que los estatutos de autonomía son Estado. Por tanto, si son Estado, merecen respeto y también que el Estado entienda que, al ser Estado, no pueden tener mecanismos de estas características por los que deban demostrar su inocencia. Sí, ustedes van a votar que los estatutos de autonomía deben demostrar su inocencia. El Partido Popular cree que son culpables y, por tanto, deben demostrar su inocencia. No; son inocentes porque somos Estado. O los concebimos así o el futuro va a ser muy negro.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u85" ana="#chair">
                <seg>Muchas gracias, señor Nuet.</seg>
                <seg>Por el Grupo Parlamentario Catalán de Convergència i de Unió, en primer lugar, tiene la palabra la señora Surroca.</seg>
             </u>
@@ -745,7 +743,7 @@
                <seg>Pensamos que se debe garantizar la interpretación de las fuerzas políticas del marco constitucional y que los ciudadanos han votado en referéndum; me estoy refiriendo especialmente a aquellos estatutos de autonomía por la vía del 151. Por tanto, el camino sería modificar la Ley Orgánica del Tribunal Constitucional, para excluir tanto el recurso previo como el posterior recurso de inconstitucionalidad de los proyectos de estatuto y sus reformas, especialmente los aprobados por la vía del 151. Pero ustedes, con este acuerdo, hacen absolutamente lo contrario: mantienen el doble filtro, el doble veto, el anterior y el posterior. Saben que la declaración de inconstitucionalidad sobre una ley nunca es una cuestión inocua sino que tiene consecuencias, y en el caso de los estatutos que van por la vía del 151 las consecuencias pueden ser especialmente traumáticas. Insisto en que el Estatuto de Autonomía de Cataluña es el claro ejemplo de<pb n="51"/> esa frustración que puede provocar la injerencia del Tribunal Constitucional. Con la recuperación del recurso previo estamos restando poder al Legislativo y permitimos que los magistrados del Tribunal Constitucional tomen decisiones relevantes políticamente, cuando ese no es su papel. Insistimos en que ese no es el camino.</seg>
                <seg>Además, no se equivoquen, el problema no es un estatuto u otro, el problema es que ustedes, señores del PP y, por la parte que le corresponde al Partido Socialista, no han querido ni quieren reconocer y afrontar la realidad de Cataluña. En Cataluña existe un problema que cada día se está haciendo mayor y que no vamos a resolver recuperando el recurso previo ni tampoco manteniendo el recurso de inconstitucionalidad. El problema no es parar los pies a un estatuto ambicioso que pide mayor autogobierno, el problema es que ustedes no han sabido escuchar lo que una gran mayoría de la sociedad catalana les está y les estaba pidiendo en aquel momento. Dieron un portazo al estatuto, dieron un portazo al pacto fiscal, dieron un portazo también a la consulta legal y acordada. Pero a pesar de todo, desde Unió continuamos apostando y apostaremos por el diálogo. La política es diálogo...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u87" ana="#chair">
                <seg>Señora Surroca, tiene que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u88"
@@ -755,7 +753,7 @@
                <seg>No nos cansaremos de insistir en ello. Ese es el camino, el del diálogo y el de la política en mayúsculas. Con esta propuesta, en la que se han puesto de acuerdo Grupo Popular y Grupo Socialista, no vamos a resolver el problema de fondo.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u89" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u89" ana="#chair">
                <seg>Muchas gracias, señora Surroca.</seg>
                <seg>Por el Grupo Catalán de Convergència i de Unió, tiene la palabra el señor Xuclà.</seg>
             </u>
@@ -769,7 +767,7 @@
                <seg>Termino, señorías. Señor Esteban -que se ha reincorporado al hemiciclo-, le agradezco muchísimo que haya leído la exposición de motivos del año 1985 porque pone de relieve una incoherencia extraordinaria entre el planteamiento del Partido Socialista en aquel momento y una reforma a final de legislatura que para nada contribuye a entender lo que está pasado. Señorías, creo que deberán entender las respuestas políticas, porque al final la política tiene que encontrar respuestas, y las respuestas de unidad política que se están formulando en Cataluña son una respuesta a la sordera extraordinaria que supone esta reforma de la Ley del Tribunal Constitucional.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u91" ana="#chair">
                <seg>Muchas gracias, señor Xuclà.</seg>
                <seg>Entramos ahora en el turno de fijación de posiciones. Por el Grupo de Unión Progreso y Democracia, tiene la palabra la señora Díez.</seg>
             </u>
@@ -1161,7 +1159,7 @@
                <seg>Señorías, estoy rellenito, gordito, y la ley de la gravedad -tan alta como es en este planeta- me molesta un poco y no sé si podría pedirles una proposición de ley que rebaje un poco la ley de la gravedad -ya que parece que se pueden aprobar cosas imposibles- para que la gente con mi condición y yo podamos ir más cómodos. La lógica es la misma, la del ayuntamiento votando la existencia de Dios, la del señor K en el castillo y la de ustedes aprobando una cosa que si ahora modificáramos sería de<pb n="76"/> absoluto incumplimiento. Por desgracia, el surrealismo forma parte de la política, pero no debería. ¿Verdad que no debería? Pues es todo.</seg>
                <seg>Muchas gracias, señorías, muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u142" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u142" ana="#chair">
                <seg>Muchas gracias, señor Guillaumes.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor Morlán.</seg>
             </u>
@@ -1176,7 +1174,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u144" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u144" ana="#chair">
                <seg>Muchas gracias señor Morlán.</seg>
                <seg>En turno de fijación de posiciones, en primer lugar, por el Grupo Vasco PNV, señor Agirretxea.</seg>
             </u>
@@ -1190,7 +1188,7 @@
                <seg>Gracias.</seg>
                <pb n="78"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u146" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u146" ana="#chair">
                <seg>Muchas gracias, señor Agirretxea.</seg>
                <seg>Por el Grupo Parlamentario Popular tiene la palabra la señora Barreiro.</seg>
             </u>
@@ -1204,14 +1202,14 @@
                <seg>Como aquí se ha hablado de Dios, se ha hablado de la República y se ha hablado de todo, si me permiten, voy a hacer algo más sencillo que es leer algo de otros. Dicen que el sector de seguridad y defensa factura en la Unión Europea casi 100.000 millones de euros; que en España hay 800 empresas en el ámbito civil y militar que facturan más de 10.000 millones de euros, lo que representa un poco menos del 1 % del PIB; que el 12 % de esa facturación se dedica a I+D+i; que este sector ha contribuido de forma significativa al desarrollo de los campos de la aeronáutica naval y comunicaciones, siendo una de las pocas áreas de la industria española de alta intensidad tecnológica con presencia internacional; y que un importante factor de preocupación son los recortes que se vienen manifestando en el presupuesto del Ministerio de Defensa en los últimos años para los planes especiales de armamento.<note>Muestra un documento</note> Esto está sacado de un documento, que se llama Informe sobre la situación y perspectivas en el sector de la defensa y seguridad, hecho por UGT y Comisiones Obreras. Por tanto, en este vanguardista debate que tenemos, el Grupo Parlamentario Popular apoya este informe elaborado por Comisiones Obreras y UGT, que ideológicamente están más de su parte que de la nuestra. ¿Por qué? Porque al final han tenido que bajar a la arena y decir que la industria de la defensa es un sector estratégico que ocupa a 40.000 personas en España, al que se le encargan trabajos absolutamente necesarios para la modernización de nuestras Fuerzas Armadas, para nuestra intervención en misiones de paz y para mantener la seguridad nacional, y que hay que dar estabilidad económica a sus empresas porque también se dedican a I+D+i. Ahora hay que pagar. Podemos discutir todo lo que ustedes quieran y yo no les voy a convencer de si es extrapresupuestario o presupuestario o de si hay blanqueo. Oigo mucho aquí la palabra blanqueo por parte de una diputada que tiene un poco de fijación con ella; no sé por qué, alguna cuestión debe tener con esto del blanqueo. Aquí no se oculta nada. Si no, no estaríamos aquí, no estaríamos en esta tribuna, no se tramitarían las cosas, no se publicarían en el Boletín Oficial del Estado ni estaría aquí el ministro dando explicaciones. Otra cosa es que ustedes quieran mantener un debate sobre lo que necesitan las Fuerzas Armadas, sobre lo que necesitan nuestros hombres y mujeres cuando están fuera defendiendo la seguridad nacional, defendiendo a aquellas personas que viajan de una manera inhumana en barcos que acaban siendo sus sepulcros. De eso es de lo que estamos hablando. Por tanto, este proyecto de ley transmite seguridad y tranquilidad a 40.000 trabajadores españoles, a 150 empresas que invierten en alta tecnología y a cientos de miles de expatriados que cruzan los mares en pos de un mundo nuevo y bueno y para los que sin embargo el mar es su auténtico ataúd. De eso estamos hablando hoy y por eso les pido el apoyo para este proyecto de ley.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u148" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u148" ana="#chair">
                <seg>Muchas gracias, señora Barreiro.</seg>
                <pb n="79"/>
             </u>
          </div>
          <div type="debateSection">
             <head>- PROYECTO DE LEY ORGÁNICA POR LA QUE SE REGULA EL ACCESO Y PUBLICIDAD DE DETERMINADA INFORMACIÓN CONTENIDA EN LAS SENTENCIAS DICTADAS EN MATERIA DE FRAUDE FISCAL</head>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u149" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u149" ana="#chair">
                <seg>Dictamen correspondiente al proyecto de ley orgánica por la que se regula el acceso y publicidad de determinada información contenida en las sentencias dictadas en materia de fraude fiscal. Para la presentación de las enmiendas tiene la palabra, por el Grupo Parlamentario de Unión Progreso y Democracia, el señor Calduch.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u150"
@@ -1223,7 +1221,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u151" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u151" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por el Grupo de La Izquierda Plural tiene la palabra el señor Sixto.</seg>
                <pb n="80"/>
@@ -1238,7 +1236,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u153" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u153" ana="#chair">
                <seg>Muchas gracias, señor Sixto.</seg>
                <seg>Por el Grupo Catalán de Convergència i de Unió, tiene la palabra el señor Picó.</seg>
             </u>
@@ -1253,7 +1251,7 @@
                <seg>Señorías, en el debate de totalidad reclamaba que la adopción de estas medidas tanto en la Ley General Tributaria como en la Ley orgánica no debería ser asumida únicamente desde una perspectiva partidista, sino negociada con un amplio consenso político. Debo decirles que en la tramitación parlamentaria estas dos leyes ni han sido negociadas ni han sido consensuadas. Parece que la tramitación exprés de final de legislatura exige ahora más que nunca aprobar leyes únicamente con los votos del Grupo Popular. Es así como ustedes lo han elegido.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u155" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u155" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Para la defensa también de las enmiendas, y por el Grupo Socialista, tiene la palabra la señora Vázquez.</seg>
             </u>
@@ -1269,7 +1267,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u157" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u157" ana="#chair">
                <seg>Muchas gracias, señora Vázquez.</seg>
                <seg>Turno de fijación de posiciones. En primer lugar, por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Olabarría.</seg>
             </u>
@@ -1285,7 +1283,7 @@
                <seg>¿Es una pena o no es una pena? Es una discusión casi bizantina. Es una pena y no se puede aplicar retroactivamente. En todo caso, vamos a apoyar la totalidad del proyecto de ley porque nos parece que la medida, en términos generales, puede resultar fructífera para que los ciudadanos se vean concernidos por el requerimiento del artículo 31 de la Constitución: todos deben contribuir, en virtud de sus recursos, a sufragar las cargas del Estado y a la redistribución por este procedimiento de la riqueza. Desde esta perspectiva, este es el valor superior en un derecho de configuración legal, como hemos comentado ya, al que vamos a conferir relevancia para fundamentar nuestro voto positivo.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u159" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u159" ana="#chair">
                <seg>Muchas gracias, señor Olabarría.</seg>
                <seg>Por el Grupo Popular tiene la palabra el señor López-Amor.</seg>
             </u>
@@ -1297,7 +1295,7 @@
                <seg>El proyecto de ley opta por hacer primar el interés general pero, eso sí, con ciertas cautelas, que paso a indicar. La primera, que la publicidad no recae sobre toda condena penal, sino solo las referidas al fraude fiscal, al alzamiento de bienes y a la insolvencia punible cuando tengan como perjudicado a la Hacienda pública. La segunda cautela la establece el Tribunal Constitucional, que exige que la cesión de datos personales solo pueda tener lugar o por el consentimiento del afectado o por una previsión legal específica, lo que reafirma y ratifica el principio de reserva legal de los datos tributarios del artículo 95 de la Ley General Tributaria. Esta reserva legal también está consagrada en la jurisprudencia...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u161" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u161" ana="#chair">
                <seg>Perdón, señor diputado. Por favor, es preciso un cierto silencio para escuchar al orador. Continúe, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u162"
@@ -1313,7 +1311,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos.-Varios señores diputados: ¡Muy bien!</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u163" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u163" ana="#chair">
                <seg>Muchas gracias, señor López-Amor.</seg>
                <seg>En dos minutos comienzan las votaciones.</seg>
                <note>Pausa</note>
@@ -1321,45 +1319,45 @@
          </div>
          <div type="debateSection">
             <head>TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DE CONVENIOS INTERNACIONALES : - TERCER PROTOCOLO DE ENMIENDA DEL CONVENIO DE COOPERACIÓN PARA LA DEFENSA ENTRE EL REINO DE ESPAÑA Y LOS ESTADOS UNIDOS DE AMÉRICA, DE 1 DE DICIEMBRE DE 1988, Y SUS ENMIENDAS, HECHO EN WASHINGTON EL 17 DE JUNIO DE 2015.</head>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u164" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u164" ana="#chair">
                <seg>Vamos a comenzar las votaciones, que son relativamente largas. Por tanto, pido atención y paciencia.</seg>
                <seg>Tercer Protocolo de Enmienda del Convenio de Cooperación para la Defensa entre el Reino de España y los Estados Unidos de América, de 1 de diciembre de 1988, y sus enmiendas, hecho en Washington el 17 de junio de 2015. Vamos a votar la propuesta con consideración de enmienda a la totalidad de devolución presentada por el Grupo Parlamentario de La Izquierda Plural. Hay dos votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324 más 2 votos telemáticos, 326; a favor, 17; en contra, 305 más 2 votos telemáticos, 307; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u165" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u165" ana="#chair">
                <seg>Queda rechazada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>VOTACIÓN DE CONJUNTO</head>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u166" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u166" ana="#chair">
                <seg>Ahora vamos a la votación de conjunto de este Tercer Protocolo de Enmienda del Convenio de Cooperación. Hay dos votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323 más 2 votos telemáticos, 325; a favor, 302 más 2 votos telemáticos, 304; en contra, 16; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u167" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u167" ana="#chair">
                <seg>Queda aprobado.</seg>
                <pb n="87"/>
             </u>
          </div>
          <div type="debateSection">
             <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES : - REAL DECRETO-LEY 8/2015, DE 26 DE JUNIO, DE MEDIDAS DE APOYO PARA LA CONTINUIDAD DE BARCELONA COMO 'MOBILE WORLD CAPITAL' PARA EL PERIODO 2019-2023.</head>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u168" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u168" ana="#chair">
                <seg>Convalidación o derogación del Real Decreto-Ley 8/2015, de 26 de junio, de medidas de apoyo para la continuidad de Barcelona como 'Mobile World Capital' para el periodo 2019-2023. Hay dos votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318 más 2 votos telemáticos, 320; a favor, 317 más 2 votos telemáticos, 319; en contra, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u169" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u169" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>¿Algún grupo quiere que se tramite como proyecto de ley? El Grupo Parlamentario de La Izquierda Plural.</seg>
                <seg>Sometemos a votación su tramitación como proyecto de ley por el procedimiento de urgencia. Hay dos votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317 más 2 votos telemáticos, 319; a favor, 18; en contra, 298 más 2 votos telemáticos, 300; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u170" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u170" ana="#chair">
                <seg>No va a tramitarse como proyecto de ley.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DICTÁMENES DE LA COMISIÓN DE ASUNTOS EXTERIORES SOBRE CONVENIOS INTERNACIONALES : - CONVENIO ENTRE EL REINO DE ESPAÑA Y LA REPÚBLICA DE CHILE SOBRE COOPERACIÓN EN MATERIA DE LUCHA CONTRA LA DELINCUENCIA Y SEGURIDAD, HECHO EN MADRID EL 30 DE OCTUBRE DE 2014. - TRATADO DE MARRAKECH PARA FACILITAR EL ACCESO A LAS OBRAS PUBLICADAS A LAS PERSONAS CIEGAS, CON DISCAPACIDAD VISUAL O CON OTRAS DIFICULTADES PARA ACCEDER AL TEXTO IMPRESO, HECHO EN MARRAKECH EL 27 DE JUNIO DE 2013. - ACUERDO ENTRE EL REINO DE ESPAÑA Y LA REPÚBLICA ISLÁMICA DE MAURITANIA SOBRE LA PROMOCIÓN Y PROTECCIÓN RECÍPROCA DE INVERSIONES, HECHO EN MADRID EL 24 DE JULIO DE 2008. - ACUERDO ENTRE EL REINO DE ESPAÑA Y EL REINO UNIDO DE GRAN BRETAÑA E IRLANDA DEL NORTE SOBRE PROTECCIÓN DE LA INFORMACIÓN CLASIFICADA, HECHO EN MADRID EL 5 DE FEBRERO DE 2015.</head>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u171" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u171" ana="#chair">
                <seg>Votación conjunta de los dictámenes de la Comisión de Asuntos Exteriores sobre convenios internacionales. Uno de los convenios es el Tratado de Marrakech y para ser testigos de nuestra decisión están presentes representantes de la ONCE, a los que saludo afectuosamente.</seg>
                <seg>¿Estos convenios pueden aprobarse por asentimiento?<note>Asentimiento</note> Quedan aprobados.</seg>
                <note>Aplausos</note>
@@ -1367,327 +1365,327 @@
          </div>
          <div type="debateSection">
             <head>ENMIENDAS DEL SENADO - PROYECTO DE LEY DE MODIFICACIÓN DEL SISTEMA DE PROTECCIÓN A LA INFANCIA Y A LA ADOLESCENCIA.</head>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u172" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u172" ana="#chair">
                <seg>Enmiendas del Senado al proyecto de ley de modificación del sistema de protección a la infancia y a la adolescencia. Votación separada de las enmiendas. Enmiendas al artículo primero, apartado tres.<pb n="88"/> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 118.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u173" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u173" ana="#chair">
                <seg>Quedan aprobadas por unanimidad.</seg>
                <seg>Enmiendas a la disposición final décima<note>nueva</note> , a la disposición final undécima<note>nueva</note> , a la disposición final decimotercera<note>nueva</note> , a la disposición final decimocuarta<note>nueva</note> , a la disposición final decimoquinta<note>antes novena</note> y a las disposiciones finales decimoquinta a vigesimoprimera.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 305; abstenciones, 14.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u174" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u174" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo primero, apartado siete, en lo relativo a la modificación del artículo 12.4 de la Ley Orgánica 1/1996.</seg>
                <seg>Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 300; en contra, 16; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u175" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u175" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo primero, apartado siete, en lo relativo a la modificación del artículo 12.7 de la Ley Orgánica 1/1996.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 318.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u176" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u176" ana="#chair">
                <seg>Quedan aprobadas por unanimidad.</seg>
                <seg>Enmiendas al artículo primero, apartado ocho, en lo relativo a la modificación del artículo 13.1 de la Ley Orgánica 1/1996.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 306; abstenciones, 12.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u177" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u177" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo primero, apartado ocho, en lo relativo a la modificación del artículo 13.5 de la Ley Orgánica 1/1996.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 208; abstenciones, 111.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u178" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u178" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo segundo, apartado once bis<note>nuevo</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 205; en contra, 99; abstenciones, 13.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u179" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u179" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo segundo, apartado veinticuatro.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 314; en contra, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u180" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u180" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo tercero, apartados cuatro y siete.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 285; en contra, 18; abstenciones, 13.</seg>
                <pb n="89"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u181" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u181" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo tercero, apartado ocho.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 285; en contra, 29; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u182" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u182" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo tercero, apartados nueve y veinte bis<note>nuevo</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 288; en contra, 16; abstenciones, 13.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u183" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u183" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo tercero, apartado veintitrés.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 302; en contra, 3; abstenciones, 12.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u184" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u184" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmienda a la disposición final quinta, en lo relativo a la supresión de su apartado uno, referido a la modificación del artículo 2.4 de la Ley 40/2003.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 13; en contra, 297; abstenciones, 8.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u185" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u185" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de la enmienda a la disposición final quinta.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 309; en contra, 4; abstenciones, 2.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u186" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u186" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda a la disposición final duodécima<note>nueva</note> , en lo relativo a la mención a los artículos 42.7 y 43 bis en el texto de la disposición adicional que se añade a la Ley de Enjuiciamiento Criminal.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 126; en contra, 179; abstenciones, 12.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u187" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u187" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de la enmienda a la disposición final duodécima<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 305; abstenciones, 12.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u188" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u188" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmiendas a la disposición final decimoséptima<note>antes undécima</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 205; en contra, 11; abstenciones, 102.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u189" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u189" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Resto de enmiendas al proyecto de ley.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="90"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 317; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u190" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u190" ana="#chair">
                <seg>Quedan aprobadas.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DICTÁMENES DE COMISIONES SOBRE INICIATIVAS LEGISLATIVAS : - PROPOSICIÓN DE LEY ORGÁNICA DE MODIFICACIÓN DE LA LEY ORGÁNICA 2/1979, DE 3 DE OCTUBRE, DEL TRIBUNAL CONSTITUCIONAL, PARA EL ESTABLECIMIENTO DEL RECURSO PREVIO DE INCONSTITUCIONALIDAD PARA LOS PROYECTOS DE LEY ORGÁNICA DEL ESTATUTO DE AUTONOMÍA O DE SU MODIFICACIÓN.</head>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u191" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u191" ana="#chair">
                <seg>Dictámenes de comisiones sobre iniciativas legislativas. Proposición de ley orgánica de modificación de la ley orgánica 2/1979, de 3 de octubre, del Tribunal Constitucional para el establecimiento del recurso previo de inconstitucionalidad para los proyectos de ley orgánica del estatuto de autonomía o de su modificación. Empezamos con las enmiendas del señor Tardà. En primer lugar, enmienda 13 a la proposición de ley orgánica de reforma de la Ley Orgánica 2/1979, de 3 de octubre, del Tribunal Constitucional.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 44; en contra, 179; abstenciones, 101.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u192" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u192" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 37; en contra, 282; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u193" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u193" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Votación en bloque de las enmiendas del Grupo Vasco, PNV.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 321; a favor, 35; en contra, 286.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u194" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u194" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Votación en bloque de las enmiendas de La Izquierda Plural.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 320; a favor, 33; en contra, 287.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u195" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u195" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Votación en bloque de las enmiendas del Grupo Catalán de Convergència i de Unió.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 32; en contra, 286; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u196" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u196" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Votación del dictamen de la Comisión.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 284; en contra, 39.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u197" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u197" ana="#chair">
                <seg>Queda aprobado.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>VOTACIÓN DE CONJUNTO</head>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u198" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u198" ana="#chair">
                <seg>Votación de conjunto de la proposición de ley orgánica por tener este carácter, para la cual se han emitido dos votos telemáticamente.<pb n="91"/> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322 más 2 votos telemáticos, 324; a favor, 285 más 2 votos telemáticos, 287; en contra, 37.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u199" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u199" ana="#chair">
                <seg>Queda aprobada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>- PROPOSICIÓN DE LEY ORGÁNICA PARA REFORZAR LA PROTECCIÓN DE LAS MENORES Y MUJERES CON CAPACIDAD MODIFICADA JUDICIALMENTE EN LA INTERRUPCIÓN VOLUNTARIA DEL EMBARAZO</head>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u200" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u200" ana="#chair">
                <seg>Votamos ahora las enmiendas a la proposición de ley orgánica para reforzar la protección de las menores y mujeres con capacidad modificada judicialmente en la interrupción voluntaria del embarazo. En primer lugar, votamos la enmienda número 9, de la señora Fernández Davila.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 129; en contra, 183; abstenciones, 11.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u201" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u201" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del señor Tardà. En primer lugar, enmienda 59.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 17; en contra, 286; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u202" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u202" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Resto de enmiendas.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 26, en contra, 286; abstenciones, 11.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u203" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u203" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Votación en bloque de las enmiendas del Grupo Vasco<note>EAJ-PNV</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 136; en contra, 182; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u204" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u204" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Votación en bloque de las enmiendas del Grupo de Unión Progreso y Democracia.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 131; en contra, 182; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u205" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u205" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas de La Izquierda Plural. En primer lugar, enmiendas 5 y 6.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 26; en contra, 286; abstenciones, 11.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u206" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u206" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 7 y 8.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 131; en contra, 182; abstenciones, 11.</seg>
                <pb n="92"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u207" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u207" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Votación en bloque de las enmiendas del Grupo Catalán de Convergència y de Unió.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 8; en contra, 295; abstenciones, 15.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u208" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u208" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Votación en bloque de las enmiendas del Grupo Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324; a favor, 136; en contra, 182; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u209" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u209" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Votación del dictamen de la Comisión.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 180; en contra, 140; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u210" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u210" ana="#chair">
                <seg>Queda aprobado.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>VOTACIÓN DE CONJUNTO</head>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u211" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u211" ana="#chair">
                <seg>Votación de conjunto de la proposición de ley orgánica, precisamente por su carácter orgánico. Hay 2 votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324 más 2 votos telemáticos, 326; a favor, 184 más dos votos telemáticos, 186; en contra, 136; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u212" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u212" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>- PROYECTO DE LEY POR LA QUE SE CONCEDEN CRÉDITOS EXTRAORDINARIOS Y UN SUPLEMENTO DE CRÉDITO POR IMPORTE DE 856.440.673,35 EUROS EN EL PRESUPUESTO DEL MINISTERIO DE DEFENSA, PARA ATENDER AL PAGO DE OBLIGACIONES CORRESPONDIENTES A PROGRAMAS ESPECIALES DE ARMAMENTO Y A LA REALIZACIÓN DE OTRAS ACTUACIONES DEL DEPARTAMENTO.</seg>
                <note>Número de expediente 121/000159</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u213" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u213" ana="#chair">
                <seg>Proyecto de ley por la que se conceden créditos extraordinarios y un suplemento de crédito de un número determinado de euros en el presupuesto del Ministerio de Defensa, para atender al pago de obligaciones correspondientes a programas especiales de armamento y a la realización de otras actuaciones del departamento. Empezamos con las enmiendas de la señora Fernández Davila. En primer lugar, enmienda número 12.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 41; en contra, 180; abstenciones, 101.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u214" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u214" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 13, de la señora Fernández Davila.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 322; a favor, 18; en contra, 194; abstenciones, 110.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u215" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u215" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 14.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="93"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 23; en contra, 180; abstenciones, 120.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u216" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u216" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Votación en bloque de las enmiendas del Grupo de Unión Progreso y Democracia.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 314; a favor, 32; en contra, 179; abstenciones, 103.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u217" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u217" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas del Grupo de La Izquierda Plural. Comenzamos con las enmiendas 6, 7, 8 y 10.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 33; en contra, 180; abstenciones, 104.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u218" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u218" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 9.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 14; en contra, 191; abstenciones, 112.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u219" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u219" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 11.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 15; en contra, 177; abstenciones, 123.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u220" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u220" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Votación en bloque de las enmiendas del Grupo Parlamentario Catalán de Convergència i de Unió.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 28; en contra, 178; abstenciones, 111.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u221" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u221" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmienda 18, del Grupo Socialista.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 132; en contra, 179; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u222" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u222" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Votación del dictamen de la Comisión.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 323; a favor, 180; en contra, 143.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u223" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u223" ana="#chair">
                <seg>Queda aprobado el dictamen.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>- PROYECTO DE LEY ORGÁNICA POR LA QUE SE REGULA EL ACCESO Y PUBLICIDAD DE DETERMINADA INFORMACIÓN CONTENIDA EN LAS SENTENCIAS DICTADAS EN MATERIA DE FRAUDE FISCAL</head>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u224" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u224" ana="#chair">
                <seg>Proyecto de ley orgánica por la que se regula el acceso y publicidad de determinada información contenida en las sentencias dictadas en materia de fraude fiscal. Enmiendas de Unión Progreso y Democracia. Enmienda 5.<pb n="94"/> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 118; en contra, 180; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u225" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u225" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas de Izquierda Plural. En primer lugar, enmienda 2.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 136; en contra, 178; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u226" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u226" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 3.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 115; en contra, 201; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u227" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u227" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 4.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 115; en contra, 180; abstenciones, 24.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u228" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u228" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del Grupo Parlamentario Catalán de Convergència i de Unió. En primer lugar, enmienda 10.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 137; en contra, 180.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u229" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u229" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 11.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 315; a favor, 18; en contra, 294; abstenciones, 3.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u230" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u230" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 12.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 317; a favor, 24; en contra, 181; abstenciones, 112.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u231" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u231" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmienda 13.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 316; a favor, 24; en contra, 278; abstenciones, 14.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u232" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u232" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>Enmiendas del Grupo Socialista. En primer lugar, enmiendas 6 y 9.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 114; en contra, 180; abstenciones, 24.</seg>
                <pb n="95"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u233" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u233" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Enmiendas 7 y 8.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318; a favor, 138; en contra, 180.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u234" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u234" ana="#chair">
                <seg>Quedan rechazadas.</seg>
                <seg>Votación del dictamen de la Comisión.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 319; a favor, 184; en contra, 106; abstenciones, 29.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u235" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u235" ana="#chair">
                <seg>Queda aprobado.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>VOTACIÓN DE CONJUNTO</head>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u236" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u236" ana="#chair">
                <seg>Votación de conjunto del proyecto de ley orgánica, por su carácter orgánico, y para el que se han emitido dos votos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 318 más 2 votos telemáticos, 320; a favor, 180 más 2 votos telemáticos, 182; en contra, 105; abstenciones, 33.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u237" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-07-16-CD150716.u237" ana="#chair">
                <seg>Queda aprobado.</seg>
                <seg>Se levanta la sesión.</seg>
                <seg>Eran las cinco y treinta y cinco minutos de la tarde.</seg>

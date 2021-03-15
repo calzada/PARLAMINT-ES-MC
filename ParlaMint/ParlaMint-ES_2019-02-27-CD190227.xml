@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="349">349 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="349" xml:lang="es">349 speeches</measure>
+            <measure unit="speeches" quantity="349" xml:lang="en">349 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="note" occurs="427"/>
                <tagUsage gi="pb" occurs="106"/>
                <tagUsage gi="u" occurs="349"/>
-               <tagUsage gi="lb" occurs="878"/>
+               <tagUsage gi="seg" occurs="878"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -711,7 +709,7 @@
             </u>
             <u xml:id="ParlaMint-ES_2019-02-27-CD190227.u98"
                who="#SánchezPedro"
-               ana="#regular">
+               ana="#chair">
                <seg>..., el señor Sánchez y otros tantos que venían aquí al Congreso de los Diputados a reivindicar que son afiliados y votantes del Partido Popular, seguirían gobernando y manipulando Radiotelevisión Española de manera tan impune como lo hacían.<note>Aplausos</note> Me habla usted del Consejo General del Poder Judicial. Señoría, usted realmente desconoce cómo se elige a los miembros del Consejo General del Poder Judicial. Lo desconoce.<note>El señor Rivera Díaz: ¿Por wasap?</note> No. Eso pregúnteselo a su socio, a mí no. Pero usted, señor Rivera, tendría que conocer cómo se renueva el Consejo General del Poder Judicial. Son las asociaciones de jueces quienes proponen a los candidatos que luego son refrendados en el Congreso de los Diputados, señor Rivera. Infórmese, estudie, sea humilde, no venga aquí a contarnos su argumentario, que no cree nadie y que está cargado de mentiras, señor Rivera.<note>Aplausos</note> Señor Rivera, incluso cuando habla de la tarjeta sanitaria viene con retraso y desconocimiento de las cosas. Me recordaba la ministra de Sanidad que existe la tarjeta electrónica interoperable para recetas y para el historial clínico en todo el país. Señor Rivera, infórmese y no venga aquí a dejar un poco en ridículo sus posiciones políticas como consecuencia de la falta de conocimiento de las mismas.<pb n="52"/> Señor Tardà, le agradezco el apoyo que nos da respecto al brexit.</seg>
                <note>Varias señoras y señores diputados del Grupo Parlamentario Popular en el Congreso: ¡Oh!-Varias señoras y señores diputados del Grupo Parlamentario Socialista: ¿Qué pasa?</note>
             </u>
@@ -720,7 +718,7 @@
             </u>
             <u xml:id="ParlaMint-ES_2019-02-27-CD190227.u100"
                who="#SánchezPedro"
-               ana="#regular">
+               ana="#chair">
                <seg>Sí, como también se lo he agradecido al Grupo Parlamentario Popular. ¿Hay algún problema? ¿No puedo agradecer a aquellos grupos parlamentarios que apoyen el brexit?</seg>
                <seg>Nos habla, de nuevo, del referéndum, y yo tengo que decirle varias cuestiones. Por cierto, señor Tardà, a usted, que es republicano y hace gala de ello y a este partido, que ha tenido una larga historia republicana, tengo que decirles que este fin de semana estuve en la tumba de Machado y en la tumba de Azaña...<note>Varias señoras y señores diputados: ¡Oh!</note> Señor Tardà, escúcheme, aunque sea por un instante. Fue convocada mucha gente: estuvieron allí hijos, nietos y también algún exiliado republicano de entonces, de hace ochenta años. Fue una auténtica vergüenza escuchar a independentistas gritar ¡fascistas! a los exiliados republicanos, una acción que pone en su lugar a aquellos que están defendiendo el independentismo en Cataluña.<note>Aplausos</note> Esa historia republicana es la historia también de una España progresista que ha sido opacada por los cuarenta años de dictadura franquista. Me gustaría que los grupos independentistas aquí en la Cámara pidieran al menos perdón y se disculparan por los insultos dirigidos contra los exiliados republicanos.<note>Rumores</note> Sí, del independentismo catalán, sí. El pasado fin de semana, en Colliure y en Montauban, en la tumba de Azaña y en la tumba de Machado, se criticó y se insultó la memoria de los exiliados republicanos que defendieron, no solo en Cataluña sino en toda España, la libertad y la democracia, que fue precisamente mancillada por el dictador Franco.</seg>
                <seg>Usted habla del referéndum. Además de los argumentos técnicos, hemos hablado en muchas ocasiones, señor Tardà, de la Constitución. Hemos hablado también, en relación con el Reino Unido, de que en Escocia lo que hay es un tratado internacional y, en consecuencia, no hay una Constitución que ampare un referéndum por la autodeterminación. También he dicho en otras ocasiones, señor Tardà -no es la primera vez-, que en Europa hay tensiones territoriales, regiones en donde, efectivamente, hay movimientos políticos que piden la independencia. Pero cuando el Tribunal Supremo o el Tribunal Constitucional de esos países les dicen a esos movimientos independentistas que no es constitucional, que está fuera de la ley, en estos países lo que hacen esos movimientos independentistas es asumir lo que dice el Tribunal Constitucional y el Tribunal Supremo. Y esa es la gran diferencia con el independentismo catalán, que ustedes no han asumido las sentencias, no una ni dos ni tres, sino muchas del Tribunal Supremo y del Tribunal Constitucional, en contra de lo que hicieron el 6 y el 7 de septiembre del año 2017, en contra de lo que hicieron el 1 de octubre y en contra de lo que hicieron el 27 de octubre.</seg>

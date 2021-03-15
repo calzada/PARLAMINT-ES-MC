@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="142">142 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="142" xml:lang="es">142 speeches</measure>
+            <measure unit="speeches" quantity="142" xml:lang="en">142 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="11"/>
                <tagUsage gi="u" occurs="142"/>
                <tagUsage gi="note" occurs="83"/>
-               <tagUsage gi="lb" occurs="390"/>
+               <tagUsage gi="seg" occurs="390"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -439,7 +437,7 @@
                <seg>No sé si se acuerdan del Cuento de Navidad, del avaro aquel que se llamaba Scrooge, que era un tipo que ignoraba lo que era la Navidad. Como estoy segura de que doña Ana Pastor, la presidenta del Congreso, sí sabe lo que es la Navidad, yo no sé quiénes en Moncloa, qué altos lumbreras en Moncloa representaban a ese Scrooge del Cuento de Navidad que no creía en la Navidad. Los españoles ya están bastante enfadados como para, encima, mandarles el día 25 a votar. Hoy no hay más remedio que hacer esto. Este es un país serio, y un país serio el día de Navidad no separa a los ciudadanos de sus familias. Ya saben que en Canarias hacemos el caldo y el cabrito el día de Navidad, y me decía el otro día una amiga: Imagínate tú, con todo el jaleo en mi casa, que me nombren presidenta de una mesa. ¿Ustedes se imaginan a todos esos guardias civiles deteniendo a todas las mujeres y hombres porque son incapaces el día de Navidad de dejar a sus nietos y a sus hijos que vienen de tantos sitios? Esto hay que hacerlo, pero sobre todo porque tenemos que ser serios. No era serio hacer coincidir el día de Navidad y, sobre todo, los diputados no podemos convertirnos en los Scrooge del Cuento de Navidad, en el avaro que no la conocía y después se dio cuenta de que hay gente buena. Hay gente buena en todos los lados y sobre todo en este país, y la gente buena de este país se merece políticos sensibles que reconozcan cuáles son las circunstancias de la ciudadanía.</seg>
                <seg>Muchas gracias, señora presidenta.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2016-10-18-CD161018.u54" ana="#regular">
+            <u xml:id="ParlaMint-ES_2016-10-18-CD161018.u54" ana="#chair">
                <seg>Muchas gracias.</seg>
                <seg>Tiene la palabra el señor Martínez Oblanca.</seg>
                <pb n="25"/>

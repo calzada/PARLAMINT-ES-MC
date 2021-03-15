@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="98">98 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="98" xml:lang="es">98 speeches</measure>
+            <measure unit="speeches" quantity="98" xml:lang="en">98 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="50"/>
                <tagUsage gi="note" occurs="57"/>
                <tagUsage gi="u" occurs="98"/>
-               <tagUsage gi="lb" occurs="336"/>
+               <tagUsage gi="seg" occurs="336"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES - REAL DECRETO-LEY 15/2014, DE 19 DE DICIEMBRE, DE MODIFICACIÓN DEL RÉGIMEN ECONÓMICO Y FISCAL DE CANARIAS.</head>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
                <seg>Convalidación o derogación del Real Decreto-ley 15/2014, de 19 de diciembre, de modificación del Régimen Económico y Fiscal de Canarias. Para presentar el real decreto-ley, tiene la palabra en nombre del Gobierno el ministro de Hacienda y Administraciones Públicas.</seg>
             </u>
@@ -116,7 +114,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u3" ana="#chair">
                <seg>Muchas gracias, señor ministro.</seg>
                <seg>Vamos con las intervenciones de los grupos. En primer lugar, por el Grupo Mixto tiene la palabra la señora Oramas.</seg>
             </u>
@@ -130,7 +128,7 @@
                <seg>Quiero terminar con una frase. Los canarios esperamos la modificación de la Constitución, la actualización de la Constitución, no solo para resolver los problemas que hay en este Estado después de tantos años de democracia, sino para que en esa Constitución figuren dos cosas: lo que recoge la Constitución europea, que es la condición de región ultraperiférica de Canarias, que es un hecho permanente en el tiempo; y segundo, para poder blindar el REF y que sea de obligado cumplimiento, gobierne quien gobierne, nos necesiten a Coalición Canaria o a los nacionalistas canarios o no nos necesiten, para que sea ley y, aunque se recoja en la Constitución, que sea de obligado cumplimiento. Y también es importante esa declaración de RUP, porque lo que es triste es que Europa sí aplique sus políticas siempre con la condición de RUP y que los Gobiernos de España lo hagan dependiendo de lo que les interese, dependiendo de los votos que necesiten o dependiendo de las disponibilidades presupuestarias.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u5" ana="#chair">
                <seg>Muchas gracias, señora Oramas.</seg>
                <seg>Por el Grupo Mixto también, tiene la palabra el señor Quevedo.</seg>
             </u>
@@ -144,7 +142,7 @@
                <seg>No tengo tiempo de avanzar mucho más, pero sí queremos decirle que esto no es suficiente para la diversificación de la economía en Canarias ni para la lucha definitiva contra el desempleo en Canarias. Eso necesita un plan especial que sé que usted no va a acometer ahora ni nosotros se lo vamos a plantear porque sería ocioso. En la línea que ha planteado mi compañera, en cuanto al REF económico, además de existir, tiene un inconveniente. No ha sido modificado por este real decreto, como es natural, pero sí necesita una modificación y sobre todo que ustedes lo cumplan. Le voy a decir una cosa: si hubiesen cumplido ustedes el artículo 96 de la Ley del REF del año 1994 Canarias no hubiese perdido 169 millones de euros en inversiones en los actuales Presupuestos Generales del Estado ni 600 en lo que va de mandato de su Gobierno. Es imperativo que ustedes entiendan que para Canarias este instrumento es vital en sus aspectos fiscales pero también en los económicos. Aun así y sin que sirva de precedente, vamos a estar de acuerdo, señor ministro, de lo cual nos alegramos.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u7" ana="#chair">
                <seg>Muchas gracias, señor Quevedo.</seg>
                <seg>Por el Grupo Vasco, PNV, tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -155,7 +153,7 @@
                <seg>Señor ministro, señorías, intervengo desde el escaño simplemente para señalar que nuestro grupo parlamentario va a votar favorablemente la convalidación de este real decreto-ley que consideramos que es positivo para el empleo y la actividad económica en Canarias, un territorio tan necesitado precisamente de actividad económica y empleo. A pesar de lo que ha comentado el señor Quevedo, que me ha precedido en el uso de la palabra, que no es suficiente, seguramente no es suficiente, pero creemos que es un paso positivo y por lo tanto lo vamos a votar favorablemente.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u9" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Anchuelo.</seg>
             </u>
@@ -172,7 +170,7 @@
                <seg>Esto hace que no podamos votar que sí a este real decreto porque no es este nuestro modelo de REF. Nosotros queremos un REF para las personas y no para unas pocas empresas, un REF que modernice la economía canaria y no la mantenga anclada en esos sectores tradicionales. Pero tampoco podemos ni queremos votar que no y que se tergiverse nuestro voto en el sentido de que estamos en contra de políticas compensatorias de la insularidad en el caso canario que, como he explicado, no es nuestra postura. Por eso, nuestro voto va a ser la abstención. Creemos que debe haber un Régimen Económico Fiscal pero, como he dicho, de características muy distintas al actual, que mejore la situación de las personas y que promueva la modernización y la lucha contra el determinismo geográfico en el caso canario.</seg>
                <seg>Gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u11" ana="#chair">
                <seg>Muchas gracias, señor Anchuelo.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Centella.</seg>
             </u>
@@ -188,7 +186,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u13" ana="#chair">
                <seg>Muchas gracias, señor Centella.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , tiene la palabra el señor Picó.</seg>
             </u>
@@ -202,7 +200,7 @@
                <seg>Después de hacer una lectura del real decreto-ley debemos manifestar que suena bien la música: impulso a la creación de puestos de trabajo, fomento de las inversiones, desarrollo económico y social y diversificación de la economía de las islas Canarias, actividades e innovación tecnológica. Todo ello son conceptos que contiene el texto de la norma que hoy convalidaríamos. El ministro se ha encargado cumplidamente de darnos cuenta del contenido de las medidas fiscales concretas: necesidad de impulsar medidas que los representantes canarios siempre ponen de manifiesto en sus intervenciones en esta Cámara por las especiales características físicas de insularidad y lejanía de las islas Canarias, pero también por sus características económicas y sociales. Por ello, y en un momento en el que aún no podemos hablar de que hayamos superado la crisis económica, con sus profundas consecuencias sociales incluidas, las medidas fiscales que contiene el real decreto-ley nos parecen adecuadas y pertinentes para Canarias y, como he dicho al principio de mi intervención, como hemos hecho de forma tradicional, convalidaremos con nuestro voto afirmativo el real decreto-ley que hoy estamos debatiendo.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u15" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Por el Grupo Socialista tiene la palabra doña Patricia Hernández.</seg>
             </u>
@@ -220,7 +218,7 @@
                <note>Aplausos</note>
                <pb n="14"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u17" ana="#chair">
                <seg>Muchas gracias, señora Hernández.</seg>
                <seg>Por el Grupo Popular, tiene la palabra la señora Asian.</seg>
             </u>
@@ -239,12 +237,12 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u19" ana="#chair">
                <seg>Muchas gracias, señora Asian.</seg>
                <seg>- REAL DECRETO-LEY 17/2014, DE 26 DE DICIEMBRE, DE MEDIDAS DE SOSTENIBILIDAD FINANCIERA DE LAS COMUNIDADES AUTÓNOMAS Y ENTIDADES LOCALES Y OTRAS DE CARÁCTER ECONÓMICO.</seg>
                <note>Número de expediente 130/000064</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u20" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u20" ana="#chair">
                <seg>Convalidación o derogación del Real Decreto-ley 17/2014, de 26 de diciembre, de medidas de sostenibilidad financiera de las comunidades autónomas y entidades locales y otras de carácter económico. Para presentar este real decreto-ley vuelve a tener la palabra el señor ministro de Hacienda y Administraciones Públicas.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u21"
@@ -490,7 +488,7 @@
                <seg>Señorías, este programa exige, como les decía, el esfuerzo de todos, el compromiso de todos, y por eso las comunidades autónomas contarán con todos los recursos necesarios. Hemos hecho un esfuerzo en los Presupuestos Generales del Estado para 2015, que ya recogen un aumento del 16,8 % del conjunto de las partidas dedicadas a políticas activas; aquellas que van a permitir fundamentalmente los itinerarios personalizados, las medidas de formación ajustadas a las necesidades reales de este colectivo y también para proyectos de intermediación. Quiero destacar además que esas cuantías para políticas de activación que se distribuirán desde el Ministerio de Empleo a las comunidades autónomas, como se hace anualmente en la conferencia sectorial, suponen incluso un incremento mayor de transmisión de recursos del 25,4 % que asume el Gobierno de España. Además es el propio ministerio, el propio Gobierno de España, el que financiará también la renta que acompañe a los trabajadores en todo su proceso de retorno al empleo según la duración establecida en el programa. El impacto en términos económicos de este programa, según los datos que tenemos de los registros públicos de empleo, estima que 270.000 personas puedan comenzar a beneficiarse del programa de activación desde su puesta en marcha, desde la semana pasada; se irán incorporando otras casi 135.000 personas a lo largo de toda su duración. Con ello sumarían los más de 400.000 beneficiarios que les decía al principio de mi intervención. La estimación económica de esta inversión en las personas que hace el Gobierno de España es de más de 1.000 millones de euros, que creemos que son fundamentales para la activación.</seg>
                <seg>En definitiva, señoras y señores diputados, es un esfuerzo decidido e importante, como lo es también el reto y el compromiso que todos tenemos por delante. Estamos avanzando mucho pero tenemos que seguir construyendo oportunidades para los millones de trabajadores que todavía no tienen empleo. Este programa de especial activación para aquellos que lo tienen más difícil es fruto del diálogo, del trabajo continuado de interlocutores sociales y de comunidades autónomas. Así, debemos seguir trabajando juntos para que esa cantidad de españoles que no tienen esas oportunidades de empleo las encuentren cuanto antes. El reto, señoras y señores diputados, es ganarle tiempo al tiempo. Por eso desde el Gobierno vamos a seguir trabajando también con los interlocutores sociales en la siguiente agenda de reformas, como es la reforma del sistema de formación profesional para el empleo, porque hoy la formación de los trabajadores es clave para su empleabilidad, para la recuperación de las oportunidades en forma de inserción en el mercado de trabajo. Como conocen muy bien, estamos trabajando desde hace meses, a lo largo de todo 2014, para tener un modelo que se apoye en la transparencia en la gestión, en la libre competencia, en el derecho que tienen los trabajadores a una formación de calidad en función de las necesidades del tejido productivo y también en una formación profesional para el empleo permanentemente en evaluación para, entre todos, ser más eficaces. Sabemos que el desafío que tenemos por delante y los problemas no son sencillos pero también les digo con toda honestidad que juntos, trabajando, sumando voluntades, el problema del paro, el problema del desempleo, es más fácil. Es un reto que deberemos superar toda la sociedad española con diálogo, buscando la eficiencia y con compromiso compartido por todos. Estoy segura de que, junto al esfuerzo que se ha hecho en el diálogo social y también en la conferencia sectorial con las comunidades autónomas, este programa excepcional para aquellas personas más vulnerables, parados de larga duración con responsabilidades familiares, encontrará también el<pb n="37"/> apoyo mayoritario de esta Cámara, porque el reto del empleo es el reto de todos nosotros y también de toda la sociedad española.<note>El señor presidente ocupa la Presidencia</note> Muchísimas gracias.<note>Aplausos</note> .</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u51" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u51" ana="#chair">
                <seg>Ha pedido utilizar el turno en contra el Grupo de La Izquierda Plural. Tiene la palabra el señor Coscubiela.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u52"
@@ -506,7 +504,7 @@
                <seg>Cosas como estas queremos discutirlas. Queremos discutir que la evaluación de este programa se haga trimestralmente desde el momento de su aprobación, no tres meses antes de su final. ¿Y por qué, señora ministra? Porque nos tememos que algunas de las expectativas generadas no se van a cumplir y si se analiza tres meses antes de que se termine no va a dar tiempo a hacer las rectificaciones. Pero usted no quiere, y no me extraña, señora ministra, porque hoy yo le tengo que emplazar a que recuerde sus palabras. ¿Se acuerda de que nos vino aquí a presentar la renovación del Prepara? Usted sacó pecho presentándolo como una mejora y nos explicó la cantidad de beneficiarios que iban a tener. Además, nos dijo que era la primera ministra en el mundo mundial, la primera ministra en la historia que hacía evaluaciones de las políticas y que eso era lo mejor del Prepara. ¿Conoce algún diputado de esta Cámara algún otro balance o evaluación del Prepara? Yo no. Usted afirma una cosa sabiendo que al cabo de dos minutos no la tiene que cumplir y que nadie le va a pedir explicaciones, y por eso le pedimos que la evaluación se haga en tiempo real.</seg>
                <seg>Esas y muchas otras cosas merecen un debate en términos de proyecto de ley, que podamos aportar positivamente nuestros elementos para reforzar todo aquello que los sindicatos han conseguido en la concertación social y también para analizar qué derechos de los que tenían en julio de 2012 podemos recuperar para esos parados, especialmente para los parados mayores de cuarenta y cinco años de larga duración que son las grandes víctimas de esa situación. Sinceramente, le estamos ofreciendo una posibilidad de diálogo y me gustaría que el Partido Popular no se escondiera detrás del Gobierno ni se parapetara en la concertación social. Ninguno de los agentes que firmaron ese acuerdo de concertación social está en contra de que eso se discuta como proyecto de ley. ¿Quién puede estar en contra de que se mejore este decreto-ley en su tramitación como proyecto de ley? Creo que nadie, salvo -claro- aquellos que quieran continuar haciendo del recorte de los derechos de los parados su política de estabilidad presupuestaria, reduciendo el gasto público por esa vía, o aquellos que crean que la salida de la crisis pasa por presionar a los parados para que acepten un salario de miseria. Les estoy haciendo un emplazamiento. Les anuncio con toda la responsabilidad con la que hemos criticado su política y con la misma responsabilidad con la que hemos valorado positivamente el papel de la concertación social y el que han jugado los sindicatos en este proceso que nuestro voto va a ir orientado en ese sentido de responsabilidad, por reconocimiento al trabajo que han hecho los sindicatos y también pensando en las personas que van a tener derechos que ahora no tienen, pero también pensando en aquellos que van a continuar sin tenerlos. Por eso les pido que acepten la tramitación como proyecto de ley, pero en cualquier caso, si no lo hiciesen, no van a poder evitar que mi grupo vuelva a traer aquí de nuevo el debate de los derechos usurpados a los parados en julio de 2012, que creemos que se les debe restituir por justicia, por equidad y porque gracias a ellos la economía de este país se puede reactivar por la vía del consumo interno. Espero, ya que han descubierto, aunque sea al final de la legislatura, las bondades de la<pb n="40"/> concertación social y el diálogo social, que entiendan también que les estamos planteando una propuesta de diálogo político y la acepten. Discutir esto como proyecto de ley no perjudica a nadie. Tienen ustedes una red de protección, la mayoría absoluta...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u53" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u53" ana="#chair">
                <seg>Señor Coscubiela, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u54"
@@ -516,7 +514,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u55" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u55" ana="#chair">
                <seg>Muchas gracias, señor Coscubiela.</seg>
                <seg>En turno de fijación de posiciones, en primer lugar, por el Grupo Mixto, tiene la palabra el señor Baldoví.</seg>
             </u>
@@ -527,7 +525,7 @@
                <seg>Acabo. Quiero mostrar toda mi solidaridad con los 222 trabajadores de la empresa Bosal, de Sagunto, que hoy se han puesto esta camiseta<note>muestra una camiseta en la que pone: Bosal en lucha por el empleo</note> porque con su reforma, a una multinacional rentable, con beneficios y que recibió ayudas públicas se le permitió hacer un ERE y ahora se le permite echarles a la calle; 200 trabajadores con un coste irrisorio y con sus prestaciones sociales agotadas prácticamente. Esas son realmente sus políticas, señora ministra.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u57" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Señor Tardà.</seg>
             </u>
@@ -539,7 +537,7 @@
                <seg>Por tanto, ¿qué es lo que le decimos?, ¿qué es lo que le suplicamos? Que entiendan que existe una gran contradicción. Ustedes no atajan las causas de esa situación de paro y de exclusión social y, después, vienen con estos parches. Por cierto, no vamos a votar en contra, porque ¿cómo vamos a negar a estas personas estos 426 euros? Pero la contradicción existe y deberían reconocerlo. De manera que entenderán que la respuesta sea la contestación social<note>muestra de nuevo la camiseta</note> Por eso, aquí, al lado de la ministra...<note>Continúa el discurso en catalán</note> Señora ministra, las causas de la situación, las causas, y no los apaños, los parches.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u59" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>El señor Cuadra, del Grupo Mixto también.</seg>
             </u>
@@ -552,7 +550,7 @@
                <seg>Lo que más sorprende de todo -ya termino, señor presidente- es esta foto conjunta en plan buen rollito: un Gobierno de derechas, reaccionario, el PP, en la CEOE, una patronal insaciable, dispuesta a rebañar todos los platos, y Comisiones y UGT. Y lo que se pregunta muchísima gente es si esa foto en plan buen rollito se ha dado gratis o si hay plato de lentejas por en medio.</seg>
                <pb n="42"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u61" ana="#chair">
                <seg>Muchas gracias, señor Cuadra.</seg>
                <seg>Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> tiene la palabra el señor Olabarría.</seg>
             </u>
@@ -567,7 +565,7 @@
                <seg>Por otra parte, ¿estamos ante una prestación de Seguridad Social o no? Porque, mire, algunos de los preceptos de la norma establecen lo siguiente. El procedimiento de devolución de las ayudas percibidas indebidamente se realizará conforme a lo establecido para las prestaciones por desempleo previstas en el artículo 227 del Texto Refundido de la Ley General de la Seguridad Social. Primera afirmación de este real decreto-ley. Parece que estamos ante una prestación de Seguridad Social, señora ministra. ¿Es así o no es así? Le estoy leyendo el real decreto-ley, señora ministra, no le estoy leyendo otra norma, artículo 5.6 del real decreto-ley.<note>Rumores</note> El artículo 9.1: La financiación de esta ayuda económica se incluirá dentro de la acción protectora por desempleo y se realizará con cargo al presupuesto del servicio público de empleo estatal.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u63" ana="#chair">
                <seg>Perdón, señor Olabarría.</seg>
                <seg>Por favor, ruego silencio. Los que están hablando que se vayan fuera.<note>Pausa</note> Continúe, señor Olabarría.</seg>
             </u>
@@ -579,7 +577,7 @@
                <seg>Por último, la disposición adicional segunda afirma que esta ayuda se realizará en los mismos términos fijados para las prestaciones por desempleo. Identifique bien cuál es la naturaleza de la prestación, porque si es de Seguridad Social, el componente de universalidad es un imperativo constitucional, y si no está incumpliendo la Constitución, si no afecta a todos los desempleados que -por cierto, ha sido dicho ya por otros portavoces que me han precedido en el uso de la palabra- están en la situación más baja de protección del desempleo de la historia, el 57 % de los desempleados solo obtienen algún tipo de prestación o subsidio de desempleo, señora ministra. Lo que pasa es que posiblemente no estamos ante una prestación de Seguridad Social. Podría compartir esa opinión de que esta es una materia delicada, a la que usted no se ha referido, pero que provoca una inseguridad jurídica sobre todo para los beneficiarios, que no van a saber ante quién reivindicar la negativa a las ayudas, en su caso, las bajas que se puedan producir o cualquier perturbación de sus derechos. No se trata de una prestación de Seguridad Social, sino que estamos ante políticas activas de empleo, señora ministra.</seg>
                <seg>¿Qué acredita que estamos ante políticas activas de empleo? El mero análisis del real decreto 1441/2010, por el cual a la Comunidad Autónoma del País Vasco se le transfirieron las políticas activas de empleo. Lo que usted ha comentado. En primer lugar, la compatibilidad entre un salario disminuido hasta el límite de esta renta que se articula y equivale al 80 % del Iprem. Esto no puede ocurrir con una prestación de Seguridad Social, no se puede compatibilizar una prestación de Seguridad Social con una renta de estas características. Luego ya se ve claramente que no estamos ante una prestación cuya naturaleza es de Seguridad Social, si se puede reducir la retribución del empresario, incumpliendo la obligación del pago íntegro de su retribución, hasta la cuantía del 80 % del Iprem, de la ayuda que usted está estableciendo. En segundo lugar -otra contradicción que acredita que estamos ante una política activa de empleo, una manifestación de las políticas activas de empleo-, la posibilidad excepcional, absolutamente excepcional, de unificar mediante reservas en régimen de gestión exclusiva por parte de la Administración del Estado de medidas como estas de fomento del empleo, señora ministra, está exceptuada expresamente en el Real Decreto 1441/2010, de transferencia de la competencia en materia de políticas activas de empleo a la Comunidad Autónoma del País Vasco. Y esto es lo que están ustedes haciendo, están unificando ayudas para todas las comunidades autónomas mediante el establecimiento o la tabulación de unos procedimientos de actuación iguales para todas las comunidades autónomas que, sin embargo, ignoran sus competencias en materia de ejecución de la legislación general laboral del Estado e ignoran sus competencias en materia de promoción de la actividad económica que les resulta propia, que le es propia, competencia exclusiva de la Comunidad Autónoma de Euskadi, e ignoran también, por último, las competencias en materia de políticas activas de empleo. Incluso la mera referencia a la exención de cuotas como medida de promoción que se consigna en este real decreto-ley tampoco es posible en relación con las prestaciones de Seguridad Social. Luego esto también acredita que estamos ante medidas o políticas activas de empleo o actos que se vinculan a las denominadas políticas activas de empleo con una ayuda económica que no se sabe hasta qué punto ustedes o por qué razón la han declarado<pb n="44"/> incompatible con otras ayudas económicas previstas en algunas comunidades autónomas, como la de Euskadi por ejemplo. Me estoy refiriendo a la renta de garantía de ingreso, que se dedican a combatir la exclusión social...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u65" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u65" ana="#chair">
                <seg>Señor Olabarría, tiene usted que ir acabando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u66"
@@ -588,7 +586,7 @@
                <seg>Acabo ya, señor presidente.</seg>
                <seg>Por todo ello, señora ministra, las invocaciones que usted ha hecho al consenso, las invocaciones que usted ha hecho a la colaboración con otras comunidades autónomas y las invocaciones que usted está haciendo sobre todo o la regulación que usted está acometiendo pervirtiendo la naturaleza de las competencias autonómicas, tal como están concebidas en virtud del principio dispositivo consagrado por la Constitución, es asaz preocupante. Y no es la primera vez, ya sucedió con el Prepara, señora ministra. Usted no puede subordinar competencias autonómicas a competencias estatales cuando las competencias están claramente atribuidas a las comunidades autónomas y sobre todo no puede supervisarlas, no puede examinarlas, no puede sujetarlas o someterlas a tutela o control de ninguna naturaleza. Eso no ha sucedido nunca en esta Cámara. Eso sucede en su ministerio...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u67" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u67" ana="#chair">
                <seg>Señor Olabarría, tiene usted que terminar necesariamente.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u68"
@@ -597,7 +595,7 @@
                <seg>... porque cuando usted actúa o ustedes en su ministerio actúan en concertación con algunas organizaciones sindicales, que seguramente poseen una estructura ideológica tan jacobina como la de su propio ministerio, estas cosas pueden llegar a ocurrir.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u69" ana="#chair">
                <seg>Muchas gracias, señor Olabarría.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Anchuelo.</seg>
             </u>
@@ -615,7 +613,7 @@
                <seg>Gracias, señor presidente.</seg>
                <pb n="46"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u71" ana="#chair">
                <seg>Muchas gracias, señor Anchuelo.</seg>
                <seg>Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , tiene la palabra el señor Campuzano.</seg>
             </u>
@@ -631,7 +629,7 @@
                <seg>Es una medida necesaria, es una medida imprescindible. Bienvenida sea porque además es fruto del acuerdo con los interlocutores sociales. Valoramos en nuestro caso ese esfuerzo hecho en la conferencia sectorial, pero sin los recursos de los servicios públicos de empleo, sin orientadores laborales, sin inversión en tecnología en los servicios públicos de empleo, sin hacer funcionar de manera eficaz la colaboración público-privada tiene el riesgo de ser un brindis al sol. El hecho de dejar de nuevo las políticas activas modernas muy lejos de aquello que han promovido los países de nuestro entorno es, señora ministra, de nuevo una cuestión pendiente, una oportunidad perdida.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u73" ana="#chair">
                <seg>Muchas gracias, señor Campuzano.<note>Rumores</note> Ruego, por favor, silencio para que podamos oír a los oradores.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor Simancas.</seg>
             </u>
@@ -646,7 +644,7 @@
                <seg>Les reitero que este plan que traen hoy para su convalidación es tardío e insuficiente. Es insuficiente en el número de beneficiarios. Dicen que 400.000; no lo creemos, pero seguro que van a ser muchos menos de los casi 4 millones de parados EPA sin prestación que tenemos en España. Seguro. Las condiciones que han puesto a los parados para acceder a esta ayuda mínima son muy duras y contrastan vivamente -se ha dicho aquí- con las ventajas que ofrecen a los empresarios. De hecho, al hacer compatible la prestación con el trabajo por cuenta...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u75" ana="#chair">
                <seg>Perdón, señor Simancas. No se puede oír al orador, es imposible.</seg>
                <seg>Continúe.</seg>
                <pb n="49"/>
@@ -660,7 +658,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u77" ana="#chair">
                <seg>Muchas gracias, señor Simancas.</seg>
                <seg>Por el Grupo Popular tiene la palabra la señora Álvarez-Arenas.</seg>
                <seg>La señora ÁLVAREZ-ARENAS CISNEROS: Gracias, señor presidente.</seg>
@@ -674,7 +672,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u78" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u78" ana="#chair">
                <seg>Muchas gracias, señora Álvarez-Arenas.</seg>
                <seg>En unos minutos vamos a votar.</seg>
                <note>Pausa</note>
@@ -682,7 +680,7 @@
          </div>
          <div type="debateSection">
             <head>JURAMENTO O PROMESA DE ACATAMIENTO DE LA CONSTITUCIÓN POR NUEVOS SEÑORES DIPUTADOS</head>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u79" ana="#chair">
                <seg>Con carácter previo a las votaciones, vamos a proceder al juramento o promesa de acatamiento de la Constitución, conforme al artículo 20.1.3.º del Reglamento.</seg>
                <seg>En sustitución de don Ignacio Uriarte Ayala, pregunto a don Juan Vicente Pérez Aras si jura o promete acatar la Constitución.</seg>
             </u>
@@ -692,7 +690,7 @@
                <seg>Sí, juro.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u81" ana="#chair">
                <seg>En sustitución de don Valeriano Gómez Sánchez, pregunto a doña Lucila Corral Ruiz si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u82"
@@ -701,7 +699,7 @@
                <seg>Sí, prometo.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u83" ana="#chair">
                <seg>En sustitución de don Alfonso Guerra González, pregunto a doña Silvia Oñate Moya si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u84"
@@ -710,7 +708,7 @@
                <seg>Sí, prometo.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u85" ana="#chair">
                <seg>En sustitución de don Luis Tudanca Fernández, pregunto a doña María del Mar Arnaiz García si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u86"
@@ -719,7 +717,7 @@
                <seg>Sí, prometo.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u87" ana="#chair">
                <seg>Don Juan Vicente Pérez Aras, doña Lucila Corral Ruiz, doña Silvia Oñate Moya y doña María del Mar Arnaiz García han adquirido la condición plena de diputados. Enhorabuena.<note>Aplausos</note> Señorías, antes de pasar a las votaciones quiero rendir homenaje en nombre de todos a don Cándido Reguera, fallecido en Lanzarote el pasado viernes. Fue diputado nacional del Grupo Popular en este<pb n="52"/> Congreso del año 2000 al 2010. Somos muchos los que recordamos su buen hacer, su dedicación a Canarias y, sobre todo, su amor a la isla de Lanzarote.</seg>
                <seg>Descanse en paz.</seg>
                <note>Aplausos</note>
@@ -742,43 +740,43 @@
          </div>
          <div type="debateSection">
             <head>REAL DECRETO-LEY 15/2014, DE 19 DE DICIEMBRE, DE MODIFICACIÓN DEL RÉGIMEN ECONÓMICO Y FISCAL DE CANARIAS.</head>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u90" ana="#chair">
                <seg>En primer lugar, se somete a votación la convalidación o derogación del Real Decreto-ley 15/2014, de 19 de diciembre de modificación del Régimen Económico y Fiscal de Canarias. Han sido emitidos tres votos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 324 más 3 votos telemáticos 327; a favor, 309 más 3 votos telemáticos, 312; en contra, 10; abstenciones, 5.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u91" ana="#chair">
                <seg>Queda convalidado.</seg>
                <seg>Se ha solicitado la tramitación de este real decreto-ley como proyecto de ley por el procedimiento de urgencia. Vamos a someterlo a votación. Se han emitido dos votos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos 325 más 2 votos telemáticos, 327; a favor, 40; en contra 279 más 2 votos telemáticos, 281; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u92" ana="#chair">
                <seg>No será tramitado como proyecto de ley.</seg>
                <seg>- REAL DECRETO-LEY 17/2014, DE 26 DE DICIEMBRE, DE MEDIDAS DE SOSTENIBILIDAD FINANCIERA DE LAS COMUNIDADES AUTÓNOMAS Y ENTIDADES LOCALES Y OTRAS DE CARÁCTER ECONÓMICO.</seg>
                <note>Número de expediente 130/000064</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u93" ana="#chair">
                <seg>Convalidación o derogación del Real Decreto-ley 17/2014, de 26 de diciembre, de medidas de sostenibilidad financiera de las comunidades autónomas y entidades locales y otras de carácter económico. Ha habido tres votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos 325 más 3 votos telemáticos, 328; a favor 177 más 2 votos telemáticos, 179; en contra, 20; abstenciones 128 más 1 voto telemático, 129.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u94" ana="#chair">
                <seg>Queda convalidado.</seg>
                <seg>Se va a votar ahora su tramitación como proyecto de ley por el procedimiento de urgencia. Se han emitido tres votos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos 325 más 3 votos telemáticos, 328; a favor 149 más 1 voto telemático, 150; en contra 176 más 2 votos telemáticos, 178.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u95" ana="#chair">
                <seg>No se tramitará como proyecto de ley.</seg>
                <seg>- REAL DECRETO LEY 16/2014, DE 19 DE DICIEMBRE, POR EL QUE SE REGULA EL PROGRAMA DE ACTIVACIÓN PARA EL EMPLEO.</seg>
                <note>Número de expediente 130/000063</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u96" ana="#chair">
                <seg>Convalidación o derogación del Real Decreto-ley 16/2014, de 19 de diciembre, por el que se regula el Programa de Activación para el Empleo. Hay tres votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos 325 más 3 votos telemáticos, 328; a favor 296 más 3 votos telemáticos, 299; en contra, 9; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u97" ana="#chair">
                <seg>Queda convalidado.<pb n="53"/> Sometemos ahora la tramitación de este real decreto-ley como proyecto de ley por el procedimiento de urgencia. Hay tres votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 325 más 3 votos telemáticos, 328; a favor, 148 más 1 voto telemático, 149; en contra, 177 más 2 votos telemáticos, 179.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-01-20-CD150120.u98" ana="#chair">
                <seg>No se tramitará como proyecto de ley.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las nueve y cinco minutos de la noche.</seg>

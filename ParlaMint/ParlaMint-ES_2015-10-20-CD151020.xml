@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="174">174 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="174" xml:lang="es">174 speeches</measure>
+            <measure unit="speeches" quantity="174" xml:lang="en">174 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -75,7 +77,7 @@
                <tagUsage gi="head" occurs="5"/>
                <tagUsage gi="pb" occurs="48"/>
                <tagUsage gi="u" occurs="174"/>
-               <tagUsage gi="lb" occurs="479"/>
+               <tagUsage gi="seg" occurs="479"/>
                <tagUsage gi="note" occurs="162"/>
             </namespace>
          </tagsDecl>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES - DEL GRUPO PARLAMENTARIO VASCO , SOBRE LA ACTITUD ENTORPECEDORA DEL GOBIERNO ESPAÑOL HACIA EL EJERCICIO Y DESARROLLO DEL AUTOGOBIERNO VASCO EN MATERIA DE SEGURIDAD.</head>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
                <seg>Moción del Grupo Parlamentario Vasco, PNV, sobre la actitud entorpecedora del Gobierno español hacia el ejercicio y desarrollo del autogobierno vasco en materia de seguridad. Para defender la iniciativa, tiene la palabra el señor Olabarría.</seg>
             </u>
@@ -113,7 +111,7 @@
                <seg>Por si fuera poco lo anterior, también les indicamos que hay una proposición no de ley presentada casualmente por el que a la sazón ocupa la posición de delegado del Gobierno en Euskadi, don Carlos Urquijo, la proposición no de ley 53/2010, donde se consensuó por unanimidad en el Parlamento Vasco que el contingente de la Ertzaintza tiene que ser de 8.000 miembros. Lo que ha ocurrido con la Ertzaintza es lo siguiente: Como saben la mayoría de sus señorías, se creó como cuerpo policial en los años ochenta del siglo pasado y se implantó territorialmente de modo progresivo a través de sucesivas promociones en un lapso temporal muy corto, lo que ha producido una pirámide de edad totalmente plana. Los funcionarios de la Ertzaintza se encuentran en un rango de edad de quince años, lo que determina que en pocos años asistiremos al envejecimiento de la plantilla y a su jubilación de modo exponencial, lo cual solo podrá evitarse mediante la planificación de un reemplazo de carácter progresivo. Esta convocatoria de 250 plazas de agentes de la escala básica de la Ertzaintza pretende evitar que este envejecimiento provoque una disminución de efectivos de naturaleza vegetativa que impida que la Ertzaintza pueda cumplir sus funciones, que son funciones de policía integral.</seg>
                <seg>Este argumentario se complementa, señor presidente, con la actitud renuente de la Administración General del Estado a la participación de las dos policías integrales existentes en el Estado español, los Mossos d'Esquadra y la Ertzaintza, en órganos transnacionales de carácter policial. Se les impide acceder a las bases de datos de estos órganos policiales de carácter transnacional, poseyendo ambas policías -los Mossos d'Esquadra y la Ertzaintza- carácter de policías integrales. Se les impide el acceso a foros donde se están articulando los mecanismos de prevención y de lucha contra el terrorismo de nuevo cuño, fundamentalmente del terrorismo yihadista, y particularmente a la reciente cumbre de Barcelona, donde todas las policías europeas articularon...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u3" ana="#chair">
                <seg>Señor Olabarría, debe usted ir terminando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u4"
@@ -124,7 +122,7 @@
                <seg>No sé cuáles son las razones. Se me escapan las razones que evitan que se acepten estos argumentos, contradiciendo no lo que nosotros decimos, sino lo que afirma taxativamente la Sala de lo Contencioso-administrativo del Tribunal Superior de Justicia del País Vasco. No sé cómo van a responder ustedes a un argumentario de naturaleza judicial. Sé que han recurrido el auto donde el requerimiento de paralización de la convocatoria se declaró anulado, desmontando todo el argumentario jurídico que le servía de fundamento. El recurso está presentado con el mismo argumentario jurídico; luego aquí lo que se observa, en definitiva, es una animadversión y una falta de fe en la Ertzaintza como policía integral.</seg>
                <seg>Dicho esto, señor presidente, ...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u5" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u5" ana="#chair">
                <seg>Señor Olabarría, tiene usted que concluir inevitablemente.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u6"
@@ -133,7 +131,7 @@
                <seg>Ya fuera de tiempo, si me permite, señor presidente, después de más de veinticinco años de presencia en esta Cámara, esta es también mi última intervención. Ya fuera del tiempo del que usted con tanta generosidad me ha provisto siempre, tengo que decir varias cosas. Quiero pedirle perdón a usted, y a usted en representación de todos los presidentes que le han precedido en su loable función, por haber incurrido en lo que podríamos denominar insurrección sistemática en cuanto al uso de los tiempos disponibles para intervenir.<note>Risas y aplausos</note> Quiero pedir perdón a todos los presentes en esta Cámara por haber pulverizado ese mito antropológico que se nos atribuye a los vascos<pb n="6"/> de ser personas parcas en palabras -algunos optimistas afirman que largos en hechos-.<note>Risas y aplausos</note> Quiero agradecer lo que aquí he aprendido, que ha sido mucho. Contra esta especie de visión negativa de lo que dimana de esta Cámara y de lo que se especula y se debate, aquí se aprenden muchas cosas, señor presidente. Aquí se aprenden muchas cosas vinculadas a las materias que nos toca debatir desde la contradicción dialéctica y de otras materias que podrían calificarse en términos vulgares o genéricos de gramática parda, lo cual no es malo para la vida ni para la convivencia. Quiero sobre todo agradecer a todos ustedes la posibilidad de haber hecho muchos amigos de diferentes sensibilidades políticas. Fíjese si es meritorio lo que le estoy diciendo, señor presidente, que incluso he logrado ser amigo de mis propios compañeros de grupo parlamentario.<note>Risas.-Aplausos</note> Dicho esto, señor presidente, qué no decir de las amistades que he podido concitar en los demás grupos parlamentarios, amistades que paradójicamente se han afianzado de forma muy notable en aquellos con los que he discutido con mayor virulencia, lo cual quiere decir que el debate parlamentario todavía no está amortizado. Yo no soy una apologeta de lo que algunos teóricos llaman efebocracia -lo dejo ahí-, no soy un apologeta de la efebocracia. Espero que lo que venga cuando yo me marche sea mejor que lo que hemos dejado, pero permítame decir, señor presidente, que tengo algunas dudas.<note>Risas</note> Eskerrik asko. Muchas gracias, señor presidente.</seg>
                <note>Risas.-Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u7" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u7" ana="#chair">
                <seg>Muchas gracias, señor Olabarría, su marcha es una gran pérdida para este Congreso.</seg>
                <seg>Para la defensa de las enmiendas formuladas por los grupos intervinientes, tiene en primer lugar la palabra el señor Iñarritu, del Grupo Mixto.</seg>
             </u>
@@ -150,7 +148,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u9" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u9" ana="#chair">
                <seg>Muchas gracias, señor Iñarritu. Le agradezco sus palabras.</seg>
                <seg>Por el Grupo Catalán de Convergència i d'Unió, tiene la palabra el señor Guillaumes.</seg>
             </u>
@@ -165,7 +163,7 @@
                <seg>Muchas gracias, presidente. Muchas gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u11" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u11" ana="#chair">
                <seg>Muchas gracias, señor Guillaumes.</seg>
                <seg>En turno de fijación de posiciones, en primer lugar, por Unión Progreso y Democracia, tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -181,7 +179,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u13" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u13" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Sixto.</seg>
             </u>
@@ -195,7 +193,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u15" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u15" ana="#chair">
                <seg>Muchas gracias, señor Sixto.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor Trevín.</seg>
             </u>
@@ -210,7 +208,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u17" ana="#chair">
                <seg>Muchas gracias, señor Trevín.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Barreda.</seg>
             </u>
@@ -226,7 +224,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos.-El señor Bosch i Pascual pide la palabra</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u19" ana="#chair">
                <seg>Muchas gracias, señor Barreda.</seg>
                <seg>Señor Bosch, ¿pide la palabra?</seg>
             </u>
@@ -235,7 +233,7 @@
                ana="#regular">
                <seg>Sí, para leer una rectificación.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u21" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u21" ana="#chair">
                <seg>Le doy la palabra. Lea la rectificación.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u22"
@@ -243,11 +241,11 @@
                ana="#regular">
                <seg>En mi intervención de la sesión plenaria celebrada el jueves 27 de noviembre de 2014 incluí indebidamente a Ignacio García de Vinuesa en el listado de políticos imputados y/o condenados y/o encarcelados por corrupción, pues no hay ningún dato objetivo que sostenga tal extremo.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u23" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u23" ana="#chair">
                <seg>Muchas gracias, señor Bosch, sus palabras constarán en el 'Diario de Sesiones'.<pb n="13"/> - DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, SOBRE LA OFICIALIDAD DEL CASTELLANO COMO LENGUA COMÚN ESPAÑOLA.</seg>
                <note>Número de expediente 173/000232</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u24" ana="#chair">
                <seg>Moción del Grupo de Unión Progreso y Democracia, sobre la oficialidad del castellano como lengua común española. Para su defensa, tiene la palabra la señora Díez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u25"
@@ -262,7 +260,7 @@
                <seg>Gracias, presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u26" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u26" ana="#chair">
                <seg>Muchas gracias, señora Díez.</seg>
                <seg>Para la defensa de esas enmiendas que ha anunciado la señora Díez tiene en primer lugar la palabra por el Grupo Socialista el señor Torres Mora.</seg>
             </u>
@@ -279,7 +277,7 @@
                <seg>Muchas gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u28" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u28" ana="#chair">
                <seg>Muchas gracias, señor Torres Mora.</seg>
                <seg>Por el Grupo Popular, para presentar su enmienda, tiene la palabra la señora Torrado.</seg>
             </u>
@@ -294,7 +292,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u30" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u30" ana="#chair">
                <seg>Por el Grupo Parlamentario Mixto, en turno de fijación de posiciones -se cambia el orden, hay tres intervenciones de dos minutos-, tiene la palabra el señor Tardà.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u31"
@@ -303,7 +301,7 @@
                <seg>Gracias, señor presidente.</seg>
                <note>Comienza su intervención en catalán</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u32" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u32" ana="#chair">
                <seg>Señor Tardà, tengo que advertirle que no puede emplear el catalán más que si luego usted lo traduce. Tiene usted que hablar en castellano.<note>El señor Tardà i Coma pronuncia palabras que no se perciben</note> No, no, tiene usted que hablar en castellano y le llamo al orden por primera vez. Debe usted emplear el castellano. Es la norma y no puede emplearse otra.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u33"
@@ -313,7 +311,7 @@
                   <note>Continúa su intervención en catalán.-Continúa su intervención en euskera, cuyo texto, que entrega al 'Diario de Sesiones', dice lo siguiente: Emilio, ohore bat izan da zure laguna izatea. Salud, Olabarría</note> Rosa Díez, todo dicho, ya lo ve.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u34" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u34" ana="#chair">
                <seg>Muchas gracias, señor Tardà.</seg>
                <seg>Tiene ahora la palabra el señor Baldoví.</seg>
             </u>
@@ -631,13 +629,13 @@
                <seg>Gracias.</seg>
                <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Popular en el Congreso, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u82" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u82" ana="#chair">
                <seg>Muchas gracias, señora Montserrat.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>ENMIENDAS DEL SENADO - PROYECTO DE LEY DE PRESUPUESTOS GENERALES DEL ESTADO PARA EL AÑO 2016.</head>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u83" ana="#chair">
                <seg>Enmiendas aprobadas por el Senado al proyecto de ley de Presupuestos Generales del Estado para el año 2016. En turno de fijación de posiciones, comenzamos por el Grupo Mixto. En primer lugar, tiene la palabra el señor Serrano.<note>Rumores</note> Perdón, señor Serrano, antes de que comience, por favor, ruego silencio. Los que quieran abandonar el Pleno que lo hagan, pero ruego silencio.</seg>
                <seg>Adelante, señor Serrano.</seg>
             </u>
@@ -648,7 +646,7 @@
                <seg>No van a retirar estos presupuestos, pero saben muy bien que el próximo Gobierno, tras las nuevas elecciones, incluso si ustedes estuvieran en él, va a tener que cambiarlos, va a tener que recurrir a más recortes o a más subidas de impuestos al consumidor corriente. Pero para entonces, si ustedes consiguen su objetivo electoralista, con su marca o con el apoyo de otras marcas nuevas, vírgenes, los incautos compradores en su feria de ganado ya nada podrán hacer sino tragarse sus quejas, ahogadas por esa ley mordaza que previsoramente han impuesto.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u85" ana="#chair">
                <seg>Muchas gracias, señor Serrano.</seg>
                <seg>Por el Grupo Mixto van a intervenir prácticamente todos los oradores. Les ruego que se atengan al tiempo pactado. Tiene ahora la palabra el señor Salvador.</seg>
             </u>
@@ -662,7 +660,7 @@
                <seg>Muchas gracias.</seg>
                <pb n="30"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u87" ana="#chair">
                <seg>Muchas gracias, señor Salvador.</seg>
                <seg>En esta última intervención voy a admitir que no se centren en el tema concreto, pero sí convendría en algún momento mencionar las enmiendas del Senado.<note>Risas.-Aplausos</note> Tiene la palabra el señor Álvarez Sostres.</seg>
                <seg>El señor ÁLVAREZ SOSTRES: Gracias, señor presidente.</seg>
@@ -672,7 +670,7 @@
                <seg>Voy a terminar, señor presidente -con su generosidad-, trasladando que esta es mi última intervención en este hemiciclo en nombre de mi partido Foro Asturias. Permítanme decirles que formar parte de esta legislatura, presidida esta Cámara por don Jesús Posada, con ese talante tan democrático y tan conciliador, ha sido una distinción y un honor que ha supuesto hacerles ver a ustedes los problemas de mi tierra y al mismo tiempo la necesidad que tenemos de que el Gobierno de España nos ayude. También ha sido un privilegio y una distinción conocerles a todos ustedes y formar parte del Grupo Mixto del Congreso de los Diputados, del que siempre testimonié que es una auténtica escuela de convivencia democrática y de tolerancia. He vivido una gran lección en vivo gracias también a la colaboración de mi amigo Santiago Trujillo, que no ha sido ajeno a ninguna de mis intervenciones.</seg>
                <seg>Gracias, señor presidente. Muchas gracias a todos, señores diputados.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u88" ana="#chair">
                <seg>Muchas gracias, señor Álvarez Sostres, por sus palabras.</seg>
                <seg>Tiene ahora la palabra el señor Baldoví.</seg>
             </u>
@@ -683,7 +681,7 @@
                <seg>Hoy hemos depositado las cenizas de Francesc de Paula Burguera en el pabellón de ilustres del cementerio de Sueca. Francesc de Paula Burguera estuvo muy vinculado al Congreso de los Diputados; fue diputado en la legislatura correspondiente al periodo 1977-1979 y jefe de prensa del Grupo de Convergència i Unió. Ayer entré en su ficha de diputado y pude escuchar dos de sus intervenciones, en las que hacía una firme defensa de los valencianos en el proyecto de Constitución que finalmente se aprobó y que ya entonces nos dejó a los valencianos en carreteras secundarias. Soy político valencianista en gran medida gracias a personas como Paco Burguera, un político valiente, coherente y digno que nos marcó el camino y que ya hace treinta y siete años denunció una marginación que ha continuado legislatura tras legislatura, presupuesto tras presupuesto.<pb n="31"/> Un ejemplo paradigmático: el AVE. Se han conectado -no tengo nada en contra, al contrario- capitales de provincia como, en 2003, Huesca, con 52.000 habitantes; en 2005, Toledo, con 83.000 habitantes. Valencia tuvo que esperar a 2010, con 800.000 habitantes. La segunda y la tercera ciudad del Estado español siguen sin estar conectadas; Valencia y Barcelona siguen sin estar conectadas. El corredor mediterráneo, con el 40 % de la población, más del 40 % de las exportaciones, más del 40 % del producto interior bruto, más del 70 % del tráfico portuario, aún está por hacer. Estos han sido sus presupuestos. Como este presupuesto electoralista que nunca deberíamos estar discutiendo y que hoy se aprobará, como siempre, con los únicos votos del PP. Y aunque sigan con su mantra de que son los presupuestos de la recuperación, no pueden ocultar que cuatro presupuestos después hay un descenso patente en horas totales trabajadas, en la hucha de las pensiones, en cobertura a las personas desempleadas; hay un aumento de la deuda exterior, un aumento de la desigualdad, un aumento del déficit de la balanza comercial e incluso trabajadores que cobran el salario mínimo interprofesional y hasta menos. Y como valencianos, cinco presupuestos después, seguimos muy infrafinanciados y no han hecho nada, ni un nuevo sistema ni tan solo enmiendas. Seguimos teniendo inversiones por debajo de la media. En los últimos cinco años el recorte siempre ha estado por encima del 40 %, y eso que somos la única comunidad autónoma más pobre que la media que es pagadora neta. Señorías del PP, los valencianos hemos ofrendado tantas glorias a España que ahora comprobamos amargamente que nos cuesta más caro que a nadie ser españoles, muy caro. No es victimismo nacionalista, es constatación de una injusticia repetida.</seg>
                <seg>Acabo. Quiero terminar mi discurso con un adiós a todos los que hoy abandonarán el Congreso. Como yo juego en la liga de los pequeños, en la que siempre estamos jugando por la permanencia, no sé si volveré a estar, pero quiero decirles que ha sido un honor compartir escaño con ustedes, especialmente con usted, señor presidente, que ha sido muy amable conmigo. Por último, un deseo que quiero que se haga realidad el 20 de diciembre. Sin acritud pero con convicción, quiero terminar con un adiós con este pequeñito cartel que utilizamos en 2007 y que nos costó un poco más hacerlo realidad, pero que esperamos que el 20-D lo sea.<note>Muestra un cartel</note> Adeu, PP. Adiós, PP. Per tu, Paco.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u90" ana="#chair">
                <seg>Muchas gracias, señor Baldoví.</seg>
                <seg>Tiene la palabra, también por el Grupo Mixto, el señor Quevedo.</seg>
             </u>
@@ -695,7 +693,7 @@
                <seg>Este presupuesto -se lo dijimos- es un presupuesto falso, que parte de supuestos falsos, con criterios de recaudación sencillamente no contrastados -contrastados hasta ahora por la realidad-; un presupuesto que etiquetamos de irresponsablemente electoralista y que defendió en su momento el ministro -probablemente es su obligación- con un triunfalismo que nosotros consideramos ofensivo para la mayoría social. Los nacionalistas canarios hemos tratado de explicar nuestra realidad, hemos tratado de explicar aquí por qué Canarias ha sufrido esta prolongadísima crisis de una forma agravada. Lo hemos hecho con datos. Le hemos dicho que Canarias tiene un 30 % de paro, un 7 % más que el resto del Estado español. Le hemos explicado cómo ha crecido la pobreza infantil, cómo el paro juvenil está por encima de la media. Hemos explicado todas estas cosas, y frente a esto hemos encontrado un maltrato como nunca en la reciente historia democrática española. Se lo tengo que decir así. No nos han respetado un fuero de más de quinientos años de historia que en la actualidad se formula y se sustancia en el Régimen Económico y Fiscal de Canarias. No sé cuántas veces lo habremos explicado aquí. Hemos dicho que tienen ustedes la obligación de cumplir con nuestro fuero en materia de inversiones, en los elementos esenciales para garantizar que Canarias esté en la media del conjunto de comunidades del Estado español; nadie quiere privilegios. Le hemos dicho que nosotros no hemos venido aquí a pedir limosnas ni<pb n="32"/> dádivas ni tratos de favor. Nosotros hemos venido a explicar la realidad y a decirle que no se pueden incumplir los convenios Canarias-Estado unilateralmente; que no se pueden suspender planes integrales de empleo cuando la tasa de paro es del 30 % unilateralmente; que no se nos puede perjudicar como se nos ha perjudicado en el convenio de carreteras, donde hemos perdido más de 700 millones de euros en relación con el comienzo de esta legislatura. Todos estos son datos con los que no hemos conseguido modificar su posición. Parece que aquí ha triunfado la ideología ultraliberal contra la lógica, contra la realidad que sufre un montón de gente en el Estado español.</seg>
                <seg>Tenemos una enmienda en la sección 20 que afecta al ayuntamiento de Tías, en Lanzarote. Aunque solo sea...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u92" ana="#chair">
                <seg>Señor Quevedo, tiene que acabar rápido.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u93"
@@ -704,7 +702,7 @@
                <seg>La vamos a apoyar porque, como pasa pocas veces...</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u94" ana="#chair">
                <seg>Muchas gracias, señor Quevedo.</seg>
                <seg>Tiene ahora la palabra la señora Fernández Davila.</seg>
             </u>
@@ -715,7 +713,7 @@
                <seg>Señorías, más allá de las enmiendas aprobadas por el Senado, todas del Partido Popular, estamos ante el último trámite de aprobación de los Presupuestos Generales del Estado para 2016, unos presupuestos con los que el partido del Gobierno pretende edulcorar su oferta electoral para las elecciones del 20 de diciembre. Se han inventado un optimismo tan fuera de la realidad que incluso les han llamado la atención desde otras instancias. La previsión en crecimiento que hace el Gobierno, señor Montoro, ha sido desmentida tanto por las cifras de la Comisión Europea, como por las del FMI o las del BBVA, por ejemplo; del mismo modo que han sido desmentidas sus previsiones en relación con el déficit. Pero a ustedes esto les da igual. Lo que quieren es hacer unos presupuestos que digan que van a mejorar la economía en el año 2016, y si gobiernan ustedes, no hay problema, para eso están los reales decretos-ley, y si gobiernan otros, ustedes se afeitan para arriba. Como no cumplieron ustedes su programa del año 2011, lo que pretenden con estos presupuestos es darle credibilidad a su programa de 2016. No sé si ustedes piensan que esa destrucción que dejan ustedes de la sociedad del Estado español está solo en el imaginario popular, que no es un realidad y que nos vamos a creer que hay una bonanza tremenda porque están creando mucho empleo, porque somos inconscientes y no sabemos que lo que ustedes están creando es pobreza, precariedad. Que nos vamos a creer que con estos presupuestos van a mejorar los servicios públicos que han deteriorado durante sus cuatro años de Gobierno. Y nos lo vamos a creer, sobre todo, los ciudadanos del sur de la provincia de Pontevedra, que estamos sufriendo las gravísimas consecuencias de su obsesión por la privatización de la sanidad, que estamos sufriendo las gravísimas consecuencias de un nuevo hospital que ya no vamos a hablar de si hay material en condiciones para operar a la gente, si hay listas en urgencias... No. Se lo voy a resumir en una frase: en agosto, los pacientes hospitalarios comían caliente y, a partir de septiembre, comen frío, cuando comen, porque la mayoría de las veces tienen que devolver la comida por inservible. Esto les puede parecer a ustedes demagogia, pero es la gran realidad que se está sufriendo en muchas áreas sanitarias como la zona sur de Pontevedra con el nuevo hospital de Vigo, gracias a esa obsesión de hacer de la salud un negocio y de hacer de la sanidad pública una privatización para que unas empresas tengan beneficios, ganen dinero. Ustedes no pueden decirnos que con sus presupuestos para 2016 van a mejorar la vida de las personas, porque las personas hoy están viviendo las consecuencias de la política de este Gobierno del Partido Popular que por muy optimista que sea su presupuesto, señor Montoro, no es posible que la desmienta, porque la realidad es contumaz.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u96" ana="#chair">
                <seg>Muchas gracias, señora Fernández.</seg>
                <seg>Señor Errekondo.</seg>
             </u>
@@ -726,7 +724,7 @@
                <seg>Ante este holocausto social tienen ustedes el cinismo de brindar por lo que ustedes entienden como crecimiento macroeconómico, es decir, de la economía de los lobbies de siempre, de los ladrones banqueros, de los florentino pérez, de los ignacio sánchez galán o amancio ortega. En estos cuatro años han hecho ustedes de la crisis la excusa perfecta para rescatar a sus amigos banqueros y a las grandes empresas y aplicar las políticas austericidas ultraliberales y recentralizadoras contra los derechos más básicos de la ciudadanía como son la vivienda, la educación, la sanidad, los derechos laborales, etcétera. Además, cuando la ciudadanía se ha puesto a protestar o ha expresado su rabia por haber sido desposeídos, precisamente, de los legítimos derechos sociales y nacionales, el Gobierno del Partido Popular ha aplicado la guadaña y la porra contra las libertades fundamentales con su flamante Ley de seguridad ciudadana, la Ley del Código Penal o la Ley antiyihadista. Para ello sí, para criminalizar y amordazar, ustedes sí destinan millones de euros en este presupuesto.</seg>
                <seg>Este es el verdadero y desolador panorama que han provocado estos cuatro años de Gobierno; un Gobierno emborrachado en la arrogancia y el cinismo, que ha quemado el presente y el futuro de cientos de miles de familias y se atreve aún hoy aquí a vender humo y a pedir la confianza de los ciudadanos. Además, estos presupuestos apuestan por la recentralización y van dirigidos contra los pueblos. Estos presupuestos, como los anteriores, nos roban en toda regla a la sociedad vasca y eso supone una razón más para avanzar en la necesaria soberanía nacional vasca. Se escuchan cantos de sirena de una posible reforma constitucional. Pensamos que si finalmente se diera esa reforma sería en las claves clásicas, se cambiaría algo para no cambiar nada; por tanto, no nos engañen.<note>Rumores</note> Tengan una cosa muy clara, cualquier versión de la Constitución...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u98" ana="#chair">
                <seg>Por favor, ruego silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u99"
@@ -737,7 +735,7 @@
                <seg>Frente a sus presupuestos violentos, la sociedad vasca tiene sus propios presupuestos con dos partidas invencibles: justicia y libertad, y la campaña: Free Otegi, free them all. Hay dos mensajes muy claros, que les aconsejo que se graben en sus mentalidades colonizadoras: uno, la sociedad vasca no<pb n="34"/> olvida el pasado, pero piensa en el presente y apuesta por el futuro; y dos, somos un pueblo que tiene la terca voluntad y el justo derecho a cicatrizar sus heridas, pese al empeño en contrario del Estado español y del Gobierno del Partido Popular.</seg>
                <seg>Termino con una conclusión que se centra en dos cuestiones capitales: soberanía social y soberanía nacional. Aquí no hay justicia social. La única manera de garantizar la justicia social es la soberanía nacional. Como bien decía Lluís Llach, necesitamos la soberanía nacional para después hacer la soberanía social, soberanía que se nos niega también en estos presupuestos. Por eso, exigimos al Estado español dos cosas...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u100" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u100" ana="#chair">
                <seg>Señor Errekondo, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u101"
@@ -746,7 +744,7 @@
                <seg>... respeto y reconocimiento; reconocimiento de la nación vasca y respeto a su libre decisión. A todo el que crea en Euskal Herria, en una Euskal Herria libre y solidaria...</seg>
                <note>Pronuncia palabras en euskera</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u102" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u102" ana="#chair">
                <seg>Gracias, señor Errekondo.</seg>
                <seg>Por el Grupo Vasco, PNV, tiene la palabra el señor Azpiazu.</seg>
             </u>
@@ -760,7 +758,7 @@
                <seg>Por otra parte, con el fin de corregir de forma parcial un tema que para nosotros es importante y que les venimos reclamando desde hace muchísimo tiempo, han incluido una disposición final tercera bis nueva para encuadrar en el Régimen Especial de la Seguridad Social de los trabajadores del mar a las neskatillas y empacadoras, especialidad de la provincia de Vizcaya, incorporándolas como personas trabajadoras por cuenta propia dentro del grupo tercero de cotización a que se refiere el artículo 10. Otra vez con altas dosis de pragmatismo aceptamos esta disposición, a pesar de que se queda alejada de<pb n="35"/> nuestras demandas iniciales. Votaremos a favor de estas dos enmiendas transaccionales que mi grupo ha defendido y nos abstendremos en el resto para que nadie pueda considerar que nuestra posición les es desfavorable.</seg>
                <seg>Y con este proyecto daremos por concluida la producción legislativa -yo diría que afortunadamente- de estos cuatro años del señor Rajoy y del Partido Popular, con la mayoría absoluta en esta Cámara; eso sí, con el firme deseo de que en la próxima legislatura se legisle de manera menos caótica, más consensuada y más democrática. Hasta la siguiente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u104" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u104" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por Unión Progreso y Democracia tiene la palabra el señor Calduch.</seg>
             </u>
@@ -776,7 +774,7 @@
                <seg>Concluyo diciendo que ya advertimos en su votación final en esta Cámara, antes de salir al Senado, que estos presupuestos no tenían viabilidad; no la tenían por razones económicas que explicamos y no la tenían por razones políticas. Ahora concluimos, después de regresar del Senado con estas modificaciones, que siguen sin tener viabilidad, y además dejan de tener credibilidad para nuestro grupo parlamentario.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u106" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u106" ana="#chair">
                <seg>Muchas gracias, señor Calduch.</seg>
                <seg>Por favor, ruego silencio para que se pueda oír a los intervinientes.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra el señor Coscubiela.</seg>
@@ -789,7 +787,7 @@
                <seg>Esta legislatura no podía terminar de peor manera, con la aprobación de unos presupuestos que nacen muertos, porque muertos son los presupuestos que no solo no son creíbles por nadie en esta Cámara, salvo para el Partido Popular, sino que tienen también el rechazo de aquellos a los cuales ustedes les dieron la oportunidad de poderlos censurar previamente a través del procedimiento de déficit excesivo.</seg>
                <seg>Es cierto que unos presupuestos solo son eso, una previsión de ingresos y gastos, pero una cosa es que las previsiones no se cumplan y la otra es que ustedes año tras año de manera reiterada nos presenten unos presupuestos falsos, aunque estos sin duda se llevan el récord, son los más falsos de la historia de la democracia en este país. Señor Montoro, le sugiero que cambie usted de deporte, porque el lanzamiento de bumerán le ha ido fatal; ha lanzado usted el bumerán de los presupuestos electoralistas y le ha petado el bumerán en la cara de manera bastante ostentosa.<note>Rumores</note> Estamos ante unos presupuestos que son esperpénticos en cuanto a su propia configuración; están muertos antes de nacer, antes de que los aprueben están muertos en los términos básicos. Usted sabe que los presupuestos en materia de ingresos están hinchados, son ficticios; se lo hemos dicho varias veces, no han cumplido ustedes la previsión del año 2015 en relación con los ingresos de cotización, y no por poco -previeron el 6,8 % y están en el 1,35 % a los ocho meses-, y se permiten ustedes decir que en el presupuesto del año 2016 van a subir más del 8 %.<note>Rumores</note> Lo mismo sucede con los ingresos de naturaleza fiscal...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u108" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u108" ana="#chair">
                <seg>Perdón, señor Coscubiela. Por favor, es imposible oír al orador.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u109"
@@ -807,7 +805,7 @@
                <note>Aplausos</note>
                <pb n="38"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u110" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u110" ana="#chair">
                <seg>Muchas gracias, señor Coscubiela.</seg>
                <seg>Por el Grupo Catalán de Convergència i d'Unió, en primer lugar, tiene la palabra la señora Tarruella.</seg>
             </u>
@@ -823,7 +821,7 @@
                <seg>Muchas gracias; moltes gràcies; eskerrik asko.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u112" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u112" ana="#chair">
                <seg>Muchas gracias, señora Tarruella, por sus palabras.</seg>
                <seg>Tiene ahora la palabra el señor Macias.</seg>
                <pb n="39"/>
@@ -838,7 +836,7 @@
                <seg>Estos presupuestos, los últimos de este Gobierno, a mi entender alcanzan el cénit en la característica de antieconomía productiva. Con estos presupuestos nuestra economía productiva no puede mejorar, no puede crear los puestos de trabajo que tanto necesitamos. Por ello, nuestro grupo se manifiesta hoy, una vez más, contrario a estos presupuestos, contrario a esta política económica y advirtiendo que solo desde el apoyo a la economía productiva, solo teniendo una gran sensibilidad social se va a poder salir de la situación en que se encuentra el Estado español en estos momentos.</seg>
                <seg>Siempre que sale uno a esta tribuna a estas horas...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u114" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u114" ana="#chair">
                <seg>Debe usted terminar, señor Macias.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u115"
@@ -849,7 +847,7 @@
                <seg>Señorías, muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u116" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u116" ana="#chair">
                <seg>Muchas gracias, señor Macias.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra don Antonio Hernando.</seg>
             </u>
@@ -866,7 +864,7 @@
                <seg>Gracias, señorías.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u118" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u118" ana="#chair">
                <seg>Muchas gracias, señor Hernando.</seg>
                <seg>Por el Grupo Popular, tiene la palabra don Rafael Hernando.</seg>
             </u>
@@ -884,7 +882,7 @@
                <seg>Gracias.</seg>
                <note>Prolongados aplausos de las señoras y los señores diputados del Grupo Parlamentario Popular, puestos en pie</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u120" ana="#chair">
                <seg>Muchas gracias, señor Hernando.</seg>
                <seg>En unos minutos vamos a votar.</seg>
                <note>Pausa</note>
@@ -892,7 +890,7 @@
          </div>
          <div type="debateSection">
             <head>DECLARACIÓN INSTITUCIONAL :</head>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u121" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u121" ana="#chair">
                <seg>Señorías, tal como ha sido acordado en la Junta de Portavoces, hay una declaración institucional de todos los grupos relativa a la conmemoración de octubre como mes de lucha contra el cáncer de mama, a cuya lectura procede el señor secretario primero.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u122"
@@ -903,43 +901,43 @@
                <seg>Con motivo del día mundial contra la enfermedad, el día 19 octubre, Día del Cáncer de Mama, en nuestro país se ponen en marcha iniciativas solidarias y para sensibilizar de la importancia de una prevención evitando los factores de riesgo más conocidos y para una detección precoz. En otros países este esfuerzo para concienciar y luchar por la prevención del cáncer más frecuente en las mujeres se mantiene durante todo el mes de octubre y se ponen en marcha cientos de iniciativas solidarias en todo el mundo. El mes de sensibilización sobre el cáncer de mama, que se conmemora en muchos países cada mes de octubre, contribuye a aumentar la atención y el apoyo prestados a la sensibilización, la detección precoz, el tratamiento y los cuidados paliativos. Durante un mes se pueden fomentar iniciativas para insistir en la importancia de la información y de la prevención para vencer a una enfermedad que afecta a millones de mujeres en todo el mundo y en la importancia de priorizar la investigación para seguir avanzando. Por ello, el Congreso de los Diputados insta al Gobierno y a las autoridades sanitarias a que promuevan la conmemoración del mes de octubre de cada año como Mes de lucha contra el cáncer de mama, adoptando todas las medidas necesarias para hacer efectiva esta declaración.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u123" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u123" ana="#chair">
                <seg>Muchas gracias.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - DEL GRUPO PARLAMENTARIO VASCO , SOBRE LA ACTITUD ENTORPECEDORA DEL GOBIERNO ESPAÑOL HACIA EL EJERCICIO Y DESARROLLO DEL AUTOGOBIERNO VASCO EN MATERIA DE SEGURIDAD.</head>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u124" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u124" ana="#chair">
                <seg>Vamos a comenzar con las votaciones.</seg>
                <seg>En primer lugar, moción del Grupo Vasco, PNV, sobre la actitud entorpecedora del Gobierno español hacia el ejercicio y desarrollo del autogobierno vasco en materia de seguridad. Se vota en sus propios términos, pero por puntos.</seg>
                <seg>Punto 1.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 337; a favor, 148; en contra, 180; abstenciones, 9.</seg>
                <pb n="46"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u125" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u125" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>Punto 2.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 337; a favor, 39; en contra, 289; abstenciones, 9.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u126" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u126" ana="#chair">
                <seg>Queda rechazado.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, SOBRE LA OFICIALIDAD DEL CASTELLANO COMO LENGUA COMÚN ESPAÑOLA.</seg>
                <note>Número de expediente 173/000232</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u127" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u127" ana="#chair">
                <seg>Moción del Grupo de Unión Progreso y Democracia sobre la oficialidad del castellano como lengua común española. Hay una enmienda transaccional con el Grupo Socialista y el Grupo Popular y esa es la que vamos a votar.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 338; a favor, 187; en contra, 45; abstenciones, 106.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u128" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u128" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO MIXTO<note>SEÑOR TARDÀ</note> , SOBRE PERSPECTIVAS DEL GOBIERNO ESPAÑOL ACERCA DEL FUTURO DE CATALUÑA.</seg>
                <note>Número de expediente 173/000233</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u129" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u129" ana="#chair">
                <seg>Moción del Grupo Mixto, del señor Tardà, sobre perspectivas del Gobierno español acerca del futuro de Cataluña. Se vota en sus propios términos.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 336; a favor, 27; en contra, 291; abstenciones, 18.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u130" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u130" ana="#chair">
                <seg>Queda rechazada.<note>La señora Hernanz Costa pide la palabra</note> Señora Hernanz, dígame.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u131"
@@ -948,205 +946,205 @@
                <seg>Gracias, señor presidente.</seg>
                <seg>Es simplemente para hacer una corrección. En la penúltima votación, relativa a la moción del Grupo Parlamentario de Unión Progreso y Democracia, el presidente ha anunciado que había una enmienda transaccional que también firmaba el Grupo Socialista. Es un error. La enmienda transaccional está firmada únicamente por el Grupo Popular y no por el Grupo Socialista. Simplemente quería que constara en el 'Diario de Sesiones'.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u132" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u132" ana="#chair">
                <seg>Que conste, porque no era un error de palabra sino error conceptual, porque, como habíamos hablado de dos enmiendas, creí que eran los dos grupos los que la habían firmado. Por tanto, que conste en el 'Diario de Sesiones'.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>ENMIENDAS DEL SENADO : - PROYECTO DE LEY DE PRESUPUESTOS GENERALES DEL ESTADO PARA EL AÑO 2016.</head>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u133" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u133" ana="#chair">
                <seg>Vamos ahora con las enmiendas del Senado al proyecto de ley de Presupuestos Generales del Estado para el año 2016. Son bastantes votaciones y lo digo para que seamos pacientes. Diré simplemente que la enmienda ha sido aceptada o rechazada.</seg>
                <seg>Enmienda al artículo 20.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor, 320; abstenciones, 11.</seg>
                <pb n="47"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u134" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u134" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmiendas al artículo 22, a la disposición adicional quinquagésima novena ter<note>nueva</note> , a la disposición adicional quinquagésima novena quáter<note>nueva</note> , a la disposición adicional quinquagésima novena quinquies<note>nueva</note> , a la disposición adicional quinquagésima novena septies<note>nueva</note> y a la disposición adicional quinquagésima novena octies<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 329; a favor, 289; en contra, 16; abstenciones, 24.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u135" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u135" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo 59 bis.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor, 203; en contra, 107; abstenciones, 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u136" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u136" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo 60 bis y a la disposición final décima tercera ter<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor, 300; abstenciones, 31.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u137" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u137" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo 61 bis, al artículo 65 bis, al titulo VI, capítulo II, sección 4ª, artículo 67 bis, a la disposición adicional quinquagésima novena bis<note>nueva</note> , a la disposición adicional quinquagésima novena sexies<note>nueva</note> , a la disposición adicional quinquagésima novena nonies<note>nueva</note> , a la disposición adicional quinquagésima novena decies<note>nueva</note> , a la disposición adicional quinquagésima novena undecies<note>nueva</note> , a la disposición adicional septuagésima primera bis<note>nueva</note> y a la disposición final undécima bis<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 286; en contra, 1; abstenciones, 43.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u138" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u138" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas al artículo 109 y al anexo VII.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 294; en contra, 15; abstenciones, 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u139" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u139" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmienda a la disposición adicional décima quinta.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor, 324; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u140" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u140" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda a la disposición adicional vigésima primera.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor, 206; abstenciones, 125.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u141" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u141" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda a la disposición adicional octogésima.<pb n="48"/> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 208; abstenciones, 122.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u142" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u142" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda a la disposición final segunda.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 328; a favor, 312; en contra, 10; abstenciones, 6.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u143" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u143" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda a la disposición final tercera bis<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 336; a favor, 322; abstenciones, 14.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u144" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u144" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda a la disposición final quinta bis<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 185; en contra, 109; abstenciones, 36.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u145" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u145" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda a la disposición final quinta ter<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 293; abstenciones, 37.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u146" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u146" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda a la disposición final décima bis<note>nueva</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 329; a favor, 293; abstenciones, 36.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u147" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u147" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda a la disposición final duodécima bis<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 327; a favor, 285; abstenciones, 42.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u148" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u148" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmiendas a los apartados uno y seis de la disposición final décima tercera.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 300; en contra, 1; abstenciones, 29.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u149" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u149" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmienda al apartado cinco de la disposición final décima tercera.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 202; en contra, 106; abstenciones, 22.</seg>
                <pb n="49"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u150" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u150" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmiendas al resto de apartados de la disposición final décima tercera.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 309; abstenciones, 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u151" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u151" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmienda a la disposición final décima tercera quáter<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor 308; en contra, 1; abstenciones, 22.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u152" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u152" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmiendas al preámbulo, al artículo 9, al artículo 59 ter, a la disposición adicional décima novena, a la disposición final novena bis<note>nueva</note> y a la disposición final décima tercera bis<note>nueva</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor, 192; abstenciones, 139.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u153" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u153" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Resto de enmiendas al articulado.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor, 183; en contra, 110; abstenciones, 38.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u154" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u154" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmienda a la sección 13 relativa al nuevo edificio para albergar unidades judiciales en el municipio de Talavera de la Reina.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 182; en contra, 108; abstenciones, 40.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u155" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u155" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmiendas a la sección 13, relativa al cumplimiento de los acuerdos de traspasos de funciones y servicios con la Comunidad Autónoma de La Rioja, a la sección 16, relativa a la realización de estudios previos para la Comisaría de Lugo, a la sección 19, a la sección 26 y a ADIF.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor, 288; en contra, 1; abstenciones 42.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u156" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u156" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmienda a la sección 15.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 303; abstenciones, 27.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u157" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u157" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda a la sección 16 relativa a las obras en el cuartel de la Guardia Civil de Santiago de Compostela.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor, 187; abstenciones, 144.</seg>
                <pb n="50"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u158" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u158" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda a la sección 17 relativa a la modificación de las cantidades del tramo túnel de Balupor-Fiscal.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 329; a favor, 306; en contra, 9; abstenciones, 14.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u159" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u159" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda a la sección 17 relativa a las obras de la A-11 en el tramo ronda Norte de Zamora-Ricobayo.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor, 295; en contra, 10; abstenciones, 26.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u160" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u160" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda a la sección 17 relativa a las obras de recuperación de la Basílica de los Santos Mártires Justo y Pastor en la ciudad de Barcelona.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 301; abstenciones, 29.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u161" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u161" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Resto de enmiendas a la sección 17.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 329; a favor, 292; en contra, 3; abstenciones, 34.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u162" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u162" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas a la sección 18, relativas a la Asociación Unesco Valencia Mediterráneo para el programa Ruta de la Seda, a la rehabilitación de la casa natal de Salvador Dalí en Figueres y a los Juegos Mediterráneos en Tarragona.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 310; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u163" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u163" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmienda a la sección 18 relativa a la celebración de Donostia-San Sebastián 2016 Capital Europea de la Cultura.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 337; a favor, 316; abstenciones, 21.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u164" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u164" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Resto de enmiendas a la sección 18.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor, 291; en contra, 2; abstenciones, 38.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u165" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u165" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmiendas a la sección 20, relativas a la cuota de participación en Euramet, Welmec e Imeko y a diversas actuaciones de fomento de la movilidad sostenible.</seg>
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="51"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor, 187; abstenciones, 144.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u166" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u166" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmienda a la sección 20, relativa al Plan de modernización del puerto del Carmen, en Tías<note>Lanzarote</note> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 328; a favor, 294; abstenciones, 34.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u167" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u167" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Enmienda a la sección 20, relativa al Plan de reindustrialización de la comarca de Camp de Morvedre.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 317; en contra, 2; abstenciones, 211.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u168" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u168" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Resto de enmiendas a la sección 20.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 292; abstenciones, 38.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u169" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u169" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmienda a la sección 23 relativa a la reparación y mejora de diversas plataformas de baño en el término municipal Ciutadella en la isla de Menorca.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 327; a favor, 307; abstenciones, 20.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u170" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u170" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Resto de enmiendas a la sección 23.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 331; a favor, 198; en contra, 1; abstenciones, 132.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u171" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u171" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Enmienda a la sección 27, relativa al Fondo verde del clima.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 330; a favor, 322; en contra, 1; abstenciones, 7.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u172" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u172" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>Resto de enmiendas a la sección 27.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 328; a favor, 293; abstenciones, 35.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u173" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u173" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Señorías, antes de proceder a la última votación quiero decirles que para mí ha sido un honor y un placer presidirles en esta legislatura.</seg>
                <seg>Muchas gracias a todos.<note>Prolongados aplausos</note> Muchas gracias.</seg>
@@ -1154,7 +1152,7 @@
                <seg>Comienza la votación.<note>Pausa</note>
                   <pb n="52"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 329; a favor, 183; en contra, 107; abstenciones, 39.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u174" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-10-20-CD151020.u174" ana="#chair">
                <seg>Quedan aprobadas.</seg>
                <seg>Se suspende la sesión.<note>Aplausos</note> Eran las ocho y treinta y cinco minutos de la noche.</seg>
             </u>

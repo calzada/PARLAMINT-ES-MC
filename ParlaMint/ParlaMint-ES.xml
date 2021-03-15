@@ -17,7 +17,7 @@
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
             </respStmt>
             <respStmt>
-               <persName>Tomaž Erjavec</persName>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
                <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <funder>
@@ -33,7 +33,7 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure unit="speeches" quantity="49919" xml:lang="es">49,919 XXX</measure>
+            <measure unit="speeches" quantity="49919" xml:lang="es">49,919 intervenciones</measure>
             <measure unit="speeches" quantity="49919" xml:lang="en">49.919 speeches</measure>
             <measure quantity="0" unit="words" xml:lang="es">0 palabras</measure>
             <measure quantity="0" unit="words" xml:lang="en">0 words</measure>
@@ -50,7 +50,7 @@
                <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-03-12">March 12, 2021</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -631,10 +631,6 @@
                </org>
                <org role="politicalParty" xml:id="party.MÉSCOMPROMÍS">
                   <orgName full="init">MÉS COMPROMÍS</orgName>
-                  <orgName full="yes">?</orgName>
-               </org>
-               <org role="politicalParty" xml:id="party.NA">
-                  <orgName full="init">NA+</orgName>
                   <orgName full="yes">?</orgName>
                </org>
                <org role="politicalParty" xml:id="party.NCCCaPNC">
@@ -7184,7 +7180,7 @@
                      <placeName>Buñuel</placeName>
                   </birth>
                   <affiliation ref="#CD" role="MP" from="2017-04-04" to="2020-12-15"/>
-                  <affiliation role="member" ref="#party.NA"/>
+                  <affiliation role="member" ref=""/>
                </person>
                <person xml:id="TundidorVictoria">
                   <persName>
@@ -8524,7 +8520,7 @@
                   <sex value="M"/>
                   <birth when="1967-02-07"/>
                   <affiliation ref="#CD" role="MP" from="2019-07-25" to="2020-12-03"/>
-                  <affiliation role="member" ref="#party.NA"/>
+                  <affiliation role="member" ref=""/>
                </person>
                <person xml:id="CañigueralLaia">
                   <persName>
@@ -10957,8 +10953,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: First try.</change>
+         <change when="2021-03-14">
+            <name>Tomaž Erjavec</name>: Conversion to ParlaMint TEI.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"

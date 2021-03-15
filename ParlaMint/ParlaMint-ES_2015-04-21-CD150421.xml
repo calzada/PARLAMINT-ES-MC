@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="239">239 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="239" xml:lang="es">239 speeches</measure>
+            <measure unit="speeches" quantity="239" xml:lang="en">239 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="head" occurs="12"/>
                <tagUsage gi="u" occurs="239"/>
                <tagUsage gi="note" occurs="148"/>
-               <tagUsage gi="lb" occurs="701"/>
+               <tagUsage gi="seg" occurs="701"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -110,7 +108,7 @@
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIÓN DE REFORMA DEL REGLAMENTO DEL CONGRESO DE LOS DIPUTADOS - DEL GRUPO PARLAMENTARIO SOCIALISTA, DE REFORMA DEL REGLAMENTO DEL CONGRESO DE LOS DIPUTADOS SOBRE TRAMITACIÓN DE LAS PROPOSICIONES DE LEY DE INICIATIVA POPULAR.</head>
-            <u xml:id="ParlaMint-ES_2015-04-21-CD150421.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-21-CD150421.u3" ana="#chair">
                <seg>Corresponde, en primer lugar, debatir la toma en consideración de la proposición del Grupo Parlamentario Socialista, de reforma del Reglamento sobre tramitación de las proposiciones de ley de iniciativa popular.</seg>
                <seg>Para su presentación, tiene la palabra la señora Batet.</seg>
                <pb n="6"/>
@@ -877,7 +875,7 @@
                <seg>¿Lo acuerda la Cámara?</seg>
                <seg>DEL GRUPO PARLAMENTARIO SOCIALISTA, DE REFORMA DEL REGLAMENTO DEL CONGRESO DE LOS DIPUTADOS SOBRE TRAMITACIÓN DE LAS PROPOSICIONES DE LEY DE INICIATIVA POPULAR.<note>Número de expediente. 410/000009</note> .</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-04-21-CD150421.u120" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-04-21-CD150421.u120" ana="#chair">
                <seg>Corresponde, en primer lugar, debatir la toma en consideración de la proposición del Grupo Parlamentario Socialista, de reforma del Reglamento sobre tramitación de las proposiciones de ley de iniciativa popular. Para su presentación, tiene la palabra la señora Batet.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-04-21-CD150421.u121"

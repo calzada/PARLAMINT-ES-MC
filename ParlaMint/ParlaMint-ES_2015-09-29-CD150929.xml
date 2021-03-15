@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="98">98 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="98" xml:lang="es">98 speeches</measure>
+            <measure unit="speeches" quantity="98" xml:lang="en">98 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="38"/>
                <tagUsage gi="note" occurs="57"/>
                <tagUsage gi="u" occurs="98"/>
-               <tagUsage gi="lb" occurs="303"/>
+               <tagUsage gi="seg" occurs="303"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,16 +92,12 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>MODIFICACIÓN DEL ORDEN DEL DÍA</head>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
                <seg>Según lo establecido en el artículo 68.1 del Reglamento y acordado en Junta de Portavoces, les comunico que el punto 27 del orden del día, relativo a la tramitación directa y en lectura única de la proposición de ley orgánica de la reforma de la Ley Orgánica 2/1979, de 3 de octubre, del Tribunal Constitucional, pasará a debatirse como primer asunto en la sesión del jueves mientras que el decreto-ley pasará a ser el segundo punto. ¿Lo acuerda así la Cámara?</seg>
                <note>Asentimiento</note>
@@ -107,7 +105,7 @@
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE UNIVERSALIZACIÓN DEL DERECHO A LA ASISTENCIA SANITARIA PÚBLICA.</head>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u2" ana="#chair">
                <seg>Proposición de ley del Grupo Socialista sobre universalización del derecho a la asistencia sanitaria pública. Para la presentación de la iniciativa y su defensa, tiene la palabra la señora Gallego.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u3"
@@ -122,7 +120,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u4" ana="#chair">
                <seg>Muchas gracias, señora Gallego.</seg>
                <seg>En turno de fijación de posiciones, por el Grupo Mixto tiene la palabra el señor Cuadra.</seg>
             </u>
@@ -137,7 +135,7 @@
                <seg>Gracias.</seg>
                <pb n="7"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u6" ana="#chair">
                <seg>Muchas gracias, señor Cuadra.</seg>
                <seg>Por el Grupo Vasco, PNV, tiene la palabra el señor Agirretxea.</seg>
             </u>
@@ -154,7 +152,7 @@
                <seg>Acabo diciendo que vamos a apoyar esta proposición de ley que presenta el Grupo Parlamentario Socialista. No nos gusta lo del artículo 149, pero consideramos que de alguna manera sin el artículo 149 también se puede dotar de estas medidas a las comunidades autónomas que son competentes en esta materia. Una vez más pedimos la derogación de este real decreto y pedimos que todos los ciudadanos tengan acceso a una sanidad gratuita, universal y pública, tal como ocurre ya en algunas comunidades autónomas.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u8" ana="#chair">
                <seg>Muchas gracias, señor Agirretxea.</seg>
                <seg>Por el Grupo Parlamentario de Unión Progreso y Democracia, tiene la palabra el señor Lleonart.</seg>
             </u>
@@ -170,7 +168,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u10" ana="#chair">
                <seg>Muchas gracias, señor Lleonart.</seg>
                <seg>Por el Grupo de La Izquierda Plural, tiene la palabra la señora Castaño.</seg>
             </u>
@@ -184,7 +182,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u12" ana="#chair">
                <seg>Muchas gracias, señora Castaño.</seg>
                <seg>Por el Grupo Catalán de Convergència i de Unió tiene la palabra la señora Gomis.</seg>
             </u>
@@ -202,7 +200,7 @@
                <seg>Muchísimas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u14" ana="#chair">
                <seg>Muchas gracias, señora Gomis.</seg>
                <seg>Por el Grupo Popular tiene la palabra doña Teresa Angulo.</seg>
             </u>
@@ -218,11 +216,11 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u16" ana="#chair">
                <seg>Muchas gracias, señora Angulo.<pb n="14"/> - DEL GRUPO PARLAMENTARIO CATALÁN DE CONVERGÈNCIA I DE UNIÓ, DE MODIFICACIÓN DE LA LEY 22/2003, DE 9 DE JULIO, CONCURSAL, QUE INCORPORA UN PROCEDIMIENTO CONCURSAL ESPECIAL PARA PERSONAS FÍSICAS EN SUS ACTIVIDADES ECONÓMICAS FAMILIARES O, COMO TRABAJADORES AUTÓNOMOS, EN SUS ACTIVIDADES PROFESIONALES O EMPRESARIALES.</seg>
                <note>Número de expediente 122/000194</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u17" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u17" ana="#chair">
                <seg>Proposición de ley del Grupo Catalán de Convergència i de Unió de modificación de la Ley 22/2003, de 9 de julio, Concursal, que incorpora un procedimiento concursal especial para personas físicas en sus actividades económicas familiares o, como trabajadores autónomos, en sus actividades profesionales o empresariales.</seg>
                <seg>Tiene la palabra la señora Ciuró.</seg>
             </u>
@@ -238,7 +236,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u19" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u19" ana="#chair">
                <seg>Muchas gracias, señora Ciuró.</seg>
                <seg>Se ha solicitado la utilización de un turno en contra por el Grupo Popular. En su representación, tiene la palabra el señor Martínez-Pujalte.</seg>
             </u>
@@ -530,7 +528,7 @@
                <seg>Voy acabando. Más allá de todo esto, tenemos la obligación moral, como país, de comprometernos con las personas perseguidas por conflictos y guerras que intentan salvar sus vidas con su propia vida. Hoy es Siria, es Eritrea, son todos esos países en los que cada día vemos imágenes del horror, pero antes fuimos nosotros. Recordemos las imágenes de después de nuestra Guerra Civil, huyendo a Francia y Latinoamérica: 800.000 personas se desplazaron. La memoria a veces es corta y se trata de no perderla y de comprender que hay dinámicas en este mundo global que generan injusticia e indefensión de los seres humanos y que a veces los propios países que acogemos somos causantes de ellas; es causa, respuesta, responsabilidad, dónde empieza y dónde acaba. Cuando los refugiados están huyendo, cuando traspasan fronteras, cuando se encuentran con vallas, merecen que al final, como seres humanos, se les acoja, se les dé una oportunidad. Antes hablábamos de menores, de cuántos menores -alrededor de 70.000- podrían estar de paso en España. Estamos hablando de un fenómeno terrible y les pido solidaridad en estado puro y racionalidad y política en estado puro también. Convirtamos esta alienación en integración, construyamos en definitiva un modelo flexible de convivencia. No construimos para que todo se quede igual, construimos para adaptarnos a un mundo que cambia cada día en nuestros barrios y en nuestras ciudades, cada uno con su historia. El momento actual nos exige a los políticos -y acabo- flexibilidad, dirección, comprensión, mirada larga pero también concreción, pensando en nuevos paradigmas de convivencia que hemos de ir tejiendo a diario no para buscar el mundo ideal, que seguro que no existe, sino para contribuir al mejor mundo posible.<note>El señor presidente ocupa la Presidencia</note> Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u57" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u57" ana="#chair">
                <seg>Muchas gracias, señora Esteve.</seg>
                <seg>Se han presentado varias enmiendas a esta iniciativa. Empezamos por el Grupo Mixto y tiene la palabra, en primer lugar, la señora Oramas.</seg>
             </u>
@@ -542,7 +540,7 @@
                <seg>Antes de terminar, permítame, señora presidenta, dirigirme a doña Trinidad Jiménez, porque como canaria viví con ella el otro drama de la inmigración. Una de las políticas más importantes fue la de cooperación con los países del entorno africano-canario, haciendo desarrollo, haciendo cooperación. El Instituto de Medicina Tropical es en este momento un referente en África y en Latinoamérica, luchando contra la malaria, trayendo investigadores africanos y latinoamericanos, teniendo uno de los dos laboratorios de alto riesgo de España, y nunca se hubiera conseguido sin la sensibilidad que ella tuvo con esta diputada en aquel momento. Es un ejemplo -estamos hablando de refugiados y estamos hablando de desarrollo- de lo que tiene que ser este país. Muchas gracias y que le vaya bonito. Gracias, señores diputados.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u59" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u59" ana="#chair">
                <seg>Muchas gracias, señora Oramas.</seg>
                <seg>Señor Tardà.</seg>
             </u>
@@ -554,7 +552,7 @@
                <seg>Proponemos también dos enmiendas in voce que hemos presentado atendiendo al procedimiento un tanto irregular de esta iniciativa. Primero, solicitamos que se haga una transacción a fin de que se pueda votar. Pedimos que se introduzca en el punto número 7 que se debe garantizar una distribución de las personas refugiadas entre las comunidades autónomas en proporción al parámetro de población o quizás al parámetro PIB; no me importa, puede ser objeto de debate. Segundo, planteamos que el fondo que ha propuesto sean los recursos que se transfieran y distribuyan a las comunidades autónomas en función del número de personas refugiadas, a fin y efecto de que puedan llevar a cabo en el marco de sus competencias lo que nos proponemos hacer bien. ¿Por qué? Porque si hoy queda claro esto evitaremos peleas futuras. Dice usted que no hay que utilizar políticamente a las personas refugiadas; por supuesto, sería un pecado mortal, pero hagámoslo bien desde el principio, porque, como venimos de donde venimos y sabemos cuántas veces han despreciado nuestras propuestas desde hace muchos años en todo aquello que afecta a las personas refugiadas, nos queremos curar en salud. Así pues, les pido que en la transaccional que finalmente hagamos se incluyan estas dos variables.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u61" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u61" ana="#chair">
                <seg>Por el Grupo Mixto tiene la palabra también el señor Iñarritu.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u62"
@@ -567,7 +565,7 @@
                <seg>En definitiva, Amaiur apoya estas propuestas como un primer paso, como unos mínimos, pero echa en falta otras propuestas que hablen de rutas legales y seguras de libre circulación, de salvamento y rescate y de reunificación familiar. Lo dicho, esperemos que esto sirva como un primer paso contra la actitud vergonzosa que el Gobierno ha mantenido hasta ahora en este asunto.</seg>
                <seg>Muchas gracias, señor presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u63" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u63" ana="#chair">
                <seg>Gracias, señor Iñarritu.</seg>
                <seg>Por el Grupo Parlamentario Vasco, PNV, tiene la palabra el señor Olabarría.</seg>
             </u>
@@ -581,7 +579,7 @@
                <seg>En todo caso y dicho esto, señora Esteve, usted seguramente conoce, porque se ha publicado en un medio de comunicación de amplia difusión y que usted seguramente lee todos los días, lo que dice un filósofo de nacionalidad iraní y catedrático de la Universidad de Toronto, Ramin Jahanbegloo. Con relación al problema que nos ocupa, afirma que el mundo de sufrimientos y tragedias de los emigrantes que contempla hoy Europa está tan lejos de sus pensamientos -de los pensamientos de Europa- como el más remoto de los planetas. Comparto esta opinión, amén de otras reflexiones particularmente ilustrativas de este filósofo iraní, catedrático en la Universidad de Toronto. Su retórica no puede compensar esta reflexión tan lúcida, porque tiene carencias que usted conoce perfectamente, como las conozco yo. Las vamos a relativizar por mor de la necesidad de consenso, incluso de lo que usted preconizaba originariamente, que es la necesidad de un pacto de Estado, porque si algún problema requiere un consenso que se aproxime por lo menos a un pacto de Estado es este con el que estamos conviviendo. Sin embargo, en su proposición faltan muchas cosas, y faltan porque usted ha buscado el consenso renunciando a parte de su acervo intelectual y a parte de sus planteamientos sobre los problemas que nos afectan. Usted nos ha presentado una proposición no de ley que raya en el optimista desiderátum. Aquí también hay que comentar aquellos aspectos que deben ser objeto de crítica. Lo más positivo de lo que usted nos presenta es que se comunitariza o se le da una dimensión europea -por fin, después de tantos años- al problema de la emigración, al problema de la extranjería y al problema de los refugiados. Se acepta como un aspecto relevante para todos o casi todos los países de la Unión Europea este problema,<pb n="35"/> pero hay muchos problemas que usted no atiende por mor de recabar los consensos que han posibilitado algo muy parecido a un pacto de Estado, que es una proposición no de ley, instrumento insuficiente jurídica y también parlamentariamente para configurar un pacto de Estado sobre esta materia. ¿Hasta qué punto es razonable y coherente con los requerimientos de la Convención de Ginebra, su protocolo de desarrollo en Nueva York y los requerimientos del Tratado de Viena una política de cuotas? ¿Por qué una política de cuotas? ¿Desde cuándo la condición de refugiado y la adquisición del derecho de asilo tienen que estar parcelados en forma de cuotas? La cuota que asume el Estado español no llega ni al 0,036 % de la población del Estado español. ¿Es generosa esta posición? ¿Vamos a realizar una reflexión apologética de la generosidad del Estado español en materia de aceptación de refugiados -que tienen toda la legitimidad del mundo para que se les reconozca, porque son perseguidos, su condición de refugiados y el derecho de asilo- cuando la propia legislación española, el reglamento de la Ley 12/2009, que usted exige y nosotros también, está pendiente de desarrollo? ¿Por qué todas las instituciones públicas han sido adelantadas por la sociedad civil? ¿Por qué se nos han adelantado Amnistía Internacional, Acnur o la Iglesia católica? Todas las instituciones, personas particulares, familias y clubes de fútbol han actuado de forma más rápida y seguramente más solidaria que la propia institución que representa la soberanía del Estado español. Tenemos que hacer una reflexión autocrítica sobre esta cuestión que su retórica ha edulcorado por mor del consenso.</seg>
                <seg>¿Por qué la Comisión Europea no realiza reflexiones mucho más contundentes contra lo que se está haciendo en países como Hungría y otros, que levantan vallas vergonzantes y vergonzosas, contrarias al acervo comunitario, amén de los convenios que hemos citado, como fundamentalmente la Convención de Ginebra, en relación con los refugiados y el asilado? Eso es contrario al acervo comunitario. Un país que practica estas políticas no puede pertenecer -el señor Juncker se lo debería decir- a la Unión Europea porque no forma parte de los principios inspiradores del acervo comunitario, que son las normas, la filosofía y los principios inspiradores de una especie de constructus que estamos haciendo los países comunitarios, basado en los derechos fundamentales y las libertades públicas de tratados que están suscritos hasta por Hungría paradójicamente. Fíjese hasta qué punto estamos llegando a la paradoja, porque también el Estado español se erige en ejemplo cuando su política en materia de extranjería es la que usted y yo conocemos. Se acaba de legalizar la devolución en caliente; los CIES están en la situación que ha sido comentada por algunos portavoces que me han precedido en el uso de la palabra, pero lo más grave son algunas reflexiones de personas relevantes del Partido Popular, que no es que rayen en la xenofobia, es que penetran directamente en ella, estigmatizan a las personas que huyen del terrorismo.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u65" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u65" ana="#chair">
                <seg>Señor Olabarría, tiene usted que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u66"
@@ -591,7 +589,7 @@
                <seg>Y como siempre, la gran bombero del Gobierno del Partido Popular, la señora vicepresidenta, ha tenido que salir a dar una rueda de prensa específicamente para intentar atenuar el efecto demoledor de estas reflexiones xenófobas.</seg>
                <seg>Desde esta perspectiva, le agradezco su optimismo, su buenismo. Es la primera aproximación normativa a una verdadera política de Estado en esta materia, y hay que agradecérselo, pero conoce las carencias, las dificultades y las reservas mentales que a usted, a mí y a todos los demás nos genera una proposición de estas características. El bien del consenso es un bien -casi es un valor- superior del ordenamiento jurídico y por eso vamos a votar que sí. El contenido material es tan deletéreo todavía que usted, yo y ojalá todos los demás -cuando digo todos los demás me estoy refiriendo también al ministro del Interior, ocupado en otros avatares de mayor dimensión conceptual seguramente- tenemos que avanzar hacia posiciones mucho más concretas que configuren una política de asilo y de refugio que por lo menos se compadezca -solo pido eso-...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u67" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u67" ana="#chair">
                <seg>Señor Olabarría.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u68"
@@ -599,7 +597,7 @@
                ana="#regular">
                <seg>Ya acabo.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u69" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u69" ana="#chair">
                <seg>No; es que tiene usted que acabar porque está repitiendo lo mismo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u70"
@@ -610,7 +608,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <pb n="36"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u71" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u71" ana="#chair">
                <seg>Gracias, señor Olabarría. En efecto, se ha pasado del tiempo, pero tengo que agradecerle su referencia a los diputados que se están despidiendo, que han sido pilares de esta Cámara y que vamos a perder.</seg>
                <seg>Por Unión Progreso y Democracia tiene la palabra el señor Martínez Gorriarán.</seg>
             </u>
@@ -621,7 +619,7 @@
                <seg>Intervengo brevemente para anunciar que mi grupo por supuesto va a apoyar esta iniciativa parlamentaria y que nos alegramos mucho de que sea en un tema de tanta importancia, porque en realidad se trata de un problema de la democracia y no solamente, como quizá se repite con demasiada facilidad, de un problema humanitario o sentimental, aunque también lo sea. Es evidente que en la crisis de los refugiados hay un enorme componente emocional y que muchas veces lo que ha conseguido que cambien de opinión prácticamente todos los Gobiernos de Europa, incluido el español, han sido las reacciones emocionales de la opinión pública, lo cual habla bien por una vez del género humano y de su predisposición a la compasión y a la solidaridad. La verdad de fondo es que estamos ante una crisis democrática, que lo es porque nos hemos encontrado con un problema que nos ha desbordado, pues de una manera absolutamente carente de previsión no habíamos acabado de entender en qué mundo vivimos. Vivimos en un mundo globalizado y los grandes desplazamientos de población, que siempre han existido -desde que tenemos historia, sabemos que han existido-, se han convertido ahora en algo visible y escandaloso. Eso no se puede esconder debajo de la alfombra. Es un problema de la democracia no porque sea tremendo -que lo es-, no porque sea terrible el sufrimiento de tantas personas inocentes -que lo es-, sino sencillamente porque pone de manifiesto que las costosas estructuras administrativas que hemos ido creando siguen siendo incapaces a día de hoy de garantizar el cumplimiento de los derechos humanos y de garantizar que haya Gobiernos que se hagan cargo de sus propias poblaciones y que no traten a sus ciudadanos como enemigos, como está ocurriendo en Siria, en Afganistán y en tantos otros Estados fallidos que hay por el mundo, en muchos casos como consecuencia de los procesos poscoloniales.<note>Rumores</note> En España no habíamos escapado ni mucho menos a la insensibilidad o a la negación del problema democrático que significa la existencia de personas carentes de derechos. Como decía, mi grupo se congratula mucho de que haya sido posible llegar a este texto consensuado, pero no tenemos mucho de que presumir; además, nadie en particular. Estaría completamente fuera de lugar que hubiera manifestaciones de superioridad moral e ideológica a las que tan acostumbrados estamos. Me gustaría recordar que en el año 2008 el Gobierno de Rodríguez Zapatero denegó nada menos que el 95 % de las peticiones de asilo, lo cual es verdaderamente escandaloso. El año pasado el Gobierno actual algo mejoró en esta materia, pero tampoco mucho: denegó el 57 %. La consecuencia ha sido que, como a otros países de la Unión Europea, se nos ha abierto un procedimiento por posible vulneración de los acuerdos europeos en materia de asilo político. Hay que cambiar todo esto y, aunque el contenido material de esta proposición no de ley no esté ni mucho menos acabado ni sea perfecto -seguramente no lo será nunca-, más vale dar este paso en la buena dirección -en este caso lo digo sin ninguna ironía- que mantenerse en la negación y en dar la espalda a la realidad incómoda del mundo en que vivimos y que no va a cambiar. Además, España es un país que tiene una nefasta tradición histórica en la producción de refugiados. Hemos sido un país que ha expulsado a grandes masas de población. En 1492 expulsó a los judíos, en 1609 a los moriscos y durante la Guerra Civil hubo cientos de miles de personas que se desplazaron dentro del propio territorio de una zona a otra y otros cientos de miles más que salieron como consecuencia de la victoria de Franco. Por lo tanto, deberíamos ser un país con una sensibilidad especial para darnos cuenta de que siempre que se provoca una marea de refugiados lo que está ausente es la democracia, y no solo la democracia, sino que está ausente considerar a nuestros semejantes como iguales en el sentido democrático del término.<note>Rumores</note> Para acabar, ya que es una ocasión extraña y poco frecuente para poder hablar de generalidades éticas y políticas en un tono que no es de reproche, me gustaría decir que la democracia se basa en una idea muy sencilla, que es la idea de la intercambiabilidad. Es la idea de que el otro en el fondo es igual que yo; aunque no sea igual en talento, en fortuna o en nacimiento, desde luego sí lo es desde el punto de vista de que es un ser humano. De ahí viene esa máxima ética universal que es muy popular y conocida y que no dice otra cosa que no hagas al otro lo que no quisieras que te hicieran a ti. Como digo, nuestro país ha producido cientos de miles de refugiados y no solamente en caso de guerra. Me gustaría también aprovechar la ocasión para recordar algo que no se recuerda muy a menudo.<note>Rumores</note> ETA produjo también decenas<pb n="37"/> de miles de desplazados por la amenaza de la violencia en años muy recientes y siguen desplazados fuera de las casas donde les gustaría vivir. Sin embargo, lo fundamental es que entendamos esto: si hay refugiados, algo ocurre en la democracia, y cuando hay cientos de miles o millones de refugiados está fallando justamente la estructura política del mundo que estamos construyendo.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u73" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u73" ana="#chair">
                <seg>Muchas gracias, señor Martínez Gorriarán.<note>Rumores</note> Por favor, ruego silencio.</seg>
                <seg>Por el Grupo Parlamentario de La Izquierda Plural, tiene la palabra el señor Sixto.</seg>
             </u>
@@ -631,7 +629,7 @@
                <seg>Gracias, señor presidente.<note>Rumores</note> Si algo está dejando claro el debate de esta tarde en la Cámara, aparte del consabido ruido antes de las votaciones por la incorporación de los diputados que vienen a terminar de charlar de sus asuntos en la Cámara y no dejan expresarse a los portavoces, es que hay una importante voluntad de consenso por parte de todos los grupos parlamentarios respecto al tema de la crisis de asilados que estamos padeciendo en Europa. La segunda cuestión que está dejando bastante clara es que hay importantes diferencias en las visiones políticas de cada uno de los grupos parlamentarios respecto a la cuestión de la inmigración. No podemos ocultar las diferencias enormes que han separado a muchos de los grupos de esta Cámara de las políticas que ha venido desarrollando el Gobierno del Partido Popular bajo esta proposición no de ley que de forma unánime va a aprobar la Cámara y que contará también con el voto afirmativo de mi grupo parlamentario, que igualmente firma la enmienda. Las diferencias han sido importantes, pero eso no nos debe hacer olvidar la voluntad...</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u75" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u75" ana="#chair">
                <seg>Perdón, señor Sixto.</seg>
                <seg>Por favor, no se oye al orador. Despejen sobre todo los pasillos.<note>Pausa</note> Continúe, señor Sixto.</seg>
             </u>
@@ -646,7 +644,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u77" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u77" ana="#chair">
                <seg>Muchas gracias, señor Sixto.</seg>
                <seg>Por el Grupo Parlamentario Catalán de Convergència i de Unió, tiene en primer lugar la palabra el señor Picó.</seg>
             </u>
@@ -659,7 +657,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u79" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u79" ana="#chair">
                <seg>Muchas gracias, señor Picó.</seg>
                <seg>Por el mismo Grupo Catalán de Convergència i de Unió, tiene ahora la palabra el señor Campuzano.</seg>
             </u>
@@ -672,7 +670,7 @@
                <seg>Señorías, cómo responden el Estado español y Europa a esta crisis tiene que ver con los valores reales en los que fundamentamos nuestra convivencia. Tenemos la oportunidad de hacerlo mejor, tenemos la obligación de hacerlo mejor porque eso marcará el tono moral de la sociedad europea, el tono moral de la sociedad española. En este compromiso estamos los diputados de Convergència Democràtica.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u81" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u81" ana="#chair">
                <seg>Muchas gracias, señor Campuzano.</seg>
                <seg>Por el grupo Popular, tiene la palabra la señora Rodríguez-Salmones.</seg>
             </u>
@@ -688,7 +686,7 @@
                <seg>Querría añadir otra cuestión, los fondos; habrá los que se necesiten; absolutamente, habrá los que se necesiten, y ese es nuestro compromiso. Como he dicho antes, tendremos a las 18.000 personas de esta llamada cuota, pero llegaremos a mucho más; posiblemente, dijo el ministro, a 35.000 refugiados. En la Unión Europea estamos trabajando en esa política común de asilo, y ojalá seamos capaces de tener una prisa enorme y tenerla en los próximos meses.</seg>
                <seg>Quiero también aquí hacer un reconocimiento...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u83" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u83" ana="#chair">
                <seg>Señora Rodríguez-Salmones, tiene que acabar, porque se ha excedido mucho de su tiempo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u84"
@@ -698,7 +696,7 @@
                <seg>Como decía, quiero hacer un reconocimiento a las organizaciones sociales, sin las cuales no podríamos estar haciendo todo esto: Acnur, CEAR, Cruz Roja, Cáritas, etcétera. Quiero garantizarles sencillamente que el mecanismo que ha puesto en marcha la vicepresidenta del Gobierno con ocho ministerios pondrá todo nuestro sistema autonómico, local y social a funcionar para esto.</seg>
                <seg>Antes de terminar, presidente, me quiero sumar a lo que ha dicho la señora Oramas respecto al drama de los niños. El 85 % de los niños está...</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u85" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u85" ana="#chair">
                <seg>Señora Rodríguez-Salmones, tiene que terminar. No puede sumarse a nada.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u86"
@@ -709,7 +707,7 @@
                <seg>Muchas gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u87" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u87" ana="#chair">
                <seg>Muchas gracias, señora Rodríguez-Salmones.</seg>
                <seg>Se ha presentado una enmienda por parte de todos los grupos, que creo que será la que sometamos a votación. ¿Es así, señora Esteve?<note>Asentimiento</note> En dos minutos procederemos a votar.</seg>
                <note>Pausa</note>
@@ -717,7 +715,7 @@
          </div>
          <div type="debateSection">
             <head>JURAMENTO O PROMESA DE ACATAMIENTO A LA CONSTITUCIÓN POR NUEVOS SEÑORES DIPUTADOS</head>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u88" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u88" ana="#chair">
                <seg>Vamos a proceder al juramento o promesa de acatamiento a la Constitución, conforme al artículo 20.1.3.º del Reglamento. Sustitución de doña María Luisa Carcedo. Pregunto a don Adrián Barbón Rodríguez si jura o promete acatar la Constitución.</seg>
                <pb n="41"/>
             </u>
@@ -727,45 +725,45 @@
                <seg>Sí, prometo.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u90" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u90" ana="#chair">
                <seg>Don Adrián Barbón ha adquirido la condición plena de diputado. Enhorabuena.</seg>
                <note>Aplausos</note>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY : - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE UNIVERSALIZACIÓN DEL DERECHO A LA ASISTENCIA SANITARIA PÚBLICA.</head>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u91" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u91" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo Parlamentario Socialista, sobre universalización del derecho a la asistencia sanitaria pública. Hay dos votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 307 más 2 votos telemáticos, 309; a favor, 141 más 1 voto telemático, 142; en contra, 166 más 1 voto telemático, 167.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u92" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u92" ana="#chair">
                <seg>Queda rechazada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO CATALÁN DE CONVERGÈNCIA I DE UNIÓ, DE MODIFICACIÓN DE LA LEY 22/2003, DE 9 DE JULIO, CONCURSAL, QUE INCORPORA UN PROCEDIMIENTO CONCURSAL ESPECIAL PARA PERSONAS FÍSICAS, EN SUS ACTIVIDADES ECONÓMICAS FAMILIARES O, COMO TRABAJADORES AUTÓNOMOS, EN SUS ACTIVIDADES PROFESIONALES O EMPRESARIALES.</seg>
                <note>Número de expediente 122/000194</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u93" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u93" ana="#chair">
                <seg>Toma en consideración de la proposición de ley del Grupo Parlamentario Catalán de Convergència i d´Unió de modificación de la Ley 22/2003, de 9 de julio, Concursal, que incorpora un procedimiento concursal especial para personas físicas, en sus actividades económicas familiares o como trabajadores autónomos, en sus actividades profesionales o empresariales. Hay dos votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 305 más 2 votos telemáticos, 307; a favor, 129 más 1 voto telemático, 130; en contra, 172 más un voto telemático, 173; abstenciones, 4.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u94" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u94" ana="#chair">
                <seg>Queda rechazada.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>PROPOSICIONES NO DE LEY : - DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, RELATIVA AL CUMPLIMIENTO DE LA RESOLUCIÓN 1325 DEL CONSEJO DE SEGURIDAD DE LA ONU.</head>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u95" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u95" ana="#chair">
                <seg>Proposición no de ley del Grupo Popular en el Congreso, relativa al cumplimiento de la Resolución 1325 del Consejo de Seguridad de la ONU. Se vota en los términos de la enmienda transaccional presentada por La Izquierda Plural.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 301; a favor, 300; en contra, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u96" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u96" ana="#chair">
                <seg>Queda aprobada.</seg>
                <seg>- DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LA CRISIS HUMANITARIA DE REFUGIADOS.</seg>
                <note>Número de expediente 162/001298</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u97" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u97" ana="#chair">
                <seg>Proposición no de ley del Grupo Parlamentario Socialista sobre la crisis humanitaria de refugiados. Hay una enmienda presentada conjuntamente por todos los grupos, que es la enmienda que se somete a votación.<pb n="42"/> Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 307; a favor, 307.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u98" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u98" ana="#chair">
                <seg>Queda aprobada por unanimidad.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las ocho de la noche.</seg>

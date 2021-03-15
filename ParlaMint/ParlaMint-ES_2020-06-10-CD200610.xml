@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="340">340 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="340" xml:lang="es">340 speeches</measure>
+            <measure unit="speeches" quantity="340" xml:lang="en">340 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,7 +78,7 @@
                <tagUsage gi="pb" occurs="104"/>
                <tagUsage gi="note" occurs="284"/>
                <tagUsage gi="u" occurs="340"/>
-               <tagUsage gi="lb" occurs="917"/>
+               <tagUsage gi="seg" occurs="917"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -90,10 +92,6 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#covid">
       <body>
@@ -330,7 +328,7 @@
                <seg>Es usted el vicepresidente de Derechos Sociales, y el primer derecho social que tienen los españoles es que sus gobernantes no se rían de ellos a la cara, como usted hace todos los miércoles.<note>Aplausos</note> Usted asumió el mando único de las residencias de mayores, es decir, el único que manda en este tema.</seg>
                <note>Rumores.-Protestas</note>
             </u>
-            <u xml:id="ParlaMint-ES_2020-06-10-CD200610.u44" ana="#regular">
+            <u xml:id="ParlaMint-ES_2020-06-10-CD200610.u44" ana="#chair">
                <seg>Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-06-10-CD200610.u45"

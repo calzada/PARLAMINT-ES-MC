@@ -34,8 +34,10 @@
             <edition>0.1</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="en" unit="speeches" quantity="25">25 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="en">XXX words</measure>
+            <measure unit="speeches" quantity="25" xml:lang="es">25 speeches</measure>
+            <measure unit="speeches" quantity="25" xml:lang="en">25 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-12">2021-03-12</date>
+            <date when="2021-03-14">March 14, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -75,7 +77,7 @@
                <tagUsage gi="head" occurs="3"/>
                <tagUsage gi="pb" occurs="10"/>
                <tagUsage gi="u" occurs="25"/>
-               <tagUsage gi="lb" occurs="67"/>
+               <tagUsage gi="seg" occurs="67"/>
                <tagUsage gi="note" occurs="12"/>
             </namespace>
          </tagsDecl>
@@ -90,34 +92,30 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-12">
-            <name>Tomaž Erjavec</name>: initial version.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
-            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u1" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u1" ana="#chair">
                <seg>Se abre la sesión.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>MINUTO DE SILENCIO</head>
-            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u2" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u2" ana="#chair">
                <seg>Esta mañana conocimos con consternación la trágica noticia del accidente de aviación ocurrido en los Alpes franceses durante el trayecto Barcelona-Düsseldorf. En este terrible accidente han perdido la vida 150 personas, entre ellas muchos ciudadanos españoles. En solidaridad con todos los países afectados y como muestra de cariño con los familiares, amigos y allegados de los fallecidos, ruego a sus señorías que guardemos un minuto de silencio.<note>La Cámara, puesta en pie, guarda un minuto de silencio</note> Muchas gracias.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>POSPOSICIÓN DEL DEBATE CORRESPONDIENTE A LOS SIGUIENTES PUNTOS TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY: - DEL GRUPO PARLAMENTARIO SOCIALISTA, ORGÁNICA DE REFORMA DEL CÓDIGO PENAL. PROPOSICIONES NO DE LEY: - DEL GRUPO PARLAMENTARIO MIXTO , SOBRE LA FINANCIACIÓN DE LA COMUNITAT VALENCIANA. <pb n="4"/> - DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, RELATIVA A LA LIBERACIÓN DE LEOPOLDO LÓPEZ. MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES: - DEL GRUPO PARLAMENTARIO DE IU, ICV-EUIA, CHA: LA IZQUIERDA PLURAL, SOBRE LAS MEDIDAS QUE VA A TOMAR EL GOBIERNO PARA ERRADICAR EL AUMENTO DE LA DISCRIMINACIÓN CONTRA LAS MUJERES EN ESPAÑA. - DEL GRUPO PARLAMENTARIO SOCIALISTA, SOBRE LAS MEDIDAS QUE PIENSA ADOPTAR EL GOBIERNO PARA EVITAR LOS GRAVES RETROCESOS QUE ESTÁ PROVOCANDO EN LOS DERECHOS Y LIBERTADES DE LAS MUJERES Y PARA CONVERTIR LA IGUALDAD DE OPORTUNIDADES ENTRE HOMBRES Y MUJERES EN SU PRINCIPAL EJE DE ACTUACIÓN. - DEL GRUPO PARLAMENTARIO DE IU, ICV-EUIA, CHA: LA IZQUIERDA PLURAL, SOBRE LA SITUACIÓN ACTUAL Y LAS PERSPECTIVAS DE FUTURO DE LAS BASES MILITARES DE USO CONJUNTO EXISTENTES EN NUESTRO PAÍS. - DEL GRUPO PARLAMENTARIO CATALÁN , SOBRE LAS PRIORIDADES DEL GOBIERNO PARA POTENCIAR LA ECONOMÍA DIGITAL. COMPARECENCIA DEL GOBIERNO ANTE EL PLENO DE LA CÁMARA, DE CONFORMIDAD CON LO DISPUESTO POR EL ARTÍCULO 203 DEL REGLAMENTO: - COMPARECENCIA, A PETICIÓN PROPIA, DEL PRESIDENTE DEL GOBIERNO ANTE EL PLENO DE LA CÁMARA, PARA INFORMAR SOBRE EL CONSEJO EUROPEO DE LOS DÍAS 19 Y 20 DE MARZO DE 2015. PREGUNTAS: INTERPELACIONES URGENTES: - DEL GRUPO PARLAMENTARIO SOCIALISTA, AL MINISTRO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS SOBRE EL DESARROLLO POR LA AGENCIA TRIBUTARIA DE SUS FUNCIONES DE AUXILIO JUDICIAL EN LAS CAUSAS QUE AFECTAN AL PARTIDO POPULAR. - DEL GRUPO PARLAMENTARIO MIXTO , SOBRE LA POSTURA DEL GOBIERNO EN RELACIÓN CON LAS CONSECUENCIAS DEL ACUERDO TRANSATLÁNTICO PARA EL COMERCIO Y LA INVERSIÓN ENTRE EUROPA Y EE.UU. - DEL GRUPO PARLAMENTARIO DE UNIÓN PROGRESO Y DEMOCRACIA, SOBRE LOS PROPÓSITOS DEL GOBIERNO EN RELACIÓN CON LA CONDENA DE LA LIMPIEZA NACIONAL Y CRÍMENES CONTRA LA HUMANIDAD COMETIDOS POR LA BANDA TERRORISTA ETA Y SU ENTRAMADO POLÍTICO, A FIN DE DAR LA NECESARIA SATISFACCIÓN Y RECONOCIMIENTO A LAS VÍCTIMAS DE ESTAS VIOLACIONES MANIFIESTAS DE LAS NORMAS INTERNACIONALES DE DERECHOS HUMANOS Y SATISFACER EL DERECHO INALIENABLE A CONOCER LA VERDAD.</head>
-            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u3" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u3" ana="#chair">
                <seg>Quiero comunicar a sus señorías que en la Junta de Portavoces que hemos tenido hace escasamente unos minutos, por unanimidad y a propuesta de los grupos hemos acordado que hoy vamos a ver solo un punto, el primer punto del orden del día, y lo votaremos a continuación. Mañana miércoles se suspenden todas las actividades del Pleno y el jueves tendremos el Pleno normal, el que figura en el orden del día, que comenzará a las nueve de la mañana y acabará previsiblemente a las cinco y media o las seis.</seg>
                <pb n="5"/>
             </u>
          </div>
          <div type="debateSection">
             <head>TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO MIXTO, ORGÁNICA POR LA QUE SE MODIFICA LA DISPOSICIÓN ADICIONAL SEGUNDA DE LA LEY ORGÁNICA 8/1980, DE 22 DE SEPTIEMBRE, DE FINANCIACIÓN DE LAS COMUNIDADES AUTÓNOMAS.</head>
-            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u4" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u4" ana="#chair">
                <seg>Vamos, por lo tanto, a tratar este primer punto del orden del día, relativo a la toma en consideración de proposiciones de ley. En concreto, la proposición de ley del Grupo Parlamentario Mixto, orgánica por la que se modifica la disposición adicional segunda de la Ley orgánica 8/1980, de 22 de septiembre, de financiación de las comunidades autónomas. Para defender esta iniciativa, tiene la palabra la señora Barkos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u5"
@@ -128,7 +126,7 @@
                <seg>Geroa Bai presenta hoy esta proposición de ley para la reforma de la Ley orgánica 8/1980, de 22 de septiembre, de financiación de las comunidades autónomas y, en concreto, en lo relativo a su disposición adicional segunda referida a Navarra, que ha permanecido inmodificada desde la aprobación&#x85;</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u6" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u6" ana="#chair">
                <seg>Por favor, ruego silencio y que se escuche a la oradora.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u7"
@@ -137,7 +135,7 @@
                <seg>Gracias, presidente.</seg>
                <seg>Como decía, presentamos esta propuesta de reforma de la disposición adicional segunda de la Lofca referida a Navarra, que ha permanecido inmodificada desde la aprobación inicial de esta norma, a pesar de que la realidad institucional de Navarra ha sufrido cambios, además en profundidad y muy especialmente en lo referido a esta materia, en primer lugar, con la aprobación de la Lorafna, del amejoramiento del fuero, en agosto de 1982, y posteriormente con la aprobación de la Ley del Convenio Económico, del año 1990, y posteriores modificaciones. Lo que hoy someto a la toma en consideración de sus señorías es una reforma breve pero de honda expresión en el reconocimiento del Régimen Foral navarro, y se trata además de una labor legislativa que de haberse producido con anterioridad, sin duda nos hubiera evitado muchas fricciones entre los Gobiernos central y foral. Esto en el fondo, pero es también por ello que en la forma hemos preferido mantener el debate, más allá de criterios de economía parlamentaria que pudieran hacer razonable&#x85;<note>Rumores</note> No puedo así, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u8" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u8" ana="#chair">
                <seg>Por favor, comprendo que las circunstancias no son fáciles, pero ruego silencio para poder escuchar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u9"
@@ -148,7 +146,7 @@
                <seg>Señalaba anteriormente que la reforma que hoy proponemos hubiera podido evitar con toda probabilidad muchas de las fricciones que en torno a la posibilidad de establecer tributos no convenidos por parte del Parlamento de Navarra han mantenido estos años pasados los Gobiernos central y foral. Pero más todavía, quiero recordar que especialmente durante esta legislatura los desencuentros entre ambas instituciones en materia tributaria se saldan, entre otras cuestiones, con dos sentencias del Tribunal Constitucional -la primera de ellas de diciembre de 2012&#x85;</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u10" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u10" ana="#chair">
                <seg>Por favor, pido silencio. Si no hay silencio, suspenderé el tiempo necesario hasta que lo haya.</seg>
                <seg>Continúe, señora Barkos.</seg>
                <pb n="6"/>
@@ -163,7 +161,7 @@
                <seg>Señorías, fiar el desarrollo del autogobierno a la capacidad de actuación únicamente y tan solo sobre los tributos convenidos, hacerlo en un momento en que precisamente ese capítulo de la tributación va retrocediendo en el peso de los ingresos, es cerrase puertas al futuro, pero hacerlo además aceptando en cualquier caso, en este caso para Navarra, una situación de dependencia legislativa y tributaria al Ejecutivo central nos parecería no ya una temeridad, sino una absoluta irresponsabilidad. Pido por ello el voto a la toma en consideración de la reforma de la Lofca, lo hago con especial atención, como no puede ser de otra manera, a las formaciones que en esta Cámara tienen representación de cualquiera de los territorios forales, especialmente a las cinco formaciones que tienen representación desde Navarra. Señorías, hoy especialmente condicionar a intereses partidarios la decisión en el voto y negar a la ciudadanía navarra la corrección necesaria de la ley, tendrán consecuencias graves, y lo saben, en el futuro del autogobierno navarro.</seg>
                <seg>Gracias, presidente.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u12" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u12" ana="#chair">
                <seg>Muchas gracias, señora Barkos. Le pido disculpas por las dificultades que ha tenido para expresar su pensamiento.</seg>
                <seg>En turno de fijación de posiciones, en primer lugar, tiene la palabra por el Grupo Vasco, PNV, el señor Azpiazu.</seg>
             </u>
@@ -174,7 +172,7 @@
                <seg>Intervendré desde el escaño muy brevemente para fijar la posición de nuestro grupo en relación con la proposición de ley que ha presentado Geroa Bai. Reconozco que este debate es excesivamente jurídico y, por lo tanto, para mí no es desde luego nada fácil, pero considero que desde el punto de vista político, incluso intuitivo, la proposición de ley presentada por Geroa Bai tiene todo el sentido. La proposición es consecuencia de la última doctrina del Tribunal Constitucional respecto a la capacidad normativa de Navarra y de sus límites en la que se ha afirmado que Navarra está sometida simultáneamente a dos parámetros de constitucionalidad: por un parte, a la disposición adicional primera de la Constitución, la Lorafna y el convenio para aquellos tributos convenidos, es decir, los tributos que tienen la misma estructura impositiva que la estatal; por otra parte, el título VIII de la Constitución y la Lofca para los tributos nuevos creados por el Parlamento navarro en el ejercicio de su capacidad normativa. Esto destroza el argumentario sobre el que la foralidad navarra ha construido su peculiar naturaleza. Creemos que estas sentencias que han generado esta distorsión deben ser corregidas. Por lo tanto, nuestro grupo va a votar favorablemente la toma en consideración de esta iniciativa, que es lo que pretende.</seg>
                <seg>Muchas gracias.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u14" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u14" ana="#chair">
                <seg>Muchas gracias, señor Azpiazu.</seg>
                <seg>Por el Grupo de Unión Progreso y Democracia, tiene la palabra el señor Anchuelo.</seg>
             </u>
@@ -189,7 +187,7 @@
                <seg>Muchas gracias, señor presidente.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u16" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u16" ana="#chair">
                <seg>Muchas gracias, señor Anchuelo.</seg>
                <seg>Por el Grupo Parlamentario de La Izquierda Plural, tiene la palabra la señora De las Heras.</seg>
             </u>
@@ -203,7 +201,7 @@
                <seg>Gracias.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u18" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u18" ana="#chair">
                <seg>Muchas gracias, señora De las Heras.</seg>
                <seg>Por el Grupo Socialista, tiene la palabra el señor Moscoso del Prado.</seg>
             </u>
@@ -217,7 +215,7 @@
                <seg>Hay varias posibilidades para reformar la Lofca; esta, la que hoy defendemos, fue registrada por la señora Barkos con fecha previa al acuerdo del nuevo convenio, una iniciativa loable que se sustenta en el artículo 45 de la Lorafna, tal y como ella manifiesta. Es verdad que hay otra iniciativa viva en esta casa, registrada mediante enmienda directa a la Lofca -que también está siendo objeto de revisión en esta Cámara-, elaborada por el señor Salvador, que se sustenta en el artículo 39.1.a de la Lorafna. Ambas merecen ser estudiadas, pero sin duda puede haber otras alternativas factibles, incluso sería posible integrar ambas y hacer referencia a los dos artículos. Esto ha generado un amplio debate jurídico entre reconocidos juristas navarros y de otras comunidades autónomas; ya he mencionado a Juan José Lizarbe, pero también está don Fernando de la Hucha, don Simón Acosta o don Juan Cruz Alli. Creo que es muy importante admitir a trámite esta cuestión y entre todos, porque la naturaleza del foro es paccionada, pactar una reforma de la Lofca que satisfaga a todos ya que debe ser en los próximas décadas la base de desarrollo foral y de autogobierno en Navarra. Por esta razón, señor presidente, señorías, votaremos a favor de la toma en consideración de esta proposición de ley.</seg>
                <note>Aplausos</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u20" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u20" ana="#chair">
                <seg>Muchas gracias, señor Moscoso del Prado.</seg>
                <seg>Por el Grupo Popular, tiene la palabra el señor Pérez Lapazarán.</seg>
             </u>
@@ -230,7 +228,7 @@
                <seg>La segunda cuestión que quiero poner de manifiesto es que, independientemente de no seguir la vía ordinaria, lo que propone resulta a mi juicio extemporáneo y fuera de contexto. Se lo voy a explicar. Se presentó la iniciativa, como usted decía, el 5 de diciembre del año pasado. Precisamente la presentaron antes de las reuniones de la comisión negociadora del convenio económico, reuniones que se produjeron el 21 de enero y la aprobación de la reforma del convenio fue el 17 de febrero. Presentaron esta iniciativa sin saber realmente cómo se iba a tratar la fiscalidad y los problemas que se planteaban o que se iban a plantear a la comisión negociadora; sin conocer cómo se iba a acordar y cómo se iban a tratar de resolver los conflictos que se tenían y sin saber qué resultados se iban a producir en las reuniones que se habían<pb n="12"/> anunciado previamente. A mi juicio, lo prudente y lo lógico hubiese sido esperar y comprobar qué salía de la comisión negociadora y, en función de lo que hubiese salido, actuar en consecuencia. Lo adecuado hubiese sido comprobar cómo se resolvían las dudas que había en materia de fiscalidad entre el Estado y Navarra, que se habían suscitado sobre si los límites establecidos en la Lofca a la potestad de las comunidades autónomas de régimen común para la creación de nuevos impuestos eran o no de aplicación en Navarra. Quizá, con esta forma suya de actuar, querían olvidar los debates y la aprobación de la moción que se produjo los días 15 y 16 de octubre del pasado año, cuando debatimos y aprobamos una importante moción de cara a la fiscalidad de Navarra que precisamente Geroa Barai votó en contra. En su punto 2.2 -se lo voy a leer casi textualmente-, decía: Apoyar en el seno de la comisión negociadora del próximo convenio económico entre Navarra y el Estado la introducción de las precisiones normativas que sean necesarias para reafirmar la vigencia de la disposición adicional segunda, que establece que la actividad financiera y tributaria de Navarra se regirá por el sistema tradicional de convenio económico de acuerdo con lo dispuesto en el artículo 45 de la Ley de Amejoramiento. Es decir, lo que proponía aquella moción es parecido a lo que propone usted y a lo que Geroa Bai votó en contra. Hoy nos presenta esta toma en consideración que viene a decir algo parecido y, con ello, a nuestro juicio, pretende lavar la cara. Hoy en día le puedo decir que las reuniones Estado-Navarra han sido fructíferas.</seg>
                <note>Rumores</note>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u22" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u22" ana="#chair">
                <seg>Perdón, señor Pérez Lapazarán.</seg>
                <seg>Ruego silencio, por favor.</seg>
             </u>
@@ -245,11 +243,11 @@
                <note>Aplausos</note>
                <pb n="13"/>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u24" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u24" ana="#chair">
                <seg>Muchas gracias, señor Pérez Lapazarán. Votaremos en unos minutos.<note>Pausa</note> Vamos a proceder a la votación de la toma en consideración de la proposición de ley del Grupo Parlamentario Mixto, señora Barkos, orgánica por la que se modifica la disposición adicional segunda de la Ley Orgánica 8/1980, de 22 de septiembre, de financiación de las comunidades autónomas. Hay cuatro votos emitidos telemáticamente.</seg>
                <seg>Comienza la votación.<note>Pausa</note> Efectuada la votación, dio el siguiente resultado: votos emitidos, 297 más 4 votos telemáticos, 301; a favor, 138 más 1 voto telemático, 139; en contra, 158 más 3 votos telemáticos, 161; abstenciones, 1.</seg>
             </u>
-            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u25" ana="#regular">
+            <u xml:id="ParlaMint-ES_2015-03-24-CD150324.u25" ana="#chair">
                <seg>Queda rechazada la toma en consideración.</seg>
                <seg>Se suspende la sesión.</seg>
                <seg>Eran las cinco y diez minutos de la tarde.</seg>
