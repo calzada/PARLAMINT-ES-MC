@@ -50,7 +50,7 @@
                <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-03-14">March 14, 2021</date>
+            <date when="2021-03-15">March 15, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -467,10 +467,6 @@
                </org>
                <org role="politicalParty" xml:id="party.PSCPSCPSOE">
                   <orgName full="init">PSC(PSC-PSOE)</orgName>
-                  <orgName full="yes">?</orgName>
-               </org>
-               <org role="politicalParty" xml:id="party.CP">
-                  <orgName full="init">CP</orgName>
                   <orgName full="yes">?</orgName>
                </org>
                <org role="politicalParty" xml:id="party.PSOEdeAndalucía">
@@ -1999,7 +1995,7 @@
                   </persName>
                   <sex value="M"/>
                   <affiliation ref="#CD" role="MP" from="2015-02-11" to="2015-06-24"/>
-                  <affiliation role="member" ref="#party.CP"/>
+                  <affiliation role="member" ref="#party.PP"/>
                </person>
                <person xml:id="BeneytoJosé">
                   <persName>
@@ -10953,7 +10949,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-14">
+         <change when="2021-03-15">
             <name>Tomaž Erjavec</name>: Conversion to ParlaMint TEI.</change>
       </revisionDesc>
    </teiHeader>
