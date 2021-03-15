@@ -1,36 +1,36 @@
 make[1]: Entering directory '/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC'
 ls CD/*.xml | parallel --gnu --halt 2 --jobs 10 \
 'java -jar /usr/share/java/saxon.jar -xsl:bin/cd2parmamint.xsl {} > tmp/{/.}-PM.xml'
-INFO: processing CD150120.xml
-INFO: processing CD150212.xml
-INFO: processing CD150219.xml
-INFO: processing CD150210.xml
-INFO: processing CD150225.xml
-INFO: processing CD150217.xml
-INFO: processing CD150211.xml
 INFO: processing CD150224.xml
+INFO: processing CD150219.xml
+INFO: processing CD150212.xml
+INFO: processing CD150225.xml
+INFO: processing CD150120.xml
+INFO: processing CD150217.xml
+INFO: processing CD150210.xml
+INFO: processing CD150211.xml
 INFO: processing CD150218.xml
 INFO: processing CD150121.xml
-INFO: processing CD150324.xml
 INFO: processing CD150226.xml
+INFO: processing CD150324.xml
 INFO: processing CD150310.xml
 INFO: processing CD150311.xml
 INFO: processing CD150312.xml
 INFO: processing CD150414.xml
-INFO: processing CD150326.xml
-INFO: processing CD150421.xml
-INFO: processing CD150415.xml
 INFO: processing CD150416.xml
-INFO: processing CD150423.xml
+INFO: processing CD150326.xml
+INFO: processing CD150415.xml
+INFO: processing CD150421.xml
 INFO: processing CD150422.xml
-INFO: processing CD150430.xml
+INFO: processing CD150423.xml
 INFO: processing CD150428.xml
+INFO: processing CD150430.xml
 INFO: processing CD150429.xml
 INFO: processing CD150512.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
-INFO: processing CD150526.xml
 INFO: processing CD150514.xml
+INFO: processing CD150526.xml
 INFO: processing CD150527.xml
 INFO: processing CD150513.xml
 INFO: processing CD150609.xml
@@ -38,20 +38,20 @@ WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 INFO: processing CD150528.xml
 INFO: processing CD150610.xml
-INFO: processing CD150616.xml
-INFO: processing CD150618.xml
 INFO: processing CD150611.xml
-INFO: processing CD150623.xml
+INFO: processing CD150616.xml
 INFO: processing CD150617.xml
-INFO: processing CD150624.xml
+INFO: processing CD150623.xml
 INFO: processing CD150625.xml
+INFO: processing CD150618.xml
+INFO: processing CD150624.xml
 INFO: processing CD150707.xml
-INFO: processing CD150708.xml
 INFO: processing CD150715.xml
-INFO: processing CD150818.xml
-INFO: processing CD150826.xml
-INFO: processing CD150825.xml
+INFO: processing CD150708.xml
 INFO: processing CD150716.xml
+INFO: processing CD150818.xml
+INFO: processing CD150825.xml
+INFO: processing CD150826.xml
 INFO: processing CD150914.xml
 INFO: processing CD150915.xml
 INFO: processing CD150916.xml
@@ -60,14 +60,18 @@ WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 INFO: processing CD150929.xml
 INFO: processing CD150930.xml
-INFO: processing CD151021.xml
 INFO: processing CD151013.xml
-INFO: processing CD160113.xml
+INFO: processing CD151021.xml
+INFO: processing CD151014.xml
 INFO: processing CD151001.xml
 INFO: processing CD151020.xml
-INFO: processing CD151014.xml
+INFO: processing CD160113.xml
 INFO: processing CD160304.xml
 INFO: processing CD160302.xml
+INFO: processing CD160315.xml
+INFO: processing CD160413.xml
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD160406.xml
 INFO: processing CD160405.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
@@ -75,27 +79,23 @@ WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
-INFO: processing CD160315.xml
-INFO: processing CD160413.xml
-WARN: Don't know what to do with institution/ni!
 INFO: processing CD160420.xml
 INFO: processing CD160412.xml
-INFO: processing CD160406.xml
-INFO: processing CD160427.xml
 INFO: processing CD160419.xml
-INFO: processing CD160428.xml
 INFO: processing CD160719.xml
+INFO: processing CD160427.xml
+INFO: processing CD160428.xml
 INFO: processing CD160830.xml
 INFO: processing CD160902.xml
-INFO: processing CD161020.xml
-INFO: processing CD161026.xml
 INFO: processing CD160831.xml
-INFO: processing CD160927.xml
 INFO: processing CD161004.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
+INFO: processing CD160927.xml
+INFO: processing CD161020.xml
 INFO: processing CD161018.xml
+INFO: processing CD161026.xml
 INFO: processing CD161029.xml
 INFO: processing CD161027.xml
 INFO: processing CD161115.xml
@@ -105,38 +105,38 @@ WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 INFO: processing CD161122.xml
-INFO: processing CD161123.xml
 INFO: processing CD161213.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
-INFO: processing CD161130.xml
-INFO: processing CD161129.xml
 INFO: processing CD161215.xml
+INFO: processing CD161123.xml
+INFO: processing CD161129.xml
+INFO: processing CD161130.xml
 INFO: processing CD161214.xml
 INFO: processing CD161220.xml
 INFO: processing CD161221.xml
 INFO: processing CD170131.xml
 INFO: processing CD170216.xml
-INFO: processing CD170201.xml
 INFO: processing CD170202.xml
+INFO: processing CD170201.xml
 INFO: processing CD170215.xml
-INFO: processing CD170214.xml
 INFO: processing CD170222.xml
-INFO: processing CD170221.xml
+INFO: processing CD170214.xml
 INFO: processing CD170307.xml
+INFO: processing CD170221.xml
 INFO: processing CD170308.xml
 INFO: processing CD170309.xml
-INFO: processing CD170316.xml
 INFO: processing CD170321.xml
+INFO: processing CD170316.xml
 INFO: processing CD170315.xml
 INFO: processing CD170314.xml
 INFO: processing CD170322.xml
-INFO: processing CD170330.xml
-WARN: Don't know what to do with institution/ni!
-INFO: processing CD170329.xml
 INFO: processing CD170328.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
+INFO: processing CD170330.xml
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD170329.xml
 INFO: processing CD170404.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
@@ -145,28 +145,28 @@ INFO: processing CD170405.xml
 INFO: processing CD170406.xml
 INFO: processing CD170504.xml
 INFO: processing CD170503.xml
-INFO: processing CD170511.xml
 INFO: processing CD170509.xml
+INFO: processing CD170511.xml
+INFO: processing CD170510.xml
 INFO: processing CD170516.xml
 INFO: processing CD170517.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 INFO: processing CD170518.xml
-INFO: processing CD170510.xml
 INFO: processing CD170529.xml
 INFO: processing CD170621.xml
 INFO: processing CD170627.xml
 WARN: Don't know what to do with institution/ni!
 INFO: processing CD170629.xml
 INFO: processing CD170830.xml
-INFO: processing CD170711.xml
 INFO: processing CD170712.xml
-INFO: processing CD170913.xml
+INFO: processing CD170711.xml
 INFO: processing CD170912.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
+INFO: processing CD170913.xml
 INFO: processing CD170919.xml
 INFO: processing CD170920.xml
 INFO: processing CD170921.xml
@@ -177,10 +177,10 @@ INFO: processing CD171010.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
-INFO: processing CD171017.xml
 INFO: processing CD171018.xml
-INFO: processing CD171019.xml
+INFO: processing CD171017.xml
 INFO: processing CD171011.xml
+INFO: processing CD171019.xml
 INFO: processing CD171024.xml
 INFO: processing CD171025.xml
 INFO: processing CD171107.xml
@@ -192,40 +192,39 @@ WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 INFO: processing CD171108.xml
-INFO: processing CD171115.xml
 INFO: processing CD171114.xml
 INFO: processing CD171123.xml
+INFO: processing CD171115.xml
 INFO: processing CD171122.xml
 INFO: processing CD171121.xml
 INFO: processing CD171128.xml
 INFO: processing CD171129.xml
 INFO: processing CD171130.xml
 INFO: processing CD171212.xml
-INFO: processing CD180207.xml
 INFO: processing CD171213.xml
-INFO: processing CD180215.xml
 INFO: processing CD180213.xml
+INFO: processing CD180207.xml
+INFO: processing CD180215.xml
 INFO: processing CD180206.xml
-INFO: processing CD180214.xml
 INFO: processing CD180220.xml
-INFO: processing CD180221.xml
+INFO: processing CD180214.xml
 INFO: processing CD180222.xml
+INFO: processing CD180221.xml
 INFO: processing CD180315.xml
 INFO: processing CD180313.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
+INFO: processing CD180314.xml
 INFO: processing CD180320.xml
+INFO: processing CD180410.xml
+INFO: processing CD180321.xml
 INFO: processing CD180411.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
-INFO: processing CD180314.xml
-INFO: processing CD180321.xml
-INFO: processing CD180410.xml
 INFO: processing CD180412.xml
 INFO: processing CD180425.xml
 INFO: processing CD180426.xml
-INFO: processing CD180510.xml
 INFO: processing CD180508.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
@@ -233,44 +232,45 @@ WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
+INFO: processing CD180510.xml
 INFO: processing CD180509.xml
 INFO: processing CD180521.xml
-INFO: processing CD180530.xml
-WARN: Don't know what to do with institution/ni!
-INFO: processing CD180523.xml
 INFO: processing CD180529.xml
 INFO: processing CD180601.xml
 INFO: processing CD180522.xml
+INFO: processing CD180523.xml
+INFO: processing CD180530.xml
+WARN: Don't know what to do with institution/ni!
 INFO: processing CD180531.xml
 INFO: processing CD180612.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
-INFO: processing CD180710.xml
 INFO: processing CD180619.xml
+INFO: processing CD180710.xml
+INFO: processing CD180620.xml
 INFO: processing CD180626.xml
 WARN: Don't know what to do with institution/ni!
-INFO: processing CD180716.xml
-INFO: processing CD180620.xml
-INFO: processing CD180702.xml
 INFO: processing CD180628.xml
+INFO: processing CD180702.xml
 INFO: processing CD180704.xml
+INFO: processing CD180716.xml
 INFO: processing CD180627.xml
 INFO: processing CD180725.xml
 INFO: processing CD180717.xml
 INFO: processing CD180727.xml
+INFO: processing CD180906.xml
+WARN: Don't know what to do with institution/ni!
 INFO: processing CD180911.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
-INFO: processing CD180906.xml
-WARN: Don't know what to do with institution/ni!
-INFO: processing CD180919.xml
 INFO: processing CD180913.xml
 INFO: processing CD180912.xml
-INFO: processing CD180920.xml
 INFO: processing CD180918.xml
+INFO: processing CD180920.xml
+INFO: processing CD180919.xml
 INFO: processing CD180925.xml
 WARN: Don't know what to do with institution/ni!
 INFO: processing CD180926.xml
@@ -279,49 +279,49 @@ WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
-INFO: processing CD181017.xml
-INFO: processing CD181018.xml
 INFO: processing CD181010.xml
+INFO: processing CD181018.xml
 INFO: processing CD181016.xml
 INFO: processing CD181023.xml
+INFO: processing CD181017.xml
 INFO: processing CD181025.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 INFO: processing CD181024.xml
-INFO: processing CD181030.xml
 INFO: processing CD181113.xml
+INFO: processing CD181030.xml
 INFO: processing CD181115.xml
 WARN: Don't know what to do with institution/ni!
-INFO: processing CD181114.xml
 INFO: processing CD181120.xml
+INFO: processing CD181114.xml
+INFO: processing CD181122.xml
 INFO: processing CD181211.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
-INFO: processing CD181122.xml
 INFO: processing CD181121.xml
 WARN: Don't know what to do with institution/ni!
-INFO: processing CD181212.xml
 INFO: processing CD181213.xml
+INFO: processing CD181212.xml
 INFO: processing CD181218.xml
 INFO: processing CD181219.xml
+INFO: processing CD190122.xml
+INFO: processing CD190212.xml
+INFO: processing CD190213.xml
 INFO: processing CD181220.xml
 WARN: Don't know what to do with institution/ni!
-INFO: processing CD190213.xml
-INFO: processing CD190212.xml
-INFO: processing CD190122.xml
 INFO: processing CD190219.xml
 INFO: processing CD190220.xml
 INFO: processing CD190221.xml
 INFO: processing CD190226.xml
-INFO: processing CD190227.xml
-INFO: processing CD190228.xml
 INFO: processing CD190521.xml
 INFO: processing CD190725.xml
 INFO: processing CD190723.xml
 INFO: processing CD190722.xml
+INFO: processing CD190228.xml
+INFO: processing CD190227.xml
 INFO: processing CD190910.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
@@ -330,9 +330,9 @@ INFO: processing CD190911.xml
 INFO: processing CD190917.xml
 INFO: processing CD190918.xml
 INFO: processing CD191203.xml
+INFO: processing CD200107.xml
 INFO: processing CD200105.xml
 INFO: processing CD200104.xml
-INFO: processing CD200107.xml
 INFO: processing CD200204.xml
 INFO: processing CD200211.xml
 WARN: Don't know what to do with institution/ni!
@@ -340,9 +340,9 @@ WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 INFO: processing CD200212.xml
+INFO: processing CD200220.xml
 INFO: processing CD200219.xml
 INFO: processing CD200218.xml
-INFO: processing CD200220.xml
 INFO: processing CD200225.xml
 INFO: processing CD200227.xml
 INFO: processing CD200318.xml
@@ -350,38 +350,38 @@ INFO: processing CD200226.xml
 INFO: processing CD200325.xml
 INFO: processing CD200409.xml
 INFO: processing CD200415.xml
-INFO: processing CD200506.xml
-INFO: processing CD200429.xml
 INFO: processing CD200422.xml
+INFO: processing CD200429.xml
+INFO: processing CD200506.xml
 INFO: processing CD200513.xml
 INFO: processing CD200527.xml
+INFO: processing CD200604.xml
 INFO: processing CD200520.xml
 INFO: processing CD200603.xml
-INFO: processing CD200604.xml
 INFO: processing CD200611.xml
 INFO: processing CD200610.xml
 INFO: processing CD200616.xml
-INFO: processing CD200623.xml
 INFO: processing CD200617.xml
+INFO: processing CD200623.xml
+INFO: processing CD200624.xml
+INFO: processing CD200714.xml
 INFO: processing CD200625.xml
 WARN: Don't know what to do with institution/ni!
-INFO: processing CD200714.xml
-INFO: processing CD200624.xml
 INFO: processing CD200721.xml
 INFO: processing CD200722.xml
 INFO: processing CD200715.xml
 INFO: processing CD200729.xml
+INFO: processing CD200910.xml
 INFO: processing CD200908.xml
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 INFO: processing CD200909.xml
-INFO: processing CD200910.xml
-INFO: processing CD200916.xml
 INFO: processing CD200915.xml
+INFO: processing CD200916.xml
 INFO: processing CD200922.xml
-INFO: processing CD200923.xml
 INFO: processing CD200929.xml
+INFO: processing CD200923.xml
 INFO: processing CD200930.xml
 INFO: processing CD201001.xml
 INFO: processing CD201013.xml
@@ -395,22 +395,22 @@ WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
 WARN: Don't know what to do with institution/ni!
+INFO: processing CD201014.xml
+INFO: processing CD201015.xml
 INFO: processing CD201020.xml
 INFO: processing CD201022.xml
-INFO: processing CD201014.xml
 INFO: processing CD201021.xml
-INFO: processing CD201015.xml
-INFO: processing CD201027.xml
-INFO: processing CD201028.xml
 INFO: processing CD201029.xml
+INFO: processing CD201027.xml
 INFO: processing CD201111.xml
+INFO: processing CD201028.xml
 INFO: processing CD201112.xml
 INFO: processing CD201117.xml
 INFO: processing CD201118-bis.xml
 INFO: processing CD201118.xml
 INFO: processing CD201130.xml
-INFO: processing CD201203.xml
 INFO: processing CD201201.xml
+INFO: processing CD201203.xml
 INFO: processing CD201215.xml
 INFO: processing CD201202.xml
 #ls tmp/*-PM.xml | xargs -I % java -jar /usr/share/java/saxon.jar -xi -xsl:bin/copy.xsl % | java -jar /usr/share/java/jing.jar schemas/parla-clarin.rng 
@@ -1972,5 +1972,5 @@ INFO: Link checking for ParlaMint-ES_2020-12-15-CD201215.xml
 INFO ParlaMint-ES_2020-12-15-CD201215: Checking links in ParlaMint-ES_2020-12-15-CD201215.xml
 WARN: No root .ana. file found in /home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/ParlaMint
 make[1]: Leaving directory '/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC'
-5268.15user 489.77system 16:01.00elapsed 599%CPU (0avgtext+0avgdata 2565928maxresident)k
-0inputs+530584outputs (0major+60456469minor)pagefaults 0swaps
+5263.32user 503.82system 15:59.24elapsed 601%CPU (0avgtext+0avgdata 2717548maxresident)k
+0inputs+531328outputs (0major+61210890minor)pagefaults 0swaps
