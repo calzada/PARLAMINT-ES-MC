@@ -233,7 +233,10 @@
     <xsl:for-each select="$docs//tei:item">
       <xsl:message select="concat('INFO: ', tei:xi-orig, ' to ', tei:url-new)"/>
       <xsl:result-document href="{tei:url-new}">
-	<xsl:apply-templates mode="comp" select="document(tei:url-orig)/tei:TEI"/>
+	<xsl:variable name="pass1">
+	  <xsl:apply-templates mode="comp" select="document(tei:url-orig)/tei:TEI"/>
+	</xsl:variable>
+	<xsl:apply-templates mode="id-segs" select="$pass1"/>
       </xsl:result-document>
     </xsl:for-each>
     <!-- Output Root file -->
@@ -241,6 +244,28 @@
     <xsl:result-document href="{concat($outDir, '/ParlaMint-ES.xml')}">
       <xsl:apply-templates/>
     </xsl:result-document>
+  </xsl:template>
+
+  <!-- Give IDs to segments -->
+  <xsl:template mode="id-segs" match="tei:seg">
+    <xsl:copy>
+      <xsl:apply-templates mode="id-segs" select="@*"/>
+      <xsl:attribute name="xml:id">
+	<xsl:value-of select="parent::tei:u/@xml:id"/>
+	<xsl:text>.</xsl:text>
+	<xsl:number/>
+      </xsl:attribute>
+      <xsl:apply-templates mode="id-segs"/>
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template mode="id-segs" match="*">
+    <xsl:copy>
+      <xsl:apply-templates mode="id-segs" select="@*"/>
+      <xsl:apply-templates mode="id-segs"/>
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template mode="id-segs" match="@*">
+    <xsl:copy/>
   </xsl:template>
 
   <xsl:template mode="comp" match="*">
