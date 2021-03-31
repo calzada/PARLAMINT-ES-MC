@@ -1,0 +1,426 @@
+<term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="UD-SYN">
+               <desc xml:lang="en">
+                  <term>UD syntactic relations</term>
+               </desc>
+               <category xml:id="acl">
+                  <catDesc xml:lang="en">
+                     <term>acl</term>
+                  </catDesc>
+               </category>
+               <category xml:id="acl_relcl">
+                  <catDesc xml:lang="en">
+                     <term>acl:relcl</term>
+                  </catDesc>
+               </category>
+               <category xml:id="advcl">
+                  <catDesc xml:lang="en">
+                     <term>advcl</term>
+                  </catDesc>
+               </category>
+               <category xml:id="advcl_relcl">
+                  <catDesc xml:lang="en">
+                     <term>advcl:relcl</term>
+                  </catDesc>
+               </category>
+               <category xml:id="advmod">
+                  <catDesc xml:lang="en">
+                     <term>advmod</term>
+                  </catDesc>
+               </category>
+               <category xml:id="advmod_arg">
+                  <catDesc xml:lang="en">
+                     <term>advmod:arg</term>
+                  </catDesc>
+               </category>
+               <category xml:id="advmod_emph">
+                  <catDesc xml:lang="en">
+                     <term>advmod:emph</term>
+                  </catDesc>
+               </category>
+               <category xml:id="advmod_neg">
+                  <catDesc xml:lang="en">
+                     <term>advmod:neg</term>
+                  </catDesc>
+               </category>
+               <category xml:id="amod">
+                  <catDesc xml:lang="en">
+                     <term>amod</term>
+                  </catDesc>
+               </category>
+               <category xml:id="amod_flat">
+                  <catDesc xml:lang="en">
+                     <term>amod:flat</term>
+                  </catDesc>
+               </category>
+               <category xml:id="appos">
+                  <catDesc xml:lang="en">
+                     <term>appos</term>
+                  </catDesc>
+               </category>
+               <category xml:id="aux">
+                  <catDesc xml:lang="en">
+                     <term>aux</term>
+                  </catDesc>
+               </category>
+               <category xml:id="aux_clitic">
+                  <catDesc xml:lang="en">
+                     <term>aux:clitic</term>
+                  </catDesc>
+               </category>
+               <category xml:id="aux_cnd">
+                  <catDesc xml:lang="en">
+                     <term>aux:cnd</term>
+                  </catDesc>
+               </category>
+               <category xml:id="aux_imp">
+                  <catDesc xml:lang="en">
+                     <term>aux:imp</term>
+                  </catDesc>
+               </category>
+               <category xml:id="aux_pass">
+                  <catDesc xml:lang="en">
+                     <term>aux:pass</term>
+                  </catDesc>
+               </category>
+               <category xml:id="case">
+                  <catDesc xml:lang="en">
+                     <term>case</term>
+                  </catDesc>
+               </category>
+               <category xml:id="cc">
+                  <catDesc xml:lang="en">
+                     <term>cc</term>
+                  </catDesc>
+               </category>
+               <category xml:id="cc_preconj">
+                  <catDesc xml:lang="en">
+                     <term>cc:preconj</term>
+                  </catDesc>
+               </category>
+               <category xml:id="ccomp">
+                  <catDesc xml:lang="en">
+                     <term>ccomp</term>
+                  </catDesc>
+               </category>
+               <category xml:id="ccomp_obj">
+                  <catDesc xml:lang="en">
+                     <term>ccomp:obj</term>
+                  </catDesc>
+               </category>
+               <category xml:id="compound">
+                  <catDesc xml:lang="en">
+                     <term>compound</term>
+                  </catDesc>
+               </category>
+               <category xml:id="conj">
+                  <catDesc xml:lang="en">
+                     <term>conj</term>
+                  </catDesc>
+               </category>
+               <category xml:id="cop">
+                  <catDesc xml:lang="en">
+                     <term>cop</term>
+                  </catDesc>
+               </category>
+               <category xml:id="csubj">
+                  <catDesc xml:lang="en">
+                     <term>csubj</term>
+                  </catDesc>
+               </category>
+               <category xml:id="csubj_pass">
+                  <catDesc xml:lang="en">
+                     <term>csubj:pass</term>
+                  </catDesc>
+               </category>
+               <category xml:id="dep">
+                  <catDesc xml:lang="en">
+                     <term>dep</term>
+                  </catDesc>
+               </category>
+               <category xml:id="det">
+                  <catDesc xml:lang="en">
+                     <term>det</term>
+                  </catDesc>
+               </category>
+               <category xml:id="det_numgov">
+                  <catDesc xml:lang="en">
+                     <term>det:numgov</term>
+                  </catDesc>
+               </category>
+               <category xml:id="det_nummod">
+                  <catDesc xml:lang="en">
+                     <term>det:nummod</term>
+                  </catDesc>
+               </category>
+               <category xml:id="det_poss">
+                  <catDesc xml:lang="en">
+                     <term>det:poss</term>
+                  </catDesc>
+               </category>
+               <category xml:id="discourse">
+                  <catDesc xml:lang="en">
+                     <term>discourse</term>
+                  </catDesc>
+               </category>
+               <category xml:id="discourse_intj">
+                  <catDesc xml:lang="en">
+                     <term>discourse:intj</term>
+                  </catDesc>
+               </category>
+               <category xml:id="dislocated">
+                  <catDesc xml:lang="en">
+                     <term>dislocated</term>
+                  </catDesc>
+               </category>
+               <category xml:id="expl">
+                  <catDesc xml:lang="en">
+                     <term>expl</term>
+                  </catDesc>
+               </category>
+               <category xml:id="expl_pv">
+                  <catDesc xml:lang="en">
+                     <term>expl:pv</term>
+                  </catDesc>
+               </category>
+               <category xml:id="fixed">
+                  <catDesc xml:lang="en">
+                     <term>fixed</term>
+                  </catDesc>
+               </category>
+               <category xml:id="flat">
+                  <catDesc xml:lang="en">
+                     <term>flat</term>
+                  </catDesc>
+               </category>
+               <category xml:id="flat_foreign">
+                  <catDesc xml:lang="en">
+                     <term>flat:foreign</term>
+                  </catDesc>
+               </category>
+               <category xml:id="flat_name">
+                  <catDesc xml:lang="en">
+                     <term>flat:name</term>
+                  </catDesc>
+               </category>
+               <category xml:id="goeswith">
+                  <catDesc xml:lang="en">
+                     <term>goeswith</term>
+                  </catDesc>
+               </category>
+               <category xml:id="iobj">
+                  <catDesc xml:lang="en">
+                     <term>iobj</term>
+                  </catDesc>
+               </category>
+               <category xml:id="list">
+                  <catDesc xml:lang="en">
+                     <term>list</term>
+                  </catDesc>
+               </category>
+               <category xml:id="mark">
+                  <catDesc xml:lang="en">
+                     <term>mark</term>
+                  </catDesc>
+               </category>
+               <category xml:id="nmod">
+                  <catDesc xml:lang="en">
+                     <term>nmod</term>
+                  </catDesc>
+               </category>
+               <category xml:id="nmod_arg">
+                  <catDesc xml:lang="en">
+                     <term>nmod:arg</term>
+                  </catDesc>
+               </category>
+               <category xml:id="nmod_flat">
+                  <catDesc xml:lang="en">
+                     <term>nmod:flat</term>
+                  </catDesc>
+               </category>
+               <category xml:id="nmod_pred">
+                  <catDesc xml:lang="en">
+                     <term>nmod:pred</term>
+                  </catDesc>
+               </category>
+               <category xml:id="nsubj">
+                  <catDesc xml:lang="en">
+                     <term>nsubj</term>
+                  </catDesc>
+               </category>
+               <category xml:id="nsubj_pass">
+                  <catDesc xml:lang="en">
+                     <term>nsubj:pass</term>
+                  </catDesc>
+               </category>
+               <category xml:id="nummod">
+                  <catDesc xml:lang="en">
+                     <term>nummod</term>
+                  </catDesc>
+               </category>
+               <category xml:id="nummod_gov">
+                  <catDesc xml:lang="en">
+                     <term>nummod:gov</term>
+                  </catDesc>
+               </category>
+               <category xml:id="obj">
+                  <catDesc xml:lang="en">
+                     <term>obj</term>
+                  </catDesc>
+               </category>
+               <category xml:id="obl">
+                  <catDesc xml:lang="en">
+                     <term>obl</term>
+                  </catDesc>
+               </category>
+               <category xml:id="obl_agent">
+                  <catDesc xml:lang="en">
+                     <term>obl:agent</term>
+                  </catDesc>
+               </category>
+               <category xml:id="obl_arg">
+                  <catDesc xml:lang="en">
+                     <term>obl:arg</term>
+                  </catDesc>
+               </category>
+               <category xml:id="obl_cmpr">
+                  <catDesc xml:lang="en">
+                     <term>obl:cmpr</term>
+                  </catDesc>
+               </category>
+               <category xml:id="orphan">
+                  <catDesc xml:lang="en">
+                     <term>orphan</term>
+                  </catDesc>
+               </category>
+               <category xml:id="parataxis">
+                  <catDesc xml:lang="en">
+                     <term>parataxis</term>
+                  </catDesc>
+               </category>
+               <category xml:id="parataxis_insert">
+                  <catDesc xml:lang="en">
+                     <term>parataxis:insert</term>
+                  </catDesc>
+               </category>
+               <category xml:id="parataxis_obj">
+                  <catDesc xml:lang="en">
+                     <term>parataxis:obj</term>
+                  </catDesc>
+               </category>
+               <category xml:id="punct">
+                  <catDesc xml:lang="en">
+                     <term>punct</term>
+                  </catDesc>
+               </category>
+               <category xml:id="reparandum">
+                  <catDesc xml:lang="en">
+                     <term>reparandum</term>
+                  </catDesc>
+               </category>
+               <category xml:id="root">
+                  <catDesc xml:lang="en">
+                     <term>root</term>
+                  </catDesc>
+               </category>
+               <category xml:id="vocative">
+                  <catDesc xml:lang="en">
+                     <term>vocative</term>
+                  </catDesc>
+               </category>
+               <category xml:id="xcomp">
+                  <catDesc xml:lang="en">
+                     <term>xcomp</term>
+                  </catDesc>
+               </category>
+               <category xml:id="xcomp_pred">
+                  <catDesc xml:lang="en">
+                     <term>xcomp:pred</term>
+                  </catDesc>
+               </category>
+               <category xml:id="xcomp_subj">
+                  <catDesc xml:lang="en">
+                     <term>xcomp:subj</term>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="NER">
+               <desc xml:lang="pl">
+                  <term>Nazwy własne</term>
+               </desc>
+               <desc xml:lang="en">
+                  <term>Named entities</term>
+               </desc>
+               <category xml:id="PER">
+                  <catDesc xml:lang="pl">
+                     <term>osoba</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>person</term>
+                  </catDesc>
+               </category>
+               <category xml:id="LOC">
+                  <catDesc xml:lang="pl">
+                     <term>miejsce</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>location</term>
+                  </catDesc>
+               </category>
+               <category xml:id="ORG">
+                  <catDesc xml:lang="pl">
+                     <term>organizacja</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>organization</term>
+                  </catDesc>
+               </category>
+               <category xml:id="MISC">
+                  <catDesc xml:lang="pl">
+                     <term>inne</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>miscellaneous</term>
+                  </catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="pl">Prywatne URI z tym prefiksem wskazują na elementy po ich nazwie. W tym dokumencie są to lokalne odesłania do kategorii taksonomii UD-SYN w głównym nagłówku korpusu TEI.</p>
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <appInfo>
+            <application version="2.0" ident="app-morfeusz">
+               <label>Morfeusz</label>
+               <desc xml:lang="pl">
+                  <ref target="http://morfeusz.sgjp.pl">Morfeusz</ref>: analizator i generator fleksyjny.</desc>
+               <desc xml:lang="en">
+                  <ref target="http://morfeusz.sgjp.pl/en">Morfeusz</ref>: inflectional analyser and generator.</desc>
+            </application>
+            <application version="2.0" ident="app-concraft">
+               <label>Concraft</label>
+               <desc xml:lang="pl">
+                  <ref target="https://github.com/kawu/concraft-pl">Concraft</ref>: tagger morfosyntaktyczny dla języka polskiego oparty na warunkowych polach losowych.</desc>
+               <desc xml:lang="en">
+                  <ref target="https://github.com/kawu/concraft-pl">Concraft</ref>: morphosyntactic tagger for the Polish language based on conditional random fields.</desc>
+            </application>
+            <application version="2.0" ident="app-liner">
+               <label>Liner</label>
+               <desc xml:lang="pl">
+                  <ref target="https://github.com/CLARIN-PL/Liner2">Liner</ref>: narzędzie do rozpoznawania nazw, w tym nazw własnych i wyrażeń czasowych.</desc>
+               <desc xml:lang="en">
+                  <ref target="https://github.com/CLARIN-PL/Liner2">Liner</ref>: a framework for sequence labeling, including: named entities, temporal expressions.</desc>
+            </application>
+            <application version="1.0" ident="app-combo">
+               <label>COMBO</label>
+               <desc xml:lang="pl">
+                  <ref target="https://github.com/360er0/COMBO">Liner</ref>: tagger neuronowy, lematyzator i parser zależności zaimplementowany w Pythonie 3 przy użyciu biblioteki Keras.</desc>
+               <desc xml:lang="en">
+                  <ref target="https://github.com/360er0/COMBO">Liner</ref>: jointly trained neural tagger, lemmatizer and dependency parser implemented in python 3 using Keras framework.</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
