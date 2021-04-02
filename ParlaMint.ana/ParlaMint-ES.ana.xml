@@ -497,6 +497,10 @@
                      <term>csubj:pass</term>
                   </catDesc>
                </category>
+			   <category xml:id="dep">
+                  <catDesc xml:lang="en">
+                     <term>dep</term>: Dependent</catDesc>
+               </category>
                <category xml:id="det">
                   <catDesc xml:lang="en">
                      <term>det</term>: Determiner</catDesc>
@@ -508,6 +512,21 @@
                <category xml:id="expl">
                   <catDesc xml:lang="en">
                      <term>expl</term>: Expletive</catDesc>
+               </category>
+			   <category xml:id="expl_impers">
+                  <catDesc xml:lang="en">
+                     <term>expl:impers</term>
+				  </catDesc>
+               </category>
+			   <category xml:id="expl_pass">
+                  <catDesc xml:lang="en">
+                     <term>expl:pass</term>
+				  </catDesc>
+               </category>
+			   <category xml:id="expl_pv">
+                  <catDesc xml:lang="en">
+                     <term>expl:pv</term>
+				  </catDesc>
                </category>
                <category xml:id="fixed">
                   <catDesc xml:lang="en">
@@ -525,6 +544,10 @@
                <category xml:id="iobj">
                   <catDesc xml:lang="en">
                      <term>iobj</term>: Indirect object</catDesc>
+               </category>
+			   <category xml:id="list">
+                  <catDesc xml:lang="en">
+                     <term>list</term>: list</catDesc>
                </category>
                <category xml:id="mark">
                   <catDesc xml:lang="en">
@@ -607,8 +630,6 @@
             </application>
          </appInfo>
       </encodingDesc>
-         
-      
       <profileDesc>
          <settingDesc>
             <setting>
