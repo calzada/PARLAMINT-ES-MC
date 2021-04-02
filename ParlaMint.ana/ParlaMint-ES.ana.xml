@@ -439,8 +439,7 @@
                </category>
                <category xml:id="acl_relcl">
                   <catDesc xml:lang="en">
-                     <term>acl:relcl</term>
-                  </catDesc>
+                     <term>acl:relcl</term>: Relative clause modifier</catDesc>
                </category>
                <category xml:id="advcl">
                   <catDesc xml:lang="en">
@@ -464,8 +463,7 @@
                </category>
                <category xml:id="aux_pass">
                   <catDesc xml:lang="en">
-                     <term>aux:pass</term>
-                  </catDesc>
+                     <term>aux:pass</term>: Passive auxiliary</catDesc>
                </category>
                <category xml:id="case">
                   <catDesc xml:lang="en">
@@ -479,10 +477,17 @@
                   <catDesc xml:lang="en">
                      <term>ccomp</term>: Clausal complement</catDesc>
                </category>
+			   <category xml:id="cc_preconj">
+                  <catDesc>
+                     <term>cc:preconj</term>: Preconjunct</catDesc>
+               </category>
                <category xml:id="compound">
                   <catDesc xml:lang="en">
-                     <term>compound</term>
-                  </catDesc>
+                     <term>compound</term>: Compound</catDesc>
+               </category>
+			   <category xml:id="compound_prt">
+                  <catDesc>
+                     <term>compound:prt</term>: Phrasal verb particle</catDesc>
                </category>
                <category xml:id="conj">
                   <catDesc xml:lang="en">
@@ -498,16 +503,23 @@
                </category>
                <category xml:id="csubj_pass">
                   <catDesc xml:lang="en">
-                     <term>csubj:pass</term>
-                  </catDesc>
+                     <term>csubj:pass</term>: Clausal passive subject</catDesc>
                </category>
 			   <category xml:id="dep">
                   <catDesc xml:lang="en">
-                     <term>dep</term>: Dependent</catDesc>
+                     <term>dep</term>: Unspecified dependency</catDesc>
                </category>
                <category xml:id="det">
                   <catDesc xml:lang="en">
                      <term>det</term>: Determiner</catDesc>
+               </category>
+			   <category xml:id="det_predet">
+                  <catDesc>
+                     <term>det:predet</term>: Predeterminer</catDesc>
+               </category>
+			   <category xml:id="det_qmod">
+                  <catDesc>
+                     <term>det:qmod</term>: Special relation quantificational modifier</catDesc>
                </category>
                <category xml:id="discourse">
                   <catDesc xml:lang="en">
@@ -519,18 +531,15 @@
                </category>
 			   <category xml:id="expl_impers">
                   <catDesc xml:lang="en">
-                     <term>expl:impers</term>
-				  </catDesc>
+                     <term>expl:impers</term>: Expletive impersonal</catDesc>
                </category>
 			   <category xml:id="expl_pass">
                   <catDesc xml:lang="en">
-                     <term>expl:pass</term>
-				  </catDesc>
+                     <term>expl:pass</term>: Expletive passive</catDesc>
                </category>
 			   <category xml:id="expl_pv">
                   <catDesc xml:lang="en">
-                     <term>expl:pv</term>
-				  </catDesc>
+                     <term>expl:pv</term>: Reflexive clitic with an inherently reflexive verb</catDesc>
                </category>
                <category xml:id="fixed">
                   <catDesc xml:lang="en">
@@ -545,13 +554,17 @@
                      <term>goeswith</term>
                   </catDesc>
                </category>
+			   <category xml:id="flat_name">
+                  <catDesc>
+                     <term>flat:name</term>: Flat name</catDesc>
+               </category>
                <category xml:id="iobj">
                   <catDesc xml:lang="en">
                      <term>iobj</term>: Indirect object</catDesc>
                </category>
 			   <category xml:id="list">
                   <catDesc xml:lang="en">
-                     <term>list</term>: list</catDesc>
+                     <term>list</term>: List</catDesc>
                </category>
                <category xml:id="mark">
                   <catDesc xml:lang="en">
@@ -561,14 +574,25 @@
                   <catDesc xml:lang="en">
                      <term>nmod</term>: Nominal modifier</catDesc>
                </category>
+			   <category xml:id="nmod_poss">
+                  <catDesc>
+                     <term>nmod:poss</term>: Possessive nominal modifier</catDesc>
+               </category>
                <category xml:id="nsubj">
                   <catDesc xml:lang="en">
                      <term>nsubj</term>: Nominal subject</catDesc>
                </category>
                <category xml:id="nsubj_pass">
                   <catDesc xml:lang="en">
-                     <term>nsubj:pass</term>
-                  </catDesc>
+                     <term>nsubj:pass</term>: Passive nominal subject</catDesc>
+               </category>
+			   <category xml:id="nsubj_xsubj">
+                  <catDesc>
+                     <term>nsubj:xsubj</term>: Controlling subject (enhanced dependency)</catDesc>
+               </category>
+               <category xml:id="nsubj_pass_xsubj">
+                  <catDesc>
+                     <term>nsubj:pass:xsubj</term>: Controlling passive subject (enhanced dependency)</catDesc>
                </category>
                <category xml:id="nummod">
                   <catDesc xml:lang="en">
@@ -582,10 +606,21 @@
                   <catDesc xml:lang="en">
                      <term>obl</term>: Oblique nominal</catDesc>
                </category>
+			   <category xml:id="obl_agent">
+                  <catDesc>
+                     <term>obl:agent</term>: Agent modifier</catDesc>
+               </category>
+               <category xml:id="obl_npmod">
+                  <catDesc>
+                     <term>obl</term>: Oblique nominal noun phrase modifier</catDesc>
+               </category>
+               <category xml:id="obl_tmod">
+                  <catDesc>
+                     <term>obl:tmod</term>: Temporal modifier</catDesc>
+               </category>
                <category xml:id="orphan">
                   <catDesc xml:lang="en">
-                     <term>orphan</term>
-                  </catDesc>
+                     <term>orphan</term>: Orphan-to-orphan relation in gapping</catDesc>
                </category>
                <category xml:id="parataxis">
                   <catDesc xml:lang="en">
@@ -594,6 +629,10 @@
                <category xml:id="punct">
                   <catDesc xml:lang="en">
                      <term>punct</term>: Punctuation</catDesc>
+               </category>
+			   <category xml:id="ref">
+                  <catDesc>
+                     <term>ref</term>: Relative clause (enhanced dependency)</catDesc>
                </category>
                <category xml:id="reparandum">
                   <catDesc xml:lang="en">
@@ -605,8 +644,7 @@
                </category>
                <category xml:id="vocative">
                   <catDesc xml:lang="en">
-                     <term>vocative</term>
-                  </catDesc>
+                     <term>vocative</term>: Vocative</catDesc>
                </category>
                <category xml:id="xcomp">
                   <catDesc xml:lang="en">
