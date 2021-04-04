@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" xml:id="ParlaMint-ES">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" xml:id="ParlaMint-ES.ana">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES [ParlaMint]</title>
-            <title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES [ParlaMint]</title>
+            <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES [ParlaMint.ana]</title>
+            <title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES [ParlaMint.ana]</title>
             <title type="sub" xml:lang="es">Actas del Congreso de los Diputados de España, legislaturas XI-XII (2015 - 2020)</title>
             <title type="sub" xml:lang="en">Minutes from the National Congress in Spain, terms 10-14 (2015 - 2020)</title>
             <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Term 10</meeting>
@@ -48,13 +48,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-03-20">March 20, 2021</date>
+            <date when="2021-04-04">April 4th, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -405,251 +405,251 @@
                </category>
             </taxonomy>
             <taxonomy xml:id="NER">
-               <desc xml:lang="en">
-                  <term>Named entities</term>
-               </desc>
-               <category xml:id="PER">
-                  <catDesc xml:lang="en">
-                     <term>person</term>
-                  </catDesc>
-               </category>
-               <category xml:id="LOC">
-                  <catDesc xml:lang="en">
-                     <term>location</term>
-                  </catDesc>
-               </category>
-               <category xml:id="ORG">
-                  <catDesc xml:lang="en">
-                     <term>organization</term>
-                  </catDesc>
-               </category>
-               <category xml:id="MISC">
-                  <catDesc xml:lang="en">
-                     <term>miscellaneous</term>
-                  </catDesc>
-               </category>
+              <desc xml:lang="en">
+                <term>Named entities</term>
+              </desc>
+              <category xml:id="PER">
+                <catDesc xml:lang="en">
+                  <term>person</term>
+                </catDesc>
+              </category>
+              <category xml:id="LOC">
+                <catDesc xml:lang="en">
+                  <term>location</term>
+                </catDesc>
+              </category>
+              <category xml:id="ORG">
+                <catDesc xml:lang="en">
+                  <term>organization</term>
+                </catDesc>
+              </category>
+              <category xml:id="MISC">
+                <catDesc xml:lang="en">
+                  <term>miscellaneous</term>
+                </catDesc>
+              </category>
             </taxonomy>
             <taxonomy xml:id="UD-SYN">
-               <desc xml:lang="en">
-                  <term>UD syntactic relations</term>
-               </desc>
-               <category xml:id="acl">
-                  <catDesc xml:lang="en">
-                     <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
-               </category>
-               <category xml:id="acl_relcl">
-                  <catDesc xml:lang="en">
-                     <term>acl:relcl</term>: Relative clause modifier</catDesc>
-               </category>
-               <category xml:id="advcl">
-                  <catDesc xml:lang="en">
-                     <term>advcl</term>: Adverbial clause modifier</catDesc>
-               </category>
-               <category xml:id="advmod">
-                  <catDesc xml:lang="en">
-                     <term>advmod</term>: Adverbial modifier</catDesc>
-               </category>
-               <category xml:id="amod">
-                  <catDesc xml:lang="en">
-                     <term>amod</term>: Adjectival modifier</catDesc>
-               </category>
-               <category xml:id="appos">
-                  <catDesc xml:lang="en">
-                     <term>appos</term>: Appositional modifier</catDesc>
-               </category>
-               <category xml:id="aux">
-                  <catDesc xml:lang="en">
-                     <term>aux</term>: Auxiliary</catDesc>
-               </category>
-               <category xml:id="aux_pass">
-                  <catDesc xml:lang="en">
-                     <term>aux:pass</term>: Passive auxiliary</catDesc>
-               </category>
-               <category xml:id="case">
-                  <catDesc xml:lang="en">
-                     <term>case</term>: Case marking</catDesc>
-               </category>
-               <category xml:id="cc">
-                  <catDesc xml:lang="en">
-                     <term>cc</term>: Coordinating conjunction</catDesc>
-               </category>
-               <category xml:id="ccomp">
-                  <catDesc xml:lang="en">
-                     <term>ccomp</term>: Clausal complement</catDesc>
-               </category>
-			   <category xml:id="cc_preconj">
-                  <catDesc>
-                     <term>cc:preconj</term>: Preconjunct</catDesc>
-               </category>
-               <category xml:id="compound">
-                  <catDesc xml:lang="en">
-                     <term>compound</term>: Compound</catDesc>
-               </category>
-			   <category xml:id="compound_prt">
-                  <catDesc>
-                     <term>compound:prt</term>: Phrasal verb particle</catDesc>
-               </category>
-               <category xml:id="conj">
-                  <catDesc xml:lang="en">
-                     <term>conj</term>: Conjunct</catDesc>
-               </category>
-               <category xml:id="cop">
-                  <catDesc xml:lang="en">
-                     <term>cop</term>: Copula</catDesc>
-               </category>
-               <category xml:id="csubj">
-                  <catDesc xml:lang="en">
-                     <term>csubj</term>: Clausal subject</catDesc>
-               </category>
-               <category xml:id="csubj_pass">
-                  <catDesc xml:lang="en">
-                     <term>csubj:pass</term>: Clausal passive subject</catDesc>
-               </category>
-			   <category xml:id="dep">
-                  <catDesc xml:lang="en">
-                     <term>dep</term>: Unspecified dependency</catDesc>
-               </category>
-               <category xml:id="det">
-                  <catDesc xml:lang="en">
-                     <term>det</term>: Determiner</catDesc>
-               </category>
-			   <category xml:id="det_predet">
-                  <catDesc>
-                     <term>det:predet</term>: Predeterminer</catDesc>
-               </category>
-			   <category xml:id="det_qmod">
-                  <catDesc>
-                     <term>det:qmod</term>: Special relation quantificational modifier</catDesc>
-               </category>
-               <category xml:id="discourse">
-                  <catDesc xml:lang="en">
-                     <term>discourse</term>: Discourse element</catDesc>
-               </category>
-               <category xml:id="expl">
-                  <catDesc xml:lang="en">
-                     <term>expl</term>: Expletive</catDesc>
-               </category>
-			   <category xml:id="expl_impers">
-                  <catDesc xml:lang="en">
-                     <term>expl:impers</term>: Expletive impersonal</catDesc>
-               </category>
-			   <category xml:id="expl_pass">
-                  <catDesc xml:lang="en">
-                     <term>expl:pass</term>: Expletive passive</catDesc>
-               </category>
-			   <category xml:id="expl_pv">
-                  <catDesc xml:lang="en">
-                     <term>expl:pv</term>: Reflexive clitic with an inherently reflexive verb</catDesc>
-               </category>
-               <category xml:id="fixed">
-                  <catDesc xml:lang="en">
-                     <term>fixed</term>: Fixed multiword expression</catDesc>
-               </category>
-               <category xml:id="flat">
-                  <catDesc xml:lang="en">
-                     <term>flat</term>: Flat multiword expression</catDesc>
-               </category>
-               <category xml:id="goeswith">
-                  <catDesc xml:lang="en">
-                     <term>goeswith</term>
-                  </catDesc>
-               </category>
-			   <category xml:id="flat_name">
-                  <catDesc>
-                     <term>flat:name</term>: Flat name</catDesc>
-               </category>
-               <category xml:id="iobj">
-                  <catDesc xml:lang="en">
-                     <term>iobj</term>: Indirect object</catDesc>
-               </category>
-			   <category xml:id="list">
-                  <catDesc xml:lang="en">
-                     <term>list</term>: List</catDesc>
-               </category>
-               <category xml:id="mark">
-                  <catDesc xml:lang="en">
-                     <term>mark</term>: Marker</catDesc>
-               </category>
-               <category xml:id="nmod">
-                  <catDesc xml:lang="en">
-                     <term>nmod</term>: Nominal modifier</catDesc>
-               </category>
-			   <category xml:id="nmod_poss">
-                  <catDesc>
-                     <term>nmod:poss</term>: Possessive nominal modifier</catDesc>
-               </category>
-               <category xml:id="nsubj">
-                  <catDesc xml:lang="en">
-                     <term>nsubj</term>: Nominal subject</catDesc>
-               </category>
-               <category xml:id="nsubj_pass">
-                  <catDesc xml:lang="en">
-                     <term>nsubj:pass</term>: Passive nominal subject</catDesc>
-               </category>
-			   <category xml:id="nsubj_xsubj">
-                  <catDesc>
-                     <term>nsubj:xsubj</term>: Controlling subject (enhanced dependency)</catDesc>
-               </category>
-               <category xml:id="nsubj_pass_xsubj">
-                  <catDesc>
-                     <term>nsubj:pass:xsubj</term>: Controlling passive subject (enhanced dependency)</catDesc>
-               </category>
-               <category xml:id="nummod">
-                  <catDesc xml:lang="en">
-                     <term>nummod</term>: Numeric modifier</catDesc>
-               </category>
-               <category xml:id="obj">
-                  <catDesc xml:lang="en">
-                     <term>obj</term>: Object</catDesc>
-               </category>
-               <category xml:id="obl">
-                  <catDesc xml:lang="en">
-                     <term>obl</term>: Oblique nominal</catDesc>
-               </category>
-			   <category xml:id="obl_agent">
-                  <catDesc>
-                     <term>obl:agent</term>: Agent modifier</catDesc>
-               </category>
-               <category xml:id="obl_npmod">
-                  <catDesc>
-                     <term>obl</term>: Oblique nominal noun phrase modifier</catDesc>
-               </category>
-               <category xml:id="obl_tmod">
-                  <catDesc>
-                     <term>obl:tmod</term>: Temporal modifier</catDesc>
-               </category>
-               <category xml:id="orphan">
-                  <catDesc xml:lang="en">
-                     <term>orphan</term>: Orphan-to-orphan relation in gapping</catDesc>
-               </category>
-               <category xml:id="parataxis">
-                  <catDesc xml:lang="en">
-                     <term>parataxis</term>: Parataxis</catDesc>
-               </category>
-               <category xml:id="punct">
-                  <catDesc xml:lang="en">
-                     <term>punct</term>: Punctuation</catDesc>
-               </category>
-			   <category xml:id="ref">
-                  <catDesc>
-                     <term>ref</term>: Relative clause (enhanced dependency)</catDesc>
-               </category>
-               <category xml:id="reparandum">
-                  <catDesc xml:lang="en">
-                     <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
-               </category>
-               <category xml:id="root">
-                  <catDesc xml:lang="en">
-                     <term>root</term>: Root</catDesc>
-               </category>
-               <category xml:id="vocative">
-                  <catDesc xml:lang="en">
-                     <term>vocative</term>: Vocative</catDesc>
-               </category>
-               <category xml:id="xcomp">
-                  <catDesc xml:lang="en">
-                     <term>xcomp</term>: Open clausal complement</catDesc>
-               </category>
+              <desc xml:lang="en">
+                <term>UD syntactic relations</term>
+              </desc>
+              <category xml:id="acl">
+                <catDesc xml:lang="en">
+                <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
+              </category>
+              <category xml:id="acl_relcl">
+                <catDesc xml:lang="en">
+                <term>acl:relcl</term>: Relative clause modifier</catDesc>
+              </category>
+              <category xml:id="advcl">
+                <catDesc xml:lang="en">
+                <term>advcl</term>: Adverbial clause modifier</catDesc>
+              </category>
+              <category xml:id="advmod">
+                <catDesc xml:lang="en">
+                <term>advmod</term>: Adverbial modifier</catDesc>
+              </category>
+              <category xml:id="amod">
+                <catDesc xml:lang="en">
+                <term>amod</term>: Adjectival modifier</catDesc>
+              </category>
+              <category xml:id="appos">
+                <catDesc xml:lang="en">
+                <term>appos</term>: Appositional modifier</catDesc>
+              </category>
+              <category xml:id="aux">
+                <catDesc xml:lang="en">
+                <term>aux</term>: Auxiliary</catDesc>
+              </category>
+              <category xml:id="aux_pass">
+                <catDesc xml:lang="en">
+                <term>aux:pass</term>: Passive auxiliary</catDesc>
+              </category>
+              <category xml:id="case">
+                <catDesc xml:lang="en">
+                <term>case</term>: Case marking</catDesc>
+              </category>
+              <category xml:id="cc">
+                <catDesc xml:lang="en">
+                <term>cc</term>: Coordinating conjunction</catDesc>
+              </category>
+              <category xml:id="ccomp">
+                <catDesc xml:lang="en">
+                <term>ccomp</term>: Clausal complement</catDesc>
+              </category>
+	      <category xml:id="cc_preconj">
+                <catDesc>
+                <term>cc:preconj</term>: Preconjunct</catDesc>
+              </category>
+              <category xml:id="compound">
+                <catDesc xml:lang="en">
+                <term>compound</term>: Compound</catDesc>
+              </category>
+	      <category xml:id="compound_prt">
+                <catDesc>
+                <term>compound:prt</term>: Phrasal verb particle</catDesc>
+              </category>
+              <category xml:id="conj">
+                <catDesc xml:lang="en">
+                <term>conj</term>: Conjunct</catDesc>
+              </category>
+              <category xml:id="cop">
+                <catDesc xml:lang="en">
+                <term>cop</term>: Copula</catDesc>
+              </category>
+              <category xml:id="csubj">
+                <catDesc xml:lang="en">
+                <term>csubj</term>: Clausal subject</catDesc>
+              </category>
+              <category xml:id="csubj_pass">
+                <catDesc xml:lang="en">
+                <term>csubj:pass</term>: Clausal passive subject</catDesc>
+              </category>
+	      <category xml:id="dep">
+                <catDesc xml:lang="en">
+                <term>dep</term>: Unspecified dependency</catDesc>
+              </category>
+              <category xml:id="det">
+                <catDesc xml:lang="en">
+                <term>det</term>: Determiner</catDesc>
+              </category>
+	      <category xml:id="det_predet">
+                <catDesc>
+                <term>det:predet</term>: Predeterminer</catDesc>
+              </category>
+	      <category xml:id="det_qmod">
+                <catDesc>
+                <term>det:qmod</term>: Special relation quantificational modifier</catDesc>
+              </category>
+              <category xml:id="discourse">
+                <catDesc xml:lang="en">
+                <term>discourse</term>: Discourse element</catDesc>
+              </category>
+              <category xml:id="expl">
+                <catDesc xml:lang="en">
+                <term>expl</term>: Expletive</catDesc>
+              </category>
+	      <category xml:id="expl_impers">
+                <catDesc xml:lang="en">
+                <term>expl:impers</term>: Expletive impersonal</catDesc>
+              </category>
+	      <category xml:id="expl_pass">
+                <catDesc xml:lang="en">
+                <term>expl:pass</term>: Expletive passive</catDesc>
+              </category>
+	      <category xml:id="expl_pv">
+                <catDesc xml:lang="en">
+                <term>expl:pv</term>: Reflexive clitic with an inherently reflexive verb</catDesc>
+              </category>
+              <category xml:id="fixed">
+                <catDesc xml:lang="en">
+                <term>fixed</term>: Fixed multiword expression</catDesc>
+              </category>
+              <category xml:id="flat">
+                <catDesc xml:lang="en">
+                <term>flat</term>: Flat multiword expression</catDesc>
+              </category>
+              <category xml:id="goeswith">
+                <catDesc xml:lang="en">
+                  <term>goeswith</term>
+                </catDesc>
+              </category>
+	      <category xml:id="flat_name">
+                <catDesc>
+                <term>flat:name</term>: Flat name</catDesc>
+              </category>
+              <category xml:id="iobj">
+                <catDesc xml:lang="en">
+                <term>iobj</term>: Indirect object</catDesc>
+              </category>
+	      <category xml:id="list">
+                <catDesc xml:lang="en">
+                <term>list</term>: List</catDesc>
+              </category>
+              <category xml:id="mark">
+                <catDesc xml:lang="en">
+                <term>mark</term>: Marker</catDesc>
+              </category>
+              <category xml:id="nmod">
+                <catDesc xml:lang="en">
+                <term>nmod</term>: Nominal modifier</catDesc>
+              </category>
+	      <category xml:id="nmod_poss">
+                <catDesc>
+                <term>nmod:poss</term>: Possessive nominal modifier</catDesc>
+              </category>
+              <category xml:id="nsubj">
+                <catDesc xml:lang="en">
+                <term>nsubj</term>: Nominal subject</catDesc>
+              </category>
+              <category xml:id="nsubj_pass">
+                <catDesc xml:lang="en">
+                <term>nsubj:pass</term>: Passive nominal subject</catDesc>
+              </category>
+	      <category xml:id="nsubj_xsubj">
+                <catDesc>
+                <term>nsubj:xsubj</term>: Controlling subject (enhanced dependency)</catDesc>
+              </category>
+              <category xml:id="nsubj_pass_xsubj">
+                <catDesc>
+                <term>nsubj:pass:xsubj</term>: Controlling passive subject (enhanced dependency)</catDesc>
+              </category>
+              <category xml:id="nummod">
+                <catDesc xml:lang="en">
+                <term>nummod</term>: Numeric modifier</catDesc>
+              </category>
+              <category xml:id="obj">
+                <catDesc xml:lang="en">
+                <term>obj</term>: Object</catDesc>
+              </category>
+              <category xml:id="obl">
+                <catDesc xml:lang="en">
+                <term>obl</term>: Oblique nominal</catDesc>
+              </category>
+	      <category xml:id="obl_agent">
+                <catDesc>
+                <term>obl:agent</term>: Agent modifier</catDesc>
+              </category>
+              <category xml:id="obl_npmod">
+                <catDesc>
+                <term>obl</term>: Oblique nominal noun phrase modifier</catDesc>
+              </category>
+              <category xml:id="obl_tmod">
+                <catDesc>
+                <term>obl:tmod</term>: Temporal modifier</catDesc>
+              </category>
+              <category xml:id="orphan">
+                <catDesc xml:lang="en">
+                <term>orphan</term>: Orphan-to-orphan relation in gapping</catDesc>
+              </category>
+              <category xml:id="parataxis">
+                <catDesc xml:lang="en">
+                <term>parataxis</term>: Parataxis</catDesc>
+              </category>
+              <category xml:id="punct">
+                <catDesc xml:lang="en">
+                <term>punct</term>: Punctuation</catDesc>
+              </category>
+	      <category xml:id="ref">
+                <catDesc>
+                <term>ref</term>: Relative clause (enhanced dependency)</catDesc>
+              </category>
+              <category xml:id="reparandum">
+                <catDesc xml:lang="en">
+                <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
+              </category>
+              <category xml:id="root">
+                <catDesc xml:lang="en">
+                <term>root</term>: Root</catDesc>
+              </category>
+              <category xml:id="vocative">
+                <catDesc xml:lang="en">
+                <term>vocative</term>: Vocative</catDesc>
+              </category>
+              <category xml:id="xcomp">
+                <catDesc xml:lang="en">
+                <term>xcomp</term>: Open clausal complement</catDesc>
+              </category>
             </taxonomy>
          </classDecl>
          <listPrefixDef>
@@ -660,11 +660,7 @@
          <appInfo>
             <application ident="stanza">
                <label>Stanza</label>
-               <desc xml:lang="en">Tokenisation, POS tagging, NER and dependency parsed using Stanza, a Python NLP language analysis package <ref target="https://stanfordnlp.github.io/stanza/">https://stanfordnlp.github.io/stanza/</ref>.</desc>
-            </application>
-            <application ident="UD_Spanish-AnCora">
-               <label>UD Spanish AnCora</label>
-               <desc xml:lang="en">For UD, the Spanish AnCora Treebank was used <ref target="https://github.com/UniversalDependencies/UD_Spanish-AnCora">https://github.com/UniversalDependencies/UD_Spanish-AnCora</ref>.</desc>
+               <desc xml:lang="en">Tokenisation, POS tagging, NER and dependency parsed using Stanza, a Python NLP language analysis package <ref target="https://stanfordnlp.github.io/stanza/">https://stanfordnlp.github.io/stanza/</ref>. UD parsing was trained on the Spanish AnCora Treebank <ref target="https://github.com/UniversalDependencies/UD_Spanish-AnCora">https://github.com/UniversalDependencies/UD_Spanish-AnCora</ref>.</desc>
             </application>
          </appInfo>
       </encodingDesc>
@@ -11220,619 +11216,5 @@
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-01-20-CD150120.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-01-21-CD150121.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-02-10-CD150210.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-02-11-CD150211.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-02-12-CD150212.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-02-17-CD150217.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-02-18-CD150218.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-02-19-CD150219.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-02-24-CD150224.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-02-25-CD150225.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-02-26-CD150226.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-03-10-CD150310.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-03-11-CD150311.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-03-12-CD150312.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-03-24-CD150324.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-03-26-CD150326.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-04-14-CD150414.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-04-15-CD150415.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-04-16-CD150416.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-04-21-CD150421.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-04-22-CD150422.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-04-23-CD150423.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-04-28-CD150428.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-04-29-CD150429.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-04-30-CD150430.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-05-12-CD150512.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-05-13-CD150513.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-05-14-CD150514.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-05-26-CD150526.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-05-27-CD150527.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-05-28-CD150528.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-06-09-CD150609.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-06-10-CD150610.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-06-11-CD150611.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-06-16-CD150616.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-06-17-CD150617.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-06-18-CD150618.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-06-23-CD150623.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-06-24-CD150624.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-06-25-CD150625.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-07-07-CD150707.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-07-08-CD150708.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-07-15-CD150715.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-07-16-CD150716.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-08-18-CD150818.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-08-25-CD150825.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-08-26-CD150826.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-09-14-CD150914.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-09-15-CD150915.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-09-16-CD150916.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-09-29-CD150929.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-09-30-CD150930.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-10-01-CD151001.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-10-13-CD151013.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-10-14-CD151014.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-10-20-CD151020.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-10-21-CD151021.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-01-13-CD160113.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-03-02-CD160302.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-03-04-CD160304.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-03-15-CD160315.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-04-05-CD160405.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-04-06-CD160406.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-04-12-CD160412.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-04-13-CD160413.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-04-19-CD160419.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-04-20-CD160420.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-04-27-CD160427.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-04-28-CD160428.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-07-19-CD160719.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-08-30-CD160830.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-08-31-CD160831.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-09-02-CD160902.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-09-27-CD160927.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-10-04-CD161004.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-10-18-CD161018.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-10-20-CD161020.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-10-26-CD161026.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-10-27-CD161027.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-10-29-CD161029.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-11-15-CD161115.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-11-22-CD161122.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-11-23-CD161123.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-11-29-CD161129.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-11-30-CD161130.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-12-13-CD161213.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-12-14-CD161214.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-12-15-CD161215.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-12-20-CD161220.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2016-12-21-CD161221.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-01-31-CD170131.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-02-01-CD170201.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-02-02-CD170202.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-02-14-CD170214.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-02-15-CD170215.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-02-16-CD170216.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-02-21-CD170221.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-02-22-CD170222.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-03-07-CD170307.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-03-08-CD170308.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-03-09-CD170309.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-03-14-CD170314.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-03-15-CD170315.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-03-16-CD170316.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-03-21-CD170321.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-03-22-CD170322.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-03-28-CD170328.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-03-29-CD170329.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-03-30-CD170330.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-04-04-CD170404.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-04-05-CD170405.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-04-06-CD170406.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-05-03-CD170503.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-05-04-CD170504.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-05-09-CD170509.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-05-10-CD170510.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-05-11-CD170511.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-05-16-CD170516.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-05-17-CD170517.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-05-18-CD170518.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-05-29-CD170529.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-06-21-CD170621.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-06-27-CD170627.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-06-29-CD170629.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-07-11-CD170711.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-07-12-CD170712.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-08-30-CD170830.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-09-12-CD170912.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-09-13-CD170913.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-09-19-CD170919.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-09-20-CD170920.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-09-21-CD170921.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-09-26-CD170926.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-09-27-CD170927.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-09-28-CD170928.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-10-10-CD171010.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-10-11-CD171011.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-10-17-CD171017.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-10-18-CD171018.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-10-19-CD171019.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-10-24-CD171024.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-10-25-CD171025.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-11-07-CD171107.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-11-08-CD171108.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-11-14-CD171114.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-11-15-CD171115.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-11-21-CD171121.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-11-22-CD171122.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-11-23-CD171123.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-11-28-CD171128.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-11-29-CD171129.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-11-30-CD171130.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-12-12-CD171212.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-12-13-CD171213.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-02-06-CD180206.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-02-07-CD180207.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-02-13-CD180213.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-02-14-CD180214.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-02-15-CD180215.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-02-20-CD180220.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-02-21-CD180221.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-02-22-CD180222.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-03-13-CD180313.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-03-14-CD180314.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-03-15-CD180315.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-03-20-CD180320.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-03-21-CD180321.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-04-10-CD180410.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-04-11-CD180411.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-04-12-CD180412.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-04-25-CD180425.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-04-26-CD180426.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-05-08-CD180508.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-05-09-CD180509.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-05-10-CD180510.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-05-21-CD180521.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-05-22-CD180522.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-05-23-CD180523.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-05-29-CD180529.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-05-30-CD180530.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-05-31-CD180531.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-06-01-CD180601.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-06-12-CD180612.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-06-19-CD180619.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-06-20-CD180620.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-06-26-CD180626.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-06-27-CD180627.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-06-28-CD180628.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-07-02-CD180702.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-07-04-CD180704.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-07-10-CD180710.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-07-16-CD180716.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-07-17-CD180717.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-07-25-CD180725.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-07-27-CD180727.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-09-06-CD180906.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-09-11-CD180911.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-09-12-CD180912.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-09-13-CD180913.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-09-18-CD180918.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-09-19-CD180919.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-09-20-CD180920.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-09-25-CD180925.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-09-26-CD180926.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-10-09-CD181009.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-10-10-CD181010.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-10-16-CD181016.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-10-17-CD181017.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-10-18-CD181018.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-10-23-CD181023.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-10-24-CD181024.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-10-25-CD181025.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-10-30-CD181030.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-11-13-CD181113.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-11-14-CD181114.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-11-15-CD181115.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-11-20-CD181120.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-11-21-CD181121.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-11-22-CD181122.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-12-11-CD181211.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-12-12-CD181212.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-12-13-CD181213.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-12-18-CD181218.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-12-19-CD181219.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-12-20-CD181220.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-01-22-CD190122.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-02-12-CD190212.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-02-13-CD190213.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-02-19-CD190219.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-02-20-CD190220.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-02-21-CD190221.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-02-26-CD190226.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-02-27-CD190227.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-02-28-CD190228.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-05-21-CD190521.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-07-22-CD190722.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-07-23-CD190723.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-07-25-CD190725.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-09-10-CD190910.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-09-11-CD190911.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-09-17-CD190917.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-09-18-CD190918.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-12-03-CD191203.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-01-04-CD200104.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-01-05-CD200105.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-01-07-CD200107.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-02-04-CD200204.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-02-11-CD200211.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-02-12-CD200212.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-02-18-CD200218.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-02-19-CD200219.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-02-20-CD200220.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-02-25-CD200225.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-02-26-CD200226.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-02-27-CD200227.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-03-18-CD200318.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-03-25-CD200325.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-04-09-CD200409.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-04-15-CD200415.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-04-22-CD200422.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-04-29-CD200429.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-05-06-CD200506.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-05-13-CD200513.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-05-20-CD200520.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-05-27-CD200527.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-06-03-CD200603.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-06-04-CD200604.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-06-10-CD200610.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-06-11-CD200611.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-06-16-CD200616.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-06-17-CD200617.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-06-23-CD200623.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-06-24-CD200624.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-06-25-CD200625.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-07-14-CD200714.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-07-15-CD200715.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-07-21-CD200721.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-07-22-CD200722.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-07-29-CD200729.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-09-08-CD200908.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-09-09-CD200909.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-09-10-CD200910.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-09-15-CD200915.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-09-16-CD200916.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-09-22-CD200922.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-09-23-CD200923.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-09-29-CD200929.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-09-30-CD200930.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-10-01-CD201001.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-10-13-CD201013.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-10-14-CD201014.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-10-15-CD201015.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-10-20-CD201020.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-10-21-CD201021.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-10-22-CD201022.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-10-27-CD201027.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-10-28-CD201028.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-10-29-CD201029.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-11-11-CD201111.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-11-12-CD201112.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-11-17-CD201117.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-11-18-CD201118-bis.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-11-18-CD201118.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-11-30-CD201130.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-12-01-CD201201.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-12-02-CD201202.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-12-03-CD201203.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-12-15-CD201215.xml"/>
+               href="ParlaMint-ES_2015-01-20-CD150120.ana.xml"/>
 </teiCorpus>
