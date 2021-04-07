@@ -1,7 +1,5 @@
-#Test of first step of conversion
-test1:
-	$s -xsl:bin/cd2parmamint.xsl CD/CD190122.xml > TEST.xml
-	${vct} TEST.xml
+fix-ana:
+	bin/fix-ana.pl 'ParlaMint.ana/ParlaMint-ES_2015-01-20-CD150120.ana.xml' tmp
 
 # Process in background, save log
 nohup:
