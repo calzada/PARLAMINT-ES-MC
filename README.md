@@ -4,6 +4,7 @@ Files with CD (Spanish Congress) interventions. They are processed in the follwo
 
 [Processes so far]
 
-## 1. ECPC XML
+## 1. ECPC XML (María Calzada Pérez)
 ## 2. Conversion to TEI format (Tomaz Erjavec)
+## 3. Annotation (Luciana de Macedo)
 
