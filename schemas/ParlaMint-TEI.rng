@@ -527,12 +527,13 @@
 	<optional>
 	  <attribute name="type">
             <choice>
+              <value>kinesic</value>
               <value>applause</value>
               <value>ringing</value>
               <value>signal</value>
-              <value>kinesic</value>
               <value>playback</value>
               <value>gesture</value>
+              <value>smiling</value>
               <value>laughter</value>
               <value>snapping</value>
               <value>noise</value>
@@ -566,16 +567,17 @@
       <element name="vocal">
 	<attribute name="type">
             <choice>
-              <value>speaking</value>
-              <value>interruption</value>
-              <value>noise</value>
-              <value>laughter</value>
-              <value>exclamat</value>
-              <value>shouting</value>
               <value>greeting</value>
               <value>question</value>
-              <value>signal</value>
               <value>clarification</value>
+              <value>speaking</value>
+              <value>interruption</value>
+              <value>exclamat</value>
+              <value>laughter</value>
+              <value>shouting</value>
+              <value>murmuring</value>
+              <value>noise</value>
+              <value>signal</value>
 	    </choice>
 	</attribute>
 	<optional>
