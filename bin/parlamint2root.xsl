@@ -93,7 +93,7 @@
   </xsl:variable>
   
   <!-- Get all organisations from component files -->
-  <xsl:variable name="orgs">
+  <!--xsl:variable name="orgs">
     <xsl:variable name="pass1">
       <xsl:for-each select="$docs//tei:item">
 	<xsl:for-each select="document(tei:url-orig)/tei:TEI/tei:teiHeader/
@@ -109,7 +109,7 @@
 	<xsl:copy-of select="."/>
       </xsl:if>
     </xsl:for-each>
-  </xsl:variable>
+  </xsl:variable-->
 
   <!-- Get all persons from component files -->
   <!-- Also gets from - to dates for their affiliations -->
@@ -387,9 +387,9 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="tei:org[@role='politicalParty']">
+  <!--xsl:template match="tei:org[@role='politicalParty']">
     <xsl:copy-of copy-namespaces="no"  select="$orgs"/>
-  </xsl:template>
+  </xsl:template-->
   <xsl:template match="tei:listPerson/tei:person">
     <xsl:copy-of copy-namespaces="no" select="$persons"/>
   </xsl:template>
