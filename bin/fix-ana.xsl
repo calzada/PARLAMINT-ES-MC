@@ -20,7 +20,10 @@
   
   <xsl:template match="/">
     <xsl:text>&#10;</xsl:text>
-    <xsl:apply-templates/>
+    <xsl:variable name="pass1">
+      <xsl:apply-templates/>
+    </xsl:variable>
+    <xsl:apply-templates mode="count" select="$pass1"/>
   </xsl:template>
 
   <xsl:template match="tei:TEI/@xml:id">
@@ -46,25 +49,6 @@
     <xsl:copy>
       <xsl:attribute name="when" select="$today-iso"/>
       <xsl:value-of select="$today-iso"/>
-    </xsl:copy>
-  </xsl:template>
-  
-  <xsl:template match="tei:extent/tei:measure[@unit = 'words']">
-    <xsl:variable name="words" select="count(//tei:w)"/>
-    <measure quantity="{$words}" unit="words" xml:lang="{@xml:lang}">
-      <xsl:value-of select="replace(., '0', string($words))"/>
-    </measure>
-  </xsl:template>
-  <xsl:template match="tei:tagsDecl/tei:namespace">
-    <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-      <xsl:apply-templates/>
-      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:s"/>
-      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:name"/>
-      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:w"/>
-      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:pc"/>
-      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:linkGrp"/>
-      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:link"/>
     </xsl:copy>
   </xsl:template>
   
@@ -97,6 +81,12 @@
     </xsl:copy>
   </xsl:template>
   
+  <xsl:template match="tei:linkGrp/tei:link/@ana[. = 'ud-syn:&lt;PAD&gt;']">
+    <xsl:attribute name="ana">ud-syn:dep</xsl:attribute>
+  </xsl:template>
+  
+  <!-- Remove these elements -->
+  <xsl:template match="tei:seg[not(normalize-space(.))]"/>
   <xsl:template match="tei:name[not(normalize-space(.))]"/>
   <xsl:template match="tei:pb"/>
   
@@ -123,6 +113,32 @@
     <xsl:value-of select="replace($sorted, '\|$', '')"/>
   </xsl:function>
   
+  <!-- Pass 2: extents -->
+  
+  <xsl:template mode="count" match="tei:extent/tei:measure[@unit = 'words']">
+    <xsl:variable name="words" select="count(//tei:w)"/>
+    <measure quantity="{$words}" unit="words" xml:lang="{@xml:lang}">
+      <xsl:value-of select="replace(., '0', string($words))"/>
+    </measure>
+  </xsl:template>
+  <xsl:template mode="count" match="tei:tagsDecl/tei:namespace">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <!--xsl:apply-templates/-->
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:body"/>
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:div"/>
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:head"/>
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:u"/>
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:seg"/>
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:note"/>
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:s"/>
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:name"/>
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:w"/>
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:pc"/>
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:linkGrp"/>
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:link"/>
+    </xsl:copy>
+  </xsl:template>
   <xsl:template mode="tagCount" match="tei:*">
     <xsl:variable name="self" select="name()"/>
     <xsl:if test="not(following::*[name()=$self] or descendant::*[name()=$self] )">
@@ -134,5 +150,14 @@
     </xsl:if>
   </xsl:template>
   <xsl:template mode="tagCount" match="text()"/>
+  <xsl:template mode="count" match="*">
+    <xsl:copy>
+      <xsl:apply-templates mode="count" select="@*"/>
+      <xsl:apply-templates mode="count"/>
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template mode="count" match="@*">
+    <xsl:copy/>
+  </xsl:template>
 
 </xsl:stylesheet>

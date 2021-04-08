@@ -3,223 +3,311 @@ rm -f tmp/*
 cp ParlaMint.ana/ParlaMint-ES.ana.xml tmp
 ls ParlaMint.ana/*_*.xml | parallel --gnu --halt 2 --jobs 10 \
 'bin/fix-ana.pl {} tmp'
-INFO: Converting ParlaMint-ES_2015-02-26-CD150226.ana.xml
 INFO: Converting ParlaMint-ES_2015-02-19-CD150219.ana.xml
 INFO: Converting ParlaMint-ES_2015-02-12-CD150212.ana.xml
 INFO: Converting ParlaMint-ES_2015-02-17-CD150217.ana.xml
-INFO: Converting ParlaMint-ES_2015-02-10-CD150210.ana.xml
 INFO: Converting ParlaMint-ES_2015-01-20-CD150120.ana.xml
-INFO: Converting ParlaMint-ES_2015-03-11-CD150311.ana.xml
+INFO: Converting ParlaMint-ES_2015-02-25-CD150225.ana.xml
+INFO: Converting ParlaMint-ES_2015-02-10-CD150210.ana.xml
 INFO: Converting ParlaMint-ES_2015-01-21-CD150121.ana.xml
+INFO: Converting ParlaMint-ES_2015-02-11-CD150211.ana.xml
 INFO: Converting ParlaMint-ES_2015-02-18-CD150218.ana.xml
 INFO: Converting ParlaMint-ES_2015-02-24-CD150224.ana.xml
+INFO: Converting ParlaMint-ES_2015-02-26-CD150226.ana.xml
 INFO: Converting ParlaMint-ES_2015-03-24-CD150324.ana.xml
-INFO: Converting ParlaMint-ES_2015-04-23-CD150423.ana.xml
-INFO: Converting ParlaMint-ES_2015-04-30-CD150430.ana.xml
+INFO: Converting ParlaMint-ES_2015-03-10-CD150310.ana.xml
+INFO: Converting ParlaMint-ES_2015-03-11-CD150311.ana.xml
+INFO: Converting ParlaMint-ES_2015-03-12-CD150312.ana.xml
 INFO: Converting ParlaMint-ES_2015-04-14-CD150414.ana.xml
 INFO: Converting ParlaMint-ES_2015-04-22-CD150422.ana.xml
-INFO: Converting ParlaMint-ES_2015-03-12-CD150312.ana.xml
-INFO: Converting ParlaMint-ES_2015-04-29-CD150429.ana.xml
-INFO: Converting ParlaMint-ES_2015-05-12-CD150512.ana.xml
+INFO: Converting ParlaMint-ES_2015-04-23-CD150423.ana.xml
 INFO: Converting ParlaMint-ES_2015-03-26-CD150326.ana.xml
+INFO: Converting ParlaMint-ES_2015-04-28-CD150428.ana.xml
 INFO: Converting ParlaMint-ES_2015-04-15-CD150415.ana.xml
+INFO: Converting ParlaMint-ES_2015-04-29-CD150429.ana.xml
+INFO: Converting ParlaMint-ES_2015-04-21-CD150421.ana.xml
+INFO: Converting ParlaMint-ES_2015-04-30-CD150430.ana.xml
+INFO: Converting ParlaMint-ES_2015-04-16-CD150416.ana.xml
 INFO: Converting ParlaMint-ES_2015-05-14-CD150514.ana.xml
-INFO: Converting ParlaMint-ES_2015-05-26-CD150526.ana.xml
+INFO: Converting ParlaMint-ES_2015-05-12-CD150512.ana.xml
 INFO: Converting ParlaMint-ES_2015-05-27-CD150527.ana.xml
+INFO: Converting ParlaMint-ES_2015-05-26-CD150526.ana.xml
+INFO: Converting ParlaMint-ES_2015-06-09-CD150609.ana.xml
 INFO: Converting ParlaMint-ES_2015-05-13-CD150513.ana.xml
 INFO: Converting ParlaMint-ES_2015-06-10-CD150610.ana.xml
+INFO: Converting ParlaMint-ES_2015-05-28-CD150528.ana.xml
 INFO: Converting ParlaMint-ES_2015-06-16-CD150616.ana.xml
 INFO: Converting ParlaMint-ES_2015-06-17-CD150617.ana.xml
 INFO: Converting ParlaMint-ES_2015-06-18-CD150618.ana.xml
 INFO: Converting ParlaMint-ES_2015-06-11-CD150611.ana.xml
 INFO: Converting ParlaMint-ES_2015-06-23-CD150623.ana.xml
+INFO: Converting ParlaMint-ES_2015-06-24-CD150624.ana.xml
 INFO: Converting ParlaMint-ES_2015-06-25-CD150625.ana.xml
 INFO: Converting ParlaMint-ES_2015-07-07-CD150707.ana.xml
-INFO: Converting ParlaMint-ES_2015-08-18-CD150818.ana.xml
 INFO: Converting ParlaMint-ES_2015-08-26-CD150826.ana.xml
-INFO: Converting ParlaMint-ES_2015-08-25-CD150825.ana.xml
+INFO: Converting ParlaMint-ES_2015-08-18-CD150818.ana.xml
+INFO: Converting ParlaMint-ES_2015-07-08-CD150708.ana.xml
 INFO: Converting ParlaMint-ES_2015-07-16-CD150716.ana.xml
 INFO: Converting ParlaMint-ES_2015-09-14-CD150914.ana.xml
+INFO: Converting ParlaMint-ES_2015-08-25-CD150825.ana.xml
 INFO: Converting ParlaMint-ES_2015-09-29-CD150929.ana.xml
-INFO: Converting ParlaMint-ES_2016-01-13-CD160113.ana.xml
 INFO: Converting ParlaMint-ES_2015-07-15-CD150715.ana.xml
 INFO: Converting ParlaMint-ES_2015-09-30-CD150930.ana.xml
-INFO: Converting ParlaMint-ES_2015-10-20-CD151020.ana.xml
+INFO: Converting ParlaMint-ES_2016-01-13-CD160113.ana.xml
 INFO: Converting ParlaMint-ES_2015-10-21-CD151021.ana.xml
-INFO: Converting ParlaMint-ES_2016-03-04-CD160304.ana.xml
+INFO: Converting ParlaMint-ES_2015-10-13-CD151013.ana.xml
 INFO: Converting ParlaMint-ES_2015-09-15-CD150915.ana.xml
 INFO: Converting ParlaMint-ES_2015-09-16-CD150916.ana.xml
-INFO: Converting ParlaMint-ES_2016-07-19-CD160719.ana.xml
-INFO: Converting ParlaMint-ES_2016-04-13-CD160413.ana.xml
+INFO: Converting ParlaMint-ES_2015-10-14-CD151014.ana.xml
+INFO: Converting ParlaMint-ES_2015-10-20-CD151020.ana.xml
+INFO: Converting ParlaMint-ES_2016-03-04-CD160304.ana.xml
+INFO: Converting ParlaMint-ES_2015-10-01-CD151001.ana.xml
 INFO: Converting ParlaMint-ES_2016-04-20-CD160420.ana.xml
-INFO: Converting ParlaMint-ES_2016-08-30-CD160830.ana.xml
-INFO: Converting ParlaMint-ES_2016-04-19-CD160419.ana.xml
-INFO: Converting ParlaMint-ES_2016-04-27-CD160427.ana.xml
-INFO: Converting ParlaMint-ES_2016-04-06-CD160406.ana.xml
-INFO: Converting ParlaMint-ES_2016-09-02-CD160902.ana.xml
+INFO: Converting ParlaMint-ES_2016-04-13-CD160413.ana.xml
+INFO: Converting ParlaMint-ES_2016-04-05-CD160405.ana.xml
+INFO: Converting ParlaMint-ES_2016-04-12-CD160412.ana.xml
+INFO: Converting ParlaMint-ES_2016-03-15-CD160315.ana.xml
 INFO: Converting ParlaMint-ES_2016-03-02-CD160302.ana.xml
+INFO: Converting ParlaMint-ES_2016-07-19-CD160719.ana.xml
+INFO: Converting ParlaMint-ES_2016-04-19-CD160419.ana.xml
+INFO: Converting ParlaMint-ES_2016-04-06-CD160406.ana.xml
+INFO: Converting ParlaMint-ES_2016-04-28-CD160428.ana.xml
+INFO: Converting ParlaMint-ES_2016-08-30-CD160830.ana.xml
+INFO: Converting ParlaMint-ES_2016-04-27-CD160427.ana.xml
+INFO: Converting ParlaMint-ES_2016-09-02-CD160902.ana.xml
+INFO: Converting ParlaMint-ES_2016-10-20-CD161020.ana.xml
+INFO: Converting ParlaMint-ES_2016-10-26-CD161026.ana.xml
+INFO: Converting ParlaMint-ES_2016-10-29-CD161029.ana.xml
 INFO: Converting ParlaMint-ES_2016-10-04-CD161004.ana.xml
 INFO: Converting ParlaMint-ES_2016-09-27-CD160927.ana.xml
-INFO: Converting ParlaMint-ES_2016-10-26-CD161026.ana.xml
-INFO: Converting ParlaMint-ES_2016-10-20-CD161020.ana.xml
 INFO: Converting ParlaMint-ES_2016-10-18-CD161018.ana.xml
-INFO: Converting ParlaMint-ES_2016-10-29-CD161029.ana.xml
-INFO: Converting ParlaMint-ES_2016-08-31-CD160831.ana.xml
 INFO: Converting ParlaMint-ES_2016-11-15-CD161115.ana.xml
+INFO: Converting ParlaMint-ES_2016-08-31-CD160831.ana.xml
 INFO: Converting ParlaMint-ES_2016-11-22-CD161122.ana.xml
 INFO: Converting ParlaMint-ES_2016-11-23-CD161123.ana.xml
-INFO: Converting ParlaMint-ES_2016-12-13-CD161213.ana.xml
-INFO: Converting ParlaMint-ES_2016-11-30-CD161130.ana.xml
 INFO: Converting ParlaMint-ES_2016-10-27-CD161027.ana.xml
 INFO: Converting ParlaMint-ES_2016-11-29-CD161129.ana.xml
+INFO: Converting ParlaMint-ES_2016-12-13-CD161213.ana.xml
+INFO: Converting ParlaMint-ES_2016-11-30-CD161130.ana.xml
 INFO: Converting ParlaMint-ES_2016-12-14-CD161214.ana.xml
+INFO: Converting ParlaMint-ES_2016-12-15-CD161215.ana.xml
+INFO: Converting ParlaMint-ES_2016-12-20-CD161220.ana.xml
 INFO: Converting ParlaMint-ES_2016-12-21-CD161221.ana.xml
+INFO: Converting ParlaMint-ES_2017-01-31-CD170131.ana.xml
+INFO: Converting ParlaMint-ES_2017-02-02-CD170202.ana.xml
 INFO: Converting ParlaMint-ES_2017-02-15-CD170215.ana.xml
-INFO: Converting ParlaMint-ES_2017-02-14-CD170214.ana.xml
 INFO: Converting ParlaMint-ES_2017-02-16-CD170216.ana.xml
+INFO: Converting ParlaMint-ES_2017-02-22-CD170222.ana.xml
 INFO: Converting ParlaMint-ES_2017-02-01-CD170201.ana.xml
-INFO: Converting ParlaMint-ES_2017-03-08-CD170308.ana.xml
-INFO: Converting ParlaMint-ES_2017-03-09-CD170309.ana.xml
-INFO: Converting ParlaMint-ES_2017-03-07-CD170307.ana.xml
+INFO: Converting ParlaMint-ES_2017-02-14-CD170214.ana.xml
 INFO: Converting ParlaMint-ES_2017-02-21-CD170221.ana.xml
-INFO: Converting ParlaMint-ES_2017-03-21-CD170321.ana.xml
-INFO: Converting ParlaMint-ES_2017-03-16-CD170316.ana.xml
-INFO: Converting ParlaMint-ES_2017-03-15-CD170315.ana.xml
+INFO: Converting ParlaMint-ES_2017-03-07-CD170307.ana.xml
+INFO: Converting ParlaMint-ES_2017-03-09-CD170309.ana.xml
+INFO: Converting ParlaMint-ES_2017-03-08-CD170308.ana.xml
 INFO: Converting ParlaMint-ES_2017-03-22-CD170322.ana.xml
-INFO: Converting ParlaMint-ES_2017-04-05-CD170405.ana.xml
-INFO: Converting ParlaMint-ES_2017-04-06-CD170406.ana.xml
+INFO: Converting ParlaMint-ES_2017-03-16-CD170316.ana.xml
+INFO: Converting ParlaMint-ES_2017-03-14-CD170314.ana.xml
+INFO: Converting ParlaMint-ES_2017-03-21-CD170321.ana.xml
 INFO: Converting ParlaMint-ES_2017-03-28-CD170328.ana.xml
+INFO: Converting ParlaMint-ES_2017-03-15-CD170315.ana.xml
+INFO: Converting ParlaMint-ES_2017-03-30-CD170330.ana.xml
+INFO: Converting ParlaMint-ES_2017-03-29-CD170329.ana.xml
+INFO: Converting ParlaMint-ES_2017-04-04-CD170404.ana.xml
+INFO: Converting ParlaMint-ES_2017-04-06-CD170406.ana.xml
+INFO: Converting ParlaMint-ES_2017-04-05-CD170405.ana.xml
 INFO: Converting ParlaMint-ES_2017-05-04-CD170504.ana.xml
+INFO: Converting ParlaMint-ES_2017-05-03-CD170503.ana.xml
 INFO: Converting ParlaMint-ES_2017-05-09-CD170509.ana.xml
-INFO: Converting ParlaMint-ES_2017-05-10-CD170510.ana.xml
 INFO: Converting ParlaMint-ES_2017-05-11-CD170511.ana.xml
 INFO: Converting ParlaMint-ES_2017-05-18-CD170518.ana.xml
+INFO: Converting ParlaMint-ES_2017-05-10-CD170510.ana.xml
 INFO: Converting ParlaMint-ES_2017-05-16-CD170516.ana.xml
-INFO: Converting ParlaMint-ES_2017-06-29-CD170629.ana.xml
 INFO: Converting ParlaMint-ES_2017-05-17-CD170517.ana.xml
+INFO: Converting ParlaMint-ES_2017-06-21-CD170621.ana.xml
+INFO: Converting ParlaMint-ES_2017-06-29-CD170629.ana.xml
 INFO: Converting ParlaMint-ES_2017-05-29-CD170529.ana.xml
 INFO: Converting ParlaMint-ES_2017-06-27-CD170627.ana.xml
 INFO: Converting ParlaMint-ES_2017-07-12-CD170712.ana.xml
 INFO: Converting ParlaMint-ES_2017-08-30-CD170830.ana.xml
-INFO: Converting ParlaMint-ES_2017-07-11-CD170711.ana.xml
 INFO: Converting ParlaMint-ES_2017-09-13-CD170913.ana.xml
+INFO: Converting ParlaMint-ES_2017-07-11-CD170711.ana.xml
 INFO: Converting ParlaMint-ES_2017-09-12-CD170912.ana.xml
-INFO: Converting ParlaMint-ES_2017-09-19-CD170919.ana.xml
 INFO: Converting ParlaMint-ES_2017-09-21-CD170921.ana.xml
-INFO: Converting ParlaMint-ES_2017-09-20-CD170920.ana.xml
 INFO: Converting ParlaMint-ES_2017-09-26-CD170926.ana.xml
-INFO: Converting ParlaMint-ES_2017-09-27-CD170927.ana.xml
+INFO: Converting ParlaMint-ES_2017-09-19-CD170919.ana.xml
+INFO: Converting ParlaMint-ES_2017-09-20-CD170920.ana.xml
 INFO: Converting ParlaMint-ES_2017-09-28-CD170928.ana.xml
-INFO: Converting ParlaMint-ES_2017-10-17-CD171017.ana.xml
-INFO: Converting ParlaMint-ES_2017-10-18-CD171018.ana.xml
+INFO: Converting ParlaMint-ES_2017-09-27-CD170927.ana.xml
 INFO: Converting ParlaMint-ES_2017-10-10-CD171010.ana.xml
+INFO: Converting ParlaMint-ES_2017-10-18-CD171018.ana.xml
+INFO: Converting ParlaMint-ES_2017-10-17-CD171017.ana.xml
+INFO: Converting ParlaMint-ES_2017-10-11-CD171011.ana.xml
 INFO: Converting ParlaMint-ES_2017-10-25-CD171025.ana.xml
-INFO: Converting ParlaMint-ES_2017-11-22-CD171122.ana.xml
-INFO: Converting ParlaMint-ES_2017-11-29-CD171129.ana.xml
+INFO: Converting ParlaMint-ES_2017-10-19-CD171019.ana.xml
+INFO: Converting ParlaMint-ES_2017-10-24-CD171024.ana.xml
+INFO: Converting ParlaMint-ES_2017-11-07-CD171107.ana.xml
+INFO: Converting ParlaMint-ES_2017-11-08-CD171108.ana.xml
 INFO: Converting ParlaMint-ES_2017-11-14-CD171114.ana.xml
+INFO: Converting ParlaMint-ES_2017-11-15-CD171115.ana.xml
+INFO: Converting ParlaMint-ES_2017-11-22-CD171122.ana.xml
+INFO: Converting ParlaMint-ES_2017-11-23-CD171123.ana.xml
 INFO: Converting ParlaMint-ES_2017-11-30-CD171130.ana.xml
+INFO: Converting ParlaMint-ES_2017-11-21-CD171121.ana.xml
+INFO: Converting ParlaMint-ES_2017-11-29-CD171129.ana.xml
 INFO: Converting ParlaMint-ES_2017-11-28-CD171128.ana.xml
+INFO: Converting ParlaMint-ES_2017-12-12-CD171212.ana.xml
+INFO: Converting ParlaMint-ES_2017-12-13-CD171213.ana.xml
 INFO: Converting ParlaMint-ES_2018-02-07-CD180207.ana.xml
+INFO: Converting ParlaMint-ES_2018-02-06-CD180206.ana.xml
+INFO: Converting ParlaMint-ES_2018-02-15-CD180215.ana.xml
 INFO: Converting ParlaMint-ES_2018-02-13-CD180213.ana.xml
-INFO: Converting ParlaMint-ES_2018-02-14-CD180214.ana.xml
 INFO: Converting ParlaMint-ES_2018-02-22-CD180222.ana.xml
-INFO: Converting ParlaMint-ES_2018-02-20-CD180220.ana.xml
+INFO: Converting ParlaMint-ES_2018-02-14-CD180214.ana.xml
 INFO: Converting ParlaMint-ES_2018-02-21-CD180221.ana.xml
+INFO: Converting ParlaMint-ES_2018-02-20-CD180220.ana.xml
 INFO: Converting ParlaMint-ES_2018-03-15-CD180315.ana.xml
-INFO: Converting ParlaMint-ES_2018-04-10-CD180410.ana.xml
 INFO: Converting ParlaMint-ES_2018-03-13-CD180313.ana.xml
 INFO: Converting ParlaMint-ES_2018-03-14-CD180314.ana.xml
+INFO: Converting ParlaMint-ES_2018-03-21-CD180321.ana.xml
+INFO: Converting ParlaMint-ES_2018-03-20-CD180320.ana.xml
 INFO: Converting ParlaMint-ES_2018-04-11-CD180411.ana.xml
 INFO: Converting ParlaMint-ES_2018-04-12-CD180412.ana.xml
+INFO: Converting ParlaMint-ES_2018-04-10-CD180410.ana.xml
+INFO: Converting ParlaMint-ES_2018-04-26-CD180426.ana.xml
 INFO: Converting ParlaMint-ES_2018-04-25-CD180425.ana.xml
-INFO: Converting ParlaMint-ES_2018-05-21-CD180521.ana.xml
+INFO: Converting ParlaMint-ES_2018-05-10-CD180510.ana.xml
+INFO: Converting ParlaMint-ES_2018-05-09-CD180509.ana.xml
 INFO: Converting ParlaMint-ES_2018-05-08-CD180508.ana.xml
-INFO: Converting ParlaMint-ES_2018-06-01-CD180601.ana.xml
+INFO: Converting ParlaMint-ES_2018-05-21-CD180521.ana.xml
 INFO: Converting ParlaMint-ES_2018-05-30-CD180530.ana.xml
+INFO: Converting ParlaMint-ES_2018-06-01-CD180601.ana.xml
+INFO: Converting ParlaMint-ES_2018-05-29-CD180529.ana.xml
+INFO: Converting ParlaMint-ES_2018-05-23-CD180523.ana.xml
+INFO: Converting ParlaMint-ES_2018-06-20-CD180620.ana.xml
 INFO: Converting ParlaMint-ES_2018-06-19-CD180619.ana.xml
 INFO: Converting ParlaMint-ES_2018-06-12-CD180612.ana.xml
-INFO: Converting ParlaMint-ES_2018-05-23-CD180523.ana.xml
-INFO: Converting ParlaMint-ES_2018-07-10-CD180710.ana.xml
-INFO: Converting ParlaMint-ES_2018-07-02-CD180702.ana.xml
-INFO: Converting ParlaMint-ES_2018-06-20-CD180620.ana.xml
+INFO: Converting ParlaMint-ES_2018-05-22-CD180522.ana.xml
 INFO: Converting ParlaMint-ES_2018-06-28-CD180628.ana.xml
-INFO: Converting ParlaMint-ES_2018-07-04-CD180704.ana.xml
-INFO: Converting ParlaMint-ES_2018-07-16-CD180716.ana.xml
-INFO: Converting ParlaMint-ES_2018-07-25-CD180725.ana.xml
-INFO: Converting ParlaMint-ES_2018-06-26-CD180626.ana.xml
+INFO: Converting ParlaMint-ES_2018-07-02-CD180702.ana.xml
 INFO: Converting ParlaMint-ES_2018-05-31-CD180531.ana.xml
+INFO: Converting ParlaMint-ES_2018-07-10-CD180710.ana.xml
+INFO: Converting ParlaMint-ES_2018-07-16-CD180716.ana.xml
+INFO: Converting ParlaMint-ES_2018-06-26-CD180626.ana.xml
+INFO: Converting ParlaMint-ES_2018-07-25-CD180725.ana.xml
+INFO: Converting ParlaMint-ES_2018-07-04-CD180704.ana.xml
+INFO: Converting ParlaMint-ES_2018-06-27-CD180627.ana.xml
 INFO: Converting ParlaMint-ES_2018-07-27-CD180727.ana.xml
 INFO: Converting ParlaMint-ES_2018-09-11-CD180911.ana.xml
-INFO: Converting ParlaMint-ES_2018-09-12-CD180912.ana.xml
+INFO: Converting ParlaMint-ES_2018-07-17-CD180717.ana.xml
 INFO: Converting ParlaMint-ES_2018-09-06-CD180906.ana.xml
-INFO: Converting ParlaMint-ES_2018-09-20-CD180920.ana.xml
-INFO: Converting ParlaMint-ES_2018-09-19-CD180919.ana.xml
+INFO: Converting ParlaMint-ES_2018-09-12-CD180912.ana.xml
 INFO: Converting ParlaMint-ES_2018-09-13-CD180913.ana.xml
+INFO: Converting ParlaMint-ES_2018-09-19-CD180919.ana.xml
+INFO: Converting ParlaMint-ES_2018-09-20-CD180920.ana.xml
 INFO: Converting ParlaMint-ES_2018-09-18-CD180918.ana.xml
-INFO: Converting ParlaMint-ES_2018-10-17-CD181017.ana.xml
-INFO: Converting ParlaMint-ES_2018-10-10-CD181010.ana.xml
-INFO: Converting ParlaMint-ES_2018-10-09-CD181009.ana.xml
-INFO: Converting ParlaMint-ES_2018-10-18-CD181018.ana.xml
+INFO: Converting ParlaMint-ES_2018-09-26-CD180926.ana.xml
 INFO: Converting ParlaMint-ES_2018-09-25-CD180925.ana.xml
-INFO: Converting ParlaMint-ES_2018-10-25-CD181025.ana.xml
+INFO: Converting ParlaMint-ES_2018-10-10-CD181010.ana.xml
+INFO: Converting ParlaMint-ES_2018-10-17-CD181017.ana.xml
+INFO: Converting ParlaMint-ES_2018-10-18-CD181018.ana.xml
+INFO: Converting ParlaMint-ES_2018-10-09-CD181009.ana.xml
 INFO: Converting ParlaMint-ES_2018-10-23-CD181023.ana.xml
+INFO: Converting ParlaMint-ES_2018-10-16-CD181016.ana.xml
+INFO: Converting ParlaMint-ES_2018-10-25-CD181025.ana.xml
 INFO: Converting ParlaMint-ES_2018-11-13-CD181113.ana.xml
+INFO: Converting ParlaMint-ES_2018-10-24-CD181024.ana.xml
+INFO: Converting ParlaMint-ES_2018-10-30-CD181030.ana.xml
 INFO: Converting ParlaMint-ES_2018-11-15-CD181115.ana.xml
-INFO: Converting ParlaMint-ES_2018-11-14-CD181114.ana.xml
 INFO: Converting ParlaMint-ES_2018-11-20-CD181120.ana.xml
+INFO: Converting ParlaMint-ES_2018-11-14-CD181114.ana.xml
 INFO: Converting ParlaMint-ES_2018-12-11-CD181211.ana.xml
 INFO: Converting ParlaMint-ES_2018-11-21-CD181121.ana.xml
+INFO: Converting ParlaMint-ES_2018-11-22-CD181122.ana.xml
+INFO: Converting ParlaMint-ES_2018-12-13-CD181213.ana.xml
+INFO: Converting ParlaMint-ES_2018-12-18-CD181218.ana.xml
+INFO: Converting ParlaMint-ES_2018-12-19-CD181219.ana.xml
 INFO: Converting ParlaMint-ES_2019-02-13-CD190213.ana.xml
+INFO: Converting ParlaMint-ES_2018-12-12-CD181212.ana.xml
+INFO: Converting ParlaMint-ES_2019-01-22-CD190122.ana.xml
+INFO: Converting ParlaMint-ES_2018-12-20-CD181220.ana.xml
 INFO: Converting ParlaMint-ES_2019-02-19-CD190219.ana.xml
+INFO: Converting ParlaMint-ES_2019-02-20-CD190220.ana.xml
 INFO: Converting ParlaMint-ES_2019-02-12-CD190212.ana.xml
 INFO: Converting ParlaMint-ES_2019-05-21-CD190521.ana.xml
-INFO: Converting ParlaMint-ES_2019-02-20-CD190220.ana.xml
-INFO: Converting ParlaMint-ES_2019-02-28-CD190228.ana.xml
-INFO: Converting ParlaMint-ES_2018-12-12-CD181212.ana.xml
 INFO: Converting ParlaMint-ES_2019-02-21-CD190221.ana.xml
+INFO: Converting ParlaMint-ES_2019-02-26-CD190226.ana.xml
+INFO: Converting ParlaMint-ES_2019-02-28-CD190228.ana.xml
+INFO: Converting ParlaMint-ES_2019-07-25-CD190725.ana.xml
+INFO: Converting ParlaMint-ES_2019-02-27-CD190227.ana.xml
 INFO: Converting ParlaMint-ES_2019-12-03-CD191203.ana.xml
 INFO: Converting ParlaMint-ES_2019-07-23-CD190723.ana.xml
-INFO: Converting ParlaMint-ES_2019-02-27-CD190227.ana.xml
 INFO: Converting ParlaMint-ES_2019-07-22-CD190722.ana.xml
 INFO: Converting ParlaMint-ES_2019-09-10-CD190910.ana.xml
-INFO: Converting ParlaMint-ES_2020-01-07-CD200107.ana.xml
+INFO: Converting ParlaMint-ES_2019-09-17-CD190917.ana.xml
+INFO: Converting ParlaMint-ES_2019-09-18-CD190918.ana.xml
 INFO: Converting ParlaMint-ES_2020-01-05-CD200105.ana.xml
+INFO: Converting ParlaMint-ES_2020-01-07-CD200107.ana.xml
 INFO: Converting ParlaMint-ES_2019-09-11-CD190911.ana.xml
 INFO: Converting ParlaMint-ES_2020-02-04-CD200204.ana.xml
+INFO: Converting ParlaMint-ES_2020-02-20-CD200220.ana.xml
 INFO: Converting ParlaMint-ES_2020-02-12-CD200212.ana.xml
+INFO: Converting ParlaMint-ES_2020-01-04-CD200104.ana.xml
 INFO: Converting ParlaMint-ES_2020-02-11-CD200211.ana.xml
 INFO: Converting ParlaMint-ES_2020-02-19-CD200219.ana.xml
 INFO: Converting ParlaMint-ES_2020-02-27-CD200227.ana.xml
-INFO: Converting ParlaMint-ES_2020-01-04-CD200104.ana.xml
-INFO: Converting ParlaMint-ES_2020-02-25-CD200225.ana.xml
 INFO: Converting ParlaMint-ES_2020-02-18-CD200218.ana.xml
-INFO: Converting ParlaMint-ES_2020-03-18-CD200318.ana.xml
+INFO: Converting ParlaMint-ES_2020-02-26-CD200226.ana.xml
+INFO: Converting ParlaMint-ES_2020-02-25-CD200225.ana.xml
 INFO: Converting ParlaMint-ES_2020-04-15-CD200415.ana.xml
-INFO: Converting ParlaMint-ES_2020-05-06-CD200506.ana.xml
-INFO: Converting ParlaMint-ES_2020-03-25-CD200325.ana.xml
-INFO: Converting ParlaMint-ES_2020-06-04-CD200604.ana.xml
-INFO: Converting ParlaMint-ES_2020-05-13-CD200513.ana.xml
+INFO: Converting ParlaMint-ES_2020-03-18-CD200318.ana.xml
+INFO: Converting ParlaMint-ES_2020-04-29-CD200429.ana.xml
 INFO: Converting ParlaMint-ES_2020-05-27-CD200527.ana.xml
-INFO: Converting ParlaMint-ES_2020-07-14-CD200714.ana.xml
+INFO: Converting ParlaMint-ES_2020-03-25-CD200325.ana.xml
+INFO: Converting ParlaMint-ES_2020-05-06-CD200506.ana.xml
+INFO: Converting ParlaMint-ES_2020-05-13-CD200513.ana.xml
+INFO: Converting ParlaMint-ES_2020-06-04-CD200604.ana.xml
 INFO: Converting ParlaMint-ES_2020-04-09-CD200409.ana.xml
-INFO: Converting ParlaMint-ES_2020-06-25-CD200625.ana.xml
 INFO: Converting ParlaMint-ES_2020-04-22-CD200422.ana.xml
 INFO: Converting ParlaMint-ES_2020-05-20-CD200520.ana.xml
-INFO: Converting ParlaMint-ES_2020-07-22-CD200722.ana.xml
+INFO: Converting ParlaMint-ES_2020-06-03-CD200603.ana.xml
+INFO: Converting ParlaMint-ES_2020-06-11-CD200611.ana.xml
+INFO: Converting ParlaMint-ES_2020-06-16-CD200616.ana.xml
+INFO: Converting ParlaMint-ES_2020-06-10-CD200610.ana.xml
+INFO: Converting ParlaMint-ES_2020-06-23-CD200623.ana.xml
+INFO: Converting ParlaMint-ES_2020-06-24-CD200624.ana.xml
+INFO: Converting ParlaMint-ES_2020-07-14-CD200714.ana.xml
+INFO: Converting ParlaMint-ES_2020-06-25-CD200625.ana.xml
+INFO: Converting ParlaMint-ES_2020-06-17-CD200617.ana.xml
 INFO: Converting ParlaMint-ES_2020-07-21-CD200721.ana.xml
-INFO: Converting ParlaMint-ES_2020-09-16-CD200916.ana.xml
-INFO: Converting ParlaMint-ES_2020-09-15-CD200915.ana.xml
-INFO: Converting ParlaMint-ES_2020-09-23-CD200923.ana.xml
-INFO: Converting ParlaMint-ES_2020-10-01-CD201001.ana.xml
+INFO: Converting ParlaMint-ES_2020-07-22-CD200722.ana.xml
 INFO: Converting ParlaMint-ES_2020-07-15-CD200715.ana.xml
-INFO: Converting ParlaMint-ES_2020-10-20-CD201020.ana.xml
+INFO: Converting ParlaMint-ES_2020-09-09-CD200909.ana.xml
+INFO: Converting ParlaMint-ES_2020-09-10-CD200910.ana.xml
+INFO: Converting ParlaMint-ES_2020-09-16-CD200916.ana.xml
+INFO: Converting ParlaMint-ES_2020-09-08-CD200908.ana.xml
+INFO: Converting ParlaMint-ES_2020-07-29-CD200729.ana.xml
+INFO: Converting ParlaMint-ES_2020-09-15-CD200915.ana.xml
+INFO: Converting ParlaMint-ES_2020-09-22-CD200922.ana.xml
+INFO: Converting ParlaMint-ES_2020-09-23-CD200923.ana.xml
+INFO: Converting ParlaMint-ES_2020-09-29-CD200929.ana.xml
+INFO: Converting ParlaMint-ES_2020-10-01-CD201001.ana.xml
 INFO: Converting ParlaMint-ES_2020-09-30-CD200930.ana.xml
+INFO: Converting ParlaMint-ES_2020-10-20-CD201020.ana.xml
 INFO: Converting ParlaMint-ES_2020-10-13-CD201013.ana.xml
+INFO: Converting ParlaMint-ES_2020-10-14-CD201014.ana.xml
+INFO: Converting ParlaMint-ES_2020-10-22-CD201022.ana.xml
 INFO: Converting ParlaMint-ES_2020-10-28-CD201028.ana.xml
 INFO: Converting ParlaMint-ES_2020-10-27-CD201027.ana.xml
-INFO: Converting ParlaMint-ES_2020-11-17-CD201117.ana.xml
 INFO: Converting ParlaMint-ES_2020-10-29-CD201029.ana.xml
+INFO: Converting ParlaMint-ES_2020-11-12-CD201112.ana.xml
+INFO: Converting ParlaMint-ES_2020-10-21-CD201021.ana.xml
+INFO: Converting ParlaMint-ES_2020-10-15-CD201015.ana.xml
+INFO: Converting ParlaMint-ES_2020-11-17-CD201117.ana.xml
+INFO: Converting ParlaMint-ES_2020-11-11-CD201111.ana.xml
+INFO: Converting ParlaMint-ES_2020-11-18-CD201118.ana.xml
+INFO: Converting ParlaMint-ES_2020-11-30-CD201130.ana.xml
 INFO: Converting ParlaMint-ES_2020-12-03-CD201203.ana.xml
+INFO: Converting ParlaMint-ES_2020-12-15-CD201215.ana.xml
 INFO: Converting ParlaMint-ES_2020-12-01-CD201201.ana.xml
 INFO: Converting ParlaMint-ES_2020-12-02-CD201202.ana.xml
 bin/validate-parlamint.pl schemas tmp
@@ -241,6 +329,10 @@ INFO: XML validation for ParlaMint-ES_2015-02-10-CD150210.ana.xml
 INFO: Content validaton for ParlaMint-ES_2015-02-10-CD150210.ana.xml
 INFO: Link checking for ParlaMint-ES_2015-02-10-CD150210.ana.xml
 INFO ParlaMint-ES_2015-02-10-CD150210.ana: Checking links in ParlaMint-ES_2015-02-10-CD150210.ana.xml
+INFO: XML validation for ParlaMint-ES_2015-02-11-CD150211.ana.xml
+INFO: Content validaton for ParlaMint-ES_2015-02-11-CD150211.ana.xml
+INFO: Link checking for ParlaMint-ES_2015-02-11-CD150211.ana.xml
+INFO ParlaMint-ES_2015-02-11-CD150211.ana: Checking links in ParlaMint-ES_2015-02-11-CD150211.ana.xml
 INFO: XML validation for ParlaMint-ES_2015-02-12-CD150212.ana.xml
 INFO: Content validaton for ParlaMint-ES_2015-02-12-CD150212.ana.xml
 INFO: Link checking for ParlaMint-ES_2015-02-12-CD150212.ana.xml
@@ -261,10 +353,18 @@ INFO: XML validation for ParlaMint-ES_2015-02-24-CD150224.ana.xml
 INFO: Content validaton for ParlaMint-ES_2015-02-24-CD150224.ana.xml
 INFO: Link checking for ParlaMint-ES_2015-02-24-CD150224.ana.xml
 INFO ParlaMint-ES_2015-02-24-CD150224.ana: Checking links in ParlaMint-ES_2015-02-24-CD150224.ana.xml
+INFO: XML validation for ParlaMint-ES_2015-02-25-CD150225.ana.xml
+INFO: Content validaton for ParlaMint-ES_2015-02-25-CD150225.ana.xml
+INFO: Link checking for ParlaMint-ES_2015-02-25-CD150225.ana.xml
+INFO ParlaMint-ES_2015-02-25-CD150225.ana: Checking links in ParlaMint-ES_2015-02-25-CD150225.ana.xml
 INFO: XML validation for ParlaMint-ES_2015-02-26-CD150226.ana.xml
 INFO: Content validaton for ParlaMint-ES_2015-02-26-CD150226.ana.xml
 INFO: Link checking for ParlaMint-ES_2015-02-26-CD150226.ana.xml
 INFO ParlaMint-ES_2015-02-26-CD150226.ana: Checking links in ParlaMint-ES_2015-02-26-CD150226.ana.xml
+INFO: XML validation for ParlaMint-ES_2015-03-10-CD150310.ana.xml
+INFO: Content validaton for ParlaMint-ES_2015-03-10-CD150310.ana.xml
+INFO: Link checking for ParlaMint-ES_2015-03-10-CD150310.ana.xml
+INFO ParlaMint-ES_2015-03-10-CD150310.ana: Checking links in ParlaMint-ES_2015-03-10-CD150310.ana.xml
 INFO: XML validation for ParlaMint-ES_2015-03-11-CD150311.ana.xml
 INFO: Content validaton for ParlaMint-ES_2015-03-11-CD150311.ana.xml
 INFO: Link checking for ParlaMint-ES_2015-03-11-CD150311.ana.xml
@@ -289,6 +389,15 @@ INFO: XML validation for ParlaMint-ES_2015-04-15-CD150415.ana.xml
 INFO: Content validaton for ParlaMint-ES_2015-04-15-CD150415.ana.xml
 INFO: Link checking for ParlaMint-ES_2015-04-15-CD150415.ana.xml
 INFO ParlaMint-ES_2015-04-15-CD150415.ana: Checking links in ParlaMint-ES_2015-04-15-CD150415.ana.xml
+INFO: XML validation for ParlaMint-ES_2015-04-16-CD150416.ana.xml
+INFO: Content validaton for ParlaMint-ES_2015-04-16-CD150416.ana.xml
+WARN ParlaMint-ES_2015-04-16-CD150416.ana: Trailing space in head: ENMIENDAS DEL SENADO : - PROYECTO DE LEY ORGÁNICA POR LA QUE SE MODIFICAN LA LEY DE ENJUICIAMIENTO CRIMINAL Y LA LEY ORGÁNICA 6/1985, DE 1 DE JULIO, DEL PODER JUDICIAL, PARA TRANSPONER LA DIRECTIVA 2010/64/UE, DE 20 DE OCTUBRE DE 2010, RELATIVA AL DERECHO A INTERPRETACIÓN Y A TRADUCCIÓN EN LOS PROCESOS PENALES Y LA DIRECTIVA 2012/13/UE, DE 22 DE MAYO DE 2012, RELATIVA AL DERECHO A LA INFORMACIÓN EN LOS PROCESOS PENALES. 
+INFO: Link checking for ParlaMint-ES_2015-04-16-CD150416.ana.xml
+INFO ParlaMint-ES_2015-04-16-CD150416.ana: Checking links in ParlaMint-ES_2015-04-16-CD150416.ana.xml
+INFO: XML validation for ParlaMint-ES_2015-04-21-CD150421.ana.xml
+INFO: Content validaton for ParlaMint-ES_2015-04-21-CD150421.ana.xml
+INFO: Link checking for ParlaMint-ES_2015-04-21-CD150421.ana.xml
+INFO ParlaMint-ES_2015-04-21-CD150421.ana: Checking links in ParlaMint-ES_2015-04-21-CD150421.ana.xml
 INFO: XML validation for ParlaMint-ES_2015-04-22-CD150422.ana.xml
 INFO: Content validaton for ParlaMint-ES_2015-04-22-CD150422.ana.xml
 INFO: Link checking for ParlaMint-ES_2015-04-22-CD150422.ana.xml
@@ -297,6 +406,10 @@ INFO: XML validation for ParlaMint-ES_2015-04-23-CD150423.ana.xml
 INFO: Content validaton for ParlaMint-ES_2015-04-23-CD150423.ana.xml
 INFO: Link checking for ParlaMint-ES_2015-04-23-CD150423.ana.xml
 INFO ParlaMint-ES_2015-04-23-CD150423.ana: Checking links in ParlaMint-ES_2015-04-23-CD150423.ana.xml
+INFO: XML validation for ParlaMint-ES_2015-04-28-CD150428.ana.xml
+INFO: Content validaton for ParlaMint-ES_2015-04-28-CD150428.ana.xml
+INFO: Link checking for ParlaMint-ES_2015-04-28-CD150428.ana.xml
+INFO ParlaMint-ES_2015-04-28-CD150428.ana: Checking links in ParlaMint-ES_2015-04-28-CD150428.ana.xml
 INFO: XML validation for ParlaMint-ES_2015-04-29-CD150429.ana.xml
 INFO: Content validaton for ParlaMint-ES_2015-04-29-CD150429.ana.xml
 INFO: Link checking for ParlaMint-ES_2015-04-29-CD150429.ana.xml
@@ -325,6 +438,14 @@ INFO: XML validation for ParlaMint-ES_2015-05-27-CD150527.ana.xml
 INFO: Content validaton for ParlaMint-ES_2015-05-27-CD150527.ana.xml
 INFO: Link checking for ParlaMint-ES_2015-05-27-CD150527.ana.xml
 INFO ParlaMint-ES_2015-05-27-CD150527.ana: Checking links in ParlaMint-ES_2015-05-27-CD150527.ana.xml
+INFO: XML validation for ParlaMint-ES_2015-05-28-CD150528.ana.xml
+INFO: Content validaton for ParlaMint-ES_2015-05-28-CD150528.ana.xml
+INFO: Link checking for ParlaMint-ES_2015-05-28-CD150528.ana.xml
+INFO ParlaMint-ES_2015-05-28-CD150528.ana: Checking links in ParlaMint-ES_2015-05-28-CD150528.ana.xml
+INFO: XML validation for ParlaMint-ES_2015-06-09-CD150609.ana.xml
+INFO: Content validaton for ParlaMint-ES_2015-06-09-CD150609.ana.xml
+INFO: Link checking for ParlaMint-ES_2015-06-09-CD150609.ana.xml
+INFO ParlaMint-ES_2015-06-09-CD150609.ana: Checking links in ParlaMint-ES_2015-06-09-CD150609.ana.xml
 INFO: XML validation for ParlaMint-ES_2015-06-10-CD150610.ana.xml
 INFO: Content validaton for ParlaMint-ES_2015-06-10-CD150610.ana.xml
 INFO: Link checking for ParlaMint-ES_2015-06-10-CD150610.ana.xml
@@ -349,6 +470,10 @@ INFO: XML validation for ParlaMint-ES_2015-06-23-CD150623.ana.xml
 INFO: Content validaton for ParlaMint-ES_2015-06-23-CD150623.ana.xml
 INFO: Link checking for ParlaMint-ES_2015-06-23-CD150623.ana.xml
 INFO ParlaMint-ES_2015-06-23-CD150623.ana: Checking links in ParlaMint-ES_2015-06-23-CD150623.ana.xml
+INFO: XML validation for ParlaMint-ES_2015-06-24-CD150624.ana.xml
+INFO: Content validaton for ParlaMint-ES_2015-06-24-CD150624.ana.xml
+INFO: Link checking for ParlaMint-ES_2015-06-24-CD150624.ana.xml
+INFO ParlaMint-ES_2015-06-24-CD150624.ana: Checking links in ParlaMint-ES_2015-06-24-CD150624.ana.xml
 INFO: XML validation for ParlaMint-ES_2015-06-25-CD150625.ana.xml
 INFO: Content validaton for ParlaMint-ES_2015-06-25-CD150625.ana.xml
 INFO: Link checking for ParlaMint-ES_2015-06-25-CD150625.ana.xml
@@ -357,6 +482,10 @@ INFO: XML validation for ParlaMint-ES_2015-07-07-CD150707.ana.xml
 INFO: Content validaton for ParlaMint-ES_2015-07-07-CD150707.ana.xml
 INFO: Link checking for ParlaMint-ES_2015-07-07-CD150707.ana.xml
 INFO ParlaMint-ES_2015-07-07-CD150707.ana: Checking links in ParlaMint-ES_2015-07-07-CD150707.ana.xml
+INFO: XML validation for ParlaMint-ES_2015-07-08-CD150708.ana.xml
+INFO: Content validaton for ParlaMint-ES_2015-07-08-CD150708.ana.xml
+INFO: Link checking for ParlaMint-ES_2015-07-08-CD150708.ana.xml
+INFO ParlaMint-ES_2015-07-08-CD150708.ana: Checking links in ParlaMint-ES_2015-07-08-CD150708.ana.xml
 INFO: XML validation for ParlaMint-ES_2015-07-15-CD150715.ana.xml
 INFO: Content validaton for ParlaMint-ES_2015-07-15-CD150715.ana.xml
 INFO: Link checking for ParlaMint-ES_2015-07-15-CD150715.ana.xml
@@ -397,6 +526,18 @@ INFO: XML validation for ParlaMint-ES_2015-09-30-CD150930.ana.xml
 INFO: Content validaton for ParlaMint-ES_2015-09-30-CD150930.ana.xml
 INFO: Link checking for ParlaMint-ES_2015-09-30-CD150930.ana.xml
 INFO ParlaMint-ES_2015-09-30-CD150930.ana: Checking links in ParlaMint-ES_2015-09-30-CD150930.ana.xml
+INFO: XML validation for ParlaMint-ES_2015-10-01-CD151001.ana.xml
+INFO: Content validaton for ParlaMint-ES_2015-10-01-CD151001.ana.xml
+INFO: Link checking for ParlaMint-ES_2015-10-01-CD151001.ana.xml
+INFO ParlaMint-ES_2015-10-01-CD151001.ana: Checking links in ParlaMint-ES_2015-10-01-CD151001.ana.xml
+INFO: XML validation for ParlaMint-ES_2015-10-13-CD151013.ana.xml
+INFO: Content validaton for ParlaMint-ES_2015-10-13-CD151013.ana.xml
+INFO: Link checking for ParlaMint-ES_2015-10-13-CD151013.ana.xml
+INFO ParlaMint-ES_2015-10-13-CD151013.ana: Checking links in ParlaMint-ES_2015-10-13-CD151013.ana.xml
+INFO: XML validation for ParlaMint-ES_2015-10-14-CD151014.ana.xml
+INFO: Content validaton for ParlaMint-ES_2015-10-14-CD151014.ana.xml
+INFO: Link checking for ParlaMint-ES_2015-10-14-CD151014.ana.xml
+INFO ParlaMint-ES_2015-10-14-CD151014.ana: Checking links in ParlaMint-ES_2015-10-14-CD151014.ana.xml
 INFO: XML validation for ParlaMint-ES_2015-10-20-CD151020.ana.xml
 INFO: Content validaton for ParlaMint-ES_2015-10-20-CD151020.ana.xml
 INFO: Link checking for ParlaMint-ES_2015-10-20-CD151020.ana.xml
@@ -417,10 +558,22 @@ INFO: XML validation for ParlaMint-ES_2016-03-04-CD160304.ana.xml
 INFO: Content validaton for ParlaMint-ES_2016-03-04-CD160304.ana.xml
 INFO: Link checking for ParlaMint-ES_2016-03-04-CD160304.ana.xml
 INFO ParlaMint-ES_2016-03-04-CD160304.ana: Checking links in ParlaMint-ES_2016-03-04-CD160304.ana.xml
+INFO: XML validation for ParlaMint-ES_2016-03-15-CD160315.ana.xml
+INFO: Content validaton for ParlaMint-ES_2016-03-15-CD160315.ana.xml
+INFO: Link checking for ParlaMint-ES_2016-03-15-CD160315.ana.xml
+INFO ParlaMint-ES_2016-03-15-CD160315.ana: Checking links in ParlaMint-ES_2016-03-15-CD160315.ana.xml
+INFO: XML validation for ParlaMint-ES_2016-04-05-CD160405.ana.xml
+INFO: Content validaton for ParlaMint-ES_2016-04-05-CD160405.ana.xml
+INFO: Link checking for ParlaMint-ES_2016-04-05-CD160405.ana.xml
+INFO ParlaMint-ES_2016-04-05-CD160405.ana: Checking links in ParlaMint-ES_2016-04-05-CD160405.ana.xml
 INFO: XML validation for ParlaMint-ES_2016-04-06-CD160406.ana.xml
 INFO: Content validaton for ParlaMint-ES_2016-04-06-CD160406.ana.xml
 INFO: Link checking for ParlaMint-ES_2016-04-06-CD160406.ana.xml
 INFO ParlaMint-ES_2016-04-06-CD160406.ana: Checking links in ParlaMint-ES_2016-04-06-CD160406.ana.xml
+INFO: XML validation for ParlaMint-ES_2016-04-12-CD160412.ana.xml
+INFO: Content validaton for ParlaMint-ES_2016-04-12-CD160412.ana.xml
+INFO: Link checking for ParlaMint-ES_2016-04-12-CD160412.ana.xml
+INFO ParlaMint-ES_2016-04-12-CD160412.ana: Checking links in ParlaMint-ES_2016-04-12-CD160412.ana.xml
 INFO: XML validation for ParlaMint-ES_2016-04-13-CD160413.ana.xml
 INFO: Content validaton for ParlaMint-ES_2016-04-13-CD160413.ana.xml
 INFO: Link checking for ParlaMint-ES_2016-04-13-CD160413.ana.xml
@@ -438,6 +591,10 @@ INFO: Content validaton for ParlaMint-ES_2016-04-27-CD160427.ana.xml
 WARN ParlaMint-ES_2016-04-27-CD160427.ana: Trailing space in head: TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO VASCO , DE REFORMA DE LA LEY 9/1968, DE 5 DE ABRIL, SOBRE SECRETOS OFICIALES. 
 INFO: Link checking for ParlaMint-ES_2016-04-27-CD160427.ana.xml
 INFO ParlaMint-ES_2016-04-27-CD160427.ana: Checking links in ParlaMint-ES_2016-04-27-CD160427.ana.xml
+INFO: XML validation for ParlaMint-ES_2016-04-28-CD160428.ana.xml
+INFO: Content validaton for ParlaMint-ES_2016-04-28-CD160428.ana.xml
+INFO: Link checking for ParlaMint-ES_2016-04-28-CD160428.ana.xml
+INFO ParlaMint-ES_2016-04-28-CD160428.ana: Checking links in ParlaMint-ES_2016-04-28-CD160428.ana.xml
 INFO: XML validation for ParlaMint-ES_2016-07-19-CD160719.ana.xml
 INFO: Content validaton for ParlaMint-ES_2016-07-19-CD160719.ana.xml
 INFO: Link checking for ParlaMint-ES_2016-07-19-CD160719.ana.xml
@@ -510,14 +667,30 @@ INFO: XML validation for ParlaMint-ES_2016-12-14-CD161214.ana.xml
 INFO: Content validaton for ParlaMint-ES_2016-12-14-CD161214.ana.xml
 INFO: Link checking for ParlaMint-ES_2016-12-14-CD161214.ana.xml
 INFO ParlaMint-ES_2016-12-14-CD161214.ana: Checking links in ParlaMint-ES_2016-12-14-CD161214.ana.xml
+INFO: XML validation for ParlaMint-ES_2016-12-15-CD161215.ana.xml
+INFO: Content validaton for ParlaMint-ES_2016-12-15-CD161215.ana.xml
+INFO: Link checking for ParlaMint-ES_2016-12-15-CD161215.ana.xml
+INFO ParlaMint-ES_2016-12-15-CD161215.ana: Checking links in ParlaMint-ES_2016-12-15-CD161215.ana.xml
+INFO: XML validation for ParlaMint-ES_2016-12-20-CD161220.ana.xml
+INFO: Content validaton for ParlaMint-ES_2016-12-20-CD161220.ana.xml
+INFO: Link checking for ParlaMint-ES_2016-12-20-CD161220.ana.xml
+INFO ParlaMint-ES_2016-12-20-CD161220.ana: Checking links in ParlaMint-ES_2016-12-20-CD161220.ana.xml
 INFO: XML validation for ParlaMint-ES_2016-12-21-CD161221.ana.xml
 INFO: Content validaton for ParlaMint-ES_2016-12-21-CD161221.ana.xml
 INFO: Link checking for ParlaMint-ES_2016-12-21-CD161221.ana.xml
 INFO ParlaMint-ES_2016-12-21-CD161221.ana: Checking links in ParlaMint-ES_2016-12-21-CD161221.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-01-31-CD170131.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-01-31-CD170131.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-01-31-CD170131.ana.xml
+INFO ParlaMint-ES_2017-01-31-CD170131.ana: Checking links in ParlaMint-ES_2017-01-31-CD170131.ana.xml
 INFO: XML validation for ParlaMint-ES_2017-02-01-CD170201.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-02-01-CD170201.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-02-01-CD170201.ana.xml
 INFO ParlaMint-ES_2017-02-01-CD170201.ana: Checking links in ParlaMint-ES_2017-02-01-CD170201.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-02-02-CD170202.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-02-02-CD170202.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-02-02-CD170202.ana.xml
+INFO ParlaMint-ES_2017-02-02-CD170202.ana: Checking links in ParlaMint-ES_2017-02-02-CD170202.ana.xml
 INFO: XML validation for ParlaMint-ES_2017-02-14-CD170214.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-02-14-CD170214.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-02-14-CD170214.ana.xml
@@ -534,6 +707,10 @@ INFO: XML validation for ParlaMint-ES_2017-02-21-CD170221.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-02-21-CD170221.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-02-21-CD170221.ana.xml
 INFO ParlaMint-ES_2017-02-21-CD170221.ana: Checking links in ParlaMint-ES_2017-02-21-CD170221.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-02-22-CD170222.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-02-22-CD170222.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-02-22-CD170222.ana.xml
+INFO ParlaMint-ES_2017-02-22-CD170222.ana: Checking links in ParlaMint-ES_2017-02-22-CD170222.ana.xml
 INFO: XML validation for ParlaMint-ES_2017-03-07-CD170307.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-03-07-CD170307.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-03-07-CD170307.ana.xml
@@ -546,6 +723,10 @@ INFO: XML validation for ParlaMint-ES_2017-03-09-CD170309.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-03-09-CD170309.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-03-09-CD170309.ana.xml
 INFO ParlaMint-ES_2017-03-09-CD170309.ana: Checking links in ParlaMint-ES_2017-03-09-CD170309.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-03-14-CD170314.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-03-14-CD170314.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-03-14-CD170314.ana.xml
+INFO ParlaMint-ES_2017-03-14-CD170314.ana: Checking links in ParlaMint-ES_2017-03-14-CD170314.ana.xml
 INFO: XML validation for ParlaMint-ES_2017-03-15-CD170315.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-03-15-CD170315.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-03-15-CD170315.ana.xml
@@ -566,6 +747,18 @@ INFO: XML validation for ParlaMint-ES_2017-03-28-CD170328.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-03-28-CD170328.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-03-28-CD170328.ana.xml
 INFO ParlaMint-ES_2017-03-28-CD170328.ana: Checking links in ParlaMint-ES_2017-03-28-CD170328.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-03-29-CD170329.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-03-29-CD170329.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-03-29-CD170329.ana.xml
+INFO ParlaMint-ES_2017-03-29-CD170329.ana: Checking links in ParlaMint-ES_2017-03-29-CD170329.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-03-30-CD170330.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-03-30-CD170330.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-03-30-CD170330.ana.xml
+INFO ParlaMint-ES_2017-03-30-CD170330.ana: Checking links in ParlaMint-ES_2017-03-30-CD170330.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-04-04-CD170404.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-04-04-CD170404.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-04-04-CD170404.ana.xml
+INFO ParlaMint-ES_2017-04-04-CD170404.ana: Checking links in ParlaMint-ES_2017-04-04-CD170404.ana.xml
 INFO: XML validation for ParlaMint-ES_2017-04-05-CD170405.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-04-05-CD170405.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-04-05-CD170405.ana.xml
@@ -574,6 +767,10 @@ INFO: XML validation for ParlaMint-ES_2017-04-06-CD170406.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-04-06-CD170406.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-04-06-CD170406.ana.xml
 INFO ParlaMint-ES_2017-04-06-CD170406.ana: Checking links in ParlaMint-ES_2017-04-06-CD170406.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-05-03-CD170503.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-05-03-CD170503.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-05-03-CD170503.ana.xml
+INFO ParlaMint-ES_2017-05-03-CD170503.ana: Checking links in ParlaMint-ES_2017-05-03-CD170503.ana.xml
 INFO: XML validation for ParlaMint-ES_2017-05-04-CD170504.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-05-04-CD170504.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-05-04-CD170504.ana.xml
@@ -607,6 +804,10 @@ INFO: XML validation for ParlaMint-ES_2017-05-29-CD170529.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-05-29-CD170529.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-05-29-CD170529.ana.xml
 INFO ParlaMint-ES_2017-05-29-CD170529.ana: Checking links in ParlaMint-ES_2017-05-29-CD170529.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-06-21-CD170621.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-06-21-CD170621.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-06-21-CD170621.ana.xml
+INFO ParlaMint-ES_2017-06-21-CD170621.ana: Checking links in ParlaMint-ES_2017-06-21-CD170621.ana.xml
 INFO: XML validation for ParlaMint-ES_2017-06-27-CD170627.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-06-27-CD170627.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-06-27-CD170627.ana.xml
@@ -663,6 +864,10 @@ INFO: XML validation for ParlaMint-ES_2017-10-10-CD171010.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-10-10-CD171010.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-10-10-CD171010.ana.xml
 INFO ParlaMint-ES_2017-10-10-CD171010.ana: Checking links in ParlaMint-ES_2017-10-10-CD171010.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-10-11-CD171011.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-10-11-CD171011.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-10-11-CD171011.ana.xml
+INFO ParlaMint-ES_2017-10-11-CD171011.ana: Checking links in ParlaMint-ES_2017-10-11-CD171011.ana.xml
 INFO: XML validation for ParlaMint-ES_2017-10-17-CD171017.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-10-17-CD171017.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-10-17-CD171017.ana.xml
@@ -671,18 +876,46 @@ INFO: XML validation for ParlaMint-ES_2017-10-18-CD171018.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-10-18-CD171018.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-10-18-CD171018.ana.xml
 INFO ParlaMint-ES_2017-10-18-CD171018.ana: Checking links in ParlaMint-ES_2017-10-18-CD171018.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-10-19-CD171019.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-10-19-CD171019.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-10-19-CD171019.ana.xml
+INFO ParlaMint-ES_2017-10-19-CD171019.ana: Checking links in ParlaMint-ES_2017-10-19-CD171019.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-10-24-CD171024.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-10-24-CD171024.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-10-24-CD171024.ana.xml
+INFO ParlaMint-ES_2017-10-24-CD171024.ana: Checking links in ParlaMint-ES_2017-10-24-CD171024.ana.xml
 INFO: XML validation for ParlaMint-ES_2017-10-25-CD171025.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-10-25-CD171025.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-10-25-CD171025.ana.xml
 INFO ParlaMint-ES_2017-10-25-CD171025.ana: Checking links in ParlaMint-ES_2017-10-25-CD171025.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-11-07-CD171107.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-11-07-CD171107.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-11-07-CD171107.ana.xml
+INFO ParlaMint-ES_2017-11-07-CD171107.ana: Checking links in ParlaMint-ES_2017-11-07-CD171107.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-11-08-CD171108.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-11-08-CD171108.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-11-08-CD171108.ana.xml
+INFO ParlaMint-ES_2017-11-08-CD171108.ana: Checking links in ParlaMint-ES_2017-11-08-CD171108.ana.xml
 INFO: XML validation for ParlaMint-ES_2017-11-14-CD171114.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-11-14-CD171114.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-11-14-CD171114.ana.xml
 INFO ParlaMint-ES_2017-11-14-CD171114.ana: Checking links in ParlaMint-ES_2017-11-14-CD171114.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-11-15-CD171115.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-11-15-CD171115.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-11-15-CD171115.ana.xml
+INFO ParlaMint-ES_2017-11-15-CD171115.ana: Checking links in ParlaMint-ES_2017-11-15-CD171115.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-11-21-CD171121.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-11-21-CD171121.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-11-21-CD171121.ana.xml
+INFO ParlaMint-ES_2017-11-21-CD171121.ana: Checking links in ParlaMint-ES_2017-11-21-CD171121.ana.xml
 INFO: XML validation for ParlaMint-ES_2017-11-22-CD171122.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-11-22-CD171122.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-11-22-CD171122.ana.xml
 INFO ParlaMint-ES_2017-11-22-CD171122.ana: Checking links in ParlaMint-ES_2017-11-22-CD171122.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-11-23-CD171123.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-11-23-CD171123.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-11-23-CD171123.ana.xml
+INFO ParlaMint-ES_2017-11-23-CD171123.ana: Checking links in ParlaMint-ES_2017-11-23-CD171123.ana.xml
 INFO: XML validation for ParlaMint-ES_2017-11-28-CD171128.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-11-28-CD171128.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-11-28-CD171128.ana.xml
@@ -695,6 +928,18 @@ INFO: XML validation for ParlaMint-ES_2017-11-30-CD171130.ana.xml
 INFO: Content validaton for ParlaMint-ES_2017-11-30-CD171130.ana.xml
 INFO: Link checking for ParlaMint-ES_2017-11-30-CD171130.ana.xml
 INFO ParlaMint-ES_2017-11-30-CD171130.ana: Checking links in ParlaMint-ES_2017-11-30-CD171130.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-12-12-CD171212.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-12-12-CD171212.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-12-12-CD171212.ana.xml
+INFO ParlaMint-ES_2017-12-12-CD171212.ana: Checking links in ParlaMint-ES_2017-12-12-CD171212.ana.xml
+INFO: XML validation for ParlaMint-ES_2017-12-13-CD171213.ana.xml
+INFO: Content validaton for ParlaMint-ES_2017-12-13-CD171213.ana.xml
+INFO: Link checking for ParlaMint-ES_2017-12-13-CD171213.ana.xml
+INFO ParlaMint-ES_2017-12-13-CD171213.ana: Checking links in ParlaMint-ES_2017-12-13-CD171213.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-02-06-CD180206.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-02-06-CD180206.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-02-06-CD180206.ana.xml
+INFO ParlaMint-ES_2018-02-06-CD180206.ana: Checking links in ParlaMint-ES_2018-02-06-CD180206.ana.xml
 INFO: XML validation for ParlaMint-ES_2018-02-07-CD180207.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-02-07-CD180207.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-02-07-CD180207.ana.xml
@@ -707,6 +952,10 @@ INFO: XML validation for ParlaMint-ES_2018-02-14-CD180214.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-02-14-CD180214.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-02-14-CD180214.ana.xml
 INFO ParlaMint-ES_2018-02-14-CD180214.ana: Checking links in ParlaMint-ES_2018-02-14-CD180214.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-02-15-CD180215.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-02-15-CD180215.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-02-15-CD180215.ana.xml
+INFO ParlaMint-ES_2018-02-15-CD180215.ana: Checking links in ParlaMint-ES_2018-02-15-CD180215.ana.xml
 INFO: XML validation for ParlaMint-ES_2018-02-20-CD180220.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-02-20-CD180220.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-02-20-CD180220.ana.xml
@@ -731,6 +980,14 @@ INFO: XML validation for ParlaMint-ES_2018-03-15-CD180315.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-03-15-CD180315.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-03-15-CD180315.ana.xml
 INFO ParlaMint-ES_2018-03-15-CD180315.ana: Checking links in ParlaMint-ES_2018-03-15-CD180315.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-03-20-CD180320.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-03-20-CD180320.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-03-20-CD180320.ana.xml
+INFO ParlaMint-ES_2018-03-20-CD180320.ana: Checking links in ParlaMint-ES_2018-03-20-CD180320.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-03-21-CD180321.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-03-21-CD180321.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-03-21-CD180321.ana.xml
+INFO ParlaMint-ES_2018-03-21-CD180321.ana: Checking links in ParlaMint-ES_2018-03-21-CD180321.ana.xml
 INFO: XML validation for ParlaMint-ES_2018-04-10-CD180410.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-04-10-CD180410.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-04-10-CD180410.ana.xml
@@ -747,18 +1004,38 @@ INFO: XML validation for ParlaMint-ES_2018-04-25-CD180425.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-04-25-CD180425.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-04-25-CD180425.ana.xml
 INFO ParlaMint-ES_2018-04-25-CD180425.ana: Checking links in ParlaMint-ES_2018-04-25-CD180425.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-04-26-CD180426.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-04-26-CD180426.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-04-26-CD180426.ana.xml
+INFO ParlaMint-ES_2018-04-26-CD180426.ana: Checking links in ParlaMint-ES_2018-04-26-CD180426.ana.xml
 INFO: XML validation for ParlaMint-ES_2018-05-08-CD180508.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-05-08-CD180508.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-05-08-CD180508.ana.xml
 INFO ParlaMint-ES_2018-05-08-CD180508.ana: Checking links in ParlaMint-ES_2018-05-08-CD180508.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-05-09-CD180509.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-05-09-CD180509.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-05-09-CD180509.ana.xml
+INFO ParlaMint-ES_2018-05-09-CD180509.ana: Checking links in ParlaMint-ES_2018-05-09-CD180509.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-05-10-CD180510.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-05-10-CD180510.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-05-10-CD180510.ana.xml
+INFO ParlaMint-ES_2018-05-10-CD180510.ana: Checking links in ParlaMint-ES_2018-05-10-CD180510.ana.xml
 INFO: XML validation for ParlaMint-ES_2018-05-21-CD180521.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-05-21-CD180521.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-05-21-CD180521.ana.xml
 INFO ParlaMint-ES_2018-05-21-CD180521.ana: Checking links in ParlaMint-ES_2018-05-21-CD180521.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-05-22-CD180522.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-05-22-CD180522.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-05-22-CD180522.ana.xml
+INFO ParlaMint-ES_2018-05-22-CD180522.ana: Checking links in ParlaMint-ES_2018-05-22-CD180522.ana.xml
 INFO: XML validation for ParlaMint-ES_2018-05-23-CD180523.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-05-23-CD180523.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-05-23-CD180523.ana.xml
 INFO ParlaMint-ES_2018-05-23-CD180523.ana: Checking links in ParlaMint-ES_2018-05-23-CD180523.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-05-29-CD180529.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-05-29-CD180529.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-05-29-CD180529.ana.xml
+INFO ParlaMint-ES_2018-05-29-CD180529.ana: Checking links in ParlaMint-ES_2018-05-29-CD180529.ana.xml
 INFO: XML validation for ParlaMint-ES_2018-05-30-CD180530.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-05-30-CD180530.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-05-30-CD180530.ana.xml
@@ -787,6 +1064,10 @@ INFO: XML validation for ParlaMint-ES_2018-06-26-CD180626.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-06-26-CD180626.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-06-26-CD180626.ana.xml
 INFO ParlaMint-ES_2018-06-26-CD180626.ana: Checking links in ParlaMint-ES_2018-06-26-CD180626.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-06-27-CD180627.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-06-27-CD180627.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-06-27-CD180627.ana.xml
+INFO ParlaMint-ES_2018-06-27-CD180627.ana: Checking links in ParlaMint-ES_2018-06-27-CD180627.ana.xml
 INFO: XML validation for ParlaMint-ES_2018-06-28-CD180628.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-06-28-CD180628.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-06-28-CD180628.ana.xml
@@ -807,6 +1088,10 @@ INFO: XML validation for ParlaMint-ES_2018-07-16-CD180716.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-07-16-CD180716.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-07-16-CD180716.ana.xml
 INFO ParlaMint-ES_2018-07-16-CD180716.ana: Checking links in ParlaMint-ES_2018-07-16-CD180716.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-07-17-CD180717.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-07-17-CD180717.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-07-17-CD180717.ana.xml
+INFO ParlaMint-ES_2018-07-17-CD180717.ana: Checking links in ParlaMint-ES_2018-07-17-CD180717.ana.xml
 INFO: XML validation for ParlaMint-ES_2018-07-25-CD180725.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-07-25-CD180725.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-07-25-CD180725.ana.xml
@@ -847,6 +1132,10 @@ INFO: XML validation for ParlaMint-ES_2018-09-25-CD180925.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-09-25-CD180925.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-09-25-CD180925.ana.xml
 INFO ParlaMint-ES_2018-09-25-CD180925.ana: Checking links in ParlaMint-ES_2018-09-25-CD180925.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-09-26-CD180926.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-09-26-CD180926.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-09-26-CD180926.ana.xml
+INFO ParlaMint-ES_2018-09-26-CD180926.ana: Checking links in ParlaMint-ES_2018-09-26-CD180926.ana.xml
 INFO: XML validation for ParlaMint-ES_2018-10-09-CD181009.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-10-09-CD181009.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-10-09-CD181009.ana.xml
@@ -855,6 +1144,10 @@ INFO: XML validation for ParlaMint-ES_2018-10-10-CD181010.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-10-10-CD181010.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-10-10-CD181010.ana.xml
 INFO ParlaMint-ES_2018-10-10-CD181010.ana: Checking links in ParlaMint-ES_2018-10-10-CD181010.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-10-16-CD181016.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-10-16-CD181016.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-10-16-CD181016.ana.xml
+INFO ParlaMint-ES_2018-10-16-CD181016.ana: Checking links in ParlaMint-ES_2018-10-16-CD181016.ana.xml
 INFO: XML validation for ParlaMint-ES_2018-10-17-CD181017.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-10-17-CD181017.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-10-17-CD181017.ana.xml
@@ -867,10 +1160,18 @@ INFO: XML validation for ParlaMint-ES_2018-10-23-CD181023.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-10-23-CD181023.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-10-23-CD181023.ana.xml
 INFO ParlaMint-ES_2018-10-23-CD181023.ana: Checking links in ParlaMint-ES_2018-10-23-CD181023.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-10-24-CD181024.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-10-24-CD181024.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-10-24-CD181024.ana.xml
+INFO ParlaMint-ES_2018-10-24-CD181024.ana: Checking links in ParlaMint-ES_2018-10-24-CD181024.ana.xml
 INFO: XML validation for ParlaMint-ES_2018-10-25-CD181025.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-10-25-CD181025.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-10-25-CD181025.ana.xml
 INFO ParlaMint-ES_2018-10-25-CD181025.ana: Checking links in ParlaMint-ES_2018-10-25-CD181025.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-10-30-CD181030.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-10-30-CD181030.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-10-30-CD181030.ana.xml
+INFO ParlaMint-ES_2018-10-30-CD181030.ana: Checking links in ParlaMint-ES_2018-10-30-CD181030.ana.xml
 INFO: XML validation for ParlaMint-ES_2018-11-13-CD181113.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-11-13-CD181113.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-11-13-CD181113.ana.xml
@@ -891,6 +1192,10 @@ INFO: XML validation for ParlaMint-ES_2018-11-21-CD181121.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-11-21-CD181121.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-11-21-CD181121.ana.xml
 INFO ParlaMint-ES_2018-11-21-CD181121.ana: Checking links in ParlaMint-ES_2018-11-21-CD181121.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-11-22-CD181122.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-11-22-CD181122.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-11-22-CD181122.ana.xml
+INFO ParlaMint-ES_2018-11-22-CD181122.ana: Checking links in ParlaMint-ES_2018-11-22-CD181122.ana.xml
 INFO: XML validation for ParlaMint-ES_2018-12-11-CD181211.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-12-11-CD181211.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-12-11-CD181211.ana.xml
@@ -899,6 +1204,26 @@ INFO: XML validation for ParlaMint-ES_2018-12-12-CD181212.ana.xml
 INFO: Content validaton for ParlaMint-ES_2018-12-12-CD181212.ana.xml
 INFO: Link checking for ParlaMint-ES_2018-12-12-CD181212.ana.xml
 INFO ParlaMint-ES_2018-12-12-CD181212.ana: Checking links in ParlaMint-ES_2018-12-12-CD181212.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-12-13-CD181213.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-12-13-CD181213.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-12-13-CD181213.ana.xml
+INFO ParlaMint-ES_2018-12-13-CD181213.ana: Checking links in ParlaMint-ES_2018-12-13-CD181213.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-12-18-CD181218.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-12-18-CD181218.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-12-18-CD181218.ana.xml
+INFO ParlaMint-ES_2018-12-18-CD181218.ana: Checking links in ParlaMint-ES_2018-12-18-CD181218.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-12-19-CD181219.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-12-19-CD181219.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-12-19-CD181219.ana.xml
+INFO ParlaMint-ES_2018-12-19-CD181219.ana: Checking links in ParlaMint-ES_2018-12-19-CD181219.ana.xml
+INFO: XML validation for ParlaMint-ES_2018-12-20-CD181220.ana.xml
+INFO: Content validaton for ParlaMint-ES_2018-12-20-CD181220.ana.xml
+INFO: Link checking for ParlaMint-ES_2018-12-20-CD181220.ana.xml
+INFO ParlaMint-ES_2018-12-20-CD181220.ana: Checking links in ParlaMint-ES_2018-12-20-CD181220.ana.xml
+INFO: XML validation for ParlaMint-ES_2019-01-22-CD190122.ana.xml
+INFO: Content validaton for ParlaMint-ES_2019-01-22-CD190122.ana.xml
+INFO: Link checking for ParlaMint-ES_2019-01-22-CD190122.ana.xml
+INFO ParlaMint-ES_2019-01-22-CD190122.ana: Checking links in ParlaMint-ES_2019-01-22-CD190122.ana.xml
 INFO: XML validation for ParlaMint-ES_2019-02-12-CD190212.ana.xml
 INFO: Content validaton for ParlaMint-ES_2019-02-12-CD190212.ana.xml
 INFO: Link checking for ParlaMint-ES_2019-02-12-CD190212.ana.xml
@@ -919,6 +1244,10 @@ INFO: XML validation for ParlaMint-ES_2019-02-21-CD190221.ana.xml
 INFO: Content validaton for ParlaMint-ES_2019-02-21-CD190221.ana.xml
 INFO: Link checking for ParlaMint-ES_2019-02-21-CD190221.ana.xml
 INFO ParlaMint-ES_2019-02-21-CD190221.ana: Checking links in ParlaMint-ES_2019-02-21-CD190221.ana.xml
+INFO: XML validation for ParlaMint-ES_2019-02-26-CD190226.ana.xml
+INFO: Content validaton for ParlaMint-ES_2019-02-26-CD190226.ana.xml
+INFO: Link checking for ParlaMint-ES_2019-02-26-CD190226.ana.xml
+INFO ParlaMint-ES_2019-02-26-CD190226.ana: Checking links in ParlaMint-ES_2019-02-26-CD190226.ana.xml
 INFO: XML validation for ParlaMint-ES_2019-02-27-CD190227.ana.xml
 INFO: Content validaton for ParlaMint-ES_2019-02-27-CD190227.ana.xml
 INFO: Link checking for ParlaMint-ES_2019-02-27-CD190227.ana.xml
@@ -939,8 +1268,11 @@ INFO: XML validation for ParlaMint-ES_2019-07-23-CD190723.ana.xml
 INFO: Content validaton for ParlaMint-ES_2019-07-23-CD190723.ana.xml
 INFO: Link checking for ParlaMint-ES_2019-07-23-CD190723.ana.xml
 INFO ParlaMint-ES_2019-07-23-CD190723.ana: Checking links in ParlaMint-ES_2019-07-23-CD190723.ana.xml
+INFO: XML validation for ParlaMint-ES_2019-07-25-CD190725.ana.xml
+INFO: Content validaton for ParlaMint-ES_2019-07-25-CD190725.ana.xml
+INFO: Link checking for ParlaMint-ES_2019-07-25-CD190725.ana.xml
+INFO ParlaMint-ES_2019-07-25-CD190725.ana: Checking links in ParlaMint-ES_2019-07-25-CD190725.ana.xml
 INFO: XML validation for ParlaMint-ES_2019-09-10-CD190910.ana.xml
-/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/tmp/ParlaMint-ES_2019-09-10-CD190910.ana.xml:74427:70: error: element "seg" incomplete; expected element "gap", "incident", "kinesic", "note", "s" or "vocal"
 INFO: Content validaton for ParlaMint-ES_2019-09-10-CD190910.ana.xml
 WARN ParlaMint-ES_2019-09-10-CD190910.ana: Trailing space in head: SOLICITUDES DE CREACIÓN DE COMISIONES DE INVESTIGACIÓN - SOLICITUD, FORMULADA POR LOS GRUPOS PARLAMENTARIOS CONFEDERAL DE UNIDAS PODEMOS-EN COMÚ PODEM-GALICIA EN COMÚN Y REPUBLICANO, DE CREACIÓN DE UNA COMISIÓN DE INVESTIGACIÓN RELATIVA AL ACCIDENTE DEL VUELO JK 5022 DE SPANAIR. 
 INFO: Link checking for ParlaMint-ES_2019-09-10-CD190910.ana.xml
@@ -949,12 +1281,19 @@ INFO: XML validation for ParlaMint-ES_2019-09-11-CD190911.ana.xml
 INFO: Content validaton for ParlaMint-ES_2019-09-11-CD190911.ana.xml
 INFO: Link checking for ParlaMint-ES_2019-09-11-CD190911.ana.xml
 INFO ParlaMint-ES_2019-09-11-CD190911.ana: Checking links in ParlaMint-ES_2019-09-11-CD190911.ana.xml
+INFO: XML validation for ParlaMint-ES_2019-09-17-CD190917.ana.xml
+INFO: Content validaton for ParlaMint-ES_2019-09-17-CD190917.ana.xml
+INFO: Link checking for ParlaMint-ES_2019-09-17-CD190917.ana.xml
+INFO ParlaMint-ES_2019-09-17-CD190917.ana: Checking links in ParlaMint-ES_2019-09-17-CD190917.ana.xml
+INFO: XML validation for ParlaMint-ES_2019-09-18-CD190918.ana.xml
+INFO: Content validaton for ParlaMint-ES_2019-09-18-CD190918.ana.xml
+INFO: Link checking for ParlaMint-ES_2019-09-18-CD190918.ana.xml
+INFO ParlaMint-ES_2019-09-18-CD190918.ana: Checking links in ParlaMint-ES_2019-09-18-CD190918.ana.xml
 INFO: XML validation for ParlaMint-ES_2019-12-03-CD191203.ana.xml
 INFO: Content validaton for ParlaMint-ES_2019-12-03-CD191203.ana.xml
 INFO: Link checking for ParlaMint-ES_2019-12-03-CD191203.ana.xml
 INFO ParlaMint-ES_2019-12-03-CD191203.ana: Checking links in ParlaMint-ES_2019-12-03-CD191203.ana.xml
 INFO: XML validation for ParlaMint-ES_2020-01-04-CD200104.ana.xml
-/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/tmp/ParlaMint-ES_2020-01-04-CD200104.ana.xml:411:69: error: element "seg" incomplete; expected element "gap", "incident", "kinesic", "note", "s" or "vocal"
 INFO: Content validaton for ParlaMint-ES_2020-01-04-CD200104.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-01-04-CD200104.ana.xml
 INFO ParlaMint-ES_2020-01-04-CD200104.ana: Checking links in ParlaMint-ES_2020-01-04-CD200104.ana.xml
@@ -986,10 +1325,18 @@ INFO: XML validation for ParlaMint-ES_2020-02-19-CD200219.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-02-19-CD200219.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-02-19-CD200219.ana.xml
 INFO ParlaMint-ES_2020-02-19-CD200219.ana: Checking links in ParlaMint-ES_2020-02-19-CD200219.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-02-20-CD200220.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-02-20-CD200220.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-02-20-CD200220.ana.xml
+INFO ParlaMint-ES_2020-02-20-CD200220.ana: Checking links in ParlaMint-ES_2020-02-20-CD200220.ana.xml
 INFO: XML validation for ParlaMint-ES_2020-02-25-CD200225.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-02-25-CD200225.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-02-25-CD200225.ana.xml
 INFO ParlaMint-ES_2020-02-25-CD200225.ana: Checking links in ParlaMint-ES_2020-02-25-CD200225.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-02-26-CD200226.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-02-26-CD200226.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-02-26-CD200226.ana.xml
+INFO ParlaMint-ES_2020-02-26-CD200226.ana: Checking links in ParlaMint-ES_2020-02-26-CD200226.ana.xml
 INFO: XML validation for ParlaMint-ES_2020-02-27-CD200227.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-02-27-CD200227.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-02-27-CD200227.ana.xml
@@ -1014,6 +1361,10 @@ INFO: XML validation for ParlaMint-ES_2020-04-22-CD200422.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-04-22-CD200422.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-04-22-CD200422.ana.xml
 INFO ParlaMint-ES_2020-04-22-CD200422.ana: Checking links in ParlaMint-ES_2020-04-22-CD200422.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-04-29-CD200429.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-04-29-CD200429.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-04-29-CD200429.ana.xml
+INFO ParlaMint-ES_2020-04-29-CD200429.ana: Checking links in ParlaMint-ES_2020-04-29-CD200429.ana.xml
 INFO: XML validation for ParlaMint-ES_2020-05-06-CD200506.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-05-06-CD200506.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-05-06-CD200506.ana.xml
@@ -1030,10 +1381,38 @@ INFO: XML validation for ParlaMint-ES_2020-05-27-CD200527.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-05-27-CD200527.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-05-27-CD200527.ana.xml
 INFO ParlaMint-ES_2020-05-27-CD200527.ana: Checking links in ParlaMint-ES_2020-05-27-CD200527.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-06-03-CD200603.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-06-03-CD200603.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-06-03-CD200603.ana.xml
+INFO ParlaMint-ES_2020-06-03-CD200603.ana: Checking links in ParlaMint-ES_2020-06-03-CD200603.ana.xml
 INFO: XML validation for ParlaMint-ES_2020-06-04-CD200604.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-06-04-CD200604.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-06-04-CD200604.ana.xml
 INFO ParlaMint-ES_2020-06-04-CD200604.ana: Checking links in ParlaMint-ES_2020-06-04-CD200604.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-06-10-CD200610.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-06-10-CD200610.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-06-10-CD200610.ana.xml
+INFO ParlaMint-ES_2020-06-10-CD200610.ana: Checking links in ParlaMint-ES_2020-06-10-CD200610.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-06-11-CD200611.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-06-11-CD200611.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-06-11-CD200611.ana.xml
+INFO ParlaMint-ES_2020-06-11-CD200611.ana: Checking links in ParlaMint-ES_2020-06-11-CD200611.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-06-16-CD200616.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-06-16-CD200616.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-06-16-CD200616.ana.xml
+INFO ParlaMint-ES_2020-06-16-CD200616.ana: Checking links in ParlaMint-ES_2020-06-16-CD200616.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-06-17-CD200617.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-06-17-CD200617.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-06-17-CD200617.ana.xml
+INFO ParlaMint-ES_2020-06-17-CD200617.ana: Checking links in ParlaMint-ES_2020-06-17-CD200617.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-06-23-CD200623.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-06-23-CD200623.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-06-23-CD200623.ana.xml
+INFO ParlaMint-ES_2020-06-23-CD200623.ana: Checking links in ParlaMint-ES_2020-06-23-CD200623.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-06-24-CD200624.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-06-24-CD200624.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-06-24-CD200624.ana.xml
+INFO ParlaMint-ES_2020-06-24-CD200624.ana: Checking links in ParlaMint-ES_2020-06-24-CD200624.ana.xml
 INFO: XML validation for ParlaMint-ES_2020-06-25-CD200625.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-06-25-CD200625.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-06-25-CD200625.ana.xml
@@ -1054,6 +1433,22 @@ INFO: XML validation for ParlaMint-ES_2020-07-22-CD200722.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-07-22-CD200722.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-07-22-CD200722.ana.xml
 INFO ParlaMint-ES_2020-07-22-CD200722.ana: Checking links in ParlaMint-ES_2020-07-22-CD200722.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-07-29-CD200729.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-07-29-CD200729.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-07-29-CD200729.ana.xml
+INFO ParlaMint-ES_2020-07-29-CD200729.ana: Checking links in ParlaMint-ES_2020-07-29-CD200729.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-09-08-CD200908.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-09-08-CD200908.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-09-08-CD200908.ana.xml
+INFO ParlaMint-ES_2020-09-08-CD200908.ana: Checking links in ParlaMint-ES_2020-09-08-CD200908.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-09-09-CD200909.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-09-09-CD200909.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-09-09-CD200909.ana.xml
+INFO ParlaMint-ES_2020-09-09-CD200909.ana: Checking links in ParlaMint-ES_2020-09-09-CD200909.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-09-10-CD200910.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-09-10-CD200910.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-09-10-CD200910.ana.xml
+INFO ParlaMint-ES_2020-09-10-CD200910.ana: Checking links in ParlaMint-ES_2020-09-10-CD200910.ana.xml
 INFO: XML validation for ParlaMint-ES_2020-09-15-CD200915.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-09-15-CD200915.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-09-15-CD200915.ana.xml
@@ -1062,10 +1457,18 @@ INFO: XML validation for ParlaMint-ES_2020-09-16-CD200916.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-09-16-CD200916.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-09-16-CD200916.ana.xml
 INFO ParlaMint-ES_2020-09-16-CD200916.ana: Checking links in ParlaMint-ES_2020-09-16-CD200916.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-09-22-CD200922.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-09-22-CD200922.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-09-22-CD200922.ana.xml
+INFO ParlaMint-ES_2020-09-22-CD200922.ana: Checking links in ParlaMint-ES_2020-09-22-CD200922.ana.xml
 INFO: XML validation for ParlaMint-ES_2020-09-23-CD200923.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-09-23-CD200923.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-09-23-CD200923.ana.xml
 INFO ParlaMint-ES_2020-09-23-CD200923.ana: Checking links in ParlaMint-ES_2020-09-23-CD200923.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-09-29-CD200929.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-09-29-CD200929.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-09-29-CD200929.ana.xml
+INFO ParlaMint-ES_2020-09-29-CD200929.ana: Checking links in ParlaMint-ES_2020-09-29-CD200929.ana.xml
 INFO: XML validation for ParlaMint-ES_2020-09-30-CD200930.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-09-30-CD200930.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-09-30-CD200930.ana.xml
@@ -1078,13 +1481,26 @@ INFO: XML validation for ParlaMint-ES_2020-10-13-CD201013.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-10-13-CD201013.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-10-13-CD201013.ana.xml
 INFO ParlaMint-ES_2020-10-13-CD201013.ana: Checking links in ParlaMint-ES_2020-10-13-CD201013.ana.xml
-ERROR ParlaMint-ES_2020-10-13-CD201013.ana: ERROR: Can't find local id for link/@ana="ud-syn:&lt;PAD&gt;"
-ERROR ParlaMint-ES_2020-10-13-CD201013.ana: ERROR: Can't find local id for link/@ana="ud-syn:&lt;PAD&gt;"
-ERROR ParlaMint-ES_2020-10-13-CD201013.ana: ERROR: Can't find local id for link/@ana="ud-syn:&lt;PAD&gt;"
+INFO: XML validation for ParlaMint-ES_2020-10-14-CD201014.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-10-14-CD201014.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-10-14-CD201014.ana.xml
+INFO ParlaMint-ES_2020-10-14-CD201014.ana: Checking links in ParlaMint-ES_2020-10-14-CD201014.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-10-15-CD201015.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-10-15-CD201015.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-10-15-CD201015.ana.xml
+INFO ParlaMint-ES_2020-10-15-CD201015.ana: Checking links in ParlaMint-ES_2020-10-15-CD201015.ana.xml
 INFO: XML validation for ParlaMint-ES_2020-10-20-CD201020.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-10-20-CD201020.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-10-20-CD201020.ana.xml
 INFO ParlaMint-ES_2020-10-20-CD201020.ana: Checking links in ParlaMint-ES_2020-10-20-CD201020.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-10-21-CD201021.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-10-21-CD201021.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-10-21-CD201021.ana.xml
+INFO ParlaMint-ES_2020-10-21-CD201021.ana: Checking links in ParlaMint-ES_2020-10-21-CD201021.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-10-22-CD201022.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-10-22-CD201022.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-10-22-CD201022.ana.xml
+INFO ParlaMint-ES_2020-10-22-CD201022.ana: Checking links in ParlaMint-ES_2020-10-22-CD201022.ana.xml
 INFO: XML validation for ParlaMint-ES_2020-10-27-CD201027.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-10-27-CD201027.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-10-27-CD201027.ana.xml
@@ -1097,15 +1513,26 @@ INFO: XML validation for ParlaMint-ES_2020-10-29-CD201029.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-10-29-CD201029.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-10-29-CD201029.ana.xml
 INFO ParlaMint-ES_2020-10-29-CD201029.ana: Checking links in ParlaMint-ES_2020-10-29-CD201029.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-11-11-CD201111.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-11-11-CD201111.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-11-11-CD201111.ana.xml
+INFO ParlaMint-ES_2020-11-11-CD201111.ana: Checking links in ParlaMint-ES_2020-11-11-CD201111.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-11-12-CD201112.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-11-12-CD201112.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-11-12-CD201112.ana.xml
+INFO ParlaMint-ES_2020-11-12-CD201112.ana: Checking links in ParlaMint-ES_2020-11-12-CD201112.ana.xml
 INFO: XML validation for ParlaMint-ES_2020-11-17-CD201117.ana.xml
-/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/tmp/ParlaMint-ES_2020-11-17-CD201117.ana.xml:55347:70: error: element "seg" incomplete; expected element "gap", "incident", "kinesic", "note", "s" or "vocal"
-/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/tmp/ParlaMint-ES_2020-11-17-CD201117.ana.xml:55452:70: error: element "seg" incomplete; expected element "gap", "incident", "kinesic", "note", "s" or "vocal"
-/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/tmp/ParlaMint-ES_2020-11-17-CD201117.ana.xml:55522:70: error: element "seg" incomplete; expected element "gap", "incident", "kinesic", "note", "s" or "vocal"
-/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/tmp/ParlaMint-ES_2020-11-17-CD201117.ana.xml:60109:71: error: element "seg" incomplete; expected element "gap", "incident", "kinesic", "note", "s" or "vocal"
-/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/tmp/ParlaMint-ES_2020-11-17-CD201117.ana.xml:60168:71: error: element "seg" incomplete; expected element "gap", "incident", "kinesic", "note", "s" or "vocal"
 INFO: Content validaton for ParlaMint-ES_2020-11-17-CD201117.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-11-17-CD201117.ana.xml
 INFO ParlaMint-ES_2020-11-17-CD201117.ana: Checking links in ParlaMint-ES_2020-11-17-CD201117.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-11-18-CD201118.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-11-18-CD201118.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-11-18-CD201118.ana.xml
+INFO ParlaMint-ES_2020-11-18-CD201118.ana: Checking links in ParlaMint-ES_2020-11-18-CD201118.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-11-30-CD201130.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-11-30-CD201130.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-11-30-CD201130.ana.xml
+INFO ParlaMint-ES_2020-11-30-CD201130.ana: Checking links in ParlaMint-ES_2020-11-30-CD201130.ana.xml
 INFO: XML validation for ParlaMint-ES_2020-12-01-CD201201.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-12-01-CD201201.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-12-01-CD201201.ana.xml
@@ -1118,6 +1545,10 @@ INFO: XML validation for ParlaMint-ES_2020-12-03-CD201203.ana.xml
 INFO: Content validaton for ParlaMint-ES_2020-12-03-CD201203.ana.xml
 INFO: Link checking for ParlaMint-ES_2020-12-03-CD201203.ana.xml
 INFO ParlaMint-ES_2020-12-03-CD201203.ana: Checking links in ParlaMint-ES_2020-12-03-CD201203.ana.xml
+INFO: XML validation for ParlaMint-ES_2020-12-15-CD201215.ana.xml
+INFO: Content validaton for ParlaMint-ES_2020-12-15-CD201215.ana.xml
+INFO: Link checking for ParlaMint-ES_2020-12-15-CD201215.ana.xml
+INFO ParlaMint-ES_2020-12-15-CD201215.ana: Checking links in ParlaMint-ES_2020-12-15-CD201215.ana.xml
 make[1]: Leaving directory '/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC'
-7542.61user 955.52system 21:39.01elapsed 654%CPU (0avgtext+0avgdata 2624412maxresident)k
-0inputs+11298936outputs (0major+133623095minor)pagefaults 0swaps
+11460.30user 1203.57system 32:10.29elapsed 656%CPU (0avgtext+0avgdata 2509660maxresident)k
+536inputs+16575720outputs (5major+200468207minor)pagefaults 0swaps

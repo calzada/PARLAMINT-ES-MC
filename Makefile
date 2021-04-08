@@ -1,3 +1,8 @@
+test-fix-tei:
+	rm -f tmp/*
+	#cp ParlaMint/ParlaMint-ES.xml tmp
+	bin/fix-tei.pl 'ParlaMint/ParlaMint-ES_2015-01-20-CD150120.xml' ParlaMint.ana tmp
+	bin/validate-parlamint.pl schemas tmp
 test-fix-ana:
 	rm -f tmp/*
 	cp ParlaMint.ana/ParlaMint-ES.ana.xml tmp
@@ -13,7 +18,7 @@ fix-ana:
 	bin/validate-parlamint.pl schemas tmp
 
 # Process in background, save log
-nohup:
+nohup-gen:
 	nohup time make all > log.txt &
 
 # Process ParlaMint-ES corpus
