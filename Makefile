@@ -1,8 +1,16 @@
+#Fixing the .tei files
+#Insert word extent for ana, remove empty segs, redo tagUsage
+#We also need to fix root file (date, extents)
 test-fix-tei:
 	rm -f tmp/*
-	#cp ParlaMint/ParlaMint-ES.xml tmp
+	cp ParlaMint/ParlaMint-ES.xml tmp
 	bin/fix-tei.pl 'ParlaMint/ParlaMint-ES_2015-01-20-CD150120.xml' ParlaMint.ana tmp
 	bin/validate-parlamint.pl schemas tmp
+
+#Fixing the .ana files
+#the result is in tmp, which has then has to be moved to ParlaMint.ana
+#overwritting the original files
+#We also need to fix root file (date, extents)
 test-fix-ana:
 	rm -f tmp/*
 	cp ParlaMint.ana/ParlaMint-ES.ana.xml tmp
