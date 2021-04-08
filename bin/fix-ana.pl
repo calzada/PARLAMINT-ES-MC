@@ -14,10 +14,12 @@ $CNV = "$Bin/fix-ana.xsl";
 $POLISH = "$Bin/polish.pl";
 
 foreach $inFile (glob $inFiles) {
-    `perl -pei 's|</tei>|</TEI>|' $inFile`;
+    `perl -i.orig -pe 's|</tei>|</TEI>|' $inFile`;
+    `rm -f $inFile.orig`;
     my ($thisDir, $fName) = $inFile =~ m|([^/]+)/([^/]+)$|
 	or die "Weird input file $inFile\n";
-    $outputDir = "$outDir/$thisDir";
+    #$outputDir = "$outDir/$thisDir";
+    $outputDir = "$outDir";
     `mkdir $outputDir` unless -e "$outputDir";
     my $outFile = "$outputDir/$fName";
     print STDERR "INFO: Converting $fName\n";

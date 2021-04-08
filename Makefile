@@ -1,5 +1,16 @@
+test-fix-ana:
+	rm -f tmp/*
+	cp ParlaMint.ana/ParlaMint-ES.ana.xml tmp
+	bin/fix-ana.pl 'ParlaMint.ana/ParlaMint-ES_2015-01-*.xml' tmp
+	bin/validate-parlamint.pl schemas tmp
+nohup-fix:
+	nohup time make fix-ana > nohup.fix &
 fix-ana:
-	bin/fix-ana.pl 'ParlaMint.ana/ParlaMint-ES_2015-01-20-CD150120.ana.xml' tmp
+	rm -f tmp/*
+	cp ParlaMint.ana/ParlaMint-ES.ana.xml tmp
+	ls ParlaMint.ana/*_*.xml | $P --jobs 10 \
+	'bin/fix-ana.pl {} tmp'
+	bin/validate-parlamint.pl schemas tmp
 
 # Process in background, save log
 nohup:

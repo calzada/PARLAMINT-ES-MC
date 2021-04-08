@@ -49,6 +49,25 @@
     </xsl:copy>
   </xsl:template>
   
+  <xsl:template match="tei:extent/tei:measure[@unit = 'words']">
+    <xsl:variable name="words" select="count(//tei:w)"/>
+    <measure quantity="{$words}" unit="words" xml:lang="{@xml:lang}">
+      <xsl:value-of select="replace(., '0', string($words))"/>
+    </measure>
+  </xsl:template>
+  <xsl:template match="tei:tagsDecl/tei:namespace">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates/>
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:s"/>
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:name"/>
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:w"/>
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:pc"/>
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:linkGrp"/>
+      <xsl:apply-templates mode="tagCount" select="//tei:text//tei:link"/>
+    </xsl:copy>
+  </xsl:template>
+  
   <!-- Put in <revisionDesc> if there is none in the teiHeader -->
   <xsl:template match="tei:teiHeader">
     <xsl:copy>
@@ -78,6 +97,7 @@
     </xsl:copy>
   </xsl:template>
   
+  <xsl:template match="tei:name[not(normalize-space(.))]"/>
   <xsl:template match="tei:pb"/>
   
   <!-- COPY REST -->
@@ -103,4 +123,16 @@
     <xsl:value-of select="replace($sorted, '\|$', '')"/>
   </xsl:function>
   
+  <xsl:template mode="tagCount" match="tei:*">
+    <xsl:variable name="self" select="name()"/>
+    <xsl:if test="not(following::*[name()=$self] or descendant::*[name()=$self] )">
+      <tagUsage xmlns="http://www.tei-c.org/ns/1.0" gi="{$self}">
+	<xsl:attribute name="occurs">
+	  <xsl:number level="any" from="tei:text"/>
+	</xsl:attribute>
+      </tagUsage>
+    </xsl:if>
+  </xsl:template>
+  <xsl:template mode="tagCount" match="text()"/>
+
 </xsl:stylesheet>
