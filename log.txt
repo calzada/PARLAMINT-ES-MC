@@ -1,0 +1,1978 @@
+make[1]: Entering directory '/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC'
+Makefile:17: warning: overriding recipe for target 'nohup'
+Makefile:7: warning: ignoring old recipe for target 'nohup'
+ls CD/*.xml | parallel --gnu --halt 2 --jobs 10 \
+'java -jar /usr/share/java/saxon.jar -xsl:bin/cd2parmamint.xsl {} > tmp/{/.}-PM.xml'
+INFO: processing CD150212.xml
+INFO: processing CD150219.xml
+INFO: processing CD150225.xml
+INFO: processing CD150217.xml
+INFO: processing CD150120.xml
+INFO: processing CD150224.xml
+INFO: processing CD150210.xml
+INFO: processing CD150218.xml
+INFO: processing CD150121.xml
+INFO: processing CD150211.xml
+INFO: processing CD150324.xml
+INFO: processing CD150226.xml
+INFO: processing CD150310.xml
+INFO: processing CD150311.xml
+INFO: processing CD150414.xml
+INFO: processing CD150326.xml
+INFO: processing CD150312.xml
+INFO: processing CD150415.xml
+INFO: processing CD150421.xml
+INFO: processing CD150416.xml
+INFO: processing CD150423.xml
+INFO: processing CD150422.xml
+INFO: processing CD150428.xml
+INFO: processing CD150430.xml
+INFO: processing CD150429.xml
+INFO: processing CD150512.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD150514.xml
+INFO: processing CD150526.xml
+INFO: processing CD150527.xml
+INFO: processing CD150513.xml
+INFO: processing CD150528.xml
+INFO: processing CD150609.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD150610.xml
+INFO: processing CD150616.xml
+INFO: processing CD150617.xml
+INFO: processing CD150611.xml
+INFO: processing CD150618.xml
+INFO: processing CD150623.xml
+INFO: processing CD150625.xml
+INFO: processing CD150624.xml
+INFO: processing CD150707.xml
+INFO: processing CD150715.xml
+INFO: processing CD150708.xml
+INFO: processing CD150826.xml
+INFO: processing CD150818.xml
+INFO: processing CD150825.xml
+INFO: processing CD150716.xml
+INFO: processing CD150914.xml
+INFO: processing CD150916.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD150915.xml
+INFO: processing CD150929.xml
+INFO: processing CD160113.xml
+INFO: processing CD151014.xml
+INFO: processing CD150930.xml
+INFO: processing CD151013.xml
+INFO: processing CD151021.xml
+INFO: processing CD151020.xml
+INFO: processing CD151001.xml
+INFO: processing CD160304.xml
+INFO: processing CD160302.xml
+INFO: processing CD160315.xml
+INFO: processing CD160420.xml
+INFO: processing CD160413.xml
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD160405.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD160406.xml
+INFO: processing CD160419.xml
+INFO: processing CD160412.xml
+INFO: processing CD160427.xml
+INFO: processing CD160719.xml
+INFO: processing CD160428.xml
+INFO: processing CD160830.xml
+INFO: processing CD160902.xml
+INFO: processing CD160831.xml
+INFO: processing CD160927.xml
+INFO: processing CD161004.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD161020.xml
+INFO: processing CD161026.xml
+INFO: processing CD161018.xml
+INFO: processing CD161029.xml
+INFO: processing CD161027.xml
+INFO: processing CD161115.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD161122.xml
+INFO: processing CD161213.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD161130.xml
+INFO: processing CD161215.xml
+INFO: processing CD161123.xml
+INFO: processing CD161129.xml
+INFO: processing CD161214.xml
+INFO: processing CD161220.xml
+INFO: processing CD161221.xml
+INFO: processing CD170131.xml
+INFO: processing CD170201.xml
+INFO: processing CD170216.xml
+INFO: processing CD170202.xml
+INFO: processing CD170215.xml
+INFO: processing CD170214.xml
+INFO: processing CD170222.xml
+INFO: processing CD170221.xml
+INFO: processing CD170307.xml
+INFO: processing CD170308.xml
+INFO: processing CD170309.xml
+INFO: processing CD170315.xml
+INFO: processing CD170316.xml
+INFO: processing CD170314.xml
+INFO: processing CD170321.xml
+INFO: processing CD170322.xml
+INFO: processing CD170328.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD170330.xml
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD170329.xml
+INFO: processing CD170404.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD170405.xml
+INFO: processing CD170504.xml
+INFO: processing CD170406.xml
+INFO: processing CD170509.xml
+INFO: processing CD170503.xml
+INFO: processing CD170518.xml
+INFO: processing CD170510.xml
+INFO: processing CD170511.xml
+INFO: processing CD170517.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD170516.xml
+INFO: processing CD170529.xml
+INFO: processing CD170627.xml
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD170621.xml
+INFO: processing CD170629.xml
+INFO: processing CD170830.xml
+INFO: processing CD170712.xml
+INFO: processing CD170711.xml
+INFO: processing CD170912.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD170913.xml
+INFO: processing CD170919.xml
+INFO: processing CD170920.xml
+INFO: processing CD170921.xml
+INFO: processing CD170926.xml
+INFO: processing CD170928.xml
+INFO: processing CD170927.xml
+INFO: processing CD171010.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD171017.xml
+INFO: processing CD171011.xml
+INFO: processing CD171018.xml
+INFO: processing CD171019.xml
+INFO: processing CD171024.xml
+INFO: processing CD171025.xml
+INFO: processing CD171108.xml
+INFO: processing CD171107.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD171115.xml
+INFO: processing CD171122.xml
+INFO: processing CD171114.xml
+INFO: processing CD171123.xml
+INFO: processing CD171121.xml
+INFO: processing CD171128.xml
+INFO: processing CD171129.xml
+INFO: processing CD171130.xml
+INFO: processing CD171213.xml
+INFO: processing CD171212.xml
+INFO: processing CD180207.xml
+INFO: processing CD180214.xml
+INFO: processing CD180213.xml
+INFO: processing CD180206.xml
+INFO: processing CD180215.xml
+INFO: processing CD180220.xml
+INFO: processing CD180221.xml
+INFO: processing CD180222.xml
+INFO: processing CD180315.xml
+INFO: processing CD180313.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD180314.xml
+INFO: processing CD180320.xml
+INFO: processing CD180321.xml
+INFO: processing CD180411.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD180410.xml
+INFO: processing CD180412.xml
+INFO: processing CD180425.xml
+INFO: processing CD180426.xml
+INFO: processing CD180509.xml
+INFO: processing CD180508.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD180510.xml
+INFO: processing CD180521.xml
+INFO: processing CD180531.xml
+INFO: processing CD180530.xml
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD180529.xml
+INFO: processing CD180522.xml
+INFO: processing CD180523.xml
+INFO: processing CD180601.xml
+INFO: processing CD180619.xml
+INFO: processing CD180612.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD180620.xml
+INFO: processing CD180626.xml
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD180710.xml
+INFO: processing CD180702.xml
+INFO: processing CD180716.xml
+INFO: processing CD180704.xml
+INFO: processing CD180628.xml
+INFO: processing CD180627.xml
+INFO: processing CD180725.xml
+INFO: processing CD180727.xml
+INFO: processing CD180717.xml
+INFO: processing CD180906.xml
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD180911.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD180913.xml
+INFO: processing CD180912.xml
+INFO: processing CD180920.xml
+INFO: processing CD180918.xml
+INFO: processing CD180919.xml
+INFO: processing CD180926.xml
+INFO: processing CD180925.xml
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD181009.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD181010.xml
+INFO: processing CD181023.xml
+INFO: processing CD181016.xml
+INFO: processing CD181017.xml
+INFO: processing CD181018.xml
+INFO: processing CD181025.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD181024.xml
+INFO: processing CD181113.xml
+INFO: processing CD181030.xml
+INFO: processing CD181114.xml
+INFO: processing CD181115.xml
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD181120.xml
+INFO: processing CD181211.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD181122.xml
+INFO: processing CD181121.xml
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD181213.xml
+INFO: processing CD181212.xml
+INFO: processing CD181218.xml
+INFO: processing CD181219.xml
+INFO: processing CD190212.xml
+INFO: processing CD181220.xml
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD190213.xml
+INFO: processing CD190122.xml
+INFO: processing CD190220.xml
+INFO: processing CD190219.xml
+INFO: processing CD190221.xml
+INFO: processing CD190226.xml
+INFO: processing CD190228.xml
+INFO: processing CD190521.xml
+INFO: processing CD190725.xml
+INFO: processing CD190723.xml
+INFO: processing CD190722.xml
+INFO: processing CD190227.xml
+INFO: processing CD190910.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD190911.xml
+INFO: processing CD190918.xml
+INFO: processing CD190917.xml
+INFO: processing CD191203.xml
+INFO: processing CD200107.xml
+INFO: processing CD200105.xml
+INFO: processing CD200104.xml
+INFO: processing CD200212.xml
+INFO: processing CD200204.xml
+INFO: processing CD200211.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD200220.xml
+INFO: processing CD200219.xml
+INFO: processing CD200218.xml
+INFO: processing CD200225.xml
+INFO: processing CD200227.xml
+INFO: processing CD200226.xml
+INFO: processing CD200318.xml
+INFO: processing CD200415.xml
+INFO: processing CD200409.xml
+INFO: processing CD200325.xml
+INFO: processing CD200429.xml
+INFO: processing CD200506.xml
+INFO: processing CD200422.xml
+INFO: processing CD200513.xml
+INFO: processing CD200527.xml
+INFO: processing CD200520.xml
+INFO: processing CD200604.xml
+INFO: processing CD200603.xml
+INFO: processing CD200611.xml
+INFO: processing CD200616.xml
+INFO: processing CD200610.xml
+INFO: processing CD200617.xml
+INFO: processing CD200623.xml
+INFO: processing CD200624.xml
+INFO: processing CD200625.xml
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD200714.xml
+INFO: processing CD200721.xml
+INFO: processing CD200715.xml
+INFO: processing CD200722.xml
+INFO: processing CD200729.xml
+INFO: processing CD200908.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD200909.xml
+INFO: processing CD200910.xml
+INFO: processing CD200915.xml
+INFO: processing CD200916.xml
+INFO: processing CD200922.xml
+INFO: processing CD200923.xml
+INFO: processing CD200929.xml
+INFO: processing CD200930.xml
+INFO: processing CD201001.xml
+INFO: processing CD201013.xml
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+WARN: Don't know what to do with institution/ni!
+INFO: processing CD201014.xml
+INFO: processing CD201015.xml
+INFO: processing CD201020.xml
+INFO: processing CD201022.xml
+INFO: processing CD201021.xml
+INFO: processing CD201027.xml
+INFO: processing CD201028.xml
+INFO: processing CD201111.xml
+INFO: processing CD201029.xml
+INFO: processing CD201112.xml
+INFO: processing CD201117.xml
+INFO: processing CD201118-bis.xml
+INFO: processing CD201118.xml
+INFO: processing CD201130.xml
+INFO: processing CD201203.xml
+INFO: processing CD201201.xml
+INFO: processing CD201215.xml
+INFO: processing CD201202.xml
+#ls tmp/*-PM.xml | xargs -I % java -jar /usr/share/java/saxon.jar -xi -xsl:bin/copy.xsl % | java -jar /usr/share/java/jing.jar schemas/parla-clarin.rng 
+#java -jar /usr/share/java/jing.jar schemas/parla-clarin.rng tmp/*-PM.xml
+rm -f ParlaMint/*.xml
+java -jar /usr/share/java/saxon.jar inDir="../tmp" outDir="ParlaMint" \
+-xsl:bin/parlamint2root.xsl bin/ParlaMint-template-ES.xml
+INFO: CD150120-PM.xml to ParlaMint/ParlaMint-ES_2015-01-20-CD150120.xml
+INFO: CD150121-PM.xml to ParlaMint/ParlaMint-ES_2015-01-21-CD150121.xml
+INFO: CD150210-PM.xml to ParlaMint/ParlaMint-ES_2015-02-10-CD150210.xml
+INFO: CD150211-PM.xml to ParlaMint/ParlaMint-ES_2015-02-11-CD150211.xml
+INFO: CD150212-PM.xml to ParlaMint/ParlaMint-ES_2015-02-12-CD150212.xml
+INFO: CD150217-PM.xml to ParlaMint/ParlaMint-ES_2015-02-17-CD150217.xml
+INFO: CD150218-PM.xml to ParlaMint/ParlaMint-ES_2015-02-18-CD150218.xml
+INFO: CD150219-PM.xml to ParlaMint/ParlaMint-ES_2015-02-19-CD150219.xml
+INFO: CD150224-PM.xml to ParlaMint/ParlaMint-ES_2015-02-24-CD150224.xml
+INFO: CD150225-PM.xml to ParlaMint/ParlaMint-ES_2015-02-25-CD150225.xml
+INFO: CD150226-PM.xml to ParlaMint/ParlaMint-ES_2015-02-26-CD150226.xml
+INFO: CD150310-PM.xml to ParlaMint/ParlaMint-ES_2015-03-10-CD150310.xml
+INFO: CD150311-PM.xml to ParlaMint/ParlaMint-ES_2015-03-11-CD150311.xml
+INFO: CD150312-PM.xml to ParlaMint/ParlaMint-ES_2015-03-12-CD150312.xml
+INFO: CD150324-PM.xml to ParlaMint/ParlaMint-ES_2015-03-24-CD150324.xml
+INFO: CD150326-PM.xml to ParlaMint/ParlaMint-ES_2015-03-26-CD150326.xml
+INFO: CD150414-PM.xml to ParlaMint/ParlaMint-ES_2015-04-14-CD150414.xml
+INFO: CD150415-PM.xml to ParlaMint/ParlaMint-ES_2015-04-15-CD150415.xml
+INFO: CD150416-PM.xml to ParlaMint/ParlaMint-ES_2015-04-16-CD150416.xml
+INFO: CD150421-PM.xml to ParlaMint/ParlaMint-ES_2015-04-21-CD150421.xml
+INFO: CD150422-PM.xml to ParlaMint/ParlaMint-ES_2015-04-22-CD150422.xml
+INFO: CD150423-PM.xml to ParlaMint/ParlaMint-ES_2015-04-23-CD150423.xml
+INFO: CD150428-PM.xml to ParlaMint/ParlaMint-ES_2015-04-28-CD150428.xml
+INFO: CD150429-PM.xml to ParlaMint/ParlaMint-ES_2015-04-29-CD150429.xml
+INFO: CD150430-PM.xml to ParlaMint/ParlaMint-ES_2015-04-30-CD150430.xml
+INFO: CD150512-PM.xml to ParlaMint/ParlaMint-ES_2015-05-12-CD150512.xml
+INFO: CD150513-PM.xml to ParlaMint/ParlaMint-ES_2015-05-13-CD150513.xml
+INFO: CD150514-PM.xml to ParlaMint/ParlaMint-ES_2015-05-14-CD150514.xml
+INFO: CD150526-PM.xml to ParlaMint/ParlaMint-ES_2015-05-26-CD150526.xml
+INFO: CD150527-PM.xml to ParlaMint/ParlaMint-ES_2015-05-27-CD150527.xml
+INFO: CD150528-PM.xml to ParlaMint/ParlaMint-ES_2015-05-28-CD150528.xml
+INFO: CD150609-PM.xml to ParlaMint/ParlaMint-ES_2015-06-09-CD150609.xml
+INFO: CD150610-PM.xml to ParlaMint/ParlaMint-ES_2015-06-10-CD150610.xml
+INFO: CD150611-PM.xml to ParlaMint/ParlaMint-ES_2015-06-11-CD150611.xml
+INFO: CD150616-PM.xml to ParlaMint/ParlaMint-ES_2015-06-16-CD150616.xml
+INFO: CD150617-PM.xml to ParlaMint/ParlaMint-ES_2015-06-17-CD150617.xml
+INFO: CD150618-PM.xml to ParlaMint/ParlaMint-ES_2015-06-18-CD150618.xml
+INFO: CD150623-PM.xml to ParlaMint/ParlaMint-ES_2015-06-23-CD150623.xml
+INFO: CD150624-PM.xml to ParlaMint/ParlaMint-ES_2015-06-24-CD150624.xml
+INFO: CD150625-PM.xml to ParlaMint/ParlaMint-ES_2015-06-25-CD150625.xml
+INFO: CD150707-PM.xml to ParlaMint/ParlaMint-ES_2015-07-07-CD150707.xml
+INFO: CD150708-PM.xml to ParlaMint/ParlaMint-ES_2015-07-08-CD150708.xml
+INFO: CD150715-PM.xml to ParlaMint/ParlaMint-ES_2015-07-15-CD150715.xml
+INFO: CD150716-PM.xml to ParlaMint/ParlaMint-ES_2015-07-16-CD150716.xml
+INFO: CD150818-PM.xml to ParlaMint/ParlaMint-ES_2015-08-18-CD150818.xml
+INFO: CD150825-PM.xml to ParlaMint/ParlaMint-ES_2015-08-25-CD150825.xml
+INFO: CD150826-PM.xml to ParlaMint/ParlaMint-ES_2015-08-26-CD150826.xml
+INFO: CD150914-PM.xml to ParlaMint/ParlaMint-ES_2015-09-14-CD150914.xml
+INFO: CD150915-PM.xml to ParlaMint/ParlaMint-ES_2015-09-15-CD150915.xml
+INFO: CD150916-PM.xml to ParlaMint/ParlaMint-ES_2015-09-16-CD150916.xml
+INFO: CD150929-PM.xml to ParlaMint/ParlaMint-ES_2015-09-29-CD150929.xml
+INFO: CD150930-PM.xml to ParlaMint/ParlaMint-ES_2015-09-30-CD150930.xml
+INFO: CD151001-PM.xml to ParlaMint/ParlaMint-ES_2015-10-01-CD151001.xml
+INFO: CD151013-PM.xml to ParlaMint/ParlaMint-ES_2015-10-13-CD151013.xml
+INFO: CD151014-PM.xml to ParlaMint/ParlaMint-ES_2015-10-14-CD151014.xml
+INFO: CD151020-PM.xml to ParlaMint/ParlaMint-ES_2015-10-20-CD151020.xml
+INFO: CD151021-PM.xml to ParlaMint/ParlaMint-ES_2015-10-21-CD151021.xml
+INFO: CD160113-PM.xml to ParlaMint/ParlaMint-ES_2016-01-13-CD160113.xml
+INFO: CD160302-PM.xml to ParlaMint/ParlaMint-ES_2016-03-02-CD160302.xml
+INFO: CD160304-PM.xml to ParlaMint/ParlaMint-ES_2016-03-04-CD160304.xml
+INFO: CD160315-PM.xml to ParlaMint/ParlaMint-ES_2016-03-15-CD160315.xml
+INFO: CD160405-PM.xml to ParlaMint/ParlaMint-ES_2016-04-05-CD160405.xml
+INFO: CD160406-PM.xml to ParlaMint/ParlaMint-ES_2016-04-06-CD160406.xml
+INFO: CD160412-PM.xml to ParlaMint/ParlaMint-ES_2016-04-12-CD160412.xml
+INFO: CD160413-PM.xml to ParlaMint/ParlaMint-ES_2016-04-13-CD160413.xml
+INFO: CD160419-PM.xml to ParlaMint/ParlaMint-ES_2016-04-19-CD160419.xml
+INFO: CD160420-PM.xml to ParlaMint/ParlaMint-ES_2016-04-20-CD160420.xml
+INFO: CD160427-PM.xml to ParlaMint/ParlaMint-ES_2016-04-27-CD160427.xml
+INFO: CD160428-PM.xml to ParlaMint/ParlaMint-ES_2016-04-28-CD160428.xml
+INFO: CD160719-PM.xml to ParlaMint/ParlaMint-ES_2016-07-19-CD160719.xml
+INFO: CD160830-PM.xml to ParlaMint/ParlaMint-ES_2016-08-30-CD160830.xml
+INFO: CD160831-PM.xml to ParlaMint/ParlaMint-ES_2016-08-31-CD160831.xml
+INFO: CD160902-PM.xml to ParlaMint/ParlaMint-ES_2016-09-02-CD160902.xml
+INFO: CD160927-PM.xml to ParlaMint/ParlaMint-ES_2016-09-27-CD160927.xml
+INFO: CD161004-PM.xml to ParlaMint/ParlaMint-ES_2016-10-04-CD161004.xml
+INFO: CD161018-PM.xml to ParlaMint/ParlaMint-ES_2016-10-18-CD161018.xml
+INFO: CD161020-PM.xml to ParlaMint/ParlaMint-ES_2016-10-20-CD161020.xml
+INFO: CD161026-PM.xml to ParlaMint/ParlaMint-ES_2016-10-26-CD161026.xml
+INFO: CD161027-PM.xml to ParlaMint/ParlaMint-ES_2016-10-27-CD161027.xml
+INFO: CD161029-PM.xml to ParlaMint/ParlaMint-ES_2016-10-29-CD161029.xml
+INFO: CD161115-PM.xml to ParlaMint/ParlaMint-ES_2016-11-15-CD161115.xml
+INFO: CD161122-PM.xml to ParlaMint/ParlaMint-ES_2016-11-22-CD161122.xml
+INFO: CD161123-PM.xml to ParlaMint/ParlaMint-ES_2016-11-23-CD161123.xml
+INFO: CD161129-PM.xml to ParlaMint/ParlaMint-ES_2016-11-29-CD161129.xml
+INFO: CD161130-PM.xml to ParlaMint/ParlaMint-ES_2016-11-30-CD161130.xml
+INFO: CD161213-PM.xml to ParlaMint/ParlaMint-ES_2016-12-13-CD161213.xml
+INFO: CD161214-PM.xml to ParlaMint/ParlaMint-ES_2016-12-14-CD161214.xml
+INFO: CD161215-PM.xml to ParlaMint/ParlaMint-ES_2016-12-15-CD161215.xml
+INFO: CD161220-PM.xml to ParlaMint/ParlaMint-ES_2016-12-20-CD161220.xml
+INFO: CD161221-PM.xml to ParlaMint/ParlaMint-ES_2016-12-21-CD161221.xml
+INFO: CD170131-PM.xml to ParlaMint/ParlaMint-ES_2017-01-31-CD170131.xml
+INFO: CD170201-PM.xml to ParlaMint/ParlaMint-ES_2017-02-01-CD170201.xml
+INFO: CD170202-PM.xml to ParlaMint/ParlaMint-ES_2017-02-02-CD170202.xml
+INFO: CD170214-PM.xml to ParlaMint/ParlaMint-ES_2017-02-14-CD170214.xml
+INFO: CD170215-PM.xml to ParlaMint/ParlaMint-ES_2017-02-15-CD170215.xml
+INFO: CD170216-PM.xml to ParlaMint/ParlaMint-ES_2017-02-16-CD170216.xml
+INFO: CD170221-PM.xml to ParlaMint/ParlaMint-ES_2017-02-21-CD170221.xml
+INFO: CD170222-PM.xml to ParlaMint/ParlaMint-ES_2017-02-22-CD170222.xml
+INFO: CD170307-PM.xml to ParlaMint/ParlaMint-ES_2017-03-07-CD170307.xml
+INFO: CD170308-PM.xml to ParlaMint/ParlaMint-ES_2017-03-08-CD170308.xml
+INFO: CD170309-PM.xml to ParlaMint/ParlaMint-ES_2017-03-09-CD170309.xml
+INFO: CD170314-PM.xml to ParlaMint/ParlaMint-ES_2017-03-14-CD170314.xml
+INFO: CD170315-PM.xml to ParlaMint/ParlaMint-ES_2017-03-15-CD170315.xml
+INFO: CD170316-PM.xml to ParlaMint/ParlaMint-ES_2017-03-16-CD170316.xml
+INFO: CD170321-PM.xml to ParlaMint/ParlaMint-ES_2017-03-21-CD170321.xml
+INFO: CD170322-PM.xml to ParlaMint/ParlaMint-ES_2017-03-22-CD170322.xml
+INFO: CD170328-PM.xml to ParlaMint/ParlaMint-ES_2017-03-28-CD170328.xml
+INFO: CD170329-PM.xml to ParlaMint/ParlaMint-ES_2017-03-29-CD170329.xml
+INFO: CD170330-PM.xml to ParlaMint/ParlaMint-ES_2017-03-30-CD170330.xml
+INFO: CD170404-PM.xml to ParlaMint/ParlaMint-ES_2017-04-04-CD170404.xml
+INFO: CD170405-PM.xml to ParlaMint/ParlaMint-ES_2017-04-05-CD170405.xml
+INFO: CD170406-PM.xml to ParlaMint/ParlaMint-ES_2017-04-06-CD170406.xml
+INFO: CD170503-PM.xml to ParlaMint/ParlaMint-ES_2017-05-03-CD170503.xml
+INFO: CD170504-PM.xml to ParlaMint/ParlaMint-ES_2017-05-04-CD170504.xml
+INFO: CD170509-PM.xml to ParlaMint/ParlaMint-ES_2017-05-09-CD170509.xml
+INFO: CD170510-PM.xml to ParlaMint/ParlaMint-ES_2017-05-10-CD170510.xml
+INFO: CD170511-PM.xml to ParlaMint/ParlaMint-ES_2017-05-11-CD170511.xml
+INFO: CD170516-PM.xml to ParlaMint/ParlaMint-ES_2017-05-16-CD170516.xml
+INFO: CD170517-PM.xml to ParlaMint/ParlaMint-ES_2017-05-17-CD170517.xml
+INFO: CD170518-PM.xml to ParlaMint/ParlaMint-ES_2017-05-18-CD170518.xml
+INFO: CD170529-PM.xml to ParlaMint/ParlaMint-ES_2017-05-29-CD170529.xml
+INFO: CD170621-PM.xml to ParlaMint/ParlaMint-ES_2017-06-21-CD170621.xml
+INFO: CD170627-PM.xml to ParlaMint/ParlaMint-ES_2017-06-27-CD170627.xml
+INFO: CD170629-PM.xml to ParlaMint/ParlaMint-ES_2017-06-29-CD170629.xml
+INFO: CD170711-PM.xml to ParlaMint/ParlaMint-ES_2017-07-11-CD170711.xml
+INFO: CD170712-PM.xml to ParlaMint/ParlaMint-ES_2017-07-12-CD170712.xml
+INFO: CD170830-PM.xml to ParlaMint/ParlaMint-ES_2017-08-30-CD170830.xml
+INFO: CD170912-PM.xml to ParlaMint/ParlaMint-ES_2017-09-12-CD170912.xml
+INFO: CD170913-PM.xml to ParlaMint/ParlaMint-ES_2017-09-13-CD170913.xml
+INFO: CD170919-PM.xml to ParlaMint/ParlaMint-ES_2017-09-19-CD170919.xml
+INFO: CD170920-PM.xml to ParlaMint/ParlaMint-ES_2017-09-20-CD170920.xml
+INFO: CD170921-PM.xml to ParlaMint/ParlaMint-ES_2017-09-21-CD170921.xml
+INFO: CD170926-PM.xml to ParlaMint/ParlaMint-ES_2017-09-26-CD170926.xml
+INFO: CD170927-PM.xml to ParlaMint/ParlaMint-ES_2017-09-27-CD170927.xml
+INFO: CD170928-PM.xml to ParlaMint/ParlaMint-ES_2017-09-28-CD170928.xml
+INFO: CD171010-PM.xml to ParlaMint/ParlaMint-ES_2017-10-10-CD171010.xml
+INFO: CD171011-PM.xml to ParlaMint/ParlaMint-ES_2017-10-11-CD171011.xml
+INFO: CD171017-PM.xml to ParlaMint/ParlaMint-ES_2017-10-17-CD171017.xml
+INFO: CD171018-PM.xml to ParlaMint/ParlaMint-ES_2017-10-18-CD171018.xml
+INFO: CD171019-PM.xml to ParlaMint/ParlaMint-ES_2017-10-19-CD171019.xml
+INFO: CD171024-PM.xml to ParlaMint/ParlaMint-ES_2017-10-24-CD171024.xml
+INFO: CD171025-PM.xml to ParlaMint/ParlaMint-ES_2017-10-25-CD171025.xml
+INFO: CD171107-PM.xml to ParlaMint/ParlaMint-ES_2017-11-07-CD171107.xml
+INFO: CD171108-PM.xml to ParlaMint/ParlaMint-ES_2017-11-08-CD171108.xml
+INFO: CD171114-PM.xml to ParlaMint/ParlaMint-ES_2017-11-14-CD171114.xml
+INFO: CD171115-PM.xml to ParlaMint/ParlaMint-ES_2017-11-15-CD171115.xml
+INFO: CD171121-PM.xml to ParlaMint/ParlaMint-ES_2017-11-21-CD171121.xml
+INFO: CD171122-PM.xml to ParlaMint/ParlaMint-ES_2017-11-22-CD171122.xml
+INFO: CD171123-PM.xml to ParlaMint/ParlaMint-ES_2017-11-23-CD171123.xml
+INFO: CD171128-PM.xml to ParlaMint/ParlaMint-ES_2017-11-28-CD171128.xml
+INFO: CD171129-PM.xml to ParlaMint/ParlaMint-ES_2017-11-29-CD171129.xml
+INFO: CD171130-PM.xml to ParlaMint/ParlaMint-ES_2017-11-30-CD171130.xml
+INFO: CD171212-PM.xml to ParlaMint/ParlaMint-ES_2017-12-12-CD171212.xml
+INFO: CD171213-PM.xml to ParlaMint/ParlaMint-ES_2017-12-13-CD171213.xml
+INFO: CD180206-PM.xml to ParlaMint/ParlaMint-ES_2018-02-06-CD180206.xml
+INFO: CD180207-PM.xml to ParlaMint/ParlaMint-ES_2018-02-07-CD180207.xml
+INFO: CD180213-PM.xml to ParlaMint/ParlaMint-ES_2018-02-13-CD180213.xml
+INFO: CD180214-PM.xml to ParlaMint/ParlaMint-ES_2018-02-14-CD180214.xml
+INFO: CD180215-PM.xml to ParlaMint/ParlaMint-ES_2018-02-15-CD180215.xml
+INFO: CD180220-PM.xml to ParlaMint/ParlaMint-ES_2018-02-20-CD180220.xml
+INFO: CD180221-PM.xml to ParlaMint/ParlaMint-ES_2018-02-21-CD180221.xml
+INFO: CD180222-PM.xml to ParlaMint/ParlaMint-ES_2018-02-22-CD180222.xml
+INFO: CD180313-PM.xml to ParlaMint/ParlaMint-ES_2018-03-13-CD180313.xml
+INFO: CD180314-PM.xml to ParlaMint/ParlaMint-ES_2018-03-14-CD180314.xml
+INFO: CD180315-PM.xml to ParlaMint/ParlaMint-ES_2018-03-15-CD180315.xml
+INFO: CD180320-PM.xml to ParlaMint/ParlaMint-ES_2018-03-20-CD180320.xml
+INFO: CD180321-PM.xml to ParlaMint/ParlaMint-ES_2018-03-21-CD180321.xml
+INFO: CD180410-PM.xml to ParlaMint/ParlaMint-ES_2018-04-10-CD180410.xml
+INFO: CD180411-PM.xml to ParlaMint/ParlaMint-ES_2018-04-11-CD180411.xml
+INFO: CD180412-PM.xml to ParlaMint/ParlaMint-ES_2018-04-12-CD180412.xml
+INFO: CD180425-PM.xml to ParlaMint/ParlaMint-ES_2018-04-25-CD180425.xml
+INFO: CD180426-PM.xml to ParlaMint/ParlaMint-ES_2018-04-26-CD180426.xml
+INFO: CD180508-PM.xml to ParlaMint/ParlaMint-ES_2018-05-08-CD180508.xml
+INFO: CD180509-PM.xml to ParlaMint/ParlaMint-ES_2018-05-09-CD180509.xml
+INFO: CD180510-PM.xml to ParlaMint/ParlaMint-ES_2018-05-10-CD180510.xml
+INFO: CD180521-PM.xml to ParlaMint/ParlaMint-ES_2018-05-21-CD180521.xml
+INFO: CD180522-PM.xml to ParlaMint/ParlaMint-ES_2018-05-22-CD180522.xml
+INFO: CD180523-PM.xml to ParlaMint/ParlaMint-ES_2018-05-23-CD180523.xml
+INFO: CD180529-PM.xml to ParlaMint/ParlaMint-ES_2018-05-29-CD180529.xml
+INFO: CD180530-PM.xml to ParlaMint/ParlaMint-ES_2018-05-30-CD180530.xml
+INFO: CD180531-PM.xml to ParlaMint/ParlaMint-ES_2018-05-31-CD180531.xml
+INFO: CD180601-PM.xml to ParlaMint/ParlaMint-ES_2018-06-01-CD180601.xml
+INFO: CD180612-PM.xml to ParlaMint/ParlaMint-ES_2018-06-12-CD180612.xml
+INFO: CD180619-PM.xml to ParlaMint/ParlaMint-ES_2018-06-19-CD180619.xml
+INFO: CD180620-PM.xml to ParlaMint/ParlaMint-ES_2018-06-20-CD180620.xml
+INFO: CD180626-PM.xml to ParlaMint/ParlaMint-ES_2018-06-26-CD180626.xml
+INFO: CD180627-PM.xml to ParlaMint/ParlaMint-ES_2018-06-27-CD180627.xml
+INFO: CD180628-PM.xml to ParlaMint/ParlaMint-ES_2018-06-28-CD180628.xml
+INFO: CD180702-PM.xml to ParlaMint/ParlaMint-ES_2018-07-02-CD180702.xml
+INFO: CD180704-PM.xml to ParlaMint/ParlaMint-ES_2018-07-04-CD180704.xml
+INFO: CD180710-PM.xml to ParlaMint/ParlaMint-ES_2018-07-10-CD180710.xml
+INFO: CD180716-PM.xml to ParlaMint/ParlaMint-ES_2018-07-16-CD180716.xml
+INFO: CD180717-PM.xml to ParlaMint/ParlaMint-ES_2018-07-17-CD180717.xml
+INFO: CD180725-PM.xml to ParlaMint/ParlaMint-ES_2018-07-25-CD180725.xml
+INFO: CD180727-PM.xml to ParlaMint/ParlaMint-ES_2018-07-27-CD180727.xml
+INFO: CD180906-PM.xml to ParlaMint/ParlaMint-ES_2018-09-06-CD180906.xml
+INFO: CD180911-PM.xml to ParlaMint/ParlaMint-ES_2018-09-11-CD180911.xml
+INFO: CD180912-PM.xml to ParlaMint/ParlaMint-ES_2018-09-12-CD180912.xml
+INFO: CD180913-PM.xml to ParlaMint/ParlaMint-ES_2018-09-13-CD180913.xml
+INFO: CD180918-PM.xml to ParlaMint/ParlaMint-ES_2018-09-18-CD180918.xml
+INFO: CD180919-PM.xml to ParlaMint/ParlaMint-ES_2018-09-19-CD180919.xml
+INFO: CD180920-PM.xml to ParlaMint/ParlaMint-ES_2018-09-20-CD180920.xml
+INFO: CD180925-PM.xml to ParlaMint/ParlaMint-ES_2018-09-25-CD180925.xml
+INFO: CD180926-PM.xml to ParlaMint/ParlaMint-ES_2018-09-26-CD180926.xml
+INFO: CD181009-PM.xml to ParlaMint/ParlaMint-ES_2018-10-09-CD181009.xml
+INFO: CD181010-PM.xml to ParlaMint/ParlaMint-ES_2018-10-10-CD181010.xml
+INFO: CD181016-PM.xml to ParlaMint/ParlaMint-ES_2018-10-16-CD181016.xml
+INFO: CD181017-PM.xml to ParlaMint/ParlaMint-ES_2018-10-17-CD181017.xml
+INFO: CD181018-PM.xml to ParlaMint/ParlaMint-ES_2018-10-18-CD181018.xml
+INFO: CD181023-PM.xml to ParlaMint/ParlaMint-ES_2018-10-23-CD181023.xml
+INFO: CD181024-PM.xml to ParlaMint/ParlaMint-ES_2018-10-24-CD181024.xml
+INFO: CD181025-PM.xml to ParlaMint/ParlaMint-ES_2018-10-25-CD181025.xml
+INFO: CD181030-PM.xml to ParlaMint/ParlaMint-ES_2018-10-30-CD181030.xml
+INFO: CD181113-PM.xml to ParlaMint/ParlaMint-ES_2018-11-13-CD181113.xml
+INFO: CD181114-PM.xml to ParlaMint/ParlaMint-ES_2018-11-14-CD181114.xml
+INFO: CD181115-PM.xml to ParlaMint/ParlaMint-ES_2018-11-15-CD181115.xml
+INFO: CD181120-PM.xml to ParlaMint/ParlaMint-ES_2018-11-20-CD181120.xml
+INFO: CD181121-PM.xml to ParlaMint/ParlaMint-ES_2018-11-21-CD181121.xml
+INFO: CD181122-PM.xml to ParlaMint/ParlaMint-ES_2018-11-22-CD181122.xml
+INFO: CD181211-PM.xml to ParlaMint/ParlaMint-ES_2018-12-11-CD181211.xml
+INFO: CD181212-PM.xml to ParlaMint/ParlaMint-ES_2018-12-12-CD181212.xml
+INFO: CD181213-PM.xml to ParlaMint/ParlaMint-ES_2018-12-13-CD181213.xml
+INFO: CD181218-PM.xml to ParlaMint/ParlaMint-ES_2018-12-18-CD181218.xml
+INFO: CD181219-PM.xml to ParlaMint/ParlaMint-ES_2018-12-19-CD181219.xml
+INFO: CD181220-PM.xml to ParlaMint/ParlaMint-ES_2018-12-20-CD181220.xml
+INFO: CD190122-PM.xml to ParlaMint/ParlaMint-ES_2019-01-22-CD190122.xml
+INFO: CD190212-PM.xml to ParlaMint/ParlaMint-ES_2019-02-12-CD190212.xml
+INFO: CD190213-PM.xml to ParlaMint/ParlaMint-ES_2019-02-13-CD190213.xml
+INFO: CD190219-PM.xml to ParlaMint/ParlaMint-ES_2019-02-19-CD190219.xml
+INFO: CD190220-PM.xml to ParlaMint/ParlaMint-ES_2019-02-20-CD190220.xml
+INFO: CD190221-PM.xml to ParlaMint/ParlaMint-ES_2019-02-21-CD190221.xml
+INFO: CD190226-PM.xml to ParlaMint/ParlaMint-ES_2019-02-26-CD190226.xml
+INFO: CD190227-PM.xml to ParlaMint/ParlaMint-ES_2019-02-27-CD190227.xml
+INFO: CD190228-PM.xml to ParlaMint/ParlaMint-ES_2019-02-28-CD190228.xml
+INFO: CD190521-PM.xml to ParlaMint/ParlaMint-ES_2019-05-21-CD190521.xml
+INFO: CD190722-PM.xml to ParlaMint/ParlaMint-ES_2019-07-22-CD190722.xml
+INFO: CD190723-PM.xml to ParlaMint/ParlaMint-ES_2019-07-23-CD190723.xml
+INFO: CD190725-PM.xml to ParlaMint/ParlaMint-ES_2019-07-25-CD190725.xml
+INFO: CD190910-PM.xml to ParlaMint/ParlaMint-ES_2019-09-10-CD190910.xml
+INFO: CD190911-PM.xml to ParlaMint/ParlaMint-ES_2019-09-11-CD190911.xml
+INFO: CD190917-PM.xml to ParlaMint/ParlaMint-ES_2019-09-17-CD190917.xml
+INFO: CD190918-PM.xml to ParlaMint/ParlaMint-ES_2019-09-18-CD190918.xml
+INFO: CD191203-PM.xml to ParlaMint/ParlaMint-ES_2019-12-03-CD191203.xml
+INFO: CD200104-PM.xml to ParlaMint/ParlaMint-ES_2020-01-04-CD200104.xml
+INFO: CD200105-PM.xml to ParlaMint/ParlaMint-ES_2020-01-05-CD200105.xml
+INFO: CD200107-PM.xml to ParlaMint/ParlaMint-ES_2020-01-07-CD200107.xml
+INFO: CD200204-PM.xml to ParlaMint/ParlaMint-ES_2020-02-04-CD200204.xml
+INFO: CD200211-PM.xml to ParlaMint/ParlaMint-ES_2020-02-11-CD200211.xml
+INFO: CD200212-PM.xml to ParlaMint/ParlaMint-ES_2020-02-12-CD200212.xml
+INFO: CD200218-PM.xml to ParlaMint/ParlaMint-ES_2020-02-18-CD200218.xml
+INFO: CD200219-PM.xml to ParlaMint/ParlaMint-ES_2020-02-19-CD200219.xml
+INFO: CD200220-PM.xml to ParlaMint/ParlaMint-ES_2020-02-20-CD200220.xml
+INFO: CD200225-PM.xml to ParlaMint/ParlaMint-ES_2020-02-25-CD200225.xml
+INFO: CD200226-PM.xml to ParlaMint/ParlaMint-ES_2020-02-26-CD200226.xml
+INFO: CD200227-PM.xml to ParlaMint/ParlaMint-ES_2020-02-27-CD200227.xml
+INFO: CD200318-PM.xml to ParlaMint/ParlaMint-ES_2020-03-18-CD200318.xml
+INFO: CD200325-PM.xml to ParlaMint/ParlaMint-ES_2020-03-25-CD200325.xml
+INFO: CD200409-PM.xml to ParlaMint/ParlaMint-ES_2020-04-09-CD200409.xml
+INFO: CD200415-PM.xml to ParlaMint/ParlaMint-ES_2020-04-15-CD200415.xml
+INFO: CD200422-PM.xml to ParlaMint/ParlaMint-ES_2020-04-22-CD200422.xml
+INFO: CD200429-PM.xml to ParlaMint/ParlaMint-ES_2020-04-29-CD200429.xml
+INFO: CD200506-PM.xml to ParlaMint/ParlaMint-ES_2020-05-06-CD200506.xml
+INFO: CD200513-PM.xml to ParlaMint/ParlaMint-ES_2020-05-13-CD200513.xml
+INFO: CD200520-PM.xml to ParlaMint/ParlaMint-ES_2020-05-20-CD200520.xml
+INFO: CD200527-PM.xml to ParlaMint/ParlaMint-ES_2020-05-27-CD200527.xml
+INFO: CD200603-PM.xml to ParlaMint/ParlaMint-ES_2020-06-03-CD200603.xml
+INFO: CD200604-PM.xml to ParlaMint/ParlaMint-ES_2020-06-04-CD200604.xml
+INFO: CD200610-PM.xml to ParlaMint/ParlaMint-ES_2020-06-10-CD200610.xml
+INFO: CD200611-PM.xml to ParlaMint/ParlaMint-ES_2020-06-11-CD200611.xml
+INFO: CD200616-PM.xml to ParlaMint/ParlaMint-ES_2020-06-16-CD200616.xml
+INFO: CD200617-PM.xml to ParlaMint/ParlaMint-ES_2020-06-17-CD200617.xml
+INFO: CD200623-PM.xml to ParlaMint/ParlaMint-ES_2020-06-23-CD200623.xml
+INFO: CD200624-PM.xml to ParlaMint/ParlaMint-ES_2020-06-24-CD200624.xml
+INFO: CD200625-PM.xml to ParlaMint/ParlaMint-ES_2020-06-25-CD200625.xml
+INFO: CD200714-PM.xml to ParlaMint/ParlaMint-ES_2020-07-14-CD200714.xml
+INFO: CD200715-PM.xml to ParlaMint/ParlaMint-ES_2020-07-15-CD200715.xml
+INFO: CD200721-PM.xml to ParlaMint/ParlaMint-ES_2020-07-21-CD200721.xml
+INFO: CD200722-PM.xml to ParlaMint/ParlaMint-ES_2020-07-22-CD200722.xml
+INFO: CD200729-PM.xml to ParlaMint/ParlaMint-ES_2020-07-29-CD200729.xml
+INFO: CD200908-PM.xml to ParlaMint/ParlaMint-ES_2020-09-08-CD200908.xml
+INFO: CD200909-PM.xml to ParlaMint/ParlaMint-ES_2020-09-09-CD200909.xml
+INFO: CD200910-PM.xml to ParlaMint/ParlaMint-ES_2020-09-10-CD200910.xml
+INFO: CD200915-PM.xml to ParlaMint/ParlaMint-ES_2020-09-15-CD200915.xml
+INFO: CD200916-PM.xml to ParlaMint/ParlaMint-ES_2020-09-16-CD200916.xml
+INFO: CD200922-PM.xml to ParlaMint/ParlaMint-ES_2020-09-22-CD200922.xml
+INFO: CD200923-PM.xml to ParlaMint/ParlaMint-ES_2020-09-23-CD200923.xml
+INFO: CD200929-PM.xml to ParlaMint/ParlaMint-ES_2020-09-29-CD200929.xml
+INFO: CD200930-PM.xml to ParlaMint/ParlaMint-ES_2020-09-30-CD200930.xml
+INFO: CD201001-PM.xml to ParlaMint/ParlaMint-ES_2020-10-01-CD201001.xml
+INFO: CD201013-PM.xml to ParlaMint/ParlaMint-ES_2020-10-13-CD201013.xml
+INFO: CD201014-PM.xml to ParlaMint/ParlaMint-ES_2020-10-14-CD201014.xml
+INFO: CD201015-PM.xml to ParlaMint/ParlaMint-ES_2020-10-15-CD201015.xml
+INFO: CD201020-PM.xml to ParlaMint/ParlaMint-ES_2020-10-20-CD201020.xml
+INFO: CD201021-PM.xml to ParlaMint/ParlaMint-ES_2020-10-21-CD201021.xml
+INFO: CD201022-PM.xml to ParlaMint/ParlaMint-ES_2020-10-22-CD201022.xml
+INFO: CD201027-PM.xml to ParlaMint/ParlaMint-ES_2020-10-27-CD201027.xml
+INFO: CD201028-PM.xml to ParlaMint/ParlaMint-ES_2020-10-28-CD201028.xml
+INFO: CD201029-PM.xml to ParlaMint/ParlaMint-ES_2020-10-29-CD201029.xml
+INFO: CD201111-PM.xml to ParlaMint/ParlaMint-ES_2020-11-11-CD201111.xml
+INFO: CD201112-PM.xml to ParlaMint/ParlaMint-ES_2020-11-12-CD201112.xml
+INFO: CD201117-PM.xml to ParlaMint/ParlaMint-ES_2020-11-17-CD201117.xml
+INFO: CD201118-bis-PM.xml to ParlaMint/ParlaMint-ES_2020-11-18-CD201118-bis.xml
+INFO: CD201118-PM.xml to ParlaMint/ParlaMint-ES_2020-11-18-CD201118.xml
+INFO: CD201130-PM.xml to ParlaMint/ParlaMint-ES_2020-11-30-CD201130.xml
+INFO: CD201201-PM.xml to ParlaMint/ParlaMint-ES_2020-12-01-CD201201.xml
+INFO: CD201202-PM.xml to ParlaMint/ParlaMint-ES_2020-12-02-CD201202.xml
+INFO: CD201203-PM.xml to ParlaMint/ParlaMint-ES_2020-12-03-CD201203.xml
+INFO: CD201215-PM.xml to ParlaMint/ParlaMint-ES_2020-12-15-CD201215.xml
+INFO: processing root 
+WARN: Word extent not yet implemented
+WARN: Word extent not yet implemented
+java -jar /usr/share/java/saxon.jar -xi -xsl:bin/copy.xsl ParlaMint/ParlaMint-ES.xml | java -jar /usr/share/java/jing.jar schemas/parla-clarin.rng
+java -jar /usr/share/java/jing.jar schemas/ParlaMint-teiCorpus.rng ParlaMint/ParlaMint-ES.xml 
+java -jar /usr/share/java/jing.jar schemas/ParlaMint-TEI.rng ParlaMint/ParlaMint-ES_*.xml
+bin/validate-parlamint.pl schemas ParlaMint
+INFO: Validating directory /home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/ParlaMint
+INFO: XML validation for ParlaMint-ES.xml
+INFO: Content validaton for ParlaMint-ES.xml
+INFO: Link checking for ParlaMint-ES.xml
+INFO ParlaMint-ES: Checking links in ParlaMint-ES.xml
+INFO: XML validation for ParlaMint-ES_2015-01-20-CD150120.xml
+INFO: Content validaton for ParlaMint-ES_2015-01-20-CD150120.xml
+INFO: Link checking for ParlaMint-ES_2015-01-20-CD150120.xml
+INFO ParlaMint-ES_2015-01-20-CD150120: Checking links in ParlaMint-ES_2015-01-20-CD150120.xml
+INFO: XML validation for ParlaMint-ES_2015-01-21-CD150121.xml
+INFO: Content validaton for ParlaMint-ES_2015-01-21-CD150121.xml
+INFO: Link checking for ParlaMint-ES_2015-01-21-CD150121.xml
+INFO ParlaMint-ES_2015-01-21-CD150121: Checking links in ParlaMint-ES_2015-01-21-CD150121.xml
+INFO: XML validation for ParlaMint-ES_2015-02-10-CD150210.xml
+INFO: Content validaton for ParlaMint-ES_2015-02-10-CD150210.xml
+INFO: Link checking for ParlaMint-ES_2015-02-10-CD150210.xml
+INFO ParlaMint-ES_2015-02-10-CD150210: Checking links in ParlaMint-ES_2015-02-10-CD150210.xml
+INFO: XML validation for ParlaMint-ES_2015-02-11-CD150211.xml
+INFO: Content validaton for ParlaMint-ES_2015-02-11-CD150211.xml
+INFO: Link checking for ParlaMint-ES_2015-02-11-CD150211.xml
+INFO ParlaMint-ES_2015-02-11-CD150211: Checking links in ParlaMint-ES_2015-02-11-CD150211.xml
+INFO: XML validation for ParlaMint-ES_2015-02-12-CD150212.xml
+INFO: Content validaton for ParlaMint-ES_2015-02-12-CD150212.xml
+INFO: Link checking for ParlaMint-ES_2015-02-12-CD150212.xml
+INFO ParlaMint-ES_2015-02-12-CD150212: Checking links in ParlaMint-ES_2015-02-12-CD150212.xml
+INFO: XML validation for ParlaMint-ES_2015-02-17-CD150217.xml
+INFO: Content validaton for ParlaMint-ES_2015-02-17-CD150217.xml
+INFO: Link checking for ParlaMint-ES_2015-02-17-CD150217.xml
+INFO ParlaMint-ES_2015-02-17-CD150217: Checking links in ParlaMint-ES_2015-02-17-CD150217.xml
+INFO: XML validation for ParlaMint-ES_2015-02-18-CD150218.xml
+INFO: Content validaton for ParlaMint-ES_2015-02-18-CD150218.xml
+INFO: Link checking for ParlaMint-ES_2015-02-18-CD150218.xml
+INFO ParlaMint-ES_2015-02-18-CD150218: Checking links in ParlaMint-ES_2015-02-18-CD150218.xml
+INFO: XML validation for ParlaMint-ES_2015-02-19-CD150219.xml
+INFO: Content validaton for ParlaMint-ES_2015-02-19-CD150219.xml
+INFO: Link checking for ParlaMint-ES_2015-02-19-CD150219.xml
+INFO ParlaMint-ES_2015-02-19-CD150219: Checking links in ParlaMint-ES_2015-02-19-CD150219.xml
+INFO: XML validation for ParlaMint-ES_2015-02-24-CD150224.xml
+INFO: Content validaton for ParlaMint-ES_2015-02-24-CD150224.xml
+INFO: Link checking for ParlaMint-ES_2015-02-24-CD150224.xml
+INFO ParlaMint-ES_2015-02-24-CD150224: Checking links in ParlaMint-ES_2015-02-24-CD150224.xml
+INFO: XML validation for ParlaMint-ES_2015-02-25-CD150225.xml
+INFO: Content validaton for ParlaMint-ES_2015-02-25-CD150225.xml
+INFO: Link checking for ParlaMint-ES_2015-02-25-CD150225.xml
+INFO ParlaMint-ES_2015-02-25-CD150225: Checking links in ParlaMint-ES_2015-02-25-CD150225.xml
+INFO: XML validation for ParlaMint-ES_2015-02-26-CD150226.xml
+INFO: Content validaton for ParlaMint-ES_2015-02-26-CD150226.xml
+INFO: Link checking for ParlaMint-ES_2015-02-26-CD150226.xml
+INFO ParlaMint-ES_2015-02-26-CD150226: Checking links in ParlaMint-ES_2015-02-26-CD150226.xml
+INFO: XML validation for ParlaMint-ES_2015-03-10-CD150310.xml
+INFO: Content validaton for ParlaMint-ES_2015-03-10-CD150310.xml
+INFO: Link checking for ParlaMint-ES_2015-03-10-CD150310.xml
+INFO ParlaMint-ES_2015-03-10-CD150310: Checking links in ParlaMint-ES_2015-03-10-CD150310.xml
+INFO: XML validation for ParlaMint-ES_2015-03-11-CD150311.xml
+INFO: Content validaton for ParlaMint-ES_2015-03-11-CD150311.xml
+INFO: Link checking for ParlaMint-ES_2015-03-11-CD150311.xml
+INFO ParlaMint-ES_2015-03-11-CD150311: Checking links in ParlaMint-ES_2015-03-11-CD150311.xml
+INFO: XML validation for ParlaMint-ES_2015-03-12-CD150312.xml
+INFO: Content validaton for ParlaMint-ES_2015-03-12-CD150312.xml
+INFO: Link checking for ParlaMint-ES_2015-03-12-CD150312.xml
+INFO ParlaMint-ES_2015-03-12-CD150312: Checking links in ParlaMint-ES_2015-03-12-CD150312.xml
+INFO: XML validation for ParlaMint-ES_2015-03-24-CD150324.xml
+INFO: Content validaton for ParlaMint-ES_2015-03-24-CD150324.xml
+INFO: Link checking for ParlaMint-ES_2015-03-24-CD150324.xml
+INFO ParlaMint-ES_2015-03-24-CD150324: Checking links in ParlaMint-ES_2015-03-24-CD150324.xml
+INFO: XML validation for ParlaMint-ES_2015-03-26-CD150326.xml
+INFO: Content validaton for ParlaMint-ES_2015-03-26-CD150326.xml
+INFO: Link checking for ParlaMint-ES_2015-03-26-CD150326.xml
+INFO ParlaMint-ES_2015-03-26-CD150326: Checking links in ParlaMint-ES_2015-03-26-CD150326.xml
+INFO: XML validation for ParlaMint-ES_2015-04-14-CD150414.xml
+INFO: Content validaton for ParlaMint-ES_2015-04-14-CD150414.xml
+INFO: Link checking for ParlaMint-ES_2015-04-14-CD150414.xml
+INFO ParlaMint-ES_2015-04-14-CD150414: Checking links in ParlaMint-ES_2015-04-14-CD150414.xml
+INFO: XML validation for ParlaMint-ES_2015-04-15-CD150415.xml
+INFO: Content validaton for ParlaMint-ES_2015-04-15-CD150415.xml
+INFO: Link checking for ParlaMint-ES_2015-04-15-CD150415.xml
+INFO ParlaMint-ES_2015-04-15-CD150415: Checking links in ParlaMint-ES_2015-04-15-CD150415.xml
+INFO: XML validation for ParlaMint-ES_2015-04-16-CD150416.xml
+INFO: Content validaton for ParlaMint-ES_2015-04-16-CD150416.xml
+INFO: Link checking for ParlaMint-ES_2015-04-16-CD150416.xml
+INFO ParlaMint-ES_2015-04-16-CD150416: Checking links in ParlaMint-ES_2015-04-16-CD150416.xml
+INFO: XML validation for ParlaMint-ES_2015-04-21-CD150421.xml
+INFO: Content validaton for ParlaMint-ES_2015-04-21-CD150421.xml
+INFO: Link checking for ParlaMint-ES_2015-04-21-CD150421.xml
+INFO ParlaMint-ES_2015-04-21-CD150421: Checking links in ParlaMint-ES_2015-04-21-CD150421.xml
+INFO: XML validation for ParlaMint-ES_2015-04-22-CD150422.xml
+INFO: Content validaton for ParlaMint-ES_2015-04-22-CD150422.xml
+INFO: Link checking for ParlaMint-ES_2015-04-22-CD150422.xml
+INFO ParlaMint-ES_2015-04-22-CD150422: Checking links in ParlaMint-ES_2015-04-22-CD150422.xml
+INFO: XML validation for ParlaMint-ES_2015-04-23-CD150423.xml
+INFO: Content validaton for ParlaMint-ES_2015-04-23-CD150423.xml
+INFO: Link checking for ParlaMint-ES_2015-04-23-CD150423.xml
+INFO ParlaMint-ES_2015-04-23-CD150423: Checking links in ParlaMint-ES_2015-04-23-CD150423.xml
+INFO: XML validation for ParlaMint-ES_2015-04-28-CD150428.xml
+INFO: Content validaton for ParlaMint-ES_2015-04-28-CD150428.xml
+INFO: Link checking for ParlaMint-ES_2015-04-28-CD150428.xml
+INFO ParlaMint-ES_2015-04-28-CD150428: Checking links in ParlaMint-ES_2015-04-28-CD150428.xml
+INFO: XML validation for ParlaMint-ES_2015-04-29-CD150429.xml
+INFO: Content validaton for ParlaMint-ES_2015-04-29-CD150429.xml
+INFO: Link checking for ParlaMint-ES_2015-04-29-CD150429.xml
+INFO ParlaMint-ES_2015-04-29-CD150429: Checking links in ParlaMint-ES_2015-04-29-CD150429.xml
+INFO: XML validation for ParlaMint-ES_2015-04-30-CD150430.xml
+INFO: Content validaton for ParlaMint-ES_2015-04-30-CD150430.xml
+INFO: Link checking for ParlaMint-ES_2015-04-30-CD150430.xml
+INFO ParlaMint-ES_2015-04-30-CD150430: Checking links in ParlaMint-ES_2015-04-30-CD150430.xml
+INFO: XML validation for ParlaMint-ES_2015-05-12-CD150512.xml
+INFO: Content validaton for ParlaMint-ES_2015-05-12-CD150512.xml
+INFO: Link checking for ParlaMint-ES_2015-05-12-CD150512.xml
+INFO ParlaMint-ES_2015-05-12-CD150512: Checking links in ParlaMint-ES_2015-05-12-CD150512.xml
+INFO: XML validation for ParlaMint-ES_2015-05-13-CD150513.xml
+INFO: Content validaton for ParlaMint-ES_2015-05-13-CD150513.xml
+INFO: Link checking for ParlaMint-ES_2015-05-13-CD150513.xml
+INFO ParlaMint-ES_2015-05-13-CD150513: Checking links in ParlaMint-ES_2015-05-13-CD150513.xml
+INFO: XML validation for ParlaMint-ES_2015-05-14-CD150514.xml
+INFO: Content validaton for ParlaMint-ES_2015-05-14-CD150514.xml
+INFO: Link checking for ParlaMint-ES_2015-05-14-CD150514.xml
+INFO ParlaMint-ES_2015-05-14-CD150514: Checking links in ParlaMint-ES_2015-05-14-CD150514.xml
+INFO: XML validation for ParlaMint-ES_2015-05-26-CD150526.xml
+INFO: Content validaton for ParlaMint-ES_2015-05-26-CD150526.xml
+INFO: Link checking for ParlaMint-ES_2015-05-26-CD150526.xml
+INFO ParlaMint-ES_2015-05-26-CD150526: Checking links in ParlaMint-ES_2015-05-26-CD150526.xml
+INFO: XML validation for ParlaMint-ES_2015-05-27-CD150527.xml
+INFO: Content validaton for ParlaMint-ES_2015-05-27-CD150527.xml
+INFO: Link checking for ParlaMint-ES_2015-05-27-CD150527.xml
+INFO ParlaMint-ES_2015-05-27-CD150527: Checking links in ParlaMint-ES_2015-05-27-CD150527.xml
+INFO: XML validation for ParlaMint-ES_2015-05-28-CD150528.xml
+INFO: Content validaton for ParlaMint-ES_2015-05-28-CD150528.xml
+INFO: Link checking for ParlaMint-ES_2015-05-28-CD150528.xml
+INFO ParlaMint-ES_2015-05-28-CD150528: Checking links in ParlaMint-ES_2015-05-28-CD150528.xml
+INFO: XML validation for ParlaMint-ES_2015-06-09-CD150609.xml
+INFO: Content validaton for ParlaMint-ES_2015-06-09-CD150609.xml
+INFO: Link checking for ParlaMint-ES_2015-06-09-CD150609.xml
+INFO ParlaMint-ES_2015-06-09-CD150609: Checking links in ParlaMint-ES_2015-06-09-CD150609.xml
+INFO: XML validation for ParlaMint-ES_2015-06-10-CD150610.xml
+INFO: Content validaton for ParlaMint-ES_2015-06-10-CD150610.xml
+INFO: Link checking for ParlaMint-ES_2015-06-10-CD150610.xml
+INFO ParlaMint-ES_2015-06-10-CD150610: Checking links in ParlaMint-ES_2015-06-10-CD150610.xml
+INFO: XML validation for ParlaMint-ES_2015-06-11-CD150611.xml
+INFO: Content validaton for ParlaMint-ES_2015-06-11-CD150611.xml
+INFO: Link checking for ParlaMint-ES_2015-06-11-CD150611.xml
+INFO ParlaMint-ES_2015-06-11-CD150611: Checking links in ParlaMint-ES_2015-06-11-CD150611.xml
+INFO: XML validation for ParlaMint-ES_2015-06-16-CD150616.xml
+INFO: Content validaton for ParlaMint-ES_2015-06-16-CD150616.xml
+INFO: Link checking for ParlaMint-ES_2015-06-16-CD150616.xml
+INFO ParlaMint-ES_2015-06-16-CD150616: Checking links in ParlaMint-ES_2015-06-16-CD150616.xml
+INFO: XML validation for ParlaMint-ES_2015-06-17-CD150617.xml
+INFO: Content validaton for ParlaMint-ES_2015-06-17-CD150617.xml
+INFO: Link checking for ParlaMint-ES_2015-06-17-CD150617.xml
+INFO ParlaMint-ES_2015-06-17-CD150617: Checking links in ParlaMint-ES_2015-06-17-CD150617.xml
+INFO: XML validation for ParlaMint-ES_2015-06-18-CD150618.xml
+INFO: Content validaton for ParlaMint-ES_2015-06-18-CD150618.xml
+INFO: Link checking for ParlaMint-ES_2015-06-18-CD150618.xml
+INFO ParlaMint-ES_2015-06-18-CD150618: Checking links in ParlaMint-ES_2015-06-18-CD150618.xml
+INFO: XML validation for ParlaMint-ES_2015-06-23-CD150623.xml
+INFO: Content validaton for ParlaMint-ES_2015-06-23-CD150623.xml
+INFO: Link checking for ParlaMint-ES_2015-06-23-CD150623.xml
+INFO ParlaMint-ES_2015-06-23-CD150623: Checking links in ParlaMint-ES_2015-06-23-CD150623.xml
+INFO: XML validation for ParlaMint-ES_2015-06-24-CD150624.xml
+INFO: Content validaton for ParlaMint-ES_2015-06-24-CD150624.xml
+INFO: Link checking for ParlaMint-ES_2015-06-24-CD150624.xml
+INFO ParlaMint-ES_2015-06-24-CD150624: Checking links in ParlaMint-ES_2015-06-24-CD150624.xml
+INFO: XML validation for ParlaMint-ES_2015-06-25-CD150625.xml
+INFO: Content validaton for ParlaMint-ES_2015-06-25-CD150625.xml
+INFO: Link checking for ParlaMint-ES_2015-06-25-CD150625.xml
+INFO ParlaMint-ES_2015-06-25-CD150625: Checking links in ParlaMint-ES_2015-06-25-CD150625.xml
+INFO: XML validation for ParlaMint-ES_2015-07-07-CD150707.xml
+INFO: Content validaton for ParlaMint-ES_2015-07-07-CD150707.xml
+INFO: Link checking for ParlaMint-ES_2015-07-07-CD150707.xml
+INFO ParlaMint-ES_2015-07-07-CD150707: Checking links in ParlaMint-ES_2015-07-07-CD150707.xml
+INFO: XML validation for ParlaMint-ES_2015-07-08-CD150708.xml
+INFO: Content validaton for ParlaMint-ES_2015-07-08-CD150708.xml
+INFO: Link checking for ParlaMint-ES_2015-07-08-CD150708.xml
+INFO ParlaMint-ES_2015-07-08-CD150708: Checking links in ParlaMint-ES_2015-07-08-CD150708.xml
+INFO: XML validation for ParlaMint-ES_2015-07-15-CD150715.xml
+INFO: Content validaton for ParlaMint-ES_2015-07-15-CD150715.xml
+INFO: Link checking for ParlaMint-ES_2015-07-15-CD150715.xml
+INFO ParlaMint-ES_2015-07-15-CD150715: Checking links in ParlaMint-ES_2015-07-15-CD150715.xml
+INFO: XML validation for ParlaMint-ES_2015-07-16-CD150716.xml
+INFO: Content validaton for ParlaMint-ES_2015-07-16-CD150716.xml
+INFO: Link checking for ParlaMint-ES_2015-07-16-CD150716.xml
+INFO ParlaMint-ES_2015-07-16-CD150716: Checking links in ParlaMint-ES_2015-07-16-CD150716.xml
+INFO: XML validation for ParlaMint-ES_2015-08-18-CD150818.xml
+INFO: Content validaton for ParlaMint-ES_2015-08-18-CD150818.xml
+INFO: Link checking for ParlaMint-ES_2015-08-18-CD150818.xml
+INFO ParlaMint-ES_2015-08-18-CD150818: Checking links in ParlaMint-ES_2015-08-18-CD150818.xml
+INFO: XML validation for ParlaMint-ES_2015-08-25-CD150825.xml
+INFO: Content validaton for ParlaMint-ES_2015-08-25-CD150825.xml
+INFO: Link checking for ParlaMint-ES_2015-08-25-CD150825.xml
+INFO ParlaMint-ES_2015-08-25-CD150825: Checking links in ParlaMint-ES_2015-08-25-CD150825.xml
+INFO: XML validation for ParlaMint-ES_2015-08-26-CD150826.xml
+INFO: Content validaton for ParlaMint-ES_2015-08-26-CD150826.xml
+INFO: Link checking for ParlaMint-ES_2015-08-26-CD150826.xml
+INFO ParlaMint-ES_2015-08-26-CD150826: Checking links in ParlaMint-ES_2015-08-26-CD150826.xml
+INFO: XML validation for ParlaMint-ES_2015-09-14-CD150914.xml
+INFO: Content validaton for ParlaMint-ES_2015-09-14-CD150914.xml
+INFO: Link checking for ParlaMint-ES_2015-09-14-CD150914.xml
+INFO ParlaMint-ES_2015-09-14-CD150914: Checking links in ParlaMint-ES_2015-09-14-CD150914.xml
+INFO: XML validation for ParlaMint-ES_2015-09-15-CD150915.xml
+INFO: Content validaton for ParlaMint-ES_2015-09-15-CD150915.xml
+INFO: Link checking for ParlaMint-ES_2015-09-15-CD150915.xml
+INFO ParlaMint-ES_2015-09-15-CD150915: Checking links in ParlaMint-ES_2015-09-15-CD150915.xml
+INFO: XML validation for ParlaMint-ES_2015-09-16-CD150916.xml
+INFO: Content validaton for ParlaMint-ES_2015-09-16-CD150916.xml
+INFO: Link checking for ParlaMint-ES_2015-09-16-CD150916.xml
+INFO ParlaMint-ES_2015-09-16-CD150916: Checking links in ParlaMint-ES_2015-09-16-CD150916.xml
+INFO: XML validation for ParlaMint-ES_2015-09-29-CD150929.xml
+INFO: Content validaton for ParlaMint-ES_2015-09-29-CD150929.xml
+INFO: Link checking for ParlaMint-ES_2015-09-29-CD150929.xml
+INFO ParlaMint-ES_2015-09-29-CD150929: Checking links in ParlaMint-ES_2015-09-29-CD150929.xml
+INFO: XML validation for ParlaMint-ES_2015-09-30-CD150930.xml
+INFO: Content validaton for ParlaMint-ES_2015-09-30-CD150930.xml
+INFO: Link checking for ParlaMint-ES_2015-09-30-CD150930.xml
+INFO ParlaMint-ES_2015-09-30-CD150930: Checking links in ParlaMint-ES_2015-09-30-CD150930.xml
+INFO: XML validation for ParlaMint-ES_2015-10-01-CD151001.xml
+INFO: Content validaton for ParlaMint-ES_2015-10-01-CD151001.xml
+INFO: Link checking for ParlaMint-ES_2015-10-01-CD151001.xml
+INFO ParlaMint-ES_2015-10-01-CD151001: Checking links in ParlaMint-ES_2015-10-01-CD151001.xml
+INFO: XML validation for ParlaMint-ES_2015-10-13-CD151013.xml
+INFO: Content validaton for ParlaMint-ES_2015-10-13-CD151013.xml
+INFO: Link checking for ParlaMint-ES_2015-10-13-CD151013.xml
+INFO ParlaMint-ES_2015-10-13-CD151013: Checking links in ParlaMint-ES_2015-10-13-CD151013.xml
+INFO: XML validation for ParlaMint-ES_2015-10-14-CD151014.xml
+INFO: Content validaton for ParlaMint-ES_2015-10-14-CD151014.xml
+INFO: Link checking for ParlaMint-ES_2015-10-14-CD151014.xml
+INFO ParlaMint-ES_2015-10-14-CD151014: Checking links in ParlaMint-ES_2015-10-14-CD151014.xml
+INFO: XML validation for ParlaMint-ES_2015-10-20-CD151020.xml
+INFO: Content validaton for ParlaMint-ES_2015-10-20-CD151020.xml
+INFO: Link checking for ParlaMint-ES_2015-10-20-CD151020.xml
+INFO ParlaMint-ES_2015-10-20-CD151020: Checking links in ParlaMint-ES_2015-10-20-CD151020.xml
+INFO: XML validation for ParlaMint-ES_2015-10-21-CD151021.xml
+INFO: Content validaton for ParlaMint-ES_2015-10-21-CD151021.xml
+INFO: Link checking for ParlaMint-ES_2015-10-21-CD151021.xml
+INFO ParlaMint-ES_2015-10-21-CD151021: Checking links in ParlaMint-ES_2015-10-21-CD151021.xml
+INFO: XML validation for ParlaMint-ES_2016-01-13-CD160113.xml
+INFO: Content validaton for ParlaMint-ES_2016-01-13-CD160113.xml
+INFO: Link checking for ParlaMint-ES_2016-01-13-CD160113.xml
+INFO ParlaMint-ES_2016-01-13-CD160113: Checking links in ParlaMint-ES_2016-01-13-CD160113.xml
+INFO: XML validation for ParlaMint-ES_2016-03-02-CD160302.xml
+INFO: Content validaton for ParlaMint-ES_2016-03-02-CD160302.xml
+INFO: Link checking for ParlaMint-ES_2016-03-02-CD160302.xml
+INFO ParlaMint-ES_2016-03-02-CD160302: Checking links in ParlaMint-ES_2016-03-02-CD160302.xml
+INFO: XML validation for ParlaMint-ES_2016-03-04-CD160304.xml
+INFO: Content validaton for ParlaMint-ES_2016-03-04-CD160304.xml
+INFO: Link checking for ParlaMint-ES_2016-03-04-CD160304.xml
+INFO ParlaMint-ES_2016-03-04-CD160304: Checking links in ParlaMint-ES_2016-03-04-CD160304.xml
+INFO: XML validation for ParlaMint-ES_2016-03-15-CD160315.xml
+INFO: Content validaton for ParlaMint-ES_2016-03-15-CD160315.xml
+INFO: Link checking for ParlaMint-ES_2016-03-15-CD160315.xml
+INFO ParlaMint-ES_2016-03-15-CD160315: Checking links in ParlaMint-ES_2016-03-15-CD160315.xml
+INFO: XML validation for ParlaMint-ES_2016-04-05-CD160405.xml
+INFO: Content validaton for ParlaMint-ES_2016-04-05-CD160405.xml
+INFO: Link checking for ParlaMint-ES_2016-04-05-CD160405.xml
+INFO ParlaMint-ES_2016-04-05-CD160405: Checking links in ParlaMint-ES_2016-04-05-CD160405.xml
+INFO: XML validation for ParlaMint-ES_2016-04-06-CD160406.xml
+INFO: Content validaton for ParlaMint-ES_2016-04-06-CD160406.xml
+INFO: Link checking for ParlaMint-ES_2016-04-06-CD160406.xml
+INFO ParlaMint-ES_2016-04-06-CD160406: Checking links in ParlaMint-ES_2016-04-06-CD160406.xml
+INFO: XML validation for ParlaMint-ES_2016-04-12-CD160412.xml
+INFO: Content validaton for ParlaMint-ES_2016-04-12-CD160412.xml
+INFO: Link checking for ParlaMint-ES_2016-04-12-CD160412.xml
+INFO ParlaMint-ES_2016-04-12-CD160412: Checking links in ParlaMint-ES_2016-04-12-CD160412.xml
+INFO: XML validation for ParlaMint-ES_2016-04-13-CD160413.xml
+INFO: Content validaton for ParlaMint-ES_2016-04-13-CD160413.xml
+INFO: Link checking for ParlaMint-ES_2016-04-13-CD160413.xml
+INFO ParlaMint-ES_2016-04-13-CD160413: Checking links in ParlaMint-ES_2016-04-13-CD160413.xml
+INFO: XML validation for ParlaMint-ES_2016-04-19-CD160419.xml
+INFO: Content validaton for ParlaMint-ES_2016-04-19-CD160419.xml
+INFO: Link checking for ParlaMint-ES_2016-04-19-CD160419.xml
+INFO ParlaMint-ES_2016-04-19-CD160419: Checking links in ParlaMint-ES_2016-04-19-CD160419.xml
+INFO: XML validation for ParlaMint-ES_2016-04-20-CD160420.xml
+INFO: Content validaton for ParlaMint-ES_2016-04-20-CD160420.xml
+INFO: Link checking for ParlaMint-ES_2016-04-20-CD160420.xml
+INFO ParlaMint-ES_2016-04-20-CD160420: Checking links in ParlaMint-ES_2016-04-20-CD160420.xml
+INFO: XML validation for ParlaMint-ES_2016-04-27-CD160427.xml
+INFO: Content validaton for ParlaMint-ES_2016-04-27-CD160427.xml
+INFO: Link checking for ParlaMint-ES_2016-04-27-CD160427.xml
+INFO ParlaMint-ES_2016-04-27-CD160427: Checking links in ParlaMint-ES_2016-04-27-CD160427.xml
+INFO: XML validation for ParlaMint-ES_2016-04-28-CD160428.xml
+INFO: Content validaton for ParlaMint-ES_2016-04-28-CD160428.xml
+INFO: Link checking for ParlaMint-ES_2016-04-28-CD160428.xml
+INFO ParlaMint-ES_2016-04-28-CD160428: Checking links in ParlaMint-ES_2016-04-28-CD160428.xml
+INFO: XML validation for ParlaMint-ES_2016-07-19-CD160719.xml
+INFO: Content validaton for ParlaMint-ES_2016-07-19-CD160719.xml
+INFO: Link checking for ParlaMint-ES_2016-07-19-CD160719.xml
+INFO ParlaMint-ES_2016-07-19-CD160719: Checking links in ParlaMint-ES_2016-07-19-CD160719.xml
+INFO: XML validation for ParlaMint-ES_2016-08-30-CD160830.xml
+INFO: Content validaton for ParlaMint-ES_2016-08-30-CD160830.xml
+INFO: Link checking for ParlaMint-ES_2016-08-30-CD160830.xml
+INFO ParlaMint-ES_2016-08-30-CD160830: Checking links in ParlaMint-ES_2016-08-30-CD160830.xml
+INFO: XML validation for ParlaMint-ES_2016-08-31-CD160831.xml
+INFO: Content validaton for ParlaMint-ES_2016-08-31-CD160831.xml
+INFO: Link checking for ParlaMint-ES_2016-08-31-CD160831.xml
+INFO ParlaMint-ES_2016-08-31-CD160831: Checking links in ParlaMint-ES_2016-08-31-CD160831.xml
+INFO: XML validation for ParlaMint-ES_2016-09-02-CD160902.xml
+INFO: Content validaton for ParlaMint-ES_2016-09-02-CD160902.xml
+INFO: Link checking for ParlaMint-ES_2016-09-02-CD160902.xml
+INFO ParlaMint-ES_2016-09-02-CD160902: Checking links in ParlaMint-ES_2016-09-02-CD160902.xml
+INFO: XML validation for ParlaMint-ES_2016-09-27-CD160927.xml
+INFO: Content validaton for ParlaMint-ES_2016-09-27-CD160927.xml
+INFO: Link checking for ParlaMint-ES_2016-09-27-CD160927.xml
+INFO ParlaMint-ES_2016-09-27-CD160927: Checking links in ParlaMint-ES_2016-09-27-CD160927.xml
+INFO: XML validation for ParlaMint-ES_2016-10-04-CD161004.xml
+INFO: Content validaton for ParlaMint-ES_2016-10-04-CD161004.xml
+INFO: Link checking for ParlaMint-ES_2016-10-04-CD161004.xml
+INFO ParlaMint-ES_2016-10-04-CD161004: Checking links in ParlaMint-ES_2016-10-04-CD161004.xml
+INFO: XML validation for ParlaMint-ES_2016-10-18-CD161018.xml
+INFO: Content validaton for ParlaMint-ES_2016-10-18-CD161018.xml
+INFO: Link checking for ParlaMint-ES_2016-10-18-CD161018.xml
+INFO ParlaMint-ES_2016-10-18-CD161018: Checking links in ParlaMint-ES_2016-10-18-CD161018.xml
+INFO: XML validation for ParlaMint-ES_2016-10-20-CD161020.xml
+INFO: Content validaton for ParlaMint-ES_2016-10-20-CD161020.xml
+INFO: Link checking for ParlaMint-ES_2016-10-20-CD161020.xml
+INFO ParlaMint-ES_2016-10-20-CD161020: Checking links in ParlaMint-ES_2016-10-20-CD161020.xml
+INFO: XML validation for ParlaMint-ES_2016-10-26-CD161026.xml
+INFO: Content validaton for ParlaMint-ES_2016-10-26-CD161026.xml
+INFO: Link checking for ParlaMint-ES_2016-10-26-CD161026.xml
+INFO ParlaMint-ES_2016-10-26-CD161026: Checking links in ParlaMint-ES_2016-10-26-CD161026.xml
+INFO: XML validation for ParlaMint-ES_2016-10-27-CD161027.xml
+INFO: Content validaton for ParlaMint-ES_2016-10-27-CD161027.xml
+INFO: Link checking for ParlaMint-ES_2016-10-27-CD161027.xml
+INFO ParlaMint-ES_2016-10-27-CD161027: Checking links in ParlaMint-ES_2016-10-27-CD161027.xml
+INFO: XML validation for ParlaMint-ES_2016-10-29-CD161029.xml
+INFO: Content validaton for ParlaMint-ES_2016-10-29-CD161029.xml
+INFO: Link checking for ParlaMint-ES_2016-10-29-CD161029.xml
+INFO ParlaMint-ES_2016-10-29-CD161029: Checking links in ParlaMint-ES_2016-10-29-CD161029.xml
+INFO: XML validation for ParlaMint-ES_2016-11-15-CD161115.xml
+INFO: Content validaton for ParlaMint-ES_2016-11-15-CD161115.xml
+INFO: Link checking for ParlaMint-ES_2016-11-15-CD161115.xml
+INFO ParlaMint-ES_2016-11-15-CD161115: Checking links in ParlaMint-ES_2016-11-15-CD161115.xml
+INFO: XML validation for ParlaMint-ES_2016-11-22-CD161122.xml
+INFO: Content validaton for ParlaMint-ES_2016-11-22-CD161122.xml
+INFO: Link checking for ParlaMint-ES_2016-11-22-CD161122.xml
+INFO ParlaMint-ES_2016-11-22-CD161122: Checking links in ParlaMint-ES_2016-11-22-CD161122.xml
+INFO: XML validation for ParlaMint-ES_2016-11-23-CD161123.xml
+INFO: Content validaton for ParlaMint-ES_2016-11-23-CD161123.xml
+INFO: Link checking for ParlaMint-ES_2016-11-23-CD161123.xml
+INFO ParlaMint-ES_2016-11-23-CD161123: Checking links in ParlaMint-ES_2016-11-23-CD161123.xml
+INFO: XML validation for ParlaMint-ES_2016-11-29-CD161129.xml
+INFO: Content validaton for ParlaMint-ES_2016-11-29-CD161129.xml
+INFO: Link checking for ParlaMint-ES_2016-11-29-CD161129.xml
+INFO ParlaMint-ES_2016-11-29-CD161129: Checking links in ParlaMint-ES_2016-11-29-CD161129.xml
+INFO: XML validation for ParlaMint-ES_2016-11-30-CD161130.xml
+INFO: Content validaton for ParlaMint-ES_2016-11-30-CD161130.xml
+INFO: Link checking for ParlaMint-ES_2016-11-30-CD161130.xml
+INFO ParlaMint-ES_2016-11-30-CD161130: Checking links in ParlaMint-ES_2016-11-30-CD161130.xml
+INFO: XML validation for ParlaMint-ES_2016-12-13-CD161213.xml
+INFO: Content validaton for ParlaMint-ES_2016-12-13-CD161213.xml
+INFO: Link checking for ParlaMint-ES_2016-12-13-CD161213.xml
+INFO ParlaMint-ES_2016-12-13-CD161213: Checking links in ParlaMint-ES_2016-12-13-CD161213.xml
+INFO: XML validation for ParlaMint-ES_2016-12-14-CD161214.xml
+INFO: Content validaton for ParlaMint-ES_2016-12-14-CD161214.xml
+INFO: Link checking for ParlaMint-ES_2016-12-14-CD161214.xml
+INFO ParlaMint-ES_2016-12-14-CD161214: Checking links in ParlaMint-ES_2016-12-14-CD161214.xml
+INFO: XML validation for ParlaMint-ES_2016-12-15-CD161215.xml
+INFO: Content validaton for ParlaMint-ES_2016-12-15-CD161215.xml
+INFO: Link checking for ParlaMint-ES_2016-12-15-CD161215.xml
+INFO ParlaMint-ES_2016-12-15-CD161215: Checking links in ParlaMint-ES_2016-12-15-CD161215.xml
+INFO: XML validation for ParlaMint-ES_2016-12-20-CD161220.xml
+INFO: Content validaton for ParlaMint-ES_2016-12-20-CD161220.xml
+INFO: Link checking for ParlaMint-ES_2016-12-20-CD161220.xml
+INFO ParlaMint-ES_2016-12-20-CD161220: Checking links in ParlaMint-ES_2016-12-20-CD161220.xml
+INFO: XML validation for ParlaMint-ES_2016-12-21-CD161221.xml
+INFO: Content validaton for ParlaMint-ES_2016-12-21-CD161221.xml
+INFO: Link checking for ParlaMint-ES_2016-12-21-CD161221.xml
+INFO ParlaMint-ES_2016-12-21-CD161221: Checking links in ParlaMint-ES_2016-12-21-CD161221.xml
+INFO: XML validation for ParlaMint-ES_2017-01-31-CD170131.xml
+INFO: Content validaton for ParlaMint-ES_2017-01-31-CD170131.xml
+INFO: Link checking for ParlaMint-ES_2017-01-31-CD170131.xml
+INFO ParlaMint-ES_2017-01-31-CD170131: Checking links in ParlaMint-ES_2017-01-31-CD170131.xml
+INFO: XML validation for ParlaMint-ES_2017-02-01-CD170201.xml
+INFO: Content validaton for ParlaMint-ES_2017-02-01-CD170201.xml
+INFO: Link checking for ParlaMint-ES_2017-02-01-CD170201.xml
+INFO ParlaMint-ES_2017-02-01-CD170201: Checking links in ParlaMint-ES_2017-02-01-CD170201.xml
+INFO: XML validation for ParlaMint-ES_2017-02-02-CD170202.xml
+INFO: Content validaton for ParlaMint-ES_2017-02-02-CD170202.xml
+INFO: Link checking for ParlaMint-ES_2017-02-02-CD170202.xml
+INFO ParlaMint-ES_2017-02-02-CD170202: Checking links in ParlaMint-ES_2017-02-02-CD170202.xml
+INFO: XML validation for ParlaMint-ES_2017-02-14-CD170214.xml
+INFO: Content validaton for ParlaMint-ES_2017-02-14-CD170214.xml
+INFO: Link checking for ParlaMint-ES_2017-02-14-CD170214.xml
+INFO ParlaMint-ES_2017-02-14-CD170214: Checking links in ParlaMint-ES_2017-02-14-CD170214.xml
+INFO: XML validation for ParlaMint-ES_2017-02-15-CD170215.xml
+INFO: Content validaton for ParlaMint-ES_2017-02-15-CD170215.xml
+INFO: Link checking for ParlaMint-ES_2017-02-15-CD170215.xml
+INFO ParlaMint-ES_2017-02-15-CD170215: Checking links in ParlaMint-ES_2017-02-15-CD170215.xml
+INFO: XML validation for ParlaMint-ES_2017-02-16-CD170216.xml
+INFO: Content validaton for ParlaMint-ES_2017-02-16-CD170216.xml
+INFO: Link checking for ParlaMint-ES_2017-02-16-CD170216.xml
+INFO ParlaMint-ES_2017-02-16-CD170216: Checking links in ParlaMint-ES_2017-02-16-CD170216.xml
+INFO: XML validation for ParlaMint-ES_2017-02-21-CD170221.xml
+INFO: Content validaton for ParlaMint-ES_2017-02-21-CD170221.xml
+INFO: Link checking for ParlaMint-ES_2017-02-21-CD170221.xml
+INFO ParlaMint-ES_2017-02-21-CD170221: Checking links in ParlaMint-ES_2017-02-21-CD170221.xml
+INFO: XML validation for ParlaMint-ES_2017-02-22-CD170222.xml
+INFO: Content validaton for ParlaMint-ES_2017-02-22-CD170222.xml
+INFO: Link checking for ParlaMint-ES_2017-02-22-CD170222.xml
+INFO ParlaMint-ES_2017-02-22-CD170222: Checking links in ParlaMint-ES_2017-02-22-CD170222.xml
+INFO: XML validation for ParlaMint-ES_2017-03-07-CD170307.xml
+INFO: Content validaton for ParlaMint-ES_2017-03-07-CD170307.xml
+INFO: Link checking for ParlaMint-ES_2017-03-07-CD170307.xml
+INFO ParlaMint-ES_2017-03-07-CD170307: Checking links in ParlaMint-ES_2017-03-07-CD170307.xml
+INFO: XML validation for ParlaMint-ES_2017-03-08-CD170308.xml
+INFO: Content validaton for ParlaMint-ES_2017-03-08-CD170308.xml
+INFO: Link checking for ParlaMint-ES_2017-03-08-CD170308.xml
+INFO ParlaMint-ES_2017-03-08-CD170308: Checking links in ParlaMint-ES_2017-03-08-CD170308.xml
+INFO: XML validation for ParlaMint-ES_2017-03-09-CD170309.xml
+INFO: Content validaton for ParlaMint-ES_2017-03-09-CD170309.xml
+INFO: Link checking for ParlaMint-ES_2017-03-09-CD170309.xml
+INFO ParlaMint-ES_2017-03-09-CD170309: Checking links in ParlaMint-ES_2017-03-09-CD170309.xml
+INFO: XML validation for ParlaMint-ES_2017-03-14-CD170314.xml
+INFO: Content validaton for ParlaMint-ES_2017-03-14-CD170314.xml
+INFO: Link checking for ParlaMint-ES_2017-03-14-CD170314.xml
+INFO ParlaMint-ES_2017-03-14-CD170314: Checking links in ParlaMint-ES_2017-03-14-CD170314.xml
+INFO: XML validation for ParlaMint-ES_2017-03-15-CD170315.xml
+INFO: Content validaton for ParlaMint-ES_2017-03-15-CD170315.xml
+INFO: Link checking for ParlaMint-ES_2017-03-15-CD170315.xml
+INFO ParlaMint-ES_2017-03-15-CD170315: Checking links in ParlaMint-ES_2017-03-15-CD170315.xml
+INFO: XML validation for ParlaMint-ES_2017-03-16-CD170316.xml
+INFO: Content validaton for ParlaMint-ES_2017-03-16-CD170316.xml
+INFO: Link checking for ParlaMint-ES_2017-03-16-CD170316.xml
+INFO ParlaMint-ES_2017-03-16-CD170316: Checking links in ParlaMint-ES_2017-03-16-CD170316.xml
+INFO: XML validation for ParlaMint-ES_2017-03-21-CD170321.xml
+INFO: Content validaton for ParlaMint-ES_2017-03-21-CD170321.xml
+INFO: Link checking for ParlaMint-ES_2017-03-21-CD170321.xml
+INFO ParlaMint-ES_2017-03-21-CD170321: Checking links in ParlaMint-ES_2017-03-21-CD170321.xml
+INFO: XML validation for ParlaMint-ES_2017-03-22-CD170322.xml
+INFO: Content validaton for ParlaMint-ES_2017-03-22-CD170322.xml
+INFO: Link checking for ParlaMint-ES_2017-03-22-CD170322.xml
+INFO ParlaMint-ES_2017-03-22-CD170322: Checking links in ParlaMint-ES_2017-03-22-CD170322.xml
+INFO: XML validation for ParlaMint-ES_2017-03-28-CD170328.xml
+INFO: Content validaton for ParlaMint-ES_2017-03-28-CD170328.xml
+INFO: Link checking for ParlaMint-ES_2017-03-28-CD170328.xml
+INFO ParlaMint-ES_2017-03-28-CD170328: Checking links in ParlaMint-ES_2017-03-28-CD170328.xml
+INFO: XML validation for ParlaMint-ES_2017-03-29-CD170329.xml
+INFO: Content validaton for ParlaMint-ES_2017-03-29-CD170329.xml
+INFO: Link checking for ParlaMint-ES_2017-03-29-CD170329.xml
+INFO ParlaMint-ES_2017-03-29-CD170329: Checking links in ParlaMint-ES_2017-03-29-CD170329.xml
+INFO: XML validation for ParlaMint-ES_2017-03-30-CD170330.xml
+INFO: Content validaton for ParlaMint-ES_2017-03-30-CD170330.xml
+INFO: Link checking for ParlaMint-ES_2017-03-30-CD170330.xml
+INFO ParlaMint-ES_2017-03-30-CD170330: Checking links in ParlaMint-ES_2017-03-30-CD170330.xml
+INFO: XML validation for ParlaMint-ES_2017-04-04-CD170404.xml
+INFO: Content validaton for ParlaMint-ES_2017-04-04-CD170404.xml
+INFO: Link checking for ParlaMint-ES_2017-04-04-CD170404.xml
+INFO ParlaMint-ES_2017-04-04-CD170404: Checking links in ParlaMint-ES_2017-04-04-CD170404.xml
+INFO: XML validation for ParlaMint-ES_2017-04-05-CD170405.xml
+INFO: Content validaton for ParlaMint-ES_2017-04-05-CD170405.xml
+INFO: Link checking for ParlaMint-ES_2017-04-05-CD170405.xml
+INFO ParlaMint-ES_2017-04-05-CD170405: Checking links in ParlaMint-ES_2017-04-05-CD170405.xml
+INFO: XML validation for ParlaMint-ES_2017-04-06-CD170406.xml
+INFO: Content validaton for ParlaMint-ES_2017-04-06-CD170406.xml
+INFO: Link checking for ParlaMint-ES_2017-04-06-CD170406.xml
+INFO ParlaMint-ES_2017-04-06-CD170406: Checking links in ParlaMint-ES_2017-04-06-CD170406.xml
+INFO: XML validation for ParlaMint-ES_2017-05-03-CD170503.xml
+INFO: Content validaton for ParlaMint-ES_2017-05-03-CD170503.xml
+INFO: Link checking for ParlaMint-ES_2017-05-03-CD170503.xml
+INFO ParlaMint-ES_2017-05-03-CD170503: Checking links in ParlaMint-ES_2017-05-03-CD170503.xml
+INFO: XML validation for ParlaMint-ES_2017-05-04-CD170504.xml
+INFO: Content validaton for ParlaMint-ES_2017-05-04-CD170504.xml
+INFO: Link checking for ParlaMint-ES_2017-05-04-CD170504.xml
+INFO ParlaMint-ES_2017-05-04-CD170504: Checking links in ParlaMint-ES_2017-05-04-CD170504.xml
+INFO: XML validation for ParlaMint-ES_2017-05-09-CD170509.xml
+INFO: Content validaton for ParlaMint-ES_2017-05-09-CD170509.xml
+INFO: Link checking for ParlaMint-ES_2017-05-09-CD170509.xml
+INFO ParlaMint-ES_2017-05-09-CD170509: Checking links in ParlaMint-ES_2017-05-09-CD170509.xml
+INFO: XML validation for ParlaMint-ES_2017-05-10-CD170510.xml
+INFO: Content validaton for ParlaMint-ES_2017-05-10-CD170510.xml
+INFO: Link checking for ParlaMint-ES_2017-05-10-CD170510.xml
+INFO ParlaMint-ES_2017-05-10-CD170510: Checking links in ParlaMint-ES_2017-05-10-CD170510.xml
+INFO: XML validation for ParlaMint-ES_2017-05-11-CD170511.xml
+INFO: Content validaton for ParlaMint-ES_2017-05-11-CD170511.xml
+INFO: Link checking for ParlaMint-ES_2017-05-11-CD170511.xml
+INFO ParlaMint-ES_2017-05-11-CD170511: Checking links in ParlaMint-ES_2017-05-11-CD170511.xml
+INFO: XML validation for ParlaMint-ES_2017-05-16-CD170516.xml
+INFO: Content validaton for ParlaMint-ES_2017-05-16-CD170516.xml
+INFO: Link checking for ParlaMint-ES_2017-05-16-CD170516.xml
+INFO ParlaMint-ES_2017-05-16-CD170516: Checking links in ParlaMint-ES_2017-05-16-CD170516.xml
+INFO: XML validation for ParlaMint-ES_2017-05-17-CD170517.xml
+INFO: Content validaton for ParlaMint-ES_2017-05-17-CD170517.xml
+INFO: Link checking for ParlaMint-ES_2017-05-17-CD170517.xml
+INFO ParlaMint-ES_2017-05-17-CD170517: Checking links in ParlaMint-ES_2017-05-17-CD170517.xml
+INFO: XML validation for ParlaMint-ES_2017-05-18-CD170518.xml
+INFO: Content validaton for ParlaMint-ES_2017-05-18-CD170518.xml
+INFO: Link checking for ParlaMint-ES_2017-05-18-CD170518.xml
+INFO ParlaMint-ES_2017-05-18-CD170518: Checking links in ParlaMint-ES_2017-05-18-CD170518.xml
+INFO: XML validation for ParlaMint-ES_2017-05-29-CD170529.xml
+INFO: Content validaton for ParlaMint-ES_2017-05-29-CD170529.xml
+INFO: Link checking for ParlaMint-ES_2017-05-29-CD170529.xml
+INFO ParlaMint-ES_2017-05-29-CD170529: Checking links in ParlaMint-ES_2017-05-29-CD170529.xml
+INFO: XML validation for ParlaMint-ES_2017-06-21-CD170621.xml
+INFO: Content validaton for ParlaMint-ES_2017-06-21-CD170621.xml
+INFO: Link checking for ParlaMint-ES_2017-06-21-CD170621.xml
+INFO ParlaMint-ES_2017-06-21-CD170621: Checking links in ParlaMint-ES_2017-06-21-CD170621.xml
+INFO: XML validation for ParlaMint-ES_2017-06-27-CD170627.xml
+INFO: Content validaton for ParlaMint-ES_2017-06-27-CD170627.xml
+INFO: Link checking for ParlaMint-ES_2017-06-27-CD170627.xml
+INFO ParlaMint-ES_2017-06-27-CD170627: Checking links in ParlaMint-ES_2017-06-27-CD170627.xml
+INFO: XML validation for ParlaMint-ES_2017-06-29-CD170629.xml
+INFO: Content validaton for ParlaMint-ES_2017-06-29-CD170629.xml
+INFO: Link checking for ParlaMint-ES_2017-06-29-CD170629.xml
+INFO ParlaMint-ES_2017-06-29-CD170629: Checking links in ParlaMint-ES_2017-06-29-CD170629.xml
+INFO: XML validation for ParlaMint-ES_2017-07-11-CD170711.xml
+INFO: Content validaton for ParlaMint-ES_2017-07-11-CD170711.xml
+INFO: Link checking for ParlaMint-ES_2017-07-11-CD170711.xml
+INFO ParlaMint-ES_2017-07-11-CD170711: Checking links in ParlaMint-ES_2017-07-11-CD170711.xml
+INFO: XML validation for ParlaMint-ES_2017-07-12-CD170712.xml
+INFO: Content validaton for ParlaMint-ES_2017-07-12-CD170712.xml
+INFO: Link checking for ParlaMint-ES_2017-07-12-CD170712.xml
+INFO ParlaMint-ES_2017-07-12-CD170712: Checking links in ParlaMint-ES_2017-07-12-CD170712.xml
+INFO: XML validation for ParlaMint-ES_2017-08-30-CD170830.xml
+INFO: Content validaton for ParlaMint-ES_2017-08-30-CD170830.xml
+INFO: Link checking for ParlaMint-ES_2017-08-30-CD170830.xml
+INFO ParlaMint-ES_2017-08-30-CD170830: Checking links in ParlaMint-ES_2017-08-30-CD170830.xml
+INFO: XML validation for ParlaMint-ES_2017-09-12-CD170912.xml
+INFO: Content validaton for ParlaMint-ES_2017-09-12-CD170912.xml
+INFO: Link checking for ParlaMint-ES_2017-09-12-CD170912.xml
+INFO ParlaMint-ES_2017-09-12-CD170912: Checking links in ParlaMint-ES_2017-09-12-CD170912.xml
+INFO: XML validation for ParlaMint-ES_2017-09-13-CD170913.xml
+INFO: Content validaton for ParlaMint-ES_2017-09-13-CD170913.xml
+INFO: Link checking for ParlaMint-ES_2017-09-13-CD170913.xml
+INFO ParlaMint-ES_2017-09-13-CD170913: Checking links in ParlaMint-ES_2017-09-13-CD170913.xml
+INFO: XML validation for ParlaMint-ES_2017-09-19-CD170919.xml
+INFO: Content validaton for ParlaMint-ES_2017-09-19-CD170919.xml
+INFO: Link checking for ParlaMint-ES_2017-09-19-CD170919.xml
+INFO ParlaMint-ES_2017-09-19-CD170919: Checking links in ParlaMint-ES_2017-09-19-CD170919.xml
+INFO: XML validation for ParlaMint-ES_2017-09-20-CD170920.xml
+INFO: Content validaton for ParlaMint-ES_2017-09-20-CD170920.xml
+INFO: Link checking for ParlaMint-ES_2017-09-20-CD170920.xml
+INFO ParlaMint-ES_2017-09-20-CD170920: Checking links in ParlaMint-ES_2017-09-20-CD170920.xml
+INFO: XML validation for ParlaMint-ES_2017-09-21-CD170921.xml
+INFO: Content validaton for ParlaMint-ES_2017-09-21-CD170921.xml
+INFO: Link checking for ParlaMint-ES_2017-09-21-CD170921.xml
+INFO ParlaMint-ES_2017-09-21-CD170921: Checking links in ParlaMint-ES_2017-09-21-CD170921.xml
+INFO: XML validation for ParlaMint-ES_2017-09-26-CD170926.xml
+INFO: Content validaton for ParlaMint-ES_2017-09-26-CD170926.xml
+INFO: Link checking for ParlaMint-ES_2017-09-26-CD170926.xml
+INFO ParlaMint-ES_2017-09-26-CD170926: Checking links in ParlaMint-ES_2017-09-26-CD170926.xml
+INFO: XML validation for ParlaMint-ES_2017-09-27-CD170927.xml
+INFO: Content validaton for ParlaMint-ES_2017-09-27-CD170927.xml
+INFO: Link checking for ParlaMint-ES_2017-09-27-CD170927.xml
+INFO ParlaMint-ES_2017-09-27-CD170927: Checking links in ParlaMint-ES_2017-09-27-CD170927.xml
+INFO: XML validation for ParlaMint-ES_2017-09-28-CD170928.xml
+INFO: Content validaton for ParlaMint-ES_2017-09-28-CD170928.xml
+INFO: Link checking for ParlaMint-ES_2017-09-28-CD170928.xml
+INFO ParlaMint-ES_2017-09-28-CD170928: Checking links in ParlaMint-ES_2017-09-28-CD170928.xml
+INFO: XML validation for ParlaMint-ES_2017-10-10-CD171010.xml
+INFO: Content validaton for ParlaMint-ES_2017-10-10-CD171010.xml
+INFO: Link checking for ParlaMint-ES_2017-10-10-CD171010.xml
+INFO ParlaMint-ES_2017-10-10-CD171010: Checking links in ParlaMint-ES_2017-10-10-CD171010.xml
+INFO: XML validation for ParlaMint-ES_2017-10-11-CD171011.xml
+INFO: Content validaton for ParlaMint-ES_2017-10-11-CD171011.xml
+INFO: Link checking for ParlaMint-ES_2017-10-11-CD171011.xml
+INFO ParlaMint-ES_2017-10-11-CD171011: Checking links in ParlaMint-ES_2017-10-11-CD171011.xml
+INFO: XML validation for ParlaMint-ES_2017-10-17-CD171017.xml
+INFO: Content validaton for ParlaMint-ES_2017-10-17-CD171017.xml
+INFO: Link checking for ParlaMint-ES_2017-10-17-CD171017.xml
+INFO ParlaMint-ES_2017-10-17-CD171017: Checking links in ParlaMint-ES_2017-10-17-CD171017.xml
+INFO: XML validation for ParlaMint-ES_2017-10-18-CD171018.xml
+INFO: Content validaton for ParlaMint-ES_2017-10-18-CD171018.xml
+INFO: Link checking for ParlaMint-ES_2017-10-18-CD171018.xml
+INFO ParlaMint-ES_2017-10-18-CD171018: Checking links in ParlaMint-ES_2017-10-18-CD171018.xml
+INFO: XML validation for ParlaMint-ES_2017-10-19-CD171019.xml
+INFO: Content validaton for ParlaMint-ES_2017-10-19-CD171019.xml
+INFO: Link checking for ParlaMint-ES_2017-10-19-CD171019.xml
+INFO ParlaMint-ES_2017-10-19-CD171019: Checking links in ParlaMint-ES_2017-10-19-CD171019.xml
+INFO: XML validation for ParlaMint-ES_2017-10-24-CD171024.xml
+INFO: Content validaton for ParlaMint-ES_2017-10-24-CD171024.xml
+INFO: Link checking for ParlaMint-ES_2017-10-24-CD171024.xml
+INFO ParlaMint-ES_2017-10-24-CD171024: Checking links in ParlaMint-ES_2017-10-24-CD171024.xml
+INFO: XML validation for ParlaMint-ES_2017-10-25-CD171025.xml
+INFO: Content validaton for ParlaMint-ES_2017-10-25-CD171025.xml
+INFO: Link checking for ParlaMint-ES_2017-10-25-CD171025.xml
+INFO ParlaMint-ES_2017-10-25-CD171025: Checking links in ParlaMint-ES_2017-10-25-CD171025.xml
+INFO: XML validation for ParlaMint-ES_2017-11-07-CD171107.xml
+INFO: Content validaton for ParlaMint-ES_2017-11-07-CD171107.xml
+INFO: Link checking for ParlaMint-ES_2017-11-07-CD171107.xml
+INFO ParlaMint-ES_2017-11-07-CD171107: Checking links in ParlaMint-ES_2017-11-07-CD171107.xml
+INFO: XML validation for ParlaMint-ES_2017-11-08-CD171108.xml
+INFO: Content validaton for ParlaMint-ES_2017-11-08-CD171108.xml
+INFO: Link checking for ParlaMint-ES_2017-11-08-CD171108.xml
+INFO ParlaMint-ES_2017-11-08-CD171108: Checking links in ParlaMint-ES_2017-11-08-CD171108.xml
+INFO: XML validation for ParlaMint-ES_2017-11-14-CD171114.xml
+INFO: Content validaton for ParlaMint-ES_2017-11-14-CD171114.xml
+INFO: Link checking for ParlaMint-ES_2017-11-14-CD171114.xml
+INFO ParlaMint-ES_2017-11-14-CD171114: Checking links in ParlaMint-ES_2017-11-14-CD171114.xml
+INFO: XML validation for ParlaMint-ES_2017-11-15-CD171115.xml
+INFO: Content validaton for ParlaMint-ES_2017-11-15-CD171115.xml
+INFO: Link checking for ParlaMint-ES_2017-11-15-CD171115.xml
+INFO ParlaMint-ES_2017-11-15-CD171115: Checking links in ParlaMint-ES_2017-11-15-CD171115.xml
+INFO: XML validation for ParlaMint-ES_2017-11-21-CD171121.xml
+INFO: Content validaton for ParlaMint-ES_2017-11-21-CD171121.xml
+INFO: Link checking for ParlaMint-ES_2017-11-21-CD171121.xml
+INFO ParlaMint-ES_2017-11-21-CD171121: Checking links in ParlaMint-ES_2017-11-21-CD171121.xml
+INFO: XML validation for ParlaMint-ES_2017-11-22-CD171122.xml
+INFO: Content validaton for ParlaMint-ES_2017-11-22-CD171122.xml
+INFO: Link checking for ParlaMint-ES_2017-11-22-CD171122.xml
+INFO ParlaMint-ES_2017-11-22-CD171122: Checking links in ParlaMint-ES_2017-11-22-CD171122.xml
+INFO: XML validation for ParlaMint-ES_2017-11-23-CD171123.xml
+INFO: Content validaton for ParlaMint-ES_2017-11-23-CD171123.xml
+INFO: Link checking for ParlaMint-ES_2017-11-23-CD171123.xml
+INFO ParlaMint-ES_2017-11-23-CD171123: Checking links in ParlaMint-ES_2017-11-23-CD171123.xml
+INFO: XML validation for ParlaMint-ES_2017-11-28-CD171128.xml
+INFO: Content validaton for ParlaMint-ES_2017-11-28-CD171128.xml
+INFO: Link checking for ParlaMint-ES_2017-11-28-CD171128.xml
+INFO ParlaMint-ES_2017-11-28-CD171128: Checking links in ParlaMint-ES_2017-11-28-CD171128.xml
+INFO: XML validation for ParlaMint-ES_2017-11-29-CD171129.xml
+INFO: Content validaton for ParlaMint-ES_2017-11-29-CD171129.xml
+INFO: Link checking for ParlaMint-ES_2017-11-29-CD171129.xml
+INFO ParlaMint-ES_2017-11-29-CD171129: Checking links in ParlaMint-ES_2017-11-29-CD171129.xml
+INFO: XML validation for ParlaMint-ES_2017-11-30-CD171130.xml
+INFO: Content validaton for ParlaMint-ES_2017-11-30-CD171130.xml
+INFO: Link checking for ParlaMint-ES_2017-11-30-CD171130.xml
+INFO ParlaMint-ES_2017-11-30-CD171130: Checking links in ParlaMint-ES_2017-11-30-CD171130.xml
+INFO: XML validation for ParlaMint-ES_2017-12-12-CD171212.xml
+INFO: Content validaton for ParlaMint-ES_2017-12-12-CD171212.xml
+INFO: Link checking for ParlaMint-ES_2017-12-12-CD171212.xml
+INFO ParlaMint-ES_2017-12-12-CD171212: Checking links in ParlaMint-ES_2017-12-12-CD171212.xml
+INFO: XML validation for ParlaMint-ES_2017-12-13-CD171213.xml
+INFO: Content validaton for ParlaMint-ES_2017-12-13-CD171213.xml
+INFO: Link checking for ParlaMint-ES_2017-12-13-CD171213.xml
+INFO ParlaMint-ES_2017-12-13-CD171213: Checking links in ParlaMint-ES_2017-12-13-CD171213.xml
+INFO: XML validation for ParlaMint-ES_2018-02-06-CD180206.xml
+INFO: Content validaton for ParlaMint-ES_2018-02-06-CD180206.xml
+INFO: Link checking for ParlaMint-ES_2018-02-06-CD180206.xml
+INFO ParlaMint-ES_2018-02-06-CD180206: Checking links in ParlaMint-ES_2018-02-06-CD180206.xml
+INFO: XML validation for ParlaMint-ES_2018-02-07-CD180207.xml
+INFO: Content validaton for ParlaMint-ES_2018-02-07-CD180207.xml
+INFO: Link checking for ParlaMint-ES_2018-02-07-CD180207.xml
+INFO ParlaMint-ES_2018-02-07-CD180207: Checking links in ParlaMint-ES_2018-02-07-CD180207.xml
+INFO: XML validation for ParlaMint-ES_2018-02-13-CD180213.xml
+INFO: Content validaton for ParlaMint-ES_2018-02-13-CD180213.xml
+INFO: Link checking for ParlaMint-ES_2018-02-13-CD180213.xml
+INFO ParlaMint-ES_2018-02-13-CD180213: Checking links in ParlaMint-ES_2018-02-13-CD180213.xml
+INFO: XML validation for ParlaMint-ES_2018-02-14-CD180214.xml
+INFO: Content validaton for ParlaMint-ES_2018-02-14-CD180214.xml
+INFO: Link checking for ParlaMint-ES_2018-02-14-CD180214.xml
+INFO ParlaMint-ES_2018-02-14-CD180214: Checking links in ParlaMint-ES_2018-02-14-CD180214.xml
+INFO: XML validation for ParlaMint-ES_2018-02-15-CD180215.xml
+INFO: Content validaton for ParlaMint-ES_2018-02-15-CD180215.xml
+INFO: Link checking for ParlaMint-ES_2018-02-15-CD180215.xml
+INFO ParlaMint-ES_2018-02-15-CD180215: Checking links in ParlaMint-ES_2018-02-15-CD180215.xml
+INFO: XML validation for ParlaMint-ES_2018-02-20-CD180220.xml
+INFO: Content validaton for ParlaMint-ES_2018-02-20-CD180220.xml
+INFO: Link checking for ParlaMint-ES_2018-02-20-CD180220.xml
+INFO ParlaMint-ES_2018-02-20-CD180220: Checking links in ParlaMint-ES_2018-02-20-CD180220.xml
+INFO: XML validation for ParlaMint-ES_2018-02-21-CD180221.xml
+INFO: Content validaton for ParlaMint-ES_2018-02-21-CD180221.xml
+INFO: Link checking for ParlaMint-ES_2018-02-21-CD180221.xml
+INFO ParlaMint-ES_2018-02-21-CD180221: Checking links in ParlaMint-ES_2018-02-21-CD180221.xml
+INFO: XML validation for ParlaMint-ES_2018-02-22-CD180222.xml
+INFO: Content validaton for ParlaMint-ES_2018-02-22-CD180222.xml
+INFO: Link checking for ParlaMint-ES_2018-02-22-CD180222.xml
+INFO ParlaMint-ES_2018-02-22-CD180222: Checking links in ParlaMint-ES_2018-02-22-CD180222.xml
+INFO: XML validation for ParlaMint-ES_2018-03-13-CD180313.xml
+INFO: Content validaton for ParlaMint-ES_2018-03-13-CD180313.xml
+INFO: Link checking for ParlaMint-ES_2018-03-13-CD180313.xml
+INFO ParlaMint-ES_2018-03-13-CD180313: Checking links in ParlaMint-ES_2018-03-13-CD180313.xml
+INFO: XML validation for ParlaMint-ES_2018-03-14-CD180314.xml
+INFO: Content validaton for ParlaMint-ES_2018-03-14-CD180314.xml
+INFO: Link checking for ParlaMint-ES_2018-03-14-CD180314.xml
+INFO ParlaMint-ES_2018-03-14-CD180314: Checking links in ParlaMint-ES_2018-03-14-CD180314.xml
+INFO: XML validation for ParlaMint-ES_2018-03-15-CD180315.xml
+INFO: Content validaton for ParlaMint-ES_2018-03-15-CD180315.xml
+INFO: Link checking for ParlaMint-ES_2018-03-15-CD180315.xml
+INFO ParlaMint-ES_2018-03-15-CD180315: Checking links in ParlaMint-ES_2018-03-15-CD180315.xml
+INFO: XML validation for ParlaMint-ES_2018-03-20-CD180320.xml
+INFO: Content validaton for ParlaMint-ES_2018-03-20-CD180320.xml
+INFO: Link checking for ParlaMint-ES_2018-03-20-CD180320.xml
+INFO ParlaMint-ES_2018-03-20-CD180320: Checking links in ParlaMint-ES_2018-03-20-CD180320.xml
+INFO: XML validation for ParlaMint-ES_2018-03-21-CD180321.xml
+INFO: Content validaton for ParlaMint-ES_2018-03-21-CD180321.xml
+INFO: Link checking for ParlaMint-ES_2018-03-21-CD180321.xml
+INFO ParlaMint-ES_2018-03-21-CD180321: Checking links in ParlaMint-ES_2018-03-21-CD180321.xml
+INFO: XML validation for ParlaMint-ES_2018-04-10-CD180410.xml
+INFO: Content validaton for ParlaMint-ES_2018-04-10-CD180410.xml
+INFO: Link checking for ParlaMint-ES_2018-04-10-CD180410.xml
+INFO ParlaMint-ES_2018-04-10-CD180410: Checking links in ParlaMint-ES_2018-04-10-CD180410.xml
+INFO: XML validation for ParlaMint-ES_2018-04-11-CD180411.xml
+INFO: Content validaton for ParlaMint-ES_2018-04-11-CD180411.xml
+INFO: Link checking for ParlaMint-ES_2018-04-11-CD180411.xml
+INFO ParlaMint-ES_2018-04-11-CD180411: Checking links in ParlaMint-ES_2018-04-11-CD180411.xml
+INFO: XML validation for ParlaMint-ES_2018-04-12-CD180412.xml
+INFO: Content validaton for ParlaMint-ES_2018-04-12-CD180412.xml
+INFO: Link checking for ParlaMint-ES_2018-04-12-CD180412.xml
+INFO ParlaMint-ES_2018-04-12-CD180412: Checking links in ParlaMint-ES_2018-04-12-CD180412.xml
+INFO: XML validation for ParlaMint-ES_2018-04-25-CD180425.xml
+INFO: Content validaton for ParlaMint-ES_2018-04-25-CD180425.xml
+INFO: Link checking for ParlaMint-ES_2018-04-25-CD180425.xml
+INFO ParlaMint-ES_2018-04-25-CD180425: Checking links in ParlaMint-ES_2018-04-25-CD180425.xml
+INFO: XML validation for ParlaMint-ES_2018-04-26-CD180426.xml
+INFO: Content validaton for ParlaMint-ES_2018-04-26-CD180426.xml
+INFO: Link checking for ParlaMint-ES_2018-04-26-CD180426.xml
+INFO ParlaMint-ES_2018-04-26-CD180426: Checking links in ParlaMint-ES_2018-04-26-CD180426.xml
+INFO: XML validation for ParlaMint-ES_2018-05-08-CD180508.xml
+INFO: Content validaton for ParlaMint-ES_2018-05-08-CD180508.xml
+INFO: Link checking for ParlaMint-ES_2018-05-08-CD180508.xml
+INFO ParlaMint-ES_2018-05-08-CD180508: Checking links in ParlaMint-ES_2018-05-08-CD180508.xml
+INFO: XML validation for ParlaMint-ES_2018-05-09-CD180509.xml
+INFO: Content validaton for ParlaMint-ES_2018-05-09-CD180509.xml
+INFO: Link checking for ParlaMint-ES_2018-05-09-CD180509.xml
+INFO ParlaMint-ES_2018-05-09-CD180509: Checking links in ParlaMint-ES_2018-05-09-CD180509.xml
+INFO: XML validation for ParlaMint-ES_2018-05-10-CD180510.xml
+INFO: Content validaton for ParlaMint-ES_2018-05-10-CD180510.xml
+INFO: Link checking for ParlaMint-ES_2018-05-10-CD180510.xml
+INFO ParlaMint-ES_2018-05-10-CD180510: Checking links in ParlaMint-ES_2018-05-10-CD180510.xml
+INFO: XML validation for ParlaMint-ES_2018-05-21-CD180521.xml
+INFO: Content validaton for ParlaMint-ES_2018-05-21-CD180521.xml
+INFO: Link checking for ParlaMint-ES_2018-05-21-CD180521.xml
+INFO ParlaMint-ES_2018-05-21-CD180521: Checking links in ParlaMint-ES_2018-05-21-CD180521.xml
+INFO: XML validation for ParlaMint-ES_2018-05-22-CD180522.xml
+INFO: Content validaton for ParlaMint-ES_2018-05-22-CD180522.xml
+INFO: Link checking for ParlaMint-ES_2018-05-22-CD180522.xml
+INFO ParlaMint-ES_2018-05-22-CD180522: Checking links in ParlaMint-ES_2018-05-22-CD180522.xml
+INFO: XML validation for ParlaMint-ES_2018-05-23-CD180523.xml
+INFO: Content validaton for ParlaMint-ES_2018-05-23-CD180523.xml
+INFO: Link checking for ParlaMint-ES_2018-05-23-CD180523.xml
+INFO ParlaMint-ES_2018-05-23-CD180523: Checking links in ParlaMint-ES_2018-05-23-CD180523.xml
+INFO: XML validation for ParlaMint-ES_2018-05-29-CD180529.xml
+INFO: Content validaton for ParlaMint-ES_2018-05-29-CD180529.xml
+INFO: Link checking for ParlaMint-ES_2018-05-29-CD180529.xml
+INFO ParlaMint-ES_2018-05-29-CD180529: Checking links in ParlaMint-ES_2018-05-29-CD180529.xml
+INFO: XML validation for ParlaMint-ES_2018-05-30-CD180530.xml
+INFO: Content validaton for ParlaMint-ES_2018-05-30-CD180530.xml
+INFO: Link checking for ParlaMint-ES_2018-05-30-CD180530.xml
+INFO ParlaMint-ES_2018-05-30-CD180530: Checking links in ParlaMint-ES_2018-05-30-CD180530.xml
+INFO: XML validation for ParlaMint-ES_2018-05-31-CD180531.xml
+INFO: Content validaton for ParlaMint-ES_2018-05-31-CD180531.xml
+INFO: Link checking for ParlaMint-ES_2018-05-31-CD180531.xml
+INFO ParlaMint-ES_2018-05-31-CD180531: Checking links in ParlaMint-ES_2018-05-31-CD180531.xml
+INFO: XML validation for ParlaMint-ES_2018-06-01-CD180601.xml
+INFO: Content validaton for ParlaMint-ES_2018-06-01-CD180601.xml
+INFO: Link checking for ParlaMint-ES_2018-06-01-CD180601.xml
+INFO ParlaMint-ES_2018-06-01-CD180601: Checking links in ParlaMint-ES_2018-06-01-CD180601.xml
+INFO: XML validation for ParlaMint-ES_2018-06-12-CD180612.xml
+INFO: Content validaton for ParlaMint-ES_2018-06-12-CD180612.xml
+INFO: Link checking for ParlaMint-ES_2018-06-12-CD180612.xml
+INFO ParlaMint-ES_2018-06-12-CD180612: Checking links in ParlaMint-ES_2018-06-12-CD180612.xml
+INFO: XML validation for ParlaMint-ES_2018-06-19-CD180619.xml
+INFO: Content validaton for ParlaMint-ES_2018-06-19-CD180619.xml
+INFO: Link checking for ParlaMint-ES_2018-06-19-CD180619.xml
+INFO ParlaMint-ES_2018-06-19-CD180619: Checking links in ParlaMint-ES_2018-06-19-CD180619.xml
+INFO: XML validation for ParlaMint-ES_2018-06-20-CD180620.xml
+INFO: Content validaton for ParlaMint-ES_2018-06-20-CD180620.xml
+INFO: Link checking for ParlaMint-ES_2018-06-20-CD180620.xml
+INFO ParlaMint-ES_2018-06-20-CD180620: Checking links in ParlaMint-ES_2018-06-20-CD180620.xml
+INFO: XML validation for ParlaMint-ES_2018-06-26-CD180626.xml
+INFO: Content validaton for ParlaMint-ES_2018-06-26-CD180626.xml
+INFO: Link checking for ParlaMint-ES_2018-06-26-CD180626.xml
+INFO ParlaMint-ES_2018-06-26-CD180626: Checking links in ParlaMint-ES_2018-06-26-CD180626.xml
+INFO: XML validation for ParlaMint-ES_2018-06-27-CD180627.xml
+INFO: Content validaton for ParlaMint-ES_2018-06-27-CD180627.xml
+INFO: Link checking for ParlaMint-ES_2018-06-27-CD180627.xml
+INFO ParlaMint-ES_2018-06-27-CD180627: Checking links in ParlaMint-ES_2018-06-27-CD180627.xml
+INFO: XML validation for ParlaMint-ES_2018-06-28-CD180628.xml
+INFO: Content validaton for ParlaMint-ES_2018-06-28-CD180628.xml
+INFO: Link checking for ParlaMint-ES_2018-06-28-CD180628.xml
+INFO ParlaMint-ES_2018-06-28-CD180628: Checking links in ParlaMint-ES_2018-06-28-CD180628.xml
+INFO: XML validation for ParlaMint-ES_2018-07-02-CD180702.xml
+INFO: Content validaton for ParlaMint-ES_2018-07-02-CD180702.xml
+INFO: Link checking for ParlaMint-ES_2018-07-02-CD180702.xml
+INFO ParlaMint-ES_2018-07-02-CD180702: Checking links in ParlaMint-ES_2018-07-02-CD180702.xml
+INFO: XML validation for ParlaMint-ES_2018-07-04-CD180704.xml
+INFO: Content validaton for ParlaMint-ES_2018-07-04-CD180704.xml
+INFO: Link checking for ParlaMint-ES_2018-07-04-CD180704.xml
+INFO ParlaMint-ES_2018-07-04-CD180704: Checking links in ParlaMint-ES_2018-07-04-CD180704.xml
+INFO: XML validation for ParlaMint-ES_2018-07-10-CD180710.xml
+INFO: Content validaton for ParlaMint-ES_2018-07-10-CD180710.xml
+INFO: Link checking for ParlaMint-ES_2018-07-10-CD180710.xml
+INFO ParlaMint-ES_2018-07-10-CD180710: Checking links in ParlaMint-ES_2018-07-10-CD180710.xml
+INFO: XML validation for ParlaMint-ES_2018-07-16-CD180716.xml
+INFO: Content validaton for ParlaMint-ES_2018-07-16-CD180716.xml
+INFO: Link checking for ParlaMint-ES_2018-07-16-CD180716.xml
+INFO ParlaMint-ES_2018-07-16-CD180716: Checking links in ParlaMint-ES_2018-07-16-CD180716.xml
+INFO: XML validation for ParlaMint-ES_2018-07-17-CD180717.xml
+INFO: Content validaton for ParlaMint-ES_2018-07-17-CD180717.xml
+INFO: Link checking for ParlaMint-ES_2018-07-17-CD180717.xml
+INFO ParlaMint-ES_2018-07-17-CD180717: Checking links in ParlaMint-ES_2018-07-17-CD180717.xml
+INFO: XML validation for ParlaMint-ES_2018-07-25-CD180725.xml
+INFO: Content validaton for ParlaMint-ES_2018-07-25-CD180725.xml
+INFO: Link checking for ParlaMint-ES_2018-07-25-CD180725.xml
+INFO ParlaMint-ES_2018-07-25-CD180725: Checking links in ParlaMint-ES_2018-07-25-CD180725.xml
+INFO: XML validation for ParlaMint-ES_2018-07-27-CD180727.xml
+INFO: Content validaton for ParlaMint-ES_2018-07-27-CD180727.xml
+INFO: Link checking for ParlaMint-ES_2018-07-27-CD180727.xml
+INFO ParlaMint-ES_2018-07-27-CD180727: Checking links in ParlaMint-ES_2018-07-27-CD180727.xml
+INFO: XML validation for ParlaMint-ES_2018-09-06-CD180906.xml
+INFO: Content validaton for ParlaMint-ES_2018-09-06-CD180906.xml
+INFO: Link checking for ParlaMint-ES_2018-09-06-CD180906.xml
+INFO ParlaMint-ES_2018-09-06-CD180906: Checking links in ParlaMint-ES_2018-09-06-CD180906.xml
+INFO: XML validation for ParlaMint-ES_2018-09-11-CD180911.xml
+INFO: Content validaton for ParlaMint-ES_2018-09-11-CD180911.xml
+INFO: Link checking for ParlaMint-ES_2018-09-11-CD180911.xml
+INFO ParlaMint-ES_2018-09-11-CD180911: Checking links in ParlaMint-ES_2018-09-11-CD180911.xml
+INFO: XML validation for ParlaMint-ES_2018-09-12-CD180912.xml
+INFO: Content validaton for ParlaMint-ES_2018-09-12-CD180912.xml
+INFO: Link checking for ParlaMint-ES_2018-09-12-CD180912.xml
+INFO ParlaMint-ES_2018-09-12-CD180912: Checking links in ParlaMint-ES_2018-09-12-CD180912.xml
+INFO: XML validation for ParlaMint-ES_2018-09-13-CD180913.xml
+INFO: Content validaton for ParlaMint-ES_2018-09-13-CD180913.xml
+INFO: Link checking for ParlaMint-ES_2018-09-13-CD180913.xml
+INFO ParlaMint-ES_2018-09-13-CD180913: Checking links in ParlaMint-ES_2018-09-13-CD180913.xml
+INFO: XML validation for ParlaMint-ES_2018-09-18-CD180918.xml
+INFO: Content validaton for ParlaMint-ES_2018-09-18-CD180918.xml
+INFO: Link checking for ParlaMint-ES_2018-09-18-CD180918.xml
+INFO ParlaMint-ES_2018-09-18-CD180918: Checking links in ParlaMint-ES_2018-09-18-CD180918.xml
+INFO: XML validation for ParlaMint-ES_2018-09-19-CD180919.xml
+INFO: Content validaton for ParlaMint-ES_2018-09-19-CD180919.xml
+INFO: Link checking for ParlaMint-ES_2018-09-19-CD180919.xml
+INFO ParlaMint-ES_2018-09-19-CD180919: Checking links in ParlaMint-ES_2018-09-19-CD180919.xml
+INFO: XML validation for ParlaMint-ES_2018-09-20-CD180920.xml
+INFO: Content validaton for ParlaMint-ES_2018-09-20-CD180920.xml
+INFO: Link checking for ParlaMint-ES_2018-09-20-CD180920.xml
+INFO ParlaMint-ES_2018-09-20-CD180920: Checking links in ParlaMint-ES_2018-09-20-CD180920.xml
+INFO: XML validation for ParlaMint-ES_2018-09-25-CD180925.xml
+INFO: Content validaton for ParlaMint-ES_2018-09-25-CD180925.xml
+INFO: Link checking for ParlaMint-ES_2018-09-25-CD180925.xml
+INFO ParlaMint-ES_2018-09-25-CD180925: Checking links in ParlaMint-ES_2018-09-25-CD180925.xml
+INFO: XML validation for ParlaMint-ES_2018-09-26-CD180926.xml
+INFO: Content validaton for ParlaMint-ES_2018-09-26-CD180926.xml
+INFO: Link checking for ParlaMint-ES_2018-09-26-CD180926.xml
+INFO ParlaMint-ES_2018-09-26-CD180926: Checking links in ParlaMint-ES_2018-09-26-CD180926.xml
+INFO: XML validation for ParlaMint-ES_2018-10-09-CD181009.xml
+INFO: Content validaton for ParlaMint-ES_2018-10-09-CD181009.xml
+INFO: Link checking for ParlaMint-ES_2018-10-09-CD181009.xml
+INFO ParlaMint-ES_2018-10-09-CD181009: Checking links in ParlaMint-ES_2018-10-09-CD181009.xml
+INFO: XML validation for ParlaMint-ES_2018-10-10-CD181010.xml
+INFO: Content validaton for ParlaMint-ES_2018-10-10-CD181010.xml
+INFO: Link checking for ParlaMint-ES_2018-10-10-CD181010.xml
+INFO ParlaMint-ES_2018-10-10-CD181010: Checking links in ParlaMint-ES_2018-10-10-CD181010.xml
+INFO: XML validation for ParlaMint-ES_2018-10-16-CD181016.xml
+INFO: Content validaton for ParlaMint-ES_2018-10-16-CD181016.xml
+INFO: Link checking for ParlaMint-ES_2018-10-16-CD181016.xml
+INFO ParlaMint-ES_2018-10-16-CD181016: Checking links in ParlaMint-ES_2018-10-16-CD181016.xml
+INFO: XML validation for ParlaMint-ES_2018-10-17-CD181017.xml
+INFO: Content validaton for ParlaMint-ES_2018-10-17-CD181017.xml
+INFO: Link checking for ParlaMint-ES_2018-10-17-CD181017.xml
+INFO ParlaMint-ES_2018-10-17-CD181017: Checking links in ParlaMint-ES_2018-10-17-CD181017.xml
+INFO: XML validation for ParlaMint-ES_2018-10-18-CD181018.xml
+INFO: Content validaton for ParlaMint-ES_2018-10-18-CD181018.xml
+INFO: Link checking for ParlaMint-ES_2018-10-18-CD181018.xml
+INFO ParlaMint-ES_2018-10-18-CD181018: Checking links in ParlaMint-ES_2018-10-18-CD181018.xml
+INFO: XML validation for ParlaMint-ES_2018-10-23-CD181023.xml
+INFO: Content validaton for ParlaMint-ES_2018-10-23-CD181023.xml
+INFO: Link checking for ParlaMint-ES_2018-10-23-CD181023.xml
+INFO ParlaMint-ES_2018-10-23-CD181023: Checking links in ParlaMint-ES_2018-10-23-CD181023.xml
+INFO: XML validation for ParlaMint-ES_2018-10-24-CD181024.xml
+INFO: Content validaton for ParlaMint-ES_2018-10-24-CD181024.xml
+INFO: Link checking for ParlaMint-ES_2018-10-24-CD181024.xml
+INFO ParlaMint-ES_2018-10-24-CD181024: Checking links in ParlaMint-ES_2018-10-24-CD181024.xml
+INFO: XML validation for ParlaMint-ES_2018-10-25-CD181025.xml
+INFO: Content validaton for ParlaMint-ES_2018-10-25-CD181025.xml
+INFO: Link checking for ParlaMint-ES_2018-10-25-CD181025.xml
+INFO ParlaMint-ES_2018-10-25-CD181025: Checking links in ParlaMint-ES_2018-10-25-CD181025.xml
+INFO: XML validation for ParlaMint-ES_2018-10-30-CD181030.xml
+INFO: Content validaton for ParlaMint-ES_2018-10-30-CD181030.xml
+INFO: Link checking for ParlaMint-ES_2018-10-30-CD181030.xml
+INFO ParlaMint-ES_2018-10-30-CD181030: Checking links in ParlaMint-ES_2018-10-30-CD181030.xml
+INFO: XML validation for ParlaMint-ES_2018-11-13-CD181113.xml
+INFO: Content validaton for ParlaMint-ES_2018-11-13-CD181113.xml
+INFO: Link checking for ParlaMint-ES_2018-11-13-CD181113.xml
+INFO ParlaMint-ES_2018-11-13-CD181113: Checking links in ParlaMint-ES_2018-11-13-CD181113.xml
+INFO: XML validation for ParlaMint-ES_2018-11-14-CD181114.xml
+INFO: Content validaton for ParlaMint-ES_2018-11-14-CD181114.xml
+INFO: Link checking for ParlaMint-ES_2018-11-14-CD181114.xml
+INFO ParlaMint-ES_2018-11-14-CD181114: Checking links in ParlaMint-ES_2018-11-14-CD181114.xml
+INFO: XML validation for ParlaMint-ES_2018-11-15-CD181115.xml
+INFO: Content validaton for ParlaMint-ES_2018-11-15-CD181115.xml
+INFO: Link checking for ParlaMint-ES_2018-11-15-CD181115.xml
+INFO ParlaMint-ES_2018-11-15-CD181115: Checking links in ParlaMint-ES_2018-11-15-CD181115.xml
+INFO: XML validation for ParlaMint-ES_2018-11-20-CD181120.xml
+INFO: Content validaton for ParlaMint-ES_2018-11-20-CD181120.xml
+INFO: Link checking for ParlaMint-ES_2018-11-20-CD181120.xml
+INFO ParlaMint-ES_2018-11-20-CD181120: Checking links in ParlaMint-ES_2018-11-20-CD181120.xml
+INFO: XML validation for ParlaMint-ES_2018-11-21-CD181121.xml
+INFO: Content validaton for ParlaMint-ES_2018-11-21-CD181121.xml
+INFO: Link checking for ParlaMint-ES_2018-11-21-CD181121.xml
+INFO ParlaMint-ES_2018-11-21-CD181121: Checking links in ParlaMint-ES_2018-11-21-CD181121.xml
+INFO: XML validation for ParlaMint-ES_2018-11-22-CD181122.xml
+INFO: Content validaton for ParlaMint-ES_2018-11-22-CD181122.xml
+INFO: Link checking for ParlaMint-ES_2018-11-22-CD181122.xml
+INFO ParlaMint-ES_2018-11-22-CD181122: Checking links in ParlaMint-ES_2018-11-22-CD181122.xml
+INFO: XML validation for ParlaMint-ES_2018-12-11-CD181211.xml
+INFO: Content validaton for ParlaMint-ES_2018-12-11-CD181211.xml
+INFO: Link checking for ParlaMint-ES_2018-12-11-CD181211.xml
+INFO ParlaMint-ES_2018-12-11-CD181211: Checking links in ParlaMint-ES_2018-12-11-CD181211.xml
+INFO: XML validation for ParlaMint-ES_2018-12-12-CD181212.xml
+INFO: Content validaton for ParlaMint-ES_2018-12-12-CD181212.xml
+INFO: Link checking for ParlaMint-ES_2018-12-12-CD181212.xml
+INFO ParlaMint-ES_2018-12-12-CD181212: Checking links in ParlaMint-ES_2018-12-12-CD181212.xml
+INFO: XML validation for ParlaMint-ES_2018-12-13-CD181213.xml
+INFO: Content validaton for ParlaMint-ES_2018-12-13-CD181213.xml
+INFO: Link checking for ParlaMint-ES_2018-12-13-CD181213.xml
+INFO ParlaMint-ES_2018-12-13-CD181213: Checking links in ParlaMint-ES_2018-12-13-CD181213.xml
+INFO: XML validation for ParlaMint-ES_2018-12-18-CD181218.xml
+INFO: Content validaton for ParlaMint-ES_2018-12-18-CD181218.xml
+INFO: Link checking for ParlaMint-ES_2018-12-18-CD181218.xml
+INFO ParlaMint-ES_2018-12-18-CD181218: Checking links in ParlaMint-ES_2018-12-18-CD181218.xml
+INFO: XML validation for ParlaMint-ES_2018-12-19-CD181219.xml
+INFO: Content validaton for ParlaMint-ES_2018-12-19-CD181219.xml
+INFO: Link checking for ParlaMint-ES_2018-12-19-CD181219.xml
+INFO ParlaMint-ES_2018-12-19-CD181219: Checking links in ParlaMint-ES_2018-12-19-CD181219.xml
+INFO: XML validation for ParlaMint-ES_2018-12-20-CD181220.xml
+INFO: Content validaton for ParlaMint-ES_2018-12-20-CD181220.xml
+INFO: Link checking for ParlaMint-ES_2018-12-20-CD181220.xml
+INFO ParlaMint-ES_2018-12-20-CD181220: Checking links in ParlaMint-ES_2018-12-20-CD181220.xml
+INFO: XML validation for ParlaMint-ES_2019-01-22-CD190122.xml
+INFO: Content validaton for ParlaMint-ES_2019-01-22-CD190122.xml
+INFO: Link checking for ParlaMint-ES_2019-01-22-CD190122.xml
+INFO ParlaMint-ES_2019-01-22-CD190122: Checking links in ParlaMint-ES_2019-01-22-CD190122.xml
+INFO: XML validation for ParlaMint-ES_2019-02-12-CD190212.xml
+INFO: Content validaton for ParlaMint-ES_2019-02-12-CD190212.xml
+INFO: Link checking for ParlaMint-ES_2019-02-12-CD190212.xml
+INFO ParlaMint-ES_2019-02-12-CD190212: Checking links in ParlaMint-ES_2019-02-12-CD190212.xml
+INFO: XML validation for ParlaMint-ES_2019-02-13-CD190213.xml
+INFO: Content validaton for ParlaMint-ES_2019-02-13-CD190213.xml
+INFO: Link checking for ParlaMint-ES_2019-02-13-CD190213.xml
+INFO ParlaMint-ES_2019-02-13-CD190213: Checking links in ParlaMint-ES_2019-02-13-CD190213.xml
+INFO: XML validation for ParlaMint-ES_2019-02-19-CD190219.xml
+INFO: Content validaton for ParlaMint-ES_2019-02-19-CD190219.xml
+INFO: Link checking for ParlaMint-ES_2019-02-19-CD190219.xml
+INFO ParlaMint-ES_2019-02-19-CD190219: Checking links in ParlaMint-ES_2019-02-19-CD190219.xml
+INFO: XML validation for ParlaMint-ES_2019-02-20-CD190220.xml
+INFO: Content validaton for ParlaMint-ES_2019-02-20-CD190220.xml
+INFO: Link checking for ParlaMint-ES_2019-02-20-CD190220.xml
+INFO ParlaMint-ES_2019-02-20-CD190220: Checking links in ParlaMint-ES_2019-02-20-CD190220.xml
+INFO: XML validation for ParlaMint-ES_2019-02-21-CD190221.xml
+INFO: Content validaton for ParlaMint-ES_2019-02-21-CD190221.xml
+INFO: Link checking for ParlaMint-ES_2019-02-21-CD190221.xml
+INFO ParlaMint-ES_2019-02-21-CD190221: Checking links in ParlaMint-ES_2019-02-21-CD190221.xml
+INFO: XML validation for ParlaMint-ES_2019-02-26-CD190226.xml
+INFO: Content validaton for ParlaMint-ES_2019-02-26-CD190226.xml
+INFO: Link checking for ParlaMint-ES_2019-02-26-CD190226.xml
+INFO ParlaMint-ES_2019-02-26-CD190226: Checking links in ParlaMint-ES_2019-02-26-CD190226.xml
+INFO: XML validation for ParlaMint-ES_2019-02-27-CD190227.xml
+INFO: Content validaton for ParlaMint-ES_2019-02-27-CD190227.xml
+INFO: Link checking for ParlaMint-ES_2019-02-27-CD190227.xml
+INFO ParlaMint-ES_2019-02-27-CD190227: Checking links in ParlaMint-ES_2019-02-27-CD190227.xml
+INFO: XML validation for ParlaMint-ES_2019-02-28-CD190228.xml
+INFO: Content validaton for ParlaMint-ES_2019-02-28-CD190228.xml
+INFO: Link checking for ParlaMint-ES_2019-02-28-CD190228.xml
+INFO ParlaMint-ES_2019-02-28-CD190228: Checking links in ParlaMint-ES_2019-02-28-CD190228.xml
+INFO: XML validation for ParlaMint-ES_2019-05-21-CD190521.xml
+INFO: Content validaton for ParlaMint-ES_2019-05-21-CD190521.xml
+INFO: Link checking for ParlaMint-ES_2019-05-21-CD190521.xml
+INFO ParlaMint-ES_2019-05-21-CD190521: Checking links in ParlaMint-ES_2019-05-21-CD190521.xml
+INFO: XML validation for ParlaMint-ES_2019-07-22-CD190722.xml
+INFO: Content validaton for ParlaMint-ES_2019-07-22-CD190722.xml
+INFO: Link checking for ParlaMint-ES_2019-07-22-CD190722.xml
+INFO ParlaMint-ES_2019-07-22-CD190722: Checking links in ParlaMint-ES_2019-07-22-CD190722.xml
+INFO: XML validation for ParlaMint-ES_2019-07-23-CD190723.xml
+INFO: Content validaton for ParlaMint-ES_2019-07-23-CD190723.xml
+INFO: Link checking for ParlaMint-ES_2019-07-23-CD190723.xml
+INFO ParlaMint-ES_2019-07-23-CD190723: Checking links in ParlaMint-ES_2019-07-23-CD190723.xml
+INFO: XML validation for ParlaMint-ES_2019-07-25-CD190725.xml
+INFO: Content validaton for ParlaMint-ES_2019-07-25-CD190725.xml
+INFO: Link checking for ParlaMint-ES_2019-07-25-CD190725.xml
+INFO ParlaMint-ES_2019-07-25-CD190725: Checking links in ParlaMint-ES_2019-07-25-CD190725.xml
+INFO: XML validation for ParlaMint-ES_2019-09-10-CD190910.xml
+INFO: Content validaton for ParlaMint-ES_2019-09-10-CD190910.xml
+INFO: Link checking for ParlaMint-ES_2019-09-10-CD190910.xml
+INFO ParlaMint-ES_2019-09-10-CD190910: Checking links in ParlaMint-ES_2019-09-10-CD190910.xml
+INFO: XML validation for ParlaMint-ES_2019-09-11-CD190911.xml
+INFO: Content validaton for ParlaMint-ES_2019-09-11-CD190911.xml
+INFO: Link checking for ParlaMint-ES_2019-09-11-CD190911.xml
+INFO ParlaMint-ES_2019-09-11-CD190911: Checking links in ParlaMint-ES_2019-09-11-CD190911.xml
+INFO: XML validation for ParlaMint-ES_2019-09-17-CD190917.xml
+INFO: Content validaton for ParlaMint-ES_2019-09-17-CD190917.xml
+INFO: Link checking for ParlaMint-ES_2019-09-17-CD190917.xml
+INFO ParlaMint-ES_2019-09-17-CD190917: Checking links in ParlaMint-ES_2019-09-17-CD190917.xml
+INFO: XML validation for ParlaMint-ES_2019-09-18-CD190918.xml
+INFO: Content validaton for ParlaMint-ES_2019-09-18-CD190918.xml
+INFO: Link checking for ParlaMint-ES_2019-09-18-CD190918.xml
+INFO ParlaMint-ES_2019-09-18-CD190918: Checking links in ParlaMint-ES_2019-09-18-CD190918.xml
+INFO: XML validation for ParlaMint-ES_2019-12-03-CD191203.xml
+INFO: Content validaton for ParlaMint-ES_2019-12-03-CD191203.xml
+INFO: Link checking for ParlaMint-ES_2019-12-03-CD191203.xml
+INFO ParlaMint-ES_2019-12-03-CD191203: Checking links in ParlaMint-ES_2019-12-03-CD191203.xml
+INFO: XML validation for ParlaMint-ES_2020-01-04-CD200104.xml
+INFO: Content validaton for ParlaMint-ES_2020-01-04-CD200104.xml
+INFO: Link checking for ParlaMint-ES_2020-01-04-CD200104.xml
+INFO ParlaMint-ES_2020-01-04-CD200104: Checking links in ParlaMint-ES_2020-01-04-CD200104.xml
+INFO: XML validation for ParlaMint-ES_2020-01-05-CD200105.xml
+INFO: Content validaton for ParlaMint-ES_2020-01-05-CD200105.xml
+INFO: Link checking for ParlaMint-ES_2020-01-05-CD200105.xml
+INFO ParlaMint-ES_2020-01-05-CD200105: Checking links in ParlaMint-ES_2020-01-05-CD200105.xml
+INFO: XML validation for ParlaMint-ES_2020-01-07-CD200107.xml
+INFO: Content validaton for ParlaMint-ES_2020-01-07-CD200107.xml
+INFO: Link checking for ParlaMint-ES_2020-01-07-CD200107.xml
+INFO ParlaMint-ES_2020-01-07-CD200107: Checking links in ParlaMint-ES_2020-01-07-CD200107.xml
+INFO: XML validation for ParlaMint-ES_2020-02-04-CD200204.xml
+INFO: Content validaton for ParlaMint-ES_2020-02-04-CD200204.xml
+INFO: Link checking for ParlaMint-ES_2020-02-04-CD200204.xml
+INFO ParlaMint-ES_2020-02-04-CD200204: Checking links in ParlaMint-ES_2020-02-04-CD200204.xml
+INFO: XML validation for ParlaMint-ES_2020-02-11-CD200211.xml
+INFO: Content validaton for ParlaMint-ES_2020-02-11-CD200211.xml
+INFO: Link checking for ParlaMint-ES_2020-02-11-CD200211.xml
+INFO ParlaMint-ES_2020-02-11-CD200211: Checking links in ParlaMint-ES_2020-02-11-CD200211.xml
+INFO: XML validation for ParlaMint-ES_2020-02-12-CD200212.xml
+INFO: Content validaton for ParlaMint-ES_2020-02-12-CD200212.xml
+INFO: Link checking for ParlaMint-ES_2020-02-12-CD200212.xml
+INFO ParlaMint-ES_2020-02-12-CD200212: Checking links in ParlaMint-ES_2020-02-12-CD200212.xml
+INFO: XML validation for ParlaMint-ES_2020-02-18-CD200218.xml
+INFO: Content validaton for ParlaMint-ES_2020-02-18-CD200218.xml
+INFO: Link checking for ParlaMint-ES_2020-02-18-CD200218.xml
+INFO ParlaMint-ES_2020-02-18-CD200218: Checking links in ParlaMint-ES_2020-02-18-CD200218.xml
+INFO: XML validation for ParlaMint-ES_2020-02-19-CD200219.xml
+INFO: Content validaton for ParlaMint-ES_2020-02-19-CD200219.xml
+INFO: Link checking for ParlaMint-ES_2020-02-19-CD200219.xml
+INFO ParlaMint-ES_2020-02-19-CD200219: Checking links in ParlaMint-ES_2020-02-19-CD200219.xml
+INFO: XML validation for ParlaMint-ES_2020-02-20-CD200220.xml
+INFO: Content validaton for ParlaMint-ES_2020-02-20-CD200220.xml
+INFO: Link checking for ParlaMint-ES_2020-02-20-CD200220.xml
+INFO ParlaMint-ES_2020-02-20-CD200220: Checking links in ParlaMint-ES_2020-02-20-CD200220.xml
+INFO: XML validation for ParlaMint-ES_2020-02-25-CD200225.xml
+INFO: Content validaton for ParlaMint-ES_2020-02-25-CD200225.xml
+INFO: Link checking for ParlaMint-ES_2020-02-25-CD200225.xml
+INFO ParlaMint-ES_2020-02-25-CD200225: Checking links in ParlaMint-ES_2020-02-25-CD200225.xml
+INFO: XML validation for ParlaMint-ES_2020-02-26-CD200226.xml
+INFO: Content validaton for ParlaMint-ES_2020-02-26-CD200226.xml
+INFO: Link checking for ParlaMint-ES_2020-02-26-CD200226.xml
+INFO ParlaMint-ES_2020-02-26-CD200226: Checking links in ParlaMint-ES_2020-02-26-CD200226.xml
+INFO: XML validation for ParlaMint-ES_2020-02-27-CD200227.xml
+INFO: Content validaton for ParlaMint-ES_2020-02-27-CD200227.xml
+INFO: Link checking for ParlaMint-ES_2020-02-27-CD200227.xml
+INFO ParlaMint-ES_2020-02-27-CD200227: Checking links in ParlaMint-ES_2020-02-27-CD200227.xml
+INFO: XML validation for ParlaMint-ES_2020-03-18-CD200318.xml
+INFO: Content validaton for ParlaMint-ES_2020-03-18-CD200318.xml
+INFO: Link checking for ParlaMint-ES_2020-03-18-CD200318.xml
+INFO ParlaMint-ES_2020-03-18-CD200318: Checking links in ParlaMint-ES_2020-03-18-CD200318.xml
+INFO: XML validation for ParlaMint-ES_2020-03-25-CD200325.xml
+INFO: Content validaton for ParlaMint-ES_2020-03-25-CD200325.xml
+INFO: Link checking for ParlaMint-ES_2020-03-25-CD200325.xml
+INFO ParlaMint-ES_2020-03-25-CD200325: Checking links in ParlaMint-ES_2020-03-25-CD200325.xml
+INFO: XML validation for ParlaMint-ES_2020-04-09-CD200409.xml
+INFO: Content validaton for ParlaMint-ES_2020-04-09-CD200409.xml
+INFO: Link checking for ParlaMint-ES_2020-04-09-CD200409.xml
+INFO ParlaMint-ES_2020-04-09-CD200409: Checking links in ParlaMint-ES_2020-04-09-CD200409.xml
+INFO: XML validation for ParlaMint-ES_2020-04-15-CD200415.xml
+INFO: Content validaton for ParlaMint-ES_2020-04-15-CD200415.xml
+INFO: Link checking for ParlaMint-ES_2020-04-15-CD200415.xml
+INFO ParlaMint-ES_2020-04-15-CD200415: Checking links in ParlaMint-ES_2020-04-15-CD200415.xml
+INFO: XML validation for ParlaMint-ES_2020-04-22-CD200422.xml
+INFO: Content validaton for ParlaMint-ES_2020-04-22-CD200422.xml
+INFO: Link checking for ParlaMint-ES_2020-04-22-CD200422.xml
+INFO ParlaMint-ES_2020-04-22-CD200422: Checking links in ParlaMint-ES_2020-04-22-CD200422.xml
+INFO: XML validation for ParlaMint-ES_2020-04-29-CD200429.xml
+INFO: Content validaton for ParlaMint-ES_2020-04-29-CD200429.xml
+INFO: Link checking for ParlaMint-ES_2020-04-29-CD200429.xml
+INFO ParlaMint-ES_2020-04-29-CD200429: Checking links in ParlaMint-ES_2020-04-29-CD200429.xml
+INFO: XML validation for ParlaMint-ES_2020-05-06-CD200506.xml
+INFO: Content validaton for ParlaMint-ES_2020-05-06-CD200506.xml
+INFO: Link checking for ParlaMint-ES_2020-05-06-CD200506.xml
+INFO ParlaMint-ES_2020-05-06-CD200506: Checking links in ParlaMint-ES_2020-05-06-CD200506.xml
+INFO: XML validation for ParlaMint-ES_2020-05-13-CD200513.xml
+INFO: Content validaton for ParlaMint-ES_2020-05-13-CD200513.xml
+INFO: Link checking for ParlaMint-ES_2020-05-13-CD200513.xml
+INFO ParlaMint-ES_2020-05-13-CD200513: Checking links in ParlaMint-ES_2020-05-13-CD200513.xml
+INFO: XML validation for ParlaMint-ES_2020-05-20-CD200520.xml
+INFO: Content validaton for ParlaMint-ES_2020-05-20-CD200520.xml
+INFO: Link checking for ParlaMint-ES_2020-05-20-CD200520.xml
+INFO ParlaMint-ES_2020-05-20-CD200520: Checking links in ParlaMint-ES_2020-05-20-CD200520.xml
+INFO: XML validation for ParlaMint-ES_2020-05-27-CD200527.xml
+INFO: Content validaton for ParlaMint-ES_2020-05-27-CD200527.xml
+INFO: Link checking for ParlaMint-ES_2020-05-27-CD200527.xml
+INFO ParlaMint-ES_2020-05-27-CD200527: Checking links in ParlaMint-ES_2020-05-27-CD200527.xml
+INFO: XML validation for ParlaMint-ES_2020-06-03-CD200603.xml
+INFO: Content validaton for ParlaMint-ES_2020-06-03-CD200603.xml
+INFO: Link checking for ParlaMint-ES_2020-06-03-CD200603.xml
+INFO ParlaMint-ES_2020-06-03-CD200603: Checking links in ParlaMint-ES_2020-06-03-CD200603.xml
+INFO: XML validation for ParlaMint-ES_2020-06-04-CD200604.xml
+INFO: Content validaton for ParlaMint-ES_2020-06-04-CD200604.xml
+INFO: Link checking for ParlaMint-ES_2020-06-04-CD200604.xml
+INFO ParlaMint-ES_2020-06-04-CD200604: Checking links in ParlaMint-ES_2020-06-04-CD200604.xml
+INFO: XML validation for ParlaMint-ES_2020-06-10-CD200610.xml
+INFO: Content validaton for ParlaMint-ES_2020-06-10-CD200610.xml
+INFO: Link checking for ParlaMint-ES_2020-06-10-CD200610.xml
+INFO ParlaMint-ES_2020-06-10-CD200610: Checking links in ParlaMint-ES_2020-06-10-CD200610.xml
+INFO: XML validation for ParlaMint-ES_2020-06-11-CD200611.xml
+INFO: Content validaton for ParlaMint-ES_2020-06-11-CD200611.xml
+INFO: Link checking for ParlaMint-ES_2020-06-11-CD200611.xml
+INFO ParlaMint-ES_2020-06-11-CD200611: Checking links in ParlaMint-ES_2020-06-11-CD200611.xml
+INFO: XML validation for ParlaMint-ES_2020-06-16-CD200616.xml
+INFO: Content validaton for ParlaMint-ES_2020-06-16-CD200616.xml
+INFO: Link checking for ParlaMint-ES_2020-06-16-CD200616.xml
+INFO ParlaMint-ES_2020-06-16-CD200616: Checking links in ParlaMint-ES_2020-06-16-CD200616.xml
+INFO: XML validation for ParlaMint-ES_2020-06-17-CD200617.xml
+INFO: Content validaton for ParlaMint-ES_2020-06-17-CD200617.xml
+INFO: Link checking for ParlaMint-ES_2020-06-17-CD200617.xml
+INFO ParlaMint-ES_2020-06-17-CD200617: Checking links in ParlaMint-ES_2020-06-17-CD200617.xml
+INFO: XML validation for ParlaMint-ES_2020-06-23-CD200623.xml
+INFO: Content validaton for ParlaMint-ES_2020-06-23-CD200623.xml
+INFO: Link checking for ParlaMint-ES_2020-06-23-CD200623.xml
+INFO ParlaMint-ES_2020-06-23-CD200623: Checking links in ParlaMint-ES_2020-06-23-CD200623.xml
+INFO: XML validation for ParlaMint-ES_2020-06-24-CD200624.xml
+INFO: Content validaton for ParlaMint-ES_2020-06-24-CD200624.xml
+INFO: Link checking for ParlaMint-ES_2020-06-24-CD200624.xml
+INFO ParlaMint-ES_2020-06-24-CD200624: Checking links in ParlaMint-ES_2020-06-24-CD200624.xml
+INFO: XML validation for ParlaMint-ES_2020-06-25-CD200625.xml
+INFO: Content validaton for ParlaMint-ES_2020-06-25-CD200625.xml
+INFO: Link checking for ParlaMint-ES_2020-06-25-CD200625.xml
+INFO ParlaMint-ES_2020-06-25-CD200625: Checking links in ParlaMint-ES_2020-06-25-CD200625.xml
+INFO: XML validation for ParlaMint-ES_2020-07-14-CD200714.xml
+INFO: Content validaton for ParlaMint-ES_2020-07-14-CD200714.xml
+INFO: Link checking for ParlaMint-ES_2020-07-14-CD200714.xml
+INFO ParlaMint-ES_2020-07-14-CD200714: Checking links in ParlaMint-ES_2020-07-14-CD200714.xml
+INFO: XML validation for ParlaMint-ES_2020-07-15-CD200715.xml
+INFO: Content validaton for ParlaMint-ES_2020-07-15-CD200715.xml
+INFO: Link checking for ParlaMint-ES_2020-07-15-CD200715.xml
+INFO ParlaMint-ES_2020-07-15-CD200715: Checking links in ParlaMint-ES_2020-07-15-CD200715.xml
+INFO: XML validation for ParlaMint-ES_2020-07-21-CD200721.xml
+INFO: Content validaton for ParlaMint-ES_2020-07-21-CD200721.xml
+INFO: Link checking for ParlaMint-ES_2020-07-21-CD200721.xml
+INFO ParlaMint-ES_2020-07-21-CD200721: Checking links in ParlaMint-ES_2020-07-21-CD200721.xml
+INFO: XML validation for ParlaMint-ES_2020-07-22-CD200722.xml
+INFO: Content validaton for ParlaMint-ES_2020-07-22-CD200722.xml
+INFO: Link checking for ParlaMint-ES_2020-07-22-CD200722.xml
+INFO ParlaMint-ES_2020-07-22-CD200722: Checking links in ParlaMint-ES_2020-07-22-CD200722.xml
+INFO: XML validation for ParlaMint-ES_2020-07-29-CD200729.xml
+INFO: Content validaton for ParlaMint-ES_2020-07-29-CD200729.xml
+INFO: Link checking for ParlaMint-ES_2020-07-29-CD200729.xml
+INFO ParlaMint-ES_2020-07-29-CD200729: Checking links in ParlaMint-ES_2020-07-29-CD200729.xml
+INFO: XML validation for ParlaMint-ES_2020-09-08-CD200908.xml
+INFO: Content validaton for ParlaMint-ES_2020-09-08-CD200908.xml
+INFO: Link checking for ParlaMint-ES_2020-09-08-CD200908.xml
+INFO ParlaMint-ES_2020-09-08-CD200908: Checking links in ParlaMint-ES_2020-09-08-CD200908.xml
+INFO: XML validation for ParlaMint-ES_2020-09-09-CD200909.xml
+INFO: Content validaton for ParlaMint-ES_2020-09-09-CD200909.xml
+INFO: Link checking for ParlaMint-ES_2020-09-09-CD200909.xml
+INFO ParlaMint-ES_2020-09-09-CD200909: Checking links in ParlaMint-ES_2020-09-09-CD200909.xml
+INFO: XML validation for ParlaMint-ES_2020-09-10-CD200910.xml
+INFO: Content validaton for ParlaMint-ES_2020-09-10-CD200910.xml
+INFO: Link checking for ParlaMint-ES_2020-09-10-CD200910.xml
+INFO ParlaMint-ES_2020-09-10-CD200910: Checking links in ParlaMint-ES_2020-09-10-CD200910.xml
+INFO: XML validation for ParlaMint-ES_2020-09-15-CD200915.xml
+INFO: Content validaton for ParlaMint-ES_2020-09-15-CD200915.xml
+INFO: Link checking for ParlaMint-ES_2020-09-15-CD200915.xml
+INFO ParlaMint-ES_2020-09-15-CD200915: Checking links in ParlaMint-ES_2020-09-15-CD200915.xml
+INFO: XML validation for ParlaMint-ES_2020-09-16-CD200916.xml
+INFO: Content validaton for ParlaMint-ES_2020-09-16-CD200916.xml
+INFO: Link checking for ParlaMint-ES_2020-09-16-CD200916.xml
+INFO ParlaMint-ES_2020-09-16-CD200916: Checking links in ParlaMint-ES_2020-09-16-CD200916.xml
+INFO: XML validation for ParlaMint-ES_2020-09-22-CD200922.xml
+INFO: Content validaton for ParlaMint-ES_2020-09-22-CD200922.xml
+INFO: Link checking for ParlaMint-ES_2020-09-22-CD200922.xml
+INFO ParlaMint-ES_2020-09-22-CD200922: Checking links in ParlaMint-ES_2020-09-22-CD200922.xml
+INFO: XML validation for ParlaMint-ES_2020-09-23-CD200923.xml
+INFO: Content validaton for ParlaMint-ES_2020-09-23-CD200923.xml
+INFO: Link checking for ParlaMint-ES_2020-09-23-CD200923.xml
+INFO ParlaMint-ES_2020-09-23-CD200923: Checking links in ParlaMint-ES_2020-09-23-CD200923.xml
+INFO: XML validation for ParlaMint-ES_2020-09-29-CD200929.xml
+INFO: Content validaton for ParlaMint-ES_2020-09-29-CD200929.xml
+INFO: Link checking for ParlaMint-ES_2020-09-29-CD200929.xml
+INFO ParlaMint-ES_2020-09-29-CD200929: Checking links in ParlaMint-ES_2020-09-29-CD200929.xml
+INFO: XML validation for ParlaMint-ES_2020-09-30-CD200930.xml
+INFO: Content validaton for ParlaMint-ES_2020-09-30-CD200930.xml
+INFO: Link checking for ParlaMint-ES_2020-09-30-CD200930.xml
+INFO ParlaMint-ES_2020-09-30-CD200930: Checking links in ParlaMint-ES_2020-09-30-CD200930.xml
+INFO: XML validation for ParlaMint-ES_2020-10-01-CD201001.xml
+INFO: Content validaton for ParlaMint-ES_2020-10-01-CD201001.xml
+INFO: Link checking for ParlaMint-ES_2020-10-01-CD201001.xml
+INFO ParlaMint-ES_2020-10-01-CD201001: Checking links in ParlaMint-ES_2020-10-01-CD201001.xml
+INFO: XML validation for ParlaMint-ES_2020-10-13-CD201013.xml
+INFO: Content validaton for ParlaMint-ES_2020-10-13-CD201013.xml
+INFO: Link checking for ParlaMint-ES_2020-10-13-CD201013.xml
+INFO ParlaMint-ES_2020-10-13-CD201013: Checking links in ParlaMint-ES_2020-10-13-CD201013.xml
+INFO: XML validation for ParlaMint-ES_2020-10-14-CD201014.xml
+INFO: Content validaton for ParlaMint-ES_2020-10-14-CD201014.xml
+INFO: Link checking for ParlaMint-ES_2020-10-14-CD201014.xml
+INFO ParlaMint-ES_2020-10-14-CD201014: Checking links in ParlaMint-ES_2020-10-14-CD201014.xml
+INFO: XML validation for ParlaMint-ES_2020-10-15-CD201015.xml
+INFO: Content validaton for ParlaMint-ES_2020-10-15-CD201015.xml
+INFO: Link checking for ParlaMint-ES_2020-10-15-CD201015.xml
+INFO ParlaMint-ES_2020-10-15-CD201015: Checking links in ParlaMint-ES_2020-10-15-CD201015.xml
+INFO: XML validation for ParlaMint-ES_2020-10-20-CD201020.xml
+INFO: Content validaton for ParlaMint-ES_2020-10-20-CD201020.xml
+INFO: Link checking for ParlaMint-ES_2020-10-20-CD201020.xml
+INFO ParlaMint-ES_2020-10-20-CD201020: Checking links in ParlaMint-ES_2020-10-20-CD201020.xml
+INFO: XML validation for ParlaMint-ES_2020-10-21-CD201021.xml
+INFO: Content validaton for ParlaMint-ES_2020-10-21-CD201021.xml
+INFO: Link checking for ParlaMint-ES_2020-10-21-CD201021.xml
+INFO ParlaMint-ES_2020-10-21-CD201021: Checking links in ParlaMint-ES_2020-10-21-CD201021.xml
+INFO: XML validation for ParlaMint-ES_2020-10-22-CD201022.xml
+INFO: Content validaton for ParlaMint-ES_2020-10-22-CD201022.xml
+INFO: Link checking for ParlaMint-ES_2020-10-22-CD201022.xml
+INFO ParlaMint-ES_2020-10-22-CD201022: Checking links in ParlaMint-ES_2020-10-22-CD201022.xml
+INFO: XML validation for ParlaMint-ES_2020-10-27-CD201027.xml
+INFO: Content validaton for ParlaMint-ES_2020-10-27-CD201027.xml
+INFO: Link checking for ParlaMint-ES_2020-10-27-CD201027.xml
+INFO ParlaMint-ES_2020-10-27-CD201027: Checking links in ParlaMint-ES_2020-10-27-CD201027.xml
+INFO: XML validation for ParlaMint-ES_2020-10-28-CD201028.xml
+INFO: Content validaton for ParlaMint-ES_2020-10-28-CD201028.xml
+INFO: Link checking for ParlaMint-ES_2020-10-28-CD201028.xml
+INFO ParlaMint-ES_2020-10-28-CD201028: Checking links in ParlaMint-ES_2020-10-28-CD201028.xml
+INFO: XML validation for ParlaMint-ES_2020-10-29-CD201029.xml
+INFO: Content validaton for ParlaMint-ES_2020-10-29-CD201029.xml
+INFO: Link checking for ParlaMint-ES_2020-10-29-CD201029.xml
+INFO ParlaMint-ES_2020-10-29-CD201029: Checking links in ParlaMint-ES_2020-10-29-CD201029.xml
+INFO: XML validation for ParlaMint-ES_2020-11-11-CD201111.xml
+INFO: Content validaton for ParlaMint-ES_2020-11-11-CD201111.xml
+INFO: Link checking for ParlaMint-ES_2020-11-11-CD201111.xml
+INFO ParlaMint-ES_2020-11-11-CD201111: Checking links in ParlaMint-ES_2020-11-11-CD201111.xml
+INFO: XML validation for ParlaMint-ES_2020-11-12-CD201112.xml
+INFO: Content validaton for ParlaMint-ES_2020-11-12-CD201112.xml
+INFO: Link checking for ParlaMint-ES_2020-11-12-CD201112.xml
+INFO ParlaMint-ES_2020-11-12-CD201112: Checking links in ParlaMint-ES_2020-11-12-CD201112.xml
+INFO: XML validation for ParlaMint-ES_2020-11-17-CD201117.xml
+INFO: Content validaton for ParlaMint-ES_2020-11-17-CD201117.xml
+INFO: Link checking for ParlaMint-ES_2020-11-17-CD201117.xml
+INFO ParlaMint-ES_2020-11-17-CD201117: Checking links in ParlaMint-ES_2020-11-17-CD201117.xml
+INFO: XML validation for ParlaMint-ES_2020-11-18-CD201118-bis.xml
+INFO: Content validaton for ParlaMint-ES_2020-11-18-CD201118-bis.xml
+INFO: Link checking for ParlaMint-ES_2020-11-18-CD201118-bis.xml
+INFO ParlaMint-ES_2020-11-18-CD201118-bis: Checking links in ParlaMint-ES_2020-11-18-CD201118-bis.xml
+INFO: XML validation for ParlaMint-ES_2020-11-18-CD201118.xml
+INFO: Content validaton for ParlaMint-ES_2020-11-18-CD201118.xml
+INFO: Link checking for ParlaMint-ES_2020-11-18-CD201118.xml
+INFO ParlaMint-ES_2020-11-18-CD201118: Checking links in ParlaMint-ES_2020-11-18-CD201118.xml
+INFO: XML validation for ParlaMint-ES_2020-11-30-CD201130.xml
+INFO: Content validaton for ParlaMint-ES_2020-11-30-CD201130.xml
+INFO: Link checking for ParlaMint-ES_2020-11-30-CD201130.xml
+INFO ParlaMint-ES_2020-11-30-CD201130: Checking links in ParlaMint-ES_2020-11-30-CD201130.xml
+INFO: XML validation for ParlaMint-ES_2020-12-01-CD201201.xml
+INFO: Content validaton for ParlaMint-ES_2020-12-01-CD201201.xml
+INFO: Link checking for ParlaMint-ES_2020-12-01-CD201201.xml
+INFO ParlaMint-ES_2020-12-01-CD201201: Checking links in ParlaMint-ES_2020-12-01-CD201201.xml
+INFO: XML validation for ParlaMint-ES_2020-12-02-CD201202.xml
+INFO: Content validaton for ParlaMint-ES_2020-12-02-CD201202.xml
+INFO: Link checking for ParlaMint-ES_2020-12-02-CD201202.xml
+INFO ParlaMint-ES_2020-12-02-CD201202: Checking links in ParlaMint-ES_2020-12-02-CD201202.xml
+INFO: XML validation for ParlaMint-ES_2020-12-03-CD201203.xml
+INFO: Content validaton for ParlaMint-ES_2020-12-03-CD201203.xml
+INFO: Link checking for ParlaMint-ES_2020-12-03-CD201203.xml
+INFO ParlaMint-ES_2020-12-03-CD201203: Checking links in ParlaMint-ES_2020-12-03-CD201203.xml
+INFO: XML validation for ParlaMint-ES_2020-12-15-CD201215.xml
+INFO: Content validaton for ParlaMint-ES_2020-12-15-CD201215.xml
+INFO: Link checking for ParlaMint-ES_2020-12-15-CD201215.xml
+INFO ParlaMint-ES_2020-12-15-CD201215: Checking links in ParlaMint-ES_2020-12-15-CD201215.xml
+WARN: No root .ana. file found in /home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC/ParlaMint
+make[1]: Leaving directory '/home/project/corpora/Parla/ParlaMint/V2/ParlaMint-ES.CD/PARLAMINT-ES-MC'
+5065.65user 419.70system 14:28.71elapsed 631%CPU (0avgtext+0avgdata 2728064maxresident)k
+221752inputs+543920outputs (0major+57285638minor)pagefaults 0swaps
