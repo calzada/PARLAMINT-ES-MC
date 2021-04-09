@@ -135,13 +135,13 @@
           </funder>
         </titleStmt>
         <editionStmt>
-          <edition>0.1</edition>
+          <edition>2.0</edition>
         </editionStmt>
         <extent>
-          <measure unit="speeches" quantity="0" xml:lang="es">0 speeches</measure>
-          <measure unit="speeches" quantity="0" xml:lang="en">0 intervenciones</measure>
-          <measure unit="words" quantity="0" xml:lang="es">0 words</measure>
-          <measure unit="words" quantity="0" xml:lang="en">0 palabras</measure>
+          <measure unit="speeches" quantity="0" xml:lang="en">0 speeches</measure>
+          <measure unit="speeches" quantity="0" xml:lang="es">0 intervenciones</measure>
+          <measure unit="words" quantity="0" xml:lang="en">0 words</measure>
+          <measure unit="words" quantity="0" xml:lang="es">0 palabras</measure>
         </extent>
         <publicationStmt>
           <publisher>

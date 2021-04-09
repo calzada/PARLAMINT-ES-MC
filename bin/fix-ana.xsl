@@ -79,6 +79,22 @@
     </xsl:copy>
   </xsl:template>
 
+  <xsl:template match="tei:extent/tei:measure">
+    <xsl:variable name="lang">
+      <xsl:choose>
+	<xsl:when test="contains(., 'speeches')">en</xsl:when>
+	<xsl:when test="contains(., 'words')">en</xsl:when>
+	<xsl:when test="contains(., 'intervenciones')">es</xsl:when>
+	<xsl:when test="contains(., 'palabras')">es</xsl:when>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:attribute name="xml:lang" select="$lang"/>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+  
   <xsl:template match="tei:idno[matches(., 'hdl.handle.net')]">
     <xsl:copy>
       <xsl:attribute name="type">URI</xsl:attribute>
