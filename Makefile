@@ -27,10 +27,10 @@ fix-ana:
 
 # Process in background, save log
 nohup-gen:
-	nohup time make all > log.txt &
+	nohup time make gen > log.txt &
 
 # Process ParlaMint-ES corpus
-all:	cnv1 cnv2 val
+gen:	cnv1 cnv2 val
 
 # Validate corpus
 val:
