@@ -29,6 +29,46 @@
   <xsl:template match="tei:TEI/@xml:id">
     <xsl:attribute name="xml:id" select="concat(., '.ana')"/>
   </xsl:template>
+  <!-- Fix from:
+       <meeting ana="#parla.session" corresp="#CD #CD.10" n="237">Sesión plenaria núm. 237. (X)</meeting>
+       to:
+       <meeting n="237" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 237.</meeting>
+       <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
+  -->
+  <xsl:template match="tei:TEI/tei:teiHeader//tei:meeting">
+    <xsl:copy>
+      <xsl:attribute name="n" select="@n"/>
+      <xsl:attribute name="corresp">#CD</xsl:attribute>
+      <xsl:attribute name="ana" select="@ana"/>
+      <xsl:value-of select="replace(., ' \(.+?\)$', '')"/>
+    </xsl:copy>
+    <xsl:variable name="term-roman" select="replace(., '.+ \((.+?)\)$', '$1')"/>
+    <xsl:variable name="term-arab">
+      <xsl:choose>
+	<xsl:when test="$term-roman = 'VIII'">8</xsl:when>
+	<xsl:when test="$term-roman = 'IX'">9</xsl:when>
+	<xsl:when test="$term-roman = 'X'">10</xsl:when>
+	<xsl:when test="$term-roman = 'XI'">11</xsl:when>
+	<xsl:when test="$term-roman = 'XII'">12</xsl:when>
+	<xsl:when test="$term-roman = 'XIII'">13</xsl:when>
+	<xsl:when test="$term-roman = 'XIV'">14</xsl:when>
+	<xsl:when test="$term-roman = 'XV'">15</xsl:when>
+	<xsl:otherwise>
+	  <xsl:message terminate="yes" select="concat('ERROR: wrong legislature ', legislature)"/>
+	</xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:copy>
+      <xsl:attribute name="n" select="$term-arab"/>
+      <xsl:attribute name="corresp">#CD</xsl:attribute>
+      <xsl:attribute name="ana">
+	<xsl:text>#parla.term #CD.</xsl:text>
+	<xsl:value-of select="$term-roman"/>
+      </xsl:attribute>
+      <xsl:text>Legislatura </xsl:text>
+      <xsl:value-of select="$term-roman"/>
+    </xsl:copy>
+  </xsl:template>
 
   <xsl:template match="tei:editionStmt/tei:edition">
     <xsl:copy>
