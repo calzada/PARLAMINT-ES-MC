@@ -63,7 +63,7 @@
       <xsl:attribute name="corresp">#CD</xsl:attribute>
       <xsl:attribute name="ana">
 	<xsl:text>#parla.term #CD.</xsl:text>
-	<xsl:value-of select="$term-roman"/>
+	<xsl:value-of select="$term-arab"/>
       </xsl:attribute>
       <xsl:text>Legislatura </xsl:text>
       <xsl:value-of select="$term-roman"/>
