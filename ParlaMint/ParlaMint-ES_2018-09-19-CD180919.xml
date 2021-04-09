@@ -12,7 +12,8 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 142 (2018-09-19) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 142 (2018-09-19)</title>
             <title xml:lang="en" type="sub">Plenary session 142 (2018-09-19)</title>
-            <meeting ana="#parla.session" n="142" corresp="#CD #CD.12">Sesión plenaria núm. 142 (XII)</meeting>
+            <meeting n="142" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 142</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
@@ -52,7 +53,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-20">March 20, 2021</date>
+            <date when="2021-04-09">April 9, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>

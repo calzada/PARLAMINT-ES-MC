@@ -12,7 +12,8 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 7 (2019-09-11) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 7 (2019-09-11)</title>
             <title xml:lang="en" type="sub">Plenary session 7 (2019-09-11)</title>
-            <meeting ana="#parla.session" n="7" corresp="#CD #CD.13">Sesión plenaria núm. 7 (XIII)</meeting>
+            <meeting n="7" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 7</meeting>
+            <meeting n="13" corresp="#CD" ana="#parla.term #CD.13">Legislatura XIII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
@@ -52,7 +53,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-20">March 20, 2021</date>
+            <date when="2021-04-09">April 9, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
