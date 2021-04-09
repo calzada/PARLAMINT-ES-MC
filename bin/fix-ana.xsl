@@ -29,13 +29,15 @@
   <xsl:template match="tei:TEI/@xml:id">
     <xsl:attribute name="xml:id" select="concat(., '.ana')"/>
   </xsl:template>
+  
   <!-- Fix from:
        <meeting ana="#parla.session" corresp="#CD #CD.10" n="237">Sesión plenaria núm. 237. (X)</meeting>
        to:
        <meeting n="237" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 237.</meeting>
        <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
   -->
-  <xsl:template match="tei:TEI/tei:teiHeader//tei:meeting">
+  <xsl:template match="tei:TEI/tei:teiHeader//tei:meeting[@ana='#parla.session']
+		       [contains(@corresp, '#CD #CD')]">
     <xsl:copy>
       <xsl:attribute name="n" select="@n"/>
       <xsl:attribute name="corresp">#CD</xsl:attribute>
@@ -77,7 +79,7 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="tei:idno[@type='handle']">
+  <xsl:template match="tei:idno[matches(., 'hdl.handle.net')]">
     <xsl:copy>
       <xsl:attribute name="type">URI</xsl:attribute>
       <xsl:attribute name="subtype">handle</xsl:attribute>
