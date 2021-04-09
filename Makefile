@@ -47,6 +47,7 @@ cnv2:
 
 #First conversion: from CD format to TEI-ish corpus components
 cnv1:
+	rm -f tmp/*
 	ls CD/*.xml | $P --jobs 10 \
 	'$s -xsl:bin/cd2parmamint.xsl {} > tmp/{/.}-PM.xml'
 	#ls tmp/*-PM.xml | xargs ${pc} 

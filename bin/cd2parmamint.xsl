@@ -85,27 +85,44 @@
           <title xml:lang="en" type="sub">
 	    <xsl:value-of select="$title-en"/>
 	  </title>
-          <meeting ana="#parla.session" n="{$n}">
-	    <xsl:attribute name="corresp">
-	      <xsl:text>#CD</xsl:text>
+          <meeting n="{$n}" corresp="#CD" ana="#parla.session">
+	    <xsl:apply-templates select="label"/>
+	  </meeting>
+          <meeting>
+	    <xsl:attribute name="n">
 	      <xsl:choose>
-		<xsl:when test="legislature = 'VIII'"> #CD.8</xsl:when>
-		<xsl:when test="legislature = 'IX'"> #CD.9</xsl:when>
-		<xsl:when test="legislature = 'X'"> #CD.10</xsl:when>
-		<xsl:when test="legislature = 'XI'"> #CD.11</xsl:when>
-		<xsl:when test="legislature = 'XII'"> #CD.12</xsl:when>
-		<xsl:when test="legislature = 'XIII'"> #CD.13</xsl:when>
-		<xsl:when test="legislature = 'XIV'"> #CD.14</xsl:when>
-		<xsl:when test="legislature = 'XV'"> #CD.11</xsl:when>
+		<xsl:when test="legislature = 'VIII'">8</xsl:when>
+		<xsl:when test="legislature = 'IX'">9</xsl:when>
+		<xsl:when test="legislature = 'X'">10</xsl:when>
+		<xsl:when test="legislature = 'XI'">11</xsl:when>
+		<xsl:when test="legislature = 'XII'">12</xsl:when>
+		<xsl:when test="legislature = 'XIII'">13</xsl:when>
+		<xsl:when test="legislature = 'XIV'">14</xsl:when>
+		<xsl:when test="legislature = 'XV'">15</xsl:when>
 		<xsl:otherwise>
 		  <xsl:message select="concat('ERROR: wrong legislature ', legislature)"/>
 		</xsl:otherwise>
 	      </xsl:choose>
 	    </xsl:attribute>
-	    <xsl:apply-templates select="label"/>
-	    <xsl:text> (</xsl:text>
+	    <xsl:attribute name="corresp">#CD</xsl:attribute>
+	    <xsl:attribute name="ana">
+	      <xsl:text>#parla.term </xsl:text>
+	      <xsl:choose>
+		<xsl:when test="legislature = 'VIII'">#CD.8</xsl:when>
+		<xsl:when test="legislature = 'IX'">#CD.9</xsl:when>
+		<xsl:when test="legislature = 'X'">#CD.10</xsl:when>
+		<xsl:when test="legislature = 'XI'">#CD.11</xsl:when>
+		<xsl:when test="legislature = 'XII'">#CD.12</xsl:when>
+		<xsl:when test="legislature = 'XIII'">#CD.13</xsl:when>
+		<xsl:when test="legislature = 'XIV'">#CD.14</xsl:when>
+		<xsl:when test="legislature = 'XV'">#CD.15</xsl:when>
+		<xsl:otherwise>
+		  <xsl:message select="concat('ERROR: wrong legislature ', legislature)"/>
+		</xsl:otherwise>
+	      </xsl:choose>
+	    </xsl:attribute>
+	    <xsl:text>Legislatura </xsl:text>
 	    <xsl:value-of select="legislature"/>
-	    <xsl:text>)</xsl:text>
 	  </meeting>
 	  <xsl:copy-of select="$respStmt"/>
           <funder>
