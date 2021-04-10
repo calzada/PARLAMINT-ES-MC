@@ -41,7 +41,6 @@
     <xsl:value-of select="$date"/>
   </xsl:variable>
   
-  <!-- DRAFT! -->
   <xsl:template match="header">
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
       <fileDesc>
