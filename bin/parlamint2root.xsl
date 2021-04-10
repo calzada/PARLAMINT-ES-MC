@@ -418,12 +418,12 @@
       <xsl:attribute name="quantity" select="format-number($quant, '#')"/>
       <xsl:variable name="formatted" select="format-number($quant, '###,###,###')"/>
       <xsl:choose>
-	<xsl:when test="@xml:lang = 'es'">
-	  <xsl:value-of select="replace(., '^\d+', $formatted)"/>
-	</xsl:when>
-	<xsl:when test="@xml:lang = 'en'">
+	<xsl:when test="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'es'">
 	  <xsl:value-of select="replace(., '^\d+', replace($formatted, ',', '.'))"/>
 	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:value-of select="replace(., '^\d+', $formatted)"/>
+	</xsl:otherwise>
       </xsl:choose>
     </xsl:copy>
   </xsl:template>
