@@ -49,7 +49,7 @@ cnv2:
 cnv1:
 	rm -f tmp/*
 	ls CD/*.xml | $P --jobs 10 \
-	'$s -xsl:bin/cd2parmamint.xsl {} > tmp/{/.}-PM.xml'
+	'$s -xsl:bin/cd2parmamint.xsl {} | bin/polish.pl > tmp/{/.}-PM.xml'
 	#ls tmp/*-PM.xml | xargs ${pc} 
 	#$j schemas/parla-clarin.rng tmp/*-PM.xml
 
