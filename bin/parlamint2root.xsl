@@ -16,6 +16,7 @@
   <xsl:param name="outDir">.</xsl:param>
   <!-- Path from bin/ to ES component files -->
   <xsl:param name="inDir">..</xsl:param>
+  <xsl:param name="componentFiles"/>
 
   <!-- From - to of the complete corpus -->
   <xsl:param name="start-date">2015-01-20</xsl:param>
@@ -23,15 +24,19 @@
   
   <!-- Gather URIs of component xi + files and map to new xi + files -->
   <xsl:variable name="docs">
-    <xsl:for-each select="//xi:include">
+    <xsl:for-each select="document($componentFiles)//xi:include">
+      <xsl:variable name="n" select="position()"/>
       <xsl:variable name="xi-orig" select="@href"/>
       <xsl:variable name="url-orig" select="concat($inDir, '/', $xi-orig)"/>
       <xsl:variable name="xi-new" select="concat(document($url-orig)/tei:TEI/@xml:id, '.xml')"/>
       <xsl:variable name="url-new" select="concat($outDir, '/', $xi-new)"/>
       <item>
-	<xi-orig>
-	  <xsl:value-of select="$xi-orig"/>
-	</xi-orig>
+  <n>
+    <xsl:value-of select="$n"/>
+  </n>
+  <xi-orig>
+    <xsl:value-of select="$xi-orig"/>
+  </xi-orig>
 	<url-orig>
 	  <xsl:value-of select="$url-orig"/>
 	</url-orig>
@@ -363,6 +368,18 @@
   <xsl:template mode="comp" match="tei:particDesc"/>
 
   <!-- ROOT -->
+  <xsl:template match="/tei:teiCorpus">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates/>
+      <!-- insert component files gathered from $componentFiles -->
+      <xsl:for-each select="$docs/tei:item">
+        <xsl:sort select="./tei:n"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="{./tei:xi-new}"/>
+      </xsl:for-each>
+    </xsl:copy>
+  </xsl:template>
+
   <xsl:template match="*">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -435,10 +452,4 @@
     </xsl:copy>
   </xsl:template>
     
-  <xsl:template match="xi:include/@href">
-    <xsl:attribute name="href">
-      <xsl:variable name="xi-orig" select="."/>
-      <xsl:value-of select="$docs/tei:item[tei:xi-orig = $xi-orig]/tei:xi-new"/>
-    </xsl:attribute>
-  </xsl:template>
 </xsl:stylesheet>
