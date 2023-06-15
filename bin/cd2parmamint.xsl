@@ -731,7 +731,7 @@
 
       
       <!-- "celebrada el miércoles, 20 de abril de 2016" -> 2016-04-20 -->
-      <xsl:when test="matches($digits, '^celebrada')">
+      <xsl:when test="matches($digits, 'de .* de')">
 	<xsl:variable name="day" select="format-number(
 					 number(replace($digits, '.+, (\d+) de.+', '$1')),
 					 '00')"/>
