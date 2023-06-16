@@ -17,6 +17,7 @@
   <!-- Path from bin/ to ES component files -->
   <xsl:param name="inDir">..</xsl:param>
   <xsl:param name="componentFiles"/>
+  <xsl:param name="listOrgTemplate"/>
 
   <!-- From - to of the complete corpus -->
   <xsl:param name="start-date">2015-01-20</xsl:param>
@@ -121,6 +122,10 @@
   <!-- which doesn't quite work... Should check when their firt/last speech was
        and compare the affiliation dates with that!
   -->
+  <xsl:variable name="orgs">
+    <xsl:copy-of select="document($listOrgTemplate)//tei:org"/>
+  </xsl:variable>
+
   <xsl:variable name="persons">
     <!-- Put the same person records in one listPerson -->
     <xsl:variable name="pass2">
@@ -407,6 +412,21 @@
   <!--xsl:template match="tei:org[@role='politicalParty']">
     <xsl:copy-of copy-namespaces="no"  select="$orgs"/>
   </xsl:template-->
+  <xsl:template match="tei:listOrg">
+    <xsl:message>INFO: processing listOrg</xsl:message>
+    <xsl:result-document href="{concat($outDir, '/ParlaMint-ES-listOrg.xml')}">
+      <listOrg>
+        <xsl:attribute name="xml:id">ParlaMint-ES-listOrg</xsl:attribute>
+        <xsl:attribute name="xml:lang">es</xsl:attribute>
+        <xsl:copy-of copy-namespaces="no" select="$orgs"/>
+      </listOrg>
+    </xsl:result-document>
+    <xsl:element name="xi:include" namespace="http://www.w3.org/2001/XInclude">
+      <xsl:namespace name="xi" select="'http://www.w3.org/2001/XInclude'"/>
+      <xsl:attribute name="href">ParlaMint-ES-listOrg.xml</xsl:attribute>
+    </xsl:element>
+  </xsl:template>
+
   <xsl:template match="tei:listPerson">
     <xsl:message>INFO: processing listPerson </xsl:message>
     <xsl:result-document href="{concat($outDir, '/ParlaMint-ES-listPerson.xml')}">
