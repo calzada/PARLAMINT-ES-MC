@@ -18,6 +18,7 @@
   <xsl:param name="inDir">..</xsl:param>
   <xsl:param name="componentFiles"/>
   <xsl:param name="listOrgTemplate"/>
+  <xsl:param name="taxonomyDir"/>
 
   <!-- From - to of the complete corpus -->
   <xsl:param name="start-date">2015-01-20</xsl:param>
@@ -441,6 +442,18 @@
     <xsl:element name="xi:include" namespace="http://www.w3.org/2001/XInclude">
       <xsl:namespace name="xi" select="'http://www.w3.org/2001/XInclude'"/>
       <xsl:attribute name="href">ParlaMint-ES-listPerson.xml</xsl:attribute>
+    </xsl:element>
+  </xsl:template>
+
+  <xsl:template match="tei:taxonomy[not(./*) and @xml:id]">
+    <xsl:variable name="taxId" select="@xml:id"/>
+    <xsl:message>INFO: processing <xsl:value-of select="$taxId"/></xsl:message>
+    <xsl:result-document href="{concat($outDir, '/',$taxId,'.xml')}">
+      <xsl:copy-of select="document(concat($taxonomyDir,'/',$taxId,'.xml'))"/>
+    </xsl:result-document>
+    <xsl:element name="xi:include" namespace="http://www.w3.org/2001/XInclude">
+      <xsl:namespace name="xi" select="'http://www.w3.org/2001/XInclude'"/>
+      <xsl:attribute name="href" select="concat($taxId,'.xml')"/>
     </xsl:element>
   </xsl:template>
 

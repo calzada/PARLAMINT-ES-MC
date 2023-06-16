@@ -47,6 +47,7 @@ cnv2:
 	rm -f ParlaMint$(DIRSUFFIX)/*.xml
 	$s inDir="../tmp$(DIRSUFFIX)" outDir="ParlaMint$(DIRSUFFIX)" componentFiles="../tmp$(DIRSUFFIX)/ParlaMint-component-ES.xml" \
 	listOrgTemplate="../templates/ParlaMint-templateOrgs-ES.xml" \
+	taxonomyDir="../templates" \
 	-xsl:bin/parlamint2root.xsl templates/ParlaMint-template-ES.xml
 
 #First conversion: from CD format to TEI-ish corpus components
