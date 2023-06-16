@@ -407,8 +407,21 @@
   <!--xsl:template match="tei:org[@role='politicalParty']">
     <xsl:copy-of copy-namespaces="no"  select="$orgs"/>
   </xsl:template-->
-  <xsl:template match="tei:listPerson/tei:person">
-    <xsl:copy-of copy-namespaces="no" select="$persons"/>
+  <xsl:template match="tei:listPerson">
+    <xsl:message>INFO: processing listPerson </xsl:message>
+    <xsl:result-document href="{concat($outDir, '/ParlaMint-ES-listPerson.xml')}">
+      <listPerson>
+        <xsl:attribute name="xml:id">ParlaMint-ES-listPerson</xsl:attribute>
+        <xsl:attribute name="xml:lang">es</xsl:attribute>
+        <head xml:lang="es">Lista de Oradores/Oradoras</head>
+        <head xml:lang="en">List of speakers</head>
+        <xsl:copy-of copy-namespaces="no" select="$persons"/>
+      </listPerson>
+    </xsl:result-document>
+    <xsl:element name="xi:include" namespace="http://www.w3.org/2001/XInclude">
+      <xsl:namespace name="xi" select="'http://www.w3.org/2001/XInclude'"/>
+      <xsl:attribute name="href">ParlaMint-ES-listPerson.xml</xsl:attribute>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template match="tei:measure[@unit='words']">
@@ -451,5 +464,19 @@
       <xsl:copy-of copy-namespaces="no" select="$tagUsages"/>
     </xsl:copy>
   </xsl:template>
-    
+
+  <!-- debug template -->
+  <xsl:template name="genPath">
+    <xsl:param name="prevPath"/>
+    <xsl:variable name="currPath" select="concat('/',name(),'[',
+      count(preceding-sibling::*[name() = name(current())])+1,']',$prevPath)"/>
+    <xsl:for-each select="parent::*">
+      <xsl:call-template name="genPath">
+        <xsl:with-param name="prevPath" select="$currPath"/>
+      </xsl:call-template>
+    </xsl:for-each>
+    <xsl:if test="not(parent::*)">
+      <xsl:value-of select="$currPath"/>
+    </xsl:if>
+  </xsl:template>
 </xsl:stylesheet>
