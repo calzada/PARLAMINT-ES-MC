@@ -84,9 +84,10 @@
           <title xml:lang="en" type="sub">
 	    <xsl:value-of select="$title-en"/>
 	  </title>
+          <meeting n="{$session-date}" corresp="#CD" ana="#parla.lower #parla.sitting"><xsl:value-of select="$session-date"/></meeting>
           <meeting n="{$n}" corresp="#CD" ana="#parla.lower #parla.session">
-	    <xsl:apply-templates select="label"/>
-	  </meeting>
+      <xsl:apply-templates select="label"/>
+    </meeting>
           <meeting>
 	    <xsl:attribute name="n">
 	      <xsl:choose>
@@ -284,7 +285,7 @@
     <!-- Give id and covid/reference subcorpus -->
     <!-- @ana should also contain the session / sitting ... number! -->
     <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es"
-	 xml:id="{$id}" ana="{et:subcorpus($session-date)}">
+	 xml:id="{$id}" ana="{concat('#parla.sitting ',et:subcorpus($session-date))}">
       <xsl:apply-templates/>
     </TEI>
   </xsl:template>
@@ -661,10 +662,9 @@
   <!-- IDREF for subcorpus -->
   <xsl:function name="et:subcorpus">
     <xsl:param name="date"/>
-    <xsl:text>#</xsl:text>
     <xsl:choose>
-      <xsl:when test="$date &lt; $COVID-date">reference</xsl:when>
-      <xsl:otherwise>covid</xsl:otherwise>
+      <xsl:when test="$date &lt; $COVID-date">#reference</xsl:when>
+      <xsl:otherwise>#covid</xsl:otherwise>
     </xsl:choose>
   </xsl:function>
 
