@@ -156,7 +156,7 @@
 	<xsl:if test="$list-MP/tei:item">
 	  <xsl:variable name="start" select="$list-MP/tei:item[1]"/>
 	  <xsl:variable name="end" select="$list-MP/tei:item[last()]"/>
-          <affiliation ref="#CD" role="MP">
+          <affiliation ref="#CD" role="member">
 	    <xsl:attribute name="from" select="$start"/>
 	    <xsl:attribute name="to" select="$end"/>
 	    <!-- Such could be without dates:
