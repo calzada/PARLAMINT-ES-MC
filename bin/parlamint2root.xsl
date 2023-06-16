@@ -204,7 +204,7 @@
 	</xsl:variable>
 	<xsl:choose>
 	  <!-- Belongs to only one party, get rid of dates -->
-	  <xsl:when test="not($parties/tei:affiliation[2])">
+	  <xsl:when test="$parties/tei:affiliation and not($parties/tei:affiliation[2])">
 	    <affiliation role="member" ref="{$parties/tei:affiliation/@ref}"/>
 	  </xsl:when>
 	  <!-- This needs to be sorted, we have e.g.
