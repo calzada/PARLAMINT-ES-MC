@@ -84,7 +84,7 @@
           <title xml:lang="en" type="sub">
 	    <xsl:value-of select="$title-en"/>
 	  </title>
-          <meeting n="{$n}" corresp="#CD" ana="#parla.session">
+          <meeting n="{$n}" corresp="#CD" ana="#parla.lower #parla.session">
 	    <xsl:apply-templates select="label"/>
 	  </meeting>
           <meeting>
@@ -98,6 +98,11 @@
 		<xsl:when test="legislature = 'XIII'">13</xsl:when>
 		<xsl:when test="legislature = 'XIV'">14</xsl:when>
 		<xsl:when test="legislature = 'XV'">15</xsl:when>
+    <xsl:when test="legislature = 'XVI'">16</xsl:when>
+    <xsl:when test="legislature = 'XVII'">17</xsl:when>
+    <xsl:when test="legislature = 'XVIII'">18</xsl:when>
+    <xsl:when test="legislature = 'XIX'">19</xsl:when>
+    <xsl:when test="legislature = 'XX'">20</xsl:when>
 		<xsl:otherwise>
 		  <xsl:message select="concat('ERROR: wrong legislature ', legislature)"/>
 		</xsl:otherwise>
@@ -105,7 +110,7 @@
 	    </xsl:attribute>
 	    <xsl:attribute name="corresp">#CD</xsl:attribute>
 	    <xsl:attribute name="ana">
-	      <xsl:text>#parla.term </xsl:text>
+	      <xsl:text>#parla.lower #parla.term </xsl:text>
 	      <xsl:choose>
 		<xsl:when test="legislature = 'VIII'">#CD.8</xsl:when>
 		<xsl:when test="legislature = 'IX'">#CD.9</xsl:when>
@@ -114,7 +119,12 @@
 		<xsl:when test="legislature = 'XII'">#CD.12</xsl:when>
 		<xsl:when test="legislature = 'XIII'">#CD.13</xsl:when>
 		<xsl:when test="legislature = 'XIV'">#CD.14</xsl:when>
-		<xsl:when test="legislature = 'XV'">#CD.15</xsl:when>
+    <xsl:when test="legislature = 'XV'">#CD.15</xsl:when>
+    <xsl:when test="legislature = 'XVI'">#CD.16</xsl:when>
+    <xsl:when test="legislature = 'XVII'">#CD.17</xsl:when>
+    <xsl:when test="legislature = 'XVIII'">#CD.18</xsl:when>
+    <xsl:when test="legislature = 'XIX'">#CD.19</xsl:when>
+    <xsl:when test="legislature = 'XX'">#CD.20</xsl:when>
 		<xsl:otherwise>
 		  <xsl:message select="concat('ERROR: wrong legislature ', legislature)"/>
 		</xsl:otherwise>
