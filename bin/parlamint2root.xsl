@@ -72,6 +72,27 @@
     </date>
   </xsl:variable>
 
+  <!-- Get terms from component files -->
+  <xsl:variable name="meeting-terms">
+    <xsl:variable name="mt-all">
+      <xsl:for-each select="$docs/tei:item/tei:url-orig/document(.)/tei:TEI/tei:teiHeader//
+                            tei:meeting[contains(@ana,'#parla.term')]">
+        <xsl:sort select="./@n"/>
+        <item n="{@n}">
+          <xsl:copy-of select="."/>
+        </item>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:variable name="ns" select="distinct-values($mt-all/tei:item/tei:meeting/@n)"/>
+    <xsl:variable name="mt-uniq">
+      <xsl:for-each select="$ns">
+        <xsl:variable name="n" select="."/>
+        <xsl:copy-of select="$mt-all/*[@n = $n][1]"/>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:copy-of select="$mt-uniq//tei:meeting"/>
+  </xsl:variable>
+
   <!-- Get number of speeches in component files -->
   <xsl:variable name="speech_n">
     <xsl:variable name="ns">
@@ -524,7 +545,15 @@
   <xsl:template match="tei:PLACEHOLDER[@name='yeartimespan']">
     <xsl:value-of select="concat(replace($timespan//@from,'-.*',''),'-',replace($timespan//@to,'-.*',''))"/>
   </xsl:template>
-
+  <xsl:template match="tei:PLACEHOLDER[@name='meetingterms']">
+    <xsl:copy-of select="$meeting-terms"/>
+  </xsl:template>
+  <xsl:template match="tei:PLACEHOLDER[@name='termsspanA']">
+    <xsl:value-of select="concat($meeting-terms/*[1]/@n,'-',$meeting-terms/*[last()]/@n)"/>
+  </xsl:template>
+  <xsl:template match="tei:PLACEHOLDER[@name='termsspanR']">
+    <xsl:value-of select="concat(replace($meeting-terms/*[1]/text(),'.* ',''),'-',replace($meeting-terms/*[last()]/text(),'.* ',''))"/>
+  </xsl:template>
 
   <!-- debug template -->
   <xsl:template name="genPath">

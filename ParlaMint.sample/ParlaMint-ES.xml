@@ -5,13 +5,12 @@
          <titleStmt>
             <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES [ParlaMint]</title>
             <title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES [ParlaMint]</title>
-            <title type="sub" xml:lang="es">Actas del Congreso de los Diputados de España, legislaturas XI-XII (2015 - 2023)</title>
-            <title type="sub" xml:lang="en">Minutes from the National Congress in Spain, terms 10-14 (2015 - 2023)</title>
-            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Term 10</meeting>
-            <meeting n="11" corresp="#CD" ana="#parla.term #CD.11">Term 11</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Term 12</meeting>
-            <meeting n="13" corresp="#CD" ana="#parla.term #CD.13">Term 13</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Term 14</meeting>
+            <title type="sub" xml:lang="es">Actas del Congreso de los Diputados de España, legislaturas X-XIV (2015-2023)</title>
+            <title type="sub" xml:lang="en">Minutes from the National Congress in Spain, terms 10-14 (2015-2023)</title>
+            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
+            <meeting n="11" corresp="#CD" ana="#parla.lower #parla.term #CD.11">Legislatura XI</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0003-0830-4837">María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
