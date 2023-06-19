@@ -16,28 +16,28 @@ foreach $file (@INFILES) {
     binmode(TBL,'utf8');
     undef %c;
     while (<TBL>) {
-	if ($XML) {
-	    s|<[^>]+>||gso;
-	    s|&lt;|<|g;
-	    s|&gt;|>|g;
-	    s|&apos;|'|g;
-	    s|&quot;|"|g;
-	    s|&amp;|&|g;
-	}
-	for $c (split(//)) {
-	    #$code = sprintf("%04X", ord($c));
-	    if    (ord($c) < 33) {$c="&#".ord($c).';'}
-	    elsif ($c eq "&")  {$c = '&#38;'}
-	    elsif ($c eq ":")  {$c = '&#58;'}
-	    $c{$c}++;
-	}
+        if ($XML) {
+            s|<[^>]+>||gso;
+            s|&lt;|<|g;
+            s|&gt;|>|g;
+            s|&apos;|'|g;
+            s|&quot;|"|g;
+            s|&amp;|&|g;
+        }
+        for $c (split(//)) {
+            #$code = sprintf("%04X", ord($c));
+            if    (ord($c) < 33) {$c="&#".ord($c).';'}
+            elsif ($c eq "&")  {$c = '&#38;'}
+            elsif ($c eq ":")  {$c = '&#58;'}
+            $c{$c}++;
+        }
     }
     close TBL;
     $n=0;
     @chars=();
     for $c (sort keys %c) {
-	push(@chars,"$c:$c{$c}");
-	$n+=$c{$c};
+        push(@chars,"$c:$c{$c}");
+        $n+=$c{$c};
     }
     print "$fName\t$n\t".join(" ",@chars)."\n";
 }

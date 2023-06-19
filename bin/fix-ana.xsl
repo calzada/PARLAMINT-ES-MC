@@ -37,7 +37,7 @@
        <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
   -->
   <xsl:template match="tei:TEI/tei:teiHeader//tei:meeting[@ana='#parla.session']
-		       [contains(@corresp, '#CD #CD')]">
+                       [contains(@corresp, '#CD #CD')]">
     <xsl:copy>
       <xsl:attribute name="n" select="@n"/>
       <xsl:attribute name="corresp">#CD</xsl:attribute>
@@ -47,25 +47,25 @@
     <xsl:variable name="term-roman" select="replace(., '.+ \((.+?)\)$', '$1')"/>
     <xsl:variable name="term-arab">
       <xsl:choose>
-	<xsl:when test="$term-roman = 'VIII'">8</xsl:when>
-	<xsl:when test="$term-roman = 'IX'">9</xsl:when>
-	<xsl:when test="$term-roman = 'X'">10</xsl:when>
-	<xsl:when test="$term-roman = 'XI'">11</xsl:when>
-	<xsl:when test="$term-roman = 'XII'">12</xsl:when>
-	<xsl:when test="$term-roman = 'XIII'">13</xsl:when>
-	<xsl:when test="$term-roman = 'XIV'">14</xsl:when>
-	<xsl:when test="$term-roman = 'XV'">15</xsl:when>
-	<xsl:otherwise>
-	  <xsl:message terminate="yes" select="concat('ERROR: wrong legislature ', legislature)"/>
-	</xsl:otherwise>
+        <xsl:when test="$term-roman = 'VIII'">8</xsl:when>
+        <xsl:when test="$term-roman = 'IX'">9</xsl:when>
+        <xsl:when test="$term-roman = 'X'">10</xsl:when>
+        <xsl:when test="$term-roman = 'XI'">11</xsl:when>
+        <xsl:when test="$term-roman = 'XII'">12</xsl:when>
+        <xsl:when test="$term-roman = 'XIII'">13</xsl:when>
+        <xsl:when test="$term-roman = 'XIV'">14</xsl:when>
+        <xsl:when test="$term-roman = 'XV'">15</xsl:when>
+        <xsl:otherwise>
+          <xsl:message terminate="yes" select="concat('ERROR: wrong legislature ', legislature)"/>
+        </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
     <xsl:copy>
       <xsl:attribute name="n" select="$term-arab"/>
       <xsl:attribute name="corresp">#CD</xsl:attribute>
       <xsl:attribute name="ana">
-	<xsl:text>#parla.term #CD.</xsl:text>
-	<xsl:value-of select="$term-arab"/>
+        <xsl:text>#parla.term #CD.</xsl:text>
+        <xsl:value-of select="$term-arab"/>
       </xsl:attribute>
       <xsl:text>Legislatura </xsl:text>
       <xsl:value-of select="$term-roman"/>
@@ -82,10 +82,10 @@
   <xsl:template match="tei:extent/tei:measure">
     <xsl:variable name="lang">
       <xsl:choose>
-	<xsl:when test="contains(., 'speeches')">en</xsl:when>
-	<xsl:when test="contains(., 'words')">en</xsl:when>
-	<xsl:when test="contains(., 'intervenciones')">es</xsl:when>
-	<xsl:when test="contains(., 'palabras')">es</xsl:when>
+        <xsl:when test="contains(., 'speeches')">en</xsl:when>
+        <xsl:when test="contains(., 'words')">en</xsl:when>
+        <xsl:when test="contains(., 'intervenciones')">es</xsl:when>
+        <xsl:when test="contains(., 'palabras')">es</xsl:when>
       </xsl:choose>
     </xsl:variable>
     <xsl:copy>
@@ -116,9 +116,9 @@
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates/>
       <xsl:if test="not(tei:revisionDesc)">
-	<revisionDesc>
-	  <xsl:copy-of select="$change"/>
-	</revisionDesc>
+        <revisionDesc>
+          <xsl:copy-of select="$change"/>
+        </revisionDesc>
       </xsl:if>
     </xsl:copy>
   </xsl:template>
@@ -163,9 +163,9 @@
     <xsl:param name="feats"/>
     <xsl:variable name="sorted">
       <xsl:for-each select="tokenize($feats, '\|')">
-	<xsl:sort select="lower-case(.)" order="ascending"/>
-	<xsl:value-of select="."/>
-	<xsl:text>|</xsl:text>
+        <xsl:sort select="lower-case(.)" order="ascending"/>
+        <xsl:value-of select="."/>
+        <xsl:text>|</xsl:text>
       </xsl:for-each>
     </xsl:variable>
     <xsl:value-of select="replace($sorted, '\|$', '')"/>
@@ -201,9 +201,9 @@
     <xsl:variable name="self" select="name()"/>
     <xsl:if test="not(following::*[name()=$self] or descendant::*[name()=$self] )">
       <tagUsage xmlns="http://www.tei-c.org/ns/1.0" gi="{$self}">
-	<xsl:attribute name="occurs">
-	  <xsl:number level="any" from="tei:text"/>
-	</xsl:attribute>
+        <xsl:attribute name="occurs">
+          <xsl:number level="any" from="tei:text"/>
+        </xsl:attribute>
       </tagUsage>
     </xsl:if>
   </xsl:template>
