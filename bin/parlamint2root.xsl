@@ -33,12 +33,12 @@
       <xsl:variable name="xi-new" select="concat(document($url-orig)/tei:TEI/@xml:id, '.xml')"/>
       <xsl:variable name="url-new" select="concat($outDir, '/', $xi-new)"/>
       <item>
-  <n>
-    <xsl:value-of select="$n"/>
-  </n>
-  <xi-orig>
-    <xsl:value-of select="$xi-orig"/>
-  </xi-orig>
+        <n>
+          <xsl:value-of select="$n"/>
+        </n>
+        <xi-orig>
+          <xsl:value-of select="$xi-orig"/>
+        </xi-orig>
         <url-orig>
           <xsl:value-of select="$url-orig"/>
         </url-orig>
@@ -49,9 +49,29 @@
           <xsl:value-of select="$url-new"/>
         </url-new>
       </item>
-      </xsl:for-each>
+    </xsl:for-each>
   </xsl:variable>
   
+
+  <!-- Get corpus timespan from component files -->
+  <xsl:variable name="timespan">
+    <xsl:variable name="dt">
+      <xsl:for-each select="$docs/tei:item/tei:url-orig/document(.)/tei:TEI/tei:teiHeader//
+                            tei:setting/tei:date[@when]">
+        <item>
+          <xsl:value-of select="@when"/>
+        </item>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:variable name="from" select="replace(min($dt/tei:item/translate(.,'-','')),'(....)(..)(..)','$1-$2-$3')"/>
+    <xsl:variable name="to" select="replace(max($dt/tei:item/translate(.,'-','')),'(....)(..)(..)','$1-$2-$3')"/>
+    <date>
+      <xsl:attribute name="from" select="$from"/>
+      <xsl:attribute name="to" select="$to"/>
+      <xsl:value-of select="concat($from, ' - ', $to)"/>
+    </date>
+  </xsl:variable>
+
   <!-- Get number of speeches in component files -->
   <xsl:variable name="speech_n">
     <xsl:variable name="ns">
@@ -497,6 +517,14 @@
       <xsl:copy-of copy-namespaces="no" select="$tagUsages"/>
     </xsl:copy>
   </xsl:template>
+
+  <xsl:template match="tei:bibl/tei:date | tei:setting/tei:date">
+    <xsl:copy-of select="$timespan"/>
+  </xsl:template>
+  <xsl:template match="tei:PLACEHOLDER[@name='yeartimespan']">
+    <xsl:value-of select="concat(replace($timespan//@from,'-.*',''),'-',replace($timespan//@to,'-.*',''))"/>
+  </xsl:template>
+
 
   <!-- debug template -->
   <xsl:template name="genPath">

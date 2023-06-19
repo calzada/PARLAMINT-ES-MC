@@ -5,8 +5,8 @@
       <titleStmt>
         <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES [ParlaMint]</title>
         <title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES [ParlaMint]</title>
-        <title type="sub" xml:lang="es">Actas del Congreso de los Diputados de España, legislaturas XI-XII (2015 - 2020)</title>
-        <title type="sub" xml:lang="en">Minutes from the National Congress in Spain, terms 10-14 (2015 - 2020)</title>
+        <title type="sub" xml:lang="es">Actas del Congreso de los Diputados de España, legislaturas XI-XII (<PLACEHOLDER name="yeartimespan"/>)</title>
+        <title type="sub" xml:lang="en">Minutes from the National Congress in Spain, terms 10-14 (<PLACEHOLDER name="yeartimespan"/>)</title>
         <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Term 10</meeting>
         <meeting n="11" corresp="#CD" ana="#parla.term #CD.11">Term 11</meeting>
         <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Term 12</meeting>
@@ -39,8 +39,8 @@
         <!--measure unit="sessions" quantity="0" xml:lang="en">0 sessions</measure-->
         <measure unit="speeches" quantity="0" xml:lang="es">0 intervenciones</measure>
         <measure unit="speeches" quantity="0" xml:lang="en">0 speeches</measure>
-        <measure quantity="13039185" unit="words" xml:lang="es">13.039.185 palabras</measure>
-        <measure quantity="13039185" unit="words" xml:lang="en">13,039,185 words</measure>
+        <measure quantity="0" unit="words" xml:lang="es">0 palabras</measure>
+        <measure quantity="0" unit="words" xml:lang="en">0 words</measure>
       </extent>
       <publicationStmt>
         <publisher>
@@ -61,7 +61,7 @@
           <title xml:lang="es" type="main">Cortes generales diario de sesiones del congreso de los diputados pleno y diputación permanente</title>
           <title type="main" xml:lang="en">National assembly of Spain daily sessions</title>
           <idno type="URI">http://www.congreso.es</idno>
-          <date from="2015-01-20" to="2020-12-15">20.1.2015 - 15.12.2020</date>
+          <date/>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -104,7 +104,7 @@
           <name type="address">Calle Floridablanca, s/n. 28071</name>
           <name type="city">Madrid</name>
           <name type="country" key="ES">Spain</name>
-          <date from="2015-01-20" to="2020-12-15">20.1.2015 - 15.12.2020</date>
+          <date/>
         </setting>
       </settingDesc>
       <particDesc>
