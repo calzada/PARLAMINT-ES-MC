@@ -166,6 +166,7 @@
   -->
   <xsl:variable name="orgs">
     <xsl:copy-of select="document($listOrgTemplate)//tei:org"/>
+    <xsl:copy-of select="document($listOrgTemplate)//tei:listRelation"/>
   </xsl:variable>
 
   <xsl:variable name="persons">
