@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2016-04-27-CD160427"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,8 +10,9 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 12 (2016-04-27) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 12 (2016-04-27)</title>
             <title xml:lang="en" type="sub">Plenary session 12 (2016-04-27)</title>
-            <meeting n="12" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 12</meeting>
-            <meeting n="11" corresp="#CD" ana="#parla.term #CD.11">Legislatura XI</meeting>
+            <meeting n="2016-04-27" corresp="#CD" ana="#parla.lower #parla.sitting">2016-04-27</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 12</meeting>
+            <meeting n="11" corresp="#CD" ana="#parla.lower #parla.term #CD.11">Legislatura XI</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
@@ -51,7 +52,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-06-21">June 21, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
