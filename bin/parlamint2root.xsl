@@ -226,7 +226,7 @@
       <xsl:variable name="party-affiliations">
         <xsl:variable name="parties">
           <xsl:variable name="list-parties">
-            <xsl:for-each select="tei:person/tei:affiliation[@role='member']">
+            <xsl:for-each select="tei:person/tei:affiliation[@role='member' and $orgs//tei:org[@role='politicalParty']/@xml:id/concat('#',.) = @ref]">
               <xsl:sort select="@ref"/>
               <xsl:sort select="@when"/>
               <xsl:copy-of select="."/>
@@ -268,6 +268,12 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:variable>
+      <xsl:variable name="other-affiliations">
+        <xsl:for-each select="tei:person/tei:affiliation[$orgs//tei:org[not(@role='politicalParty') and not(@role='parliament') ]/@xml:id/concat('#',.) = @ref]">
+          <xsl:sort select="concat(./@when,./@role)"/>
+          <xsl:copy-of select="."/>
+        </xsl:for-each>
+      </xsl:variable>
       <!-- Output person -->
       <xsl:for-each select="tei:person[1]">
         <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="{@xml:id}">
@@ -276,6 +282,8 @@
           <xsl:copy-of select="tei:birth"/>
           <xsl:copy-of select="$MP-affiliation"/>
           <xsl:copy-of select="$party-affiliations"/>
+          <!-- copy the rest of affiliations (temporary) -->
+          <xsl:copy-of select="$other-affiliations"/>
         </person>
       </xsl:for-each>
     </xsl:for-each>
