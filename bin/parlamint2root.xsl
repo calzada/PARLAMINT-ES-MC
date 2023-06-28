@@ -165,7 +165,7 @@
        and compare the affiliation dates with that!
   -->
   <xsl:variable name="orgs">
-    <xsl:copy-of select="document($listOrgTemplate)//tei:org"/>
+    <xsl:apply-templates select="document($listOrgTemplate)//tei:org" mode="orgs"/>
     <xsl:copy-of select="document($listOrgTemplate)//tei:listRelation"/>
   </xsl:variable>
 
@@ -223,37 +223,37 @@
       </xsl:variable>
       
       <!-- All party affiliations with corpus-gathered from-to dates -->
-      <xsl:variable name="party-affiliations">
-        <xsl:variable name="parties">
-          <xsl:variable name="list-parties">
-            <xsl:for-each select="tei:person/tei:affiliation[@role='member' and $orgs//tei:org[@role='politicalParty']/@xml:id/concat('#',.) = @ref]">
+      <xsl:variable name="group-affiliations">
+        <xsl:variable name="groups">
+          <xsl:variable name="list-groups">
+            <xsl:for-each select="tei:person/tei:affiliation[@role='member' and $orgs//tei:org[@role='parliamentaryGroup']/@xml:id/concat('#',.) = @ref]">
               <xsl:sort select="@ref"/>
               <xsl:sort select="@when"/>
               <xsl:copy-of select="."/>
             </xsl:for-each>
           </xsl:variable>
-          <xsl:for-each select="$list-parties/tei:affiliation">
-            <xsl:variable name="party" select="@ref"/>
-            <xsl:if test="not(preceding-sibling::tei:affiliation[@ref = $party])">
+          <xsl:for-each select="$list-groups/tei:affiliation">
+            <xsl:variable name="group" select="@ref"/>
+            <xsl:if test="not(preceding-sibling::tei:affiliation[@ref = $group])">
               <xsl:variable name="dates">
                 <item xmlns="http://www.tei-c.org/ns/1.0">
                   <xsl:value-of select="@when"/>
                 </item>
-                <xsl:for-each select="following-sibling::tei:affiliation[@ref = $party]">
+                <xsl:for-each select="following-sibling::tei:affiliation[@ref = $group]">
                   <item xmlns="http://www.tei-c.org/ns/1.0">
                     <xsl:value-of select="@when"/>
                   </item>
                 </xsl:for-each>
               </xsl:variable>
-              <affiliation role="member" ref="{$party}"
+              <affiliation role="member" ref="{$group}"
                            from="{$dates/tei:item[1]}" to="{$dates/tei:item[last()]}"/>
             </xsl:if>
           </xsl:for-each>
         </xsl:variable>
         <xsl:choose>
           <!-- Belongs to only one party, get rid of dates -->
-          <xsl:when test="$parties/tei:affiliation and not($parties/tei:affiliation[2])">
-            <affiliation role="member" ref="{$parties/tei:affiliation/@ref}"/>
+          <xsl:when test="$groups/tei:affiliation and not($groups/tei:affiliation[2])">
+            <affiliation role="member" ref="{$groups/tei:affiliation/@ref}"/>
           </xsl:when>
           <!-- This needs to be sorted, we have e.g.
                <affiliation role="member" ref="#party.PP" from="2016-12-14" to="2020-12-02"/>
@@ -264,12 +264,12 @@
           we can also have 3:
           -->
           <xsl:otherwise>
-            <xsl:copy-of select="$parties/tei:affiliation"/>
+            <xsl:copy-of select="$groups/tei:affiliation"/>
           </xsl:otherwise>
         </xsl:choose>
       </xsl:variable>
       <xsl:variable name="other-affiliations">
-        <xsl:for-each select="tei:person/tei:affiliation[$orgs//tei:org[not(@role='politicalParty') and not(@role='parliament') ]/@xml:id/concat('#',.) = @ref]">
+        <xsl:for-each select="tei:person/tei:affiliation[$orgs//tei:org[not(@role='parliamentaryGroup') and not(@role='parliament') ]/@xml:id/concat('#',.) = @ref]">
           <xsl:sort select="concat(./@when,./@role)"/>
           <xsl:copy-of select="."/>
         </xsl:for-each>
@@ -281,7 +281,7 @@
           <xsl:copy-of select="tei:sex"/>
           <xsl:copy-of select="tei:birth"/>
           <xsl:copy-of select="$MP-affiliation"/>
-          <xsl:copy-of select="$party-affiliations"/>
+          <xsl:copy-of select="$group-affiliations"/>
           <!-- copy the rest of affiliations (temporary) -->
           <xsl:copy-of select="$other-affiliations"/>
         </person>
@@ -577,5 +577,21 @@
     <xsl:if test="not(parent::*)">
       <xsl:value-of select="$currPath"/>
     </xsl:if>
+  </xsl:template>
+
+
+  <!-- org mode -->
+  <xsl:template match="*" mode="orgs">
+    <xsl:copy>
+      <xsl:apply-templates select="@*" mode="orgs"/>
+      <xsl:apply-templates  mode="orgs"/>
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template match="@*[not(name()='role' and .='politicalParty')]" mode="orgs">
+    <xsl:copy/>
+  </xsl:template>
+  <xsl:template match="@role[.='politicalParty']" mode="orgs">
+    <xsl:message>INFO: <xsl:value-of select="../@xml:id"/> - changing politicalParty role to parliamentaryGroup</xsl:message>
+    <xsl:attribute name="role">parliamentaryGroup</xsl:attribute>
   </xsl:template>
 </xsl:stylesheet>
