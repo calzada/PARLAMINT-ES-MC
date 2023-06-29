@@ -81,6 +81,20 @@ create-sample: CD.sample
 	make xis DIRSUFFIX=".sample"
 	make cnv2 DIRSUFFIX=".sample"
 
+
+download: data-wiki
+
+data-wiki:
+	mkdir data-wiki || :
+	wget https://en.wikipedia.org/wiki/Second_government_of_Pedro_S%C3%A1nchez -O data-wiki/gov-2020-01-13.htm
+	wget https://en.wikipedia.org/wiki/First_government_of_Pedro_S%C3%A1nchez -O data-wiki/gov-2018-06-07.htm
+	wget https://en.wikipedia.org/wiki/Second_government_of_Mariano_Rajoy -O data-wiki/gov-2016-11-04.htm
+	wget https://en.wikipedia.org/wiki/First_government_of_Mariano_Rajoy -O data-wiki/gov-2011-12-21.htm
+
+data-gov-wiki2tei:
+	perl bin/gov-wiki2tei.pl data-wiki/gov-listPerson.xml data-wiki/gov-????-??-??.htm
+
+
 s = java -jar /usr/share/java/saxon.jar
 j = java -jar /usr/share/java/jing.jar
 P = parallel --gnu --halt 2
