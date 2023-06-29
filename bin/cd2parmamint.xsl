@@ -573,12 +573,14 @@
         <xsl:if test="et:set($party)">
           <affiliation role="member" ref="#party.{et:str2id($party)}" when="{$session-date}"/>
         </xsl:if>
+        <!--
         <xsl:if test="./post[starts-with(text(),'MINISTR')]">
           <affiliation role="member" ref="#GOV" when="{$session-date}"/>
           <affiliation role="minister" ref="#GOV" when="{$session-date}">
             <roleName><xsl:value-of select="normalize-space(./post)"/></roleName>
           </affiliation>
         </xsl:if>
+      -->
       </person>
     </xsl:if>
   </xsl:template>
