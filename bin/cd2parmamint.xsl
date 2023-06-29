@@ -781,12 +781,22 @@
     </xsl:choose>
   </xsl:function>
 
-  <!-- Capital case, e.g. "Jose" -->
+  <!-- Capital case, e.g. "Jose" or Grande-Marlaska-->
   <xsl:function name="et:cap-case">
     <xsl:param name="str"/>
     <xsl:variable name="init" select="substring($str, 1, 1)"/>
     <xsl:variable name="tail" select="substring($str, 2)"/>
-    <xsl:value-of select="concat(upper-case($init), lower-case($tail))"/>
+    <xsl:choose>
+      <xsl:when test="contains($tail,'-')">
+        <xsl:value-of select="concat(upper-case($init),
+                                     lower-case(substring-before($tail,'-')),
+                                     '-',
+                                     et:cap-case(substring-after($tail,'-')))"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="concat(upper-case($init), lower-case($tail))"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:function>
   
 </xsl:stylesheet>
