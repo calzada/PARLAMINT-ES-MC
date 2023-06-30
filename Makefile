@@ -50,6 +50,7 @@ cnv2:
 	govListPerson="../data-wiki/gov-listPerson.xml" \
 	taxonomyDir="../templates" \
 	-xsl:bin/parlamint2root.xsl templates/ParlaMint-template-ES.xml
+	make fix-affiliations DIRSUFFIX="$(DIRSUFFIX)"
 
 #First conversion: from CD format to TEI-ish corpus components
 cnv1: tmp$(DIRSUFFIX)
@@ -95,6 +96,16 @@ data-wiki:
 data-gov-wiki2tei:
 	perl bin/gov-wiki2tei.pl data-wiki/gov-listPerson.xml data-wiki/gov-????-??-??.htm
 
+fix-affiliations: bin/affiliations-remove-overlaps.xsl bin/ParlaMint-UA-lib.xsl
+	mv ParlaMint$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml ParlaMint$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml.bak
+	$s -xsl:bin/affiliations-remove-overlaps.xsl \
+	  ParlaMint$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml.bak \
+	  > ParlaMint$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml
+
+bin/affiliations-remove-overlaps.xsl:
+	svn export https://github.com/ufal/ParlaMint-UA/trunk/Scripts/affiliations-remove-overlaps.xsl bin/affiliations-remove-overlaps.xsl
+bin/ParlaMint-UA-lib.xsl:
+	svn export https://github.com/ufal/ParlaMint-UA/trunk/Scripts/ParlaMint-UA-lib.xsl bin/ParlaMint-UA-lib.xsl
 
 s = java -jar /usr/share/java/saxon.jar
 j = java -jar /usr/share/java/jing.jar
