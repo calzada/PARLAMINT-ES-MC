@@ -532,18 +532,21 @@
           </xsl:otherwise>
         </xsl:choose>
         <xsl:if test="et:set(birth_date)">
-          <birth>
-            <xsl:if test="et:set(birth_date)">
-              <xsl:attribute name="when" select="et:digits2date(birth_date)"/>
-            </xsl:if>
-            <xsl:if test="et:set(birth_place)">
-              <placeName>
-                <xsl:value-of select="replace(
-                                      normalize-space(birth_place),
-                                      '([^ ])\(', '$1 (')"/>
-              </placeName>
-            </xsl:if>
-          </birth>
+          <xsl:variable name="birthDate" select="et:digits2date(birth_date)"/>
+          <xsl:if test="$birthDate">
+            <birth>
+              <xsl:if test="et:set(birth_date)">
+                <xsl:attribute name="when" select="$birthDate"/>
+              </xsl:if>
+              <xsl:if test="et:set(birth_place)">
+                <placeName>
+                  <xsl:value-of select="replace(
+                                        normalize-space(birth_place),
+                                        '([^ ])\(', '$1 (')"/>
+                </placeName>
+              </xsl:if>
+            </birth>
+          </xsl:if>
         </xsl:if>
         <xsl:choose>
           <xsl:when test="institution/ni[@country='ES'] = 'CD'">
