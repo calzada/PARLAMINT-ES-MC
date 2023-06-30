@@ -109,7 +109,9 @@ sub parseName {
   my @tokens = split(/ /,$text);
   my @forename = @tokens[0..$#tokens-1];
   my $surname = $tokens[-1];
-  return ("$surname$forename[0]",
+  my $id = "$surname$forename[0]";
+  $id =~ s/[-:\s]//g;
+  return ($id,
           (map {['forename',$_]} @forename),
           ['surname',$surname]);
 }
