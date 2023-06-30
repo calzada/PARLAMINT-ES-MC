@@ -590,7 +590,7 @@
   <!-- Convert name string to structured persName, meant for Spanish names -->
   <xsl:function name="et:speaker2name">
     <xsl:param name="nameIn"/>
-    <xsl:variable name="name" select="normalize-space($nameIn)"/>
+    <xsl:variable name="name" select="normalize-space(replace($nameIn,',',', '))"/>
     <persName xmlns="http://www.tei-c.org/ns/1.0">
       <xsl:variable name="forenames">
         <xsl:choose>
