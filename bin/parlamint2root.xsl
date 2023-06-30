@@ -18,6 +18,7 @@
   <xsl:param name="inDir">..</xsl:param>
   <xsl:param name="componentFiles"/>
   <xsl:param name="listOrgTemplate"/>
+  <xsl:param name="govListPerson"/>
   <xsl:param name="taxonomyDir"/>
 
   <!-- From - to of the complete corpus -->
@@ -169,6 +170,10 @@
     <xsl:copy-of select="document($listOrgTemplate)//tei:listRelation"/>
   </xsl:variable>
 
+  <xsl:variable name="govPersons">
+    <xsl:copy-of select="document($govListPerson)//tei:person"/>
+  </xsl:variable>
+
   <xsl:variable name="persons">
     <!-- Put the same person records in one listPerson -->
     <xsl:variable name="pass2">
@@ -181,9 +186,11 @@
           </xsl:for-each>
         </xsl:for-each>
       </xsl:variable>
-      <xsl:for-each-group select="$pass1/tei:person" group-by="@xml:id">
+      <xsl:for-each-group select="$pass1/tei:person | $govPersons//tei:person" group-by="@xml:id">
+        <xsl:variable name="id" select="current-group()[1]/@xml:id"/>
         <listPerson xmlns="http://www.tei-c.org/ns/1.0" xml:id="{current-group()[1]/@xml:id}">
           <xsl:copy-of select="current-group()"/>
+          <!-- <xsl:copy-of select="$govPersons//tei:person[@xml:id = $id]"/> -->
         </listPerson>
       </xsl:for-each-group>
     </xsl:variable>
@@ -192,6 +199,7 @@
          - output the person
     -->
     <xsl:for-each select="$pass2/tei:listPerson">
+      <xsl:sort select="@xml:id"/>
       <xsl:variable name="MP-affiliation">
         <xsl:variable name="list-MP">
           <xsl:for-each select="tei:person/tei:affiliation[@role='MP']">
@@ -270,7 +278,7 @@
       </xsl:variable>
       <xsl:variable name="other-affiliations">
         <xsl:for-each select="tei:person/tei:affiliation[$orgs//tei:org[not(@role='parliamentaryGroup') and not(@role='parliament') ]/@xml:id/concat('#',.) = @ref]">
-          <xsl:sort select="concat(./@when,./@role)"/>
+          <xsl:sort select="concat(./@from,./@role)"/>
           <xsl:copy-of select="."/>
         </xsl:for-each>
       </xsl:variable>
@@ -282,7 +290,6 @@
           <xsl:copy-of select="tei:birth"/>
           <xsl:copy-of select="$MP-affiliation"/>
           <xsl:copy-of select="$group-affiliations"/>
-          <!-- copy the rest of affiliations (temporary) -->
           <xsl:copy-of select="$other-affiliations"/>
         </person>
       </xsl:for-each>

@@ -47,6 +47,7 @@ while( my $file = shift @ARGV ) {
       $personDB{$personId} = XML::LibXML::Element->new('person');
       $root_node->appendChild($personDB{$personId});
       $personDB{$personId}->setAttributeNS('http://www.w3.org/XML/1998/namespace','id',$personId);
+      $personDB{$personId}->setAttribute('role','govMember');
       my $persName = $personDB{$personId}->addNewChild(undef,'persName');
       for my $n (@name){
         $persName->appendTextChild(@$n);
