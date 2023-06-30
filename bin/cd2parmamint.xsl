@@ -531,7 +531,7 @@
             <sex value="U"/>
           </xsl:otherwise>
         </xsl:choose>
-        <xsl:if test="et:set(birth_place) or et:set(birth_date)">
+        <xsl:if test="et:set(birth_date)">
           <birth>
             <xsl:if test="et:set(birth_date)">
               <xsl:attribute name="when" select="et:digits2date(birth_date)"/>
@@ -681,7 +681,7 @@
   <xsl:function name="et:set" as="xs:boolean">
     <xsl:param name="str"/>
     <xsl:choose>
-      <xsl:when test="$str = '' or $str = 'UNKNOWN' 
+      <xsl:when test="not($str) or $str = '' or $str = 'UNKNOWN'
                       or $str = 'NA' or $str = 'NA+'
                       or matches($str, '^0+$')">
         <xsl:value-of select="false()"/>
@@ -770,16 +770,20 @@
             <xsl:when test="contains($digits, 'de noviembre')">11</xsl:when>
             <xsl:when test="contains($digits, 'de diciembre')">12</xsl:when>
             <xsl:otherwise>
-              <xsl:text>ERROR: Can't make date from </xsl:text>
-              <xsl:value-of select="$digits"/>
+              <xsl:message>
+                <xsl:text>ERROR: Can't make date from </xsl:text>
+                <xsl:value-of select="$digits"/>
+              </xsl:message>
             </xsl:otherwise>
           </xsl:choose>
         </xsl:variable>
         <xsl:value-of select="concat($year, '-', $month,  '-', $day)"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:text>ERROR: Can't make date from </xsl:text>
-        <xsl:value-of select="$digits"/>
+        <xsl:message>
+          <xsl:text>ERROR: Can't make date from </xsl:text>
+          <xsl:value-of select="$digits"/>
+        </xsl:message>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
