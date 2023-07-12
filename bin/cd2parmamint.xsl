@@ -27,6 +27,11 @@
       <resp xml:lang="en">Data retrieval and conversion to XML</resp>
     </respStmt>
     <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+      <persName>Matyáš Kopp</persName>
+      <resp xml:lang="en">Government person metadata retrieval</resp>
+      <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+    </respStmt>
+    <respStmt xmlns="http://www.tei-c.org/ns/1.0">
       <persName>Tomaž Erjavec</persName>
       <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
     </respStmt>

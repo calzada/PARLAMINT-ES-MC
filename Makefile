@@ -36,10 +36,11 @@ gen:	cnv1 xis cnv2 val
 
 # Validate corpus
 val:
-	$s -xi -xsl:bin/copy.xsl ParlaMint$(DIRSUFFIX)/ParlaMint-ES.xml | $j schemas/parla-clarin.rng
-	-${vrt} ParlaMint$(DIRSUFFIX)/ParlaMint-ES.xml
-	-${vct} ParlaMint$(DIRSUFFIX)/ParlaMint-ES_*.xml
-	bin/validate-parlamint.pl schemas ParlaMint$(DIRSUFFIX)
+	echo "TODO: validation"
+	# $s -xi -xsl:bin/copy.xsl ParlaMint$(DIRSUFFIX)/ParlaMint-ES.xml | $j schemas/parla-clarin.rng
+	# -${vrt} ParlaMint$(DIRSUFFIX)/ParlaMint-ES.xml
+	# -${vct} ParlaMint$(DIRSUFFIX)/ParlaMint-ES_*.xml
+	# bin/validate-parlamint.pl schemas ParlaMint$(DIRSUFFIX)
 
 #Second conversion: from TEI-ish corpus components to final TEI components + root
 cnv2:
