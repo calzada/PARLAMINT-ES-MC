@@ -32,7 +32,7 @@ nohup-gen:
 	nohup time make gen > log.txt &
 
 # Process ParlaMint-ES corpus
-gen:	cnv1 cnv2 val
+gen:	cnv1 xis cnv2 val
 
 # Validate corpus
 val:
