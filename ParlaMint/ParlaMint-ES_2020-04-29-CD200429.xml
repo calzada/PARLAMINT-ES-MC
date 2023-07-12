@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-04-29-CD200429"
-     ana="#covid">
+     ana="#parla.sitting #covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 19 (2020-04-29) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 19 (2020-04-29)</title>
             <title xml:lang="en" type="sub">Plenary session 19 (2020-04-29)</title>
-            <meeting n="19" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 19</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Legislatura XIV</meeting>
+            <meeting n="2020-04-29" corresp="#CD" ana="#parla.lower #parla.sitting">2020-04-29</meeting>
+            <meeting n="19" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 19</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -458,7 +464,7 @@
                <seg xml:id="ParlaMint-ES_2020-04-29-CD200429.u69.1">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-04-29-CD200429.u70"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-04-29-CD200429.u70.1">Muchas gracias, señora presidenta. Señor Sánchez, muchas gracias por la pregunta.</seg>
                <seg xml:id="ParlaMint-ES_2020-04-29-CD200429.u70.2">Este Gobierno, ante la mayor crisis sanitaria que está sufriendo este país, ha tenido que acordar el estado de alarma, estado de alarma que ha sido prorrogado en tres ocasiones con el apoyo mayoritario de esta Cámara y siempre bajo los criterios de proporcionalidad, es decir, garantizando la salud pública del conjunto de los ciudadanos, pero también respetando los derechos y libertades fundamentales, también tratando de conseguir la eficacia de esas medidas en la lucha por la salud pública. Y en eso la gran responsabilidad positiva es de la sociedad española, que, con su comportamiento ejemplar, ha conseguido que estemos en una situación en la que ya podamos abordar en las próximas semanas el proceso de desescalada. Y también lo hemos hecho con transparencia, transparencia hacia la sociedad en torno a las medidas adoptadas y siempre con un propósito concreto de consenso, como hemos dicho hoy, de dar la mano y procurar que entre todos podamos reconstruir social y económicamente este país.</seg>
@@ -477,7 +483,7 @@
                <seg xml:id="ParlaMint-ES_2020-04-29-CD200429.u73.2">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-04-29-CD200429.u74"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-04-29-CD200429.u74.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-04-29-CD200429.u74.2">Señor Sánchez, una semana más ustedes vienen a esta Cámara a reflejar en el Diario de Sesiones exageraciones, informaciones incorrectas, cuando no falsas. Mire, abuso es estar dos minutos y medio y no haber hablado de la crisis sanitaria. Abuso es estar dos minutos y medio y hablar de las medidas que ha adoptado este Gobierno, pero para que nadie se quede atrás. Abuso es que usted no haya tenido un recuerdo hacia la sociedad española, que durante siete semanas a día de hoy se está quedando en casa, está cambiando sus hábitos laborales, está cambiando sus hábitos de enseñanza, está cambiando sus hábitos de relación social. Eso es realmente un abuso, un abuso hacia la solidaridad de la sociedad española.</seg>
@@ -502,7 +508,7 @@
                <seg xml:id="ParlaMint-ES_2020-04-29-CD200429.u78.1">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-04-29-CD200429.u79"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-04-29-CD200429.u79.1">Muchas gracias, señora presidenta. Muchas gracias, señor Iñarritu.</seg>
                <seg xml:id="ParlaMint-ES_2020-04-29-CD200429.u79.2">La semana pasada tuvimos ocasión de hablar de esta cuestión en la Comisión de Interior del Congreso y le volveré a repetir sustancialmente lo mismo. Las Fuerzas y Cuerpos de Seguridad del Estado están trabajando de una forma eficaz y efectiva para cooperar con el conjunto de la sociedad, de la que evidentemente forman parte, para garantizar la salud y la seguridad de todos, para garantizar igualmente en términos de legalidad y proporcionalidad que los servicios básicos son prestados, para garantizar la prevención del delito en esta nueva situación que vivimos con sus especificidades y también en el carácter humanitario.</seg>
@@ -525,7 +531,7 @@
                <seg xml:id="ParlaMint-ES_2020-04-29-CD200429.u82.1">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-04-29-CD200429.u83"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-04-29-CD200429.u83.1">Muchas gracias, señora presidenta. Muchas gracias, señor Iñarritu.</seg>
                <seg xml:id="ParlaMint-ES_2020-04-29-CD200429.u83.2">Voy a tratar de ser muy muy conciso. Para ser efectivo en las críticas hay que dar hechos objetivos, no generalidades. Para ser sensible, también hay que ser muy eficaz dando datos. Mire, no vale con generalidades. Las Fuerzas y Cuerpos de Seguridad del Estado están, fundamentalmente, garantizando el ejercicio de los derechos y libertades fundamentales del conjunto de los ciudadanos. Casos excepcionales de disfunciones importantes y graves que puedan acontecer tienen, evidentemente, sus consecuencias jurídicas en el ámbito de la responsabilidad, bien disciplinaria, bien penal o de cualquier otra naturaleza que sea factible, porque seguimos estando en un estado de derecho, y, como le decía al representante de VOX, el estado de alarma no implica ninguna limitación de derechos y libertades de los ciudadanos, sino todo lo contrario. Estamos trabajando para garantizar su salud y que ejerzan los derechos y libertades y, evidentemente, también para protegerles de los bulos y de las desinformaciones en esos términos. Le vuelvo a decir que cualquier actuación impropia tiene unas consecuencias en un estado de derecho como es el nuestro.</seg>

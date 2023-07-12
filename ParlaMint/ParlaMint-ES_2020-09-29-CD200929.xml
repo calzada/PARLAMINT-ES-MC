@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-09-29-CD200929"
-     ana="#covid">
+     ana="#parla.sitting #covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 45 (2020-09-29) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 45 (2020-09-29)</title>
             <title xml:lang="en" type="sub">Plenary session 45 (2020-09-29)</title>
-            <meeting n="45" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 45</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Legislatura XIV</meeting>
+            <meeting n="2020-09-29" corresp="#CD" ana="#parla.lower #parla.sitting">2020-09-29</meeting>
+            <meeting n="45" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 45</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -307,7 +313,7 @@
                <note>Aplausos</note>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-29-CD200929.u34"
-               who="#FernándezlomanaRafael"
+               who="#FernándezLomanaRafael"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-29-CD200929.u34.1">Muchas gracias, señora presidente.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-29-CD200929.u34.2">Señorías, la Ley de Seguridad Ciudadana tiene como objetivo garantizar la seguridad y la libertad de todos los ciudadanos. Partiendo de esta premisa, en el Grupo Parlamentario VOX entendemos que esta ley está garantizando la protección de personas y bienes, a la vez que protege a nuestras Fuerzas y Cuerpos de Seguridad del Estado en el ejercicio de sus funciones ofreciéndoles un marco de actuación de seguridad y certidumbre, y que no limita ni restringe derechos fundamentales. En VOX consideramos que hay que llevar a cabo una modificación de la Ley de Seguridad Ciudadana, pero siempre con el fin de proteger los intereses fundamentales de todos y no solo de unos pocos.<note>Aplausos</note> Aquí hay un equilibrio entre la seguridad y la libertad. La libertad es un principio democrático fundamental, pero sin la seguridad que debe garantizar el Estado a sus ciudadanos no hay libertad. Esta ley que el PNV quiere modificar es la misma que ha servido para garantizar el orden público y el cumplimiento de la prohibición de libertad de movimientos que nos impuso este Gobierno durante setenta y cinco días para contener la pandemia. Se han tramitado durante el estado de alarma más de un millón de propuestas de sanción en aplicación de la Ley de Seguridad Ciudadana, es decir, un 42 % más que en los tres primeros años de la norma. Señorías, ¿ha servido o no ha servido la ley? ¿Corresponde ahora modificar la Ley de Seguridad Ciudadana, cuando en breve posiblemente tengamos que volver a utilizarla?</seg>

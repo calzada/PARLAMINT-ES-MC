@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2019-02-28-CD190228"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 176 (2019-02-28) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 176 (2019-02-28)</title>
             <title xml:lang="en" type="sub">Plenary session 176 (2019-02-28)</title>
-            <meeting n="176" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 176</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2019-02-28" corresp="#CD" ana="#parla.lower #parla.sitting">2019-02-28</meeting>
+            <meeting n="176" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 176</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -974,7 +980,7 @@
                <seg xml:id="ParlaMint-ES_2019-02-28-CD190228.u128.1">Antes de proceder a las votaciones, la secretaria primera va a realizar una declaración institucional. Adelante, señoría.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-02-28-CD190228.u129"
-               who="#SánchezcamachoAlicia"
+               who="#SánchezCamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-02-28-CD190228.u129.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2019-02-28-CD190228.u129.2">Cada 19 de febrero se celebra el día contra la LGTBIfobia en el deporte. Este tributo existe gracias a Justin Fashanu, primer futbolista profesional de la historia en declararse abiertamente homosexual en 1990. Si bien es cierto que el colectivo de personas LGTBI ha avanzado en los últimos años en su lucha por la igualdad, la no discriminación y la defensa de la diversidad, el deporte sigue siendo un espacio que en muchas ocasiones se resiste a la aceptación y la promoción de la diversidad por orientación sexual o identidad de género. En España no hay datos sobre la situación personal de gais, lesbianas, transexuales y bisexuales en el deporte. Son muy pocas las personas deportistas de reconocido prestigio que hacen pública su orientación sexual por miedo a las consecuencias que ello pueda conllevar, a la vez que contadas entidades deportivas promueven el deporte entre el colectivo LGTBI.</seg>

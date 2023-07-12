@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2015-06-23-CD150623"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 274 (2015-06-23) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 274 (2015-06-23)</title>
             <title xml:lang="en" type="sub">Plenary session 274 (2015-06-23)</title>
-            <meeting n="274" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 274</meeting>
-            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
+            <meeting n="2015-06-23" corresp="#CD" ana="#parla.lower #parla.sitting">2015-06-23</meeting>
+            <meeting n="274" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 274</meeting>
+            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -488,7 +494,7 @@
                <seg xml:id="ParlaMint-ES_2015-06-23-CD150623.u53.2">Por el Grupo de Convergència i Unió, señor Guillaumes.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u54"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-06-23-CD150623.u54.1">Gracias, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2015-06-23-CD150623.u54.2">Señor ministro, señorías, lo ha dicho antes otro portavoz, el señor Esteban: nos encontramos en lo que llamo una proposición no de ley botafumeiro. Viene el grupo de apoyo al Gobierno y empieza a lanzar incienso al decir: ¡Lo estamos haciendo muy bien y vamos a continuar haciéndolo muy bien! Pues, vale. En su moción hablan de diálogo, solidaridad y compromiso. -Me repetiré con algún portavoz-. Solidaridad y compromiso. Se lo voy a decir con una metáfora: hay dos tipos de solidaridad y compromiso. Cuando se prepara un plato de huevos con beicon, hay solidaridad y compromiso por parte del cerdo y de la gallina. Pero comprenderán ustedes que el compromiso que toma el cerdo es muy superior al de la gallina en los huevos con beicon. Entienden, ¿no? Ustedes exactamente, ¿qué tipo de compromiso van a tomar o están tomando en el Consejo de Seguridad de Naciones Unidas? ¿Un ejemplo como el de Italia, con la operación Mare Nostrum, que sale fuera de sus aguas jurisdiccionales, que rescata refugiados, que los acoge en su país? ¿O el de la triste experiencia del caso Frontex, absolutamente limitada, que deja a la gente ahogarse a las puertas de Europa? Debería ser un compromiso a la italiana, al estilo verraco, para que me entiendan, y no al estilo gallina. En el caso que nos ocupa, en el caso de los refugiados, ustedes simplemente se niegan a hablar. En el caso de los refugiados sirios estamos hablando de refugiados que ya no huyen de la pobreza; estamos hablando de gente que huye, pero detrás de ellos ya no es que haya pobreza sino que hay violación o un machete. Y ustedes dicen que no quieren hablar del tema. Esto ya no es un compromiso gallina, es un compromiso gallina ciega, si me permiten, que es todavía peor.</seg>
@@ -502,7 +508,7 @@
                <seg xml:id="ParlaMint-ES_2015-06-23-CD150623.u55.1">Señor Guillaumes.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u56"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-06-23-CD150623.u56.1">Acabo en diez segundos, presidenta; gracias por su tolerancia.</seg>
                <seg xml:id="ParlaMint-ES_2015-06-23-CD150623.u56.2">Por tanto, esta gente lo que necesita es seguridad, pero no solo seguridad militar, sino también seguridad jurídica, tribunales, escuelas y sobre todo futuro; futuro, señor ministro, señores del Grupo Popular. El hinduismo dice que el único pecado que no se perdona es apagar la esperanza en el corazón de los hombres. Supongo que la mayor de las virtudes debe ser encender la esperanza en el corazón de los hombres y de las naciones. Ese es el guión que deberían impulsar.</seg>
@@ -545,7 +551,7 @@
                <seg xml:id="ParlaMint-ES_2015-06-23-CD150623.u61.2">¿El señor ministro tiene la intención de intervenir?<note>Asentimiento</note> Adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u62"
-               who="#GarcíamargalloJosé"
+               who="#GarcíaMargalloJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-06-23-CD150623.u62.1">Muchas gracias por todas las intervenciones y muchas gracias al Grupo Popular por haber tenido la iniciativa de presentar una proposición no de ley -una proposición pelota, según algunos de los intervinientes en esta Cámara- que trata de una cuestión tan poco interesante como lo que está haciendo el Consejo de Seguridad en un mundo tan conflictivo como este. Quiero hacer algunas notas e intentaré responder a todas las preguntas que se me han formulado, aunque es una tarea difícil porque aquí se ha hablado de discusiones que tienen lugar en la Unión Europea sobre asilo e inmigración; se ha hablado de política interna, de política exterior bilateral, de muchas cosas, y algunos intervinientes han tenido la bondad de referirse a la política que España hace en el Consejo de Seguridad, que es el objeto de la proposición no de ley y va a ser el núcleo de mi intervención.</seg>
                <seg xml:id="ParlaMint-ES_2015-06-23-CD150623.u62.2">Como sus señorías saben, hace setenta años que España se incorporó al sistema de Naciones Unidas. Hemos estado presentes en el Consejo de Seguridad en cuatro ocasiones; la última elección se celebró el 16 octubre, después de una campaña de diez años en la que participamos dos Gobiernos, el Gobierno del Partido Socialista y el Gobierno del Partido Popular. España tuvo 132 apoyos, y ya que el representante de Convergència i Unió se ha referido a los medios financieros, se los voy a explicar: Turquía tenía 250 millones para la campaña y España tenía un millón -eso se llama eficiencia y control del gasto. Sí quiero decir que esto no es un éxito -lo he dicho siempre y lo repito ahora- de un partido ni de un Gobierno; es un éxito de la nación española en su conjunto -una y diversa- y de toda la sociedad española.</seg>
@@ -599,7 +605,7 @@
                <seg xml:id="ParlaMint-ES_2015-06-23-CD150623.u69.2">¿Alguna otra intervención?<note>Pausa</note> Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-23-CD150623.u70"
-               who="#GarcíamargalloJosé"
+               who="#GarcíaMargalloJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-06-23-CD150623.u70.1">Señor Nuet, yo no estaba en el Gobierno cuando se decidió intervenir en Libia. Mi grupo apoyó la intervención en Libia y mi grupo cree que probablemente haya que volver a intervenir en Libia en cuanto tengamos una resolución del Consejo a petición de las autoridades legítimas, porque dejar crecer el terrorismo de Daesh en Libia puede desestabilizar todo el norte de África y puede poner en riesgo la seguridad misma de España. Por tanto, insisto, asumo mi cuota de responsabilidad, pero yo no soy responsable de la intervención que se hizo en Libia, mi grupo la apoyó y creo que el Gobierno anterior lo hizo bien, pero de eso créame que no tengo la culpa, como no tengo la culpa de la muerte de Viriato.</seg>
                <seg xml:id="ParlaMint-ES_2015-06-23-CD150623.u70.2">Muchas gracias.<note>Aplausos</note>

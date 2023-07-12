@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-05-09-CD180509"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 114 (2018-05-09) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 114 (2018-05-09)</title>
             <title xml:lang="en" type="sub">Plenary session 114 (2018-05-09)</title>
-            <meeting n="114" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 114</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2018-05-09" corresp="#CD" ana="#parla.lower #parla.sitting">2018-05-09</meeting>
+            <meeting n="114" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 114</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -532,7 +538,7 @@
                <pb n="16"/>
             </u>
             <u xml:id="ParlaMint-ES_2018-05-09-CD180509.u69"
-               who="#GómezreinoAntonio"
+               who="#GómezReinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-05-09-CD180509.u69.1">Gracias, señor presidente.</seg>
                <seg xml:id="ParlaMint-ES_2018-05-09-CD180509.u69.2">¿Qué hace su Gobierno ante la ofensiva militar contra civiles en Gaza?</seg>
@@ -557,7 +563,7 @@
                <seg xml:id="ParlaMint-ES_2018-05-09-CD180509.u72.2">Señor Gómez-Reino.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-05-09-CD180509.u73"
-               who="#GómezreinoAntonio"
+               who="#GómezReinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-05-09-CD180509.u73.1">Viernes 30 de abril, 19 muertos; viernes 6 de abril, 13 muertos; viernes 13 de abril, 7 muertos. Y así viernes tras viernes. Francotiradores militares disparando contra civiles desarmados en manifestaciones pacíficas: 44 muertos y más de 3000 heridos. En palabras de Judíos por la Paz: estamos horrorizados por la respuesta israelí a la gran marcha de la tierra. Como judíos reconocemos en estos hechos los sufrimientos de nuestra propia historia. Esto lo dicen supervivientes del holocausto.</seg>
                <seg xml:id="ParlaMint-ES_2018-05-09-CD180509.u73.2">Señor ministro, señores del Gobierno, no saben lo que está pasando en Gaza, no saben lo que está pasando en Palestina, no saben lo que está haciendo Israel. Y ni una mísera línea, ni un comunicado del Ministerio de Asuntos Exteriores. ¿Qué hacen ustedes ante este drama humano y político? Por una parte, permiten que continúe el comercio de armas con un Estado que comete cada día crímenes de guerra, que se salta y se burla cada día de la legislación internacional. Por otra parte, dejan tirados a nuestros cooperantes, dejan tirada a la cooperación y permiten que Israel destruya más de setenta proyectos de cooperación financiados con el esfuerzo solidario de nuestra sociedad. En resumen lo que parece es que la señora ministra de Defensa, la señora Cospedal, agiliza la venta de armas, y por su parte el señor ministro de Asuntos Exteriores, Dastis, como siempre: ver, oír y sobre todo callar. Su política exterior es servil y es subalterna. Igual que cuando mataron a José Couso, igual que cuando mataron a Julio Anguita Parrado.<note>Aplausos</note> Ya se sabe, los Gobiernos del Partido Popular ante los poderosos del mundo miran para otro lado.</seg>

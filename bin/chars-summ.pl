@@ -10,9 +10,9 @@ $UNIFILE = 'UnicodeData.txt';
 if (-e $UNIFILE) {
     open(TBL,$UNIFILE);
     while (<TBL>) {
-	if (/^([0-9A-F]+);(.+?);/) {
-	    $uni{$1}=$2;
-	}
+        if (/^([0-9A-F]+);(.+?);/) {
+            $uni{$1}=$2;
+        }
     }
     close TBL;
     $localUni='1';
@@ -28,17 +28,17 @@ while (<>) {
     ($fid,$fwc,$chars)=split(/\t/);
     $fwc=$fwc;
     foreach $pair (split(/ /,$chars)) {
-	($char,$i)=$pair=~/(.+):(\d+)/ or die "Bad line $_";
-	if (($ord)=$char=~/&#(\d+);/) {$c=chr($ord)}
-	elsif ($char=~/^.$/) {$c=$char; $ord=ord($c)}
-	else {
-	    print STDERR "Long char '$char' for $fid!\n";
-	    next
-	}
-	$c_all+=$i;
-	$c{$c}+=$i;
-	$f{$c}++;
-	#$fe{$c}="$fid / $fwc";
+        ($char,$i)=$pair=~/(.+):(\d+)/ or die "Bad line $_";
+        if (($ord)=$char=~/&#(\d+);/) {$c=chr($ord)}
+        elsif ($char=~/^.$/) {$c=$char; $ord=ord($c)}
+        else {
+            print STDERR "Long char '$char' for $fid!\n";
+            next
+        }
+        $c_all+=$i;
+        $c{$c}+=$i;
+        $f{$c}++;
+        #$fe{$c}="$fid / $fwc";
     }
 }
 print "Codepoint\tChar\tOccurs\t\%\tIn docs\t\%\tUnicode name\n";
@@ -52,15 +52,15 @@ foreach $chr (sort keys %c) {
     $hex  = sprintf("%04X", ord($chr));
     $ord  = ord($chr);
     if ($localUni) {
-	if (exists $uni{$hex}) {
-	    $name = $uni{$hex}
-	} 
-	else {
-	    $name='!!!'
-	}
+        if (exists $uni{$hex}) {
+            $name = $uni{$hex}
+        }
+        else {
+            $name='!!!'
+        }
     }
     else {
-	$name = charnames::viacode($ord) or $name = '???';
+        $name = charnames::viacode($ord) or $name = '???';
     }
     #if (exists $uni{$hex}) {$name2 = $uni{$hex}} else {$name2='!!!'}
     if ($hex=~/^E/ or $hex=~/^F[0-8]/ ) {$name.=' - PRIVATE USE AREA!'}

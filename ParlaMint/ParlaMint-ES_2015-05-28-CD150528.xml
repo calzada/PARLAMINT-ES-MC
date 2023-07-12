@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2015-05-28-CD150528"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 267 (2015-05-28) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 267 (2015-05-28)</title>
             <title xml:lang="en" type="sub">Plenary session 267 (2015-05-28)</title>
-            <meeting n="267" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 267</meeting>
-            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
+            <meeting n="2015-05-28" corresp="#CD" ana="#parla.lower #parla.sitting">2015-05-28</meeting>
+            <meeting n="267" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 267</meeting>
+            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -448,7 +454,7 @@
                <seg xml:id="ParlaMint-ES_2015-05-28-CD150528.u47.2">Por el Grupo de Convergència i Unió, tiene la palabra el señor Guillaumes.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-28-CD150528.u48"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-05-28-CD150528.u48.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2015-05-28-CD150528.u48.2">Señorías, señor ministro, nos encontramos en el Día de la Marmota, como cada año, con una escena ya por triplicado. Me ha gustado la primera frase de su intervención: vuelvo a subir aquí a la tribuna. Usted sin duda se refería al punto anterior, pero yo he pensado: es correcto, sí. Efectivamente, vuelve usted a subir a la tribuna, como cada año, a defender un crédito extraordinario absolutamente previsible. ¿Y por qué hace esto? Luego oímos declaraciones del ministro y de sus portavoces diciendo aquello de que el Estado español -ustedes dicen España, claro-, España es la que gasta menos de la Unión Europea en porcentajes sobre el PIB en cuestiones militares, solo por debajo de Luxemburgo. Claro, si hacen ustedes las cuentas del Gran Capitán pueden hacer afirmaciones como esas. ¿Sabe de dónde sale la expresión -usted es un hombre de gran cultura- de las cuentas del Gran Capitán, no? Por aquello de enviar las cuentas a la Corte diciendo: 10.000 ducados por el desgaste de las campanas provocado por la celebración de las victorias habidas. Pues parece que sus presupuestos más o menos responden a la lógica de las cuentas del Gran Capitán. El presupuesto de Defensa -esto es vox populi y en este sentido les perjudica- está muy maquillado. Presentan antes de consolidación un presupuesto en el que, obviamente, no se cuenta con los organismos autónomos, las externalizaciones. Esto ya por sí solo son 1.000 millones. No cuentan con el Instituto Nacional de Técnicas Aeroespaciales, con el Instituto de Vivienda, Infraestructura y Equipamiento de la Defensa o con el Canal de Experiencias Hidráulicas. De entrada no se cuenta con ellos, son organismos autónomos antes de consolidación. Vemos el presupuesto antes de consolidación y con ellos no se cuenta. Un segundo truco -paso rápido, porque el tema de fondo es otro- son las famosas partidas ampliables, las misiones en el exterior. Siempre me ha despertado curiosidad que ustedes ponen una partida, ampliable obviamente, de 14,36 millones de euros, que luego acaba siendo -hablo de la última- de 789 millones de euros. Solo por curiosidad, ¿por qué 14,36? ¿Por qué no 14 o 15? ¿Por qué 14,36 si saben ustedes que van a acabar pagando 789 millones o más? ¿Por qué ponen una cifra tan justa? No lo acabamos de entender. Dirán que tiene que ser una partida ampliable porque<pb n="31"/> puede salir un nuevo conflicto. Sí, tienen razón, pero nosotros sabemos perfectamente que el año que viene estaremos en Líbano; sabemos que estaremos en la República Centroafricana; sabemos que estaremos en Malí y sabemos con qué cantidad de tropas y el gasto que tendremos. Por favor, no pongan ustedes estos 14,36 millones. ¿Que quieren dejarlo como partida ampliable? Lo comprendemos, pero pongan una cifra que tenga alguna relación con una realidad que ya conocen perfectamente.</seg>

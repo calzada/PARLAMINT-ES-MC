@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2019-02-21-CD190221"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 173 (2019-02-21) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 173 (2019-02-21)</title>
             <title xml:lang="en" type="sub">Plenary session 173 (2019-02-21)</title>
-            <meeting n="173" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 173</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2019-02-21" corresp="#CD" ana="#parla.lower #parla.sitting">2019-02-21</meeting>
+            <meeting n="173" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 173</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -177,7 +183,7 @@
                <seg xml:id="ParlaMint-ES_2019-02-21-CD190221.u11.2">Por el Grupo Parlamentario Popular, tiene la palabra la señora García-Pelayo Jurado.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-02-21-CD190221.u12"
-               who="#GarcíapelayoMaría"
+               who="#GarcíaPelayoMaría"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-02-21-CD190221.u12.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2019-02-21-CD190221.u12.2">Señoras y señores diputados, señor ministro, considero que es obligado iniciar esta última intervención de esta legislatura ante el Pleno de la Cámara reconociendo y agradeciendo el trabajo y, más aún, el compromiso de todas y todos los miembros de la Comisión de Cultura y, por supuesto, de nuestro letrado con la industria cultural de nuestro país y con sus creadores. También han de entender que realice un reconocimiento y un agradecimiento especial a mis compañeros y compañeras del grupo parlamentario en la Comisión y, sobre todo, a los portavoces Emilio del Río y Miguel Lorenzo, y, por supuesto, además a los portavoces del resto de los grupos parlamentarios, Eduardo -un cariñoso saludo y todo mi agradecimiento por el trabajo que has hecho en esta Cámara y por tu compromiso muy especial con la cultura-, a José Andrés, a Félix y, por supuesto, a nuestra presidenta de la comisión, Marta Rivera.</seg>
@@ -530,7 +536,7 @@
                <note>La señora vicepresidenta, Navarro Garzón, ocupa la Presidencia</note>
             </u>
             <u xml:id="ParlaMint-ES_2019-02-21-CD190221.u59"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-02-21-CD190221.u59.1">Buenos días. Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2019-02-21-CD190221.u59.2">Señoras y señores diputados, antes de presentar para la convalidación de esta Cámara el Real Decreto-ley 2/2019, de medidas urgentes para paliar los daños causados por temporales y otras situaciones catastróficas, quisiera recordar a las personas que fallecieron como consecuencia de estas emergencias que hemos padecido durante el año pasado y hacer llegar de nuevo mi más sentido pésame a las víctimas y sus familiares.<note>Aplausos</note> Por otra parte, quiero reconocer el esfuerzo y la generosidad de quienes intervinieron respondiendo a estas emergencias. Me refiero tanto a los trabajadores de los distintos servicios de intervención y asistencia como a los que colaboraron de forma voluntaria; a todos ellos, mi agradecimiento y el de todo el Gobierno por su trabajo en condiciones tan adversas, afrontando a veces situaciones que pueden poner en riesgo su propia vida.</seg>
@@ -745,7 +751,7 @@
                <seg xml:id="ParlaMint-ES_2019-02-21-CD190221.u83.2">Para cerrar el debate, tiene la palabra el señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-02-21-CD190221.u84"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-02-21-CD190221.u84.1">Señor presidente, muchas gracias.</seg>
                <seg xml:id="ParlaMint-ES_2019-02-21-CD190221.u84.2">En primer lugar, para agradecer al conjunto de grupos parlamentarios las manifestaciones y, sin pretender anticipar el voto de ninguno de los grupos, el apoyo generalizado que se ha materializado y que es una manifestación propia del principio de solidaridad que nos une a todos los españoles. En segundo lugar, quería hacer una reflexión, que quizá venga bien para la próxima legislatura y que este Gobierno y este Ministerio del Interior han realizado desde el primer momento: es la necesidad de la prevención a la que he hecho referencia en primer lugar y también el conjunto de portavoces. El cambio climático, aunque se trate de negar por determinadas posturas ideológicas, es una realidad incuestionable. En determinados viajes -permítanme solamente un minuto- y, recientemente, en el de ayer, cuando estuve en el África subsahariana por otras cuestiones como son la emigración, he visto la preocupación de sus políticos por el tema de la protección civil. Piden ayuda para la cooperación y formación en materia de protección civil. Siempre he dicho, y tenemos aquí los resultados, que en la actualidad será más previsible que gran parte de la sociedad nos enfrentemos como víctimas a una catástrofe natural que no a otras situaciones tan trágicas como estas. Por eso, hago un llamamiento a esa política de prevención, de respuesta a cualquiera de estos acontecimientos para el futuro.</seg>

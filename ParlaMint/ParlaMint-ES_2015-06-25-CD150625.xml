@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2015-06-25-CD150625"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 276 (2015-06-25) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 276 (2015-06-25)</title>
             <title xml:lang="en" type="sub">Plenary session 276 (2015-06-25)</title>
-            <meeting n="276" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 276</meeting>
-            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
+            <meeting n="2015-06-25" corresp="#CD" ana="#parla.lower #parla.sitting">2015-06-25</meeting>
+            <meeting n="276" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 276</meeting>
+            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -670,7 +676,7 @@
                <seg xml:id="ParlaMint-ES_2015-06-25-CD150625.u73.2">Por el Grupo Popular, interviene en primer lugar el señor Martín-Toledano.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-25-CD150625.u74"
-               who="#MartíntoledanoJosé"
+               who="#MartínToledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-06-25-CD150625.u74.1">Señor presidente, señorías, el proyecto de ley de régimen jurídico del sector público junto al de procedimiento administrativo común y a la Ley de Transparencia y Buen Gobierno y a la Ley de Estabilidad Presupuestaria conformarán las bases esenciales de la Administración pública del futuro, unas administraciones públicas eficientes, eficaces, ágiles, transparentes, sostenibles económicamente, y sobre todo centradas en el servicio a los ciudadanos; una reforma apoyada en unos empleados públicos de primer nivel, altamente cualificados, como son los que forman el conjunto de la Función pública española, que son garantes del correcto funcionamiento de la legalidad y de la imparcialidad de las administraciones públicas. He escuchado al representante del Grupo Socialista hablar de los funcionarios y empleados públicos. Quiero recordarle la reducción del 7 % de su salario cuando gobernaba el señor Rodríguez Zapatero. Y esta gran reforma de la Administración es la que hoy ha sido presentada con gran acierto y de forma pormenorizada por el ministro Montoro, una reforma que surge de un estudio riguroso y fundamentado que dio como resultado el informe CORA, un proceso que cuenta con el total respaldo de la OCDE, y que ha generado importantes beneficios como consecuencia de las medidas adoptadas: un ahorro de más de 20.200 millones de euros, la supresión de 2.194 entes públicos<pb n="53"/> innecesarios y la firma de 292 convenios para evitar duplicidades. Basta ya de descalificaciones, de engaños y de mentiras. Ante estos datos deberían ustedes, señores enmendantes, felicitar al Gobierno.</seg>
                <seg xml:id="ParlaMint-ES_2015-06-25-CD150625.u74.2">Las enmiendas a la totalidad de los grupos de La Izquierda Plural, CiU y Socialista tienen algo en común: no dejan de ser un intento poco creíble de desacreditar al proyecto de ley y al mismo tiempo al conjunto de reformas administrativas del Gobierno. Lamentamos que estén enfrentados a la opinión favorable de la OCDE y de otros organismos internacionales. Todo hace indicar que lo hacen exclusivamente por interés partidario, por una estrategia de desgaste del Gobierno. Los grupos enmendantes recurren a los mismos tópicos de la izquierda y del nacionalismo de siempre, a los clichés formados al comienzo de la legislatura y a los que no están dispuestos a renunciar, pese a la realidad, que les deja sin argumentos. Señorías, no se trata de un proyecto de ley para invadir competencias, no se trata de una estrategia recentralizadora. Ustedes consideran a toda norma que intenta dar coherencia, clarificar o simplificar, un ataque a la autonomía de las comunidades. Abandonen ya sus viejos fantasmas identitarios, que no les permiten ver con claridad la realidad. Muy al contrario la normativa básica que se incluye en el proyecto para todas las administraciones está fundamentada en sólidos títulos competenciales, y -al contrario de lo que ustedes afirman- así queda acreditado por el dictamen del Consejo de Estado, que literalmente dice que las consideraciones contenidas en el presente dictamen no pueden ser entendidas como una oposición a esta reforma administrativa. No lo digo yo, lo dice el Consejo de Estado, y podemos reafirmarlo de forma más rotunda tras las modificaciones introducidas al anteproyecto por recomendación de este alto organismo. Algunos grupos deberían enterarse de lo que reflejan todos los estudios sociológicos, y es que los ciudadanos españoles, en una amplísima mayoría, quieren que las administraciones e instituciones públicas sean eficaces, transparentes y ágiles, y no les importa quién tenga la competencia para ejercer los servicios, no les importa nada más que se solucionen sus problemas. Estas encuestas también reflejan que los ciudadanos están preocupados por las desigualdades que provoca entre los españoles la gestión de algunos servicios por parte de las autonomías. Están hartos, literalmente hartos, de la permanente dialéctica del enfrentamiento que genera el nacionalismo y que solo produce frustración e ineficacia. Este proyecto de ley se atiende la necesidad de dotar a nuestro sistema legal de un derecho administrativo sistemático, coherente y ordenado y al servicio de los ciudadanos, siempre al servicio de los ciudadanos.</seg>

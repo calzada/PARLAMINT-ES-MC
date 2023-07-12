@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-04-26-CD180426"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 112 (2018-04-26) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 112 (2018-04-26)</title>
             <title xml:lang="en" type="sub">Plenary session 112 (2018-04-26)</title>
-            <meeting n="112" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 112</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2018-04-26" corresp="#CD" ana="#parla.lower #parla.sitting">2018-04-26</meeting>
+            <meeting n="112" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 112</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -363,7 +369,7 @@
                <seg xml:id="ParlaMint-ES_2018-04-26-CD180426.u40.2">Señora secretaria primera.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-04-26-CD180426.u41"
-               who="#SánchezcamachoAlicia"
+               who="#SánchezCamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-04-26-CD180426.u41.1">Gracias, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-04-26-CD180426.u41.2">Declaración institucional contra el maltrato infantil.</seg>

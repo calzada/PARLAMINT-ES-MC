@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2017-02-14-CD170214"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 27 (2017-02-14) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 27 (2017-02-14)</title>
             <title xml:lang="en" type="sub">Plenary session 27 (2017-02-14)</title>
-            <meeting n="27" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 27</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2017-02-14" corresp="#CD" ana="#parla.lower #parla.sitting">2017-02-14</meeting>
+            <meeting n="27" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 27</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -282,7 +288,7 @@
                <seg xml:id="ParlaMint-ES_2017-02-14-CD170214.u29.2">Por el Grupo Parlamentario Popular tiene la palabra el señor García-Tizón López.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-02-14-CD170214.u30"
-               who="#GarcíatizónArturo"
+               who="#GarcíaTizónArturo"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-02-14-CD170214.u30.1">Señora presidenta, señorías, como han dicho todos los que han intervenido con anterioridad, este debate tiene por objeto una proposición de ley presentada el 1 de agosto por el Grupo Socialista, muy parecida a la que presentó el 18 de diciembre de 2013 y que fue rechazada por el Pleno de la Cámara. Por tal motivo, valdría quizás que este grupo diera por reproducida la intervención que pronunció en aquel debate en orden a su toma en consideración y que tuvo lugar el 12 de mayo de 2015. Sin embargo, algo ha cambiado en esta proposición, poco, y en la composición de la Cámara, bastante, lo que obliga a este grupo a añadir alguna que otra consideración adicional a las que ya hiciera en aquella otra ocasión.</seg>
                <seg xml:id="ParlaMint-ES_2017-02-14-CD170214.u30.2">Sobre la ampliación de la excepción de la gracia de indulto, cuando se trate de delitos cometidos por autoridad en el ejercicio de su función, cargo público o prevaliéndose del mismo para obtener un beneficio económico para sí o un tercero, y las condenas por delito relacionadas con la violencia de género, volvemos a decir aquí lo que ya señalábamos en la pasada legislatura. Aceptamos que no existe numerus<pb n="18"/> clausus en esta materia, porque el artículo 62, letra i) de la Constitución remite el ejercicio de la potestad real de gracia a lo que disponga la ley, pero no está tan claro que con esta proposición se dé plena satisfacción a una eventual demanda social de lo que se exige para la prevención general y especial de los delitos. ¿Solo deben de quedar exceptuados de la gracia de indulto los delitos de corrupción o de violencia de género, como entiende el grupo proponente? ¿Al hacer esta limitación de supuestos estima el Grupo Socialista, sensu contrario, que sí cabe el indulto en los delitos de terrorismo, crimen organizado, agresión, tráfico sexual, pederastia o violencia sobre menores, por poner algunos ejemplos? ¿No tienen estos delitos un rechazo social al menos tan fuerte como los delitos de corrupción y de violencia de género? Desde otro punto de vista, ¿hay acaso una alarma social por la política que en materia de indulto está realizando el Gobierno en el tratamiento de estos delitos y que justifique esta proposición? Ciertamente, señorías, no. En el año 2016 se ha concedido el 0,72% de las solicitudes presentadas, menos aún que en el año 2015, que fue del 1,27%, muy similar a la del año 2014, que fue del 1,05%, datos muy alejados, por cierto, de los años 2009, del 7,85, y 2010, del 6,41, de los Gobiernos socialistas. Pero es que, además, el 99% de los indultos concedidos por el Gobierno del Partido Popular han contado con el parecer favorable del tribunal sentenciador y del ministerio fiscal, o de ambos; y aún más, en los últimos años 2014, 2015 y 2016 se han rechazado todas las solicitudes de indulto encuadrables en las categorías delictivas a que se refiere esta proposición de ley.</seg>
@@ -782,7 +788,7 @@
                <seg xml:id="ParlaMint-ES_2017-02-14-CD170214.u98.2">Por el Grupo Parlamentario Popular, tiene la palabra el señor De Barrionuevo Gener.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-02-14-CD170214.u99"
-               who="#Barrionuevo"
+               who="#BarrionuevoAvelino"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-02-14-CD170214.u99.1">Muchas gracias, señor presidente.</seg>
                <seg xml:id="ParlaMint-ES_2017-02-14-CD170214.u99.2">Antes de iniciar mi intervención quería saludar también a los miembros del Observatorio de justicia y Defensa Animal, con quien tuvimos la oportunidad de reunirnos mi portavoz y yo. Respecto a la proposición no de ley presentada por el Grupo Parlamentario Ciudadanos, el Grupo Popular considera que los animales domésticos son seres vivos, dotados de sensibilidad y por tanto no pueden ser considerados cosas. El Grupo Parlamentario Popular está a favor de regular y fomentar la protección adecuada a los animales de compañía, tal como recoge nuestro punto número 16 de nuestra ponencia social que fue aprobado en nuestro 18.º congreso el pasado sábado. El Partido Popular está comprometido en la lucha contra el abandono y el maltrato de los animales domésticos. Prueba de ello fue que en el año 2015 iniciamos la reforma del Código Penal. La Ley Orgánica 1/2015, de 30 de marzo, modifica el artículo 337 del Código Penal agravando las penas hasta dieciocho meses de prisión para aquellos que provocasen la muerte injustificada de un animal doméstico, añadiendo una pena adicional de inhabilitación de dos a cuatro años para el ejercicio de profesión, oficio o comercio que tenga relación con los animales o para la tenencia de estos. Pues bien, señorías, si bien el Código Penal se ha adaptado al sentir de la ciudadanía en cuanto a la protección penal de los animales de compañía reconociéndoles un estatus especial a estos animales respecto a las cosas, nuestro Código Civil, que data del año 1889, se ha quedado obsoleto. El Código Civil considera a las mascotas como cualquier otro bien patrimonial, pudiendo ser estos embargados o ejecutados por el acreedor para el resarcimiento de una deuda, o subastarlos para liquidar una sociedad de gananciales. Por todo ello, entendemos que hay que afrontar una modificación del régimen jurídico de los animales en el Código Civil y adecuarlo a las exigencias de la actual sociedad en cuanto a las relaciones con los animales domésticos se refiere. La proliferación de los mismos y la especial relación de afectividad con sus dueños hace necesario dotar a los animales de compañía de un estatus especial en nuestro Código Civil, alejándolos de la consideración de cosas. Es indudable la mayor sensibilidad que la sociedad tiene hoy hacia los animales domésticos de compañía; no hay más que acudir a nuestra jurisprudencia, donde ya se analizan cuestiones de lazos afectivos bien para atender en los casos de crisis matrimoniales, como la sentencia de la Audiencia Provincial de Barcelona 465/2014, de 10 de julio, o bien para eximir al adquirente de un animal enfermo a proceder a su devolución ante el incumplimiento del contrato.</seg>
@@ -933,7 +939,7 @@
                <pb n="55"/>
             </u>
             <u xml:id="ParlaMint-ES_2017-02-14-CD170214.u120"
-               who="#MartíntoledanoJosé"
+               who="#MartínToledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-02-14-CD170214.u120.1">Buenas tardes, señor presidente.</seg>
                <seg xml:id="ParlaMint-ES_2017-02-14-CD170214.u120.2">Señorías, en primer lugar, quiero dejar claro y patente que el Grupo Popular está y estará siempre a favor y en coordinación con el Gobierno y el Ministerio del Interior para mejorar las condiciones laborales y de todo tipo que necesita la Guardia Civil y también la Policía Nacional. Quiero saludar también a algunos representantes de las asociaciones de la Guardia Civil, hoy invitados en el Congreso, y quiero trasladar desde el Grupo Popular a todos los guardias civiles el respeto y consideración a su gran labor. La Guardia Civil es esencial junto con la Policía Nacional en la preservación de la seguridad ciudadana. Han hecho una labor encomiable, una labor que hay que valorar porque han sido punta fundamental para acabar con el terrorismo de ETA y con muchas mafias delictivas.</seg>

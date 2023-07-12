@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2017-09-21-CD170921"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 72 (2017-09-21) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 72 (2017-09-21)</title>
             <title xml:lang="en" type="sub">Plenary session 72 (2017-09-21)</title>
-            <meeting n="72" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 72</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2017-09-21" corresp="#CD" ana="#parla.lower #parla.sitting">2017-09-21</meeting>
+            <meeting n="72" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 72</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -215,7 +221,7 @@
                <seg xml:id="ParlaMint-ES_2017-09-21-CD170921.u16.2">Por el Grupo Parlamentario Mixto también tiene la palabra el señor Guillaumes i Ràfols.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-09-21-CD170921.u17"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-09-21-CD170921.u17.1">Moltes gràcies, presidenta. Moltes gràcies, senyories.</seg>
                <seg xml:id="ParlaMint-ES_2017-09-21-CD170921.u17.2">Los dioses saben lo que hacen, sobre todo cuando rehacen, decían los griegos. Hoy estamos hablando de una ley injusta. Me sabe mal decir esto, porque nosotros creíamos que era necesaria y pedimos su toma en consideración, pero acabamos votando en contra de ella, horrorizados por el resultado final. Los griegos hace siglos cuando decidieron darse una democracia no le dieron este nombre; le llamaron isonomía, que quería decir sumisión a las leyes. Es un nombre que duró poco. Al cabo de poco tiempo se dieron cuenta de que el régimen que ellos querían establecer no consistía en la sumisión a las leyes. Eso solo era una parte y no la parte principal. El régimen que ellos querían establecer tenía que llamarse democracia: el poder del pueblo. El poder del pueblo está por encima del poder de las leyes, porque puede haber leyes injustas.</seg>
@@ -310,7 +316,7 @@
                <seg xml:id="ParlaMint-ES_2017-09-21-CD170921.u30.2">Por el Grupo Parlamentario Popular en el Congreso, tiene la palabra el señor Martín-Toledano Suárez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-09-21-CD170921.u31"
-               who="#MartíntoledanoJosé"
+               who="#MartínToledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-09-21-CD170921.u31.1">Señora presidenta, señorías, quiero empezar con tres afirmaciones que es importante tener en cuenta. Aquí ha habido un debate y algunos grupos insisten en la falsedad y en la mentira. España es un Estado de derecho, España es una democracia occidental que respeta los derechos humanos. La Ley de seguridad ciudadana es una ley homologable a todas las europeas. Puede tener algún defecto que puede ser corregido y el Grupo Popular está dispuesto a hablar de ello, a corregirlo y a buscar consensos en una política que tiene que ser de Estado.</seg>
                <seg xml:id="ParlaMint-ES_2017-09-21-CD170921.u31.2">Hoy se han hecho aquí afirmaciones absolutamente intolerables respecto al golpe que está sucediendo en Cataluña y quiero trasladar desde mi grupo el apoyo a los alcaldes y concejales que están respetando la ley y están siendo acosados; el respaldo a las Fuerzas y Cuerpos de Seguridad del Estado -la Policía Nacional y la Guardia Civil-, que están cumpliendo y haciendo cumplir la ley, como es su obligación, y que también están siendo acosados; a los funcionarios y también a los jueces y fiscales, que están siendo descalificados.<note>Aplausos</note> Señorías, hoy debatimos una enmienda a la totalidad de Bildu -¡de Bildu!- que nos habla de que hay que respetar los derechos humanos, la libertad ideológica y la libertad de prensa. Pero, señorías, ustedes saben cuál es su origen, ustedes intentaron imponer en el País Vasco un régimen de terror socializando el terrorismo y el miedo para expulsar a casi 500 000 vascos de su tierra. Ustedes persiguieron a los que opinaban de forma distinta, a los que querían presentarse en listas electorales por el Partido Socialista, por el Partido Popular o por Unión del Pueblo Navarro. Eso es lo que ustedes han hecho. Y ahora nos traen una propuesta absolutamente increíble, una propuesta según la cual la Ley de seguridad ciudadana no sería aplicada a los menores de dieciocho años. ¿Qué quieren, una kale borroka juvenil como la que ustedes han amparado?<note>Aplausos</note> Ustedes quieren que la veracidad de las declaraciones de los cuerpos de seguridad del Estado no tengan prevalencia; ustedes quieren que no se pueda registrar ni identificar a nadie que no haya cometido un delito previo. Oiga usted, en los aeropuertos, en los medios de comunicación o en las entradas a los estadios, ¿no se va a poder registrar a nadie que pueda llevar una bomba? Ustedes están locos; lo que están proponiendo es una locura y no se puede aceptar.</seg>

@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2019-02-19-CD190219"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 171 (2019-02-19) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 171 (2019-02-19)</title>
             <title xml:lang="en" type="sub">Plenary session 171 (2019-02-19)</title>
-            <meeting n="171" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 171</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2019-02-19" corresp="#CD" ana="#parla.lower #parla.sitting">2019-02-19</meeting>
+            <meeting n="171" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 171</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -320,7 +326,7 @@
                <seg xml:id="ParlaMint-ES_2019-02-19-CD190219.u32.2">Por el mismo grupo, tiene la palabra el señor Guillaumes i Ràfols.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-02-19-CD190219.u33"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-02-19-CD190219.u33.1">Gràcies, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2019-02-19-CD190219.u33.2">Señorías, voy a continuar con otra frase que tampoco es de la lengua oficial de esta Cámara: excusatio non petita, accusatio manifesta. ¿Por qué presentan ustedes este proyecto de ley? Se supone que tenían atado y bien atado el tema catalán con las acusaciones de sublevación, con las acusaciones de sedición; por tanto, no tendrían que presentar nada, porque lo tenían bien atado, ¿o no? ¿O ustedes, con la presentación de esta proposición legislativa, reconocen que están absolutamente en falso en la acusación del proceso catalán? ¿Es eso lo que está sucediendo? Si no es así, ¿por qué presentan este proyecto de<pb n="20"/> ley? Teóricamente, tendrían suficiente con lo demás. Lo que me parece que está sucediendo es que al final se han dado cuenta de que lo que han dicho la justicia alemana, la suiza, la de Gran Bretaña y la de Bélgica tarde o temprano les va a explotar a ustedes en la cara. Eso es lo que están intentando arreglar ustedes. Saben que están absolutamente en falso.</seg>

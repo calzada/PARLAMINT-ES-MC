@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2015-09-29-CD150929"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 287 (2015-09-29) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 287 (2015-09-29)</title>
             <title xml:lang="en" type="sub">Plenary session 287 (2015-09-29)</title>
-            <meeting n="287" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 287</meeting>
-            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
+            <meeting n="2015-09-29" corresp="#CD" ana="#parla.lower #parla.sitting">2015-09-29</meeting>
+            <meeting n="287" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 287</meeting>
+            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -240,7 +246,7 @@
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u19.2">Se ha solicitado la utilización de un turno en contra por el Grupo Popular. En su representación, tiene la palabra el señor Martínez-Pujalte.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u20"
-               who="#MartínezpujalteVicente"
+               who="#MartínezPujalteVicente"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u20.1">Presidente, señorías, como siempre, subo a esta tribuna con el convencimiento de que estar aquí es una alta responsabilidad. Lo digo ahora, precisamente en esta temporada que estoy viviendo. Nunca subo aquí con frivolidad, nunca lo he hecho y por supuesto no lo hago hoy. Subo con la responsabilidad de saber que a esta tribuna se viene siempre a exponer las opiniones de cada grupo parlamentario en defensa del interés general, y les concedo a todos los grupos que lo hacen así, pero quiero decir, señorías, que todo el mundo sabe que hay maneras de aprovechar el tiempo, y desde luego no lo es debatir hoy una proposición de ley que, independientemente de la voluntad del presidente del Gobierno, está condenada a que no se tramite, y esto lo saben todos ustedes, porque no hay tiempo para tramitarla, aunque fuera en lectura única. Es una manera de exponer cada uno lo que quiere políticamente, sabiendo que la eficacia para cambiar el marco legislativo es nula. En cualquier caso, como venimos aquí, señora Ciuró, a escuchar posiciones políticas, le quiero decir que hay que venir sabiendo de lo que se está hablando. Señora Ciuró, usted viene aquí a hablar de vivienda, y ya sé que de ese tema se ha preocupado muchísimo en esta legislatura. Fue usted la impulsora de la señora Colau, usted fue la que realmente le patrocinó venir a este Parlamento. Está usted en este tema desde el minuto uno, eso se lo concedo, pero estará conmigo en que una cosa es predicar y otra dar trigo, una cosa es predicar y otra solucionar los problemas de los ciudadanos, una cosa es hablar, como han hecho algunas personas que hoy están o no aquí, y otra es solucionar el problema de los ciudadanos. Quien ha intentado arreglar el problema de los ciudadanos desde el minuto uno es este Gobierno. Usted me puede decir que lo ha hecho mejor o peor, me puede decir que el Gobierno ha avanzado más o menos, pero donde no había nada se ha abierto un camino en la protección de los ciudadanos que por causas sobrevenidas se veían abocados a no poder hacer frente a los compromisos de pago, y eso lo ha hecho este Gobierno. Quien ha puesto en marcha un Fondo social de vivienda o quien ha impulsado que desde la Sareb se pongan viviendas a disposición de los ciudadanos ha sido este Gobierno y, por cierto, donde más en Cataluña.<note>La señora vicepresidenta, Villalobos Talero, ocupa la presidencia</note> Y no es verdad, señora Ciuró, que sean 1.700 las usadas en el fondo. No es verdad. Usted puede tener un dato, pero no es verdad y de datos no se discute. Son más de 4.000 -muy próximos a 4.100- las viviendas que se han utilizado en el Fondo social de viviendas y desde septiembre hay 9.900 puestas a disposición con condiciones más flexibles. Se puede decir más o menos, pero se han parado con la legislación del Partido Popular más de 16.000 lanzamientos, señora Ciuró, más de 16.000. Usted puede decir que habría que hacer mucho más y entonces da una cifra -lo que dice el Consejo General del Poder Judicial o los organismos internacionales-,y me parece bien-, pero ¿ha pensado -seguro que sí- si son segunda vivienda? ¿Ha pensado si son viviendas que están ocupadas? ¿Lo ha pensado? ¿Ha pensado en la flexibilidad que se da para la negociación o no?</seg>
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u20.2">Está muy bien que usted presente una proposición de ley -lo acepto-, pero al principio ya ha manifestado que dicha proposición está fuera de tiempo. Es lógico que lo diga porque esta proposición de ley, en su página segunda, en la exposición de motivos, cuando hace referencia a las reformas que se han hecho en nuestro país, habla de las tres reformas que se han hecho en la Ley Concursal en la legislatura anterior, en la del PSOE, y de las que se han producido en esta legislatura, pero se para. Se para y no contempla la Ley 25/2015, que viene del Decreto 1/2015, de segunda oportunidad. Usted se para, a pesar de que su grupo -entonces eran un grupo unido- a través del representante que subió a la tribuna, que ya no es de su grupo sino de otro, valoró muy positivamente la parte de segunda oportunidad. Está reflejado en el 'Diario de Sesiones'. A lo mejor a usted le parece mal, pero lo dice el 'Diario de Sesiones'. Esa modificación da solución a un problema. Es fácil subir a la tribuna y decir: hay ciudadanos que por razones sobrevenidas, sin tener ninguna culpa, se han visto abocados a no poder hacer frente a los compromisos de pago, sean personas físicas o también personas físicas empresarias. Es verdad, pero el<pb n="17"/> monopolio de la sensibilidad para atender los problemas lo tenemos todos. No le quito la categoría humana ni personal para defender esas situaciones, pero mi grupo también la tiene y desde el primer día lo hemos hecho, desde el primer día, porque veíamos que era un problema, que había personas que por la crisis económica se veían abocadas a no poder hacer frente al pago de su casa, el lugar donde vivían, que no solo habían perdido su puesto de trabajo, sino que además no podían hacer frente al pago de su vivienda. Eso, señoría, es muy duro y usted lo dice desde la tribuna -me parece muy bien-, pero mi grupo parlamentario y cada uno de los diputados que pertenecen al mismo tienen la misma capacidad, la misma sensibilidad para ver el problema y buscar soluciones, porque no es de recibo, señoría, decir: vengo aquí, no tengo que gobernar, no tengo que hacer nada y les digo que ustedes son insensibles. No, señoría. Yo le digo que usted es sensible, pero mi grupo también; cada uno de los diputados y todos nosotros sabíamos que había que dar solución a este problema. Este problema no empezó el 20 de noviembre de 2011, este problema vino con la crisis y hasta el 20 de noviembre de 2011 no se da ninguna solución.<note>Aplausos</note> A usted le parecen pocas las que se han dado y me parece bien, porque usted habría hecho todo, incluso regalarles las embajadas para que vivan unos cuantos, pero, señoría, este grupo ha hecho muchas cosas y le he dado números. Este grupo es sensible también -de esto ha hablado menos, quizá porque lo ha estudiado menos- hacia los miles y miles de autónomos que por la crisis han visto cómo cerraba su negocio, que tenían que hacer frente a deudas que no podían pagar y, aún perdiendo los activos que tenían, se quedaban con deudas para toda su vida. Este grupo parlamentario lo ha visto y por eso trajo aquí la Ley de Segunda Oportunidad. Señora Ciuró, el Fondo Monetario Internacional y el Banco Mundial han reconocido que la Ley de Segunda Oportunidad es un paso importante para facilitar el desapalancamiento de consumidores y autónomos que actúen de buena fe para que puedan iniciar otra vida empresarial. Le puede parecer bien o mal, pero la Ley de Segunda Oportunidad no solo es un marco de futuro para que cuando los autónomos tengan dificultades puedan iniciar una segunda andadura. Tampoco es solo una protección para el emprendimiento que, por cierto, no existía en España. Le puede parecer mal, pero no existía; solo existe a partir de ahora. Es un acto positivo de defensa del emprendimiento porque no solo se ayuda al emprendedor, sino que se le dice que si fracasa de buena fe podrá empezar otra vez de nuevo y tendrá una segunda oportunidad. Eso hace la Ley de Segunda Oportunidad con el futuro, pero, señora Ciuró, la ley mejoró con las enmiendas del señor Caldera -también es justo reconocerlo- y es también una ley de rescate para los autónomos que se han quedado atrapados en el pasado. Esta era una sensibilidad del señor Caldera, porque el monopolio de la sensibilidad social no lo tiene nadie. Todos tenemos sensibilidad y, cuando una persona quiere atribuirse ese monopolio para sí misma, le digo con toda honestidad y humildad que se está pasando de la raya. El señor Caldera dijo desde el primer momento que tenía que ser una ley de rescate para los que ya se habían quedado atrapados y la Ley de Segunda oportunidad es también un rescate para que puedan rehacer su vida los que se han quedado atrapados en el pasado. Señora Ciuró, usted podría decir que esto tendría que haber ido más allá y también las deudas públicas con la Seguridad Social y Hacienda; por cierto, dígaselo también a los sindicatos. Podría decir eso, pero que esto está avanzando es una realidad. Esta ley les está viniendo muy bien a las personas físicas empresarias y autónomos para poder iniciar una nueva vida sin tener la carga de las deudas pasadas. Ya hay decenas de personas que se ha acogido en el poco tiempo que lleva aprobada. Usted sabe que para las personas físicas que no tienen otra deuda que la vivienda, el concurso no es la mejor solución; usted sabe que la mejor solución no es que pierdan la casa y que luego no tengan más deudas, la mejor solución es facilitar una vivienda para que puedan vivir con dignidad.<note>Aplausos</note> Esa es la mejor solución, y en eso es en lo que estamos trabajando: en facilitar el pago, en flexibilizar los pagos, en negociar los pagos, en dialogar los pagos y, en último caso, en facilitarles una vivienda para que se puedan trasladar con su familia y tengan un techo, porque la solución no es perder todo.</seg>
@@ -285,7 +291,7 @@
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u25.2">Señor Martínez-Pujalte.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u26"
-               who="#MartínezpujalteVicente"
+               who="#MartínezPujalteVicente"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u26.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u26.2">Señora Ciuró, la he escuchado desde el primer minuto. ¡Si todo en su vida es tan verdad como lo que ha dicho...! Estaba sentado y, además, cosa rara, no me ha sonado el móvil. No he hablado por el móvil en toda su intervención, la he escuchado y, además, con interés, señora Ciuró. Pero no hacía falta escucharla con interés, pues el boletín ya pone la fecha. Lo que le he dicho, señora Ciuró, es que estaba superada. Usted ha apuntado, y yo lo he recalcado, que estaba superada. Tan superada estaba que usted, en la segunda intervención, se refiere solo al tema de la vivienda y deja sin comentar todo el problema de la segunda oportunidad, quizá porque usted no la ha estudiado con la misma profundidad y no estaba en la Comisión en que se debatió. Se ha regulado, señora Ciuró. Ya hay miles de personas que se están acogiendo a ello.</seg>
@@ -471,7 +477,7 @@
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u48.2">Señor Guillaumes, por el mismo grupo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u49"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u49.1">Gracias, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u49.2">Señorías, estamos hablando de la Resolución 1325, que hasta donde yo sé -quizá me equivoque- es la única que anualmente se celebra en las universidades y en muchos actos cívicos y públicos, y no es por casualidad. En derecho internacional, en caso de conflicto, existe un pequeño tesoro, que son las convenciones de Ginebra. Es un tesoro porque las han firmado prácticamente todos los países del planeta, pero justamente del tema de género casi no hablan; hablan en un sentido muy de su época de la defensa del honor y del pudor de las mujeres. Este hueco lo viene a ocupar la resolución 1325 y las seis subsiguientes que la complementan.</seg>
@@ -674,7 +680,7 @@
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u81.2">Por el grupo Popular, tiene la palabra la señora Rodríguez-Salmones.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u82"
-               who="#RodríguezsalmonesBeatriz"
+               who="#RodríguezSalmonesBeatriz"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u82.1">Muchas gracias, presidente.</seg>
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u82.2">Ante todo voy a agradecer a la señora Esteve y al señor Trevín -que no lo veo, pero supongo que estará por aquí- lo bien que hemos trabajado. Partimos de una iniciativa suya, la hemos trabajado en común, cada uno ha aportado lo que ha podido, se ha recabado el acuerdo con los demás grupos y creo que se ha trabajado especialmente bien. En esta tarde de hoy hemos tenido diversas despedidas, la de doña Trinidad Jiménez y la del señor Caldera y, sumándome a lo que todos han dicho de ellos, quiero agradecerles su labor. A saber dónde estaremos los demás en la próxima legislatura.</seg>
@@ -689,7 +695,7 @@
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u83.1">Señora Rodríguez-Salmones, tiene que acabar, porque se ha excedido mucho de su tiempo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u84"
-               who="#RodríguezsalmonesBeatriz"
+               who="#RodríguezSalmonesBeatriz"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u84.1">Ahora mismo termino, señor presidente.</seg>
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u84.2">Como decía, quiero hacer un reconocimiento a las organizaciones sociales, sin las cuales no podríamos estar haciendo todo esto: Acnur, CEAR, Cruz Roja, Cáritas, etcétera. Quiero garantizarles sencillamente que el mecanismo que ha puesto en marcha la vicepresidenta del Gobierno con ocho ministerios pondrá todo nuestro sistema autonómico, local y social a funcionar para esto.</seg>
@@ -699,7 +705,7 @@
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u85.1">Señora Rodríguez-Salmones, tiene que terminar. No puede sumarse a nada.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-29-CD150929.u86"
-               who="#RodríguezsalmonesBeatriz"
+               who="#RodríguezSalmonesBeatriz"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u86.1">Termino en este momento.</seg>
                <seg xml:id="ParlaMint-ES_2015-09-29-CD150929.u86.2">Señorías, vuelvo a agradecer el consenso con el que hoy vamos a votar esta proposición.</seg>

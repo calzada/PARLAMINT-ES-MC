@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2016-12-14-CD161214"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 20 (2016-12-14) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 20 (2016-12-14)</title>
             <title xml:lang="en" type="sub">Plenary session 20 (2016-12-14)</title>
-            <meeting n="20" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 20</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2016-12-14" corresp="#CD" ana="#parla.lower #parla.sitting">2016-12-14</meeting>
+            <meeting n="20" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 20</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -1435,7 +1441,7 @@
                <seg xml:id="ParlaMint-ES_2016-12-14-CD161214.u220.2">Por el Grupo Parlamentario Popular tiene la palabra la señora Sánchez-Camacho.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-12-14-CD161214.u221"
-               who="#SánchezcamachoAlicia"
+               who="#SánchezCamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2016-12-14-CD161214.u221.1">Buenos días, presidente. Buenos días, señoras y señores diputados.</seg>
                <seg xml:id="ParlaMint-ES_2016-12-14-CD161214.u221.2">Señor Homs, decía usted que el Partido Popular, el Gobierno del Partido Popular es previsible. ¿Sabe por qué? Porque el Gobierno del Partido Popular ha sido durante estos años el Gobierno de 7,5 millones de catalanes, ha sido el que ha ayudado en políticas sociales, en educación, en infraestructuras, en garantizar la liquidez, mientras ustedes se dedicaban solo a hablar de referéndum y a llevar a Cataluña a un callejón sin salida.<note>Aplausos</note> ¡Claro que somos previsibles!</seg>
@@ -1450,7 +1456,7 @@
                <seg xml:id="ParlaMint-ES_2016-12-14-CD161214.u222.1">Señora Sánchez-Camacho, tiene que ir acabando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-12-14-CD161214.u223"
-               who="#SánchezcamachoAlicia"
+               who="#SánchezCamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2016-12-14-CD161214.u223.1">Acabo, presidente.</seg>
                <seg xml:id="ParlaMint-ES_2016-12-14-CD161214.u223.2">Aquí están los hechos contundentes, pero este Gobierno quiere dialogar porque nos interesan, parece que más que a ustedes, los intereses, los problemas y las soluciones de los problemas reales de los catalanes, que no son desde luego el referéndum.</seg>
@@ -1462,7 +1468,7 @@
                <seg xml:id="ParlaMint-ES_2016-12-14-CD161214.u224.1">Debe acabar, señora Sánchez-Camacho.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-12-14-CD161214.u225"
-               who="#SánchezcamachoAlicia"
+               who="#SánchezCamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2016-12-14-CD161214.u225.1">Muy breve, presidente, con su venia, finalizo apelando a una frase que se dijo en el siglo XIII: hay que trabajar para seguir ayudando a salvar España. La dijo Jaume I el Conqueridor. Aprendan de la historia conjunta.</seg>
                <note>Aplausos</note>

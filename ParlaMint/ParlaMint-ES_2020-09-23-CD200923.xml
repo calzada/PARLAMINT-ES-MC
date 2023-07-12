@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-09-23-CD200923"
-     ana="#covid">
+     ana="#parla.sitting #covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 44 (2020-09-23) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 44 (2020-09-23)</title>
             <title xml:lang="en" type="sub">Plenary session 44 (2020-09-23)</title>
-            <meeting n="44" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 44</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Legislatura XIV</meeting>
+            <meeting n="2020-09-23" corresp="#CD" ana="#parla.lower #parla.sitting">2020-09-23</meeting>
+            <meeting n="44" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 44</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -461,7 +467,7 @@
                <seg xml:id="ParlaMint-ES_2020-09-23-CD200923.u72.1">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-23-CD200923.u73"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-23-CD200923.u73.1">Gracias, señora presidenta. Muchas gracias, señor Gil Lázaro.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-23-CD200923.u73.2">Blanquear la historia criminal de ETA es lo que hacen usted y su grupo parlamentario constantemente tratando de mantener viva a una organización terrorista vencida y disuelta.</seg>
@@ -481,7 +487,7 @@
                <seg xml:id="ParlaMint-ES_2020-09-23-CD200923.u76.2">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-23-CD200923.u77"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-23-CD200923.u77.1">Muchas gracias, señora presidenta. Muchas gracias, señor Gil Lázaro.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-23-CD200923.u77.2">Tranquilamente he de referir que el blanqueamiento de la historia de la organización terrorista ETA se materializa con una conducta que es propia de ustedes: el negacionismo. Niegan el papel de mi partido, del Partido Socialista, y de otros partidos políticos que están presentes en esta Cámara en la derrota de la organización terrorista ETA y de paso niegan el sufrimiento de mucha gente que fue amenazada por la misma. Les molesta a ustedes la unidad de los demócratas, les molesta a ustedes, les duele la concordia de los que somos diferentes, niegan también a las instituciones democráticas, niegan la contribución de las instituciones democráticas al fin de ETA, niegan la profesionalidad y el heroísmo de las Fuerzas y Cuerpos de Seguridad del Estado, de jueces, de fiscales, de concejales, de los que estuvieron y estuvimos en primera línea luchando contra la organización terrorista ETA, y lo niegan ¿sabe cuándo? Cuando insisten en que ETA sigue existiendo. Niegan, en definitiva, un hecho importante y primordial, que el orden democrático, el Estado de derecho, fue capaz de vencer a la organización terrorista ETA.<note>Aplausos</note> Señor Gil Lázaro, ustedes constantemente y con el discurso del odio que les es tan constante, lo único que hacen es intentar hacernos olvidar algo importante, que fue la firmeza de nuestra democracia, la solidez de nuestras instituciones, la dignidad de la sociedad española, el trabajo de jueces y fiscales, Fuerzas y Cuerpos de Seguridad del Estado, la labor de la memoria de las víctimas que permitió que la organización terrorista esté donde está hoy, derrotada y disuelta, y evidentemente desaparecida. No nos van hacer olvidar una cuestión muy concreta: la democracia consiguió vencer uno de los males que ha tenido este país en los últimos ochenta años, la organización terrorista ETA.</seg>

@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2017-10-18-CD171018"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 79 (2017-10-18) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 79 (2017-10-18)</title>
             <title xml:lang="en" type="sub">Plenary session 79 (2017-10-18)</title>
-            <meeting n="79" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 79</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2017-10-18" corresp="#CD" ana="#parla.lower #parla.sitting">2017-10-18</meeting>
+            <meeting n="79" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 79</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -939,7 +945,7 @@
                <seg xml:id="ParlaMint-ES_2017-10-18-CD171018.u158.2">Adelante, señoría.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-10-18-CD171018.u159"
-               who="#GómezreinoAntonio"
+               who="#GómezReinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-10-18-CD171018.u159.1">Bos días.</seg>
                <seg xml:id="ParlaMint-ES_2017-10-18-CD171018.u159.2">¿Qué medidas ha tomado el Gobierno para evitar la ola de incendios en Galicia así como en Asturias y en León?</seg>
@@ -961,7 +967,7 @@
                <seg xml:id="ParlaMint-ES_2017-10-18-CD171018.u162.2">Señor Gómez-Reino, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-10-18-CD171018.u163"
-               who="#GómezreinoAntonio"
+               who="#GómezReinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-10-18-CD171018.u163.1">Serra do Xurés, O Galiñeiro, O Courel, Os Ancares, Ribeira Sacra, más de 276 incendios, 11 500 hectáreas calcinadas, una auténtica marea negra de monte arrasado. Asistimos a una catástrofe ambiental y social en Galicia y tiene responsables: los Gobiernos del Partido Popular. Ustedes nos decían: No existe cambio climático. Lo dijo el señor Hernando en esta Cámara.<note>El señor Henando Fraile hace signos negativos</note> Por eso dedican lo mismo a un kilómetro de AVE que a políticas contra el cambio climático.<note>Rumores</note> Ustedes nos decían que no hay ningún problema con el monocultivo del eucalipto, 23 000 hectáreas quemadas y, eso sí, la industria papelera de sus amigos contenta.</seg>
                <seg xml:id="ParlaMint-ES_2017-10-18-CD171018.u163.2">Ustedes nos decían que no pasa nada por privatizar las emergencias y el señor Feijóo despide a 436 brigadistas para luego acabar implorando la colaboración ciudadana. ¡Qué desfachatez después de privatizar, de precarizar y de desmantelar los servicios de emergencia, intentar apropiarse de su trabajo! Los servicios de emergencia trabajan a pesar de ustedes. Mienten descaradamente y no lo digo yo, lo dice el presidente de la Plataforma de bomberos públicos de Galicia. Galicia no ardió, la quemaron sus políticas.<note>Aplausos.-El señor Gómez-Reino Varela muestra una fotografía</note> Nos preguntamos dónde estaba el Estado cuando se le necesitaba, dónde estaba su patriotismo cuando la gente los necesitaba. En Galicia estamos ya demasiado acostumbrados a hacer lo que el Estado no hace. Lo hicimos con el Prestige sacando el chapopote con nuestras manos y se hizo este fin de semana otra vez apagando los fuegos con cubos en los montes y en las calles.<note>Rumores.-Aplausos</note> Y yo les pregunto: ¿Por qué no dejan de favorecer a las empresas que hacen negocio con el fuego? Y mientras se quemaba Galicia, los medios de televisión públicos silenciados, los periodistas silenciados y luego propaganda, propaganda y<pb n="29"/> propaganda. Pero no nos vamos a quedar callados mientras tratan de pisotear la dignidad de los gallegos y de las gallegas, mientras tratan de acabar con el futuro de nuestros hijos y de nuestras hijas.<note>Aplausos</note> Acabo ya. ¡Malditos pirómanos! ¡Claro que sí! ¡Malditos pirómanos que desde los Gobiernos hacen políticas que queman nuestros montes!</seg>

@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-06-19-CD180619"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 124 (2018-06-19) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 124 (2018-06-19)</title>
             <title xml:lang="en" type="sub">Plenary session 124 (2018-06-19)</title>
-            <meeting n="124" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 124</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2018-06-19" corresp="#CD" ana="#parla.lower #parla.sitting">2018-06-19</meeting>
+            <meeting n="124" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 124</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -321,7 +327,7 @@
                <seg xml:id="ParlaMint-ES_2018-06-19-CD180619.u37.2">Para la presentación de la iniciativa tiene la palabra el señor Martín-Toledano Suárez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-06-19-CD180619.u38"
-               who="#MartíntoledanoJosé"
+               who="#MartínToledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-06-19-CD180619.u38.1">Buenas tardes, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-06-19-CD180619.u38.2">Señorías, hoy traemos a debate la aceptación de la tramitación de una proposición de ley del Grupo Popular que tengo que calificar como proposición histórica, porque viene a reconocer los derechos como<pb n="20"/> agentes de la autoridad de los funcionarios de prisiones, que ha sido una reclamación histórica de este colectivo y que nunca nadie antes había presentado como una proposición de ley, sino como meras PNL, meras sugerencias o meras preguntas.</seg>
@@ -331,7 +337,7 @@
                <seg xml:id="ParlaMint-ES_2018-06-19-CD180619.u39.1">¡Silencio!</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-06-19-CD180619.u40"
-               who="#MartíntoledanoJosé"
+               who="#MartínToledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-06-19-CD180619.u40.1">Creo que nos acompañan algunos representantes de los funcionarios de prisiones y los quiero saludar, porque esta proposición de ley es también en gran parte suya. El Grupo Popular se ha reunido con todos ellos en numerosas ocasiones, también todos nuestros diputados se han reunido en todas las provincias y hemos considerado que era imprescindible atender esta reivindicación histórica porque se estaba produciendo una situación de inseguridad laboral dentro de los centros penitenciarios. Con esta proposición, si no se entorpece su tramitación y puede ser aprobada rápidamente, tendrán una mayor protección ante las agresiones.</seg>
                <seg xml:id="ParlaMint-ES_2018-06-19-CD180619.u40.2">Quiero decir que lo que proponemos es una modificación puntual de la Ley Orgánica General Penitenciaria, en concreto del artículo 80, y se hacen cinco modificaciones. La primera es que se les reconoce a los funcionarios de prisiones a todos los efectos como agentes de la autoridad, exactamente igual que Policía Nacional y Guardia Civil. La segunda es que a los funcionarios de prisiones, en un expediente administrativo, en una declaración judicial, podrán ser identificados por su número profesional y no por su nombre y apellidos. La tercera es que además sus informes tendrán presunción de veracidad, igual que los del resto de los agentes. La cuarta es que si sufren una agresión grave, esa agresión será tramitada como delito a la autoridad, exactamente igual que Policía Nacional y Guardia Civil. Y la quinta es que, al igual que Guardia Civil y Policía Nacional, si tienen una condena penal, en su ingreso en prisión estarán separados del resto de los internos, así como en los traslados que se produzcan desde los centros de detención al juzgado o a cualquier centro médico; para garantizar su seguridad física, estarán separados en todo momento del resto de los internos.</seg>
@@ -382,7 +388,7 @@
                <seg xml:id="ParlaMint-ES_2018-06-19-CD180619.u47.2">También por el Grupo Parlamentario Mixto, tiene la palabra el señor Guillaumes i Ràfols.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-06-19-CD180619.u48"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-06-19-CD180619.u48.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-06-19-CD180619.u48.2">No esperaba empezar como lo voy a hacer. Quiero decir al portavoz del Grupo Parlamentario Popular que lo que queremos con los presos políticos es que se cumpla la ley, que dice que si no hay sentencia firme, los presos tienen que estar próximos, cerca de su casa. Recordaré desde aquí a Jordi Cuixart, que se le encerró con un niño de seis meses de edad y ahora ya tiene un año. Este niño ha hecho más de 30.000 kilómetros para ir a ver a su padre cada fin de semana. ¿A usted eso le parece decente? Y mientras tanto a los señores de Blanquerna se les quitó la pena, entre otros argumentos diciendo que tenían hijos a su cargo y que, por tanto, les podían causar un trauma.<note>Aplausos</note> Este chaval de seis meses ha tenido que hacer 30 000 kilómetros. ¿A usted le parece normal? En fin, no era de eso de lo que veníamos a hablar hoy.</seg>

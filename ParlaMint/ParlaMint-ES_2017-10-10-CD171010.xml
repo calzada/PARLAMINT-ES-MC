@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2017-10-10-CD171010"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 76 (2017-10-10) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 76 (2017-10-10)</title>
             <title xml:lang="en" type="sub">Plenary session 76 (2017-10-10)</title>
-            <meeting n="76" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 76</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2017-10-10" corresp="#CD" ana="#parla.lower #parla.sitting">2017-10-10</meeting>
+            <meeting n="76" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 76</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -1169,7 +1175,7 @@
                <seg xml:id="ParlaMint-ES_2017-10-10-CD171010.u164.2">Por el Grupo Parlamentario Popular, tiene la palabra la señora Sánchez-Camacho.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-10-10-CD171010.u165"
-               who="#SánchezcamachoAlicia"
+               who="#SánchezCamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-10-10-CD171010.u165.1">Gracias, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2017-10-10-CD171010.u165.2">Señoras y señores diputados, subo aquí como diputada catalana y como diputada española, ante uno de los momentos más cruciales de la historia de la democracia contemporánea en estos cuarenta años. En estos momentos, señorías, se está perpetrando un golpe a la democracia en el Parlamento catalán, que representa a siete millones y medio de catalanes.<note>Aplausos</note> El señor Puigdemont acaba de anunciar que el referéndum justifica el aval a una república independiente, y acto seguido ha dicho que suspende esos efectos.</seg>
@@ -1182,7 +1188,7 @@
                <seg xml:id="ParlaMint-ES_2017-10-10-CD171010.u166.1">Señoría, tiene que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-10-10-CD171010.u167"
-               who="#SánchezcamachoAlicia"
+               who="#SánchezCamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-10-10-CD171010.u167.1">Señoría, finalizo.</seg>
                <seg xml:id="ParlaMint-ES_2017-10-10-CD171010.u167.2">Aquí algunos hablan de la alquimia de las palabras del diálogo, y las palabras del diálogo llevan mucho más detrás, muchísimo más. Aquí hablan de la alquimia del derecho a decidir. Las cosas no son tan fáciles, porque ellos no han querido nunca dialogar. Ellos tenían el diálogo falso y envenenado, el diálogo de la imposición, del referéndum sí o sí, y ahora ¿sabe para qué piden esta suspensión de seis meses? No para solucionar la cosa para todos los españoles, no. Lo piden para que consigamos darles la independencia de Cataluña, y no se la vamos a dar, porque si alguien va a garantizar aquí la unidad, la defensa de todos los españoles y la igualdad y las libertades que no existen en mi tierra va a ser mi partido, porque además de ser catalana y española soy miembro del partido que da apoyo al Gobierno,<pb n="63"/> que es el único que está teniendo sentido de Estado para garantizar los derechos, las libertades y la pluralidad de la sociedad catalana.</seg>

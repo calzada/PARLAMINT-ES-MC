@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-10-10-CD181010"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 147 (2018-10-10) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 147 (2018-10-10)</title>
             <title xml:lang="en" type="sub">Plenary session 147 (2018-10-10)</title>
-            <meeting n="147" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 147</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2018-10-10" corresp="#CD" ana="#parla.lower #parla.sitting">2018-10-10</meeting>
+            <meeting n="147" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 147</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -761,7 +767,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u126.2">Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-10-CD181010.u127"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u127.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u127.2">Señora Blanco, no sé a qué se refiere cuando dice por qué hemos retrasado la equiparación salarial, lo que hemos dado es contenido en tiempo -y en tiempo récord- a algo que ustedes habían dejado en alfileres.</seg>
@@ -781,7 +787,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u130.1">Señor ministro, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-10-CD181010.u131"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u131.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u131.2">Gracias, señora Blanco. Yo únicamente, habiéndola escuchado muy atentamente, creo que usted ha vivido otra realidad en relación con la equiparación salarial de las Fuerzas y Cuerpos de Seguridad del Estado. Creo que ha vivido otra realidad y me remito a lo que aconteció el viernes pasado cuando nos reunimos en el Consejo de Ministros para hacer efectiva ya la actualización de sus nóminas a fecha de la nómina del mes de octubre, pagándoles todos los retrasos desde el mes de enero. Allí se sentaron todos los sindicatos del Cuerpo Nacional de Policía, se sentaron todas las asociaciones de Guardia Civil, reconociendo el trabajo ímprobo que se había realizado desde el Ministerio del Interior, desde la Secretaría de Estado de Seguridad, desde la Subsecretaría de Estado, a través de nuestra coordinación y cooperación con el Ministerio de Política Territorial y Función Pública y con el Ministerio de Hacienda, a los que agradezco su trabajo efectivo y real durante los meses de julio y agosto. Hubo que reunir la Cecir porque ustedes no habían dejado nada claro, habían hecho un acuerdo abstracto, nada concreto, y había que materializar y realizar mucho más. Pero hemos contado con el apoyo y la ayuda de los sindicatos y de las asociaciones, ellos han permitido realmente esa equiparación salarial con las fuerzas y cuerpos de otras comunidades autónomas, que se hará efectiva en 807 millones hasta el año 2020, en tres anualidades. Este año ya tenemos 310 millones. Los presupuestos fueron aprobados en julio, con lo cual mal podían pagarse o abonarse esas nóminas y esos retrasos en la nómina del mes de julio. Se ha pagado en el mes de octubre con trabajo récord, con eficacia y eficiencia -vuelvo a referir- de las Fuerzas y Cuerpos de Seguridad del Estado, de sus sindicatos y de sus asociaciones, del Ministerio del Interior, del Ministerio de Política Territorial y Función Pública y del Ministerio de Hacienda, todos trabajando, porque a nosotros nos ocupan y nos preocupan las Fuerzas y Cuerpos de Seguridad del Estado, nos ocupa la equiparación salarial y será una ocupación para el año que viene. ¿Sabe cómo va a ser más fácil aún que lo podamos conseguir? Si ustedes también aprueban la nueva senda de gasto, esos 6000 millones de los que se habla. No hace falta que aprueben ustedes los presupuestos...</seg>
@@ -796,7 +802,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u133.2">Adelante, señoría.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-10-CD181010.u134"
-               who="#MartíntoledanoJosé"
+               who="#MartínToledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u134.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u134.2">Señor ministro, tras escuchar su respuesta a mi compañera Mari Mar Blanco le tengo que decir que no intente colgarse las medallas que no le corresponden porque ustedes en la equiparación salarial, su partido, el Partido Socialista, no hicieron nada, lo hizo todo el Partido Popular.<note>Aplausos.-Varios señores diputado: ¡Muy bien!</note> Esto es lo primero que le tengo que decir. Lo segundo es que no amenace con no pagar la equiparación de 2019, no amenace, porque no es necesaria la aprobación de los presupuestos, no es necesaria.<note>Rumores</note> En relación con la pregunta que le quería realizar, tiene que saber usted que el Partido Popular le quiere exigir que respalde a las Fuerzas y Cuerpos de Seguridad del Estado en el cumplimiento de sus funciones constitucionales en la Comunidad Autónoma de Cataluña. No nos parece de recibo que el pasado 1 de octubre la Policía Nacional tuviera que estar encerrada en sus comisarías y que fueran los Mossos d'Esquadra los que protegieran los edificios del Estado. ¿Cuál es la razón? ¿Por qué dio usted esa orden? ¿Esa orden se corresponde con su negociación en la Junta de Seguridad con el señor Torra?</seg>
@@ -806,7 +812,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u135.1">Señor ministro, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-10-CD181010.u136"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u136.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u136.2">Señoría, vuelvo a referir lo mismo. Supongo que sus comentarios relativos a esto serán debidos simplemente a ignorancia, mala fe no la supongo en usted. Nosotros vamos a seguir defendiendo la equiparación salarial y que se haga efectiva en su integridad hasta 2020. No tenga ninguna duda y no genere dudas en las Fuerzas y Cuerpos de Seguridad del Estado. Parece que le sienta mal que nosotros hayamos llegado a un acuerdo definitivo e importante y, ¿sabe a qué? A una confianza, de la cual parece que no tenían todas con ustedes.<note>Aplausos</note> En relación con lo que usted me dice de Cataluña, usted es conocedor de cómo hicimos un dispositivo de prevención tanto de Guardia Civil como del Cuerpo Nacional de Policía. ¿Sabe la diferencia entre ustedes y nosotros? ¿Sabe la diferencia con un Gobierno socialista? Que nosotros nos creemos siempre la seguridad pública bajo los principios de la proporcionalidad y la necesidad. No quiero remitirme a hace un año.</seg>
@@ -816,7 +822,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u137.1">Señor Martín-Toledano.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-10-CD181010.u138"
-               who="#MartíntoledanoJosé"
+               who="#MartínToledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u138.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u138.2">Señor ministro, no sé si será su ignorancia pero no conoce usted que su grupo en el Senado ha presentado una enmienda en la que dice que si no se aprueban los Presupuestos Generales del Estado del 2019 peligra la equiparación salarial de las Fuerzas y Cuerpos de Seguridad del Estado. Debe de desconocerlo, no debe de ser su mala fe.</seg>
@@ -827,7 +833,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u139.1">Señor ministro, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-10-CD181010.u140"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u140.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u140.2">Señoría, he de abandonar su ignorancia; creo que es mala fe. Lo repito, si no se aprobaron los presupuestos -se lo puede preguntar usted al exministro de Hacienda- peligra casi todo, pero no va<pb n="24"/> peligrar la equiparación salarial porque sea como sea y con los instrumentos necesarios, siempre amparados en el ordenamiento jurídico, comprometeremos nuestra palabra por esa equiparación salarial.</seg>
@@ -849,7 +855,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u143.1">Señor ministro, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-10-CD181010.u144"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u144.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u144.2">Señoría, no se qué responderle porque yo creo que usted está haciendo un relato que no obedece a la realidad, que es un planteamiento que ya traía usted. Es muy grave lo que está ocurriendo en Cataluña, por supuesto, pero ahí no me va a coger usted. Los actos violentos, los actos agresivos, los actos contra la libertad de expresión ideológica del conjunto de la sociedad, ¿quién va a negarlos? Pero yo creo que este año no es como el año pasado, cuando ustedes gobernaban con el Partido Popular, yo creo que sí hay algo menos de tensión y que por lo menos la sociedad catalana lo ve así. Hay conatos muy graves, evidentemente; lo que aconteció el 1 de octubre, donde los Mossos d'Esquadra tuvieron que hacer frente de una manera proporcional y efectiva, fueron hechos muy graves, pero no he visto que por parte de mucha gente en esta Cámara se haya reconocido el trabajo de los Mossos d'Esquadra esos días. El ministro del Interior, como no podía ser de otro modo, reconoce el trabajo de los Mossos d'Esquadra ese día, la proporcionalidad y la necesidad de su actuación y cómo, dentro de la dificultad de esos hechos, intentaron no, garantizaron que los mismos no tuvieron continuidad y que pudiera restablecerse un espacio<pb n="25"/> razonable para el ejercicio de los derechos y libertades. Pero vuelvo a decir, depende de todos nosotros no tirar más leña, no tirar más gasolina al fuego.</seg>
@@ -870,7 +876,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u147.1">Señor ministro, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-10-CD181010.u148"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u148.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u148.2">Señoría, lo primero, por favor, no diga falsedades. Yo no he dicho el término asumible.<note>Rumores.-Varios señores diputados: Bueno...</note> No; bueno, no; o lo he dicho, o no lo he dicho.</seg>
@@ -880,7 +886,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u149.1">¡Silencio!</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-10-CD181010.u150"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u150.1">Perdone, perdone.</seg>
                <note>Un señor diputado pronuncia palabras que no se perciben.-El señor ministro de Fomento, Ábalos Meco: A las doce del mediodía no había dicho nada.-Rumores</note>
@@ -889,7 +895,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u151.1">¡Silencio, está en uso de la palabra el señor ministro!</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-10-CD181010.u152"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u152.1">Estoy hablando yo ahora.<note>Rumores.-El señor ministro de Fomento, Ábalos Meco: A las doce del mediodía</note> Perdóneme que le diga que sea un poco más sincero, que sea un poco más honesto.<note>Rumores</note> Para mí el hecho de garantizar un espacio público es tan importante, es tan serio como para el resto de los ciudadanos. Creo que me he caracterizado y me sigo caracterizando por ello. Y le vuelvo a repetir: lo acontecido este año no tiene nada que ver con lo...</seg>
                <note>Aplausos</note>
@@ -915,7 +921,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u156.2">Señor ministro, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-10-CD181010.u157"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u157.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u157.2">Señor Rufián, yo creo que es una cuestión bastante simple, evidentemente cualquier actuación, cualquier acción que no se corresponda con la legalidad, que no se corresponda con nuestro ordenamiento jurídico y más si es cometida por un funcionario público, sea policía, sea guardia civil, sea funcionario civil, es decir, cualquier miembro de la Administración, evidentemente tendrá la respuesta oportuna conforme al ordenamiento jurídico; pero le diré una cosa, cualquier violencia venga de quien venga, también de cualquier ciudadano que trate de menoscabar o perturbar el desarrollo de la convivencia en términos pacíficos y donde todos nos podamos ejercitar como bien entendamos, en esos términos, ahí estaremos. Pero déjeme que le concluya que eso de lo que usted habla estoy convencido de que, de ser cierto, es una auténtica minoría, porque las Fuerzas y Cuerpos de Seguridad del Estado, más como usted que como yo, ya nacieron -los que actualmente están destinados- en democracia.</seg>
@@ -936,7 +942,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u160.1">Señor ministro. Adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-10-CD181010.u161"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u161.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u161.2">Señor Rufián, nos caracterizamos por ser un Estado de derecho. Todos esos acontecimientos a los que usted ha hecho referencia -no voy a entrar en si son verdad o no son verdad-, en caso de ser ciertos, me ofenderían a mí tanto como a cualquier ciudadano. Pero, ¿sabe cuál es la ventaja? Que de algunos de ellos sí tengo constancia de que en este país, que es un Estado de derecho, ya están judicializados, con lo cual dejemos que los tribunales resuelvan conforme al procedimiento adecuado y que otro poder del Estado, como sería el Ejecutivo, no interfiera. En aquellos que no dependen del Poder Judicial porque los hechos no son constitutivos aparentemente de delito y que puedan serlo de una infracción o sanción administrativa, no tenga duda de que ya se han abierto expedientes -como usted sabe-, se están tramitando y la resolución que caerá será la procedente. Pero vuelvo a decir que los funcionarios públicos tenemos un plus, todos, de garantizar la neutralidad política en nuestras actuaciones. Y nuestras Fuerzas y Cuerpos de Seguridad del Estado lo hacen día a día.</seg>
@@ -958,7 +964,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u164.2">Señor ministro, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-10-CD181010.u165"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u165.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u165.2">Muchas gracias, señor Legarda. En este aspecto estamos actualmente en trámite de elaboración del nuevo plan de amortización y construcción de centros y establecimientos penitenciarios. En ese sentido, la Siepse, que es la sociedad estatal en la materia, actualmente presidida por Mercedes Gallizo, está haciendo una planificación del conjunto de centros penitenciarios, con el fin de determinar aquellos que pueden ser amortizados, aquellos que exigen una reubicación, reestructuración, etcétera, que verá la luz próximamente. Dentro de ese plan, ya puedo adelantar que una de las principales novedades será el cierre de Martutene, la construcción de un centro penitenciario y también de un CIS, de un centro de inserción social, en el polígono de la zona de Zubieta, donde están esos terrenos a los que hemos hecho referencia. Todo se realizará con la mayor celeridad. Será un nuevo centro penitenciario que tendrá entre doscientas y trescientas plazas para internos, tanto preventivos como de cumplimiento. Será un centro pequeño-mediano pero entendemos que bastante acorde con las necesidades, y también habrá un CIS, un centro de inserción social, para garantizar los terceros grados y el cumplimiento de las medidas alternativas a las penas privativas de libertad.</seg>
@@ -980,7 +986,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u168.2">Señor ministro, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-10-CD181010.u169"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u169.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-10-CD181010.u169.2">Señor Legarda, he intentado manifestarle el compromiso de inmediatez en el cierre de Martutene cuando esté construido el nuevo centro penitenciario, que también será en breve. Es una decisión política que he anunciado en el día de hoy. He referido que será un centro penitenciario medio pero también será un CIS. Y en cuanto a las fechas, no quiero decir enero, febrero o junio de...</seg>

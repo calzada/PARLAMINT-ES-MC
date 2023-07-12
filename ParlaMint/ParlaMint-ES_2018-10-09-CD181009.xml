@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-10-09-CD181009"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 146 (2018-10-09) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 146 (2018-10-09)</title>
             <title xml:lang="en" type="sub">Plenary session 146 (2018-10-09)</title>
-            <meeting n="146" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 146</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2018-10-09" corresp="#CD" ana="#parla.lower #parla.sitting">2018-10-09</meeting>
+            <meeting n="146" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 146</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -403,7 +409,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-09-CD181009.u38.2">Por el Grupo Parlamentario Confederal de Unidos Podemos-En Comú Podem-En Marea, tiene la palabra el señor Gómez-Reino Varela.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-09-CD181009.u39"
-               who="#GómezreinoAntonio"
+               who="#GómezReinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-09-CD181009.u39.1">Boas tardes. Gracias, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-09-CD181009.u39.2">Esta proposición de ley debería avergonzar, a nuestro juicio, al Partido Popular; desde luego, para nosotros y nosotras es indigna de esta Cámara. El Partido Popular está haciendo una demostración práctica de lo que no hay que hacer en política, particularmente en política parlamentaria, todo aquello por lo que la gente estaba tan distante y furiosa con las fuerzas políticas del bipartidismo, todo eso por lo que gritaban: No nos representan.</seg>
@@ -1212,7 +1218,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-09-CD181009.u161.2">Al no haberse presentado enmiendas a esta iniciativa, pasamos al turno de fijación de posiciones. Por el Grupo Parlamentario Mixto, tiene la palabra el señor Guillaumes i Ràfols.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-09-CD181009.u162"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-09-CD181009.u162.1">Bona tarda, presidenta, senyories.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-09-CD181009.u162.2">Dado lo limitado de nuestro tiempo, me centraré -la verdad es que la historia de la ministra llenaría toda una biblioteca- en lo que más interesa a nuestro grupo, que es el tema del juez Llarena. Si una cosa buena tiene este intento de reprobación es que salgan a la luz este tipo de actuaciones, que supongo que nadie definirá como normales.</seg>
