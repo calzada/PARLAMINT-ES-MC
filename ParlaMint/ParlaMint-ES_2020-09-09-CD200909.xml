@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-09-09-CD200909"
-     ana="#covid">
+     ana="#parla.sitting #covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 39 (2020-09-09) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 39 (2020-09-09)</title>
             <title xml:lang="en" type="sub">Plenary session 39 (2020-09-09)</title>
-            <meeting n="39" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 39</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Legislatura XIV</meeting>
+            <meeting n="2020-09-09" corresp="#CD" ana="#parla.lower #parla.sitting">2020-09-09</meeting>
+            <meeting n="39" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 39</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -493,7 +499,7 @@
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u78.1">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-09-CD200909.u79"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u79.1">Muchas gracias, señora presidenta. Muchas gracias, señora Borràs.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u79.2">He de decirle que la protección y la seguridad del anterior jefe del Estado, del rey Juan Carlos, carece de una partida presupuestaria específica y, por lo tanto, no hay un gasto adicional en los Presupuestos Generales del Estado.</seg>
@@ -512,7 +518,7 @@
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u82.1">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-09-CD200909.u83"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u83.1">Muchas gracias, señora presidenta. Muchas gracias, señora Borràs.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u83.2">Seré breve. No voy a entrar en cada una de las acusaciones que usted ha centrado en el Gobierno, en el Parlamento y en las Fuerzas y Cuerpos de Seguridad del Estado. Voy a hacer referencia a la intervención parlamentaria del día de hoy y a su pregunta, que me parece importante y relevante en cuanto a su objetivo. Trataré de seguir dos criterios principales en mi intervención: responsabilidad y rigor. En relación con la responsabilidad, entenderá que no dé ningún dato -como no he dado ni daré- de ninguna autoridad ni de la seguridad con la que se dota a cualquier autoridad del Estado, sea central, autonómica o local y en cualquier circunstancia. En segundo lugar, déjeme que practique y practiquemos un poco de rigor: en materia del coste de la seguridad, le vuelvo a referir en esos términos y con esos criterios que no hay ninguna partida específica asignada a la protección del anterior jefe del Estado y tampoco hay ningún gasto adicional dentro de lo que ya fue aprobado en los Presupuestos Generales del Estado vigentes.</seg>
@@ -532,7 +538,7 @@
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u86.1">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-09-CD200909.u87"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u87.1">Muchas gracias, señora presidenta. Muchas gracias, señora Gorospe.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u87.2">Compartimos la preocupación a la que usted ha hecho alusión, ya lo referimos en el Senado también a una pregunta del Grupo Vasco. Y en ese sentido, estamos comprometidos con el fortalecimiento y el robustecimiento de los servicios públicos, reforzando, como usted bien sabe, la provisión de puestos de examinadores a través de procesos selectivos del cuerpo administrativo común, en concreto en el ámbito de tráfico, también trasladando examinadores itinerantes para apoyarles y habilitarles en la celebración de exámenes, y reforzando, en definitiva, todas las actuaciones necesarias que colmen la falta de examinadores que nos encontramos cuando llegamos al Gobierno, sobre todo en provincias, como bien sabe, como Málaga o Guipúzcoa.</seg>
@@ -552,7 +558,7 @@
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u90.2">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-09-CD200909.u91"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u91.1">Muchas gracias, señora presidenta. Muchas gracias, señora Gorospe.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u91.2">Completamente de acuerdo. Pero es que no lo estamos haciendo, no estamos en generalidades; estamos trabajando sobre el terreno y estamos ayudando. Y le daré datos. Hemos habilitado convocatorias de exámenes fuera del horario laboral. En julio y en agosto se ha estado trabajando, se han realizado el doble de exámenes que el año pasado, por circunstancias concretas que todos sabemos. Hemos realizado, por esa razón, traslados de examinadores itinerantes. Y los examinadores no se crean de hoy para mañana: se necesita tiempo, concursos públicos, exámenes, etcétera. Hemos hecho atribuciones temporales de funciones también para poder solventar esos problemas a los que usted hace referencia de necesidad de examinadores y delimitar las listas de espera en los términos indicados y para garantizar la movilidad, para garantizar el crecimiento económico y, evidentemente, para dar un servicio público imprescindible al conjunto de los ciudadanos. Y también hemos convocado concursos públicos para la selección de examinadores. Pero usted obvia una realidad, obvia la realidad del COVID, obvia la realidad de cómo nos hemos visto limitados en la movilidad durante cuatro y cinco meses. No obstante, he de agradecer a la Dirección General de Tráfico y a todos sus funcionarios que desde el primer momento, desde la fase 2, ya se reiniciaron los exámenes. Como le he dicho, este verano y en el mes de agosto se han realizado más de 177 000 pruebas de circulación, un 30 % más que en agosto del año pasado, y seguimos trabajando...</seg>
@@ -577,7 +583,7 @@
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u95.1">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-09-CD200909.u96"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u96.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u96.2">Muchas gracias, señora Aizpurua.</seg>
@@ -597,7 +603,7 @@
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u99.2">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-09-CD200909.u100"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u100.1">Muchas gracias, señora presidenta. Muchas gracias, señora Aizpurua.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u100.2">He de decirle, en primer lugar, que usted está intentando -creo yo, al menos- mezclar el fallecimiento de un interno con una supuesta política de tratamiento penitenciario hacia un colectivo, pero le diré que la legislación penitenciaria y la legislación española en ese sentido es modélica. Evidentemente, se guía por criterios individualizados de los internos, atendiendo a criterios técnico-jurídicos y desde Instituciones Penitenciarias se está trabajando en esas circunstancias. Fruto de las mimas, en estos dos años de tratamiento individualizado y no colectivo noventa presos de la organización terrorista ETA han sido trasladados, han sido progresados en grado y siempre con el control judicial, como debe ser, evidentemente.</seg>
@@ -936,7 +942,7 @@
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u159.2">Para la defensa de las enmiendas formuladas por sus grupos interviene, en primer lugar, por el Grupo Parlamentario Confederal de Unidas Podemos-En Comú Podem-Galicia en Común, el señor Gómez-Reino Varela.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-09-CD200909.u160"
-               who="#GómezreinoAntonio"
+               who="#GómezReinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u160.1">Bo dia. Gracias, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-09-CD200909.u160.2">Bo dia, señorías. Desgraciadamente es necesario reconocer -y que aquí en esta Cámara se reconozca- que la crisis industrial que sufre Galicia viene ya de lejos, que las causas son muchas, la mayoría conocidas, pero muchas invisibilizadas: la especialización productiva impulsada por la Comunidad Económica Europea; la constante privatización de empresas públicas que se dió en el Estado desde los años ochenta; la inexistencia de políticas industriales de calado en Galicia y en el Estado -hay que recordar aquello de la mejor política industrial es la que no se tiene- y, por qué no decirlo, en lo que tiene que ver con mi país, con Galicia, Gobiernos autonómicos pero también centrales que o bien no entendieron la potencialidad de nuestro país en materia industrial o bien prefirieron priorizar otros territorios u otros modelos económicos siempre más frágiles, más dependientes, menos soberanos, antes que fortalecer la política industrial en Galicia. Pese a todo -y gracias fundamentalmente a la movilización de los trabajadores todos estos años, pero también estos meses-, la vida industrial, naval, tecnológica de Galicia continúa resistiendo y es hora de que en este contexto -en el que en toda Europa se está hablando de relocalizar, de reindustrializar- le demos un impulso a la actividad industrial en Galicia.</seg>

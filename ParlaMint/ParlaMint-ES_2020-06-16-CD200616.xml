@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-06-16-CD200616"
-     ana="#covid">
+     ana="#parla.sitting #covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 28 (2020-06-16) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 28 (2020-06-16)</title>
             <title xml:lang="en" type="sub">Plenary session 28 (2020-06-16)</title>
-            <meeting n="28" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 28</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Legislatura XIV</meeting>
+            <meeting n="2020-06-16" corresp="#CD" ana="#parla.lower #parla.sitting">2020-06-16</meeting>
+            <meeting n="28" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 28</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -272,7 +278,7 @@
                <seg xml:id="ParlaMint-ES_2020-06-16-CD200616.u30.2">Por el Grupo Parlamentario Popular en el Congreso, tiene la palabra la señora García-Pelayo Jurado.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-06-16-CD200616.u31"
-               who="#GarcíapelayoMaría"
+               who="#GarcíaPelayoMaría"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-06-16-CD200616.u31.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-06-16-CD200616.u31.2">Señoras y señores diputados, permítanme desde el inicio de mi intervención que deje clara la postura del Grupo Parlamentario Popular, del Partido Popular. El Partido Popular no puede permitir que en este Pleno del Congreso se hable sobre los derechos que se tienen que reconocer en el ámbito de las instituciones penitenciarias y que este Pleno guarde silencio en relación con la situación que viven, o que malviven, los funcionarios y funcionarias de prisiones. Por eso, quiero decir desde este momento que el Grupo Parlamentario Popular ha presentado dos bloques de enmiendas: el primero, se refiere a los derechos de las mujeres reclusas en los que entendemos que hay que avanzar, y el segundo bloque importante de enmiendas que también hemos presentado, propone que se reconozcan los derechos de unos trabajadores y trabajadoras que entendemos que son, y que han sido, despreciados por parte del Gobierno socialista.<note>Aplausos</note> Un grupo que trabaja todos los días, precisamente, por garantizar los derechos de las mujeres reclusas; un grupo de funcionarios y funcionarias que se dejan la piel todos los días por que las mujeres reclusas vivan más seguras, por que las mujeres reclusas se formen, por que las mujeres reclusas estén atendidas, por que las mujeres reclusas, y en definitiva, por que las mujeres reclusas se puedan reinsertar, una vez que cumplan su condena, en la vida que todos queremos vivir.</seg>
@@ -285,7 +291,7 @@
                <seg xml:id="ParlaMint-ES_2020-06-16-CD200616.u32.1">Señora García-Pelayo, tiene que ir terminando.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-06-16-CD200616.u33"
-               who="#GarcíapelayoMaría"
+               who="#GarcíaPelayoMaría"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-06-16-CD200616.u33.1">Termino.</seg>
                <seg xml:id="ParlaMint-ES_2020-06-16-CD200616.u33.2">... derechos para los funcionarios y funcionarias de prisiones. Este grupo siempre los va a defender, este grupo siempre va a recordar que están ahí dejándose la piel todos los días -y en muchos casos jugándose la vida-, precisamente, para hacer que los reclusos y reclusas tengan derechos.</seg>
@@ -441,7 +447,7 @@
                <seg xml:id="ParlaMint-ES_2020-06-16-CD200616.u60.1">Gracias, señor Mazón.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores.-La señora Jiménez-Becerril Barrio pide la palabra</note> ¿Sobre la base de qué artículo pide la palabra?</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-06-16-CD200616.u61"
-               who="#JiménezbecerrilMaría"
+               who="#JiménezBecerrilMaría"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-06-16-CD200616.u61.1">Bueno, es que hablo sin micrófono.</seg>
             </u>
@@ -449,7 +455,7 @@
                <seg xml:id="ParlaMint-ES_2020-06-16-CD200616.u62.1">No, es que sin micrófono no se la escucha bien.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-06-16-CD200616.u63"
-               who="#JiménezbecerrilMaría"
+               who="#JiménezBecerrilMaría"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-06-16-CD200616.u63.1">No sé el artículo, por el mismo por el que se la han pedido. Por favor, le pido que se retire, por favor -se lo repito dos veces-, que se retire la expresión 'presas políticas vascas'. El comando Andalucía...</seg>
             </u>
@@ -733,7 +739,7 @@
                <seg xml:id="ParlaMint-ES_2020-06-16-CD200616.u109.2">Por el Grupo Parlamentario Plural, tiene la palabra el señor Alonso-Cuevillas i Sayrol.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-06-16-CD200616.u110"
-               who="#AlonsocuevillasJaume"
+               who="#AlonsoCuevillasJaume"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-06-16-CD200616.u110.1">Señora presidenta, señorías, nos traen una moción que parte de la premisa de que la mesa de diálogo, las negociaciones entre los Gobiernos de España y Cataluña -dice textualmente- no encuentran anclaje en el modelo constitucional vigente. Yo llevo treinta largos años dedicándome al mundo del Derecho; estudiándolo y enseñándolo, pero, como en estos últimos treinta y pico meses han cambiado todas las interpretaciones jurídicas, he querido asegurarme, y repasando la Constitución, por prohibición de diálogo, por proscripción de las negociaciones no me sale nada. He pensado que a lo mejor yo jurídicamente estaba equivocado y me he ido a la hemeroteca. Y he visto que, en una situación mucho más grave, como era el diálogo con una banda terrorista, que era ETA, que mataba, todos los Gobiernos, desde 1976, se han sentado, han negociado. Lo hicieron ya los Gobiernos de la UCD, con Suárez y Calvo Sotelo, con el ministro Rosón. Se hizo en época de Felipe González y Barrionuevo -bueno, esos aplicaban otra política, que era con ETA hablando y con los GAL actuando-. Lo hizo después Aznar; lo hizo Zapatero; Rajoy era más de mirar las cosas que de hablar, y su ministro del Interior era más de hablar con los arcángeles que no con las personas. Pero, claro, resulta que todos han hablado con terroristas que mataban, además, hemos oído reiteradamente que sin violencia se puede hablar de todo, porque eso lo hemos oído en un lado y en otro y con Gobiernos de un lado y del otro, y resulta que ahora hay un movimiento pacífico, que no es violento, que no ha matado a nadie, que intenta hablar, y ponen ustedes el grito en el cielo. Y digo bien cuando digo en el cielo, porque cuando ustedes presentaron esta moción -y hoy lo han reiterado, sorprendentemente- dijeron -y hoy han dicho- que es un conflicto político. Pero no, sabemos que no es así. Desde hace unos pocos días sabemos -lo ha desvelado el ministro Fernández Díaz, porque a él se lo reveló el Papa- que esto no es un conflicto político: ¡es el demonio, que quiere romper España! Si eso es así, si esto no es un conflicto político, comprenderán que entonces nosotros, pobres mortales pecadores, poco margen de maniobra tenemos.</seg>
                <seg xml:id="ParlaMint-ES_2020-06-16-CD200616.u110.2">Dicho eso, empero, no se preocupen demasiado de la mesa de diálogo, que no se la cree nadie. No se la cree el Gobierno del PSOE, que la aceptó como exigencia para obtener la investidura y que, después de haberla mantenido, no ha tenido el más mínimo rubor de pactar con Ciudadanos la paralización de esa mesa de negociación. No se la creen tampoco sus proponentes, que están pidiendo simplemente que se reactive, que se haga algún gesto simbólico en vista de las próximas elecciones catalanas. Y tampoco nos la creemos otros, que pensamos que no va a tener, desgraciadamente, ningún recorrido pero que pensamos que hay que estar ahí, que debemos estar siempre en la mesa de diálogo y no levantarnos nunca, porque sabemos que el debate no se va a residenciar en España; el debate, la solución, va a venir del ámbito internacional, y por eso desde la parte catalana tenemos que estar siempre sentados en la mesa.</seg>

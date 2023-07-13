@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-10-17-CD181017"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 149 (2018-10-17) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 149 (2018-10-17)</title>
             <title xml:lang="en" type="sub">Plenary session 149 (2018-10-17)</title>
-            <meeting n="149" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 149</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2018-10-17" corresp="#CD" ana="#parla.lower #parla.sitting">2018-10-17</meeting>
+            <meeting n="149" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 149</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -746,7 +752,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-17-CD181017.u122.2">Señor ministro, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-17-CD181017.u123"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-17-CD181017.u123.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-17-CD181017.u123.2">Gracias, señoría. Señor Rojas, para tener todo controlado hay que tener un plan, para tener un plan hay que tener unos objetivos a los que este vaya dirigido. ¿Cuáles son los objetivos que tiene este Gobierno? Aquellos de los que careció el Gobierno del Partido Popular: generar una política real migratoria, una política migratoria a nivel internacional y una política migratoria a nivel nacional garantizando y dando la seguridad y protección necesarias. ¿Cómo se consigue eso? Se consigue afianzando las relaciones con países como Marruecos, Argelia, Senegal o Mauritania, cuestión en la que nos hemos fajado todo este tiempo y con éxito. ¿Cómo se consigue también? Con políticas como se están haciendo en Europa y como se verán próximamente en el Consejo Europeo de esta semana. ¿Cómo nos dirigimos nosotros a esos objetivos o cómo los conseguimos? Luchando, en primer lugar, contra las mafias. La legalidad no es permisividad. ¿Cómo lo conseguimos también? Trabajando por una migración legal y ordenada.</seg>
@@ -767,7 +773,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-17-CD181017.u126.1">Señor ministro, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-17-CD181017.u127"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-17-CD181017.u127.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-17-CD181017.u127.2">Muchas gracias, señor Rojas. En cuanto a las referencias que hace usted al efecto llamada, yo diría simplemente que lo que están haciendo ustedes desde que están en la oposición es una llamada a la xenofobia.<note>Protestas.-Aplausos</note> Nosotros estamos llamando simplemente a una inmigración controlada.</seg>
@@ -776,7 +782,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-17-CD181017.u128.1">Silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-17-CD181017.u129"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-17-CD181017.u129.1">Nosotros, desde 2016 a 2017...</seg>
                <note>Rumores</note>
@@ -785,7 +791,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-17-CD181017.u130.1">Silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-17-CD181017.u131"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-17-CD181017.u131.1">... la inmigración ilegal creció en España un 170 %. Ustedes no hicieron nada. Nosotros, desde que estamos en el Gobierno...<note>El señor Hernando Fraile: Nosotros, nosotros</note> El 6 de julio se aprobó, gracias a este Gobierno, en el marco de la Unión Europea, un fondo fiduciario de emergencia para Marruecos. Hemos creado un mando único de control.</seg>
                <note>Rumores</note>
@@ -794,7 +800,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-17-CD181017.u132.1">Silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-17-CD181017.u133"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-17-CD181017.u133.1">Una comisión delegada dentro del Consejo de Ministros. Hemos generado CATE nuevos con más plazas. ¿Y sabe lo que le digo fundamentalmente? Habla usted de la inmigración, pero luego ha ido a otros temas, a otros ministerios. ¿Y sabe por qué está controlada? Porque tenemos Fuerzas y Cuerpos de Seguridad del Estado que trabajan denodadamente todos los días, las ONG que hacen lo propio, ayuntamientos de todos los partidos políticos que hacen lo mismo, y no estamos en la primera línea de los periódicos.</seg>
                <note>Aplausos.-El señor Hernando Fraile: Nosotros, los socialistas</note>
@@ -809,7 +815,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-17-CD181017.u135.2">En primer lugar, pregunta del diputado don Antonio Gómez-Reino Varela, del Grupo Parlamentario Confederal de Unidos Podemos-En Comú Podem-En Marea. Adelante, señoría.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-17-CD181017.u136"
-               who="#GómezreinoAntonio"
+               who="#GómezReinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-17-CD181017.u136.1">¿Va a cumplir su Gobierno con Galicia?</seg>
             </u>
@@ -830,7 +836,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-17-CD181017.u139.2">Señor Gómez-Reino, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-17-CD181017.u140"
-               who="#GómezreinoAntonio"
+               who="#GómezReinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-17-CD181017.u140.1">Hoy no le hablo solo en nombre de mi grupo parlamentario, tampoco le hablo en nombre de nuestros votantes solamente. Hoy les hablamos en nombre de Galicia, les hablo como militante de Galicia. Hoy traemos a esta Cámara lo que ya le hemos trasladado a su Gobierno, la 'Agenda gallega del cambio', la 'Axenda galega do cambio'. Va mucho más allá de una propuesta de nuestro grupo parlamentario a su Gobierno. Estamos hablando del conjunto de medidas y demandas mayoritarias que el pueblo de Galicia le exige al Estado. La práctica totalidad de las propuestas de esta agenda concitan la voluntad mayoritaria de la ciudadanía gallega y han sido apoyadas tanto por la sociedad civil como por la mayor parte de las fuerzas políticas en Galicia. Son propuestas con las que cuando votan en Galicia están de acuerdo los diputados y diputadas del Partido Popular y del Partido Socialista. Pero ¿qué sucede muchas veces? Que dicen una cosa en Galicia y votan la contraria en Madrid, que dicen una cosa cuando están en la oposición y a veces hacen la contraria cuando están en el Gobierno. Así que solo les pedimos coherencia. Lo que les proponemos es muy básico: cumplan con los compromisos que el Estado tiene adquiridos con Galicia. Ningún trato de favor, simplemente hablamos de justicia.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-17-CD181017.u140.2">Cuando decimos transferir la AP-9 decimos autogobierno y decimos también gestión pública y no gestión privada de la principal infraestructura que conecta el eje atlántico de Galicia. Cuando decimos sanear las rías decimos valorar la pesca y valorar el medio ambiente. Cuando decimos Meirás decimos recuperar la memoria democrática de nuestro pueblo. Cuando decimos sector lácteo, sector de la pesca o sector naval decimos que se respeten nuestros sectores productivos. Y cuando decimos financiación autonómica decimos que los habitantes de Fisterra tienen que tener los mismos servicios y los mismos derechos que los de Madrid. Les hemos presentado la agenda gallega en positivo, con voluntad de colaboración. Ahora bien, son las líneas básicas que constituyen los mínimos para cumplir con Galicia. No hay excusas, señora ministra. Estos cinco diputados y 2 700 000 gallegos y gallegas esperamos y exigimos avances y respuestas. Galicia exige cambio.</seg>

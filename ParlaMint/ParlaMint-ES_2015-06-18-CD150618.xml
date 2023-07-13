@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2015-06-18-CD150618"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 273 (2015-06-18) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 273 (2015-06-18)</title>
             <title xml:lang="en" type="sub">Plenary session 273 (2015-06-18)</title>
-            <meeting n="273" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 273</meeting>
-            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
+            <meeting n="2015-06-18" corresp="#CD" ana="#parla.lower #parla.sitting">2015-06-18</meeting>
+            <meeting n="273" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 273</meeting>
+            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>

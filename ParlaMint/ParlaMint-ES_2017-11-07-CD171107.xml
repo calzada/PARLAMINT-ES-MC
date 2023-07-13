@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2017-11-07-CD171107"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 83 (2017-11-07) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 83 (2017-11-07)</title>
             <title xml:lang="en" type="sub">Plenary session 83 (2017-11-07)</title>
-            <meeting n="83" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 83</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2017-11-07" corresp="#CD" ana="#parla.lower #parla.sitting">2017-11-07</meeting>
+            <meeting n="83" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 83</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -953,7 +959,7 @@
                <seg xml:id="ParlaMint-ES_2017-11-07-CD171107.u127.2">Para la defensa de las enmiendas formuladas por el Grupo Parlamentario Confederal de Unidos PodemosEn Comú PodemEn Marea, tiene la palabra el señor GómezReino Varela.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-11-07-CD171107.u128"
-               who="#GómezreinoAntonio"
+               who="#GómezReinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-11-07-CD171107.u128.1">Boas tardes. Buenas tardes. Gracias, señor presidente.</seg>
                <seg xml:id="ParlaMint-ES_2017-11-07-CD171107.u128.2">Evidentemente, desde nuestro grupo parlamentario empujaremos para que salga adelante esta moción. Todo lo que tiene que ver con dar un giro a la política forestal, todo lo que tiene que ver con poner en el centro el desarrollo rural y todo lo que tiene que ver con tomar medidas reales para acabar con los incendios está en el foco de nuestra actividad legislativa. Nuestro grupo lleva mucho tiempo ya trabajando desde la conciencia de que el futuro de nuestros montes es un reto del conjunto de la sociedad. De hecho, desde el comienzo de esta legislatura hemos presentado muchísimas iniciativas a este respecto: preguntas orales en Pleno; hemos presentado iniciativas para tratar de sacar adelante la Ley de Desarrollo Rural, sobre las condiciones laborales de los brigadistas, sobre la recalificación de terrenos calcinados, sobre la expansión del eucalipto y del monocultivo de especies pirófitas, y hoy mismo hemos presentado una proposición de ley respecto a la Ley de Montes que, señorías del Grupo Parlamentario Popular, esperamos que no sea vetada por el Gobierno. Lo hacemos porque somos conscientes de que necesitamos una actuación integral que aborde el problema de los incendios de raíz. No se pueden poner parches para calmar conciencias en un momento de emergencia. El problema es de fondo y, por lo tanto, las soluciones han de ser igualmente profundas y atacando las causas reales.</seg>

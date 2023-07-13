@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-12-18-CD181218"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 165 (2018-12-18) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 165 (2018-12-18)</title>
             <title xml:lang="en" type="sub">Plenary session 165 (2018-12-18)</title>
-            <meeting n="165" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 165</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2018-12-18" corresp="#CD" ana="#parla.lower #parla.sitting">2018-12-18</meeting>
+            <meeting n="165" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 165</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -162,7 +168,7 @@
                <seg xml:id="ParlaMint-ES_2018-12-18-CD181218.u10.2">Por el mismo grupo, tiene la palabra el señor Guillaumes i Ràfols.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-12-18-CD181218.u11"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-12-18-CD181218.u11.1">Gràcies, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-12-18-CD181218.u11.2">Señorías, en su momento ya dijimos que el real decreto que presentó el Gobierno era lo que se llamaba un parche. Lo que no esperábamos es que la justicia, y sobre todo la justicia europea, con tanta contundencia nos diera la razón. Y no solo esto, sino que lo más grave es que se continúa con el mismo error: judicializar las soluciones. El Consejo General del Poder Judicial en este caso aportó su solución, haciendo que solo un tribunal en cada circunscripción fuera competente para resolver estos temas -imagínense en provincias como Barcelona o Madrid-, con la consiguiente invasión de demandas que esto comportó. La verdad es que da bastante vergüenza porque no aceptar soluciones extrajudiciales no es ni más ni menos que aprovechar las inconveniencias que pueda tener la justicia, como la lentitud, los costes, etcétera, para intentar que el máximo número de personas se descuelguen de que les den lo que en justicia les corresponde. Es una actuación absolutamente lamentable, vergonzosa y torticera. No se puede sacar una legítima ventaja de situaciones judiciales que todos lamentamos.<pb n="9"/> Hay una sentencia europea que es muy clara y nos indica la vía. La vía es la que nos propone la proposición de Esquerra Republicana. Ya sabemos que el dicho es: la banca siempre gana. Estaría bien que, para variar, esta vez no fuera la banca quien ganase sino la gente.</seg>
@@ -917,7 +923,7 @@
                <seg xml:id="ParlaMint-ES_2018-12-18-CD181218.u114.2">Por el mismo grupo, tiene la palabra el señor Guillaumes i Ràfols.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-12-18-CD181218.u115"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-12-18-CD181218.u115.1">Presidenta, señorías, en este Estado tenemos la desgracia de convivir con varios grupos de víctimas de la violencia: víctimas de la violencia individual, violencia de género, víctimas de la violencia organizada, y esto incluye tanto el crimen organizado como el terrorismo, pero hay una tercera categoría que parece que tiene el don de la invisibilidad para algunos grupos: víctimas de la violencia institucional, y esto, señorías, también existe. Nosotros nos sentimos orgullosos de que este Estado tenga conciencia y haga actuaciones, y cada vez más acertadas, en relación con la violencia individual y con la violencia organizada, y profundamente avergonzados de que nunca haya movido un dedo contra la violencia institucional. No podemos esperar otra cosa, un Estado que tiene exiliados, que tiene presos políticos, contra la justicia de la mayor parte de las democracias de Europa, no se podía esperar que actuara de otra forma en lo que respecta al tema de las torturas institucionales.</seg>
                <seg xml:id="ParlaMint-ES_2018-12-18-CD181218.u115.2">Los hechos son los hechos, están los informes de los relatores de la ONU, de Human Rights Watch, de Amnistía Internacional, que han sido sistemáticamente desoídos por el Estado. Creemos bastante evidente que una democracia profunda, seria, se distinguiría de una democracia de bajo nivel por que solo vería esta la violencia de los demás y nunca vería la suya, eso es lo que distingue a una democracia seria de una democracia de baja intensidad. No hace falta decir en qué categoría entra el Estado español al no reconocer de ninguna manera la violencia institucional. Estamos delante de una solicitud minimalista, de la elaboración de un informe, por el amor de Dios, qué menos, ¿o es que ya ni esto está dispuesto a esperar, a decir, a aceptar el Estado español o el Gobierno español?</seg>

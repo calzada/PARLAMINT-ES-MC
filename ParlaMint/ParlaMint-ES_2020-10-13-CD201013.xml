@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-10-13-CD201013"
-     ana="#covid">
+     ana="#parla.sitting #covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 48 (2020-10-13) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 48 (2020-10-13)</title>
             <title xml:lang="en" type="sub">Plenary session 48 (2020-10-13)</title>
-            <meeting n="48" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 48</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Legislatura XIV</meeting>
+            <meeting n="2020-10-13" corresp="#CD" ana="#parla.lower #parla.sitting">2020-10-13</meeting>
+            <meeting n="48" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 48</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -840,7 +846,7 @@
                <pb n="47"/>
             </u>
             <u xml:id="ParlaMint-ES_2020-10-13-CD201013.u111"
-               who="#GómezreinoAntonio"
+               who="#GómezReinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-10-13-CD201013.u111.1">Gracias, presidente.</seg>
                <seg xml:id="ParlaMint-ES_2020-10-13-CD201013.u111.2">La industria de este país sufre desde hace ya décadas unos costes energéticos superiores a los de sus principales competidores en los mercados internacionales, afectando lógicamente a la competitividad de nuestra industria. En la actualidad además y tras los efectos de la pandemia, se hace más apremiante si cabe un compromiso claro de las administraciones públicas que promueva la estabilidad de los costes energéticos a medio plazo. Ahora bien, para intervenir sobre este problema es necesario partir primero del marco actual de la situación. Los precios de la energía eléctrica han bajado desde que no gobierna el Partido Popular en un 39 %; eso son 20 puntos más de descenso que en Alemania, 3 puntos más que en Francia. En todo caso, el Estado español mantiene aún precios superiores a los de estos países y es por ello que el Gobierno de coalición está haciendo los deberes, como no hizo el Partido Popular en tantos años de Gobierno, y está trabajando en la implementación del estatuto de las empresas electrointensivas.</seg>
@@ -983,7 +989,7 @@
                <seg xml:id="ParlaMint-ES_2020-10-13-CD201013.u132.1">Señoría, muchas gracias.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> Por el Grupo Parlamentario Popular, tiene la palabra la señora Jiménez-Becerril Barrio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-10-13-CD201013.u133"
-               who="#JiménezbecerrilMaría"
+               who="#JiménezBecerrilMaría"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-10-13-CD201013.u133.1">Gracias, presidente.</seg>
                <seg xml:id="ParlaMint-ES_2020-10-13-CD201013.u133.2">Esta proposición no de ley que nos traen hoy me confirma que la hipocresía no tiene límites. Ustedes dicen aquí, en su proposición, que rechazan la violencia, pero cuando los de Bildu decapitan una estatua del rey en Navarra callan y otorgan y siguen gobernando con ellos.<note>Aplausos</note> Para usted, señor Simancas, ¿los de Bildu no son tiempos oscuros? ¿Qué son?, ¿progresismo?</seg>

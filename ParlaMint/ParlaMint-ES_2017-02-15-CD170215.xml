@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2017-02-15-CD170215"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 28 (2017-02-15) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 28 (2017-02-15)</title>
             <title xml:lang="en" type="sub">Plenary session 28 (2017-02-15)</title>
-            <meeting n="28" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 28</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2017-02-15" corresp="#CD" ana="#parla.lower #parla.sitting">2017-02-15</meeting>
+            <meeting n="28" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 28</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -405,7 +411,7 @@
                <seg xml:id="ParlaMint-ES_2017-02-15-CD170215.u57.2">Adelante, señoría.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-02-15-CD170215.u58"
-               who="#GómezreinoAntonio"
+               who="#GómezReinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-02-15-CD170215.u58.1">Muchas gracias, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2017-02-15-CD170215.u58.2">¿Va el Gobierno a través de la SEPI a apoyar el nombramiento de Arsenio Fernández de Mesa como consejero independiente de Red Eléctrica de España?</seg>
@@ -425,7 +431,7 @@
                <seg xml:id="ParlaMint-ES_2017-02-15-CD170215.u61.1">Muchas gracias.<note>Aplausos</note> Señor Gómez-Reino, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-02-15-CD170215.u62"
-               who="#GómezreinoAntonio"
+               who="#GómezReinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-02-15-CD170215.u62.1">Desempeñó una tarea de coordinación difusa y confusa. Estas son las palabras que la Audiencia Provincial de A Coruña, en su sentencia sobre el Prestige, dijo sobre la gestión del señor Fernández de Mesa: difusa y confusa, señor Montoro. ¿Les parece una persona competente? A nosotros, desde luego, no. ¿A quién quieren engañar? Lo nombran fundamentalmente porque es amigo del jefe, porque es amigo del señor Rajoy; esa es la razón por la que lo nombran. Su Gobierno nombra a una persona sin conocimiento alguno en esta materia, en la de la energía, para un puesto clave en ese sector. Es un nuevo caso obsceno de puertas giratorias; corrupción, señor Montoro, corrupción legal pero, al fin y al cabo, corrupción. Se trata, como siempre, de apoyar a la familia, se llame Trillo, Bárcenas, Rato o Fernández de Mesa; pago de favores por el silencio, retiro dorado, trabajo sucio que pagamos bien y eso es lo que llamamos la ley de la omertà del Partido Popular. El Cadenero, como llamaban al señor Fernández de Mesa en su ciudad por su relación con grupos de extrema derecha, va a cobrar 175.000 euros, más de diecisiete veces el salario mínimo interprofesional. Para las familias,<pb n="15"/> pobreza, y para los amigos del Partido Popular, opulencia y omertà.<note>Aplausos</note> Esta, señores del Partido Popular, es la foto de la España que no queremos.<note>Muestra una fotografía del señor Fernández de Mesa y Díaz del Río</note> Es la foto de un viejo régimen en decadencia, la foto del Prestige y la incompetencia, la foto de la vulneración de derechos humanos y del Tarajal, la foto de la corrupción y las puertas giratorias. ¡Corrupción, nunca máis!</seg>
                <note>Aplausos</note>

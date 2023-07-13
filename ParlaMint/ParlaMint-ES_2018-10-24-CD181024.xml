@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-10-24-CD181024"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 152 (2018-10-24) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 152 (2018-10-24)</title>
             <title xml:lang="en" type="sub">Plenary session 152 (2018-10-24)</title>
-            <meeting n="152" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 152</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2018-10-24" corresp="#CD" ana="#parla.lower #parla.sitting">2018-10-24</meeting>
+            <meeting n="152" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 152</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -237,7 +243,7 @@
                <pb n="23"/>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-24-CD181024.u18"
-               who="#GómezreinoAntonio"
+               who="#GómezReinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-24-CD181024.u18.1">Bo día. Gracias, señora presidenta. Bon dia, señor presidente, señor Sánchez.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-24-CD181024.u18.2">Desgraciadamente, hoy tengo que ser muy breve, casi telegráfico, diría. Migración, seguridad, euro y brexit, una Europa completamente agazapada. La Unión Europea está asediada, es cierto, pero la situación no tiene nada que ver con la amenaza exterior, con el enemigo exterior. Tiene más que ver con aquellos que están erosionando desde dentro los cimientos de cualquier proyecto común. A Europa no la amenaza la inmigración, comprendamos lo que está pasando. Lo que está en juego no es la gestión de la inmigración, es la gestión de la xenofobia como irresponsable reclamo electoral. Salgamos de las torres de cristal, salgamos de los parlamentos.<note>Aplausos</note> Se ha acabado ya la Unión Europea tal y como la conocíamos y caben dos salidas: hay una salida contra Europa y hacia el autoritarismo, ya sea porque venza en las urnas la extrema derecha o bien porque venzan sus propuestas a través de otros partidos; ahí vemos cómodos siempre al Partido Popular y a Ciudadanos. Hay otra salida a favor de Europa, hacia la democracia, recuperar la soberanía de los pueblos y actuar siempre a favor de la mayoría social. Los y las europeas quieren ver que sus instituciones están de su lado, que les protegen. ¿Dónde quedan los derechos humanos? ¿Dónde queda el modelo social europeo y dónde queda el proyecto para situar a Europa en el mundo? Si reducen Europa a burocracia, lobbies, reuniones de mandatarios y libre negocio, el proyecto europeo estará definitivamente muerto y será imposible que recupere legitimidad. Este euro y su unión monetaria dejan absolutamente inermes a los Estados y eleva los fundamentos del neoliberalismo a materia constitucional. Y, seamos francos, fue la Unión Europea quien se ha enfrentado a Europa, fue la Unión Europea quien decretó el austericidio, quien secuestró la soberanía y quien nos ha prohibido políticas públicas expansivas, acabando y desmantelando así el Estado del bienestar. Y, a propósito del brexit, tómense en serio, señor presidente, señor Sánchez, la salida del Reino Unido de la Unión Europea. Nos jugamos mucho y nuestra agricultura y nuestra pesca están muy afectadas. Son gallegos buena parte de los marineros del Gran Sol. Ahí le recordamos lo que ya le hemos exigido. Todo el mundo entiende que Galicia tiene que ser una de las voces de España en materia pesquera. Todo el mundo entiende que Galicia tiene que ser una de las voces de España en materia láctea. Galicia tiene que participar como voz y con capacidad en las decisiones de las negociaciones europeas.</seg>
@@ -2101,7 +2107,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-24-CD181024.u299.2">A continuación, en nombre del Gobierno, tiene la palabra el señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-24-CD181024.u300"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-24-CD181024.u300.1">Señor presidente, señorías, quisiera también que mis primeras palabras fueran de recuerdo a Carmen Alborch y de solidaridad con la familia socialista, de la que soy uno más.<note>Aplausos</note> Una de las capacidades que considero que hay que tener en política es la capacidad de escuchar; se lo recuerdo, la capacidad de escuchar. Este ministro le ha escuchado atentamente, porque escuchar me da la oportunidad de aprender, de informarme y seguro que de realizar mejor mi labor, y por eso tengo que darle las gracias. No sé si sería mucho pedirle ahora que haga lo mismo, que escuche, porque ante la llamada previsible de un problema humanitario ustedes, desde 2013 a 2017, hicieron caso omiso. Esta es la gráfica que demuestra el incremento de las llegadas por mar.<note>Muestra una gráfica</note> Si escucha, se dará cuenta de que sus críticas hacen oposición a su propio partido, y eso es bueno porque es señal también de que están reconociendo sus propios errores, algo insólito -es verdad, señoría-, pero que es positivo, y además lo trasladan en esta tribuna, lo cual es más positivo aún.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-24-CD181024.u300.2">Atiendo su interpelación, señoría, pero el primer mensaje que le transmito es que con este Gobierno no llega la crisis migratoria, con este Gobierno regresa la política migratoria para afrontar los retos de Europa y de España, de España y de Europa. ¿Y cuál era ese reto? Se lo voy a decir, señorías: desde 2015 no ha dejado de ser objeto de discusión en la Unión Europea la creciente presión migratoria hacia Europa. Desde entonces todos los consejos europeos y todos los consejos de Asuntos de Interior, los consejos JAI, han abordado el incremento de entradas irregulares por las fronteras exteriores de la Unión. Desde 2013 a 2017, en España -como recogen los gráficos que le he mostrado- las entradas irregulares de migrantes por vía marítima y terrestre aumentaron en un 301,2%. Los datos son públicos y accesibles, señoría. Si bien los ciudadanos tienen el derecho -y es verdad- a saber qué se está haciendo, porque estamos aquí para hacer cosas, también tienen derecho a saber lo que no se hizo y, por lo tanto, lo que debemos de hacer ante esa omisión. El estado de la seguridad pública que nos encontramos al llegar al Gobierno fue de falta de recursos, de falta de personal, del que usted hablaba hace poco, y de falta de coordinación.</seg>
@@ -2118,7 +2124,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-24-CD181024.u301.1">Señor ministro, tiene que ir concluyendo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-24-CD181024.u302"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-24-CD181024.u302.1">Voy terminando. Gracias, presidente.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-24-CD181024.u302.2">En esa entrada especialmente violenta, la del día 22 de agosto, mandamos un mensaje contundente a las mafias. No dude de que seguiremos actuando con coherencia, porque nuestro objetivo es hacer más seguras las fronteras de las ciudades autónomas y, al mismo tiempo, más humanas. Es difícil, señoría, pero no imposible. Si me ha escuchado podrá imaginarse lo que podría ocurrir de haberse continuado con la inacción del Partido Popular.</seg>
@@ -2162,7 +2168,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-24-CD181024.u307.2">Para acabar el debate, tiene la palabra el señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-24-CD181024.u308"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-24-CD181024.u308.1">Señor presidente, señoría, muchas gracias.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-24-CD181024.u308.2">¿He leído? Bueno, pues ahora no voy a leer; no he leído mucho sino que he seguido un guión, porque este asunto me lo sé. Lo que pasa es que veo que usted tiene una ignorancia y usted sí que ha leído algún documento que se lo ha preparado alguien que no sabe mucho y usted, sin espíritu crítico, ha asumido esos datos.<note>Aplausos</note> Le voy a dar, simplemente, dos referencias al respecto para que vea usted esa ignorancia suya o de quien ha hecho ese informe.</seg>

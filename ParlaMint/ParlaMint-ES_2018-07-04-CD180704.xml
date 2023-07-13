@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-07-04-CD180704"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 130extraordinaria extraordinaria (2018-07-04) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 130extraordinaria extraordinaria (2018-07-04)</title>
             <title xml:lang="en" type="sub">Plenary session 130 (2018-07-04)</title>
-            <meeting n="130" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 130extraordinaria extraordinaria</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2018-07-04" corresp="#CD" ana="#parla.lower #parla.sitting">2018-07-04</meeting>
+            <meeting n="130" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 130extraordinaria extraordinaria</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -301,7 +307,7 @@
                <seg xml:id="ParlaMint-ES_2018-07-04-CD180704.u30.2">Por el Grupo Parlamentario Mixto, tiene la palabra el señor Guillaumes i Ràfols.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-07-04-CD180704.u31"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-07-04-CD180704.u31.1">Gràcies, president.</seg>
                <seg xml:id="ParlaMint-ES_2018-07-04-CD180704.u31.2">Senyories, senyora vicepresidenta, senyores ministres, diputats, en general no somos partidarios de los reales decretos. Si algo se ha visto en esta Cámara es el uso y el abuso del real decreto cuando tendrían que ser algo absolutamente excepcional. En este caso reconocemos que hay una excepcionalidad -podríamos llamarla- sobrevenida. Aquí se ha bloqueado durante tanto tiempo este tema por parte de algunos partidos políticos que parece que se justifica la vía del real decreto para que las cosas simplemente vayan hacia delante. Dicho esto, también he de manifestar que toda esta negociación, desde la del consejo hasta la del real decreto, se ha llevado con los pies, absolutamente con los pies, y eso va dirigido básicamente al Grupo Socialista. Una cosa que si les hubiera salido mal les hubiera podido costar el Gobierno, la han llevado ustedes tan mal como han podido. Espero que no sea un precedente del futuro. De todas maneras, en fin, hace solo dos semanas y tampoco íbamos a dejar caer a un Gobierno, ¿no? Por tanto, como decía el viejo anuncio, aceptamos pulpo como animal de compañía de cinco letras que empieza por pe. Alguien podría pensar que es perro, ¿no? Bueno, pues no. Les aceptamos pulpo y vamos a votar el real decreto, que han llevado ustedes muy mal. Dentro de cinco meses, de cuatro o de tres, nosotros no hubiéramos votado así, y les avisamos de que no se acostumbren a estos cheques en blanco porque no van a tener ninguno más, o más bien pocos.</seg>

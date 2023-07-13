@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-10-16-CD181016"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 148 (2018-10-16) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 148 (2018-10-16)</title>
             <title xml:lang="en" type="sub">Plenary session 148 (2018-10-16)</title>
-            <meeting n="148" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 148</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2018-10-16" corresp="#CD" ana="#parla.lower #parla.sitting">2018-10-16</meeting>
+            <meeting n="148" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 148</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -814,7 +820,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u99.1">Continuamos con la moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, al objeto de conocer cuál es el compromiso de la vicepresidenta del Gobierno y ministra de la Presidencia, Relaciones con las Cortes e Igualdad con la defensa de la Constitución española y qué derechos y libertades pretende limitar. Por el grupo autor de la iniciativa, tiene la palabra Sánchez-Camacho Pérez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-16-CD181016.u100"
-               who="#SánchezcamachoAlicia"
+               who="#SánchezCamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u100.1">Señoras y señores diputados, yo también quería hoy comenzar, como parece que hacen algunos diputados de esta Cámara, recordando que hace muy pocos días se dio un golpe de Estado a la democracia en Cataluña, se vulneró el estatut, se vulneró la Constitución, se rompieron las reglas democráticas y de convivencia, gracias a algunos golpistas que rompieron las reglas del juego democrático.<note>Aplausos</note> Eso es lo que pasó también hace un año, y este Estado, este país tuvo que tomar decisiones. Por tanto, no estén permanentemente hablando de presos políticos catalanes, ni victimizándose, porque no existen presos políticos catalanes, existen catalanes independentistas que han actuado, presuntamente, en contra de la ley, porque ustedes, que son independentistas, no están presos, están ahí, decidiendo y exponiendo su libertad de expresión, su ideología y subiendo a esta tribuna igual que yo. Por tanto, no confundan a la ciudadanía catalana, no confundan a los españoles, porque los que están en la cárcel o fugados lo están porque han actuado, presuntamente, en contra de la Constitución, de la ley y de la democracia.<note>Aplausos</note> Señorías, nuestro grupo se ha visto obligado a presentar esta moción porque la situación en Cataluña es muy grave. Se vive una situación en Cataluña de renuncia del Gobierno socialista a la defensa de los jueces, de renuncia a la defensa de las Fuerzas y Cuerpos de Seguridad, de abandono a los catalanes ante los continuos abusos separatistas, lo que nos obliga, señoras y señores diputados, a presentar esta moción. Señorías, qué solos estamos los catalanes no independentistas, qué solos estamos al ver inundadas de simbología opresiva nuestras calles, nuestras plazas, nuestros edificios públicos. Qué solos estamos cuando algunos -la ANC- se dedican a hacer listas de periodistas que no están de acuerdo con los postulados independentistas, a hacer listas de empresas que no están de acuerdo con los postulados independentistas. Esa es la verdadera Cataluña, señoras y señores diputados, la Cataluña que se silencia, la mayor parte de Cataluña que no es independentista y que no vive en libertad y convivencia.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u100.2">Señorías, los separatistas están totalizando el espacio público. Nos encontramos con que la revolución de las sonrisas ha manifestado su verdadera cara, la cara agridulce de la violencia en las calles, la cara agridulce que intenta asaltar el Parlament de Catalunya, la cara agridulce que intenta asaltar la subdelegación del Gobierno en Cataluña, la que cierra vías férreas, la que impide la vida normal. ¿Esa es la revolución de las sonrisas? No, esa es la revolución totalitaria, la de la imposición y la ruptura que quieren entre catalanes y que quieren con España. Eso es lo que ustedes defienden, señores independentistas.</seg>
@@ -831,7 +837,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u101.1">Señora Camacho, tiene usted que ir concluyendo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-16-CD181016.u102"
-               who="#SánchezcamachoAlicia"
+               who="#SánchezCamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u102.1">Acabo, presidente.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u102.2">Porque la situación es tan grave en Cataluña, les pedimos formalmente que el Gobierno de España requiera de manera oficial al señor Torra a que esté en el marco de la Constitución en virtud del artículo 155 y, si no es así, si sigue amenazando la legalidad en Cataluña, ustedes insten un 155 en el Senado. Esa será la garantía de nuestra libertad, la garantía de nuestra convivencia, la garantía del futuro de España. Si no lo hacen, se equivocarán. En estos momentos hay que tomar decisiones duras, decisiones difíciles...</seg>
@@ -842,7 +848,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u103.1">Señora Camacho, vaya concluyendo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-16-CD181016.u104"
-               who="#SánchezcamachoAlicia"
+               who="#SánchezCamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u104.1">Acabo, presidente.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u104.2">Ustedes, señores del Partido Socialista, lo hicieron con nosotros y ahora les digo más, debemos solicitar un 155 más duro, que controle TV3 y que controle la escuela porque si no, el conflicto en Cataluña nunca se podrá solucionar. Les esperamos, les esperamos en las decisiones valientes y no en los apoyos a los enemigos de Cataluña y de España.</seg>
@@ -1036,7 +1042,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u130.2">Por el Grupo Parlamentario Mixto, tiene la palabra el señor Guillaumes i Ràfols.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-16-CD181016.u131"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u131.1">Gràcies, president.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u131.2">Señorías, resulta que los que están homologados a Europa son ustedes y los que defienden la justicia son ustedes. ¿La belga? ¿La alemana? ¿La suiza? ¿La de Gran Bretaña? Parece que no, parece que más bien los que no están homologados a Europa son ustedes. Estamos en rachita -como diría un mexicano-, hay dos mociones, una detrás de otra, pidiendo la reimplantación del 155. Señores, están ustedes en una carrera loca con el PP abocados cada vez más hacia la derecha hasta que se encuentren el precipicio, si es que no lo han encontrado ya. ¿Qué es esta obsesión con el monotema? Se suponía que éramos nosotros los del monotema. Pues no hay una sola semana en la que no hablen del tema de Cataluña. ¿Pero por qué? ¿Es que da réditos en España hablar mal de un Gobierno legítimo que ha ganado legítimamente las elecciones? Pues parece que sí, que es así como piensan. En Cataluña no hubo golpe, lo que hubo fueron golpes, muchos golpes. El Colegio de Médicos -que debe ser un hatajo de bolcheviques separatistas- ha certificado más de mil heridos, señores.</seg>
@@ -1048,7 +1054,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u132.1">Señorías, les ruego silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-16-CD181016.u133"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u133.1">El Colegio de Médicos, señorías, que supongo que debe ser muy parcial. ¿Cuántos se produjeron el pasado 1 de octubre? Si quieren decir que el 1 de octubre hubo violencia, tendrán que redefinir el término de violencia. Hubo desobediencia. Incluso pueden argumentar legítimamente que se hicieron cosas ilegales, porque cortar una autopista y cortar una línea de tren es ilegal. Pueden decir que esto es ilegal, pero no pueden decir por el morro que esto es violencia, porque, entonces, les recomiendo que se lean de nuevo, si es que se los han leído alguna vez, a Martin Luther King o a Gandhi, porque ambos cortaron vías de trenes, cortaron autopistas y carreteras, y se supone que son el epíteto de la lucha pacífica. Por tanto, digan que se cometieron ilegalidades, pero no digan que se cometió violencia, porque, entonces, Gandhi también cometió violencia. Esto es, ni más ni menos, en lo que ustedes han caído. Creo que no se puede decir con esta tranquilidad con la que lo hacen ustedes que en todo el 1 de octubre la violencia policial fueron fake news, que todo aquello fueron fake news, que la BBC también hizo fake news, dejando en ridículo a un ministro, y que, en cambio, el 1 de octubre sí que hubo violencia. ¿Ustedes se creen lo que están diciendo? Creo que no. Señores, pues ya es rachita, dos partidos a la carrera a ver quién llega antes a la extrema derecha. Espero que les vaya bien, pero les aseguro que a la mayoría de la población catalana esto le asusta y lo demuestra con sus votos.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u133.2">Moltes gràcies, president. Moltes gràcies, senyories.</seg>
@@ -1311,7 +1317,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u171.3">Señora secretaria primera.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-16-CD181016.u172"
-               who="#SánchezcamachoAlicia"
+               who="#SánchezCamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u172.1">Señoras y señores diputados, declaración institucional del Congreso de los Diputados con ocasión del Día Internacional de la Niña 2018.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-16-CD181016.u172.2">El Pleno del Congreso de los Diputados, en su sesión del día de hoy, ha aprobado, con motivo del Día Internacional de la Niña que se celebró el pasado 11 de octubre, la siguiente declaración institucional:</seg>

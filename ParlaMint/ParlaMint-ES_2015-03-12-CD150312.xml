@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2015-03-12-CD150312"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 250 (2015-03-12) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 250 (2015-03-12)</title>
             <title xml:lang="en" type="sub">Plenary session 250 (2015-03-12)</title>
-            <meeting n="250" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 250</meeting>
-            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
+            <meeting n="2015-03-12" corresp="#CD" ana="#parla.lower #parla.sitting">2015-03-12</meeting>
+            <meeting n="250" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 250</meeting>
+            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -166,7 +172,7 @@
                <seg xml:id="ParlaMint-ES_2015-03-12-CD150312.u9.2">Por el Grupo Parlamentario Catalán<note>Convergència i Unió</note> , tiene la palabra el señor Guillaumes.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u10"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-03-12-CD150312.u10.1">Señor ministro, señorías, hoy hablamos de la modificación de una ley ya existente, la Ley de la Carrera Militar, y, grosso modo -es matizable-, de dos colectivos; uno que en acto de servicio ha sido herido quedando imposibilitado para el servicio o que le ha cogido el momento de la jubilación cuando estaba en acto de servicio. Honestamente, a nosotros pocas cosas nos pueden merecer más respeto que una persona que ha recibido una herida, que ha pisado una mina y que lo pagará el resto de su vida por defendernos a todos. En este sentido, este colectivo tiene toda nuestra comprensión. De hecho, alguien ha definido a un militar como aquel que es capaz de interponer su cuerpo entre la gente que defiende y aquellos que les quieren hacer daño. Toda nuestra simpatía a este colectivo. El segundo colectivo, el de los suboficiales, también merece toda nuestra consideración. Estaban metidos en una especie de embudo legal y algo se hace para solucionarlo. Nos merecen el máximo respeto y por ello votamos favorablemente el dictamen de la Comisión. Es verdad que afecta a pocas personas, los suboficiales deben ser unos 400, no sé el número exacto de las situaciones de pase honorífico, pero entendemos que son lo suficientemente humanas y de dignidad como para que aunque fuera uno solo el afectado valiera la pena hacer la ley.</seg>
                <seg xml:id="ParlaMint-ES_2015-03-12-CD150312.u10.2">Dicho esto, debemos añadir que de esta ley nos gusta lo que hay, pero tenemos muchos problemas con lo que falta. Faltan muchas cosas; algunas ya se han dicho aquí. Un ejemplo para nosotros flagrante son los oficiales de complemento, que todo el mundo conoce como los antiguos alféreces provisionales. Presentaremos enmiendas en este sentido porque no lo entendemos. Son personas que, por definición, tienen una carrera universitaria y que ocuparían puestos de trabajo en sitios donde, aunque no es lo normal en las Fuerzas Armadas, hay déficit de personal, en sitios donde un brigada muchas veces tiene que hacer el papel de un oficial superior. Son personas que se les retira -si no me equivoco, porque con las cifras soy muy malo- a los 49 años con un retiro de 1.000 euros. Entendemos que perder a estos<pb n="12"/> profesionales formados, con años de experiencia y con una carrera, y encima pagar 1.000 euros, ya no desde un punto de vista puramente operativo sino desde un punto de vista económico, saldría a cuenta a las Fuerzas Armadas tener en cuenta a este colectivo. Señor ministro, a nadie se le escapa que retirar a personas a los 49 años hoy en día es un problema y genera una inseguridad laboral importante.</seg>
@@ -500,7 +506,7 @@
                <seg xml:id="ParlaMint-ES_2015-03-12-CD150312.u53.2">Por el Grupo Popular tiene la palabra el señor Martínez-Pujalte.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u54"
-               who="#MartínezpujalteVicente"
+               who="#MartínezPujalteVicente"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-03-12-CD150312.u54.1">Señor presidente, señorías, oyendo los argumentos expuestos por los diversos grupos, me veo obligado a decir en el frontispicio de esta intervención, sobre todo para que lo oiga mi grupo, que hoy estamos aprobando un decreto-ley que va a mejorar la calidad de vida de los ciudadanos.<note>Aplausos</note> Es un decreto-ley muy bueno, y lo digo porque a veces se dan aquí argumentos y se puede acabar creyendo que lo que dicen es verdad. Pues no, señorías, no. Compañeros de mi grupo parlamentario, lo que se dice no es verdad. Estamos ante un decreto-ley que es muy bueno para mejorar la situación económica y la calidad de vida de las familias. Este decreto-ley se va a aprobar hoy aquí porque la historia económica de estos tres últimos años es una historia de éxito. Se va a aprobar este decreto-ley porque, de estar destruyendo 2.200 empleos diarios desde 2008 hasta 2011, estamos creando 1.200 empleos diarios en 2014.<note>Aplausos</note> Se puede aprobar este decreto-ley porque tras años y años de sufrimiento y recesión, de 2008 a 2011, desde que el Gobierno del Partido Popular tomó las riendas de la economía de este país hemos pasado a una situación de crecer y de hacerlo muy<pb n="41"/> vigorosamente, más que ningún otro país de la Unión Europea. Por eso podemos aprobar hoy este decreto-ley.</seg>
                <seg xml:id="ParlaMint-ES_2015-03-12-CD150312.u54.2">Cuando se habla de que el escenario macroeconómico no llega a los ciudadanos, hay que decir que este real decreto-ley que hoy convalidamos es una manifestación clara y contundente de que cuando se hacen las cosas bien, cuando se crece, cuando el entorno macroeconómico es bueno el bienestar llega a los ciudadanos porque se pueden tomar medidas positivas para ellos. Cuando se destruye empleo, cuando se tiene crecimiento negativo, no hay quien tome una medida positiva porque no se puede. Por eso, señorías, este decreto-ley es muy bueno para las familias y para los ciudadanos y se puede aprobar porque hay una situación económica que lo hace posible; una situación económica positiva consecuencia de las medidas que este Gobierno ha ido tomando. Es un decreto-ley que se enmarca en el plan reformas que el Gobierno del Partido Popular está adoptando y en el objetivo de hacer llegar el crecimiento a los ciudadanos. Por eso hoy vamos a convalidarlo.</seg>
@@ -517,7 +523,7 @@
                <seg xml:id="ParlaMint-ES_2015-03-12-CD150312.u55.2">Pido silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-03-12-CD150312.u56"
-               who="#MartínezpujalteVicente"
+               who="#MartínezPujalteVicente"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-03-12-CD150312.u56.1">Queremos crecer para no dejar a nadie tirado. Aquí veo muchos que vienen a la tribuna diciendo que tienen mucha sensibilidad social y son muy progresistas. Dicen: es que yo no me pongo corbata y, desde que no me pongo corbata, mi sensibilidad social es total.<note>Risas</note> Pues no, señorías, no basta con mirarse al espejo por la mañana y decir: ¡qué progresista soy, voy a acusar a los del PP de que no duermen en la calle! Como si ellos durmieran en la calle. No basta mirarse al espejo y fardar de sensibilidad social. La sensibilidad social y ser progresista es trabajar, esforzarse, cambiar España y cambiar las leyes cada día con mucho esfuerzo y que eso se convierta en crecimiento y en empleo. Eso es lo que ha hecho el Gobierno del Partido Popular y los diputados y diputadas del Partido Popular.<note>Aplausos</note> Ya estoy un poco cansado, señorías. Perdónenme, señorías,<pb n="43"/> pero ya estoy muy cansado de los que se suben a esta tribuna, insultan a los diputados y diputadas del Partido Popular y se van tan contentos diciendo: no, hombre, somos amigos, eran cosas del guion, pero es que yo soy muy moderno y muy progresista. No, no. El progresismo, el modernismo y la sensibilidad social son trabajo, esfuerzo, reformas y sacar el país adelante. Eso es lo que ha hecho el Grupo Parlamentario Popular, y quiero decir, señorías, que lo hemos hecho solo con un objetivo: por amor a nuestro país y por servir a los ciudadanos, porque cada día los diputados y diputadas del Partido Popular y el Gobierno se levantan pensando en cada persona, sobre todo en las que lo pasan mal, y hoy están algo mejor que cuando Zapatero se sentaba ahí.</seg>
                <seg xml:id="ParlaMint-ES_2015-03-12-CD150312.u56.2">Muchas gracias.</seg>
