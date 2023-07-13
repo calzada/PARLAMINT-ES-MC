@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2017-03-21-CD170321"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 38 (2017-03-21) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 38 (2017-03-21)</title>
             <title xml:lang="en" type="sub">Plenary session 38 (2017-03-21)</title>
-            <meeting n="2017-03-21" corresp="#CD" ana="#parla.lower #parla.sitting">2017-03-21</meeting>
-            <meeting n="38" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 38</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="38" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 38</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -259,7 +253,7 @@
                <seg xml:id="ParlaMint-ES_2017-03-21-CD170321.u22.1">Por el Grupo Parlamentario Popular en el Congreso, tiene la palabra el señor Martín-Toledano Suárez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-03-21-CD170321.u23"
-               who="#MartínToledanoJosé"
+               who="#MartíntoledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-03-21-CD170321.u23.1">Señorías, hoy traemos de nuevo a debate la Ley Orgánica sobre Protección de la Seguridad Ciudadana, un debate recurrente y manipulado que se plantea sobre falsas premisas. Señorías, no es cierto que esta ley suponga una regresión de los derechos de los ciudadanos; muy al contrario, la actual ley es más garantista que la anterior y eso lo han reconocido incluso algunos partidos políticos bastante enfrentados al Grupo Popular. Para defender esta posición me remito a lo manifestado por el Consejo de Estado en la tramitación del proyecto de ley, que en su informe preceptivo reconocía que este proyecto de ley guarda una prudente ponderación y contrapeso entre los valores de libertad y seguridad, justo lo que se le debe pedir a una ley de seguridad ciudadana.</seg>
                <seg xml:id="ParlaMint-ES_2017-03-21-CD170321.u23.2">Los ataques a esta ley han estado basados en criterios puramente de desgaste político, con argumentos de manual partidista al afirmar que con su aprobación se impediría el derecho de manifestación. ¿No ha habido manifestaciones desde la aprobación de la ley, señorías? También se ha dicho que sería imposible protestar ante el Congreso, y en la investidura se protestó ante el Congreso. Asimismo se dijo que se prohibiría tomar imágenes de las manifestaciones, y yo las he visto en televisión. También se afirmó que se practicarían controles masivos en la calle, algo que yo no he visto. Y que los ciudadanos serían cacheados indiscriminadamente y conducidos de forma arbitraria a comisaría. Nada de esto ha sucedido, señorías. Es decir, que lo que se ha pretendido predicar es que nuestra legislación en la práctica nos llevaría a la persecución del disidente, y eso no es cierto. Eso nos situaría dentro de los parámetros de países nada democráticos como Venezuela, Cuba o Irán.<note>Rumores</note> Nos situaría en esos parámetros. Pero no se preocupen, señorías, afortunadamente, estas afirmaciones demagógicas sobre lo que supondría la Ley de Seguridad Ciudadana han resultado ser falsas; ni mordaza ni nada, señorías.</seg>
@@ -270,7 +264,7 @@
                <seg xml:id="ParlaMint-ES_2017-03-21-CD170321.u24.1">Silencio, señorías.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-03-21-CD170321.u25"
-               who="#MartínToledanoJosé"
+               who="#MartíntoledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-03-21-CD170321.u25.1">Esta ley también fue polémica -fue denominada como Ley de la patada en la puerta- y fue corregida por el Tribunal Constitucional. En definitiva, fue una ley que era necesario modificar, como así le fue solicitado al Gobierno incluso por este Pleno del Congreso. Esta modificación fue necesaria, conveniente y oportuna para recoger las faltas despenalizadas, para incorporar la jurisprudencia producida durante la vigencia de la anterior ley, así como para incorporar los cambios sociales y tecnológicos. ¿Qué nos trae hoy el Partido Socialista aquí? Nos lleva de nuevo de vuelta al pasado, quiere derogar la ley y volver al pasado. Solo buscan un titular, pero no se preocupen que hoy no<pb n="18"/> se deroga, no van a obtener el titular. Presentaron una PNL y dijeron: ¡Se ha derogado la Ley mordaza! No. Presentaron una moción y dijeron: ¡Se ha derogado la Ley de Seguridad Ciudadana! Pues no. Y ahora presentan una proposición y dicen: ¡Se ha derogado la Ley mordaza! Tampoco, señorías. En su proposición no existe el más mínimo análisis de la ley que se pretende derogar, no hay estudio de lo que funciona y debe cambiarse, no hay propuesta de mejora. Lo siento, señorías del PSOE, pero la técnica jurídica parlamentaria que plantean es pésima; se nota falta de interés, falta de trabajo y solo hay una pose política para parecer muy, pero que muy de izquierdas. Pero realmente esto es volver al pasado, supondría aumentar algunas de las sanciones previstas en la ley. Por cierto, se dijo que con esta ley se van a llegar a poner sanciones por 600.000 euros. Bueno, pues la Ley de 1992, ¡en 1992!, ya preveía sanciones de 600.000 euros. Ya lo preveía. Volver al pasado supondría no sancionar conductas que eran consideradas faltas y ahora no lo son. Volver al pasado supondría no aplicar medidas preventivas para la trata de seres humanos; no sé si eso les preocupa o no. O no regular y sancionar las actividades con drones. ¿Nos quieren volver a la edad de piedra, señorías del Partido Socialista?<note>Aplausos</note> Su propuesta no recoge plazos específicos de la caducidad, con lo cual iríamos al plazo general: tres meses para tramitar los expedientes. Llevaría a una caducidad masiva de los expedientes tramitados. ¿Eso es lo que quieren, señorías? Su propuesta conllevaría la derogación del régimen especial de las fronteras de Ceuta y Melilla y de la posibilidad de aplicar el rechazo en frontera. Supondría en la práctica poner en grave peligro a los guardias civiles que protegen la valla, aumentaría el efecto llamada y la entrada ilegal de ciudadanos extranjeros sin autorización y, sobre todo, de los que lo consiguen de forma violenta.<note>Rumores</note> Qué lejos parecen las apelaciones de los socialistas durante el Gobierno de Zapatero a una emigración legal y ordenada, a la protección y defensa de nuestras fronteras. Yo me lo he mirado y recuerdo las palabras de su portavoz, Antonio Hernando, en materia de inmigración y seguridad. Reclamaba autocontención en las críticas. ¿Recuerdan ustedes sus quejas porque en la política migratoria se tendía a la exageración, al exceso y a la demagogia? Pues en esas afirmaciones hay una literal del señor Hernando: Estamos pidiendo a las fuerzas de seguridad del Estado que aquellos que incumplen la ley por no tener documentación debida tienen que ser primero detectados, después detenidos y, posteriormente, pasar a un centro de internamiento y ser expulsados. O las propuestas de Zapatero para proteger las vallas de Ceuta y Melilla con la Legión. Regresen al sentido común, señores del PSOE. La proposición de su grupo no debería ser aceptada, tomada en consideración.</seg>
                <seg xml:id="ParlaMint-ES_2017-03-21-CD170321.u25.2">También hemos estudiado la propuesta del Grupo Parlamentario Vasco. A diferencia de la del PSOE, propone una reforma de la Ley de 2015, en el sentido que ya ha propuesto el ministro del Interior: ofreciendo diálogo. Estudiemos los problemas, veamos dónde puede haber incidencias negativas y pongámonos a trabajar. El Grupo Parlamentario Popular está mucho más cerca de esa propuesta, pero no compartimos la totalidad ni la literalidad de algunos de los cambios que proponen y por ello la definición concreta de la reforma deberá ser objeto de negociación en la propuesta de diálogo ofertada por el ministro.</seg>

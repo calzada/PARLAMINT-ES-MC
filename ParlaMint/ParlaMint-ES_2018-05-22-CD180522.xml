@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-05-22-CD180522"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 117 (2018-05-22) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 117 (2018-05-22)</title>
             <title xml:lang="en" type="sub">Plenary session 117 (2018-05-22)</title>
-            <meeting n="2018-05-22" corresp="#CD" ana="#parla.lower #parla.sitting">2018-05-22</meeting>
-            <meeting n="117" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 117</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="117" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 117</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -573,7 +567,7 @@
                <seg xml:id="ParlaMint-ES_2018-05-22-CD180522.u66.2">También por el Grupo Mixto, tiene la palabra el señor Guillaumes i Ràfols.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-05-22-CD180522.u67"
-               who="#GuillaumesFeliuJoan"
+               who="#GuillaumesFeliujoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-05-22-CD180522.u67.1">Gracias, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-05-22-CD180522.u67.2">Señorías, leído en los periódicos en una semana: los presupuestos de Defensa han subido el 6%. Otro periódico: van a subir el 9%. Otro periódico: van a subir el 10%. Otro periódico: van a subir el 11%. Hay algo anormal, no hay ninguna otra sección del presupuesto que genere estos titulares tan dispares. De hecho, la ministra ha dedicado la primera parte de su intervención a justificar por qué el Ministerio de Defensa genera estos titulares. Ya arreglaron manu militari -o, más bien, mano judicial- la barbaridad del crédito extraordinario que aprobábamos cada año para los planes especiales de<pb n="33"/> armamento. Ahora hemos dado un paso más y hemos aprobado una cantidad más razonable, que no del todo, para las misiones en el exterior. Todo esto lo único que demuestra es que el presupuesto de Defensa ha sido un auténtico disparate durante una serie de años, se daba una cifra que no era real porque se complementaba con créditos extraordinarios y luego, además, había una partida ampliable para las misiones en el exterior que lo multiplicaba de nuevo. Esta es la diferencia entre el 11% que dice algún periódico y el 6% que dice otro. Que la cosa haya mejorado no quiere decir que no tengamos que decir que ha habido un disparate.</seg>
@@ -584,7 +578,7 @@
                <seg xml:id="ParlaMint-ES_2018-05-22-CD180522.u68.1">Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-05-22-CD180522.u69"
-               who="#GuillaumesFeliuJoan"
+               who="#GuillaumesFeliujoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-05-22-CD180522.u69.1">Como en botica, en los PEA hay de todo, hay cosas necesarias, pero ¿alguien me puede explicar la necesidad estratégica de tener ochenta y cinco Eurofighter? Ese era el número inicial, ahora no sé cuántos son. ¿Un avión de primerísima línea a más de 80 millones de euros cada uno? ¿Qué peligro corremos? ¿Qué Estado nos envuelve? El único Estado -no voy a decir cuál- que sería un pequeño riesgo tiene dieciséis F-16, que dan al sur. ¿Para qué necesitamos ochenta y cinco Eurofighter? ¿Hay algo que no sabemos sobre China, ministra? ¿O resulta que la verdad está ahí fuera y hay extraterrestes que están entre nosotros y por eso necesitamos ochenta y cinco aviones que son un auténtico lujo que no nos podemos permitir y que, además, difícilmente vamos a poder pagar razonablemente?</seg>
                <seg xml:id="ParlaMint-ES_2018-05-22-CD180522.u69.2">Moltes gràcies, presidenta; gràcies, senyories.</seg>
@@ -1652,7 +1646,7 @@
                <seg xml:id="ParlaMint-ES_2018-05-22-CD180522.u203.2">Por el Grupo Parlamentario Mixto, tiene la palabra el señor Guillaumes i Ràfols.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-05-22-CD180522.u204"
-               who="#GuillaumesFeliuJoan"
+               who="#GuillaumesFeliujoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-05-22-CD180522.u204.1">President, senyor ministre, senyories, la verdad es que cuando lees los objetivos del ministerio suena muy bien: luchar contra la violencia de género, desde la perspectiva policial, pero esta perspectiva existe y nadie va a negarlo; luchar contra nuevas formas de delincuencia; especializarse en el sistema del blanqueo; luchar contra la ciberdelincuencia.<note>La señora presidenta ocupa la Presidencia</note> Todo esto es fantástico, pero luego miras los números, 8418 millones, que son 506 millones más de euros -es decir, un aumento del 6,4%, si no estoy citando mal-, y uno dice: con este aumento esto irá bien, estos objetivos se pueden cubrir. Hasta que descubres que la verdad es que prácticamente todo el<pb n="107"/> gasto va a capítulo 1. Es así, señor ministro, va a capítulo 1; contra la violencia de género y la ciberdelincuencia, sí, algo hay, pero el porcentaje abrumadoramente mayoritario va al capítulo 1.</seg>
                <seg xml:id="ParlaMint-ES_2018-05-22-CD180522.u204.2">Nosotros estamos contentos -creo que tiene que ser así- de que haya una reposición del 115% de las Fuerzas y Cuerpos de Seguridad del Estado, pero permítame que le diga, señor ministro, que estamos pendientes de la convocatoria de quinientas plazas de Mossos d'Esquadra; que en este momento ya no hay ningún problema legal que no sea justamente el hecho de que ustedes están ocupando la Generalitat y simplemente no convocan las plazas, ni estas ni ninguna de nada; o sea, que tampoco es que sean solo las de los mossos. Ustedes continúan con esta reposición del 115%, mientras los Mossos d'Esquadra no pueden comprar armas largas porque, ya sin ningún problema legal, ustedes, instalados en la Consellería de Interior de Cataluña, simplemente no lo hacen. Comprenderá, señor ministro, que a mí me parece bien que ustedes consigan todo esto, pero ¿usted cree que en alerta 4 es prudente que tengamos parada una promoción de quinientos Mossos d'Esquadra y que no puedan tener armas largas en una alerta 4?</seg>
@@ -1764,7 +1758,7 @@
                <seg xml:id="ParlaMint-ES_2018-05-22-CD180522.u219.3">Silencio, señorías.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-05-22-CD180522.u220"
-               who="#MartínToledanoJosé"
+               who="#MartíntoledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-05-22-CD180522.u220.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-05-22-CD180522.u220.2">Señorías, nos tenemos que centrar en lo importante y lo importante no es contestar a partidos independentistas que hoy han venido aquí a hacer bandera de que son un grupo perseguido y marginal. Como ya les ha dicho otra compañera, ustedes suben con total y absoluta libertad a esta tribuna, hacen sus críticas y se van libremente.<note>Protestas</note> No vendan que España es un país...<note>Protestas.-Aplausos</note> Ustedes dicen que no pueden hablar libremente, señoría, y es falso.</seg>

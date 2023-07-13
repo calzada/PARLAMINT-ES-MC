@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2019-02-20-CD190220"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 172 (2019-02-20) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 172 (2019-02-20)</title>
             <title xml:lang="en" type="sub">Plenary session 172 (2019-02-20)</title>
-            <meeting n="2019-02-20" corresp="#CD" ana="#parla.lower #parla.sitting">2019-02-20</meeting>
-            <meeting n="172" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 172</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="172" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 172</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -1295,7 +1289,7 @@
                <seg xml:id="ParlaMint-ES_2019-02-20-CD190220.u203.2">Por el grupo autor de la iniciativa y para la defensa de la moción tiene la palabra la señora Sánchez-Camacho.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-02-20-CD190220.u204"
-               who="#SánchezCamachoAlicia"
+               who="#SánchezcamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-02-20-CD190220.u204.1">Presidenta, señoras y señores diputados, es un honor poder intervenir hoy aquí, porque la verdad es que debo decirles una máxima, el Partido Socialista Obrero Español no deja de sorprendernos. Lo que está ocurriendo estos días es justo lo contrario de lo que dijeron. Hoy han llegado a decirle a nuestra portavoz que no había ningún hecho que justificara lo que estaba ocurriendo y lo que estábamos diciendo: que los hemos pillado con el carrito de los helados, que los hemos pillado en el pacto de la vergüenza y que los hemos pillado cediendo a los independentistas, a los separatistas que quieren romper España.<note>Aplausos</note> Pero, señorías, yo sí les voy a hacer un pequeño relato. Fíjense, en septiembre el señor Torra ya decía que iba a atacar España, y la señora Calvo, toda alterada, dijo: ¡Uy, una frase no ataca a España, no mueve molino! Muy bien. Después, en octubre dicen que, claro, tienen ya que acercar a los presos políticos porque en Lledoners van a estar mejor, porque van a tener mejores condiciones que en el resto de las cárceles españolas. Eso es un hecho y lo hace el Gobierno del Partido Socialista. Pero el señor Torra también les dice -lo manda por carta al señor Sánchez- que hay una negociación sin precondiciones y que, además, le piden hablar del referéndum en todos sus términos. Ya lo sabían desde septiembre. Pero<pb n="50"/> es que, además, en octubre, el señor Sánchez se va a la televisión y dice: Los catalanes tienen que votar. ¡Les compran los mantras independentistas! ¡Pero si llevamos votando en más de cuarenta ocasiones democráticamente en Cataluña! Pero, ¿qué ha descubierto el señor Sánchez diciendo que los catalanes tienen que votar y que les va a modificar los artículos del estatuto de autonomía? Pero es que va más allá, y en noviembre nos encontramos a la señora Meritxell Batet que nos dice: No, es muy difícil hacer política con presos preventivos. Perdonen, señores del Gobierno de España, aquí se hace política porque la justicia cumple su papel y porque los que han cometido actos delictivos vulnerando la Constitución, en contra del Consell de Garanties Estatutàries, en contra de las sentencias, de los autos judiciales, y los días 6 y 7 de septiembre rompieron el Estado democrático y dieron un golpe a la democracia tienen que estar ante la ley. Por eso están de presos preventivos, señorías.<note>Aplausos</note> Pero es que, además de todo eso, nos encontramos en diciembre con que dicen que se van a ir a hacer un Consejo de Ministros a Barcelona. ¡Barcelona necesitaba más que nunca un consejo de ministros! Con 8000 policías, etcétera; una seguridad que no tenemos los catalanes. Y allí, ¿saben qué hacen? Allí lo que hacen es actuar de Gobierno a Gobierno. ¡El Gobierno de la Generalitat recibe al señor Pedro Sánchez como si fuera un Gobierno extranjero! ¿Ustedes no ven en eso una humillación? Señor Zaragoza, señores del Partido Socialista, ¿eso qué es, una visita de paisano, una visita protocolaria, una visita amigable? Perdonen, estos señores pactan para el futuro que hay un conflicto en Cataluña y además pactan que renuncian en el comunicado conjunto a mencionar la Constitución.</seg>
                <seg xml:id="ParlaMint-ES_2019-02-20-CD190220.u204.2">Pero lo peor de todo esto es que tienen además un documento de veintiuna capitulaciones, que es el documento de la vergüenza, el documento de la infamia, en el que reconocen que España tiene un régimen tardofranquista, que la Guardia Civil y la Policía están siendo represores, que el derecho de autodeterminación es un derecho inapelable. Eso es humillante. Y eso ¿saben qué es, señor Zaragoza y señores del Partido Socialista? El documento de la rendición, de la humillación, para poder estar más horas en la Moncloa, para que el señor 'Falcon' pudiera viajar y estar por toda Europa menos en España, o por todo el mundo menos en España; para poder seguir más tiempo la Moncloa. Pero es que ahora ha venido la señora Batet y nos dice: ¡Hemos intentado dialogar, y ha sido un diálogo factible! El diálogo que ustedes han hecho ha sido un diálogo inútil, estéril; no les han servido las conferencias bilaterales, no les han servido las cesiones, no les ha servido nada porque les han dejado tirados con la máxima deslealtad no aprobándoles los presupuestos.</seg>
@@ -1308,7 +1302,7 @@
                <seg xml:id="ParlaMint-ES_2019-02-20-CD190220.u205.1">Señora Camacho, tiene que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-02-20-CD190220.u206"
-               who="#SánchezCamachoAlicia"
+               who="#SánchezcamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-02-20-CD190220.u206.1">Acabo, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2019-02-20-CD190220.u206.2">Oiga, o una cosa o la otra. Como dirían en mi tierra, es que ustedes valen 'pa to'; valen para un relato y para el otro. Pero no, como también dicen, se les ha visto el llautó. Por eso, en esta moción nosotros traemos varias cosas: que los Mossos d'Esquadra tengan una ley de seguridad ciudadana que les dé órdenes y que garantice que no haya símbolos independentistas en las calles, que no haya exclusión...</seg>
@@ -1319,7 +1313,7 @@
                <seg xml:id="ParlaMint-ES_2019-02-20-CD190220.u207.1">Señora Camacho, tiene que terminar ya, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-02-20-CD190220.u208"
-               who="#SánchezCamachoAlicia"
+               who="#SánchezcamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-02-20-CD190220.u208.1">Acabo, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2019-02-20-CD190220.u208.2">Y tienen además que aplicar un 155 que garantice, ¿saben qué, señores socialistas? Que la maquinaria de TV3 no sea una maquinaria franquista. Ustedes paralizaron el 155; si no lo hubieran hecho, hora no estaríamos como estamos. Lo paralizaron ustedes, porque el Gobierno del Partido Popular lo hizo y además garantizamos una educación...</seg>
@@ -1331,7 +1325,7 @@
                <note>Rumores</note>
             </u>
             <u xml:id="ParlaMint-ES_2019-02-20-CD190220.u210"
-               who="#SánchezCamachoAlicia"
+               who="#SánchezcamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-02-20-CD190220.u210.1">Acabo. Entiendo que lo que digo molesta a algunos, lo entiendo pero...</seg>
                <note>Protestas</note>
@@ -1343,7 +1337,7 @@
                <pb n="52"/>
             </u>
             <u xml:id="ParlaMint-ES_2019-02-20-CD190220.u212"
-               who="#SánchezCamachoAlicia"
+               who="#SánchezcamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-02-20-CD190220.u212.1">Quiero acabar diciéndoles que lo bueno, señorías, sería que el diálogo fuera con los que estamos representando la Constitución, y no reírles las gracias a los que quieren romper España, a los que quieren un referéndum que, por cierto, no existe en ninguna Constitución del mundo; será un derecho primigenio, igual estaba en las cuevas de Altamira, señores, pero desde luego no está ni en el derecho internacional ni en Naciones Unidas.</seg>
             </u>
@@ -1353,7 +1347,7 @@
                <seg xml:id="ParlaMint-ES_2019-02-20-CD190220.u213.1">Señora Camacho, ha sobrepasado su tiempo en cuatro minutos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-02-20-CD190220.u214"
-               who="#SánchezCamachoAlicia"
+               who="#SánchezcamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-02-20-CD190220.u214.1">Muchas gracias, señora presidenta.</seg>
                <note>Aplausos</note>

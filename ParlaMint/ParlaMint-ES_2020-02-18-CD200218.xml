@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-02-18-CD200218"
-     ana="#parla.sitting #covid">
+     ana="#covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 8 (2020-02-18) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 8 (2020-02-18)</title>
             <title xml:lang="en" type="sub">Plenary session 8 (2020-02-18)</title>
-            <meeting n="2020-02-18" corresp="#CD" ana="#parla.lower #parla.sitting">2020-02-18</meeting>
-            <meeting n="8" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 8</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
+            <meeting n="8" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 8</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -271,7 +265,7 @@
                <seg xml:id="ParlaMint-ES_2020-02-18-CD200218.u26.2">Por el mismo grupo parlamentario, tiene la palabra el señor Alonso-Cuevillas i Sayrol.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-02-18-CD200218.u27"
-               who="#AlonsoCuevillasJaume"
+               who="#AlonsocuevillasJaume"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-02-18-CD200218.u27.1">Señora presidenta, señorías, la legitimación democrática de los diputados y diputadas deviene del sufragio universal; así lo impone el más elemental sentido común democrático y así lo ha dictaminado recientemente el Tribunal de Justicia de la Unión Europea que, con buen criterio, ha dicho, como ya se ha puesto de manifiesto, que los ciudadanos y ciudadanas escogen a diputados y diputadas, no a candidatos a diputados o diputadas, solo en el caso de que superen determinados formalismos anacrónicos. Esto es lo que ha permitido que el president Carles Puigdemont y los consellers Comín y Ponsatí sean hoy eurodiputados y esto es lo que permitirá que en breve Oriol Junqueras pueda ejercer también como eurodiputado, de cuya representación viene hoy siendo privado de forma injusta e ilegal, vulnerando no solo su representatividad política sino la de los más de 700 000 ciudadanos y ciudadanas que le votaron.</seg>
                <seg xml:id="ParlaMint-ES_2020-02-18-CD200218.u27.2">Como se ha dicho también, a nuestro entender, la promesa de acatamiento de la Constitución es absolutamente superflua. Hay una expresión acuñada por Baltasar Gracián que decía que el cumplimiento es la suma de cumplo y miento; se puede, por tanto, acatar la Constitución e incumplirla, como se hace frecuentemente con muchos derechos fundamentales, o simplemente se puede no acatarla y cumplirla. No se preocupen ustedes, porque el Estado de derecho ya tiene mecanismos, el Tribunal Constitucional ya tiene facultades, desconocidas en el derecho comparado, que permiten hacer efectivo el acatamiento a la Constitución, y, si no, tranquilos, que viene la Fiscalía y se lo afina.</seg>
@@ -463,7 +457,7 @@
                <seg xml:id="ParlaMint-ES_2020-02-18-CD200218.u54.2">A continuación, tiene la palabra el señor Alonso-Cuevillas i Sayrol.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-02-18-CD200218.u55"
-               who="#AlonsoCuevillasJaume"
+               who="#AlonsocuevillasJaume"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-02-18-CD200218.u55.1">Señor presidente, señorías.</seg>
                <seg xml:id="ParlaMint-ES_2020-02-18-CD200218.u55.2">Señor Asens, votaremos favorablemente la toma en consideración de su proposición, pero debo advertirle de que en el correspondiente trámite parlamentario intentaremos consensuar con usted una serie de enmiendas.</seg>
@@ -1263,7 +1257,7 @@
                <seg xml:id="ParlaMint-ES_2020-02-18-CD200218.u187.2">Por el Grupo Parlamentario Confederal de Unidas Podemos-En Comú Podem-Galicia en Común, tiene la palabra el señor Gómez-Reino Varela.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-02-18-CD200218.u188"
-               who="#GómezReinoAntonio"
+               who="#GómezreinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-02-18-CD200218.u188.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-02-18-CD200218.u188.2">Señores del Grupo Popular, señora Álvarez de Toledo, llevamos un mes de legislatura, llevamos dos plenos y han utilizado su cupo de iniciativas para traernos cuestiones tan relevantes para el conjunto de la ciudadanía como debatir si juramos o prometemos el acta de diputado, algo que estoy convencido que preocupa profundamente al conjunto de la ciudadanía española. Asimismo, han utilizado su cupo de la semana pasada y su cupo de esta semana para traer Venezuela y Venezuela. Ustedes, tan patriotas, no quieren hablar, a nuestro juicio, de lo que le preocupa al conjunto de la ciudadanía. No quieren hablar de lo que opina el relator de Naciones Unidas respecto de la pobreza después de siete años de Gobiernos del Partido Popular, no quieren hablar de los problemas de los agricultores que se están movilizando en el conjunto del Estado y no quieren hablar de la subida del salario mínimo interprofesional o de la subida de las pensiones. No.<note>Aplausos</note> Ustedes reducen los problemas de Galicia, de Asturias, de Murcia o de León, de los leoneses, que se han movilizado también este domingo, a Venezuela. Pero, como saben, los ciudadanos y ciudadanas de este país nos pagan para solucionarles los problemas, no para hablar de cuestiones que creo que no preocupan especialmente a la ciudadanía española.</seg>

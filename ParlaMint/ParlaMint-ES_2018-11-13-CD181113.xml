@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-11-13-CD181113"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 156 (2018-11-13) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 156 (2018-11-13)</title>
             <title xml:lang="en" type="sub">Plenary session 156 (2018-11-13)</title>
-            <meeting n="2018-11-13" corresp="#CD" ana="#parla.lower #parla.sitting">2018-11-13</meeting>
-            <meeting n="156" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 156</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="156" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 156</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -129,7 +123,7 @@
                <seg xml:id="ParlaMint-ES_2018-11-13-CD181113.u4.1">En el turno de fijación de posiciones, tiene la palabra, en primer lugar, por el Grupo Parlamentario Mixto, el señor Guillaumes i Ràfols.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-11-13-CD181113.u5"
-               who="#GuillaumesFeliuJoan"
+               who="#GuillaumesFeliujoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-11-13-CD181113.u5.1">Gracias, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-11-13-CD181113.u5.2">Señorías, en primer lugar, quiero hacer notar que estamos ante una iniciativa legislativa popular y eso, de entrada, debe merecernos una cierta consideración. Cualquier iniciativa legislativa popular tiene que ser mirada con ojos especialmente atentos, especialmente amables, ya que, en definitiva, emana de la ciudadanía. Esto en el haber. En el debe, en Cataluña, Justapol, no es que genere desde hace unas semanas demasiadas simpatías porque están uniendo su reivindicación laboral, plenamente legítima, a<pb n="7"/> otras cosas con las que creemos que no deberían ser mezcladas. Pero aquí se trata de hacer justicia, no de quien te cae bien o quien te cae mal.</seg>
@@ -198,7 +192,7 @@
                <seg xml:id="ParlaMint-ES_2018-11-13-CD181113.u14.2">Por el Grupo Parlamentario Popular, tiene la palabra el señor Martín-Toledano Suárez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-11-13-CD181113.u15"
-               who="#MartínToledanoJosé"
+               who="#MartíntoledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-11-13-CD181113.u15.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-11-13-CD181113.u15.2">Señoras y señores diputados, hoy quiero empezar manifestando el total y rotundo apoyo del Grupo Popular y del Partido Popular a las Fuerzas y Cuerpos de Seguridad del Estado, a la Policía Nacional y a la Guardia Civil. Tenemos unos magníficos profesionales, una policía democrática que en ningún caso merece las agresiones que está sufriendo en algunas partes de España alentadas por partidos independentistas. No lo merecen en ningún caso.<note>Aplausos</note> El compromiso del Partido Popular con las Fuerzas y Cuerpos de Seguridad del Estado se plasmó en un acuerdo histórico de equiparación salarial. Lo digo porque el ministro Zoido desde el Gobierno -es fácil prometer desde la oposición, pero cumplir desde el Gobierno es más difícil- prometió iniciar una senda de equiparación y negoció, acordó y plasmó en el Boletín Oficial del Estado un acuerdo de equiparación negociado con los sindicatos de la Policía Nacional representativos y con las asociaciones de la Guardia Civil representativas.<note>Aplausos</note> Quiero decir que este acuerdo en ningún caso, en la tramitación de los Presupuestos Generales del Estado de 2018, fue enmendado por ningún grupo. Por tanto, entiendo que ningún grupo estaba en contra de ese acuerdo, ni Ciudadanos -señor Rivera, mucho ha hablado de que ese acuerdo no era bueno, pero es bueno; hoy no lo ha dicho, pero lo ha dicho muchas veces- ni Podemos ni el PSOE. Entiendo que, cuando no enmendaron, estaban a favor del acuerdo. También quiero recordarle a Podemos, al señor Delgado, que su jefe calificó de matones de las clases poderosas a las Fuerzas y Cuerpos de Seguridad del Estado. Eso es lamentable y contradictorio con su discurso, señor Delgado.</seg>
@@ -639,7 +633,7 @@
                <seg xml:id="ParlaMint-ES_2018-11-13-CD181113.u75.2">Por el Grupo Parlamentario Popular en el Congreso, tiene la palabra el señor De Barrionuevo Gener.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-11-13-CD181113.u76"
-               who="#BarrionuevoAvelino"
+               who="#Barrionuevo"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-11-13-CD181113.u76.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-11-13-CD181113.u76.2">Señorías, en el año 2015 el Grupo Parlamentario Popular introdujo la reforma del artículo 324 de la Ley de Enjuiciamiento Criminal con el fin de fortalecer las garantías procesales de las personas investigadas, evitando la denominada pena de banquillo durante años y años. Todo ello para dar cumplimiento a un mandato constitucional recogido en el artículo 24.2 de la Constitución española, en el que se establece que todos los españoles tienen derecho a un proceso público sin dilaciones indebidas, y también para dar cumplimiento a los artículos 5 y 6 del Convenio Europeo de Derechos Humanos, que establecen que la tramitación de un procedimiento penal ha de realizarse en un plazo razonable. Gracias a esta reforma, más de trescientos mil asuntos que estaban pendientes, durmiendo el sueño de los justos en los armarios de los juzgados, se han tramitado.</seg>
@@ -1038,7 +1032,7 @@
                <seg xml:id="ParlaMint-ES_2018-11-13-CD181113.u128.2">Señora secretaria.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-11-13-CD181113.u129"
-               who="#SánchezCamachoAlicia"
+               who="#SánchezcamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-11-13-CD181113.u129.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-11-13-CD181113.u129.2">El Congreso de los Diputados quiere reafirmar el compromiso con el mantenimiento de la actividad y el empleo en Alcoa, así como trasladar su apoyo a los trabajadores y a las trabajadoras de las plantas de A Coruña y Avilés-Gozón.</seg>

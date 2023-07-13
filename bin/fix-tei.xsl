@@ -80,9 +80,9 @@
     <xsl:variable name="self" select="name()"/>
     <xsl:if test="not(following::*[name()=$self] or descendant::*[name()=$self] )">
       <tagUsage xmlns="http://www.tei-c.org/ns/1.0" gi="{$self}">
-        <xsl:attribute name="occurs">
-          <xsl:number level="any" from="tei:text"/>
-        </xsl:attribute>
+	<xsl:attribute name="occurs">
+	  <xsl:number level="any" from="tei:text"/>
+	</xsl:attribute>
       </tagUsage>
     </xsl:if>
   </xsl:template>

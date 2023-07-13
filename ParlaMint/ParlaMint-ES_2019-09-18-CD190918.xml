@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2019-09-18-CD190918"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 9 (2019-09-18) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 9 (2019-09-18)</title>
             <title xml:lang="en" type="sub">Plenary session 9 (2019-09-18)</title>
-            <meeting n="2019-09-18" corresp="#CD" ana="#parla.lower #parla.sitting">2019-09-18</meeting>
-            <meeting n="9" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 9</meeting>
-            <meeting n="13" corresp="#CD" ana="#parla.lower #parla.term #CD.13">Legislatura XIII</meeting>
+            <meeting n="9" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 9</meeting>
+            <meeting n="13" corresp="#CD" ana="#parla.term #CD.13">Legislatura XIII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -549,7 +543,7 @@
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u85.2">Señor ministro del Interior en funciones.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-09-18-CD190918.u86"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u86.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u86.2">Gracias, señoría. Muchas gracias por hacerme de nuevo esta pregunta que ya han reproducido oralmente en diez ocasiones, dos interpelaciones y más de 330 preguntas por escrito. Me pregunta cómo valoro la política migratoria, que ha vuelto durante el poco más de un año que llevamos en el Gobierno. Mientras que en los últimos tres años de su Gobierno la inmigración irregular creció un 301 %, este año nosotros ya la hemos rebajado el 50 %.</seg>
@@ -571,7 +565,7 @@
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u89.2">Señor ministro del Interior en funciones.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-09-18-CD190918.u90"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u90.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u90.2">Gracias, señoría. Escuchándole hoy me doy cuenta de cómo no han entendido nada, cómo confunden todo, cómo su política es un batiburrillo.<note>Rumores</note> Comprendo por qué no había política migratoria, nosotros tuvimos que enfrentarnos a ese desastre al que ustedes habían contribuido de falta de política migratoria. Nosotros aplicamos criterios de seguridad y de humanidad, algo que ustedes desconocen. Nosotros volvimos a crear la Comisión delegada del Consejo de Ministros en materia de migración, nosotros volvimos a crear la Autoridad de Coordinación, nosotros volvimos a controlar los flujos migratorios, a controlar las fronteras. Nosotros volvimos a crear política migratoria en la Unión Europea, nosotros volvimos a cerrar convenios con los países de origen y de tránsito, nosotros estamos realizando verdadera política migratoria. Esta tarde mismo viajaré a Italia para reunirme mañana con la nueva ministra del Interior de la República Italiana, y espero una voluntad y una intención de proceder a la política migratoria común de la Unión Europea en otros términos, en los términos que propugna este Gobierno; con seguridad, con humanidad, con cooperación y colaboración.</seg>
@@ -597,7 +591,7 @@
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u94.2">Señor ministro del Interior en funciones.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-09-18-CD190918.u95"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u95.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u95.2">Señora Beltrán, señoría, muchas gracias por su pregunta. Como todos sabemos o, por lo menos, sabe este ministro del Interior en funciones y este Gobierno, las Fuerzas y Cuerpos de Seguridad del Estado prestan o realizan una función esencial y especial en un Estado de derecho, y lo hacen en el conjunto de España para garantizar una situación donde todos podamos desarrollar nuestros derechos, nuestras libertades, con tranquilidad y con seguridad. Consecuencia de todo eso es que cualquier menosprecio a la dignidad de las Fuerzas y Cuerpos de Seguridad del Estado ha encontrado, encuentra y encontrará la respuesta en el Estado derecho y en este Gobierno.</seg>
@@ -619,7 +613,7 @@
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u98.2">Señor ministro del Interior en funciones.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-09-18-CD190918.u99"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u99.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u99.2">Muchas gracias, señora Beltrán. No estaría de más que ustedes, que tanto quieren a las Fuerzas y Cuerpos de Seguridad del Estado, cuando estén en el Gobierno -esperemos que tarden mucho- se preocupen un poco más por ellos porque cuando están en el Gobierno, la inversión, que para ustedes es un gasto en seguridad, decrece sustancialmente. Cuídenles un poquito más; durante sus siete años de Gobierno perdimos 12 000 efectivos -eso no es cuidar-; perdieron poder adquisitivo y sus infraestructuras estaban absolutamente envejecidas. Durante este año y medio nosotros hemos conseguido una oferta de empleo público de 5000 plazas. En todas las zonas de España ya está empezando a haber más efectivos de la Policía y de la Guardia Civil. Les estamos dotando de medios materiales para que ejerzan su trabajo y desarrollen su función, tan esencial en un Estado de derecho, con seguridad. Hemos aprobado un plan de infraestructuras de más de 800 millones. Y hemos hecho efectivo el incremento salarial que ustedes habían diseñado, pero defectuosamente.</seg>
@@ -645,7 +639,7 @@
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u103.2">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-09-18-CD190918.u104"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u104.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u104.2">Señoría, teniendo en cuenta el contenido de sus palabras, que hoy más o menos ratifica en esos términos, le diré que dejemos que los tribunales trabajen, que los tribunales desarrollen su función. Ustedes vienen normalmente con la sentencia puesta. Dejen a los tribunales y veamos la decisión definitiva que puedan dictar. A mí lo que me preocupa sustancialmente es que una representante política como usted dude de la profesionalidad y de la imparcialidad de las Fuerzas y Cuerpos de Seguridad del Estado en el ejercicio de sus funciones.</seg>
@@ -675,7 +669,7 @@
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u109.1">Señor ministro del Interior en funciones.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-09-18-CD190918.u110"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u110.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u110.2">Señoría, muchas gracias. Al final ya ha dicho a qué hacía referencia ese informe y nos hemos podido enterar todos; yo ya sabía que hacía referencia a la manifestación del Orgullo.<pb n="21"/> Le diré simplemente que cuando acontece un hecho como una manifestación o un evento público multitudinario se adoptan medidas de seguridad. Cuando se adoptan medidas de seguridad, como se adoptaron en aquel momento y por aquel acontecimiento, posteriormente se realizan estudios, valoraciones e informes, unos firmados y otros no firmados. Ese es el contexto. Cuando la autoridad judicial pida los documentos, los informes elaborados -y eso es algo normal- para valorar cómo se ha actuado o se ha dejado de actuar, se remitirán todos los informes. Por lo menos no mienta y no diga -esas cuestiones son propias de usted- que me he reunido con Bildu no sé cuándo o cómo -lo ha dicho-. Enséñeme esa foto, por favor. El informe Marlaska... ¿Qué me está llamando? ¿Prevaricador? Todo eso lo acepto de usted y de su grupo, pero finalmente ha caído usted, señoría, ha caído. Ha dicho: Si no fuera el Orgullo, ¿cómo hubiera actuado usted como ministro del Interior? ¿Sabe lo que ha hecho usted ahí? ¿Sabe qué es lo que llamamos el minimachismo? Pues usted ha hecho una minihomofobia, un discurso homofóbico.<note>Aplausos</note> Ha tenido en cuenta mi orientación sexual para atacar mi actuación como ministro del Interior.</seg>
@@ -701,7 +695,7 @@
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u114.2">Señor ministro del Interior en funciones.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-09-18-CD190918.u115"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u115.1">Gracias, señora presidenta. Señor Ortega, muchas gracias por su pregunta.</seg>
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u115.2">Todos esos datos los tiene usted en el portal de transparencia, en la plataforma de contratación pública en un Estado de derecho. Creo que usted todavía no ha sabido diferenciar dos conceptos -precio y valor- cuando hablamos de derechos democráticos.</seg>
@@ -725,7 +719,7 @@
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u118.2">Señor ministro del Interior en funciones.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-09-18-CD190918.u119"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u119.1">Muchas gracias, señora presidenta. Gracias, señor Ortega.</seg>
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u119.2">En referencia a lo último, que es la respuesta, la ayuda a la reconstrucción, a la recuperación de todas las víctimas de la catástrofe natural acontecida en el sureste español va a tener, como se ha dicho, todo el apoyo del Gobierno de España, ¡faltaría más! Y creo que no solo va a tener el apoyo del Gobierno de España, sino de todo este Parlamento cuando haya que aprobar la zona afectada especialmente por una catástrofe natural, por una emergencia de protección civil.</seg>
@@ -735,7 +729,7 @@
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u120.1">Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-09-18-CD190918.u121"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u121.1">... que se repitan las elecciones, es que quizás ustedes -y se lo digo con toda la tranquilidad y sin crispar, créame- añoran otros momentos históricos<note>protestas</note> , otros regímenes donde los ciudadanos no podíamos ejercer el derecho-deber del voto.</seg>
                <note>Aplausos</note>
@@ -759,7 +753,7 @@
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u125.2">Señor ministro del Interior en funciones.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-09-18-CD190918.u126"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u126.1">Gracias, señora presidenta. Gracias, señor Garriga.</seg>
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u126.2">La respuesta, señoría, es no.</seg>
@@ -781,7 +775,7 @@
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u129.2">Señor ministro del Interior en funciones.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-09-18-CD190918.u130"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u130.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2019-09-18-CD190918.u130.2">Señorías, señor Garriga, voy a coincidir con usted en parte. Usted ha hablado de 2011 y del Partido Popular; es cierto. Sus socios del Partido Popular realmente esquilmaron a las Fuerzas y Cuerpos de Seguridad del Estado.<note>Aplausos</note> En siete años, sus socios -y los socios de Ciudadanos, evidentemente, en la legislatura anterior, en el Gobierno anterior del PP- rebajaron 12 000 efectivos en todas las comunidades autónomas. Pero usted se ha quedado en la estadística en junio de 2018. ¿Qué pasó a partir del 7 de junio de 2018? Que nos pusimos a trabajar. Volvimos a invertir en seguridad, porque nosotros queremos la seguridad para el conjunto de los ciudadanos, para quienes no se la pueden pagar, para que puedan ejercitar sus derechos y libertades. Ya estamos recuperándola, con una oferta de empleo público de 5 000 agentes entre policías y guardias civiles. Repito, hemos materializado evidente y necesariamente el incremento salarial. Estamos participando en una importante remodelación de infraestructuras con más de 850 millones de euros. Le repito: eso es cuidar a las Fuerzas y Cuerpos de Seguridad del Estado. Muchas de esas infraestructuras están en Galicia, en Euskadi, en Cataluña, en el País Valenciano, en la comunidad andaluza, en toda España, porque para nosotros existe la palabra España; España es una realidad, no lo olviden. Estamos en ello. Así se ayuda a las Fuerzas y Cuerpos de Seguridad del Estado, y nosotros lo hacemos de forma permanente. Esa es la única forma de materializar y defender sus intereses. Ustedes pervirtieron a las Fuerzas y Cuerpos de Seguridad del Estado; ustedes en ese momento no, pero sí sus socios. Solo espero que el 10 de noviembre nos confirmen y ratifiquen en estas políticas, las políticas de seguridad efectivas y reales para crear una sociedad más libre para todos nosotros.</seg>

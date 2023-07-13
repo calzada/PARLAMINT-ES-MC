@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-09-15-CD200915"
-     ana="#parla.sitting #covid">
+     ana="#covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 41 (2020-09-15) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 41 (2020-09-15)</title>
             <title xml:lang="en" type="sub">Plenary session 41 (2020-09-15)</title>
-            <meeting n="2020-09-15" corresp="#CD" ana="#parla.lower #parla.sitting">2020-09-15</meeting>
-            <meeting n="41" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 41</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
+            <meeting n="41" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 41</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -240,7 +234,7 @@
                <seg xml:id="ParlaMint-ES_2020-09-15-CD200915.u19.2">Por el mismo grupo parlamentario, tiene la palabra el señor Alonso-Cuevillas i Sayrol.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-15-CD200915.u20"
-               who="#AlonsoCuevillasJaume"
+               who="#AlonsocuevillasJaume"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-15-CD200915.u20.1">Señora presidenta, señorías, en los anales de la historia legislativa española pocos despropósitos más grandes hay que la Ley del Registro Civil de 2011; una ley que todavía no ha entrado en vigor, como ya se ha puesto de manifiesto, con sucesivas prórrogas, con diferentes enmiendas durante su vacatio legis y a la que podríamos, sin duda, tildar de aborto legislativo. Si cogemos a un estudiante de Derecho y le decimos que haga un informe sobre la situación de la Ley del Registro Civil, seguramente vamos a truncar su vocación jurídica.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-15-CD200915.u20.2">Compartimos que, como preveía la ley de 2011, el Registro Civil se debería desjudicializar; así lo ha aconsejado en diversas recomendaciones el Consejo de Europa; también diversas directrices de la Cepej, Commission européenne pour l'efficacité de la justice o las directrices Saturn, en el ámbito de la Unión Europea, han dicho que debe sacarse de la Administración de Justicia todo aquello que no sea estrictamente jurisdiccional. Pero lo que se prevé con este proyecto es desvestir un santo para vestir a otro; es decir, lo desjudicializamos, pero tomamos personal de la Administración de Justicia para servir estas oficinas, con lo cual no ganamos nada y contrariamos el espíritu de esas recomendaciones. Además, se hace creando un lío competencial tremendo -lo ha puesto de manifiesto el representante del Grupo Nacionalista<pb n="14"/> Vasco- por cuanto la mayoría de estatutos no tienen asumida esa competencia, pero sí deberán dotar los medios materiales y personales para el funcionamiento de estas oficinas.</seg>
@@ -461,7 +455,7 @@
                <pb n="30"/>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-15-CD200915.u53"
-               who="#AlonsoCuevillasJaume"
+               who="#AlonsocuevillasJaume"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-15-CD200915.u53.1">He leído la proposición con gran interés, con sumo agrado y la verdad es que he pasado un buen rato, reír es sano. Y mientras leía la intervención y pensaba qué les voy a responder, me ha venido a la cabeza desde la célebre intervención en esta Cámara del diputado Labordeta a alguno de los pasajes más conocidos del gran Pepe Rubianes.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-15-CD200915.u53.2">Creo que ustedes se quedan cortos. Pretenden con su proposición ilegalizar los partidos políticos que cuestionen la indisoluble unidad de la nación española. Desacompléjense y promuevan la ilegalización de los partidos políticos que cuestionen lo que sea, promuevan ustedes la ilegalización de los partidos políticos, zanjen el problema de raíz. Porque, si permiten ustedes tanto pluralismo, lo mismo sale un partido político que defiende la democracia o que no comparte la defensa de las ideas de la dictadura, o un partido político que no esté por la guerra sucia. Evitemos todo eso. Actualicemos la máxima cartesiana; superemos ese ya anacrónico pienso luego existo y sustituyámoslo por un pienso luego estorbo. Por tanto, nada mejor que prohibir cuestionar, prohibir estar en desacuerdo, prohibir pensar, prohibir leer. Prohíban ustedes la libertad de expresión, porque, si no, se arriesgan a que salga aquí un diputado con una corbata amarilla modelo llibertat presos politics i exiliats y acabe su intervención diciendo ¡Viva Galiza ceibe!, ¡Gora Euskal Herria askatuta! y, especialmente, alto, fuerte, claro y con convicción ¡Visca Catalunya lluire!</seg>

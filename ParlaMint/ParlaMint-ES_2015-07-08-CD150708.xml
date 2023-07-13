@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2015-07-08-CD150708"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 278 extraordinaria extraordinaria (2015-07-08) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 278 extraordinaria extraordinaria (2015-07-08)</title>
             <title xml:lang="en" type="sub">Plenary session 278 (2015-07-08)</title>
-            <meeting n="2015-07-08" corresp="#CD" ana="#parla.lower #parla.sitting">2015-07-08</meeting>
-            <meeting n="278" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 278 extraordinaria extraordinaria</meeting>
-            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
+            <meeting n="278" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 278 extraordinaria extraordinaria</meeting>
+            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -309,7 +303,7 @@
                <seg xml:id="ParlaMint-ES_2015-07-08-CD150708.u37.2">Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u38"
-               who="#GarcíaMargalloJosé"
+               who="#GarcíamargalloJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-07-08-CD150708.u38.1">Gracias, señor presidente.</seg>
                <seg xml:id="ParlaMint-ES_2015-07-08-CD150708.u38.2">Señor diputado, no quisiera yo adelantar acontecimientos porque la semana que viene tengo prevista una comparecencia para discutir en extenso esta cuestión, pero, a una pregunta directa, una respuesta directa. Podemos hablar de tres beneficios. En primer lugar, añade valor a la seguridad de España, a la seguridad de Europa y a la seguridad de los aliados. En segundo lugar, refuerza los dos anclajes en los que se basa la política exterior española: nuestro protagonismo en Europa y el vínculo con los Estados Unidos. En tercer lugar, aporta beneficios concretos para la zona porque el acuerdo firmado por Defensa supone la inversión de 29 millones de dólares que, sin duda, repercutirán en la creación de empleo.</seg>
@@ -332,7 +326,7 @@
                <seg xml:id="ParlaMint-ES_2015-07-08-CD150708.u41.2">Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u42"
-               who="#GarcíaMargalloJosé"
+               who="#GarcíamargalloJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-07-08-CD150708.u42.1">A las cuestiones concretas que usted plantea contestaremos la siguiente semana, pero yo le sugeriría que se dirigiese al departamento de Defensa. En todo caso, reitero que va a haber una inversión de 29 millones de dólares que necesariamente tienen que suponer un aumento de empleo. Pero el tema es muy importante desde el punto de vista de la seguridad.</seg>
                <seg xml:id="ParlaMint-ES_2015-07-08-CD150708.u42.2">Mire usted, en un dilema antiguo entre una Europa atlántica o una Europa de espaldas a los Estados Unidos, este Gobierno quiere una Europa fuerte con una alianza fuerte con los Estados Unidos. En segundo lugar, la relación bilateral en materia de seguridad más importante que tenemos es la que poseemos con los Estados Unidos, por eso esa relación ha sido siempre una política de Estado. El Convenio para la cooperación de la defensa fue firmado en época de Felipe González con los votos de este grupo parlamentario. Las dos enmiendas, la de 2002 en época de Aznar y la de 2012 en época de Rajoy, fueron aprobadas por este Gobierno con los votos de ese grupo parlamentario. Y aquí lo que se ha producido es un aumento de la amenaza en nuestra frontera sur. Empezó con un ataque al consulado de Bengasi que le costó la vida al embajador; Estados Unidos nos pidió un despliegue temporal de la fuerza en Morón, accedimos; pidieron una prórroga, accedimos; pidieron una segunda prórroga y volvimos a acceder. Gracias a las buenas relaciones y a la política de este Gobierno, lo que era temporal va a ser permanente; en vez de establecerse esa base en un país amigo pero no español, se establece en España, lo cual da mayor protagonismo a España en la defensa en Europa, en la Unión Europea, y mayor protagonismo en el seno de la alianza con nuestros aliados. Poder, podemos volver la espalda a nuestras alianzas, pero deber, debemos mantenerlas. Ustedes sabrán si podemos o debemos.</seg>
@@ -1118,7 +1112,7 @@
                <seg xml:id="ParlaMint-ES_2015-07-08-CD150708.u172.3">Por el Grupo Popular tiene la palabra la señora Rodríguez-Salmones.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u173"
-               who="#RodríguezSalmonesBeatriz"
+               who="#RodríguezsalmonesBeatriz"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-07-08-CD150708.u173.1">Muchas gracias, presidente.</seg>
                <seg xml:id="ParlaMint-ES_2015-07-08-CD150708.u173.2">Yo había preparado una intervención apoyando una ley que tiene veintinueve artículos muy detallados y de la máxima importancia, y me he encontrado con un debate sencillamente menor. Claro que menor, ni siquiera mis competencias, las competencias de mis policías. ¿Cómo es posible que hablando de la seguridad de nuestro país y de nuestros ciudadanos -que es la primera obligación del Estado y de sus responsables- reduzcamos el tema a una hipotética invasión de competencias -que aseguro que no va a suceder y tendremos en cuenta las enmiendas que se presenten al respecto y se van a respetar, por supuesto no se van a invadir-, porque, si se fijan en las diferentes intervenciones, la cuestión casi básica ha sido cuestionar el artículo 3 de esta ley? ¿Creen que es el artículo invasor? ¿Saben lo que dice este artículo invasor, todos los que han presentado una enmienda de totalidad? Dice: A efectos de esta ley se entenderá por seguridad nacional la acción del Estado dirigida a proteger la libertad y bienestar de los ciudadanos, a garantizar la defensa de España y sus principios y valores constitucionales, así como a contribuir junto a nuestros socios y aliados a la seguridad internacional en el cumplimiento de los compromisos asumidos. Punto. Insisto en que no voy a entrar en las enmiendas a la totalidad, la señora vicepresidenta las ha contestado creo que muy bien y, sobre todo, tendremos en cuenta todas las enmiendas que se deriven de ello, pero cómo se puede decir con qué derecho se arroga el Estado la facultad de defender mis libertades en mi territorio. ¿Mis libertades? ¿Mi seguridad? Esta ley que se llama de seguridad tiene un objeto, que es defender la libertad, el objeto es la libertad, las garantías<pb n="53"/> constitucionales. Y ustedes dicen: niego al Estado la capacidad de intentar defender mis libertades, las de mis ciudadanos en mi territorio. ¿Pero cómo es posible que el artículo 3 haya sido el más mencionado cuando es un artículo absolutamente ejemplar que debía figurar como primer artículo de todas las leyes que hacemos en esta Cámara?</seg>
@@ -1188,7 +1182,7 @@
                <seg xml:id="ParlaMint-ES_2015-07-08-CD150708.u183.2">Por el Grupo Catalán de Convergència i de Unió, tiene la palabra el señor Guillaumes.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-08-CD150708.u184"
-               who="#GuillaumesFeliuJoan"
+               who="#GuillaumesFeliujoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-07-08-CD150708.u184.1">Gracias, señorías.</seg>
                <seg xml:id="ParlaMint-ES_2015-07-08-CD150708.u184.2">Comenzaré haciendo una reflexión personal. En general, a este diputado le gusta cuando se discute un proyecto de ley, aunque vaya a votar en contra, destacar los aspectos buenos, que siempre hay alguno. Bueno, es para quitarle a uno la costumbre al ver que determinados medios de comunicación lo único que sacan, aunque hayas votado en contra de la ley, es el párrafo en el que hablabas bien de la misma. Como esto empieza a ser un poco reiterativo, y esta tribuna es muy pública, aprovecho para decirlo. A menudo la mala política genera mal periodismo y tendríamos que intentar que el mal periodismo no engendrara mala política. Por tanto, no voy a perder la costumbre y si hay algo bueno en una ley, aunque votemos en contra, continuaré destacándolo. Quien se tenía que enterar supongo que ya lo ha hecho.</seg>

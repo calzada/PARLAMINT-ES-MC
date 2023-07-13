@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2016-11-30-CD161130"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 18 (2016-11-30) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 18 (2016-11-30)</title>
             <title xml:lang="en" type="sub">Plenary session 18 (2016-11-30)</title>
-            <meeting n="2016-11-30" corresp="#CD" ana="#parla.lower #parla.sitting">2016-11-30</meeting>
-            <meeting n="18" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 18</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="18" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 18</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -524,7 +518,7 @@
                <seg xml:id="ParlaMint-ES_2016-11-30-CD161130.u79.1">Pregunta también dirigida al señor ministro de Justicia, del diputado don Avelino de Barrionuevo Gener, del Grupo Parlamentario Popular.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-11-30-CD161130.u80"
-               who="#BarrionuevoAvelino"
+               who="#Barrionuevo"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2016-11-30-CD161130.u80.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2016-11-30-CD161130.u80.2">Señor ministro, la mediación es un cauce complementario de la resolución de conflictos, una fórmula válida y aceptada en el Estado de derecho que se ajusta a una nueva realidad en la justicia, al tiempo que es una nueva concepción de la justicia que constituye una pieza relevante en la modernización de la misma. Señorías, son muy diversos los ámbitos en los que la mediación proyecta satisfactoriamente su potencialidad pacificadora de conflictos como herramienta complementaria a las soluciones tradicionales de tener que acudir a un juzgado o a un tribunal. En el Grupo Parlamentario Popular entendemos necesario apostar por un modelo de justicia que incorpore la mediación como forma de gestión de conflicto y como medio de difusión de una cultura de justicia de calidad. La mediación, como servicio público y como una medida de política social, fomenta el diálogo y valores como la tolerancia, la cooperación, la participación activa de la sociedad, la solidaridad y el acercamiento de la justicia a la ciudadanía, elementos todos indispensables para solucionar de manera efectiva, pronta, económica y equitativa los conflictos de una sociedad del siglo XXI. La mediación cumple así satisfactoriamente los requisitos para poder ser contemplada como una política social porque incentiva la participación activa de la ciudadanía en la resolución de conflictos, porque previene la aparición de nuevos conflictos y muy especialmente porque refuerza el tejido social y la reeducación, y el fortalecimiento de las estructuras para el establecimiento de una cultura de paz.</seg>
@@ -1447,7 +1441,7 @@
                <seg xml:id="ParlaMint-ES_2016-11-30-CD161130.u226.1">Señorías, con carácter previo a las votaciones, por la secretaria primera se va a proceder a la lectura de una declaración institucional en conmemoración del Día internacional de la acción contra el sida. La señora secretaria primera tiene la palabra.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-11-30-CD161130.u227"
-               who="#SánchezCamachoAlicia"
+               who="#SánchezcamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2016-11-30-CD161130.u227.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2016-11-30-CD161130.u227.2">Señorías, mañana jueves, como cada 1 de diciembre, se conmemora el Día internacional de la acción contra el sida. A pesar de los avances que se han producido en la lucha contra esa enfermedad, según datos de la ONU, el VIH es todavía un problema de salud pública a nivel mundial. Desde que se conoce la enfermedad, 78 millones de personas en todo el mundo han contraído la infección y 35 millones de personas han fallecido a causa de enfermedades relacionadas con el VIH. En 2015, 36.700.000 personas conviven con la enfermedad. Durante ese año se infectaron más de 2 millones de personas, entre ellas 150.000 niños y niñas.<pb n="65"/> El Congreso de los Diputados declara su compromiso con un día que pretende sensibilizar, concienciar y actuar contra esa epidemia global y, en particular, con los objetivos 90-90-90 de Onusida para el año 2020, que buscan asegurar que el 90 % de las personas con VIH conozcan su estado serológico, que el 90 % de las personas que saben que tienen la infección tengan tratamiento y que se produzca la supresión de la carga viral del 90 % de quienes reciben dicho tratamiento. Señorías, la Declaración de París de 2014, firmada por alcaldes y alcaldesas de todo el mundo, supone el compromiso para seguir colocando a las ciudades en la primera fila de la respuesta al VIH y situar a estas en una posición única para liderar acciones aceleradas con miras a alcanzar los objetivos 90-90-90 en 2020. Con el cumplimiento de estos objetivos se pretende poner fin a la epidemia del sida para el año 2030.</seg>

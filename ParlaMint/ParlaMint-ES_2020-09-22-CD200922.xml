@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-09-22-CD200922"
-     ana="#parla.sitting #covid">
+     ana="#covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 43 (2020-09-22) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 43 (2020-09-22)</title>
             <title xml:lang="en" type="sub">Plenary session 43 (2020-09-22)</title>
-            <meeting n="2020-09-22" corresp="#CD" ana="#parla.lower #parla.sitting">2020-09-22</meeting>
-            <meeting n="43" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 43</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
+            <meeting n="43" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 43</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -421,7 +415,7 @@
                <seg xml:id="ParlaMint-ES_2020-09-22-CD200922.u49.1">Muchas gracias, señor Rego.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> Por el mismo grupo parlamentario, tiene la palabra el señor Alonso-Cuevillas i Sayrol.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-22-CD200922.u50"
-               who="#AlonsoCuevillasJaume"
+               who="#AlonsocuevillasJaume"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-22-CD200922.u50.1">Señora presidenta, señorías, traen hoy una nueva proposición para reforzar la independencia judicial. Es obvio que le dan ustedes una gran importancia por cuanto no sale a defenderla el portavoz de Justicia de la formación, sino la jefa superior. Aciertan ustedes parcialmente en el diagnóstico, pero a mi juicio yerran completamente en la solución. Efectivamente, aciertan en el diagnóstico: la justicia española, el Poder Judicial, padece un gran problema a causa de la judicialización, como ustedes ponen de manifiesto y han denunciado los informes Greco desde el año 2013 de forma reiterada, pero omiten ustedes otros graves problemas que, conjuntamente con la politización, también aquejan al Poder Judicial. Uno de ellos es el sesgo ideológico extremadamente escorado hacia posiciones conservadoras o muy conservadoras. Si se quiere solucionar eso -y no me refiero ya solo a ustedes, sino especialmente a las bancadas de los grupos que dan soporte al Gobierno, que son quienes en realidad tienen capacidad de hacerlo-, lo primero que deberían hacer es reformar el sistema de acceso a la judicatura, un sistema de acceso excesivamente memorístico, un sistema de acceso que impide que puedan optar los juristas y las juristas de familias que no tienen los recursos suficientes para permitírselo, que los aísla del mundo durante tres, cuatro o cinco años que dura la oposición, los desocializa, lo que comporta luego una excesiva endogamia, un sentimiento de casta, de élite, que es absolutamente perjudicial. Para solucionar esto, deberían recuperarse, reforzarse los denostados tercero, cuarto y quinto turno, y reforzar el Poder Judicial con<pb n="25"/> gente proveniente de profesiones jurídicas que han vivido la vida, que han visto los conflictos desde los dos lados de la barrera y que aportarían savia nueva al Poder Judicial.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-22-CD200922.u50.2">Otro de los problemas que aquejan de forma grave al Poder Judicial es la falta de control. Quis custodiet ipsos custodes? Cuando hay algún conflicto que afecta al Poder Judicial, ¿quién debe juzgarlo? El propio Poder Judicial. Ya que apelan ustedes al texto constitucional, apelemos a lo que dice el artículo 122 de la Constitución, pero no se queden solo en quién los nombra, porque eso es secundario. El artículo 122 dice que doce entre jueces y magistrados y los otros ocho, nombrados por Congreso y Senado, entre abogados y otros juristas de reconocido prestigio. Está claro que los jueces y magistrados también pueden ser juristas de reconocido prestigio, pero es evidente que el espíritu constitucional era precisamente aportar al Gobierno del Poder Judicial esos abogados y profesionales jurídicos que, provenientes de otras profesiones, pudieran ejercer ese punto de fiscalización y control de un Poder Judicial excesivamente endogámico.</seg>
@@ -1013,7 +1007,7 @@
                <note>Aplausos</note>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-22-CD200922.u135"
-               who="#FernándezRocaCarlos"
+               who="#FernándezrocaCarlos"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-22-CD200922.u135.1">Muchas gracias, señora presidente.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-22-CD200922.u135.2">Me sumo a las felicitaciones a la Legión por su centenario.<note>Una señora diputada: ¡Viva la Legión!- Varios señores diputados: ¡Viva!-Aplausos</note> Les adelanto que mi grupo parlamentario va a votar a favor de la moción por compromiso y por lealtad con España y con nuestros militares. Eso sí, hemos registrado una enmienda de modificación al articulado que ha sido aceptada por el grupo proponente. Esta moción se encuadra en un claro ejercicio de oportunismo político, porque ha sido presentada la misma semana que los militares se han manifestado por unas retribuciones dignas. Para que sus señorías visualicen la cuestión de la precariedad salarial en las Fuerzas Armadas les voy a poner un ejemplo muy gráfico. Un teniente piloto de combate de un avión Eurofighter, un caza de cuarta generación, cuyo coste económico se sitúa por encima de los 60 millones de euros, cobra lo mismo que un mosso d'esquadra nivel 14 de la Administración, diez niveles por debajo, mosso que percibe 2,5 veces el salario de un soldado de su misma categoría profesional. Hay soldados que apenas llegan al salario mínimo interprofesional a pesar de que los militares están en disposición de servir a España veinticuatro horas al día, los 365 días del año.<note>Aplausos</note> Ejemplarmente lo han demostrado en el cumplimiento de la Operación Balmis. La milicia es una profesión que requiere un alto grado de vocación de servicio. Sin embargo, para desgracia de nuestros militares, la vocación no paga las hipotecas, no paga los colegios de los hijos y no paga los préstamos personales.<note>Aplausos</note>
@@ -1024,7 +1018,7 @@
                <seg xml:id="ParlaMint-ES_2020-09-22-CD200922.u136.1">Señor Fernández-Roca, tiene que terminar, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-22-CD200922.u137"
-               who="#FernándezRocaCarlos"
+               who="#FernándezrocaCarlos"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-22-CD200922.u137.1">Finalizo ya, presidente.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-22-CD200922.u137.2">Señores diputados de Ciudadanos, hace unos días en esta misma tribuna decían que nuestra proposición de ley no conducía a nada; no obstante, en su moción instan al Gobierno a que impulse esta ley. Nos alegramos de que hayan cambiado de opinión, algo sospechosamente habitual en su formación política, y les tendemos la mano tanto a ustedes como al resto de formaciones del arco parlamentario para que apoyen nuestra iniciativa parlamentaria. Dejen a un lado intereses partidistas espurios y guíense por la mejor brújula: el bienestar de los españoles, porque en la defensa de España y de sus Fuerzas Armadas cabemos todos. Señorías, menos palabras y más hechos.</seg>
@@ -1033,7 +1027,7 @@
                <seg xml:id="ParlaMint-ES_2020-09-22-CD200922.u138.1">Señor Fernández-Roca, tiene que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-22-CD200922.u139"
-               who="#FernándezRocaCarlos"
+               who="#FernándezrocaCarlos"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-22-CD200922.u139.1">Finalizo. No podemos abandonar a nuestros militares que mediante su disposición permanente de servicio a España y a los españoles han dedicado los mejores años de su vida, ofreciéndola incluso, para que nuestra patria sea un lugar más seguro. La defensa de España no es temporal.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-22-CD200922.u139.2">Muchas gracias.</seg>

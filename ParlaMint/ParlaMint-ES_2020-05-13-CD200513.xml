@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-05-13-CD200513"
-     ana="#parla.sitting #covid">
+     ana="#covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 21 (2020-05-13) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 21 (2020-05-13)</title>
             <title xml:lang="en" type="sub">Plenary session 21 (2020-05-13)</title>
-            <meeting n="2020-05-13" corresp="#CD" ana="#parla.lower #parla.sitting">2020-05-13</meeting>
-            <meeting n="21" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 21</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
+            <meeting n="21" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 21</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -436,7 +430,7 @@
                <seg xml:id="ParlaMint-ES_2020-05-13-CD200513.u61.1">Pregunta dirigida a la señora ministra de Defensa. Pregunta del diputado don Carlos Hugo Fernández-Roca Suárez, del Grupo Parlamentario VOX.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-05-13-CD200513.u62"
-               who="#FernándezRocaCarlos"
+               who="#FernándezrocaCarlos"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-05-13-CD200513.u62.1">Señora ministra, ¿por qué no aplican la Ley de Seguridad Nacional en lugar de prorrogar el estado de alarma durante cincuenta días más?</seg>
             </u>
@@ -456,7 +450,7 @@
                <seg xml:id="ParlaMint-ES_2020-05-13-CD200513.u65.2">Señor Fernández-Roca Suárez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-05-13-CD200513.u66"
-               who="#FernándezRocaCarlos"
+               who="#FernándezrocaCarlos"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-05-13-CD200513.u66.1">Señora ministra, usted como jurista sabe perfectamente que existen otros instrumentos jurídicos alternativos al estado de alarma mucho más garantistas. La Ley de Seguridad Nacional, por ejemplo. Por lo tanto, que desde el Gobierno hayan indicado que no existe alternativa jurídica supone extender un bulo desde el propio Ejecutivo. Nuestro ordenamiento jurídico lo que viene a indicarnos es que los derechos fundamentales consagrados en nuestra carta magna no se pueden suspender de una forma generalizada y permanente, que es lo que ustedes están haciendo. Ustedes han aprobado un estado de excepción encubierto, que cercena el ejercicio de hasta once derechos fundamentales y libertades públicas que nos asisten a todos los españoles. No hay test de proporcionalidad jurídica que avale esta situación. Señora ministra, ¿han solicitado a la Abogacía General del Estado algún informe que avale la prórroga del estado de alarma otros cincuenta días? Mucho me temo que no. Porque en este caso ustedes se hubiesen escondido detrás de ese informe. No se puede activar un estado de alarma sine die, la ley orgánica de 1981 establece que la duración máxima del estado de excepción son sesenta días, y es que hoy se cumplen sesenta días desde que ustedes aprobaron un estado de excepción encubierto.</seg>
                <seg xml:id="ParlaMint-ES_2020-05-13-CD200513.u66.2">Señora ministra, ¿conoce que en la Estrategia de Seguridad Nacional del año 2017 ya se identificó el riesgo de pandemia como una amenaza real, y que este marco normativo prevé el desarrollo de una estrategia de seguridad sanitaria, que si hubiese estado aprobada en este momento hubiese sido fundamental en la gestión de la crisis del coronavirus? Pero, ¿ustedes qué han hecho al respecto, aparte de nada? Señora ministra, ¿por qué no corrigen el rumbo ciento ochenta grados, dejan de degradar nuestra democracia suspendiendo el ejercicio de derechos fundamentales y libertades públicas, que son legítimos, y en este supuesto aplican la Ley de Seguridad Nacional a tenor de lo dispuesto en el artículo 23 de la propia ley?</seg>
@@ -579,7 +573,7 @@
                <seg xml:id="ParlaMint-ES_2020-05-13-CD200513.u89.1">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-05-13-CD200513.u90"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-05-13-CD200513.u90.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-05-13-CD200513.u90.2">Muchas gracias, señoría. Señor Gil Lázaro, después de haberles dicho ya este ministro que no prevarica incumpliendo arbitrariamente la legislación penitenciaria, y que tampoco compra ilegalmente con dinero público la protección mediática; después de haberles dicho que no censura limitando arbitrariamente ni el derecho de libre expresión ni el derecho a la libertad de información ni a la de manifestación; igualmente habiéndoles dicho que no es tan irresponsable como para no proteger al conjunto de nuestros funcionarios públicos del Ministerio del Interior -aprovecho para felicitar hoy en su 176.º aniversario a la Guardia Civil-, y después de haberles dicho que no abusa inconstitucionalmente del estado de alarma, le tengo que decir que este ministerio, el Ministerio del Interior, y su ministro -tengo el honor de dirigirlo- únicamente nos limitamos a garantizar el libre ejercicio de los derechos y libertades fundamentales de todos los ciudadanos, y en este caso conjugándolo con la salud pública.</seg>
@@ -602,7 +596,7 @@
                <pb n="22"/>
             </u>
             <u xml:id="ParlaMint-ES_2020-05-13-CD200513.u94"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-05-13-CD200513.u94.1">Muchas gracias, señora presidenta. Muchas gracias, señor Gil Lázaro.</seg>
                <seg xml:id="ParlaMint-ES_2020-05-13-CD200513.u94.2">Voy a ser muy breve, pero le voy a decir que su discurso es el de la infamia y de la imputación grave a un ministro y a un Gobierno de la comisión de los delitos más graves. Eso es lo que están haciendo ustedes desde su partido. Se hacen eco de mentiras, generan crispación y generan odio, pero no hacen ninguna propuesta de actuación en materia de la crisis sanitaria preocupándose por el conjunto de nuestra población, ninguna medida en razón a la reconstrucción social y económica que queremos.</seg>
@@ -1407,7 +1401,7 @@
                <seg xml:id="ParlaMint-ES_2020-05-13-CD200513.u207.1">Señor Alonso-Cuevillas, tiene que terminar, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-05-13-CD200513.u208"
-               who="#AlonsoCuevillasJaume"
+               who="#AlonsocuevillasJaume"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-05-13-CD200513.u208.1">Acabo. Decía que a alguien se le ocurre que entre en vigor el 1 de septiembre; es decir, cuando estemos en plena vorágine de concursos, con juzgados absolutamente colapsados, todos a intentar adaptar los números de los nuevos preceptos, rehacer los formularios, etcétera. No va a servir para nada; más colapso. Y en materia de familia se inventan un nuevo procedimiento absolutamente oral, ¿pero no íbamos a los juicios telemáticos? Cualquiera que pisa un juzgado sabe que el auténtico cuello de botella es la agenda de los señalamientos judiciales; los juicios completamente orales son mucho más largos que los juicios que vienen con contestación escrita. Por tanto, ahí, lejos de agilizar, lo que hacen es colapsar más.</seg>
                <seg xml:id="ParlaMint-ES_2020-05-13-CD200513.u208.2">Vamos a votar en contra porque creemos que estas medidas son un puro marketing político que no soluciona nada.</seg>
@@ -1416,7 +1410,7 @@
                <seg xml:id="ParlaMint-ES_2020-05-13-CD200513.u209.1">Señor Alonso-Cuevillas, tiene que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-05-13-CD200513.u210"
-               who="#AlonsoCuevillasJaume"
+               who="#AlonsocuevillasJaume"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-05-13-CD200513.u210.1">Y además lo hacemos porque con ello defendemos el interés de la abogacía y de la mayoría de los profesionales liberales, procuradores y graduados sociales, que así nos lo han solicitado.</seg>
                <seg xml:id="ParlaMint-ES_2020-05-13-CD200513.u210.2">Moltes gràcies, presidenta.</seg>
