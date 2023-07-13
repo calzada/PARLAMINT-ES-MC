@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2015-09-16-CD150916"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 286 (2015-09-16) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 286 (2015-09-16)</title>
             <title xml:lang="en" type="sub">Plenary session 286 (2015-09-16)</title>
-            <meeting n="286" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 286</meeting>
-            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
+            <meeting n="2015-09-16" corresp="#CD" ana="#parla.lower #parla.sitting">2015-09-16</meeting>
+            <meeting n="286" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 286</meeting>
+            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -355,7 +361,7 @@
                <seg xml:id="ParlaMint-ES_2015-09-16-CD150916.u28.2">Por el Grupo de Convergència i d'Unió, tiene la palabra el señor Guillaumes.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-16-CD150916.u29"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-09-16-CD150916.u29.1">Muchas gracias, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2015-09-16-CD150916.u29.2">Señor ministro, señorías, en primer lugar, muchas cosas de este presupuesto no nos parecen mal. De hecho, hemos presentado relativamente pocas enmiendas y casi todas hacen referencia a temas locales. El problema de nuestro grupo con este presupuesto no es tanto por lo que contiene, sino por el agravio comparativo que representa. Naturalmente, nosotros no tenemos este estilo y no vamos a presentar enmiendas mezquinas simplemente por un sentimiento de agravio comparativo. El caso es que el tema es bastante sangrante y lo iré deshilvanando a lo largo de mi intervención.</seg>
@@ -2765,7 +2771,7 @@
                <seg xml:id="ParlaMint-ES_2015-09-16-CD150916.u436.2">Por el Grupo Popular, señor López-Amor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-16-CD150916.u437"
-               who="#LópezamorFernando"
+               who="#LópezAmorFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-09-16-CD150916.u437.1">Señora presidenta, señorías, con toda urgencia voy a proceder a realizar el trámite parlamentario correspondiente tras la devolución por parte del Senado a esta Cámara del proyecto de reforma de la Ley General Tributaria. En el Senado se han incorporado dos enmiendas que, evidentemente, nuestro grupo parlamentario va a apoyar. Se trata de enmiendas de carácter fundamentalmente técnico, como son la obligación de presentar las obligaciones tributarias con<pb n="137"/> trascendencia económica de forma telemática y, en segundo lugar, posibilitar la recuperación por parte de la Hacienda pública de las ayudas de Estado que no tengan su origen en una decisión de la Comisión Europea. En todo lo demás se ha mantenido el texto ya aprobado por esta Cámara el 7 de junio de 2015 y, por tanto, como dirían los abogados en una vista, elevamos a definitivas las conclusiones que expusimos durante el mes de julio en la tramitación en esta Cámara.</seg>
                <seg xml:id="ParlaMint-ES_2015-09-16-CD150916.u437.2">Queremos destacar, a pesar de las muchas disposiciones contenidas en el proyecto, las que se consideran más novedosas. En primer lugar, consideramos muy progresivo la publicidad de los morosos con la Hacienda pública, que tiene un principio de excepcionalidad respecto a la reserva de los datos tributarios contenida en el artículo 95 de la Ley General Tributaria y que se hace con un carácter excepcional y tasado: solo se podrán publicar los morosos cuyo importe de la deuda, es decir, de la cuota más la sanción, sea superior a un millón de euros y, en segundo lugar, cuando no se hubiese atendido el pago en periodo voluntario no estando aplazada ni suspendida la deuda. En este caso se podrá aplicar esta medida, que no tiene, vuelvo a repetir, carácter sancionador aunque sí aflictivo, y solo se publicarán los datos mínimos exigibles de estos morosos. En segundo lugar, también es muy novedoso el conflicto de aplicación de la norma, que es una evolución legislativa desde la Ley General Tributaria de 1963, pasando por la de 2003, en la que se considera que la utilización de actos impropios o inusuales para conseguir la elusión o la evasión fiscal debería ser regularizada con los intereses de demora correspondientes. En este caso concreto, ya nuestra Ley General Tributaria de 2015 le da un carácter sancionador y, por tanto, se considera una infracción tributaria.</seg>
@@ -2782,7 +2788,7 @@
                <pb n="138"/>
             </u>
             <u xml:id="ParlaMint-ES_2015-09-16-CD150916.u439"
-               who="#LópezamorFernando"
+               who="#LópezAmorFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-09-16-CD150916.u439.1">El objetivo prioritario de este Gobierno ha sido crear ese entorno favorable para la creación de empleo y para ello ha aprobado, entre otras medidas, la Ley de control de la deuda comercial en el sector público y ha creado el Fondo de pago a proveedores. Esto ha permitido a nuestro Gobierno pagar más de 9 millones de facturas correspondientes a 261.000 proveedores, lo que posibilitó mantener 400.000 puestos de trabajo y ser hoy un modelo de creación de empleo en la Unión Europea.</seg>
                <seg xml:id="ParlaMint-ES_2015-09-16-CD150916.u439.2">Estos eran los objetivos que estaban detrás de toda la reforma fiscal que lleva gestándose, como he dicho, toda la legislatura y que hoy cerramos con la aprobación de modificación de la Ley General Tributaria. Esta reforma tributaria incluye evidentemente la Ley de reforma del IRPF, la Ley del impuesto sobre la renta de las personas no residentes, el impuesto sobre sociedades, el impuesto sobre el valor añadido, el Régimen Económico y Fiscal de Canarias y, por último, la Ley General Tributaria. Hemos conseguido un sistema tributario más sencillo, suficiente para mantener el Estado del bienestar y que protege a los más desfavorecidos, como se ha visto en los Presupuestos Generales del Estado, que permite ayudas a la familia o a los discapacitados, así como luchar con eficacia contra todo el fraude fiscal. Hoy, pues, el ciclo normativo se cierra con esta Ley General Tributaria. Esta es la norma fundamental que regula las relaciones jurídico-tributarias entre el Estado en el ejercicio de la potestad de imperio y los contribuyentes, portadores de derechos fundamentales pero también de obligaciones contenidas en nuestra Constitución. Esta ley mantiene el carácter codificador en su ámbito y alcanza entre sus objetivos luchar contra el fraude fiscal, adaptando la norma a las nuevas realidades económicas. Por tanto, el necesario equilibrio entre la norma positiva en materia tributaria y la proporcionalidad de su punición parecen alcanzadas en esta Ley General Tributaria. La tensión que se creó con las medidas fiscales de carácter tributario ha permitido que no quiebre el Estado del bienestar y crecer como estamos creciendo en el entorno del 3-3,5 % del PIB. Todas estas medidas adoptadas por nuestro Gobierno nos permiten decir que se hace más difícil defraudar, que volvemos a aumentar la base de contribuyentes y sus bases imponibles, en definitiva, y termino, que pagaremos todos para que podamos pagar menos.</seg>

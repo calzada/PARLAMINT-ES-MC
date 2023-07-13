@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-06-11-CD200611"
-     ana="#covid">
+     ana="#parla.sitting #covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 27 (2020-06-11) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 27 (2020-06-11)</title>
             <title xml:lang="en" type="sub">Plenary session 27 (2020-06-11)</title>
-            <meeting n="27" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 27</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Legislatura XIV</meeting>
+            <meeting n="2020-06-11" corresp="#CD" ana="#parla.lower #parla.sitting">2020-06-11</meeting>
+            <meeting n="27" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 27</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -350,7 +356,7 @@
                <seg xml:id="ParlaMint-ES_2020-06-11-CD200611.u32.2">Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-06-11-CD200611.u33"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-06-11-CD200611.u33.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-06-11-CD200611.u33.2">Señoras y señores diputados, comparezco ante la Cámara para fijar la posición del Gobierno frente a la enmienda a la totalidad de devolución que ha planteado el Grupo Parlamentario Plural al proyecto de ley orgánica sobre la utilización de nombres de pasajeros para la prevención, detección, investigación y enjuiciamiento de delitos graves, más conocida como ley orgánica sobre el sistema passenger name record o PNR, por sus siglas en inglés. Ya les anticipo que el Gobierno muestra el rechazo a esta enmienda a la totalidad que ha presentado el Grupo Plural a este proyecto de ley orgánica.</seg>
@@ -709,7 +715,7 @@
                <seg xml:id="ParlaMint-ES_2020-06-11-CD200611.u73.2">Por el mismo grupo parlamentario, tiene la palabra el señor Alonso-Cuevillas i Sayrol.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-06-11-CD200611.u74"
-               who="#AlonsocuevillasJaume"
+               who="#AlonsoCuevillasJaume"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-06-11-CD200611.u74.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-06-11-CD200611.u74.2">Señorías, señor Nuet, desde nuestra formación vamos a apoyar la toma en consideración de su proposición de ley y lo vamos a hacer porque, en primer lugar, compartimos el espíritu de la misma. La Ley reguladora de la competencia y del funcionamiento de la jurisdicción militar, que es hija de estos disparos del techo que se ven todavía aquí, es una ley orgánica de 1987 -por cierto, es la Ley Orgánica 4/1987, y no 7, que por error tipográfico consta en su propuesta-. Salíamos del 'tejerazo', luego llegó la Loapa, después la Ley Orgánica del Poder Judicial de 1985 es la que condiciona, y posteriormente, en 1987 se hace una cosa que efectivamente no tiene parangón material con ningún país de nuestro entorno, con ningún país de tradición democrática, porque se integró una jurisdicción que está formada básicamente por militares. El maquillaje cosmético se hizo por la cúspide, integrando a los generales del cuerpo jurídico militar en la Sala quinta del Tribunal Supremo para mantenerles ese tratamiento de vuecencia y excelencia, pero, efectivamente, en la base de la jurisdicción militar no pueden juzgar con imparcialidad a quien está sometido a mandato imperativo. Por tanto, compartimos los motivos e incluso creo que se ha quedado corto porque, por ejemplo, en su exposición ha dicho que uno de cada diez casos de abusos sexuales o laborales acabaron en condena. Pero no es cierto, fue uno de cada ocho casos, concretamente fueron 22 de 176 en el año que usted cita.</seg>

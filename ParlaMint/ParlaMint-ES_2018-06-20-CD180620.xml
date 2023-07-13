@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-06-20-CD180620"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 125 (2018-06-20) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 125 (2018-06-20)</title>
             <title xml:lang="en" type="sub">Plenary session 125 (2018-06-20)</title>
-            <meeting n="125" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 125</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2018-06-20" corresp="#CD" ana="#parla.lower #parla.sitting">2018-06-20</meeting>
+            <meeting n="125" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 125</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -676,7 +682,7 @@
                <seg xml:id="ParlaMint-ES_2018-06-20-CD180620.u110.2">Señor ministro, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-06-20-CD180620.u111"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-06-20-CD180620.u111.1">Buenos días. Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-06-20-CD180620.u111.2">Yo la pregunta la tenía concretada en otros términos y en otros extremos, simplemente cuál era la política penitenciaria que va a emprender este Gobierno. Limitarla a unos supuestos en concreto -permítame- es olvidarse de otros muchos presos y es olvidarse de los funcionarios de Instituciones Penitenciarias, como se han olvidado ustedes últimamente y en estos presupuestos; presupuestos que el Gobierno va a aceptar, pero en los que este ministro va a intentar tratar las demandas de los funcionarios de Instituciones Penitenciarias que prestan un servicio importante a la sociedad. No olvidemos que son quienes están ahí ejecutando y ejercitando las funciones que prescribe el artículo 25.2 de nuestra Constitución, son los que garantizan que personas que han sido condenadas por delitos graves luego puedan reinsertarse en la sociedad. Por ello, una de las políticas principales en esta materia va a ser de tipo orgánico, tratando, para un futuro próximo, de que las plantillas de los funcionarios de prisiones vayan en ese sentido y de que sus peticiones económicas sean adecuadas a las de otros funcionarios. También trabajaremos por la modificación de la Ley General Penitenciaria conforme a los criterios que han establecido ya muchos profesionales de la materia.</seg>
@@ -700,7 +706,7 @@
                <seg xml:id="ParlaMint-ES_2018-06-20-CD180620.u114.1">Señor ministro, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-06-20-CD180620.u115"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-06-20-CD180620.u115.1">Yo creo, señor Maroto, que para dos minutos hay que definir y concretar mucho más la pregunta. Reflexiones podríamos hacer muchas, pero vuelvo a decir: en todos los aspectos, mejora de las condiciones de los funcionarios y reforma de la Ley General Penitenciaria adaptándola al Código Penal y a las nuevas realidades; en las cuestiones que usted ha planteado: principio de legalidad adecuado a las circunstancias concurrentes e individuales de cada uno y mucho diálogo. Quiero referir que los funcionarios que llevaban encerrados veintitrés días en instituciones penitenciarias hoy han levantado ese encierro por el diálogo...</seg>
                <note>Aplausos</note>
@@ -725,7 +731,7 @@
                <seg xml:id="ParlaMint-ES_2018-06-20-CD180620.u119.2">Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-06-20-CD180620.u120"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-06-20-CD180620.u120.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-06-20-CD180620.u120.2">Este Gobierno, este ministro no va a ordenar, no ordena, lo único que pide es que se cumpla la ley. Vuelvo a referir que los funcionarios de Instituciones Penitenciarias, conociendo perfectamente la Ley General Penitenciaria, conociendo el reglamento penitenciario, conociendo los protocolos de actuación y<pb n="22"/> aplicándolos en concurrencia con los derechos fundamentales, el principio de tutela judicial efectiva, etcétera, que garantizan y deben guiar esa interpretación, serán los que definirán y propondrán en su caso el traslado.</seg>
@@ -750,7 +756,7 @@
                <seg xml:id="ParlaMint-ES_2018-06-20-CD180620.u123.2">Señor ministro, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-06-20-CD180620.u124"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-06-20-CD180620.u124.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-06-20-CD180620.u124.2">Señora Martín, creo que usted y yo estamos hablando en términos sustancialmente idénticos. Nos estamos refiriendo expresamente a la conclusión de esa fase de instrucción, como todos razonablemente sabemos, si bien hay que conocerlo de forma efectiva. Los traslados para los presos, si son continuos, suponen una carga -y puede preguntar a cualquiera de ellos- indeseable por las condiciones y circunstancias en que deben realizarse. Necesitamos conocer -y se está trabajando en ello- cuál es esa realidad procesal. Creo que estamos hablando en términos, vuelvo a decir, sustancialmente idénticos y no me gusta reiterarme en los argumentos. Nuestra finalidad es la aludida y la indicada de garantizar en estos casos el ejercicio del derecho de defensa, pero no causar perjuicios innecesarios a las personas privadas de libertad con traslados innecesarios.</seg>
@@ -1187,7 +1193,7 @@
                <seg xml:id="ParlaMint-ES_2018-06-20-CD180620.u190.2">Tiene la palabra la señora secretaria primera.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-06-20-CD180620.u191"
-               who="#SánchezcamachoAlicia"
+               who="#SánchezCamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-06-20-CD180620.u191.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-06-20-CD180620.u191.2">El Congreso de los Diputados de España suscribe como declaración institucional la Declaración de ONU Mujeres con motivo del Día internacional para la eliminación de la violencia sexual en los conflictos. Este año, en el Día internacional para la eliminación de la violencia sexual en los conflicto, celebramos diez años de la adopción de la emblemática Resolución 1820, del año 2008, del Consejo de Seguridad de las Naciones Unidas, que tilda el uso de la violencia sexual en situaciones de conflicto armado de obstáculo para la restauración de la paz y la seguridad internacionales. A lo largo de esta década hemos visto avances radicales en la lucha contra la violencia sexual relacionada con los conflictos, como el procesamiento efectivo por tribunales nacionales e internacionales de agresores que parecían intocables, numerosas reformas legales y legislativas para mejorar la protección y garantizar el acceso a la justicia a supervivientes y testigos, la creación de servicios integrales especializados para las víctimas, con iniciativas de rehabilitación socioeconómica y reparaciones, códigos de conducta para las fuerzas de seguridad con el fin de garantizar una mayor sensibilización y su capacitación en materia de violencia sexual relacionada con situaciones de conflicto y un cambio de mentalidad gracias al cual hoy se ha generalizado el rechazo de estos delitos y se apoyan los esfuerzos de las mujeres y las organizaciones que las representan para erradicarlos. Señorías, sin embargo en todo el mundo la violencia sexual continúa siendo una estrategia táctica, efectiva y gratuita para aterrorizar a las comunidades y obtener ventajas territoriales, políticas y económicas en el campo de batalla. En la República Democrática del Congo la violencia sexual ha llegado a extenderse a provincias no afectadas por el conflicto, y en Myanmar comunidades enteras se han visto obligadas a huir debido a graves vulneraciones de los derechos humanos, con profusión de actos de violencia sexual. La respuesta de la comunidad internacional debe ser clara, integral, rápida y sostenible. Evitar estos delitos debe constituir nuestra prioridad número uno.</seg>

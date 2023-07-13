@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2016-11-23-CD161123"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 16 (2016-11-23) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 16 (2016-11-23)</title>
             <title xml:lang="en" type="sub">Plenary session 16 (2016-11-23)</title>
-            <meeting n="16" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 16</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2016-11-23" corresp="#CD" ana="#parla.lower #parla.sitting">2016-11-23</meeting>
+            <meeting n="16" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 16</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -859,7 +865,7 @@
                <pb n="28"/>
             </u>
             <u xml:id="ParlaMint-ES_2016-11-23-CD161123.u139"
-               who="#GómezreinoAntonio"
+               who="#GómezReinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2016-11-23-CD161123.u139.1">Buenos días, señora ministra.</seg>
                <seg xml:id="ParlaMint-ES_2016-11-23-CD161123.u139.2">¿Qué medidas tiene pensado adoptar el Gobierno respecto al deficiente tratamiento de aguas residuales?</seg>
@@ -879,7 +885,7 @@
                <seg xml:id="ParlaMint-ES_2016-11-23-CD161123.u142.2">Señor GómezReino.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-11-23-CD161123.u143"
-               who="#GómezreinoAntonio"
+               who="#GómezReinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2016-11-23-CD161123.u143.1">Señora ministra, en 1991, cuando este diputado tenía once años, hace veinticinco años, la Unión Europea, de común acuerdo con los Estados miembros, aprobó la normativa al respecto del tratamiento de aguas residuales. En 2011, gobernando el Partido Socialista, llegó la primera sentencia del tribunal europeo sancionando que no se producía el tratamiento de las aguas residuales en el Estado español. En el año 2016, este año, la Comisión Europea pide una multa de 46,5 millones de euros.</seg>
                <seg xml:id="ParlaMint-ES_2016-11-23-CD161123.u143.2">Señoría, no creemos a sus buenos gestores. Ustedes, que aunque tengan manzanas podridas dicen sistemáticamente que son buenos gestores, son los que nos están metiendo en estas multas. Sus dispendios y sus multas salen caros a la ciudadanía. Los servicios públicos de la ciudadanía podrían ser mejores. Con los 46,5 millones de euros que vamos a pagar, podría haber en este país y en este año quince centros de salud más; con los 171.000 euros que tenemos que pagar diariamente podría haber en este país dos trasplantes de pulmón más, según el Servizo Galego de Saúde. Esos son los datos que importan a la ciudadanía, señora ministra. Son ustedes unos irresponsables políticos. En primer lugar, porque ponen en riesgo la salud pública de los más de 1.400.000 personas que viven en estas áreas. En segundo lugar, por la contaminación, irreversible ya en muchos casos, de nuestros ríos, nuestras rías y nuestros mares. Y en tercer lugar, y no menos importante, porque están poniendo en riesgo y acabando con los puestos de trabajo en sectores clave, en mi país en la pesca y en el marisqueo, pero también en otras zonas del Estado, como en Andalucía o en Canarias, en sectores clave como el turismo.</seg>

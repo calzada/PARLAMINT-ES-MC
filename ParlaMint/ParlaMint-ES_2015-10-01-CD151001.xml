@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2015-10-01-CD151001"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 289 (2015-10-01) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 289 (2015-10-01)</title>
             <title xml:lang="en" type="sub">Plenary session 289 (2015-10-01)</title>
-            <meeting n="289" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 289</meeting>
-            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
+            <meeting n="2015-10-01" corresp="#CD" ana="#parla.lower #parla.sitting">2015-10-01</meeting>
+            <meeting n="289" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 289</meeting>
+            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -689,7 +695,7 @@
                <seg xml:id="ParlaMint-ES_2015-10-01-CD151001.u83.2">Por el Grupo Parlamentario Popular, tiene la palabra el señor Martín-Toledano.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-01-CD151001.u84"
-               who="#MartíntoledanoJosé"
+               who="#MartínToledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-10-01-CD151001.u84.1">Muchas gracias, señor presidente.</seg>
                <seg xml:id="ParlaMint-ES_2015-10-01-CD151001.u84.2">Señorías, el Gobierno nos trae hoy a convalidar un real decreto que evidencia tres cosas, a nuestro entender. En primer lugar, que la recuperación económica de nuestro país es un hecho y que esa recuperación económica permite adoptar y tomar medidas que antes no han podido ser tomadas, a pesar de que se consideraban justas por el Gobierno. En segundo lugar, este real decreto afecta a una serie de colectivos de forma muy positiva: a los empleados públicos, a los ayuntamientos y consideramos que también a los docentes investigadores de la universidad. En tercer lugar, que este Gobierno, apoyado por el Grupo Popular, está dispuesto a tomar todas las medidas necesarias y beneficiosas para la sociedad y para los ciudadanos, independientemente del tiempo que quede de legislatura, porque aquí nos llevan diciendo ya un año que como están cerca las elecciones no podemos tomar ninguna medida.<note>Rumores</note> ¿Es que duran tres años las legislaturas?<note>Aplausos</note> Pues no: las legislaturas duran cuatro años.</seg>
@@ -1105,7 +1111,7 @@
                <seg xml:id="ParlaMint-ES_2015-10-01-CD151001.u138.2">Por el Grupo de Convergència i de Unió tiene la palabra el señor Guillaumes.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-01-CD151001.u139"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-10-01-CD151001.u139.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2015-10-01-CD151001.u139.2">Estamos delante de un código penal militar que tiene cosas buenas. Siempre me gusta citarlas aunque sea una ley que no compartamos, como es el caso, pues es un código penal militar en el que por primera vez existe la perspectiva de género, lo cual está bien porque esto se tenía que incorporar, pero es una ocasión de oro para dejar colgadas muchísimas cosas, algunas de las cuales las ha citado algún otro portavoz. Se puede juzgar la procedencia o no, nosotros entendemos que sí la tiene, que tiene que existir un ámbito de justicia militar, restringido en todo caso -luego lo definiré-, pero lo que parece muy contradictorio es que este juez, si entendemos que tiene que ser independiente, pues entendemos que en cualquier jurisdicción la independencia judicial es importantísima, en cambio continúe estando sometido a la jerarquía militar; es una contradicción en los términos. Caemos en la típica caricatura aquella de que la justicia militar es a la justicia lo que la cocina militar es a la cocina, con lo cual, por ahí no vamos bien. Si tiene que existir esa jurisdicción, al menos para determinados casos, que continúe teniendo dependencia jerárquica no tiene demasiado sentido. Hay mucha ambigüedad en muchos de los casos expuestos que podrían utilizarse para perseguir elementos que tendrían que ser considerados libertad de expresión, y no hay nada peor en una norma penal -eso se aplica también al Código Penal general- que el que haya supuestos incompletos; esto genera una terrible inseguridad tanto al individuo como luego al juez que lo tiene que aplicar.</seg>
@@ -1206,7 +1212,7 @@
                <seg xml:id="ParlaMint-ES_2015-10-01-CD151001.u151.2">Por el Grupo de Convergència i de Unió, tiene la palabra el señor Guillaumes.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-01-CD151001.u152"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-10-01-CD151001.u152.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2015-10-01-CD151001.u152.2">De esta ley se puede decir lo mismo que de la anterior, que han mejorado algunas cosas. Se incorpora la perspectiva de género, que está muy bien, y también hay un elemento de reconocimiento de derechos y libertades que se agradece que se haya incorporado a la norma. Ahora bien, dicho esto, poco más se puede decir a favor. Es una oportunidad perdida. La anterior legislación, si miramos su repercusión contenciosa, fue un pequeño desastre. Si mis números no están mal, generó unos diez mil procedimientos judiciales de personal y colectivos perjudicados. No hablemos ya del colectivo SGAE o de los oficiales de complemento -alguien lo ha dicho aquí-, unas personas que por definición tienen una carrera universitaria y están en una franja dentro del ejército que no está saturada, podrían continuar dentro de la profesión, pero se les obliga a irse a una edad muy difícil para incorporarse al mercado laboral. Se les paga un cierto sueldo y contra toda lógica -una lógica empresarial, señor ministro- este colectivo que se necesita, que está formado y que si se le dice que marche igualmente va a cobrar una parte significativa de su sueldo, no se aprovecha y se le deja fuera, intentando buscar un trabajo, a menos que quiera vivir de lo que le queda de su sueldo, a una edad profesionalmente muy difícil. Francamente, no se entiende. ¿Por qué no se aprovechan más los activos que tiene el ejército en este momento? Podríamos hablar también en general del personal titulado. ¿Qué tiene la Academia de Zaragoza que la hace tan exclusiva? ¿Por qué no pueden acceder a determinados ascensos, ya no digo por antigüedad, lo que se llamaba<pb n="83"/> chusquero, todo lo contrario, gente que tiene varias carreras, que tiene carreras de utilidad absolutamente imprescindible para el ejército en este momento, gente que tiene másteres, posgrados, etcétera? Todo esto no le servirá de nada más allá de un límite si no ha estado en la Academia de Zaragoza, más allá de un límite no podrá ascender. No tiene sentido. ¿Por qué no se aprovecha? ¿En qué empresa no se aprovecha la cualidad de la gente que se tiene dentro de la organización? No tiene sentido la existencia de un monopolio. Siempre hablamos de gente formada que se lo ha ganado.</seg>
@@ -1454,7 +1460,7 @@
                <seg xml:id="ParlaMint-ES_2015-10-01-CD151001.u186.2">Se ha producido una anomalía de la cual soy parcialmente responsable. Creí que no había ningún representante del Grupo Parlamentario Catalán de Convergència i de Unió que quisiera intervenir y no es así. Por tanto, tiene la palabra el señor Guillaumes.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-01-CD151001.u187"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-10-01-CD151001.u187.1">Gracias, señor presidente. Intentaré compensarle con brevedad.</seg>
                <seg xml:id="ParlaMint-ES_2015-10-01-CD151001.u187.2">No es un tema menor regular las cuestiones a nivel legal porque estas regulaciones, como alguien ha dicho, ya existían, pero hay que poner a nivel legal todo lo que tiene que ver con sedes internacionales, reuniones diplomáticas, etcétera. Porque la verdad es que cualquier país, cualquier Estado tiene el lícito deseo de convertirse en sede de organismos internacionales, de encuentros internacionales y de conferencias internacionales y se genera una especie, podríamos decir, de libre competencia en el peor sentido de la palabra en este caso; una libre competencia que consiste en bajar muy a menudo el listón de exigencias en cuanto a inmunidades diplomáticas, etcétera. Por tanto, bienvenida sea una ley que pueda privar a cualquier Estado de este tipo de tentaciones. Entendemos que la ley ya incorporaba una mejora con el informe del Ministerio de Asuntos Exteriores y de Cooperación en todos aquellos asuntos judiciales que estén pendientes entre el Estado español y los Estados que vengan a un evento de estas características. Hay otras cuestiones que se han incorporado vía Consejo de Estado, parcialmente vía enmienda, pero a nosotros nos hubiera gustado que se concretaran las notificaciones judiciales entre Estados, una determinación clara -esto en parte está- de qué persona tiene o no inmunidad diplomática, la identificación -esto sería importante- de qué bienes de una embajada extranjera o Estado extranjero son susceptibles de ser embargados o, finalmente, cuándo tiene que actuar la Abogacía del Estado contra una representación extranjera u organismo internacional en un proceso judicial. En fin, se regulan muchas cosas; antes estaba muy disperso y en normas sin rango legislativo. Entendemos que es una gran mejora<pb n="101"/> y aunque podría ser todavía mejor, sin duda merecerá nuestro apoyo, sobre todo después de la incorporación de las enmiendas transaccionales aceptadas al Grupo Socialista.</seg>

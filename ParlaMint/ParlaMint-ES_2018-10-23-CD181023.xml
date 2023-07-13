@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-10-23-CD181023"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 151 (2018-10-23) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 151 (2018-10-23)</title>
             <title xml:lang="en" type="sub">Plenary session 151 (2018-10-23)</title>
-            <meeting n="151" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 151</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2018-10-23" corresp="#CD" ana="#parla.lower #parla.sitting">2018-10-23</meeting>
+            <meeting n="151" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 151</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -895,7 +901,7 @@
                <seg xml:id="ParlaMint-ES_2018-10-23-CD181023.u103.2">Por el grupo autor de la iniciativa, tiene la palabra el señor Martínez-Maíllo Toribio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-10-23-CD181023.u104"
-               who="#MartínezmaílloFernando"
+               who="#MartínezMaílloFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-10-23-CD181023.u104.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-10-23-CD181023.u104.2">Subo a esta tribuna para defender una moción consecuencia de interpelación urgente; es una moción muy sencilla, la verdad, porque lo único que pedimos es la comparecencia del señor Duque. Probablemente es una moción que hubiera sido innecesaria si el señor Duque hubiera dado suficientes explicaciones, si hubiera comparecido y dado explicaciones más o menos razonables. Por tanto, es una moción provocada<pb n="50"/> por el señor Duque; quizás estemos ante el primer caso de una 'automoción' provocada por la propia incomparecencia de este señor. Por cierto, ¿alguien sabe dónde está? ¿Alguien le ha visto? Lo digo porque esta tarde en el Senado tenía una pregunta y tampoco ha ido, la ha contestado la ministra de Hacienda. Nosotros hemos pedido la comparecencia en Comisión, hemos hecho también preguntas en Pleno y no ha comparecido, y en la anterior interpelación parlamentaria compareció la ministra de Hacienda. Desde el día 27 de septiembre, que fue el día que estalló el escándalo, hasta el día de hoy no ha aparecido en el Congreso. Créanme que esto roza el escándalo. Es una falta de respeto a esta Cámara y un déficit de cultura democrática que este grupo considera absolutamente inaceptable. Si tiene miedo, no quiere, no puede o no sabe o no le dejan comparecer, sinceramente, quizás es que no puede formar parte de un Gobierno, aunque sea de este mal Gobierno de España que en estos momentos tenemos.</seg>

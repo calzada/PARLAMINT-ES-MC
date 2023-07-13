@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2016-12-15-CD161215"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 21 (2016-12-15) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 21 (2016-12-15)</title>
             <title xml:lang="en" type="sub">Plenary session 21 (2016-12-15)</title>
-            <meeting n="21" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 21</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2016-12-15" corresp="#CD" ana="#parla.lower #parla.sitting">2016-12-15</meeting>
+            <meeting n="21" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 21</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -931,7 +937,7 @@
                <seg xml:id="ParlaMint-ES_2016-12-15-CD161215.u121.1">Antes de comenzar las votaciones y con el acuerdo de todos los grupos, se va a proceder a la lectura de la declaración institucional sobre la situación humanitaria en Alepo.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-12-15-CD161215.u122"
-               who="#SánchezcamachoAlicia"
+               who="#SánchezCamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2016-12-15-CD161215.u122.1">Gracias, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2016-12-15-CD161215.u122.2">Declaración institucional sobre la situación humanitaria en Alepo. Quisiera expresar, en nombre del Congreso de los Diputados, nuestra profunda preocupación por la grave situación humanitaria que sufre Siria y, de manera especial, por los combates y bombardeos que tienen lugar en la ciudad de Alepo. Ante estas flagrantes violaciones del derecho internacional humanitario, la primera y absoluta prioridad debe ser, en todo caso y en todo momento, la protección de la población civil y la garantía de libre acceso de la ayuda médica y humanitaria. Hacemos un llamamiento para que se redoblen los esfuerzos tendentes a reestablecer los mecanismos de diálogo político y de intermediación que pongan fin al enfrentamiento bélico, permitan albergar esperanzas de una paz duradera y terminen con el padecimiento de la población civil. Por último, desde esta Cámara también manifestamos nuestra solidaridad con toda la población civil que sufre las peores consecuencias y es la principal víctima del resto de conflictos bélicos en el mundo.</seg>

@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-10-28-CD201028"
-     ana="#covid">
+     ana="#parla.sitting #covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 55 (2020-10-28) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 55 (2020-10-28)</title>
             <title xml:lang="en" type="sub">Plenary session 55 (2020-10-28)</title>
-            <meeting n="55" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 55</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Legislatura XIV</meeting>
+            <meeting n="2020-10-28" corresp="#CD" ana="#parla.lower #parla.sitting">2020-10-28</meeting>
+            <meeting n="55" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 55</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -530,7 +536,7 @@
                <seg xml:id="ParlaMint-ES_2020-10-28-CD201028.u86.1">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-10-28-CD201028.u87"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-10-28-CD201028.u87.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-10-28-CD201028.u87.2">Muchas gracias, señor Gil Lázaro. Yo creo que no solo se puede, sino que se debe hablar de derechos humanos con todo el mundo, incluso con ustedes, con la extrema derecha, para transmitirles principios democráticos<note>aplausos</note> como el respeto a la pluralidad, a la libertad, a la igualdad; tratar de transmitirles de una vez que el hecho de la violencia contra las mujeres, la violencia machista, es un tema de derechos humanos porque es violentada la mujer simplemente por razón de género.</seg>
@@ -550,7 +556,7 @@
                <seg xml:id="ParlaMint-ES_2020-10-28-CD201028.u90.1">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-10-28-CD201028.u91"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-10-28-CD201028.u91.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-10-28-CD201028.u91.2">Gracias, señor Gil Lázaro. Vuelvo a escucharle otra vez a usted relatos que formula construidos en la mentira, en la falsedad, en teorías conspiratorias y encima el negacionismo. Usted niega que el Estado de derecho venció y derrotó a ETA. Pero le voy a recordar tres frases -abro comillas-: 'Tomar posesión de un escaño siempre es preferible a empuñar las armas'-sigo-; 'el proceso de normalización corresponde en primer término a las instituciones y a todas las fuerzas políticas vascas, sin ningún tipo de excepción' -sigo-; 'el Gobierno y yo personalmente he autorizado contactos con el entorno del Movimiento Vasco de Liberación'. José María Aznar, 1998. ¿Sabe su señoría cómo se llamaba el portavoz de Interior del Grupo Parlamentario Popular en esta Cámara en ese momento? Ignacio Gil Lázaro.</seg>
@@ -561,7 +567,7 @@
                <seg xml:id="ParlaMint-ES_2020-10-28-CD201028.u92.1">Silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-10-28-CD201028.u93"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-10-28-CD201028.u93.1">¿Sabe usted cuántas veces el señor Gil Lázaro se dirigió al Gobierno presidido por Aznar acusándole de traición a las víctimas, a la unidad de España o a la Constitución? Ninguna.<note>Aplausos</note> ¿Sabe cuántas veces ustedes exigieron firmeza al Gobierno contra el brazo político de la entonces ETA? Cero. Les invito a ustedes a moderarse, a documentarse, a abandonar las infamias. A todo eso les invito y, también, a que se preparen mejor esas intervenciones y a que respeten el Estado de derecho.</seg>
                <seg xml:id="ParlaMint-ES_2020-10-28-CD201028.u93.2">Finalmente, hablando de valores democráticos, no sean patriotas de pulsera, sean patriotas de valores democráticos.</seg>

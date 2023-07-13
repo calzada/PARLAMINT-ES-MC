@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2016-09-27-CD160927"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 6 (2016-09-27) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 6 (2016-09-27)</title>
             <title xml:lang="en" type="sub">Plenary session 6 (2016-09-27)</title>
-            <meeting n="6" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 6</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2016-09-27" corresp="#CD" ana="#parla.lower #parla.sitting">2016-09-27</meeting>
+            <meeting n="6" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 6</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -112,7 +118,7 @@
                <note>Aplausos de las señoras y los señores diputados, puestos en pie, mirando hacia la tribuna de invitados</note>
             </u>
             <u xml:id="ParlaMint-ES_2016-09-27-CD160927.u4"
-               who="#SánchezcamachoAlicia"
+               who="#SánchezCamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2016-09-27-CD160927.u4.1">Declaración institucional del Congreso de los Diputados en reconocimiento al éxito obtenido por el Equipo Paralímpico Español en los Juegos Paralímpicos Río de Janeiro 2016.<pb n="8"/> Los Juegos Paralímpicos son un ejemplo de superación, voluntad y esfuerzo, donde miles de atletas demuestran que todos los obstáculos se pueden superar. El Comité Paralímpico Español se creó en 1995 y desde su constitución cuenta con el apoyo de las altas instituciones del Estado. En 1998 se le reconoció la misma naturaleza y funciones que las del Comité Olímpico Español.</seg>
                <seg xml:id="ParlaMint-ES_2016-09-27-CD160927.u4.2">En los Juegos de Río de Janeiro 2016, el Equipo Paralímpico Español ha estado formado por 127 deportistas de 11 federaciones deportivas españolas. El Plan apoyo al deporte objetivo paralímpico, ADOP, iniciativa del Comité Paralímpico Español, el Consejo Superior de Deportes y el Ministerio de Sanidad, Servicios Sociales e Igualdad, tiene como fin, mediante su programa Alto Rendimiento Paralímpico, ARPA, proporcionar a los deportistas paralímpicos españoles las mejores condiciones posibles para poder llevar a cabo su preparación y afrontar así con garantía de éxito la participación del equipo español en los Juegos Paralímpicos. Las aportaciones al Plan ADOP, Plan de apoyo al deporte objetivo paralímpico, de las empresas colaboradoras han hecho posible el éxito de nuestros deportistas al apostar por el deporte paralímpico para transmitir a la sociedad los valores que estos atletas representan: el esfuerzo, la superación o el trabajo en equipo. Por todo ello, y clausurados los Juegos Paralímpicos Río de Janeiro 2016 con los grandes éxitos recogidos por nuestros deportistas y con vistas a la preparación de los Juegos Paralímpicos Tokio 2020, el Congreso de los Diputados manifiesta:</seg>

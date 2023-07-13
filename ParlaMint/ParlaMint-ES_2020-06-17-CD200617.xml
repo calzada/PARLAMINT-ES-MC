@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-06-17-CD200617"
-     ana="#covid">
+     ana="#parla.sitting #covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 29 (2020-06-17) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 29 (2020-06-17)</title>
             <title xml:lang="en" type="sub">Plenary session 29 (2020-06-17)</title>
-            <meeting n="29" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 29</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Legislatura XIV</meeting>
+            <meeting n="2020-06-17" corresp="#CD" ana="#parla.lower #parla.sitting">2020-06-17</meeting>
+            <meeting n="29" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 29</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -448,7 +454,7 @@
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u67.1">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-06-17-CD200617.u68"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u68.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u68.2">Gracias, señor Gil Lázaro. Si algo caracteriza -y creo que usted lo sabe bien- y define los 176 años de historia de la Guardia Civil son los principios de profesionalidad, lealtad al Estado y neutralidad política. Insinuar, como hace usted en el enunciado de su pregunta, que la Guardia Civil tiene que otorgar la confianza al Gobierno, yo diría que es una falta de respeto a esa historia y a esa tradición que definen al Cuerpo de la Guardia Civil.</seg>
@@ -470,7 +476,7 @@
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u71.2">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-06-17-CD200617.u72"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u72.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u72.2">Muchas gracias, señorías. Señor Gil Lázaro, le voy a decir algo obvio: usted no es el portavoz de la Guardia Civil, usted es un diputado de VOX, que es un partido -le recuerdo- de extrema derecha.<note>Aplausos</note> Ni ustedes ni los miembros de su grupo parlamentario tienen derecho a hablar en nombre de todo un cuerpo; es más, les pido como ministro del Interior que dejen de hacerlo. La Guardia Civil es lealtad con el Estado de derecho; lealtad que supuso que un gobernante de este país -un dictador a quien ustedes incluso niegan condenar cuando no admiran públicamente- quisiera disolverla -recuerdo- porque permaneció leal al poder democráticamente constituido. La Guardia Civil es neutralidad política, que es lo que le da confianza al conjunto de la sociedad y es objetividad; por cierto, tres valores que están muy lejos de su grupo parlamentario.</seg>
@@ -491,7 +497,7 @@
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u75.1">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-06-17-CD200617.u76"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u76.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u76.2">Muchas gracias, señorías, señora Rosique. En primer lugar, yo le pediría que evitemos las generalizaciones en relación con las Fuerzas y Cuerpos de Seguridad del Estado en España, en un Estado de derecho homologado. Si algo define a esas Fuerzas y Cuerpos de Seguridad es su profesionalidad para garantizar a la ciudadanía el libre ejercicio de nuestros derechos y de nuestras libertades y, como he dicho antes, con los principios de neutralidad, profesionalidad e igualdad de trato. Pero, sobre todo, generalizar -siento decírselo, señoría-, a mi forma de ver, implica un concreto desconocimiento.</seg>
@@ -854,7 +860,7 @@
                <note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note>
             </u>
             <u xml:id="ParlaMint-ES_2020-06-17-CD200617.u136"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u136.1">Gracias, señor presidente, señoras y señores diputados.</seg>
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u136.2">Señora Vázquez Blanco, en sustitución de la señora Álvarez de Toledo, muchas gracias por su intervención.</seg>
@@ -906,7 +912,7 @@
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u141.1">Gracias.<note>Pausa.-Una trabajadora del servicio de limpieza procede a la desinfección de la tribuna de oradores</note> Para concluir el debate, tiene la palabra, en nombre del Gobierno, el ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-06-17-CD200617.u142"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u142.1">Gracias, señor presidente.</seg>
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u142.2">Señoras y señores diputados, señora Vázquez, en primer lugar, quiero decirle que conozco un poco el Reglamento del Congreso. La portavoz la firma, pero quien hace luego la interpelación también confirma el escrito. En este caso, solo estaba la firma de la portavoz. Digo normalmente y espero que lo entiendan bien.</seg>
@@ -919,7 +925,7 @@
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u143.2">Señorías, se ha escuchado a la portavoz de su grupo con silencio y con educación. Por favor, pido correspondencia y cortesía parlamentaria. Escuchemos al interviniente.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-06-17-CD200617.u144"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u144.1">En segundo lugar, eso es consecuencia de que podamos preparar las intervenciones sabiendo quién es la persona con la que vamos a debatir. Evidentemente, debatimos con un grupo parlamentario, pero siempre es importante conocer esas circunstancias. Esa cuestión no tiene mayor relevancia, pero nada de desmerecer,<pb n="41"/> señora Vázquez. Veo, por su réplica, que no me ha escuchado. He dicho que me parecía muy oportuno y muy óptimo que usted fuera la persona que debatiera, si realmente íbamos a hablar de la Guardia Civil y de las decisiones tomadas en el entorno de la Guardia Civil, porque usted es una persona formada, por distintas razones, en materia de seguridad, y me remito a las expresiones que he utilizado. ¿Es eso desmerecer? Creo que tiene que cambiar un poco el criterio e interpretar realmente mis palabras como son.</seg>
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u144.2">Por eso, señora Vázquez, lamento que en esta segunda intervención todavía haya persistido usted más en el error de continuar con la mentira, el insulto y la infamia y preocuparse muy poco por las decisiones que se han tomado sobre la Guardia Civil y sobre el resto de las Fuerzas y Cuerpos de Seguridad del Estado para garantizar, evidentemente, su seguridad y que desarrollen su trabajo en las condiciones que deben de hacerlo. Lo lamento porque no dejan de ser ustedes, como le he dicho, el principal partido de la oposición; lo lamento, porque, aunque sea en estos momentos ministro del Interior, no dejo de ser un ciudadano que no quiere una alternativa de gobierno para su país que sustente ideas de extrema derecha como las que estoy viendo, y lo lamento porque uno presupone que después de haber tenido responsabilidades de gobierno -no usted, pero sí su partido, que ha gobernado quince años este país- podrían actuar de una forma menos radical, menos irresponsable. Es una carrera que, ya le anticipo, perderán ustedes siempre. La crispación no conduce a ningún lugar, a ninguna estación, no conduce a ninguna Ítaca, ya que le gustan a usted algunas citas literarias.</seg>
@@ -1311,7 +1317,7 @@
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u193.1">Muchas gracias.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> Tiene la palabra el señor Alonso-Cuevillas i Sayrol.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-06-17-CD200617.u194"
-               who="#AlonsocuevillasJaume"
+               who="#AlonsoCuevillasJaume"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u194.1">Señor presidente señorías, venimos aquí a tener que escoger entre lo malo y lo peor, pero no sé qué es lo malo y qué es lo peor. No nos gusta, por descontado, la regulación de 2015, la de la Ley 41/2015, que recibió una crítica unánime desde el punto de vista doctrinal. Yo me dedico a esto, soy catedrático de derecho procesal, y todos los procesalistas de izquierdas, de derechas, de centro y 'pa dentro' criticaron la torpeza legislativa, la mala redacción, la poca claridad que ha dado lugar a que cada juez de instrucción lo interprete de forma diferente. Asimismo se criticó de forma muy especial, como ya se ha puesto de manifiesto por diversos intervinientes, el hecho de que esto daba carta blanca para conseguir la impunidad de muchos casos de corrupción. Por tanto, no nos gusta una limitación como la que está vigente a la instrucción, y menos de una forma tan mal redactada, tan torpemente regulada. Pero tampoco nos gusta -y me dirijo ahora a los compañeros de Unidas Podemos, entre los que hay abogados en ejercicio entre los proponentes- la derogación sin más.</seg>
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u194.2">San Agustín, y no lo pongo como un referente ético, sino como una persona que estudió muy a fondo el proceso penal basándose en Aristóteles, y que luego fue seguido por la escolástica y por los procesalistas más modernos, dijo una cosa que es obvia y que todos los abogados en ejercicio sabemos, y es que el proceso penal es una pena es sí mismo. Por cada caso de corrupción -claro, el señor Bal como es abogado del Estado solo lleva asuntos de high level, pero los pobres abogados de provincias llevamos asuntos de todo tipo, por lo que los asuntos de corrupción evidentemente no llegan- tenemos muchos asuntos con ciudadanos anónimos también, y así lo ha puesto de manifiesto, en los que los procesos penales se eternizan. Por tanto, una situación como la anterior a 2015, en la que los procesos penales podían durar indefinidamente, era un castigo -no se perseguía culpables, señor Bal, se perseguía a presuntos culpables que a veces no lo son-, pero también, como ha puesto de manifiesto el compañero Baldoví, para las víctimas. Por ello tenemos que buscar un equilibrio, y para nosotros este equilibrio está en la enmienda que proponíamos basándonos en la experiencia -y ahora hablo como abogado en ejercicio- práctica; la mayoría de temas que se eternizan lo hacen no por su complejidad -en los que interviene el señor Bal, sí, pero en los que intervenimos los abogados de a pie, no-, sino que se eternizan porque los juzgados están colapsados y muchas veces hay una parálisis.</seg>
@@ -1457,7 +1463,7 @@
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u214.1">Continuamos con el punto del orden del día correspondiente a la toma en consideración de la proposición del Grupo Parlamentario Plural, de reforma del Reglamento del Congreso de los Diputados por la que se modifica el artículo 61 con el fin de regular para casos de extrema necesidad la posibilidad de celebrar sesiones del Congreso a través de medios telemáticos. Para la defensa de la iniciativa tiene la palabra el señor Alonso-Cuevillas i Sayrol.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-06-17-CD200617.u215"
-               who="#AlonsocuevillasJaume"
+               who="#AlonsoCuevillasJaume"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u215.1">Señor presidente, señorías, traemos una proposición de reforma del Reglamento del Congreso, la adición de un apartado 4 al artículo 61 que tiene por objeto permitir una cosa que ya es una realidad tangible en toda la sociedad -de hecho, se lo hemos estado pidiendo durante la pandemia a todos los ciudadanos-, el teletrabajo, la posibilidad de que realicemos plenos telemáticos. Además, hemos sido muy prudentes a la hora de redactar esta proposición, por cuanto nos hemos ceñido a casos de extrema y urgente necesidad derivados de la emergencia sanitaria o causas análogas. Por tanto, sin perjuicio de lo que prevé el artículo 55 del Reglamento y de lo que prevé también el artículo 70.2, pedimos que se permita la celebración de plenos, comisiones, Mesa y junta de portavoces telemáticamente; de hecho, muchas juntas de portavoces ya se están celebrando telemáticamente y la democracia no ha quedado resentida por ello. Por tanto, pedimos que se facilite el trabajo telemático y creemos que los ciudadanos no entenderían que no lo aprobáramos.</seg>
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u215.2">Existe riesgo de contagio. Afortunadamente, salimos ahora del primer ciclo de la COVID, pero por desgracia las autoridades sanitarias advierten de que es posible que en otoño volvamos a tener nuevos episodios. Por tanto, concentrar a tantos diputados en este espacio implica un riesgo de contagio evidente. Además, desde el punto de vista económico supondría un ahorro de consideración. Cada uno de nosotros tiene que venir desde sus diversas localidades y, además, el Congreso nos paga billetes de tren o avión en clase preferente. Lo podríamos hacer tranquilamente desde nuestras casas o desde nuestras ciudades a través del video y ahorraríamos mucho dinero al erario público.</seg>
@@ -1677,7 +1683,7 @@
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u239.2">Finalmente, por el mismo grupo parlamentario, tiene la palabra señor Alonso-Cuevillas i Sayrol.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-06-17-CD200617.u240"
-               who="#AlonsocuevillasJaume"
+               who="#AlonsoCuevillasJaume"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u240.1">Señora presidenta, señorías, señor Bal, a los grupos pequeños nos pasa esto, que los diputados tenemos que salir y hablar de todos los temas. Cuando usted ha intervenido antes se le ha escapado una cosa que me ha dado la clave, y es cuando dice volvemos a presentar, porque yo estoy convencido de que esta proposición que usted ha venido a defender no la ha redactado usted, no dudo de sus buenas intenciones, pero yo, que le he tenido de contrario en sala y discrepamos en muchas ocasiones, le reconozco que es un buen jurista, y estoy convencido de que esto no lo ha redactado usted porque la redacción es torpe y el momento es inoportuno.</seg>
                <seg xml:id="ParlaMint-ES_2020-06-17-CD200617.u240.2">Ha tenido una virtud, y se lo acaban de poner de manifiesto. Esta proposición no contempla la Directiva 1937/2019, pero, hoy precisamente -y supongo que es una reacción- el ministerio ha anunciado que la Comisión de Codificación ya se ha reunido para poner en marcha la trasposición de la Directiva de los whistleblowers. Por lo tanto, ahí sí que han tenido cierto mérito, por lo que esperamos que por primera vez se cumpla el plazo de trasposición de directivas. No la contempla, aunque luego sí hay una referencia para adaptar aquello que ya han sacado del baúl de los recuerdos, y luego se les va la vena organicista y reglamentista y crean ustedes, para intentar simplificar, la autoridad independiente de la integridad pública con su director, su comité directivo, sus divisiones y directores de divisiones, comités asesores y todo esto a nivel al central nivel autonómico, cosa que me extraña en ustedes, por cierto. Además, tiene un desarrollo reglamentario tan complejo que me recuerda a aquella ocasión en que para intentar simplificar la estructura administrativa se creó la Dirección General de Desburocratización con la Subdirección General de Simplificación de Trámites Administrativos y la Subdirección General de Eliminación de Organismos Superfluos. Me parece que su reglamentación, su propuesta, no se adecua a la directiva, que es absolutamente innecesario cuando lo que corresponde es trasponer la directiva y además, aprovechan, como siempre, para introducir una serie de cláusulas finales -Pisuerga-. Por cierto, se reforma la Ley del Indulto de 1870, la Ley de Enjuiciamiento Criminal, de 1882, y claro desde entonces hasta ahora son muchas leyes las que reforman.</seg>

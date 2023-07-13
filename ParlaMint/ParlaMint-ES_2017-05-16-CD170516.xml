@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2017-05-16-CD170516"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 51 (2017-05-16) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 51 (2017-05-16)</title>
             <title xml:lang="en" type="sub">Plenary session 51 (2017-05-16)</title>
-            <meeting n="51" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 51</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2017-05-16" corresp="#CD" ana="#parla.lower #parla.sitting">2017-05-16</meeting>
+            <meeting n="51" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 51</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -450,7 +456,7 @@
                <pb n="28"/>
             </u>
             <u xml:id="ParlaMint-ES_2017-05-16-CD170516.u50"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-05-16-CD170516.u50.1">Gràcies, president. Gràcies, senyories.</seg>
                <seg xml:id="ParlaMint-ES_2017-05-16-CD170516.u50.2">Nosotros vamos a votar a favor, ¡solo faltaría! Dicho esto, la verdad es que es bastante alarmante. No es alarmante en absoluto la proposición no de ley, lo que es alarmante es que sientan la necesidad de reiterar las mismas frases tan a menudo. ¿Hasta qué punto se lo creen? ¿Quizá creen que no cumplen lo suficiente? ¿Que nos solidaricemos con todas las víctimas de la represión? Pues claro. ¿Qué nos solidaricemos con quienes defienden nuestros derechos y libertades? Pues claro. ¿O vamos a decir otra cosa? Alguien lo ha dicho con otras palabras, esta PNL no añade nada. Con todo respeto hacia el santo de Compostela, a este tipo de proposiciones las llamo proposiciones botafumeiro, porque no añaden nada al sacramento, simplemente un poco de humo y un poco de olor.<note>Aplausos</note> Dicho esto, por descontado tendrán nuestro voto favorable, igual que la semana pasada en relación con la de la memoria histórica. Tendrán los dos.</seg>

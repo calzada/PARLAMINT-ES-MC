@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-05-08-CD180508"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 113 (2018-05-08) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 113 (2018-05-08)</title>
             <title xml:lang="en" type="sub">Plenary session 113 (2018-05-08)</title>
-            <meeting n="113" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 113</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2018-05-08" corresp="#CD" ana="#parla.lower #parla.sitting">2018-05-08</meeting>
+            <meeting n="113" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 113</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -368,7 +374,7 @@
                <seg xml:id="ParlaMint-ES_2018-05-08-CD180508.u32.2">Por el Grupo Parlamentario Mixto, tiene la palabra la señora Ciuró i Buldó. Perdón, intervendrá por dicho grupo el señor Guillaumes i Ràfols.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-05-08-CD180508.u33"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-05-08-CD180508.u33.1">Buenas tardes, presidente, señoras y señores. Efectivamente, presidente, excuso a la señora Ciuró, que no podrá hablar en representación de nuestro grupo.</seg>
                <seg xml:id="ParlaMint-ES_2018-05-08-CD180508.u33.2">Estamos otra vez en el día de la marmota; es decir, aquello de aprobar directivas europeas tarde, mal y deprisa, pero creo que esta vez nos hemos superado -y ya es la segunda vez que nos superamos-, porque, en lugar de lo esperable, lo lógico, lo parlamentario, que es que la iniciativa la presente el Gobierno con los respectivos estudios, resulta que la presenta el Grupo Parlamentario Popular para ahorrarse todo el trabajo de los estudios preceptivos para poder presentar esta normativa europea. Esto, señores, empieza a no ser de recibo; simplemente empieza a no ser de recibo. Que yo recuerde, nuestro grupo nunca ha votado en contra de la trasposición de una directiva europea cuando la ha traído el Gobierno, cualquier Gobierno. Pero esto va a cambiar porque esta costumbre de que las traiga el Grupo Parlamentario Popular es simplemente escandalosa desde un punto de vista de técnica parlamentaria. Por tanto, lo sentimos mucho pero este juego tiene que terminar. Ustedes presenten las iniciativas sobre directivas cuando toca, y preséntenlas quien las tiene que presentar como las tiene que presentar, y entonces tendrán nuestro apoyo. Pero es que esta directiva no es normal; es verdad que trata tres temas -de hecho, cuatro-; por ejemplo, del movimiento ilegal de órganos, también de la corrupción, pero, señores, es que también se habla de modificaciones del Código Penal y de persecución del yihadismo. O sea, que ustedes se permiten traer tarde y mal a este Congreso, en medio de una alerta 4, un tema que afecta a la seguridad de todos los ciudadanos y ciudadanas. Esto es simplemente irresponsable, y no sé si lo arreglarán como lo hacen ustedes con los temas de seguridad de un tiempo a esta parte: dando medallas. Si pasa alguna desgracia, igual lo solucionan con el 'medalleo' correspondiente a quien sea. Quizá no se lo acepten, como los buenos policías alemanes que no se lo aceptaron por detener al president Puigdemont. Señores, hagan una política de seguridad seria, una política legislativa seria, y esto quiere decir que aporten razones, que aporten justificaciones y no 'medalleo'. No sustituyan la razón por las medallas ni por la técnica legislativa.</seg>

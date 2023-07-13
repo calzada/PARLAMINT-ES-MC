@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2015-06-24-CD150624"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 275 (2015-06-24) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 275 (2015-06-24)</title>
             <title xml:lang="en" type="sub">Plenary session 275 (2015-06-24)</title>
-            <meeting n="275" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 275</meeting>
-            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
+            <meeting n="2015-06-24" corresp="#CD" ana="#parla.lower #parla.sitting">2015-06-24</meeting>
+            <meeting n="275" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 275</meeting>
+            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -283,7 +289,7 @@
                <seg xml:id="ParlaMint-ES_2015-06-24-CD150624.u35.2">Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u36"
-               who="#GarcíamargalloJosé"
+               who="#GarcíaMargalloJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-06-24-CD150624.u36.1">Gracias, señor diputado.</seg>
                <seg xml:id="ParlaMint-ES_2015-06-24-CD150624.u36.2">En primer lugar, quiero decir que ante la tragedia a la que usted se refiere el Gobierno quiere expresar su pésame a la señora Haddi. En segundo lugar, quiero tranquilizarle y decir que hemos transmitido la preocupación que este suceso ha provocado en la opinión pública española al Gobierno de Marruecos.</seg>
@@ -295,7 +301,7 @@
                <seg xml:id="ParlaMint-ES_2015-06-24-CD150624.u37.3">Continúe, señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u38"
-               who="#GarcíamargalloJosé"
+               who="#GarcíaMargalloJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-06-24-CD150624.u38.1">En tercer lugar, un caso humanitario como el que nos ocupa, cuando hay un procedimiento judicial abierto, no puede aprovecharse, no puede intentársele buscar una deriva política. Por eso me voy a limitar a dos cosas: a fijar los antecedentes y a transmitir lo que estamos haciendo.</seg>
                <seg xml:id="ParlaMint-ES_2015-06-24-CD150624.u38.2">Como usted sabe, señor Lara, el señor Haidala fue herido en una reyerta el día 31 de enero, fue trasladado desde la comisaría al hospital de El Aaiún, cuando volvió a la comisaría se vio que la herida seguía sangrando y fue trasladado al hospital de Agadir, donde falleció. La señora Haddi viajó a los territorios del Sáhara para recoger el cadáver y se negó a hacerlo mientras no hubiese una autopsia independiente, en vista de lo cual el fiscal ordenó la inhumación. La señora Haddi comenzó una huelga de hambre que, como usted sabe, terminó el 16 de junio.</seg>
@@ -318,7 +324,7 @@
                <seg xml:id="ParlaMint-ES_2015-06-24-CD150624.u41.2">Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-24-CD150624.u42"
-               who="#GarcíamargalloJosé"
+               who="#GarcíaMargalloJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-06-24-CD150624.u42.1">Señor Lara, la defensa de los derechos humanos es una prioridad de este Gobierno y de eso hablamos en nuestros contactos bilaterales y hablamos en el marco del diálogo reforzado entre la Unión Europea y Marruecos. Quiero resaltar aquí dos aspectos de la Resolución 2218 del Consejo que se congratula de que se haya limitado la competencia de los tribunales militares y Marruecos haya ratificado el Protocolo facultativo de la cooperación internacional contra la tortura.</seg>
                <seg xml:id="ParlaMint-ES_2015-06-24-CD150624.u42.2">Finalmente quiero señalarle que la posición del Gobierno sobre el tema de fondo es que queremos una solución política, justa, duradera, mutuamente aceptable y...</seg>

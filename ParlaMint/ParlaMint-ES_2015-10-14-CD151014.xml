@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2015-10-14-CD151014"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 291 (2015-10-14) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 291 (2015-10-14)</title>
             <title xml:lang="en" type="sub">Plenary session 291 (2015-10-14)</title>
-            <meeting n="291" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 291</meeting>
-            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
+            <meeting n="2015-10-14" corresp="#CD" ana="#parla.lower #parla.sitting">2015-10-14</meeting>
+            <meeting n="291" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 291</meeting>
+            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -161,7 +167,7 @@
                <pb n="8"/>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u13"
-               who="#GarcíamargalloJosé"
+               who="#GarcíaMargalloJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-10-14-CD151014.u13.1">Señoría, niego rotundamente la mayor. Negligencia, ninguna. Profesionalidad y dedicación, todas. Nuestra red de consulados se ha puesto al servicio del ciudadano procurando que quien quiera votar pueda hacerlo dentro de la normativa vigente. Las incidencias registradas han sido mínimas; es más, desde la introducción del voto rogado, con su colaboración, estas elecciones han sido, con las andaluzas, aquellas donde más votos se han emitido en relación con la solicitudes, un 70,2 %, más que en las elecciones catalanas de 2012 -59 %- y que en las pasadas autonómicas -un 67 %-. ¿Estamos satisfechos? No. ¿Hay margen de mejora? Sí, por supuesto, pero atacar a quienes ponen su empeño en aplicar eficazmente el actual sistema que ustedes han aprobado no es, desde luego, el camino a seguir.</seg>
                <note>Aplausos</note>
@@ -183,7 +189,7 @@
                <seg xml:id="ParlaMint-ES_2015-10-14-CD151014.u16.2">Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u17"
-               who="#GarcíamargalloJosé"
+               who="#GarcíaMargalloJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-10-14-CD151014.u17.1">Le aconsejo que vaya al psiquiatra<note>Rumores</note> , porque ha dicho usted que miles de catalanes votaron contra el Estado.</seg>
                <seg xml:id="ParlaMint-ES_2015-10-14-CD151014.u17.2">Las reformas electorales siempre se hacen por amplio consenso. La que introdujo el voto rogado en 2011 contó con trescientos cuarenta votos favorables, entre ellos los de su grupo. Su señoría fue ponente de la proposición de ley. Además, según la práctica consolidada, las reformas electorales no se producen a iniciativa del Gobierno. Para aplicar el sistema vigente, el que usted propuso, en enero de este año adoptamos una batería de medidas. Publicar en nuestras páginas web toda la información útil para ejercitar el voto, incluso para las elecciones catalanes los formularios de solicitud. Garantizar la presencia de los cónsules y formar equipos electorales en los ciento ochenta y un consulados, implicando a un millar de personas. Para el depósito del voto en la urna, abrir tres días los consulados en horario prolongado, no uno solo, como sucede en España. Facilitar el empleo de valijas extraordinarias o mensajería urgente. Suscribir convenios de franqueo con los países donde más españoles residen, convenios que cubren el 85 % del censo en el exterior. Tan mal no estaremos cuando el propio secretario de Asuntos Exteriores de la Generalitat, señor Albinyana, declaró en El Periódico, de 22 de agosto de 2015, que -cito- en esta ocasión la respuesta del Ministerio de Asuntos Exteriores es correcta.</seg>
@@ -205,7 +211,7 @@
                <seg xml:id="ParlaMint-ES_2015-10-14-CD151014.u20.1">Señor ministro.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u21"
-               who="#GarcíamargalloJosé"
+               who="#GarcíaMargalloJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-10-14-CD151014.u21.1">Señor presidente, lo que he dicho es que la expresión de votar contra el Estado es inadmisible en un Estado de derecho.</seg>
                <note>Protestas</note>
@@ -214,7 +220,7 @@
                <seg xml:id="ParlaMint-ES_2015-10-14-CD151014.u22.1">No, no. Señor ministro, tiene usted que contestar a las palabras que le ha planteado el diputado. ¿Retira usted la expresión: vaya usted al psiquiatra?</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u23"
-               who="#GarcíamargalloJosé"
+               who="#GarcíaMargalloJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-10-14-CD151014.u23.1">Estoy explicando la expresión, señor presidente...</seg>
                <note>Fuertes protestas</note>
@@ -224,7 +230,7 @@
                <note>Un señor diputado: Respeta al presidente</note>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u25"
-               who="#GarcíamargalloJosé"
+               who="#GarcíaMargalloJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-10-14-CD151014.u25.1">La retiro.</seg>
                <seg xml:id="ParlaMint-ES_2015-10-14-CD151014.u25.2">- DE LA DIPUTADA DOÑA MARÍA SORAYA RODRÍGUEZ RAMOS, DEL GRUPO PARLAMENTARIO SOCIALISTA, QUE FORMULA AL SEÑOR MINISTRO DE JUSTICIA: ¿CREE EL MINISTRO DE JUSTICIA QUE HA CUMPLIDO LOS OBJETIVOS QUE SE PROPUSO EN SU ETAPA AL FRENTE DEL MINISTERIO?</seg>
@@ -1354,7 +1360,7 @@
                <seg xml:id="ParlaMint-ES_2015-10-14-CD151014.u219.2">Por el Grupo Popular, tiene la palabra el señor Martínez-Pujalte.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-10-14-CD151014.u220"
-               who="#MartínezpujalteVicente"
+               who="#MartínezPujalteVicente"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-10-14-CD151014.u220.1">Señor presidente, señorías, siguiendo las indicaciones del presidente, seré lo más breve posible para que todo el mundo esté más contento.</seg>
                <seg xml:id="ParlaMint-ES_2015-10-14-CD151014.u220.2">Subo a la tribuna con el respeto que siempre le tengo y sin saber si la legislatura tardará mucho en acabarse. Los que hemos dicho que nos vamos tenemos un problema, y es que nunca acabamos de irnos si esto no se acaba, aunque creo que esta será la última vez que yo suba a esta tribuna. Y subo para defender un decreto-ley que es la puesta realmente negro sobre blanco de uno de los ejes que han hecho posible la reforma financiera, que es la defensa del consumidor. Desde el principio de legislatura, señorías, hemos trabajado incesantemente para tener un sistema financiero que preste un servicio a la economía y por tanto sirva para generar crecimiento y empleo, y para dinamizar la actividad económica. Para eso se ha trabajado, primero, en la solvencia de las entidades, en que el sistema financiero español fuera solvente, y así se aprobaron los primeros reales decretos-leyes sobre solvencia. Se ha trabajado intensamente no defendiendo a las entidades financieras, sino defendiendo la solvencia del sistema financiero porque sabíamos que la economía requiere de un sistema financiero sólido y no por defender a los propietarios, sino por defender a los depositantes. El segundo eje de la reforma financiera ha sido atender de la mejor manera posible -y perdonen la expresión, no quiero ofender a nadie-, dar solución de la mejor manera posible a las bombas -entre comillas- que escondía el sistema financiero en España, véase preferentes, otros productos híbridos de ahorro, de capitalización de las entidades, hipotecas dadas sin garantías suficientes, créditos promotores con poca medición del riesgo. Ese ha sido otro de los ejes. Hoy estamos mejor que hace cuatro años en la solución de muchos problemas que tenían muchísimos ciudadanos derivados de que habían comprado productos financieros que creían que eran ahorro y eran capital de las entidades. El tercer eje ha sido defender los depósitos y se han defendido aquí y fuera de aquí, en los foros europeos, y hoy los depositantes españoles, acabando la legislatura, tienen mayor garantía sobre sus depósitos. El cuarto eje ha sido defender a los consumidores. No revelo ningún secreto pero hablaba con el subsecretario de Hacienda hace unos días y comentando este decreto-ley, repasamos todas las medidas que se han hecho en defensa de los consumidores y son muchísimas. Hay medidas en defensa de los consumidores para proteger los depósitos, para clarificar cuando uno va al banco qué está invirtiendo y en qué, para conocer las cláusulas de las hipotecas, para tener garantías, etcétera. Y hoy este decreto-ley se refiere a eso, a proteger a los consumidores.</seg>

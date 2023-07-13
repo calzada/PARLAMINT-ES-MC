@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2017-10-24-CD171024"
-     ana="#reference">
+     ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 81 (2017-10-24) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 81 (2017-10-24)</title>
             <title xml:lang="en" type="sub">Plenary session 81 (2017-10-24)</title>
-            <meeting n="81" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 81</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="2017-10-24" corresp="#CD" ana="#parla.lower #parla.sitting">2017-10-24</meeting>
+            <meeting n="81" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 81</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -499,7 +505,7 @@
                <seg xml:id="ParlaMint-ES_2017-10-24-CD171024.u66.2">Para la defensa de la iniciativa y de la enmienda presentada, tiene la palabra el señor Martín-Toledano Suárez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-10-24-CD171024.u67"
-               who="#MartíntoledanoJosé"
+               who="#MartínToledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-10-24-CD171024.u67.1">Señorías, apoyar y respaldar a la Guardia Civil y a la Policía Nacional en el cumplimiento de sus obligaciones constitucionales, y más cuando actúan como policía judicial, debería ser y es un deber de todo demócrata; debería ser un deber de todo demócrata. Respaldar a las Fuerzas y Cuerpos de Seguridad del Estado -Policía Nacional y Guardia Civil- es también reconocer que hay que apostar por el incremento de sus salarios. Por ello, el Grupo Popular ha presentado una enmienda a esta PNL en la que, aparte de hacer algunas correcciones técnicas, apostamos decididamente -es un orgullo para nosotros como grupo porque lo hemos trabajado mucho y hemos puesto mucho interés y esfuerzo en ello- y reconocemos que es necesario equiparar los salarios de la Guardia Civil y la Policía Nacional y, al mismo tiempo, equiparar los salarios de ambos cuerpos con los de otras policías.<note>Aplausos</note> Ese es un compromiso que adquiere el Grupo Popular en apoyo al Gobierno desde los presupuestos de 2018 y de forma progresiva. Lo que pedimos a todos los grupos políticos es que no bloqueen la aprobación de los presupuestos de 2018 porque en ellos va la equiparación salarial de nuestras Fuerzas y Cuerpos de Seguridad del Estado con otras policías.</seg>
                <seg xml:id="ParlaMint-ES_2017-10-24-CD171024.u67.2">Señorías, condenar el acoso que han sufrido Guardia Civil y Policía Nacional en su actuación de las órdenes judiciales en la crisis catalana también es una obligación, un deber de esta Cámara, porque, evidentemente, no se puede justificar que haya insultos, vejaciones, agresiones y coacciones tanto a los miembros de la Policía Nacional y de la Guardia Civil como a sus familias. No se puede tolerar y debemos condenarlo. También hay que condenar y reprobar a los que han justificado este acoso, y en esta Cámara hay fuerzas políticas que han justificado el acoso a las Fuerzas y Cuerpos de Seguridad del Estado, no solo las fuerzas independentistas, también los que están actuando como aliados de este golpe 'democrático' en Cataluña, que es Podemos y sus confluencias. Evidentemente, señorías, ha habido una campaña de descrédito para situar a las Fuerzas y Cuerpos de Seguridad del Estado en la diana, señalándolos como si fueran los enemigos del pueblo catalán, y de eso hay una mala experiencia en el País Vasco que no debemos repetir, porque situar en la diana a alguien es deshumanizarlo, y eso es propio de regímenes fascistas y comunistas. Por tanto, no podemos ni debemos tolerarlo. Ha habido una campaña de mentiras, falsedades y engaños manifiestos, totales. Hay quien ha denunciado que le han roto uno a uno los dedos de la mano, hay listas de heridos del día 1 de octubre y se ha demostrado que son falsas. Se ha acusado a las Fuerzas y Cuerpos de Seguridad del Estado de empujar por unas escaleras a ancianos o de retener a niños. Nada más lejos de la realidad, señorías. Lo que ha habido es gente, como Ada Colau, que ha acusado a las Fuerzas y Cuerpos de Seguridad del Estado de agresión sexual y todavía nadie ha dimitido. Por esto debería dimitir inmediatamente porque ni siquiera ha pedido perdón.<note>Muestra una fotografía de doña Ada Colau hablando ante los medios de comunicación.-Aplausos</note> Señorías, la violencia nunca es buena y hay que controlarla. No hay que incitar al odio, pero si ha habido agresiones y heridos, también se podrían reconocer los de las Fuerzas y Cuerpos de Seguridad del Estado. Aquí tenemos a un policía nacional sangrando por la cabeza porque se la han abierto.<note>Muestra una fotografía de un policía nacional herido</note> Desde luego no se puede decir que eso sean actitudes pacíficas.<pb n="35"/> En esta PNL también pedimos a todas las instituciones democráticas que, en razón de sus competencias, con proporcionalidad pero también con celeridad, hagan todo lo posible para frenar el desafío independentista en Cataluña. En realidad, el Gobierno ya lo está haciendo y también otras instituciones, pero lo que les tengo que decir es que el objetivo es recobrar la legalidad en Cataluña, es recobrar el autogobierno de Cataluña, porque los que han puesto en riesgo el autogobierno de Cataluña han sido los propios separatistas. Son el mayor enemigo del progreso y del pueblo catalán.<note>Aplausos</note> Señorías, han abusado tanto de la mentira los independentistas y sus aliados que hasta la prensa internacional ya no los consideran en absoluto. Consideran que han hecho una campaña desorbitada de mentiras y que tienen un victimismo absolutamente impresentable. Desde luego, han perdido todo apoyo internacional. Nunca lo han tenido, pero menos lo tienen ahora. Lo han perdido de todos menos de uno; curiosamente tienen un apoyo internacional: Nicolás Maduro, el que apoya el independentismo catalán y a sus aliados de Podemos y sus confluencias.<note>Aplausos</note> Curiosa mezcla la que se da sistemáticamente entre los que hablan de democracia, pero lo único que quieren es utilizar la democracia para destruir nuestro sistema democrático, nuestra Constitución y nuestra convivencia, y lo basan en sembrar el odio, la discordia entre los ciudadanos españoles. Deseo decirles una cosa, la Guardia Civil y la Policía Nacional son muy queridas en Cataluña por todos los que respetan la Constitución y la ley. Son muy queridas. Por tanto, señorías, lo que les pido es que volvamos al sentido común, que volvamos a la legalidad y, por supuesto, que votemos a favor de esta PNL con su enmienda para apoyar y respaldar a la Guardia Civil y a la Policía Nacional.</seg>
@@ -546,7 +552,7 @@
                <seg xml:id="ParlaMint-ES_2017-10-24-CD171024.u74.2">Tiene la palabra también por el mismo grupo el señor Guillaumes i Ràfols.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-10-24-CD171024.u75"
-               who="#GuillaumesFeliujoan"
+               who="#GuillaumesFeliuJoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-10-24-CD171024.u75.1">Gràcies, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2017-10-24-CD171024.u75.2">Señorías, cuando me preparé esta intervención enseguida me vino a la cabeza alguna comparación cinematográfica y la más obvia era Matrix, parecía que estábamos viviendo el mundo al revés, pero luego, dado lo arduo del tema, se me ocurrió que podría encontrar un ejemplo más agradable. ¿Recuerdan ustedes Sueños de un seductor? El protagonista llega golpeado a casa de sus amigos que le dicen: ¿Cómo ha ido la pelea? Ha ido muy bien, les he dado con mi cara contra su puño y luego les he dado con mi estómago contra su rodilla. Parece que el que tenía en la cabeza esta PNL mantenía más o menos esta mentalidad de confundir al que pega con el pegador.</seg>
@@ -737,7 +743,7 @@
                <seg xml:id="ParlaMint-ES_2017-10-24-CD171024.u106.2">En turno de aceptación o rechazo de las enmiendas presentadas, le pregunto al señor Martín-Toledano si su grupo acepta alguna de las enmiendas presentadas.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-10-24-CD171024.u107"
-               who="#MartíntoledanoJosé"
+               who="#MartínToledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-10-24-CD171024.u107.1">No aceptamos ninguna.</seg>
             </u>
@@ -748,7 +754,7 @@
                <seg xml:id="ParlaMint-ES_2017-10-24-CD171024.u108.2">Se votará la iniciativa en sus propios términos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-10-24-CD171024.u109"
-               who="#MartíntoledanoJosé"
+               who="#MartínToledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-10-24-CD171024.u109.1">Salvo la del Grupo Popular. Se votará con la enmienda del Grupo Popular.</seg>
             </u>

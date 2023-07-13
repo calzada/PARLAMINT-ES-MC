@@ -17,7 +17,7 @@ foreach $inFile (glob $inFiles) {
     `perl -i.orig -pe 's|</tei>|</TEI>|' $inFile`;
     `rm -f $inFile.orig`;
     my ($thisDir, $fName) = $inFile =~ m|([^/]+)/([^/]+)$|
-	or die "Weird input file $inFile\n";
+        or die "Weird input file $inFile\n";
     #$outputDir = "$outDir/$thisDir";
     $outputDir = "$outDir";
     `mkdir $outputDir` unless -e "$outputDir";

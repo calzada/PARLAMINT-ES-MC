@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-07-22-CD200722"
-     ana="#covid">
+     ana="#parla.sitting #covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,17 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 36 extraordinaria extraordinaria (2020-07-22) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 36 extraordinaria extraordinaria (2020-07-22)</title>
             <title xml:lang="en" type="sub">Plenary session 36 (2020-07-22)</title>
-            <meeting n="36" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 36 extraordinaria extraordinaria</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Legislatura XIV</meeting>
+            <meeting n="2020-07-22" corresp="#CD" ana="#parla.lower #parla.sitting">2020-07-22</meeting>
+            <meeting n="36" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 36 extraordinaria extraordinaria</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -51,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-10">April 10, 2021</date>
+            <date when="2023-07-12">July 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -558,7 +564,7 @@
                <seg xml:id="ParlaMint-ES_2020-07-22-CD200722.u90.1">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-07-22-CD200722.u91"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-07-22-CD200722.u91.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-07-22-CD200722.u91.2">Señorías, señor Rufián, podría contestar simplemente no, evidentemente no, pero le voy a recordar que nuestro sistema constitucional -aunque hoy he visto que a veces se olvida- no es militante. Nuestro sistema constitucional protege las opiniones políticas, como no podía ser de otro modo, incluso de aquellos que no comparten el modelo constitucional. Las Fuerzas y Cuerpos de Seguridad del Estado lo único que investigan son hechos constitutivos de delito, y no, las opiniones políticas no son constitutivas de delito. Le vuelvo a decir, hechos constitutivos de delito, siempre bajo el impulso del ministerio fiscal y con el mandato y control judicial.</seg>
@@ -582,7 +588,7 @@
                <pb n="19"/>
             </u>
             <u xml:id="ParlaMint-ES_2020-07-22-CD200722.u95"
-               who="#GrandemarlaskaFernando"
+               who="#GrandeMarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-07-22-CD200722.u95.1">Muchas gracias, señora presidenta; muchas gracias, señor Rufián.</seg>
                <seg xml:id="ParlaMint-ES_2020-07-22-CD200722.u95.2">Ante unas informaciones en distintos medios de comunicación -como usted ha indicado-, usted ya resuelve y determina la autoría y concreta que se espía desde el Gobierno y desde las instituciones del Gobierno. Le vuelvo a decir, ni la Guardia Civil ni la Policía Nacional ni el CNI investigan o espían opiniones políticas. Aquí hubo una Comisión de investigación, en la que usted participó, sobre otro Gobierno -el Gobierno del Partido Popular-, y usted sabe que ha habido un cambio fundamental y esencial del que me siento absolutamente orgulloso. En ese sentido, le vuelvo a decir que en este Estado, en el Estado de derecho, la Policía no investiga opiniones políticas, no espía opiniones políticas, tampoco de aquellos que no comparten el modelo constitucional, investiga únicamente hechos constitutivos de delito. El CNI también tiene un control judicial, incluso un control parlamentario a través de la Comisión de Secretos Oficiales. La Guardia Civil, la Policía Nacional, únicamente investigan, y se lo reitero, hechos delictivos con el impulso del Ministerio Fiscal y con el control judicial. Se lo reitero, con este Gobierno del Partido Socialista y de Unidas Podemos el principio de legalidad es el pilar básico, la piedra maestra en la que se apoya la actuación de las Fuerzas y Cuerpos de Seguridad del Estado y del CNI. Le repito, no se persiguen ideas políticas.<note>Aplausos</note> - DE LA DIPUTADA DOÑA CONCEPCIÓN GAMARRA RUIZ-CLAVIJO, DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, QUE FORMULA AL SEÑOR MINISTRO DE SANIDAD: ¿QUÉ ESTÁ HACIENDO EL GOBIERNO PARA CONTROLAR LOS REBROTES DEL COVID-19?</seg>
