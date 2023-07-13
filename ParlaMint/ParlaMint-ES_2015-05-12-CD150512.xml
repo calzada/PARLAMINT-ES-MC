@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2015-05-12-CD150512"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 262 (2015-05-12) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 262 (2015-05-12)</title>
             <title xml:lang="en" type="sub">Plenary session 262 (2015-05-12)</title>
-            <meeting n="2015-05-12" corresp="#CD" ana="#parla.lower #parla.sitting">2015-05-12</meeting>
-            <meeting n="262" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 262</meeting>
-            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
+            <meeting n="262" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 262</meeting>
+            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -408,7 +402,7 @@
                <seg xml:id="ParlaMint-ES_2015-05-12-CD150512.u42.2">Por el Grupo Parlamentario Popular, tiene la palabra el señor García-Tizón.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u43"
-               who="#GarcíaTizónArturo"
+               who="#GarcíatizónArturo"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-05-12-CD150512.u43.1">Señor presidente, señorías, el presente debate tiene por objeto una proposición de ley presentada en diciembre del año 2013 por el Grupo Socialista, que pretende una modificación de la actual Ley del indulto en los siguientes extremos. En primer lugar, una excepción de la medida de gracia del indulto cuando se trate de delitos cometidos por la autoridad en el ejercicio de su función en el cargo o prevaliéndose del mismo con la finalidad de obtener un beneficio o acción económica para sí o para un tercero. En segundo lugar, declarar nula y sin eficacia alguna la resolución del indulto en el que no se contengan, además de las menciones que se exigían en la Ley de 1870 -delito, estado de ejecución de la pena, título de imputación y origen del indulto-, la motivación que, a juicio del Gobierno, justifica su concesión. Finalmente, remisión cada seis meses a la Comisión de Justicia del Congreso de una copia de las resoluciones de los indultos concedidos.</seg>
                <seg xml:id="ParlaMint-ES_2015-05-12-CD150512.u43.2">La medida de gracia del indulto tiene una acogida muy escueta en la Constitución de 1978; concretamente, dos menciones en los artículos 62 y 102.3. Según el primero, corresponde al rey ejercer el derecho de gracia con arreglo a la ley, que no podrá autorizar indultos generales. El segundo establece que la prerrogativa real de gracia no será aplicable a la responsabilidad criminal del presidente y los demás miembros del Gobierno. Es, pues, una previsión constitucional dotada de características propias,<pb n="28"/> puesto que no es un acto administrativo ni del mismo es predicable el carácter discrecional que acompaña a otra categoría de estos actos administrativos. Por eso no está sometido al control jurisdiccional, salvo en los elementos reglados, que son elaboración y tramitación, y tampoco está sometido al elemento teleológico de su finalidad, el fin de la gracia. Así lo recogen múltiples sentencias del Tribunal Supremo, entre ellas la de 27 de mayo de 2003 y la de 10 de octubre de 2007, recogidas en la proposición de ley. En definitiva, el indulto es un acto graciable y con muchas reminiscencias de los actos políticos, sin que debamos llegar a la conclusión de que hay una plena asimilación de esta medida con los actos políticos. Con todo, esta medida de gracia representa una institución plenamente vigente y totalmente generalizada en el derecho comparado y conveniente, como han reconocido anteriores portavoces que han intervenido con anterioridad, dicho lo cual debo manifestar que la misma -algunos portavoces han afirmado lo contrario- ha sido utilizada en contadísimas ocasiones por el actual Gobierno. Así, en el año 2013 ha concedido menos del 3 % de las peticiones recibidas y en 2014 el 1,05 % -72 sobre 6.824 solicitudes- y ha contado con el parecer favorable del tribunal sentenciador y del ministerio fiscal en más del 95 % de los casos. Ninguno de estos indultos concedidos por el Gobierno del Partido Popular lo ha sido por delito de corrupción. Señorías, ninguno; antes al contrario, desde el primer momento este Gobierno anunció que tales delitos no obtendrían el indulto en ningún caso.</seg>
@@ -423,7 +417,7 @@
                <seg xml:id="ParlaMint-ES_2015-05-12-CD150512.u44.1">Señoría, su tiempo terminó hace ya un buen rato.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u45"
-               who="#GarcíaTizónArturo"
+               who="#GarcíatizónArturo"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-05-12-CD150512.u45.1">Voy terminando, señor presidente.</seg>
                <seg xml:id="ParlaMint-ES_2015-05-12-CD150512.u45.2">El Ministerio de Justicia se ha manifestado favorable al criterio del Gobierno a acometer una reforma en profundidad de este instituto, pero de forma integral, sensata, sin oportunismos ni ventajas partidistas.</seg>
@@ -445,7 +439,7 @@
                <seg xml:id="ParlaMint-ES_2015-05-12-CD150512.u47.2">Para la presentación de la iniciativa, tiene la palabra el señor Martín-Toledano.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u48"
-               who="#MartínToledanoJosé"
+               who="#MartíntoledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-05-12-CD150512.u48.1">Gracias, señor presidente.</seg>
                <seg xml:id="ParlaMint-ES_2015-05-12-CD150512.u48.2">Señorías, desde el inicio de la actual legislatura tanto el Gobierno como el Grupo Popular fijaron como uno de sus objetivos principales acometer una reforma en profundidad de las administraciones públicas. En este objetivo se implicó todo el Ejecutivo, que creó la Comisión para la reforma de las administraciones<pb n="30"/> públicas, CORA. Esta Comisión realizó un estudio en profundidad para detectar defectos estructurales de las administraciones y así poder proponer las reformas necesarias para mejorar su eficiencia y su transparencia, abaratando los costes y prestando servicios más eficaces a los ciudadanos y a las empresas. Acometer esta ingente tarea reformadora no solo era una necesidad obvia, sino que también resultaba ser una exigencia ciudadana ampliamente compartida.</seg>
@@ -459,7 +453,7 @@
                <seg xml:id="ParlaMint-ES_2015-05-12-CD150512.u49.1">Señor Martín-Toledano.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u50"
-               who="#MartínToledanoJosé"
+               who="#MartíntoledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-05-12-CD150512.u50.1">Estoy finalizando.</seg>
                <seg xml:id="ParlaMint-ES_2015-05-12-CD150512.u50.2">... y fomentar el diálogo con las comunidades autónomas y entidades locales para impulsar los acuerdos necesarios para la utilización y coordinación de las plataformas comunes y servicios compartidos. No olvidemos, señorías, que prestar buenos servicios de forma rápida y eficiente a los ciudadanos es la razón de ser de las administraciones públicas y por ello pedimos a todos los grupos que se sumen a esta iniciativa.</seg>
@@ -618,7 +612,7 @@
                <seg xml:id="ParlaMint-ES_2015-05-12-CD150512.u73.2">Señor Martín-Toledano, ¿en cuanto a la enmienda presentada?</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-05-12-CD150512.u74"
-               who="#MartínToledanoJosé"
+               who="#MartíntoledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-05-12-CD150512.u74.1">No se acepta la enmienda.</seg>
             </u>

@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-02-21-CD180221"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 101 (2018-02-21) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 101 (2018-02-21)</title>
             <title xml:lang="en" type="sub">Plenary session 101 (2018-02-21)</title>
-            <meeting n="2018-02-21" corresp="#CD" ana="#parla.lower #parla.sitting">2018-02-21</meeting>
-            <meeting n="101" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 101</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="101" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 101</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -785,7 +779,7 @@
                <seg xml:id="ParlaMint-ES_2018-02-21-CD180221.u126.1">Pregunta también dirigida a la señora ministra de Agricultura y Pesca, Alimentación y Medio Ambiente del diputado don Antonio Gómez-Reino Varela. Adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-02-21-CD180221.u127"
-               who="#GómezReinoAntonio"
+               who="#GómezreinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-02-21-CD180221.u127.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-02-21-CD180221.u127.2">¿Qué papel ha jugado usted en el escándalo de Fertiberia?</seg>
@@ -808,7 +802,7 @@
                <seg xml:id="ParlaMint-ES_2018-02-21-CD180221.u130.2">Señor Gómez-Reino.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-02-21-CD180221.u131"
-               who="#GómezReinoAntonio"
+               who="#GómezreinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-02-21-CD180221.u131.1">Neumonitis, enfisema, insuficiencia renal crónica, osteomalacia, fracturas espontáneas, ¿sabe, señora ministra? Esas son las consecuencias del exceso de cadmio en el cuerpo humano; esas son las consecuencias de los fertilizantes tóxicos que usted patrocina.</seg>
                <seg xml:id="ParlaMint-ES_2018-02-21-CD180221.u131.2">Señora ministra, sabemos que usted es la señora ministra que mejor lee, pero hoy le exigimos respuestas. Vamos con el caso. Riesgos para la salud pública, fosfatos que son veneno, puertas giratorias, sobornos y corrupción. No lo digo yo; se lo dice la comisaria europea: el cadmio es un producto altamente tóxico que puede tener graves e irreversibles efectos en la salud de las personas. Los fertilizantes de fosfato son su principal fuente de contaminación. ¿Y por qué hace esto? ¿Por qué usted paraliza, contra el criterio de la Comisión Europea, contra el criterio del Parlamento Europeo y contra la salud de millones de personas, estas normativas? Pues, precisamente, porque lo hace a favor de quien le ha pagado y de quien le va a volver a pagar, probablemente.</seg>

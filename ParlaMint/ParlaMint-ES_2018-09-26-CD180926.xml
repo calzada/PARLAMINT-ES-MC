@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-09-26-CD180926"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 145 (2018-09-26) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 145 (2018-09-26)</title>
             <title xml:lang="en" type="sub">Plenary session 145 (2018-09-26)</title>
-            <meeting n="2018-09-26" corresp="#CD" ana="#parla.lower #parla.sitting">2018-09-26</meeting>
-            <meeting n="145" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 145</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="145" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 145</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -289,7 +283,7 @@
                <seg xml:id="ParlaMint-ES_2018-09-26-CD180926.u35.2">Adelante, señoría.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-09-26-CD180926.u36"
-               who="#GarcíaPelayoMaría"
+               who="#GarcíapelayoMaría"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-09-26-CD180926.u36.1">Señora Robles, ¿conoce usted las consecuencias que provocan sus decisiones como ministra?</seg>
                <pb n="10"/>
@@ -310,7 +304,7 @@
                <seg xml:id="ParlaMint-ES_2018-09-26-CD180926.u39.2">Señora García-Pelayo, adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-09-26-CD180926.u40"
-               who="#GarcíaPelayoMaría"
+               who="#GarcíapelayoMaría"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-09-26-CD180926.u40.1">Lo que sí es verdad, señora Robles, es que el señor Mariano Rajoy, el auténtico presidente del Gobierno de España...</seg>
                <note>Risas.-Rumores</note>
@@ -319,7 +313,7 @@
                <seg xml:id="ParlaMint-ES_2018-09-26-CD180926.u41.1">Silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-09-26-CD180926.u42"
-               who="#GarcíaPelayoMaría"
+               who="#GarcíapelayoMaría"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-09-26-CD180926.u42.1">... nunca tuvo que decir de su predecesora, de la señora De Cospedal...</seg>
                <note>Rumores</note>
@@ -328,7 +322,7 @@
                <seg xml:id="ParlaMint-ES_2018-09-26-CD180926.u43.1">Silencio, por favor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-09-26-CD180926.u44"
-               who="#GarcíaPelayoMaría"
+               who="#GarcíapelayoMaría"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-09-26-CD180926.u44.1">... que no sabía de las consecuencias que provocaban sus actos ni sus decisiones. Nunca dejó a la señora De Cospedal en evidencia, porque la señora De Cospedal fue una gran ministra.<note>Varios señores diputados: ¡Oh!</note> Usted, señora Robles, en muy poquito tiempo ha sido desautorizada no por el Partido Popular sino por el propio señor Sánchez, que ha dicho en público -sin cortarse un pelo- que de las decisiones que usted toma ni usted misma conoce las consecuencias. No solamente la ha dejado como una ministra boba, políticamente hablando...</seg>
                <note>Rumores y protestas</note>
@@ -337,7 +331,7 @@
                <seg xml:id="ParlaMint-ES_2018-09-26-CD180926.u45.1">Silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-09-26-CD180926.u46"
-               who="#GarcíaPelayoMaría"
+               who="#GarcíapelayoMaría"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-09-26-CD180926.u46.1">No solamente la ha dejado como una auténtica irresponsable, sino que la ha dejado en evidencia. Hoy lo que todos los españoles sabemos es que -fíjese en la incoherencia- nuestra ministra de Defensa es un auténtico peligro para los españoles. Usted puede rectificar lo que quiera, de verdad se lo digo, estamos acostumbrados a sus rectificaciones, no pasa nada, si me apura, nos acostumbramos; lo que sí le voy a pedir como diputada gaditana, como diputada por la provincia de Cádiz es que no juegue con el pan de los gaditanos, que no ponga en peligro 6000 empleos, como ha hecho, en la Bahía de Cádiz, porque los gaditanos no nos lo merecemos. Y si hoy hay un contrato que va a permitir que 6000 gaditanas y gaditanos trabajen en la Bahía de Cádiz es precisamente gracias a la señora De Cospedal, gracias al Gobierno de Mariano Rajoy, que durante cuatro años estuvieron trabajando para que hoy usted tire todo ese trabajo a la basura.</seg>
                <seg xml:id="ParlaMint-ES_2018-09-26-CD180926.u46.2">Señora Robles, usted ha quedado desprestigiada como ministra, pero lo que me duele enormemente no es ya que haya contaminado de ese desprestigio a su Gobierno, sino que haya contaminado el desprestigio a nuestro país y sobre todo a una gran empresa pública como es Navantia. Los gaditanos no se lo merecen, pida disculpas.</seg>
@@ -1036,7 +1030,7 @@
                <seg xml:id="ParlaMint-ES_2018-09-26-CD180926.u174.2">Adelante, señoría.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-09-26-CD180926.u175"
-               who="#GómezReinoAntonio"
+               who="#GómezreinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-09-26-CD180926.u175.1">Gracias, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-09-26-CD180926.u175.2">¿Piensa el Gobierno mantener los privilegios de la familia Franco?</seg>
@@ -1058,7 +1052,7 @@
                <pb n="30"/>
             </u>
             <u xml:id="ParlaMint-ES_2018-09-26-CD180926.u179"
-               who="#GómezReinoAntonio"
+               who="#GómezreinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-09-26-CD180926.u179.1">Duquesa de Franco, marqués de Arias Navarro, duque de Mola, duque de Primo de Rivera, duque de Carrero Blanco, marqués de Quiepo de Llano -del asesino Queipo de Llano-, ilustrísimo señor de Meirás. Sí, estamos hablando de España, del año 2018 y de títulos nobiliarios en vigor. Todos los herederos de estos títulos son grandes de España y su único mérito es ser descendientes de criminales de guerra. Lo grave, señora ministra, es que estos títulos esperpénticos han sido renovados e incluso concedidos en democracia y en algunos casos por Gobiernos socialistas. ¡Qué burla es esta, señora ministra! El franquismo fue un régimen golpista, sanguinario y corrupto, y el caudillo, además de asesino, un ladrón miserable: desviando fondos públicos para sus cuentas particulares, vendiendo al Estado donaciones hechas a la ciudadanía, construyendo su patrimonio a base de suscripciones patrióticas -ya se sabe, apoyabas o podías acabar en una cuneta-. Montaron un régimen corrupto que continúa vigente hoy en día. ¿Saben qué empresa participó en la construcción del Valle de los Caídos? Pues la empresa originaria de la constructora OHL. Muchas de las empresas que cotizan en el IBEX 35 hicieron fortuna con el régimen. Y ya nos gustaría que esto fuera pasado, pero no, los herederos de Franco se están beneficiando de lo robado en el pasado y se burlan de todos nosotros. Finca de Arroyomolinos; palacio del Canto del Pico; casa Cornide, chalets en Guadalajara, en Marbella, en Miami y en la moraleja y los terrenos de Valdefuentes. Muchas de estas fincas, además, recalificadas en democracia por el PP para beneficio de los Franco. ¿Y qué pasa, señora ministra, finalmente con el pazo de Meirás? Queremos plazos y respuestas. Galicia necesita y exige cerrar la página de la vergüenza.</seg>
                <seg xml:id="ParlaMint-ES_2018-09-26-CD180926.u179.2">Señora ministra, acabo con tres propuestas para las que tendría nuestro apoyo. Abran una investigación sobre el patrimonio ilegal de la familia Franco. Erradiquen los privilegios y los títulos contrarios a la ley, a la dignidad y a la memoria democrática. Y devuelvan, de una vez por todas, el pazo de Meirás al pueblo de Galicia.</seg>

@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2017-05-17-CD170517"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 52 (2017-05-17) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 52 (2017-05-17)</title>
             <title xml:lang="en" type="sub">Plenary session 52 (2017-05-17)</title>
-            <meeting n="2017-05-17" corresp="#CD" ana="#parla.lower #parla.sitting">2017-05-17</meeting>
-            <meeting n="52" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 52</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="52" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 52</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -965,7 +959,7 @@
                <seg xml:id="ParlaMint-ES_2017-05-17-CD170517.u152.2">Para su defensa, tiene la palabra el señor Gómez-Reino Varela.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-05-17-CD170517.u153"
-               who="#GómezReinoAntonio"
+               who="#GómezreinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-05-17-CD170517.u153.1">Bo dia, señora presidenta.<note>Comienza su intervención en gallego</note>
                   <pb n="36"/> Es muy difícil hablar ya del mar y de las rías tal y como las conocíamos. Hoy, desgraciadamente, venimos a hablarles del mar y de las rías que han dejado sus políticas de los últimos treinta años, de más de treinta años de Gobiernos conservadores del Partido Popular en Galicia. ¿Qué les sucede a nuestras rías y a nuestras costas? La complejidad climatológica, biológica y geográfica de nuestras rías les han permitido ser el motor económico imprescindible de nuestro país; un motor marítimo, productivo, natural y turístico. Es difícil calcular cuál es el alcance del impacto económico en las mismas o cuántos puestos de trabajo en nuestro país dependen de ellas. En todo caso, lo que tenemos muy claro es que, además de una parte fundamental de nuestra identidad y de nuestro territorio, son nuestra forma de vida. Ante tan enorme tesoro parece de sentido común, señores del Partido Popular, guardarlas y resguardarlas de todos aquellos que las quieren dañar, de todos los males. Sin embargo, ya les adelantamos que lo que ha sucedido con todas ellas es que han sido vendidas al peor postor. Empecemos por lo más evidente.</seg>
@@ -1011,7 +1005,7 @@
                <seg xml:id="ParlaMint-ES_2017-05-17-CD170517.u156.2">Tiene la palabra el señor Gómez-Reino Varela.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-05-17-CD170517.u157"
-               who="#GómezReinoAntonio"
+               who="#GómezreinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-05-17-CD170517.u157.1">Gracias, señor presidente.</seg>
                <seg xml:id="ParlaMint-ES_2017-05-17-CD170517.u157.2">Señora ministra, con su relatorio de intervenciones me quedo perplejo. Inicialmente dice una cosa y dice también la contraria: primero dice que no tienen responsabilidad en la depuración y después relata una serie de iniciativas y se apropia de la autoridad sobre esas intervenciones. Dice una cosa y dice la contraria. Además, después de oír sus palabras, parece que me quejo de vicio yo, que se queja de vicio mi grupo y que, probablemente, se quejan de vicio la mayor parte de las cofradías, de las plataformas, de los pescadores y de las mariscadoras y los mariscadores de Galicia. En todo caso, poco o nada me ha dicho de ENCE, de Reganosa y de las sentencias judiciales al respecto de estas plantas y de su posición sobre ello. En relación con A Coruña, solo faltaba que le imputara ahora a los ayuntamientos -que además están haciendo un trabajo muy importante en muy poco tiempo, en dos años, para llegar casi al vertido cero- el problema actual de la ría de O Burgo; es lo que nos faltaba por escuchar. Sin embargo, creo que nos compete ser proposititos en esta interpelación e ir preparando el terreno para la moción.</seg>

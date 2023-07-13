@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-02-13-CD180213"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 97 (2018-02-13) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 97 (2018-02-13)</title>
             <title xml:lang="en" type="sub">Plenary session 97 (2018-02-13)</title>
-            <meeting n="2018-02-13" corresp="#CD" ana="#parla.lower #parla.sitting">2018-02-13</meeting>
-            <meeting n="97" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 97</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="97" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 97</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -590,7 +584,7 @@
                <seg xml:id="ParlaMint-ES_2018-02-13-CD180213.u76.2">Para la defensa de las enmiendas formuladas por el Grupo Parlamentario Mixto, que en este turno también fijarán posición, tiene la palabra, en primer lugar, el señor Guillaumes i Ràfols.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-02-13-CD180213.u77"
-               who="#GuillaumesFeliuJoan"
+               who="#GuillaumesFeliujoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-02-13-CD180213.u77.1">Gràcies presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-02-13-CD180213.u77.2">Señorías, estamos hablando de los atentados de Barcelona y Cambrils, y es un buen momento para recordar que el que consiguió desarticular la célula, el que consiguió abatir y detener a la célula yihadista, el conseller Joaquim Forn, en este momento está en la cárcel por motivos políticos<note>Aplausos</note> ; y con él, nuestro vicepresidente, Oriol Junqueras, y con él dos de los dirigentes de nuestras entidades más importantes en Cataluña.<note>Aplausos</note> Nosotros hemos presentado enmiendas a la propuesta de Ciudadanos. Parece mentira que ni las hayan querido comentar. Nosotros hemos dicho que se reconociera el papel de los Mossos d'Esquadra, que si no me equivoco y si no vivo en Matrix...<note>Un señor diputado del Grupo Parlamentario Ciudadanos pronuncia palabras que no se perciben</note> No, el que vive en Matrix es usted.<note>Aplausos</note> Pues resulta que quienes abatieron a los terroristas o los detuvieron, si no me equivoco, fueron los Mossos d'Esquadra. Ustedes ni tan solo quieren reconocer en su moción el papel de los Mossos d'Esquadra. ¡Es que ni tan solo quieren hablarlo! Encima nos hablan de una teoría de la CIA que, entre otras cosas, ha sido desmentida por muchos medios de comunicación, y nos proponen una comisión de investigación, una comisión de investigación de la cual usted ya nos ha anunciado las conclusiones. O sea, aquí hay descoordinación, aquí hay que recortar competencias a los Mossos, aquí hay no sé qué... ¡Hombre!<note>Aplausos</note> Pero además hay alevosía, porque usted sabe que todo esto está bajo secreto de sumario. En estos momentos, todo lo que pidamos a la policía o todo lo que pidamos al Ministerio del Interior se nos negará, porque el juez y el fiscal lo tienen en secreto, de tal manera que lo que usted está haciendo -con esto termino, porque no tengo más tiempo- es castrar la posibilidad de una auténtica comisión de investigación que aclare estos términos. ¿O acaso no es ese su auténtico objetivo, que esta Comisión no llegue a ninguna parte? Sabe que en estos momentos con el secreto de sumario esta Comisión no va a llegar a ninguna parte y que la está usted castrando.</seg>
@@ -670,7 +664,7 @@
                <seg xml:id="ParlaMint-ES_2018-02-13-CD180213.u88.2">Por el Grupo Parlamentario Popular, tiene la palabra el señor Martín-Toledano.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-02-13-CD180213.u89"
-               who="#MartínToledanoJosé"
+               who="#MartíntoledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-02-13-CD180213.u89.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-02-13-CD180213.u89.2">Señorías, lo primero que tengo que lamentar -y no lo tenía en la intervención- es que cuando se hace una crítica al portavoz de Ciudadanos, en este caso, insulte al portavoz del Grupo Parlamentario Socialista. No me parece de recibo, lo tengo que decir.</seg>
@@ -681,7 +675,7 @@
                <seg xml:id="ParlaMint-ES_2018-02-13-CD180213.u90.1">Silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-02-13-CD180213.u91"
-               who="#MartínToledanoJosé"
+               who="#MartíntoledanoJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-02-13-CD180213.u91.1">Señor Girauta, no pierda los nervios. Si están tan preocupados, yo les haría una pregunta: ¿por qué votaron con el PNV vaciar de contenido la Ley de Seguridad Ciudadana?<note>Aplausos</note> Votaron con el PNV vaciar de contenido la Ley de Seguridad Ciudadana, que permite a las Fuerzas y Cuerpos de Seguridad del Estado poder realizar tareas que eviten atentados terroristas. Si están tan preocupados por la seguridad, señor Girauta<note>Rumores</note> , ¿por qué ustedes se niegan a que a un ciudadano que cometa un acto terrorista con resultado de muerte se le pueda aplicar la prisión permanente revisable?<note>Aplausos</note> ¿Por qué se oponen? ¿Por qué se oponen?<note>Aplausos</note> Habrá que decirlo todo. Queremos investigar, proponer y escuchar a los expertos. Están la Mesa y las comisiones de seguimiento del Pacto antiterrorista, pacto que no existe en otros países de Europa. Sin embargo, ustedes apuestan por una figura jurídica, la comisión de investigación, que no tiene ninguna razón de ser. Ustedes solo buscan votos, solo buscan oportunismo político. Reconózcanlo y vuelvan al sendero normal de querer proponer cosas que sean buenas para el Estado y no buenas para sus intereses electorales.</seg>
                <seg xml:id="ParlaMint-ES_2018-02-13-CD180213.u91.2">Muchas gracias.</seg>
@@ -863,7 +857,7 @@
                <seg xml:id="ParlaMint-ES_2018-02-13-CD180213.u118.2">Por el grupo autor de la iniciativa, tiene la palabra el señor Gómez-Reino Varela.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-02-13-CD180213.u119"
-               who="#GómezReinoAntonio"
+               who="#GómezreinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-02-13-CD180213.u119.1">Boa tarde. Gracias, señor presidente.</seg>
                <seg xml:id="ParlaMint-ES_2018-02-13-CD180213.u119.2">Señorías, todos y todas somos conscientes de la importancia de la política agraria común para nuestro mundo rural, para nuestro campo y para la gente que vive de él. Además de eso, creo que ya somos conscientes -lo hablábamos el otro día- de la importancia que tiene la política agraria común para sectores como el ganadero o el agrícola y su relevancia para el conjunto de la sociedad que demanda, entre otras cosas, alimentos sanos y de calidad. Al contrario de lo que dice la señora ministra en esta Cámara y en los medios, nuestro grupo quiere una política agraria fuerte, claro que sí!, pero también una política agraria cohesionada y justa. Pareciera que el único grupo que no se da cuenta, que no conoce el cuestionamiento general a la política agraria común es el grupo del Gobierno, el Partido Popular; un cuestionamiento que le llega desde todos los sectores, tanto desde los directamente afectados como desde el resto de la sociedad.</seg>
@@ -876,7 +870,7 @@
                <seg xml:id="ParlaMint-ES_2018-02-13-CD180213.u120.2">Señorías, les ruego silencio. Es el último punto del orden del día, peor no por ello menos digno de atención. Les rogaría, por favor, que respetasen al orador. Muchas gracias.<note>Pausa</note> Continúe, señor Gómez-Reino.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-02-13-CD180213.u121"
-               who="#GómezReinoAntonio"
+               who="#GómezreinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-02-13-CD180213.u121.1">Les decíamos a los señores del Gobierno del Partido Popular que cada vez que escuchamos a la señora ministra nos parece que los agricultores y los ganaderos con los que nosotros hablamos no tienen los mismos intereses -diría incluso que tienen intereses contrarios- que las grandes empresas exportadoras a las que protegen ustedes con sus políticas. Lo que entendemos que deben hacer es, precisamente, escuchar atentamente lo que dicen los productores y las productoras, los ganaderos y las agricultoras. ¿Qué piensan? ¿Qué recoge la encuesta que la Comisión Europea lanzó y en la que recogió más de 355 000 respuestas? Lo que dicen es que el 88 % son conscientes de que las agricultoras y los ganaderos tienen rentas por debajo de la media; que el 89 % consideran que la PAC ha hecho poco o muy poco por contribuir a un nivel de vida equitativo en el campo; que el 97 % de los agricultores y las agricultoras reciben un precio muy por debajo de lo justo por sus productos y que la PAC no ha hecho nada para mitigar esta situación; que el 89 % piensa que la PAC debe contribuir de otra forma, de una forma más clara al desafío del desarrollo rural, a la creación de empleo y a la lucha contra la despoblación y, finalmente, sobre todas estas cosas, el 88 % tiene claro, muy claro, que el reparto es injusto y considera absolutamente necesario limitar las ayudas a los grandes beneficiarios, acabar -como les decíamos ya la semana pasada- de una vez por todas<pb n="48"/> con los agricultores de salón. Y sí, los datos escandalosos sobre los grandes perceptores, sobre los Alba, sobre los Domecq, sobre Mercadona tienen que acabar de una vez en este país.<note>Aplausos</note> La reforma de la PAC debe establecer unos principios comunes, pero también marca claramente que los Estados son los únicos responsables de su aplicación y de su distribución. En este sentido, volvemos a pedirles que lean los informes de la propia Comisión, informes que muestran las disparidades en la aplicación entre países; informes que demuestran el margen de maniobra que los Estados ya tienen; informes que muestran datos como estos. Les daré tres: En España el perceptor medio de PAC recibe 5600 euros; en Francia, 20 900 y en Alemania, 165 000. La cuestión esencial aquí es dirimir con claridad quién tiene derecho a cobrar la PAC; la realidad es que aquí la PAC la cobra cualquiera, aunque no haya pisado una tierra o una huerta en su vida. Se trata de definir con claridad, a nuestro juicio, el concepto de agricultor profesional y no hacerlo maleable para que los Domecq, para que los Alba, para que los Mora-Figueroa o para que Mercadona puedan ser los mayores perceptores de estas ayudas públicas comunitarias.</seg>
                <seg xml:id="ParlaMint-ES_2018-02-13-CD180213.u121.2">Además, la PAC debe, a nuestro juicio, contemplar medidas de regulación de los mercados, tema clave porque el 96 % de las personas consultadas, la mayor parte de ellas personas del sector, consideran que la PAC tiene que abordar de una manera decidida la posición de los agricultores y ganaderos y ganaderas en la cadena de valor, pues es ahí donde nos jugamos el futuro de estas personas, de estas familias y del medio rural. Y sí, hay que decirlo, ustedes cada vez que aceptan sin condicionantes los tratados de libre comercio o cada vez que protegen a la gran distribución alimentaria, traicionan al sector, traicionan a nuestra gente del campo y traicionan también los valores de la PAC. Sin este tipo de medidas de regulación de los mercados, y hay que decirlo también, los ganaderos, la leche de Galicia y de toda la cornisa cantábrica, el sector de la fruta dulce o la almendra o los productores de conejo irán desapareciendo, como ha sucedido este año en el que han desaparecido dos explotaciones lácteas en Galicia cada día.</seg>
@@ -1025,7 +1019,7 @@
                <seg xml:id="ParlaMint-ES_2018-02-13-CD180213.u142.2">En turno de aceptación o rechazo de las enmiendas presentadas, le pregunto al señor GómezReino Varela si su grupo acepta alguna de las enmiendas presentadas.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-02-13-CD180213.u143"
-               who="#GómezReinoAntonio"
+               who="#GómezreinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-02-13-CD180213.u143.1">Hemos presentado una transaccional a los letrados de la Cámara con las enmiendas del Grupo Parlamentario Socialista y del Grupo Parlamentario Ciudadanos.</seg>
             </u>

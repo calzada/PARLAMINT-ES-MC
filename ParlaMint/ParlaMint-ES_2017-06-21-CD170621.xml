@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2017-06-21-CD170621"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 61 (2017-06-21) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 61 (2017-06-21)</title>
             <title xml:lang="en" type="sub">Plenary session 61 (2017-06-21)</title>
-            <meeting n="2017-06-21" corresp="#CD" ana="#parla.lower #parla.sitting">2017-06-21</meeting>
-            <meeting n="61" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 61</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="61" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 61</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -1270,7 +1264,7 @@
                <seg xml:id="ParlaMint-ES_2017-06-21-CD170621.u197.2">Adelante, señor Gómez-Reino.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-06-21-CD170621.u198"
-               who="#GómezReinoAntonio"
+               who="#GómezreinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-06-21-CD170621.u198.1">Bos días, señora presidenta, señores diputados.</seg>
                <seg xml:id="ParlaMint-ES_2017-06-21-CD170621.u198.2">Es un placer estar aquí otra vez para defender las rías de mi país, de Galicia, y es un placer estar aquí para acabar con esta moción en la que veremos finalmente cuál es la posición de cada uno de los grupos con respecto a la regeneración de las rías gallegas y con respecto a dos cuestiones bien particulares -Ence y Reganosa- y, por lo tanto, con respecto a su legalidad.</seg>
@@ -1282,7 +1276,7 @@
                <seg xml:id="ParlaMint-ES_2017-06-21-CD170621.u199.2">Adelante.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-06-21-CD170621.u200"
-               who="#GómezReinoAntonio"
+               who="#GómezreinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-06-21-CD170621.u200.1">... primero, por su inmenso valor ambiental, económico, de empleo, de calidad alimentaria o turístico. Es fundamental que comprendan la importancia de la pesca y del marisqueo en nuestra economía, en Galicia. Comparada con el resto de países europeos o con otras comunidades autónomas, su relevancia para mi país es muy superior, clave en términos económicos, de empleo o en el papel tractor de la economía de comarcas enteras. No se trata de un sector marginal ni de que haya que proteger unos cuantos empleos que al final se van a acabar con el tiempo. Al contrario, estamos hablando de un medio de vida que conecta los saberes seculares con el futuro, que debiera ser más prometedor. Nuestras rías son básicas para la sostenibilidad de nuestro entorno más valioso y para la sostenibilidad de Galicia como sociedad de futuro. Esta moción va dirigida a preservar un tesoro que debería ser inagotable y apunta a sus principales problemas de contaminación: en primer lugar, el defectuoso tratamiento de aguas residuales; en segundo lugar, los vertidos incontrolados de residuos industriales, y en tercer lugar, la falta de saneamiento de las rías. Pero se enfoca esta moción sobre todo en positivo, de cara a hacer una apuesta para aprovechar el enorme potencial de estos ecosistemas fundamentales.</seg>
                <seg xml:id="ParlaMint-ES_2017-06-21-CD170621.u200.2">Vamos por partes. En principio hay que actuar sobre los focos de contaminación. Eso significa que el Gobierno cumpla y haga cumplir la legislación y significa además que dedique los recursos suficientes para poder efectuar estos compromisos. En concreto, en primer lugar, el cumplimiento de las directivas europeas y sentencias del Tribunal de Justicia Europeo sobre residuos urbanos que requieren tanto hacer valer la normativa al tiempo que la inversión pública -en modo de depuradoras que eviten la contaminación- y, por otra parte, la contaminación industrial y los dos casos extremos de las sentencias contra Ence y contra Reganosa. Porque ¿cuáles pueden ser los motivos y los intereses que mantienen estos focos de contaminación masiva y fuerzan a que no se cumplan las sentencias judiciales? Las amistades peligrosas, evidentemente, las amistades peligrosas de un Partido Popular que ha favorecido el asentamiento de las industrias amigas. La prórroga de sesenta años a Ence tiene que ver con esto. No es casual que responsables de medio ambiente de su partido, como la señora Tocino o como el señor Carlos del Álamo, formen parte del consejo de administración. ¿Cómo puede ser que en dos empresas tan contaminantes se sienten tantos responsables de medio ambiente del Partido Popular? Puertas giratorias, nepotismo; cada uno que le llame como prefiera. Ence es además una muestra clara de un modelo que nos aboca a lo sucedido estos días trágicamente en Portugal. La apuesta del Partido Popular por esta empresa de pasta de papel lleva implícito el monocultivo de eucalipto. Esta forestación tiene consecuencias graves: degradación de los suelos, escasísimo aprovechamiento económico, falta de valor añadido, incendios terribles todos los años -como vemos en Galicia y en el norte de Portugal- y una fuerte contaminación de los acuíferos y de las rías. No nos engañen y no nos engañemos. No se engañen de nuevo, estos monocultivos forestales, extremadamente peligrosos, no son bosques.<pb n="54"/> En cuanto a Reganosa, una planta de gas situada en el interior de la ría de Ferrol, existen cuatro sentencias del Tribunal Supremo señalando que esa infraestructura gasística es nula de pleno derecho. Y qué curioso, de nuevo el mismo Gobierno en funciones del Partido Popular fue el que la regularizó por la vía de un acto administrativo. Pactos secretos entre políticos del PP -pero no solo-, financieros y empresarios que determinaban que si había pérdidas sería el sector público el que se haría cargo. ¿Les suena, verdad? Como en las cajas de ahorros, socializar las pérdidas y privatizar las ganancias. Eran políticos, como decía, que no eran solo del Partido Popular. Por lo tanto, el apoyo o no a esta moción también va demostrar si algunas fuerzas continúan secuestradas por su pasado o votarán conforme a sus principios y a la legislación vigente.</seg>
@@ -1364,7 +1358,7 @@
                <pb n="59"/>
             </u>
             <u xml:id="ParlaMint-ES_2017-06-21-CD170621.u212"
-               who="#GómezReinoAntonio"
+               who="#GómezreinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-06-21-CD170621.u212.1">Vamos a negociar todavía una transaccional a ver si es posible, y si no se lo comunicaremos a la Mesa.</seg>
             </u>

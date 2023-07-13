@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-10-27-CD201027"
-     ana="#parla.sitting #covid">
+     ana="#covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 54 (2020-10-27) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 54 (2020-10-27)</title>
             <title xml:lang="en" type="sub">Plenary session 54 (2020-10-27)</title>
-            <meeting n="2020-10-27" corresp="#CD" ana="#parla.lower #parla.sitting">2020-10-27</meeting>
-            <meeting n="54" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 54</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
+            <meeting n="54" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 54</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -295,7 +289,7 @@
                <seg xml:id="ParlaMint-ES_2020-10-27-CD201027.u31.1">Muchas gracias, señor Rego.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> También por el Grupo Parlamentario Plural, tiene la palabra el señor Alonso-Cuevillas i Sayrol.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-10-27-CD201027.u32"
-               who="#AlonsoCuevillasJaume"
+               who="#AlonsocuevillasJaume"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-10-27-CD201027.u32.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-10-27-CD201027.u32.2">A estas alturas del siglo XXI no tendríamos que estar hablando de estas cosas. La jurisprudencia del Tribunal Europeo de Derechos Humanos ha dejado muy claro que el legítimo ejercicio de derechos fundamentales, como la libertad de expresión o la libertad ideológica, no pueden ser objeto de criminalización. Por tanto, en la medida en que los jueces y los tribunales españoles son también tribunales europeos, ningún juez español podría hoy aplicar ninguno de esos tipos penales de injurias o ultrajes cuya derogación ustedes proponen. ¿Y por qué pasa eso? Pasa eso porque en España hay algunos jueces -en todo caso, demasiados- escorados no hacia posiciones conservadoras, cosa que sería legítima, sino hacia posiciones políticas directamente reaccionarias y que, por ende, no reconocen la primacía de los derechos fundamentales sobre la legislación vigente. Por tanto, fíjense que el problema no es tanto derogar uno o dos tipos penales o uno o dos artículos del Código Penal, sino establecer un programa mucho más amplio de regeneración democrática. Es necesario modificar íntegramente el Poder Judicial, no solo la elección de los vocales, sino todo en su conjunto, también el acceso a la judicatura. Sin embargo, ese es un programa de reformas a largo plazo y, en el ínterin, deben reformarse o derogarse aquellas leyes que permiten que puedan producirse condenas contrarias a los derechos fundamentales y, especialmente, establecer mecanismos de control que sean efectivos cuando algún tribunal emite condenas con vulneración clara de los derechos fundamentales. ¿Y eso se puede conseguir? Sí. ¿Hay una mayoría para ello? Sí, y en vuestras manos, compañeros de Esquerra Republicana, está conseguirlo. Cuando el Gobierno de PSOE y Podemos venga a pedir vuestro apoyo a los presupuestos, vuestros trece votos para aprobar los presupuestos, condicionadlos a un programa de reformas que incluya todo eso para que nunca más un disidente pueda ser condenado en España de forma contraria a los derechos fundamentales, para que nunca más un catalán, por el ejercicio pacífico de los derechos fundamentales, pueda ser condenado por injurias, ultrajes, desobediencia, sedición o rebelión. Es posible hacerlo y está en vuestras manos conseguir que exista una mayoría para ello.</seg>
@@ -579,7 +573,7 @@
                <seg xml:id="ParlaMint-ES_2020-10-27-CD201027.u74.1">Muchas gracias.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> Tiene la palabra el señor Alonso-Cuevillas.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-10-27-CD201027.u75"
-               who="#AlonsoCuevillasJaume"
+               who="#AlonsocuevillasJaume"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-10-27-CD201027.u75.1">Señor presidente, señorías, tenemos un enfermo desangrándose y ustedes proponen que le pongamos una tirita. Tenemos un enfermo quemándose por llevar demasiado tiempo cara al sol y ustedes pretenden ponerle un poquito de polvo blanco para que tenga mejor cara. Ustedes saben o deberían saber que la derogación del artículo 315 del Código Penal es una operación puramente cosmética, sin ninguna eficacia real, porque mientras siga subsistiendo el tipo básico del artículo 172 cualquier tribunal podrá seguir condenando por coacciones exactamente con las mismas penas de hasta tres años. Por tanto, es una reforma cosmética de muy poca eficacia, cuando padecemos un Poder Judicial, unos tribunales, muchos -pocos o muchos es igual, demasiados en todo caso- con unas interpretaciones contrarias a los derechos humanos.</seg>
                <seg xml:id="ParlaMint-ES_2020-10-27-CD201027.u75.2">Si ustedes quieren impulsar políticas progresistas, no es suficiente con ponerse maquillaje progresista. Háganlo, tienen mayoría suficiente. Impulsen una reforma integral del sistema judicial español. Empiecen por derogar aquellas leyes autoritarias aprobadas bajo la mayoría absoluta del Partido Popular. Empiecen con la Ley mordaza, con la reforma de la Ley Orgánica del Tribunal Constitucional, que dio facultades exorbitantes de ejecución al Tribunal Constitucional. Si vamos al Código Penal, tráigannos aquí la derogación de la prisión permanente revisable, de esa cadena perpetua encubierta, esa sí que es una reforma necesaria. O sean ya más valientes -ahora lo tienen muy bien, después de la reciente sentencia de la Audiencia Nacional, que ha demostrado que los hechos sucedidos en Cataluña en 2017 podían tener otra lectura, una lectura acorde con los derechos fundamentales- y tráigannos aquí una reforma de la malversación sin apropiación -déjenlo como estaba antes de 2015, ya tienen para eso al Tribunal de Cuentas, para que exija las responsabilidades contables a que haya lugar- y tráigannos también una derogación de la sedición, por cuanto ya hay otros tipos penales que protegen suficientemente el orden<pb n="34"/> público. Tienen mayoría absoluta suficiente y saben que la tendrán si impulsan todos esos programas de regeneración. No se vistan de progresistas. Si quieren ser progresistas, lleven a cabo políticas progresistas.</seg>
