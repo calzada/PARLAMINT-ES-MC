@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" xml:id="ParlaMint-ES_2022-12-15-CD221215" ana="#parla.sitting #covid">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" type="main">Spanish parliamentary corpus ParlaMint-ES, Plenary session 226 (2022-12-15) [ParlaMint]</title>
+            <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 226 (2022-12-15) [ParlaMint]</title>
+            <title xml:lang="es" type="sub">Sesión plenaria núm. 226 (2022-12-15)</title>
+            <title xml:lang="en" type="sub">Plenary session 226 (2022-12-15)</title>
+            <meeting n="2022-12-15" corresp="#CD" ana="#parla.lower #parla.sitting">2022-12-15</meeting>
+            <meeting n="226" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 226</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
+            <respStmt>
+               <persName>María Calzada Pérez</persName>
+               <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tomaž Erjavec</persName>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
+               <orgName xml:lang="en">Ministry of Science and Innovation of Spain</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="156" xml:lang="en">156 speeches</measure>
+            <measure unit="speeches" quantity="156" xml:lang="es">156 intervenciones</measure>
+            <measure unit="words" quantity="0" xml:lang="en">0 words</measure>
+            <measure unit="words" quantity="0" xml:lang="es">0 palabras</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="es">Infraestructura de investigación CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2023-07-13">2023-07-13</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title xml:lang="es" type="main">CORTES GENERALES DIARIO DE SESIONES DEL CONGRESO DE LOS DIPUTADOS PLENO Y DIPUTACIÓN PERMANENTE</title>
+               <idno type="URI">http://www.congreso.es</idno>
+               <date when="2022-12-15">2022-12-15</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="es"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and(4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="pb" occurs="23"/>
+               <tagUsage gi="div" occurs="3"/>
+               <tagUsage gi="head" occurs="3"/>
+               <tagUsage gi="note" occurs="212"/>
+               <tagUsage gi="u" occurs="156"/>
+               <tagUsage gi="lb" occurs="376"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Calle Floridablanca, s/n. 28071</name>
+               <name type="city">Madrid</name>
+               <name type="country" key="ES">Spain</name>
+               <date ana="#parla.sitting" when="2022-12-15">2022-12-15</date>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listOrg>
+               <org role="politicalParty" xml:id="party.BNG">
+                  <orgName full="init">BNG</orgName>
+                  <orgName full="yes">?</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.CCaPNCNC">
+                  <orgName full="init">CCa-PNC-NC</orgName>
+                  <orgName full="yes">?</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.CUPPR">
+                  <orgName full="init">CUP-PR</orgName>
+                  <orgName full="yes">?</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.Cs">
+                  <orgName full="init">Cs</orgName>
+                  <orgName full="yes">?</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.EAJPNV">
+                  <orgName full="init">EAJ-PNV</orgName>
+                  <orgName full="yes">?</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.ECPGUAYEMELCANVI">
+                  <orgName full="init">ECP-GUAYEM EL CANVI</orgName>
+                  <orgName full="yes">?</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.EHBildu">
+                  <orgName full="init">EH Bildu</orgName>
+                  <orgName full="yes">?</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.ERCS">
+                  <orgName full="init">ERC-S</orgName>
+                  <orgName full="yes">?</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.JxCatJUNTS">
+                  <orgName full="init">JxCat-JUNTS</orgName>
+                  <orgName full="yes">?</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.JxCatJUNTSJunts">
+                  <orgName full="init">JxCat-JUNTS(Junts)</orgName>
+                  <orgName full="yes">?</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PP">
+                  <orgName full="init">PP</orgName>
+                  <orgName full="yes">?</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PPFORO">
+                  <orgName full="init">PP-FORO</orgName>
+                  <orgName full="yes">?</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PRC">
+                  <orgName full="init">PRC</orgName>
+                  <orgName full="yes">?</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PSOE">
+                  <orgName full="init">PSOE</orgName>
+                  <orgName full="yes">?</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.Vox">
+                  <orgName full="init">Vox</orgName>
+                  <orgName full="yes">?</orgName>
+               </org>
+            </listOrg>
+            <listPerson>
+               <person xml:id="ArrimadasInés">
+                  <persName>
+                     <forename>Inés</forename>
+                     <surname>Arrimadas</surname>
+                     <surname>García</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1981-07-03">
+                     <placeName>Jerez de la Frontera (Cádiz)</placeName>
+                  </birth>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+                  <affiliation role="member" ref="#party.Cs" when="2022-12-15"/>
+               </person>
+               <person xml:id="AsensJaume">
+                  <persName>
+                     <forename>Jaume</forename>
+                     <surname>Asens</surname>
+                     <surname>Llodrà</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1972-03-29">
+                     <placeName>Barcelona</placeName>
+                  </birth>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+                  <affiliation role="member" ref="#party.ECPGUAYEMELCANVI" when="2022-12-15"/>
+               </person>
+               <person xml:id="BoadellaGenís">
+                  <persName>
+                     <forename>Genís</forename>
+                     <surname>Boadella</surname>
+                     <surname>Esteve</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1979-03-20"/>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+                  <affiliation role="member" ref="#party.JxCatJUNTS" when="2022-12-15"/>
+               </person>
+               <person xml:id="EspinosaIván">
+                  <persName>
+                     <forename>Iván</forename>
+                     <surname>Espinosa</surname>
+                     <nameLink>De</nameLink>
+                     <surname>Los</surname>
+                     <surname>Monteros</surname>
+                     <nameLink>De</nameLink>
+                     <surname>Simón</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1971-01-03">
+                     <placeName>Madrid</placeName>
+                  </birth>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+                  <affiliation role="member" ref="#party.Vox" when="2022-12-15"/>
+               </person>
+               <person xml:id="FigaredoJosé">
+                  <persName>
+                     <forename>José</forename>
+                     <forename>María</forename>
+                     <surname>Figaredo</surname>
+                     <surname>Álvarez-Sala</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1988-09-26">
+                     <placeName>Gijón</placeName>
+                  </birth>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+                  <affiliation role="member" ref="#party.Vox" when="2022-12-15"/>
+               </person>
+               <person xml:id="GamarraConcepción">
+                  <persName>
+                     <forename>Concepción</forename>
+                     <surname>Gamarra</surname>
+                     <surname>Ruiz-Clavijo</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1974-12-23">
+                     <placeName>Logroño (La Rioja)</placeName>
+                  </birth>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+                  <affiliation role="member" ref="#party.PP" when="2022-12-15"/>
+               </person>
+               <person xml:id="GarcíaCarlos">
+                  <persName>
+                     <forename>Carlos</forename>
+                     <surname>García</surname>
+                     <surname>Adanero</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1967-02-07"/>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+               </person>
+               <person xml:id="IñarrituJon">
+                  <persName>
+                     <forename>Jon</forename>
+                     <surname>Iñarritu</surname>
+                     <surname>García</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1979-03-28">
+                     <placeName>Leioa (Bizkaia)</placeName>
+                  </birth>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+                  <affiliation role="member" ref="#party.EHBildu" when="2022-12-15"/>
+               </person>
+               <person xml:id="LegardaMikel">
+                  <persName>
+                     <forename>Mikel</forename>
+                     <surname>Legarda</surname>
+                     <surname>Uriarte</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1956-12-12"/>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+                  <affiliation role="member" ref="#party.EAJPNV" when="2022-12-15"/>
+               </person>
+               <person xml:id="MartínezIsidro">
+                  <persName>
+                     <forename>Isidro</forename>
+                     <forename>Manuel</forename>
+                     <surname>Martínez</surname>
+                     <surname>Oblanca</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1956-11-12"/>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+                  <affiliation role="member" ref="#party.PPFORO" when="2022-12-15"/>
+               </person>
+               <person xml:id="MazónJosé">
+                  <persName>
+                     <forename>José</forename>
+                     <forename>María</forename>
+                     <surname>Mazón</surname>
+                     <surname>Ramos</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1951-07-23"/>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+                  <affiliation role="member" ref="#party.PRC" when="2022-12-15"/>
+               </person>
+               <person xml:id="OramasAna">
+                  <persName>
+                     <forename>Ana</forename>
+                     <forename>María</forename>
+                     <surname>Oramas</surname>
+                     <surname>González-Moro</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1959-07-17"/>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+                  <affiliation role="member" ref="#party.CCaPNCNC" when="2022-12-15"/>
+               </person>
+               <person xml:id="OrtegaFrancisco">
+                  <persName>
+                     <forename>Francisco</forename>
+                     <forename>Javier</forename>
+                     <surname>Ortega</surname>
+                     <surname>Smith-Molina</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1968-08-28">
+                     <placeName>Madrid</placeName>
+                  </birth>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+                  <affiliation role="member" ref="#party.Vox" when="2022-12-15"/>
+               </person>
+               <person xml:id="PagèsJosep">
+                  <persName>
+                     <forename>Josep</forename>
+                     <surname>Pagès</surname>
+                     <nameLink>i</nameLink>
+                     <surname>Massó</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1972-06-28"/>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+                  <affiliation role="member" ref="#party.JxCatJUNTSJunts" when="2022-12-15"/>
+               </person>
+               <person xml:id="RegoNéstor">
+                  <persName>
+                     <forename>Néstor</forename>
+                     <surname>Rego</surname>
+                     <surname>Candamil</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1962-04-02"/>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+                  <affiliation role="member" ref="#party.BNG" when="2022-12-15"/>
+               </person>
+               <person xml:id="RufiánGabriel">
+                  <persName>
+                     <forename>Gabriel</forename>
+                     <surname>Rufián</surname>
+                     <surname>Romero</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1982-02-08"/>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+                  <affiliation role="member" ref="#party.ERCS" when="2022-12-15"/>
+               </person>
+               <person xml:id="SiciliaFelipe">
+                  <persName>
+                     <forename>Felipe</forename>
+                     <forename>Jesús</forename>
+                     <surname>Sicilia</surname>
+                     <surname>Alférez</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1979-12-15"/>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+                  <affiliation role="member" ref="#party.PSOE" when="2022-12-15"/>
+               </person>
+               <person xml:id="VehíMireia">
+                  <persName>
+                     <forename>Mireia</forename>
+                     <surname>Vehí</surname>
+                     <surname>Cantenys</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1985-02-09"/>
+                  <affiliation when="2022-12-15" ref="#CD" role="MP"/>
+                  <affiliation role="member" ref="#party.CUPPR" when="2022-12-15"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div type="debateSection">
+            <head>DICTÁMENES DE COMISIONES SOBRE INICIATIVAS LEGISLATIVAS - PROPOSICIÓN DE LEY ORGÁNICA DE TRANSPOSICIÓN DE DIRECTIVAS EUROPEAS Y OTRAS DISPOSICIONES PARA LA ADAPTACIÓN DE LA LEGISLACIÓN PENAL AL ORDENAMIENTO DE LA UNIÓN EUROPEA, Y REFORMA DE LOS DELITOS CONTRA LA INTEGRIDAD MORAL, DESÓRDENES PÚBLICOS Y CONTRABANDO DE ARMAS DE DOBLE USO. .</head>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u1" ana="#chair">
+               <lb/>Señorías, se abre la sesión.<lb/>Comenzamos con el punto único del orden del día, relativo al dictamen de la Proposición de ley orgánica de trasposición de directivas europeas y otras disposiciones para la adaptación de la legislación penal al ordenamiento de la Unión Europea y de reforma de los delitos contra la integridad moral, desórdenes públicos y contrabando de armas de doble uso.<lb/>Les informo de que desde ahora y hasta las 16 horas de hoy -es decir, durante cuarenta y cinco minutos- se podrán votar telemáticamente las enmiendas correspondientes a este dictamen, que serán objeto de votación presencial en el hemiciclo al finalizar este debate.<lb/>Por tener carácter orgánico, esta iniciativa tiene que ser sometida a una votación final que, de conformidad con el artículo 131.2 del Reglamento, debe ser anunciada con antelación por la Presidencia. Por ello, en cumplimiento de esta disposición reglamentaria, anunció que la votación no se produciría antes de las 16:30 horas. <note>El señor Espinosa de los Monteros de Simón pide la palabra</note>.<lb/>Señor Espinosa de los Monteros.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u2" who="#EspinosaIván" ana="#regular">
+               <lb/>Pido la palabra al amparo de lo dispuesto en los apartados 1 y 2 del artículo 72 del Reglamento de la Cámara, en virtud de los cuales solicitó la lectura del artículo 166 de la Constitución. Losolicito porque dos grupos parlamentarios de esta Cámara hemos presentado sendos recursos ante el Tribunal Constitucional al entender que las enmiendas 61 y 62 incorporadas al texto de la proposición de ley que se pretende debatir en este Pleno Implican una reforma espuria de lo dispuesto en el artículo 159.3 de la Constitución <note>rumores</note>, de modo que se urge al tribunal a que adopte medidas cautelarísimas. En virtud de lo cual, solicitó que se posponga la celebración de este Pleno hasta que el Tribunal Constitucional se haya pronunciado sobre dichas medidas cautelarísimas. <note>Rumores</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u3" ana="#chair">
+               <lb/>Silencio, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u4" who="#EspinosaIván" ana="#regular">
+               <lb/>El artículo 166 de la Constitución dice que la iniciativa de reforma constitucional se ejercerá en los términos previstos en los apartados 1 y 2 del artículo 87, que es precisamente por lo que pedimos la suspensión de este Pleno hasta que el Tribunal Constitucional se defina sobre las medidas cautelarísimas que el Partido Popular y el Grupo Parlamentario VOX hemos solicitado. <note>Aplausos del Grupo Parlamentario VOX</note>. <pb n="4"/>
+            </u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u5" ana="#chair">
+               <lb/>Muchas gracias, señoría. <note>La señora Arrimadas García pide la palabra</note>.<lb/>Señora Arrimadas.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u6" who="#ArrimadasInés" ana="#regular">
+               <lb/>En virtud del artículo 72 del Reglamento le pido la palabra por una cuestión de orden, para denunciar diferentes irregularidades que se están produciendo en el Pleno de hoy. Hoy se pretende aprobar modificaciones de tres leyes orgánicas a través de proposiciones de ley de los grupos, que no son proyectos de ley, no tienen los informes preceptivos de los órganos consultivos, se hace con trámite de urgencia, sin comparecencias, se pretende aprobar enmiendas que nada tienen que ver con el texto original de las leyes y se hace incluso cuestionando la labor del Tribunal Constitucional que, por supuesto, puede pronunciarse sobre ello. <note>Rumores</note>.<lb/>Por tanto, señora presidenta, le pido que suspenda el Pleno porque ni siquiera la Mesa ha resuelto un escrito de reconsideración presentado por mi grupo parlamentario. Por ello, lo mínimo que le pido es que, como presidenta del Congreso,reúna a la Mesa, que resuelva ese escrito de reconsideración y, en cualquier caso, que no se celebre este Pleno hasta que se resuelvan los recursos que están presentados en el Tribunal Constitucional.<lb/>Le digo lo mismo que le dije a la señora Forcadell en el 2017, señora Batet <note>protestas</note>, no permita esto. <note>Rumores.-Aplausos de los grupos parlamentarios Ciudadanos, VOX y Popular en el Congreso.-La señora Gamarra Ruiz-Clavijo pide la palabra</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u7" ana="#chair">
+               <lb/>Señora Gamarra.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u8" who="#GamarraConcepción" ana="#regular">
+               <lb/>Gracias, presidenta.<lb/>Solicitó intervenir en virtud del artículo 72 del Reglamento, también por una cuestión de forma que afecta de manera grave -creo- a los derechos fundamentales de los diputados. Se pretende reformar a través de esta proposición de ley tres leyes orgánicas, alguna de ellas a través única y exclusivamente de la tramitación de una enmienda de adición que nada afecta al resto del texto.<lb/>Durante toda esta tramitación se ha pedido amparo de los derechos de los diputados de este grupo parlamentario y hasta el momento ni tan siquiera se ha resuelto internamente la tramitación en esta Cámara de ese amparo al que nos hemos remitido. Por lo tanto, no debiera iniciarse un debate y una votación en el Pleno cuando los trámites previos no han resuelto todavía algunas cuestiones que afectan a los derechos fundamentales de los diputados. <note>Aplausos de los grupos parlamentarios Popular en el Congreso, VOX y Ciudadanos.-Una señora diputada: ¡Muy bien!</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u9" ana="#chair">
+               <lb/>Señorías, en primer lugar, obviaré las comparaciones personales, porque creo que no podemos hacer de esto una cuestión personal. <note>Rumores</note>.<lb/>Han planteado varios portavoces distintas cuestiones. En primer lugar, al Congreso de los Diputados no se le ha comunicado formalmente ni la interposición de un recurso ni ninguna resolución tomada por el Tribunal Constitucional <note>el señor Sánchez García: Es notorio</note> al respecto y, por tanto, no hay razón y no hay obstáculo <note>el señor Sánchez García: Es notorio</note> para continuar con el procedimiento legislativo previsto, de acuerdo con el Reglamento de la Cámara. <note>El señor SánchezGarcía: Es notorio y lo sabe usted.-Rumores</note>Les pediría silencio, por favor, y respeto a la Cámara y a la Presidencia.<lb/>En segundo lugar, se ha planteado que algunos grupos parlamentarios, efectivamente, han presentado reconsideraciones sobre decisiones de la Mesa. Eso ha pasado muchas veces y este debate se ha sustanciado ya en la Junta de Portavoces en numerosas ocasiones. Esta misma semana también ha tenido lugar ese debate y, como todos ustedes saben, la presentación de reconsideraciones no tiene carácter suspensivo del procedimiento legislativo. Por tanto, en defensa de la autonomía parlamentaria <note>protestas</note>, en defensa de la potestad legislativa... <note>Aplausos</note>Silencio, por favor. Repito, en defensa de la potestad legislativa de esta Cámara y en defensa, también, del procedimiento y del debate, que no responde más que a una democracia deliberativa <note>rumores y protestas</note> y al Poder Legislativo sustentar esa función constitucionalmente establecida, vamos a continuar con el Pleno reglamentariamente convocado y, por tanto, a seguir con el orden del día previsto.<lb/>Muchísimas gracias. <note>Rumores y protestas.-Aplausos de los grupos parlamentarios Socialista y Confederal de Unidas Podemos-En Comú Podem-Galicia en Común.-Las señoras y los señores diputados del Grupo Parlamentario VOX abandonan el hemiciclo</note>.<lb/>Señorías, les pido un poco de silencio. <pb n="5"/>Para defender las enmiendas formuladas a esta iniciativa legislativa, tiene la palabra, por el Grupo Parlamentario Ciudadanos, la señora Arrimadas García. <note>Rumores</note>.<lb/>Señor González, le pido silencio, por favor. Si no está hablando conmigo, lo oigo perfectamente. <note>Rumores</note>Silencio, por favor. <note>Rumores</note>.<lb/>Señorías, les pido silencio, por favor. Hay una diputada que está esperando en la tribuna para tomar la palabra, les pido silencio.<lb/>Señora Arrimadas, cuando quiera.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u10" who="#ArrimadasInés" ana="#regular">
+               <lb/>Gracias, señora presidenta.<lb/>Estamos reviviendo lo que muchos sufrimos en septiembre de 2017. <note>Rumores</note>Esta es la primera vez que se va a producir en el Congreso <note>aplausos</note>, pero no es la primera vez que se produce en España. ¡No es la primera vez que se produce en España! <note>Aplausos</note>El Gobierno de España está repitiendo lo que hizo el separatismo en 2017. <note>Rumores</note>Van a aprobar leyes claramente inconstitucionales... <note>Rumores</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u11" ana="#chair">
+               <lb/>Silencio, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u12" who="#ArrimadasInés" ana="#regular">
+               <lb/>... como es hacer un Código Penal a la medida de cuatro delincuentes en cuarenta y ocho horas y vulnerando todos los trámites. <note>Aplausos.-Un señor diputado: ¡Una vergüenza</note>.<lb/>Van a modificar tres leyes orgánicas cuyas modificaciones han sido introducidas en este Parlamento no como proyectos de ley, que requieren informes preceptivos, sino como proposiciones de ley, para escapar al control democrático de nuestro país. Van a intentar modificar la ley del solo sí es sí para decirle a los jueces cómo la tienen que aplicar e interpretar por trámite de urgencia y sin comparecencias.<lb/>Quieren hacer las cosas como se hicieron en 2017, votando aquí a las doce de la noche, en medio de fiestas y de puentes para que los españoles no se enteren; maniobrando para que al Tribunal Constitucional no le dé tiempo a resolver sus recursos; atacando al Tribunal Constitucional por parte de miembros del Gobierno, diciendo que lo que se aprueba en un Parlamento no puede ser cuestionado por el Tribunal Constitucional. Es lo mismo que hizo el separatismo en 2017. <note>Aplausos</note>Son los mismos argumentos. Lo que decían Puigdemont y Junqueras lo dicen ahora ministros de España. <note>Aplausos</note>.<lb/>Pues claro que el Tribunal Constitucional puede decir algo sobre lo que se aprueba en este Parlamento. ¿Ustedes se imaginan que aquí se aprueba una ley que eliminase el derecho a la sanidad o a la educación en España? ¿Ustedes se imaginan que el Tribunal Constitucional no dijera nada? ¿Ustedes se imaginan que aquí se aprobase ahora una ley -con la mayoría que ustedes tienen- para, por ejemplo, aprobar la pena de muerte? ¿Ustedes creen que el Tribunal Constitucional no podría decir nada? Pues claro que el Tribunal Constitucional puede cuestionar lo que se aprueba en este Parlamento si vulnera principios fundamentales de nuestro Estado de derecho. Yo pensaba que esto solo había que explicárselo a presidentes de la Generalitat, pero me sorprendo teniendo que explicárselo a un presidente del Gobierno de España. <note>Aplausos</note>¡Una vergüenza!<lb/>Es verdad que Sánchez ha acabado con el procés, porque todo el mundo sabe que el procés era un movimiento del Gobierno separatista de Cataluña para atacar a España, pero lo que tenemos ahora es un nuevo proceso, más rápido, más grave, más dañino y más humillante para los catalanes constitucionalistas, porque viene del propio Gobierno de España. Porque lo que hicieron e intentaron desde el separatismo en 2017 ahora lo hacen desde el Gobierno. ¿Y qué pasó? Pues que actuó la policía, actuó el Tribunal Supremo, actuó el Tribunal Constitucional, el Tribunal de Cuentas, la oposición constitucionalista y muchos servidores públicos de diferentes instituciones. El gran drama es que todas estas instituciones, que fueron las que nos defendieron en 2017 del separatismo, ahora nos tienen que defender del Gobierno de España. Ese es el drama que tenemos en nuestro país <note>Aplausos</note>.<lb/>Cuando un gobernante no tiene escrúpulos, los atropellos de su Gobierno no tienen límites. ¿Y hasta dónde va a llegar el Gobierno de España? Imposible saberlo, porque han hecho todo lo que habían negado que iban a hacer: negaron pactar con los separatistas, y vaya si pactaron; negaron indultables, y vaya si les indultan; negaron quitar la sedición, y vaya si la quitaron; negaron abaratar la malversación, y ahora robar es más fácil si es para romper a España y si eres amigo de Pedro Sánchez; negaron que iban a hablar de un referéndum, y ya están abiertos a ello. Quizá sea verdad que el separatismo no tendrá que volver a declarar la independencia, porque acabará declarándose de facto el Gobierno de España. El próximo manual que va a escribir Pedro Sánchez va a ser el manual de la independencia <note>Aplausos</note>. <pb n="6"/>El Gobierno de Sánchez ha hecho más en tres años por el separatismo que todo lo que han hecho los partidos nacionalistas en cuarenta años, y todo por el motivo más ruin, el de unos sillones. Los separatistas hacen esto porque odian a España,pero ustedes hacen esto porque aman el poder; por eso lo hacen ustedes y por eso es ruin lo que están haciendo. Y no puedo apelar a su conciencia, porque los gobernantes que son capaces de hacer estas cosas son incapaces de arrepentirse por ellas. Pero esto tendrá un coste, porque hoy es el origen de muchos problemas graves que vamos a tener en nuestro país.<lb/>Este es un momento, por desgracia, histórico, que se analizará, y - ¡ojo!- Todo el Partido Socialista es responsable de esto, porque todos los militantes y cargos socialistas que hoy están escandalizados, avergonzados y preocupados, pero aun así callan o, si hablan, no actúan, son tan responsables de lo que está pasando como Pedro Sánchez. La responsabilidad en momentos históricos es solidaria y en los momentos tan graves hay responsabilidad por acción y por omisión. Hay que usar todas las herramientas democráticas que tenemos a nuestro alcance, porque ya no se trata de qué le vamos a decir a Pedro Sánchez -¡si es que ya se lo hemos dicho todo!-, aquí se trata de qué hacemos para frenar a Pedro Sánchez democráticamente, y aquí hay que utilizar todas las herramientas democráticas. Por eso le pido al líder de la oposición, al señor Feijóo, que presente una moción de censura, porque tenemos que utilizar todas...<note>Rumores</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u13" ana="#chair">
+               <lb/>Silencio, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u14" who="#ArrimadasInés" ana="#regular">
+               <lb/>... las herramientas democráticas que tiene la oposición mientras el Gobierno utiliza todos los cauces antidemocráticos.<lb/>Quiero acabar con una apelación directa a los españoles. A cada español orgulloso de serlo, a cada español satisfecho de lo que hemos construido juntos, a cada español que valora la unión, la democracia y la libertad en nuestro país, a cada español que está escandalizado con el Gobierno de Pedro Sánchez os digo que democráticamente les vamos a parar, pero os necesitamos a todos vosotros.<lb/>Muchas gracias. <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Ciudadanos, puestos en pie</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u15" ana="#chair">
+               <lb/>Muchas gracias, señora Arrimadas.<lb/>Por el Grupo Parlamentario Plural, que en este turno también fijará posición, tiene la palabra, en primer lugar, el señor Rego Candamil.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u16" who="#RegoNéstor" ana="#regular">
+               <lb/>Gracias, señora presidenta.<lb/>Intervengo para explicar de forma telegráfica -un poco más de un minuto para un asunto tan complejo y tan importante- la posición del BNG. El BNG está a favor de reformar el delito de malversación para deshacer la reforma ad hoc de 2015 del Partido Popular, que hacía un uso político de este delito para poder perseguir la discrepancia. Estamos a favor, porque no queremos que se haga ese uso, pero, al mismo tiempo, también queremos que se pueda hacer con absoluta seguridad jurídica y que no evite que los corruptos paguen sus penas. Por eso también somos partidarios de una regulación más estricta del delito de enriquecimiento ilícito, porque nos parece excesivamente laxo, tanto en su umbral mínimo -250 000 euros- como en la definición de a quién puede ser aplicado. Creemos que es necesaria más contundencia frente a la corrupción.<lb/>Evidentemente, el BNG está a favor de derogar el delito de sedición. Creemos que es una exigencia mínima democrática. Estamos a favor de derogar el delito de sedición porque creemos que no es razonable mantenerlo a estas alturas y porque,además, se hace un uso político absolutamente antidemocrático de la justicia, como hemos comprobado en los últimos años. Pero no podemos apoyar ni podemos votar una modificación de los desórdenes públicos que los agrava y que va a posibilitar criminalizar y penalizar la movilización popular y la protesta social, una nueva regulación que va a posibilitar un uso más amplio y más extenso de la represión de las movilizaciones populares y de la persecución -incluso con penas de cárcel- de formas de protesta social, que permitieron conquistar derechos y que permiten mantener esos derechos, incluso avanzar hacia otros nuevos. En ese punto hay una discrepancia fundamental del BNG, que lamentablemente...</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u17" ana="#chair">
+               <lb/>Señor Rego, tiene usted que terminar, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u18" who="#RegoNéstor" ana="#regular">
+               <lb/>... va a condicionar nuestro voto final.<lb/>Obrigado. <pb n="7"/>
+            </u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u19" ana="#chair">
+               <lb/>Por el mismo grupo parlamentario, tiene la palabra el señor Boadella Esteve.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u20" who="#BoadellaGenís" ana="#regular">
+               <lb/>Muchas gracias, presidenta. Señorías, buenas tardes.<lb/>Hoy nos ocupa el tramo final de la modificación que se produce del Código Penal, con aquel título de adaptarlo al ordenamiento penal europeo. En este ámbito nosotros ya anunciamos en su momento que nos alegramos de la eliminación del delito de sedición. Era necesario que este delito desapareciera del Código Penal para equiparar la legislación, en el ejercicio de los derechos fundamentales, al ámbito de la Unión Europea, pero algunas de las enmiendas del PeCAT que siguen vivas en esta proposición son relativas a mejorar técnicamente lo que se ha convertido en una agravación del delito de desórdenes públicos y a que algunos conceptos, como el de la intimidación o la forma en que se describen determinadas conductas, puedan tener una redacción mucho más apurada que permita el ejercicio de los derechos fundamentales.<lb/>En la tramitación de esta proposición nosotros también presentamos enmiendas. En el ámbito de la malversación -lo dijimos en su momento- no podía tener el mismo reproche penal aquella malversación que suponía un enriquecimiento ilícito con ánimo de lucro de la autoridad o funcionario público que el de aquella que no lo suponía. Nuestras enmiendas iban en esta línea. Finalmente, hemos visto que esta es la filosofía que se ha integrado en las enmiendas transaccionales que se han incorporado en la Ponencia.<lb/>El PeCAT también quería aprovechar esta reforma del Código Penal para adaptarlo al ordenamiento de la Unión Europea, para equipararse a la legislación penal, porque nos parece que es una buena oportunidad para acabar también con algunos defectos de este Código Penal, como que todavía contenga el delito de injurias a la Corona o cuestiones como la pérdida del acta de diputado, por ejemplo, por el mero auto de procesamiento. Esta ley orgánica que modifica todas esas cuestiones es una oportunidad extra para adaptar también situaciones mal reguladas en el ordenamiento español y que España sistemáticamente pierde en los tribunales de la Unión Europea. Por tanto, el delito de injurias a la Corona o la cuestión relativa al procesamiento podrían quedar resueltos de una vez por todas aprovechando esta proposición de ley. En este sentido, se podrían mejorar muchas cosas, sin duda alguna, pero entendemos que el nuevo Código Penal...</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u21" ana="#chair">
+               <lb/>Señor Boadella, tiene que terminar, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u22" who="#BoadellaGenís" ana="#regular">
+               <lb/>... va a ser mejor-termino presidenta- que el actual redactado.<lb/>Muchas gracias.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u23" ana="#chair">
+               <lb/>Muchas gracias, señor Boadella.<lb/>Finalmente, también por el Grupo Parlamentario Plural, tiene la palabra el señor Pagès i Massó.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u24" who="#PagèsJosep" ana="#regular">
+               <lb/>Buenas tardes, señora presidenta, señorías.<lb/>Primero, no nos hablen de golpe democrático, no nos hablen de golpe de Estado. Ustedes, señores socialistas, dieron un golpe de Estado cuando disolvieron el Parlament de Catalunya con el 155, y esta banda que se hace llamar Tribunal Constitucional lo convalidó. <note>Protestas</note>Y, después, esta misma banda volvió a suspender...</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u25" ana="#chair">
+               <lb/>Silencio.<lb/>Señor Pagès, le ruego, por favor, por el decoro de la Cámara, respeto a los órganos constitucionales del Estado.<lb/>Continúe, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u26" who="#PagèsJosep" ana="#regular">
+               <lb/>Impidió la investidura del president Puigdemont en enero de 2018, y ustedes, señores socialistas, aplauden, y los señores de Esquerra y los comuns obedecieron complacientemente la decisión. Es un tribunal que ha puesto multas, que ha vulnerado sistemáticamente la autonomía y la inviolabilidad del Parlament de Catalunya, a instancias también del Gobierno socialista. Ahora, cuando les pilla de cerca, se rasgan las vestiduras. Menos hipocresía. Quien siembra vientos en Cataluña recoge tempestades en Madrid.<lb/>Señor Rufián, le voy a hacer una pregunta. Según usted, ¿yo soy un delincuente? A los miembros de la sindicatura electoral del referéndum la Fiscalía española nos acusó de malversación. ¿Soy un delincuente? De acuerdo con sus enmiendas y con la ley que van a aprobar, la Fiscalía española podrá continuar acusándolo de malversación. ¿El vicepresidente Junqueras es un malversador por lo que hizo en Economía? <pb n="8"/>¿Lo son los consellers Rull o Turull? ¿Es consciente de que le están dando la razón a Marchena? ¿Son corruptos los compañeros de represión de 2013 y de 2018 Jove, Salvadó, Molons? ¿El señor Alay? Sabe de quién le hablo, ¿no, señor Rufián? Es un señor que viaja por todas partes, no solo por Europa, como jefe de la oficina del president Puigdemont, trabajando para la independencia de Cataluña. ¿Alay es un corrupto por unos tiques de autopista cuando iba a Lledoners? ¿Son delincuentes Carles Puigdemont, Clara Ponsatí o Toni Comín? <note>Algunas señoras y algunos señores diputados: ¡Sí! ¡Sí!</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u27" ana="#chair">
+               <lb/>Silencio, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u28" who="#PagèsJosep" ana="#regular">
+               <lb/>Si lo son, ¿por qué continúan siendo europarlamentarios?<lb/>Señor Asens, ¿son delincuentes los que desde la ideología que sea se manifiestan y, por ser multitud, causan algo tan subjetivo como intimidación?<lb/>Miren, toda esta gente no son delincuentes. Nosotros vamos a votar no a esta ley porque no somos delincuentes. <note>Continúa su intervención en catalán</note>Junts per Catalunya ha presentado diecinueve enmiendas que se basan en los estándares europeos en derechos fundamentales. Hemos aplicado estos estándares a la sedición, la rebelión, la malversación, los desórdenes públicos y la libertad de expresión y nos sale lo mismo que a los tribunales europeos: el referéndum no fue delito.<lb/>Señor Patxi López -acabó-, usted decía exultante que Cataluña ya no es un problema y que el independentismo está roto. No se equivoque, la gente está ahí. Algunos de los representantes del independentismo han bajado los brazos y han reconocido, a cambio de soluciones personales, lo que ustedes les pedían, que el referéndum de 2017 fue delito, pero esto no se ha acabado. <note>Termina su intervención en catalán</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u29" ana="#chair">
+               <lb/>Gracias, señor Pagès.<lb/>Por el Grupo Parlamentario Republicano, tiene la palabra el señor Rufián Romero.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u30" who="#RufiánGabriel" ana="#regular">
+               <lb/>Señor Pagès, le voy a contestar, y me dan igual los titulares que hagan. ¿Sabe quién es un delincuente? Usted, no; ni ninguno de los que ha dicho. Luis Enrique Helling, el perito que contrató su jefa para la defensa. <note>Aplausos</note>Este es un delincuente. Este sí que es un delincuente, y me dan igual los titulares que hagan sus medios de comunicación. Me da igual. ¡Ya basta!<lb/>La verdad es que hablo con miedo a que entre Tejero con toga, porque ya no entran con pistolas, sino que entran con togas. <note>Protestas</note>Cálmense.<lb/>Hablando en serio, yo me tomo muy en serio las palabras de la señora Arrimadas, porque la última vez que le habló así a una presidenta de un parlamento fue a nuestra compañera Carme Forcadell, que acabó en la cárcel. <note>Aplausos</note>La única diferencia entre lo que está pasando hoy y lo que pasó hace unos años en Cataluña, que es política, es que nuestra compañera Carme Forcadell acabó en la cárcel. Así que, si ustedes creen que hay que encarcelar a la gente simplemente porque no les gusta lo que dicen o lo que piensan, están muy equivocados.<lb/>Preguntas. Si esto que se ha publicado tanto y que se va a aprobar hoy beneficia a los malversadores y a los malversados, ¿por qué está tan cabreada la derecha? Si esto realmente beneficia a los malversadores, ¿por qué está tan cabreado el Partido Popular? ¿Por qué? Simplemente, se recupera el espíritu o algo del espíritu del delito reconocido antes de la reforma de Rajoy del año 2015; Rajoy, como ustedes saben, adalid de la lucha contra la corrupción. <note>Aplausos</note>Es que vivimos momentos kafkianos en este Congreso.<lb/>Señorías, nada de lo que está sucediendo, por mucho que se escriba, es un capricho del independentismo, un chantaje del independentismo o un deseo de Esquerra Republicana. Conviene recordar, guste más o guste menos -puedo llegar a entender que guste muy poco, pero existe-, que hay dos millones de personas que de forma recurrente en Cataluña, guste más o guste menos, votan opciones independentistas. Y, guste más o guste menos -puedo llegar a entender que guste muy poco-, existen unas mayorías totales, mayoritarias, absolutas en el Parlament de Catalunya de forma recurrente a favor de esta opción. <note>Aplausos</note>Entonces, Esquerra Republicana plantea que vehicular este deseo, vehicular este anhelo, vehicular esta opción política no es un delito. No puede ser un delito y, sobre todo, no se puede meter a nueve personas cien años de cárcel, en global, por intentar vehicular este deseo. Cuando se hace lo que se está haciendo no se está pensando en generaciones o en hechos pasados, por mucho que se escriba, se está pensando en generaciones y en hechos presentes y futuros, porque esos dos millones de personas, ese anhelo, ese deseo, se pongan como se pongan, no va a desaparecer. <note>Aplausos</note>. <pb n="9"/>Nosotros lo que proponemos es que se vote; que se vote. Se está hablando de un referéndum. No se puede comparar la Gürtel o la Lezo con un referéndum de autodeterminación, por mucho que no guste votar. No se puede comparar. ¿Es delito que un representante público -de hecho, lo pone en su programa electoral- véhicule el deseo de la inmensa mayoría de la ciudadanía en Cataluña? Y no hablo de que sean independentistas. Hay una inmensa mayoría de la ciudadanía de Cataluña que quiere votar que entiende que las cosas no se solucionan a palos ni con amenazas ni metiendo a la gente en la cárcel. Hay mucha gente en Cataluña que quiere votar un referéndum y que quiere votar que no, que quiere votar que no, y nosotros también hacemos política por ellos y por ellas, porque somos, ante todo, demócratas. <note>Varios señores diputados del Grupo Parlamentario Popular en el Congreso: ¡Oh!-Aplausos</note>.<lb/>Señorías, jamás, jamás, nunca más, nunca más se debe en este país subcontratar a la justicia, a los jueces -además, del Partido Popular- lo que tiene que ver con nosotros y con nosotras, con la política. ¡Jamás! Tenemos que legislar para que esto no pase nunca más, para que nunca más se subcontrata a la justicia lo que corresponde a la política. Nunca más <note>Aplausos</note>.<lb/>Y un mensaje a aquellos que hoy están escandalizados y escandalizados, gente que se mueve en función de lo que diga la encuesta cada día, y me refiero sobre todo al progresismo español: cuando veas las barbas del independentismo catalánarder, pongan sus barbas a remojar. Nosotros simplemente somos spoilers; ustedes son los siguientes, y lo hemos dicho constantemente. Algunos de ustedes y algunas de ustedes se ponen hoy de perfil o, incluso, no quieren intervenir o no quieren votar, pero los siguientes son ustedes. Los siguientes son ustedes. Algún día esta gente irá a por ustedes; de hecho, ya están yendo, de verdad. Vean la realidad; vean la realidad. Las cosas se tienen que plantear de cara. Dejen de hacer caso a las encuestas, a sus spin doctors y a sus medios de comunicación.<lb/>Muchas gracias. <note>Aplausos</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u31" ana="#chair">
+               <lb/>Muchas gracias, señor Rufián.<lb/>Por el Grupo Parlamentario Popular en el Congreso, tiene la palabra la señora Gamarra Ruiz-Clavijo. <note>Aplausos</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u32" who="#GamarraConcepción" ana="#regular">
+               <lb/>Gracias, presidenta.<lb/>Señorías, somos el Poder Legislativo. Efectivamente, somos el Poder Legislativo, pero lo somos los trescientos cincuenta diputados. <note>Aplausos</note>Este grupo parlamentario y este partido lo que están defendiendo es el normal funcionamiento de esta Cámara. Lo que estamos defendiendo son los derechos, sí, los derechos políticos, los derechos fundamentales, no solo de mi grupo, sino de todos los diputados, de los que conforman una mayoría y del resto, porque somos todos los que conformamos esta Cámara. <note>Aplausos</note>.<lb/>En una democracia se respetan y se garantizan los derechos de la oposición. En una democracia los procedimientos son las garantías. Y, señores del Partido Socialista, aquí nadie decide ni cuáles son los derechos fundamentales de otro partido ni cuál es su envergadura. Existe el Estado de derecho, y eso es a lo que hemos recurrido. Nadie nos va a decir a nosotros cuáles son nuestros derechos, ni mucho menos nos va a decir cuáles son sus límites. Será el propio Estado de derecho, que nos los da, quien nos los garantice. Y esos van a estar aquí, única y exclusivamente <note>muestra un ejemplar de la Constitución</note>, en la Constitución. <note>Aplausos</note>Y eso es lo que hoy nosotros estamos defendiendo.<lb/>Ustedes están haciendo, durante toda esta tramitación parlamentaria, que la democracia viva el mundo al revés: a quienes acudimos a las instituciones del propio Estado de derecho nos dicen que estamos dando un golpe a la democracia. Ustedes se han mimetizado tanto con aquellos que dieron de verdad un golpe a la democracia que han llegado a creerse que la democracia es solo para ustedes o, mejor dicho, que la democracia son ustedes. <note>Aplausos.-Varios señores diputados del Grupo Parlamentario Popular en el Congreso: ¡Muy bien!</note>Han llegado a tal punto a creer que la democracia son ustedes que consideran que pueden, a través de la democracia, convertir en honorables demócratas a todos aquellos que dieron, sí, un golpe de Estado en Cataluña en el año 2017. Y, señoras socialistas, no son honorables demócratas, por mucho que ustedes les vayan a dejar hoy su hoja de antecedentes penales absolutamente en blanco.<lb/>Durante estos últimos días hemos escuchado a Pedro Sánchez hablar de valentía -¡valentía!- y yo me pregunto dónde está hoy el valiente Pedro Sánchez, porque no está en esta Cámara durante este debate. <note>Varios señores diputados del Grupo Parlamentario Popular en el Congreso: ¡Eso es!-Aplausos.-Protestas</note>¿Dónde está Pedro Sánchez hoy? ¿Dónde? <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Popular en el Congreso, puestos en pie</note>Eso se llama <pb n="10"/>cobardía. <note>Continúan los aplausos</note>¡Claro que se llama cobardía! <note>Varios señores diputados del Grupo Parlamentario Popular en el Congreso: ¡Eso es! ¡Muy bien!</note>¡Por supuesto que es cobardía! Si ustedes son tan valientes, tan valientes,por supuesto que se puede reformar la Ley Orgánica del Poder Judicial, por supuesto que se puede reformar la Ley Orgánica del Tribunal Constitucional, pero con garantías, con garantías, garantizando los derechos de todos y cada uno de los diputados. Tráiganlo, con valentía, desde el Consejo de Ministros como un proyecto de ley. Tráiganlo, con valentía, con todos los informes, uno detrás de otro, que avalan en este Estado de derecho las reformas legislativas. Tráiganlo, con valentía, con un debate de verdad, donde se pueda dialogar, donde se pueda enmendar. Siete minutos, este es el debate, y habrá grupos que tengan minuto y medio, casi lo que duró la república fallida. <note>Aplausos</note>¡Fíjese de qué debate estamos hablando!<lb/>Esta sesión lo que significa es dar un nuevo paso en la demolición de nuestro Estado de derecho. Sí, porque lo que hoy se rompe es la igualdad de los españoles ante la ley. Lo que hoy se rompe y se quiebra es la primacía de la ley ante todos los poderes públicos, ante todos los políticos, porque todos los políticos tenemos que estar sometidos a la ley. Y hoy lo que traen ustedes aquí, con la reforma del Código Penal, con la derogación del delito, con el abaratamiento de la corrupción, es que haya políticos que legislan para que otros políticos estén por encima de la ley <note>aplausos</note>, ¡y eso este país no se lo merece! <note>Continúan los aplausos</note>.<lb/>Nos han estado contando, cuando hablaban del delito de sedición a los españoles, que aquí de lo que se trataba era de homogeneizar la legislación europea. Perdóneme que les diga que hace falta poca vergüenza. A estas alturas todo el mundo sabe para qué se hace. ¿Nos pueden decir en qué página del programa electoral de Pedro Sánchez, del Partido Socialista, con el que todos y cada uno de ustedes, señores diputados del partido de Pedro Sánchez, se presentaron a las elecciones, aparece algo de todo esto? <note>Muestra el programa electoral del Partido Socialista</note>¿Dónde aparece que van a derogar el delito de sedición? <note>Aplausos</note>¿Dónde aparece que van a abaratar la corrupción? <note>Continúan los aplausos</note>Ustedes, que promovieron una moción de censura diciendo que estaban luchando contra la corrupción, ¿dónde están? Esto es un fraude a sus propios electores. <note>Aplausos.-Protestas</note>Si tuvieran un poco de vergüenza y si fueran valientes pondrían de nuevo las urnas y quehablen los españoles; los primeros, sus votantes. <note>Continúan los aplausos de las señoras y los señores diputados del Grupo Parlamentario Popular en el Congreso, puestos en pie</note>.<lb/>El delito de sedición no solo es un traje a medida, sino que este es un ejemplo de libro de legislar y hacer un Código Penal para personas con nombres y apellidos. Derogar el delito de sedición ¿no es para nadie? Sí, claro que es para alguien. Oriol Junqueras, presidente de Esquerra Republicana de Catalunya. Raúl Rovira, vicesecretario general de Esquerra Republicana de Catalunya. Jordi Turull, secretario general de Junts; Dolors Bassa, diputada autonómica de Esquerra Republicana de Catalunya. <note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario Republicano</note>Carme Forcadell, Esquerra Republicana de Catalunya. <note>Aplausos de las señoras y los señores diputados del Grupo ParlamentarioRepublicano</note>Por eso aplauden. <note>Protestas</note>Joaquim Forn, P CAT. Josep Rull, Junts. Jordi Sànchez. Jordi Cuixart. Carles Puigdemont, presidente de Junta. Clara Ponsatí, de Junts per Cat. Marta Rovira, secretaria general de Esquerra Republicana de Catalunya <note>aplausos de las señoras y los señores diputados del Grupo Parlamentario Republicano</note>Huida, ¡claro! Para ellos se legisla. Antoni Comín. Para ellos, es para los que ustedes con su voto van a derogar un delito; para ellos y para los que vengan.<lb/>Pero hablemos de la malversación, de la reforma que viene de la mano de una enmienda de Esquerra Republicana de Catalunya. Efectivamente, la reforma hace que en este país si los políticos roban, sea más barato. De esto es de lo que estamos hablando. <note>Aplausos.-Rumores</note>Sí, sí, ustedes, ustedes. Y esto, ¿para quién es? Pongámosle también nombres y apellidos. <note>Aplausos.-Protestas</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u33" ana="#chair">
+               <lb/>Silencio, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u34" who="#GamarraConcepción" ana="#regular">
+               <lb/>Los nombres y apellidos de todos aquellos que han sido procesados por malversación o están pendientes de serlo. ¿Quiénes son? También se sientan en esta Cámara y han promovido la enmienda que ustedes acepten, que ustedes votaron y con la que ustedes hacen que desaparezca parte de ese Código Penal. <note>Aplausos</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u35" ana="#chair">
+               <lb/>Señora Gamarra, tiene usted que terminar, por favor. <pb n="11"/>
+            </u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u36" who="#GamarraConcepción" ana="#regular">
+               <lb/>No mientan a los españoles, porque doce años de cárcel son más que cuatro años de cárcel. Eso lo entiende todo el mundo. <note>Aplausos</note>Pero ¿pueden, además, ustedes garantizar que esto no va a afectar a más delincuentes? <note>Rumores</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u37" ana="#chair">
+               <lb/>Silencio, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u38" who="#GamarraConcepción" ana="#regular">
+               <lb/>¡Claro que va a afectar a más delincuentes! Se contarán por cientos, como los que están saliendo a la calle por cometer delitos sexuales gracias a las malas leyes que salen de esta Cámara. <note>Aplausos</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u39" ana="#chair">
+               <lb/>Señora Gamarra, tiene que terminar, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u40" who="#GamarraConcepción" ana="#regular">
+               <lb/>Voy terminando, señoría.<lb/>El drama para los españoles es que todo esto no es más que una nueva estación en la hoja de ruta de los independentistas. Son ellos quienes se frotan las manos y aplauden ante esta deriva irresponsable de ustedes, aquellos que dicen ser miembros del Partido Socialista Obrero Español. Nunca pensaron que pudieran conseguir de una manera tan fácil y tan rápida aquello por lo que el Estado de derecho lleva luchando. <note>Rumores.-Protestas</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u41" ana="#chair">
+               <lb/>Silencio, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u42" who="#GamarraConcepción" ana="#regular">
+               <lb/>¿Han podido escuchar ustedes...?</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u43" ana="#chair">
+               <lb/>Señora Gamarra, tiene que terminar, por favor, ya.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u44" who="#GamarraConcepción" ana="#regular">
+               <lb/>Terminó ya. <note>Rumores</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u45" ana="#chair">
+               <lb/>Silencio. Les pido silencio, por favor.<lb/>Señora Gamarra, continúe, por favor, y termine.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u46" who="#GamarraConcepción" ana="#regular">
+               <lb/>Sí, señoría.<lb/>Señores diputados del Partido Socialista, escuchen bien a sus socios cuando les dicen: lo volveremos a hacer. O cuando les dicen: ha llegado el momento de volverlo a hacer. Lo volverán a hacer, pero esta vez los demócratas no están unidos porque ustedes han decidido pasarse al otro lado. <note>Aplausos</note>.<lb/>Son momentos muy delicados para la democracia, sin duda alguna. <note>Protestas</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u47" ana="#chair">
+               <lb/>Señora Gamarra.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u48" who="#GamarraConcepción" ana="#regular">
+               <lb/>Pero les diré a los españoles que, afortunadamente, el desenlace va a ser positivo porque hay alternativa. Por supuesto que hay alternativa, y la alternativa está en el Partido Popular y en Alberto Núñez Feijóo.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u49" ana="#chair">
+               <lb/>Muchas gracias, señora Gamarra.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u50" who="#GamarraConcepción" ana="#regular">
+               <lb/>Nunca fue tan necesario que todos... <note>Prolongados aplausos de las señoras y señores diputados del Grupo Parlamentario Popular en el Congreso, puestos en pie.-Varios señores diputados: ¡Bravo!</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u51" ana="#chair">
+               <lb/>Muchas gracias.<lb/>En turno de fijación de posiciones, por el Grupo Parlamentario Mixto, tiene la palabra, en primer lugar, el señor Martínez Oblanca. <note>Rumores</note>.<lb/>Les pido un poco de silencio, señorías.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u52" who="#MartínezIsidro" ana="#regular">
+               <lb/>Muchas gracias, señora presidenta.<lb/>Con este dictamen, el Gobierno de las amenazas y los toquecitos a los jueces, en complicidad con los enemigos del Estado, agraciados por la rebaja a su medida de los delitos de sedición y malversación, le asestan al orden constitucional, a la democracia y a la libertad un golpe bajo de predecibles efectos secundarios que descuartizarán la unidad de la nación, patria común e indivisible de todos los españoles. Señorías, mi rechazo a esta infame y traicionera maniobra contra la permanencia de España, que debilita al Estado de derecho frente a los separatistas, y que, al mismo tiempo, espolea el asalto al Tribunal <pb n="12"/>Constitucional para ponerlo al servicio de Pedro Sánchez y de sus propósitos de sabotaje a las más altas instituciones del Estado. <note>Aplausos</note>.<lb/>Hoy, sobre esta ley alevosa, trepa el golpismo. Este Pleno jamás debió haberse celebrado. Votaré en contra.<lb/>Muchas gracias. <note>Aplausos</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u53" ana="#chair">
+               <lb/>Gracias, señor Martínez.<lb/>Tiene la palabra el señor Mazón Ramos.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u54" who="#MazónJosé" ana="#regular">
+               <lb/>Muchas gracias.<lb/>Sobre la sedición ya nos pronunciamos, y lo mismo opinamos sobre la modificación de la malversación. Malversar es administrar el dinero público de manera desleal y si uno se lo lleva también a su bolsillo, también es delito, es apropiación indebida, es robar, y si es para otro delito, doble delito. Es bastante infantil decir que no es lo mismo, ya lo sabemos. En Cataluña no se condenó a nadie por apropiación indebida, por robar. Ahora, las penas se reducen a la administración desleal-privada, y habrá problemas, además, en su aplicación. Las razones son otras, como todos sabemos, y bastante más de media España las conoce también.<lb/>Respecto de la elección de los miembros del Tribunal Constitucional diré dos cosas. Estos procedimientos obligados que dependen de un acuerdo deben tener un plazo máximo para evitar bloqueos inadmisibles, como los que está realizando el Partido Popular y, terminado este plazo, debe haber un mecanismo que finalice el procedimiento. Hoy, lo que se plantea es totalmente democrático, estamos de acuerdo. Pero estos procedimientos espurios que está trayendo el partido del Gobierno sin pudor, nos obligan a votar en contra al incluirlo con la reforma del Código Penal.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u55" ana="#chair">
+               <lb/>Muchas gracias, señor Mazón.<lb/>Tiene la palabra, por el Grupo Parlamentario Mixto, el señor García Adanero. <note>El señor Cerdán León: El presidente.-Risas.-Rumores</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u56" who="#GarcíaCarlos" ana="#regular">
+               <lb/>No sería mal día para ser presidente; teniendo en cuenta que el auténtico no está, sería buen momento para ponerse ahí. <note>Aplausos de las señoras y señores del Grupo Parlamentario Popular en el Congreso.-Una señora diputada: ¡Bravo!</note>No está, y es una indignidad que en un día en el que se va a debatir lo que se está debatiendo el presidente del Gobierno no esté aquí presente. Eso es una vergüenza porque lo que se pretende es quitar los delitos a aquellos que robaron dinero al conjunto de los españoles para atacar al conjunto de España y, a cambio, ¿qué se hace? Perdonarles ese delito. Eso es corrupción, eso sí es corrupción. <note>Protestas.-Aplausos</note>No, no. Corrupción es quitar el dinero a todos los españoles para ponerlo al servicio de tus intereses de partido. <note>Aplausos</note>Sí, eso es corrupción. Lo que hacen es apañar todas las leyes a su antojo para poder manejar el Tribunal Constitucional, para que estas leyes claramente inconstitucionales que se aprueban aquí se las corrijan después y digan que no son inconstitucionales. Ustedes hacen corrupción. <note>Protestas</note>Sí, corrupción. Y siguen interpelando, que no me importa. <note>Aplausos</note>Porque es evidente que... <note>Rumores</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u57" ana="#chair">
+               <lb/>Silencio, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u58" who="#GarcíaCarlos" ana="#regular">
+               <lb/>... ha salido aquí el portavoz de Esquerra bien contento, porque sabe que esto es una más. Y se ríen. El problema no es que se rían de ustedes, el problema es que riéndose de ustedes se ríen del conjunto de los españoles, porque sacan todo. Dijeron que no iban a corregir el delito de sedición, dijeron que no iban a hacer indultos, dijeron que no iba a haber malversación y están haciendo todo. Ahora dicen que van a hacer el referéndum, y si es por ustedeslo harán, lo que pasa es que no les vamos a dejar. Sí, están modificando las leyes para que se pueda hacer. <note>Rumores</note>Sí, sí, para que se pueda hacer. También decían eso con la malversación, con la sedición, con los indultos, y cuando lo denunciá vamos aquí se reían de nosotros. Lo han hecho todo, porque ustedes haciendo eso lo que están haciendo es un ejercicio de caciquismo y de corrupción. No vale decir que se ha votado democráticamente...</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u59" ana="#chair">
+               <lb/>Señor García, tiene usted que terminar, por favor. <pb n="13"/>
+            </u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u60" who="#GarcíaCarlos" ana="#regular">
+               <lb/>No, no, es que las votaciones se tienen que hacer de acuerdo con las leyes, y ustedes se burlan de las leyes.<lb/>Muchas gracias. <note>Aplausos</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u61" ana="#chair">
+               <lb/>Tiene la palabra la señora Oramas González-Moro.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u62" who="#OramasAna" ana="#regular">
+               <lb/>La presidenta ha dicho que me da la palabra, este es el sitio de la palabra. Hay una canción de un cantante canario que se llama Braulio, que hablaba del volcán y de las pasiones, y decía: si se encuentran las pasiones, yo no sé qué va a pasar. Estamos en una democracia, en el Congreso de los Diputados, y yo nunca pensé que viviría esto. Nosotros, desde Coalición Canaria, como anunciamos el otro día, vamos a votar en contra de la desaparición del delito de sedición. Creemos que lo de la malversación no tenía que haber venido así, ayer el fiscal general anticorrupción dijo que se puede producir un efecto negativo en determinados procedimientos. Vamos a votar en contra.<lb/>Pero también quiero decir una cosa. En las democracias del mundo Occidental, y en este país por la Constitución, hay una separación de los poderes del Estado: el Poder Judicial y el Poder Legislativo. Yo, como diputada, como demócrata,nunca hubiera concebido que un tribunal impidiera a una Cámara legislativa independiente en democracia poder celebrar un Pleno, debatir y votar. Otra cosa es que el Tribunal Constitucional, al día siguiente de aprobarse el trámite definitivo de la ley, pueda, en el momento en que se publique en el Boletín Oficial del Estado, suspender la ley. Esa es la opinión que puede que algunos no compartan, pero, desde luego, en mi partido somos respetuosos con la Constitución, con el diálogo y, sobre todo, con la palabra.<lb/>Muchísimas gracias, señora presidenta.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u63" ana="#chair">
+               <lb/>Muchas gracias, señora Oramas.<lb/>Finalmente, por el Grupo Parlamentario Mixto, tiene la palabra la señora Vehí Cantenys.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u64" who="#VehíMireia" ana="#regular">
+               <lb/>Gracias, presidenta.<lb/>Que el Tribunal Constitucional se haya permitido tener en vilo al Congreso por si podía o no podía debatir esta ley forma parte de una estrategia de patrimonialización de las altas magistraturas del Estado por parte de la derecha, pero es consecuencia también de la ruptura de la división de poderes para atar de pies y manos al Parlamento catalán y de las reformas del Gobierno de Rajoy para dar al Tribunal Constitucional más poder que a los parlamentos. Un atropello a la soberanía que empezó en el Parlamento catalán y que hoy ha llegado al Congreso de los Diputados, que le costó la cárcel a la presidenta Carme Forcadell, como hoy nos ha venido a recordar la señora Arrimadas, que se ha permitido a amenazar a la Mesa del Congreso de los Diputados. De esos polvos, estos lodos, señorías. Deberíamos aprender. La reforma del delito de malversación abre la puerta a que se pueda acusar de malversación a cualquier Gobierno que despliega políticas que a los jueces no les parezca bien. Esto empezó con un referéndum, veremos dónde acaba. Igual con la reforma del delito de desórdenes públicos agravados. Esto no es una pelea de y contra los catalanes, como no lo fue en 2010 ni en 2015 ni en 2017; esto es una pelea por el derecho de protesta y por la soberanía de los pueblos y de los parlamentos. Aquel septiembre de 2017 no hubo un golpe de Estado en Cataluña, hubo un ejercicio de soberanía de un Parlamento, y el golpe de Estado es cuando la división de poderes se rompe y mandan los jueces en vez de que manden los parlamentos.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u65" ana="#chair">
+               <lb/>Gracias, señora Vehí.<lb/>Por el Grupo Parlamentario Euskal Herria Bildu, tiene la palabra el señor Iñarritu García.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u66" who="#IñarrituJon" ana="#regular">
+               <lb/>Arratsalde on.<lb/>Presidenta, señorías, hoy se ha producido el hecho más grave en términos democráticos después del 23-F, el más grave. Sean conscientes de que hoy en día los golpes de Estado de nueva generación no se dan con armas. Ya el 23-F quedó un poco friki, no sé si recuerdan que algún medio del norte de Europa dijo que había entrado en el Congreso los Diputados un militar pegando tiros con un sombrero de torero. Así lo vieron en Europa. ¿Saben lo que ocurre? Que hoy en día la mayoría de golpes se dan sobre la base de lo que se llama el lawfare y tribunales controlados políticamente, esos que controlan ustedes. Esto se ve continuamente en Latinoamérica, pero también lo hemos visto en Cataluña e incluso en Euskal Herria en año pasado con diferentes asuntos. El lawfare, esto que se viene a llamar la guerra judicial, es la continuación de la política por otros medios, por medios judiciales. Lo que hemos visto hoy es -ya digo, <pb n="14"/>lo más grave que se ha visto en décadas en este Estado- la asonada de las togas, esto es, la extrema derecha política, judicial y mediática puesta de común acuerdo para intentar bloquear a este Parlamento, a este Congreso de los Diputados. La mera posibilidad -porque, como han pospuesto la decisión, no lo sabemos- ya es intolerable, es gravísimo lo que se ha puesto hoy en marcha. Por eso creemos que es una obligación de todas y de todos bloquear a ese Estado profundo, a ese Deep State.<lb/>Algunas veces nos preguntan a nosotros cómo es que somos independentistas. Lo raro es que, señor Patxi, no sean ustedes ya independentistas viendo lo que está ocurriendo. <note>Rumores.-Risas</note>Es raro que no se hagan independentistas. <note>Rumores</note>Tranquilos, no se pongan nerviosos.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u67" ana="#chair">
+               <lb/>Silencio, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u68" who="#IñarrituJon" ana="#regular">
+               <lb/>Sobre el fondo de la cuestión, sobre las reformas, vemos puntos que son especialmente positivos. Pero también estamos señalando y estamos intentando negociar la solución de algunas carencias, de algunas lagunas que vemos que es el tiempo y la oportunidad de modificar, pero no duden que seguiremos insistiendo para que así se haga. Pero es que hoy estamos ante un hecho predemocrático, estamos ante una cuestión de que hay unos sectores ultras acomodados en unas instituciones que están intentando bloquear esta institución. Por ello, desde un espíritu de radicalidad democrática, anunció que daremos un voto positivo y permitiremos que se siga adelante con esta ley. Porque, como decíamos... <note>Protestas</note>No se pongan nerviosos, señorías, no sé si no han comido; tranquilos, tranquilícense.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u69" ana="#chair">
+               <lb/>Silencio, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u70" who="#IñarrituJon" ana="#regular">
+               <lb/>Como decía, lo principal hoy es defender la legitimidad de esta Cámara y las decisiones que en ella se toman representando a la mayoría de la ciudadanía.<lb/>Respecto al fondo, creíamos y creemos que hay medidas positivas. Se da un paso en la desjudicialización, sí, de lo que es un proceso político como es el de Cataluña, un proceso democrático y pacífico. Hubo en 2017 y a partir de ese año varios jueces que emulando al Cid Campeador se creyeron la vanguardia que debía resolver un conflicto político y metieron en los tribunales algo que nunca debía haber entrado en ellos. Asimismo, con esta medida, si bien no se soluciona todo,creemos que sí se da un paso en positivo, y negarlo es negar la evidencia, pero además es que sitúa a su Código Penal en términos de armonización con otros códigos penales europeos, y esto creo que debería ser una noticia incluso para ustedes.<lb/>Respecto a la parte que no nos convencía, es que en el apartado de los desórdenes hay y sigue habiendo partes con un nivel de interpretación muy amplia, ya sea la intimidación, la okupación o las invasiones de instalaciones, y creemos que se debería bajar la pena. Pero, miren, el riesgo de interpretación lo hemos conocido bien en Euskal Herria y en Cataluña, y no solamente en estos delitos, sino en otros muchos más graves. Recordemos que el delito de rebelión y el de terrorismo se haintentado aplicar, y en muchos casos se ha aplicado, en movilizaciones pacíficas y democráticas. Por eso, el riesgo siempre estará ahí, pero es innegable que esto es un paso en la buena dirección, aunque siempre habrá magistrados y magistradas que intenten juzgar más y aplicar más el código postal que el Código Penal.<lb/>En cuanto a la posibilidad de renovar los miembros del Tribunal Constitucional vía modificación del Consejo General del Poder Judicial, también es positiva, porque hay unos señores y unas señoras okupas que están ahí intentando representar sus intereses, que lo que no ganan con los votos lo intentan ganar en los tribunales, como hemos visto hoy. Por eso creemos que hay que ir más allá y habría que hablar también de cómo llevar a cabo la modificación, ya sea por un artículo único en la Ley Orgánica del Poder Judicial, para cesar inmediatamente a todos esos vocales okupas en esa institución.<lb/>En definitiva, creemos que estas medidas van en la buena vía. No son todas las que deben ser tomadas, no, pero, en general, son positivas. Seguiremos trabajando desde un prisma democrático, desde un prisma de izquierdas, desde un prisma progresista para seguir avanzando y no abstraernos de lo que ha ocurrido hoy, como digo, el hecho más grave que se ha producido en España en las últimas décadas. Hay una frase que se ha repetido muchas veces de Montesquieu -sé que se le llama el padre de la división de poderes-, que decía que no hay tiranía mayor que aquella que se hace con apariencia de ley y en nombre de la justicia, que es algo que estamos viendo hoy.<lb/>A Cabo. Como decía, hoy se da un paso positivo -es innegable que es positivo- en la desjudicialización de Cataluña, en el conflicto político catalán y también es un avance en el sistema penal y en el Código <pb n="15"/>Penal español. Pero es que, además, nos encontramos ante un hecho fundamental, predemocrático, y es que hay sectores ultras atrincherados en instituciones que han intentado y están intentando paralizar decisiones democráticas de cámaras de representación parlamentaria. Por ello, votaremos sí. Hoy se da un paso en la buena dirección, devolvemos a la política lo que nunca debió llegar a los tribunales y sacaremos del Constitucional, cómo no, a los que hace tiempo que deberían haberlo abandonado.<lb/>Muchas gracias. Eskerrik asko. <note>Aplausos</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u71" ana="#chair">
+               <lb/>Gracias, señor Iñarritu.<lb/>Por el Grupo Parlamentario Vasco <note>EAJ-PNV</note>, tiene la palabra el señor Legarda Uriarte.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u72" who="#LegardaMikel" ana="#regular">
+               <lb/>Muchas gracias, presidenta.<lb/>Debatimos sobre una iniciativa con una heterogeneidad de temas, pero quisiera centrarme sobre aquellos en los que descansa el centro de gravedad política de esta iniciativa, los referidos a la rectificación de la política del Estado seguida como respuesta a la crisis política y constitucional vivida en Cataluña con ocasión del procés y en la reformulación subsidiaria de las normas que regulan el nombramiento de algunos magistrados del Tribunal Constitucional para evitar que el Consejo General del Poder Judicial siga bloqueando la renovación de los que les corresponde y, a su vez, condicione la que es competencia del Gobierno. <note>El señor vicepresidente, Rodríguez Gómez de Celis, ocupa la Presidencia</note>.<lb/>Señorías, nuestro grupo parlamentario -ya lo conocen- se ha pronunciado en numerosas ocasiones sobre la necesidad de desjudicializar el conflicto vivido en Cataluña. Por eso, nos hemos manifestado permanentemente a favor de los indultos, de la desaparición del delito de sedición y correspondiente reforma de los de orden público. Porque, señorías, se diga lo que se diga, la desaparición del delito de sedición suscita consenso en la doctrina penal, es un delito sin parangón en la Unión Y, como se ha señalado por alguna doctrina cualificada, una antigualla totalitaria cuya desaparición debiera haberse producido hace años.<lb/>Por lo que hace a la reformulación del delito de malversación de caudales públicos, también es un delito que no debiera haberse reescrito en los términos de la Ley Orgánica 1/2015, y que por ello su reforma no debiera haber sufrido la desidia y pasividad sufrida hasta el momento. Como les decía, se reescribió en la Ley Orgánica 1/2015 con el solo voto del Partido Popular y como una manifestación del derecho penal del adversario, y este lo era Artur Mas, precisamente por la convocatoria del referéndum del 9N de 2014, desconociendo además los informes del Consejo General del Poder Judicial y del Consejo Fiscal, que mostraban su disconformidad en equiparar la apropiación para sí o para un tercero de caudales públicos sin distinguirla de aquellos otros supuestos en los que o bien no hay ánimo de apropiación definitiva -la malversación de uso-, o bien hay un destino de recursos públicos a usos públicos distintos de los previstos legalmente, el desvío presupuestario.<lb/>La pregunta que debiéramos hacernos a día de hoy es si es razonable mantener el delito de malversación tal y como está, porque es falso que tras la reforma exista menos penalidad para el desvío de fondos hacia uno mismo o hacia terceros con ánimo de lucro, y también es falso que tras la reforma no se pueda perseguir el despilfarro de autoridades públicas cuando es abusivo, cosa distinta de desligar malversación de conflictos de naturaleza política, y casos, como ahora sucede, de pedir penas de prisión e inhabilitación, como por ejemplo, por dar a conocer y obtener respaldo internacional a una iniciativa política como lo era el proces, o por la contratación de informes sobre los instrumentos de cooperación internacional entre España y Cataluña en caso de independencia, o por los gastos para el desplazamiento y alojamiento de asistentes a un encuentro mundial de comunidades catalanas en 2012, o por los gastos de 4500 euros por participar como observador en el referéndum de autodeterminación de Nueva Caledonia sufragados con recursos públicos, para los que se pide nada más y nada menos que tres años de prisión y bastantes más de inhabilitación.<lb/>Señorías, por lo que hace a la otra gran cuestión a la que me refería, que era buscar una solución al bloqueo impuesto por el Partido Popular y sus magistrados afines del Consejo General del Poder Judicial y Tribunal Constitucional y que a día de hoy el ordenamiento jurídico no tiene respuesta, quiero señalar que es una situación que el Partido Popular cuando ha estado en la oposición ha aprovechado para mantener mayorías conservadoras prorrogadas tanto en el Consejo General del Poder Judicial como por extensión en el Tribunal Constitucional, impidiendo su renovación. Pasó así en el pasado para tumbar el Estatuto de Autonomía catalán y ahora para incidir en resoluciones de leyes pendientes del Tribunal Constitucional para que las enjuicie un tribunal con mayoría de sesgo conservador y no progresista, lo que se llama el estado de lawfare, como hemos visto en el Tribunal Supremo de los Estados Unidos de <pb n="16"/>América, para demoler conquistas legales sobre los derechos ciudadanos con mano interpuesta cuando no se dispone del Poder Legislativo. Y esto, precisamente, señorías, es lo que a día de hoy vemos de manera descarnada en el Partido Popular,en los medios de comunicación afines a la derecha y en sus magistrados también afines en el Consejo General del Poder Judicial y en el Tribunal Constitucional. <note>La señora presidenta ocupa la Presidencia</note>Y ante esta labor obstruccionista,consideramos que esta Cámara debe reaccionar a través de las mayorías necesarias para impulsar una reforma tanto de la Ley Orgánica del Poder Judicial como de la Ley Orgánica del Tribunal Constitucional, sin que quepa argumentar de adverso que se quiere controlar espuriamente el Tribunal Constitucional, cuando quien lo dice es precisamente quien más ha manipulado, como con ocasión del estatuto catalán, y sigue manipulando hoy para propiciar sentencias contra leyes por medio de magistrados de sesgo ideológico cercano a quien las ha recurrido, incluso prorrogando su mandato de forma espuria a través del bloqueo de la renovación de las mayorías judiciales conservadoras para así seguir controlando las instituciones.<lb/>Voy a finalizar, presidenta. Votaremos favorablemente el dictamen de Comisión de la iniciativa por la que se rectifica la política del Estado que se siguió con la crisis catalana. Y también votaremos favorablemente para superar el espurio bloqueo a la renovación de la mayoría conservadora rogada del Tribunal Constitucional, propiciada por una mayoría equivalente e igualmente prorrogada del Consejo General del Poder Judicial por obra del Partido Popular.<lb/>Señorías, se ha dicho que no procede cambiar las reglas para solucionar un conflicto político, sin embargo, nuestro grupo parlamentario piensa precisamente lo contrario. Si es posible solucionar un grave problema político de convivencia a través del cambio de las normas, merece la pena cambiarlas.<lb/>Señorías, la convivencia, en ocasiones, reclama medidas excepcionales, y los bloqueos institucionales, también.<lb/>Muchas gracias. <note>Aplausos</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u73" ana="#chair">
+               <lb/>Muchas gracias, señor Legarda.<lb/>Por el Grupo Parlamentario Confederal de Unidas Podemos-En Comú Podem-Galicia en Común, tiene la palabra el señor Asens Llodrà.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u74" who="#AsensJaume" ana="#regular">
+               <lb/>Presidenta. Señorías.<lb/>Antes de responder a lo que han dicho, quiero hacer una reflexión: lo que ha sucedido esta mañana es muy grave, es inaudito. El Partido Popular está intentando utilizar el Tribunal Constitucional con el mandato caducado para sustituir la voluntad del pueblo representada en este Congreso, atacando la separación de poderes e intentando imponer una mayoría que perdió las elecciones hace tres años, una mayoría artificial que está todavía en el gobierno de los jueces y en el Tribunal Constitucional. ¿Se imaginan ustedes un diputado de esta Cámara que no fuera reelegido y se negara a abandonar el escaño? Pues eso es lo que está pasando en el Tribunal Constitucional. El presidente ha convocado un Pleno de emergencia cuando él está caducado, y pretende decidir sobre su futuro laboral para impedir aparentemente la renovación de ese tribunal. Es un episodio vergonzoso que pasará. La democracia va a resistir, pero el estigma, señorías del Partido Popular, les va a perseguir en toda su vida política. <note>Protestas.-Varios señores diputados: ¡Oooh!-Aplausos</note>Aunque no hayan dejado agujeros aquí arriba <note>señala al techo</note>, ustedes están intentando perforar la democracia con un golpe silencioso <note>protestas de las señoras y los señores diputados del Grupo Parlamentario Popular en el Congreso.-La señora Moro Almaraz: ¡No se puede decir eso!</note>, y nuestra obligación como demócratas es impedirlo.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u75" ana="#chair">
+               <lb/>Silencio, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u76" who="#AsensJaume" ana="#regular">
+               <lb/>Señora Gamarra, dice usted que esto es inaudito. Proposición de ley de reforma del Tribunal Constitucional, 2015: lectura única, trámite de urgencia; ley orgánica de reforma del Código Penal en materia deterrorismo, 2015: lectura única, trámite de urgencia; Ley Orgánica del Poder Judicial, reforma de 2014 sobre la justicia universal: trámite de urgencia, lectura única. ¡Si es que hasta ustedes reformaron la Constitución en un día y nos dieron un día para alegar! <note>Aplausos</note>No nos hablen ustedes de vulneración de los derechos cuando... <note>Protestas.-Varias señoras y señores diputados del Grupo Parlamentario Popular en el Congreso señalan a los miembros del Grupo Parlamentario Socialista</note>Sí, también el Partido Socialista. ¡Ustedes y el Partido Socialista! Pero ustedes fueron los únicos a quienes el Tribunal Constitucional... <note>Fuertes protestas</note>. <pb n="17"/>
+            </u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u77" ana="#chair">
+               <lb/>¡Silencio, por favor!<lb/>Señor Garcés, señor Hispán, silencio, por favor. <note>Protestas</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u78" who="#AsensJaume" ana="#regular">
+               <lb/>No me extraña que no quieran escucharme. Si están perpetrando un golpe... <note>Protestas.-El señor Garcés Sanagustín: ¡Fueron ellos!</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u79" ana="#chair">
+               <lb/>¡Señor Garcés, le llamó al orden por primera vez! <note>Protestas</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u80" who="#AsensJaume" ana="#regular">
+               <lb/>Señora presidenta, el tiempo está pasando. El tiempo, señora presidenta. <note>Rumores</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u81" ana="#chair">
+               <lb/>Señor Tirado Ochoa, silencio por favor.<lb/>Continúe, señor Asens.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u82" who="#AsensJaume" ana="#regular">
+               <lb/>Decía que en el mandato pasado precisamente el Partido Popular fue reprendido por el Tribunal Constitucional porque se amordazó a la oposición. Esa es la única vez que ha pasado, y con un Tribunal Constitucional de mayoría conservadora.<lb/>Ustedes hoy vienen aquí a decir que reformar el Código Penal es un atentado a la democracia -hoy precisamente-. Adaptar el ordenamiento jurídico a los estándares europeos es una cuestión de higiene democrática. Las reliquias del pasado,como la sedición, para los museos, pero no para las leyes de un país democrático. <note>Aplausos</note>Ustedes dicen que esto es una amnistía encubierta. Normalizar una injusticia siempre abre las puertas a todas las injusticias que la siguen para otros,y la sedición es una espada de Damocles sobre el derecho de protesta, sea quien sea el que lo ejerza.<lb/>La reforma del Partido Popular del delito de malversación fue una auténtica chapuza, y no lo decimos nosotros, lo dijeron también los jueces y los fiscales, el consejo de fiscales y el gobierno de los jueces de mayoría absoluta. Ustedes dicen que hoy aquí no se cuenta con consenso. ¡Ustedes aprobaron esa reforma en contra de la mayoría del resto de fuerzas de la oposición! Ustedes hablan de intromisión del Poder Judicial, en verdad este es un paso inevitable para abordar un conflicto abierto en Cataluña desde que ustedes rompieron de forma unilateral el pacto territorial de la Transición, anulando la sentencia del estatut. Es volver a la normalidad democrática y es lo que nos pide Europa, en concreto el Consejo de Europa. Cuando en nombre de la lucha contra el independentismo se hacen interpretaciones sesgadas de la ley o se aprueban normas ad hoc de carácter excepcional -como cuando ustedes aprobaron la reforma de 2015 sobre malversación- se consolida un derecho penal del enemigo de autor que se inspira en una antigua y nunca pagada tentación totalitaria: la idea de que debe castigarse no por lo que se ha hecho, sino por lo que es, y un Estado de derecho digno de ese nombre no puede permitir esa renuncia.<lb/>Ustedes dicen que se está legislando para un grupo de delincuentes; ustedes, que tienen más de trescientos imputados o condenados por corrupción. <note>Aplausos</note>Dicen que esto beneficia a los corruptos. Si fuera así, señorías, señora Gamarra, estarían ustedes aquí haciendo la comba con M. Rajoy, con Bárcenas y con algunos de los trescientos imputados o condenados por corrupción <note>aplausos</note>; esa es la prueba más evidente de que no sirve para eso. Ustedes no nos pueden dar lecciones en la lucha contra la corrupción, precisamente ustedes, el partido más corrupto de Europa. <note>Protestas.-La señora Moro Almaraz: ¡Ya está bien!</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u83" ana="#chair">
+               <lb/>¡Silencio, por favor!</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u84" who="#AsensJaume" ana="#regular">
+               <lb/>Ustedes viven en un bucle permanente, repitiendo el mismo guión una y otra vez: ganamos una moción de censura; ustedes: golpe de Estado, se rompe España. Les ganamos las elecciones; ustedes: golpe de Estado, se rompe España. Negociamos con la pluralidad democrática de esta Cámara; ustedes: golpe de Estado, se rompe España. Ahora rescatamos al Tribunal Constitucional de su secuestro; ustedes: golpe de Estado, se rompe España. <note>Rumores</note>Incluso han calificado al presidente del Gobierno de dictador. Ven golpes de Estado en todas partes, pero cuando hay uno como el del 36, hablan de peleas entre hermanos o entre abuelos y bisabuelos. Esa es su concepción de la democracia. <note>Aplausos</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u85" ana="#chair">
+               <lb/>Señor Asens, tiene que terminar, por favor. <pb n="18"/>
+            </u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u86" who="#AsensJaume" ana="#regular">
+               <lb/>Señor Pagès, usted no es ningún delincuente ni ninguno de los que usted ha citado <note>rumores</note>, pero sí que hay delincuentes en su espacio político: son del 3 %. Ese es su problema.<lb/>Señora Arrimadas, me gustaría dirigirme a usted, pero es que ha repetido el mismo discurso que el Partido Popular, y entre la copia y el original, creo que la gente siempre se queda con el original. Por tanto, todo lo que le he dicho al Partido Popular vale para usted.<lb/>Las señorías de VOX se han ido del hemiciclo, eso siempre tiene cosas buenas... <note>Rumores</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u87" ana="#chair">
+               <lb/>Silencio, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u88" who="#AsensJaume" ana="#regular">
+               <lb/>... y también tiene alguna mala.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u89" ana="#chair">
+               <lb/>Señor Asens, tiene usted que terminar, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u90" who="#AsensJaume" ana="#regular">
+               <lb/>La cosa buena es que podemos hacer el debate con menos insultos, menos gritos. La cosa mala es que no sabemos qué están haciendo y eso, viniendo de VOX, la verdad es que nos preocupa, sobre todo teniendo en cuenta su concepción de la democracia.<lb/>Señorías, termino con un último mensaje a los movimientos sociales. En el Gobierno de coalición teníamos un compromiso, que era acabar con el legado del Partido Popular en materia de recortes de derechos vinculados a la protesta. Hemos Derogado el que perseguía a los huelguistas, ahora la sedición y hemos rebajado el rigor punitivo del Código Penal del Partido Popular que se utilizó para aplacar la contestación social de la que venimos nosotros como formación. A pesar de eso, no hay que engañar a nadie; nos hemos quedado a mitad del camino. Lo que se aprueba es mejor que lo que hay, pero sigue existiendo mucho camino por hacer. <note>Rumores</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u91" ana="#chair">
+               <lb/>Señor Asens, tiene que terminar ya, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u92" who="#AsensJaume" ana="#regular">
+               <lb/>Las penas siguen siendo elevadas. Esto es fruto de un acuerdo, de una correlación de fuerzas. Pero -y termino, señora presidenta- hay que avanzar y mejorar este texto, y esta es una tarea fundamental que nos compete a nosotros, pero también a la movilización ciudadana. Nosotros, que venimos de los movimientos sociales, sabemos su importancia; por eso, no nos dejéis solos, sed críticos con nosotros y marcarnos el camino.<lb/>Muchas gracias. <note>Aplausos</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u93" ana="#chair">
+               <lb/>Gracias, señor Asens.<lb/>Por el Grupo Parlamentario VOX, tiene la palabra el señor Ortega Smith-Molina. <note>Rumores</note>Silencio, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u94" who="#OrtegaFrancisco" ana="#regular">
+               <lb/>Muchas gracias, presidenta.<lb/>Intervengo en representación del Grupo Parlamentario VOX que, por decencia, no continúa sentado en los escaños <note>rumores</note> ante un Pleno que es absolutamente fraudulento, y especialmente cuando nos encontramos ante un inaceptable y repugnante clima de violencia y amenaza por parte de diferentes diputados de la extrema izquierda del Gobierno de Sánchez contra los magistrados del Tribunal Constitucional, que es lo mismo que decir contra el Poder Judicial en su conjunto, diciendo y afirmando que no iban a tolerar que ninguna toga pusiera límites al autogobierno del pueblo o que los magistrados eran golpistas con toga. En definitiva, afirmaciones evidentemente contrarias a la Constitución, despreciando la democracia, la separación de poderes y la libertad de los españoles para estar legítimamente representados en esta Cámara y protegidos por los órganos judiciales.<lb/>Esto no es otra cosa que un asalto o golpe institucional perfectamente planificado por Sánchez, por su Gobierno y por los partidos que lo sustentan, que comenzó el 14 de noviembre admitiendo la Mesa de gobierno la tramitación de esta proposición de ley ante la que nuestro grupo se opuso por evidente fraude reglamentario; que continuó poco después, el 24 de noviembre, con un Pleno extraordinario convocado de manera urgente para la toma en consideración de la misma, que también fue recibido con nuestra oposición; pocos días después, el 1 de diciembre, nuevo Pleno extraordinario urgente para debatir las enmiendas a la totalidad, como así hizo nuestro grupo. Pocos días después quien les habla fue convocado a la Ponencia de esta ley y tuvo que escuchar con preocupación y gran sorpresa cómo los letrados de estas Cortes advertían y alertaban de que, con la admisión de diferentes enmiendas, se estaba produciendo <pb n="19"/>una evidente falta de homogeneidad, desconexión absoluta e incongruencia material con el texto enmendado, y especialmente con las enmiendas 61 y 62, con las que se intenta reformar la Ley Orgánica del Poder Judicial y el Tribunal Constitucional. Solicitamos, ese mismo día 12, diferentes escritos a la Mesa que aún no han sido resueltos, pidiendo la inadmisión de la tramitación de esas enmiendas, informes al Tribunal Constitucional, al Consejo General del Poder Judicial, a la Abogacía del Estado, al Consejo de Estado y a los propios letrados de esta Cámara. Un día después, nuevamente con prisa, el 13 de diciembre, se nos convoca a una Comisión de Justicia donde volvimos a oponernos y a reiterar la necesaria inadmisión de esta tramitación. Y hoy -hoy-, 15 de diciembre, nueva convocatoria de un Pleno extraordinario urgente para la votación final del dictamen. Hoy mismo recurrimos en amparo ante el Tribunal Constitucional solicitando la medida cautelar de suspensión de la tramitación por evidente vulneración de derechos fundamentales, de derechos constitucionales. Y tenemos que escuchar, tras la intervención de nuestro portavoz, a la única española, la presidenta de esta Cámara, que no se ha enterado y que desconoce la notoriedad de esos recursos de amparo.<lb/>Esta es, en definitiva, la situación ante la que nos encontramos. Una tramitación contra la que nos oponemos en el fondo y en la forma, en la ley y en el procedimiento; una tramitación que es un evidente fraude procesal, fraude a la ley y de clarísima inconstitucionalidad. Los objetivos no se le ocultan a ninguna de sus señorías, pero tampoco a los españoles. En primer lugar, lo que busca el Gobierno y sus socios es una encubierta amnistía de todos los golpistas, derogando el delito de sedición y favoreciendo que vuelvan a incurrir en él, rebajando las penas a los corruptos mediante la reducción de penas por malversación de fondos públicos. El control político definitivo del Consejo General del Poder Judicial, rebajandola mayoría necesaria de tres quintos a una mayoría simple, rompiendo la necesaria decisión como órgano colegiado y reduciendo la votación de uno solo de los candidatos a magistrado del Tribunal Constitucional para sus vocales. En definitiva, un asalto al Tribunal Constitucional, suprimiendo incluso, sin la menor de las vergüenzas, el trámite de idoneidad necesario para adquirir la condición de magistrado y conculcando la Constitución en los plazos necesarios para su renovación en vez de por tercios por sextos.<lb/>Todo esto, señorías, tiene unas graves consecuencias, y quienes van a votar a favor de esta ley son perfectamente conocedores y conscientes de lo que están haciendo: esa impunidad a quienes abiertamente alardean de que volverán a dar un golpe de Estado, a quienes claramente sostienen a los corruptos dentro de sus partidos y en sus gobiernos, que pretenden manifiestamente poder aprobar a partir de ahora normas claramente inconstitucionales, como por cierto lo fueron los estados de alarma, teniendo un Tribunal Constitucional absolutamente domesticado y al servicio del Gobierno; lograr rechazar de esta forma todos los recursos de inconstitucionalidad que están pendientes, entre otros, los más de cuarenta recursos de inconstitucionalidad interpuestos por el Grupo Parlamentario VOX. A partir de hoy dejará de llamarse Tribunal Constitucional y convertirá su nombre en el de tribunal gubernamental del Gobierno de Pedro Sánchez. Por cierto, Sánchez ya había acreditado su traición a España; hoy, además, acredita su cobardía no estando aquí cuando se está pisoteando la Constitución y el Estado de Derecho.<lb/>Voy terminando, señora presidenta. Hoy desgraciadamente es lo que podríamos calificar como la muerte o la desaparición de facto de la división de poderes del Estado de Derecho, de la democracia y de la Constitución. Algunos creen que los golpes de Estado se hacen con armas y uniforme militar, pero esos son más visibles <note>rumores</note>; los más peligrosos son los golpes de Estado que se hacen desde dentro de las propias instituciones, aprovechándose precisamente... <note>Continúan los rumores</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u95" ana="#chair">
+               <lb/>Señor Ortega, tiene usted que terminar. <note>Rumores</note>.<lb/>¡Les pido silencio, por favor!</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u96" who="#OrtegaFrancisco" ana="#regular">
+               <lb/>... aprovechándose precisamente de los resortes que las instituciones les permiten, como ya pudimos ver en Cataluña, desde la Generalidad de Cataluña y con el apoyo de las instituciones catalanas.<lb/>Hoy, en definitiva, es un día triste para España, un día muy triste para la democracia, un día muy triste para esta Cámara, pero también es un día de esperanza, porque cuanto más pretendan torcer el Estado, cuanto más pretenden pisotear la Constitución, cuánto más desprecian y odian a España, mayor será la respuesta de la inmensa mayoría de los españoles, que será echarles muy pronto a la calle o sentar a una gran parte de ustedes en el banquillo. <note>Varios señores diputados: ¡Halaaa!</note>.<lb/>Muchas gracias. <note>Aplausos.-Rumores.-La señora ministra de Igualdad, Montero Gil: Ese es el tema.-La señora ministra de Hacienda y Función Pública, Montero Cuadrado: Esa es la cuestión. De eso se trata</note>. <pb n="20"/>
+            </u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u97" ana="#chair">
+               <lb/>Muchas gracias, señor Ortega. <note>Rumores</note>.<lb/>Silencio, por favor, ¡les pido silencio!<lb/>Por el Grupo Parlamentario Socialista, tiene la palabra el señor Sicilia Alférez. <note>Aplausos del Grupo Parlamentario Socialista.-Varias señoras y señores diputados del Grupo Parlamentario Popular en el Congreso: ¡Patxi, Patxi, Patxi!-El señor López Álvarez: Luego, luego</note>.<lb/>Señorías, les recuerdo que estamos en el Pleno del Congreso de los Diputados. <note>Rumores.-Pausa</note>Señorías, gracias.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u98" who="#SiciliaFelipe" ana="#regular">
+               <lb/>Gracias, señora presidenta.<lb/>Señorías, hace cuarenta y un años la derecha quiso parar un Pleno del Congreso y parar también la democracia, lo hizo con tricornios. <note>Protestas</note>Hoy, señorías, la derecha ha vuelto a querer parar... <note>Protestas.-Varios señores diputados hacen gestos negativos</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u99" ana="#chair">
+               <lb/>¡Silencio, por favor! <note>Protestas.-Varios señores diputados: ¡Qué vergüenza!</note>¡Les pido silencio, por favor! <note>Continúan las protestas</note>¡Señorías, les pido silencio! <note>Rumores.-Varios señores diputados: La derechano</note>¡Está en uso de la palabra el señor Sicilia! <note>El señor Garcés Sanagustín: No fue la derecha, fueron los golpistas.-El señor Hispán Iglesias de Ussel: ¡Nos ha llamado golpistas!-El señor Cerdán León: Es lo que sois</note>¡Señor Hispán! <note>Variosseñores diputados: ¡Eso no!-La señora Moro Almaraz: Es una falsedad.-La señora Montero Cuadrado, ministra de Hacienda y Función Pública: Nos ha llamado golpistas, dice. ¡Vamos!-Risas y aplausos</note>Les pido silencio, por favor. ¡Les pidosilencio! <note>Fuertes rumores.-El señor Ortiz Galván: Eso no, por ahí no</note>Señor Ortiz, ¡le pido silencio, por favor!<lb/>Señor Sicilia.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u100" who="#SiciliaFelipe" ana="#regular">
+               <lb/>Debe ser que Tejero era de izquierdas; debe ser que Tejero era de izquierdas. <note>Aplausos y risas.-Rumores</note>.<lb/>Señorías, quisieron parar el Pleno y la democracia con tricornios y hoy han querido hacerlo con togas, pero no lo han conseguido. <note>Aplausos.-Protestas.-El señor Mariscal Anaya: ¡Qué barbaridad acaba de decir!</note>¡No lo han conseguido porque nuestra democracia es fuerte y sólida, y nuestras instituciones fuertes y sólidas y no han podido pararlo! <note>Aplausos.-Rumores</note>.<lb/>Hace tan solo unas semanas... <note>Continúan los rumores</note>Hace tan solo unas semanas... Acabo de empezar, eh... <note>Prosiguen los rumores</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u101" ana="#chair">
+               <lb/>Silencio, señorías. <note>Rumores</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u102" who="#SiciliaFelipe" ana="#regular">
+               <lb/>Les decía hace tan solo una semana, en esta misma tribuna, a las señorías de la derecha que siempre utilizan los tribunales para intentar ganar en ellos lo que no consiguen ganar ni en las urnas ni en esta Cámara<note>aplausos</note>, ¡y una semana ha bastado para comprobarlo! Una semana ha bastado para comprobarlo, Y, por tanto, ¡ya no cabe duda, ya no cabe duda! Ya sabemos la razón verdadera por la que ustedes tienen bloqueada la renovación del Consejo General del Poder Judicial y bloqueado el Tribunal Constitucional: porque ustedes los utilizan como último recurso para ganar lo que pierden aquí y lo que pierden en las urnas, señores del Partido Popular. <note>Aplausos</note>Además, a ustedes les da igual que eso suponga tener bloqueados importantes órganos constitucionales o que eso suponga el desprestigio de nuestras instituciones o el descrédito de nuestro sistema democrático. A ustedes eso les da igual, les da igual, porque lo único que les importa es el poder, les importa únicamente el poder. <note>Rumores.-Varias señoras y señores diputados del Grupo Parlamentario Popular en el Congreso señalan a los miembros del Grupo Parlamentario Socialista</note>¡Y hacen todo lo posible y lo imposible paratenerlo, y si no lo tienen, para que no lo puedan ejercer los demás! Eso es lo único que les importa. <note>Protestas.-Aplausos</note>.<lb/>Señorías de la derecha, traemos a este Pleno la modificación del Código Penal en lo referente al delito de sedición y a la malversación. Ustedes, señorías del PP, modificaron el Código Penal y, en concreto, el delito de malversación en el año 2015. Lo hicieron con el voto en contra de la mayoría de los grupos de esta Cámara, con informe en contra del Consejo General del Poder Judicial y del Consejo Fiscal, y les pregunto: ¿por qué ustedes podrían modificar el Código Penal y el resto de los grupos de la Cámara no? <note>Rumores.-Aplausos</note>¡¿Es que acaso sus escaños valen más que los nuestros?! ¡¿Acaso valen más que los nuestros?! ¡No! Luego nos dicen: No, es por el procedimiento, es por el procedimiento. Miren, Parlamento de Andalucía, hace justo un año, el Gobierno de derecha de Moreno Bonilla lleva un decreto <pb n="21"/>Ley con doscientas páginas que modifica cuarenta leyes que afectan a todas las consejerías de la Junta. ¿Cómo lo tramitaron? Por urgencia. ¿En cuántos días? En seis. <note>Protestas.-Aplausos</note>¿Por qué pueden ustedes utilizar...?</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u103" ana="#chair">
+               <lb/>¡Señorías, les pido silencio, por favor! <note>Protestas.-Aplausos</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u104" who="#SiciliaFelipe" ana="#regular">
+               <lb/>¡Ustedes sí y el resto no! <note>Aplausos</note>.<lb/>Señorías, si tanto les... <note>Rumores</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u105" ana="#chair">
+               <lb/>¡Señor Castellón, le pido silencio, por favor!</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u106" who="#SiciliaFelipe" ana="#regular">
+               <lb/>Señorías, en 1995 cambiaron el método de elección del Consejo General del Poder Judicial, ¿por qué ahora la mayoría de esta Cámara no puede cambiar el método y las mayorías de elección que corresponden al Consejo Para desbloquear el Tribunal Constitucional? ¡¿Por qué ustedes sí pueden cambiar las mayorías y la mayoría de esta Cámara no, señora Gamarra?! <note>Fuertes rumores.-Aplausos</note>.<lb/>Ustedes cambiaron un sistema de elección cuando no había bloqueo en la elección del Consejo General del Poder Judicial. Sin embargo, hoy tenemos que cambiarlo porque la derecha política y la derecha judicial tienen bloqueado, tienen secuestrado al Consejo General del Poder Judicial y al Tribunal Constitucional, y ante ese secuestro nuestra obligación como poder del Estado, como Poder Legislativo, con la ley, que es nuestro instrumento, es, sin duda, que las instituciones funcionen y poner los medios para liberarlas del secuestro al que las tiene sometidas. <note>Protestas.-Aplausos</note>.<lb/>Y, hombre, señora Gamarra, el colmo es escucharla a usted decir que con esta reforma favorecemos a la corrupción y a los corruptos. <note>Rumores.-Varios señores diputados: ¡Sííí!</note>Entonces, señorías del PP, ¿qué hicieron ustedes cuando modificaron la Ley de Enjuiciamiento Criminal, limitando los tiempos que tenían los jueces para investigar los casos de corrupción? <note>Aplausos</note>¡Qué hicieron ustedes! Pero es más, es que no sólo limitaron los tiempos para que los jueces pudieran investigar los casos de corrupción; es que pusieron a la Policía a trabajar para tapar sus corruptelas, el caso Kitchen. <note>Rumores.-Aplausos</note>Y mire, señora Gamarra, no es el mejor día para que usted hable de imputados y de malversación, porque entre sus filas, en su bancada, allá arriba, tiene un diputado que está imputado por prevaricación y por malversación, el señor Casero. <note>Aplausos</note>Pero miren, la realidad es que a ustedes... <note>Rumores y protestas</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u107" ana="#chair">
+               <lb/>Espere un momento, señor Sicilia.<lb/>Les pido silencio, por favor. <note>Rumores y protestas</note>.<lb/>Señora Beltrán, señor Hispán, silencio, por favor.<lb/>Señor Sicilia, puede continuar.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u108" who="#SiciliaFelipe" ana="#regular">
+               <lb/>Gracias, presidenta.<lb/>La realidad es que a ustedes no les molesta que se modifique el Código Penal ni el procedimiento ni las nuevas mayorías para elegir al Constitucional, lo que les molesta es que eso no pueden hacerlo ustedes ahora, les molesta que no son ustedes los que están decidiendo, porque a ustedes lo que les molesta es que son otros los que están gobernando y somos otros los que estamos legislando. <note>Aplausos</note>Eso es lo que les molesta. Y, miren, por eso hablan de Gobierno ilegítimo,hablan de ocupación, hablan de golpe a la democracia, de dictador, de que la democracia está en peligro. No, miren, la democracia en nuestro país solo ha estado en peligro con la derecha. <note>Protestas</note>Sí, estuvo en peligro en el 36, con un golpe militar que acabó con la democracia y puso en peligro a nuestro país. <note>Aplausos.-Rumores y protestas</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u109" ana="#chair">
+               <lb/>Señora Moraleja, por favor, silencio.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u110" who="#SiciliaFelipe" ana="#regular">
+               <lb/>Estuvo en peligro nuestra democracia el 23-F, el 23-F; que Tejero no era de izquierdas, era de derechas. ¡En peligro! <note>Rumores y protestas</note>Y miren, señorías, la derecha sigue poniendo hoy día en peligro nuestra democracia con esos discursos de odio y bloqueando las instituciones que son fundamentales para el discurrir de nuestro sistema democrático. <note>Aplausos</note>Siempre son los mismos los que ponen en peligro la democracia en nuestro país.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u111" ana="#chair">
+               <lb/>Señor Sicilia, tiene usted que terminar, por favor. <pb n="22"/>
+            </u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u112" who="#SiciliaFelipe" ana="#regular">
+               <lb/>Voy terminando, señora presidenta.<lb/>Señores del PP y señora Gamarra, ustedes sigan presentando recursos, que nosotros seguiremos presentando leyes para mejorar la vida de la gente... <note>Un señor diputado. ¡Anda ya!-Rumores y protestas</note>Sí, sí.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u113" ana="#chair">
+               <lb/>¡Silencio, por favor!</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u114" who="#SiciliaFelipe" ana="#regular">
+               <lb/>Ustedes, recursos; nosotros, leyes para mejorar la vida de la gente y defenderlos... <note>Rumores y protestas</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u115" ana="#chair">
+               <lb/>Señor Píriz, señor Lorite, silencio, por favor.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u116" who="#SiciliaFelipe" ana="#regular">
+               <lb/>Se lo vuelvo a repetir. Sí; ustedes, recursos; nosotros, leyes para mejorar la vida de la gente <note>rumores y protestas.-El señor De Olano Vela: Pederastas en la calle</note> y para defender los intereses de España en Bruselas. Y señora Gamarra, ahí es donde está el presidente del Gobierno, en Bruselas, defendiendo los intereses de nuestro país. <note>Aplausos.-Rumores y protestas</note>.<lb/>Terminó ya. Mire, señora Gamarra, se lo diré muy claro: frente a quienes nos quieren parar, los socialistas vamos a seguir avanzando. Así que, compañeros y compañeras del Grupo Socialista, nosotros, a seguir caminando. A caminar o, mejor dicho, como decía Alberti: ¡A galopar! <note>Varios diputados: ¡Olé!- Prolongados aplausos de las señoras y los señores diputados del Grupo Parlamentario Socialista, puestos en pie</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u117" ana="#chair">
+               <lb/>Gracias, señor Sicilia. <note>La señora Gamarra Ruiz-Clavijo pide la palabra</note>Sí, señora Gamarra.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u118" who="#GamarraConcepción" ana="#regular">
+               <lb/>Señora presidenta, pido la palabra en virtud del artículo 72 en relación con el 71.3, por las alusiones que ha llevado a cabo quien ha tomado la palabra en nombre del Partido Socialista, que afectan al decoro y a la dignidad de mi grupo parlamentario. <note>Una señora diputada: Y de esta Cámara.-Aplausos.-Rumores</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u119" ana="#chair">
+               <lb/>Tiene usted un minuto para hacer referencia a las alusiones concretas.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u120" who="#GamarraConcepción" ana="#regular">
+               <lb/>Señores del Partido Socialista, entiendo que quieran... <note>Fuertes protestas</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u121" ana="#chair">
+               <lb/>Silencio, por favor. La señora Gamarra tiene... <note>Continúan las protestas</note>Les pido silencio. Les pido silencio.<lb/>Señora Gamarra, haga usted indicación de las alusiones a las que se refiere.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u122" who="#GamarraConcepción" ana="#regular">
+               <lb/>Las alusiones son, concretamente, las directamente relacionadas con el golpe de Estado que se dio en esta misma Cámara el 23 de febrero del año 1981, vinculándolo, poniéndolo en relación... <note>El señor De Olano Vela: ¡Ya está bien!-El señor Garcés Sanagustín: ¡Vosotros, de rodillas; Adolfo Suárez, en pie!-Fuertes protestas</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u123" ana="#chair">
+               <lb/>Espere un momento, señora Gamarra.<lb/>Les pido silencio. Señor Garcés, tiene la palabra la señora Gamarra, no usted. <note>Rumores y protestas</note>Les pido silencio.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u124" who="#GamarraConcepción" ana="#regular">
+               <lb/>Gracias, presidenta.<lb/>Señores del Partido Socialista, señor portavoz del Partido Socialista, entiendo que ustedes han iniciado un proceso de memoria democrática con la cual quieren reescribir la historia democrática en nuestro país, pero en el año 1981... <note>Rumores y protestas</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u125" ana="#chair">
+               <lb/>Silencio, por favor.<lb/>Señora Gamarra, le he dado la palabra para que haga referencia a las alusiones.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u126" who="#GamarraConcepción" ana="#regular">
+               <lb/>Ya las he dado, señora presidenta. Terminó ya.<lb/>Quiero dejar constancia, porque parece que la memoria democrática es bastante frágil, de que el 23 de febrero de 1981 en este país gobernaba el centroderecha. <note>Varios señores diputados: ¡Muy bien!</note>. <pb n="23"/>Estaba en esta Cámara sentado el centroderecha, aquí, cuando se produjo un golpe de Estado. <note>Aplausos</note>Por lo tanto, yo creo que tienen ustedes que revisar un poco la historia y no intentar cambiarla. <note>Rumores y protestas</note>Pero no podrán cambiar el futuro de la historia que ustedes, lamentablemente, están reescribiendo. <note>Prolongados aplausos de las señoras y los señores diputados del Grupo Parlamentario Popular en el Congreso, puestos en pie.-Protestas</note>¡Qué vergüenza,señores socialistas, si escucharan tantos socialistas que se sentaban en esa bancada aquel 23 de febrero lo que ustedes acaban de decir hoy!</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u127" ana="#chair">
+               <lb/>Muchas gracias, señora Gamarra.<lb/>Señorías, la reiterada falta de respeto a los servicios de esta Cámara, al funcionamiento de la Cámara, a la Mesa y a la Presidencia son intolerables. <note>Aplausos.-Rumores</note>Les pido, por favor, que cesen en ello.<lb/>Votaremos en tres minutos. <note>Pausa</note>.</u>
+         </div>
+         <div type="debateSection">
+            <head>- VOTACIÓN </head>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u128" ana="#chair">
+               <lb/>Dictámenes de comisiones sobre iniciativas legislativas. Proposición de ley orgánica de trasposición de directivas europeas y otras disposiciones para la adaptación de la legislación penal al ordenamiento de la Unión Europea, y reforma de los delitos contra la integridad moral, desórdenes públicos y contrabando de armas de doble uso.<lb/>Enmiendas presentadas por el Grupo Parlamentario Ciudadanos. Votación en bloque de las enmiendas.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 337; a favor, 143; en contra, 194.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u129" ana="#chair">
+               <lb/>En consecuencia, quedan rechazadas.<lb/>Enmiendas presentadas por el Grupo Parlamentario Plural, señor Rego Candamil.<lb/>Enmiendas 39 y 41.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 338; a favor, 10; en contra, 266; abstenciones, 62.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u130" ana="#chair">
+               <lb/>En consecuencia, quedan rechazadas.<lb/>Enmienda 40.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 66; en contra, 267; abstenciones, 6.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u131" ana="#chair">
+               <lb/>En consecuencia, queda rechazada.<lb/>Resto de las enmiendas.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 24; en contra, 269; abstenciones, 46.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u132" ana="#chair">
+               <lb/>En consecuencia, quedan rechazadas.<lb/>Enmiendas presentadas por el Grupo Parlamentario Plural, señor Errejón Galván.<lb/>Enmienda 18.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 66; en contra, 267; abstenciones, 6.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u133" ana="#chair">
+               <lb/>En consecuencia, queda rechazada.<lb/>Enmienda 19.<lb/>Comienza la votación. <note>Pausa</note>. <pb n="24"/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 31; en contra, 267; abstenciones, 41.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u134" ana="#chair">
+               <lb/>En consecuencia, queda rechazada.<lb/>Enmiendas presentadas por el Grupo Parlamentario Plural, señores Bel Accensi y Boadella Esteve.<lb/>Enmienda 53.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 11; en contra, 269; abstenciones, 59.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u135" ana="#chair">
+               <lb/>En consecuencia, queda rechazada.<lb/>Resto de las enmiendas.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 17; en contra, 272; abstenciones, 50.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u136" ana="#chair">
+               <lb/>En consecuencia, quedan rechazadas.<lb/>Enmiendas presentadas por el Grupo Parlamentario Plural, señor Pagés i Massó.<lb/>Enmiendas 20, 32 y 35.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 12; en contra, 267; abstenciones, 60.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u137" ana="#chair">
+               <lb/>En consecuencia, quedan rechazadas.<lb/>Enmiendas 21 y 22.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 29; en contra, 267; abstenciones, 43.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u138" ana="#chair">
+               <lb/>En consecuencia, quedan rechazadas.<lb/>Enmiendas 25, 37 y 38.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 338; a favor, 11; en contra, 266; abstenciones, 61.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u139" ana="#chair">
+               <lb/>En consecuencia, quedan rechazadas.<lb/>Enmiendas 26, 27 y 36.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 5; en contra, 269; abstenciones, 65.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u140" ana="#chair">
+               <lb/>En consecuencia, quedan rechazadas.<lb/>Resto de las enmiendas.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 337; a favor, 20; en contra, 265; abstenciones, 52.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u141" ana="#chair">
+               <lb/>En consecuencia, quedan rechazadas.<lb/>Enmiendas presentadas por el Grupo Parlamentario Republicano.<lb/>Enmienda 47.<lb/>Comienza la votación. <note>Pausa</note>. <pb n="25"/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 338; a favor, 65; en contra, 267; abstenciones, 6.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u142" ana="#chair">
+               <lb/>En consecuencia, queda rechazada.<lb/>Resto de las enmiendas.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 60; en contra, 271; abstenciones, 8.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u143" ana="#chair">
+               <lb/>En consecuencia, quedan rechazadas.<lb/>Enmiendas presentadas por el Grupo Parlamentario Popular en el Congreso.<lb/>Votación en bloque de las enmiendas.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 145; en contra, 191; abstenciones, 3.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u144" ana="#chair">
+               <lb/>En consecuencia, quedan rechazadas.<lb/>Señorías, les informo de que desde las 17:25 hasta las 17:55 se podrán votar telemáticamente el dictamen y la votación de conjunto en relación con la Proposición de ley orgánica de trasposición de directivas europeas y otras disposiciones para la adaptación de la legislación penal al ordenamiento de la Unión Europea, y reforma de los delitos contra la integridad moral, desórdenes públicos y contrabando de armas de doble uso.<lb/>Por tanto, suspenderemos la sesión durante 45 minutos y la votación presencial se producirá una vez reanudada la misma. Muchas gracias.<lb/>Se suspende la sesión hasta las 18:15 horas.<lb/>Eran las cinco y veinticinco minutos de la tarde.<lb/>Se reanuda la sesión a las seis y quince minutos de la tarde.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u145" ana="#chair">
+               <lb/>Señorías, vamos a dar comienzo a las votaciones.<lb/>Dictámenes de comisiones sobre iniciativas legislativas. <note>El señor Figaredo Álvarez-Sala pide la palabra</note>.<lb/>Señor Figaredo.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u146" who="#FigaredoJosé" ana="#regular">
+               <lb/>Señora presidenta, pido la palabra, por el artículo 72, para una cuestión de orden.<lb/>Anteriormente, se dijo en el Pleno que la Mesa del Congreso no tenía constancia de que se hubiesen presentado determinados recursos ante el Tribunal Constitucional por la tramitación de esta norma que ahora vamos a votar. La Mesa del Congreso sí tiene constancia ahora, porque se le ha notificado. <note>Protestas</note>Y de nuevo reiteramos la petición de que se suspenda esta votación hasta que el Tribunal Constitucional haya deliberado sobre la cuestión, so pena de vaciar de contenido una hipotética resolución del Tribunal Constitucional. <note>Aplausos.-Protestas</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u147" ana="#chair">
+               <lb/>Muchas gracias, señor Figaredo.<lb/>He de insistir en lo que he dicho antes, y es que el Congreso de los Diputados no ha recibido ninguna comunicación oficial por parte del órgano competente que tendría que hacerlo, que es el Tribunal Constitucional.<lb/>La comunicación por parte de un grupo parlamentario de la presentación de un recurso, evidentemente, no es suspensivo de un procedimiento legislativo. <note>Rumores</note>Le recuerdo, además, señoría, un artículo de la Ley Orgánica del Poder Judicial, el 270, y otro de la Ley de Enjuiciamiento Civil, el 150, que dicen que la notificación es el medio para tomar conocimiento de la existencia y eficacia de una resolución judicial, que, por supuesto, esta Cámara acataría, como no puede ser de otra manera.<lb/>Por tanto, vamos a proceder a las votaciones. <note>Aplausos</note>.<lb/>Proposición de ley orgánica de transposición de directivas europeas y otras disposiciones para la adaptación de la legislación penal al ordenamiento de la Unión Europea y reforma de los delitos contra la integridad moral, desórdenes públicos y contrabando de armas de doble uso. <pb n="26"/>Votación del dictamen en lo relativo a los apartados trece bis, ter y quater del artículo primero.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 249; a favor, 185; en contra, 63; abstenciones, 1.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u148" ana="#chair">
+               <lb/>Quedan aprobados.<lb/>Votación del dictamen en lo relativo a las disposiciones transitorias cuarta y quinta y disposición final primera pre, nueva.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 249; a favor, 188; en contra, 61.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u149" ana="#chair">
+               <lb/>Queda aprobado.<lb/>Resto del dictamen.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 249; a favor, 185; en contra, 64.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u150" ana="#chair">
+               <lb/>Queda aprobado.</u>
+         </div>
+         <div type="debateSection">
+            <head>VOTACIÓN DE CONJUNTO </head>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u151" ana="#chair">
+               <lb/>Votación de conjunto de la Proposición de Ley Orgánica de transposición de directivas europeas y otras disposiciones para la adaptación de la legislación penal al ordenamiento de la Unión Europea, y reforma de los delitos contra la integridad moral, desórdenes públicos y contrabando de armas de doble uso, por tener la misma carácter orgánico.<lb/>Comienza la votación. <note>Pausa</note>.<lb/>Efectuada la votación, dio el siguiente resultado: votos emitidos, 249; a favor, 184; en contra, 64; abstenciones; 1.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u152" ana="#chair">
+               <lb/>Queda aprobada la Proposición de Ley Orgánica de transposición de directivas europeas y otras disposiciones para la adaptación de la legislación penal al ordenamiento de la Unión Europea, y reforma de los delitos contra la integridad moral, desórdenes públicos y contrabando de armas de doble uso. <note>La señora Gamarra Ruiz-Clavijo pide la palabra.-Protestas</note>.<lb/>Señora Gamarra.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u153" who="#GamarraConcepción" ana="#regular">
+               <lb/>Muy brevemente, presidenta, en virtud del artículo 72, en relación con el 89, para explicar el sentido del voto. <note>Protestas</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u154" ana="#chair">
+               <lb/>Señores diputados, les ruego silencio. Si quieren irse del hemiciclo, se van. Si no, ocupen sus escaños, por favor.<lb/>Señora Gamarra, la explicación de voto la ha hecho usted en la intervención que ha correspondido al debate de esta iniciativa. <note>Protestas</note>.<lb/>Silencio, por favor.<lb/>En cualquier caso, tiene usted un minuto.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u155" who="#GamarraConcepción" ana="#regular">
+               <lb/>Gracias, señora presidenta.<lb/>Simplemente, intervengo para dejar constancia de que este grupo parlamentario no ha votado, ya que esta votación no debería haber tenido lugar en los términos en que se ha producido, porque no deberían haberse incorporado dos enmiendas, o,en su caso, debería haberse esperado a la resolución que está pendiente del Tribunal Constitucional.<lb/>Como no somos partidarios de abandonar las instituciones, es por lo que nos hemos quedado durante la votación. Pero en un momento tan crítico como este, evidentemente, no hemos votado. <note>Aplausos.-Protestas</note>.</u>
+            <u xml:id="ParlaMint-ES_2022-12-15-CD221215.u156" ana="#chair">
+               <lb/>Se levanta la sesión.<lb/>Eran las seis y veinte minutos de la tarde.</u>
+         </div>
+      </body>
+   </text>
+</TEI>
+
