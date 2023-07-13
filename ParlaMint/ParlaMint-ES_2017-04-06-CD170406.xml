@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2017-04-06-CD170406"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 45 (2017-04-06) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 45 (2017-04-06)</title>
             <title xml:lang="en" type="sub">Plenary session 45 (2017-04-06)</title>
-            <meeting n="2017-04-06" corresp="#CD" ana="#parla.lower #parla.sitting">2017-04-06</meeting>
-            <meeting n="45" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 45</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="45" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 45</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -107,7 +101,7 @@
                <seg xml:id="ParlaMint-ES_2017-04-06-CD170406.u1.2">Señorías, con carácter previo al examen del orden del día, vamos a proceder al juramento o promesa de acatamiento de la Constitución, conforme al artículo 20.1.3.º del Reglamento<note>Rumores</note> Señorías, les ruego silencio.<note>Pausa</note> En sustitución de don Francesc Homs Molist, pregunto a don Feliu Joan Guillaumes i Ràfols si jura o promete acatar la Constitución.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-04-06-CD170406.u2"
-               who="#GuillaumesFeliuJoan"
+               who="#GuillaumesFeliujoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-04-06-CD170406.u2.1">Sí, prometo per imperatiu legal i judicial. Va por ti, Quico.</seg>
             </u>
@@ -265,7 +259,7 @@
                <seg xml:id="ParlaMint-ES_2017-04-06-CD170406.u24.1">Para la defensa de las propuestas y de las enmiendas, por el Grupo Parlamentario Popular en el Congreso, tiene la palabra el señor De Barrionuevo Gener. Silencio, señorías.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-04-06-CD170406.u25"
-               who="#BarrionuevoAvelino"
+               who="#Barrionuevo"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-04-06-CD170406.u25.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2017-04-06-CD170406.u25.2">El pasado 15 de marzo compareció ante esta Cámara el presidente del Consejo General del Poder Judicial, don Carlos Lesmes, para presentarnos la dación de cuentas de la memoria del Consejo del año 2015. Es de agradecer que esta la hizo con los datos a fecha de 2016, lo que nos ha permitido tener una visión más real y actual de la labor que desempeñan los más de cinco mil quinientos jueces y magistrados que hay en España. Unos jueces que, con el espíritu de servicio e independencia, realizan las funciones encomendadas por la Constitución juzgando y haciendo ejecutar lo juzgado. Queremos mostrar nuestro reconocimiento a su labor, y prueba de ello es que, a fecha 31 de diciembre de 2016, se han resuelto más de 6 millones de asuntos frente a los 5.800.000 que se han registrado nuevos. Sin duda,<pb n="13"/> estos buenos resultados son como consecuencia del trabajo de los jueces y del fruto de las reformas legislativas llevadas a cabo por el Grupo Popular; reformas como la del Código Penal, destipificando algunas conductas, o las reforma de la Ley de Enjuiciamiento Criminal, en la que establece que, con carácter general, no se remitieran los atestados a los juzgados de Instrucción cuando estos no tuvieran un autor propio...</seg>
@@ -276,7 +270,7 @@
                <seg xml:id="ParlaMint-ES_2017-04-06-CD170406.u26.2">Continúe, señoría.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-04-06-CD170406.u27"
-               who="#BarrionuevoAvelino"
+               who="#Barrionuevo"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-04-06-CD170406.u27.1">Gracias, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2017-04-06-CD170406.u27.2">Por todo ello, estas medidas -que en su momento hizo el Partido Popular- han contribuido al descenso de la litigiosidad y, por lo tanto, a la carga de trabajo que asumen los jueces. En consecuencia, una de nuestras propuestas es instar al Consejo General del Poder Judicial a que en sus memorias incluya un apartado específico, en el que refleje el impacto en los distintos órdenes que han tenido las reformas legislativas que aprobamos aquí en la Cámara. Creemos que con ello tenemos una mejor evaluación de nuestro trabajo, pues nos corresponde a nosotros impulsar, aprobar y apoyar los instrumentos normativos necesarios para mejorar la situación de nuestra justicia.</seg>
@@ -290,7 +284,7 @@
                <seg xml:id="ParlaMint-ES_2017-04-06-CD170406.u28.2">Continúe, señoría.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-04-06-CD170406.u29"
-               who="#BarrionuevoAvelino"
+               who="#Barrionuevo"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-04-06-CD170406.u29.1">Gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2017-04-06-CD170406.u29.2">Respecto a las diez enmiendas presentadas por mi grupo, lamentamos que Ciudadanos no aceptara la modificación a su propuesta número 98, en la que proponíamos instar al Consejo General del Poder Judicial a reforzar las garantías en la aplicación de los principios de igualdad, mérito y capacidad en los nombramientos de su competencia, introduciendo la mayor claridad posible en la baremación de cada candidato.</seg>
@@ -311,7 +305,7 @@
                <seg xml:id="ParlaMint-ES_2017-04-06-CD170406.u31.2">Señora secretaria.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-04-06-CD170406.u32"
-               who="#SánchezCamachoAlicia"
+               who="#SánchezcamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-04-06-CD170406.u32.1">Gracias, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2017-04-06-CD170406.u32.2">Declaración institucional de la celebración del Día Internacional del Pueblo Gitano, 8 de abril de 2017.</seg>
@@ -333,7 +327,7 @@
                <seg xml:id="ParlaMint-ES_2017-04-06-CD170406.u34.2">Señora secretaria.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2017-04-06-CD170406.u35"
-               who="#SánchezCamachoAlicia"
+               who="#SánchezcamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2017-04-06-CD170406.u35.1">Declaración institucional de condena del uso de armas químicas.</seg>
                <seg xml:id="ParlaMint-ES_2017-04-06-CD170406.u35.2">El Congreso de los Diputados expresa su más profunda desolación y su más enérgica condena por la confirmación del uso deliberado de armas químicas en la guerra de Siria, en Jan Sheijun El uso de las armas químicas está prohibido en cualquier circunstancia, pero su uso contra la población civil, niños incluidos, es especialmente repugnante. Cuando se usa contra la propia población, contra los propios niños, se superan todos los límites del horror.</seg>

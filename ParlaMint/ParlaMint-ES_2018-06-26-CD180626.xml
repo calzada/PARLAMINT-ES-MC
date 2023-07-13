@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-06-26-CD180626"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 126 (2018-06-26) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 126 (2018-06-26)</title>
             <title xml:lang="en" type="sub">Plenary session 126 (2018-06-26)</title>
-            <meeting n="2018-06-26" corresp="#CD" ana="#parla.lower #parla.sitting">2018-06-26</meeting>
-            <meeting n="126" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 126</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="126" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 126</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -970,7 +964,7 @@
                <seg xml:id="ParlaMint-ES_2018-06-26-CD180626.u122.2">Por el grupo autor de la iniciativa y para la defensa de la moción tiene la palabra la señora Sánchez-Camacho Pérez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-06-26-CD180626.u123"
-               who="#SánchezCamachoAlicia"
+               who="#SánchezcamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-06-26-CD180626.u123.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-06-26-CD180626.u123.2">Señorías, es la segunda moción que debatimos en relación con el tema de Cataluña. Parece mentira que después de tanto tiempo sigamos hablando de lo mismo. Pero quiero decirles, señoría, que a los millones de españoles que nos están viendo el problema catalán, la llamada cuestión catalana, como decía Ortega y Gasset, es uno de los principales problemas o el problema más grave que tiene nuestro país. Y les quiero decir, señores del Partido Socialista, que de ese desafío rupturista, que de esa ruptura, de ese golpe de Estado que han dado los del PdeCAT y los de Esquerra Republicana, son ellos los únicos responsables, señores del Partido Socialista. No intenten responsabilizar ni al Gobierno de Mariano Rajoy ni al Partido Popular ni a los millones de catalanes que nada tienen que ver con los del PdeCAT y los de Esquerra Republicana.<note>Aplausos</note> Eso se lo quiero decir. Porque me parece muy grave que el presidente del Gobierno en esta nueva política diga que este Gobierno viene a mejorar y no a agravar el problema de Cataluña como hacía el anterior Gobierno. Esa no es la nueva política; ese no es el camino en el que les esperábamos, señorías. Señorías, el desafío rupturista, el golpe de Estado que ha roto la convivencia en Cataluña está basado en mentiras, está basado en la mentira del España nos roba, está basado en el agravio, está basado en el odio, en el adoctrinamiento para separar y dividir a los catalanes, y ese no es el camino, señor Tardà; no es el camino, señor Campuzano, para buscar un diálogo y para buscar una convivencia.<note>Rumores</note> El Grupo Parlamentario Popular les preguntaba, señorías, cuál era el precio del nuevo Gobierno para llegar ahora a donde están ustedes sentados; precisamente no hay ningún ministro escuchando esto, no les debe interesar, señores del Grupo Socialista. Pero yo se lo voy a decir: Ustedes no han ganado las elecciones, ustedes no han traído un programa de Gobierno y ustedes, además, no nos han dicho con luz<pb n="49"/> y taquígrafos cuáles son los acuerdos que han obtenido con Bildu, con los herederos de los terroristas,<note>aplausos</note> , con los independentistas y no nos han dicho tampoco los acuerdos a los que han llegado con los antisistema. No nos lo han dicho, señorías, no. Pero lo sabemos ahora, los acabamos de ver ahora. Miren<note>muestra a la Cámara una copia de una portada del diario ABC</note> : Desmontando España. Las cesiones las vimos ayer; las vimos ayer con Urkullu, las vimos ayer con el señor Iglesias que ahora, señorías, parece que es el mediador del partido que apoya al Gobierno en el asunto de Cataluña. ¿Saben ustedes cuáles son las hipotecas del señor Sánchez y del Gobierno socialista? El acercamiento de presos, la reforma de la Constitución. ¿Para qué, señorías del Grupo Socialista? ¿Para regular el derecho a decidir que votó la señora Batet y que votaron algunos miembros del Partido Socialista? Díganlo. Díganle a esta Cámara si quieren reformar la Constitución para incluir el derecho a decidir del pueblo de Cataluña. Díganlo; suban aquí y niéguenlo. Díganlo, porque lo estamos esperando, porque, desde luego, con los diputados del Partido Popular no van a reformar la Constitución para romper lo que es más importante para todos nosotros, la unidad de todos los españoles<note>aplausos</note> y la decisión de qué es Cataluña y qué es España que lo decidimos los 47 millones de españoles.</seg>
@@ -983,7 +977,7 @@
                <seg xml:id="ParlaMint-ES_2018-06-26-CD180626.u124.1">Señora Sánchez-Camacho, tiene que terminar.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-06-26-CD180626.u125"
-               who="#SánchezCamachoAlicia"
+               who="#SánchezcamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-06-26-CD180626.u125.1">Voy acabando, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-06-26-CD180626.u125.2">Señores del Partido Socialista, de Esquerra y del PDeCAT, no reproduzcan ustedes los errores del pasado, no nos lleven a un diálogo imposible, no nos lleven a la esterilidad y piensen que hay una mayoría de catalanes que, como usted y como yo, señor Tardà, tenemos nuestra vida en Cataluña pero también somos parte de Cataluña, de España y de Europa. No nos roben lo que es nuestra tierra, no nos roben lo que es de todos los españoles.</seg>
@@ -1150,7 +1144,7 @@
                <seg xml:id="ParlaMint-ES_2018-06-26-CD180626.u152.1">Pregunto a la señora Sánchez-Camacho Pérez si acepta su grupo la enmienda presentada.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-06-26-CD180626.u153"
-               who="#SánchezCamachoAlicia"
+               who="#SánchezcamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-06-26-CD180626.u153.1">Señora presidenta, no admitimos la enmienda del PDeCAT.</seg>
                <seg xml:id="ParlaMint-ES_2018-06-26-CD180626.u153.2">Muchas gracias.</seg>

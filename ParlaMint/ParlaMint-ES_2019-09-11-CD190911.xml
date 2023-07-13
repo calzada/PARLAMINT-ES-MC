@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2019-09-11-CD190911"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 7 (2019-09-11) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 7 (2019-09-11)</title>
             <title xml:lang="en" type="sub">Plenary session 7 (2019-09-11)</title>
-            <meeting n="2019-09-11" corresp="#CD" ana="#parla.lower #parla.sitting">2019-09-11</meeting>
-            <meeting n="7" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 7</meeting>
-            <meeting n="13" corresp="#CD" ana="#parla.lower #parla.term #CD.13">Legislatura XIII</meeting>
+            <meeting n="7" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 7</meeting>
+            <meeting n="13" corresp="#CD" ana="#parla.term #CD.13">Legislatura XIII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -973,7 +967,7 @@
                <seg xml:id="ParlaMint-ES_2019-09-11-CD190911.u145.2">Señor ministro del Interior en funciones.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-09-11-CD190911.u146"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-09-11-CD190911.u146.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2019-09-11-CD190911.u146.2">Señoría, esperaba un poco más de seriedad y menos frivolidad en alguien que debe conocer algo de la seguridad y seguir los consejos de las Fuerzas y Cuerpos de Seguridad del Estado; yo los sigo siempre. Pero le diré que España es uno de los países más seguros del mundo. Tenemos unas Fuerzas y Cuerpos de Seguridad del Estado eficientes. Y en este momento quiero dar las gracias a la Policía, a la Guardia Civil y a los Mossos con relación a Barcelona y Cataluña, y también a la Guardia Urbana. Y le pediría a usted que reflexione, porque en esos siete años de políticas del Partido Popular en Cataluña redujeron 798 efectivos y en Barcelona 498.</seg>
@@ -995,7 +989,7 @@
                <seg xml:id="ParlaMint-ES_2019-09-11-CD190911.u149.2">Ministro del Interior en funciones.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-09-11-CD190911.u150"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-09-11-CD190911.u150.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2019-09-11-CD190911.u150.2">Señoría, usted ha realizado...<note>Continúan los aplausos</note> Gracias por los aplausos.<note>Risas</note> Usted ha realizado unas valoraciones sobre mí con las que no me siento identificado. Respecto a Cataluña, seguimos trabajando y coordinándonos. Ya hemos incrementado el número de policías y guardias civiles en más de un 14 % allí. Hacemos esas labores conjuntas contra el narcotráfico, contra los hurtos, evidentemente controlando las estancias ilegales, cooperando y colaborando con la Guardia Urbana. Refiriéndome solo a Cataluña, en el momento de las elecciones municipales estuve allí con el PSC, porque había una preocupación en el programa del PSC -creo que en el del PP no-, y ahora ven como está actuando y trabajando en el ayuntamiento el Partido Socialista de Cataluña. Hemos recuperado ya el 14 %, ya hay más guardias civiles y policías nacionales que los que había antes de que ustedes llegaran al Gobierno en 2012.</seg>
@@ -1023,7 +1017,7 @@
                <seg xml:id="ParlaMint-ES_2019-09-11-CD190911.u154.2">Señor ministro del Interior en funciones.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-09-11-CD190911.u155"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-09-11-CD190911.u155.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2019-09-11-CD190911.u155.2">Señoría, veo que la coalición funciona: la misma pregunta, la misma respuesta.</seg>
@@ -1046,7 +1040,7 @@
                <seg xml:id="ParlaMint-ES_2019-09-11-CD190911.u158.2">Señor ministro en funciones.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2019-09-11-CD190911.u159"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2019-09-11-CD190911.u159.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2019-09-11-CD190911.u159.2">Señor Mesquida, creo que he sido claro. Nosotros no hemos dejado de trabajar. Le he dado el ejemplo del Campo de Gibraltar, le doy el ejemplo de la migración en materia de seguridad, le doy el ejemplo de que con ustedes, gobernando con el PP, se redujeron en 12 000 efectivos. Con nosotros, en un año en Cataluña hay 800 efectivos más. ¿Usted se cree que la realidad que vive Barcelona -que no ocultamos, porque la trabajamos y la enfrentamos- es cuestión de un mes o dos? Eso es cuestión de años, de años de no trabajar en materia de seguridad, y nosotros lo estamos enfrentando. Ustedes lo saben, y les pido que no creen alarma, porque que España es un país seguro. Usted ha estado en ámbitos como los de<pb n="66"/> turismo y economía; si usted tiene realmente sentido de Estado y es patriota, ¿cree que puede generar falsedades? Lo que hacemos nosotros es afrontar las cuestiones: más medios materiales, más medios personales. En eso estamos invirtiendo, con un plan de infraestructuras, abordando las remuneraciones de las Fuerzas y Cuerpos de Seguridad del Estado y -se lo vuelvo a decir- con más efectivos. Usted tuvo el privilegio de trabajar bajo las órdenes del mejor ministro del Interior: qué poco ha aprendido de él.</seg>

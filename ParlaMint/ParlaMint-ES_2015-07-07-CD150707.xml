@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2015-07-07-CD150707"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 277 extraordinaria extraordinaria (2015-07-07) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 277 extraordinaria extraordinaria (2015-07-07)</title>
             <title xml:lang="en" type="sub">Plenary session 277 (2015-07-07)</title>
-            <meeting n="2015-07-07" corresp="#CD" ana="#parla.lower #parla.sitting">2015-07-07</meeting>
-            <meeting n="277" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 277 extraordinaria extraordinaria</meeting>
-            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
+            <meeting n="277" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 277 extraordinaria extraordinaria</meeting>
+            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -428,7 +422,7 @@
                <seg xml:id="ParlaMint-ES_2015-07-07-CD150707.u41.2">Por último, por el Grupo Parlamentario Popular, en primer lugar, tiene la palabra el señor López-Amor.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-07-07-CD150707.u42"
-               who="#LópezAmorFernando"
+               who="#LópezamorFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-07-07-CD150707.u42.1">Señora presidenta, señoras y señores diputados, tengo el inmenso honor de representar al Grupo Parlamentario Popular en el debate de totalidad de la modificación parcial de la Ley General Tributaria. Hace ya doce años, un 8 de julio, subía a esta misma tribuna y hoy, día 7 de julio, San Fermín, lo vuelvo a hacer para defender en esta Cámara un proyecto de modificación parcial también de la Ley General Tributaria. Sustituía la ley de hace doce años a la Ley de 1963, que, por cierto, era magnífica, y que a pesar de su brevedad innovó el derecho tributario, dejando para siempre expresiones que se han consolidado con el paso del tiempo, como el hecho imponible. Hay que enmarcar esta Ley de 1963 dentro del conjunto de leyes liberales que se promulgaron en nuestro país a partir del Plan de estabilización de 1959. En 2003, un régimen tributario masivo, la existencia de medios telemáticos y la obligación de dotar al contribuyente de los derechos que la Constitución consagra con carácter general como fundamentales hicieron necesaria esta ley; además, incorporó la Ley 25/1995, de Infracciones y Sanciones, y la Ley 1/1998, por la que se aprueba el Estatuto del contribuyente y que sigue vigente hoy en día todavía. Ahora, con indudable acierto, el Gobierno ha decidido hacer una modificación a través de un artículo único dividido en 67 apartados. ¿Por qué digo lo de acierto? Pues, sencillamente, porque mantiene su carácter codificador y la adaptación continua de la norma tributaria, cerrando además el ciclo de las leyes que han ido conformando el corpus legislativo en materia tributaria que tiene un fin concreto: la lucha contra el fraude fiscal. El proyecto que nos ocupa tiene ese carácter codificador y regula las relaciones jurídicas tributarias entre la Administración y los ciudadanos contribuyentes, dotándolos de mayor seguridad e incrementando la eficacia de la actuación administrativa en la aplicación de los tributos. Por tanto, es un acierto del Gobierno.</seg>
                <seg xml:id="ParlaMint-ES_2015-07-07-CD150707.u42.2">Entrando de pleno en el articulado del proyecto, en su espíritu teleológico, debemos destacar algunas novedades que han llamado la atención y que tienen como objetivo hacer posible y efectivo el artículo 31 de la Constitución española. Este principio constitucional se hace efectivo luchando contra el fraude fiscal, y no cabe duda de que si este proyecto reduce la conflictividad, aumentará la eficacia en la aplicación de los tributos. Por eso, regulamos por vez primera la publicidad de los datos tributarios, que se entrelaza con la publicación de las sentencias por delito fiscal.</seg>

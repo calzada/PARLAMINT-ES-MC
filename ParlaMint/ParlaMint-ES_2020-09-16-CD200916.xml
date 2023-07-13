@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-09-16-CD200916"
-     ana="#parla.sitting #covid">
+     ana="#covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 42 (2020-09-16) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 42 (2020-09-16)</title>
             <title xml:lang="en" type="sub">Plenary session 42 (2020-09-16)</title>
-            <meeting n="2020-09-16" corresp="#CD" ana="#parla.lower #parla.sitting">2020-09-16</meeting>
-            <meeting n="42" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 42</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
+            <meeting n="42" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 42</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -586,7 +580,7 @@
                <pb n="18"/>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-16-CD200916.u97"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-16-CD200916.u97.1">Muchas gracias, señora presidenta. Muchas gracias, señor Gil Lázaro.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-16-CD200916.u97.2">Comparto con el señor presidente del Gobierno que no es una buena noticia el suicidio de ningún interno en prisión.</seg>
@@ -609,7 +603,7 @@
                <seg xml:id="ParlaMint-ES_2020-09-16-CD200916.u100.3">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-16-CD200916.u101"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-16-CD200916.u101.1">Muchas gracias, señora presidenta. Gracias, señor Gil Lázaro.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-16-CD200916.u101.2">Mire, no soy el primer ministro, pero espero ser el último ministro que le diga que usted en sus intervenciones parlamentarias hace de la mentira, de la difamación y de la manipulación el centro de su intervención. Pero, hablando de cuestiones tan serias, tan importantes y que han conformado desgraciadamente cincuenta años de nuestra historia, hay que tener firmeza, fortaleza y hay que tener también templanza. Fortaleza y firmeza en valores democráticos, templanza en saber que todos, la mayoría de los que estamos en este hemiciclo, con los valores democráticos y el Estado de derecho vencimos a la organización terrorista ETA.</seg>
@@ -935,7 +929,7 @@
                <seg xml:id="ParlaMint-ES_2020-09-16-CD200916.u150.1">Muchas gracias.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> A continuación, tiene la palabra el señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-16-CD200916.u151"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-16-CD200916.u151.1">Señor presidente, señoras y señores diputados, señor Garriga, muchas gracias.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-16-CD200916.u151.2">Permítame solo cinco segundos para comentar una referencia que ha hecho a que quizá sea el peor ministro de las últimas décadas. Espero que sea de las cuatro últimas décadas y no de las ocho últimas. Esto último sí que me preocuparía.<note>Aplausos</note>
@@ -973,7 +967,7 @@
                <seg xml:id="ParlaMint-ES_2020-09-16-CD200916.u154.1">Gracias.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> Para concluir el debate, tiene la palabra, en nombre del Gobierno, el señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-09-16-CD200916.u155"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-09-16-CD200916.u155.1">Muchas gracias, señor presidente.</seg>
                <seg xml:id="ParlaMint-ES_2020-09-16-CD200916.u155.2">Señoras y señores diputados, señor Garriga, en primer lugar, déjeme que le refiera el documento suyo sobre el que he hecho indicaciones, Cien medidas para la España viva, página 20, medida 86.<note>Muestra la página web de VOX en un teléfono móvil</note> Aquí lo tiene, en la página web de VOX podrá conocerlo.</seg>

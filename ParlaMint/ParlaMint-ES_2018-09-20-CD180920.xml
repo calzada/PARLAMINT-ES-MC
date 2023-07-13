@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-09-20-CD180920"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 143 (2018-09-20) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 143 (2018-09-20)</title>
             <title xml:lang="en" type="sub">Plenary session 143 (2018-09-20)</title>
-            <meeting n="2018-09-20" corresp="#CD" ana="#parla.lower #parla.sitting">2018-09-20</meeting>
-            <meeting n="143" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 143</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="143" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 143</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -550,7 +544,7 @@
                <seg xml:id="ParlaMint-ES_2018-09-20-CD180920.u59.2">Para la defensa de las propuestas y de las enmiendas presentadas por el Grupo Parlamentario Popular, tiene la palabra el señor De Barrionuevo Gener.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-09-20-CD180920.u60"
-               who="#BarrionuevoAvelino"
+               who="#Barrionuevo"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-09-20-CD180920.u60.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2018-09-20-CD180920.u60.2">Antes de dar cuenta de las catorce propuestas de resolución presentadas por el Grupo Parlamentario Popular a la memoria del Consejo General del Poder Judicial del año 2016, permítanme ustedes agradecer el trabajo que en estos últimos cinco años ha venido realizando su presidente, don Carlos Lesmes, y los veinte vocales que lo integran y que ahora toca renovar. Quiero agradecer también la labor que a diario realizan los más de 5500 jueces y magistrados en todo el territorio nacional. Señorías, siempre he<pb n="32"/> mantenido que la justicia es la última salvaguarda en la defensa de los derechos y libertades de los ciudadanos y de nuestro Estado de derecho. Por eso, quiero mostrar mi apoyo al juez Pablo Llarena por su trabajo en la defensa de nuestra Constitución y de la democracia.<note>Aplausos</note> Las catorce propuestas presentadas por mi grupo las podemos dividir en tres grandes grupos. El primero de ellos incluye las propuestas relativas al funcionamiento de la justicia. Entre ellas, cabe destacar la propuesta que hemos presentado instando al Consejo General del Poder Judicial para que culmine la elaboración del informe que sobre las cargas de trabajo está elaborando. Otra propuesta insta a que se siga trabajando en el desarrollo del plan de riesgos laborales, para reducir la litigiosidad tanto en el orden civil como en el orden laboral, y a que se siga trabajando en la concienciación de los jueces y magistrados para utilizar las nuevas tecnologías.</seg>
@@ -562,7 +556,7 @@
                <seg xml:id="ParlaMint-ES_2018-09-20-CD180920.u61.1">Por favor, silencio.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-09-20-CD180920.u62"
-               who="#BarrionuevoAvelino"
+               who="#Barrionuevo"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-09-20-CD180920.u62.1">Por un lado consideramos que la presencia como tertulianos políticos de jueces y magistrados en activo en relación con procedimientos en los que han actuado como instructores en una fase oral puede comprometer el derecho de la defensa de los ciudadanos. Por otro lado, creemos que para reforzar la percepción de la independencia judicial, hay que regular de forma clara y precisa las reglas y criterios aplicables a los jueces y magistrados que deciden desempeñar cargos políticos en un Gobierno de la nación o en un Gobierno de las distintas administraciones públicas en su retorno a su actividad judicial. Es decir, hay que regular las puertas giratorias.<note>Continúan los rumores</note> Si el PSOE pide, en su propuesta 121, la regulación de las denominadas puertas giratorias entre el ejercicio de la abogacía y la judicatura; si el Grupo Ciudadanos pide la regulación de los criterios de compatibilidad de jueces y magistrados que dan cursos de formación y conferencias en entidades que litigan frecuentemente, porque consideran que ponen en duda la imparcialidad de estos y la imagen de la<pb n="33"/> independencia de los miembros de su carrera judicial, imagínense ustedes el caso de un senador, de un diputado o de un ministro del Interior, de Defensa o de Justicia que formase parte de una sala de lo penal o de lo contencioso-administrativo y que le tocara resolver casos como el de los ERE o los cursos de formación en Andalucía, donde hay imputados dos presidentes del Partido Socialista.<note>Aplausos</note> Señorías, yo no dudo de la profesionalidad pero quiero decirles una cosa que se dice en mi tierra: El César, además de serlo, ha de parecerlo. Y no es una cuestión ética, que también lo es, sino de estética y de confianza.<note>Rumores</note> Por último, quiero decir...</seg>
             </u>
@@ -570,7 +564,7 @@
                <seg xml:id="ParlaMint-ES_2018-09-20-CD180920.u63.1">Tiene que terminar, señoría.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-09-20-CD180920.u64"
-               who="#BarrionuevoAvelino"
+               who="#Barrionuevo"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-09-20-CD180920.u64.1">... al señor Artemi que creo que no se ha leído todas las propuestas, porque sabrá que la número 109 la habíamos retirado. Por falta de tiempo solo voy a puntualizar -y ya termino, señora presidenta- que vamos a votar en contra de las propuestas 71 y 77 del PDeCAT al considerar que en España no hay representantes políticos catalanes en el exilio, sino prófugos de la justicia, y tampoco hay presos políticos ,sino políticos presos. Y, por supuesto, votaremos en contra de que se suprima la Audiencia Nacional.</seg>
                <seg xml:id="ParlaMint-ES_2018-09-20-CD180920.u64.2">Muchas gracias.</seg>

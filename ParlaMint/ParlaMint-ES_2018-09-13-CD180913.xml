@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-09-13-CD180913"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 140 (2018-09-13) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 140 (2018-09-13)</title>
             <title xml:lang="en" type="sub">Plenary session 140 (2018-09-13)</title>
-            <meeting n="2018-09-13" corresp="#CD" ana="#parla.lower #parla.sitting">2018-09-13</meeting>
-            <meeting n="140" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 140</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="140" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 140</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -727,7 +721,7 @@
                <seg xml:id="ParlaMint-ES_2018-09-13-CD180913.u90.2">Por el Grupo Parlamentario Confederal de Unidos Podemos-En Comú Podem-En Marea, tiene la palabra, en primer, lugar el señor Gómez-Reino Varela.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-09-13-CD180913.u91"
-               who="#GómezReinoAntonio"
+               who="#GómezreinoAntonio"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-09-13-CD180913.u91.1">Ochenta años de vergüenza: cuarenta años de dictadura, más cuarenta años de impunidad. Frente a esto, una sociedad nueva y joven que se avergüenza de aquel pasado, frente a esto una sociedad madura democráticamente que quiere pasar página de una vez. Queremos pasar página, claro que sí, pero los que estamos hoy aquí y el conjunto de la sociedad no debemos olvidar a las miles de mujeres represaliadas, a los más de 30 000 bebés desaparecidos, a los<pb n="40"/> más de 190 000 fusilados y a los más de 114 000 desaparecidos que continúan enterrados en el Valle de los Caídos y en tantas cunetas y a los que tenemos que sacar.<note>Aplausos</note> En relación con el real decreto que viene a ratificación hoy, desde nuestro grupo manifestamos nuestra clara insatisfacción. Consta de un solo artículo, cuyo contenido nos parece absolutamente insuficiente, diría más, nos parece dolorosamente inexacto. No hubo, señores del Gobierno, una contienda, lo que hubo fue un golpe de Estado<note>aplausos</note> , antesala de una salvaje represión y antesala de cuarenta años de dictadura. No vamos a caer en la mentira de los dos bandos que parece que desliza ese real decreto. Ningún Estado democrático puede igualar a los asesinos con sus víctimas. No es lo mismo el torturador que el torturado, no es lo mismo la cultura y la educación que la violencia y el terror, no es lo mismo un dictador golpista que aquellos que fueron los legítimos defensores de la democracia y del orden constitucional.<note>Aplausos</note> Señores del Partido Socialista, cierto es que los socialistas, por desgracia, no disponen de demasiada credibilidad. Precisamente en esta Cámara hace pocas fechas votaron ustedes contra la ley de amnistía, y estamos en 2018. Después de veinte años de Gobiernos socialistas seguimos así.</seg>
                <seg xml:id="ParlaMint-ES_2018-09-13-CD180913.u91.2">¿Pero, qué fue lo que pasó? Lo que pasó fue un golpe del fascismo contra la democracia. Lo lacerante, lo doloroso es la anomalía española. En Europa quienes lucharon por la libertad fueron reconocidos como héroes de la democracia, mientras que en España fueron tratados como proscritos y como delincuentes. ¿Y qué decir de los combatientes antifascistas?, todos aquellos que, por ejemplo, entraron con La Nueve liberando París.<note>Aplausos</note> En España, ocultamiento y humillación; en Europa, orgullo y reconocimiento.</seg>

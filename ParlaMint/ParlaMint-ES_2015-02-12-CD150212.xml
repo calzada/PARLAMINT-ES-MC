@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2015-02-12-CD150212"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 241 (2015-02-12) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 241 (2015-02-12)</title>
             <title xml:lang="en" type="sub">Plenary session 241 (2015-02-12)</title>
-            <meeting n="2015-02-12" corresp="#CD" ana="#parla.lower #parla.sitting">2015-02-12</meeting>
-            <meeting n="241" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 241</meeting>
-            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
+            <meeting n="241" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 241</meeting>
+            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -376,7 +370,7 @@
                <seg xml:id="ParlaMint-ES_2015-02-12-CD150212.u32.2">Grupo Parlamentario Catalán, señor Guillaumes.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-02-12-CD150212.u33"
-               who="#GuillaumesFeliuJoan"
+               who="#GuillaumesFeliujoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-02-12-CD150212.u33.1">Presidente, señor ministro, señorías, el Grupo Parlamentario Catalán no ha presentado ninguna enmienda a la totalidad, primero, porque es un tema bastante técnico y, segundo, porque ha habido muchas consultas sectoriales que deben ser respetadas. Todo aquello que contribuya -y esperamos que finalmente así sea- a hacer unos entes de seguridad más democráticos, transparentes y accesibles nos parece bien. ¿Qué queríamos nosotros? De entrada, es una ley que tiene carácter histórico. El Cuerpo Nacional de Policía, la Policía Nacional, en casi treinta años de existencia nunca había tenido una norma en la que se hablara de derechos y deberes de la Policía; ahora se hace y no es un tema menor. Nos gusta que se prevean los derechos pero también los deberes de la Policía. Si me permite, señor ministro, estamos especialmente satisfechos de que se cite la obligación de discreción de los policías en torno a la información que obtienen en el ejercicio de sus funciones. A ver si a partir de ahora esto es así y dejan de aparecer en la primera hoja de los periódicos informaciones apócrifas y sin firmar. Por cierto, la última vez el señor ministro me habló de un dosier, el dosier Trías, que estaba en manos de la fiscalía. Olvidó el pequeño detalle de que la fiscalía había recomendado su archivo, información que no era menor, aunque técnicamente dijo la verdad, estaba en manos de la fiscalía. Pero hay que subrayar en positivo que se regulan los derechos y los deberes de la Policía por primera vez en treinta años.</seg>
                <seg xml:id="ParlaMint-ES_2015-02-12-CD150212.u33.2">Nosotros queremos insistir en la conciliación de la vida personal y familiar, en la igualdad de trato entre hombres y mujeres, introducir el tema de la violencia de género y, como hicimos con la Guardia Civil, el tema del acoso laboral y sexual. Intentaremos profundizar en algunos elementos que introduce la presente ley. Por otra parte, cosas que valoramos en positivo: la contratación del seguro de responsabilidad civil; protección social en caso de fallecimiento, incapacidad permanente total, etcétera. También que la ley recoja, dentro de la oposición libre, que se eleve el nivel de titulación porque también la media de las personas del Estado español ha subido y no tendría sentido que quienes defienden las libertades fundamentales de los individuos acabaran las titulaciones que en este momento ya se acercan al fracaso escolar. Por tanto, entendemos que esta adecuación es correcta. Esto y alguna otra cosa más que no nos parece mal es lo que nos ha impedido presentar una enmienda de totalidad.</seg>

@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2015-06-11-CD150611"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 270 (2015-06-11) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 270 (2015-06-11)</title>
             <title xml:lang="en" type="sub">Plenary session 270 (2015-06-11)</title>
-            <meeting n="2015-06-11" corresp="#CD" ana="#parla.lower #parla.sitting">2015-06-11</meeting>
-            <meeting n="270" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 270</meeting>
-            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
+            <meeting n="270" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 270</meeting>
+            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Legislatura X</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -296,7 +290,7 @@
                <seg xml:id="ParlaMint-ES_2015-06-11-CD150611.u27.2">Señor ministro de Asuntos Exteriores y Cooperación, tiene la palabra.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2015-06-11-CD150611.u28"
-               who="#GarcíaMargalloJosé"
+               who="#GarcíamargalloJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2015-06-11-CD150611.u28.1">Señor presidente, quiero agradecerle personalmente su sensibilidad y el interés que ha mostrado siempre en un tema histórico tan importante. Eso nos permite que por primera vez en esta Cámara seamos dos ministros los que presentemos un proyecto de ley de esta naturaleza. Es un proyecto de ley -se ha repetido aquí- que tiene una enorme importancia histórica. Al intervenir dos ministros, hemos querido manifestar que esto es una labor de todo el Gobierno y de este Gobierno en todas sus fases. Lo empezó en el Ministerio de Justicia, conmigo, el ministro Ruiz-Gallardón, y lo ha culminado el ministro Catalá. Es una muestra de la unidad del Gobierno en este tema a lo largo de todo su mandato.</seg>
                <seg xml:id="ParlaMint-ES_2015-06-11-CD150611.u28.2">Se ha repetido aquí -no voy a insistir en ello- que estamos aquí reparando una deuda histórica, una deuda histórica con comunidades judías que estaban en España desde hacía casi dos mil años, que protagonizaron probablemente los periodos de convivencia más brillantes de nuestra historia en aquella época en que España era la Hispania romana y goda, Al-Ándalus para los de religión musulmana y Sefarad para nuestros judíos, y que han sabido, después de la Diáspora, en quinientos años, mantener el amor, las tradiciones y la lengua -el ladino- que les unen a España.</seg>

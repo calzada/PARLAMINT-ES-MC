@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2020-11-18-CD201118"
-     ana="#parla.sitting #covid">
+     ana="#covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 60 (2020-11-18) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 60 (2020-11-18)</title>
             <title xml:lang="en" type="sub">Plenary session 60 (2020-11-18)</title>
-            <meeting n="2020-11-18" corresp="#CD" ana="#parla.lower #parla.sitting">2020-11-18</meeting>
-            <meeting n="60" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 60</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
+            <meeting n="60" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 60</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -559,7 +553,7 @@
                <seg xml:id="ParlaMint-ES_2020-11-18-CD201118.u88.1">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-11-18-CD201118.u89"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-11-18-CD201118.u89.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-11-18-CD201118.u89.2">Señora Vázquez, contestando a su última referencia, no, no voy a dimitir. Este Gobierno, el Ministerio del Interior y el conjunto de los ministerios del Gobierno llevan trabajando dos años y medio en materia migratoria, haciendo de nuevo política migratoria, que se había dejado de hacer durante siete años.<note>Un señor diputado: ¡Mentira!</note> Buena prueba de ello es que en el año 2019 se redujo la entrada en un 50 %, ¡algo de política migratoria debemos de saber y aplicar!<pb n="19"/> Esto no quiere decir nada respecto al problema que estamos atravesando, extraordinario y excepcional en Canarias este año, muy complejo y distinto, consecuencia también de la pandemia y de la presión migratoria que, también consecuencia de la pandemia, están sufriendo nuestros vecinos africanos, con los que hemos incrementado e implementado los trabajos de carácter operativo. Hemos incrementado los equipos conjuntos de investigación, más policía y más Guardia Civil, tanto en Mauritania como en Senegal y Gambia, más intercambio de información con Marruecos, desarticulación. Vemos los que llegan, pero no vemos los que hemos evitado que lleguen y que pongan en peligro su vida debido a las desarticulaciones de las mafias. Un trabajo complejo y que seguimos haciendo.</seg>
@@ -581,7 +575,7 @@
                <seg xml:id="ParlaMint-ES_2020-11-18-CD201118.u92.1">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-11-18-CD201118.u93"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-11-18-CD201118.u93.1">Brevemente, sea menos electoralista y sea más partido de Estado.<note>Rumores</note> Nosotros estamos haciendo política migratoria y, ¿saben lo que hicieron ustedes? Deshacer todas las infraestructuras. ¿Por qué ahora estamos trabajando en infraestructuras en Canarias? Porque ustedes las deshicieron durante siete años. ¿Por qué también en la Península y lo hemos conseguido en los años precedentes? Porque hemos puesto esas infraestructuras. Hoy ya serán trasladados los primeros migrantes desde el puerto de Arguineguin a Barranco Seco y así continuará. Y, evidente, ...</seg>
                <note>Aplausos</note>
@@ -605,7 +599,7 @@
                <seg xml:id="ParlaMint-ES_2020-11-18-CD201118.u97.1">Señor ministro del Interior.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2020-11-18-CD201118.u98"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-11-18-CD201118.u98.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-11-18-CD201118.u98.2">Gracias, señora Telechea. En primer lugar, quiero decirle que las Fuerzas y Cuerpos de Seguridad del Estado actúan en todo momento con absoluto respeto a la Constitución, a la ley y a los procedimientos y, sobre todo, como le he dicho en otras ocasiones, para la protección de nuestros derechos fundamentales y libertades públicas. Forma parte del ADN de las Fuerzas y Cuerpos de Seguridad del Estado. Forma parte de la formación -vamos a llamarla- intelectual para entrar en las Fuerzas y Cuerpos de Seguridad del Estado y de su formación continua. No hay en modo alguno un fenómeno generalizado de actuaciones que vulneren los derechos y libertades fundamentales, pero, si las hubiera, le vuelvo a decir que tenemos los mecanismos tanto internos como externos, como es el Poder Judicial, para poder determinar o dilucidar cualquier tipo de responsabilidad. Le recuerdo que España dentro del V-Dem Index de la Universidad de Gotemburgo, Suecia, figura en séptimo lugar como uno de los países donde se respetan las libertades, al igual que en independencia judicial. Vuelvo a decir que no hay una práctica generalizada, pero, si me habla usted de las filtraciones, claro que las considero intolerables. Considero intolerables las filtraciones tanto como ministro como juez en servicios especiales. ¿Sabe por qué? Porque generan juicios paralelos, y en eso seguro que coincidimos. ¿Sabe por qué? Porque no tienen una finalidad inocua, sino que tratan de perturbar las investigaciones judiciales intentando generar un sentido contrario a la verdad judicial, que es la que tenemos que estar esperando. Le digo que son investigadas y serán investigadas todas las filtraciones judiciales, como ya hemos dicho en más de una ocasión y lo ha dicho este ministro en este hemiciclo.</seg>
@@ -629,7 +623,7 @@
                <pb n="21"/>
             </u>
             <u xml:id="ParlaMint-ES_2020-11-18-CD201118.u102"
-               who="#GrandeMarlaskaFernando"
+               who="#GrandemarlaskaFernando"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2020-11-18-CD201118.u102.1">Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2020-11-18-CD201118.u102.2">Señora Telechea, intervengo brevemente por el tiempo que me queda. Le vuelvo a referir que las filtraciones de causas judiciales me preocupan y las filtraciones de hechos de esas causas judiciales, que poco tienen que ver con lo investigado, me preocupan aún más y serán objeto de investigación, pero respetemos al Poder Judicial. Ustedes han puesto una denuncia ante la Fiscalía y, evidentemente, las Fuerzas y Cuerpos de Seguridad del Estado van a colaborar de una forma decidida, como hacen siempre, en el esclarecimiento de los hechos. Le vuelvo a decir que estamos en un Estado de derecho, no tenga miedo a ese respecto. Le vuelvo a reiterar que a este ministro del Interior las filtraciones judiciales que normalmente son interesadas, y más si no tienen que ver con los hechos, le preocupan y serán esclarecidas.<note>Aplausos</note> - DEL DIPUTADO DON ÓSCAR CLAVELL LÓPEZ, EN SUSTITUCIÓN DE DOÑA MACARENA MONTESINOS DE MIGUEL, DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, QUE FORMULA A LA SEÑORA MINISTRA DE EDUCACIÓN Y FORMACIÓN PROFESIONAL: ¿QUÉ ENTIENDE LA MINISTRA DE EDUCACIÓN Y FORMACIÓN PROFESIONAL POR DAR CUMPLIMIENTO A LOS ARTÍCULOS 3 Y 27 DE LA CONSTITUCIÓN?</seg>

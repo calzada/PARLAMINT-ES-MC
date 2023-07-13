@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-11-20-CD181120"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 159 (2018-11-20) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 159 (2018-11-20)</title>
             <title xml:lang="en" type="sub">Plenary session 159 (2018-11-20)</title>
-            <meeting n="2018-11-20" corresp="#CD" ana="#parla.lower #parla.sitting">2018-11-20</meeting>
-            <meeting n="159" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 159</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="159" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 159</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -310,7 +304,7 @@
                <seg xml:id="ParlaMint-ES_2018-11-20-CD181120.u29.2">Tiene la palabra el señor Guillaumes i Ràfols.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-11-20-CD181120.u30"
-               who="#GuillaumesFeliuJoan"
+               who="#GuillaumesFeliujoan"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-11-20-CD181120.u30.1">Presidenta, señorías.</seg>
                <seg xml:id="ParlaMint-ES_2018-11-20-CD181120.u30.2">Permítanme que comience con una alusión personal. Yo soy padre adoptante. Es una situación diferente porque se trata de una adopción internacional, pero me acuerdo de que cuando mi mujer y yo decidimos dar ese paso sucedía una situación muy similar a la que hoy estamos describiendo cuando se denunció que en determinados países de África -que no voy a mencionar por respeto- se daban casos de robo y venta de bebés. Recuerdo la obsesión con la que intentamos encontrar un país donde estuviéramos seguros de que no hubiera sucedido esto, más que nada porque lo que tiene que ser una historia de amor entre padres e hijos que dure toda la vida no puede empezar con un acto monstruoso.</seg>
@@ -908,7 +902,7 @@
                <seg xml:id="ParlaMint-ES_2018-11-20-CD181120.u109.2">Por el Grupo Parlamentario Popular en el Congreso, tiene la palabra el señor García-Tizón López.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-11-20-CD181120.u110"
-               who="#GarcíaTizónArturo"
+               who="#GarcíatizónArturo"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-11-20-CD181120.u110.1">Señor presidente, señorías.</seg>
                <seg xml:id="ParlaMint-ES_2018-11-20-CD181120.u110.2">El Grupo Popular va a votar favorablemente esta moción presentada por el Grupo Ciudadanos. Es verdad que esta iniciativa se anticipa a hechos que todavía no se han producido, tales como que los procesados por el golpe de Estado celebrado en Cataluña sean enjuiciados y condenados por el Tribunal Supremo, que se pida el indulto de las penas por las que eventualmente podrían ser condenados o que se emitan los informes preceptivos a su concesión. También es cierto que el grupo proponente, a diferencia de lo hecho por el partido y por el Grupo Popular de intentar conseguir un efecto legal vinculante con lo pretendido por esta moción, podría haber enmendado la proposición de ley presentada por el Grupo Socialista de modificación de la Ley del indulto, en el sentido de haber excluido del derecho de gracia a quienes resultaren condenados por los delitos de rebelión y sedición. Pero no lo hizo así, limitándose a presentar tres enmiendas de corrección de estilo, y esta moción y su anterior interpelación son, señor Rivera, un mero lavado de cara a su anterior falta de propuestas vinculantes.<note>Aplausos</note> Frente a ello, el Grupo Popular sí ha presentado veintiuna enmiendas a esta proposición de ley del Grupo Socialista, en las que, entre otras modificaciones, propone excluir del derecho de gracia a los condenados por los delitos de rebelión y sedición; enmiendas cuya presentación había sido ya anunciada por el Grupo Popular en el debate de admisión de dicha iniciativa.</seg>
@@ -924,7 +918,7 @@
                <seg xml:id="ParlaMint-ES_2018-11-20-CD181120.u111.2">Continúe.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-11-20-CD181120.u112"
-               who="#GarcíaTizónArturo"
+               who="#GarcíatizónArturo"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-11-20-CD181120.u112.1">Para empezar este proceso de dislocación de España ya se ha acordado despenalizar las ofensas a los principales símbolos del Estado, empezando por la Corona, la bandera y los sentimientos religiosos de la mayoría de los españoles. En este camino se anuncia un nuevo estatuto para Cataluña que recupere los artículos declarados inconstitucionales por el Tribunal Constitucional y la celebración de un referéndum para mejorar su autogobierno. Se permite a la Generalitat de Catalunya la reapertura de las denominadas embajadas como altavoces internacionales de las tesis soberanistas y lo último es la actitud seguida por el Ejecutivo con los autores del procés: se les ha trasladado a los establecimientos penitenciarios de Cataluña, bajo dependencia de la Generalitat, donde disfrutan de un régimen privilegiado. Son varias ya las declaraciones de destacados dirigentes socialistas en pro de la concesión del indulto. Existe una inacción permanente del Gobierno del señor Sánchez ante los continuos desafíos y desplantes de los dirigentes separatistas catalanes. La Abogacía del Estado, en<pb n="48"/> línea con la rectificación de su anterior posición del presidente del Gobierno y contrariamente a lo mantenido por el fiscal y el juez instructor, presenta su escrito de acusación por el delito de sedición y no de rebelión. La misma paralización en la tramitación de su proposición de ley de modificación de la Ley del indulto es causa más que suficiente para ver la intención del Grupo Socialista de no debatir las excepciones propuestas por el Grupo Popular y el Grupo Mixto<note>señor Salvador</note> a la concesión del derecho de gracia en el caso de condena por los delitos de rebelión y sedición, pretextando en la última reunión de la ponencia la necesidad de abrir irregularmente un periodo de comparecencias para ilustrar a la Comisión sobre la idoneidad y posibilidad de estas enmiendas. Siendo así que ello tiene lugar cuando ya ha terminado este periodo, el Grupo Popular había advertido de las mismas en el debate de totalidad y el tiempo transcurrido desde entonces ha sido más que suficiente para haber propuesto y llevado a cabo estas comparecencias de última hora. El señor Sánchez, por continuar en la Moncloa, está traicionando los ideales que alumbraron nuestro primer texto legal, por ese nuevo plato de lentejas está dando la espalda a los millones de españoles que desean mantener nuestro marco constitucional sin cesiones a los separatistas ni a los nuevos comunistas. Su ego personal no puede dar de lado a los miles de catalanes que han clamado contra una minoría de soberanistas pues su deseo es seguir siendo españoles. La gran mayoría de los españoles quieren que la ley se cumpla y si los autores del procés son condenados, que cumplan la pena impuesta sin indulto e impunidad ninguna.</seg>
                <seg xml:id="ParlaMint-ES_2018-11-20-CD181120.u112.2">Este cambio que está llevando el señor Sánchez a cambio de mantenerse en la Presidencia del Gobierno está causando estragos en los antiguos militantes socialistas, que con la Constitución de 1978 conformaron un auténtico partido socialdemócrata a nivel de la mejor socialdemocracia europea y con el que hoy encuentran mucha dificultad en reconocerse, y temen, con razón, que termine diluyéndose en los nuevos postulados filocomunistas de Podemos.</seg>

@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="es"
      xml:id="ParlaMint-ES_2018-06-28-CD180628"
-     ana="#parla.sitting #reference">
+     ana="#reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,17 +10,11 @@
             <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 128 (2018-06-28) [ParlaMint]</title>
             <title xml:lang="es" type="sub">Sesión plenaria núm. 128 (2018-06-28)</title>
             <title xml:lang="en" type="sub">Plenary session 128 (2018-06-28)</title>
-            <meeting n="2018-06-28" corresp="#CD" ana="#parla.lower #parla.sitting">2018-06-28</meeting>
-            <meeting n="128" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 128</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="128" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 128</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Matyáš Kopp</persName>
-               <resp xml:lang="en">Government person metadata retrieval</resp>
-               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
@@ -57,7 +51,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -569,7 +563,7 @@
                <seg xml:id="ParlaMint-ES_2018-06-28-CD180628.u69.2">Señora secretaria, tiene la palabra.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2018-06-28-CD180628.u70"
-               who="#SánchezCamachoAlicia"
+               who="#SánchezcamachoAlicia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2018-06-28-CD180628.u70.1">Declaración del Congreso de los Diputados sobre la situación actual de la población gitana en Italia.</seg>
                <seg xml:id="ParlaMint-ES_2018-06-28-CD180628.u70.2">Con motivo de la estrecha relación entre España e Italia, y con el propósito de defender los derechos y libertades fundamentales de todos los seres humanos, sin discriminación por motivos de raza, género, religión, origen étnico u orientación sexual, el Congreso de los Diputados, en tanto que representante del pueblo español, expresa su profunda condena y rechazo al planteamiento del ministro del Interior italiano, Matteo Salvini, de crear un censo de personas gitanas que facilite la expulsión del país de aquellas que se encuentren en situación irregular.<pb n="24"/> El Pleno del Congreso de los Diputados expresa también su rechazo a las palabras textuales del ministro, que afirmó que 'los que sean italianos, desafortunadamente, habrá que quedárselos'. A estos efectos, el Congreso de los Diputados destaca que acciones así no están fundamentadas en el marco legal de la Unión Europea y atentan contra los principios más básicos de la democracia liberal. Además, señorías, recuerda que declaraciones y actitudes de este tipo nos retrotraen a los periodos más oscuros de la historia reciente del continente europeo.</seg>
