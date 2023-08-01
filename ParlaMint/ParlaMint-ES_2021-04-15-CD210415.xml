@@ -57,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2023-08-01">August 1, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -103,7 +103,9 @@
          <div type="debateSection">
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u1" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u1.1">Buenos días, señorías. Se reanuda la sesión.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u1.2">Comenzamos con el punto relativo a dictámenes...<note>El señor Figaredo Álvarez-Sala pide la palabra</note> Sí, señor Figaredo, ¿qué quiere?</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u1.2">Comenzamos con el punto relativo a dictámenes...<kinesic type="signal">
+                     <desc>El señor Figaredo Álvarez-Sala pide la palabra</desc>
+                  </kinesic> Sí, señor Figaredo, ¿qué quiere?</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u2"
                who="#FigaredoJosé"
@@ -151,7 +153,9 @@
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u10" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u10.1">Muchas gracias, señor Legarda.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u10.2">Por el Grupo Parlamentario Plural, que en este turno también fijará posición, tiene la palabra el señor Rego Candamil.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u10.2">Por el Grupo Parlamentario Plural, que en este turno también fijará posición, tiene la palabra el señor Rego Candamil.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u11"
                who="#RegoNéstor"
@@ -165,7 +169,9 @@
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u12" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u12.1">Muchas gracias, señor Rego.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u12.2">Por el mismo grupo parlamentario, tiene la palabra el señor Boadella Esteve.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u12.2">Por el mismo grupo parlamentario, tiene la palabra el señor Boadella Esteve.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u13"
                who="#BoadellaGenís"
@@ -175,7 +181,9 @@
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u13.3">Muchas gracias.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u14" ana="#chair">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u14.1">Gracias, señor Boadella.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u14.1">Gracias, señor Boadella.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u14.2">Por el Grupo Parlamentario Popular en el Congreso, tiene la palabra el señor Pedreño Molina.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u15"
@@ -183,15 +191,23 @@
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u15.1">Buenos días. Muchas gracias, señora presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u15.2">Señorías, hoy trasponemos en esta ley orgánica una directiva de la Unión Europea, del Parlamento Europeo y del Consejo del año 2016, una ley que persigue crear un marco regulador en lo que respecta al tratamiento de los datos personales,incluyendo todas las obligaciones y medidas de seguridad establecidas para el responsable de los datos de tratamiento y de los derechos de los interesados en los procesos penales, entre otros temas. Hasta aquí, señorías, todo correcto. Al final,es una trasposición muy técnica, pero la incompetencia del Gobierno tenía que aflorar una vez más y lo hace en esta ley.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u15.3">El plazo de trasposición de la directiva finalizó en mayo de 2018, motivo por el que la Comisión Europea inició un procedimiento mediante carta al Gobierno, en julio de 2018, y posteriormente, con<pb n="9"/> un dictamen motivado, en enero de 2019, es decir, la Unión Europea ya dio margen para ello. Al persistir el incumplimiento, en septiembre de 2019 la Comisión Europea presentó recurso ante el Tribunal de Justicia de la Unión Europea contrael Reino de España por la falta de trasposición de la directiva, al tiempo que solicitaba una sentencia condenatoria del Tribunal de Justicia de la Unión Europea, el 25 de febrero de 2021, hace dos meses. En definitiva, el Tribunal de Justicia dela Unión Europea ha condenado a España a pagar 15 millones de euros por no haber traspuesto todavía la directiva sobre protección de datos personales en las infracciones penales, y a esto hay que sumar los 89 000 euros diarios de multa coercitivapor cada día de retraso en que se prolongue este incumplimiento, contado desde la fecha de 25 de febrero, es decir, las cuentas son otras, salen más de 5 millones de euros por esta multa, en total 20 millones de euros con los que nos ha multado laUnión Europea. En marzo de 2019, España informa a Bruselas de que el procedimiento administrativo para la adopción de las medidas de trasposición estaba en marcha, que concluiría en julio de 2019 y que la tramitación parlamentaria habría concluidoen marzo de 2020, y estamos en abril de 2021. Según esta sentencia, España no negó haber incumplido sus obligaciones de adoptar y comunicar las medidas adoptadas en los plazos fijados -faltaría más-, pero justificó el retraso en circunstanciasinstitucionales muy excepcionales que obligaron a retrasar la tramitación. Señorías, esto es una auténtica tomadura de pelo, y esto lo tienen que saber los españoles, porque son 20 millones de euros tirados a la basura por la incompetencia de esteGobierno.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u15.3">El plazo de trasposición de la directiva finalizó en mayo de 2018, motivo por el que la Comisión Europea inició un procedimiento mediante carta al Gobierno, en julio de 2018, y posteriormente, con<pb n="9"/> un dictamen motivado, en enero de 2019, es decir, la Unión Europea ya dio margen para ello. Al persistir el incumplimiento, en septiembre de 2019 la Comisión Europea presentó recurso ante el Tribunal de Justicia de la Unión Europea contrael Reino de España por la falta de trasposición de la directiva, al tiempo que solicitaba una sentencia condenatoria del Tribunal de Justicia de la Unión Europea, el 25 de febrero de 2021, hace dos meses. En definitiva, el Tribunal de Justicia dela Unión Europea ha condenado a España a pagar 15 millones de euros por no haber traspuesto todavía la directiva sobre protección de datos personales en las infracciones penales, y a esto hay que sumar los 89 000 euros diarios de multa coercitivapor cada día de retraso en que se prolongue este incumplimiento, contado desde la fecha de 25 de febrero, es decir, las cuentas son otras, salen más de 5 millones de euros por esta multa, en total 20 millones de euros con los que nos ha multado laUnión Europea. En marzo de 2019, España informa a Bruselas de que el procedimiento administrativo para la adopción de las medidas de trasposición estaba en marcha, que concluiría en julio de 2019 y que la tramitación parlamentaria habría concluidoen marzo de 2020, y estamos en abril de 2021. Según esta sentencia, España no negó haber incumplido sus obligaciones de adoptar y comunicar las medidas adoptadas en los plazos fijados -faltaría más-, pero justificó el retraso en circunstanciasinstitucionales muy excepcionales que obligaron a retrasar la tramitación. Señorías, esto es una auténtica tomadura de pelo, y esto lo tienen que saber los españoles, porque son 20 millones de euros tirados a la basura por la incompetencia de esteGobierno.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u15.4">Centrándome en el texto de la ley, aunque la mayoría del articulado se ajusta a la trasposición de la directiva -como no puede ser de otra manera-, existen artículos y materias que no tienen correspondencia con esta directiva. Hay nuevasdisposiciones finales, que son enmiendas gubernamentales del PSOE y de Podemos, para las que hemos pedido desde mi grupo parlamentario un voto particular. Señorías, este Gobierno aprovecha varias enmiendas del PSOE y de Podemos para saltarse unavez más al Consejo de Estado e incluir materia que no es objeto de la directiva. Entre otras cosas, modifican las competencias del Consejo General del Poder Judicial. Modifican la Ley 50/1981, reguladora del Estatuto Orgánico del MinisterioFiscal. Lo que hacen es crear una unidad de supervisión y control de protección de datos, lo cual parece necesario, pero hay que leer la letra pequeña. Dicen: Al frente, como titular de esta unidad, estará una persona que sea jurista dereconocida competencia y con quince años de experiencia. ¿Por qué no un fiscal de carrera para ocupar dicho cargo en el ministerio fiscal? Es que hay mucha letra pequeña en estas enmiendas y, señores del Gobierno, señores del PSOE, señores dePodemos, ya no nos fiamos. Modifican también la Ley Orgánica del Poder Judicial, modifican nada más y nada menos que catorce artículos de esta ley, y todo esto en medio de una tramitación exprés, con carácter de urgencia y con el espantoso ridículode su Gobierno por no haber hecho los deberes en Europa y, sobre todo, por el despilfarro económico que esto conlleva. Son 20 millones de euros -repito- lo que nos va a costar su ineficacia y su incompetencia, y esto lo tienen que saber todos losespañoles, españoles a los que se les recorta y se les amenaza con inflarles a impuestos.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u15.5">Señor Marlaska, con veintidós ministerios y mil doscientos asesores, ¿de verdad que no han sido capaces de trasponer en dos años una ley que ya estaba prácticamente terminada en 2018 y que dejó preparada el Gobierno del Partido Popular?<note>Aplausos</note> Además, incluyen estas disposiciones finales sin informe del Consejo de Estado, del Consejo General del Poder Judicial o del Consejo Fiscal. Estas son sus enmiendas y esto empieza ya a ser muy grave. Todo esto en un momento histórico,como les recordaba ayer el presidente Casado, en el que hasta las propias asociaciones de jueces españoles se han manifestado en la Unión Europea contra sus actuaciones en el Poder Judicial.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u15.5">Señor Marlaska, con veintidós ministerios y mil doscientos asesores, ¿de verdad que no han sido capaces de trasponer en dos años una ley que ya estaba prácticamente terminada en 2018 y que dejó preparada el Gobierno del Partido Popular?<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Además, incluyen estas disposiciones finales sin informe del Consejo de Estado, del Consejo General del Poder Judicial o del Consejo Fiscal. Estas son sus enmiendas y esto empieza ya a ser muy grave. Todo esto en un momento histórico,como les recordaba ayer el presidente Casado, en el que hasta las propias asociaciones de jueces españoles se han manifestado en la Unión Europea contra sus actuaciones en el Poder Judicial.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u15.6">Por último, lo más sorprendente si cabe es que presentan en esta ley tres disposiciones finales que incluyen materias que son ajenas a la directiva. La disposición final cuarta modifica la Ley 19/2007 contra la violencia, el racismo, laxenofobia y la intolerancia en el deporte, cuando estamos viendo hoy un proyecto de ley de protección de datos del ámbito penal. La disposición final quinta modifica la Ley 5/2014 de Seguridad Privada. La disposición final sexta modifica el textorefundido de la Ley sobre tráfico, circulación de vehículos a motor y seguridad vial. Desde luego, esto es un auténtico despropósito. Por eso, el Grupo Parlamentario Popular ha presentado enmiendas para la supresión de estas disposiciones finalesque, por supuesto, esperamos que apoyen, aunque sabemos que no lo van hacer. En cualquier caso, vamos a votar a favor del dictamen por responsabilidad del Grupo Parlamentario Popular y para que no nos sigan sancionando por su dejación de funcionesy por la inoperancia de su Gobierno.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u15.7">Finalizo ya, señora presidenta, con un mensaje para usted, señor Marlaska. Es obvio que aún no ha dimitido. Agradecemos su presencia en el hemiciclo para que al menos pase la vergüenza de sentirse<pb n="10"/> señalado hoy como autor del hurto de 20 millones de euros que se nos ha perpetrado a todos los españoles por estar en otras cosas en lugar de hacer su trabajo como ministro del Interior.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u15.8">Muchas gracias.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u15.8">Muchas gracias.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u16" ana="#chair">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u16.1">Gracias, señor Pedreño.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u16.1">Gracias, señor Pedreño.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u16.2">En turno de fijación de posiciones, por el Grupo Parlamentario Euskal Herria Bildu, tiene la palabra la señora Pozueta Fernández.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u17"
@@ -204,7 +220,9 @@
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u17.5">Mila esker.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u18" ana="#chair">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u18.1">Gracias, señora Pozueta.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u18.1">Gracias, señora Pozueta.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u18.2">Por el Grupo Parlamentario Ciudadanos, tiene la palabra señor Bal Francés.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u19"
@@ -220,61 +238,97 @@
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u19.8">Yo lo entiendo, señor Grande-Marlaska, porque el requerimiento que se hace a España es de julio del año 2018 y la moción de censura el presidente Sánchez la gana en junio, es decir, todo el trayecto o todo el lapso temporal ha sido usted elministro del Interior. Pero, claro, se ha preocupado, por ejemplo, de falsear informes policiales en relación con las agresiones que Ciudadanos sufrió el Día del Orgullo; se ha preocupado usted de cesar a funcionarios honestos que querían cumplircon su obligación tanto en la Policía Nacional como en la Guardia Civil; se ha ocupado usted de acercar presos de ETA al País Vasco, y parece que se le ha olvidado trasponer la directiva y nos ha caído ese rejón de 20 millones de euros que llevamosya devengados desde que se nos impuso la sanción, 20 millones de euros que estarían mucho mejor dedicados al pago de los ERTE, al pago, por ejemplo, del ingreso mínimo vital o al pago de las pensiones y que, sin embargo, se van a ir del Tesoropúblico a Europa como consecuencia de su negligencia; no se puede decir de otra manera.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u19.9">Quiero referirme, también, a las enmiendas que mantienen vivas el Partido Nacionalista Vasco y el Partido Popular. En cuanto a las del Partido Nacionalista Vasco, no entiendo por qué su ministerio, por qué el Partido Socialista no las haadmitido cuando son enmiendas garantistas, son enmiendas que tratan de establecer una mayor protección de la intimidad de las personas con respecto a la custodia de sus datos y, por lo tanto, votaremos a favor. Y tiene toda la razón el PartidoPopular diciendo que no se puede utilizar esta ley para meter por medio otras cosas que nada tienen que ver, como la seguridad vial o la regulación de la vigilancia de seguridad, y también votaremos a favor.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u19.10">En definitiva -termino ya-, parece que en esta Cámara cuando los temas no se contaminan de política, no se contaminan de ideología, somos capaces de llegar a acuerdos y de llegar a consensos. No me explico, de verdad, cómo no llegamos aacuerdos en las vacunas, en la sanidad, en la educación, en el reparto de fondos europeos, en la reforma laboral, en los temas que importan a los españoles.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u19.11">Gracias.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u19.11">Gracias.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u20" ana="#chair">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u20.1">Muchas gracias, señor Bal.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u20.1">Muchas gracias, señor Bal.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u20.2">Por el Grupo Parlamentario Confederal de Unidas Podemos-En Comú Podem-Galicia en Común, tiene la palabra la señora Velarde Gómez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u21"
                who="#VelardeMartina"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u21.1">Gracias, presidenta.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u21.2">Buenos días, señorías, señor ministro. Me prometía a mí misma que cuando subiera aquí no iba a entrar en sus provocaciones y me iba a dedicar exclusivamente a hablar de la ley que nos ocupa. Igual llevo poco tiempo en el Congreso, pero nome acostumbro a que puedan faltar a la verdad de esa manera y a que utilicen ese cinismo -no me acostumbro- y espero además no acostumbrarme nunca. Es impresionante que estén aquí responsabilizando al Gobierno de que no se haya traspuesto laDirectiva 2016/680, sobre protección de datos de las personas físicas, ya que si llega con sumo retraso es porque el Partido Popular -hay que decirlo así- tenía que haber traspuesto esta directiva antes -les recuerdo- del 6 de mayo de 2018.<note>Aplausos</note> Les recuerdo que esa moción de censura, por la que echamos al Partido Popular, se realizó -lo estaba apuntando ahora- el 31 de mayo y el 1 de junio. Es decir, todos los Estados miembros -todos- tenían que adoptar esta norma -lo repito-antes del 6 de mayo, cuando ustedes gobernaban. Si luego ha venido una multa, es porque ustedes no hicieron su trabajo. Es su inoperancia, por lo tanto, lo que ha provocado que el Tribunal de Justicia de la Unión Europea, evidentemente, impongauna multa de 15 millones euros a España y presumen ustedes de ser buenos gestores. De verdad, señorías del PP, es que en realidad han sido los peores gestores de nuestra democracia. Entre las corruptelas, las multas que nos está poniendo en laUnión Europea, su mala gestión y su dejadez, porque es lo que es, dejadez, ustedes no tienen años de vida suficientes para devolver a España todo lo que le deben. Ustedes negocian bien los negocios privados a costa de lo público, que lo sabemos,las mordidas, los enriquecimientos ilícitos, los contratos de empresas amigas y las puertas giratorias con las multinacionales, además, a las que premian cuando gobiernan, pero cuando se trata de<pb n="13"/> gestionar lo que es de todas, son una auténtica ruina. No vengan ustedes a dar aquí lecciones de absolutamente nada, señorías del PP. Digo esto nada más empezar y lo estoy diciendo porque es que me está indignando su pasotismo, lo voy adecir así, en aprobar esta ley de protección de datos que nos ha costado, efectivamente, a los españoles y a las españolas 15 millones de euros de multa.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u21.3">Posteriormente a que ustedes fuesen sacados del Gobierno, les recuerdo que ha habido la disolución de las Cortes por dos veces en 2019 y la llegada de una pandemia que ha impedido aprobar esta norma antes, y aun así, con todas esasdificultades, es este Gobierno el que está haciendo el trabajo que ustedes tenían que hacer y que no hicieron. Un poquito de pudor, por favor, señorías del PP.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u21.2">Buenos días, señorías, señor ministro. Me prometía a mí misma que cuando subiera aquí no iba a entrar en sus provocaciones y me iba a dedicar exclusivamente a hablar de la ley que nos ocupa. Igual llevo poco tiempo en el Congreso, pero nome acostumbro a que puedan faltar a la verdad de esa manera y a que utilicen ese cinismo -no me acostumbro- y espero además no acostumbrarme nunca. Es impresionante que estén aquí responsabilizando al Gobierno de que no se haya traspuesto laDirectiva 2016/680, sobre protección de datos de las personas físicas, ya que si llega con sumo retraso es porque el Partido Popular -hay que decirlo así- tenía que haber traspuesto esta directiva antes -les recuerdo- del 6 de mayo de 2018.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Les recuerdo que esa moción de censura, por la que echamos al Partido Popular, se realizó -lo estaba apuntando ahora- el 31 de mayo y el 1 de junio. Es decir, todos los Estados miembros -todos- tenían que adoptar esta norma -lo repito-antes del 6 de mayo, cuando ustedes gobernaban. Si luego ha venido una multa, es porque ustedes no hicieron su trabajo. Es su inoperancia, por lo tanto, lo que ha provocado que el Tribunal de Justicia de la Unión Europea, evidentemente, impongauna multa de 15 millones euros a España y presumen ustedes de ser buenos gestores. De verdad, señorías del PP, es que en realidad han sido los peores gestores de nuestra democracia. Entre las corruptelas, las multas que nos está poniendo en laUnión Europea, su mala gestión y su dejadez, porque es lo que es, dejadez, ustedes no tienen años de vida suficientes para devolver a España todo lo que le deben. Ustedes negocian bien los negocios privados a costa de lo público, que lo sabemos,las mordidas, los enriquecimientos ilícitos, los contratos de empresas amigas y las puertas giratorias con las multinacionales, además, a las que premian cuando gobiernan, pero cuando se trata de<pb n="13"/> gestionar lo que es de todas, son una auténtica ruina. No vengan ustedes a dar aquí lecciones de absolutamente nada, señorías del PP. Digo esto nada más empezar y lo estoy diciendo porque es que me está indignando su pasotismo, lo voy adecir así, en aprobar esta ley de protección de datos que nos ha costado, efectivamente, a los españoles y a las españolas 15 millones de euros de multa.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u21.3">Posteriormente a que ustedes fuesen sacados del Gobierno, les recuerdo que ha habido la disolución de las Cortes por dos veces en 2019 y la llegada de una pandemia que ha impedido aprobar esta norma antes, y aun así, con todas esasdificultades, es este Gobierno el que está haciendo el trabajo que ustedes tenían que hacer y que no hicieron. Un poquito de pudor, por favor, señorías del PP.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u21.4">¿Han pensado alguna vez en qué se podían haber invertido esos 15 millones de euros en nuestro país, ese multa por su mala gestión -repito, para que lo sepa todo el mundo- y por su dejación de funciones? Son 15 millones de euros lo quecuesta, por ejemplo, la transferencia que el Ministerio de Derechos Sociales hace a las comunidades autónomas para el Programa de garantía alimenticia para niños y niñas en situación de pobreza para los meses de verano, o equivale a una ayudafamiliar de 420 euros para 35 500 españoles y españolas en situación de desempleo. Son 15 millones de euros, mucho dinero, por supuesto, y este país los necesita. Deberían subir aquí y, en vez de decir lo que han dicho, pedir disculpas a todos losespañoles y a las españolas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u21.5">Dicho esto, que me indigna profundamente, nuestro grupo parlamentario va a votar a favor de esta ley, que además nuestro Grupo Confederal de Unidas Podemos ha mejorado en el trámite parlamentario para que la ley que salga de aquí aprobadasea más garantista y se salvaguarden, además, los derechos fundamentales de la ciudadanía española.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u21.6">La principal diferencia entre un régimen autoritario y una democracia son las garantías también judiciales y esta ley recoge precisamente mayores garantías que las que dispone la propia directiva, como ustedes saben. Se establece una debidacerteza y una salvaguarda de los derechos fundamentales de la ciudadanía española a la hora de guiar la actuación de la Policía judicial, por lo que establece también la precisión y garantía, la posibilidad de solicitud de datos por parte de laPolicía judicial, remarcando la obligatoriedad de dación de cuentas a la autoridad judicial o al ministerio fiscal sobre las actuaciones llevadas a cabo por la Policía judicial; garantías estas sobre las que nuestro Grupo Confederal ha estadotrabajando de manera incansable estos últimos meses para que el texto final las incorporase.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u21.7">Además, también hay un dato importante sobre la conservación de los datos de carácter penal. La norma que aprobamos establece un plazo garantista de revisión de su almacenamiento cada tres años, a diferencia también de la directiva quedejaba abierta esa posibilidad. Se establece también, a diferencia de la directiva, un plazo máximo de veinte años para el almacenamiento de los datos tras cada revisión trianual como está legislado, aun cuando con carácter extraordinario la normapermite superar los plazos ordinarios establecidos cuando concurran determinados supuestos de hecho, como puede ser la no prescripción del delito o una necesidad de protección a las víctimas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u21.8">Con la aprobación de esta ley -y voy terminando- España se convierte en un país a la vanguardia internacional en los estándares y garantías de la protección de datos y de derechos de las personas físicas y así, señorías del PP, se defiendeeste país. Defender nuestro país es defender y proteger a los españoles y a las españolas, no su pasotismo y su dejadez. Lo repito, antes del 6 de mayo tenían que hacer este trabajo, estaban gobernando. La multa de 15 millones de euros que Europanos ha impuesto es por su incapacidad de trasponer una directiva europea. Yo me pregunto, señorías del PP, si no valen ustedes siquiera para trasponer una directiva europea, ¿para qué valen?</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u21.9">Muchas gracias.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u21.9">Muchas gracias.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u22" ana="#chair">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u22.1">Gracias, señora Velarde.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> .</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u22.2">Por el Grupo Parlamentario VOX, tiene la palabra el señor Calvo Liste.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u22.1">Gracias, señora Velarde.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u22.2">Por el Grupo Parlamentario VOX, tiene la palabra el señor Calvo Liste.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u23"
                who="#CalvoPablo"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u23.1">Gracias, señora presidenta.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u23.2">Señorías, desde esta tribuna quiero enviar un fuerte abrazo a todos aquellos que la semana pasada en Vallecas sufrieron y padecieron la intolerancia y la violencia y, en concreto, a todos aquellos que asistieron y resultaron con la cabezaabierta como consecuencia de los adoquines que se lanzaron. También a nuestro compañero diputado Ángel López Maraver, que resultó herido de una pedrada en la mano, y cómo no, a la Policía Nacional, abandonada a su suerte, señor Marlaska. Gracias aellos se pudieron evitar consecuencias aún mayores. Los propios agentes de la policía resultaron pateados y golpeados. Desde aquí les mando un fuerte abrazo para todos ellos, verdaderos ángeles de la guarda.<note>Aplausos</note> .<pb n="14"/> La trasposición de la directiva que nos traen hoy aquí, bajo el paraguas del Ministerio del Interior, llega tarde, muy tarde y se hace con prisas. Un desajuste más de este Gobierno, un desajuste más de este Ministerio del Interior, cuyacabeza visible desprotege a los ciudadanos, ordena que no se actúe frente a los violentos, acerca presos etarras en pago de apoyos parlamentarios y destituye a miembros de la Guardia Civil y de la Policía Nacional por cumplir con su deber. Marlaskay Sánchez deben dimitir ya.<note>Aplausos</note> .</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u23.3">Cinco años después de la emisión de esta directiva en abril de 2016, cuyo plazo de trasposición expiró en mayo de 2018, sigue sin hacerse a día de hoy. Ante el incumplimiento, la Comisión Europea decidió iniciar en septiembre de 2019 unprocedimiento contra el Gobierno de España, que culminó con la sentencia del Tribunal de Justicia de la Unión Europea, Sala octava, de 25 de febrero de este año, en la que se decide: primero, declarar que el Reino de España ha incumplido lasobligaciones que le incumben al no haber adoptado las disposiciones legales reglamentarias y administrativas para dar cumplimiento a la directiva ni haberlas comunicado; segundo, declarar que ha persistido el incumplimiento; tercero, condenar apagar a la Comisión Europea, desde la sentencia y hasta que se ponga fin al incumplimiento declarado, la multa coercitiva de 89 000 euros diarios; cuarto, condenar a abonar a la Comisión Europea una multa a tanto alzado de 15 millones de euros, yquinto, condenar a las costas, tanto las propias como las de la Comisión Europea. ¿Se hacen una idea de cuántas familias pueden sobrevivir con los 89 000 euros diarios? ¿Lo saben realmente, señorías? Hoy esta multa diaria acumula ya un total de 4361 000 euros, cantidad que se incrementa día a día. ¿Podemos permitirnos estas escandalosas cifras en un momento como el actual, con cuatro millones de parados y más de 750 000 personas en ERTE? La respuesta es clara y contundente: no podemospermitirlo.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u23.2">Señorías, desde esta tribuna quiero enviar un fuerte abrazo a todos aquellos que la semana pasada en Vallecas sufrieron y padecieron la intolerancia y la violencia y, en concreto, a todos aquellos que asistieron y resultaron con la cabezaabierta como consecuencia de los adoquines que se lanzaron. También a nuestro compañero diputado Ángel López Maraver, que resultó herido de una pedrada en la mano, y cómo no, a la Policía Nacional, abandonada a su suerte, señor Marlaska. Gracias aellos se pudieron evitar consecuencias aún mayores. Los propios agentes de la policía resultaron pateados y golpeados. Desde aquí les mando un fuerte abrazo para todos ellos, verdaderos ángeles de la guarda.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .<pb n="14"/> La trasposición de la directiva que nos traen hoy aquí, bajo el paraguas del Ministerio del Interior, llega tarde, muy tarde y se hace con prisas. Un desajuste más de este Gobierno, un desajuste más de este Ministerio del Interior, cuyacabeza visible desprotege a los ciudadanos, ordena que no se actúe frente a los violentos, acerca presos etarras en pago de apoyos parlamentarios y destituye a miembros de la Guardia Civil y de la Policía Nacional por cumplir con su deber. Marlaskay Sánchez deben dimitir ya.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u23.3">Cinco años después de la emisión de esta directiva en abril de 2016, cuyo plazo de trasposición expiró en mayo de 2018, sigue sin hacerse a día de hoy. Ante el incumplimiento, la Comisión Europea decidió iniciar en septiembre de 2019 unprocedimiento contra el Gobierno de España, que culminó con la sentencia del Tribunal de Justicia de la Unión Europea, Sala octava, de 25 de febrero de este año, en la que se decide: primero, declarar que el Reino de España ha incumplido lasobligaciones que le incumben al no haber adoptado las disposiciones legales reglamentarias y administrativas para dar cumplimiento a la directiva ni haberlas comunicado; segundo, declarar que ha persistido el incumplimiento; tercero, condenar apagar a la Comisión Europea, desde la sentencia y hasta que se ponga fin al incumplimiento declarado, la multa coercitiva de 89 000 euros diarios; cuarto, condenar a abonar a la Comisión Europea una multa a tanto alzado de 15 millones de euros, yquinto, condenar a las costas, tanto las propias como las de la Comisión Europea. ¿Se hacen una idea de cuántas familias pueden sobrevivir con los 89 000 euros diarios? ¿Lo saben realmente, señorías? Hoy esta multa diaria acumula ya un total de 4361 000 euros, cantidad que se incrementa día a día. ¿Podemos permitirnos estas escandalosas cifras en un momento como el actual, con cuatro millones de parados y más de 750 000 personas en ERTE? La respuesta es clara y contundente: no podemospermitirlo.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u23.4">Responsables por igual de esta inmoralidad que avergüenza a España y a todos los españoles, que tienen que sufragar con sus impuestos esta obligación, son el último Gobierno del Partido Popular, señores del Grupo Popular, en efecto, quien,tras agotar el plazo de dos años concedido para su trasposición, no la lleva a cabo, y, cómo no, el actual Gobierno socialcomunista, que alegó razones de contexto político para excusarse mientras -eso sí- pactaba, precisamente, la configuración desu Gobierno con los enemigos de España. Y es que este Gobierno estaba a lo suyo y los demás, salvo VOX, también, pues, como recordarán, ya en el año pasado nuestra portavoz adjunta, Macarena Olona, solicitó del Congreso que se declarasen hábileslos meses de julio y agosto para trabajar, precisamente, en cuestiones urgentes y que no permitían dilación, como es la presente trasposición. Solo 52 diputados estaban dispuestos a ello, los 52 de VOX. Faltaban 124 diputados de los 176necesarios. Ya conocen todos ustedes el resultado.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u23.5">Estamos ante la primera sentencia en la que el Tribunal de Justicia de la Unión Europea impone con arreglo al artículo 260, apartado 3, del Tratado de Funcionamiento de la Unión Europea los dos tipos de sanción económica al mismo tiempo. Esuna sentencia durísima por incumplimiento, una sentencia dictada, precisamente, bajo este Gobierno socialcomunista. Se desacredita a España y a los españoles. Por eso, fruto de las prisas y de las sentencias, se nos trae hoy aquí un textodeslavazado, desajustado y sin orden, con referencias a párrafos previos, demostrando un claro parcheo sobre la marcha, hasta tal punto que se procede a la modificación de cuerpos normativos tan fundamentales como el Estatuto Orgánico del MinisterioFiscal y la Ley Orgánica del Poder Judicial y se hace además vía enmienda, incorporando a la disposición final primera una disposición final bis y una ter, lo que denota una clara falta técnica legislativa y además realizada en inaudita parte.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u23.6">No olvidemos que la directiva traspuesta en el proyecto de ley conjuga un doble propósito. Por un lado, facilitar la eficacia de cooperación tanto policial como judicial a nivel europeo e internacional para el éxito de investigaciones yprocedimientos penales, y por otro, la protección y defensa de los derechos de los ciudadanos, en especial, el derecho a la intimidad consagrado en el artículo 18.4 de la Constitución española. En la misma exposición de motivos de este proyecto serecoge que la directiva traspuesta se aprobó como respuesta a las crecientes amenazas para la seguridad en el contexto nacional e internacional, que tiene en numerosos casos un componente transfronterizo. Esperemos que esta protección ycolaboración en el tratamiento de datos sirva para impedir que prófugos de las justicias soberanas de las distintas naciones puedan encontrar refugio en lugares donde deberían ser detenidos inmediatamente y puestos a disposición de las autoridades,como son Puigdemont y sus secuaces.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u23.7">Muchas gracias.<note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario VOX, puestos en pie</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u23.7">Muchas gracias.<kinesic type="applause">
+                     <desc>Aplausos de las señoras y los señores diputados del Grupo Parlamentario VOX, puestos en pie</desc>
+                  </kinesic> .</seg>
                <pb n="15"/>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u24" ana="#chair">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u24.1">Gracias, señor Calvo.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u24.1">Gracias, señor Calvo.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u24.2">Por el Grupo Parlamentario Socialista tiene la palabra el señor Serrada Pariente.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u25"
                who="#SerradaDavid"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u25.1">Muchas gracias, presidenta.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u25.2">Señor Bal -no le veo ahora-, creo que está usted haciendo campaña ahora en Madrid, y la verdad es que se nota, lo que pasa es que cuando uno hace campaña también, señores de Ciudadanos, deben ser un poco más rigurosos a la hora de decir lascosas y cuando vierten algunas acusaciones sobre falsear informes porque, hombre, ustedes tuvieron aquí la oportunidad de recriminar al Partido Popular por la utilización indebida del Ministerio del Interior y lo que hicieron fue abstenerse en eldictamen de esa Comisión de investigación.<note>Aplausos</note> Por lo tanto, señores de Ciudadanos, señor Edmundo, 'Madrileños por Edmundo', dejen de hacer campaña y céntrense en lo que se tienen que centrar hoy.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u25.3">Muchas gracias, señor ministro, muchas gracias por la labor que realiza usted al frente del Ministerio del Interior, una labor que tiene que ver, sobre todo, por recuperar la dignidad en un ministerio fundamental, un ministerio de Estado yun ministerio que debe velar por la seguridad, la libertad y la confianza de todos los españoles. Muchas gracias, señor ministro.<note>Aplausos</note> .</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u25.4">Señor Pedreño, vaya estreno que ha tenido usted hoy. Creo que, o no le han informado bien, o usted nos quería desinformar, una de las dos cosas. Usted hablaba de tomadura de pelo, pero si usted nos ha tomado el pelo aquí afirmandoclaramente que no han sido ustedes los que han incumplido los plazos de trasposición de esta ley, pero sí que han sido ustedes, señor Pedreño.<note>Rumores</note> Usted ha pasado por alto algunas cositas que han pasado en nuestro país durante este periodode tiempo y muchas de ellas tienen que ver con ustedes y con su gestión. Han pasado por alto que ha habido ciclos electorales, han pasado por alto que esta Cámara no ha tenido una actividad parlamentaria, pero, sobre todo, y lo más dañino que hanhecho ustedes hoy, es pasar por alto que estamos ante el peor momento económico, sanitario y social que está atravesando nuestro país y que la actividad de esta Cámara<note>aplausos</note> , señor Pedreño, señorías del Partido Popular, tiene que ver sobre todocon rescatar a la gente, con rescatar a las personas, con poner en marcha leyes y medidas que acompañen al rescate de esas personas, señores del Partido Popular.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u25.2">Señor Bal -no le veo ahora-, creo que está usted haciendo campaña ahora en Madrid, y la verdad es que se nota, lo que pasa es que cuando uno hace campaña también, señores de Ciudadanos, deben ser un poco más rigurosos a la hora de decir lascosas y cuando vierten algunas acusaciones sobre falsear informes porque, hombre, ustedes tuvieron aquí la oportunidad de recriminar al Partido Popular por la utilización indebida del Ministerio del Interior y lo que hicieron fue abstenerse en eldictamen de esa Comisión de investigación.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Por lo tanto, señores de Ciudadanos, señor Edmundo, 'Madrileños por Edmundo', dejen de hacer campaña y céntrense en lo que se tienen que centrar hoy.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u25.3">Muchas gracias, señor ministro, muchas gracias por la labor que realiza usted al frente del Ministerio del Interior, una labor que tiene que ver, sobre todo, por recuperar la dignidad en un ministerio fundamental, un ministerio de Estado yun ministerio que debe velar por la seguridad, la libertad y la confianza de todos los españoles. Muchas gracias, señor ministro.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u25.4">Señor Pedreño, vaya estreno que ha tenido usted hoy. Creo que, o no le han informado bien, o usted nos quería desinformar, una de las dos cosas. Usted hablaba de tomadura de pelo, pero si usted nos ha tomado el pelo aquí afirmandoclaramente que no han sido ustedes los que han incumplido los plazos de trasposición de esta ley, pero sí que han sido ustedes, señor Pedreño.<vocal type="murmuring">
+                     <desc>Rumores</desc>
+                  </vocal> Usted ha pasado por alto algunas cositas que han pasado en nuestro país durante este periodode tiempo y muchas de ellas tienen que ver con ustedes y con su gestión. Han pasado por alto que ha habido ciclos electorales, han pasado por alto que esta Cámara no ha tenido una actividad parlamentaria, pero, sobre todo, y lo más dañino que hanhecho ustedes hoy, es pasar por alto que estamos ante el peor momento económico, sanitario y social que está atravesando nuestro país y que la actividad de esta Cámara<kinesic type="applause">
+                     <desc>aplausos</desc>
+                  </kinesic> , señor Pedreño, señorías del Partido Popular, tiene que ver sobre todocon rescatar a la gente, con rescatar a las personas, con poner en marcha leyes y medidas que acompañen al rescate de esas personas, señores del Partido Popular.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u25.5">Creo que la Comisión de Interior a lo largo de este periodo de tiempo ha desarrollado un trabajo magnífico. De las cinco leyes orgánicas que se han trasladado esta Cámara y que se han aprobado, una viene de la Comisión de Interior, pero hoyaprobamos la segunda ley orgánica de esta legislatura -la sexta- que tiene que ver con la Comisión de Interior, porque cuando en el Congreso nos dedicamos a hacer nuestro trabajo, a llegar a acuerdos, a legislar, la sociedad avanza; porque cuandoel Ministerio del Interior se dedica a lo que se tiene que dedicar, que es garantizar el libre ejercicio de derechos y libertades de los españoles, la sociedad avanza; porque cuando el Ministerio del Interior se dedica a eliminar chiringuitosparapoliciales, la limpieza en nuestra democracia queda fuera de toda duda, y porque cuando el Ministerio del Interior se dedica a proteger, a ayudar y defender a las Fuerzas y Cuerpos de Seguridad del Estado, se aumentan sus retribuciones en un 20%, se convocan más de 5000 plazas de policías y guardias civiles, se desarrolla un plan de infraestructuras con más de 600 millones de euros o se aumentan las inversiones para la compra de más de 18 000 chalecos o nuevos vehículos policiales. Señorías, esto sí es apoyar a las Fuerzas y Cuerpos de Seguridad del Estado, no lo que hacen, ustedes señores de la derecha.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u25.6">Me centro ya en la norma que aprobamos hoy en el Congreso de los Diputados, una norma necesaria, una norma que nos pone en el camino de otros países europeos como Francia, Italia, Portugal o el Reino Unido en cuanto al control y protecciónde datos personales. Es más, podemos decir que con este texto normativo nos ponemos a la vanguardia de muchos de estos países, de muchos países en nuestro entorno, sobre todo en cuanto a la revisión y en cuanto a la eliminación de estos datospersonales. Además, aportamos y damos a las fuerzas y cuerpos de seguridad y a jueces y fiscales una herramienta fundamental que va a mejorar su trabajo en la prevención, la investigación, el enjuiciamiento o la ejecución de sanciones penales, perotambién la persecución de delitos como el terrorismo, la violencia de género o delitos que tienen que ver con otra importante ley que debatimos hoy, como es la protección de nuestros menores. Pero, sobre todo, esta ley va a permitir a losciudadanos tener la confianza y la garantía jurídica necesarias respecto a quién, cómo y para qué se recogen los datos y esto, y aquí, señorías del Partido Popular y señorías de VOX, no tiene nada que ver con el Consejo General del Poder Judicial,esto no forma parte del problema del Consejo General del Poder Judicial. ¿Cómo unas enmiendas a un texto<pb n="16"/> legislativo van a tener que ver con el problema de fondo del Consejo General del Poder Judicial? ¡Si el problema es suyo, señorías del Partido Popular! El problema es el sabotaje que están haciendo en la reforma de organismosinstitucionales y constitucionales necesarios en nuestro país.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u25.7">Señorías, vamos a votar en contra de todas las enmiendas que han presentado, fundamentalmente porque a lo largo del texto de la ponencia hemos tendido la mano a todos los grupos parlamentarios para poder llegar a acuerdos y elaborarenmiendas transaccionales que enriquezcan el texto normativo que presentamos hoy. Creemos que las enmiendas que presentan o incluso los votos particulares no aportan una mejora sustancial a este texto.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u25.8">Por último, quería hacer una referencia y agradecer a sus señorías de todos los grupos parlamentarios una corrección técnica que se ha hecho en el artículo 2, apartado 3, por coherencia con la incorporación de la enmienda 36 de nuestro grupoparlamentario. Y, para finalizar, por supuesto, quiero agradecer la labor de todo el personal de la Cámara, que ha facilitado el trabajo, tanto en ponencia como en Comisión, y sobre todo el trabajo realizado por los letrados de la Comisión.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u25.9">Muchas gracias, señorías.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u25.9">Muchas gracias, señorías.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u26" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u26.1">Muchas gracias, señor Serrada.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u26.2">En nombre del Gobierno tiene la palabra del señor ministro del Interior.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u26.2">En nombre del Gobierno tiene la palabra del señor ministro del Interior.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u27"
                who="#GrandeMarlaskaFernando"
@@ -283,7 +337,9 @@
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u27.2">Señoras y señores diputados, muy brevemente y desde un punto de vista técnico, quiero agradecer al conjunto de diputadas y diputados la diligencia en la tramitación, por el procedimiento de urgencia, de este anteproyecto de ley orgánica detrasposición de la Directiva 2016/680. Desde un punto de vista técnico sí que me gustaría dejar constancia -ante las alusiones que se han hecho- de que la misma debiera haber sido traspuesta en mayo de 2018. Este Gobierno llegó el 7 de junio de2018 y ni siquiera se había iniciado el trámite legislativo. Hay que reconocer que, nada más llegar, este Gobierno -por medio de la vicepresidenta primera y ministra de la Presidencia, Relaciones con las Cortes y Memoria Democrática- hizo unverdadero estudio de toda la normativa de la Unión Europea que no había sido traspuesta, en todos los ámbitos y en todas las normas. Ustedes son conscientes de los distintos reales decretos-leyes ómnibus que tuvieron que dictarse para trasponermuchísimas directivas y decisiones, cuyo tiempo de trasposición ya había finalizado, y es una preocupación máxima de este Gobierno, como han podido ver. Hay normas que tienen unas mayores dificultades, como son aquellas que deben tramitarse por leyorgánica, como la cuestión que hoy se está debatiendo, la Directiva 2016/680, y como pasó previamente con la Directiva 2016/681, la conocida como Directiva PNR, otra ley orgánica que también fue aprobada por el Gobierno que no había tenidopreviamente ninguna tramitación legislativa, aun cuando también se debería haber traspuesto en mayo de 2018.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u27.3">Para solucionar todas estas cuestiones, el Gobierno hace meses firmó un acuerdo a partir del cual se ha constituido una comisión para hacer un seguimiento efectivo y directo de toda la normativa de la Unión Europea, porque a este Gobierno-al Gobierno del Partido Socialista y de Unidas Podemos- nos importa realmente el derecho de la Unión, integrarnos, como ha dicho el señor Bal. Esa comisión interministerial y del Gobierno se encarga de hacer un seguimiento de la producciónnormativa de la Unión Europea desde que se está elaborando para, primero, tener participación y ver cómo nos puede afectar en nuestro ordenamiento jurídico, hasta dónde podemos llegar -es decir, que la Administración sea partícipe en la negociacióndirectamente-, y posteriormente para que la trasposición sea mucho más rápida. Eso está acordado por el Gobierno para que no vuelvan a ocurrir estas cosas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u27.4">Como decía, no voy a intervenir en otro ámbito, sino solo en este ámbito estrictamente técnico. Por eso mismo les quiero agradecer que hayamos podido tramitar este anteproyecto de ley orgánica, a pesar de los acontecimientos, de lasdisoluciones que hemos tenido en las últimas legislaturas, del último año de pandemia, lo cual ha conllevado que se tuvieran que reiniciar todos los trámites y todos los informes de las instituciones que deben de informar: el Consejo General delPoder Judicial, el Consejo Fiscal y el Consejo de Estado. A todos ellos quiero agradecer, por esas mismas razones, su trabajo, sobre todo al Consejo de Estado, que hizo un trabajo importantísimo. Y vuelvo a agradecer a la Comisión de Interior y alconjunto de sus señorías este importante aldabonazo en el sentido de minimizar los perjuicios que se han irrogado.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u27.5">Muchas gracias.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u27.5">Muchas gracias.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u28" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u28.1">Muchas gracias, señor ministro.</seg>
@@ -300,7 +356,9 @@
                who="#AizpuruaMertxe"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u30.1">Egun on. Buenos días. Eskerrik asko, presidenta.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u30.2">Comienzo por resaltar lo bueno que contiene este proyecto de ley. Este proyecto de ley de infancia y adolescencia llega hoy aquí con avances cualitativos respecto al articulado que entró en su día a la ponencia y después a la Comisión. Yquiero recordar que llegó arrastrando críticas fundadas, principalmente por la falta de perspectiva de género y de enfoque de la infancia. Tras su paso por ponencia y Comisión se ha corregido y se ha mejorado mucho. Una de esas mejoras es laprohibición del llamado síndrome de alienación parental, ese síndrome falso, esa falacia que se adjetiva como parental y que, sin embargo, solo se aplica a madres, a esas madres que sufren en carne propia la injusticia de verse envueltas en uncírculo diabólico por el que se les retira la custodia de sus hijos sin tener margen alguno para defenderse. Porque no hay forma humana de defenderse de algo que no existe, no hay forma racional de defenderse en una batalla que se libra contra elabsurdo. Y, sin embargo, hay quien ha dado la batalla, y en representación de todas las mujeres que la libran hablaré de una que las representa a todas. Quédense con el nombre: Irune Costumero, es vizcaína y si se interesan por su historia sabráncómo la vida se convierte en un infierno perpetuo desde el momento en que no ya la justicia, sino los servicios sociales de una institución como la Diputación de Vizcaya, aplicaron ese síndrome falaz y le retiraron la custodia de su hija, y de estohace ya tres años. Este proyecto de ley es una buena noticia para tantas y tantas Irunes Costumero que hay en este Estado, porque a partir de su entrada en vigor nadie podrá utilizar el SAP como argumento jurídico; que vaya por ellas pues estetriunfo, porque se lo han ganado a costa de muchísimo sufrimiento.<note>La señora vicepresidenta, Elizo Serrano, ocupa la Presidencia</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u30.2">Comienzo por resaltar lo bueno que contiene este proyecto de ley. Este proyecto de ley de infancia y adolescencia llega hoy aquí con avances cualitativos respecto al articulado que entró en su día a la ponencia y después a la Comisión. Yquiero recordar que llegó arrastrando críticas fundadas, principalmente por la falta de perspectiva de género y de enfoque de la infancia. Tras su paso por ponencia y Comisión se ha corregido y se ha mejorado mucho. Una de esas mejoras es laprohibición del llamado síndrome de alienación parental, ese síndrome falso, esa falacia que se adjetiva como parental y que, sin embargo, solo se aplica a madres, a esas madres que sufren en carne propia la injusticia de verse envueltas en uncírculo diabólico por el que se les retira la custodia de sus hijos sin tener margen alguno para defenderse. Porque no hay forma humana de defenderse de algo que no existe, no hay forma racional de defenderse en una batalla que se libra contra elabsurdo. Y, sin embargo, hay quien ha dado la batalla, y en representación de todas las mujeres que la libran hablaré de una que las representa a todas. Quédense con el nombre: Irune Costumero, es vizcaína y si se interesan por su historia sabráncómo la vida se convierte en un infierno perpetuo desde el momento en que no ya la justicia, sino los servicios sociales de una institución como la Diputación de Vizcaya, aplicaron ese síndrome falaz y le retiraron la custodia de su hija, y de estohace ya tres años. Este proyecto de ley es una buena noticia para tantas y tantas Irunes Costumero que hay en este Estado, porque a partir de su entrada en vigor nadie podrá utilizar el SAP como argumento jurídico; que vaya por ellas pues estetriunfo, porque se lo han ganado a costa de muchísimo sufrimiento.<incident type="action">
+                     <desc>La señora</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u30.3">Naturalmente, no terminan ahí las mejoras sustanciales que aporta esta ley; hay muchas, pero voy a citar solo tres ejemplos, como son el que se elimina la custodia compartida en casos de violencia de género, el derecho de niños y niñas aser informados y la ampliación también del plazo de prescripción de los delitos contra menores, y sí, muchísimas cuestiones más. Así que vuelvo a decir que el proyecto de ley ha mejorado pero, señorías, es mejorable. Y entre los aspectos negativosvoy a señalar una ausencia clamorosa, un error flagrante y un olvido consciente. La ausencia clamorosa es la que se refiere a la violencia institucional, la que se da desde dentro de los propios sistemas de protección hacia los menores que seencuentran bajo la tutela de la Administración. No querer reconocer que existe no va a hacer desaparecer esa violencia que se da en forma de abusos, presiones y situaciones de indefensión, y que vulneran los derechos de los niños, niñas yadolescentes. La denuncia del maltrato institucional desde las propias estructuras de protección es un combate de muchos colectivos que trabajan con la infancia, pero esta vez también parece que quedará sin atender.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u30.4">El error flagrante es el que dota a los servicios sociales de la condición de agentes de la autoridad. Los profesionales de los servicios sociales, que en su gran mayoría realizan una gran labor, tienen un perfil profesional no específicoen asuntos relacionados con infancia y maltrato infantil. Esto es un hecho, con lo cual es peligroso aumentar sus potestades porque además, al permitírseles actuar libremente en situaciones de urgencia -por cierto, el concepto de urgencia que se daen la ley no queda definido, con lo cual queda un campo muy difuso y excesivamente abierto e interpretable-, se genera una situación que abre la puerta a decisiones que pueden ser irreversibles. Nosotros hemos insistido muchísimo en esta cuestión,porque nos parece un tremendo error. Por eso mantenemos esta enmienda, entre otras. Creemos que hay decisiones que deben tomar los jueces, señorías, y el solo hecho de que se abra la posibilidad, aunque sea temporalmente, de que esto no sea asísupone un riesgo enorme de vulneración de derechos para los niños y las niñas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u30.5">Llego ya al olvido consciente, que por consciente es aún más lamentable, el olvido consciente relacionado con la violencia contra los niños y niñas que resulta de los procedimientos de desahucio. Los desalojos forzosos, además de ser unaexperiencia traumática, una experiencia violenta, aluden directamente a la vulneración de los derechos de los niños y de las niñas. La ley debe protegerles, y esta ley de infancia no lo hace.<pb n="18"/> Hay otras cuestiones mejorables, pero me centro en las razones de peso, y añado la última para argumentar nuestra imposibilidad de votar a favor de esta ley. Si el último epígrafe era el del olvido consciente, este podría ser algo así comoel de la tendencia constante, porque se trata de una querencia continuada y persistente que tiene cualquier Gobierno de este Estado español, gobierne quien gobierne además, de olvidar una cuestión tan básica como es que las leyes que se redacten nodeben suponer invasión competencial, y esta ley invade competencias reconocidas por los estatutos de autonomía de las comunidades autónomas vasca y navarra en al menos siete artículos, en cuestiones que se refieren a los ámbitos educativos,sanitarios y policiales.</seg>
@@ -311,7 +369,9 @@
                who="#ElizoMaría"
                ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u31.1">Muchas gracias, señora Aizpurua.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u31.2">Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Barandiaran Benito.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u31.2">Por el Grupo Parlamentario Vasco<note>EAJ-PNV</note> , tiene la palabra el señor Barandiaran Benito.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u32"
                who="#BarandiaranÍñigo"
@@ -326,24 +386,32 @@
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u33"
                who="#ElizoMaría"
                ana="#chair">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u33.1">Muchas gracias, señor Barandiaran.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u33.1">Muchas gracias, señor Barandiaran.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u33.2">Por el Grupo Parlamentario Ciudadanos, tiene la palabra la señora Giménez Giménez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u34"
                who="#GiménezSara"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u34.1">Gracias, presidenta.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u34.2">Señorías, hoy hablamos de avance de derechos. Esta ley orgánica que hoy estamos debatiendo supone un importante avance legislativo en la protección de los niños, las niñas y los adolescentes frente a una gran lacra social como es laviolencia. Además, cumplimos con lo establecido en la normativa internacional, con la Convención sobre los Derechos del Niño y con lo que nos ha dicho su comité, y damos respuesta a una gran necesidad que nos habían trasladado las entidades deltercer sector en este ámbito, a las que desde aquí quiero agradecer su esfuerzo, su dedicación y todo el trabajo que nos han ido trasladando durante nuestra labor parlamentaria. Es una ley que está pensada para nuestros menores, que son uno de lossectores más vulnerables de la población y que requieren de todo nuestro esfuerzo para garantizar su desarrollo, tal y como nos mandata la Constitución. Señorías, les animo a continuar en esta senda, porque, aunque creo que esta norma es un granavance y un buen comienzo, tenemos grandes temas pendientes cuando hablamos de protección de la infancia en nuestro país.<pb n="20"/> Hay mayores retos a los que nos podemos enfrentar tras aprobar esta normativa, que espero que sea aprobada con un gran consenso; creo que merece el consenso porque estamos hablando de protección de la infancia frente a la vulneración dederechos fundamentales de los menores con una ley garantista. ¿Puede ser una ley a mejorar? Claramente, todas las normativas son a mejorar, pero tenemos que tener amplitud de miras cuando estamos hablando de violencia contra la infancia y de unmarco legal como el que hoy estamos debatiendo. A partir de aquí, ¿cuáles son los siguientes retos? Pues, hablamos de violencia y creo que una de las mayores lacras de violencia que tenemos en nuestro país en la actualidad -y ya conocen ustedescuáles son los grandes datos en relación con esta materia- es la pobreza. Creo que nuestro segundo reto es abordar la pobreza infantil, porque es uno de los grandes indicadores de desigualdad en nuestro país y necesitamos avanzar en las medidas deprotección social a la infancia. Tenemos que garantizar los recursos necesarios para poner en marcha esta ley y, por eso, en mi grupo parlamentario hemos mantenido una enmienda que considero fundamental, y es que haya una garantía presupuestaria. Cuando hablamos de defensa de derechos, cuando hablamos de igualdad, cuando hablamos del ámbito social, tenemos ejemplos de normas muy bien realizadas que, si no vienen acompañadas del presupuesto necesario, se quedan en papel mojado. Señorías,esta norma no debe quedar en papel mojado, ni muchísimo menos. Por tanto, debe haber una garantía presupuestaria. No quiero que suceda lo mismo que con la norma de la dependencia, que, por déficits presupuestarios, en muchas ocasiones no ha dadola respuesta necesaria.<note>La señora vicepresidenta, Pastor Julián, ocupa la Presidencia</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u34.2">Señorías, hoy hablamos de avance de derechos. Esta ley orgánica que hoy estamos debatiendo supone un importante avance legislativo en la protección de los niños, las niñas y los adolescentes frente a una gran lacra social como es laviolencia. Además, cumplimos con lo establecido en la normativa internacional, con la Convención sobre los Derechos del Niño y con lo que nos ha dicho su comité, y damos respuesta a una gran necesidad que nos habían trasladado las entidades deltercer sector en este ámbito, a las que desde aquí quiero agradecer su esfuerzo, su dedicación y todo el trabajo que nos han ido trasladando durante nuestra labor parlamentaria. Es una ley que está pensada para nuestros menores, que son uno de lossectores más vulnerables de la población y que requieren de todo nuestro esfuerzo para garantizar su desarrollo, tal y como nos mandata la Constitución. Señorías, les animo a continuar en esta senda, porque, aunque creo que esta norma es un granavance y un buen comienzo, tenemos grandes temas pendientes cuando hablamos de protección de la infancia en nuestro país.<pb n="20"/> Hay mayores retos a los que nos podemos enfrentar tras aprobar esta normativa, que espero que sea aprobada con un gran consenso; creo que merece el consenso porque estamos hablando de protección de la infancia frente a la vulneración dederechos fundamentales de los menores con una ley garantista. ¿Puede ser una ley a mejorar? Claramente, todas las normativas son a mejorar, pero tenemos que tener amplitud de miras cuando estamos hablando de violencia contra la infancia y de unmarco legal como el que hoy estamos debatiendo. A partir de aquí, ¿cuáles son los siguientes retos? Pues, hablamos de violencia y creo que una de las mayores lacras de violencia que tenemos en nuestro país en la actualidad -y ya conocen ustedescuáles son los grandes datos en relación con esta materia- es la pobreza. Creo que nuestro segundo reto es abordar la pobreza infantil, porque es uno de los grandes indicadores de desigualdad en nuestro país y necesitamos avanzar en las medidas deprotección social a la infancia. Tenemos que garantizar los recursos necesarios para poner en marcha esta ley y, por eso, en mi grupo parlamentario hemos mantenido una enmienda que considero fundamental, y es que haya una garantía presupuestaria. Cuando hablamos de defensa de derechos, cuando hablamos de igualdad, cuando hablamos del ámbito social, tenemos ejemplos de normas muy bien realizadas que, si no vienen acompañadas del presupuesto necesario, se quedan en papel mojado. Señorías,esta norma no debe quedar en papel mojado, ni muchísimo menos. Por tanto, debe haber una garantía presupuestaria. No quiero que suceda lo mismo que con la norma de la dependencia, que, por déficits presupuestarios, en muchas ocasiones no ha dadola respuesta necesaria.<incident type="action">
+                     <desc>La señora</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u34.3">Es vital que hablemos de lo que supone esta legislación y es vital que tengamos en cuenta sus avances. Se informa al menor y se le escucha. Se mejorarán los procedimientos legales, lo que supone un avance en cuanto a su protección. Setiene en cuenta la realidad de los niños y niñas en situaciones de mayor vulnerabilidad. Hay niños que tienen valores añadidos negativos, por encontrarse en situación de pobreza, por ser niños LGTBI o por ser niños gitanos. Estas situaciones dediscriminación interseccional en las que se pueden encontrar algunos menores ya están contempladas en la norma. Me parece importante, después de las grandes e intensas negociaciones que hemos tenido con los partidos de gobierno, que la propia normaincluya, por ejemplo, una mejora relevante, de la que me siento realmente orgullosa, como es la ampliación de seis a doce meses del cese de tutela de la Administración cuando un niño se fuga. Esto ha sido gracias al trabajo parlamentario. ¿Quéhemos conseguido también? Que la prescripción -se ha negociado hasta el último momento con la compañera Luisa- se amplíe a los treinta y cinco años, o sea, que se empiece a contar el plazo de prescripción para la denuncia de este tipo de delitoscuando la víctima tenga treinta y cinco años. Pedíamos cuarenta y hemos logrado treinta y cinco, pero es que el trabajo parlamentario exige voluntad y acuerdo, voluntad de llegar a mejoras, sobre todo en cuestiones de este tipo. Esto es lo que nosdebemos exigir todos en temas como el que tenemos encima de la mesa. Si no somos capaces de ver la utilidad del acuerdo y la búsqueda de soluciones, no resolveríamos nada. Por eso hoy estoy contenta, ya que todos hemos sido capaces de gestionarnuestras propuestas, nuestro trabajo parlamentario, nuestro trabajo en la Comisión y nuestro trabajo en la ponencia para llegar a grandes acuerdos, que son los que, al final, van a beneficiar a los niños, las niñas y los adolescentes de nuestropaís.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u34.4">No se nos debe olvidar cuál es el horizonte de las normas, no se nos debe olvidar para qué nos pagan ni para qué estamos aquí. Son cuestiones que hoy deben quedar muy claras. Tenemos que seguir avanzando, señorías, en esa mejorapresupuestaria. También tenemos que abordar una buena estrategia contra la pobreza, para que los niños y las niñas de nuestro país superen realmente esas situaciones de violencia. Estas serían las cuestiones principales que mi partido político vaa seguir manteniendo y en las que va a seguir trabajando.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u34.5">Otro de los temas principales es el de los centros de tutela, donde hemos aumentado el control. No puede haber situaciones de violencia dentro de los propios centros, como hemos visto con los niños de Mallorca, de Baleares. Lamento quetodavía no se haya investigado esto por parte del PSOE y Unidas Podemos. Esta norma pone un parapeto a situaciones de este tipo y un parapeto para que se traslade a los menores ante cualquier situación de riesgo.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u34.6">En definitiva, como hay más pros que contras y como creemos en su utilidad y en la defensa de los menores y la garantía de los derechos fundamentales, nuestro grupo parlamentario va a apoyar esta norma.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u34.7">Gracias.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u34.7">Gracias.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u35"
                who="#PastorAna"
                ana="#chair">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u35.1">Muchas gracias.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> Muchas gracias.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u35.1">Muchas gracias.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> Muchas gracias.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u35.2">Por el Grupo Parlamentario Plural, tiene la palabra, en primer lugar, el señor Rego Candamil.</seg>
                <pb n="21"/>
             </u>
@@ -362,7 +430,9 @@
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u37"
                who="#PastorAna"
                ana="#chair">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u37.1">Muchas gracias.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> Muchas gracias.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u37.1">Muchas gracias.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> Muchas gracias.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u37.2">Por el mismo grupo, tiene la palabra el señor Miquel i Valentí.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u38"
@@ -377,7 +447,9 @@
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u39"
                who="#PastorAna"
                ana="#chair">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u39.1">Muchas gracias.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> Muchas gracias.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u39.1">Muchas gracias.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> Muchas gracias.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u39.2">Por el Grupo Parlamentario Confederal de Unidas Podemos-En Comú Podem-Galicia en Común, tiene la palabra la señora Muñoz Dalda.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u40"
@@ -394,23 +466,49 @@
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u40.9">Otras enmiendas añaden elementos particulares no considerados hasta el momento, pero también de relevancia como, por ejemplo, la obligatoriedad de que el Gobierno lleve a cabo un desarrollo normativo para el establecimiento de unprocedimiento común para la determinación de la edad de los niños, niñas y adolescentes que emigran solos o la obligatoriedad de que el Gobierno lleve a cabo una modificación normativa sobre la aplicación de medidas de contención en los centros deprotección a la infancia.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u40.10">En este minuto que me queda, quiero pedir a nuestros socios de Gobierno que se replanteen su sentido de voto o la forma que tengamos de encajar dos enmiendas que para Unidas Podemos son muy importantes. En primer lugar, les proponíamosprohibir la entrada de personas menores a espectáculos taurinos. Esta idea, hay otros grupos con los que estamos de acuerdo y firmamos una enmienda transaccional, ustedes no la han visto clara, pero serán ustedes los que decidan cuándo quierencumplir con las recomendaciones del Comité de los Derechos del Niño. En segundo lugar, el tema de las soluciones habitacionales para las familias con menores a cargo. Es verdad que en la ley aparece un apartado en el que proponemos que seprioricen las soluciones habitacionales adecuadas en los casos de desahucio o lanzamiento a las familias con menores, pero nuestra enmienda va un poquito más allá y me parece que es asumible porque también es una recomendación del Comité Social yEconómico y es que yo creo que lo más importante a destacar, aunque hay otros elementos, es que el juez realice un juicio de proporcionalidad antes de autorizar ese lanzamiento o ese desahucio, que valore la situación y que evalúe qué consecuenciastendría para ese niño o niña que le desalojen de su casa.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u40.11">Me quedo sin tiempo. Estoy muy orgullosa de que hayamos conseguido traducir un consenso social a un consenso político muy amplio y quiero dedicar unas palabras de agradecimiento al presidente de la ponencia, al letrado y a todos y a todaslas ponentes porque creo que ha habido muy buena disposición por parte de la mayoría de los grupos de llegar a acuerdos y, tras mucho estudio, debate y diálogo, hemos conseguido mejorar sustancialmente el texto original. Así que gracias por elcariño y las horas de trabajo que hemos dedicado a este texto, que espero que todos sintamos como nuestro.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u40.12">Muchas gracias.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u40.12">Muchas gracias.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u41"
                who="#PastorAna"
                ana="#chair">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u41.1">Gracias.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> .</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u41.2">Le correspondería intervenir para la defensa de sus enmiendas al Grupo Parlamentario Republicano. No obstante, dada la situación de dicho grupo parlamentario y según lo señalado en la Junta de Portavoces, si no hay inconveniente, se daríanpor defendidas sus enmiendas.<note>Asentimiento</note> Muchas gracias, señorías.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u41.3">Por el Grupo Parlamentario VOX, tiene la palabra la señora López.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u41.1">Gracias.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u41.2">Le correspondería intervenir para la defensa de sus enmiendas al Grupo Parlamentario Republicano. No obstante, dada la situación de dicho grupo parlamentario y según lo señalado en la Junta de Portavoces, si no hay inconveniente, se daríanpor defendidas sus enmiendas.<kinesic type="gesture">
+                     <desc>Asentimiento</desc>
+                  </kinesic> Muchas gracias, señorías.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u41.3">Por el Grupo Parlamentario VOX, tiene la palabra la señora López.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u42"
                who="#LópezMaría"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u42.1">Buenos días, señorías.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u42.2">Mujer, nieta, hija, hermana, amiga, periodista, compañera, diputada, principalmente soy madre.<note>Aplausos</note> Y hoy, ustedes que no defienden la vida desde su concepción, quieren limpiar sus conciencias con este proyecto de protección a lainfancia y a la adolescencia. ¡Paradojas progresistas! Proteger la infancia no es promover el aborto, eso es violencia; violencia contra la vida de una madre, contra la vida de un bebé y contra las madres a las que no se les da ninguna ayuda paraafrontar la gran experiencia de<pb n="24"/> su vida.<note>Aplausos</note> Porque no hay nada, absolutamente nada, como esta imagen<note>muestra la imagen de un bebé</note> , esta imagen que se queda grabada en la retina de una madre al dar a luz una vida, la vida. Como no hay nada como el abrazo de unhijo ni hay absolutamente nada comparable a la alegría y a la bondad de un niño.<note>Aplausos</note> No hay nada como su limpia mirada y su sencillo corazón, que ustedes, con esta ley, quieren manchar a base de ideología, amenazando una vez más a lafamilia por eso mismo, porque la familia es el santuario de la vida, de los valores y de lo que ustedes quieren destruir, que es la tradición de formar una familia. A las familias, según el apartado b) del artículo 3 de este proyecto de ley, sepretende acompañar, dotándolas de herramientas de parentalidad positiva. ¿Es parentalidad positiva que los padres tengan que educar en contenidos relativos a la diversidad sexual y de género? ¿Es parentalidad positiva que los padres no puedanelegir si quieren o no que sus hijos reciban en las escuelas a cualquier edad educación afectivo-sexual? Por ejemplo, esta educación de la colección de guías sobre derechos sexuales y reproductivos de las mujeres jóvenes del Instituto Canario deIgualdad<note>muestra un documento</note> , ¿esto es lo que ustedes quieren fomentar, a cualquier edad? Esto es violencia contra la inocencia de los niños.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u42.2">Mujer, nieta, hija, hermana, amiga, periodista, compañera, diputada, principalmente soy madre.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Y hoy, ustedes que no defienden la vida desde su concepción, quieren limpiar sus conciencias con este proyecto de protección a lainfancia y a la adolescencia. ¡Paradojas progresistas! Proteger la infancia no es promover el aborto, eso es violencia; violencia contra la vida de una madre, contra la vida de un bebé y contra las madres a las que no se les da ninguna ayuda paraafrontar la gran experiencia de<pb n="24"/> su vida.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Porque no hay nada, absolutamente nada, como esta imagen<kinesic type="gesture">
+                     <desc>muestra la imagen de un bebé</desc>
+                  </kinesic> , esta imagen que se queda grabada en la retina de una madre al dar a luz una vida, la vida. Como no hay nada como el abrazo de unhijo ni hay absolutamente nada comparable a la alegría y a la bondad de un niño.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> No hay nada como su limpia mirada y su sencillo corazón, que ustedes, con esta ley, quieren manchar a base de ideología, amenazando una vez más a lafamilia por eso mismo, porque la familia es el santuario de la vida, de los valores y de lo que ustedes quieren destruir, que es la tradición de formar una familia. A las familias, según el apartado b) del artículo 3 de este proyecto de ley, sepretende acompañar, dotándolas de herramientas de parentalidad positiva. ¿Es parentalidad positiva que los padres tengan que educar en contenidos relativos a la diversidad sexual y de género? ¿Es parentalidad positiva que los padres no puedanelegir si quieren o no que sus hijos reciban en las escuelas a cualquier edad educación afectivo-sexual? Por ejemplo, esta educación de la colección de guías sobre derechos sexuales y reproductivos de las mujeres jóvenes del Instituto Canario deIgualdad<kinesic type="gesture">
+                     <desc>muestra un documento</desc>
+                  </kinesic> , ¿esto es lo que ustedes quieren fomentar, a cualquier edad? Esto es violencia contra la inocencia de los niños.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u42.3">Señorías, las familias en general no necesitan ser acompañadas, pero, claro, ustedes introducen este concepto con la connotación de que sea supervisado y tutelado por el poder, con una parentalidad positiva contraria a la libertad deeducación que los padres quieran para sus hijos y que, desde luego, no tiene en cuenta el interés superior del menor. Y han sudado ustedes la gota gorda en una de las sesiones de la ponencia para justificar sí o sí que determinados funcionariospúblicos tengan la potestad de separar a un niño de sus padres, saltándose por alto incluso las recomendaciones de Naciones Unidas de que sea un juez el que adopte o revise las separaciones de un niño de su entorno.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u42.4">Nos traen una ley de protección a la infancia y a la adolescencia en la que se afanan en introducir los términos niños y niñas -se les ha ido la vida en ello-, así como una y otra vez su pacto con el diablo del género y en el trámite deponencia también se han esforzado en potenciar esa cultura antifamilia. Dicen ustedes en este proyecto de ley orgánica que todos -todos- los progenitores necesitan apoyos para desarrollar adecuadamente sus responsabilidades parentales. Esto estanto como decir que los españoles no saben educar a sus hijos y que ustedes tienen la pócima mágica para combatir los casos de violencia contra la infancia con el simple hecho de arrebatar a los padres el derecho, constitucionalmente reconocido, deque sus hijos reciban la formación religiosa y moral que esté de acuerdo con sus propias convicciones<note>aplausos</note> , diciendo a la vez a esos padres que si no educan a sus hijos en que los hombres deben pedir perdón por haber nacido varones -porqueustedes consideran que son potenciales asesinos, maltratadores y violadores y que las niñas son las desvalidas víctimas a las que un hombre siempre les va a querer hacer daño-, que si no educan conforme a esa idea son malos padres. Es otro dañoirreversible a la libertad de los padres sobre sus hijos debido a su monstruo ideológico de la perspectiva de género, que es para ustedes su única religión y que solo busca romper con la identidad de la familia y abocar a nuestros hijos a la tutelapor parte del Estado.<note>Aplausos</note> .</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u42.5">Entre otras incoherencias progresistas, nos encontramos con que traen hoy para su aprobación en Pleno una ley de protección a la infancia que legisla la intervención ante casos de explotación sexual de menores tutelados cuando hace mesesdejaron desamparadas a menores en Mallorca y se negaron a investigar el caso. Tienen ustedes una resaca de cinismo que ni con una plegaria de rosarios -no les vendría nada mal rezarla, por cierto-<note>risas</note> podrán ustedes limpiar su conciencia...</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u42.4">Nos traen una ley de protección a la infancia y a la adolescencia en la que se afanan en introducir los términos niños y niñas -se les ha ido la vida en ello-, así como una y otra vez su pacto con el diablo del género y en el trámite deponencia también se han esforzado en potenciar esa cultura antifamilia. Dicen ustedes en este proyecto de ley orgánica que todos -todos- los progenitores necesitan apoyos para desarrollar adecuadamente sus responsabilidades parentales. Esto estanto como decir que los españoles no saben educar a sus hijos y que ustedes tienen la pócima mágica para combatir los casos de violencia contra la infancia con el simple hecho de arrebatar a los padres el derecho, constitucionalmente reconocido, deque sus hijos reciban la formación religiosa y moral que esté de acuerdo con sus propias convicciones<kinesic type="applause">
+                     <desc>aplausos</desc>
+                  </kinesic> , diciendo a la vez a esos padres que si no educan a sus hijos en que los hombres deben pedir perdón por haber nacido varones -porqueustedes consideran que son potenciales asesinos, maltratadores y violadores y que las niñas son las desvalidas víctimas a las que un hombre siempre les va a querer hacer daño-, que si no educan conforme a esa idea son malos padres. Es otro dañoirreversible a la libertad de los padres sobre sus hijos debido a su monstruo ideológico de la perspectiva de género, que es para ustedes su única religión y que solo busca romper con la identidad de la familia y abocar a nuestros hijos a la tutelapor parte del Estado.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u42.5">Entre otras incoherencias progresistas, nos encontramos con que traen hoy para su aprobación en Pleno una ley de protección a la infancia que legisla la intervención ante casos de explotación sexual de menores tutelados cuando hace mesesdejaron desamparadas a menores en Mallorca y se negaron a investigar el caso. Tienen ustedes una resaca de cinismo que ni con una plegaria de rosarios -no les vendría nada mal rezarla, por cierto-<kinesic type="laughter">
+                     <desc>risas</desc>
+                  </kinesic> podrán ustedes limpiar su conciencia...</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u43"
                who="#PastorAna"
@@ -420,15 +518,21 @@
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u44"
                who="#LópezMaría"
                ana="#regular">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u44.1">... como tampoco, desde luego, lo podrán hacer los señores de Bildu, porque hoy, en el colmo de la incoherencia, hemos tenido que escuchar a la representante de Bildu defender su posición en relación con esta ley ylos derechos de los niños. ¿Y el derecho a la vida arrebatado a estos niños?<note>Muestra un listado.-Aplausos de las señoras y los señores diputados del Grupo Parlamentario VOX, puestos en pie</note> Un abrazo. Un abrazo de mi grupo parlamentario a lasfamilias de esta treintena de niños asesinados por la banda terrorista ETA.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u44.1">... como tampoco, desde luego, lo podrán hacer los señores de Bildu, porque hoy, en el colmo de la incoherencia, hemos tenido que escuchar a la representante de Bildu defender su posición en relación con esta ley ylos derechos de los niños. ¿Y el derecho a la vida arrebatado a estos niños?<kinesic type="gesture">
+                     <desc>Muestra un listado.-Aplausos de las señoras y los señores diputados del Grupo Parlamentario VOX, puestos en pie</desc>
+                  </kinesic> Un abrazo. Un abrazo de mi grupo parlamentario a lasfamilias de esta treintena de niños asesinados por la banda terrorista ETA.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u44.2">Ya termino. Dejen de intentar mecer las cunas de niños que no les pertenecen y dediquen sus esfuerzos a defender el derecho de los padres a educar a sus hijos en los valores que ellos elijan. Dejen de crear licencias como esta ley, que,disfrazada bajo la denominación de protección, solo está creada para educarles a imagen de lo que ustedes representan: destrucción de la familia, de la vida y de España.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u44.3">Muchas gracias.<note>Aplausos de las señoras y los señores diputados del Grupo Parlamentario VOX, puestos en pie</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u44.3">Muchas gracias.<kinesic type="applause">
+                     <desc>Aplausos de las señoras y los señores diputados del Grupo Parlamentario VOX, puestos en pie</desc>
+                  </kinesic> .</seg>
                <pb n="25"/>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u45"
                who="#PastorAna"
                ana="#chair">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u45.1">Muchas gracias.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u45.1">Muchas gracias.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u45.2">Por el Grupo Parlamentario Popular, tiene la palabra la señora García Rodríguez.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u46"
@@ -436,32 +540,44 @@
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u46.1">Buenos días. Gracias, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u46.2">Quiero empezar por los agradecimientos. En primer lugar, a María de la O Redondo por su trabajo y compañerismo, a Marga Prohens, al letrado José María Codes por su apoyo y al resto de ponentes. Y especialmente a las organizaciones deinfancia quiero agradecer su interés y su diálogo durante estos meses con el Partido Popular. Fue precisamente el Comité de los Derechos del Niño, a petición de las organizaciones, y muy especialmente de la plataforma Unicef y Save the Children,quien recomendó a España la adopción de una ley específica en violencia contra la infancia. Quiero recordar el compromiso del Partido Popular al impulsar dos leyes en 2015 para reforzar precisamente el sistema de protección a la infancia y laadolescencia, que supuso un importantísimo avance en nuestro sistema de protección, reconocido por el Comité de los Derechos del Niño de la ONU en sus informes. Asimismo, hay que recordar que en el año 2017 fue el Partido Popular, en colaboracióncon expertos, con organizaciones de infancia y con universidades, quienes iniciaron el trabajo del proyecto de ley orgánica que hoy se debate.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u46.3">Esta ley llega tarde, muy tarde, y no les voy a negar que esta ley ha sufrido una moción de censura, varios procesos electorales y una pandemia, pero también llega tarde por falta de voluntad política de un Gobierno monocolor inicialmente yla escasa o nula aportación de otros, como es el partido Podemos, porque quiero recordar que el exvicepresidente Pablo Iglesias, que intentó apropiarse de esta ley, se hizo una foto, la bautizó y no hizo más. Es una ley que está avalada por 500 000firmas de españoles y es una ley oportuna y necesaria. La violencia contra la infancia permanece oculta y en algunos casos es incluso tolerada, con unas consecuencias devastadoras para quienes la sufren. Es una ley que nos debería de interpelar atodos y que debería ser de todos, pero muy especialmente de ellos.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u46.3">Esta ley llega tarde, muy tarde, y no les voy a negar que esta ley ha sufrido una moción de censura, varios procesos electorales y una pandemia, pero también llega tarde por falta de voluntad política de un Gobierno monocolor inicialmente yla escasa o nula aportación de otros, como es el partido Podemos, porque quiero recordar que el exvicepresidente Pablo Iglesias, que intentó apropiarse de esta ley, se hizo una foto, la bautizó y no hizo más. Es una ley que está avalada por 500 000firmas de españoles y es una ley oportuna y necesaria. La violencia contra la infancia permanece oculta y en algunos casos es incluso tolerada, con unas consecuencias devastadoras para quienes la sufren. Es una ley que nos debería de interpelar atodos y que debería ser de todos, pero muy especialmente de ellos.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u46.4">El Partido Popular ha presentado casi 150 enmiendas, prácticamente el 25 % del total, y nos han aceptado una de cada tres, lo que agradezco, pero nos hubiera gustado mayor receptividad por parte de este Gobierno, un Gobierno dividido en dos,como hoy hemos podido ver también con esta ley, por su falta de acuerdos hasta el último minuto, su división y su falta de sintonía, lo que ha supuesto varios cambios y bandazos que han ayudado poco al trámite de esta ley. Pero sí que es verdad queel Partido Popular, con nuestro trabajo serio y responsable, que ha ido encaminado a mejorar la prevención, la concienciación, la especialización, la atención temprana, la detección temprana del delito -tan importante-, a proponer entornos segurospara prevenir situaciones y, si se producen, estar preparados para identificarlos y tratarlos de la manera más adecuada porque desde el Partido Popular pensamos que atender a las víctimas es haber llegado demasiado tarde.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u46.5">Tampoco puede haber desidias ni negligencias cuando hablamos de proteger a menores. Hemos propuesto actuaciones contundentes para reforzar los sistemas de comunicación y coordinación de todos los agentes, mejorar la difusión de protocolos ygarantizar una atención integral y especializada. El Partido Popular ha incorporado a la ley la especialización de los profesionales, la formación continua y los planes y programas de formación con el objetivo de detectar precozmente la violencia yla puesta en marcha de herramientas para que los niños y las niñas puedan identificar esa violencia y detectarla. Lo hemos conseguido, pero nos hubiera gustado más, y hubiéramos querido que la ley tuviera enfoque de discapacidad y garantizar quetodas las medidas para prestar una atención integral tengan un enfoque inclusivo y accesible.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u46.6">Una cuestión. Si ustedes supieran que un niño o una niña menor de edad acude con su madre, por ejemplo, a los servicios sanitarios y le detectan malos tratos o abusos, ¿creen que ese niño o esa niña está en condiciones de volver a casa sinuna resolución que lo permita o sin una valoración? Pues bien, el Partido Popular ha conseguido, no de manera plena, pero sí ha conseguido que, cuando se desarrolle el protocolo común de actuación sanitaria, se aborde que, si se produce un ingresoen un centro hospitalario de menores de edad sobre los que existe sospecha o evidencias de maltrato grave, el alta hospitalaria no podrá hacerse efectiva hasta que se reciba resolución y se haya valorado el caso.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u46.6">Una cuestión. Si ustedes supieran que un niño o una niña menor de edad acude con su madre, por ejemplo, a los servicios sanitarios y le detectan malos tratos o abusos, ¿creen que ese niño o esa niña está en condiciones de volver a casa sinuna resolución que lo permita o sin una valoración? Pues bien, el Partido Popular ha conseguido, no de manera plena, pero sí ha conseguido que, cuando se desarrolle el protocolo común de actuación sanitaria, se aborde que, si se produce un ingresoen un centro hospitalario de menores de edad sobre los que existe sospecha o evidencias de maltrato grave, el alta hospitalaria no podrá hacerse efectiva hasta que se reciba resolución y se haya valorado el caso.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u46.7">El Partido Popular ha insistido en sus enmiendas en reforzar los centros y recursos de protección como entornos seguros con mecanismos de actuación comunes, con herramientas que permitan la denuncia de los niños, las niñas y losadolescentes, por lo que hemos propuesto elaborar protocolos con el objetivo de evitar fugas de estos centros, pero no nos lo han aceptado y ello es imprescindible para evitar casos como los tristemente ocurridos en Baleares y Valencia. ¿Por quémiran para otro lado?<pb n="26"/> ¿Por qué callan? Porque este silencio les va a acompañar siempre. Han dejado solas a estas niñas y, con nuestras enmiendas, han perdido la oportunidad de mejorar la atención y la intervención y dar respuesta a estas situaciones. Eigualmente para los casos de explotación sexual y trata. Hemos propuesto articular plazas especializadas para la atención a estas víctimas y nos han aceptado servicios especializados pero no plazas. Y yo me pregunto: ¿consideran que con lorecogido en la ley va a ser suficiente para que no vuelvan a ocurrir casos como los de Baleares y Valencia?</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u46.8">Otra cuestión que preocupa al Grupo Popular, pero también a las familias, es el acceso a contenidos para adultos, la pornografía. Según el barómetro de Family Watch, para el 74 % de las familias sería deseable que cuando se contrate unalínea de Internet esta venga por defecto con limitación de acceso a determinados contenidos. Hemos propuesto -se ha estimado y lo agradecemos- la creación de entornos digitales seguros y la puesta en marcha de protocolos de verificación de edadpara que las familias puedan proteger a sus hijos e hijas y evitar que accedan a contenidos para adultos que en nada ayudan a su desarrollo como personas. En países como Francia e Italia van más avanzados, y España debe ir por el mismo camino y elPartido Popular ha puesto su enmienda para que esto ocurra.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u46.9">Ustedes han desestimado nuestras enmiendas encaminadas a crear una jurisdicción especializada en infancia, familia y capacidad; el turno de oficio especial de infancia; a garantizar la permanencia, siempre que sea positivo para eldesarrollo de los niños, en el entorno familiar, así como la financiación a las Administraciones públicas con competencias en la materia. Su respuesta ha sido la de siempre: yo invito y tú pagas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u46.10">Y finalizo, con un recuerdo, a Mary Ellen Wilson, año 1874, Nueva York. Por ella y por tantos como ella la mera existencia de esta ley tiene sentido.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u46.11">Muchas gracias.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u46.11">Muchas gracias.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u47"
                who="#PastorAna"
                ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u47.1">Muchas gracias.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u47.2">En el turno de fijación de posiciones por el Grupo Parlamentario Mixto tiene la palabra el señor Mazón Ramos.<note>Pausa.-Una señora trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u47.2">En el turno de fijación de posiciones por el Grupo Parlamentario Mixto tiene la palabra el señor Mazón Ramos.<incident type="pause">
+                     <desc>Pausa.-Una señora trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u48"
                who="#MazónJosé"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u48.1">Muchas gracias. Buenos días, señora presidenta.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u48.2">Señorías, esta ley es muy necesaria para luchar contra los padecimientos de toda clase que sufren injustamente muchos niños y adolescentes en el mundo, y por supuesto en España. Tiene muchos aspectos, pero yo me voy a limitar a hacerme eco-como me han pedido desde una asociación cántabra, Tolerancia 0 al Bullying Cantabria- leyéndoles el escrito que me ha remitido su presidenta. Todos hemos vivido de cerca casos como estos en nuestra vida y por eso esta carta no nos resultará ajena. Únicamente quiero decir que fue escrita en referencia al proyecto de ley que llegó a esta Cámara y que ha sido enormemente mejorado por su tramitación en la Comisión. También quiero decir que votaremos a favor.<note>La señora presidenta ocupa laPresidencia</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u48.2">Señorías, esta ley es muy necesaria para luchar contra los padecimientos de toda clase que sufren injustamente muchos niños y adolescentes en el mundo, y por supuesto en España. Tiene muchos aspectos, pero yo me voy a limitar a hacerme eco-como me han pedido desde una asociación cántabra, Tolerancia 0 al Bullying Cantabria- leyéndoles el escrito que me ha remitido su presidenta. Todos hemos vivido de cerca casos como estos en nuestra vida y por eso esta carta no nos resultará ajena. Únicamente quiero decir que fue escrita en referencia al proyecto de ley que llegó a esta Cámara y que ha sido enormemente mejorado por su tramitación en la Comisión. También quiero decir que votaremos a favor.<incident type="action">
+                     <desc>La señora</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u48.3">Estimados señores y señoras diputados, desde la Asociación Tolerancia 0 al Bullying Cantabria nos dirigimos a ustedes para trasladarles nuestra preocupación ante la situación en que muchos menores se encuentran en nuestro país. Ana, Pedro,Julia, Adrián, María, Pablo, nadie se salva; en cualquier colegio, público o privado, en cualquier barrio, en cualquier ciudad, podrían haber recibido ayuda, se les podría haber escuchado, pero no fue así. El acoso escolar -sufrido por unos,ejercido por otros y tan invisibilizado por muchos- puede convertirse en una auténtica pesadilla para aquellos que lo sufren. Es imposible escribir y transmitirles cada una de las historias que durante estos años en activo hemos escuchado por partede muchos niños, niñas y sus familias; historias completamente desgarradoras, historias de autolesión, de pensamientos suicidas, de suicidios, de niños y niñas rotas a tan temprana edad que temen volver al colegio, pero estoy prácticamente segurade que todos y todas ustedes han escuchado alguna historia desagradable sobre la experiencia de algún conocido en el colegio, algún compañero de sus hijos, algún compañero de trabajo o incluso ustedes mismos han podido sufrir algo similar. LaConstitución española declara a España como un Estado social y democrático de derecho, que debe garantizar el bienestar de todos sus ciudadanos; pese a ello, una parte fundamental de los mismos se ven en ocasiones olvidados; los más vulnerables,aquellos sin voz, los menores. El acoso escolar no es un juego de niños, no es una tontería, no es una lucha de ideologías, no es un pulso de poder, no es una ley. El acoso escolar es un problema real y continuado y que con una buena legislaciónpuede reducir drásticamente su incidencia y quizá algún día con reformas educativas España pueda decir que el acoso escolar en sus aulas tiene una incidencia mínima. Me entristecería encarecidamente que el proyecto que ustedes están<pb n="27"/> llevando a cabo, la conocida como Ley Rhodes, aunque protege a los menores en muchos otros ámbitos dejara de alguna manera desprotegidos a los menores escolarizados ante una situación tan complicada, difícil y dolorosa como es el acosoescolar, que en vez de visibilizarse cada día un poco más se normaliza tanto dentro como fuera de las escuelas. Y legislaciones como esta, incompletas en lo referente a esta materia, dan una falsa esperanza ante el fenómeno y no ayudan aerradicarlo. No dudo de sus intenciones, son buenas. No se puede proteger a nuestros niños y niñas de los actuales peligros que abundan en nuestra sociedad, más en materia de acoso escolar, mientras los colegios continúen siendo juez y parte delconflicto, ya que ningún menor podrá ser tratado con la imparcialidad necesaria para resolver el problema de manera eficiente. No buscamos solo legislar, sino que no caigan en el olvido todos aquellos menores que de alguna manera son o se venenvueltos en situaciones de acoso escolar. Hay que sensibilizar, nombrar, educar y menos normalizar, etiquetar y estigmatizar y dejar de menospreciar lo que significa ser víctima. Espero que con nuestras palabras comprendan la importancia deproteger también a los menores en ámbito educativo porque una vez escuché o leí que la infancia es el patio de recreo en el que viviremos toda nuestra vida. En historia juegan un gran papel, no pasen página.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u48.4">Muchas gracias.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u49" ana="#chair">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u49.1">Muchas gracias, señor Mazón.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> Muchas gracias, señora García.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u49.1">Muchas gracias, señor Mazón.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> Muchas gracias, señora García.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u49.2">Por el Grupo Parlamentario Socialista, tiene la palabra la señora Guerra López.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u50"
@@ -469,13 +585,25 @@
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u50.1">Gracias, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u50.2">Buenos días, señorías. El 47,6 % de los delitos contra la libertad sexual son contra menores. Cada año 38 000 menores en nuestro país sufren violencia, únicamente denuncia el 20 %. Hay 1 de cada 5 de ellos que denuncia; 4 de cada 5callan. O lo que es lo mismo, de cada 100 menores que sufren violencia 80 silencian esa violencia.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u50.3">Si, señorías de VOX, la violencia contra la infancia no se nombra pero existe. Ustedes podrán excusarse en el modelo de familia tradicional para votar en contra de esta ley, pero lo único cierto es que les pasa lo mismo que con la violenciamachista: la niegan porque defienden a sus verdugos contra las víctimas.<note>Aplausos</note> Cuatro de cada cinco menores callan, cuatro de cada cinco menores callan, callan durante semanas, durante meses, durante años, algunos callarán toda su vida. Muchos niños, niñas y adolescentes no se atreven a denunciar porque piensan que no les vamos a creer; otros ni siquiera saben cómo hacerlo; algunos piensan que la violencia es una forma de relación habitual; otros se sienten culpables, piensanque se merecen esa violencia.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u50.3">Si, señorías de VOX, la violencia contra la infancia no se nombra pero existe. Ustedes podrán excusarse en el modelo de familia tradicional para votar en contra de esta ley, pero lo único cierto es que les pasa lo mismo que con la violenciamachista: la niegan porque defienden a sus verdugos contra las víctimas.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Cuatro de cada cinco menores callan, cuatro de cada cinco menores callan, callan durante semanas, durante meses, durante años, algunos callarán toda su vida. Muchos niños, niñas y adolescentes no se atreven a denunciar porque piensan que no les vamos a creer; otros ni siquiera saben cómo hacerlo; algunos piensan que la violencia es una forma de relación habitual; otros se sienten culpables, piensanque se merecen esa violencia.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u50.4">Hoy estamos aquí para defender la ley de protección de la infancia y la adolescencia frente a la violencia, una ley que tiene a los niños, niñas y adolescentes como sujetos jurídicos y políticos y a los que desde el Grupo ParlamentarioSocialista les queremos lanzar un mensaje claro y alto: sois ciudadanos y ciudadanas desde que nacéis, tenéis derecho a vivir en entornos seguros, en los que la base de la relación humana sea el buen trato, y es nuestra obligación como poderespúblicos, pero sobre todo nuestro compromiso como sociedad, velar por vosotros y vosotras, protegeros de la violencia, venga de donde venga, la realice quien la realice y se produzca donde se produzca, tanto en el espacio público como en el espacioprivado, tanto en el entorno analógico como en el digital.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u50.5">Esta ley, señorías, marca un antes y un después en la protección de la infancia y la adolescencia. Esta ley nos compromete sin fisuras con nuestros menores, porque con esta ley os decimos alto y claro que queremos protegeros, que queremosque os sintáis seguros y seguras, que queremos que crezcáis sin violencia y que viváis sin miedo. No permitiremos que soportéis más tiempo en soledad y silencio el peso de la violencia, sencillamente no lo vamos a permitir, porque esta ley no poneel acento única y exclusivamente en la atención, sino también en la prevención, en la detección precoz, en la asistencia, en el asesoramiento, en la reparación, en la restauración y en la sensibilización contra la violencia. Si, señorías, estamos apunto de aprobar una ley que supone un verdadero hito. No lo decimos nosotros, no lo dice el Grupo Parlamentario Socialista, esta mañana lo comentaba Andrés Conde, de Save the Children, es una ley que hereda el espíritu de la Convención sobre losDerechos del Niño, una ley que adapta la legislatura nacional a los compromisos internacionales, una ley que pone en el centro la protección de la infancia y la adolescencia y la promoción de su pleno desarrollo, el pleno desarrollo de todos losniños, niñas y adolescentes que viven en nuestro país; de todos, señorías de VOX, vengan de donde vengan.<note>Aplausos</note> .</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u50.6">Muchos son los derechos que esta nueva ley incorpora. Citaré algunos ejemplos únicamente por falta de tiempo. Los niños, niñas y adolescentes podrán denunciar de manera personal y directa. Se mejoran<pb n="28"/> las posibilidades de reparación de las víctimas de abusos sexuales y violaciones, elevando el plazo de prescripción a partir de que la víctima cumpla treinta y cinco años. Se establece como obligatoria la prueba preconstituida hasta loscatorce años para evitar la victimización secundaria. Se categoriza el mundo virtual en cuanto a los riesgos que tienen nuestros niños y nuestras adolescentes en ese ámbito, y precisamente les voy a dar un dato: el 40 % de nuestras adolescenteshan sufrido ya acoso sexual virtual, ¡el 40 %! Claro que existe la violencia machista, señorías de VOX, claro que existe<note>aplausos</note> , y claro que se politiza; ustedes con su negacionismo la politizan. Por eso desde este grupo parlamentario, con laportavoz de igualdad, Laura Berja, hemos trabajado para que esta ley tenga perspectiva feminista.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u50.7">Finalmente, permítanme que me detenga en que esta ley pone por fin punto y final al falso síndrome de alienación parental y sus diferentes mutaciones. No se va a poder aplicar nunca más en nuestro país, se llame como se llame, se declinecomo se decline, y además incorpora la violencia vicaria como una forma de violencia contra los niños y las niñas y, a través de ellos, contra sus madres.<note>Prolongados aplausos</note> .Y sí, señorías, se lo voy a reconocer, estos dos logros tienen nombrey apellidos, los de nuestra portavoz. Gracias, Adriana.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u50.5">Esta ley, señorías, marca un antes y un después en la protección de la infancia y la adolescencia. Esta ley nos compromete sin fisuras con nuestros menores, porque con esta ley os decimos alto y claro que queremos protegeros, que queremosque os sintáis seguros y seguras, que queremos que crezcáis sin violencia y que viváis sin miedo. No permitiremos que soportéis más tiempo en soledad y silencio el peso de la violencia, sencillamente no lo vamos a permitir, porque esta ley no poneel acento única y exclusivamente en la atención, sino también en la prevención, en la detección precoz, en la asistencia, en el asesoramiento, en la reparación, en la restauración y en la sensibilización contra la violencia. Si, señorías, estamos apunto de aprobar una ley que supone un verdadero hito. No lo decimos nosotros, no lo dice el Grupo Parlamentario Socialista, esta mañana lo comentaba Andrés Conde, de Save the Children, es una ley que hereda el espíritu de la Convención sobre losDerechos del Niño, una ley que adapta la legislatura nacional a los compromisos internacionales, una ley que pone en el centro la protección de la infancia y la adolescencia y la promoción de su pleno desarrollo, el pleno desarrollo de todos losniños, niñas y adolescentes que viven en nuestro país; de todos, señorías de VOX, vengan de donde vengan.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u50.6">Muchos son los derechos que esta nueva ley incorpora. Citaré algunos ejemplos únicamente por falta de tiempo. Los niños, niñas y adolescentes podrán denunciar de manera personal y directa. Se mejoran<pb n="28"/> las posibilidades de reparación de las víctimas de abusos sexuales y violaciones, elevando el plazo de prescripción a partir de que la víctima cumpla treinta y cinco años. Se establece como obligatoria la prueba preconstituida hasta loscatorce años para evitar la victimización secundaria. Se categoriza el mundo virtual en cuanto a los riesgos que tienen nuestros niños y nuestras adolescentes en ese ámbito, y precisamente les voy a dar un dato: el 40 % de nuestras adolescenteshan sufrido ya acoso sexual virtual, ¡el 40 %! Claro que existe la violencia machista, señorías de VOX, claro que existe<kinesic type="applause">
+                     <desc>aplausos</desc>
+                  </kinesic> , y claro que se politiza; ustedes con su negacionismo la politizan. Por eso desde este grupo parlamentario, con laportavoz de igualdad, Laura Berja, hemos trabajado para que esta ley tenga perspectiva feminista.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u50.7">Finalmente, permítanme que me detenga en que esta ley pone por fin punto y final al falso síndrome de alienación parental y sus diferentes mutaciones. No se va a poder aplicar nunca más en nuestro país, se llame como se llame, se declinecomo se decline, y además incorpora la violencia vicaria como una forma de violencia contra los niños y las niñas y, a través de ellos, contra sus madres.<kinesic type="applause">
+                     <desc>Prolongados aplausos</desc>
+                  </kinesic> .Y sí, señorías, se lo voy a reconocer, estos dos logros tienen nombrey apellidos, los de nuestra portavoz. Gracias, Adriana.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u50.8">Nos encontramos sin duda ante una de las leyes más participadas de la Cámara baja, una ley que ha tenido en cuenta la voz de las organizaciones de infancia, de los colegios profesionales, de las comunidades autónomas, de las administracioneslocales, una ley en la que hemos discutido más de quinientas setenta enmiendas, hemos incorporado más de doscientas y hemos transaccionado más de setenta, la última, como comentaban algunas personas que me han precedido en el uso de la palabra, ayermismo.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u50.9">Para finalizar, quiero dar las gracias a las y los ponentes, al presidente de la Comisión y al letrado, porque hemos conseguido crear un espacio de construcción colectiva en el que el interés superior del menor siempre ha prevalecido, yespecialmente a mis compañeros, Omar Anguita y al alma máter de esta ley, Luisa Carcedo. Muchas gracias.<note>Aplausos</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u50.9">Para finalizar, quiero dar las gracias a las y los ponentes, al presidente de la Comisión y al letrado, porque hemos conseguido crear un espacio de construcción colectiva en el que el interés superior del menor siempre ha prevalecido, yespecialmente a mis compañeros, Omar Anguita y al alma máter de esta ley, Luisa Carcedo. Muchas gracias.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u50.10">Acabo, presidenta. Decía la filósofa malagueña, María Zambrano, que la democracia es la sociedad en la cual no solo es permitido, sino exigido el ser persona. Podemos afirmar que, con la aprobación de esta ley, nuestra sociedad es máshumana, es más democrática y es en, definitiva, una sociedad mejor, porque esta ley protege a niños, niñas y adolescentes ...</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u51" ana="#chair">
@@ -486,24 +614,48 @@
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u52.1">Acabo, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u52.2">... y porque esta ley quiere, no lo olvidéis nunca, que crezcáis sin violencia y viváis sin miedo.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u52.3">Muchas gracias.<note>Aplausos de las señoras y los señores diputados de los grupos parlamentarios Socialista y Confederal de Unidas Podemos-En Comú Podem-Galicia en Común, puestos en pie</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u52.3">Muchas gracias.<kinesic type="applause">
+                     <desc>Aplausos de las señoras y los señores diputados de los grupos parlamentarios Socialista y Confederal de Unidas Podemos-En Comú Podem-Galicia en Común, puestos en pie</desc>
+                  </kinesic> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u53" ana="#chair">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u53.1">Muchas gracias, señora Guerra.<note>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u53.1">Muchas gracias, señora Guerra.<incident type="pause">
+                     <desc>Pausa.-Una trabajadora del servicio de limpieza procede a desinfectar la tribuna de oradores</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u53.2">En nombre del Gobierno, tiene la palabra la señora ministra de Derechos Sociales y Agenda 2030.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u54"
                who="#BelarraIone"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u54.1">Muchas gracias.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u54.2">Señorías, buenos días a todos y a todas. La verdad es que es para mí un honor tomar la palabra, en primer lugar, como ministra de Derechos Sociales y Agenda 2030 precisamente para participar en este debate parlamentario, en el debate de laley Rhodes, esa ley de protección integral a la infancia y a la adolescencia frente a la violencia, una ley que impulsó nada más tomar posesión mi predecesor, Pablo Iglesias, y que es de un enorme calado, de una enorme importancia para nuestro país. En primer término, quiero dar la bienvenida a las organizaciones de infancia que nos están acompañando y están siguiendo hoy el debate, aunque no puedan hacerlo por razones sanitarias desde la tribuna, pero sí están hoy aquí en esta Cámara, y muyespecialmente quiero pedir un aplauso para James Rhodes, que también nos está acompañando y siguiendo hoy el debate.<note>Aplausos</note> Como sabéis, James ha sido una pieza fundamental, un motor imprescindible para que hoy podamos estar aprobando estaley. Quiero darte las gracias, James, por tu testimonio, darte las gracias por haber sido capaz de hacer una cosa muy difícil, que es convertir tu dolor en cambios que van a proteger a otros niños y niñas que sufren lo que tu sufriste.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u54.2">Señorías, buenos días a todos y a todas. La verdad es que es para mí un honor tomar la palabra, en primer lugar, como ministra de Derechos Sociales y Agenda 2030 precisamente para participar en este debate parlamentario, en el debate de laley Rhodes, esa ley de protección integral a la infancia y a la adolescencia frente a la violencia, una ley que impulsó nada más tomar posesión mi predecesor, Pablo Iglesias, y que es de un enorme calado, de una enorme importancia para nuestro país. En primer término, quiero dar la bienvenida a las organizaciones de infancia que nos están acompañando y están siguiendo hoy el debate, aunque no puedan hacerlo por razones sanitarias desde la tribuna, pero sí están hoy aquí en esta Cámara, y muyespecialmente quiero pedir un aplauso para James Rhodes, que también nos está acompañando y siguiendo hoy el debate.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Como sabéis, James ha sido una pieza fundamental, un motor imprescindible para que hoy podamos estar aprobando estaley. Quiero darte las gracias, James, por tu testimonio, darte las gracias por haber sido capaz de hacer una cosa muy difícil, que es convertir tu dolor en cambios que van a proteger a otros niños y niñas que sufren lo que tu sufriste.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u54.3">Como decía, esta es una ley que tiene una importancia capital para nuestro país y que, sin embargo, como tantas otras veces en temas de infancia, ha tenido un altísimo consenso, pero una muy bajita intensidad. Hace seis años ya que unasubcomisión parlamentaria de este Congreso acordaba instar al<pb n="29"/> Gobierno a que aprobara una ley integral contra todas las formas de violencia hacia la infancia. Hace tres años y medio que se aprobaba por unanimidad también en este Congreso una proposición no de ley que pedía que con urgencia el Gobiernoaprobara una ley orgánica integral. Las organizaciones de infancia, como ya se ha dicho llevan años exigiendo a nuestro país que apruebe una ley de estas características. Por lo tanto, cuando el equipo de la Vicepresidencia segunda tomó posesiónen el cargo éramos plenamente conscientes, con Pablo Iglesias a la cabeza, de que esta ley era imprescindible, que tenía una enorme urgencia y, por eso, fue la primera iniciativa que llevamos al Consejo de Ministros. Pronto -por fin- esta ley va aser una realidad efectiva y va a proteger un derecho fundamental para los niños y niñas de nuestro país, que es el derecho a tener una vida libre, una vida segura, una vida libre de violencias que les permita, en definitiva, ser felices. Y creo queen un momento de tensión y de crispación como el que vive nuestro país, en el que muchas veces en esta Cámara se tienen debates encendidos, es una muy buena noticia que podamos sacar adelante esta ley con un amplísimo consenso, con el apoyo demuchísimos grupos parlamentarios. Quiero agradecer el trabajo que habéis hecho en la ponencia porque, hay que decirlo, así trabajando conjuntamente, de la mano, hemos sido capaces de mejorar esta ley y hoy la ley es mejor que cuando la trajimos aeste Congreso.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u54.4">Creo que es muy importante reconocer ese trabajo parlamentario, pero yo me voy a tomar la licencia de tratar de convencer a los grupos parlamentarios que han decidido abstenerse. Quiero intentar que voten a favor precisamente porque estaley tiene un cometido fundamental, que es mandar un mensaje claro. Esta ley tiene una función que es muy importante: promover un cambio de paradigma, un cambio cultural como el que ya promovió la Ley contra la violencia de género en el año 2004. Esa función que tiene esta ley es mandar un mensaje claro e inequívoco al conjunto de la ciudadanía española que dice que la violencia contra los niños y las niñas en cualquiera de sus formas no es aceptable.<note>Aplausos</note> Una sociedad democráticano puede ni por activa ni por pasiva tolerar la violencia hacia los niños ni física ni sexual ni verbal ni psicológica, pero tampoco institucional y, por supuesto, no puede consentir ningún tipo de explotación, acoso, amenaza, perjuicio, descuido onegligencia. Con esta ley la sede de la soberanía popular -y esto es muy importante- dice no a la violencia contra los niños y las niñas.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u54.5">Quería dirigirme precisamente a ellos, a los niños y las niñas, porque creo que hacerlo desde esta tribuna es muy importante. Ninguna persona tiene derecho a violentaros, a agrediros o a haceros daño. Ninguna persona, ya sea un adulto o uncompañero o compañera de vuestra edad, tiene derecho a tocar vuestros cuerpos sin vuestro consentimiento. Si alguien os hace daño en casa, pedid ayuda en la escuela. Si alguien os hace daño en la escuela, pedid ayuda en casa. Porque tenéisderecho a una vida digna, a una vida segura, a una vida feliz sin que nadie os haga daño; tampoco a través de las redes sociales. Si alguien trata de haceros sentir culpables por lo que os ha pasado, escuchad, por favor, atentamente mis palabras. Nada de lo que os ha pasado es vuestra culpa. Pedid ayuda porque alguien va a ayudaros.<note>Aplausos</note> .</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u54.6">Desde luego, este Gobierno, el Gobierno de España y sus instituciones, están del lado de los niños y de las niñas. La violencia hacia la infancia, como ha explicado muy bien la portavoz del Grupo Parlamentario Socialista, es una realidadque genera muchísimo malestar y que demasiadas veces ha sido ignorada por nuestra sociedad. Los datos, que aparentemente son solo la punta del iceberg, son escalofriantes. En el año 2019 el 46,2 % de las víctimas contra la libertad o la indemnidadsexual fueron menores de edad, según datos oficiales del Ministerio del Interior. En 2017 hubo 4875 denuncias de violencia contra menores en el ámbito familiar a pesar de que hubo sospechas de 16 700 notificaciones. Estos datos son gravísimos,pero lo peor es que detrás de cada uno de estos datos hay nombres y apellidos, historias que son truncadas por la violencia. Historias como la de Nadia, que durante cinco años fue abusada por su padre y que, tras ser capaz de contarlo demostrandouna enorme valentía, no pudo hacer nada porque el delito estaba prescrito. Con esta ley el tiempo de prescripción de los delitos de violencia sexual hacia los niños no empezará a contar hasta que cumplan treinta y cinco años. O historias como lade Sara que, cuando decidió por fin contar los abusos de los que había sido víctima, se encontró con un sistema judicial que le ponía obstáculos y la revictimizaba obligándola a repetir su testimonio constantemente. Con esta ley nos comprometemos amejorar el sistema judicial y a evitar la revictimización mediante formación específica y especializaciones en las carreras judiciales y fiscales y la creación de equipos técnicos que presten asistencia experta en los procedimientos. O casos comoel que ya se ha mencionado, el de Irune, que fue separada de su hija en el año 2017 tras una sentencia que le retiraba la custodia basándose en el falso síndrome de alienación parental, algo que nos valió un tirón de orejas de Naciones Unidas. Porfin esta ley pone punto y final a una etiqueta acientífica y machista que ha generado tanto dolor a los niños y niñas de<pb n="30"/> nuestro país.<note>Aplausos</note> O casos como el de Emiliano, que con diez años sufrió agresiones sexuales de un sacerdote en el seminario donde estudiaba interno. Aunque esta sea una verdad incómoda, creo que debo decirla hoy aquí: la IglesiaCatólica en nuestro país ha sido cómplice demasiadas veces al encubrir la violencia sexual hacia los niños y esto tiene que terminar.<note>Aplausos.-Protestas</note> Por Emiliano y por todos los niños que han sufrido abusos a manos de los sacerdotes. Hoytenemos la oportunidad de poner fin a situaciones como estas y de proteger a todos los niños y niñas para los que, como dice James Rhodes, no es demasiado tarde.<note>Protestas.-La señora Prohens pronuncia palabras que no se perciben</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u54.4">Creo que es muy importante reconocer ese trabajo parlamentario, pero yo me voy a tomar la licencia de tratar de convencer a los grupos parlamentarios que han decidido abstenerse. Quiero intentar que voten a favor precisamente porque estaley tiene un cometido fundamental, que es mandar un mensaje claro. Esta ley tiene una función que es muy importante: promover un cambio de paradigma, un cambio cultural como el que ya promovió la Ley contra la violencia de género en el año 2004. Esa función que tiene esta ley es mandar un mensaje claro e inequívoco al conjunto de la ciudadanía española que dice que la violencia contra los niños y las niñas en cualquiera de sus formas no es aceptable.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Una sociedad democráticano puede ni por activa ni por pasiva tolerar la violencia hacia los niños ni física ni sexual ni verbal ni psicológica, pero tampoco institucional y, por supuesto, no puede consentir ningún tipo de explotación, acoso, amenaza, perjuicio, descuido onegligencia. Con esta ley la sede de la soberanía popular -y esto es muy importante- dice no a la violencia contra los niños y las niñas.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u54.5">Quería dirigirme precisamente a ellos, a los niños y las niñas, porque creo que hacerlo desde esta tribuna es muy importante. Ninguna persona tiene derecho a violentaros, a agrediros o a haceros daño. Ninguna persona, ya sea un adulto o uncompañero o compañera de vuestra edad, tiene derecho a tocar vuestros cuerpos sin vuestro consentimiento. Si alguien os hace daño en casa, pedid ayuda en la escuela. Si alguien os hace daño en la escuela, pedid ayuda en casa. Porque tenéisderecho a una vida digna, a una vida segura, a una vida feliz sin que nadie os haga daño; tampoco a través de las redes sociales. Si alguien trata de haceros sentir culpables por lo que os ha pasado, escuchad, por favor, atentamente mis palabras. Nada de lo que os ha pasado es vuestra culpa. Pedid ayuda porque alguien va a ayudaros.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u54.6">Desde luego, este Gobierno, el Gobierno de España y sus instituciones, están del lado de los niños y de las niñas. La violencia hacia la infancia, como ha explicado muy bien la portavoz del Grupo Parlamentario Socialista, es una realidadque genera muchísimo malestar y que demasiadas veces ha sido ignorada por nuestra sociedad. Los datos, que aparentemente son solo la punta del iceberg, son escalofriantes. En el año 2019 el 46,2 % de las víctimas contra la libertad o la indemnidadsexual fueron menores de edad, según datos oficiales del Ministerio del Interior. En 2017 hubo 4875 denuncias de violencia contra menores en el ámbito familiar a pesar de que hubo sospechas de 16 700 notificaciones. Estos datos son gravísimos,pero lo peor es que detrás de cada uno de estos datos hay nombres y apellidos, historias que son truncadas por la violencia. Historias como la de Nadia, que durante cinco años fue abusada por su padre y que, tras ser capaz de contarlo demostrandouna enorme valentía, no pudo hacer nada porque el delito estaba prescrito. Con esta ley el tiempo de prescripción de los delitos de violencia sexual hacia los niños no empezará a contar hasta que cumplan treinta y cinco años. O historias como lade Sara que, cuando decidió por fin contar los abusos de los que había sido víctima, se encontró con un sistema judicial que le ponía obstáculos y la revictimizaba obligándola a repetir su testimonio constantemente. Con esta ley nos comprometemos amejorar el sistema judicial y a evitar la revictimización mediante formación específica y especializaciones en las carreras judiciales y fiscales y la creación de equipos técnicos que presten asistencia experta en los procedimientos. O casos comoel que ya se ha mencionado, el de Irune, que fue separada de su hija en el año 2017 tras una sentencia que le retiraba la custodia basándose en el falso síndrome de alienación parental, algo que nos valió un tirón de orejas de Naciones Unidas. Porfin esta ley pone punto y final a una etiqueta acientífica y machista que ha generado tanto dolor a los niños y niñas de<pb n="30"/> nuestro país.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> O casos como el de Emiliano, que con diez años sufrió agresiones sexuales de un sacerdote en el seminario donde estudiaba interno. Aunque esta sea una verdad incómoda, creo que debo decirla hoy aquí: la IglesiaCatólica en nuestro país ha sido cómplice demasiadas veces al encubrir la violencia sexual hacia los niños y esto tiene que terminar.<kinesic type="applause">
+                     <desc>Aplausos.-Protestas</desc>
+                  </kinesic> Por Emiliano y por todos los niños que han sufrido abusos a manos de los sacerdotes. Hoytenemos la oportunidad de poner fin a situaciones como estas y de proteger a todos los niños y niñas para los que, como dice James Rhodes, no es demasiado tarde.<gap reason="inaudible">
+                     <desc>Protestas.-La señora Prohens pronuncia palabras que no se perciben</desc>
+                  </gap> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u55" ana="#chair">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u55.1">Señora Prohens, por favor, silencio.<note>Protestas</note> Silencio, por favor.<note>Protestas.-La señora Montesinos de Miguel: ¿Dónde está Mónica Oltra?</note> Señora Montesinos de Miguel, pido silencio, por favor.<note>Rumores.-Laseñora Angulo pronuncia palabras que no se perciben</note> Señora Angulo, también a usted.<note>Rumores</note> Silencio, por favor.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u55.1">Señora Prohens, por favor, silencio.<vocal type="shouting">
+                     <desc>Protestas</desc>
+                  </vocal> Silencio, por favor.<vocal type="shouting">
+                     <desc>Protestas.-La señora Montesinos de Miguel: ¿Dónde está Mónica Oltra?</desc>
+                  </vocal> Señora Montesinos de Miguel, pido silencio, por favor.<gap reason="inaudible">
+                     <desc>Rumores.-Laseñora Angulo pronuncia palabras que no se perciben</desc>
+                  </gap> Señora Angulo, también a usted.<vocal type="murmuring">
+                     <desc>Rumores</desc>
+                  </vocal> Silencio, por favor.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u55.2">Señora ministra, continúe.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u56"
@@ -511,36 +663,48 @@
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u56.1">Gracias, presidenta.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u56.2">Sé que esta es una verdad incómoda, pero no estamos aquí para la comodidad, precisamente, sino que estamos para hacer algo por los niños y las niñas de nuestro país, aunque a sus señorías del Partido Popular les moleste.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u56.3">Hoy tenemos la oportunidad, como decía, de poner fin a situaciones como esta y de proteger a aquellos niños y niñas para los que, como dice James Rhodes, todavía no es demasiado tarde. Por eso, les animo, señorías, a que sigamos trabajandopara fortalecer aún más esta ley y completar el trabajo que nos ha llevado tanto tiempo. Nosotras no somos conformistas y somos conscientes de que tenemos que seguir mejorando esta ley, pero hoy es un día fundamental y enormemente importante paranuestro país, que se coloca una vez más como referencia internacional en la lucha frente a todas las violencias. Espero, como decía, que en la Cámara Alta sigamos mejorando esta ley y que se enriquezca gracias a todos vosotros y vosotras.<note>Prolongados aplausos de las señoras y los señores diputados de los grupos parlamentarios Socialista y Confederal de Unidas Podemos-En Comú Podem-Galicia en Común, estos últimos puestos en pie</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u56.3">Hoy tenemos la oportunidad, como decía, de poner fin a situaciones como esta y de proteger a aquellos niños y niñas para los que, como dice James Rhodes, todavía no es demasiado tarde. Por eso, les animo, señorías, a que sigamos trabajandopara fortalecer aún más esta ley y completar el trabajo que nos ha llevado tanto tiempo. Nosotras no somos conformistas y somos conscientes de que tenemos que seguir mejorando esta ley, pero hoy es un día fundamental y enormemente importante paranuestro país, que se coloca una vez más como referencia internacional en la lucha frente a todas las violencias. Espero, como decía, que en la Cámara Alta sigamos mejorando esta ley y que se enriquezca gracias a todos vosotros y vosotras.<kinesic type="applause">
+                     <desc>Prolongados aplausos de las señoras y los señores diputados de los grupos parlamentarios Socialista y Confederal de Unidas Podemos-En Comú Podem-Galicia en Común, estos últimos puestos en pie</desc>
+                  </kinesic> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u56.4">Muchas gracias.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u57" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u57.1">Muchas gracias, señora ministra.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u57.2">Señorías, votaremos en tres minutos. Les recuerdo que solamente podrán votar desde el escaño que les corresponde, identificado con su nombre en la pantalla. Asimismo, les recuerdo que aquellas señorías que han sido autorizadas para emitirsu voto por el procedimiento telemático no podrán hacerlo desde su escaño.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u57.2">Señorías, votaremos en tres minutos. Les recuerdo que solamente podrán votar desde el escaño que les corresponde, identificado con su nombre en la pantalla. Asimismo, les recuerdo que aquellas señorías que han sido autorizadas para emitirsu voto por el procedimiento telemático no podrán hacerlo desde su escaño.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u57.3">- PROYECTO DE LEY ORGÁNICA DE PROTECCIÓN DE DATOS PERSONALES TRATADOS PARA FINES DE PREVENCIÓN, DETECCIÓN, INVESTIGACIÓN Y ENJUICIAMIENTO DE INFRACCIONES PENALES Y DE EJECUCIÓN DE SANCIONES PENALES.<note>VOTACIÓN</note>
                   <note>Número de expediente121/000046</note> .</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u58" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u58.1">Dictámenes de comisiones sobre iniciativas legislativas. Proyecto de ley orgánica de protección de datos personales tratados para fines de prevención, detección, investigación y enjuiciamiento de infracciones penalesy de ejecución de sanciones penales.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u58.2">Enmiendas del Grupo Parlamentario Vasco<note>EAJ-PNV</note> Votación en bloque de las enmiendas.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u58.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u58.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u58.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 votos telemáticos, 346; a favor, 36 más 100 votos telemáticos, 136; en contra, 66 más 143 votos telemáticos, 209; abstenciones, 1 voto telemático.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u59" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u59.1">Quedan rechazadas las enmiendas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u59.2">Enmiendas del Grupo Parlamentario Plural, señor Rego Candamil. Votación en bloque de las enmiendas.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u59.3">Comienza la votación.<note>Pausa</note> .<pb n="31"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 votos telemáticos, 346; a favor, 13 votos telemáticos; en contra, 102 más 209 votos telemáticos, 311; abstenciones, 22 votos telemáticos.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u59.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .<pb n="31"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 votos telemáticos, 346; a favor, 13 votos telemáticos; en contra, 102 más 209 votos telemáticos, 311; abstenciones, 22 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u60" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u60.1">Quedan rechazadas las enmiendas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u60.2">Enmiendas del Grupo Parlamentario Popular en el Congreso. Votación en bloque de las enmiendas.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u60.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u60.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u60.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 votos telemáticos, 346; a favor, 36 más 113 votos telemáticos, 149; en contra, 66 más 129 votos telemáticos, 195; abstenciones, 2 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u61" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u61.1">Quedan rechazadas las enmiendas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u61.2">Votos particulares del Grupo Parlamentario Popular en el Congreso. Votación en bloque de los votos particulares.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u61.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u61.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u61.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 votos telemáticos, 346; a favor, 36 más 104 votos telemáticos, 140; en contra, 66 más 138 votos telemáticos, 204; abstenciones, 2 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u62" ana="#chair">
@@ -552,230 +716,306 @@
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u63" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u63.1">Proyecto de ley orgánica de protección integral a la infancia y la adolescencia frente a la violencia.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u63.2">Enmiendas del Grupo Parlamentario Euskal Herria Bildu. Enmiendas 1 y 10.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u63.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u63.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u63.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 votos telemáticos, 346; a favor, 28 votos telemáticos; en contra, 101 más 199 votos telemáticos, 300; abstenciones, 1 más 17 votos telemáticos, 18.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u64" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u64.1">Quedan rechazadas las enmiendas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u64.2">Enmienda 11.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u64.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u64.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u64.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 votos telemáticos, 346; a favor, 7 más 59 votos telemáticos, 66; en contra, 94 más 169 votos telemáticos, 263; abstenciones, 1 más 16 votos telemáticos, 17.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u65" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u65.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u65.2">Enmienda 19.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u65.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u65.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u65.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 243 votos telemáticos, 345; a favor, 1 más 36 votos telemáticos, 37; en contra, 101 más 199 votos telemáticos, 300; abstenciones, 8 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u66" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u66.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u66.2">Enmienda 20.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u66.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u66.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u66.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 243 votos telemáticos, 345; a favor, 34 votos telemáticos; en contra, 101 más 199 votos telemáticos, 300; abstenciones, 1 más 10 votos telemáticos, 11.</seg>
                <pb n="32"/>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u67" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u67.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u67.2">Resto de las enmiendas.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u67.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u67.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u67.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 241 votos telemáticos, 343; a favor, 1 más 36 votos telemáticos, 37; en contra, 101 más 199 votos telemáticos, 300; abstenciones, 6 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u68" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u68.1">Quedan rechazadas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u68.2">Enmiendas del Grupo Parlamentario Vasco<note>EAJ-PNV</note> Enmiendas 29, 30 y 45.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u68.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u68.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u68.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 243 votos telemáticos, 345; a favor, 20 votos telemáticos; en contra, 102 más 205 votos telemáticos, 307; abstenciones, 18 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u69" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u69.1">Quedan rechazadas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u69.2">Enmienda 49.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u69.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u69.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u69.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 243 votos telemáticos, 345; a favor, 18 votos telemáticos; en contra, 102 más 218 votos telemáticos, 320; abstenciones, 7 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u70" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u70.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u70.2">Enmiendas del Grupo Parlamentario Ciudadanos. Enmienda 193.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u70.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u70.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u70.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 242 votos telemáticos, 344; a favor, 36 más 70 votos telemáticos, 106; en contra, 66 más 152 votos telemáticos, 218; abstenciones, 20 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u71" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u71.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u71.2">Resto de las enmiendas.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u71.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u71.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u71.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 242 votos telemáticos, 344; a favor, 1 más 21 votos telemáticos, 22; en contra, 66 más 152 votos telemáticos, 218; abstenciones, 35 más 69 votos telemáticos, 104.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u72" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u72.1">Quedan rechazadas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u72.2">Enmiendas del Grupo Parlamentario Plural, señor Rego Candamil. Enmiendas 536, 540, 541 y 543.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u72.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u72.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u72.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 243 votos telemáticos, 345; a favor, 1 más 16 votos telemáticos, 17; en contra, 101 más 198 votos telemáticos, 299; abstenciones, 29 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u73" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u73.1">Quedan rechazadas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u73.2">Enmiendas 539 y 551.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u73.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u73.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u73.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 243 votos telemáticos, 345; a favor, 21 votos telemáticos; en contra, 66 más 146 votos telemáticos, 212; abstenciones, 36 más 76 votos telemáticos, 112.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u74" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u74.1">Quedan rechazadas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u74.2">Enmiendas 544, 546, 549, 550, 554 y 571.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u74.3">Comienza la votación.<note>Pausa</note> .<pb n="33"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 242 votos telemáticos, 344; a favor, 1 más 30 votos telemáticos, 31; en contra, 101 más 196 votos telemáticos, 297; abstenciones, 16 votos telemáticos.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u74.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .<pb n="33"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 242 votos telemáticos, 344; a favor, 1 más 30 votos telemáticos, 31; en contra, 101 más 196 votos telemáticos, 297; abstenciones, 16 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u75" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u75.1">Quedan rechazadas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u75.2">Enmiendas 555, 556 y 560.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u75.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u75.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u75.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 241 votos telemáticos, 343; a favor, 9 votos telemáticos; en contra, 101 más 209 votos telemáticos, 310; abstenciones, 1 más 23 votos telemáticos, 24.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u76" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u76.1">Quedan rechazadas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u76.2">Enmiendas 557, 558, 561, 562, 565 y 573.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u76.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u76.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u76.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 242 votos telemáticos, 344; a favor, 9 votos telemáticos; en contra, 102 más 218 votos telemáticos, 320; abstenciones, 15 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u77" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u77.1">Quedan rechazadas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u77.2">Enmienda 567.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u77.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u77.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u77.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 242 votos telemáticos, 344; a favor, 9 votos telemáticos; en contra, 102 más 205 votos telemáticos, 307; abstenciones, 28 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u78" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u78.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u78.2">Enmienda 576.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u78.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u78.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u78.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 242 votos telemáticos, 344; a favor, 8 más 53 votos telemáticos, 61; en contra, 94 más 178 votos telemáticos, 272; abstenciones, 11 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u79" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u79.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u79.2">Resto de las enmiendas.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u79.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u79.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u79.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 241 votos telemáticos, 343; a favor, 1 más 16 votos telemáticos, 17; en contra, 101 más 211 votos telemáticos, 312; abstenciones, 14 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u80" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u80.1">Quedan rechazadas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u80.2">Enmiendas del Grupo Parlamentario Plural, señor Errejón Galván y señor Baldoví Roda. Enmiendas 56, 59, 62, 65, 69, 70, 78, 92, 105, 107, 111, 114 a 116 y 138.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u80.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u80.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u80.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 votos telemáticos, 346; a favor, 1 más 32 votos telemáticos, 33; en contra, 101 más 198 votos telemáticos, 299; abstenciones, 14 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u81" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u81.1">Quedan rechazadas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u81.2">Enmienda 95.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u81.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u81.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u81.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 votos telemáticos, 346; a favor, 1 más 14 votos telemáticos, 15; en contra, 66 más 170 votos telemáticos, 236; abstenciones, 35 más 60 votos telemáticos, 95.</seg>
                <pb n="34"/>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u82" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u82.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u82.2">Enmienda 112.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u82.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u82.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u82.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 101 más 243 votos telemáticos, 344; a favor, 1 más 15 votos telemáticos, 16; en contra, 100 más 206 votos telemáticos, 306; abstenciones, 22 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u83" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u83.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u83.2">Enmienda 113.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u83.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u83.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u83.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 votos telemáticos, 346; a favor, 1 más 36 votos telemáticos, 37; en contra, 101 más 199 votos telemáticos, 300; abstenciones, 9 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u84" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u84.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u84.2">Enmienda 125.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u84.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u84.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u84.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 votos telemáticos, 346; a favor, 1 más 23 votos telemáticos, 24; en contra, 101 más 199 votos telemáticos, 300; abstenciones, 22 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u85" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u85.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u85.2">Resto de las enmiendas.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u85.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u85.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u85.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 votos telemáticos, 346; a favor, 1 más 14 votos telemáticos, 15; en contra, 101 más 200 votos telemáticos, 301; abstenciones, 30 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u86" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u86.1">Quedan rechazadas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u86.2">Enmiendas del Grupo Parlamentario Plural, señor Miquel i Valentí. Enmienda 263.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u86.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u86.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u86.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 101 más 244 telemáticos, 345; a favor, 1 más 19 telemáticos, 20; en contra, 100 más 196 telemáticos, 296; abstenciones, 29 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u87" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u87.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u87.2">Resto de las enmiendas.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u87.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u87.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u87.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 telemáticos, 346; a favor, 1 más 29 telemáticos, 30; en contra, 101 más 197 telemáticos, 298; abstenciones, 18 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u88" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u88.1">Quedan rechazadas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u88.2">Enmiendas del Grupo Parlamentario Republicano. Enmienda 141.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u88.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u88.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u88.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 242 telemáticos, 344; a favor, 31 votos telemáticos; en contra, 101 más 194 telemáticos, 295; abstenciones, 1 más 17 telemáticos, 18.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u89" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u89.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u89.2">Enmienda 143.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u89.3">Comienza la votación.<note>Pausa</note> .<pb n="35"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 243 telemáticos, 345; a favor, 30 votos telemáticos; en contra, 102 más 203 votos telemáticos, 305; abstenciones, 10 votos telemáticos.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u89.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .<pb n="35"/> Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 243 telemáticos, 345; a favor, 30 votos telemáticos; en contra, 102 más 203 votos telemáticos, 305; abstenciones, 10 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u90" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u90.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u90.2">Resto de las enmiendas.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u90.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u90.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u90.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 telemáticos, 346; a favor, 1 más 39 telemáticos, 40; en contra, 101 más 197 telemáticos, 298; abstenciones, 8 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u91" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u91.1">Quedan rechazadas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u91.2">Enmiendas del Grupo Parlamentario Confederal de Unidas Podemos-En Comú Podem-Galicia en Común. Enmienda transaccional en Comisión del Grupo Parlamentario Plural, señores Errejón y Baldoví, del Grupo Parlamentario Confederal de UnidasPodemos-En Comú Podem-Galicia en Común y del Grupo Parlamentario Plural, señor Rego, a las enmiendas 76, 221 y 575.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u91.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u91.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u91.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 telemáticos, 346; a favor, 7 más 52 telemáticos, 59; en contra, 95 más 185 telemáticos, 280.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u92" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u92.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u92.2">Enmiendas del Grupo Parlamentario VOX. Enmiendas 302, 322, 344, 345 y 366.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u92.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u92.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u92.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 telemáticos, 346; a favor, 1 más 60 telemáticos, 61; en contra, 101 más 182 telemáticos, 283; abstenciones, 2 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u93" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u93.1">Quedan rechazadas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u93.2">Resto de las enmiendas.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u93.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u93.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u93.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 telemáticos, 346; a favor, 52 votos telemáticos; en contra, 102 más 190 telemáticos, 292; abstenciones, 2 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u94" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u94.1">Quedan rechazadas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u94.2">Enmiendas del Grupo Parlamentario Popular en el Congreso. Enmienda 410.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u94.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u94.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u94.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 243 votos telemáticos, 345; a favor, 36 más 74 votos telemáticos, 110; en contra, 66 más 156 votos telemáticos, 222; abstenciones, 13 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u95" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u95.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u95.2">Enmiendas 422, 448, 517, 522 y 534.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u95.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u95.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u95.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 votos telemáticos, 346; a favor, 35 más 53 votos telemáticos, 88; en contra, 66 más 162 votos telemáticos, 228; abstenciones, 1 más 29 votos telemáticos, 30.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u96" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u96.1">Quedan rechazadas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u96.2">Enmienda 471.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u96.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u96.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u96.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 243 votos telemáticos, 345; a favor, 35 más 54 votos telemáticos, 89; en contra, 67 más 168 votos telemáticos, 235; abstenciones, 21 votos telemáticos.</seg>
                <pb n="36"/>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u97" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u97.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u97.2">Resto de las enmiendas.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u97.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u97.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u97.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 votos telemáticos, 346; a favor, 36 más 61 votos telemáticos, 97; en contra, 66 más 163 votos telemáticos, 229; abstenciones, 20 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u98" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u98.1">Quedan rechazadas.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u98.2">Enmiendas transaccionales. Enmienda transaccional en Comisión de los grupos parlamentarios Euskal Herria Bildu y Plural, señores Errejón y Baldoví, a las enmiendas 21 y 118.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u98.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u98.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u98.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 votos telemáticos, 346; a favor, 7 más 56 votos telemáticos, 63; en contra, 94 más 171 votos telemáticos, 265; abstenciones, 1 más 17 votos telemáticos, 18.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u99" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u99.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u99.2">Enmienda transaccional número 1, a las enmiendas 38, 40, 41, 43, 48 y 50, del Grupo Parlamentario Vasco<note>EAJ-PNV</note> .</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u99.3">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u99.3">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u99.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 votos telemáticos, 346; a favor, 24 votos telemáticos; en contra, 102 más 202 votos telemáticos, 304; abstenciones, 18 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u100" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u100.1">Queda rechazada.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u100.2">Enmienda transaccional número 2 a las enmiendas 207, del Grupo Parlamentario Ciudadanos; 574, del Grupo Parlamentario Plural, señor Rego Candamil; 127, del Grupo Parlamentario Plural, señor Errejón Galván; 156, del Grupo ParlamentarioRepublicano, y 519, del Grupo Parlamentario Popular en el Congreso.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u100.3">Comienza la votación<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u100.3">Comienza la votación<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u100.4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 244 votos telemáticos, 346; a favor, 102 más 237 votos telemáticos, 339; en contra, 6 votos telemáticos; abstenciones, 1 voto telemático.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u101" ana="#chair">
@@ -800,7 +1040,9 @@
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u104" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u104.1">Pasamos al último punto del orden del día, relativo a la propuesta de la Comisión Constitucional de creación de una subcomisión para la reforma de la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General. Esta propuesta se somete al Pleno sin debate previo. La votación correspondiente a este punto, tal y como ya he anunciado, tendrá lugar junto con el resto de las votaciones al final de la sesión.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u104.2">Se suspende la sesión hasta las 13:30 horas.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u104.3">Muchas gracias.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u104.3">Muchas gracias.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u104.4">Eran las doce y cinco minutos del mediodía.</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u104.5">Se reanuda la sesión a la una y treinta minutos de la tarde.</seg>
             </u>
@@ -860,7 +1102,9 @@
             <head>DICTÁMENES DE COMISIONES SOBRE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY ORGÁNICA DE PROTECCIÓN DE DATOS PERSONALES TRATADOS PARA FINES DE PREVENCIÓN, DETECCIÓN, INVESTIGACIÓN Y ENJUICIAMIENTO DE INFRACCIONES PENALES Y DE EJECUCIÓN DE SANCIONES PENALES. .</head>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u115" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u115.1">Dictámenes de comisiones sobre iniciativas legislativas. Proyecto de ley orgánica de protección de datos personales tratados para fines de prevención, detección, investigación y enjuiciamiento de infracciones penalesy de ejecución de sanciones penales. Votamos, en primer lugar, el dictamen.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u115.2">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u115.2">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u115.3">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 238 votos telemáticos, 340; a favor, 102 más 165 votos telemáticos, 267; en contra, 4 votos telemáticos; abstenciones, 69 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u116" ana="#chair">
@@ -871,7 +1115,9 @@
             <head>VOTACIÓN DE CONJUNTO</head>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u117" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u117.1">A continuación, se procede a la votación de conjunto por tener la iniciativa carácter orgánico.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u117.2">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u117.2">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u117.3">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 239 votos telemáticos, 341; a favor, 102 más 165 votos telemáticos, 267; en contra, 4 votos telemáticos; abstenciones, 70 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u118" ana="#chair">
@@ -882,11 +1128,15 @@
             <head>- PROYECTO DE LEY ORGÁNICA DE PROTECCIÓN INTEGRAL A LA INFANCIA Y LA ADOLESCENCIA FRENTE A LA VIOLENCIA .</head>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u119" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u119.1">Proyecto de ley orgánica de protección integral a la infancia y la adolescencia frente a la violencia. Votamos en primer lugar el dictamen, teniendo en cuenta la corrección técnica de los Grupos ParlamentariosSocialista, Popular en el Congreso, Confederal de Unidas Podemos-En Comú Podem-Galicia en Común, Ciudadanos y Euskal Herria Bildu distribuida.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u119.2">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u119.2">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u119.3">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 239 votos telemáticos, 341; a favor, 102 más 166 votos telemáticos, 268; en contra, 57 votos telemáticos; abstenciones, 16 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u120" ana="#chair">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u120.1">En consecuencia, queda aprobado el dictamen.<note>Aplausos</note> La ley, como saben, tiene carácter orgánico.</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u120.1">En consecuencia, queda aprobado el dictamen.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> La ley, como saben, tiene carácter orgánico.</seg>
                <pb n="40"/>
             </u>
          </div>
@@ -894,18 +1144,24 @@
             <head>VOTACIÓN DE CONJUNTO</head>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u121" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u121.1">A continuación, se procede a la votación de conjunto por tener la iniciativa carácter orgánico.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u121.2">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u121.2">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u121.3">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 239 votos telemáticos, 341; a favor, 102 más 166 votos telemáticos, 268; en contra, 57 votos telemáticos; abstenciones, 16 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u122" ana="#chair">
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u122.1">En consecuencia, queda aprobado el proyecto de ley orgánica.<note>Prolongados aplausos de las señoras y los señores diputados de los grupos parlamentarios Socialista y Confederal de Unidas Podemos-En Comú Podem-Galicia enComún, puestos en pie.-Aplausos de las señoras y los señores diputados del Grupo Parlamentario Popular en el Congreso</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u122.1">En consecuencia, queda aprobado el proyecto de ley orgánica.<kinesic type="applause">
+                     <desc>Prolongados aplausos de las señoras y los señores diputados de los grupos parlamentarios Socialista y Confederal de Unidas Podemos-En Comú Podem-Galicia enComún, puestos en pie.-Aplausos de las señoras y los señores diputados del Grupo Parlamentario Popular en el Congreso</desc>
+                  </kinesic> .</seg>
             </u>
          </div>
          <div type="debateSection">
             <head>DICTÁMENES DE LA COMISIÓN DE ASUNTOS EXTERIORES SOBRE CONVENIOS INTERNACIONALES : - ACUERDO MARCO DE COFINANCIACIÓN ENTRE EL REINO DE ESPAÑA Y EL FONDO INTERNACIONAL DE DESARROLLO AGRÍCOLA, HECHO EN MADRID Y ROMA EL 22 DE SEPTIEMBRE DE 2020. . - CONVENIO ENTRE EL REINO DE ESPAÑA Y UCRANIA PARA ELIMINAR LA DOBLE IMPOSICIÓN EN RELACIÓN CON LOS IMPUESTOS SOBRE LA RENTA Y PREVENIR LA ELUSIÓN Y EVASIÓN FISCALES Y SU PROTOCOLO, HECHO EN MADRID EL 10 DE SEPTIEMBRE DE 2020. . - CONVENIO DE SEGURIDAD SOCIAL ENTRE EL REINO DE ESPAÑA Y LA REPÚBLICA DE SENEGAL, HECHO 'AD REFERENDUM' EN DAKAR EL 22 DE NOVIEMBRE DE 2020. .</head>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u123" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u123.1">Dictámenes de la Comisión de Asuntos Exteriores sobre convenios internacionales. Votación conjunta de los dictámenes de la Comisión de Asuntos Exteriores sobre convenios internacionales.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u123.2">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u123.2">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u123.3">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 237 votos telemáticos, 339; a favor, 102 más 157 votos telemáticos, 259; en contra, 51 votos telemáticos; abstenciones, 29 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u124" ana="#chair">
@@ -916,7 +1172,9 @@
             <head>PROPUESTAS DE CREACIÓN DE SUBCOMISIONES : - PROPUESTA DE LA COMISIÓN CONSTITUCIONAL, DE CREACIÓN DE UNA SUBCOMISIÓN PARA LA REFORMA DE LA LEY ORGÁNICA 5/1985, DE 19 DE JUNIO, DEL RÉGIMEN ELECTORAL GENERAL. .</head>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u125" ana="#chair">
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u125.1">Propuestas de creación de subcomisiones. Propuesta de la Comisión Constitucional, de creación de una subcomisión para la reforma de la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General.</seg>
-               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u125.2">Comienza la votación.<note>Pausa</note> .</seg>
+               <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u125.2">Comienza la votación.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> .</seg>
                <seg xml:id="ParlaMint-ES_2021-04-15-CD210415.u125.3">Efectuada la votación, dio el siguiente resultado: votos emitidos, 102 más 237 votos telemáticos, 339; a favor, 102 más 228 votos telemáticos, 330; abstenciones, 9 votos telemáticos.</seg>
             </u>
             <u xml:id="ParlaMint-ES_2021-04-15-CD210415.u126" ana="#chair">

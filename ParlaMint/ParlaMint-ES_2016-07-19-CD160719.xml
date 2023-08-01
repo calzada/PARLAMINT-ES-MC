@@ -57,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-07-12">July 12, 2023</date>
+            <date when="2023-08-01">August 1, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -111,7 +111,9 @@
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u1.4">Señorías, no descubro nada si recuerdo que el Parlamento es el espacio de la palabra y, desde ella, del diálogo, del contraste de ideas, de la búsqueda de la concordia y de los acuerdos al servicio de los ciudadanos. He buscado el sentido que se dio al fundamental valor de la concordia en tiempos pretéritos y más recientes, y he aquí dos ejemplos. Salustio, uno de los más preclaros historiadores romanos, dejó escrito: La concordia hace crecer las pequeñas cosas, la discordia arruina las grandes. Y ya en el siglo XIX, Castelar, preocupado por la regeneración nacional, buscó siempre el acuerdo y la concordia, como lo hizo su contemporáneo Cánovas desde ideas distintas, ambos con luces y con sombras. Es obvio que ello no siempre es posible, pero es positivo que en el Parlamento lo tengamos en cuenta.</seg>
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u1.5">Señorías, generosidad y altura de miras es la responsabilidad de todos y cada uno de nosotros, que por la representación que el pueblo español nos ha otorgado no podemos desoír ni ante ella ser insensibles,<pb n="4"/> cada cual desde la opción ideológica que libremente ha asumido. Deseo una laboriosa y fructífera legislatura.</seg>
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u1.6">Muchas gracias.</seg>
-               <note>Aplausos</note>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
             </u>
          </div>
          <div type="debateSection">
@@ -135,7 +137,9 @@
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u4.1">Gracias.</seg>
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u4.2">¿Hay alguna señora o algún señor diputado que no haya sido nombrado?</seg>
-               <note>Pausa</note>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
             </u>
          </div>
          <div type="debateSection">
@@ -166,7 +170,9 @@
             <u xml:id="ParlaMint-ES_2016-07-19-CD160719.u8"
                who="#LaraMaría"
                ana="#regular">
-               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u8.1">¿Hay alguna señora o algún señor diputado que no haya sido nombrado para votar?<note>Pausa</note> En consecuencia, se procederá a realizar el escrutinio de los votos emitidos.</seg>
+               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u8.1">¿Hay alguna señora o algún señor diputado que no haya sido nombrado para votar?<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> En consecuencia, se procederá a realizar el escrutinio de los votos emitidos.</seg>
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u8.2">Realizado el escrutinio, dijo</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-07-19-CD160719.u9"
@@ -181,13 +187,17 @@
             <u xml:id="ParlaMint-ES_2016-07-19-CD160719.u10"
                who="#LaraMaría"
                ana="#regular">
-               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u10.1">¿Hay alguna señora o algún señor diputado que no haya sido llamado para votar?<note>Pausa</note> En consecuencia, se procederá a realizar el escrutinio de los votos emitidos.<pb n="12"/> Realizado el escrutinio, dijo</seg>
+               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u10.1">¿Hay alguna señora o algún señor diputado que no haya sido llamado para votar?<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> En consecuencia, se procederá a realizar el escrutinio de los votos emitidos.<pb n="12"/> Realizado el escrutinio, dijo</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-07-19-CD160719.u11"
                who="#LaraMaría"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u11.1">Señorías, el resultado de la votación ha sido el siguiente: votos emitidos, 349; 169 a favor de doña Ana María Pastor Julián; 155 a favor de don Patxi López Álvarez; 25 votos en blanco. Al haber obtenido la mayoría de votos de los miembros de la Cámara, queda, en consecuencia, proclamada presidenta del Congreso de los Diputados la diputada doña Ana María Pastor Julián.</seg>
-               <note>Aplausos, con las señoras y los señores diputados del Partido Popular y de Ciudadanos, puestos en pie</note>
+               <kinesic type="applause">
+                  <desc>Aplausos, con las señoras y los señores diputados del Partido Popular y de Ciudadanos, puestos en pie</desc>
+               </kinesic>
             </u>
          </div>
          <div type="debateSection">
@@ -203,15 +213,25 @@
             <u xml:id="ParlaMint-ES_2016-07-19-CD160719.u13"
                who="#LaraMaría"
                ana="#regular">
-               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u13.1">¿Hay alguna señora o algún señor diputado que no haya sido nombrado para votar?<note>Pausa</note> En consecuencia, se procederá a realizar el escrutinio de los votos emitidos.</seg>
+               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u13.1">¿Hay alguna señora o algún señor diputado que no haya sido nombrado para votar?<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> En consecuencia, se procederá a realizar el escrutinio de los votos emitidos.</seg>
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u13.2">Realizado el escrutinio, dijo</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-07-19-CD160719.u14"
                who="#LaraMaría"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u14.1">Señorías, el resultado de la votación para la elección de los cuatro vicepresidentes, ha sido el siguiente: Votos emitidos, 350; a favor de don José Ignacio Prendes Prendes, 96; a favor de doña Micaela Navarro Garzón, 85; a favor de doña Rosa María Romero Sánchez, 83, y a favor de doña Gloria Elizo Serrano, 71. Ha habido 14 votos en blanco y 1 voto nulo.</seg>
-               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u14.2">Quedan en consecuencia proclamados como vicepresidente primero, don José Ignacio Prendes Prendes<note>Aplausos</note> ; como vicepresidenta segunda, doña Micaela Navarro Garzón<note>Aplausos</note> ; como vicepresidenta tercera, doña Rosa Romero Sánchez<note>Aplausos</note> ; y como vicepresidenta cuarta, doña Gloria Elizo Serrano.</seg>
-               <note>Aplausos</note>
+               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u14.2">Quedan en consecuencia proclamados como vicepresidente primero, don José Ignacio Prendes Prendes<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> ; como vicepresidenta segunda, doña Micaela Navarro Garzón<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> ; como vicepresidenta tercera, doña Rosa Romero Sánchez<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> ; y como vicepresidenta cuarta, doña Gloria Elizo Serrano.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
             </u>
          </div>
          <div type="debateSection">
@@ -222,21 +242,35 @@
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u15.1">Se elegirán a continuación los cuatro secretarios.</seg>
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u15.2">Cada diputado escribirá solo un nombre en la papeleta para la elección de los secretarios. Resultarán elegidos por orden sucesivo los cuatro que obtengan mayor número de votos. Si en alguna votación se produjera empate, se celebrarán sucesivas votaciones entre los candidatos igualados en votos hasta que el empate quede dirimido.</seg>
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u15.3">Por las señoras secretarias de la Mesa de Edad se procederá al llamamiento por orden alfabético de las señoras y señores diputados para que depositen la papeleta en la urna correspondiente, y los miembros de la Mesa votarán al final. Se ruega a las señoras y señores diputados que comuniquen su nombre a los letrados que se encuentran en la Mesa en el momento de votar.</seg>
-               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u15.4">Empieza la votación<note>Pausa</note>
+               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u15.4">Empieza la votación<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident>
                   <pb n="13"/> Por las secretarias de la Mesa de Edad, señoras Such Palomares y Alba Goveli, se procede al llamamiento de las señoras y los señores diputados, quienes van depositando sus papeletas en la urna.</seg>
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u15.5">Terminada la votación, dijo</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-07-19-CD160719.u16"
                who="#LaraMaría"
                ana="#regular">
-               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u16.1">Señorías, ¿alguna señora o señor diputado no ha sido llamado a votación?<note>Pausa</note> Se procede a realizar el escrutinio de los votos emitidos.</seg>
+               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u16.1">Señorías, ¿alguna señora o señor diputado no ha sido llamado a votación?<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> Se procede a realizar el escrutinio de los votos emitidos.</seg>
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u16.2">Realizado el escrutinio, dijo</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-07-19-CD160719.u17"
                who="#LaraMaría"
                ana="#regular">
-               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u17.1">El resultado de la votación para la elección de los cuatro secretarios ha sido el siguiente: votos emitidos, 350; 111 a favor de doña Alicia Sánchez-Camacho Pérez; 85 a favor de don Juan Luis Gordo Pérez; 70 a favor de don Marcelo Expósito Prieto; 57 a favor de doña Patricia Reyes Rivera; 26 votos en blanco y 1 voto nulo. Quedan en consecuencia proclamados secretaria primera, doña Alicia Sánchez-Camacho Pérez<note>Aplausos</note> ; secretario segundo, don Juan Luis Gordo Pérez<note>Aplausos</note> ; secretario tercero, don Marcelo Expósito Prieto<note>Aplausos</note> , y secretaria cuarta, doña Patricia Reyes Rivera<note>Aplausos</note> Ruego por tanto a la señora presidenta y a los señores vicepresidentes y secretarios elegidos en este acto que pasen a ocupar sus asientos en la Mesa. Muchas gracias.</seg>
-               <note>Así lo hacen los nuevos miembros de la Mesa.-Aplausos</note>
+               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u17.1">El resultado de la votación para la elección de los cuatro secretarios ha sido el siguiente: votos emitidos, 350; 111 a favor de doña Alicia Sánchez-Camacho Pérez; 85 a favor de don Juan Luis Gordo Pérez; 70 a favor de don Marcelo Expósito Prieto; 57 a favor de doña Patricia Reyes Rivera; 26 votos en blanco y 1 voto nulo. Quedan en consecuencia proclamados secretaria primera, doña Alicia Sánchez-Camacho Pérez<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> ; secretario segundo, don Juan Luis Gordo Pérez<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> ; secretario tercero, don Marcelo Expósito Prieto<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> , y secretaria cuarta, doña Patricia Reyes Rivera<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Ruego por tanto a la señora presidenta y a los señores vicepresidentes y secretarios elegidos en este acto que pasen a ocupar sus asientos en la Mesa. Muchas gracias.</seg>
+               <kinesic type="applause">
+                  <desc>Así lo hacen los nuevos miembros de la Mesa.-Aplausos</desc>
+               </kinesic>
             </u>
          </div>
          <div type="debateSection">
@@ -245,7 +279,9 @@
                who="#PastorAna"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u18.1">Señorías, vamos a proceder al juramento o promesa de acatamiento de la Constitución de todos los miembros de la Cámara en los términos previstos en el Reglamento de la misma y en la resolución de la Presidencia de 30 de noviembre de 1989. Lo harán en primer lugar la Presidencia y los miembros de la Mesa, y a continuación los restantes señores diputados.</seg>
-               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u18.2">Ruego a los miembros de la Mesa se pongan en pie.<note>Pausa</note> Juro acatar la Constitución y cumplir fielmente mis obligaciones como presidenta del Congreso de los Diputados.</seg>
+               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u18.2">Ruego a los miembros de la Mesa se pongan en pie.<incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> Juro acatar la Constitución y cumplir fielmente mis obligaciones como presidenta del Congreso de los Diputados.</seg>
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u18.3">Don José Ignacio Prendes Prendes, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como vicepresidente primero?</seg>
             </u>
             <u xml:id="ParlaMint-ES_2016-07-19-CD160719.u19"
@@ -276,7 +312,9 @@
                who="#ElizoMaría"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u25.1">Prometo acatar la Constitución, trabajar para cambiarla, devolver la dignidad y el compromiso a la política. Nunca más un país sin su gente y sus pueblos.</seg>
-               <note>Rumores.- Aplausos</note>
+               <kinesic type="applause">
+                  <desc>Rumores.- Aplausos</desc>
+               </kinesic>
             </u>
             <u xml:id="ParlaMint-ES_2016-07-19-CD160719.u26" ana="#chair">
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u26.1">Doña Alicia Sánchez-Camacho Pérez, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como secretaria primera?</seg>
@@ -302,7 +340,9 @@
                who="#ExpósitoMarcelo"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u31.1">Sí, prometo trabajar por la fraternidad, por la justicia social y por reivindicar las soberanías.</seg>
-               <note>Aplausos</note>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
             </u>
             <u xml:id="ParlaMint-ES_2016-07-19-CD160719.u32" ana="#chair">
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u32.1">Doña Patricia Reyes Rivera, ¿jura o promete acatar la Constitución y cumplir fielmente sus obligaciones como secretaria cuarta?</seg>
@@ -311,10 +351,14 @@
                who="#ReyesPatricia"
                ana="#regular">
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u33.1">Sí, juro.</seg>
-               <note>Aplausos</note>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
             </u>
             <u xml:id="ParlaMint-ES_2016-07-19-CD160719.u34" ana="#chair">
-               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u34.1">Muchas gracias.<note>Aplausos</note> Pasamos a continuación al juramento general.</seg>
+               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u34.1">Muchas gracias.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Pasamos a continuación al juramento general.</seg>
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u34.2">Señorías, ¿juráis o prometéis acatar la Constitución? Ruego a la señora secretaria primera proceda al llamamiento por orden alfabético para que los señores y señoras diputadas puedan realizar el acatamiento. Como saben, los miembros del Gobierno en funciones lo harán al final.</seg>
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u34.3">Por los secretarios de la Mesa se procede a dar lectura de la lista de las señoras y los señores diputados electos, quienes juran, prometen o lo hacen utilizando otras fórmulas de acatamiento a la Constitución. A continuación, también por los secretarios de la Mesa, se procede a dar lectura de los miembros del Gobierno en funciones, diputados electos, quienes juran o prometen la Constitución.</seg>
             </u>
@@ -328,7 +372,9 @@
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u36.1">Señoras y señores diputados, en primer lugar, quiero agradecer, en nombre de los miembros de la Mesa y en el mío propio, la confianza que ustedes nos han otorgado para orientar el rumbo de esta XII Legislatura. Vaya por delante mi compromiso de hacerme merecedora del privilegio que supone presidir el Congreso de los Diputados, este órgano donde reside la representación de la soberanía nacional. Sé que este camino no estará exento de obstáculos, que espero podamos resolver todos juntos. Si hoy estamos aquí es gracias al trabajo y al esfuerzo de los diputados que nos precedieron en esta etapa constitucional. A todos ellos quiero expresar mi reconocimiento. De ellos tomamos el testigo de un parlamento que es expresión de la voluntad democrática de todos y cada uno de los españoles. Nuestro deber es afianzar lo bueno y mejorar todos aquellos aspectos que permitan legar a quienes nos sucedan un parlamento más eficaz para los intereses de la democracia.</seg>
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u36.2">Los ciudadanos, señorías, esperan que esta XII Legislatura sea próspera y fructífera en el impulso de las reformas que nuestro país necesita para seguir avanzando como nación en este proyecto político común que es España, un proyecto que nace de la Constitución como eje vertebrador de los derechos y de las libertades de todos los ciudadanos, ese texto constitucional que reconoce y garantiza esos valores superiores del ordenamiento jurídico. El que fuera presidente de esta Cámara, don Landelino Lavilla, elogiaba durante su toma de posesión la capacidad de la Carta Magna para desarrollar el Estado de las autonomías como potenciador de los ámbitos de convivencia. Treinta y ocho años después, la Constitución nos permite seguir garantizando esa convivencia en base a unos valores compartidos. La monarquía parlamentaria es también parte esencial de nuestro sistema constitucional, representada por nuestro rey, Felipe VI, que presta un servicio fundamental a la sociedad al ser la garantía de estabilidad y símbolo de integridad.</seg>
                <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u36.3">Hoy tiene especial relevancia recordar que este Parlamento debe ser expresión de la unidad en torno a los principios y valores compartidos: la libertad, la igualdad, la justicia social y el Estado de derecho, al tiempo que debe saber conjugar la pluralidad política que ha nacido de las urnas el pasado 26 de junio. No es menos importante subrayar el compromiso de todas las formaciones políticas en la lucha contra la<pb n="15"/> lacra del terrorismo. Tengo la certeza de que nunca podrán doblegar la fuerza de la democracia. Son muchos los retos que España afronta en estos cuatro años y el Parlamento debe ser el generador de los consensos necesarios para conseguir lo que todos los españoles esperan de todos nosotros: seguir creando empleo, seguir creciendo, consolidar esos principios que son fundamentales y una sociedad del bienestar para todos. El Parlamento debe contribuir de forma decisiva a fortalecer la confianza de los españoles en nuestras instituciones y con ellas la esperanza del futuro de los que todavía no lo tienen. Para ello necesitamos más que nunca estabilidad, más que nunca diálogo, más que nunca consenso y les aseguro que en esta Mesa encontrarán la mejor disposición, todo nuestro esfuerzo y todas nuestras capacidades para no defraudar las expectativas del conjunto de los ciudadanos. No debemos olvidar que el debate político y por tanto la confrontación de argumentos están en la naturaleza del Parlamento, pero estos no deben ser el fin, señorías, sino el medio, el medio para construir el país que los españoles desean y necesitan. Señorías, con el pleno convencimiento de que ese y no otro es el objetivo que todos ustedes comparten, y de conformidad con lo dispuesto en el artículo 4.º del Reglamento de la Cámara, declaro constituido el Congreso de los Diputados. De este hecho se dará cuenta a su majestad el rey, al Senado y al Gobierno.</seg>
-               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u36.4">Muchas gracias, señorías, y se levanta la sesión.<note>Aplausos</note> Era la una y cincuenta minutos de la tarde.</seg>
+               <seg xml:id="ParlaMint-ES_2016-07-19-CD160719.u36.4">Muchas gracias, señorías, y se levanta la sesión.<kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Era la una y cincuenta minutos de la tarde.</seg>
             </u>
          </div>
       </body>
