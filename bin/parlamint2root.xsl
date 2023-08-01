@@ -388,7 +388,7 @@
     <xsl:if test="following-sibling::text()[normalize-space(.)]">
       <xsl:copy>
         <xsl:apply-templates select="@*"/>
-        <xsl:value-of select="normalize-space(.)"/>
+        <xsl:apply-templates mode="copy" select="*|text()"/>
       </xsl:copy>
       <xsl:text>&#32;</xsl:text>
     </xsl:if>
@@ -401,12 +401,23 @@
     <xsl:if test="not(following-sibling::text()[normalize-space(.)])">
       <xsl:copy>
         <xsl:apply-templates select="@*"/>
-        <xsl:value-of select="normalize-space(.)"/>
+        <xsl:apply-templates mode="copy" select="*|text()"/>
       </xsl:copy>
     </xsl:if>
   </xsl:template>
   <xsl:template mode="edge-in" match="text()"/>
   
+
+  <xsl:template mode="copy" match="tei:*">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="copy" select="*|text()"/>
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template mode="copy" match="text()">
+    <xsl:value-of select="normalize-space(.)"/>
+  </xsl:template>
+
   <!-- Remove leading, trailing and multiple spaces -->
   <xsl:template mode="comp" match="text()[normalize-space(.)]">
     <xsl:variable name="str" select="replace(., '\s+', ' ')"/>
