@@ -399,9 +399,16 @@
        "Rumors, Applause, Denials, .."
   -->
   <xsl:template match="omit">
-    <note xmlns="http://www.tei-c.org/ns/1.0">
-      <xsl:apply-templates/>
-    </note>
+    <xsl:choose>
+      <xsl:when test="ancestor::omit">
+        <xsl:apply-templates/>
+      </xsl:when>
+      <xsl:otherwise>
+        <note xmlns="http://www.tei-c.org/ns/1.0">
+          <xsl:apply-templates/>
+        </note>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="heading">
