@@ -213,14 +213,14 @@ perl -pi -e 's/<note>(.+?\:.+?)<\/note>/<vocal type="speaking">\n <desc>$1<\/des
 
 #ENDING THE SCRIPT
 
-perl -pi -e 's/<note>/<note type="comment">/gi' *.xml
+perl -pi -e 's/<note>(.*?)<\/note>/<note type="comment">$1</note>/gi' *.xml
 
 #RESTORING XXYY
 
-Echo "restoring XXYY\n to just a space"
+echo "restoring XXYY\n to just a space"
 perl -pi -e 's/XXYY\n/ /g' *.xml
 
-Echo "fixing where we've put two spaces"
+echo "fixing where we've put two spaces"
 perl -pi -e 's/\s\s/ /g' *.xml
 
 #BUG FIXING

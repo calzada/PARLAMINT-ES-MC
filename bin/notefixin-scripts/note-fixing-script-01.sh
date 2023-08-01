@@ -66,7 +66,7 @@ echo "<note>(Paus.|Pausa|Pausa.+?)<\/note>"
 
 # KINESIC TYPE GESTURE: ASSENTING DISSENTING 
 echo "ASSENTING/DISSENTING.- asentimiento/denegación"
-perl -pi -e 's/<note>(.*?)(.sentimiento|.sentimientos)(.*?)<\/note>/<kinesic type="gesture">\n<\/kinesic>/gi' *.xml
+perl -pi -e 's/<note>(.*?)(.sentimiento|.sentimientos)(.*?)<\/note>/<kinesic type="gesture">\n <desc>$1$2$3<\/desc>\n<\/kinesic>/gi' *.xml
 
 perl -pi -e 's/<note>(.*?Denegaciones.*?)<\/note>/<kinesic type="gesture">\n <desc>$1<\/desc>\n<\/kinesic>/gi' *.xml
 

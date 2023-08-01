@@ -46,7 +46,7 @@ perl -pi -e 's/<note>(y muy superiores salarios de sus mánager)<\/note>/<vocal 
 
 perl -pi -e 's/<note>(y por tal ha de ser tenido mientras no haya una decisión judicial en contra)<\/note>/<vocal type="clarification">\n <desc>$1<\/desc>\n<\/vocal>/gi' *.xml
 
-perl -pi -e 's/<note>(por cierto, el único por el que en dos ocasiones un Estado ha sido condenado por utilizar toda la excepcionalidad y la ilegalidad contra una persona, y ahí podríamos hablar de la razón de Estado contra el independentismo vasco o el independentismo catalán, pero eso lo haremos otro día)/<vocal type="clarification">\n <desc>$1<\/desc>\n<\/vocal>/gi' *.xml
+perl -pi -e 's/<note>(por cierto, el único por el que en dos ocasiones un Estado ha sido condenado por utilizar toda la excepcionalidad y la ilegalidad contra una persona, y ahí podríamos hablar de la razón de Estado contra el independentismo vasco o el independentismo catalán, pero eso lo haremos otro día)<\/note>/<vocal type="clarification">\n <desc>$1<\/desc>\n<\/vocal>/gi' *.xml
 
 perl -pi -e 's/<note>(Me queda poco tiempo)<\/note>/<vocal type="clarification">\n <desc>$1<\/desc>\n<\/vocal>/gi' *.xml
 

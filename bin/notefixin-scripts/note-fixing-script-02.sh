@@ -80,10 +80,10 @@ echo "...señala|señalan..."
 perl -pi -e 's/<note>(.*?)(señalan?|señalando)(.*?)<\/note>/<kinesic type="signal">\n <desc>$1$2$3<\/desc>\n<\/kinesic>/gi' *.xml
 
 echo "pide la palabra"
-perl -pi -e 's/<note>(.*?pide.?\p{Z}+?la\p{Z}+?palabra.*?).*?<\/note>/<kinesic type="signal">\n <desc>$1<\/desc>\n<\/kinesic>/gi' *.xml
+perl -pi -e 's/<note>(.*?pide.?\p{Z}+?la\p{Z}+?palabra.*?)<\/note>/<kinesic type="signal">\n <desc>$1<\/desc>\n<\/kinesic>/gi' *.xml
 
 echo "levanta la mano"
-perl -pi -e 's/<note>(.*?levanta\p{Z}+?la\p{Z}+?mano.*?).*?<\/note>/<kinesic type="signal">\n <desc>$1<\/desc>\n<\/kinesic>/gi' *.xml
+perl -pi -e 's/<note>(.*?levanta\p{Z}+?la\p{Z}+?mano.*?)<\/note>/<kinesic type="signal">\n <desc>$1<\/desc>\n<\/kinesic>/gi' *.xml
 
 echo "levanta el dedo"
 perl -pi -e 's/<note>(.*?levanta\p{Z}+?el\p{Z}+?dedo.*?)<\/note>/<kinesic type="signal">\n <desc>$1<\/desc>\n<\/kinesic>/gi' *.xml
@@ -103,7 +103,7 @@ echo "COMMENT ON SPEAKING"
 perl -pi -e 's/<note>(.*?)(intercambian?\p{Z}+?algunas\p{Z}+?palabras|intercambian?\p{Z}+?unas\p{Z}+?palabras|uso\p{Z}+?de\p{Z}+?la\p{Z}+?palabra|una\p{Z}+?conversación|hablando|hablar|hablan?|dialogan?)(.*?)<\/note>/<vocal type="speaking">\n <desc>$1$2$3<\/desc>\n<\/vocal>/gi' *.xml
 
 
-perl -pi -e 's/<note>(.+?alusión.+?)<\/note>/<vocal type="speaking">\n\s}<desc>$1<\/desc>\n<\/vocal>/gi' *.xml
+perl -pi -e 's/<note>(.+?alusión.+?)<\/note>/<vocal type="speaking">\n <desc>$1<\/desc>\n<\/vocal>/gi' *.xml
 
 echo "El señor...: ..."
 perl -pi -e 's/<note>(El\p{Z}+?señor|La\p{Z}+?señora|Los\p{Z}+?señores|las\p{Z}+?señoras)(.+?\:.+?)<\/note>/<vocal type="speaking">\n <desc>$1$2<\/desc>\n<\/vocal>/gi' *.xml
