@@ -43,7 +43,7 @@ val:
 	# bin/validate-parlamint.pl schemas ParlaMint$(DIRSUFFIX)
 
 #Second conversion: from TEI-ish corpus components to final TEI components + root
-cnv2:
+cnv2: patch-cnv1-result
 	mkdir ParlaMint$(DIRSUFFIX) || :
 	rm -f ParlaMint$(DIRSUFFIX)/*.xml
 	$s inDir="../tmp$(DIRSUFFIX)" outDir="ParlaMint$(DIRSUFFIX)" componentFiles="../tmp$(DIRSUFFIX)/ParlaMint-component-ES.xml" \
@@ -73,6 +73,16 @@ xis: tmp$(DIRSUFFIX)
 
 tmp$(DIRSUFFIX):
 	mkdir tmp$(DIRSUFFIX)
+
+patch-cnv1-result:
+	cd tmp$(DIRSUFFIX)/; \
+	  ../bin/notefixin-scripts/note-fixing-script-01.sh ;\
+	  ../bin/notefixin-scripts/note-fixing-script-02.sh ;\
+	  ../bin/notefixin-scripts/note-fixing-script-03.sh ;\
+	  ../bin/notefixin-scripts/note-fixing-script-04.sh ;\
+	  ../bin/notefixin-scripts/note-fixing-script-05.sh
+	echo "cnv1 patched"
+
 
 CD.sample:
 	mkdir CD.sample
