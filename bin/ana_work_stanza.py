@@ -4,6 +4,10 @@ import json
 from bs4 import BeautifulSoup
 import os
 import re
+import warnings
+
+# Ignore XMLParsedAsHTMLWarning
+warnings.filterwarnings("ignore", category=UserWarning, message="It looks like you're parsing an XML document using an HTML parser.")
 
 subs_pb = lambda a: re.sub('\<pb .+\/\>', '', a)
 files = os.listdir('.')
@@ -11,8 +15,12 @@ files = [ x for x in files if '.xml' in x]
 ident = '    '
 nlp = stanza.Pipeline('es')
 problems = []
+problem_dict = {}
 
 def load_file(filename):
+    """htlm is used as a parser, instead of xml, to preserve tags 
+    as much as possible, but the html parser makes all tags have lower case,
+    this is fixed in fix_after_bugs.py script"""
     text = open(filename, 'r').read()
     parsed = BeautifulSoup(text, 'html.parser')
     return parsed 
@@ -25,20 +33,27 @@ def run_file(filename):
         f.write(str(parsed))
 
 def get_us(parsed):
+    """Looks for all "u" tags"""
     us = parsed.find_all('u')
     for u in us:
         parse_u(parsed, u) 
 
 def get_text_inside_seg(seg_text):
+    """Gets all texts within segments ("seg" tags) to be annotated"""
     return '>'.join(str(seg_text).split('>')[1:]).replace('</seg>','')
 
 def parse_u(parsed, u):
+    """Assigns ids to tags following a previously created id 
+    (already in the xml files)"""
     id = u.attrs['xml:id']
     segs = u.find_all('seg')
     for id_seg, seg in enumerate(segs):
         parse_seg(parsed, seg, id, id_seg + 1)
 
 def get_annotated(seg_text):
+    """Workaround to deal with any errors that might come up, especially 
+    in terms of character excess, stanza has issues annotating overly long segments,
+    this function adds a space before the period to circumvent the issue"""
     seg_text = subs_pb(seg_text)
     global problems
     try:
@@ -54,6 +69,7 @@ def get_annotated(seg_text):
     return data.to_dict()
 
 def to_text(seg_text):
+    """Organizes the annotation of "note" tags"""
     repart = seg_text.split('<note>')
     if len(repart) <= 1:
         return get_annotated(repart[0])
@@ -69,6 +85,7 @@ def to_text(seg_text):
     return res
 
 def parse_seg(parsed, seg, id, id_seg):
+    """Assigns id's to tags withing segments"""
     sentences = to_text(get_text_inside_seg(seg))
     id = str(id) + '.' + str(id_seg)
     sentence_tags = []
@@ -88,7 +105,8 @@ def parse_seg(parsed, seg, id, id_seg):
             seg.append('\n' + ident)
             seg.append(i)
 
-def fix_word_join_right(sentence): # look for join right
+def fix_word_join_right(sentence):
+    """Looks for join right"""
     total_len = len(sentence)
     for index, word in enumerate(sentence):
         if index == (total_len - 1):
@@ -112,6 +130,7 @@ def fix_part_word_join_right(part1, part2):
     return part1
 
 def parse_sentence(parsed, sentence, id, id_sentence):
+    """Organizes dependency relations annotation"""
     id = str(id) + '.' + str(id_sentence)
     tag = parsed.new_tag('s', **{'xml:id': id})
     sentence = fix_word_join_right(sentence)
@@ -128,6 +147,7 @@ def parse_sentence(parsed, sentence, id, id_sentence):
     return tag
 
 def parse_word_link(parsed, word, id):
+    """Reemoves .0 from root relation. Fixes formatting to be aligned with xml/other corpora"""
     word_id = str(id) + '.' + str(word['id'])
     data = {}
     try:
@@ -148,6 +168,8 @@ def parse_word_link(parsed, word, id):
     return link
 
 def parse_word(parsed, word, id):
+    """Partially fixes NER annotation, the other NER fixes are applied by the fix_after_bugs.py script.
+    Organizes other tag annotations"""
     word_id = str(id) + '.' + str(word['id'])
     tags = []
     try:
@@ -182,6 +204,8 @@ def parse_word(parsed, word, id):
 import pandas as pd
 problems = pd.DataFrame(problem_dict)
 problems.to_csv("parts_with_issues.csv", header = None)
+# Workaround to identify files that couldn't be parsed
+
 
 for i in range(54,400):
     print(i)
@@ -191,7 +215,7 @@ for i in range(54):
     run_file(files[i])
 
 
+
 nlp = stanza.Pipeline('es', use_gpu = False)
 run_file(files[53]) # For some reason, this file must be run in cpu instead of gpu
-
 
