@@ -19,7 +19,7 @@ The original workflow is kept in a separate SCRIPT repository. However, this ori
 #### 1.9. Numbering interventions and speeches is possible with separate scripts. Adding paragraphs and sentences is possible with a separate script (by Saturnino Luz) 
 
 ### Refinements
-<note> </notes> are specified further according to TEI-PARLAMINT notes (documentation: https://clarin-eric.github.io/ParlaMint/#sec-comments)
+```<note> </notes>``` are specified further according to TEI-PARLAMINT notes (documentation: https://clarin-eric.github.io/ParlaMint/#sec-comments)
 
 
 ## 2. Conversion to TEI format (Tomaz Erjavec)
@@ -36,7 +36,7 @@ If you are working on Windows, it is advisable to install ubuntu for Windows, to
  /opt/SaxonHE12-3J/saxon-he-12.3.jar
 -rw-r--r-- 1 root root 5559891 Jul 12 11:45 /opt/SaxonHE12-3J/saxon-he-12.3.jar
 
-And the then you must create a symlink here
+And then you must create a symlink here
 matyas@mPC:~$ ll /usr/share/java/saxon.jar
 lrwxrwxrwx 1 root root 35 Jul 12 11:52 /usr/share/java/saxon.jar -> /opt/SaxonHE12-3J/saxon-he-12.3.jar 
 saxon.jar in the right place: /usr/share/java/saxon.jar
