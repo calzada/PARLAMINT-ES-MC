@@ -15,6 +15,7 @@ files = [ x for x in files if '.xml' in x]
 ident = '    '
 nlp = stanza.Pipeline('es')
 problems = []
+problem_dict = {}
 
 def load_file(filename):
     """htlm is used as a parser, instead of xml, to preserve tags 
@@ -201,7 +202,7 @@ def parse_word(parsed, word, id):
 
 
 import pandas as pd
-problems = pd.DataFrame(problems)
+problems = pd.DataFrame(problem_dict)
 problems.to_csv("parts_with_issues.csv", header = None)
 # Workaround to identify files that couldn't be parsed
 
