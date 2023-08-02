@@ -52,4 +52,11 @@ When install SVN because one script is loaded from the Ukrainian ParlaMint repos
 ### 3.1. Luciana de Macedo's magic script
 the script https://github.com/calzada/PARLAMINT-ES-MC/blob/master/bin/ana_work_stanza.py  (by Luciana de Macedo) is working! But my machine is taking around 1 hour per file! It is important to have the best of GPU.
 
+To run de Macedo's script: 
+
+#### 3.1.1 It's necessary to download the stanza package (pip install stanza). The other necessary libraries will me signaled by the system.
+
+#### 3.1.2 It's important to create a directory called "result" before running the code.
+
+#### 3.1.3 It's also super important to run the second script as a final step (ana_fix_after_bugs). It corrects some other formatting errors and changes the name of the files to .ana.xml
 
