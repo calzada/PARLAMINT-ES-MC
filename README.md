@@ -8,16 +8,17 @@ Files with CD (Spanish Congress) interventions. They are processed in the follow
 The original workflow is kept in a separate SCRIPT repository. However, this original workflow is refined for Parlamint 3.0. 
 
 ### Original workflow:
-1.1 Download CD interventions
-1.2 Scripting to translate from HTML to XML with regexp
-1.3. Refining a first dtd to validate temporary XMl
-1.4. Renaming files  (script by María del Mar Bonet Ramos)
-1.5. Downloading metadata from cd web
-1.6. Formating information in a sandfromhash required format with regexp
-1.7. Adding filename
-1.8. Refining a second dtd to validate definite XML
-1.9. Numbering interventions and speeches is possible with separate scripts. Adding paragraphs and sentences is possible with a separate script (by Saturnino Luz) 
-Refinements
+#### 1.1 Download CD interventions
+#### 1.2 Scripting to translate from HTML to XML with regexp
+#### 1.3. Refining a first dtd to validate temporary XMl
+#### 1.4. Renaming files  (script by María del Mar Bonet Ramos)
+#### 1.5. Downloading metadata from cd web
+#### 1.6. Formating information in a sandfromhash required format with regexp
+#### 1.7. Adding filename
+#### 1.8. Refining a second dtd to validate definite XML
+#### 1.9. Numbering interventions and speeches is possible with separate scripts. Adding paragraphs and sentences is possible with a separate script (by Saturnino Luz) 
+
+### Refinements
 <note> </notes> are specified further according to TEI-PARLAMINT notes (documentation: https://clarin-eric.github.io/ParlaMint/#sec-comments)
 
 
