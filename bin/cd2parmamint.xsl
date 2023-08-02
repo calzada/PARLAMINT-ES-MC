@@ -658,7 +658,7 @@
               <xsl:value-of select="normalize-space(lower-case(.))"/>
             </nameLink>
           </xsl:when>
-          <xsl:when test="matches(., '^Del?', 'i')">
+          <xsl:when test="matches(., '^Del?$', 'i')">
             <nameLink>
               <xsl:value-of select="normalize-space(et:cap-case(.))"/>
             </nameLink>
