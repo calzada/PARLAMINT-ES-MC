@@ -63,11 +63,11 @@ you'll be prompted to enter your password (step 7)
 2.7. Install packages and dependencies (you'll be prompted several times "Do you want to continue? [Y/n]"
 type Y)
 
-```$ sudo apt install moreutils
-$ sudo apt install make
-$ sudo apt install parallel
-$ sudo apt install openjdk-19-jre-headless
-$ sudo apt install unzip```
+```$ sudo apt install moreutils```
+```$ sudo apt install make```
+```$ sudo apt install parallel```
+```$ sudo apt install openjdk-19-jre-headless```
+```$ sudo apt install unzip```
 
 One script is loaded from the Ukrainian ParlaMint repository (you need to have svn installed for that.
 $ sudo apt install subversion
@@ -80,8 +80,8 @@ $ sudo apt install subversion
 
 go to /otp and make a dir to install SaxonHE12-3J.zip
 
-```$ cd /otp
-$ sudo mkdir SaxonHE12-3J```
+```$ cd /otp```
+```$ sudo mkdir SaxonHE12-3J```
 
 Download SaxonHE12-3J.zip from [https://www.saxonica.com/download/] and move the file to /otp/SaxonHE12-3J
 
