@@ -4,17 +4,6 @@
             xml:lang="es">
    <head xml:lang="es">Lista de Oradores/Oradoras</head>
    <head xml:lang="en">List of speakers</head>
-   <person xml:id="AbascalSantiago">
-      <persName>
-         <forename>Santiago</forename>
-         <surname>Abascal</surname>
-         <surname>Conde</surname>
-      </persName>
-      <sex value="M"/>
-      <birth when="1976-04-14"/>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2020-01-04"/>
-      <affiliation role="member" ref="#party.Vox"/>
-   </person>
    <person xml:id="AizpuruaMertxe">
       <persName>
          <forename>Mertxe</forename>
@@ -61,18 +50,6 @@
       <affiliation ref="#CD" role="member" from="2018-02-06" to="2018-02-06"/>
       <affiliation role="member" ref="#party.UPNPP"/>
    </person>
-   <person xml:id="AlonsoCuevillasJaume">
-      <persName>
-         <forename>Jaume</forename>
-         <surname>Alonso-Cuevillas</surname>
-         <nameLink>i</nameLink>
-         <surname>Sayrol</surname>
-      </persName>
-      <sex value="M"/>
-      <birth when="1961-11-22"/>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2020-01-04"/>
-      <affiliation role="member" ref="#party.JxCatJUNTS"/>
-   </person>
    <person xml:id="AnguloMaría">
       <persName>
          <forename>María</forename>
@@ -106,21 +83,8 @@
       <birth when="1981-07-03">
          <placeName>Jerez de la Frontera (Cádiz)</placeName>
       </birth>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2023-02-23"/>
+      <affiliation ref="#CD" role="member" from="2023-02-23" to="2023-02-23"/>
       <affiliation role="member" ref="#party.Cs"/>
-   </person>
-   <person xml:id="AsensJaume">
-      <persName>
-         <forename>Jaume</forename>
-         <surname>Asens</surname>
-         <surname>Llodrà</surname>
-      </persName>
-      <sex value="M"/>
-      <birth when="1972-03-29">
-         <placeName>Barcelona</placeName>
-      </birth>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2020-01-04"/>
-      <affiliation role="member" ref="#party.ECPGUAYEMELCANVI"/>
    </person>
    <person xml:id="AsianMatilde">
       <persName>
@@ -252,19 +216,6 @@
       <affiliation ref="#GOV" role="minister" from="2018-06-07" to="2019-11-30">
          <roleName xml:lang="en">Minister of Foreign Affairs, European Union and Cooperation</roleName>
       </affiliation>
-   </person>
-   <person xml:id="BorràsLaura">
-      <persName>
-         <forename>Laura</forename>
-         <surname>Borràs</surname>
-         <surname>Castanyer</surname>
-      </persName>
-      <sex value="F"/>
-      <birth when="1970-10-05">
-         <placeName>Barcelona</placeName>
-      </birth>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2020-01-04"/>
-      <affiliation role="member" ref="#party.JxCatJUNTS"/>
    </person>
    <person xml:id="BorrásMireia">
       <persName>
@@ -467,19 +418,6 @@
       <affiliation ref="#GOV" role="minister" from="2018-09-12" to="2020-01-13">
          <roleName xml:lang="en">Minister of Health, Consumer Affairs and Social Welfare</roleName>
       </affiliation>
-   </person>
-   <person xml:id="CasadoPablo">
-      <persName>
-         <forename>Pablo</forename>
-         <surname>Casado</surname>
-         <surname>Blanco</surname>
-      </persName>
-      <sex value="M"/>
-      <birth when="1981-02-01">
-         <placeName>Palencia</placeName>
-      </birth>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2020-01-04"/>
-      <affiliation role="member" ref="#party.PP"/>
    </person>
    <person xml:id="CastellsManuel">
       <persName>
@@ -762,7 +700,7 @@
       </persName>
       <sex value="M"/>
       <birth when="1962-06-21"/>
-      <affiliation ref="#CD" role="member" from="2018-02-06" to="2020-01-04"/>
+      <affiliation ref="#CD" role="member" from="2018-02-06" to="2018-02-06"/>
       <affiliation role="member" ref="#party.EAJPNV"/>
    </person>
    <person xml:id="EstellerMaría">
@@ -906,12 +844,7 @@
       <persName>
          <forename>Alberto</forename>
          <surname>Garzón</surname>
-         <surname>Espinosa</surname>
       </persName>
-      <sex value="M"/>
-      <birth when="1985-10-09"/>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2020-01-04"/>
-      <affiliation role="member" ref="#party.UP"/>
       <affiliation ref="#GOV" role="member" from="2020-01-13"/>
       <affiliation ref="#GOV" role="minister" from="2020-01-13">
          <roleName xml:lang="en">Minister of Consumer Affairs</roleName>
@@ -1002,7 +935,7 @@
       </persName>
       <sex value="M"/>
       <birth when="1961-03-07"/>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2022-01-25"/>
+      <affiliation ref="#CD" role="member" from="2022-01-25" to="2022-01-25"/>
       <affiliation role="member" ref="#party.TeruelExiste"/>
    </person>
    <person xml:id="GutiérrezMiguel">
@@ -1026,17 +959,6 @@
       <affiliation ref="#GOV" role="minister" from="2023-03-28">
          <roleName xml:lang="en">Minister of Industry, Trade and Tourism</roleName>
       </affiliation>
-   </person>
-   <person xml:id="GómezReinoAntonio">
-      <persName>
-         <forename>Antonio</forename>
-         <surname>Gómez-Reino</surname>
-         <surname>Varela</surname>
-      </persName>
-      <sex value="M"/>
-      <birth when="1980-03-07"/>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2020-01-04"/>
-      <affiliation role="member" ref="#party.ECUP"/>
    </person>
    <person xml:id="GómezRodrigo">
       <persName>
@@ -1100,12 +1022,7 @@
       <persName>
          <forename>Pablo</forename>
          <surname>Iglesias</surname>
-         <surname>Turrión</surname>
       </persName>
-      <sex value="M"/>
-      <birth when="1978-10-17"/>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2020-01-04"/>
-      <affiliation role="member" ref="#party.UP"/>
       <affiliation ref="#GOV" role="deputyHead" from="2020-01-13" to="2021-03-31">
          <roleName xml:lang="en">Second Deputy Prime Minister</roleName>
       </affiliation>
@@ -1360,18 +1277,6 @@
       </birth>
       <affiliation ref="#CD" role="member" from="2022-01-25" to="2022-01-25"/>
       <affiliation role="member" ref="#party.EHBildu"/>
-   </person>
-   <person xml:id="MazónJosé">
-      <persName>
-         <forename>José</forename>
-         <forename>María</forename>
-         <surname>Mazón</surname>
-         <surname>Ramos</surname>
-      </persName>
-      <sex value="M"/>
-      <birth when="1951-07-23"/>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2020-01-04"/>
-      <affiliation role="member" ref="#party.PRC"/>
    </person>
    <person xml:id="MiquelSergi">
       <persName>
@@ -1643,19 +1548,6 @@
       <affiliation ref="#CD" role="member" from="2015-01-20" to="2015-01-20"/>
       <affiliation role="member" ref="#party.CiU"/>
    </person>
-   <person xml:id="PisarelloGerardo">
-      <persName>
-         <forename>Gerardo</forename>
-         <surname>Pisarello</surname>
-         <surname>Prados</surname>
-      </persName>
-      <sex value="M"/>
-      <birth when="1970-08-10">
-         <placeName>Tucumán (Argentina)</placeName>
-      </birth>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2020-01-04"/>
-      <affiliation role="member" ref="#party.ECPGUAYEMELCANVI"/>
-   </person>
    <person xml:id="PlanasLuis">
       <persName>
          <forename>Luis</forename>
@@ -1753,7 +1645,7 @@
       </persName>
       <sex value="M"/>
       <birth when="1962-04-02"/>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2023-02-23"/>
+      <affiliation ref="#CD" role="member" from="2022-01-25" to="2023-02-23"/>
       <affiliation role="member" ref="#party.BNG"/>
    </person>
    <person xml:id="RequenaJuan">
@@ -1838,7 +1730,7 @@
       <birth when="1970-07-29">
          <placeName>Sevilla</placeName>
       </birth>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2022-01-25"/>
+      <affiliation ref="#CD" role="member" from="2022-01-25" to="2022-01-25"/>
       <affiliation role="member" ref="#party.PSOE"/>
    </person>
    <person xml:id="RodríguezAndrés">
@@ -1888,17 +1780,6 @@
       <affiliation ref="#CD" role="member" from="2016-01-13" to="2016-01-13"/>
       <affiliation role="member" ref="#party.PP"/>
    </person>
-   <person xml:id="RufiánGabriel">
-      <persName>
-         <forename>Gabriel</forename>
-         <surname>Rufián</surname>
-         <surname>Romero</surname>
-      </persName>
-      <sex value="M"/>
-      <birth when="1982-02-08"/>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2020-01-04"/>
-      <affiliation role="member" ref="#party.ERCS"/>
-   </person>
    <person xml:id="RuizGallardónAlberto">
       <persName>
          <forename>Alberto</forename>
@@ -1917,7 +1798,7 @@
       </persName>
       <sex value="F"/>
       <birth when="1953-06-24"/>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2022-01-25"/>
+      <affiliation ref="#CD" role="member" from="2022-01-25" to="2022-01-25"/>
       <affiliation role="member" ref="#party.MÁSPAÍSEQUO"/>
    </person>
    <person xml:id="SagastizabalIdoia">
@@ -2083,12 +1964,7 @@
       <persName>
          <forename>Pedro</forename>
          <surname>Sánchez</surname>
-         <surname>Pérez-Castejón</surname>
       </persName>
-      <sex value="M"/>
-      <birth when="1972-02-29"/>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2020-01-04"/>
-      <affiliation role="member" ref="#party.PSOE"/>
       <affiliation ref="#GOV" role="head" from="2018-06-02">
          <roleName xml:lang="en">Prime Minister</roleName>
       </affiliation>
@@ -2256,20 +2132,5 @@
       <affiliation ref="#GOV" role="minister" from="2020-01-13" to="2021-07-12">
          <roleName xml:lang="en">Minister of Transport, Mobility and Urban Agenda</roleName>
       </affiliation>
-   </person>
-   <person xml:id="ÁlvarezCayetana">
-      <persName>
-         <forename>Cayetana</forename>
-         <surname>Álvarez</surname>
-         <nameLink>De</nameLink>
-         <surname>Toledo</surname>
-         <surname>Peralta-Ramos</surname>
-      </persName>
-      <sex value="F"/>
-      <birth when="1974-10-15">
-         <placeName>Madrid</placeName>
-      </birth>
-      <affiliation ref="#CD" role="member" from="2020-01-04" to="2020-01-04"/>
-      <affiliation role="member" ref="#party.PP"/>
    </person>
 </listPerson>

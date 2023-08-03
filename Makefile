@@ -33,7 +33,7 @@ nohup-gen:
 
 ana1: bin/ParCzech/udpipe2
 	mkdir -p tmp.UD$(DIRSUFFIX)
-	find ParlaMint$(DIRSUFFIX)/ -type f -printf "%P\n" |sort| grep 'ParlaMint-ES_' > tmp.UD$(DIRSUFFIX).fl
+	find tmp.TEI$(DIRSUFFIX)/ -type f -printf "%P\n" |sort| grep 'ParlaMint-ES_' > tmp.UD$(DIRSUFFIX).fl
 	perl -I bin/ParCzech/lib bin/ParCzech/udpipe2/udpipe2.pl \
 	                             --colon2underscore \
 	                             --model "es:spanish-ancora-ud-2.10-220711" \
@@ -42,7 +42,7 @@ ana1: bin/ParCzech/udpipe2
 	                             --no-space-in-punct \
 	                             --try2continue-on-error \
 	                             --filelist tmp.UD$(DIRSUFFIX).fl \
-	                             --input-dir ParlaMint$(DIRSUFFIX)/ \
+	                             --input-dir tmp.TEI$(DIRSUFFIX)/ \
 	                             --output-dir tmp.UD$(DIRSUFFIX)/
 
 ana2: bin/ParCzech/nametag2
@@ -132,7 +132,7 @@ patch-cnv1-result:
 
 CD.sample:
 	mkdir CD.sample
-	ls CD/CD*.xml |sort | perl -ne 'print "$$_" unless $$prev;($$prev)=($$x//"CD00") =~ m/.*CD(..)/; $$x=$$_;print "$$x" unless $$x =~ m/CD$$prev/ || $$x !~ m/CD.[02468]/; END{print "$$x";}' | xargs -I {} cp {}  CD.sample/
+	ls CD/CD*.xml |sort | perl -ne 'print "$$_" unless $$prev;($$prev)=($$x//"CD00") =~ m/.*CD(..)/; $$x=$$_;print "$$x" unless $$x =~ m/CD$$prev/ || $$x !~ m/CD.[2468]/; END{print "$$x";}' | xargs -I {} cp {}  CD.sample/
 	cp CD/*.dtd CD.sample/
 
 create-sample: CD.sample

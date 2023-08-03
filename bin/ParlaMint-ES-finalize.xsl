@@ -316,13 +316,20 @@
   <xsl:template mode="comp" match="tei:titleStmt">
     <xsl:param name="date"/>
     <xsl:copy>
-      <xsl:apply-templates select="tei:title"/>
+      <xsl:apply-templates mode="comp" select="tei:title[@type='main']"/>
+      <xsl:apply-templates select="tei:title[@type='sub']"/>
       <xsl:apply-templates select="tei:meeting"/>
       <xsl:call-template name="add-respStmt"/>
       <xsl:call-template name="add-funder"/>
     </xsl:copy>
   </xsl:template>
 
+  <xsl:template mode="comp" match="tei:title[@type='main']">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:value-of select="replace(text(),'\]$',concat($suff,']'))"/>
+    </xsl:copy>
+  </xsl:template>
   <xsl:template mode="comp" match="tei:extent">
     <xsl:param name="words"/>
     <xsl:param name="speeches"/>
