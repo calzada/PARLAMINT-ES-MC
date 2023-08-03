@@ -31,6 +31,33 @@ fix-ana:
 nohup-gen:
 	nohup time make gen > log.txt &
 
+ana1: bin/ParCzech/udpipe2
+	mkdir -p tmp.UD$(DIRSUFFIX)
+	find ParlaMint$(DIRSUFFIX)/ -type f -printf "%P\n" |sort| grep 'ParlaMint-ES_' > tmp.UD$(DIRSUFFIX).fl
+	perl -I bin/ParCzech/lib bin/ParCzech/udpipe2/udpipe2.pl \
+	                             --colon2underscore \
+	                             --model "es:spanish-ancora-ud-2.10-220711" \
+	                             --elements "seg" \
+	                             --debug \
+	                             --no-space-in-punct \
+	                             --try2continue-on-error \
+	                             --filelist tmp.UD$(DIRSUFFIX).fl \
+	                             --input-dir ParlaMint$(DIRSUFFIX)/ \
+	                             --output-dir tmp.UD$(DIRSUFFIX)/
+
+ana2: bin/ParCzech/nametag2
+	mkdir -p tmp.NER$(DIRSUFFIX)
+	perl -I bin/ParCzech/lib bin/ParCzech/nametag2/nametag2.pl \
+	                                 --model "es:spanish-conll-200831" \
+	                                 --filelist tmp.UD$(DIRSUFFIX).fl \
+	                                 --input-dir tmp.UD$(DIRSUFFIX)/ \
+	                                 --output-dir tmp.NER$(DIRSUFFIX)
+
+ana-finalize:
+	echo "TODO $@"
+tei-finalize:
+	echo "TODO $@"
+
 # Process ParlaMint-ES corpus
 gen:	cnv1 xis cnv2 val
 
@@ -113,10 +140,27 @@ fix-affiliations: bin/affiliations-remove-overlaps.xsl bin/ParlaMint-UA-lib.xsl
 	  ParlaMint$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml.bak \
 	  > ParlaMint$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml
 
+
+######---------------
+annotation-prereq: bin/ParCzech/udpipe2 bin/ParCzech/nametag2 bin/ParCzech/lib
+
+bin/ParCzech/udpipe2: bin/ParCzech bin/ParCzech/lib
+	svn checkout https://github.com/ufal/ParCzech/trunk/src/udpipe2 bin/ParCzech/udpipe2
+bin/ParCzech/nametag2: bin/ParCzech bin/ParCzech/lib
+	svn checkout https://github.com/ufal/ParCzech/trunk/src/nametag2 bin/ParCzech/nametag2
+bin/ParCzech/lib: bin/ParCzech
+	svn checkout https://github.com/ufal/ParCzech/trunk/src/lib bin/ParCzech/lib
+bin/ParCzech:
+	mkdir bin/ParCzech
+
+
 bin/affiliations-remove-overlaps.xsl:
 	svn export https://github.com/ufal/ParlaMint-UA/trunk/Scripts/affiliations-remove-overlaps.xsl bin/affiliations-remove-overlaps.xsl
 bin/ParlaMint-UA-lib.xsl:
 	svn export https://github.com/ufal/ParlaMint-UA/trunk/Scripts/ParlaMint-UA-lib.xsl bin/ParlaMint-UA-lib.xsl
+
+
+
 
 s = java -jar /usr/share/java/saxon.jar
 j = java -jar /usr/share/java/jing.jar
