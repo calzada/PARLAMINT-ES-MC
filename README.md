@@ -60,8 +60,7 @@ Upgrade by typing
 
 $ sudo apt-get upgrade
 
-2.7. Install packages and dependencies (you'll be prompted several times "Do you want to continue? [Y/n]"
-type Y)
+2.7. Install packages and dependencies (you'll be prompted several times "Do you want to continue? [Y/n]" type Y)
 
 $ sudo apt install moreutils
 
@@ -73,14 +72,16 @@ $ sudo apt install openjdk-19-jre-headless
 
 $ sudo apt install unzip
 
-One script is loaded from the Ukrainian ParlaMint repository (you need to have svn installed for that.
+There's a script loaded from the Ukrainian ParlaMint repository so you need to have svn installed:
 
 $ sudo apt install subversion
 
 $ sudo apt install jing
 
 2.8. Saxon needs to be in the right place. This setup works (you should place SaxonHE12-3J here):
+
 /opt/SaxonHE12-3J/saxon-he-12.3.jar
+
 -rw-r--r-- 1 root root 5559891 Jul 12 11:45 /opt/SaxonHE12-3J/saxon-he-12.3.jar
 
 go to /otp and make a dir to install SaxonHE12-3J.zip
