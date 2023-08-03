@@ -55,8 +55,27 @@ ana2: bin/ParCzech/nametag2
 
 ana-finalize:
 	echo "TODO $@"
+	mkdir ParlaMint.ana$(DIRSUFFIX) || :
+	cp tmp.TEI$(DIRSUFFIX)/ParlaMint-ES.xml tmp.NER$(DIRSUFFIX)/ParlaMint-ES.xml
+	$s -xsl:bin/ParlaMint-ES-finalize.xsl \
+	    outDir=ParlaMint.ana$(DIRSUFFIX) \
+	    inListPerson=../tmp.TEI$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml  \
+	    inListOrg=../tmp.TEI$(DIRSUFFIX)/ParlaMint-ES-listOrg.xml \
+	    inTaxonomiesDir=../templates \
+	    type=TEI.ana \
+	    tmp.NER$(DIRSUFFIX)/ParlaMint-ES.xml
+
 tei-finalize:
 	echo "TODO $@"
+	mkdir ParlaMint$(DIRSUFFIX) || :
+	$s -xsl:bin/ParlaMint-ES-finalize.xsl \
+	    outDir=ParlaMint$(DIRSUFFIX) \
+	    inListPerson=../tmp.TEI$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml  \
+	    inListOrg=../tmp.TEI$(DIRSUFFIX)/ParlaMint-ES-listOrg.xml \
+	    inTaxonomiesDir=../templates \
+	    anaDir=../ParlaMint.ana$(DIRSUFFIX)/ \
+	    type=TEI \
+	    tmp.TEI$(DIRSUFFIX)/ParlaMint-ES.xml
 
 # Process ParlaMint-ES corpus
 gen:	cnv1 xis cnv2 val
@@ -73,7 +92,7 @@ val:
 cnv2: patch-cnv1-result
 	mkdir ParlaMint$(DIRSUFFIX) || :
 	rm -f ParlaMint$(DIRSUFFIX)/*.xml
-	$s inDir="../tmp$(DIRSUFFIX)" outDir="ParlaMint$(DIRSUFFIX)" componentFiles="../tmp$(DIRSUFFIX)/ParlaMint-component-ES.xml" \
+	$s inDir="../tmp$(DIRSUFFIX)" outDir="tmp.TEI$(DIRSUFFIX)" componentFiles="../tmp$(DIRSUFFIX)/ParlaMint-component-ES.xml" \
 	listOrgTemplate="../templates/ParlaMint-templateOrgs-ES.xml" \
 	govListPerson="../data-wiki/gov-listPerson.xml" \
 	taxonomyDir="../templates" \
@@ -135,10 +154,10 @@ data-gov-wiki2tei:
 	perl bin/gov-wiki2tei.pl data-wiki/gov-listPerson.xml data-wiki/gov-????-??-??.htm
 
 fix-affiliations: bin/affiliations-remove-overlaps.xsl bin/ParlaMint-UA-lib.xsl
-	mv ParlaMint$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml ParlaMint$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml.bak
+	mv tmp.TEI$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml tmp.TEI$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml.bak
 	$s -xsl:bin/affiliations-remove-overlaps.xsl \
-	  ParlaMint$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml.bak \
-	  > ParlaMint$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml
+	  tmp.TEI$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml.bak \
+	  > tmp.TEI$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml
 
 
 ######---------------

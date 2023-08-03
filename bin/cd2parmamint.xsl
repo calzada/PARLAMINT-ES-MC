@@ -21,21 +21,6 @@
   <xsl:variable name="today-iso" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   <xsl:variable name="today" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   
-  <xsl:variable name="respStmt">
-    <respStmt xmlns="http://www.tei-c.org/ns/1.0">
-      <persName>María Calzada Pérez</persName>
-      <resp xml:lang="en">Data retrieval and conversion to XML</resp>
-    </respStmt>
-    <respStmt xmlns="http://www.tei-c.org/ns/1.0">
-      <persName>Matyáš Kopp</persName>
-      <resp xml:lang="en">Government person metadata retrieval</resp>
-      <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
-    </respStmt>
-    <respStmt xmlns="http://www.tei-c.org/ns/1.0">
-      <persName>Tomaž Erjavec</persName>
-      <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
-    </respStmt>
-  </xsl:variable>
   
   <!-- More metadata could probably be collected apart from the date? -->
   <xsl:variable name="session-date">
@@ -139,15 +124,6 @@
             <xsl:text>Legislatura </xsl:text>
             <xsl:value-of select="legislature"/>
           </meeting>
-          <xsl:copy-of select="$respStmt"/>
-          <funder>
-            <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
-            <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
-          </funder>
-          <funder>
-            <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
-            <orgName xml:lang="en">Ministry of Science and Innovation of Spain</orgName>
-          </funder>
         </titleStmt>
         <editionStmt>
           <edition>2.0</edition>
