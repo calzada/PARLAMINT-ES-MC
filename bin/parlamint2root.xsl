@@ -374,9 +374,11 @@
           <xsl:variable name="seg">
             <xsl:apply-templates mode="comp" select="current-group()"/>
           </xsl:variable>
-          <seg>
-            <xsl:apply-templates mode="edge-out" select="$seg"/>
-          </seg>
+          <xsl:if test="$seg/text()[normalize-space(.)]">
+            <seg>
+              <xsl:apply-templates mode="edge-out" select="$seg"/>
+            </seg>
+          </xsl:if>
           <xsl:apply-templates mode="edge-in" select="$seg"/>
         </xsl:if>
       </xsl:for-each-group>
