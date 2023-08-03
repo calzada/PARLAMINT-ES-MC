@@ -56,7 +56,7 @@ $ sudo apt-get update
 
 you'll be prompted to enter your password (step 7)
 
-10º Upgrade
+Upgrade by typing
 
 $ sudo apt-get upgrade
 
@@ -89,16 +89,19 @@ $ sudo mv /mnt/c/Users/XXXXX/Downloads/SaxonHE12-3J.zip /opt/SaxonHE12-3J
 
 where XXXXX is your windows username
 
-14º Unzip SaxonHE12-3J.zip
+Unzip SaxonHE12-3J.zip
 
 $ cd /otp/SaxonHE12-3J
 $ sudo unzip SaxonHE12-3J.zip
 
-And then you must create a symlink here and verify
+then, you must create a symlink here
 
 $ sudo ln -s /opt/SaxonHE12-3J/saxon-he-12.3.jar /usr/share/java/saxon.jar
 
-matyas@mPC:~$ ll /usr/share/java/saxon.jar
+verify 
+
+$ ll /usr/share/java/saxon.jar
+
 lrwxrwxrwx 1 root root 35 Jul 12 11:52 /usr/share/java/saxon.jar -> /opt/SaxonHE12-3J/saxon-he-12.3.jar
 saxon.jar in the right place: /usr/share/java/saxon.jar
 
