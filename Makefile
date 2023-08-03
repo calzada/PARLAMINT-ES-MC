@@ -113,7 +113,7 @@ patch-cnv1-result:
 
 CD.sample:
 	mkdir CD.sample
-	ls CD/CD*.xml |sort | perl -ne '($$prev)=($$x//"CD00") =~ m/.*CD(..)/; $$x=$$_;print "$$x" unless $$x =~ m/CD$$prev/; END{print "$$x";}'| xargs -I {} cp {}  CD.sample/
+	ls CD/CD*.xml |sort | perl -ne 'print "$$_" unless $$prev;($$prev)=($$x//"CD00") =~ m/.*CD(..)/; $$x=$$_;print "$$x" unless $$x =~ m/CD$$prev/ || $$x !~ m/CD.[02468]/; END{print "$$x";}' | xargs -I {} cp {}  CD.sample/
 	cp CD/*.dtd CD.sample/
 
 create-sample: CD.sample

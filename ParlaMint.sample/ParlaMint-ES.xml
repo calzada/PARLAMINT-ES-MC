@@ -37,8 +37,8 @@
             <edition>2.0</edition>
          </editionStmt>
          <extent>
-            <measure unit="speeches" quantity="1442" xml:lang="es">1.442 intervenciones</measure>
-            <measure unit="speeches" quantity="1442" xml:lang="en">1,442 speeches</measure>
+            <measure unit="speeches" quantity="658" xml:lang="es">658 intervenciones</measure>
+            <measure unit="speeches" quantity="658" xml:lang="en">658 speeches</measure>
             <measure quantity="0" unit="words" xml:lang="es">0 palabras</measure>
             <measure quantity="0" unit="words" xml:lang="en">0 words</measure>
          </extent>
@@ -54,7 +54,7 @@
                <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-08-02">August 2, 2023</date>
+            <date when="2023-08-03">August 3, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -92,13 +92,13 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="10"/>
-               <tagUsage gi="div" occurs="50"/>
-               <tagUsage gi="head" occurs="49"/>
-               <tagUsage gi="seg" occurs="5256"/>
-               <tagUsage gi="note" occurs="1906"/>
-               <tagUsage gi="pb" occurs="628"/>
-               <tagUsage gi="u" occurs="1442"/>
+               <tagUsage gi="body" occurs="6"/>
+               <tagUsage gi="div" occurs="39"/>
+               <tagUsage gi="head" occurs="38"/>
+               <tagUsage gi="seg" occurs="2421"/>
+               <tagUsage gi="note" occurs="1063"/>
+               <tagUsage gi="pb" occurs="292"/>
+               <tagUsage gi="u" occurs="658"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -132,28 +132,20 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-08-02">
+         <change when="2023-08-03">
             <name>Tomaž Erjavec</name>: Conversion to ParlaMint TEI.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-ES_2015-01-20-CD150120.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2023-02-23-CD230223.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-ES_2016-01-13-CD160113.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-01-31-CD170131.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-ES_2018-02-06-CD180206.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-01-22-CD190122.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-ES_2020-01-04-CD200104.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2021-01-28-CD210128.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-ES_2022-01-25-CD220125.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2023-01-24-CD230124.xml"/>
+               href="ParlaMint-ES_2023-02-23-CD230223.xml"/>
 </teiCorpus>
