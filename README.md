@@ -74,6 +74,7 @@ $ sudo apt install openjdk-19-jre-headless
 $ sudo apt install unzip
 
 One script is loaded from the Ukrainian ParlaMint repository (you need to have svn installed for that.
+
 $ sudo apt install subversion
 
 $ sudo apt install jing
