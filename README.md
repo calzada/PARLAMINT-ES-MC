@@ -87,6 +87,7 @@ $ sudo apt install jing
 go to /otp and make a dir to install SaxonHE12-3J.zip
 
 $ cd /otp
+
 $ sudo mkdir SaxonHE12-3J
 
 Download SaxonHE12-3J.zip from [https://www.saxonica.com/download/] and move the file to /otp/SaxonHE12-3J
@@ -98,18 +99,18 @@ where XXXXX is your windows username
 Unzip SaxonHE12-3J.zip
 
 $ cd /otp/SaxonHE12-3J
+
 $ sudo unzip SaxonHE12-3J.zip
 
 then, you must create a symlink here
 
 $ sudo ln -s /opt/SaxonHE12-3J/saxon-he-12.3.jar /usr/share/java/saxon.jar
 
-verify 
+verify that you have saxon.jar in the right place: /usr/share/java/saxon.jar
 
 $ ll /usr/share/java/saxon.jar
 
 lrwxrwxrwx 1 root root 35 Jul 12 11:52 /usr/share/java/saxon.jar -> /opt/SaxonHE12-3J/saxon-he-12.3.jar
-saxon.jar in the right place: /usr/share/java/saxon.jar
 
 Notice you should use Saxon-HE, because it allows you to run XSLT2.0 scripts
 
