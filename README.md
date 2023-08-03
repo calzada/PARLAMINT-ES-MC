@@ -38,9 +38,9 @@ Open Windows Features, scroll down and check Windows Susbsystem for Linux. Selec
 
 2.1. Open PowerShell or Command prompt (terminal) as an administrator (right click)
 
-```type wsl --list --online``` to view a list of available WSL distributions that can be installed
+type wsl --list --online to view a list of available WSL distributions that can be installed
 
-2.2. Type the specific distribution (for example, Ubuntu): ```wsl --install -d Ubuntu``` and press enter. Restart your computer
+2.2. Type the specific distribution (for example, Ubuntu): wsl --install -d Ubuntu and press enter. Restart your computer
 
 2.3. After restarting, it may take a while to install your desirable distribution.
 
@@ -52,55 +52,55 @@ Open Windows Features, scroll down and check Windows Susbsystem for Linux. Selec
 
 Update by typing
 
-```$ sudo apt-get update```
+$ sudo apt-get update
 
 you'll be prompted to enter your password (step 7)
 
 10º Upgrade
 
-```$ sudo apt-get upgrade```
+$ sudo apt-get upgrade
 
 2.7. Install packages and dependencies (you'll be prompted several times "Do you want to continue? [Y/n]"
 type Y)
 
-```$ sudo apt install moreutils```
-```$ sudo apt install make```
-```$ sudo apt install parallel```
-```$ sudo apt install openjdk-19-jre-headless```
-```$ sudo apt install unzip```
+$ sudo apt install moreutils
+$ sudo apt install make
+$ sudo apt install parallel
+$ sudo apt install openjdk-19-jre-headless
+$ sudo apt install unzip
 
 One script is loaded from the Ukrainian ParlaMint repository (you need to have svn installed for that.
 $ sudo apt install subversion
 
-```$ sudo apt install jing```
+$ sudo apt install jing
 
 2.8. Saxon needs to be in the right place. This setup works (you should place SaxonHE12-3J here):
-```/opt/SaxonHE12-3J/saxon-he-12.3.jar
--rw-r--r-- 1 root root 5559891 Jul 12 11:45 /opt/SaxonHE12-3J/saxon-he-12.3.jar```
+/opt/SaxonHE12-3J/saxon-he-12.3.jar
+-rw-r--r-- 1 root root 5559891 Jul 12 11:45 /opt/SaxonHE12-3J/saxon-he-12.3.jar
 
 go to /otp and make a dir to install SaxonHE12-3J.zip
 
-```$ cd /otp```
-```$ sudo mkdir SaxonHE12-3J```
+$ cd /otp
+$ sudo mkdir SaxonHE12-3J
 
 Download SaxonHE12-3J.zip from [https://www.saxonica.com/download/] and move the file to /otp/SaxonHE12-3J
 
-```$ sudo mv /mnt/c/Users/XXXXX/Downloads/SaxonHE12-3J.zip /opt/SaxonHE12-3J```
+$ sudo mv /mnt/c/Users/XXXXX/Downloads/SaxonHE12-3J.zip /opt/SaxonHE12-3J
 
 where XXXXX is your windows username
 
 14º Unzip SaxonHE12-3J.zip
 
-```$ cd /otp/SaxonHE12-3J
-$ sudo unzip SaxonHE12-3J.zip```
+$ cd /otp/SaxonHE12-3J
+$ sudo unzip SaxonHE12-3J.zip
 
 And then you must create a symlink here and verify
 
-```$ sudo ln -s /opt/SaxonHE12-3J/saxon-he-12.3.jar /usr/share/java/saxon.jar```
+$ sudo ln -s /opt/SaxonHE12-3J/saxon-he-12.3.jar /usr/share/java/saxon.jar
 
-```matyas@mPC:~$ ll /usr/share/java/saxon.jar
+matyas@mPC:~$ ll /usr/share/java/saxon.jar
 lrwxrwxrwx 1 root root 35 Jul 12 11:52 /usr/share/java/saxon.jar -> /opt/SaxonHE12-3J/saxon-he-12.3.jar
-saxon.jar in the right place: /usr/share/java/saxon.jar```
+saxon.jar in the right place: /usr/share/java/saxon.jar
 
 Notice you should use Saxon-HE, because it allows you to run XSLT2.0 scripts
 
