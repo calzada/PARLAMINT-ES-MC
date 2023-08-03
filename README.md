@@ -52,7 +52,7 @@ Open Windows Features, scroll down and check Windows Susbsystem for Linux. Selec
 
 Update by typing
 
-``$ sudo apt-get update```
+```$ sudo apt-get update```
 
 you'll be prompted to enter your password (step 7)
 
