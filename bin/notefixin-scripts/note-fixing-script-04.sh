@@ -213,7 +213,7 @@ perl -pi -e 's/<note>(.+?\:.+?)<\/note>/<vocal type="speaking">\n <desc>$1<\/des
 
 #ENDING THE SCRIPT
 
-perl -pi -e 's/<note>(.*?)<\/note>/<note type="comment">$1</note>/gi' *.xml
+perl -pi -e 's/<note>(.*?)<\/note>/<note type="comment">$1<\/note>/gi' *.xml
 
 #RESTORING XXYY
 
