@@ -5,8 +5,8 @@ DIRSUFFIX =
 #We also need to fix root file (date, extents)
 test-fix-tei:
 	rm -f tmp/*
-	cp ParlaMint/ParlaMint-ES.xml tmp
-	bin/fix-tei.pl 'ParlaMint/ParlaMint-ES_2015-01-20-CD150120.xml' ParlaMint.ana tmp
+	cp ParlaMint-ES.TEI/ParlaMint-ES.xml tmp
+	bin/fix-tei.pl 'ParlaMint-ES.TEI/ParlaMint-ES_2015-01-20-CD150120.xml' ParlaMint.ana tmp
 	bin/validate-parlamint.pl schemas tmp
 
 #Fixing the .ana files
@@ -55,10 +55,10 @@ ana2: bin/ParCzech/nametag2
 
 ana-finalize:
 	echo "TODO $@"
-	mkdir ParlaMint.ana$(DIRSUFFIX) || :
+	mkdir ParlaMint-ES$(DIRSUFFIX).TEI.ana || :
 	cp tmp.TEI$(DIRSUFFIX)/ParlaMint-ES.xml tmp.NER$(DIRSUFFIX)/ParlaMint-ES.xml
 	$s -xsl:bin/ParlaMint-ES-finalize.xsl \
-	    outDir=ParlaMint.ana$(DIRSUFFIX) \
+	    outDir=ParlaMint-ES$(DIRSUFFIX).TEI.ana \
 	    inListPerson=../tmp.TEI$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml  \
 	    inListOrg=../tmp.TEI$(DIRSUFFIX)/ParlaMint-ES-listOrg.xml \
 	    inTaxonomiesDir=../templates \
@@ -67,13 +67,13 @@ ana-finalize:
 
 tei-finalize:
 	echo "TODO $@"
-	mkdir ParlaMint$(DIRSUFFIX) || :
+	mkdir ParlaMint-ES$(DIRSUFFIX).TEI || :
 	$s -xsl:bin/ParlaMint-ES-finalize.xsl \
-	    outDir=ParlaMint$(DIRSUFFIX) \
+	    outDir=ParlaMint-ES$(DIRSUFFIX).TEI \
 	    inListPerson=../tmp.TEI$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml  \
 	    inListOrg=../tmp.TEI$(DIRSUFFIX)/ParlaMint-ES-listOrg.xml \
 	    inTaxonomiesDir=../templates \
-	    anaDir=../ParlaMint.ana$(DIRSUFFIX)/ \
+	    anaDir=../ParlaMint-ES$(DIRSUFFIX).TEI.ana/ \
 	    type=TEI \
 	    tmp.TEI$(DIRSUFFIX)/ParlaMint-ES.xml
 
@@ -83,15 +83,15 @@ gen:	cnv1 xis cnv2 val
 # Validate corpus
 val:
 	echo "TODO: validation"
-	# $s -xi -xsl:bin/copy.xsl ParlaMint$(DIRSUFFIX)/ParlaMint-ES.xml | $j schemas/parla-clarin.rng
-	# -${vrt} ParlaMint$(DIRSUFFIX)/ParlaMint-ES.xml
-	# -${vct} ParlaMint$(DIRSUFFIX)/ParlaMint-ES_*.xml
-	# bin/validate-parlamint.pl schemas ParlaMint$(DIRSUFFIX)
+	# $s -xi -xsl:bin/copy.xsl ParlaMint-ES$(DIRSUFFIX).TEI/ParlaMint-ES.xml | $j schemas/parla-clarin.rng
+	# -${vrt} ParlaMint-ES$(DIRSUFFIX).TEI/ParlaMint-ES.xml
+	# -${vct} ParlaMint-ES$(DIRSUFFIX).TEI/ParlaMint-ES_*.xml
+	# bin/validate-parlamint.pl schemas ParlaMint-ES$(DIRSUFFIX).TEI
 
 #Second conversion: from TEI-ish corpus components to final TEI components + root
 cnv2: patch-cnv1-result
-	mkdir ParlaMint$(DIRSUFFIX) || :
-	rm -f ParlaMint$(DIRSUFFIX)/*.xml
+	mkdir tmp.TEI$(DIRSUFFIX) || :
+	rm -f tmp.TEI$(DIRSUFFIX)/*.xml
 	$s inDir="../tmp$(DIRSUFFIX)" outDir="tmp.TEI$(DIRSUFFIX)" componentFiles="../tmp$(DIRSUFFIX)/ParlaMint-component-ES.xml" \
 	listOrgTemplate="../templates/ParlaMint-templateOrgs-ES.xml" \
 	govListPerson="../data-wiki/gov-listPerson.xml" \

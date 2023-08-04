@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:id="ParlaMint-ES_2018-07-25-CD180725.ana" xml:lang="es">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES, Plenary session 135 (2018-07-25) [ParlaMint.ana]</title>
+            <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 135extraordinario extraordinario (2018-07-25) [ParlaMint.ana]</title>
+            <title type="sub" xml:lang="es">Sesión plenaria núm. 135extraordinario extraordinario (2018-07-25)</title>
+            <title type="sub" xml:lang="en">Plenary session 135 (2018-07-25)</title>
+            <meeting n="135" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 135extraordinario extraordinario</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <respStmt>
+               <persName>María Calzada Pérez</persName>
+               <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tomaž Erjavec</persName>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
+               <orgName xml:lang="en">Ministry of Science and Innovation of Spain</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="2" unit="speeches" xml:lang="en">2 speeches</measure>
+            <measure quantity="2" unit="speeches" xml:lang="es">2 intervenciones</measure>
+            <measure quantity="334" unit="words" xml:lang="en">334 words</measure>
+            <measure quantity="334" unit="words" xml:lang="es">334 palabras</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="es">Infraestructura de investigación CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2021-04-11">2021-04-11</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="es">CORTES GENERALES DIARIO DE SESIONES DEL CONGRESO DE LOS DIPUTADOS PLENO Y DIPUTACIÓN PERMANENTE</title>
+               <idno type="URI">http://www.congreso.es</idno>
+               <date when="2018-07-25">2018-07-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="es"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and(4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="u" occurs="2"/>
+               <tagUsage gi="seg" occurs="11"/>
+               <tagUsage gi="s" occurs="18"/>
+               <tagUsage gi="name" occurs="16"/>
+               <tagUsage gi="w" occurs="334"/>
+               <tagUsage gi="pc" occurs="47"/>
+               <tagUsage gi="linkGrp" occurs="18"/>
+               <tagUsage gi="link" occurs="381"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Calle Floridablanca, s/n. 28071</name>
+               <name type="city">Madrid</name>
+               <name key="ES" type="country">Spain</name>
+               <date ana="#parla.sitting" when="2018-07-25">2018-07-25</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-11">
+            <name>Tomaž Erjavec</name>: Fixes for Version 2.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <u ana="#chair" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1">
+               <seg xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.1">
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.1.1">
+                     <name type="ORG">
+                        <w join="right" lemma="señoría" msd="UPosTag=NOUN|Gender=Fem|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.1.1.1">Señorías</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.1.1.2">,</pc>
+                     <w lemma="él" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.1.1.3">se</w>
+                     <w lemma="abrir" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.1.1.4">abre</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.1.1.5">la</w>
+                     <w join="right" lemma="sesión" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.1.1.6">sesión</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.1.1.7">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:dep" target="#ParlaMint-ES_2018-07-25-CD180725.u1.1.1.4 #ParlaMint-ES_2018-07-25-CD180725.u1.1.1.1"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.1.1.1 #ParlaMint-ES_2018-07-25-CD180725.u1.1.1.2"/>
+                        <link ana="ud-syn:expl_pass" target="#ParlaMint-ES_2018-07-25-CD180725.u1.1.1.4 #ParlaMint-ES_2018-07-25-CD180725.u1.1.1.3"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u1.1.1 #ParlaMint-ES_2018-07-25-CD180725.u1.1.1.4"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.1.1.6 #ParlaMint-ES_2018-07-25-CD180725.u1.1.1.5"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.1.1.4 #ParlaMint-ES_2018-07-25-CD180725.u1.1.1.6"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.1.1.4 #ParlaMint-ES_2018-07-25-CD180725.u1.1.1.7"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2">
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.1">
+                     <w lemma="punto" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.1.1">Punto</w>
+                     <w lemma="único" msd="UPosTag=ADJ|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.1.2">único</w>
+                     <w lemma="del" msd="UPosTag=ADP|AdpType=Preppron" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.1.3">del</w>
+                     <w lemma="orden" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.1.4">orden</w>
+                     <w lemma="del" msd="UPosTag=ADP|AdpType=Preppron" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.1.5">del</w>
+                     <w join="right" lemma="día" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.1.6">día</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.1.7">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.1 #ParlaMint-ES_2018-07-25-CD180725.u1.2.1.1"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.1.1 #ParlaMint-ES_2018-07-25-CD180725.u1.2.1.2"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.1.4 #ParlaMint-ES_2018-07-25-CD180725.u1.2.1.3"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.1.1 #ParlaMint-ES_2018-07-25-CD180725.u1.2.1.4"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.1.6 #ParlaMint-ES_2018-07-25-CD180725.u1.2.1.5"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.1.4 #ParlaMint-ES_2018-07-25-CD180725.u1.2.1.6"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.1.1 #ParlaMint-ES_2018-07-25-CD180725.u1.2.1.7"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2">
+                     <w lemma="comenzar" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.1">Comenzamos</w>
+                     <w lemma="a" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.2">a</w>
+                     <w join="right" lemma="examinar" msd="UPosTag=VERB|VerbForm=Inf" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.3">examinar</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.4">,</pc>
+                     <w lemma="como" msd="UPosTag=SCONJ" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.5">como</w>
+                     <w lemma="único" msd="UPosTag=ADJ|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.6">único</w>
+                     <w lemma="punto" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.7">punto</w>
+                     <w lemma="del" msd="UPosTag=ADP|AdpType=Preppron" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.8">del</w>
+                     <w lemma="orden" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.9">orden</w>
+                     <w lemma="del" msd="UPosTag=ADP|AdpType=Preppron" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.10">del</w>
+                     <w lemma="día" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.11">día</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.12">de</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.13">la</w>
+                     <w lemma="presente" msd="UPosTag=ADJ|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.14">presente</w>
+                     <w lemma="sesión" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.15">sesión</w>
+                     <w join="right" lemma="extraordinario" msd="UPosTag=ADJ|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.16">extraordinaria</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.17">,</pc>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.18">la</w>
+                     <w lemma="elección" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.19">elección</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.20">de</w>
+                     <w lemma="uno" msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.21">un</w>
+                     <w lemma="señor" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.22">señor</w>
+                     <w lemma="diputado" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.23">diputado</w>
+                     <w lemma="perteneciente" msd="UPosTag=ADJ|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.24">perteneciente</w>
+                     <w lemma="al" msd="UPosTag=ADP|AdpType=Preppron" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.25">al</w>
+                     <name type="ORG">
+                        <w lemma="Grupo" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.26">Grupo</w>
+                        <w lemma="Parlamentario" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.27">Parlamentario</w>
+                        <w lemma="Confederal" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.28">Confederal</w>
+                        <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.29">de</w>
+                        <w lemma="Unidos" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.30">Unidos</w>
+                        <w lemma="Podemos-En" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.31">Podemos-En</w>
+                        <w lemma="Comú" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.32">Comú</w>
+                        <w lemma="Podem-En" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.33">Podem-En</w>
+                        <w join="right" lemma="Marea" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.34">Marea</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.35">,</pc>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.36">de</w>
+                     <w lemma="conformidad" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.37">conformidad</w>
+                     <w lemma="con" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.38">con</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.39">el</w>
+                     <w lemma="punto" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.40">punto</w>
+                     <w lemma="tercero" msd="UPosTag=ADJ|Gender=Masc|NumType=Ord|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.41">tercero</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.42">de</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.43">la</w>
+                     <name type="ORG">
+                        <w lemma="Resolución" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.44">Resolución</w>
+                        <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.45">de</w>
+                        <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.46">la</w>
+                        <w lemma="Presidencia" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.47">Presidencia</w>
+                        <w lemma="del" msd="UPosTag=ADP|AdpType=Preppron" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.48">del</w>
+                        <w lemma="Congreso" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.49">Congreso</w>
+                        <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.50">de</w>
+                        <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.51">los</w>
+                        <w lemma="Diputados" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.52">Diputados</w>
+                     </name>
+                     <w lemma="sobre" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.53">sobre</w>
+                     <w lemma="secreto" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.54">secretos</w>
+                     <w join="right" lemma="oficial" msd="UPosTag=ADJ|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.55">oficiales</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.56">,</pc>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.57">de</w>
+                     <w lemma="11" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.58">11</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.59">de</w>
+                     <w lemma="mayo" msd="UPosTag=NOUN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.60">mayo</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.61">de</w>
+                     <w join="right" lemma="2004" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.62">2004</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.2.2.63">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.1"/>
+                        <link ana="ud-syn:mark" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.3 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.2"/>
+                        <link ana="ud-syn:xcomp" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.1 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.3"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.7 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.4"/>
+                        <link ana="ud-syn:mark" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.7 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.5"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.7 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.6"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.1 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.7"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.9 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.8"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.7 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.9"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.11 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.10"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.9 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.11"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.15 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.12"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.15 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.13"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.15 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.14"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.11 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.15"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.15 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.16"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.7 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.17"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.19 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.18"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.1 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.19"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.22 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.20"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.22 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.21"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.19 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.22"/>
+                        <link ana="ud-syn:appos" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.22 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.23"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.22 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.24"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.26 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.25"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.24 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.26"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.26 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.27"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.26 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.28"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.30 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.29"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.26 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.30"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.26 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.31"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.31 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.32"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.31 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.33"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.31 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.34"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.37 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.35"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.37 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.36"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.19 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.37"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.40 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.38"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.40 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.39"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.37 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.40"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.40 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.41"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.44 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.42"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.44 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.43"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.40 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.44"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.47 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.45"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.47 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.46"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.44 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.47"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.49 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.48"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.47 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.49"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.52 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.50"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.52 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.51"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.47 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.52"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.54 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.53"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.40 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.54"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.54 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.55"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.58 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.56"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.58 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.57"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.54 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.58"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.60 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.59"/>
+                        <link ana="ud-syn:compound" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.58 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.60"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.62 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.61"/>
+                        <link ana="ud-syn:compound" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.58 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.62"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.2.2.1 #ParlaMint-ES_2018-07-25-CD180725.u1.2.2.63"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3">
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1">
+                     <w lemma="ir" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.1">Vamos</w>
+                     <w lemma="a" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.2">a</w>
+                     <w lemma="proceder" msd="UPosTag=VERB|VerbForm=Inf" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.3">proceder</w>
+                     <w lemma="a" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.4">a</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.5">la</w>
+                     <w lemma="elección" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.6">elección</w>
+                     <w lemma="mediante" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.7">mediante</w>
+                     <w lemma="votación" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.8">votación</w>
+                     <w lemma="por" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.9">por</w>
+                     <w join="right" lemma="papeleta" msd="UPosTag=NOUN|Gender=Fem|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.10">papeletas</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.11">,</pc>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.12">de</w>
+                     <w lemma="acuerdo" msd="UPosTag=NOUN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.13">acuerdo</w>
+                     <w lemma="con" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.14">con</w>
+                     <w lemma="él" msd="UPosTag=PRON|Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.15">lo</w>
+                     <w lemma="dispuesto" msd="UPosTag=ADJ|Gender=Masc|Number=Sing|VerbForm=Part" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.16">dispuesto</w>
+                     <w lemma="en" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.17">en</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.18">el</w>
+                     <name type="MISC">
+                        <w lemma="artículo" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.19">artículo</w>
+                        <w join="right" lemma="205" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.20">205</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.21">,</pc>
+                     <w lemma="en" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.22">en</w>
+                     <w lemma="relación" msd="UPosTag=NOUN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.23">relación</w>
+                     <w lemma="con" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.24">con</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.25">el</w>
+                     <w lemma="204" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.26">204</w>
+                     <w lemma="del" msd="UPosTag=ADP|AdpType=Preppron" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.27">del</w>
+                     <name type="MISC">
+                        <w join="right" lemma="Reglamento" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.28">Reglamento</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.29">,</pc>
+                     <w lemma="resultar" msd="UPosTag=VERB|VerbForm=Ger" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.30">resultando</w>
+                     <w lemma="elegido" msd="UPosTag=ADJ|Gender=Masc|Number=Sing|VerbForm=Part" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.31">elegido</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.32">el</w>
+                     <w lemma="diputado" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.33">diputado</w>
+                     <w lemma="que" msd="UPosTag=PRON|PronType=Int,Rel" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.34">que</w>
+                     <w lemma="alcanzar" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.35">alcance</w>
+                     <w lemma="uno" msd="UPosTag=DET|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.36">una</w>
+                     <w lemma="mayoría" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.37">mayoría</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.38">de</w>
+                     <w lemma="tres" msd="UPosTag=NUM|NumType=Card|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.39">tres</w>
+                     <w join="right" lemma="quinto" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.40">quintos</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.41">,</pc>
+                     <w lemma="es" msd="UPosTag=NOUN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.42">es</w>
+                     <w join="right" lemma="decir" msd="UPosTag=NOUN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.43">decir</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.44">,</pc>
+                     <w lemma="210" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.45">210</w>
+                     <w join="right" lemma="voto" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.46">votos</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.1.47">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:aux" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.3 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.1"/>
+                        <link ana="ud-syn:mark" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.3 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.2"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.3"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.6 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.4"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.6 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.5"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.3 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.6"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.8 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.7"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.3 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.8"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.10 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.9"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.8 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.10"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.16 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.11"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.16 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.12"/>
+                        <link ana="ud-syn:fixed" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.12 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.13"/>
+                        <link ana="ud-syn:fixed" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.12 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.14"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.16 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.15"/>
+                        <link ana="ud-syn:advmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.3 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.16"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.19 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.17"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.19 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.18"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.16 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.19"/>
+                        <link ana="ud-syn:appos" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.19 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.20"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.26 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.21"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.26 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.22"/>
+                        <link ana="ud-syn:fixed" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.22 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.23"/>
+                        <link ana="ud-syn:fixed" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.22 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.24"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.26 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.25"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.16 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.26"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.28 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.27"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.26 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.28"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.30 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.29"/>
+                        <link ana="ud-syn:advcl" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.3 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.30"/>
+                        <link ana="ud-syn:xcomp" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.30 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.31"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.33 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.32"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.30 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.33"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.35 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.34"/>
+                        <link ana="ud-syn:acl" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.33 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.35"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.37 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.36"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.35 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.37"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.37 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.38"/>
+                        <link ana="ud-syn:nummod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.37 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.39"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.35 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.40"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.46 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.41"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.46 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.42"/>
+                        <link ana="ud-syn:fixed" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.42 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.43"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.42 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.44"/>
+                        <link ana="ud-syn:nummod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.46 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.45"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.40 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.46"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.1.3 #ParlaMint-ES_2018-07-25-CD180725.u1.3.1.47"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.2">
+                     <w lemma="cada" msd="UPosTag=DET|Number=Sing|PronType=Tot" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.2.1">Cada</w>
+                     <w lemma="diputado" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.2.2">diputado</w>
+                     <w lemma="escribir" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.2.3">escribirá</w>
+                     <w lemma="uno" msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.2.4">un</w>
+                     <w lemma="nombre" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.2.5">nombre</w>
+                     <w lemma="en" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.2.6">en</w>
+                     <w lemma="su" msd="UPosTag=DET|Number=Sing|Person=3|Poss=Yes|PronType=Prs" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.2.7">su</w>
+                     <w join="right" lemma="papeleta" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.2.8">papeleta</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.2.9">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.2.2 #ParlaMint-ES_2018-07-25-CD180725.u1.3.2.1"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.2.3 #ParlaMint-ES_2018-07-25-CD180725.u1.3.2.2"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.2 #ParlaMint-ES_2018-07-25-CD180725.u1.3.2.3"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.2.5 #ParlaMint-ES_2018-07-25-CD180725.u1.3.2.4"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.2.3 #ParlaMint-ES_2018-07-25-CD180725.u1.3.2.5"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.2.8 #ParlaMint-ES_2018-07-25-CD180725.u1.3.2.6"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.2.8 #ParlaMint-ES_2018-07-25-CD180725.u1.3.2.7"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.2.3 #ParlaMint-ES_2018-07-25-CD180725.u1.3.2.8"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.2.3 #ParlaMint-ES_2018-07-25-CD180725.u1.3.2.9"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3">
+                     <w lemma="él" msd="UPosTag=PRON|Case=Dat|Number=Plur|Person=3|PronType=Prs" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.1">Les</w>
+                     <w lemma="recordar" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.2">recuerdo</w>
+                     <w lemma="que" msd="UPosTag=SCONJ" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.3">que</w>
+                     <w lemma="ser" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.4">serán</w>
+                     <w lemma="nulo" msd="UPosTag=ADJ|Gender=Fem|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.5">nulas</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Plur|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.6">las</w>
+                     <w lemma="papeleta" msd="UPosTag=NOUN|Gender=Fem|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.7">papeletas</w>
+                     <w lemma="que" msd="UPosTag=PRON|PronType=Int,Rel" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.8">que</w>
+                     <w lemma="contener" msd="UPosTag=VERB|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.9">contengan</w>
+                     <w lemma="más" msd="UPosTag=ADV|Degree=Cmp" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.10">más</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.11">de</w>
+                     <w lemma="uno" msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.12">un</w>
+                     <w lemma="nombre" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.13">nombre</w>
+                     <w lemma="o" msd="UPosTag=CCONJ" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.14">o</w>
+                     <w lemma="este" msd="UPosTag=PRON|Gender=Masc|Number=Sing|PronType=Dem" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.15">este</w>
+                     <w lemma="no" msd="UPosTag=ADV|Polarity=Neg" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.16">no</w>
+                     <w lemma="él" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.17">se</w>
+                     <w lemma="corresponder" msd="UPosTag=VERB|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.18">corresponda</w>
+                     <w lemma="con" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.19">con</w>
+                     <w lemma="uno" msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.20">un</w>
+                     <w lemma="diputado" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.21">diputado</w>
+                     <w lemma="del" msd="UPosTag=ADP|AdpType=Preppron" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.22">del</w>
+                     <name type="ORG">
+                        <w lemma="Grupo" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.23">Grupo</w>
+                        <w lemma="Parlamentario" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.24">Parlamentario</w>
+                        <w lemma="Confederal" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.25">Confederal</w>
+                        <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.26">de</w>
+                        <w lemma="Unidos" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.27">Unidos</w>
+                        <w lemma="Podemos-En" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.28">Podemos-En</w>
+                        <w lemma="Comú" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.29">Comú</w>
+                        <w lemma="Podem-En" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.30">Podem-En</w>
+                        <w join="right" lemma="Marea" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.31">Marea</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.3.3.32">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:iobj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.2 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.1"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.2"/>
+                        <link ana="ud-syn:mark" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.5 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.3"/>
+                        <link ana="ud-syn:cop" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.5 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.4"/>
+                        <link ana="ud-syn:ccomp" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.2 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.5"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.7 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.6"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.5 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.7"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.9 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.8"/>
+                        <link ana="ud-syn:acl" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.7 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.9"/>
+                        <link ana="ud-syn:advmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.12 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.10"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.12 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.11"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.13 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.12"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.9 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.13"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.18 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.14"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.18 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.15"/>
+                        <link ana="ud-syn:advmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.18 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.16"/>
+                        <link ana="ud-syn:expl_pv" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.18 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.17"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.5 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.18"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.21 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.19"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.21 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.20"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.18 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.21"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.23 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.22"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.21 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.23"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.23 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.24"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.23 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.25"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.27 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.26"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.23 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.27"/>
+                        <link ana="ud-syn:appos" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.21 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.28"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.28 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.29"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.28 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.30"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.28 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.31"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.3.3.2 #ParlaMint-ES_2018-07-25-CD180725.u1.3.3.32"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4">
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1">
+                     <w lemma="en" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.1">En</w>
+                     <w lemma="este" msd="UPosTag=DET|Gender=Fem|Number=Sing|PronType=Dem" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.2">esta</w>
+                     <w lemma="votación" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.3">votación</w>
+                     <w lemma="él" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.4">se</w>
+                     <w lemma="haber" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.5">han</w>
+                     <w lemma="emitir" msd="UPosTag=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.6">emitido</w>
+                     <w lemma="cinco" msd="UPosTag=NUM|NumType=Card|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.7">cinco</w>
+                     <w lemma="voto" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.8">votos</w>
+                     <w join="right" lemma="telemático" msd="UPosTag=ADJ|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.9">telemáticos</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Colo" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.10">:</pc>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.11">de</w>
+                     <name type="PER">
+                        <w lemma="doña" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.12">doña</w>
+                        <w lemma="María" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.13">María</w>
+                        <w lemma="Auxiliadora" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.14">Auxiliadora</w>
+                        <w lemma="Honorato" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.15">Honorato</w>
+                        <w join="right" lemma="Chulián" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.16">Chulián</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.17">,</pc>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.18">de</w>
+                     <name type="PER">
+                        <w lemma="doña" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.19">doña</w>
+                        <w lemma="María" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.20">María</w>
+                        <w lemma="Isabel" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.21">Isabel</w>
+                        <w lemma="Salud" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.22">Salud</w>
+                        <w join="right" lemma="Areste" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.23">Areste</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.24">,</pc>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.25">de</w>
+                     <name type="PER">
+                        <w lemma="doña" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.26">doña</w>
+                        <w lemma="Irene" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.27">Irene</w>
+                        <w lemma="María" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.28">María</w>
+                        <w lemma="Montero" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.29">Montero</w>
+                        <w join="right" lemma="Gil" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.30">Gil</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.31">,</pc>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.32">de</w>
+                     <name type="PER">
+                        <w lemma="don" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.33">don</w>
+                        <w lemma="Pablo" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.34">Pablo</w>
+                        <w lemma="Manuel" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.35">Manuel</w>
+                        <w lemma="Iglesias" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.36">Iglesias</w>
+                        <w lemma="Turrión" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.37">Turrión</w>
+                     </name>
+                     <w lemma="y" msd="UPosTag=CCONJ" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.38">y</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.39">de</w>
+                     <name type="PER">
+                        <w lemma="don" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.40">don</w>
+                        <w lemma="Juan" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.41">Juan</w>
+                        <w lemma="Pedro" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.42">Pedro</w>
+                        <w lemma="Yllanes" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.43">Yllanes</w>
+                        <w join="right" lemma="Suárez" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.44">Suárez</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.45">,</pc>
+                     <w lemma="que" msd="UPosTag=PRON|PronType=Int,Rel" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.46">que</w>
+                     <w lemma="proceder" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.47">procedo</w>
+                     <w lemma="a" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.48">a</w>
+                     <w lemma="introducir" msd="UPosTag=VERB|VerbForm=Inf" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.49">introducir</w>
+                     <w lemma="en" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.50">en</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.51">la</w>
+                     <w join="right" lemma="urna" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.52">urna</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.1.53">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.3 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.1"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.3 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.2"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.6 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.3"/>
+                        <link ana="ud-syn:expl_pass" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.6 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.4"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.6 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.5"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.6"/>
+                        <link ana="ud-syn:nummod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.8 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.7"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.6 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.8"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.8 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.9"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.12 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.10"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.12 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.11"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.8 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.12"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.12 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.13"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.13 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.14"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.12 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.15"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.13 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.16"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.19 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.17"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.19 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.18"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.12 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.19"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.19 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.20"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.19 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.21"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.19 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.22"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.19 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.23"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.26 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.24"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.26 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.25"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.12 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.26"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.26 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.27"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.27 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.28"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.27 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.29"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.27 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.30"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.33 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.31"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.33 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.32"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.12 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.33"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.33 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.34"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.34 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.35"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.34 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.36"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.34 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.37"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.40 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.38"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.40 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.39"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.12 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.40"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.40 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.41"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.41 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.42"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.41 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.43"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.41 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.44"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.47 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.45"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.47 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.46"/>
+                        <link ana="ud-syn:acl" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.40 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.47"/>
+                        <link ana="ud-syn:mark" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.49 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.48"/>
+                        <link ana="ud-syn:xcomp" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.47 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.49"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.52 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.50"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.52 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.51"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.47 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.52"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.1.6 #ParlaMint-ES_2018-07-25-CD180725.u1.4.1.53"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.2">
+                     <w lemma="rugar" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.2.1">Ruego</w>
+                     <w lemma="que" msd="UPosTag=SCONJ" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.2.2">que</w>
+                     <w lemma="cerrar" msd="UPosTag=VERB|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.2.3">cierren</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Plur|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.2.4">las</w>
+                     <w join="right" lemma="puerta" msd="UPosTag=NOUN|Gender=Fem|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.2.5">puertas</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.4.2.6">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.2 #ParlaMint-ES_2018-07-25-CD180725.u1.4.2.1"/>
+                        <link ana="ud-syn:mark" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.2.3 #ParlaMint-ES_2018-07-25-CD180725.u1.4.2.2"/>
+                        <link ana="ud-syn:ccomp" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.2.1 #ParlaMint-ES_2018-07-25-CD180725.u1.4.2.3"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.2.5 #ParlaMint-ES_2018-07-25-CD180725.u1.4.2.4"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.2.3 #ParlaMint-ES_2018-07-25-CD180725.u1.4.2.5"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.4.2.1 #ParlaMint-ES_2018-07-25-CD180725.u1.4.2.6"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.5">
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.5.1">
+                     <w lemma="rugar" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.5.1.1">Ruego</w>
+                     <w lemma="al" msd="UPosTag=ADP|AdpType=Preppron" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.5.1.2">al</w>
+                     <w lemma="señor" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.5.1.3">señor</w>
+                     <w lemma="secretario" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.5.1.4">secretario</w>
+                     <w lemma="que" msd="UPosTag=PRON|PronType=Int,Rel" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.5.1.5">que</w>
+                     <w join="right" lemma="proceder" msd="UPosTag=VERB|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.5.1.6">proceda</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.5.1.7">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u1.5.1 #ParlaMint-ES_2018-07-25-CD180725.u1.5.1.1"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.5.1.3 #ParlaMint-ES_2018-07-25-CD180725.u1.5.1.2"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.5.1.1 #ParlaMint-ES_2018-07-25-CD180725.u1.5.1.3"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.5.1.3 #ParlaMint-ES_2018-07-25-CD180725.u1.5.1.4"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.5.1.6 #ParlaMint-ES_2018-07-25-CD180725.u1.5.1.5"/>
+                        <link ana="ud-syn:acl" target="#ParlaMint-ES_2018-07-25-CD180725.u1.5.1.4 #ParlaMint-ES_2018-07-25-CD180725.u1.5.1.6"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.5.1.1 #ParlaMint-ES_2018-07-25-CD180725.u1.5.1.7"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6">
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1">
+                     <w lemma="por" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.1">Por</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.2">los</w>
+                     <w lemma="señor" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.3">señores</w>
+                     <w lemma="secretario" msd="UPosTag=ADJ|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.4">secretarios</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.5">de</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.6">la</w>
+                     <name type="ORG">
+                        <w lemma="Mesa" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.7">Mesa</w>
+                     </name>
+                     <w lemma="él" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.8">se</w>
+                     <w lemma="proceder" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.9">procede</w>
+                     <w lemma="al" msd="UPosTag=ADP|AdpType=Preppron" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.10">al</w>
+                     <w lemma="llamamiento" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.11">llamamiento</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.12">de</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Plur|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.13">las</w>
+                     <w lemma="señora" msd="UPosTag=NOUN|Gender=Fem|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.14">señoras</w>
+                     <w lemma="y" msd="UPosTag=CCONJ" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.15">y</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.16">los</w>
+                     <w lemma="señor" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.17">señores</w>
+                     <w join="right" lemma="diputado" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.18">diputados</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.19">,</pc>
+                     <w lemma="quien" msd="UPosTag=PRON|Number=Plur|PronType=Int,Rel" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.20">quienes</w>
+                     <w lemma="ir" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.21">van</w>
+                     <w lemma="depositar" msd="UPosTag=VERB|VerbForm=Ger" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.22">depositando</w>
+                     <w lemma="su" msd="UPosTag=DET|Number=Sing|Person=3|Poss=Yes|PronType=Prs" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.23">su</w>
+                     <w lemma="papeleta" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.24">papeleta</w>
+                     <w lemma="en" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.25">en</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.26">la</w>
+                     <w join="right" lemma="urna" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.27">urna</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.6.1.28">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.3 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.1"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.3 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.2"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.9 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.3"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.3 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.4"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.7 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.5"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.7 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.6"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.3 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.7"/>
+                        <link ana="ud-syn:expl_impers" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.9 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.8"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.9"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.11 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.10"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.9 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.11"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.14 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.12"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.14 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.13"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.11 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.14"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.18 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.15"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.18 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.16"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.18 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.17"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.14 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.18"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.22 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.19"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.22 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.20"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.22 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.21"/>
+                        <link ana="ud-syn:acl" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.18 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.22"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.24 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.23"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.22 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.24"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.27 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.25"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.27 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.26"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.22 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.27"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.6.1.9 #ParlaMint-ES_2018-07-25-CD180725.u1.6.1.28"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.7">
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.7.1">
+                     <w lemma="terminar" msd="UPosTag=VERB|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.7.1.1">Terminada</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.7.1.2">la</w>
+                     <w join="right" lemma="votación" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.7.1.3">votación</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.7.1.4">,</pc>
+                     <w lemma="él" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.7.1.5">se</w>
+                     <w lemma="iniciar" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.7.1.6">inicia</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.7.1.7">el</w>
+                     <w join="right" lemma="escrutinio" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.7.1.8">escrutinio</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.7.1.9">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:advcl" target="#ParlaMint-ES_2018-07-25-CD180725.u1.7.1.6 #ParlaMint-ES_2018-07-25-CD180725.u1.7.1.1"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.7.1.3 #ParlaMint-ES_2018-07-25-CD180725.u1.7.1.2"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.7.1.1 #ParlaMint-ES_2018-07-25-CD180725.u1.7.1.3"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.7.1.1 #ParlaMint-ES_2018-07-25-CD180725.u1.7.1.4"/>
+                        <link ana="ud-syn:expl_pass" target="#ParlaMint-ES_2018-07-25-CD180725.u1.7.1.6 #ParlaMint-ES_2018-07-25-CD180725.u1.7.1.5"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u1.7.1 #ParlaMint-ES_2018-07-25-CD180725.u1.7.1.6"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.7.1.8 #ParlaMint-ES_2018-07-25-CD180725.u1.7.1.7"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.7.1.6 #ParlaMint-ES_2018-07-25-CD180725.u1.7.1.8"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.7.1.6 #ParlaMint-ES_2018-07-25-CD180725.u1.7.1.9"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.8">
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.8.1">
+                     <w lemma="terminar" msd="UPosTag=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.8.1.1">Terminado</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.8.1.2">el</w>
+                     <w join="right" lemma="escrutinio" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.8.1.3">escrutinio</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.8.1.4">,</pc>
+                     <w lemma="decir" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u1.8.1.5">dijo</w>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:ccomp" target="#ParlaMint-ES_2018-07-25-CD180725.u1.8.1.5 #ParlaMint-ES_2018-07-25-CD180725.u1.8.1.1"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u1.8.1.3 #ParlaMint-ES_2018-07-25-CD180725.u1.8.1.2"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-ES_2018-07-25-CD180725.u1.8.1.1 #ParlaMint-ES_2018-07-25-CD180725.u1.8.1.3"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u1.8.1.1 #ParlaMint-ES_2018-07-25-CD180725.u1.8.1.4"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u1.8.1 #ParlaMint-ES_2018-07-25-CD180725.u1.8.1.5"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u ana="#chair" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2">
+               <seg xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1">
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1">
+                     <w join="right" lemma="señoría" msd="UPosTag=NOUN|Gender=Fem|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.1">Señorías</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.2">,</pc>
+                     <w lemma="finalizar" msd="UPosTag=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.3">finalizado</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.4">el</w>
+                     <w join="right" lemma="escrutinio" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.5">escrutinio</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.6">,</pc>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.7">el</w>
+                     <w lemma="resultado" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.8">resultado</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.9">de</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.10">la</w>
+                     <w lemma="votación" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.11">votación</w>
+                     <w lemma="haber" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.12">ha</w>
+                     <w lemma="ser" msd="UPosTag=AUX|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.13">sido</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.14">el</w>
+                     <w join="right" lemma="siguiente" msd="UPosTag=ADJ|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.15">siguiente</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Colo" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.16">:</pc>
+                     <w lemma="voto" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.17">votos</w>
+                     <w join="right" lemma="emitido" msd="UPosTag=ADJ|Gender=Masc|Number=Plur|VerbForm=Part" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.18">emitidos</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.19">,</pc>
+                     <w join="right" lemma="324" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.20">324</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Semi" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.21">;</pc>
+                     <w lemma="voto" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.22">votos</w>
+                     <w lemma="a" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.23">a</w>
+                     <w lemma="favor" msd="UPosTag=NOUN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.24">favor</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.25">de</w>
+                     <name type="PER">
+                        <w lemma="doña" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.26">doña</w>
+                        <w lemma="Ione" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.27">Ione</w>
+                        <w lemma="Belarra" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.28">Belarra</w>
+                        <w join="right" lemma="Urteaga" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.29">Urteaga</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.30">,</pc>
+                     <w join="right" lemma="309" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.31">309</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Semi" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.32">;</pc>
+                     <w lemma="voto" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.33">votos</w>
+                     <w lemma="en" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.34">en</w>
+                     <w join="right" lemma="blanco" msd="UPosTag=NOUN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.35">blanco</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.36">,</pc>
+                     <w join="right" lemma="3" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.37">3</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Semi" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.38">;</pc>
+                     <w lemma="voto" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.39">votos</w>
+                     <w join="right" lemma="nulo" msd="UPosTag=ADJ|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.40">nulos</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.41">,</pc>
+                     <w join="right" lemma="12" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.42">12</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.1.43">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.15 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.1"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.3 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.2"/>
+                        <link ana="ud-syn:acl" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.1 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.3"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.5 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.4"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.3 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.5"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.3 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.6"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.8 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.7"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.15 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.8"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.11 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.9"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.11 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.10"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.8 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.11"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.15 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.12"/>
+                        <link ana="ud-syn:cop" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.15 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.13"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.15 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.14"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.15"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.17 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.16"/>
+                        <link ana="ud-syn:appos" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.15 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.17"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.17 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.18"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.20 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.19"/>
+                        <link ana="ud-syn:appos" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.17 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.20"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.22 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.21"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.17 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.22"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.26 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.23"/>
+                        <link ana="ud-syn:fixed" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.23 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.24"/>
+                        <link ana="ud-syn:fixed" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.23 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.25"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.22 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.26"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.26 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.27"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.27 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.28"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.27 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.29"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.31 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.30"/>
+                        <link ana="ud-syn:appos" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.17 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.31"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.33 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.32"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.17 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.33"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.35 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.34"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.33 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.35"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.37 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.36"/>
+                        <link ana="ud-syn:appos" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.17 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.37"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.39 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.38"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.17 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.39"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.39 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.40"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.42 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.41"/>
+                        <link ana="ud-syn:appos" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.17 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.42"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.1.15 #ParlaMint-ES_2018-07-25-CD180725.u2.1.1.43"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2">
+                     <w lemma="al" msd="UPosTag=ADP|AdpType=Preppron" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.1">Al</w>
+                     <w lemma="haber" msd="UPosTag=AUX|VerbForm=Inf" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.2">haber</w>
+                     <w lemma="obtener" msd="UPosTag=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.3">obtenido</w>
+                     <w lemma="más" msd="UPosTag=ADV|Degree=Cmp" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.4">más</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.5">de</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.6">los</w>
+                     <w lemma="tres" msd="UPosTag=NUM|NumType=Card|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.7">tres</w>
+                     <w lemma="quinto" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.8">quintos</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.9">de</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.10">los</w>
+                     <w lemma="voto" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.11">votos</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.12">de</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.13">los</w>
+                     <w lemma="miembro" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.14">miembros</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.15">de</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.16">la</w>
+                     <name type="ORG">
+                        <w join="right" lemma="Cámara" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.17">Cámara</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.18">,</pc>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.19">la</w>
+                     <w lemma="señora" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.20">señora</w>
+                     <name type="PER">
+                        <w lemma="Ione" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.21">Ione</w>
+                        <w lemma="Belarra" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.22">Belarra</w>
+                        <w lemma="Urteaga" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.23">Urteaga</w>
+                     </name>
+                     <w lemma="haber" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.24">ha</w>
+                     <w lemma="resultar" msd="UPosTag=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.25">resultado</w>
+                     <w lemma="elegido" msd="UPosTag=ADJ|Gender=Fem|Number=Sing|VerbForm=Part" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.26">elegida</w>
+                     <w lemma="a" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.27">a</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.28">los</w>
+                     <w lemma="efecto" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.29">efectos</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.30">de</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.31">la</w>
+                     <name type="MISC">
+                        <w lemma="Resolución" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.32">Resolución</w>
+                        <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.33">de</w>
+                        <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.34">la</w>
+                        <w lemma="Presidencia" msd="UPosTag=PROPN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.35">Presidencia</w>
+                     </name>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.36">de</w>
+                     <w lemma="11" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.37">11</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.38">de</w>
+                     <w lemma="mayo" msd="UPosTag=NOUN" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.39">mayo</w>
+                     <w lemma="de" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.40">de</w>
+                     <w join="right" lemma="2004" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.41">2004</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.2.42">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:mark" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.3 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.1"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.3 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.2"/>
+                        <link ana="ud-syn:advcl" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.25 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.3"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.3 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.4"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.8 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.5"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.8 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.6"/>
+                        <link ana="ud-syn:nummod" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.6 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.7"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.3 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.8"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.11 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.9"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.11 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.10"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.8 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.11"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.14 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.12"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.14 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.13"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.11 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.14"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.17 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.15"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.17 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.16"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.14 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.17"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.3 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.18"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.20 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.19"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.25 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.20"/>
+                        <link ana="ud-syn:appos" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.20 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.21"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.21 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.22"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.21 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.23"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.25 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.24"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.25"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.25 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.26"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.29 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.27"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.29 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.28"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.26 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.29"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.32 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.30"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.32 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.31"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.29 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.32"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.35 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.33"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.35 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.34"/>
+                        <link ana="ud-syn:flat" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.32 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.35"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.37 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.36"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.32 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.37"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.39 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.38"/>
+                        <link ana="ud-syn:compound" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.37 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.39"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.41 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.40"/>
+                        <link ana="ud-syn:compound" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.37 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.41"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.2.25 #ParlaMint-ES_2018-07-25-CD180725.u2.1.2.42"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.3">
+                     <w join="right" lemma="enhorabuena" msd="UPosTag=INTJ" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.3.1">Enhorabuena</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.3.2">,</pc>
+                     <w join="right" lemma="señoría" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.3.3">señoría</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.1.3.4">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:dep" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.3.3 #ParlaMint-ES_2018-07-25-CD180725.u2.1.3.1"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.3.1 #ParlaMint-ES_2018-07-25-CD180725.u2.1.3.2"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.3 #ParlaMint-ES_2018-07-25-CD180725.u2.1.3.3"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.1.3.1 #ParlaMint-ES_2018-07-25-CD180725.u2.1.3.4"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.2">
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.2.1">
+                     <w lemma="él" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.2.1.1">Se</w>
+                     <w lemma="levantar" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.2.1.2">levanta</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.2.1.3">la</w>
+                     <w join="right" lemma="sesión" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.2.1.4">sesión</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.2.1.5">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:expl_pass" target="#ParlaMint-ES_2018-07-25-CD180725.u2.2.1.2 #ParlaMint-ES_2018-07-25-CD180725.u2.2.1.1"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u2.2.1 #ParlaMint-ES_2018-07-25-CD180725.u2.2.1.2"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u2.2.1.4 #ParlaMint-ES_2018-07-25-CD180725.u2.2.1.3"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-ES_2018-07-25-CD180725.u2.2.1.2 #ParlaMint-ES_2018-07-25-CD180725.u2.2.1.4"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.2.1.2 #ParlaMint-ES_2018-07-25-CD180725.u2.2.1.5"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.2.2">
+                     <w lemma="muchísimo" msd="UPosTag=DET|Gender=Fem|NumType=Card|Number=Plur|PronType=Ind" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.2.2.1">Muchísimas</w>
+                     <w join="right" lemma="gracias" msd="UPosTag=NOUN|Gender=Fem|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.2.2.2">gracias</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.2.2.3">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u2.2.2.2 #ParlaMint-ES_2018-07-25-CD180725.u2.2.2.1"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u2.2.2 #ParlaMint-ES_2018-07-25-CD180725.u2.2.2.2"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.2.2.1 #ParlaMint-ES_2018-07-25-CD180725.u2.2.2.3"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.3">
+                  <s xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.3.1">
+                     <w lemma="ser" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.3.1.1">Eran</w>
+                     <w lemma="el" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Plur|PronType=Art" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.3.1.2">las</w>
+                     <w lemma="doce" msd="UPosTag=NUM|NumType=Card|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.3.1.3">doce</w>
+                     <w lemma="y" msd="UPosTag=CCONJ" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.3.1.4">y</w>
+                     <w lemma="treinta" msd="UPosTag=NUM|NumType=Card|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.3.1.5">treinta</w>
+                     <w lemma="y" msd="UPosTag=CCONJ" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.3.1.6">y</w>
+                     <w lemma="cinco" msd="UPosTag=NUM|NumType=Card|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.3.1.7">cinco</w>
+                     <w lemma="minuto" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.3.1.8">minutos</w>
+                     <w lemma="del" msd="UPosTag=ADP|AdpType=Preppron" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.3.1.9">del</w>
+                     <w join="right" lemma="mediodía" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.3.1.10">mediodía</w>
+                     <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="ParlaMint-ES_2018-07-25-CD180725.u2.3.1.11">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:cop" target="#ParlaMint-ES_2018-07-25-CD180725.u2.3.1.3 #ParlaMint-ES_2018-07-25-CD180725.u2.3.1.1"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-ES_2018-07-25-CD180725.u2.3.1.8 #ParlaMint-ES_2018-07-25-CD180725.u2.3.1.2"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-ES_2018-07-25-CD180725.u2.3.1 #ParlaMint-ES_2018-07-25-CD180725.u2.3.1.3"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-ES_2018-07-25-CD180725.u2.3.1.7 #ParlaMint-ES_2018-07-25-CD180725.u2.3.1.4"/>
+                        <link ana="ud-syn:nummod" target="#ParlaMint-ES_2018-07-25-CD180725.u2.3.1.8 #ParlaMint-ES_2018-07-25-CD180725.u2.3.1.5"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-ES_2018-07-25-CD180725.u2.3.1.7 #ParlaMint-ES_2018-07-25-CD180725.u2.3.1.6"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-ES_2018-07-25-CD180725.u2.3.1.5 #ParlaMint-ES_2018-07-25-CD180725.u2.3.1.7"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-ES_2018-07-25-CD180725.u2.3.1.3 #ParlaMint-ES_2018-07-25-CD180725.u2.3.1.8"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-ES_2018-07-25-CD180725.u2.3.1.10 #ParlaMint-ES_2018-07-25-CD180725.u2.3.1.9"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-ES_2018-07-25-CD180725.u2.3.1.8 #ParlaMint-ES_2018-07-25-CD180725.u2.3.1.10"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-ES_2018-07-25-CD180725.u2.3.1.3 #ParlaMint-ES_2018-07-25-CD180725.u2.3.1.11"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+
