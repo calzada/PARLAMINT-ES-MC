@@ -240,6 +240,13 @@
               <xsl:copy-of select="."/>
             </xsl:for-each>
           </xsl:variable>
+          <xsl:variable name="ignored" select="tei:person/tei:affiliation[
+                                                @role='member'
+                                                and not($orgs//tei:org[@role='parliamentaryGroup']/@xml:id/concat('#',.) = @ref)
+                                                and starts-with(@ref,'#party.')]"/>
+          <xsl:if test="$ignored">
+            <xsl:message>ERROR: ignoring parties (person=<xsl:value-of select="tei:person/@xml:id"/>)</xsl:message>
+          </xsl:if>
           <xsl:for-each select="$list-groups/tei:affiliation">
             <xsl:variable name="group" select="@ref"/>
             <xsl:if test="not(preceding-sibling::tei:affiliation[@ref = $group])">
