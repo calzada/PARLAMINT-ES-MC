@@ -654,9 +654,8 @@
   <xsl:function name="et:name2id">
     <xsl:param name="name"/>
     <xsl:variable name="persName" select="et:speaker2name($name)"/>
-    <xsl:value-of select="et:str2id(concat(
-                          $persName/tei:surname[1],
-                          $persName/tei:forename[1]))"/>
+    <xsl:value-of select="et:str2id(string-join(
+                          $persName/*,''))"/>
   </xsl:function>
   
   <!-- IDREF for subcorpus -->
