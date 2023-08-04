@@ -16,7 +16,7 @@ echo "Words stuck together"
 
 perl -pi -e 's/delhemiciclo/del hemiciclo/gi' *.xml
 
-perl -pi -e 's/MartínezOblanca/Martínez Oblanca/gi' *.xml
+perl -pi -e 's/MartínezOblanca/Martínez Oblanca/gi unless m/"[^ "]*MartínezOblanca[^ "]*"/' *.xml
 
 perl -pi -e 's/laPresidencia/la Presidencia/gi' *.xml
 
