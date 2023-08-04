@@ -645,7 +645,7 @@
       <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
     </respStmt>
     <respStmt>
-      <persName ref="">Maria del Mar Bonet Ramos</persName>
+      <persName>Maria del Mar Bonet Ramos</persName>
       <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
     </respStmt>
   </xsl:template>
