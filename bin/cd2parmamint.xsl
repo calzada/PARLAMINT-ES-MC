@@ -412,6 +412,7 @@
         <xsl:choose>
           <xsl:when test="matches(speaker/national_party, '^\s*NA\+?\s*$')">guest</xsl:when>
           <xsl:when test="matches(speaker/post, '^\s*(VICE)?PRESIDENT[AE]\s*$', 'i')">chair</xsl:when>
+          <xsl:when test="not(speaker/institution/ni[text()='CD'])">guest</xsl:when>
           <xsl:otherwise>regular</xsl:otherwise>
         </xsl:choose>
       </xsl:attribute>
