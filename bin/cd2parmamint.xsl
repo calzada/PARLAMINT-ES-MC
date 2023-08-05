@@ -9,7 +9,8 @@
                 xmlns:tei="http://www.tei-c.org/ns/1.0"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
                 xmlns:et="http://nl.ijs.si/et"
-                exclude-result-prefixes="xsl et tei">
+                xmlns:mk="http://ufal.mff.cuni.cz/matyas-kopp"
+                exclude-result-prefixes="xsl et mk tei">
   <xsl:output method="xml" version="1.0" encoding="utf-8" indent="yes" omit-xml-declaration="no"/>
   <xsl:strip-space elements="*"/>
   <xsl:preserve-space elements="speech"/>
@@ -187,7 +188,7 @@
             <!-- Collect all party affiliations -->
             <xsl:for-each select="/ecpc_CD/body//intervention/speaker/affiliation">
               <xsl:sort/>
-              <xsl:variable name="party_name" select="normalize-space(national_party)"/>
+              <xsl:variable name="party_name" select="mk:fix-party-name(national_party)"/>
               <xsl:if test="et:set($party_name)">
                 <org role="politicalParty" xml:id="party.{et:str2id($party_name)}">
                   <orgName full="init">
@@ -563,7 +564,7 @@
         <!-- Insert reference to party, parties are collected separately in the teiHeader -->
         <xsl:variable name="party" select="affiliation/national_party"/>
         <xsl:if test="et:set($party)">
-          <affiliation role="member" ref="#party.{et:str2id($party)}" when="{$session-date}"/>
+          <affiliation role="member" ref="#party.{et:str2id(mk:fix-party-name($party))}" when="{$session-date}"/>
         </xsl:if>
         <!--
         <xsl:if test="./post[starts-with(text(),'MINISTR')]">
@@ -793,6 +794,27 @@
       </xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="concat(upper-case($init), lower-case($tail))"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+
+  <xsl:function name="mk:fix-party-name">
+    <xsl:param name="party"/>
+    <xsl:choose>
+      <xsl:when test="$party = ' GP'">
+        <xsl:message>WARN: changing party name from ' GP' to 'PP'</xsl:message>
+        <xsl:text>PP</xsl:text>
+      </xsl:when>
+      <xsl:when test="normalize-space($party) = 'PSdeG-PSOE'">
+        <xsl:message>WARN: changing party name from 'PSdeG-PSOE' to 'PsdeG-PSOE'</xsl:message>
+        <xsl:text>PsdeG-PSOE</xsl:text>
+      </xsl:when>
+      <xsl:when test="matches($party,'^.+\(.*\)$')">
+        <xsl:message>WARN: changing party name from 'PSdeG-PSOE' to 'PsdeG-PSOE'</xsl:message>
+        <xsl:value-of select="normalize-space(replace($party,'\(.*\)',''))"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="normalize-space($party)"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
