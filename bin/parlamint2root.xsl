@@ -327,7 +327,7 @@
       <xsl:apply-templates mode="id-segs" select="@*"/>
       <xsl:attribute name="xml:id">
         <xsl:value-of select="parent::tei:u/@xml:id"/>
-        <xsl:text>.</xsl:text>
+        <xsl:text>.p</xsl:text>
         <xsl:number/>
       </xsl:attribute>
       <xsl:apply-templates mode="id-segs"/>
