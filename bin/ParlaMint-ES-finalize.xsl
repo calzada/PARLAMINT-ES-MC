@@ -18,6 +18,7 @@
   <xsl:param name="inTaxonomiesDir"/>
   <xsl:param name="outDir"/>
   <xsl:param name="anaDir"/>
+  <xsl:param name="dirify"/>
   <xsl:param name="type"/> <!-- TEI or TEI.ana-->
 
 
@@ -36,21 +37,11 @@
   <!--xsl:variable name="corpusDir" select="concat('ParlaMint-ES.',$type)"/-->
   <xsl:variable name="corpusDir" select="string('')"/>
 
-  <xsl:variable name="languages">
-    <item xml:lang="uk">
-      <language xml:lang="en">Ukrainian</language>
-      <language xml:lang="uk">Українська</language>
-    </item>
-    <item xml:lang="ru">
-      <language xml:lang="en">Russian</language>
-      <language xml:lang="uk">Російська</language>
-    </item>
-  </xsl:variable>
-
   <xsl:variable name="taxonomies">
     <item>ParlaMint-taxonomy-parla.legislature.xml</item>
     <item>ParlaMint-taxonomy-speaker_types.xml</item>
     <item>ParlaMint-taxonomy-subcorpus.xml</item>
+    <item>ParlaMint-taxonomy-politicalOrientation.xml</item>
     <xsl:if test="$type = 'TEI.ana'">
       <item>ParlaMint-taxonomy-UD-SYN.ana.xml</item>
       <item>ParlaMint-taxonomy-NER.ana.xml</item>
@@ -95,18 +86,21 @@
         </url-orig>
         <url-new>
           <xsl:value-of select="concat($outDir, '/', $corpusDir, '/')"/>
+          <xsl:if test="$dirify"><xsl:value-of select="replace(@href,'.*ES_(....)-.*','$1/')"/></xsl:if>
           <xsl:choose>
             <xsl:when test="$type = 'TEI.ana'"><xsl:value-of select="replace(@href,'\.xml$','.ana.xml')"/></xsl:when>
             <xsl:when test="$type = 'TEI'"><xsl:value-of select="@href"/></xsl:when>
           </xsl:choose>
         </url-new>
         <xi-new>
+          <xsl:if test="$dirify"><xsl:value-of select="replace(@href,'.*ES_(....)-.*','$1/')"/></xsl:if>
           <xsl:choose>
             <xsl:when test="$type = 'TEI.ana'"><xsl:value-of select="replace(@href,'\.xml$','.ana.xml')"/></xsl:when>
             <xsl:when test="$type = 'TEI'"><xsl:value-of select="@href"/></xsl:when>
           </xsl:choose>
         </xi-new>
         <url-ana>
+          <xsl:if test="$dirify"><xsl:value-of select="replace(@href,'.*ES_(....)-.*','$1/')"/></xsl:if>
           <xsl:value-of select="concat($anaDir, '/', replace(@href, '\.xml', '.ana.xml'))"/>
         </url-ana>
       </item>
@@ -135,43 +129,6 @@
           </xsl:otherwise>
         </xsl:choose>
       </item>
-    </xsl:for-each>
-  </xsl:variable>
-
-  <!-- Numbers of tokens in component .ana files -->
-  <xsl:variable name="tokens">
-    <xsl:for-each select="$docs/tei:item">
-      <xsl:variable name="doc-url" select="./tei:url-orig"/>
-      <item n="{tei:xi-orig}">
-        <xsl:for-each select="$languages/tei:item">
-          <xsl:variable name="lang" select="."/>
-          <lang n="{$lang/@xml:lang}">
-            <xsl:choose>
-              <!-- For .ana files, compute number of tokens -->
-              <xsl:when test="$type = 'TEI.ana'">
-                <xsl:value-of select="document($doc-url)/
-                                    count(
-                                           //tei:w[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang/@xml:lang][not(parent::tei:w)]
-                                           | //tei:pc[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang/@xml:lang]
-                                         )"/>
-              </xsl:when>
-            </xsl:choose>
-          </lang>
-        </xsl:for-each>
-      </item>
-    </xsl:for-each>
-  </xsl:variable>
-
-  <xsl:variable name="langUsage">
-    <xsl:for-each select="$languages/*/@xml:lang">
-      <xsl:variable name="lang" select="."/>
-      <lang n="{$lang}">
-        <xsl:choose>
-          <xsl:when test="$type = 'TEI.ana'">
-            <xsl:value-of select="round(100 * sum($tokens/tei:item/tei:lang[@n=$lang]) div sum($tokens/tei:item/*),0)"/> <!--  / sum($tokens/tei:item/*) -->
-          </xsl:when>
-        </xsl:choose>
-      </lang>
     </xsl:for-each>
   </xsl:variable>
 

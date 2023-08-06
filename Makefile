@@ -63,6 +63,7 @@ ana-finalize:
 	    inListOrg=../tmp.TEI$(DIRSUFFIX)/ParlaMint-ES-listOrg.xml \
 	    inTaxonomiesDir=../templates \
 	    type=TEI.ana \
+	    dirify=1 \
 	    tmp.NER$(DIRSUFFIX)/ParlaMint-ES.xml
 
 tei-finalize:
@@ -75,6 +76,7 @@ tei-finalize:
 	    inTaxonomiesDir=../templates \
 	    anaDir=../ParlaMint-ES$(DIRSUFFIX).TEI.ana/ \
 	    type=TEI \
+	    dirify=1 \
 	    tmp.TEI$(DIRSUFFIX)/ParlaMint-ES.xml
 
 # Process ParlaMint-ES corpus
