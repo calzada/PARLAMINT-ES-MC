@@ -439,7 +439,7 @@
       <xsl:variable name="t1">
         <xsl:choose>
           <xsl:when test="preceding-sibling::*[1]/self::omit">
-            <xsl:value-of select="replace(., '^\. ', '')"/>
+            <xsl:value-of select="replace(., '^\.', '')"/>
           </xsl:when>
           <xsl:otherwise>
             <xsl:value-of select="."/>
@@ -463,6 +463,9 @@
       </xsl:choose>
     </xsl:variable>
     <xsl:variable name="pass1">
+      <xsl:if test="preceding-sibling::*[1]/self::omit and matches($text,'^ *\n')">
+        <lb xmlns="http://www.tei-c.org/ns/1.0"/>
+      </xsl:if>
       <xsl:for-each select="tokenize($text, '\n')">
         <xsl:if test="normalize-space(.)">
           <lb xmlns="http://www.tei-c.org/ns/1.0"/>

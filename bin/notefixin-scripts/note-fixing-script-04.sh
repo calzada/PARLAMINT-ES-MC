@@ -217,8 +217,8 @@ perl -pi -e 's/<note>(.*?)<\/note>/<note type="comment">$1<\/note>/gi' *.xml
 
 #RESTORING XXYY
 
-echo "restoring XXYY\n to just a space"
-perl -pi -e 's/XXYY\n/ /g' *.xml
+echo "restoring XXYY\n (NOT ADDING a space)"
+perl -pi -e 's/XXYY\n//g' *.xml
 
 echo "fixing where we've put two spaces"
 perl -pi -e 's/\s\s/ /g' *.xml

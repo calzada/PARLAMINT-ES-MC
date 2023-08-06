@@ -399,11 +399,14 @@
         <xsl:apply-templates select="@*"/>
         <xsl:apply-templates mode="copy" select="*|text()"/>
       </xsl:copy>
-      <xsl:text>&#32;</xsl:text>
+      <xsl:if test="local-name() = 'pb'">
+        <xsl:text>&#32;</xsl:text>
+      </xsl:if>
     </xsl:if>
   </xsl:template>
   <xsl:template mode="edge-out" match="text()">
-    <xsl:value-of select="normalize-space(.)"/>
+    <!--xsl:value-of select="normalize-space(.)"/-->
+    <xsl:apply-templates mode="comp" select="."/>
   </xsl:template>
   <xsl:template mode="edge-in" match="tei:lb"/>
   <xsl:template mode="edge-in" match="tei:*">
