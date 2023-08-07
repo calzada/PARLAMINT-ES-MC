@@ -446,19 +446,20 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:variable>
+      <xsl:variable name="t2" select="replace($t1,'&#x85;','…')"/>
       <xsl:choose>
         <xsl:when test="preceding-sibling::*[1]/self::page_number and
                         following::*[1]/self::page_number">
-          <xsl:value-of select="replace($t1, '^ *\n(.+?) *\n$', '$1', 's')"/>
+          <xsl:value-of select="replace($t2, '^ *\n(.+?) *\n$', '$1', 's')"/>
         </xsl:when>
         <xsl:when test="preceding-sibling::*[1]/self::page_number">
-          <xsl:value-of select="replace($t1, '^ *\n', '')"/>
+          <xsl:value-of select="replace($t2, '^ *\n', '')"/>
         </xsl:when>
         <xsl:when test="following::*[1]/self::page_number">
-          <xsl:value-of select="replace($t1, ' *\n$', '')"/>
+          <xsl:value-of select="replace($t2, ' *\n$', '')"/>
         </xsl:when>
       <xsl:otherwise>
-        <xsl:value-of select="$t1"/>
+        <xsl:value-of select="$t2"/>
       </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
@@ -491,10 +492,10 @@
   <xsl:template match="text()">
     <xsl:choose>
       <xsl:when test="preceding-sibling::*[1]/self::omit">
-        <xsl:value-of select="replace(., '^\. ', '')"/>
+        <xsl:value-of select="replace(replace(., '^\. ', ''),'&#x85;','…')"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:value-of select="."/>
+        <xsl:value-of select="replace(.,'&#x85;','…')"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
