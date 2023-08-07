@@ -124,6 +124,7 @@ tmp$(DIRSUFFIX):
 
 patch-cnv1-result:
 	cd tmp$(DIRSUFFIX)/; \
+	  ../bin/fix-problematic-files.sh ;\
 	  ../bin/notefixin-scripts/note-fixing-script-01.sh ;\
 	  ../bin/notefixin-scripts/note-fixing-script-02.sh ;\
 	  ../bin/notefixin-scripts/note-fixing-script-03.sh ;\
