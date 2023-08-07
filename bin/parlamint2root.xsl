@@ -406,8 +406,36 @@
   </xsl:template>
   <xsl:template mode="edge-out" match="text()">
     <!--xsl:value-of select="normalize-space(.)"/-->
-    <xsl:apply-templates mode="comp" select="."/>
+    <!--xsl:apply-templates mode="comp" select="."/-->
+    <xsl:variable name="str" select="replace(., '\s+', ' ')"/>
+    <xsl:choose>
+      <xsl:when test="(not(preceding-sibling::tei:*) and matches($str, '^ ')) and
+                      (not(following-sibling::tei:*) and matches($str, ' $'))">
+        <xsl:value-of select="replace($str, '^ (.+?) $', '$1')"/>
+      </xsl:when>
+      <xsl:when test="not(preceding-sibling::tei:*) and matches($str, '^ ')">
+        <xsl:value-of select="replace($str, '^ ', '')"/>
+      </xsl:when>
+      <xsl:when test="not(following-sibling::tei:*) and matches($str, ' $')">
+        <xsl:value-of select="replace($str, ' $', '')"/>
+      </xsl:when>
+      <xsl:when test="(not(preceding-sibling::text()[normalize-space(.)]) and matches($str, '^ ')) and
+                      (not(following-sibling::text()[normalize-space(.)]) and matches($str, ' $'))">
+        <xsl:value-of select="replace($str, '^ (.+?) $', '$1')"/>
+      </xsl:when>
+      <xsl:when test="not(preceding-sibling::text()[normalize-space(.)]) and matches($str, '^ ')">
+        <xsl:value-of select="replace($str, '^ ', '')"/>
+      </xsl:when>
+      <xsl:when test="not(following-sibling::text()[normalize-space(.)]) and matches($str, ' $')">
+        <xsl:value-of select="replace($str, ' $', '')"/>
+      </xsl:when>
+
+      <xsl:otherwise>
+        <xsl:value-of select="$str"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
+
   <xsl:template mode="edge-in" match="tei:lb"/>
   <xsl:template mode="edge-in" match="tei:*">
     <xsl:if test="not(following-sibling::text()[normalize-space(.)])">
@@ -449,7 +477,7 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-  
+
   <!-- Remove now useless orgs and persons -->
   <xsl:template mode="comp" match="tei:particDesc"/>
 
