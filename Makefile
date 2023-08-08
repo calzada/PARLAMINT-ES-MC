@@ -58,6 +58,7 @@ ana2: bin/ParCzech/nametag2
 ana-finalize:
 	echo "TODO $@"
 	mkdir ParlaMint-ES$(DIRSUFFIX).TEI.ana || :
+	rm -r ParlaMint-ES$(DIRSUFFIX).TEI.ana/*
 	cp tmp.TEI$(DIRSUFFIX)/ParlaMint-ES.xml tmp.NER$(DIRSUFFIX)/ParlaMint-ES.xml
 	$s -xsl:bin/ParlaMint-ES-finalize.xsl \
 	    outDir=ParlaMint-ES$(DIRSUFFIX).TEI.ana \
@@ -71,6 +72,7 @@ ana-finalize:
 tei-finalize:
 	echo "TODO $@"
 	mkdir ParlaMint-ES$(DIRSUFFIX).TEI || :
+	rm -r ParlaMint-ES$(DIRSUFFIX).TEI/*
 	$s -xsl:bin/ParlaMint-ES-finalize.xsl \
 	    outDir=ParlaMint-ES$(DIRSUFFIX).TEI \
 	    inListPerson=../tmp.TEI$(DIRSUFFIX)/ParlaMint-ES-listPerson.xml  \
