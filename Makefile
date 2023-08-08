@@ -1,4 +1,6 @@
 DIRSUFFIX =
+JAVA-MEMORY =
+JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
 
 #Fixing the .tei files
 #Insert word extent for ana, remove empty segs, redo tagUsage
@@ -184,7 +186,7 @@ bin/ParlaMint-UA-lib.xsl:
 
 
 
-s = java -jar /usr/share/java/saxon.jar
+s = java $(JM) -jar /usr/share/java/saxon.jar
 j = java -jar /usr/share/java/jing.jar
 P = parallel --gnu --halt 2
 pc = -I % $s -xi -xsl:bin/copy.xsl % | $j schemas/parla-clarin.rng
