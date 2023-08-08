@@ -187,8 +187,8 @@ bin/ParlaMint-UA-lib.xsl:
 
 
 
-
-s = java $(JM) -jar /usr/share/java/saxon.jar
+saxon = /usr/share/java/saxon.jar
+s = java $(JM) -jar $(saxon)
 j = java -jar /usr/share/java/jing.jar
 P = parallel --gnu --halt 2
 pc = -I % $s -xi -xsl:bin/copy.xsl % | $j schemas/parla-clarin.rng
