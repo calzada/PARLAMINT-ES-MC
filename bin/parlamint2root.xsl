@@ -186,10 +186,52 @@
           </xsl:for-each>
         </xsl:for-each>
       </xsl:variable>
-      <xsl:for-each-group select="$pass1/tei:person | $govPersons//tei:person" group-by="@xml:id">
+      <xsl:variable name="govPersons1">
+        <xsl:for-each select="$govPersons//tei:person">
+          <xsl:variable name="govName" select="./tei:persName"/>
+          <xsl:copy>
+            <xsl:variable name="matchingSpeaker" select="$pass1/tei:person[
+                                                                $govName/tei:forename[1] = tei:persName/tei:forename[1]
+                                                                and
+                                                                $govName/tei:surname[1] = tei:persName/tei:surname[1]
+                                                                and
+                                                                (
+                                                                  $govName/tei:forename[2] = tei:persName/tei:forename
+                                                                  or
+                                                                  not($govName/tei:forename[2])
+                                                                )
+                                                                and
+                                                                (
+                                                                  $govName/tei:surname[2] = tei:persName/tei:surname
+                                                                  or
+                                                                  not($govName/tei:surname[2])
+                                                                )
+                                                                ]"/>
+            <xsl:attribute name="xml:id">
+              <xsl:choose>
+                <xsl:when test="$matchingSpeaker[2] and count(distinct-values($matchingSpeaker/@xml:id))>1">
+                  <xsl:message>WARN: multiple matching person found for <xsl:value-of select="@xml:id"/> (<xsl:value-of select="string-join(distinct-values($matchingSpeaker/@xml:id),' ')"/>)</xsl:message>
+                  <xsl:value-of select="@xml:id"/>
+                </xsl:when>
+                <xsl:when test="$matchingSpeaker[1]">
+                  <xsl:message>WARN: changing government person id from '<xsl:value-of select="@xml:id"/>' to '<xsl:value-of select="$matchingSpeaker[1]/@xml:id"/>'</xsl:message>
+                  <xsl:value-of select="$matchingSpeaker[1]/@xml:id"/>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="@xml:id"/>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:attribute>
+            <xsl:apply-templates select="@role"/>
+            <xsl:apply-templates/>
+          </xsl:copy>
+        </xsl:for-each>
+      </xsl:variable>
+      <xsl:for-each-group select="$pass1/tei:person | $govPersons1/tei:person" group-by="@xml:id">
         <xsl:variable name="id" select="current-group()[1]/@xml:id"/>
         <listPerson xmlns="http://www.tei-c.org/ns/1.0" xml:id="{current-group()[1]/@xml:id}">
-          <xsl:copy-of select="current-group()"/>
+          <xsl:copy-of select="current-group()[not(@role)]"/>
+          <xsl:copy-of select="current-group()[@role]"/>
           <!-- <xsl:copy-of select="$govPersons//tei:person[@xml:id = $id]"/> -->
         </listPerson>
       </xsl:for-each-group>
