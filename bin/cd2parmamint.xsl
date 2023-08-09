@@ -447,19 +447,24 @@
         </xsl:choose>
       </xsl:variable>
       <xsl:variable name="t2" select="replace($t1,'&#x85;','…')"/>
+      <xsl:variable name="t3" select="replace($t2,'([^\d\p{L}])-(\p{L})','$1- $2')"/>
+      <xsl:variable name="t4" select="replace($t3,'^-(\p{L})','- $1')"/>
+      <xsl:variable name="t5" select="replace($t4,'(\p{L})-([^\d\p{L}])','$1 -$2')"/>
+      <xsl:variable name="t6" select="replace($t5,'(\p{L})-$','$1 -')"/>
+      <xsl:variable name="tfixed" select="$t6"/>
       <xsl:choose>
         <xsl:when test="preceding-sibling::*[1]/self::page_number and
                         following::*[1]/self::page_number">
-          <xsl:value-of select="replace($t2, '^ *\n(.+?) *\n$', '$1', 's')"/>
+          <xsl:value-of select="replace($tfixed, '^ *\n(.+?) *\n$', '$1', 's')"/>
         </xsl:when>
         <xsl:when test="preceding-sibling::*[1]/self::page_number">
-          <xsl:value-of select="replace($t2, '^ *\n', '')"/>
+          <xsl:value-of select="replace($tfixed, '^ *\n', '')"/>
         </xsl:when>
         <xsl:when test="following::*[1]/self::page_number">
-          <xsl:value-of select="replace($t2, ' *\n$', '')"/>
+          <xsl:value-of select="replace($tfixed, ' *\n$', '')"/>
         </xsl:when>
       <xsl:otherwise>
-        <xsl:value-of select="$t2"/>
+        <xsl:value-of select="$tfixed"/>
       </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
