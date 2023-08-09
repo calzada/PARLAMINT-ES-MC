@@ -353,6 +353,8 @@
     <xsl:copy/>
   </xsl:template>
 
+  <xsl:template mode="comp" match="tei:pb"/>
+
   <xsl:template mode="comp" match="tei:publicationStmt/tei:date">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -393,6 +395,7 @@
   </xsl:template>
   
   <xsl:template mode="edge-out" match="tei:lb"/>
+  <xsl:template mode="edge-out" match="tei:pb"/>
   <xsl:template mode="edge-out" match="tei:*">
     <xsl:if test="following-sibling::text()[normalize-space(.)]">
       <xsl:copy>
@@ -437,6 +440,7 @@
   </xsl:template>
 
   <xsl:template mode="edge-in" match="tei:lb"/>
+  <xsl:template mode="edge-in" match="tei:pb"/>
   <xsl:template mode="edge-in" match="tei:*">
     <xsl:if test="not(following-sibling::text()[normalize-space(.)])">
       <xsl:copy>
