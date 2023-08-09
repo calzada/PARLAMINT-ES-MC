@@ -329,24 +329,12 @@
   </xsl:template>
 
 
-  <!-- Take care of syntactic words -->
-  <xsl:template mode="comp" match="tei:w[tei:w]">
-    <xsl:choose>
-      <xsl:when test="tei:w[2]">
-        <xsl:copy>
-          <xsl:apply-templates mode="comp" select="@*"/>
-          <xsl:apply-templates mode="comp"/>
-        </xsl:copy>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
-                             ': removing useless syntactic word ', @xml:id)"/>
-        <xsl:copy>
-          <xsl:apply-templates mode="comp" select="tei:w/@*[name() != 'norm']"/>
-          <xsl:value-of select="normalize-space(.)"/>
-        </xsl:copy>
-      </xsl:otherwise>
-    </xsl:choose>
+  <!-- Take care of pc in as syntactic words (this shuldnt happen) -->
+  <xsl:template mode="comp" match="tei:w/tei:pc">
+    <w>
+      <xsl:apply-templates mode="comp" select="@*"/>
+      <xsl:apply-templates mode="comp"/>
+    </w>
   </xsl:template>
 
   <xsl:template mode="comp" match="tei:pc/@lemma"/><!-- remove lemma from punctation -->
