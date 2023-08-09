@@ -197,7 +197,7 @@ perl -pi -e 's/<note>(.+?desinfectar\p{Z}+?la\p{Z}+?tribuna.*?)<\/note>/<inciden
 echo "dirige sus palabras / dirigiéndose"  
 perl -pi -e 's/<note>(.*?)(dirige sus palabras|dirigiéndose|se dirige)(.*?)<\/note>/<vocal type="clarification">\n <desc>$1$2$3<\/desc>\n<\/vocal>/gi' *.xml
 
-perl -pi -e 's/<note>(.*?)(leen?|leyendo)(.*?)<\/note>/<vocal type="clarification">\n <desc>$1<\/desc>\n<\/vocal>/gi' *.xml
+perl -pi -e 's/<note>(.*?(leen?|leyendo).*?)<\/note>/<vocal type="clarification">\n <desc>$1<\/desc>\n<\/vocal>/gi' *.xml
 
 
 #FINAL INCIDENT TYPE ACTION
