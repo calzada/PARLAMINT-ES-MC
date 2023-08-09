@@ -100,8 +100,9 @@
           </xsl:choose>
         </xi-new>
         <url-ana>
+          <xsl:value-of select="concat($anaDir, '/')"/>
           <xsl:if test="$dirify"><xsl:value-of select="replace(@href,'.*ES_(....)-.*','$1/')"/></xsl:if>
-          <xsl:value-of select="concat($anaDir, '/', replace(@href, '\.xml', '.ana.xml'))"/>
+          <xsl:value-of select="replace(@href, '\.xml', '.ana.xml')"/>
         </url-ana>
       </item>
       </xsl:for-each>
