@@ -362,6 +362,16 @@
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template mode="comp" match="tei:div[not(./tei:u)]/@type">
+    <xsl:message>INFO: changing div type</xsl:message>
+    <xsl:attribute name="type">commentSection</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template mode="comp" match="tei:div[not(./tei:*[not(local-name()='head')])]/tei:head">
+    <xsl:message>INFO: changing only head in div to note</xsl:message>
+    <note><xsl:value-of select="."/></note>
+  </xsl:template>
+
   <!-- Finalizing ROOT -->
 
   <xsl:template match="*">
